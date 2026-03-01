@@ -51,6 +51,9 @@ with st.sidebar:
         "Ground truth text (optional)", type=["txt"], key="ocr_gt"
     )
     run_btn = st.button("Run OCR", type="primary")
+    if st.button("Clear engine cache", help="Force re-initialise the OCR engine"):
+        st.cache_resource.clear()
+        st.rerun()
 
 # ── Upload ────────────────────────────────────────────────────────────────────
 
