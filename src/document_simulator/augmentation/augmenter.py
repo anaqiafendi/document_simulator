@@ -28,45 +28,18 @@ class DocumentAugmenter:
         """Create Augraphy pipeline based on preset.
 
         Args:
-            preset: Pipeline preset name
+            preset: Pipeline preset name ('light', 'medium', 'heavy', 'default')
 
         Returns:
             Configured AugraphyPipeline
         """
-        # TODO: Implement different pipeline presets
-        # For now, return a basic pipeline
-        from augraphy.augmentations import (
-            Brightness,
-            ColorShift,
-            Dithering,
-            Gamma,
-            InkBleed,
-            Jpeg,
-            Markup,
-            NoiseTexturize,
-        )
+        from document_simulator.augmentation.presets import PresetFactory
 
-        ink_phase = [
-            InkBleed(p=0.5),
-            Markup(p=0.3),
-        ]
-
-        paper_phase = [
-            ColorShift(p=0.5),
-            NoiseTexturize(p=0.5),
-        ]
-
-        post_phase = [
-            Brightness(p=0.5),
-            Gamma(p=0.5),
-            Jpeg(p=0.5),
-            Dithering(p=0.3),
-        ]
-
+        config = PresetFactory.create(preset)
         return AugraphyPipeline(
-            ink_phase=ink_phase,
-            paper_phase=paper_phase,
-            post_phase=post_phase,
+            ink_phase=config.ink_phase,
+            paper_phase=config.paper_phase,
+            post_phase=config.post_phase,
         )
 
     def augment(

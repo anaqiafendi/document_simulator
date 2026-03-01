@@ -22,7 +22,7 @@ classifiers = [
 
 dependencies = [
     # Document Augmentation
-    "augraphy>=8.3.0",
+    "augraphy>=8.2.0",
 
     # OCR
     "paddleocr>=2.7.0",
