@@ -23,7 +23,6 @@ share/python-wheels/
 MANIFEST
 
 # Virtual Environments
-.env
 .venv
 env/
 venv/
@@ -38,7 +37,6 @@ venv.bak/
 *.swp
 *.swo
 *~
-.DS_Store
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -53,7 +51,7 @@ htmlcov/
 .nox/
 coverage.xml
 *.cover
-*.log
+tests/output/
 
 # Type checking
 .mypy_cache/
@@ -87,19 +85,21 @@ tensorboard_logs/
 # Weights & Biases
 wandb/
 
-# PaddleOCR specific
+# PaddleOCR
 inference/
 *.pdparams
 *.pdopt
 *.pdmodel
 
-# PyTorch specific
+# PyTorch / Stable-Baselines3
 *.pth
 *.pt
 *.ckpt
+*.zip
 
 # Augraphy cache
 .augraphy_cache/
+augraphy_cache/
 
 # Environment files
 .env
@@ -109,9 +109,6 @@ inference/
 # OS
 .DS_Store
 Thumbs.db
-
-# UV lock file (keep this tracked)
-# uv.lock
 
 # Temporary files
 *.tmp
