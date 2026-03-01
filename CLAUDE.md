@@ -30,9 +30,10 @@ This file provides guidance to Claude Code and AI assistants when working with t
   - `src/document_simulator/augmentation/` — Augraphy integration
   - `src/document_simulator/ocr/` — PaddleOCR engine
   - `src/document_simulator/rl/` — Stable-Baselines3 training
-  - `src/document_simulator/models/` — Model definitions
-  - `src/document_simulator/data/` — Dataset loaders
-  - `src/document_simulator/utils/` — Shared utilities
+  - `src/document_simulator/data/` — Dataset loaders and ground truth parsers
+  - `src/document_simulator/evaluation/` — Evaluator (CER/WER/confidence across datasets)
+  - `src/document_simulator/utils/` — Shared utilities (ImageHandler)
+  - `src/document_simulator/ui/` — Streamlit web UI (5 pages + components)
   - `src/document_simulator/cli.py` — CLI entry point
 
 ### Quick Setup
@@ -50,7 +51,8 @@ uv python pin 3.11                    # Pin Python version
 uv venv                               # Create virtual environment
 uv sync                               # Install core dependencies
 uv sync --extra dev                   # Add dev tools (pytest, black, ruff, mypy)
-uv sync --all-extras                  # Include notebooks, docs, testing
+uv sync --extra ui                    # Add Streamlit + Plotly for the web UI
+uv sync --all-extras                  # Install everything (dev + ui + notebook + docs)
 
 # Create necessary directories
 mkdir -p data models output logs cache checkpoints
@@ -60,6 +62,8 @@ cp .env.example .env
 # Edit .env with your settings (see docs/environment-setup.md)
 ```
 
+> **Network note**: If `uv sync` fails with TLS/SSL errors, append `--native-tls`.
+
 ---
 
 ## Key Commands
@@ -68,28 +72,37 @@ cp .env.example .env
 # Environment setup & management
 uv venv && uv sync                    # Create venv and install core deps
 uv sync --extra dev                   # Add dev tools (pytest, black, ruff, mypy)
+uv sync --extra ui                    # Add Streamlit + Plotly for the web UI
 uv sync --extra notebook              # Add Jupyter notebook support
 uv sync --all-extras                  # Install everything
 uv tree                               # View dependency tree
 
+# Run the Streamlit UI
+uv run streamlit run src/document_simulator/ui/app.py
+# or, after uv sync --extra ui, via the installed script:
+document-simulator-ui
+
 # Run the CLI
 uv run python -m document_simulator --help
-uv run python -m document_simulator augment --help
-uv run python -m document_simulator ocr --help
-uv run python -m document_simulator train --help
+uv run python -m document_simulator augment input.jpg output.jpg
+uv run python -m document_simulator augment input.jpg output.jpg --pipeline heavy
+uv run python -m document_simulator ocr document.jpg
+uv run python -m document_simulator train --data-dir ./data/train --num-steps 100000
 
-# Examples
-uv run python -m document_simulator augment --input data/original/ --output data/augmented/
-uv run python -m document_simulator ocr --image data/sample.jpg
-uv run python -m document_simulator train --config config.yaml
+# Testing (core package)
+uv run pytest -m "not slow" -q               # Fast tests (no RL training)
+uv run pytest                                # All tests including slow
+uv run pytest tests/unit/ -v                 # Unit tests only
+uv run pytest tests/integration/ -v          # Integration tests only
 
-# Testing
-uv run pytest                         # Run all tests
-uv run pytest tests/unit/ -v          # Unit tests with verbose output
-uv run pytest tests/integration/ -v   # Integration tests
-uv run pytest tests/test_*.py         # Run specific test file
-uv run pytest -k "test_augment"       # Run tests matching pattern
-uv run pytest --cov=src --cov-report=html  # Coverage report
+# Testing (Streamlit UI)
+uv run pytest tests/ui/ -q --no-cov          # All UI tests (fast, uses AppTest)
+uv run pytest tests/ui/unit/ -q --no-cov     # Unit tests for components
+uv run pytest tests/ui/integration/ -v       # Integration tests per page
+uv run pytest tests/ui/e2e/ -v               # End-to-end home page tests
+
+# Single test file
+uv run pytest tests/ui/integration/test_augmentation_lab.py -v
 
 # Code Quality
 uv run black .                        # Format code (line-length=100)
@@ -256,6 +269,48 @@ Click CLI with subcommands:
 - `ocr` — Run OCR on single image
 - `train` — Train RL agent
 - `evaluate` — Evaluate model on benchmark dataset
+
+---
+
+## UI Architecture (`src/document_simulator/ui/`)
+
+The Streamlit UI wraps the full package API without duplicating business logic.
+
+### File layout
+
+```
+ui/
+├── app.py                    # Home page + navigation + launch() entry point
+├── pages/
+│   ├── 01_augmentation_lab.py   # Preset selector, 12-dim sliders, before/after view
+│   ├── 02_ocr_engine.py         # OCR with bbox overlay, confidence metrics, region table
+│   ├── 03_batch_processing.py   # Multi-upload, parallel augmentation, ZIP download
+│   ├── 04_evaluation.py         # CER/WER/confidence charts across a labelled dataset
+│   └── 05_rl_training.py        # RLConfig form, background PPO thread, reward chart
+├── components/
+│   ├── image_display.py         # show_side_by_side(), overlay_bboxes(), image_to_bytes()
+│   ├── metrics_charts.py        # cer_wer_bar(), confidence_box(), reward_line() → Plotly
+│   └── file_uploader.py         # uploaded_file_to_pil(), uploaded_files_to_pil()
+└── state/
+    └── session_state.py         # SessionStateManager — typed wrappers around st.session_state
+```
+
+### Test layout
+
+```
+tests/ui/
+├── conftest.py               # blank_image, fake_uploaded_file, sample_ocr_result, etc.
+├── unit/                     # Components tested without Streamlit context
+├── integration/              # Each page tested via streamlit.testing.v1.AppTest
+└── e2e/                      # Home page + full-flow tests
+```
+
+### AppTest limitations (Streamlit 1.54)
+
+`streamlit.testing.v1.AppTest` does **not** expose these as named widget accessors:
+- `plotly_chart` — test for surrounding `metric` / `dataframe` elements instead
+- `download_button` — check session state (`"key" in at.session_state`) instead
+- `file_uploader` — check markdown/caption text instead
 
 ---
 
@@ -504,14 +559,25 @@ uv run python -m document_simulator evaluate \
 
 | Task | Command |
 |------|---------|
-| Setup | `./setup.sh` |
-| All tests | `uv run pytest` |
-| Unit tests | `uv run pytest tests/unit/` |
+| Setup (core) | `./setup.sh` or `uv venv && uv sync` |
+| Setup (UI) | `uv sync --extra ui` |
+| Launch UI | `uv run streamlit run src/document_simulator/ui/app.py` |
+| All tests | `uv run pytest -m "not slow" -q` |
+| UI tests only | `uv run pytest tests/ui/ -q --no-cov` |
+| Unit tests | `uv run pytest tests/unit/ -v` |
 | Format | `uv run black .` |
 | Lint | `uv run ruff check . --fix` |
 | Type check | `uv run mypy src/` |
-| Coverage | `uv run pytest --cov=src --cov-report=html` |
+| Coverage | `uv run pytest --cov=document_simulator --cov-report=html` |
 | TensorBoard | `tensorboard --logdir=./logs` |
+
+## Known Package Quirks
+
+- **augraphy 8.2.6** (only version available): no `Fading` class — use `LowLightNoise`.
+  `ColorShift` takes `color_shift_offset_x_range` / `color_shift_offset_y_range` separately.
+- **SB3 CnnPolicy**: observation space must be `dtype=np.uint8` with shape `(H, W, C)`.
+- **NumPy < 2.0** pinned for PaddlePaddle compatibility.
+- **augraphy writes cache** to `augraphy_cache/` at repo root (covered in `.gitignore`).
 
 ---
 
