@@ -370,8 +370,7 @@ def _panel_zones() -> None:
                 # Overlay existing zone boxes on the preview so users can see placement
                 if zones:
                     boxes = [z["box"] for z in zones]
-                    labels = [z["label"] for z in zones]
-                    preview = overlay_bboxes(template_img, boxes, labels)
+                    preview = overlay_bboxes(template_img, boxes, [1.0] * len(boxes), show_scores=False)
                 else:
                     preview = template_img
                 display_w = min(template_img.width, 700)
