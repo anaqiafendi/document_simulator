@@ -51,8 +51,10 @@ def test_synthetic_generator_page_loads():
 def test_page_has_template_upload_section():
     at = AppTest.from_file(PAGE, default_timeout=TIMEOUT)
     at.run()
-    all_text = " ".join(str(e.value) for e in at.markdown) + " ".join(
-        str(e.label) for e in at.button
+    all_text = (
+        " ".join(str(e.value) for e in at.markdown)
+        + " ".join(str(e.label) for e in at.button)
+        + " ".join(str(e.value) for e in at.subheader)
     )
     assert any(
         kw in all_text.lower() for kw in ("template", "upload", "blank", "canvas")

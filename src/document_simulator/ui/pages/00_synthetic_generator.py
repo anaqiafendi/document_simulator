@@ -191,9 +191,11 @@ def _panel_respondents() -> None:
 
     to_remove_r: list[int] = []
     for ri, resp in enumerate(respondents):
-        with st.expander(f"👤 {resp['display_name']}", expanded=(ri == 0)):
+        resp_label_key = f"resp_name_{ri}"
+        current_resp_name = st.session_state.get(resp_label_key, resp["display_name"])
+        with st.expander(f"👤 {current_resp_name}", expanded=(ri == 0)):
             resp["display_name"] = st.text_input(
-                "Name", value=resp["display_name"], key=f"resp_name_{ri}"
+                "Name", value=resp["display_name"], key=resp_label_key
             )
             resp["respondent_id"] = resp["display_name"].lower().replace(" ", "_")
 
@@ -217,20 +219,36 @@ def _panel_respondents() -> None:
 
             to_remove_ft: list[int] = []
             for fti, ft in enumerate(resp["field_types"]):
-                with st.expander(f"  📝 {ft['display_name']}", expanded=False):
+                # Read name directly from the text_input's session state key so the
+                # expander label stays in sync without needing an extra render cycle.
+                ft_label_key = f"ft_name_{ri}_{fti}"
+                current_ft_name = st.session_state.get(ft_label_key, ft["display_name"])
+                with st.expander(f"  📝 {current_ft_name}", expanded=False):
                     ft["display_name"] = st.text_input(
-                        "Field type name", value=ft["display_name"], key=f"ft_name_{ri}_{fti}"
+                        "Field type name", value=ft["display_name"], key=ft_label_key
                     )
                     ft["field_type_id"] = ft["display_name"].lower().replace(" ", "_")
 
-                    # Ink colour presets
+                    # Ink colour presets — also update the color_picker's session state
+                    # key so the swatch reflects the selection immediately.
+                    color_key = f"ft_color_{ri}_{fti}"
                     preset_cols = st.columns(len(_INK_PRESETS))
-                    for pi, (label, hex_val) in enumerate(_INK_PRESETS):
-                        if preset_cols[pi].button(label, key=f"preset_{ri}_{fti}_{pi}"):
-                            ft["font_color"] = hex_val
+                    for pi, (preset_label, hex_val) in enumerate(_INK_PRESETS):
+                        with preset_cols[pi]:
+                            # Show a small coloured square alongside the preset label
+                            st.markdown(
+                                f'<div style="display:flex;align-items:center;gap:4px;">'
+                                f'<span style="display:inline-block;width:12px;height:12px;'
+                                f'background:{hex_val};border:1px solid #888;border-radius:2px;"></span>'
+                                f'</div>',
+                                unsafe_allow_html=True,
+                            )
+                            if st.button(preset_label, key=f"preset_{ri}_{fti}_{pi}"):
+                                ft["font_color"] = hex_val
+                                st.session_state[color_key] = hex_val
 
                     ft["font_color"] = st.color_picker(
-                        "Ink colour", value=ft["font_color"], key=f"ft_color_{ri}_{fti}"
+                        "Ink colour", value=ft["font_color"], key=color_key
                     )
                     ft["font_family"] = st.selectbox(
                         "Font family",
@@ -292,8 +310,7 @@ def _panel_zones() -> None:
     resp_display_map = {r["display_name"]: r["respondent_id"] for r in respondents}
 
     # --- Canvas (or fallback) ---
-    st.markdown("**Draw rectangles on the template to place zones.**")
-
+    canvas_rendered = False
     if _CANVAS_AVAILABLE and template_img is not None:
         try:
             canvas_result = st_canvas(
@@ -306,9 +323,11 @@ def _panel_zones() -> None:
                 height=min(template_img.height, 600),
                 width=min(template_img.width, 800),
             )
+            canvas_rendered = True
         except Exception:
-            st.info("Canvas component is not available. Use manual zone entry below.")
             canvas_result = None
+
+    if canvas_rendered:
         # Extract new drawn rectangles
         if canvas_result is not None and canvas_result.json_data is not None:
             objects = canvas_result.json_data.get("objects", [])
@@ -344,22 +363,64 @@ def _panel_zones() -> None:
                         )
             st.session_state["synthesis_zones"] = zones
     else:
-        st.info("Canvas not available. Add zones manually below.")
-        if st.button("+ Add zone manually"):
-            idx = len(zones) + 1
-            zones.append(
-                {
-                    "zone_id": f"z_{idx}",
-                    "label": f"zone_{idx}",
-                    "box": [[0, 0], [200, 0], [200, 40], [0, 40]],
-                    "respondent_id": respondents[0]["respondent_id"] if respondents else "default",
-                    "field_type_id": "standard",
-                    "faker_provider": "name",
-                    "custom_values": [],
-                    "alignment": "left",
-                }
-            )
-            st.session_state["synthesis_zones"] = zones
+        # Manual zone placement — show template image as coordinate reference
+        if template_img is not None:
+            col_img, col_add = st.columns([3, 1])
+            with col_img:
+                # Overlay existing zone boxes on the preview so users can see placement
+                if zones:
+                    boxes = [z["box"] for z in zones]
+                    labels = [z["label"] for z in zones]
+                    preview = overlay_bboxes(template_img, boxes, labels)
+                else:
+                    preview = template_img
+                display_w = min(template_img.width, 700)
+                st.image(
+                    preview,
+                    caption=f"Template ({template_img.width} × {template_img.height} px) — use pixel coordinates below",
+                    width=display_w,
+                )
+            with col_add:
+                st.markdown("**Add a zone**")
+                new_label = st.text_input("Label", value=f"zone_{len(zones)+1}", key="new_zone_label")
+                new_x = st.number_input("Left (px)", value=10, min_value=0, key="new_zone_x")
+                new_y = st.number_input("Top (px)", value=20, min_value=0, key="new_zone_y")
+                new_w = st.number_input("Width (px)", value=200, min_value=1, key="new_zone_w")
+                new_h = st.number_input("Height (px)", value=30, min_value=1, key="new_zone_h")
+                if st.button("+ Add zone", key="add_zone_manual"):
+                    x1, y1 = float(new_x), float(new_y)
+                    x2, y2 = x1 + float(new_w), y1 + float(new_h)
+                    idx = len(zones) + 1
+                    zones.append(
+                        {
+                            "zone_id": f"z_{idx}",
+                            "label": new_label or f"zone_{idx}",
+                            "box": [[x1, y1], [x2, y1], [x2, y2], [x1, y2]],
+                            "respondent_id": respondents[0]["respondent_id"] if respondents else "default",
+                            "field_type_id": respondents[0]["field_types"][0]["field_type_id"] if respondents else "standard",
+                            "faker_provider": "name",
+                            "custom_values": [],
+                            "alignment": "left",
+                        }
+                    )
+                    st.session_state["synthesis_zones"] = zones
+                    st.rerun()
+        else:
+            if st.button("+ Add zone manually", key="add_zone_fallback"):
+                idx = len(zones) + 1
+                zones.append(
+                    {
+                        "zone_id": f"z_{idx}",
+                        "label": f"zone_{idx}",
+                        "box": [[0, 0], [200, 0], [200, 40], [0, 40]],
+                        "respondent_id": respondents[0]["respondent_id"] if respondents else "default",
+                        "field_type_id": "standard",
+                        "faker_provider": "name",
+                        "custom_values": [],
+                        "alignment": "left",
+                    }
+                )
+                st.session_state["synthesis_zones"] = zones
 
     # --- Zone configuration cards ---
     if zones:
