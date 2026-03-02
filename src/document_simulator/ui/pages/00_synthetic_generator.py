@@ -564,7 +564,7 @@ def _panel_preview() -> None:
             if show_overlays and zones:
                 boxes = [z["box"] for z in zones]
                 labels = [z["label"] for z in zones]
-                display_img = overlay_bboxes(img, boxes, labels)
+                display_img = overlay_bboxes(img, boxes, [1.0] * len(boxes), show_scores=False)
             with cols[i]:
                 st.image(display_img, caption=f"seed={42 + i}", use_container_width=True)
                 if st.button("↻", key=f"reroll_{i}"):
