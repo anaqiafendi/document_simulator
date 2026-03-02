@@ -27,7 +27,7 @@ class SyntheticDocumentGenerator:
 
     def __init__(
         self,
-        template: str,
+        template: str | Image.Image,
         synthesis_config: SynthesisConfig,
         template_kwargs: dict | None = None,
     ) -> None:
@@ -41,7 +41,10 @@ class SyntheticDocumentGenerator:
 
     def generate_one(self, seed: int) -> tuple[Image.Image, GroundTruth]:
         """Generate a single document image and its annotation."""
-        canvas = TemplateLoader.load(self._template_source, **self._template_kwargs)
+        if isinstance(self._template_source, Image.Image):
+            canvas = self._template_source.copy().convert("RGB")
+        else:
+            canvas = TemplateLoader.load(self._template_source, **self._template_kwargs)
         resolver = StyleResolver(self._config, seed=seed)
 
         # Build one Faker identity per respondent (correlated fields)
