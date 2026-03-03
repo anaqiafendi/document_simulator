@@ -94,6 +94,7 @@ synthesis = [
     "faker>=24.0.0",
     "pymupdf>=1.23.0",
     "streamlit-drawable-canvas>=0.9.0",
+    "streamlit-image-coordinates>=0.1.4",
 ]
 
 [project.urls]
@@ -182,6 +183,7 @@ module = [
     "albumentations.*",
     "fitz.*",
     "streamlit_drawable_canvas.*",
+    "streamlit_image_coordinates.*",
 ]
 ignore_missing_imports = true
 

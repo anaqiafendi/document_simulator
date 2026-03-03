@@ -21,11 +21,11 @@ _FONTS_DIR = Path(__file__).parent.parent / "fonts"
 #   Merriweather-Regular.ttf  → https://fonts.google.com/specimen/Merriweather
 #   NotoSans-Regular.ttf      → https://fonts.google.com/specimen/Noto+Sans
 _CATALOG: dict[str, str] = {
-    "handwriting": "Caveat-Regular.ttf",
+    "handwriting": "Caveat[wght].ttf",
     "handwriting-alt": "IndieFlower-Regular.ttf",
-    "monospace": "SourceCodePro-Regular.ttf",
-    "serif": "Merriweather-Regular.ttf",
-    "sans-serif": "NotoSans-Regular.ttf",
+    "monospace": "SourceCodePro[wght].ttf",
+    "serif": "Merriweather[opsz,wdth,wght].ttf",
+    "sans-serif": "NotoSans[wdth,wght].ttf",
 }
 
 

@@ -144,10 +144,10 @@ def test_page_has_show_overlays_checkbox():
 def test_page_has_save_config_button():
     at = AppTest.from_file(PAGE, default_timeout=TIMEOUT)
     at.run()
-    # Save config is a download_button (not accessible via at.button).
-    # Verify the "Config" section subheader is present on the page.
-    subheader_labels = [s.value.lower() for s in at.subheader]
-    assert any("config" in label for label in subheader_labels)
+    # Save config is a download_button inside a collapsed st.expander("💾 Config")
+    # in Tab 4 — verify the expander label is present on the page.
+    expander_labels = [e.label.lower() for e in at.expander]
+    assert any("config" in label for label in expander_labels)
 
 
 # ---------------------------------------------------------------------------

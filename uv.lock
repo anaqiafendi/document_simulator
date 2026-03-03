@@ -846,6 +846,7 @@ synthesis = [
     { name = "faker" },
     { name = "pymupdf" },
     { name = "streamlit-drawable-canvas" },
+    { name = "streamlit-image-coordinates" },
 ]
 ui = [
     { name = "plotly" },
@@ -902,6 +903,7 @@ requires-dist = [
     { name = "stable-baselines3", specifier = ">=2.3.0" },
     { name = "streamlit", marker = "extra == 'ui'", specifier = ">=1.32.0" },
     { name = "streamlit-drawable-canvas", marker = "extra == 'synthesis'", specifier = ">=0.9.0" },
+    { name = "streamlit-image-coordinates", marker = "extra == 'synthesis'", specifier = ">=0.1.4" },
     { name = "tensorboard", specifier = ">=2.16.0" },
     { name = "torch", specifier = ">=2.2.0" },
     { name = "torchvision", specifier = ">=0.17.0" },
@@ -4216,6 +4218,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/07/fe/69768e7391587b97ef5c503c263bdf960e21f20c02c6b17427a8963af0c6/streamlit-drawable-canvas-0.9.3.tar.gz", hash = "sha256:a31e581bfd63545ecbca71bc3286c09f0542e4199109d33f56392345996802f5", size = 1158330, upload-time = "2023-06-05T17:16:20.755Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d6/87/bc94460ec77d824735da56fe8e321baf0692595c2a8a90b55f6908a5edc4/streamlit_drawable_canvas-0.9.3-py3-none-any.whl", hash = "sha256:fbb5e29017d359d5438e327ca0a64d0b337a9f2e1f999cd7593baa5bb8a27c25", size = 1169097, upload-time = "2023-06-05T17:16:18.167Z" },
+]
+
+[[package]]
+name = "streamlit-image-coordinates"
+version = "0.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "streamlit" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/77/de/eaa06642d53c7d35d3759da9cc4640323afb7dcd0283e6424be1a392fbe8/streamlit_image_coordinates-0.4.0.tar.gz", hash = "sha256:3c6657df55ad48ba0bc62db4ca4374f762ada6595f390f4ca6fecf18e0a350b4", size = 5816, upload-time = "2025-08-05T16:21:46.314Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1f/0c/29d4ddfde865ce480b8aacbb9a764e872dfd2e141c7e6c15f075436ea807/streamlit_image_coordinates-0.4.0-py3-none-any.whl", hash = "sha256:20d482384edf2d5442b43bc738ecc52bd27c081de28b825986802b5dc6789223", size = 7592, upload-time = "2025-08-05T16:21:45.499Z" },
 ]
 
 [[package]]
