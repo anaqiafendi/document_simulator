@@ -110,3 +110,42 @@ def test_dataset_transform_applied(dataset_dir):
     ds = DocumentDataset(dataset_dir, transform=my_transform)
     _ = ds[0]
     assert calls == [1]
+
+
+# ---------------------------------------------------------------------------
+# PDF support
+# ---------------------------------------------------------------------------
+
+fitz = pytest.importorskip("fitz", reason="PyMuPDF not installed")
+
+
+def _make_pdf_sample(directory: Path, name: str, text: str = "PDF Doc") -> None:
+    """Write a tiny single-page PDF + matching JSON annotation into *directory*."""
+    doc = fitz.open()
+    page = doc.new_page(width=200, height=100)
+    page.insert_text((10, 50), text)
+    pdf_bytes = doc.tobytes()
+    (directory / f"{name}.pdf").write_bytes(pdf_bytes)
+
+    gt = {
+        "image_path": f"{name}.pdf",
+        "text": text,
+        "regions": [{"box": VALID_BOX, "text": text, "confidence": 1.0}],
+    }
+    (directory / f"{name}.json").write_text(json.dumps(gt))
+
+
+def test_document_dataset_discovers_pdf(tmp_path):
+    """A directory containing a PDF + matching JSON should yield len == 1."""
+    _make_pdf_sample(tmp_path, "invoice_001")
+    ds = DocumentDataset(tmp_path)
+    assert len(ds) == 1
+
+
+def test_document_dataset_getitem_pdf_returns_pil(tmp_path):
+    """dataset[0] for a PDF entry should return (PIL.Image.Image, GroundTruth)."""
+    _make_pdf_sample(tmp_path, "invoice_001")
+    ds = DocumentDataset(tmp_path)
+    image, gt = ds[0]
+    assert isinstance(image, Image.Image)
+    assert isinstance(gt, GroundTruth)

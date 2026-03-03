@@ -1,14 +1,24 @@
-"""OCR Engine — upload a document image, extract text, visualise bounding boxes."""
+"""OCR Engine — upload a document image or PDF, extract text, visualise bounding boxes."""
 
 import pandas as pd
 import streamlit as st
 
-from document_simulator.ui.components.file_uploader import uploaded_file_to_pil
+from document_simulator.ui.components.file_uploader import (
+    uploaded_file_to_pil,
+    uploaded_pdf_to_pil_pages,
+)
 from document_simulator.ui.components.image_display import image_to_bytes, overlay_bboxes
 from document_simulator.ui.state.session_state import SessionStateManager
 
 st.set_page_config(page_title="OCR Engine", page_icon="🔍", layout="wide")
 st.title("🔍 OCR Engine")
+st.info(
+    "**How to use:** Upload a document image or PDF, select language and GPU settings "
+    "in the sidebar, then click **Run OCR**. Multi-page PDFs show a page selector — "
+    "choose which page to process. Optionally upload a plain-text ground truth file "
+    "(.txt) to compute CER and WER against the OCR output. "
+    "Use this page to test OCR quality on a single document before running bulk evaluation."
+)
 
 state = SessionStateManager()
 
@@ -42,6 +52,19 @@ def _build_region_df(ocr_result: dict) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def _init_pdf_state() -> None:
+    for key, val in [
+        ("ocr_is_pdf", False),
+        ("ocr_pdf_pages", []),
+        ("ocr_pdf_page_idx", 0),
+    ]:
+        if key not in st.session_state:
+            st.session_state[key] = val
+
+
+_init_pdf_state()
+
+
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 
 with st.sidebar:
@@ -58,19 +81,54 @@ with st.sidebar:
 # ── Upload ────────────────────────────────────────────────────────────────────
 
 uploaded = st.file_uploader(
-    "Upload a document image",
-    type=["png", "jpg", "jpeg", "bmp", "tiff"],
+    "Upload a document image or PDF",
+    type=["png", "jpg", "jpeg", "bmp", "tiff", "pdf"],
     key="ocr_upload",
 )
 if uploaded is not None:
-    state.set_uploaded_image(uploaded_file_to_pil(uploaded))
+    if uploaded.name.lower().endswith(".pdf"):
+        try:
+            pages = uploaded_pdf_to_pil_pages(uploaded, dpi=150)
+            st.session_state["ocr_is_pdf"] = True
+            st.session_state["ocr_pdf_pages"] = pages
+            if st.session_state.get("ocr_pdf_page_idx", 0) >= len(pages):
+                st.session_state["ocr_pdf_page_idx"] = 0
+            state.set_uploaded_image(pages[st.session_state["ocr_pdf_page_idx"]])
+            state.set_ocr_result(None)
+        except ImportError:
+            st.error(
+                "PDF support requires PyMuPDF. "
+                "Install with: `uv sync --extra synthesis --native-tls`"
+            )
+    else:
+        st.session_state["ocr_is_pdf"] = False
+        st.session_state["ocr_pdf_pages"] = []
+        state.set_uploaded_image(uploaded_file_to_pil(uploaded))
+        state.set_ocr_result(None)
+
+# ── Page selector (PDF only) ───────────────────────────────────────────────────
+
+is_pdf: bool = st.session_state.get("ocr_is_pdf", False)
+pdf_pages: list = st.session_state.get("ocr_pdf_pages", [])
+
+if is_pdf and len(pdf_pages) > 1:
+    st.info(f"PDF has **{len(pdf_pages)} pages**. Select the page to run OCR on.")
+    new_idx = (
+        st.slider("Page", min_value=1, max_value=len(pdf_pages), value=1, key="ocr_page_slider") - 1
+    )
+    if new_idx != st.session_state.get("ocr_pdf_page_idx", 0):
+        st.session_state["ocr_pdf_page_idx"] = new_idx
+        state.set_uploaded_image(pdf_pages[new_idx])
+        state.set_ocr_result(None)
+elif is_pdf and len(pdf_pages) == 1:
+    st.info("Single-page PDF loaded.")
 
 # ── Run ───────────────────────────────────────────────────────────────────────
 
 if run_btn:
     src = state.get_uploaded_image()
     if src is None:
-        st.warning("Please upload an image first.")
+        st.warning("Please upload a document first.")
     else:
         with st.spinner("Running OCR…"):
             engine = _get_ocr_engine(str(lang), bool(use_gpu))
@@ -92,9 +150,15 @@ if result is not None and src is not None:
     conf = aggregate_confidence(result.get("scores", []))
     n_regions = len(result.get("boxes", []))
 
+    # Page label for PDF inputs
+    page_label = ""
+    if is_pdf and pdf_pages:
+        idx = st.session_state.get("ocr_pdf_page_idx", 0)
+        page_label = f" — page {idx + 1}/{len(pdf_pages)}"
+
     # Annotated image
     annotated = overlay_bboxes(src, result.get("boxes", []), result.get("scores", []))
-    st.image(annotated, caption="Detected text regions", use_container_width=True)
+    st.image(annotated, caption=f"Detected text regions{page_label}", use_container_width=True)
 
     # Metric row
     col1, col2, col3, col4 = st.columns(4)
@@ -133,5 +197,5 @@ if result is not None and src is not None:
         st.dataframe(df, use_container_width=True)
 
 elif src is not None:
-    st.image(src, caption="Uploaded image", use_container_width=True)
+    st.image(src, caption="Uploaded document", use_container_width=True)
     st.info("Click **Run OCR** in the sidebar to extract text.")

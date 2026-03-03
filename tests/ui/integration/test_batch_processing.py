@@ -68,6 +68,25 @@ def test_batch_page_shows_metrics_after_results_in_state():
     )
 
 
+def test_batch_shows_expanded_page_count():
+    """When batch_input_labels contains PDF page entries, the results should reflect 3 items."""
+    fake_imgs = [Image.fromarray(np.full((50, 50, 3), i * 40, dtype=np.uint8)) for i in range(3)]
+    labels = ["a.png", "b.pdf — page 1", "b.pdf — page 2"]
+
+    at = AppTest.from_file(PAGE, default_timeout=TIMEOUT)
+    at.run()
+    at.session_state["batch_results"] = fake_imgs
+    at.session_state["batch_input_images"] = fake_imgs
+    at.session_state["batch_input_labels"] = labels
+    at.session_state["batch_elapsed"] = 1.0
+    at.run()
+
+    metric_labels = [m.label for m in at.metric]
+    assert any("processed" in l.lower() for l in metric_labels)
+    processed_metric = next(m for m in at.metric if "processed" in m.label.lower())
+    assert processed_metric.value == "3"
+
+
 def test_batch_page_shows_processed_metric_after_results():
     """When results are in session state, Processed metric should be visible.
     (AppTest does not expose st.download_button as a named widget accessor.)
