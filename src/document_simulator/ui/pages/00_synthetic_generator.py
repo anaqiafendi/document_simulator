@@ -928,6 +928,14 @@ def _tab_preview_generate() -> None:
 def main() -> None:
     st.set_page_config(page_title="Synthetic Document Generator", layout="wide")
     st.title("Synthetic Document Generator")
+    st.info(
+        "**How to use:** Upload a PDF or image template (or use a blank page), define "
+        "respondents and field types in the **Respondents** tab, draw zones on the template "
+        "in the **Zones** tab, then preview and generate a batch in **Preview & Generate**. "
+        "Each generated document is saved as a PDF alongside a `.json` annotation file "
+        "(same filename stem) — these pairs can be used directly as input to the "
+        "**Evaluation Dashboard** and **RL Training** pages."
+    )
     _init_state()
 
     tab1, tab2, tab3, tab4 = st.tabs(

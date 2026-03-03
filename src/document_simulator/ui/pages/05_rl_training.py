@@ -12,6 +12,14 @@ from document_simulator.ui.state.session_state import SessionStateManager
 
 st.set_page_config(page_title="RL Training", page_icon="🤖", layout="wide")
 st.title("🤖 RL Training")
+st.info(
+    "**How to use:** Point **Dataset directory** at a folder of annotated document/JSON pairs "
+    "(the same format used by the Evaluation Dashboard — the **Synthetic Generator** produces "
+    "these automatically). Configure hyperparameters in the sidebar, then click **Start "
+    "Training**. A PPO agent learns which augmentation parameters maximise OCR quality while "
+    "preserving visual realism. Training runs in a background thread — the reward chart "
+    "updates live. Click **Stop** to end early; checkpoints are saved automatically."
+)
 
 state = SessionStateManager()
 

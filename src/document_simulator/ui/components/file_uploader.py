@@ -77,6 +77,37 @@ def uploaded_pdf_to_pil_pages(
     return pages
 
 
+def expand_uploads_to_pil(
+    uploaded_files: List[Any],
+    dpi: int = 150,
+) -> tuple[list[Image.Image], list[str]]:
+    """Expand a mixed list of uploaded images and PDFs into (images, labels).
+
+    PDF files are expanded page-by-page. Labels identify the source
+    file (and page number for PDFs) for display and ZIP filenames.
+
+    Args:
+        uploaded_files: List of Streamlit UploadedFile objects (images or PDFs).
+        dpi: Render resolution for PDF pages (default 150 DPI).
+
+    Returns:
+        images: Flat list of PIL Images.
+        labels: One display name per image (e.g. "report.pdf — page 2").
+    """
+    images: list[Image.Image] = []
+    labels: list[str] = []
+    for f in uploaded_files:
+        if f.name.lower().endswith(".pdf"):
+            pages = uploaded_pdf_to_pil_pages(f, dpi=dpi)
+            for i, page in enumerate(pages):
+                images.append(page)
+                labels.append(f"{f.name} — page {i + 1}")
+        else:
+            images.append(uploaded_file_to_pil(f))
+            labels.append(f.name)
+    return images, labels
+
+
 def pil_to_pdf_bytes(image: Image.Image, dpi: int = 150) -> bytes:
     """Embed a PIL Image into a single-page PDF and return the PDF bytes.
 

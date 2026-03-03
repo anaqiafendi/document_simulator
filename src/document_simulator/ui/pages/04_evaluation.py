@@ -10,6 +10,88 @@ from document_simulator.ui.state.session_state import SessionStateManager
 
 st.set_page_config(page_title="Evaluation Dashboard", page_icon="📊", layout="wide")
 st.title("📊 Evaluation Dashboard")
+st.info(
+    "**How to use:** Point **Dataset directory** at a folder containing document/annotation "
+    "pairs — each document (image or PDF) must have a matching `.json` or `.xml` file with "
+    "the same filename stem (e.g. `invoice.pdf` + `invoice.json`). "
+    "The **Synthetic Generator** produces these pairs automatically when you run a batch. "
+    "Select an augmentation preset and click **Run Evaluation** to measure CER, WER, and "
+    "OCR confidence before and after augmentation across the whole dataset."
+)
+
+with st.expander("What do these metrics mean?"):
+    st.markdown(
+        """
+### Character Error Rate (CER)
+**Formula:** `edit_distance(predicted, ground_truth) / len(ground_truth)`
+
+CER measures how many character-level edits (insertions, deletions, substitutions) are needed
+to turn the OCR output into the ground truth text, expressed as a fraction of the ground truth
+length.
+
+| Value | Meaning |
+|-------|---------|
+| `0.00` | Perfect match — OCR output is identical to ground truth |
+| `0.05` | 5% error — 5 edits per 100 ground truth characters (good) |
+| `0.20` | 20% error — noticeable OCR degradation |
+| `1.00` | As many edits as there are ground truth characters |
+| `> 1.0` | More edits than reference characters — see note below |
+
+**Why CER can exceed 1.0:** CER is not capped at 1. If the OCR output is much longer than
+the ground truth (e.g. the ground truth only contains filled-field text but OCR also reads
+background template text), the Levenshtein distance can exceed the reference length. A value
+of `10` means the OCR output required 10× as many edits as the ground truth has characters —
+this almost always means the ground truth text in the `.json` file covers only a small portion
+of what is visible in the document. The red dashed line on the chart marks the `1.0` threshold.
+
+---
+
+### Word Error Rate (WER)
+**Formula:** `word_edit_distance(predicted_words, ground_truth_words) / len(ground_truth_words)`
+
+WER is the same idea as CER but at the word level — each token (whitespace-delimited) counts
+as one unit. WER is usually higher than CER on the same document because a single wrong
+character can make a whole word wrong.
+
+| Value | Meaning |
+|-------|---------|
+| `0.00` | All words match exactly |
+| `0.10` | 1 in 10 words is wrong |
+| `1.00` | Every ground truth word has an error |
+| `> 1.0` | More word-level errors than reference words (same root cause as CER > 1) |
+
+---
+
+### OCR Confidence
+**Formula:** mean of per-region confidence scores returned by PaddleOCR
+
+PaddleOCR returns a confidence score in `[0, 1]` for each detected text region. This metric
+is the mean across all detected regions in a document. It reflects the model's certainty
+about what it read — **not** whether it read the right thing (a confident wrong answer still
+scores high). Use it alongside CER/WER rather than in isolation.
+
+| Value | Meaning |
+|-------|---------|
+| `> 0.90` | High confidence — model is certain about its output |
+| `0.70–0.90` | Moderate — some regions are ambiguous |
+| `< 0.70` | Low — heavy degradation or difficult layout |
+
+---
+
+### Original vs Augmented
+Each sample is OCR'd **twice** — once on the original image and once after applying the
+selected augmentation preset. The delta in the headline metrics shows how much augmentation
+increases error rate / decreases confidence. A small delta means the pipeline is robust;
+a large delta highlights documents that degrade poorly under augmentation.
+
+---
+
+### Confidence box plot note
+The box plot is constructed from `mean ± std` approximations rather than per-sample values
+(the evaluator currently aggregates before returning). The shape gives a rough sense of
+spread but should not be treated as a precise distribution.
+        """
+    )
 
 state = SessionStateManager()
 
@@ -43,8 +125,8 @@ if run_btn:
 
             if len(dataset) == 0:
                 st.warning(
-                    "No annotated image/ground-truth pairs found in the directory. "
-                    "Each image needs a matching .json or .xml annotation file."
+                    "No annotated document/ground-truth pairs found in the directory. "
+                    "Each document (image or PDF) needs a matching .json or .xml annotation file."
                 )
             else:
                 results = evaluator.evaluate_dataset(dataset)
@@ -56,20 +138,39 @@ results = state.get_eval_results()
 
 if results:
     n = results.get("n_samples", 0)
+
+    orig_cer = results.get("mean_original_cer", 0.0)
+    aug_cer = results.get("mean_augmented_cer", 0.0)
+    aug_conf = results.get("mean_augmented_confidence", 0.0)
+    orig_conf = results.get("mean_original_confidence", 0.0)
+    cer_delta = aug_cer - orig_cer
+    conf_delta = aug_conf - orig_conf
+
     col1, col2, col3 = st.columns(3)
     col1.metric("Samples evaluated", n)
     col2.metric(
         "Mean CER — augmented",
-        f"{results.get('mean_augmented_cer', 0):.4f}",
-        delta=f"+{results.get('mean_augmented_cer', 0) - results.get('mean_original_cer', 0):.4f}",
+        f"{aug_cer:.1%}",
+        delta=f"{cer_delta:+.1%}",
         delta_color="inverse",
     )
     col3.metric(
         "Mean Confidence — augmented",
-        f"{results.get('mean_augmented_confidence', 0):.4f}",
-        delta=f"{results.get('mean_augmented_confidence', 0) - results.get('mean_original_confidence', 0):.4f}",
+        f"{aug_conf:.1%}",
+        delta=f"{conf_delta:+.1%}",
         delta_color="inverse",
     )
+
+    # Warn when error rates exceed 1 — almost always a ground truth coverage issue
+    if aug_cer > 1.0 or orig_cer > 1.0:
+        st.warning(
+            f"CER exceeds 1.0 (original: {orig_cer:.2f}, augmented: {aug_cer:.2f}). "
+            "This usually means the ground truth `.json` only contains partial text "
+            "(e.g. filled-field text from the Synthetic Generator) while OCR is reading "
+            "all visible text including background template content. "
+            "Consider updating the `text` field in your annotations to include all "
+            "text visible in the document."
+        )
 
     # Charts
     chart_col1, chart_col2 = st.columns(2)
@@ -91,34 +192,36 @@ if results:
             confidence_box(orig_conf_approx, aug_conf_approx), use_container_width=True
         )
 
-    # Summary table
+    # Summary table — show error rates as percentages for readability
     st.subheader("Summary Statistics")
     table_data = {
         "Metric": ["CER", "WER", "Confidence"],
         "Original mean": [
-            results.get("mean_original_cer"),
-            results.get("mean_original_wer"),
-            results.get("mean_original_confidence"),
+            f"{results.get('mean_original_cer', 0):.1%}",
+            f"{results.get('mean_original_wer', 0):.1%}",
+            f"{results.get('mean_original_confidence', 0):.1%}",
         ],
         "Original std": [
-            results.get("std_original_cer"),
-            results.get("std_original_wer"),
-            results.get("std_original_confidence"),
+            f"{results.get('std_original_cer', 0):.1%}",
+            f"{results.get('std_original_wer', 0):.1%}",
+            f"{results.get('std_original_confidence', 0):.1%}",
         ],
         "Augmented mean": [
-            results.get("mean_augmented_cer"),
-            results.get("mean_augmented_wer"),
-            results.get("mean_augmented_confidence"),
+            f"{results.get('mean_augmented_cer', 0):.1%}",
+            f"{results.get('mean_augmented_wer', 0):.1%}",
+            f"{results.get('mean_augmented_confidence', 0):.1%}",
         ],
         "Augmented std": [
-            results.get("std_augmented_cer"),
-            results.get("std_augmented_wer"),
-            results.get("std_augmented_confidence"),
+            f"{results.get('std_augmented_cer', 0):.1%}",
+            f"{results.get('std_augmented_wer', 0):.1%}",
+            f"{results.get('std_augmented_confidence', 0):.1%}",
+        ],
+        "Delta (aug − orig)": [
+            f"{results.get('mean_augmented_cer', 0) - results.get('mean_original_cer', 0):+.1%}",
+            f"{results.get('mean_augmented_wer', 0) - results.get('mean_original_wer', 0):+.1%}",
+            f"{results.get('mean_augmented_confidence', 0) - results.get('mean_original_confidence', 0):+.1%}",
         ],
     }
-    st.dataframe(pd.DataFrame(table_data).round(4), use_container_width=True)
+    st.dataframe(pd.DataFrame(table_data), use_container_width=True)
 else:
-    st.info(
-        "Point **Dataset directory** to a folder containing image/annotation pairs "
-        "(e.g. `image.jpg` + `image.json`) and click **Run Evaluation**."
-    )
+    st.caption("Configure the dataset directory in the sidebar and click **Run Evaluation** to begin.")

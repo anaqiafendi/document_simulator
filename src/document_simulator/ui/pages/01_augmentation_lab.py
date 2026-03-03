@@ -16,6 +16,13 @@ from document_simulator.ui.state.session_state import SessionStateManager
 
 st.set_page_config(page_title="Augmentation Lab", page_icon="🔬", layout="wide")
 st.title("🔬 Augmentation Lab")
+st.info(
+    "**How to use:** Upload a document image (PNG/JPG/BMP/TIFF) or a PDF, select an "
+    "augmentation preset (**light / medium / heavy**) in the sidebar, then click **Augment**. "
+    "Multi-page PDFs show a page selector — choose a page before augmenting. "
+    "Download the result as PNG or PDF. "
+    "Use this page to inspect what augmentation looks like before running a full batch."
+)
 
 state = SessionStateManager()
 
