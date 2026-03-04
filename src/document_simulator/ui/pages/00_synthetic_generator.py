@@ -9,13 +9,21 @@
 
 from __future__ import annotations
 
+import hashlib
 import io
 import json
 import zipfile
 from pathlib import Path
 
+import pandas as pd
 import streamlit as st
 from PIL import Image
+
+from document_simulator.ui.pages.synthetic_generator_helpers import (
+    _dataframe_to_zones,
+    _stable_zones_hash,
+    _zones_to_dataframe,
+)
 
 from document_simulator.synthesis.generator import SyntheticDocumentGenerator
 from document_simulator.ui.components.file_uploader import list_sample_files, load_path_as_pil_pages
@@ -554,7 +562,32 @@ def _draw_first_click_marker(img: Image.Image, px: int, py: int) -> Image.Image:
     return img
 
 
-def _tab_zones() -> None:
+# ---------------------------------------------------------------------------
+# Cached overlay drawing — avoids PIL redraw when zones/template unchanged
+# ---------------------------------------------------------------------------
+
+
+@st.cache_data(
+    hash_funcs={Image.Image: lambda img: hashlib.md5(img.tobytes()).hexdigest()},
+    max_entries=8,
+)
+def _draw_zones_on_image_cached(
+    template_img: Image.Image,
+    _zones_hash: str,  # drives cache invalidation; leading _ excludes from auto-hash
+    _zones: list[dict],
+    _respondents: list[dict],
+) -> Image.Image:
+    """Cached PIL overlay draw. Only re-executes when template or zones change."""
+    return _draw_zones_on_image(template_img, _zones, _respondents)
+
+
+# ---------------------------------------------------------------------------
+# Tab 3 — Zones (fragment-isolated for fast reruns)
+# ---------------------------------------------------------------------------
+
+
+@st.fragment
+def _zone_tab_fragment() -> None:
     respondents: list[dict] = st.session_state["synthesis_respondents"]
     template_img: Image.Image | None = st.session_state["synthesis_template_image"]
     zones: list[dict] = st.session_state["synthesis_zones"]
@@ -574,8 +607,9 @@ def _tab_zones() -> None:
     first_click: dict | None = st.session_state.get("zone_first_click")
     click_counter: int = st.session_state.get("zone_click_counter", 0)
 
-    # Build preview: zone overlays + optional first-click marker
-    preview_img = _draw_zones_on_image(template_img, zones, respondents)
+    # Build preview: zone overlays + optional first-click marker (cached)
+    zones_hash = _stable_zones_hash(zones, respondents)
+    preview_img = _draw_zones_on_image_cached(template_img, zones_hash, zones, respondents).copy()
     if first_click is not None:
         preview_img = _draw_first_click_marker(preview_img, first_click["x"], first_click["y"])
 
@@ -614,7 +648,7 @@ def _tab_zones() -> None:
                     # Rotate key so the stale coords are discarded on next render
                     st.session_state["zone_first_click"] = None
                     st.session_state["zone_click_counter"] = click_counter + 1
-                    st.rerun()
+                    st.rerun(scope="fragment")
 
             # Rotating key forces a fresh widget (coords=None) after each consumed click,
             # preventing the infinite-rerun loop where stale coords re-trigger immediately.
@@ -630,7 +664,7 @@ def _tab_zones() -> None:
 
                 if first_click is None:
                     st.session_state["zone_first_click"] = {"x": raw_x, "y": raw_y}
-                    st.rerun()
+                    st.rerun(scope="fragment")
                 else:
                     x1 = float(min(first_click["x"], raw_x))
                     y1 = float(min(first_click["y"], raw_y))
@@ -657,7 +691,7 @@ def _tab_zones() -> None:
                         )
                         st.session_state["synthesis_zones"] = zones
                     st.session_state["zone_first_click"] = None
-                    st.rerun()
+                    st.rerun(scope="fragment")
 
         else:
             # Fallback: manual entry via form (clear_on_submit avoids stale field values)
@@ -698,9 +732,9 @@ def _tab_zones() -> None:
                         }
                     )
                     st.session_state["synthesis_zones"] = zones
-                    st.rerun()
+                    st.rerun(scope="fragment")
 
-    # ---- Right: zone list ----
+    # ---- Right: zone list (single st.data_editor — O(1) widget calls) ----
     with col_list:
         n = len(zones)
         hdr_col, clear_col = st.columns([3, 1])
@@ -708,80 +742,39 @@ def _tab_zones() -> None:
         if n > 0 and clear_col.button("Clear all", key="clear_all_zones"):
             st.session_state["synthesis_zones"] = []
             st.session_state["zone_first_click"] = None
-            st.rerun()
+            st.rerun(scope="fragment")
 
         if not zones:
             st.caption("No zones yet.")
         else:
-            to_remove: list[int] = []
-            for zi, zone in enumerate(zones):
-                resp_id = zone.get(
-                    "respondent_id",
-                    respondents[0]["respondent_id"] if respondents else "default",
-                )
-                resp = resp_options_map.get(resp_id, respondents[0] if respondents else None)
-
-                label_col, del_col = st.columns([4, 1])
-                zone["label"] = label_col.text_input(
-                    f"Zone {zi + 1}",
-                    value=zone["label"],
-                    key=f"z_label_{zi}",
-                )
-                if del_col.button("🗑", key=f"rm_z_{zi}", help="Remove this zone"):
-                    to_remove.append(zi)
-
-                if resp is not None:
-                    resp_names = list(resp_name_to_id.keys())
-                    current_resp_name = resp_id_to_name.get(
-                        zone["respondent_id"], resp_names[0] if resp_names else ""
-                    )
-                    new_resp_name = st.selectbox(
+            resp_names = list(resp_name_to_id.keys())
+            df = _zones_to_dataframe(zones, resp_id_to_name)
+            edited = st.data_editor(
+                df,
+                num_rows="dynamic",
+                use_container_width=True,
+                key="zones_table",
+                column_config={
+                    "label": st.column_config.TextColumn("Label"),
+                    "respondent": st.column_config.SelectboxColumn(
                         "Respondent",
-                        resp_names,
-                        index=resp_names.index(current_resp_name)
-                        if current_resp_name in resp_names
-                        else 0,
-                        key=f"z_resp_{zi}",
-                    )
-                    zone["respondent_id"] = resp_name_to_id[new_resp_name]
-                    resp = resp_options_map[zone["respondent_id"]]
-
-                    ft_ids = [ft["field_type_id"] for ft in resp["field_types"]]
-                    ft_names = [ft["display_name"] for ft in resp["field_types"]]
-                    current_ft_id = zone.get("field_type_id", ft_ids[0] if ft_ids else "")
-                    current_ft_idx = ft_ids.index(current_ft_id) if current_ft_id in ft_ids else 0
-                    selected_ft_name = st.selectbox(
-                        "Field type",
-                        ft_names,
-                        index=current_ft_idx,
-                        key=f"z_ft_{zi}",
-                    )
-                    zone["field_type_id"] = ft_ids[ft_names.index(selected_ft_name)]
-
-                current_provider = zone.get("faker_provider", "name")
-                zone["faker_provider"] = st.selectbox(
-                    "Data source",
-                    _FAKER_PROVIDERS,
-                    index=_FAKER_PROVIDERS.index(current_provider)
-                    if current_provider in _FAKER_PROVIDERS
-                    else 0,
-                    key=f"z_provider_{zi}",
-                )
-                if zone["faker_provider"] == "custom":
-                    raw = st.text_area(
-                        "Custom values (one per line)",
-                        value="\n".join(zone.get("custom_values", [])),
-                        key=f"z_custom_{zi}",
-                    )
-                    zone["custom_values"] = [v.strip() for v in raw.splitlines() if v.strip()]
-                else:
-                    zone["custom_values"] = []
-
-                st.divider()
-
-            for zi in reversed(to_remove):
-                zones.pop(zi)
-            st.session_state["synthesis_zones"] = zones
+                        options=resp_names or ["default"],
+                    ),
+                    "field_type": st.column_config.TextColumn("Field type"),
+                    "data_source": st.column_config.SelectboxColumn(
+                        "Data source",
+                        options=_FAKER_PROVIDERS,
+                    ),
+                    "x1": st.column_config.NumberColumn("x1", disabled=True, format="%d"),
+                    "y1": st.column_config.NumberColumn("y1", disabled=True, format="%d"),
+                    "x2": st.column_config.NumberColumn("x2", disabled=True, format="%d"),
+                    "y2": st.column_config.NumberColumn("y2", disabled=True, format="%d"),
+                },
+            )
+            updated_zones = _dataframe_to_zones(edited, zones, resp_name_to_id)
+            if updated_zones != zones:
+                st.session_state["synthesis_zones"] = updated_zones
+                st.rerun(scope="fragment")
 
 
 # ---------------------------------------------------------------------------
@@ -980,7 +973,7 @@ def main() -> None:
         _tab_respondents()
 
     with tab3:
-        _tab_zones()
+        _zone_tab_fragment()
 
     with tab4:
         _tab_preview_generate()
