@@ -18,6 +18,7 @@ import streamlit as st
 from PIL import Image
 
 from document_simulator.synthesis.generator import SyntheticDocumentGenerator
+from document_simulator.ui.components.file_uploader import list_sample_files, load_path_as_pil_pages
 from document_simulator.synthesis.zones import (
     FieldTypeConfig,
     GeneratorConfig,
@@ -165,30 +166,41 @@ def _build_synthesis_config() -> SynthesisConfig:
 
 def _tab_template() -> None:
     st.markdown("### Choose your template")
-    col_blank, col_upload = st.columns(2)
 
-    with col_blank:
-        st.markdown("**Blank page**")
-        use_blank = st.checkbox("Use blank page", value=True, key="use_blank")
-        blank_w = st.number_input("Width (px)", value=794, min_value=100, key="blank_w")
-        blank_h = st.number_input("Height (px)", value=1123, min_value=100, key="blank_h")
+    # Build dropdown options: Blank page first, then any sample files
+    _tmpl_samples = list_sample_files(
+        "synthetic_generator", (".pdf", ".png", ".jpg", ".jpeg")
+    )
+    _tmpl_options = ["Blank page"] + [p.name for p in _tmpl_samples]
+    selected_template = st.selectbox(
+        "Template",
+        options=_tmpl_options,
+        index=0,
+        key="template_select",
+    )
 
-    with col_upload:
-        st.markdown("**Upload template**")
-        uploaded = st.file_uploader(
-            "PDF or image (PNG/JPG)",
-            type=["png", "jpg", "jpeg", "pdf"],
-            key="template_upload",
-        )
+    # Blank page size controls — only shown when Blank page is selected
+    blank_w = 794
+    blank_h = 1123
+    if selected_template == "Blank page":
+        _bw_col, _bh_col = st.columns(2)
+        blank_w = _bw_col.number_input("Width (px)", value=794, min_value=100, key="blank_w")
+        blank_h = _bh_col.number_input("Height (px)", value=1123, min_value=100, key="blank_h")
 
-    # Resolve template image
+    st.markdown("**Or upload your own template**")
+    uploaded = st.file_uploader(
+        "PDF or image (PNG/JPG)",
+        type=["png", "jpg", "jpeg", "pdf"],
+        key="template_upload",
+    )
+
+    # Resolve template image — priority: file upload > sample dropdown > blank
     if uploaded is not None:
         if uploaded.name.lower().endswith(".pdf"):
             try:
                 import fitz
 
                 data = uploaded.read()
-                # Keep the original bytes for PDF write-back
                 st.session_state["synthesis_template_pdf_bytes"] = data
                 doc = fitz.open(stream=data, filetype="pdf")
                 page = doc[0]
@@ -203,13 +215,27 @@ def _tab_template() -> None:
             img = Image.open(io.BytesIO(uploaded.read())).convert("RGB")
             st.session_state["synthesis_template_pdf_bytes"] = None
         st.session_state["synthesis_template_image"] = img
-    elif use_blank or st.session_state["synthesis_template_image"] is None:
+
+    elif selected_template != "Blank page":
+        # Load from samples directory
+        _tmpl_path = _tmpl_samples[_tmpl_options.index(selected_template) - 1]
+        try:
+            _tmpl_pages = load_path_as_pil_pages(_tmpl_path)
+            img = _tmpl_pages[0]
+            if _tmpl_path.suffix.lower() == ".pdf":
+                st.session_state["synthesis_template_pdf_bytes"] = _tmpl_path.read_bytes()
+            else:
+                st.session_state["synthesis_template_pdf_bytes"] = None
+            st.session_state["synthesis_template_image"] = img
+        except ImportError as e:
+            st.error(str(e))
+
+    else:
+        # Blank page
         st.session_state["synthesis_template_image"] = Image.new(
             "RGB", (int(blank_w), int(blank_h)), (255, 255, 255)
         )
-        # Blank page: no original PDF (write-back will create one from scratch)
-        if use_blank:
-            st.session_state["synthesis_template_pdf_bytes"] = None
+        st.session_state["synthesis_template_pdf_bytes"] = None
 
     # Thumbnail preview + output mode indicator
     template_img: Image.Image = st.session_state["synthesis_template_image"]
@@ -553,6 +579,23 @@ def _tab_zones() -> None:
     if first_click is not None:
         preview_img = _draw_first_click_marker(preview_img, first_click["x"], first_click["y"])
 
+    # CSS border around the clickable zone canvas (iframe for coords component,
+    # img tag for the st.image fallback)
+    st.markdown(
+        """
+        <style>
+        /* Outline the zone canvas so users know it is clickable */
+        div[data-testid="column"]:first-of-type iframe,
+        div[data-testid="column"]:first-of-type img {
+            outline: 2px dashed #4A90D9;
+            outline-offset: 3px;
+            border-radius: 4px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
     col_img, col_list = st.columns([3, 2])
 
     # ---- Left: image ----
@@ -797,11 +840,7 @@ def _tab_preview_generate() -> None:
                 st.warning("Define at least one zone before previewing.")
             else:
                 config = _build_synthesis_config()
-                template_src = (
-                    "blank"
-                    if st.session_state.get("use_blank", True)
-                    else st.session_state["synthesis_template_image"]
-                )
+                template_src = st.session_state["synthesis_template_image"]
                 gen = SyntheticDocumentGenerator(
                     template=template_src,
                     synthesis_config=config,
@@ -834,11 +873,7 @@ def _tab_preview_generate() -> None:
                 btn_col, dl_col = st.columns([1, 1])
                 if btn_col.button("↻", key=f"reroll_{i}"):
                     config = _build_synthesis_config()
-                    template_src = (
-                        "blank"
-                        if st.session_state.get("use_blank", True)
-                        else st.session_state["synthesis_template_image"]
-                    )
+                    template_src = st.session_state["synthesis_template_image"]
                     gen = SyntheticDocumentGenerator(
                         template=template_src,
                         synthesis_config=config,
@@ -879,11 +914,7 @@ def _tab_preview_generate() -> None:
         config = _build_synthesis_config()
         config.generator.n = int(n_docs)
         config.generator.output_dir = output_dir
-        template_src = (
-            "blank"
-            if st.session_state.get("use_blank", True)
-            else st.session_state["synthesis_template_image"]
-        )
+        template_src = st.session_state["synthesis_template_image"]
         gen = SyntheticDocumentGenerator(
             template=template_src,
             synthesis_config=config,

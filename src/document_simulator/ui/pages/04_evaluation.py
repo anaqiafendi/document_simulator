@@ -5,15 +5,16 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from document_simulator.ui.components.file_uploader import extract_zip_to_tempdir, list_sample_files
 from document_simulator.ui.components.metrics_charts import cer_wer_bar, confidence_box
 from document_simulator.ui.state.session_state import SessionStateManager
 
 st.set_page_config(page_title="Evaluation Dashboard", page_icon="📊", layout="wide")
 st.title("📊 Evaluation Dashboard")
 st.info(
-    "**How to use:** Point **Dataset directory** at a folder containing document/annotation "
-    "pairs — each document (image or PDF) must have a matching `.json` or `.xml` file with "
-    "the same filename stem (e.g. `invoice.pdf` + `invoice.json`). "
+    "**How to use:** Upload a ZIP of document/annotation pairs, use the built-in sample "
+    "dataset, or specify a local directory path (Advanced). Each document (image or PDF) "
+    "must have a matching `.json` or `.xml` annotation file with the same filename stem. "
     "The **Synthetic Generator** produces these pairs automatically when you run a batch. "
     "Select an augmentation preset and click **Run Evaluation** to measure CER, WER, and "
     "OCR confidence before and after augmentation across the whole dataset."
@@ -95,10 +96,58 @@ spread but should not be treated as a precise distribution.
 
 state = SessionStateManager()
 
+# ── Dataset source ────────────────────────────────────────────────────────────
+
+st.subheader("Dataset")
+
+# 1. ZIP upload (primary)
+zip_upload = st.file_uploader(
+    "Upload dataset as ZIP (PDF/image + JSON pairs)",
+    type=["zip"],
+    key="eval_zip",
+)
+if zip_upload is not None:
+    tmp = extract_zip_to_tempdir(zip_upload)
+    st.session_state["_eval_temp_dir"] = tmp   # keep alive — GC deletes files
+    st.session_state["eval_effective_dir"] = tmp.name
+
+# 2. Sample data
+_samples_dir = Path("data/samples/evaluation")
+_sample_files = list_sample_files("evaluation", (".pdf", ".png", ".jpg", ".jpeg", ".json"))
+_has_samples = _samples_dir.exists() and any(
+    p for p in _sample_files if p.suffix.lower() != ".json"
+)
+
+sample_col, _ = st.columns([1, 3])
+if sample_col.button(
+    "Use sample data",
+    disabled=not _has_samples,
+    help="Load the built-in sample dataset from data/samples/evaluation/"
+    if _has_samples
+    else "No sample files found in data/samples/evaluation/",
+):
+    st.session_state.pop("_eval_temp_dir", None)
+    st.session_state["eval_effective_dir"] = str(_samples_dir)
+
+# 3. Advanced — local directory
+with st.expander("Advanced — use local directory path"):
+    typed_dir = st.text_input(
+        "Dataset directory",
+        value=st.session_state.get("eval_effective_dir", "./data/test"),
+        key="eval_data_dir",
+    )
+    if st.button("Use this directory", key="eval_use_dir"):
+        st.session_state.pop("_eval_temp_dir", None)
+        st.session_state["eval_effective_dir"] = typed_dir
+
+# Show current effective dataset
+_effective_dir = st.session_state.get("eval_effective_dir")
+if _effective_dir:
+    st.caption(f"Dataset: `{_effective_dir}`")
+
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 
 with st.sidebar:
-    data_dir = st.text_input("Dataset directory", value="./data/test", key="eval_data_dir")
     preset = st.selectbox(
         "Augmentation preset", ["light", "medium", "heavy"], index=1, key="eval_preset"
     )
@@ -108,29 +157,33 @@ with st.sidebar:
 # ── Run ───────────────────────────────────────────────────────────────────────
 
 if run_btn:
-    p = Path(data_dir)
-    if not p.exists():
-        st.error(f"Directory not found: {p.resolve()}")
+    effective_dir = st.session_state.get("eval_effective_dir")
+    if not effective_dir:
+        st.error("Please select a dataset — upload a ZIP, use sample data, or specify a directory.")
     else:
-        from document_simulator.augmentation import DocumentAugmenter
-        from document_simulator.data import DocumentDataset
-        from document_simulator.evaluation import Evaluator
-        from document_simulator.ocr import OCREngine
+        p = Path(effective_dir)
+        if not p.exists():
+            st.error(f"Directory not found: {p.resolve()}")
+        else:
+            from document_simulator.augmentation import DocumentAugmenter
+            from document_simulator.data import DocumentDataset
+            from document_simulator.evaluation import Evaluator
+            from document_simulator.ocr import OCREngine
 
-        with st.spinner("Running evaluation… (this may take a while)"):
-            augmenter = DocumentAugmenter(pipeline=str(preset))
-            engine = OCREngine(use_gpu=bool(use_gpu))
-            evaluator = Evaluator(augmenter, engine)
-            dataset = DocumentDataset(p)
+            with st.spinner("Running evaluation… (this may take a while)"):
+                augmenter = DocumentAugmenter(pipeline=str(preset))
+                engine = OCREngine(use_gpu=bool(use_gpu))
+                evaluator = Evaluator(augmenter, engine)
+                dataset = DocumentDataset(p)
 
-            if len(dataset) == 0:
-                st.warning(
-                    "No annotated document/ground-truth pairs found in the directory. "
-                    "Each document (image or PDF) needs a matching .json or .xml annotation file."
-                )
-            else:
-                results = evaluator.evaluate_dataset(dataset)
-                state.set_eval_results(results)
+                if len(dataset) == 0:
+                    st.warning(
+                        "No annotated document/ground-truth pairs found in the directory. "
+                        "Each document (image or PDF) needs a matching .json or .xml annotation file."
+                    )
+                else:
+                    results = evaluator.evaluate_dataset(dataset)
+                    state.set_eval_results(results)
 
 # ── Display ───────────────────────────────────────────────────────────────────
 
@@ -177,7 +230,6 @@ if results:
     with chart_col1:
         st.plotly_chart(cer_wer_bar(results), use_container_width=True)
     with chart_col2:
-        # Approximate distribution with mean ± std (real per-sample data would be ideal)
         orig_conf_approx = [
             results.get("mean_original_confidence", 0.9)
             + (i % 3 - 1) * results.get("std_original_confidence", 0.02)
@@ -192,7 +244,7 @@ if results:
             confidence_box(orig_conf_approx, aug_conf_approx), use_container_width=True
         )
 
-    # Summary table — show error rates as percentages for readability
+    # Summary table
     st.subheader("Summary Statistics")
     table_data = {
         "Metric": ["CER", "WER", "Confidence"],
@@ -224,4 +276,4 @@ if results:
     }
     st.dataframe(pd.DataFrame(table_data), use_container_width=True)
 else:
-    st.caption("Configure the dataset directory in the sidebar and click **Run Evaluation** to begin.")
+    st.caption("Configure the dataset above and click **Run Evaluation** in the sidebar to begin.")

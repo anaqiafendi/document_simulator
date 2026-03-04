@@ -7,7 +7,11 @@ import zipfile
 import streamlit as st
 
 from document_simulator.augmentation import BatchAugmenter
-from document_simulator.ui.components.file_uploader import expand_uploads_to_pil
+from document_simulator.ui.components.file_uploader import (
+    expand_uploads_to_pil,
+    list_sample_files,
+    load_path_as_pil_pages,
+)
 from document_simulator.ui.components.image_display import image_to_bytes
 from document_simulator.ui.state.session_state import SessionStateManager
 
@@ -41,6 +45,33 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True,
     key="batch_upload",
 )
+
+# ── Sample data ───────────────────────────────────────────────────────────────
+
+_batch_samples = list_sample_files("batch_processing", (".pdf", ".png", ".jpg", ".jpeg", ".bmp", ".tiff"))
+if _batch_samples:
+    st.divider()
+    _batch_sample_names = [p.name for p in _batch_samples]
+    _bs_col1, _bs_col2 = st.columns([3, 1])
+    _bs_selected = _bs_col1.selectbox(
+        "Or choose a sample document",
+        options=["— select —"] + _batch_sample_names,
+        key="batch_sample_select",
+    )
+    if _bs_col2.button("Load sample", key="batch_load_sample") and _bs_selected != "— select —":
+        _bs_path = _batch_samples[_batch_sample_names.index(_bs_selected)]
+        try:
+            _bs_pages = load_path_as_pil_pages(_bs_path)
+            _bs_labels = (
+                [f"{_bs_selected} — page {i+1}" for i in range(len(_bs_pages))]
+                if _bs_path.suffix.lower() == ".pdf" and len(_bs_pages) > 1
+                else [_bs_selected]
+            )
+            state.set_batch_inputs(_bs_pages)
+            st.session_state["batch_input_labels"] = _bs_labels
+            st.rerun()
+        except ImportError as e:
+            st.error(str(e))
 
 if uploaded_files:
     n_files = len(uploaded_files)

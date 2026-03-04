@@ -4,6 +4,8 @@ import pandas as pd
 import streamlit as st
 
 from document_simulator.ui.components.file_uploader import (
+    list_sample_files,
+    load_path_as_pil_pages,
     uploaded_file_to_pil,
     uploaded_pdf_to_pil_pages,
 )
@@ -105,6 +107,35 @@ if uploaded is not None:
         st.session_state["ocr_pdf_pages"] = []
         state.set_uploaded_image(uploaded_file_to_pil(uploaded))
         state.set_ocr_result(None)
+
+# ── Sample data ───────────────────────────────────────────────────────────────
+
+_ocr_samples = list_sample_files("ocr_engine", (".pdf", ".png", ".jpg", ".jpeg", ".bmp", ".tiff"))
+if _ocr_samples:
+    st.divider()
+    _ocr_sample_names = [p.name for p in _ocr_samples]
+    _ocr_col1, _ocr_col2 = st.columns([3, 1])
+    _ocr_selected = _ocr_col1.selectbox(
+        "Or choose a sample document",
+        options=["— select —"] + _ocr_sample_names,
+        key="ocr_sample_select",
+    )
+    if _ocr_col2.button("Load sample", key="ocr_load_sample") and _ocr_selected != "— select —":
+        _ocr_path = _ocr_samples[_ocr_sample_names.index(_ocr_selected)]
+        try:
+            _ocr_pages = load_path_as_pil_pages(_ocr_path)
+            if _ocr_path.suffix.lower() == ".pdf":
+                st.session_state["ocr_is_pdf"] = True
+                st.session_state["ocr_pdf_pages"] = _ocr_pages
+                st.session_state["ocr_pdf_page_idx"] = 0
+            else:
+                st.session_state["ocr_is_pdf"] = False
+                st.session_state["ocr_pdf_pages"] = []
+            state.set_uploaded_image(_ocr_pages[0])
+            state.set_ocr_result(None)
+            st.rerun()
+        except ImportError as e:
+            st.error(str(e))
 
 # ── Page selector (PDF only) ───────────────────────────────────────────────────
 
