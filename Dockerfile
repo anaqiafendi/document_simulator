@@ -26,6 +26,7 @@ COPY pyproject.toml uv.lock ./
 RUN uv sync --frozen --no-dev --no-install-project
 
 # ── Layer 2: install app source ────────────────────────────────────────────────
+COPY README.md ./
 COPY src/ ./src/
 RUN uv sync --frozen --no-dev
 
