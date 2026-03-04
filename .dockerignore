@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual environment
+.venv/
+
+# Runtime directories (large, regenerated at runtime)
+models/
+output/
+cache/
+checkpoints/
+logs/
+augraphy_cache/
+wandb/
+inference/
+
+# Test artefacts
+.pytest_cache/
+htmlcov/
+coverage.xml
+.coverage
+tests/output/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docs (not needed at runtime)
+docs/
+
+# Large binary formats we don't need in the image
+*.pth
+*.pt
+*.ckpt
+*.pdparams
+*.pdopt
+*.pdmodel
+*.zip
+*.tar.gz
+
+# Log files
+*.log
+logs-*.txt

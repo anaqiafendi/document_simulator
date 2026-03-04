@@ -1,0 +1,9 @@
+[server]
+# Required for Hugging Face Spaces iframe embedding
+enableCORS = false
+enableXsrfProtection = false
+headless = true
+
+[browser]
+# Suppress the "Go to http://localhost:8501" message in container logs
+gatherUsageStats = false
