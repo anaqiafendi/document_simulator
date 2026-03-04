@@ -796,6 +796,7 @@ source = { editable = "." }
 dependencies = [
     { name = "albumentations" },
     { name = "augraphy" },
+    { name = "faker" },
     { name = "gymnasium" },
     { name = "loguru" },
     { name = "numpy" },
@@ -804,9 +805,11 @@ dependencies = [
     { name = "paddlepaddle" },
     { name = "pandas" },
     { name = "pillow" },
+    { name = "plotly" },
     { name = "pyarrow" },
     { name = "pydantic" },
     { name = "pydantic-settings" },
+    { name = "pymupdf" },
     { name = "python-dotenv" },
     { name = "rich" },
     { name = "scikit-image", version = "0.25.2", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
@@ -814,6 +817,9 @@ dependencies = [
     { name = "scipy", version = "1.15.3", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
     { name = "scipy", version = "1.17.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
     { name = "stable-baselines3" },
+    { name = "streamlit" },
+    { name = "streamlit-drawable-canvas" },
+    { name = "streamlit-image-coordinates" },
     { name = "tensorboard" },
     { name = "torch" },
     { name = "torchvision" },
@@ -842,16 +848,6 @@ notebook = [
     { name = "matplotlib" },
     { name = "seaborn" },
 ]
-synthesis = [
-    { name = "faker" },
-    { name = "pymupdf" },
-    { name = "streamlit-drawable-canvas" },
-    { name = "streamlit-image-coordinates" },
-]
-ui = [
-    { name = "plotly" },
-    { name = "streamlit" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -869,7 +865,7 @@ requires-dist = [
     { name = "albumentations", specifier = ">=1.4.0" },
     { name = "augraphy", specifier = ">=8.2.0" },
     { name = "black", marker = "extra == 'dev'", specifier = ">=24.2.0" },
-    { name = "faker", marker = "extra == 'synthesis'", specifier = ">=24.0.0" },
+    { name = "faker", specifier = ">=24.0.0" },
     { name = "gymnasium", specifier = ">=0.29.0" },
     { name = "jupyter", marker = "extra == 'notebook'", specifier = ">=1.0.0" },
     { name = "jupyterlab", marker = "extra == 'notebook'", specifier = ">=4.1.0" },
@@ -885,12 +881,12 @@ requires-dist = [
     { name = "paddlepaddle", specifier = ">=2.6.0" },
     { name = "pandas", specifier = ">=2.2.0" },
     { name = "pillow", specifier = ">=10.2.0" },
-    { name = "plotly", marker = "extra == 'ui'", specifier = ">=5.20.0" },
+    { name = "plotly", specifier = ">=5.20.0" },
     { name = "pre-commit", marker = "extra == 'dev'", specifier = ">=3.6.0" },
     { name = "pyarrow", specifier = ">=15.0.0" },
     { name = "pydantic", specifier = ">=2.6.0" },
     { name = "pydantic-settings", specifier = ">=2.2.0" },
-    { name = "pymupdf", marker = "extra == 'synthesis'", specifier = ">=1.23.0" },
+    { name = "pymupdf", specifier = ">=1.23.0" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0.0" },
     { name = "pytest-asyncio", marker = "extra == 'dev'", specifier = ">=0.23.0" },
     { name = "pytest-cov", marker = "extra == 'dev'", specifier = ">=4.1.0" },
@@ -901,16 +897,16 @@ requires-dist = [
     { name = "scipy", specifier = ">=1.12.0" },
     { name = "seaborn", marker = "extra == 'notebook'", specifier = ">=0.13.0" },
     { name = "stable-baselines3", specifier = ">=2.3.0" },
-    { name = "streamlit", marker = "extra == 'ui'", specifier = ">=1.32.0" },
-    { name = "streamlit-drawable-canvas", marker = "extra == 'synthesis'", specifier = ">=0.9.0" },
-    { name = "streamlit-image-coordinates", marker = "extra == 'synthesis'", specifier = ">=0.1.4" },
+    { name = "streamlit", specifier = ">=1.32.0" },
+    { name = "streamlit-drawable-canvas", specifier = ">=0.9.0" },
+    { name = "streamlit-image-coordinates", specifier = ">=0.1.4" },
     { name = "tensorboard", specifier = ">=2.16.0" },
     { name = "torch", specifier = ">=2.2.0" },
     { name = "torchvision", specifier = ">=0.17.0" },
     { name = "tqdm", specifier = ">=4.66.0" },
     { name = "wandb", specifier = ">=0.16.0" },
 ]
-provides-extras = ["dev", "docs", "notebook", "ui", "synthesis"]
+provides-extras = ["dev", "docs", "notebook"]
 
 [package.metadata.requires-dev]
 dev = [
