@@ -573,9 +573,9 @@ def _draw_first_click_marker(img: Image.Image, px: int, py: int) -> Image.Image:
 )
 def _draw_zones_on_image_cached(
     template_img: Image.Image,
-    _zones_hash: str,  # drives cache invalidation; leading _ excludes from auto-hash
-    _zones: list[dict],
-    _respondents: list[dict],
+    zones_hash: str,  # included in cache key — invalidates when zones/respondents change
+    _zones: list[dict],  # leading _ = not auto-hashed; zones_hash covers this
+    _respondents: list[dict],  # leading _ = not auto-hashed; zones_hash covers this
 ) -> Image.Image:
     """Cached PIL overlay draw. Only re-executes when template or zones change."""
     return _draw_zones_on_image(template_img, _zones, _respondents)
