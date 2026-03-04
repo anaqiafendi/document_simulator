@@ -24,33 +24,38 @@ st.set_page_config(
 
 # ── Title ─────────────────────────────────────────────────────────────────────
 st.title("📄 Document Simulator")
-st.caption("Document image augmentation · OCR · RL Optimisation")
+st.caption("Synthetic document generation · Augmentation · OCR · Evaluation · RL Optimisation")
 st.divider()
 
 # ── Navigation cards ──────────────────────────────────────────────────────────
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3, col4, col5, col6 = st.columns(6)
 
 with col1:
-    st.markdown("### 🔬 Augmentation Lab")
-    st.caption("Upload, choose a preset, see before/after, download.")
-    st.page_link("pages/01_augmentation_lab.py", label="Open →")
+    st.markdown("### ✨ Synthetic Generator")
+    st.caption("Generate filled documents from a template with auto-annotated JSON pairs.")
+    st.page_link("pages/00_synthetic_generator.py", label="Open →")
 
 with col2:
+    st.markdown("### 🔬 Augmentation Lab")
+    st.caption("Upload a document, choose a preset, see before/after, download.")
+    st.page_link("pages/01_augmentation_lab.py", label="Open →")
+
+with col3:
     st.markdown("### 🔍 OCR Engine")
     st.caption("Extract text with bounding boxes and confidence scores.")
     st.page_link("pages/02_ocr_engine.py", label="Open →")
 
-with col3:
+with col4:
     st.markdown("### ⚙️ Batch Processing")
-    st.caption("Augment many images at once and download as ZIP.")
+    st.caption("Augment many documents at once and download as ZIP.")
     st.page_link("pages/03_batch_processing.py", label="Open →")
 
-with col4:
+with col5:
     st.markdown("### 📊 Evaluation")
     st.caption("Compare CER / WER / confidence across a dataset.")
     st.page_link("pages/04_evaluation.py", label="Open →")
 
-with col5:
+with col6:
     st.markdown("### 🤖 RL Training")
     st.caption("Learn optimal augmentation parameters with PPO.")
     st.page_link("pages/05_rl_training.py", label="Open →")
