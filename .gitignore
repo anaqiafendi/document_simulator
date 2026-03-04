@@ -107,6 +107,9 @@ augraphy_cache/
 .env.local
 .env.*.local
 
+# Streamlit secrets (never commit — paste into Streamlit Cloud UI instead)
+.streamlit/secrets.toml
+
 # OS
 .DS_Store
 Thumbs.db
