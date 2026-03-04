@@ -1,3 +1,13 @@
+---
+title: Document Simulator
+emoji: 📄
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Document Simulator
 
 > **Document image augmentation and OCR training system** using Augraphy, PaddleOCR, and Stable-Baselines3

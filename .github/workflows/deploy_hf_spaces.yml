@@ -1,0 +1,23 @@
+name: Deploy to HF Spaces
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # allow manual trigger from GitHub Actions UI
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install huggingface_hub
+        run: pip install -U "huggingface_hub"
+
+      - name: Deploy to HF Spaces
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python scripts/deploy_to_hf_spaces.py \
+            --repo-id ${{ vars.HF_SPACE_REPO_ID }} \
+            --token "$HF_TOKEN"
