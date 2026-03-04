@@ -7,6 +7,8 @@ from PIL import Image
 
 from document_simulator.augmentation import DocumentAugmenter
 from document_simulator.ui.components.file_uploader import (
+    list_sample_files,
+    load_path_as_pil_pages,
     pil_to_pdf_bytes,
     uploaded_file_to_pil,
     uploaded_pdf_to_pil_pages,
@@ -115,6 +117,36 @@ if uploaded is not None:
         st.session_state["aug_pdf_pages"] = []
         state.set_uploaded_image(uploaded_file_to_pil(uploaded))
         state.set_aug_image(None)
+
+# ── Sample data ───────────────────────────────────────────────────────────────
+
+_aug_samples = list_sample_files("augmentation_lab", (".pdf", ".png", ".jpg", ".jpeg", ".bmp", ".tiff"))
+if _aug_samples:
+    st.divider()
+    _aug_sample_names = [p.name for p in _aug_samples]
+    _aug_col1, _aug_col2 = st.columns([3, 1])
+    _aug_selected = _aug_col1.selectbox(
+        "Or choose a sample document",
+        options=["— select —"] + _aug_sample_names,
+        key="aug_sample_select",
+    )
+    if _aug_col2.button("Load sample", key="aug_load_sample") and _aug_selected != "— select —":
+        _aug_path = _aug_samples[_aug_sample_names.index(_aug_selected)]
+        try:
+            _aug_pages = load_path_as_pil_pages(_aug_path)
+            if _aug_path.suffix.lower() == ".pdf":
+                st.session_state["aug_is_pdf"] = True
+                st.session_state["aug_pdf_pages"] = _aug_pages
+                st.session_state["aug_pdf_page_idx"] = 0
+                st.session_state["aug_pdf_dpi"] = 150
+            else:
+                st.session_state["aug_is_pdf"] = False
+                st.session_state["aug_pdf_pages"] = []
+            state.set_uploaded_image(_aug_pages[0])
+            state.set_aug_image(None)
+            st.rerun()
+        except ImportError as e:
+            st.error(str(e))
 
 # ── Page selector (PDF only) ───────────────────────────────────────────────────
 
