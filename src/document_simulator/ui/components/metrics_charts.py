@@ -62,13 +62,31 @@ def cer_wer_bar(metrics: Dict[str, Any]) -> go.Figure:
             ),
         ]
     )
+    # Compute a sensible Y ceiling — at least 1.0, or 10% above the max value
+    max_val = max(
+        (v for v in orig_vals + aug_vals if v is not None and v == v),
+        default=1.0,
+    )
+    y_ceil = max(1.05, max_val * 1.1)
+
     fig.update_layout(
         barmode="group",
         title="CER / WER: Original vs Augmented",
         yaxis_title="Error Rate",
-        yaxis_range=[0, 1],
+        yaxis_range=[0, y_ceil],
         legend={"orientation": "h", "y": -0.2},
     )
+
+    # Reference line at 1.0 — values above this mean more edits than reference characters
+    fig.add_hline(
+        y=1.0,
+        line_dash="dash",
+        line_color="red",
+        annotation_text="Error rate = 1.0 (edits ≥ reference length)",
+        annotation_position="top left",
+        annotation_font_size=11,
+    )
+
     return fig
 
 

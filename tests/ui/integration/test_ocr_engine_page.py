@@ -83,6 +83,31 @@ def test_ocr_page_shows_region_table_when_result_in_state():
     assert len(at.dataframe) > 0
 
 
+def test_ocr_page_shows_page_selector_for_pdf():
+    """When ocr_is_pdf=True and multiple pages are stored, a slider should appear."""
+    fake_img = Image.fromarray(np.full((50, 50, 3), 200, dtype=np.uint8))
+
+    at = AppTest.from_file(PAGE, default_timeout=TIMEOUT)
+    at.run()
+    at.session_state["ocr_is_pdf"] = True
+    at.session_state["ocr_pdf_pages"] = [fake_img, fake_img, fake_img]
+    at.session_state["ocr_pdf_page_idx"] = 0
+    at.run()
+
+    assert len(at.slider) >= 1
+
+
+def test_ocr_page_warns_when_no_document_uploaded():
+    """Clicking Run OCR with no image in state should show a warning."""
+    at = AppTest.from_file(PAGE, default_timeout=TIMEOUT)
+    at.run()
+    # Ensure no image in state
+    at.session_state["last_uploaded_image"] = None
+    run_btn = next(b for b in at.button if "ocr" in b.label.lower() or "run" in b.label.lower())
+    run_btn.click().run()
+    assert len(at.warning) > 0
+
+
 def test_ocr_page_shows_region_count_metric():
     mock_result = {
         "text": "A\nB",
