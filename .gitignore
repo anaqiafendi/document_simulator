@@ -64,9 +64,10 @@ dmypy.json
 docs/_build/
 site/
 
-# Data & Models
-data/
+# Data & Models — ignore generated runtime dirs, but track data/samples/
+data/*
 !data/.gitkeep
+!data/samples
 models/
 !models/.gitkeep
 output/

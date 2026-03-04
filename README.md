@@ -25,6 +25,13 @@ uv run python -c "import augraphy, torch, stable_baselines3; print('All packages
 
 ### Try it immediately
 
+**Launch the Streamlit UI (easiest):**
+```bash
+uv sync --extra ui
+uv run streamlit run src/document_simulator/ui/app.py
+# Opens at http://localhost:8501
+```
+
 **Augment a document image:**
 ```bash
 uv run python -m document_simulator augment input.jpg output.jpg
@@ -45,7 +52,8 @@ uv run python -m document_simulator train --data-dir ./data --num-steps 100000
 **Run the test suite:**
 ```bash
 uv sync --extra dev
-uv run pytest -m "not slow" -q
+uv run pytest -m "not slow" -q        # Core package tests
+uv run pytest tests/ui/ -q --no-cov   # Streamlit UI tests
 ```
 
 ---
@@ -156,6 +164,48 @@ Document Image
 | `evaluation/evaluator.py` | `Evaluator` | dataset-level CER/WER/confidence aggregation |
 | `utils/image_io.py` | `ImageHandler` | load from path / PIL / numpy / bytes |
 | `cli.py` | `main()` | `augment` / `ocr` / `train` subcommands |
+| `ui/app.py` | `launch()` | Streamlit home page + `document-simulator-ui` script |
+| `ui/pages/` | — | 5 feature pages (Augmentation, OCR, Batch, Evaluation, RL) |
+| `ui/components/` | helpers | `overlay_bboxes`, `cer_wer_bar`, `show_side_by_side`, etc. |
+| `ui/state/session_state.py` | `SessionStateManager` | Typed wrappers for `st.session_state` |
+
+---
+
+## Streamlit UI
+
+A browser-based interface that wraps every package feature. No CLI knowledge needed.
+
+### Install and launch
+
+```bash
+# Install UI dependencies (streamlit + plotly)
+uv sync --extra ui
+
+# Launch (opens at http://localhost:8501)
+uv run streamlit run src/document_simulator/ui/app.py
+
+# Or via the installed console script (after uv sync --extra ui):
+document-simulator-ui
+```
+
+### Pages
+
+| Page | What it does |
+|------|-------------|
+| **🔬 Augmentation Lab** | Upload an image, choose a preset (light / medium / heavy) or fine-tune all 12 augmentation parameters with sliders. View the before/after side-by-side and download the result. |
+| **🔍 OCR Engine** | Upload a document image and run PaddleOCR. See extracted text, detected bounding boxes colour-coded by confidence, per-region confidence table, and optional CER/WER vs a ground-truth `.txt` file. |
+| **⚙️ Batch Processing** | Upload multiple images, choose a preset and worker count, run parallel augmentation, and download all results as a ZIP. |
+| **📊 Evaluation Dashboard** | Point to a labelled dataset directory (image + `.json`/`.xml` annotation pairs) to compute mean/std CER, WER, and OCR confidence for both original and augmented images, with bar and box charts. |
+| **🤖 RL Training** | Configure PPO hyperparameters, launch training in a background thread, and watch the live reward curve. Stop training at any time and save or load model checkpoints. |
+
+### Running UI tests
+
+```bash
+uv run pytest tests/ui/ -q --no-cov          # All 105 UI tests
+uv run pytest tests/ui/unit/ -v              # Component unit tests (56)
+uv run pytest tests/ui/integration/ -v       # Per-page AppTest tests (42)
+uv run pytest tests/ui/e2e/ -v               # Home page e2e tests (7)
+```
 
 ---
 
@@ -182,6 +232,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Create environment and install
 uv venv && uv sync
 uv sync --extra dev        # pytest, black, ruff, mypy
+uv sync --extra ui         # streamlit, plotly (web UI)
 uv sync --extra notebook   # Jupyter
 
 # Runtime directories (gitignored)

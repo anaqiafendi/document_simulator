@@ -85,6 +85,18 @@ notebook = [
     "seaborn>=0.13.0",
 ]
 
+ui = [
+    "streamlit>=1.32.0",
+    "plotly>=5.20.0",
+]
+
+synthesis = [
+    "faker>=24.0.0",
+    "pymupdf>=1.23.0",
+    "streamlit-drawable-canvas>=0.9.0",
+    "streamlit-image-coordinates>=0.1.4",
+]
+
 [project.urls]
 Homepage = "https://github.com/yourusername/document-simulator"
 Documentation = "https://github.com/yourusername/document-simulator/docs"
@@ -93,6 +105,7 @@ Issues = "https://github.com/yourusername/document-simulator/issues"
 
 [project.scripts]
 document-simulator = "document_simulator.cli:main"
+document-simulator-ui = "document_simulator.ui.app:launch"
 
 [build-system]
 requires = ["hatchling"]
@@ -168,6 +181,9 @@ module = [
     "stable_baselines3.*",
     "cv2.*",
     "albumentations.*",
+    "fitz.*",
+    "streamlit_drawable_canvas.*",
+    "streamlit_image_coordinates.*",
 ]
 ignore_missing_imports = true
 
