@@ -7,13 +7,70 @@ from typing import Any, Dict
 
 import streamlit as st
 
+from document_simulator.ui.components.file_uploader import extract_zip_to_tempdir, list_sample_files
 from document_simulator.ui.components.metrics_charts import reward_line
 from document_simulator.ui.state.session_state import SessionStateManager
 
 st.set_page_config(page_title="RL Training", page_icon="🤖", layout="wide")
 st.title("🤖 RL Training")
+st.info(
+    "**How to use:** Point **Dataset directory** at a folder of annotated document/JSON pairs "
+    "(the same format used by the Evaluation Dashboard — the **Synthetic Generator** produces "
+    "these automatically). Configure hyperparameters in the sidebar, then click **Start "
+    "Training**. A PPO agent learns which augmentation parameters maximise OCR quality while "
+    "preserving visual realism. Training runs in a background thread — the reward chart "
+    "updates live. Click **Stop** to end early; checkpoints are saved automatically."
+)
 
 state = SessionStateManager()
+
+# ── Dataset source ─────────────────────────────────────────────────────────────
+
+st.subheader("Dataset")
+
+# 1. ZIP upload (primary)
+_rl_zip = st.file_uploader(
+    "Upload dataset as ZIP (PDF/image + JSON pairs)",
+    type=["zip"],
+    key="rl_zip",
+)
+if _rl_zip is not None:
+    _tmp = extract_zip_to_tempdir(_rl_zip)
+    st.session_state["_rl_temp_dir"] = _tmp   # keep alive — GC deletes files
+    st.session_state["rl_effective_dir"] = _tmp.name
+
+# 2. Sample data
+_rl_samples_dir = Path("data/samples/rl_training")
+_rl_has_samples = _rl_samples_dir.exists() and any(
+    p for p in _rl_samples_dir.iterdir() if p.suffix.lower() in (".pdf", ".png", ".jpg")
+) if _rl_samples_dir.exists() else False
+
+_rl_sample_col, _ = st.columns([1, 3])
+if _rl_sample_col.button(
+    "Use sample data",
+    key="rl_use_sample",
+    disabled=not _rl_has_samples,
+    help="Load the built-in sample dataset from data/samples/rl_training/"
+    if _rl_has_samples
+    else "No sample files found in data/samples/rl_training/",
+):
+    st.session_state.pop("_rl_temp_dir", None)
+    st.session_state["rl_effective_dir"] = str(_rl_samples_dir)
+
+# 3. Advanced — local directory
+with st.expander("Advanced — use local directory path"):
+    _typed_dir = st.text_input(
+        "Dataset directory",
+        value=st.session_state.get("rl_effective_dir", "./data/train"),
+        key="rl_data_dir",
+    )
+    if st.button("Use this directory", key="rl_use_dir"):
+        st.session_state.pop("_rl_temp_dir", None)
+        st.session_state["rl_effective_dir"] = _typed_dir
+
+_rl_effective_dir = st.session_state.get("rl_effective_dir")
+if _rl_effective_dir:
+    st.caption(f"Dataset: `{_rl_effective_dir}`")
 
 # ── Initialise persistent threading objects in session_state ──────────────────
 if "_rl_stop_event" not in st.session_state:
@@ -24,7 +81,6 @@ _stop_event: threading.Event = st.session_state["_rl_stop_event"]
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 
 with st.sidebar:
-    data_dir = st.text_input("Dataset directory", "./data/train", key="rl_data_dir")
     lr = st.number_input("Learning rate", value=3e-4, format="%e", key="rl_lr")
     batch_size = st.number_input("Batch size", value=64, step=16, min_value=16, key="rl_bs")
     n_steps = st.number_input("N steps", value=2048, step=256, min_value=256, key="rl_nsteps")
@@ -113,7 +169,7 @@ if start_btn:
     state.set_training_error("")  # clear old errors
 
     config_kwargs: Dict[str, Any] = {
-        "train_data_dir": Path(data_dir) if data_dir else None,
+        "train_data_dir": Path(_rl_effective_dir) if _rl_effective_dir else None,
         "learning_rate": float(lr),
         "batch_size": int(batch_size),
         "n_steps": int(n_steps),
