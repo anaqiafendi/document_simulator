@@ -773,8 +773,11 @@ def _zone_tab_fragment() -> None:
             )
             updated_zones = _dataframe_to_zones(edited, zones, resp_name_to_id)
             if updated_zones != zones:
+                # Update state only — do NOT call st.rerun() here.
+                # data_editor already triggers its own fragment rerun when the user
+                # edits a cell; a manual rerun on top of that causes a double-rerun
+                # which makes the fragment area flash blank.
                 st.session_state["synthesis_zones"] = updated_zones
-                st.rerun(scope="fragment")
 
 
 # ---------------------------------------------------------------------------
