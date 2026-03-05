@@ -132,8 +132,11 @@ across 8 cached variants.
 2. **Cache key via pre-computed hash** — `@st.cache_data` cannot hash `PIL.Image`
    objects natively. We pass `hash_funcs={Image.Image: lambda img: hashlib.md5(img.tobytes()).hexdigest()}`
    so Streamlit can construct a stable cache key. The zones list is also hashed
-   separately (`_stable_zones_hash`) and passed as an explicit string argument, so the
-   cache misses whenever zones or respondents change.
+   separately (`_stable_zones_hash`) and passed as an explicit `zones_hash: str`
+   argument (no leading underscore) so the cache misses whenever zones or respondents
+   change. **Critical naming constraint:** Streamlit excludes any parameter whose name
+   starts with `_` from the cache key. The `zones_hash` parameter must therefore NOT
+   have a leading underscore, or the overlay will never update after zones are added.
 
 3. **`st.data_editor` for zone list** — Replaces per-zone `st.selectbox` +
    `st.text_input` rows with a single editable DataFrame. The table shows label,
@@ -143,6 +146,10 @@ across 8 cached variants.
    Limitation: `SelectboxColumn` uses a single options list for the whole column, so
    field-type options are not filtered per respondent. A respondent-incompatible
    field-type selection is silently defaulted to the first valid type on write-back.
+   **Do NOT call `st.rerun(scope="fragment")` after writing the data_editor result
+   to session state.** `st.data_editor` already triggers its own fragment rerun when
+   the user edits a cell; a manual rerun on top of that causes two back-to-back
+   fragment reruns which make the fragment area flash blank.
 
 4. **Fragment + tabs constraint** — Streamlit docs warn that widgets in a fragment
    cannot be rendered into a container created outside the fragment. Calling
@@ -164,6 +171,36 @@ across 8 cached variants.
   the returned image (e.g. drawing the first-click marker on it), it must call
   `.copy()` first, which is already the pattern in `_draw_first_click_marker`.
 
+### Bugs Fixed Post-Implementation
+
+**Bug 1 — Zones overlay not updating (leading-underscore cache-key trap)**
+
+- **Symptom:** After placing zones, the image overlay never showed the coloured
+  zone rectangles; only the template image was visible.
+- **Root cause:** `_draw_zones_on_image_cached` was originally declared with
+  `_zones_hash: str` (leading underscore). Streamlit's `@st.cache_data` excludes
+  any parameter whose name starts with `_` from the cache key. As a result the
+  cache key was computed from `template_img` only — it never invalidated when zones
+  changed, so the cached empty-overlay was returned on every rerun.
+- **Fix:** Renamed to `zones_hash: str` (no leading underscore). `_zones` and
+  `_respondents` keep their leading underscores (they are large objects fully
+  represented by `zones_hash`).
+- **Regression test:** `test_stable_zones_hash_changes_on_respondent_change`
+
+**Bug 2 — Fragment flashes blank when placing zones (double fragment rerun)**
+
+- **Symptom:** The zones tab area went blank for a visible moment every time a
+  zone corner was clicked.
+- **Root cause:** A click fires `st.rerun(scope="fragment")`. On that rerun, the
+  data_editor's widget state was one render behind, so `_dataframe_to_zones(edited,
+  zones)` returned a result that `!= zones`. This triggered a second immediate
+  `st.rerun(scope="fragment")`. Two back-to-back fragment reruns caused the frontend
+  to blank the fragment area while re-rendering twice.
+- **Fix:** Removed `st.rerun(scope="fragment")` from the data_editor write-back
+  block. `st.data_editor` already triggers its own fragment rerun when the user
+  edits a cell. Only session state needs to be updated; no manual rerun is required.
+- **Regression test:** `test_dataframe_roundtrip_is_stable`
+
 ---
 
 ## Tests
@@ -173,7 +210,7 @@ across 8 cached variants.
 | File | Type | Count | What is covered |
 |------|------|-------|-----------------|
 | `tests/ui/integration/test_synthetic_generator.py` | integration | existing | Existing page-load and zone tests — must all still pass |
-| `tests/ui/unit/test_zones_perf.py` | unit | 3 | Cache hit/miss behaviour; hash stability |
+| `tests/ui/unit/test_zones_perf.py` | unit | 8 | Hash stability; DataFrame round-trip; regression tests for both post-implementation bugs |
 
 ### TDD Cycle Summary
 
