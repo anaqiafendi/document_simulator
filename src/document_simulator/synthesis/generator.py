@@ -132,11 +132,15 @@ class SyntheticDocumentGenerator:
         gt = AnnotationBuilder.build(image_path=image_path, rendered_regions=rendered_regions)
 
         dpi = self._template_kwargs.get("dpi", 150)
+        # When there is no original PDF, pass the clean template image so the
+        # writer can embed it as the page background instead of a blank page.
+        canvas_image = self._load_canvas() if self._pdf_bytes is None else None
         pdf_out = PDFZoneWriter.write(
             pdf_bytes=self._pdf_bytes,
             rendered_regions=rendered_regions,
             dpi=dpi,
             canvas_size=(canvas.width, canvas.height),
+            canvas_image=canvas_image,
         )
         return canvas, gt, pdf_out
 

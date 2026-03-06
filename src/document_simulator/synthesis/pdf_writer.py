@@ -78,13 +78,16 @@ class PDFZoneWriter:
         dpi: int = 150,
         page_number: int = 0,
         canvas_size: tuple[int, int] | None = None,
+        canvas_image=None,
     ) -> bytes:
         """Insert text from *rendered_regions* into a PDF and return the result.
 
         Args:
             pdf_bytes:        Original PDF bytes to overlay text onto.
-                              Pass ``None`` to create a new blank PDF (requires
-                              *canvas_size* to set page dimensions).
+                              Pass ``None`` to create a new PDF.  If
+                              *canvas_image* is also provided the image is
+                              embedded as the page background; otherwise a blank
+                              page sized to *canvas_size* is created.
             rendered_regions: List of region dicts.  Each must contain:
                               ``box``, ``text``, ``font_family``, ``font_size``,
                               ``font_color``.
@@ -92,8 +95,11 @@ class PDFZoneWriter:
                               (needed for pixel → point coordinate conversion).
             page_number:      Which PDF page to insert text on.
             canvas_size:      ``(width_px, height_px)`` of the raster canvas.
-                              Only used when *pdf_bytes* is ``None`` to size the
-                              new blank page.
+                              Only used when *pdf_bytes* is ``None`` and
+                              *canvas_image* is ``None`` to size the blank page.
+            canvas_image:     PIL Image to embed as the page background when
+                              *pdf_bytes* is ``None``.  Ignored when *pdf_bytes*
+                              is provided.
 
         Returns:
             Modified (or newly created) PDF as ``bytes``.
@@ -113,6 +119,15 @@ class PDFZoneWriter:
         if pdf_bytes is not None:
             doc = fitz.open(stream=pdf_bytes, filetype="pdf")
             page = doc[page_number]
+        elif canvas_image is not None:
+            # Embed the template image as a single-page PDF background, then
+            # open with fitz so we can overlay native text on top.
+            import io
+
+            img_buf = io.BytesIO()
+            canvas_image.convert("RGB").save(img_buf, format="PDF", resolution=dpi)
+            doc = fitz.open(stream=img_buf.getvalue(), filetype="pdf")
+            page = doc[0]
         else:
             doc = fitz.open()
             if canvas_size is not None:
