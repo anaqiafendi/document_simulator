@@ -7,6 +7,7 @@ from PIL import Image
 
 from document_simulator.augmentation import DocumentAugmenter
 from document_simulator.ui.components.file_uploader import (
+    image_format_from_name,
     list_sample_files,
     load_path_as_pil_pages,
     pil_to_pdf_bytes,
@@ -49,6 +50,7 @@ def _init_pdf_state() -> None:
         ("aug_pdf_pages", []),
         ("aug_pdf_page_idx", 0),
         ("aug_pdf_dpi", 150),
+        ("aug_original_filename", "augmented.png"),
     ]:
         if key not in st.session_state:
             st.session_state[key] = val
@@ -102,6 +104,7 @@ if uploaded is not None:
             st.session_state["aug_is_pdf"] = True
             st.session_state["aug_pdf_pages"] = pages
             st.session_state["aug_pdf_dpi"] = 150
+            st.session_state["aug_original_filename"] = uploaded.name
             # Reset page index only when a new file is loaded
             if st.session_state.get("aug_pdf_page_idx", 0) >= len(pages):
                 st.session_state["aug_pdf_page_idx"] = 0
@@ -115,6 +118,7 @@ if uploaded is not None:
     else:
         st.session_state["aug_is_pdf"] = False
         st.session_state["aug_pdf_pages"] = []
+        st.session_state["aug_original_filename"] = uploaded.name
         state.set_uploaded_image(uploaded_file_to_pil(uploaded))
         state.set_aug_image(None)
 
@@ -142,6 +146,7 @@ if _aug_samples:
             else:
                 st.session_state["aug_is_pdf"] = False
                 st.session_state["aug_pdf_pages"] = []
+            st.session_state["aug_original_filename"] = _aug_path.name
             state.set_uploaded_image(_aug_pages[0])
             state.set_aug_image(None)
             st.rerun()
@@ -212,28 +217,26 @@ if orig is not None and aug is not None:
             }
         )
 
-    # Download buttons — PNG always available; PDF when input was a PDF
-    dl_col1, dl_col2 = st.columns([1, 1])
-    with dl_col1:
+    # Download — always use the same format as the original upload
+    original_name = st.session_state.get("aug_original_filename", "augmented.png")
+    stem = original_name.rsplit(".", 1)[0] if "." in original_name else original_name
+    if is_pdf:
+        dpi = st.session_state.get("aug_pdf_dpi", 150)
         st.download_button(
-            "⬇ Download as PNG",
-            data=image_to_bytes(aug),
-            file_name="augmented.png",
-            mime="image/png",
+            "⬇ Download as PDF",
+            data=pil_to_pdf_bytes(aug, dpi=dpi),
+            file_name=f"{stem}_augmented.pdf",
+            mime="application/pdf",
         )
-    with dl_col2:
-        if is_pdf:
-            try:
-                dpi = st.session_state.get("aug_pdf_dpi", 150)
-                pdf_out = pil_to_pdf_bytes(aug, dpi=dpi)
-                st.download_button(
-                    "⬇ Download as PDF",
-                    data=pdf_out,
-                    file_name="augmented.pdf",
-                    mime="application/pdf",
-                )
-            except ImportError:
-                st.caption("PDF download requires PyMuPDF.")
+    else:
+        pil_fmt, mime = image_format_from_name(original_name)
+        ext = original_name.rsplit(".", 1)[-1].lower() if "." in original_name else "png"
+        st.download_button(
+            f"⬇ Download as {pil_fmt}",
+            data=image_to_bytes(aug, fmt=pil_fmt),
+            file_name=f"{stem}_augmented.{ext}",
+            mime=mime,
+        )
 
 elif orig is not None:
     page_label = ""

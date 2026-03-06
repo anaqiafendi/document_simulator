@@ -195,31 +195,38 @@ def pil_to_pdf_bytes(image: Image.Image, dpi: int = 150) -> bytes:
     The page dimensions are derived from the image size at the given DPI so
     the physical size matches the original document.
 
+    Uses Pillow's native PDF writer — no PyMuPDF required.
+
     Args:
-        image: RGB PIL Image to embed.
-        dpi:   Resolution at which the image was rendered (used to compute
-               page size in points).
+        image: PIL Image to embed (any mode; converted to RGB internally).
+        dpi:   Resolution at which the image was rendered.  Used by PDF
+               readers to display the page at the correct physical size.
 
     Returns:
         PDF file as ``bytes``.
     """
-    try:
-        import fitz
-    except ImportError as exc:
-        raise ImportError(
-            "PyMuPDF is required for PDF output. "
-            "Install with: uv sync --extra synthesis"
-        ) from exc
-
-    pts_per_px = 72.0 / dpi
-    w_pt = image.width * pts_per_px
-    h_pt = image.height * pts_per_px
-
     buf = io.BytesIO()
-    image.save(buf, format="PNG")
-    img_bytes = buf.getvalue()
+    image.convert("RGB").save(buf, format="PDF", resolution=dpi)
+    return buf.getvalue()
 
-    doc = fitz.open()
-    page = doc.new_page(width=w_pt, height=h_pt)
-    page.insert_image(fitz.Rect(0, 0, w_pt, h_pt), stream=img_bytes)
-    return doc.tobytes()
+
+def image_format_from_name(filename: str) -> tuple[str, str]:
+    """Return (PIL format string, MIME type) for a given filename.
+
+    Falls back to PNG for unrecognised extensions.
+
+    Args:
+        filename: Original upload filename, e.g. ``"scan.jpg"``.
+
+    Returns:
+        Tuple of ``(pil_format, mime_type)``, e.g. ``("JPEG", "image/jpeg")``.
+    """
+    ext = filename.rsplit(".", 1)[-1].lower() if "." in filename else ""
+    mapping = {
+        "jpg": ("JPEG", "image/jpeg"),
+        "jpeg": ("JPEG", "image/jpeg"),
+        "bmp": ("BMP", "image/bmp"),
+        "tiff": ("TIFF", "image/tiff"),
+        "tif": ("TIFF", "image/tiff"),
+    }
+    return mapping.get(ext, ("PNG", "image/png"))
