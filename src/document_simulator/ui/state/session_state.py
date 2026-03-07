@@ -19,6 +19,12 @@ KEY_BATCH_INPUTS = "batch_input_images"
 KEY_BATCH_RESULTS = "batch_results"
 KEY_BATCH_ELAPSED = "batch_elapsed"
 
+# Catalogue mode keys
+KEY_AUG_MODE = "aug_mode"
+KEY_AUG_CATALOGUE_ENABLED = "aug_catalogue_enabled"
+KEY_AUG_CATALOGUE_PARAMS = "aug_catalogue_params"
+KEY_AUG_CATALOGUE_THUMBNAILS = "aug_catalogue_thumbnails"
+
 _ALL_KEYS = [
     KEY_LAST_UPLOADED_IMAGE,
     KEY_LAST_AUG_IMAGE,
@@ -31,6 +37,10 @@ _ALL_KEYS = [
     KEY_BATCH_INPUTS,
     KEY_BATCH_RESULTS,
     KEY_BATCH_ELAPSED,
+    KEY_AUG_MODE,
+    KEY_AUG_CATALOGUE_ENABLED,
+    KEY_AUG_CATALOGUE_PARAMS,
+    KEY_AUG_CATALOGUE_THUMBNAILS,
 ]
 
 
@@ -115,6 +125,37 @@ class SessionStateManager:
 
     def set_batch_elapsed(self, seconds: float) -> None:
         st.session_state[KEY_BATCH_ELAPSED] = seconds
+
+    # ── Catalogue mode ────────────────────────────────────────────────────────
+
+    def get_aug_mode(self) -> str:
+        """Return current augmentation mode: "preset" or "catalogue"."""
+        return st.session_state.get(KEY_AUG_MODE, "preset")
+
+    def set_aug_mode(self, mode: str) -> None:
+        """Set augmentation mode. Must be "preset" or "catalogue"."""
+        st.session_state[KEY_AUG_MODE] = mode
+
+    def get_aug_catalogue_enabled(self) -> Dict[str, bool]:
+        """Return dict mapping aug_name -> enabled (bool)."""
+        return st.session_state.get(KEY_AUG_CATALOGUE_ENABLED, {})
+
+    def set_aug_catalogue_enabled(self, enabled: Dict[str, bool]) -> None:
+        st.session_state[KEY_AUG_CATALOGUE_ENABLED] = enabled
+
+    def get_aug_catalogue_params(self) -> Dict[str, Dict]:
+        """Return dict mapping aug_name -> {param_key: value}."""
+        return st.session_state.get(KEY_AUG_CATALOGUE_PARAMS, {})
+
+    def set_aug_catalogue_params(self, params: Dict[str, Dict]) -> None:
+        st.session_state[KEY_AUG_CATALOGUE_PARAMS] = params
+
+    def get_aug_catalogue_thumbnails(self) -> Dict[str, bytes]:
+        """Return dict mapping aug_name -> PNG bytes of cached thumbnail."""
+        return st.session_state.get(KEY_AUG_CATALOGUE_THUMBNAILS, {})
+
+    def set_aug_catalogue_thumbnails(self, thumbnails: Dict[str, bytes]) -> None:
+        st.session_state[KEY_AUG_CATALOGUE_THUMBNAILS] = thumbnails
 
     # ── Utility ───────────────────────────────────────────────────────────────
 
