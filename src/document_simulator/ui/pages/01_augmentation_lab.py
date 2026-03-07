@@ -1,6 +1,8 @@
 """Augmentation Lab — upload a document image or PDF, pick a preset or catalogue mode."""
 
 import io
+import time
+import zipfile
 
 import numpy as np
 import streamlit as st
@@ -58,6 +60,26 @@ def _thumbnail_source(src: Image.Image, size: int = 512) -> Image.Image:
     img = src.copy().convert("RGB")
     img.thumbnail((size, size), Image.LANCZOS)
     return img
+
+
+def _build_aug_objects(enabled_aug_names: list) -> list:
+    """Instantiate augmentation objects from enabled catalogue names using stored slider state."""
+    import augraphy.augmentations as aug_module
+
+    aug_objects = []
+    for aug_name in enabled_aug_names:
+        entry = CATALOGUE[aug_name]
+        stored_override = st.session_state.get(f"aug_params_{aug_name}", {})
+        params = {**entry["default_params"], **stored_override}
+        params["p"] = 1.0
+        if aug_name in ("Brightness", "Dithering"):
+            params["numba_jit"] = 0
+        try:
+            aug_cls = getattr(aug_module, aug_name)
+            aug_objects.append(aug_cls(**params))
+        except Exception as exc:
+            st.warning(f"Skipping {aug_name}: {exc}")
+    return aug_objects
 
 
 @st.cache_data(show_spinner=False)
@@ -498,25 +520,7 @@ with tab_catalogue:
             elif not enabled_aug_names:
                 st.warning("Enable at least one augmentation.")
             else:
-                import augraphy.augmentations as aug_module
-
-                aug_objects = []
-                for aug_name in enabled_aug_names:
-                    entry = CATALOGUE[aug_name]
-                    # Merge defaults with any slider overrides set in the cards
-                    stored_override = st.session_state.get(f"aug_params_{aug_name}", {})
-                    params = {**entry["default_params"], **stored_override}
-                    # Force p=1.0 for the final run
-                    params["p"] = 1.0
-                    # Ensure numba_jit=0 for JIT-compiled augs
-                    if aug_name in ("Brightness", "Dithering"):
-                        params["numba_jit"] = 0
-                    try:
-                        aug_cls = getattr(aug_module, aug_name)
-                        aug_objects.append(aug_cls(**params))
-                    except Exception as exc:
-                        st.warning(f"Skipping {aug_name}: {exc}")
-
+                aug_objects = _build_aug_objects(enabled_aug_names)
                 if aug_objects:
                     with st.spinner("Generating with custom catalogue pipeline…"):
                         try:
@@ -542,3 +546,138 @@ with tab_catalogue:
                 mime="image/png",
                 key="aug_cat_dl",
             )
+
+        # ── Batch Run ─────────────────────────────────────────────────────────
+        st.divider()
+        with st.expander(
+            "Batch Run with this pipeline"
+            + (f" ({len(enabled_aug_names)} augmentation(s))" if enabled_aug_names else ""),
+            expanded=False,
+        ):
+            if not enabled_aug_names:
+                st.info("Enable at least one augmentation above to use batch run.")
+            else:
+                st.caption(
+                    "Upload N input documents. The catalogue pipeline above is applied to "
+                    "produce M augmented outputs, sampling randomly from your inputs."
+                )
+
+                batch_uploads = st.file_uploader(
+                    "Input templates (N documents)",
+                    type=["png", "jpg", "jpeg", "bmp", "tiff"],
+                    accept_multiple_files=True,
+                    key="aug_cat_batch_uploads",
+                )
+
+                if batch_uploads:
+                    batch_images = [uploaded_file_to_pil(f) for f in batch_uploads]
+                    st.caption(f"{len(batch_images)} template(s) loaded.")
+
+                    batch_mode = st.radio(
+                        "Output mode",
+                        ["N×M — copies per template", "M-total — random sample from N inputs"],
+                        key="aug_cat_batch_mode",
+                        horizontal=True,
+                    )
+
+                    if batch_mode.startswith("N×M"):
+                        copies = st.number_input(
+                            "Copies per template (M)",
+                            min_value=1, max_value=200, value=3,
+                            key="aug_cat_batch_copies",
+                        )
+                        eff_mode = "per_template"
+                        eff_copies = int(copies)
+                        eff_total = len(batch_images) * eff_copies
+                        st.caption(f"→ {eff_total} total outputs")
+                    else:
+                        total = st.number_input(
+                            "Total outputs (M)",
+                            min_value=1, max_value=1000, value=20,
+                            key="aug_cat_batch_total",
+                        )
+                        eff_mode = "random_sample"
+                        eff_copies = 1
+                        eff_total = int(total)
+                        st.caption(
+                            f"→ {eff_total} outputs sampled randomly from "
+                            f"{len(batch_images)} template(s)"
+                        )
+
+                    seed_raw = st.number_input(
+                        "Random seed (0 = unseeded)",
+                        min_value=0, value=0,
+                        key="aug_cat_batch_seed",
+                    )
+                    eff_seed = int(seed_raw) if seed_raw > 0 else None
+
+                    if eff_total > 50:
+                        st.warning(
+                            f"Generating {eff_total} images may take a while. "
+                            "Consider starting with a smaller number."
+                        )
+
+                    if st.button(
+                        f"Run Batch ({eff_total} outputs)",
+                        type="primary",
+                        key="aug_cat_batch_run",
+                    ):
+                        aug_objects = _build_aug_objects(enabled_aug_names)
+                        if aug_objects:
+                            from document_simulator.augmentation.batch import BatchAugmenter
+
+                            augmenter = DocumentAugmenter(custom_augmentations=aug_objects)
+                            ba = BatchAugmenter(augmenter=augmenter, num_workers=1)
+                            t0 = time.time()
+                            with st.spinner(f"Generating {eff_total} outputs…"):
+                                results = ba.augment_multi_template(
+                                    sources=batch_images,
+                                    mode=eff_mode,
+                                    copies_per_template=eff_copies,
+                                    total_outputs=eff_total,
+                                    seed=eff_seed,
+                                    parallel=False,
+                                )
+                            elapsed = time.time() - t0
+                            st.session_state["aug_cat_batch_results"] = results
+                            st.session_state["aug_cat_batch_elapsed"] = elapsed
+
+                    batch_results: list = st.session_state.get("aug_cat_batch_results", [])
+                    if batch_results:
+                        elapsed = st.session_state.get("aug_cat_batch_elapsed", 0.0)
+                        st.success(
+                            f"Generated {len(batch_results)} outputs in {elapsed:.1f}s"
+                        )
+                        st.metric("Outputs generated", len(batch_results))
+
+                        # Thumbnail preview — up to 8
+                        preview = batch_results[:8]
+                        grid_cols = st.columns(min(4, len(preview)))
+                        for i, (aug_img, stem) in enumerate(preview):
+                            with grid_cols[i % 4]:
+                                st.image(aug_img, caption=stem, use_container_width=True)
+                        if len(batch_results) > 8:
+                            st.caption(
+                                f"Showing 8 of {len(batch_results)}. "
+                                "Download ZIP for all outputs."
+                            )
+
+                        # Build and offer ZIP download
+                        zip_buf = io.BytesIO()
+                        with zipfile.ZipFile(zip_buf, "w", zipfile.ZIP_DEFLATED) as zf:
+                            stem_counts: dict = {}
+                            for aug_img, stem in batch_results:
+                                count = stem_counts.get(stem, 0)
+                                stem_counts[stem] = count + 1
+                                fname = f"{stem}_{count:03d}.png"
+                                img_buf = io.BytesIO()
+                                aug_img.save(img_buf, format="PNG")
+                                zf.writestr(fname, img_buf.getvalue())
+                        zip_buf.seek(0)
+                        st.download_button(
+                            "⬇ Download all as ZIP",
+                            data=zip_buf.getvalue(),
+                            file_name="batch_catalogue.zip",
+                            mime="application/zip",
+                            key="aug_cat_batch_dl",
+                        )
