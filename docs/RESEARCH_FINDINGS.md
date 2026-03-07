@@ -292,3 +292,155 @@ This project is highly feasible using existing open-source technologies. The rec
 - Start simple before adding RL complexity
 - Build robust ground truth management from the beginning
 - Focus on practical, incremental improvements
+
+---
+
+## 2026-03-07 — Multi-Template Batch Augmentation
+
+### Context
+
+This section documents research findings for extending the Batch Processing page
+(`src/document_simulator/ui/pages/03_batch_processing.py`) and the underlying
+`BatchAugmenter` (`src/document_simulator/augmentation/batch.py`) to support
+**multi-template batch augmentation**: given N input document images, generate M
+total augmented outputs where each output randomly picks one input as its source template.
+
+---
+
+### 1. Existing `BatchAugmenter` (`augmentation/batch.py`) — Full Analysis
+
+Current interface:
+
+```python
+class BatchAugmenter:
+    def __init__(self, augmenter="default", num_workers=4, show_progress=False)
+    def augment_batch(self, images: List[Image | Path], parallel=True) -> List[Image]
+    def augment_directory(self, input_dir, output_dir, ...) -> List[Path]
+```
+
+**Key observations:**
+
+- `augment_batch` takes a flat list of images and returns one augmented copy per input (1:1 mapping).
+- Multiprocessing is done via `multiprocessing.Pool.imap` with a top-level picklable helper `_augment_one(args)`.
+- No random seed is set anywhere — augmentation results are non-deterministic by design (Augraphy applies transforms with random intensity).
+- The existing API must remain fully backward-compatible: `augment_batch(images)` must continue to work with no new required arguments.
+
+**Extension point identified:** Add a new method `augment_multi_template` (separate from `augment_batch`) that takes `sources`, `mode`, and per-mode count parameters. This avoids any signature change to `augment_batch`.
+
+---
+
+### 2. Existing Batch Processing Page (`03_batch_processing.py`) — Full Analysis
+
+Current flow:
+1. User uploads N files (images or PDFs); PDFs expand page-by-page.
+2. Sidebar: preset selectbox, worker slider, parallel checkbox, "Run Batch Augmentation" button.
+3. On run: `BatchAugmenter(augmenter=preset, num_workers=n).augment_batch(images, parallel=parallel)`.
+4. Results stored in `state.set_batch_results(results)`.
+5. ZIP download + thumbnail grid (up to 8 before/after pairs).
+
+ZIP naming: `{original_stem}.png`. For PDFs: `{stem}_p{page}.png`.
+
+**Key design constraints:**
+- `st.download_button` is not accessible as `at.download_button` in AppTest — existing tests check `at.metric` labels only.
+- No `at.file_uploader` — tests inject images via `at.session_state`.
+- Session state key `batch_input_labels` is used for per-file display names.
+
+---
+
+### 3. Session State Keys (Existing)
+
+```python
+KEY_BATCH_INPUTS  = "batch_input_images"
+KEY_BATCH_RESULTS = "batch_results"
+KEY_BATCH_ELAPSED = "batch_elapsed"
+```
+
+No `batch_mode`, `batch_copies_per_template`, or `batch_total_outputs` keys exist yet.
+
+---
+
+### 4. Recommended Implementation Approach
+
+#### 4a. New `BatchAugmenter.augment_multi_template` method
+
+```python
+def augment_multi_template(
+    self,
+    sources: List[Image.Image],
+    mode: Literal["per_template", "random_sample"],
+    copies_per_template: int = 1,   # N×M mode
+    total_outputs: int = 10,        # M-total mode
+    seed: Optional[int] = None,
+    parallel: bool = True,
+) -> List[tuple[Image.Image, str]]:
+    """Return (augmented_image, source_stem) pairs."""
+```
+
+For **N×M mode** (`mode="per_template"`):
+- For each source, generate `copies_per_template` augmented copies.
+- Total output count = `len(sources) * copies_per_template`.
+- ZIP naming: `{source_stem}_{copy_idx:03d}.png`.
+
+For **M-total random mode** (`mode="random_sample"`):
+- Use `random.Random(seed).choices(range(len(sources)), k=total_outputs)` to sample indices with replacement.
+- Each selected source gets one augmented copy.
+- ZIP naming: `{source_stem}_{global_idx:04d}.png` (avoid collisions when the same source is picked multiple times).
+
+Seeding: use `random.Random(seed)` instance (not module-level `random.seed()`) to avoid contaminating the global state. Workers do not need seeding because Augraphy's non-determinism is a feature, not a bug, for data augmentation.
+
+#### 4b. UI changes to `03_batch_processing.py`
+
+Add a mode radio in the sidebar:
+```python
+batch_mode = st.radio(
+    "Augmentation mode",
+    ["Single template", "N×M (copies per template)", "M-total (random sample)"],
+    key="batch_mode_radio",
+)
+```
+
+Show conditional inputs:
+- N×M mode: `st.number_input("Copies per template", min_value=1, max_value=100, value=3)`
+- M-total mode: `st.number_input("Total outputs (M)", min_value=1, max_value=500, value=20)`
+- Optional seed: `st.number_input("Random seed (0 = unseeded)", min_value=0, value=0)`
+
+The existing "Single template" mode calls `augment_batch` unchanged. The two new modes call `augment_multi_template`.
+
+ZIP naming in new modes: `{source_stem}_{idx:03d}.png` — driven by `(augmented_image, source_stem)` tuples.
+
+#### 4c. Session state new keys
+
+```python
+KEY_BATCH_MODE           = "batch_mode"           # "single" | "per_template" | "random_sample"
+KEY_BATCH_COPIES_PER_TPL = "batch_copies_per_tpl" # int
+KEY_BATCH_TOTAL_OUTPUTS  = "batch_total_outputs"  # int
+KEY_BATCH_SEED           = "batch_seed"           # int | None
+```
+
+---
+
+### 5. Gotchas
+
+1. **ZIP naming collisions in M-total mode** — if the same source is picked 5 times, use a global index: `doc_0001.png`, `doc_0002.png`, etc.
+2. **Multiprocessing pickling of PIL Images** — `PIL.Image` objects are picklable. Confirmed by existing `augment_batch` implementation.
+3. **`random.choices` with seed** — use `random.Random(seed).choices(...)` not `random.seed(); random.choices(...)` to avoid global seed mutation in test environments.
+4. **Backward compatibility** — `augment_batch` signature unchanged. All 8 existing `test_batch_processing.py` tests must continue to pass.
+5. **AppTest limitation** — tests inject images via `at.session_state` and assert `at.metric` / `at.radio` widgets.
+6. **`copies_per_template` validation** — must be >= 1; raise `ValueError` for invalid input.
+7. **Large output counts** — display a warning when `total_outputs > 50`.
+
+---
+
+### 6. Dependencies
+
+No new dependencies required. Uses only stdlib `random`, existing `PIL`, `multiprocessing`, and the existing `BatchAugmenter`/`DocumentAugmenter` stack.
+
+---
+
+### Sources
+
+- Existing `src/document_simulator/augmentation/batch.py`
+- Existing `src/document_simulator/ui/pages/03_batch_processing.py`
+- Existing `tests/test_batch_processing.py` and `tests/ui/integration/test_batch_processing.py`
+- `src/document_simulator/ui/state/session_state.py` — session state patterns
+- Python `random.Random` docs for seeded instance-level randomness
