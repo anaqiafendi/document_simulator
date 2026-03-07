@@ -34,6 +34,13 @@ Each file follows [`feature_template.md`](feature_template.md) and links to the 
 | #17 | [Evaluation Dashboard](feature_ui_evaluation_dashboard.md) | `ui.pages.04_evaluation` | complete |
 | #18 | [RL Training Page](feature_ui_rl_training.md) | `ui.pages.05_rl_training` | complete |
 
+## Synthesis
+
+| # | Feature | Module | Status |
+|---|---------|--------|--------|
+| #19 | [Synthetic Document Generator](feature_synthetic_document_generator.md) | `synthesis.*` | planned |
+| #20 | [React Zone Editor UI](feature_js_zone_editor_ui.md) | `api.*` + `webapp/` | complete |
+
 ---
 
 ## Template
