@@ -33,6 +33,7 @@ Each file follows [`feature_template.md`](feature_template.md) and links to the 
 | #16 | [Batch Processing Page](feature_ui_batch_processing.md) | `ui.pages.03_batch_processing` | complete |
 | #17 | [Evaluation Dashboard](feature_ui_evaluation_dashboard.md) | `ui.pages.04_evaluation` | complete |
 | #18 | [RL Training Page](feature_ui_rl_training.md) | `ui.pages.05_rl_training` | complete |
+| #21 | [Augmentation Lab Catalogue](feature_augmentation_lab_catalogue.md) | `augmentation.catalogue` + `ui.pages.01_augmentation_lab` | in-progress |
 
 ---
 
