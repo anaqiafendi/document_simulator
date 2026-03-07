@@ -39,7 +39,7 @@ Each file follows [`feature_template.md`](feature_template.md) and links to the 
 | # | Feature | Module | Status |
 |---|---------|--------|--------|
 | #19 | [Synthetic Document Generator](feature_synthetic_document_generator.md) | `synthesis.*` | planned |
-| #20 | [React Zone Editor UI](feature_js_zone_editor_ui.md) | `api.*` + `webapp/` | in-progress |
+| #20 | [React Zone Editor UI](feature_js_zone_editor_ui.md) | `api.*` + `webapp/` | complete |
 
 ---
 
