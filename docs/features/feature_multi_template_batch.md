@@ -1,7 +1,7 @@
 # Feature: Multi-Template Batch Augmentation
 
 > **GitHub Issue:** `#22`
-> **Status:** `in-progress`
+> **Status:** `done`
 > **Module:** `document_simulator.augmentation.batch` + `document_simulator.ui.pages.03_batch_processing`
 
 ---
@@ -54,21 +54,21 @@ Streamlit UI.
 
 ## Acceptance Criteria
 
-- [ ] AC-1: `BatchAugmenter.augment_multi_template(sources, mode="per_template", copies_per_template=3)` with N=2 sources returns exactly 6 `(Image, stem)` tuples.
-- [ ] AC-2: `BatchAugmenter.augment_multi_template(sources, mode="random_sample", total_outputs=10, seed=42)` with N=3 sources returns exactly 10 tuples and the same sequence is returned with the same seed on a second call.
-- [ ] AC-3: `augment_multi_template` with `copies_per_template=0` raises `ValueError`.
-- [ ] AC-4: `augment_multi_template` with `total_outputs=0` raises `ValueError`.
-- [ ] AC-5: `augment_multi_template` with an empty `sources` list raises `ValueError`.
-- [ ] AC-6: Each returned tuple is `(PIL.Image.Image, str)` where the string is a safe filename stem.
-- [ ] AC-7: The existing `augment_batch` method signature and behaviour are unchanged; all 8 existing `test_batch_processing.py` tests pass.
-- [ ] AC-8: The Batch Processing page loads without error after UI changes.
-- [ ] AC-9: The sidebar exposes an "Augmentation mode" radio with at least three options.
-- [ ] AC-10: Selecting N×M mode shows a "Copies per template" number input.
-- [ ] AC-11: Selecting M-total mode shows a "Total outputs (M)" number input.
-- [ ] AC-12: When results from `augment_multi_template` are in session state, the "Processed" metric reflects the correct count.
-- [ ] AC-13: ZIP filename pattern for N×M mode is `{source_stem}_{copy_idx:03d}.png`.
-- [ ] AC-14: ZIP filename pattern for M-total mode is `{source_stem}_{global_idx:04d}.png`.
-- [ ] AC-15: `SessionStateManager` exposes typed getters/setters for all new batch keys.
+- [x] AC-1: `BatchAugmenter.augment_multi_template(sources, mode="per_template", copies_per_template=3)` with N=2 sources returns exactly 6 `(Image, stem)` tuples.
+- [x] AC-2: `BatchAugmenter.augment_multi_template(sources, mode="random_sample", total_outputs=10, seed=42)` with N=3 sources returns exactly 10 tuples and the same sequence is returned with the same seed on a second call.
+- [x] AC-3: `augment_multi_template` with `copies_per_template=0` raises `ValueError`.
+- [x] AC-4: `augment_multi_template` with `total_outputs=0` raises `ValueError`.
+- [x] AC-5: `augment_multi_template` with an empty `sources` list raises `ValueError`.
+- [x] AC-6: Each returned tuple is `(PIL.Image.Image, str)` where the string is a safe filename stem.
+- [x] AC-7: The existing `augment_batch` method signature and behaviour are unchanged; all 8 existing `test_batch_processing.py` tests pass.
+- [x] AC-8: The Batch Processing page loads without error after UI changes.
+- [x] AC-9: The sidebar exposes an "Augmentation mode" radio with at least three options.
+- [x] AC-10: Selecting N×M mode shows a "Copies per template" number input.
+- [x] AC-11: Selecting M-total mode shows a "Total outputs (M)" number input.
+- [x] AC-12: When results from `augment_multi_template` are in session state, the "Processed" metric reflects the correct count.
+- [x] AC-13: ZIP filename pattern for N×M mode is `{source_stem}_{copy_idx:03d}.png`.
+- [x] AC-14: ZIP filename pattern for M-total mode is `{source_stem}_{global_idx:04d}.png`.
+- [x] AC-15: `SessionStateManager` exposes typed getters/setters for all new batch keys.
 
 ---
 
@@ -197,8 +197,8 @@ No new `.env` settings. All parameters are runtime inputs via the Streamlit UI o
 
 | File | Type | Count | What is covered |
 |------|------|-------|-----------------|
-| `tests/unit/test_multi_template_batch.py` | unit | 12 | `augment_multi_template` per_template count, random_sample count, seed reproducibility, ValueError cases, stem naming, existing `augment_batch` backward compat |
-| `tests/ui/integration/test_multi_template_batch_ui.py` | integration | 8 | Page load, mode radio present, copies input for N×M, total input for M-total, metrics after results, processed count correct, existing tests still pass |
+| `tests/unit/test_multi_template_batch.py` | unit | 13 | `augment_multi_template` per_template count, random_sample count, seed reproducibility, ValueError cases, stem naming, grouping, existing `augment_batch` backward compat |
+| `tests/ui/integration/test_multi_template_batch_ui.py` | integration | 10 | Page load, run button, preset selectbox, worker slider, mode radio present, 3+ options, copies input for N×M, total input for M-total, metrics after results, processed count correct |
 
 ### TDD Cycle Summary
 
@@ -215,7 +215,7 @@ No new `.env` settings. All parameters are runtime inputs via the Streamlit UI o
 
 Added `augment_multi_template` to `BatchAugmenter` with per_template and random_sample branches.
 Added mode radio and conditional inputs to `03_batch_processing.py`. Added new keys to
-`SessionStateManager`.
+`SessionStateManager`. All 23 new tests green; all 338 project tests green.
 
 **Refactor — improvements made after green:**
 
@@ -312,6 +312,16 @@ for i, (img, stem) in enumerate(results):
 - [ ] Weighted sampling — allow per-template weights so underrepresented document types are over-sampled.
 - [ ] Progress reporting per-template in N×M mode (currently progress bar covers the full batch).
 - [ ] Support `augment_directory` multi-template variant for CLI use.
+
+---
+
+## Signoff
+
+| Role | Name | Date | Status |
+|------|------|------|--------|
+| Author | Claude Sonnet 4.6 | 2026-03-07 | approved |
+| Tests | 338 passing (23 new) | 2026-03-07 | green |
+| Branch | `feature/multi-template-batch-augmentation` | 2026-03-07 | merged via PR |
 
 ---
 
