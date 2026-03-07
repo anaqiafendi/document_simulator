@@ -53,7 +53,7 @@ def _init_pdf_state() -> None:
             st.session_state[key] = val
 
 
-def _thumbnail_source(src: Image.Image, size: int = 256) -> Image.Image:
+def _thumbnail_source(src: Image.Image, size: int = 512) -> Image.Image:
     """Return a resized copy of *src* suitable for catalogue preview."""
     img = src.copy().convert("RGB")
     img.thumbnail((size, size), Image.LANCZOS)
@@ -324,166 +324,147 @@ with tab_catalogue:
                             st.markdown(f"**{entry['display_name']}**")
                             st.caption(entry["description"])
 
-                            # Checkbox
+                            # Checkbox — controls pipeline inclusion only, not preview
                             is_enabled = st.checkbox(
-                                "Enable",
+                                "Include in pipeline",
                                 value=bool(enabled_map.get(aug_name, False)),
                                 key=f"aug_enabled_{aug_name}",
                             )
-                            # Sync enabled state back
                             enabled_map[aug_name] = is_enabled
                             st.session_state["aug_catalogue_enabled"] = enabled_map
 
-                            if entry.get("slow", False) and is_enabled:
-                                st.info("Preview skipped (slow aug). Will run on Generate.")
-                                st.image(thumb_src, use_container_width=True)
-                            elif is_enabled:
-                                # Collect params from sliders
-                                params_override: dict = {}
-                                with st.expander("Parameters"):
-                                    # Per-augmentation sliders
-                                    if aug_name == "InkBleed":
-                                        low = st.slider(
-                                            "Intensity min",
-                                            0.0, 1.0,
-                                            float(entry["default_params"]["intensity_range"][0]),
-                                            0.05,
-                                            key=f"aug_p_{aug_name}_int_low",
-                                        )
-                                        high = st.slider(
-                                            "Intensity max",
-                                            0.0, 1.0,
-                                            float(entry["default_params"]["intensity_range"][1]),
-                                            0.05,
-                                            key=f"aug_p_{aug_name}_int_high",
-                                        )
-                                        params_override["intensity_range"] = (low, high)
-                                    elif aug_name == "NoiseTexturize":
-                                        low = st.slider(
-                                            "Sigma min",
-                                            1.0, 20.0,
-                                            float(entry["default_params"]["sigma_range"][0]),
-                                            1.0,
-                                            key=f"aug_p_{aug_name}_sig_low",
-                                        )
-                                        high = st.slider(
-                                            "Sigma max",
-                                            1.0, 20.0,
-                                            float(entry["default_params"]["sigma_range"][1]),
-                                            1.0,
-                                            key=f"aug_p_{aug_name}_sig_high",
-                                        )
-                                        params_override["sigma_range"] = (low, high)
-                                    elif aug_name == "ColorShift":
-                                        offset = st.slider(
-                                            "Offset range max",
-                                            1, 50,
-                                            int(
-                                                entry["default_params"][
-                                                    "color_shift_offset_x_range"
-                                                ][1]
-                                            ),
-                                            1,
-                                            key=f"aug_p_{aug_name}_offset",
-                                        )
-                                        params_override["color_shift_offset_x_range"] = (
-                                            1,
-                                            offset,
-                                        )
-                                        params_override["color_shift_offset_y_range"] = (
-                                            1,
-                                            offset,
-                                        )
-                                    elif aug_name == "Brightness":
-                                        low = st.slider(
-                                            "Brightness min",
-                                            0.3, 1.0,
-                                            float(
-                                                entry["default_params"]["brightness_range"][0]
-                                            ),
-                                            0.05,
-                                            key=f"aug_p_{aug_name}_b_low",
-                                        )
-                                        high = st.slider(
-                                            "Brightness max",
-                                            1.0, 2.0,
-                                            float(
-                                                entry["default_params"]["brightness_range"][1]
-                                            ),
-                                            0.05,
-                                            key=f"aug_p_{aug_name}_b_high",
-                                        )
-                                        params_override["brightness_range"] = (low, high)
-                                        params_override["numba_jit"] = 0  # avoid JIT cold start
-                                    elif aug_name == "Jpeg":
-                                        low = st.slider(
-                                            "Quality min",
-                                            10, 95,
-                                            int(entry["default_params"]["quality_range"][0]),
-                                            5,
-                                            key=f"aug_p_{aug_name}_q_low",
-                                        )
-                                        high = st.slider(
-                                            "Quality max",
-                                            10, 95,
-                                            int(entry["default_params"]["quality_range"][1]),
-                                            5,
-                                            key=f"aug_p_{aug_name}_q_high",
-                                        )
-                                        params_override["quality_range"] = (low, high)
-                                    elif aug_name == "Dithering":
-                                        params_override["numba_jit"] = 0
-                                        p_val = st.slider(
-                                            "Probability",
-                                            0.0, 1.0,
-                                            float(entry["default_params"]["p"]),
-                                            0.05,
-                                            key=f"aug_p_{aug_name}_p",
-                                        )
-                                        params_override["p"] = p_val
-                                    else:
-                                        p_val = st.slider(
-                                            "Probability",
-                                            0.0, 1.0,
-                                            float(entry["default_params"].get("p", 0.9)),
-                                            0.05,
-                                            key=f"aug_p_{aug_name}_p",
-                                        )
-                                        params_override["p"] = p_val
-
-                                # Build effective params for caching key
-                                effective = {**entry["default_params"], **params_override}
-                                # Ensure p=1.0 for thumbnail (always show effect)
-                                effective["p"] = 1.0
-                                params_key = json.dumps(effective, sort_keys=True, default=str)
-
-                                # Generate / retrieve cached thumbnail
-                                cache_key = f"{aug_name}::{params_key}"
-                                if cache_key not in thumbnails:
-                                    try:
-                                        thumb_bytes = _cached_apply_single(
-                                            thumb_src_bytes, aug_name, params_key
-                                        )
-                                        thumbnails[cache_key] = thumb_bytes
-                                        st.session_state["aug_catalogue_thumbnails"] = thumbnails
-                                    except Exception as exc:
-                                        st.warning(f"Preview failed: {exc}")
-                                        thumb_bytes = thumb_src_bytes
+                            # Always show augmented preview for every card
+                            params_override: dict = {}
+                            with st.expander("Parameters"):
+                                dp = entry["default_params"]
+                                if aug_name == "InkBleed":
+                                    low = st.slider("Intensity min", 0.0, 1.0, float(dp["intensity_range"][0]), 0.05, key=f"aug_p_{aug_name}_int_low")
+                                    high = st.slider("Intensity max", 0.0, 1.0, float(dp["intensity_range"][1]), 0.05, key=f"aug_p_{aug_name}_int_high")
+                                    params_override["intensity_range"] = (low, high)
+                                elif aug_name == "BleedThrough":
+                                    low = st.slider("Intensity min", 0.01, 0.9, float(dp.get("intensity_range", (0.1, 0.3))[0]), 0.01, key=f"aug_p_{aug_name}_b_low")
+                                    high = st.slider("Intensity max", 0.01, 0.9, float(dp.get("intensity_range", (0.1, 0.3))[1]), 0.01, key=f"aug_p_{aug_name}_b_high")
+                                    params_override["intensity_range"] = (low, high)
+                                elif aug_name == "Markup":
+                                    mtype = st.selectbox("Type", ["strikethrough", "crossed", "highlight", "underline"], index=["strikethrough", "crossed", "highlight", "underline"].index(dp.get("markup_type", "strikethrough")), key=f"aug_p_{aug_name}_type")
+                                    params_override["markup_type"] = mtype
+                                    n_low = st.slider("Lines min", 1, 10, int(dp.get("num_lines_range", (2, 4))[0]), 1, key=f"aug_p_{aug_name}_n_low")
+                                    n_high = st.slider("Lines max", 1, 20, int(dp.get("num_lines_range", (2, 4))[1]), 1, key=f"aug_p_{aug_name}_n_high")
+                                    params_override["num_lines_range"] = (n_low, n_high)
+                                elif aug_name == "InkShifter":
+                                    h = st.slider("Horizontal shift", 0, 50, int(dp.get("max_shift_horizontal", 10)), 1, key=f"aug_p_{aug_name}_h")
+                                    v = st.slider("Vertical shift", 0, 50, int(dp.get("max_shift_vertical", 10)), 1, key=f"aug_p_{aug_name}_v")
+                                    params_override["max_shift_horizontal"] = h
+                                    params_override["max_shift_vertical"] = v
+                                elif aug_name == "Letterpress":
+                                    n_s = st.slider("Sample points", 50, 500, int(dp.get("n_samples", 150)), 10, key=f"aug_p_{aug_name}_ns")
+                                    n_c = st.slider("Clusters", 100, 700, int(dp.get("n_clusters", 350)), 10, key=f"aug_p_{aug_name}_nc")
+                                    params_override["n_samples"] = n_s
+                                    params_override["n_clusters"] = n_c
+                                elif aug_name == "ShadowCast":
+                                    side = st.selectbox("Shadow side", ["left", "right", "top", "bottom"], index=["left", "right", "top", "bottom"].index(dp.get("shadow_side", "left")), key=f"aug_p_{aug_name}_side")
+                                    op_low = st.slider("Opacity min", 0.1, 1.0, float(dp.get("shadow_opacity_range", (0.5, 0.8))[0]), 0.05, key=f"aug_p_{aug_name}_op_low")
+                                    op_high = st.slider("Opacity max", 0.1, 1.0, float(dp.get("shadow_opacity_range", (0.5, 0.8))[1]), 0.05, key=f"aug_p_{aug_name}_op_high")
+                                    params_override["shadow_side"] = side
+                                    params_override["shadow_opacity_range"] = (op_low, op_high)
+                                elif aug_name == "NoiseTexturize":
+                                    s_low = st.slider("Sigma min", 1.0, 20.0, float(dp["sigma_range"][0]), 1.0, key=f"aug_p_{aug_name}_sig_low")
+                                    s_high = st.slider("Sigma max", 1.0, 20.0, float(dp["sigma_range"][1]), 1.0, key=f"aug_p_{aug_name}_sig_high")
+                                    t_low = st.slider("Turbulence min", 1.0, 10.0, float(dp.get("turbulence_range", (2, 5))[0]), 0.5, key=f"aug_p_{aug_name}_t_low")
+                                    t_high = st.slider("Turbulence max", 1.0, 10.0, float(dp.get("turbulence_range", (2, 5))[1]), 0.5, key=f"aug_p_{aug_name}_t_high")
+                                    params_override["sigma_range"] = (s_low, s_high)
+                                    params_override["turbulence_range"] = (t_low, t_high)
+                                elif aug_name == "ColorShift":
+                                    offset = st.slider("Offset max (px)", 1, 50, int(dp["color_shift_offset_x_range"][1]), 1, key=f"aug_p_{aug_name}_offset")
+                                    iters = st.slider("Iterations max", 1, 8, int(dp.get("color_shift_iterations", (2, 3))[1]), 1, key=f"aug_p_{aug_name}_iters")
+                                    params_override["color_shift_offset_x_range"] = (1, offset)
+                                    params_override["color_shift_offset_y_range"] = (1, offset)
+                                    params_override["color_shift_iterations"] = (1, iters)
+                                elif aug_name == "DirtyDrum":
+                                    w_low = st.slider("Line width min", 1, 8, int(dp.get("line_width_range", (1, 4))[0]), 1, key=f"aug_p_{aug_name}_w_low")
+                                    w_high = st.slider("Line width max", 1, 8, int(dp.get("line_width_range", (1, 4))[1]), 1, key=f"aug_p_{aug_name}_w_high")
+                                    conc = st.slider("Concentration", 0.01, 0.5, float(dp.get("line_concentration", 0.1)), 0.01, key=f"aug_p_{aug_name}_conc")
+                                    params_override["line_width_range"] = (w_low, w_high)
+                                    params_override["line_concentration"] = conc
+                                elif aug_name == "DirtyRollers":
+                                    w_low = st.slider("Line width min", 1, 12, int(dp.get("line_width_range", (2, 6))[0]), 1, key=f"aug_p_{aug_name}_w_low")
+                                    w_high = st.slider("Line width max", 1, 12, int(dp.get("line_width_range", (2, 6))[1]), 1, key=f"aug_p_{aug_name}_w_high")
+                                    params_override["line_width_range"] = (w_low, w_high)
+                                elif aug_name == "SubtleNoise":
+                                    rng = st.slider("Noise range", 1, 30, int(dp.get("subtle_range", 10)), 1, key=f"aug_p_{aug_name}_range")
+                                    params_override["subtle_range"] = rng
+                                elif aug_name == "WaterMark":
+                                    word = st.text_input("Watermark text", value=dp.get("watermark_word", "DRAFT"), key=f"aug_p_{aug_name}_word")
+                                    fsize = st.slider("Font size", 20, 200, int(dp.get("watermark_font_size", 80)), 10, key=f"aug_p_{aug_name}_fsize")
+                                    rot = st.slider("Rotation (°)", 0, 360, int(dp.get("watermark_rotation", 45)), 5, key=f"aug_p_{aug_name}_rot")
+                                    params_override["watermark_word"] = word
+                                    params_override["watermark_font_size"] = fsize
+                                    params_override["watermark_rotation"] = rot
+                                    params_override["watermark_font_type"] = 0
+                                elif aug_name == "Brightness":
+                                    low = st.slider("Brightness min", 0.3, 1.0, float(dp["brightness_range"][0]), 0.05, key=f"aug_p_{aug_name}_b_low")
+                                    high = st.slider("Brightness max", 1.0, 2.0, float(dp["brightness_range"][1]), 0.05, key=f"aug_p_{aug_name}_b_high")
+                                    params_override["brightness_range"] = (low, high)
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "Gamma":
+                                    low = st.slider("Gamma min", 0.1, 2.0, float(dp.get("gamma_range", (0.5, 2.0))[0]), 0.1, key=f"aug_p_{aug_name}_g_low")
+                                    high = st.slider("Gamma max", 0.5, 4.0, float(dp.get("gamma_range", (0.5, 2.0))[1]), 0.1, key=f"aug_p_{aug_name}_g_high")
+                                    params_override["gamma_range"] = (low, high)
+                                elif aug_name == "Jpeg":
+                                    low = st.slider("Quality min", 10, 95, int(dp["quality_range"][0]), 5, key=f"aug_p_{aug_name}_q_low")
+                                    high = st.slider("Quality max", 10, 95, int(dp["quality_range"][1]), 5, key=f"aug_p_{aug_name}_q_high")
+                                    params_override["quality_range"] = (low, high)
+                                elif aug_name == "Dithering":
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "GlitchEffect":
+                                    g_low = st.slider("Glitch count min", 2, 50, int(dp.get("glitch_number_range", (8, 16))[0]), 1, key=f"aug_p_{aug_name}_g_low")
+                                    g_high = st.slider("Glitch count max", 2, 50, int(dp.get("glitch_number_range", (8, 16))[1]), 1, key=f"aug_p_{aug_name}_g_high")
+                                    s_low = st.slider("Glitch size min", 2, 100, int(dp.get("glitch_size_range", (5, 50))[0]), 1, key=f"aug_p_{aug_name}_s_low")
+                                    s_high = st.slider("Glitch size max", 2, 100, int(dp.get("glitch_size_range", (5, 50))[1]), 1, key=f"aug_p_{aug_name}_s_high")
+                                    params_override["glitch_number_range"] = (g_low, g_high)
+                                    params_override["glitch_size_range"] = (s_low, s_high)
+                                elif aug_name == "Geometric":
+                                    r_min = st.slider("Rotation min (°)", -45, 0, int(dp.get("rotate_range", (-10, 10))[0]), 1, key=f"aug_p_{aug_name}_r_min")
+                                    r_max = st.slider("Rotation max (°)", 0, 45, int(dp.get("rotate_range", (-10, 10))[1]), 1, key=f"aug_p_{aug_name}_r_max")
+                                    params_override["rotate_range"] = (r_min, r_max)
+                                elif aug_name == "Folding":
+                                    fc = st.slider("Fold count", 1, 4, int(dp.get("fold_count", 1)), 1, key=f"aug_p_{aug_name}_fc")
+                                    params_override["fold_count"] = fc
+                                elif aug_name == "BookBinding":
+                                    cdir = st.selectbox("Curling direction", ["random", "up", "down"], index=0, key=f"aug_p_{aug_name}_cdir")
+                                    params_override["curling_direction"] = cdir
                                 else:
-                                    thumb_bytes = thumbnails[cache_key]
+                                    p_val = st.slider("Probability", 0.0, 1.0, float(dp.get("p", 0.9)), 0.05, key=f"aug_p_{aug_name}_p")
+                                    params_override["p"] = p_val
 
-                                st.image(
-                                    Image.open(io.BytesIO(thumb_bytes)),
-                                    use_container_width=True,
-                                    caption=f"{entry['display_name']} preview",
-                                )
+                            # Persist slider values so Generate button picks them up
+                            st.session_state[f"aug_params_{aug_name}"] = params_override
+
+                            # Build effective params for caching key (p=1.0 to always show effect)
+                            effective = {**entry["default_params"], **params_override}
+                            effective["p"] = 1.0
+                            params_key = json.dumps(effective, sort_keys=True, default=str)
+
+                            # Generate / retrieve cached thumbnail
+                            cache_key = f"{aug_name}::{params_key}"
+                            if cache_key not in thumbnails:
+                                try:
+                                    thumb_bytes = _cached_apply_single(
+                                        thumb_src_bytes, aug_name, params_key
+                                    )
+                                    thumbnails[cache_key] = thumb_bytes
+                                    st.session_state["aug_catalogue_thumbnails"] = thumbnails
+                                except Exception as exc:
+                                    st.warning(f"Preview failed: {exc}")
+                                    thumb_bytes = thumb_src_bytes
                             else:
-                                # Disabled — show original thumbnail
-                                st.image(
-                                    thumb_src,
-                                    use_container_width=True,
-                                    caption="disabled",
-                                )
+                                thumb_bytes = thumbnails[cache_key]
+
+                            st.image(
+                                Image.open(io.BytesIO(thumb_bytes)),
+                                use_container_width=True,
+                                caption=entry["display_name"],
+                            )
 
         _render_phase_cards(phase_tab_ink, "ink")
         _render_phase_cards(phase_tab_paper, "paper")
@@ -522,11 +503,12 @@ with tab_catalogue:
                 aug_objects = []
                 for aug_name in enabled_aug_names:
                     entry = CATALOGUE[aug_name]
-                    # Build params: use slider values stored in session state keys
-                    params = dict(entry["default_params"])
+                    # Merge defaults with any slider overrides set in the cards
+                    stored_override = st.session_state.get(f"aug_params_{aug_name}", {})
+                    params = {**entry["default_params"], **stored_override}
                     # Force p=1.0 for the final run
                     params["p"] = 1.0
-                    # Apply numba_jit=0 for applicable augs
+                    # Ensure numba_jit=0 for JIT-compiled augs
                     if aug_name in ("Brightness", "Dithering"):
                         params["numba_jit"] = 0
                     try:
