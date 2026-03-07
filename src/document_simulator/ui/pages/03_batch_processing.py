@@ -18,16 +18,19 @@ from document_simulator.ui.state.session_state import SessionStateManager
 st.set_page_config(page_title="Batch Processing", page_icon="⚙️", layout="wide")
 st.title("⚙️ Batch Processing")
 st.info(
-    "**How to use:** Upload one or more document images or PDFs (PDFs are expanded "
-    "page-by-page into the batch). Select a pipeline preset and worker count in the "
-    "sidebar, then click **Run Batch Augmentation**. Download the results as a ZIP — "
-    "each file is named after its source (e.g. `report_p2.png` for page 2 of `report.pdf`). "
-    "Use this page to generate augmented training data in bulk."
+    "**How to use:** Upload one or more document images or PDFs. "
+    "Choose an augmentation mode in the sidebar: **Single template** (one augmented copy per "
+    "upload), **N×M** (M copies of every template), or **M-total** (M outputs sampled randomly "
+    "from your templates). Click **Run Batch Augmentation** and download the ZIP."
 )
 
 state = SessionStateManager()
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
+
+_MODE_SINGLE = "Single template"
+_MODE_PER_TPL = "N×M (copies per template)"
+_MODE_RANDOM = "M-total (random sample)"
 
 with st.sidebar:
     preset = st.selectbox(
@@ -35,6 +38,60 @@ with st.sidebar:
     )
     n_workers = st.slider("Workers", min_value=1, max_value=8, value=4, key="batch_workers")
     parallel = st.checkbox("Parallel processing", value=True, key="batch_parallel")
+
+    st.divider()
+
+    batch_mode_label = st.radio(
+        "Augmentation mode",
+        [_MODE_SINGLE, _MODE_PER_TPL, _MODE_RANDOM],
+        index=0,
+        key="batch_mode_radio",
+        help=(
+            "**Single template**: one augmented copy per uploaded image.  \n"
+            "**N×M**: M copies of each template (N templates × M copies = N×M outputs).  \n"
+            "**M-total**: M outputs sampled randomly from your N templates."
+        ),
+    )
+
+    copies_per_tpl = 3
+    total_outputs = 20
+    seed_value = 0
+
+    if batch_mode_label == _MODE_PER_TPL:
+        copies_per_tpl = int(
+            st.number_input(
+                "Copies per template (M)",
+                min_value=1,
+                max_value=100,
+                value=3,
+                step=1,
+                key="batch_copies_per_tpl",
+            )
+        )
+    elif batch_mode_label == _MODE_RANDOM:
+        total_outputs = int(
+            st.number_input(
+                "Total outputs (M)",
+                min_value=1,
+                max_value=500,
+                value=20,
+                step=1,
+                key="batch_total_outputs",
+            )
+        )
+        seed_value = int(
+            st.number_input(
+                "Random seed (0 = unseeded)",
+                min_value=0,
+                max_value=2**31 - 1,
+                value=0,
+                step=1,
+                key="batch_seed",
+            )
+        )
+        if total_outputs > 50:
+            st.warning(f"Generating {total_outputs} outputs may be slow.")
+
     run_btn = st.button("Run Batch Augmentation", type="primary")
 
 # ── Upload ────────────────────────────────────────────────────────────────────
@@ -75,14 +132,31 @@ if _batch_samples:
 
 if uploaded_files:
     n_files = len(uploaded_files)
-    # Count total pages (PDFs expand to multiple pages)
-    n_pages = sum(
-        len([1])  # placeholder; actual expansion happens on run
-        for _ in uploaded_files
-    )
     st.caption(f"{n_files} file(s) selected.")
 
 # ── Run ───────────────────────────────────────────────────────────────────────
+
+
+def _build_zip_multi(results_with_stems) -> bytes:
+    """Build an in-memory ZIP from (image, stem) pairs.
+
+    For N×M and M-total modes, multiple entries may share the same stem.
+    A per-stem counter ensures unique filenames.
+    """
+    buf = io.BytesIO()
+    stem_counter: dict = {}
+    with zipfile.ZipFile(buf, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        for img, stem in results_with_stems:
+            count = stem_counter.get(stem, 0)
+            stem_counter[stem] = count + 1
+            if batch_mode_label == _MODE_RANDOM:
+                filename = f"{stem}_{count:04d}.png"
+            else:
+                filename = f"{stem}_{count:03d}.png"
+            zf.writestr(filename, image_to_bytes(img))
+    buf.seek(0)
+    return buf.getvalue()
+
 
 if run_btn:
     if not uploaded_files:
@@ -96,13 +170,38 @@ if run_btn:
         t0 = time.time()
 
         batch = BatchAugmenter(augmenter=str(preset), num_workers=int(n_workers))
-        results = batch.augment_batch(images, parallel=bool(parallel))
+
+        if batch_mode_label == _MODE_SINGLE:
+            # Existing single-template path (unchanged behaviour)
+            results_images = batch.augment_batch(images, parallel=bool(parallel))
+            results_with_stems = None  # use label-based ZIP below
+        elif batch_mode_label == _MODE_PER_TPL:
+            pairs = batch.augment_multi_template(
+                images,
+                mode="per_template",
+                copies_per_template=copies_per_tpl,
+                parallel=bool(parallel),
+            )
+            results_images = [img for img, _ in pairs]
+            results_with_stems = pairs
+        else:  # M-total
+            seed_arg = seed_value if seed_value > 0 else None
+            pairs = batch.augment_multi_template(
+                images,
+                mode="random_sample",
+                total_outputs=total_outputs,
+                seed=seed_arg,
+                parallel=bool(parallel),
+            )
+            results_images = [img for img, _ in pairs]
+            results_with_stems = pairs
 
         elapsed = time.time() - t0
         progress.progress(1.0, text="Done!")
 
-        state.set_batch_results(results)
+        state.set_batch_results(results_images)
         state.set_batch_elapsed(elapsed)
+        st.session_state["_batch_results_with_stems"] = results_with_stems
 
         n_files = len(uploaded_files)
         n_pages = len(labels)
@@ -115,6 +214,7 @@ results = state.get_batch_results()
 inputs = state.get_batch_inputs()
 elapsed = state.get_batch_elapsed()
 labels = st.session_state.get("batch_input_labels", [])
+results_with_stems = st.session_state.get("_batch_results_with_stems")
 
 if results:
     n = len(results)
@@ -123,28 +223,33 @@ if results:
     c2.metric("Time (s)", f"{elapsed:.1f}")
     c3.metric("Throughput", f"{n / elapsed:.1f} img/s" if elapsed > 0 else "—")
 
-    # Build ZIP in memory — use labels for filenames when available
-    buf = io.BytesIO()
-    with zipfile.ZipFile(buf, "w", compression=zipfile.ZIP_DEFLATED) as zf:
-        for i, img in enumerate(results):
-            if i < len(labels):
-                safe_name = (
-                    labels[i]
-                    .replace(" — page ", "_p")
-                    .replace("/", "_")
-                    .replace("\\", "_")
-                )
-                # Strip original extension and add .png
-                stem = safe_name.rsplit(".", 1)[0] if "." in safe_name else safe_name
-                filename = f"{stem}.png"
-            else:
-                filename = f"augmented_{i:04d}.png"
-            zf.writestr(filename, image_to_bytes(img))
-    buf.seek(0)
+    # Build ZIP in memory
+    if results_with_stems is not None:
+        # N×M or M-total: use stem-based naming
+        zip_bytes = _build_zip_multi(results_with_stems)
+    else:
+        # Single-template: use original label-based naming
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+            for i, img in enumerate(results):
+                if i < len(labels):
+                    safe_name = (
+                        labels[i]
+                        .replace(" — page ", "_p")
+                        .replace("/", "_")
+                        .replace("\\", "_")
+                    )
+                    stem = safe_name.rsplit(".", 1)[0] if "." in safe_name else safe_name
+                    filename = f"{stem}.png"
+                else:
+                    filename = f"augmented_{i:04d}.png"
+                zf.writestr(filename, image_to_bytes(img))
+        buf.seek(0)
+        zip_bytes = buf.getvalue()
 
     st.download_button(
         "Download all as ZIP",
-        data=buf.getvalue(),
+        data=zip_bytes,
         file_name="augmented_batch.zip",
         mime="application/zip",
     )
