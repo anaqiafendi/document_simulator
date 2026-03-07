@@ -7,6 +7,8 @@ import io
 import zipfile
 from typing import Annotated
 
+from pathlib import Path
+
 from fastapi import APIRouter, BackgroundTasks, Form, HTTPException, UploadFile
 from fastapi.responses import StreamingResponse
 from loguru import logger
@@ -30,6 +32,9 @@ router = APIRouter()
 
 _ALLOWED_IMAGE_EXTS = {".png", ".jpg", ".jpeg"}
 _ALLOWED_PDF_EXTS = {".pdf"}
+_ALLOWED_EXTS = _ALLOWED_IMAGE_EXTS | _ALLOWED_PDF_EXTS
+
+_SAMPLES_DIR = Path(__file__).resolve().parents[4] / "data" / "samples" / "synthetic_generator"
 
 
 def _pil_to_png_b64(img: Image.Image) -> str:
@@ -226,6 +231,31 @@ def download_job(job_id: str) -> StreamingResponse:
         media_type="application/zip",
         headers={"Content-Disposition": "attachment; filename=synthetic_documents.zip"},
     )
+
+
+@router.get("/api/samples")
+def list_samples() -> dict:
+    """List available sample template files."""
+    if not _SAMPLES_DIR.exists():
+        return {"samples": []}
+    files = sorted(
+        f.name for f in _SAMPLES_DIR.iterdir()
+        if f.suffix.lower() in _ALLOWED_EXTS and not f.name.startswith(".")
+    )
+    return {"samples": files}
+
+
+@router.get("/api/samples/{filename}", response_model=TemplateResponse)
+def load_sample(filename: str, dpi: int = 150, page: int = 0) -> TemplateResponse:
+    """Render a sample file from disk and return as base64 PNG."""
+    safe_name = Path(filename).name  # prevent path traversal
+    sample_path = _SAMPLES_DIR / safe_name
+    if not sample_path.exists():
+        raise HTTPException(status_code=404, detail=f"Sample '{safe_name}' not found.")
+    file_bytes = sample_path.read_bytes()
+    img, is_pdf = _render_template_bytes(file_bytes, safe_name, dpi=dpi, page=page)
+    logger.info(f"Sample loaded: {safe_name!r} → {img.width}×{img.height}px")
+    return TemplateResponse(image_b64=_pil_to_png_b64(img), width_px=img.width, height_px=img.height, dpi=dpi, is_pdf=is_pdf)
 
 
 @router.get("/api/config/schema")

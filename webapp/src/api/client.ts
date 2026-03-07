@@ -12,6 +12,19 @@ export async function uploadTemplate(file: File, dpi = 150, page = 0): Promise<T
   return r.json()
 }
 
+export async function listSamples(): Promise<string[]> {
+  const r = await fetch(`${BASE}/api/samples`)
+  if (!r.ok) throw new Error(`Failed to list samples: ${r.status}`)
+  const data = await r.json()
+  return data.samples as string[]
+}
+
+export async function loadSample(filename: string, dpi = 150): Promise<TemplateInfo> {
+  const r = await fetch(`${BASE}/api/samples/${encodeURIComponent(filename)}?dpi=${dpi}`)
+  if (!r.ok) throw new Error(`Failed to load sample: ${r.status}`)
+  return r.json()
+}
+
 export async function fetchPreviews(
   synthesisConfig: SynthesisConfig,
   seeds: number[] = [42, 43, 44]
