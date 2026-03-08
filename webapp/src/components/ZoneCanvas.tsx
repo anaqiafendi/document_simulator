@@ -284,13 +284,9 @@ export default function ZoneCanvas({
               const respondent = respondents[respondentIdx]
               const fieldType = respondent?.field_types.find(ft => ft.field_type_id === zone.field_type_id)
                 ?? respondent?.field_types[0]
-              const rawFontSize = fieldType
-                ? Math.round(
-                    (fieldType.font_size_range[0] +
-                      Math.random() * (fieldType.font_size_range[1] - fieldType.font_size_range[0])) *
-                      displayScale
-                  )
-                : 11
+              // Font size is sampled once per (respondent, field_type) in useZonePreview
+              // and stored in preview.fontSize (document pixels). Scale for canvas display.
+              const rawFontSize = Math.round((zonePreviews[zone.zone_id]?.fontSize ?? fieldType?.font_size_range[0] ?? 12) * displayScale)
               const fontSize = Math.max(9, Math.min(rawFontSize, 32))
               const fontFamily = FONT_FAMILY_MAP[fieldType?.font_family ?? 'sans-serif'] ?? 'Arial'
               const fontColor = fieldType?.font_color ?? '#000000'

@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useRef, useState } from 'react'
 import type { ZoneConfig } from '../types'
 import { generateFakerValue } from '../utils/faker'
 
@@ -8,6 +8,8 @@ export interface ZonePreviewData {
   dx: number
   /** y offset as fraction of zone height (mirrors Python _apply_jitter mean_y logic) */
   dy: number
+  /** Font size in document pixels, sampled once per (respondent, field_type) pair */
+  fontSize: number
 }
 
 // Box-Muller transform — matches Python's random.gauss() distribution
@@ -32,25 +34,42 @@ function sampleFraction(jitter: number, meanFraction: number, defaultFraction: n
   return meanFraction // Python's fallback
 }
 
-function makePreview(provider: string, jitter_x: number, jitter_y: number): ZonePreviewData {
+function makePreview(provider: string, jitter_x: number, jitter_y: number, fontSize: number): ZonePreviewData {
   return {
     text: generateFakerValue(provider),
     // Python: jitter_x=0 → x1 + 0.05*w; jitter_x>0 → Gaussian(mean=0.12, σ=jitter_x)
     dx: sampleFraction(jitter_x, 0.12, 0.05),
     // Python: jitter_y=0 → y1 + 0.10*h; jitter_y>0 → Gaussian(mean=0.50, σ=jitter_y)
     dy: sampleFraction(jitter_y, 0.50, 0.10),
+    fontSize,
   }
 }
 
 export function useZonePreview() {
   const [previews, setPreviews] = useState<Record<string, ZonePreviewData>>({})
+  // Cache one font size per (respondent_id, field_type_id) so all zones sharing a
+  // writing style render at the same size, while still being random within the range.
+  const fontSizeCache = useRef<Record<string, number>>({})
 
-  const initZone = useCallback((zone: ZoneConfig, jitter_x = 0, jitter_y = 0) => {
-    setPreviews(prev => ({ ...prev, [zone.zone_id]: makePreview(zone.faker_provider, jitter_x, jitter_y) }))
+  const getOrSampleFontSize = (respondentId: string, fieldTypeId: string, range: [number, number]): number => {
+    const key = `${respondentId}:${fieldTypeId}`
+    if (fontSizeCache.current[key] === undefined) {
+      fontSizeCache.current[key] = Math.round(range[0] + Math.random() * (range[1] - range[0]))
+    }
+    return fontSizeCache.current[key]
+  }
+
+  const initZone = useCallback((zone: ZoneConfig, jitter_x = 0, jitter_y = 0, font_size_range: [number, number] = [12, 12]) => {
+    const fontSize = getOrSampleFontSize(zone.respondent_id, zone.field_type_id ?? '', font_size_range)
+    setPreviews(prev => ({ ...prev, [zone.zone_id]: makePreview(zone.faker_provider, jitter_x, jitter_y, fontSize) }))
   }, [])
 
   const rerollZone = useCallback((zone_id: string, provider: string, jitter_x = 0, jitter_y = 0) => {
-    setPreviews(prev => ({ ...prev, [zone_id]: makePreview(provider, jitter_x, jitter_y) }))
+    // Keep the existing cached font size — only text and position reroll
+    setPreviews(prev => {
+      const existing = prev[zone_id]
+      return { ...prev, [zone_id]: makePreview(provider, jitter_x, jitter_y, existing?.fontSize ?? 12) }
+    })
   }, [])
 
   const removeZone = useCallback((zone_id: string) => {
@@ -61,5 +80,10 @@ export function useZonePreview() {
     })
   }, [])
 
-  return { previews, initZone, rerollZone, removeZone }
+  // Call when font_size_range changes so the next initZone/rerollZone resamples
+  const clearFieldTypeFontSize = useCallback((respondentId: string, fieldTypeId: string) => {
+    delete fontSizeCache.current[`${respondentId}:${fieldTypeId}`]
+  }, [])
+
+  return { previews, initZone, rerollZone, removeZone, clearFieldTypeFontSize }
 }

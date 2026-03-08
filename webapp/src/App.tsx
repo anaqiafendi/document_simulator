@@ -63,12 +63,12 @@ export default function App() {
     return { jitter_x: ft?.jitter_x ?? 0, jitter_y: ft?.jitter_y ?? 0 }
   }
 
-  // Wrap addZone to also initialise faker preview text with jitter offsets
+  // Wrap addZone to also initialise faker preview text with jitter offsets and font size
   const handleZoneDrawn = (partial: Omit<ZoneConfig, 'zone_id'>) => {
     const newZone = zones.addZone(partial)
     const r = respondents.respondents.find(r => r.respondent_id === partial.respondent_id)
     const ft = r?.field_types.find(ft => ft.field_type_id === partial.field_type_id) ?? r?.field_types[0]
-    zonePreview.initZone(newZone, ft?.jitter_x ?? 0, ft?.jitter_y ?? 0)
+    zonePreview.initZone(newZone, ft?.jitter_x ?? 0, ft?.jitter_y ?? 0, ft?.font_size_range ?? [12, 12])
   }
 
   // Wrap removeZone to also remove preview text
@@ -87,13 +87,17 @@ export default function App() {
     }
   }
 
-  // When jitter sliders change on a field type, reroll all zones using that field type
+  // When field type properties change, reroll affected zones
   const handleUpdateFieldType = (respondentId: string, ftId: string, patch: Partial<import('./types').FieldTypeConfig>) => {
     respondents.updateFieldType(respondentId, ftId, patch)
+    const r = respondents.respondents.find(r => r.respondent_id === respondentId)
+    const ft = r?.field_types.find(ft => ft.field_type_id === ftId)
+    if (!ft) return
+    // When font_size_range changes, clear the cached size so next reroll resamples
+    if (patch.font_size_range) {
+      zonePreview.clearFieldTypeFontSize(respondentId, ftId)
+    }
     if (patch.jitter_x !== undefined || patch.jitter_y !== undefined) {
-      const r = respondents.respondents.find(r => r.respondent_id === respondentId)
-      const ft = r?.field_types.find(ft => ft.field_type_id === ftId)
-      if (!ft) return
       const jx = patch.jitter_x ?? ft.jitter_x
       const jy = patch.jitter_y ?? ft.jitter_y
       zones.zones
