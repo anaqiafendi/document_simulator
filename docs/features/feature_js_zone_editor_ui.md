@@ -53,8 +53,8 @@ Beyond the immediate breakage, Streamlit's architecture is fundamentally unsuite
 - [x] AC-4: `POST /api/preview` with a valid `SynthesisConfig` body returns HTTP 200 with a `samples` array of exactly 3 objects, each with `image_b64` and `seed`.
 - [x] AC-5: `POST /api/generate` with `n=5` returns HTTP 202 with `job_id`; polling `GET /api/jobs/{job_id}` eventually returns `status: "done"`; `GET /api/jobs/{job_id}/download` returns a ZIP with 5 PNGs and 5 JSONs, each JSON parseable by `GroundTruth.model_validate_json()`.
 - [x] AC-6: After `make build-frontend`, opening `http://localhost:8000` loads the React app without console errors.
-- [x] AC-7: Uploading a PNG in the React app renders it on a background layer (static `<img>` for MVP; Konva stage is deferred to Future Work per plan).
-- [x] AC-8: Drawing a rectangle on the Konva stage adds one entry to the zone list panel. *(UI scaffold complete; Konva zone drawing is Future Work per plan; add/remove zones via manual entry)*
+- [x] AC-7: Uploading a PNG or PDF renders it as the background of the Konva stage (server-side PyMuPDF render → base64 PNG; Konva `KonvaImage` layer). *(original MVP note superseded — Konva stage is fully implemented)*
+- [x] AC-8: Drawing a rectangle on the Konva stage (Draw mode) adds one zone entry nested under the active respondent's card in the sidebar. *(original "Future Work" note superseded — Konva zone drawing is fully implemented)*
 - [x] AC-9: The respondent panel supports adding/removing respondents and field types via buttons.
 - [x] AC-10: The zone list panel shows a respondent selectbox for each drawn zone.
 - [x] AC-11: Clicking "Preview" shows 3 preview images in a 3-column grid (fetched from `/api/preview`).
@@ -62,6 +62,36 @@ Beyond the immediate breakage, Streamlit's architecture is fundamentally unsuite
 - [x] AC-13: Clicking "Generate batch" polls progress and presents a "Download ZIP" link when complete.
 - [x] AC-14: The Streamlit page `00_synthetic_generator.py` shows a link to `http://localhost:8000` without error.
 - [x] AC-15: All existing Streamlit page tests (excluding the replaced `test_synthetic_generator.py` integration tests) pass unchanged.
+- [x] AC-16: Zones drawn on the canvas are color-coded by respondent (8-color palette, `utils/colors.ts`); color is consistent across the zone Rect stroke, floating label pill, and sidebar card border.
+  > *Refined during implementation: Multiple respondents sharing overlapping zones made it impossible to identify ownership at a glance.*
+- [x] AC-17: A floating label pill is rendered above each zone on the canvas (inside the top edge when `sy < 18 px`) showing `"{zone.label} · {faker_type}"` in the respondent color with white bold text.
+  > *Refined during implementation: Users couldn't identify a zone's purpose without mousing into the sidebar; a persistent above-zone pill provides immediate context.*
+- [x] AC-18: Live faker preview text is rendered inside each zone on the canvas at a jitter-offset position mirroring Python's `_apply_jitter` — Box-Muller Gaussian with `mean_x = 0.12 × w`, `mean_y = 0.50 × h` when jitter > 0; fixed offsets `0.05 × w`, `0.10 × h` when jitter = 0.
+  > *Refined during implementation: Without visual feedback users drew zones too small for the generated text or misunderstood how jitter would position it.*
+- [x] AC-19: Changing `jitter_x` / `jitter_y` sliders for a field type immediately re-rolls canvas preview text for all zones using that field type.
+  > *Refined during implementation: Jitter params were wired only to the Python generator; the JS preview continued showing text at a hardcoded position regardless of slider values.*
+- [x] AC-20: Zones are nested under respondent cards in a collapsible "Zones (N)" accordion alongside the existing "Writing styles" accordion, replacing the standalone `ZoneList` component.
+  > *Refined during implementation: A flat zone list gave no spatial grouping cue; nesting under the owning respondent mirrors the mental model.*
+- [x] AC-21: Clicking a zone on the canvas scrolls the sidebar to the matching zone row and expands its respondent card's Zones accordion if collapsed.
+  > *Refined during implementation: With many zones the sidebar and canvas fell out of sync; auto-scroll restores the correspondence.*
+- [x] AC-22: Zone respondent can be reassigned from a dropdown in the sidebar zone row; `field_type_id` is auto-reset to the new respondent's first field type on reassignment.
+  > *Refined during implementation: Zones drawn under the wrong respondent had no correction path short of delete + redraw.*
+- [x] AC-23: Zones are draggable in both Draw and Select modes; the Konva `Transformer` resize handles appear for the selected zone regardless of current mode.
+  > *Refined during implementation: Requiring a mode switch to move an existing zone created unnecessary friction.*
+- [x] AC-24: Draw mode does not auto-switch to Select after drawing a zone; the user can immediately begin drawing the next zone without pressing the Draw button.
+  > *Refined during implementation: An earlier "click zone → switch mode" enhancement broke the multi-zone draw workflow by switching modes on the newly created zone.*
+- [x] AC-25: The rotation handle uses a 20 px leader line (reduced from the 50 px Konva default), a circular anchor (white fill, blue stroke), and snaps to 45° increments when the user holds Shift during rotation.
+  > *Refined during implementation: Default Transformer UX (long leader, square anchor, no snapping) was unintuitive and did not match standard editor conventions.*
+- [x] AC-26: The cursor changes to `pointer` when hovering over a zone, `move` in Select mode, and `grabbing` during a drag operation; the Stage cursor is `crosshair` in Draw mode and `default` otherwise.
+  > *Refined during implementation: Without cursor feedback zones appeared non-interactive and users did not discover they could drag them.*
+- [x] AC-27: Pressing Delete or Backspace when a zone is selected removes it; the shortcut is suppressed when `document.activeElement` is an `<input>` or `<textarea>`.
+  > *Refined during implementation: The only delete path was a tiny × button in the sidebar; keyboard delete is the standard expectation.*
+- [x] AC-28: Clicking on the empty canvas background (Stage, not a zone Rect) deselects the current zone and hides the Transformer handles.
+  > *Refined during implementation: There was no affordance to dismiss the selection state; the canvas felt "stuck" with handles always showing.*
+- [x] AC-29: `DIST_DIR` in `app.py` is resolved as `Path(__file__).resolve().parents[3] / "webapp" / "dist"` (not `parents[4]`), ensuring the React SPA is correctly served from port 8000 after `npm run build`.
+  > *Refined during implementation: The off-by-one parent index caused `DIST_DIR.is_dir()` to always return `False`, so the SPA was never mounted and `/api/template` appeared to return 404 when the Vite proxy could not reach the backend.*
+- [x] AC-30: `GET /api/samples` lists `.pdf`/`.png`/`.jpg`/`.jpeg` files from `data/samples/synthetic_generator/`; `GET /api/samples/{filename}` renders and returns the file as a `TemplateResponse`, enabling template selection without local file upload.
+  > *Refined during implementation: Testers needed to repeatedly upload the same development fixture files; a server-side sample picker eliminates the round-trip.*
 
 ---
 
@@ -137,9 +167,10 @@ USER                         REACT SPA (:8000)              FASTAPI (:8000)     
 | `document_simulator.api.models.PreviewResponse` | Pydantic | API response schema for preview generation |
 | `document_simulator.api.models.GenerateRequest` | Pydantic | API request schema for batch generation |
 | `document_simulator.api.jobs.JobStore` | class | In-memory job state tracker (dict-based) |
-| `webapp/src/components/ZoneCanvas.tsx` | React component | Konva stage; zone drawing + selection |
-| `webapp/src/components/RespondentPanel.tsx` | React component | Respondent and field-type CRUD UI |
-| `webapp/src/components/ZoneList.tsx` | React component | Per-zone configuration (label, respondent, faker provider) |
+| `webapp/src/components/ZoneCanvas.tsx` | React component | Konva stage; Draw/Select modes, drag, resize, rotate, Delete key, deselect-on-background |
+| `webapp/src/components/RespondentPanel.tsx` | React component | Respondent + field-type CRUD; zones nested per respondent with reassignment dropdown |
+| `webapp/src/components/ZoneList.tsx` | React component | Legacy flat zone list (superseded by nested zones in `RespondentPanel`; retained for reference) |
+| `webapp/src/hooks/useZonePreview.ts` | React hook | Per-zone faker text + jitter dx/dy state; `initZone`, `rerollZone`, `removeZone` |
 | `webapp/src/components/PreviewGallery.tsx` | React component | 3-column preview grid with re-roll buttons |
 | `webapp/src/components/BatchGeneratePanel.tsx` | React component | Batch generation trigger, progress, ZIP download |
 | `webapp/src/api/client.ts` | TS module | Typed async fetch wrappers for all API endpoints |
@@ -215,6 +246,10 @@ USER                         REACT SPA (:8000)              FASTAPI (:8000)     
 | `webapp/src/components/BatchGeneratePanel.tsx` | n input, generate button, progress, ZIP download |
 | `webapp/src/components/ConfigPanel.tsx` | Save/load `SynthesisConfig` as JSON |
 | `webapp/src/components/StatusBar.tsx` | Server health status indicator |
+| `webapp/src/components/FontSelect.tsx` | Portal-based font family dropdown (escapes `overflow:auto` sidebar clipping via `createPortal` + `position:fixed`) |
+| `webapp/src/hooks/useZonePreview.ts` | Zone preview text + jitter offset state; Box-Muller Gaussian matching Python `_apply_jitter` |
+| `webapp/src/utils/colors.ts` | 8-color respondent palette; `getRespondentColor(index)` |
+| `webapp/src/utils/faker.ts` | `FAKER_PROVIDERS` map, `generateFakerValue(provider)`, `fakerLabel(provider)` |
 | `webapp/.gitignore` | Ignores `node_modules/`, `dist/` |
 | `Makefile` | Targets: `build-frontend`, `dev-api`, `dev-ui` |
 
@@ -299,7 +334,33 @@ uv run pytest tests/ui/integration/test_synthetic_generator.py -v
 
 ### Bugs Fixed Post-Implementation
 
-- **`POST /api/preview` accepted invalid `SynthesisConfig` dicts with 422 expected but 200 returned** — Pydantic ignores extra keys by default and all `SynthesisConfig` fields are optional, so `{"bad_field": "bad_value"}` passed validation. Fixed by adding `_validate_synthesis_config_strict()` in the router that raises 422 when the dict contains only unrecognized keys (no known top-level fields present).
+**Bug 1 — `POST /api/preview` silently accepted all-unknown `SynthesisConfig` fields**
+
+- **Symptom:** `{"bad_field": "bad_value"}` returned HTTP 200 instead of 422.
+- **Root cause:** Pydantic ignores extra keys by default and all `SynthesisConfig` fields are optional, so an entirely unknown dict passed validation.
+- **Fix:** Added `_validate_synthesis_config_strict()` in the router — raises 422 when the incoming dict contains no keys matching any known `SynthesisConfig` field.
+- **Regression test:** `tests/api/test_preview_endpoint.py::test_post_preview_all_unknown_fields_returns_422`
+
+**Bug 2 — FontSelect dropdown clipped by sidebar `overflow:auto` scroll container**
+
+- **Symptom:** Opening the font family dropdown in the `FieldTypeCard` showed only the top edge of the menu; scrolling was impossible.
+- **Root cause:** The sidebar panel has `overflowY: auto`; the dropdown's `position: absolute` was clipped to the scrollable container's paint boundary.
+- **Fix:** Rewrote `FontSelect.tsx` to render the dropdown via `ReactDOM.createPortal` directly into `document.body` with `position: fixed` and coordinates from `getBoundingClientRect()`. Close-on-outside-mousedown and scroll listeners clean up the portal.
+- **Regression test:** none (visual/interaction only)
+
+**Bug 3 — `DIST_DIR` path off-by-one: React SPA never served from port 8000**
+
+- **Symptom:** After `npm run build`, accessing `http://localhost:8000` returned FastAPI's default "Not Found" response; the Vite dev-server proxy silently returned 404 when the backend was unavailable.
+- **Root cause:** `DIST_DIR = Path(__file__).resolve().parents[4] / "webapp" / "dist"` resolves one level above the project root (`document_simulator.worktrees/`), producing a path that never exists.
+- **Fix:** Changed to `parents[3]` — resolves to `feature-js-synthetic-doc-generator-ui/webapp/dist`, which is the correct path.
+- **Regression test:** none (startup-time path check)
+
+**Bug 4 — Drawing a zone auto-switched to Select mode, breaking multi-zone draw flow**
+
+- **Symptom:** After drawing one zone, the user was unable to draw a second without manually clicking the Draw button; the canvas immediately entered Select mode.
+- **Root cause:** The zone `onClick` handler called `setMode('select')` as part of Enhancement 1 (click zone → highlight in sidebar). The Konva `onClick` fired on the newly rendered zone Rect before the user could release and reposition the cursor.
+- **Fix:** Removed `setMode('select')` from the zone `onClick` handler. Zone click now only calls `onZoneSelect(zone.zone_id)` (sidebar highlight + scroll). Mode switching back to Select is only triggered by the explicit Select button in the toolbar.
+- **Regression test:** none (interaction flow only)
 
 ---
 
@@ -379,6 +440,14 @@ cd webapp && npm run dev
 - [ ] Async preview endpoint using `BackgroundTasks` if 3-sample latency exceeds 3 seconds in practice.
 - [ ] PDF AcroForm auto-detection to suggest zone placement from an existing form's field widgets.
 - [ ] Dark mode for the React SPA.
+
+---
+
+## Signoff
+
+| Date | Branch | Tests passing | Notes |
+|------|--------|--------------|-------|
+| 2026-03-08 | `feature/js-synthetic-doc-generator-ui` | 27 (API) | All ACs met; 15 refined ACs added; 4 bugs documented |
 
 ---
 

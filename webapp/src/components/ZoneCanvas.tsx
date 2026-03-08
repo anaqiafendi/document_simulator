@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Konva from 'konva'
 import { Stage, Layer, Image as KonvaImage, Rect, Text, Group, Transformer } from 'react-konva'
 import type { TemplateInfo, ZoneConfig, RespondentConfig } from '../types'
@@ -12,6 +12,9 @@ const FONT_FAMILY_MAP: Record<string, string> = {
   'monospace':   'Courier New',
   'handwriting': 'cursive',
 }
+
+// Degrees to snap to when Shift is held during rotation
+const ROTATION_SNAPS = [0, 45, 90, 135, 180, 225, 270, 315]
 
 function boxToRect(box: number[][]) {
   const x = Math.min(box[0][0], box[2][0])
@@ -34,6 +37,7 @@ interface Props {
   onZoneDrawn: (partial: Omit<ZoneConfig, 'zone_id'>) => void
   onZoneSelect: (id: string | null) => void
   onZoneUpdate: (id: string, patch: Partial<ZoneConfig>) => void
+  onZoneRemove: (id: string) => void
 }
 
 export default function ZoneCanvas({
@@ -45,6 +49,7 @@ export default function ZoneCanvas({
   onZoneDrawn,
   onZoneSelect,
   onZoneUpdate,
+  onZoneRemove,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
   const stageRef = useRef<Konva.Stage>(null)
@@ -56,12 +61,18 @@ export default function ZoneCanvas({
   const [mode, setMode] = useState<'draw' | 'select'>('draw')
   const [drawing, setDrawing] = useState<{ x: number; y: number; w: number; h: number } | null>(null)
   const drawStart = useRef<{ x: number; y: number } | null>(null)
+  // #4: track Shift key for rotation snapping
+  const [shiftHeld, setShiftHeld] = useState(false)
 
   const [activeRespondentId, setActiveRespondentId] = useState(respondents[0]?.respondent_id ?? 'default')
   const [activeFieldTypeId, setActiveFieldTypeId] = useState(respondents[0]?.field_types[0]?.field_type_id ?? 'standard')
 
   const displayScale = stageWidth / templateInfo.width_px
   const stageHeight = Math.round(templateInfo.height_px * displayScale)
+
+  const setCursor = (cursor: string) => {
+    if (stageRef.current) stageRef.current.container().style.cursor = cursor
+  }
 
   useEffect(() => {
     const el = containerRef.current
@@ -79,7 +90,7 @@ export default function ZoneCanvas({
     img.src = `data:image/png;base64,${templateInfo.image_b64}`
   }, [templateInfo.image_b64])
 
-  // Enhancement 3: show transformer for selected zone regardless of mode
+  // Show transformer for selected zone regardless of mode
   useEffect(() => {
     const tr = transformerRef.current
     if (!tr) return
@@ -91,6 +102,29 @@ export default function ZoneCanvas({
     }
     tr.getLayer()?.batchDraw()
   }, [selectedId, mode, zones])
+
+  // #4: Shift key tracking for rotation snaps
+  useEffect(() => {
+    const down = (e: KeyboardEvent) => { if (e.key === 'Shift') setShiftHeld(true) }
+    const up = (e: KeyboardEvent) => { if (e.key === 'Shift') setShiftHeld(false) }
+    window.addEventListener('keydown', down)
+    window.addEventListener('keyup', up)
+    return () => { window.removeEventListener('keydown', down); window.removeEventListener('keyup', up) }
+  }, [])
+
+  // #5: Delete key removes selected zone
+  useEffect(() => {
+    const handle = (e: KeyboardEvent) => {
+      if ((e.key === 'Delete' || e.key === 'Backspace') && selectedId) {
+        // Don't fire when user is typing in an input
+        if (document.activeElement?.tagName === 'INPUT' || document.activeElement?.tagName === 'TEXTAREA') return
+        onZoneRemove(selectedId)
+        onZoneSelect(null)
+      }
+    }
+    window.addEventListener('keydown', handle)
+    return () => window.removeEventListener('keydown', handle)
+  }, [selectedId, onZoneRemove, onZoneSelect])
 
   useEffect(() => {
     if (!respondents.find(r => r.respondent_id === activeRespondentId)) {
@@ -110,6 +144,7 @@ export default function ZoneCanvas({
 
   const handleMouseDown = (e: Konva.KonvaEventObject<MouseEvent>) => {
     if (mode !== 'draw') return
+    // Don't start a draw when clicking an existing zone rect
     if ((e.target as Konva.Node).id().startsWith('zone-')) return
     const pos = getDocPos()
     if (!pos) return
@@ -142,6 +177,14 @@ export default function ZoneCanvas({
       custom_values: [],
       alignment: 'left',
     })
+    // #1: stay in Draw mode after creating a zone — user can immediately draw another
+  }
+
+  // #6: click on Stage background deselects
+  const handleStageClick = (e: Konva.KonvaEventObject<MouseEvent>) => {
+    if (e.target === stageRef.current) {
+      onZoneSelect(null)
+    }
   }
 
   const activeRespondent = respondents.find(r => r.respondent_id === activeRespondentId)
@@ -157,7 +200,9 @@ export default function ZoneCanvas({
           Select
         </button>
         <span style={{ fontSize: 12, color: '#777', marginLeft: 4 }}>
-          {mode === 'draw' ? 'Drag to draw a zone' : 'Click to select · drag to move · handles to resize'}
+          {mode === 'draw'
+            ? 'Drag to draw · click zone to highlight · Del to delete selected'
+            : 'Click to select · drag to move · handles to resize/rotate · Shift+rotate snaps 45°'}
         </span>
         <span style={{ marginLeft: 'auto', fontSize: 12, display: 'flex', gap: 6, alignItems: 'center', flexWrap: 'wrap' }}>
           {/* Active respondent colour dot */}
@@ -195,6 +240,7 @@ export default function ZoneCanvas({
           onMouseDown={handleMouseDown}
           onMouseMove={handleMouseMove}
           onMouseUp={handleMouseUp}
+          onClick={handleStageClick}
           style={{ cursor: mode === 'draw' ? 'crosshair' : 'default' }}
         >
           <Layer listening={false}>
@@ -226,22 +272,17 @@ export default function ZoneCanvas({
 
               const preview = zonePreviews[zone.zone_id]
               const previewText = preview?.text ?? ''
-              // Mirror Python _apply_jitter: dx/dy are zone-fraction offsets sampled
-              // from the same truncated Gaussian. Clamp so text stays inside zone.
               const rawTextX = sx + (preview?.dx ?? 0.05) * sw
               const rawTextY = sy + (preview?.dy ?? 0.10) * sh
-              // Keep text below the label tab (≈12px) and within zone bounds
               const LABEL_H = 12
               const textX = Math.max(sx + 2, Math.min(rawTextX, sx + sw - 4))
               const textY = Math.max(sy + LABEL_H + 2, Math.min(rawTextY, sy + sh - fontSize - 2))
 
-              // Enhancement 4: floating label pill above zone
+              // Floating label pill above zone
               const PILL_H = 18
               const labelText = `${zone.label} · ${fakerLabel(zone.faker_provider)}`
-              // Measure approximate text width: ~6px per char at fontSize 10
               const approxTextWidth = labelText.length * 6 + 6
               const pillWidth = Math.min(Math.max(approxTextWidth, 40), Math.max(sw, 40))
-              // If zone is near top of canvas, render label inside zone top; otherwise above
               const pillY = sy < PILL_H ? sy : sy - PILL_H
 
               return (
@@ -257,13 +298,14 @@ export default function ZoneCanvas({
                     stroke={color}
                     strokeWidth={isSelected ? 2 : 1}
                     draggable={true}
-                    onClick={e => {
-                      e.cancelBubble = true
-                      // Enhancement 1: always switch to select mode on zone click
-                      setMode('select')
-                      onZoneSelect(zone.zone_id)
-                    }}
+                    // #1: clicking a zone only highlights in sidebar — stays in Draw mode
+                    onClick={e => { e.cancelBubble = true; onZoneSelect(zone.zone_id) }}
+                    // #3: cursor hints on hover
+                    onMouseEnter={() => setCursor(mode === 'select' ? 'move' : 'pointer')}
+                    onMouseLeave={() => setCursor(mode === 'draw' ? 'crosshair' : 'default')}
+                    onDragStart={() => setCursor('grabbing')}
                     onDragEnd={e => {
+                      setCursor(mode === 'select' ? 'move' : 'pointer')
                       const node = e.target as Konva.Rect
                       onZoneUpdate(zone.zone_id, { box: rectToBox(node.x() / displayScale, node.y() / displayScale, w, h) })
                     }}
@@ -277,45 +319,23 @@ export default function ZoneCanvas({
                     }}
                   />
 
-                  {/* Enhancement 4: Floating label pill above (or inside) zone */}
+                  {/* Floating label pill above (or inside) zone */}
                   <Group x={sx} y={pillY} listening={false}>
-                    <Rect
-                      x={0} y={0}
-                      width={pillWidth}
-                      height={PILL_H}
-                      fill={color}
-                      opacity={0.9}
-                      cornerRadius={3}
-                    />
+                    <Rect x={0} y={0} width={pillWidth} height={PILL_H} fill={color} opacity={0.9} cornerRadius={3} />
                     <Text
-                      x={0} y={0}
-                      width={pillWidth}
-                      height={PILL_H}
-                      text={labelText}
-                      fontSize={10}
-                      fontStyle="bold"
-                      fill="white"
-                      padding={3}
-                      ellipsis={true}
-                      wrap="none"
-                      listening={false}
+                      x={0} y={0} width={pillWidth} height={PILL_H}
+                      text={labelText} fontSize={10} fontStyle="bold" fill="white"
+                      padding={3} ellipsis={true} wrap="none" listening={false}
                     />
                   </Group>
 
-                  {/* Faker preview text — position mirrors Python _apply_jitter */}
+                  {/* Faker preview text */}
                   {previewText && (
                     <Group clipX={sx} clipY={sy + 12} clipWidth={sw} clipHeight={Math.max(0, sh - 12)} listening={false}>
                       <Text
-                        x={textX}
-                        y={textY}
-                        text={previewText}
-                        fontSize={fontSize}
-                        fontFamily={fontFamily}
-                        fontStyle={fontStyle}
-                        fill={fontColor}
-                        width={sw - 8}
-                        wrap="word"
-                        listening={false}
+                        x={textX} y={textY} text={previewText}
+                        fontSize={fontSize} fontFamily={fontFamily} fontStyle={fontStyle}
+                        fill={fontColor} width={sw - 8} wrap="word" listening={false}
                       />
                     </Group>
                   )}
@@ -338,9 +358,23 @@ export default function ZoneCanvas({
               />
             )}
 
+            {/* #2 & #4: styled rotation handle + 45° snap on Shift */}
             <Transformer
               ref={transformerRef}
               boundBoxFunc={(oldBox, newBox) => (newBox.width < 10 || newBox.height < 10 ? oldBox : newBox)}
+              rotationAnchorOffset={20}
+              rotationAnchorFill="#fff"
+              rotationAnchorStroke="#3498db"
+              rotationAnchorStrokeWidth={2}
+              rotationAnchorSize={12}
+              rotationAnchorCursor="crosshair"
+              anchorSize={9}
+              anchorCornerRadius={2}
+              anchorFill="#fff"
+              anchorStroke="#3498db"
+              anchorStrokeWidth={2}
+              rotationSnaps={shiftHeld ? ROTATION_SNAPS : []}
+              rotationSnapTolerance={8}
             />
           </Layer>
         </Stage>
@@ -348,8 +382,6 @@ export default function ZoneCanvas({
     </div>
   )
 }
-
-import React from 'react'
 
 function btnStyle(active: boolean): React.CSSProperties {
   return {

@@ -150,6 +150,7 @@ export default function App() {
               onZoneDrawn={handleZoneDrawn}
               onZoneSelect={zones.selectZone}
               onZoneUpdate={handleZoneUpdate}
+              onZoneRemove={handleZoneRemove}
             />
           ) : (
             <div style={{
