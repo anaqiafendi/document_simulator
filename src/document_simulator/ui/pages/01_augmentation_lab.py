@@ -1,6 +1,8 @@
 """Augmentation Lab — upload a document image or PDF, pick a preset or catalogue mode."""
 
 import io
+import time
+import zipfile
 
 import numpy as np
 import streamlit as st
@@ -58,6 +60,26 @@ def _thumbnail_source(src: Image.Image, size: int = 512) -> Image.Image:
     img = src.copy().convert("RGB")
     img.thumbnail((size, size), Image.LANCZOS)
     return img
+
+
+def _build_aug_objects(enabled_aug_names: list) -> list:
+    """Instantiate augmentation objects from enabled catalogue names using stored slider state."""
+    import augraphy.augmentations as aug_module
+
+    aug_objects = []
+    for aug_name in enabled_aug_names:
+        entry = CATALOGUE[aug_name]
+        stored_override = st.session_state.get(f"aug_params_{aug_name}", {})
+        params = {**entry["default_params"], **stored_override}
+        params["p"] = 1.0
+        if aug_name in ("Brightness", "Dithering"):
+            params["numba_jit"] = 0
+        try:
+            aug_cls = getattr(aug_module, aug_name)
+            aug_objects.append(aug_cls(**params))
+        except Exception as exc:
+            st.warning(f"Skipping {aug_name}: {exc}")
+    return aug_objects
 
 
 @st.cache_data(show_spinner=False)
@@ -352,15 +374,16 @@ with tab_catalogue:
                                     n_high = st.slider("Lines max", 1, 20, int(dp.get("num_lines_range", (2, 4))[1]), 1, key=f"aug_p_{aug_name}_n_high")
                                     params_override["num_lines_range"] = (n_low, n_high)
                                 elif aug_name == "InkShifter":
-                                    h = st.slider("Horizontal shift", 0, 50, int(dp.get("max_shift_horizontal", 10)), 1, key=f"aug_p_{aug_name}_h")
-                                    v = st.slider("Vertical shift", 0, 50, int(dp.get("max_shift_vertical", 10)), 1, key=f"aug_p_{aug_name}_v")
-                                    params_override["max_shift_horizontal"] = h
-                                    params_override["max_shift_vertical"] = v
+                                    sc_low = st.slider("Shift scale min", 1, 50, int(dp.get("text_shift_scale_range", (18, 27))[0]), 1, key=f"aug_p_{aug_name}_sc_low")
+                                    sc_high = st.slider("Shift scale max", 1, 100, int(dp.get("text_shift_scale_range", (18, 27))[1]), 1, key=f"aug_p_{aug_name}_sc_high")
+                                    params_override["text_shift_scale_range"] = (sc_low, sc_high)
                                 elif aug_name == "Letterpress":
-                                    n_s = st.slider("Sample points", 50, 500, int(dp.get("n_samples", 150)), 10, key=f"aug_p_{aug_name}_ns")
-                                    n_c = st.slider("Clusters", 100, 700, int(dp.get("n_clusters", 350)), 10, key=f"aug_p_{aug_name}_nc")
-                                    params_override["n_samples"] = n_s
-                                    params_override["n_clusters"] = n_c
+                                    ns_low = st.slider("Sample points min", 50, 500, int(dp.get("n_samples", (100, 300))[0]), 10, key=f"aug_p_{aug_name}_ns_low")
+                                    ns_high = st.slider("Sample points max", 100, 1000, int(dp.get("n_samples", (100, 300))[1]), 10, key=f"aug_p_{aug_name}_ns_high")
+                                    nc_low = st.slider("Clusters min", 100, 500, int(dp.get("n_clusters", (300, 500))[0]), 10, key=f"aug_p_{aug_name}_nc_low")
+                                    nc_high = st.slider("Clusters max", 200, 1000, int(dp.get("n_clusters", (300, 500))[1]), 10, key=f"aug_p_{aug_name}_nc_high")
+                                    params_override["n_samples"] = (ns_low, ns_high)
+                                    params_override["n_clusters"] = (nc_low, nc_high)
                                 elif aug_name == "ShadowCast":
                                     side = st.selectbox("Shadow side", ["left", "right", "top", "bottom"], index=["left", "right", "top", "bottom"].index(dp.get("shadow_side", "left")), key=f"aug_p_{aug_name}_side")
                                     op_low = st.slider("Opacity min", 0.1, 1.0, float(dp.get("shadow_opacity_range", (0.5, 0.8))[0]), 0.05, key=f"aug_p_{aug_name}_op_low")
@@ -395,11 +418,13 @@ with tab_catalogue:
                                     params_override["subtle_range"] = rng
                                 elif aug_name == "WaterMark":
                                     word = st.text_input("Watermark text", value=dp.get("watermark_word", "DRAFT"), key=f"aug_p_{aug_name}_word")
-                                    fsize = st.slider("Font size", 20, 200, int(dp.get("watermark_font_size", 80)), 10, key=f"aug_p_{aug_name}_fsize")
-                                    rot = st.slider("Rotation (°)", 0, 360, int(dp.get("watermark_rotation", 45)), 5, key=f"aug_p_{aug_name}_rot")
+                                    fsize_low = st.slider("Font size min", 10, 150, int(dp.get("watermark_font_size", (60, 100))[0]), 5, key=f"aug_p_{aug_name}_fsize_low")
+                                    fsize_high = st.slider("Font size max", 20, 300, int(dp.get("watermark_font_size", (60, 100))[1]), 5, key=f"aug_p_{aug_name}_fsize_high")
+                                    rot_low = st.slider("Rotation min (°)", 0, 180, int(dp.get("watermark_rotation", (30, 60))[0]), 5, key=f"aug_p_{aug_name}_rot_low")
+                                    rot_high = st.slider("Rotation max (°)", 0, 360, int(dp.get("watermark_rotation", (30, 60))[1]), 5, key=f"aug_p_{aug_name}_rot_high")
                                     params_override["watermark_word"] = word
-                                    params_override["watermark_font_size"] = fsize
-                                    params_override["watermark_rotation"] = rot
+                                    params_override["watermark_font_size"] = (fsize_low, fsize_high)
+                                    params_override["watermark_rotation"] = (rot_low, rot_high)
                                     params_override["watermark_font_type"] = 0
                                 elif aug_name == "Brightness":
                                     low = st.slider("Brightness min", 0.3, 1.0, float(dp["brightness_range"][0]), 0.05, key=f"aug_p_{aug_name}_b_low")
@@ -498,25 +523,7 @@ with tab_catalogue:
             elif not enabled_aug_names:
                 st.warning("Enable at least one augmentation.")
             else:
-                import augraphy.augmentations as aug_module
-
-                aug_objects = []
-                for aug_name in enabled_aug_names:
-                    entry = CATALOGUE[aug_name]
-                    # Merge defaults with any slider overrides set in the cards
-                    stored_override = st.session_state.get(f"aug_params_{aug_name}", {})
-                    params = {**entry["default_params"], **stored_override}
-                    # Force p=1.0 for the final run
-                    params["p"] = 1.0
-                    # Ensure numba_jit=0 for JIT-compiled augs
-                    if aug_name in ("Brightness", "Dithering"):
-                        params["numba_jit"] = 0
-                    try:
-                        aug_cls = getattr(aug_module, aug_name)
-                        aug_objects.append(aug_cls(**params))
-                    except Exception as exc:
-                        st.warning(f"Skipping {aug_name}: {exc}")
-
+                aug_objects = _build_aug_objects(enabled_aug_names)
                 if aug_objects:
                     with st.spinner("Generating with custom catalogue pipeline…"):
                         try:
@@ -542,3 +549,138 @@ with tab_catalogue:
                 mime="image/png",
                 key="aug_cat_dl",
             )
+
+        # ── Batch Run ─────────────────────────────────────────────────────────
+        st.divider()
+        with st.expander(
+            "Batch Run with this pipeline"
+            + (f" ({len(enabled_aug_names)} augmentation(s))" if enabled_aug_names else ""),
+            expanded=False,
+        ):
+            if not enabled_aug_names:
+                st.info("Enable at least one augmentation above to use batch run.")
+            else:
+                st.caption(
+                    "Upload N input documents. The catalogue pipeline above is applied to "
+                    "produce M augmented outputs, sampling randomly from your inputs."
+                )
+
+                batch_uploads = st.file_uploader(
+                    "Input templates (N documents)",
+                    type=["png", "jpg", "jpeg", "bmp", "tiff"],
+                    accept_multiple_files=True,
+                    key="aug_cat_batch_uploads",
+                )
+
+                if batch_uploads:
+                    batch_images = [uploaded_file_to_pil(f) for f in batch_uploads]
+                    st.caption(f"{len(batch_images)} template(s) loaded.")
+
+                    batch_mode = st.radio(
+                        "Output mode",
+                        ["N×M — copies per template", "M-total — random sample from N inputs"],
+                        key="aug_cat_batch_mode",
+                        horizontal=True,
+                    )
+
+                    if batch_mode.startswith("N×M"):
+                        copies = st.number_input(
+                            "Copies per template (M)",
+                            min_value=1, max_value=200, value=3,
+                            key="aug_cat_batch_copies",
+                        )
+                        eff_mode = "per_template"
+                        eff_copies = int(copies)
+                        eff_total = len(batch_images) * eff_copies
+                        st.caption(f"→ {eff_total} total outputs")
+                    else:
+                        total = st.number_input(
+                            "Total outputs (M)",
+                            min_value=1, max_value=1000, value=20,
+                            key="aug_cat_batch_total",
+                        )
+                        eff_mode = "random_sample"
+                        eff_copies = 1
+                        eff_total = int(total)
+                        st.caption(
+                            f"→ {eff_total} outputs sampled randomly from "
+                            f"{len(batch_images)} template(s)"
+                        )
+
+                    seed_raw = st.number_input(
+                        "Random seed (0 = unseeded)",
+                        min_value=0, value=0,
+                        key="aug_cat_batch_seed",
+                    )
+                    eff_seed = int(seed_raw) if seed_raw > 0 else None
+
+                    if eff_total > 50:
+                        st.warning(
+                            f"Generating {eff_total} images may take a while. "
+                            "Consider starting with a smaller number."
+                        )
+
+                    if st.button(
+                        f"Run Batch ({eff_total} outputs)",
+                        type="primary",
+                        key="aug_cat_batch_run",
+                    ):
+                        aug_objects = _build_aug_objects(enabled_aug_names)
+                        if aug_objects:
+                            from document_simulator.augmentation.batch import BatchAugmenter
+
+                            augmenter = DocumentAugmenter(custom_augmentations=aug_objects)
+                            ba = BatchAugmenter(augmenter=augmenter, num_workers=1)
+                            t0 = time.time()
+                            with st.spinner(f"Generating {eff_total} outputs…"):
+                                results = ba.augment_multi_template(
+                                    sources=batch_images,
+                                    mode=eff_mode,
+                                    copies_per_template=eff_copies,
+                                    total_outputs=eff_total,
+                                    seed=eff_seed,
+                                    parallel=False,
+                                )
+                            elapsed = time.time() - t0
+                            st.session_state["aug_cat_batch_results"] = results
+                            st.session_state["aug_cat_batch_elapsed"] = elapsed
+
+                    batch_results: list = st.session_state.get("aug_cat_batch_results", [])
+                    if batch_results:
+                        elapsed = st.session_state.get("aug_cat_batch_elapsed", 0.0)
+                        st.success(
+                            f"Generated {len(batch_results)} outputs in {elapsed:.1f}s"
+                        )
+                        st.metric("Outputs generated", len(batch_results))
+
+                        # Thumbnail preview — up to 8
+                        preview = batch_results[:8]
+                        grid_cols = st.columns(min(4, len(preview)))
+                        for i, (aug_img, stem) in enumerate(preview):
+                            with grid_cols[i % 4]:
+                                st.image(aug_img, caption=stem, use_container_width=True)
+                        if len(batch_results) > 8:
+                            st.caption(
+                                f"Showing 8 of {len(batch_results)}. "
+                                "Download ZIP for all outputs."
+                            )
+
+                        # Build and offer ZIP download
+                        zip_buf = io.BytesIO()
+                        with zipfile.ZipFile(zip_buf, "w", zipfile.ZIP_DEFLATED) as zf:
+                            stem_counts: dict = {}
+                            for aug_img, stem in batch_results:
+                                count = stem_counts.get(stem, 0)
+                                stem_counts[stem] = count + 1
+                                fname = f"{stem}_{count:03d}.png"
+                                img_buf = io.BytesIO()
+                                aug_img.save(img_buf, format="PNG")
+                                zf.writestr(fname, img_buf.getvalue())
+                        zip_buf.seek(0)
+                        st.download_button(
+                            "⬇ Download all as ZIP",
+                            data=zip_buf.getvalue(),
+                            file_name="batch_catalogue.zip",
+                            mime="application/zip",
+                            key="aug_cat_batch_dl",
+                        )

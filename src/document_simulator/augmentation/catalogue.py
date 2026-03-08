@@ -54,14 +54,14 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         "phase": "ink",
         "description": "Shifts ink pixels to simulate smudging.",
         "slow": False,
-        "default_params": {"max_shift_horizontal": 10, "max_shift_vertical": 10, "p": 0.9},
+        "default_params": {"text_shift_scale_range": (18, 27), "text_shift_factor_range": (1, 4), "p": 0.9},
     },
     "Letterpress": {
         "display_name": "Letterpress",
         "phase": "ink",
         "description": "Simulates letterpress printing texture.",
         "slow": False,
-        "default_params": {"n_samples": 150, "n_clusters": 350, "p": 0.9},
+        "default_params": {"n_samples": (100, 300), "n_clusters": (300, 500), "p": 0.9},
     },
     "ShadowCast": {
         "display_name": "Shadow Cast",
@@ -118,8 +118,8 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         "slow": False,
         "default_params": {
             "watermark_word": "DRAFT",
-            "watermark_font_size": 80,
-            "watermark_rotation": 45,
+            "watermark_font_size": (60, 100),
+            "watermark_rotation": (30, 60),
             "watermark_font_type": 0,  # cv2.FONT_HERSHEY_SIMPLEX
             "p": 0.9,
         },

@@ -55,6 +55,34 @@ def test_catalogue_enabled_aug_cached_in_session_state():
     assert not at.exception
 
 
+def test_catalogue_batch_run_expander_renders():
+    """Batch Run expander is visible when an augmentation is enabled."""
+    from streamlit.testing.v1 import AppTest
+
+    at = AppTest.from_file(PAGE, default_timeout=30)
+    at.session_state["last_uploaded_image"] = Image.fromarray(
+        np.ones((64, 64, 3), dtype=np.uint8) * 200
+    )
+    at.session_state["aug_catalogue_enabled"] = {"Jpeg": True}
+    at.run()
+    assert not at.exception
+    # Page should render without error; expander title contains "Batch Run"
+    expander_labels = [e.label for e in at.expander]
+    assert any("Batch Run" in lbl or "batch" in lbl.lower() for lbl in expander_labels)
+
+
+def test_catalogue_batch_run_shows_info_when_no_augs_enabled():
+    """Batch Run expander renders with info message when no augmentations are enabled."""
+    from streamlit.testing.v1 import AppTest
+
+    at = AppTest.from_file(PAGE, default_timeout=30)
+    at.session_state["last_uploaded_image"] = Image.fromarray(
+        np.ones((64, 64, 3), dtype=np.uint8) * 200
+    )
+    at.run()
+    assert not at.exception
+
+
 def test_existing_preset_mode_unchanged():
     """Existing preset tests still pass — mode defaults to preset."""
     from streamlit.testing.v1 import AppTest
