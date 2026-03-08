@@ -4,6 +4,7 @@ import { Stage, Layer, Image as KonvaImage, Rect, Text, Group, Transformer } fro
 import type { TemplateInfo, ZoneConfig, RespondentConfig } from '../types'
 import type { ZonePreviewData } from '../hooks/useZonePreview'
 import { getRespondentColor } from '../utils/colors'
+import { fakerLabel } from '../utils/faker'
 
 const FONT_FAMILY_MAP: Record<string, string> = {
   'sans-serif':  'Arial',
@@ -78,10 +79,11 @@ export default function ZoneCanvas({
     img.src = `data:image/png;base64,${templateInfo.image_b64}`
   }, [templateInfo.image_b64])
 
+  // Enhancement 3: show transformer for selected zone regardless of mode
   useEffect(() => {
     const tr = transformerRef.current
     if (!tr) return
-    if (selectedId && mode === 'select') {
+    if (selectedId) {
       const node = zoneRefs.current.get(selectedId)
       tr.nodes(node ? [node] : [])
     } else {
@@ -233,6 +235,15 @@ export default function ZoneCanvas({
               const textX = Math.max(sx + 2, Math.min(rawTextX, sx + sw - 4))
               const textY = Math.max(sy + LABEL_H + 2, Math.min(rawTextY, sy + sh - fontSize - 2))
 
+              // Enhancement 4: floating label pill above zone
+              const PILL_H = 18
+              const labelText = `${zone.label} · ${fakerLabel(zone.faker_provider)}`
+              // Measure approximate text width: ~6px per char at fontSize 10
+              const approxTextWidth = labelText.length * 6 + 6
+              const pillWidth = Math.min(Math.max(approxTextWidth, 40), Math.max(sw, 40))
+              // If zone is near top of canvas, render label inside zone top; otherwise above
+              const pillY = sy < PILL_H ? sy : sy - PILL_H
+
               return (
                 <React.Fragment key={zone.zone_id}>
                   <Rect
@@ -245,8 +256,13 @@ export default function ZoneCanvas({
                     fill={color + '22'}
                     stroke={color}
                     strokeWidth={isSelected ? 2 : 1}
-                    draggable={mode === 'select'}
-                    onClick={e => { e.cancelBubble = true; if (mode === 'select') onZoneSelect(zone.zone_id) }}
+                    draggable={true}
+                    onClick={e => {
+                      e.cancelBubble = true
+                      // Enhancement 1: always switch to select mode on zone click
+                      setMode('select')
+                      onZoneSelect(zone.zone_id)
+                    }}
                     onDragEnd={e => {
                       const node = e.target as Konva.Rect
                       onZoneUpdate(zone.zone_id, { box: rectToBox(node.x() / displayScale, node.y() / displayScale, w, h) })
@@ -261,8 +277,30 @@ export default function ZoneCanvas({
                     }}
                   />
 
-                  {/* Zone label tab */}
-                  <Text x={sx + 3} y={sy + 3} text={zone.label} fontSize={10} fill={color} fontStyle="bold" listening={false} />
+                  {/* Enhancement 4: Floating label pill above (or inside) zone */}
+                  <Group x={sx} y={pillY} listening={false}>
+                    <Rect
+                      x={0} y={0}
+                      width={pillWidth}
+                      height={PILL_H}
+                      fill={color}
+                      opacity={0.9}
+                      cornerRadius={3}
+                    />
+                    <Text
+                      x={0} y={0}
+                      width={pillWidth}
+                      height={PILL_H}
+                      text={labelText}
+                      fontSize={10}
+                      fontStyle="bold"
+                      fill="white"
+                      padding={3}
+                      ellipsis={true}
+                      wrap="none"
+                      listening={false}
+                    />
+                  </Group>
 
                   {/* Faker preview text — position mirrors Python _apply_jitter */}
                   {previewText && (

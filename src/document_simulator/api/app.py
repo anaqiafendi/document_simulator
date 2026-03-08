@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import os
 from pathlib import Path
 
 from fastapi import FastAPI
@@ -28,7 +27,7 @@ def health() -> dict:
 
 
 # Mount the React SPA if it has been built (conditional — dev-friendly)
-DIST_DIR = Path(__file__).resolve().parents[4] / "webapp" / "dist"
+DIST_DIR = Path(__file__).resolve().parents[3] / "webapp" / "dist"
 
 if DIST_DIR.is_dir():
     from fastapi.staticfiles import StaticFiles

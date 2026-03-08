@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import type { RespondentConfig, FieldTypeConfig, ZoneConfig } from '../types'
 import InkColorPicker from './InkColorPicker'
 import FontSelect from './FontSelect'
@@ -119,6 +119,7 @@ function ZoneRow({
   isSelected,
   previewText,
   respondent,
+  respondents,
   onSelect,
   onUpdate,
   onRemove,
@@ -129,13 +130,23 @@ function ZoneRow({
   isSelected: boolean
   previewText: string
   respondent: RespondentConfig
+  respondents: RespondentConfig[]
   onSelect: () => void
   onUpdate: (patch: Partial<ZoneConfig>) => void
   onRemove: () => void
   onReroll: () => void
 }) {
+  // Enhancement 1: scroll into view when this zone becomes selected
+  const rowRef = useRef<HTMLDivElement>(null)
+  useEffect(() => {
+    if (isSelected && rowRef.current) {
+      rowRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
+    }
+  }, [isSelected])
+
   return (
     <div
+      ref={rowRef}
       onClick={onSelect}
       style={{
         border: `1px solid ${isSelected ? color : '#e8e8e8'}`,
@@ -173,6 +184,25 @@ function ZoneRow({
 
       {/* Controls row */}
       <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', alignItems: 'center', marginTop: 5 }} onClick={e => e.stopPropagation()}>
+        {/* Enhancement 2: respondent reassignment dropdown */}
+        <select
+          value={zone.respondent_id}
+          onChange={e => {
+            const newR = respondents.find(r => r.respondent_id === e.target.value)
+            onUpdate({
+              respondent_id: e.target.value,
+              field_type_id: newR?.field_types[0]?.field_type_id ?? zone.field_type_id,
+            })
+          }}
+          style={{ fontSize: 11, maxWidth: 90 }}
+          title="Assign to respondent"
+        >
+          {respondents.map((r, idx) => {
+            const rColor = getRespondentColor(idx)
+            return <option key={r.respondent_id} value={r.respondent_id} style={{ color: rColor }}>{r.display_name}</option>
+          })}
+        </select>
+
         <select value={zone.field_type_id}
           onChange={e => onUpdate({ field_type_id: e.target.value })}
           style={{ fontSize: 11, maxWidth: 80 }} title="Writing style">
@@ -221,6 +251,7 @@ function RespondentCard({
   selectedZoneId,
   zonePreviews,
   canRemove,
+  respondents,
   onRemove,
   onUpdate,
   onAddFieldType,
@@ -237,6 +268,7 @@ function RespondentCard({
   selectedZoneId: string | null
   zonePreviews: Record<string, { text: string; dx: number; dy: number }>
   canRemove: boolean
+  respondents: RespondentConfig[]
   onRemove: () => void
   onUpdate: (patch: Partial<RespondentConfig>) => void
   onAddFieldType: () => void
@@ -249,6 +281,13 @@ function RespondentCard({
 }) {
   const [stylesOpen, setStylesOpen] = useState(true)
   const [zonesOpen, setZonesOpen] = useState(true)
+
+  // Enhancement 1: expand zones accordion when any zone in this respondent becomes selected
+  useEffect(() => {
+    if (selectedZoneId && respondentZones.some(z => z.zone_id === selectedZoneId)) {
+      setZonesOpen(true)
+    }
+  }, [selectedZoneId, respondentZones])
 
   return (
     <div style={{ border: `1px solid #ddd`, borderLeft: `4px solid ${color}`, borderRadius: 5, overflow: 'hidden', marginBottom: 10 }}>
@@ -309,6 +348,7 @@ function RespondentCard({
                 isSelected={zone.zone_id === selectedZoneId}
                 previewText={zonePreviews[zone.zone_id]?.text ?? ''}
                 respondent={r}
+                respondents={respondents}
                 onSelect={() => onSelectZone(zone.zone_id)}
                 onUpdate={patch => onUpdateZone(zone.zone_id, patch)}
                 onRemove={() => onRemoveZone(zone.zone_id)}
@@ -339,6 +379,7 @@ export default function RespondentPanel({
           selectedZoneId={selectedZoneId}
           zonePreviews={zonePreviews}
           canRemove={respondents.length > 1}
+          respondents={respondents}
           onRemove={() => onRemove(r.respondent_id)}
           onUpdate={patch => onUpdate(r.respondent_id, patch)}
           onAddFieldType={() => onAddFieldType(r.respondent_id)}
