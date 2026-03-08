@@ -374,15 +374,16 @@ with tab_catalogue:
                                     n_high = st.slider("Lines max", 1, 20, int(dp.get("num_lines_range", (2, 4))[1]), 1, key=f"aug_p_{aug_name}_n_high")
                                     params_override["num_lines_range"] = (n_low, n_high)
                                 elif aug_name == "InkShifter":
-                                    h = st.slider("Horizontal shift", 0, 50, int(dp.get("max_shift_horizontal", 10)), 1, key=f"aug_p_{aug_name}_h")
-                                    v = st.slider("Vertical shift", 0, 50, int(dp.get("max_shift_vertical", 10)), 1, key=f"aug_p_{aug_name}_v")
-                                    params_override["max_shift_horizontal"] = h
-                                    params_override["max_shift_vertical"] = v
+                                    sc_low = st.slider("Shift scale min", 1, 50, int(dp.get("text_shift_scale_range", (18, 27))[0]), 1, key=f"aug_p_{aug_name}_sc_low")
+                                    sc_high = st.slider("Shift scale max", 1, 100, int(dp.get("text_shift_scale_range", (18, 27))[1]), 1, key=f"aug_p_{aug_name}_sc_high")
+                                    params_override["text_shift_scale_range"] = (sc_low, sc_high)
                                 elif aug_name == "Letterpress":
-                                    n_s = st.slider("Sample points", 50, 500, int(dp.get("n_samples", 150)), 10, key=f"aug_p_{aug_name}_ns")
-                                    n_c = st.slider("Clusters", 100, 700, int(dp.get("n_clusters", 350)), 10, key=f"aug_p_{aug_name}_nc")
-                                    params_override["n_samples"] = n_s
-                                    params_override["n_clusters"] = n_c
+                                    ns_low = st.slider("Sample points min", 50, 500, int(dp.get("n_samples", (100, 300))[0]), 10, key=f"aug_p_{aug_name}_ns_low")
+                                    ns_high = st.slider("Sample points max", 100, 1000, int(dp.get("n_samples", (100, 300))[1]), 10, key=f"aug_p_{aug_name}_ns_high")
+                                    nc_low = st.slider("Clusters min", 100, 500, int(dp.get("n_clusters", (300, 500))[0]), 10, key=f"aug_p_{aug_name}_nc_low")
+                                    nc_high = st.slider("Clusters max", 200, 1000, int(dp.get("n_clusters", (300, 500))[1]), 10, key=f"aug_p_{aug_name}_nc_high")
+                                    params_override["n_samples"] = (ns_low, ns_high)
+                                    params_override["n_clusters"] = (nc_low, nc_high)
                                 elif aug_name == "ShadowCast":
                                     side = st.selectbox("Shadow side", ["left", "right", "top", "bottom"], index=["left", "right", "top", "bottom"].index(dp.get("shadow_side", "left")), key=f"aug_p_{aug_name}_side")
                                     op_low = st.slider("Opacity min", 0.1, 1.0, float(dp.get("shadow_opacity_range", (0.5, 0.8))[0]), 0.05, key=f"aug_p_{aug_name}_op_low")
@@ -417,11 +418,13 @@ with tab_catalogue:
                                     params_override["subtle_range"] = rng
                                 elif aug_name == "WaterMark":
                                     word = st.text_input("Watermark text", value=dp.get("watermark_word", "DRAFT"), key=f"aug_p_{aug_name}_word")
-                                    fsize = st.slider("Font size", 20, 200, int(dp.get("watermark_font_size", 80)), 10, key=f"aug_p_{aug_name}_fsize")
-                                    rot = st.slider("Rotation (°)", 0, 360, int(dp.get("watermark_rotation", 45)), 5, key=f"aug_p_{aug_name}_rot")
+                                    fsize_low = st.slider("Font size min", 10, 150, int(dp.get("watermark_font_size", (60, 100))[0]), 5, key=f"aug_p_{aug_name}_fsize_low")
+                                    fsize_high = st.slider("Font size max", 20, 300, int(dp.get("watermark_font_size", (60, 100))[1]), 5, key=f"aug_p_{aug_name}_fsize_high")
+                                    rot_low = st.slider("Rotation min (°)", 0, 180, int(dp.get("watermark_rotation", (30, 60))[0]), 5, key=f"aug_p_{aug_name}_rot_low")
+                                    rot_high = st.slider("Rotation max (°)", 0, 360, int(dp.get("watermark_rotation", (30, 60))[1]), 5, key=f"aug_p_{aug_name}_rot_high")
                                     params_override["watermark_word"] = word
-                                    params_override["watermark_font_size"] = fsize
-                                    params_override["watermark_rotation"] = rot
+                                    params_override["watermark_font_size"] = (fsize_low, fsize_high)
+                                    params_override["watermark_rotation"] = (rot_low, rot_high)
                                     params_override["watermark_font_type"] = 0
                                 elif aug_name == "Brightness":
                                     low = st.slider("Brightness min", 0.3, 1.0, float(dp["brightness_range"][0]), 0.05, key=f"aug_p_{aug_name}_b_low")
