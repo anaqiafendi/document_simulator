@@ -169,6 +169,7 @@ export default function App() {
               selectedId={zones.selectedId}
               respondents={respondents.respondents}
               zonePreviews={zonePreview.previews}
+              activeRespondentId={activeRespondentId}
               onZoneDrawn={handleZoneDrawn}
               onZoneSelect={zones.selectZone}
               onZoneUpdate={handleZoneUpdate}
@@ -206,6 +207,7 @@ export default function App() {
             onAddFieldType={respondents.addFieldType}
             onRemoveFieldType={respondents.removeFieldType}
             onUpdateFieldType={handleUpdateFieldType}
+            onActivate={setActiveRespondentId}
             onSelectZone={zones.selectZone}
             onUpdateZone={handleZoneUpdate}
             onRemoveZone={handleZoneRemove}

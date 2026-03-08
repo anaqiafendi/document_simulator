@@ -34,6 +34,8 @@ interface Props {
   selectedId: string | null
   respondents: RespondentConfig[]
   zonePreviews: Record<string, ZonePreviewData>
+  /** Controlled: parent can set the active respondent (e.g. by clicking the sidebar card) */
+  activeRespondentId?: string
   onZoneDrawn: (partial: Omit<ZoneConfig, 'zone_id'>) => void
   onZoneSelect: (id: string | null) => void
   onZoneUpdate: (id: string, patch: Partial<ZoneConfig>) => void
@@ -47,6 +49,7 @@ export default function ZoneCanvas({
   selectedId,
   respondents,
   zonePreviews,
+  activeRespondentId: activeRespondentIdProp,
   onZoneDrawn,
   onZoneSelect,
   onZoneUpdate,
@@ -76,6 +79,16 @@ export default function ZoneCanvas({
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
+  // Sync internal state when parent drives the active respondent (e.g. sidebar click)
+  useEffect(() => {
+    if (activeRespondentIdProp && activeRespondentIdProp !== activeRespondentId) {
+      setActiveRespondentId(activeRespondentIdProp)
+      const r = respondents.find(r => r.respondent_id === activeRespondentIdProp)
+      setActiveFieldTypeId(r?.field_types[0]?.field_type_id ?? 'standard')
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeRespondentIdProp])
 
   const displayScale = stageWidth / templateInfo.width_px
   const stageHeight = Math.round(templateInfo.height_px * displayScale)

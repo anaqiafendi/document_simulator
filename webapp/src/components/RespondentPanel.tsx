@@ -17,6 +17,7 @@ interface Props {
   onAddFieldType: (respondentId: string) => void
   onRemoveFieldType: (respondentId: string, ftId: string) => void
   onUpdateFieldType: (respondentId: string, ftId: string, patch: Partial<FieldTypeConfig>) => void
+  onActivate?: (respondentId: string) => void
   onSelectZone: (id: string) => void
   onUpdateZone: (id: string, patch: Partial<ZoneConfig>) => void
   onRemoveZone: (id: string) => void
@@ -254,6 +255,7 @@ function RespondentCard({
   canRemove,
   respondents,
   isActive,
+  onActivate,
   onRemove,
   onUpdate,
   onAddFieldType,
@@ -272,6 +274,7 @@ function RespondentCard({
   canRemove: boolean
   respondents: RespondentConfig[]
   isActive: boolean
+  onActivate: () => void
   onRemove: () => void
   onUpdate: (patch: Partial<RespondentConfig>) => void
   onAddFieldType: () => void
@@ -294,13 +297,18 @@ function RespondentCard({
 
   return (
     <div style={{ border: `1px solid #ddd`, borderLeft: `4px solid ${color}`, borderRadius: 5, overflow: 'hidden', marginBottom: 10 }}>
-      {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '9px 12px', background: '#f8f8f8' }}>
+      {/* Header — click anywhere here to make this respondent active for drawing */}
+      <div
+        onClick={onActivate}
+        title="Click to set as active respondent"
+        style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '9px 12px', background: '#f8f8f8', cursor: 'pointer' }}
+      >
         <span style={{ width: 12, height: 12, borderRadius: '50%', background: color, flexShrink: 0 }} />
         <input
           value={r.display_name}
           onChange={e => onUpdate({ display_name: e.target.value })}
-          style={{ flex: 1, fontWeight: 600, fontSize: 13, border: 'none', outline: 'none', background: 'transparent', borderBottom: '1px solid #e0e0e0' }}
+          onClick={e => e.stopPropagation()}
+          style={{ flex: 1, fontWeight: 600, fontSize: 13, border: 'none', outline: 'none', background: 'transparent', borderBottom: '1px solid #e0e0e0', cursor: 'text' }}
         />
         {isActive && (
           <span style={{
@@ -311,7 +319,7 @@ function RespondentCard({
           }}>Active</span>
         )}
         {canRemove && (
-          <button onClick={onRemove} style={{ color: '#e74c3c', border: 'none', background: 'none', cursor: 'pointer', fontSize: 12 }}>
+          <button onClick={e => { e.stopPropagation(); onRemove() }} style={{ color: '#e74c3c', border: 'none', background: 'none', cursor: 'pointer', fontSize: 12 }}>
             Remove
           </button>
         )}
@@ -378,6 +386,7 @@ export default function RespondentPanel({
   activeRespondentId,
   onAdd, onRemove, onUpdate,
   onAddFieldType, onRemoveFieldType, onUpdateFieldType,
+  onActivate,
   onSelectZone, onUpdateZone, onRemoveZone, onRerollZone,
 }: Props) {
   return (
@@ -393,6 +402,7 @@ export default function RespondentPanel({
           canRemove={respondents.length > 1}
           respondents={respondents}
           isActive={r.respondent_id === activeRespondentId}
+          onActivate={() => onActivate?.(r.respondent_id)}
           onRemove={() => onRemove(r.respondent_id)}
           onUpdate={patch => onUpdate(r.respondent_id, patch)}
           onAddFieldType={() => onAddFieldType(r.respondent_id)}
