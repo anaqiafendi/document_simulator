@@ -10,6 +10,7 @@ interface Props {
   zones: ZoneConfig[]
   selectedZoneId: string | null
   zonePreviews: Record<string, { text: string; dx: number; dy: number }>
+  activeRespondentId?: string
   onAdd: () => void
   onRemove: (id: string) => void
   onUpdate: (id: string, patch: Partial<RespondentConfig>) => void
@@ -134,7 +135,7 @@ function ZoneRow({
   onSelect: () => void
   onUpdate: (patch: Partial<ZoneConfig>) => void
   onRemove: () => void
-  onReroll: () => void
+  onReroll: (provider?: string) => void
 }) {
   // Enhancement 1: scroll into view when this zone becomes selected
   const rowRef = useRef<HTMLDivElement>(null)
@@ -210,7 +211,7 @@ function ZoneRow({
         </select>
 
         <select value={zone.faker_provider}
-          onChange={e => { onUpdate({ faker_provider: e.target.value }); onReroll() }}
+          onChange={e => { const v = e.target.value; onUpdate({ faker_provider: v }); onReroll(v) }}
           style={{ fontSize: 11, maxWidth: 110 }} title="Data type">
           {FAKER_PROVIDERS.map(p => <option key={p.key} value={p.key}>{p.label}</option>)}
         </select>
@@ -252,6 +253,7 @@ function RespondentCard({
   zonePreviews,
   canRemove,
   respondents,
+  isActive,
   onRemove,
   onUpdate,
   onAddFieldType,
@@ -269,6 +271,7 @@ function RespondentCard({
   zonePreviews: Record<string, { text: string; dx: number; dy: number }>
   canRemove: boolean
   respondents: RespondentConfig[]
+  isActive: boolean
   onRemove: () => void
   onUpdate: (patch: Partial<RespondentConfig>) => void
   onAddFieldType: () => void
@@ -299,6 +302,14 @@ function RespondentCard({
           onChange={e => onUpdate({ display_name: e.target.value })}
           style={{ flex: 1, fontWeight: 600, fontSize: 13, border: 'none', outline: 'none', background: 'transparent', borderBottom: '1px solid #e0e0e0' }}
         />
+        {isActive && (
+          <span style={{
+            fontSize: 9, fontWeight: 700, letterSpacing: '0.08em',
+            background: color, color: '#fff',
+            padding: '1px 5px', borderRadius: 8,
+            textTransform: 'uppercase',
+          }}>Active</span>
+        )}
         {canRemove && (
           <button onClick={onRemove} style={{ color: '#e74c3c', border: 'none', background: 'none', cursor: 'pointer', fontSize: 12 }}>
             Remove
@@ -352,7 +363,7 @@ function RespondentCard({
                 onSelect={() => onSelectZone(zone.zone_id)}
                 onUpdate={patch => onUpdateZone(zone.zone_id, patch)}
                 onRemove={() => onRemoveZone(zone.zone_id)}
-                onReroll={() => onRerollZone(zone.zone_id, zone.faker_provider)}
+                onReroll={(provider?: string) => onRerollZone(zone.zone_id, provider ?? zone.faker_provider)}
               />
             ))
         )}
@@ -364,6 +375,7 @@ function RespondentCard({
 // ── Main export ───────────────────────────────────────────────────────────────
 export default function RespondentPanel({
   respondents, zones, selectedZoneId, zonePreviews,
+  activeRespondentId,
   onAdd, onRemove, onUpdate,
   onAddFieldType, onRemoveFieldType, onUpdateFieldType,
   onSelectZone, onUpdateZone, onRemoveZone, onRerollZone,
@@ -380,6 +392,7 @@ export default function RespondentPanel({
           zonePreviews={zonePreviews}
           canRemove={respondents.length > 1}
           respondents={respondents}
+          isActive={r.respondent_id === activeRespondentId}
           onRemove={() => onRemove(r.respondent_id)}
           onUpdate={patch => onUpdate(r.respondent_id, patch)}
           onAddFieldType={() => onAddFieldType(r.respondent_id)}

@@ -38,6 +38,7 @@ interface Props {
   onZoneSelect: (id: string | null) => void
   onZoneUpdate: (id: string, patch: Partial<ZoneConfig>) => void
   onZoneRemove: (id: string) => void
+  onActiveRespondentChange?: (id: string) => void
 }
 
 export default function ZoneCanvas({
@@ -50,6 +51,7 @@ export default function ZoneCanvas({
   onZoneSelect,
   onZoneUpdate,
   onZoneRemove,
+  onActiveRespondentChange,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null)
   const stageRef = useRef<Konva.Stage>(null)
@@ -66,6 +68,14 @@ export default function ZoneCanvas({
 
   const [activeRespondentId, setActiveRespondentId] = useState(respondents[0]?.respondent_id ?? 'default')
   const [activeFieldTypeId, setActiveFieldTypeId] = useState(respondents[0]?.field_types[0]?.field_type_id ?? 'standard')
+
+  // Notify parent of initial active respondent
+  useEffect(() => {
+    if (activeRespondentId && activeRespondentId !== 'default') {
+      onActiveRespondentChange?.(activeRespondentId)
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   const displayScale = stageWidth / templateInfo.width_px
   const stageHeight = Math.round(templateInfo.height_px * displayScale)
@@ -132,9 +142,10 @@ export default function ZoneCanvas({
       if (r) {
         setActiveRespondentId(r.respondent_id)
         setActiveFieldTypeId(r.field_types[0]?.field_type_id ?? 'standard')
+        onActiveRespondentChange?.(r.respondent_id)
       }
     }
-  }, [respondents, activeRespondentId])
+  }, [respondents, activeRespondentId, onActiveRespondentChange])
 
   const getDocPos = () => {
     const pos = stageRef.current?.getPointerPosition()
@@ -205,29 +216,45 @@ export default function ZoneCanvas({
             : 'Click to select · drag to move · handles to resize/rotate · Shift+rotate snaps 45°'}
         </span>
         <span style={{ marginLeft: 'auto', fontSize: 12, display: 'flex', gap: 6, alignItems: 'center', flexWrap: 'wrap' }}>
-          {/* Active respondent colour dot */}
+          {/* Active respondent styled selector */}
           {(() => {
             const idx = respondents.findIndex(r => r.respondent_id === activeRespondentId)
             const color = getRespondentColor(idx)
-            return <span style={{ width: 10, height: 10, borderRadius: '50%', background: color, display: 'inline-block' }} />
+            return (
+              <span style={{
+                display: 'flex', gap: 6, alignItems: 'center', flexWrap: 'wrap',
+                padding: '3px 8px',
+                borderLeft: `3px solid ${color}`,
+                borderRadius: 4,
+                background: color + '15',
+                boxShadow: `0 0 0 1px ${color}40`,
+              }}>
+                <span style={{ fontSize: 11, color: '#666', fontWeight: 600, whiteSpace: 'nowrap' }}>Drawing for:</span>
+                <span style={{ width: 10, height: 10, borderRadius: '50%', background: color, display: 'inline-block', flexShrink: 0 }} />
+                <select
+                  value={activeRespondentId}
+                  onChange={e => {
+                    const newId = e.target.value
+                    setActiveRespondentId(newId)
+                    const r = respondents.find(r => r.respondent_id === newId)
+                    setActiveFieldTypeId(r?.field_types[0]?.field_type_id ?? 'standard')
+                    onActiveRespondentChange?.(newId)
+                  }}
+                  style={{ fontSize: 12, fontWeight: 600, border: `1px solid ${color}`, borderRadius: 3, outline: 'none' }}
+                >
+                  {respondents.map(r => (
+                    <option key={r.respondent_id} value={r.respondent_id}>{r.display_name}</option>
+                  ))}
+                </select>
+                <select value={activeFieldTypeId} onChange={e => setActiveFieldTypeId(e.target.value)}
+                  style={{ fontSize: 12 }}>
+                  {(activeRespondent?.field_types ?? []).map(ft => (
+                    <option key={ft.field_type_id} value={ft.field_type_id}>{ft.display_name}</option>
+                  ))}
+                </select>
+              </span>
+            )
           })()}
-          <select
-            value={activeRespondentId}
-            onChange={e => {
-              setActiveRespondentId(e.target.value)
-              const r = respondents.find(r => r.respondent_id === e.target.value)
-              setActiveFieldTypeId(r?.field_types[0]?.field_type_id ?? 'standard')
-            }}
-          >
-            {respondents.map(r => (
-              <option key={r.respondent_id} value={r.respondent_id}>{r.display_name}</option>
-            ))}
-          </select>
-          <select value={activeFieldTypeId} onChange={e => setActiveFieldTypeId(e.target.value)}>
-            {(activeRespondent?.field_types ?? []).map(ft => (
-              <option key={ft.field_type_id} value={ft.field_type_id}>{ft.display_name}</option>
-            ))}
-          </select>
         </span>
       </div>
 
@@ -257,10 +284,14 @@ export default function ZoneCanvas({
               const respondent = respondents[respondentIdx]
               const fieldType = respondent?.field_types.find(ft => ft.field_type_id === zone.field_type_id)
                 ?? respondent?.field_types[0]
-              const avgFontSize = fieldType
-                ? Math.round(((fieldType.font_size_range[0] + fieldType.font_size_range[1]) / 2) * displayScale)
+              const rawFontSize = fieldType
+                ? Math.round(
+                    (fieldType.font_size_range[0] +
+                      Math.random() * (fieldType.font_size_range[1] - fieldType.font_size_range[0])) *
+                      displayScale
+                  )
                 : 11
-              const fontSize = Math.max(9, Math.min(avgFontSize, 28))
+              const fontSize = Math.max(9, Math.min(rawFontSize, 32))
               const fontFamily = FONT_FAMILY_MAP[fieldType?.font_family ?? 'sans-serif'] ?? 'Arial'
               const fontColor = fieldType?.font_color ?? '#000000'
               const fontStyle = [fieldType?.bold ? 'bold' : '', fieldType?.italic ? 'italic' : '']
@@ -274,13 +305,13 @@ export default function ZoneCanvas({
               const previewText = preview?.text ?? ''
               const rawTextX = sx + (preview?.dx ?? 0.05) * sw
               const rawTextY = sy + (preview?.dy ?? 0.10) * sh
-              const LABEL_H = 12
-              const textX = Math.max(sx + 2, Math.min(rawTextX, sx + sw - 4))
-              const textY = Math.max(sy + LABEL_H + 2, Math.min(rawTextY, sy + sh - fontSize - 2))
+              const textX = Math.max(sx + 2, Math.min(rawTextX, sx + sw - fontSize - 2))
+              const textY = Math.max(sy + 2, Math.min(rawTextY, sy + sh - fontSize - 2))
 
               // Floating label pill above zone
               const PILL_H = 18
-              const labelText = `${zone.label} · ${fakerLabel(zone.faker_provider)}`
+              const fieldTypeName = fieldType?.display_name ?? ''
+              const labelText = `${zone.label} · ${fakerLabel(zone.faker_provider)}${fieldTypeName ? ` · ${fieldTypeName}` : ''}`
               const approxTextWidth = labelText.length * 6 + 6
               const pillWidth = Math.min(Math.max(approxTextWidth, 40), Math.max(sw, 40))
               const pillY = sy < PILL_H ? sy : sy - PILL_H
@@ -300,12 +331,18 @@ export default function ZoneCanvas({
                     draggable={true}
                     // #1: clicking a zone only highlights in sidebar — stays in Draw mode
                     onClick={e => { e.cancelBubble = true; onZoneSelect(zone.zone_id) }}
-                    // #3: cursor hints on hover
-                    onMouseEnter={() => setCursor(mode === 'select' ? 'move' : 'pointer')}
+                    // #3: cursor hints on hover; selected zone uses grab/grabbing convention
+                    onMouseEnter={() => {
+                      if (isSelected) {
+                        setCursor('grab')
+                      } else {
+                        setCursor(mode === 'select' ? 'move' : 'pointer')
+                      }
+                    }}
                     onMouseLeave={() => setCursor(mode === 'draw' ? 'crosshair' : 'default')}
                     onDragStart={() => setCursor('grabbing')}
                     onDragEnd={e => {
-                      setCursor(mode === 'select' ? 'move' : 'pointer')
+                      setCursor(isSelected ? 'grab' : mode === 'select' ? 'move' : 'pointer')
                       const node = e.target as Konva.Rect
                       onZoneUpdate(zone.zone_id, { box: rectToBox(node.x() / displayScale, node.y() / displayScale, w, h) })
                     }}
@@ -331,7 +368,7 @@ export default function ZoneCanvas({
 
                   {/* Faker preview text */}
                   {previewText && (
-                    <Group clipX={sx} clipY={sy + 12} clipWidth={sw} clipHeight={Math.max(0, sh - 12)} listening={false}>
+                    <Group clipX={sx} clipY={sy} clipWidth={sw} clipHeight={sh} listening={false}>
                       <Text
                         x={textX} y={textY} text={previewText}
                         fontSize={fontSize} fontFamily={fontFamily} fontStyle={fontStyle}

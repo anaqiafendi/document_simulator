@@ -92,6 +92,20 @@ Beyond the immediate breakage, Streamlit's architecture is fundamentally unsuite
   > *Refined during implementation: The off-by-one parent index caused `DIST_DIR.is_dir()` to always return `False`, so the SPA was never mounted and `/api/template` appeared to return 404 when the Vite proxy could not reach the backend.*
 - [x] AC-30: `GET /api/samples` lists `.pdf`/`.png`/`.jpg`/`.jpeg` files from `data/samples/synthetic_generator/`; `GET /api/samples/{filename}` renders and returns the file as a `TemplateResponse`, enabling template selection without local file upload.
   > *Refined during implementation: Testers needed to repeatedly upload the same development fixture files; a server-side sample picker eliminates the round-trip.*
+- [x] AC-31: When the faker data-type dropdown in the sidebar zone row changes, the preview text re-rolls immediately using the **new** provider value, not the stale pre-change value.
+  > *Bug fix: `onReroll()` was called with the old `zone.faker_provider` captured in the closure before React re-rendered the component; the first preview after a type change always showed the wrong provider's value.*
+- [x] AC-32: The font size of the live faker preview text in each canvas zone is randomly sampled within the field type's `font_size_range` on each render, giving a better visual representation of the range rather than always showing the midpoint.
+  > *Refined during implementation: Using the midpoint made every zone look identical regardless of how wide the font-size range was configured.*
+- [x] AC-33: The Konva clip region for the faker preview text starts at the top edge of the zone (`sy`), not 12 px below it, so text can appear anywhere within the zone without being clipped near the top.
+  > *Bug fix: A 12 px internal reservation left over from an earlier inline-label design caused text positioned near the top of a zone to be cut off after the floating pill label was moved above the zone.*
+- [x] AC-34: The cursor changes to `grab` (open hand) when hovering over an **already-selected** zone, and to `grabbing` during a drag. Unselected zones in Select mode continue to show `move`.
+  > *Refined during implementation: `move` cursor on selected zones was inconsistent with the standard UX convention that `grab`/`grabbing` indicates a draggable object that is in focus.*
+- [x] AC-35: `Cmd+Z` (macOS) / `Ctrl+Z` (Windows/Linux) undoes the last zone mutation (add, update, or delete). The undo history is capped at 50 entries. The shortcut is suppressed when focus is inside an `<input>` or `<textarea>`.
+  > *Refined during implementation: Accidental zone moves, resizes, and deletes were unrecoverable; undo is a baseline expectation for any editor-class tool.*
+- [x] AC-36: The floating label pill above each zone shows `"{label} · {faker_type} · {writing_style_name}"`, adding the field type (writing style) display name as a third segment.
+  > *Refined during implementation: Zones with the same faker provider but different writing styles (e.g. typed vs handwritten) were visually indistinguishable on the canvas.*
+- [x] AC-37: The active-respondent selector in the `ZoneCanvas` toolbar is displayed in a styled group with a colour-coded left border, tinted background, `boxShadow` ring, `"Drawing for:"` label prefix, and a colour-bordered `<select>`. The respondent card in `RespondentPanel` whose `respondent_id` matches the active respondent shows an `"Active"` badge in the respondent colour.
+  > *Refined during implementation: The plain colour dot and unlabelled dropdown gave no clear affordance that the chosen respondent determines zone ownership; the new treatment makes the active state unambiguous.*
 
 ---
 
@@ -362,6 +376,13 @@ uv run pytest tests/ui/integration/test_synthetic_generator.py -v
 - **Fix:** Removed `setMode('select')` from the zone `onClick` handler. Zone click now only calls `onZoneSelect(zone.zone_id)` (sidebar highlight + scroll). Mode switching back to Select is only triggered by the explicit Select button in the toolbar.
 - **Regression test:** none (interaction flow only)
 
+**Bug 5 — Faker type change re-rolled preview with the old provider (stale closure)**
+
+- **Symptom:** Changing the faker data-type dropdown on a zone in the sidebar re-rolled the preview text using the previous provider, not the newly selected one. For example, switching from "Full name" to "Email" showed another random name instead of an email address.
+- **Root cause:** `ZoneRow.onReroll` was defined as `() => onRerollZone(zone.zone_id, zone.faker_provider)`, capturing `zone.faker_provider` from the render closure. The `onChange` handler called `onUpdate({ faker_provider: newValue })` first, then `onReroll()` — but `zone.faker_provider` was still the stale value because React had not yet re-rendered.
+- **Fix:** Changed `onReroll`'s signature to accept an optional provider override: `(provider?: string) => void`. The `onChange` handler now passes the new value directly: `onReroll(v)`. `ZoneRow` calls `onRerollZone(zone.zone_id, provider ?? zone.faker_provider)`, so the fresh value is used immediately.
+- **Regression test:** none (interaction/timing only)
+
 ---
 
 ## Dependencies
@@ -448,6 +469,7 @@ cd webapp && npm run dev
 | Date | Branch | Tests passing | Notes |
 |------|--------|--------------|-------|
 | 2026-03-08 | `feature/js-synthetic-doc-generator-ui` | 27 (API) | All ACs met; 15 refined ACs added; 4 bugs documented |
+| 2026-03-08 | `feature/js-synthetic-doc-generator-ui` | 27 (API) | 7 UX enhancements (AC-31–AC-37); 1 additional bug documented (Bug 5 — stale faker provider); `npm run build` clean |
 
 ---
 

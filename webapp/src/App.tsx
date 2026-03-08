@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { useTemplate } from './hooks/useTemplate'
 import { useZones } from './hooks/useZones'
 import { useRespondents } from './hooks/useRespondents'
@@ -25,6 +26,23 @@ export default function App() {
   const previews = usePreviews()
   const gen = useGenerate()
   const zonePreview = useZonePreview()
+
+  // Enhancement 7: lift activeRespondentId so RespondentPanel can show the "Active" badge
+  const [activeRespondentId, setActiveRespondentId] = useState<string | undefined>(undefined)
+
+  // Enhancement 5: Cmd+Z / Ctrl+Z undo
+  useEffect(() => {
+    const handle = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'z') {
+        const tag = (document.activeElement as HTMLElement)?.tagName
+        if (tag === 'INPUT' || tag === 'TEXTAREA') return
+        e.preventDefault()
+        zones.undo()
+      }
+    }
+    window.addEventListener('keydown', handle)
+    return () => window.removeEventListener('keydown', handle)
+  }, [zones.undo])
 
   const buildConfig = (outputDir = '/tmp/synthetic_output', n = 10): SynthesisConfig => ({
     respondents: respondents.respondents,
@@ -151,6 +169,7 @@ export default function App() {
               onZoneSelect={zones.selectZone}
               onZoneUpdate={handleZoneUpdate}
               onZoneRemove={handleZoneRemove}
+              onActiveRespondentChange={setActiveRespondentId}
             />
           ) : (
             <div style={{
@@ -176,6 +195,7 @@ export default function App() {
             zones={zones.zones}
             selectedZoneId={zones.selectedId}
             zonePreviews={zonePreview.previews}
+            activeRespondentId={activeRespondentId}
             onAdd={respondents.addRespondent}
             onRemove={respondents.removeRespondent}
             onUpdate={respondents.updateRespondent}
@@ -223,4 +243,4 @@ export default function App() {
   )
 }
 
-import React from 'react'
+
