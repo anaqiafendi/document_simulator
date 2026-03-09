@@ -674,7 +674,7 @@ with tab_catalogue:
             else:
                 st.caption(
                     "Upload N input documents (images or PDFs). The catalogue pipeline above "
-                    "is applied to produce M augmented outputs, sampling randomly from your inputs."
+                    "is applied to produce M augmented output files."
                 )
 
                 batch_uploads = st.file_uploader(
@@ -685,33 +685,53 @@ with tab_catalogue:
                 )
 
                 if batch_uploads:
+                    # Each file = 1 template. PDFs use the first page only.
                     batch_images = []
                     for f in batch_uploads:
                         if f.name.lower().endswith(".pdf"):
                             try:
                                 pages = uploaded_pdf_to_pil_pages(f, dpi=150)
-                                batch_images.extend(pages)
+                                if pages:
+                                    batch_images.append(pages[0])
                             except ImportError:
                                 st.warning(
-                                    f"PDF support requires PyMuPDF. "
+                                    "PDF support requires PyMuPDF. "
                                     "Install with: `uv sync --extra synthesis --native-tls`"
                                 )
                         else:
                             batch_images.append(uploaded_file_to_pil(f))
-                    st.caption(f"{len(batch_images)} template page(s) loaded from {len(batch_uploads)} file(s).")
+                    st.caption(f"{len(batch_images)} template(s) loaded.")
 
-                    total = st.number_input(
-                        "How many outputs (M) do you want generated?",
-                        min_value=1, max_value=1000, value=20,
-                        key="aug_cat_batch_total",
+                    batch_mode = st.radio(
+                        "Output mode",
+                        ["N×M — copies per template", "M-total — random sample from N inputs"],
+                        key="aug_cat_batch_mode",
+                        horizontal=True,
                     )
-                    eff_mode = "random_sample"
-                    eff_copies = 1
-                    eff_total = int(total)
-                    st.caption(
-                        f"→ {eff_total} output(s) sampled randomly from "
-                        f"{len(batch_images)} template page(s)"
-                    )
+
+                    if batch_mode.startswith("N×M"):
+                        copies = st.number_input(
+                            "Copies per template (M)",
+                            min_value=1, max_value=200, value=3,
+                            key="aug_cat_batch_copies",
+                        )
+                        eff_mode = "per_template"
+                        eff_copies = int(copies)
+                        eff_total = len(batch_images) * eff_copies
+                        st.caption(f"→ {eff_total} total output files")
+                    else:
+                        total = st.number_input(
+                            "Total output files (M)",
+                            min_value=1, max_value=1000, value=20,
+                            key="aug_cat_batch_total",
+                        )
+                        eff_mode = "random_sample"
+                        eff_copies = 1
+                        eff_total = int(total)
+                        st.caption(
+                            f"→ {eff_total} output files sampled randomly from "
+                            f"{len(batch_images)} template(s)"
+                        )
 
                     seed_raw = st.number_input(
                         "Random seed (0 = unseeded)",
