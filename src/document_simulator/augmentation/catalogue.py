@@ -319,6 +319,18 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "p": 0.9,
         },
     },
+    "PaperFactory": {
+        "display_name": "Paper Factory",
+        "phase": "paper",
+        "description": "Generates a procedural paper texture and overlays it onto the document.",
+        "slow": False,
+        "default_params": {
+            "generate_texture": 1,
+            "texture_enable_color": 0,
+            "texture_color_blend_method": "overlay",
+            "p": 0.9,
+        },
+    },
     "DirtyScreen": {
         "display_name": "Dirty Screen",
         "phase": "paper",
@@ -641,6 +653,7 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
         KeyError: If aug_name is not in CATALOGUE.
         AttributeError: If aug_name is not a class in augraphy.augmentations.
     """
+    import cv2
     import numpy as np
     from PIL import Image as PILImage
     import augraphy.augmentations as aug_module
@@ -648,14 +661,30 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
     entry = CATALOGUE[aug_name]
     effective_params = {**entry["default_params"], **(params or {})}
 
-    aug_class = getattr(aug_module, aug_name)
-    aug_instance = aug_class(**effective_params)
-
     input_is_pil = isinstance(image, PILImage.Image)
     arr = np.array(image.convert("RGB")) if input_is_pil else image
 
-    result = aug_instance(arr)
-    # Some augraphy augmentations return None (pipeline-mode only); fall back to original.
-    if result is None:
-        result = arr
+    # PaperFactory lives in augraphy.base and returns a texture, not an augmented image.
+    if aug_name == "PaperFactory":
+        from augraphy.base.paperfactory import PaperFactory
+        aug_instance = PaperFactory(**effective_params)
+        texture = aug_instance(arr)
+        if texture is None:
+            result = arr
+        else:
+            # texture is 2D grayscale — resize to input, convert to RGB, overlay-blend
+            h, w = arr.shape[:2]
+            texture_resized = cv2.resize(texture, (w, h), interpolation=cv2.INTER_LINEAR)
+            texture_rgb = np.stack([texture_resized] * 3, axis=-1).astype(np.float32) / 255.0
+            base = arr.astype(np.float32) / 255.0
+            blended = np.clip(base * texture_rgb * 2.0, 0.0, 1.0)
+            result = (blended * 255).astype(np.uint8)
+    else:
+        aug_class = getattr(aug_module, aug_name)
+        aug_instance = aug_class(**effective_params)
+        result = aug_instance(arr)
+        # Some augraphy augmentations return None (pipeline-mode only); fall back to original.
+        if result is None:
+            result = arr
+
     return PILImage.fromarray(result) if input_is_pil else result

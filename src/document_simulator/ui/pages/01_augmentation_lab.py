@@ -506,6 +506,12 @@ with tab_catalogue:
                                     s_high = st.slider("Saturation max", 0, 100, int(dp.get("saturation_range", (10, 40))[1]), 5, key=f"aug_p_{aug_name}_s_high")
                                     params_override["hue_range"] = (h_low, h_high)
                                     params_override["saturation_range"] = (s_low, s_high)
+                                elif aug_name == "PaperFactory":
+                                    enable_color = st.checkbox("Enable texture colour", value=bool(dp.get("texture_enable_color", 0)), key=f"aug_p_{aug_name}_color")
+                                    blend_method = st.selectbox("Blend method", ["overlay", "normal", "multiply"], index=0, key=f"aug_p_{aug_name}_blend")
+                                    params_override["texture_enable_color"] = int(enable_color)
+                                    params_override["texture_color_blend_method"] = blend_method
+                                    params_override["generate_texture"] = 1
                                 elif aug_name == "DirtyScreen":
                                     nc_low = st.slider("Clusters min", 10, 200, int(dp.get("n_clusters", (50, 100))[0]), 10, key=f"aug_p_{aug_name}_nc_low")
                                     nc_high = st.slider("Clusters max", 10, 200, int(dp.get("n_clusters", (50, 100))[1]), 10, key=f"aug_p_{aug_name}_nc_high")
