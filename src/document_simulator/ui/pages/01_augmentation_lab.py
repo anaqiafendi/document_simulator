@@ -83,10 +83,15 @@ def _build_aug_objects(enabled_aug_names: list) -> list:
 
 
 @st.cache_data(show_spinner=False)
-def _cached_apply_single(image_bytes: bytes, aug_name: str, params_key: str) -> bytes:
-    """Apply a single augmentation and return PNG bytes. Keyed by image + aug + params."""
+def _cached_apply_single(image_bytes: bytes, aug_name: str, params_key: str, seed: int = 0) -> bytes:
+    """Apply a single augmentation and return PNG bytes. Keyed by image + aug + params + seed."""
     import json
+    import random as _random
     import cv2
+
+    if seed > 0:
+        _random.seed(seed)
+        np.random.seed(seed)
 
     params = json.loads(params_key)
     img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
@@ -628,31 +633,62 @@ with tab_catalogue:
                             effective["p"] = 1.0
                             params_key = json.dumps(effective, sort_keys=True, default=str)
 
-                            # Generate / retrieve cached preview at full resolution
-                            # Skip apply_single for slow entries to avoid long waits or crashes
-                            cache_key = f"{aug_name}::{params_key}"
-                            if entry.get("slow", False):
-                                preview_bytes = src_bytes
-                            elif cache_key not in thumbnails:
-                                try:
-                                    preview_bytes = _cached_apply_single(
-                                        src_bytes, aug_name, params_key
-                                    )
-                                    thumbnails[cache_key] = preview_bytes
-                                    st.session_state["aug_catalogue_thumbnails"] = thumbnails
-                                except Exception as exc:
-                                    st.warning(f"Preview failed: {exc}")
-                                    preview_bytes = src_bytes
-                            else:
-                                preview_bytes = thumbnails[cache_key]
+                            # Per-augmentation re-roll seed counter
+                            seed_counter = st.session_state.get(f"aug_seed_{aug_name}", 0)
+                            cache_key = f"{aug_name}::{params_key}::seed{seed_counter}"
+                            is_slow = entry.get("slow", False)
 
-                            st.image(
-                                Image.open(io.BytesIO(preview_bytes)),
-                                use_container_width=True,
-                                caption=entry["display_name"],
-                            )
-                            if entry.get("slow", False):
-                                st.caption("⚠️ Preview unavailable — apply via Generate")
+                            if is_slow and cache_key not in thumbnails:
+                                # Slow aug: show placeholder + optional on-demand render
+                                st.image(
+                                    Image.open(io.BytesIO(src_bytes)),
+                                    use_container_width=True,
+                                    caption=entry["display_name"],
+                                )
+                                st.caption("⚠️ Preview unavailable — rendering may be slow")
+                                if st.button(
+                                    "Render preview",
+                                    key=f"aug_render_slow_{aug_name}",
+                                    help="This augmentation is slow or may crash on some inputs. Click to attempt a live preview.",
+                                ):
+                                    try:
+                                        with st.spinner(f"Rendering {entry['display_name']}…"):
+                                            rendered = _cached_apply_single(
+                                                src_bytes, aug_name, params_key, seed_counter
+                                            )
+                                        thumbnails[cache_key] = rendered
+                                        st.session_state["aug_catalogue_thumbnails"] = thumbnails
+                                        st.rerun()
+                                    except Exception as exc:
+                                        st.warning(f"Render failed: {exc}")
+                            else:
+                                if cache_key not in thumbnails:
+                                    try:
+                                        preview_bytes = _cached_apply_single(
+                                            src_bytes, aug_name, params_key, seed_counter
+                                        )
+                                        thumbnails[cache_key] = preview_bytes
+                                        st.session_state["aug_catalogue_thumbnails"] = thumbnails
+                                    except Exception as exc:
+                                        st.warning(f"Preview failed: {exc}")
+                                        preview_bytes = src_bytes
+                                else:
+                                    preview_bytes = thumbnails[cache_key]
+
+                                st.image(
+                                    Image.open(io.BytesIO(preview_bytes)),
+                                    use_container_width=True,
+                                    caption=entry["display_name"],
+                                )
+                                # Re-roll button — generates a new random variation
+                                if st.button(
+                                    "Re-roll",
+                                    key=f"aug_reroll_{aug_name}",
+                                    help="Generate a new random variation of this augmentation",
+                                    use_container_width=True,
+                                ):
+                                    st.session_state[f"aug_seed_{aug_name}"] = seed_counter + 1
+                                    st.rerun()
 
         _render_phase_cards(phase_tab_ink, "ink")
         _render_phase_cards(phase_tab_paper, "paper")
