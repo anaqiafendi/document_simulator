@@ -51,9 +51,9 @@ Beyond the immediate breakage, Streamlit's architecture is fundamentally unsuite
 - [x] AC-2: `POST /api/template` with a PNG returns HTTP 200 with `image_b64`, `width_px`, `height_px` fields.
 - [x] AC-3: `POST /api/template` with a PDF returns HTTP 200 with `is_pdf: true` and a base64 PNG rendered at 150 DPI.
 - [x] AC-4: `POST /api/preview` with a valid `SynthesisConfig` body returns HTTP 200 with a `samples` array of exactly 3 objects, each with `image_b64` and `seed`.
-- [x] AC-5: `POST /api/generate` with `n=5` returns HTTP 202 with `job_id`; polling `GET /api/jobs/{job_id}` eventually returns `status: "done"`; `GET /api/jobs/{job_id}/download` returns a ZIP with 5 PNGs and 5 JSONs, each JSON parseable by `GroundTruth.model_validate_json()`.
+- [x] AC-5: `POST /api/generate` with `n=5` returns HTTP 202 with `job_id`; polling `GET /api/jobs/{job_id}` eventually returns `status: "done"`; `GET /api/jobs/{job_id}/download` returns a ZIP with 5 PDFs and 5 JSONs, each JSON parseable by `GroundTruth.model_validate_json()`.
 - [x] AC-6: After `make build-frontend`, opening `http://localhost:8000` loads the React app without console errors.
-- [x] AC-7: Uploading a PNG or PDF renders it as the background of the Konva stage (server-side PyMuPDF render → base64 PNG; Konva `KonvaImage` layer). *(original MVP note superseded — Konva stage is fully implemented)*
+- [x] AC-7: Uploading a PDF renders it as the background of the Konva stage (server-side PyMuPDF render → base64 PNG; Konva `KonvaImage` layer). Only PDF templates are accepted; PNG/JPEG uploads return HTTP 422. *(scope refined — PDF-only simplifies the pipeline)*
 - [x] AC-8: Drawing a rectangle on the Konva stage (Draw mode) adds one zone entry nested under the active respondent's card in the sidebar. *(original "Future Work" note superseded — Konva zone drawing is fully implemented)*
 - [x] AC-9: The respondent panel supports adding/removing respondents and field types via buttons.
 - [x] AC-10: The zone list panel shows a respondent selectbox for each drawn zone.
@@ -106,6 +106,18 @@ Beyond the immediate breakage, Streamlit's architecture is fundamentally unsuite
   > *Refined during implementation: Zones with the same faker provider but different writing styles (e.g. typed vs handwritten) were visually indistinguishable on the canvas.*
 - [x] AC-37: The active-respondent selector in the `ZoneCanvas` toolbar is displayed in a styled group with a colour-coded left border, tinted background, `boxShadow` ring, `"Drawing for:"` label prefix, and a colour-bordered `<select>`. The respondent card in `RespondentPanel` whose `respondent_id` matches the active respondent shows an `"Active"` badge in the respondent colour.
   > *Refined during implementation: The plain colour dot and unlabelled dropdown gave no clear affordance that the chosen respondent determines zone ownership; the new treatment makes the active state unambiguous.*
+- [x] AC-38: Canvas faker preview text font size is sampled once per `(respondent_id, field_type_id)` pair and cached in `useZonePreview`; all zones sharing the same writing style render at the same size. The size is re-sampled immediately when `font_size_range` bounds change, updating only the `fontSize` field without disturbing preview text or position. The cache key is cleared on range change to guarantee a fresh sample within the new bounds.
+  > *Bug fix: `Math.random()` was called inside the Konva render loop, causing font size to change on every React re-render; additionally, two zones sharing the same writing style showed different sizes. Both issues made the canvas preview misleading.*
+- [x] AC-39: Clicking anywhere on a respondent card's header row in `RespondentPanel` sets that respondent as the active drawing respondent (updates the `ZoneCanvas` "Drawing for:" selector and `activeRespondentId` state). Clicking the name `<input>` to edit or the Remove button does not trigger activation (both call `stopPropagation`).
+  > *Refined during implementation: Switching the active respondent required opening the canvas toolbar dropdown; clicking the sidebar card is more direct and matches the mental model of "select → draw".*
+- [x] AC-40: `/api/preview` accepts `template_b64` in the request body and composites zone text onto the uploaded template image rather than a blank white canvas. `/api/generate` likewise accepts `template_b64` in `GenerateRequest` and uses it as the document background in batch generation.
+  > *Bug fix: Both endpoints were creating `Image.new("RGB", ..., white)` regardless of whether a template was provided, so generated previews and batch outputs had no document background.*
+- [x] AC-41: Each re-roll button click generates a fresh random seed (`Math.random() * 1_000_000`), guaranteeing a visually different sample on every press. Clicking a preview thumbnail opens a full-viewport lightbox (dark overlay, image at up to 95vw×95vh); the lightbox closes via the × button, clicking outside the image, or pressing Escape.
+  > *Bug fix: The previous implementation always sent `seed = 1000 + idx` on re-roll, producing the same image every time because the generator is deterministic. No fullscreen view existed.*
+- [x] AC-42: Only PDF files are accepted as templates throughout the pipeline. `POST /api/template` returns HTTP 422 with the message "Only PDF templates are supported. Please upload a .pdf file." for PNG, JPEG, and any other non-PDF input. The frontend `<input accept=".pdf">` restricts the file picker to PDF only. Batch ZIP output contains `.pdf` files.
+  > *Refined during implementation: Supporting both raster images and PDFs created inconsistent behaviour (PDFs were rasterised, images were not), complicating the rendering pipeline and confusing output format expectations.*
+- [x] AC-43: `bold` and `italic` field-type properties are applied in `ZoneRenderer.draw()`: bold via `stroke_width=1` on `draw.text()`; italic via affine shear (factor 0.25) on a temporary RGBA layer composited back onto the canvas. `alignment` (`left` / `center` / `right`) adjusts the text x-position using `draw.textlength()` for center and right; x-jitter is bypassed for non-left alignments.
+  > *Bug fix: `bold`, `italic`, and `alignment` were stored in `ResolvedStyle` and `ZoneConfig` but never consulted by `ZoneRenderer.draw()`, so writing style settings had no visible effect in generated output.*
 
 ---
 
@@ -300,9 +312,9 @@ USER                         REACT SPA (:8000)              FASTAPI (:8000)     
 | File | Type | Count | What is covered |
 |------|------|-------|-----------------|
 | `tests/api/test_health.py` | unit | 2 | `GET /health` response code and body |
-| `tests/api/test_template_endpoint.py` | unit | 8 | PNG upload, PDF upload, unsupported type, empty file |
+| `tests/api/test_template_endpoint.py` | unit | 8 | PDF upload (200 + base64 + metadata), PNG/JPEG reject (422), unsupported type, empty file |
 | `tests/api/test_preview_endpoint.py` | unit | 6 | Returns 3 samples, custom seeds, invalid config, zero zones |
-| `tests/api/test_generate_endpoint.py` | integration | 9 | 202 response, job polling, download ZIP contents, GroundTruth validity |
+| `tests/api/test_generate_endpoint.py` | integration | 8 | 202 response, job polling, download ZIP PDF contents, GroundTruth validity |
 | `tests/api/test_config_schema_endpoint.py` | unit | 3 | Schema is valid JSON, contains expected fields |
 | `tests/ui/integration/test_synthetic_generator.py` | integration | 3 | Updated to assert stub content (link present, no exception) |
 
@@ -382,6 +394,27 @@ uv run pytest tests/ui/integration/test_synthetic_generator.py -v
 - **Root cause:** `ZoneRow.onReroll` was defined as `() => onRerollZone(zone.zone_id, zone.faker_provider)`, capturing `zone.faker_provider` from the render closure. The `onChange` handler called `onUpdate({ faker_provider: newValue })` first, then `onReroll()` — but `zone.faker_provider` was still the stale value because React had not yet re-rendered.
 - **Fix:** Changed `onReroll`'s signature to accept an optional provider override: `(provider?: string) => void`. The `onChange` handler now passes the new value directly: `onReroll(v)`. `ZoneRow` calls `onRerollZone(zone.zone_id, provider ?? zone.faker_provider)`, so the fresh value is used immediately.
 - **Regression test:** none (interaction/timing only)
+
+**Bug 6 — Font size re-sampled on every render, inconsistent per writing style**
+
+- **Symptom:** Each canvas re-render (e.g. hovering over a zone, panning the canvas) produced a visibly different font size for the same zone, making previews flicker. Zones sharing the same respondent + field type had different font sizes despite belonging to the same writing style.
+- **Root cause:** `ZoneCanvas.tsx` computed font size with an inline `Math.random()` call inside the render function. This produced a new value every render cycle with no caching.
+- **Fix:** Moved font-size sampling to `useZonePreview.ts` as `getOrSampleFontSize(respondentId, fieldTypeId, range)`, backed by a `fontSizeCache` useRef keyed by `respondent_id:field_type_id`. `ZoneCanvas` reads `zonePreviews[zone_id].fontSize` instead of computing on the fly. All zones sharing the same writing style use the same cached size.
+- **Regression test:** none (visual/rendering only)
+
+**Bug 7 — Preview gallery: no template background, re-roll idempotent, no fullscreen**
+
+- **Symptom:** (a) Preview images showed text on a blank white canvas rather than the uploaded template. (b) Clicking "Re-roll" a second time produced the same image, making preview exploration ineffective. (c) Clicking a preview thumbnail had no effect; users had no way to inspect fine detail.
+- **Root cause:** (a) `template_b64` was never threaded from `useTemplate` state to the preview API call. (b) `usePreviews.reroll()` used a fixed seed of `1000 + idx`, so the same deterministic image was always generated. (c) No lightbox code existed.
+- **Fix:** (a) `PreviewRequest` and `GenerateRequest` Pydantic models gained `template_b64: str | None`; the `/api/preview` and `/api/generate` endpoints decode and use it as the document background. (b) `usePreviews.reroll()` now generates `Math.floor(Math.random() * 1_000_000) + 10000` as seed. (c) `PreviewGallery.tsx` gained a fixed-position fullscreen lightbox activated on thumbnail click, closable by clicking outside, pressing Escape, or the × button.
+- **Regression test:** none (visual/interaction only)
+
+**Bug 8 — Bold, italic, and alignment not applied in ZoneRenderer**
+
+- **Symptom:** Setting `bold: true`, `italic: true`, or `alignment: "center"` / `"right"` on a field type had no visible effect in generated preview images or batch output. All text appeared with identical left-aligned, regular-weight rendering.
+- **Root cause:** `ZoneRenderer.draw()` called `draw.text()` with no `stroke_width`, no italic transform, and hard-coded `x = x_jittered` regardless of the `alignment` field on `ZoneConfig`.
+- **Fix:** Added three rendering branches to `ZoneRenderer.draw()`: (1) bold → `stroke_width=1, stroke_fill=color`; (2) italic → `_render_italic_text()` which draws on a temporary RGBA layer and applies an affine shear (factor 0.25) before compositing back; (3) alignment → uses `draw.textlength(display_text, font=font)` to compute center and right x-positions, bypassing jitter for non-left alignments.
+- **Regression test:** none (visual rendering only)
 
 ---
 
@@ -470,6 +503,7 @@ cd webapp && npm run dev
 |------|--------|--------------|-------|
 | 2026-03-08 | `feature/js-synthetic-doc-generator-ui` | 27 (API) | All ACs met; 15 refined ACs added; 4 bugs documented |
 | 2026-03-08 | `feature/js-synthetic-doc-generator-ui` | 27 (API) | 7 UX enhancements (AC-31–AC-37); 1 additional bug documented (Bug 5 — stale faker provider); `npm run build` clean |
+| 2026-03-08 | `feature/js-synthetic-doc-generator-ui` | 27 (API) | AC-38–AC-43 added; 3 additional bugs documented (Bug 6–8: font size stability, preview gallery, renderer bold/italic/alignment); PDF-only pipeline |
 
 ---
 

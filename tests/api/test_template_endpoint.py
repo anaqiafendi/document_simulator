@@ -3,27 +3,27 @@ from PIL import Image
 import io
 
 
-def test_post_template_png_returns_200(client, tiny_png_bytes):
+def test_post_template_png_returns_422(client, tiny_png_bytes):
+    """PNG upload is rejected — only PDF templates are supported."""
     r = client.post("/api/template", files={"file": ("test.png", tiny_png_bytes, "image/png")})
-    assert r.status_code == 200
+    assert r.status_code == 422
 
 
-def test_post_template_png_returns_base64_image(client, tiny_png_bytes):
-    r = client.post("/api/template", files={"file": ("test.png", tiny_png_bytes, "image/png")})
+def test_post_template_jpg_returns_422(client, tiny_png_bytes):
+    """JPEG upload is rejected — only PDF templates are supported."""
+    r = client.post("/api/template", files={"file": ("test.jpg", tiny_png_bytes, "image/jpeg")})
+    assert r.status_code == 422
+
+
+def test_post_template_pdf_returns_base64_image(client, minimal_pdf_bytes):
+    r = client.post("/api/template", files={"file": ("test.pdf", minimal_pdf_bytes, "application/pdf")})
     data = r.json()
     assert "image_b64" in data
     assert len(data["image_b64"]) > 0
-    # must be valid base64 PNG
+    # must be valid base64 PNG (PDF is rasterised server-side)
     img_bytes = base64.b64decode(data["image_b64"])
     img = Image.open(io.BytesIO(img_bytes))
     assert img.format == "PNG"
-
-
-def test_post_template_png_returns_width_and_height(client, tiny_png_bytes):
-    r = client.post("/api/template", files={"file": ("test.png", tiny_png_bytes, "image/png")})
-    data = r.json()
-    assert data["width_px"] == 100
-    assert data["height_px"] == 80
 
 
 def test_post_template_pdf_returns_200(client, minimal_pdf_bytes):
