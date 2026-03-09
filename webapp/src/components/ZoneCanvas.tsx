@@ -34,6 +34,8 @@ interface Props {
   selectedId: string | null
   respondents: RespondentConfig[]
   zonePreviews: Record<string, ZonePreviewData>
+  /** Which PDF page is currently displayed (0-indexed). Only zones for this page are shown. */
+  currentPage?: number
   /** Controlled: parent can set the active respondent (e.g. by clicking the sidebar card) */
   activeRespondentId?: string
   onZoneDrawn: (partial: Omit<ZoneConfig, 'zone_id'>) => void
@@ -49,6 +51,7 @@ export default function ZoneCanvas({
   selectedId,
   respondents,
   zonePreviews,
+  currentPage = 0,
   activeRespondentId: activeRespondentIdProp,
   onZoneDrawn,
   onZoneSelect,
@@ -200,6 +203,7 @@ export default function ZoneCanvas({
       faker_provider: 'name',
       custom_values: [],
       alignment: 'left',
+      page: currentPage,
     })
     // #1: stay in Draw mode after creating a zone — user can immediately draw another
   }
@@ -288,7 +292,7 @@ export default function ZoneCanvas({
           </Layer>
 
           <Layer>
-            {zones.map(zone => {
+            {zones.filter(z => z.page === currentPage).map(zone => {
               const { x, y, w, h } = boxToRect(zone.box)
               const respondentIdx = respondents.findIndex(r => r.respondent_id === zone.respondent_id)
               const color = getRespondentColor(respondentIdx)

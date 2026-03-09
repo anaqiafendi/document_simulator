@@ -8,6 +8,7 @@ export function useTemplate() {
   const [error, setError] = useState<string | null>(null)
   const [samples, setSamples] = useState<string[]>([])
   const [currentPage, setCurrentPage] = useState(0)
+  const [rawPdfB64, setRawPdfB64] = useState<string | null>(null)
 
   // Keep a reference to the last uploaded File or sample name so we can
   // re-request when the user navigates to a different page.
@@ -25,6 +26,14 @@ export function useTemplate() {
     try {
       storedFile.current = file
       storedSample.current = null
+
+      // Read raw bytes as base64 for multi-page generation
+      const arrayBuf = await file.arrayBuffer()
+      const bytes = new Uint8Array(arrayBuf)
+      let binary = ''
+      for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i])
+      setRawPdfB64(btoa(binary))
+
       const info = await uploadTemplate(file, 150, page)
       setTemplateInfo(info)
       setCurrentPage(page)
@@ -41,6 +50,7 @@ export function useTemplate() {
     try {
       storedSample.current = filename
       storedFile.current = null
+      setRawPdfB64(null)  // Raw bytes not available for server-side samples
       const info = await loadSample(filename, 150, page)
       setTemplateInfo(info)
       setCurrentPage(page)
@@ -63,5 +73,5 @@ export function useTemplate() {
     }
   }
 
-  return { templateInfo, loading, error, samples, currentPage, upload, loadFromSample, navigatePage }
+  return { templateInfo, loading, error, samples, currentPage, rawPdfB64, upload, loadFromSample, navigatePage }
 }

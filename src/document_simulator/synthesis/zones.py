@@ -68,6 +68,9 @@ class ZoneConfig(BaseModel):
     custom_values: list[str] = Field(default_factory=list)
     alignment: str = "left"  # left | center | right
 
+    # Multi-page support: which PDF page (0-indexed) this zone belongs to
+    page: int = 0
+
 
 class GeneratorConfig(BaseModel):
     """Batch generation settings."""

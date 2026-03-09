@@ -25,7 +25,11 @@ from document_simulator.api.models import (
     PreviewSample,
     TemplateResponse,
 )
+from document_simulator.data.ground_truth import GroundTruth
+from document_simulator.synthesis.annotation import AnnotationBuilder
 from document_simulator.synthesis.generator import SyntheticDocumentGenerator
+from document_simulator.synthesis.renderer import StyleResolver, ZoneRenderer
+from document_simulator.synthesis.sampler import ZoneDataSampler, generate_respondent
 from document_simulator.synthesis.zones import SynthesisConfig
 
 router = APIRouter()
@@ -149,45 +153,116 @@ def preview(body: PreviewRequest) -> PreviewResponse:
     return PreviewResponse(samples=samples)
 
 
-def _run_generate_job(job_id: str, synthesis_config_dict: dict, n: int, template_b64: str | None = None) -> None:
+def _generate_multipage_doc(
+    pdf_raw: bytes,
+    synthesis_config: SynthesisConfig,
+    seed: int,
+    dpi: int = 150,
+) -> tuple[list[Image.Image], GroundTruth]:
+    """Render each PDF page and apply page-specific zones, returning all rendered pages."""
+    import fitz  # PyMuPDF
+
+    doc = fitz.open(stream=pdf_raw, filetype="pdf")
+    page_count = len(doc)
+
+    resolver = StyleResolver(synthesis_config, seed=seed)
+    respondent_identities = {
+        r.respondent_id: generate_respondent(r.respondent_id, global_seed=seed)
+        for r in synthesis_config.respondents
+    }
+
+    pages_out: list[Image.Image] = []
+    all_rendered_regions: list[dict] = []
+
+    for pg in range(page_count):
+        pix = doc[pg].get_pixmap(matrix=fitz.Matrix(dpi / 72, dpi / 72))
+        canvas = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+
+        for zone in synthesis_config.zones:
+            if zone.page != pg:
+                continue
+            style = resolver.resolve(zone.respondent_id, zone.field_type_id)
+            identity = respondent_identities.get(zone.respondent_id, {})
+            text = ZoneDataSampler.sample(zone, identity, seed=seed)
+            canvas = ZoneRenderer.draw(canvas, text, style, zone, seed=seed)
+            all_rendered_regions.append({
+                "box": zone.box,
+                "text": text,
+                "respondent": zone.respondent_id,
+                "field_type": zone.field_type_id,
+                "font_family": style.font_family,
+                "font_size": style.font_size,
+                "font_color": style.font_color,
+            })
+
+        pages_out.append(canvas)
+
+    gt = AnnotationBuilder.build(
+        image_path=f"doc_{seed:06d}.pdf",
+        rendered_regions=all_rendered_regions,
+    )
+    return pages_out, gt
+
+
+def _run_generate_job(
+    job_id: str,
+    synthesis_config_dict: dict,
+    n: int,
+    template_b64: str | None = None,
+    template_pdf_b64: str | None = None,
+) -> None:
     """Background task: generate n documents and store ZIP bytes in job store."""
     try:
         update_job(job_id, status="running")
 
         synthesis_config = SynthesisConfig.model_validate(synthesis_config_dict)
+        base_seed = synthesis_config.generator.seed
 
-        # Use the uploaded template if provided, otherwise fall back to a blank canvas
-        if template_b64:
+        # Decode raw PDF bytes when provided — enables multi-page generation
+        pdf_raw: bytes | None = None
+        if template_pdf_b64:
             try:
-                raw = base64.b64decode(template_b64)
-                template = Image.open(io.BytesIO(raw)).convert("RGB")
+                pdf_raw = base64.b64decode(template_pdf_b64)
             except Exception as exc:
-                raise ValueError(f"Cannot decode template_b64: {exc}") from exc
-        else:
-            template = Image.new(
-                "RGB",
-                (synthesis_config.generator.image_width, synthesis_config.generator.image_height),
-                color=(255, 255, 255),
-            )
-
-        gen = SyntheticDocumentGenerator(template=template, synthesis_config=synthesis_config)
+                raise ValueError(f"Cannot decode template_pdf_b64: {exc}") from exc
 
         # Build ZIP in memory — generate documents one by one for progress reporting
         buf = io.BytesIO()
-        base_seed = synthesis_config.generator.seed
         with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zf:
             for i in range(n):
                 stem = f"doc_{i + 1:06d}"
                 seed = base_seed + i
-                img, gt = gen.generate_one(seed=seed)
 
-                pdf_buf = io.BytesIO()
-                img.save(pdf_buf, format="PDF")
+                if pdf_raw is not None:
+                    # Multi-page path: render each PDF page with its zones
+                    pages, gt = _generate_multipage_doc(pdf_raw, synthesis_config, seed)
+                    pdf_buf = io.BytesIO()
+                    if len(pages) == 1:
+                        pages[0].save(pdf_buf, format="PDF")
+                    else:
+                        pages[0].save(pdf_buf, format="PDF", save_all=True, append_images=pages[1:])
+                else:
+                    # Single-page path: use rendered PNG template or blank canvas
+                    if template_b64:
+                        try:
+                            raw = base64.b64decode(template_b64)
+                            template = Image.open(io.BytesIO(raw)).convert("RGB")
+                        except Exception as exc:
+                            raise ValueError(f"Cannot decode template_b64: {exc}") from exc
+                    else:
+                        template = Image.new(
+                            "RGB",
+                            (synthesis_config.generator.image_width, synthesis_config.generator.image_height),
+                            color=(255, 255, 255),
+                        )
+                    gen = SyntheticDocumentGenerator(template=template, synthesis_config=synthesis_config)
+                    img, gt = gen.generate_one(seed=seed)
+                    pdf_buf = io.BytesIO()
+                    img.save(pdf_buf, format="PDF")
+
                 zf.writestr(f"{stem}.pdf", pdf_buf.getvalue())
                 zf.writestr(f"{stem}.json", gt.model_dump_json(indent=2))
-
-                progress = (i + 1) / n
-                update_job(job_id, progress=progress)
+                update_job(job_id, progress=(i + 1) / n)
 
         buf.seek(0)
         update_job(job_id, status="done", progress=1.0, result_bytes=buf.read())
@@ -208,7 +283,9 @@ def generate(body: GenerateRequest, background_tasks: BackgroundTasks) -> Genera
         raise HTTPException(status_code=422, detail=str(exc)) from exc
 
     job_id = create_job()
-    background_tasks.add_task(_run_generate_job, job_id, body.synthesis_config, body.n, body.template_b64)
+    background_tasks.add_task(
+        _run_generate_job, job_id, body.synthesis_config, body.n, body.template_b64, body.template_pdf_b64
+    )
     logger.info(f"Job {job_id} queued: n={body.n}")
     return GenerateResponse(job_id=job_id)
 

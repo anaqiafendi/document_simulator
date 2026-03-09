@@ -167,6 +167,11 @@ function ZoneRow({
           onClick={e => e.stopPropagation()}
           style={{ flex: 1, fontWeight: 600, border: 'none', outline: 'none', background: 'transparent', fontSize: 12, borderBottom: '1px solid #eee' }}
         />
+        {zone.page > 0 && (
+          <span style={{ fontSize: 10, color: '#999', background: '#f0f0f0', borderRadius: 3, padding: '1px 4px', whiteSpace: 'nowrap' }}>
+            p.{zone.page + 1}
+          </span>
+        )}
         {/* Re-roll */}
         <button
           title="Re-roll preview text"

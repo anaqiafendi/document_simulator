@@ -28,6 +28,7 @@ export interface ZoneConfig {
   faker_provider: string
   custom_values: string[]
   alignment: 'left' | 'center' | 'right'
+  page: number  // 0-indexed PDF page this zone belongs to
 }
 
 export interface GeneratorConfig {

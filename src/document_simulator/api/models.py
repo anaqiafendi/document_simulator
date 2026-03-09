@@ -43,7 +43,8 @@ class GenerateRequest(BaseModel):
 
     synthesis_config: dict
     n: int = 10
-    template_b64: str | None = None  # base64 PNG; when None, a blank canvas is used
+    template_b64: str | None = None      # base64 PNG of a single rendered page
+    template_pdf_b64: str | None = None  # raw PDF bytes as base64; enables multi-page generation
 
 
 class GenerateResponse(BaseModel):

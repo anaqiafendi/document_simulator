@@ -192,6 +192,7 @@ export default function App() {
               selectedId={zones.selectedId}
               respondents={respondents.respondents}
               zonePreviews={zonePreview.previews}
+              currentPage={template.currentPage}
               activeRespondentId={activeRespondentId}
               onZoneDrawn={handleZoneDrawn}
               onZoneSelect={zones.selectZone}
@@ -263,7 +264,7 @@ export default function App() {
             loading={gen.loading}
             jobStatus={gen.jobStatus}
             downloadJobId={gen.downloadJobId}
-            onGenerate={(n, dir) => gen.generate(buildConfig(dir, n), n, template.templateInfo?.image_b64)}
+            onGenerate={(n, dir) => gen.generate(buildConfig(dir, n), n, template.templateInfo?.image_b64, template.rawPdfB64 ?? undefined)}
             downloadUrl={gen.downloadUrl}
           />
         </section>

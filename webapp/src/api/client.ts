@@ -40,11 +40,21 @@ export async function fetchPreviews(
   return data.samples
 }
 
-export async function startGenerate(synthesisConfig: SynthesisConfig, n: number, templateB64?: string): Promise<string> {
+export async function startGenerate(
+  synthesisConfig: SynthesisConfig,
+  n: number,
+  templateB64?: string,
+  templatePdfB64?: string,
+): Promise<string> {
   const r = await fetch(`${BASE}/api/generate`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ synthesis_config: synthesisConfig, n, template_b64: templateB64 ?? null }),
+    body: JSON.stringify({
+      synthesis_config: synthesisConfig,
+      n,
+      template_b64: templateB64 ?? null,
+      template_pdf_b64: templatePdfB64 ?? null,
+    }),
   })
   if (!r.ok) throw new Error(`Generate failed: ${r.status}`)
   const data = await r.json()
