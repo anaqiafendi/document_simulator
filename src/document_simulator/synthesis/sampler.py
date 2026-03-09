@@ -29,7 +29,7 @@ def generate_respondent(group_id: str, global_seed: int) -> dict[str, str]:
         "last_name": last,
         "full_name": f"{first} {last}",
         "initials": f"{first[0].upper()}.{last[0].upper()}.",
-        "address": fake.address(),
+        "address": fake.street_address(),
         "ssn": fake.ssn(),
     }
 

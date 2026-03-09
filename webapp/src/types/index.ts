@@ -50,6 +50,7 @@ export interface TemplateInfo {
   height_px: number
   dpi: number
   is_pdf: boolean
+  page_count: number
 }
 
 export interface PreviewSample {

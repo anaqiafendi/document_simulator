@@ -13,6 +13,7 @@ class TemplateResponse(BaseModel):
     height_px: int
     dpi: int = 150
     is_pdf: bool = False
+    page_count: int = 1
 
 
 class PreviewSample(BaseModel):

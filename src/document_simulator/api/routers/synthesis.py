@@ -43,11 +43,11 @@ def _pil_to_png_b64(img: Image.Image) -> str:
     return base64.b64encode(buf.read()).decode("utf-8")
 
 
-def _render_template_bytes(file_bytes: bytes, filename: str, dpi: int, page: int) -> tuple[Image.Image, bool]:
+def _render_template_bytes(file_bytes: bytes, filename: str, dpi: int, page: int) -> tuple[Image.Image, bool, int]:
     """Render PDF file bytes to a PIL Image.
 
     Returns:
-        (pil_image, is_pdf)
+        (pil_image, is_pdf, page_count)
 
     Raises:
         HTTPException(422) for unsupported types or empty files.
@@ -64,9 +64,11 @@ def _render_template_bytes(file_bytes: bytes, filename: str, dpi: int, page: int
         except ImportError as exc:
             raise HTTPException(status_code=500, detail="PyMuPDF not installed.") from exc
         doc = fitz.open(stream=file_bytes, filetype="pdf")
-        pix = doc[page].get_pixmap(matrix=fitz.Matrix(dpi / 72, dpi / 72))
+        page_count = len(doc)
+        safe_page = max(0, min(page, page_count - 1))
+        pix = doc[safe_page].get_pixmap(matrix=fitz.Matrix(dpi / 72, dpi / 72))
         img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
-        return img, True
+        return img, True, page_count
 
     raise HTTPException(
         status_code=422,
@@ -84,10 +86,10 @@ async def upload_template(
     file_bytes = await file.read()
     filename = file.filename or ""
 
-    img, is_pdf = _render_template_bytes(file_bytes, filename, dpi=dpi, page=page)
+    img, is_pdf, page_count = _render_template_bytes(file_bytes, filename, dpi=dpi, page=page)
 
     image_b64 = _pil_to_png_b64(img)
-    logger.info(f"Template uploaded: {filename!r} → {img.width}×{img.height}px is_pdf={is_pdf}")
+    logger.info(f"Template uploaded: {filename!r} → {img.width}×{img.height}px is_pdf={is_pdf} pages={page_count}")
 
     return TemplateResponse(
         image_b64=image_b64,
@@ -95,6 +97,7 @@ async def upload_template(
         height_px=img.height,
         dpi=dpi,
         is_pdf=is_pdf,
+        page_count=page_count,
     )
 
 
@@ -262,9 +265,9 @@ def load_sample(filename: str, dpi: int = 150, page: int = 0) -> TemplateRespons
     if not sample_path.exists():
         raise HTTPException(status_code=404, detail=f"Sample '{safe_name}' not found.")
     file_bytes = sample_path.read_bytes()
-    img, is_pdf = _render_template_bytes(file_bytes, safe_name, dpi=dpi, page=page)
-    logger.info(f"Sample loaded: {safe_name!r} → {img.width}×{img.height}px")
-    return TemplateResponse(image_b64=_pil_to_png_b64(img), width_px=img.width, height_px=img.height, dpi=dpi, is_pdf=is_pdf)
+    img, is_pdf, page_count = _render_template_bytes(file_bytes, safe_name, dpi=dpi, page=page)
+    logger.info(f"Sample loaded: {safe_name!r} → {img.width}×{img.height}px pages={page_count}")
+    return TemplateResponse(image_b64=_pil_to_png_b64(img), width_px=img.width, height_px=img.height, dpi=dpi, is_pdf=is_pdf, page_count=page_count)
 
 
 @router.get("/api/config/schema")

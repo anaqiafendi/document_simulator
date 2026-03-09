@@ -154,6 +154,27 @@ export default function App() {
           </span>
         )}
 
+        {/* Page navigation — only shown for multi-page PDFs */}
+        {template.templateInfo && template.templateInfo.page_count > 1 && (
+          <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <button
+              disabled={template.loading || template.currentPage === 0}
+              onClick={() => template.navigatePage(-1)}
+              style={{ fontSize: 13, padding: '2px 8px', cursor: 'pointer' }}
+              title="Previous page"
+            >‹</button>
+            <span style={{ fontSize: 12, color: '#555' }}>
+              Page {template.currentPage + 1} / {template.templateInfo.page_count}
+            </span>
+            <button
+              disabled={template.loading || template.currentPage === template.templateInfo.page_count - 1}
+              onClick={() => template.navigatePage(1)}
+              style={{ fontSize: 13, padding: '2px 8px', cursor: 'pointer' }}
+              title="Next page"
+            >›</button>
+          </span>
+        )}
+
         <span style={{ marginLeft: 'auto' }}>
           <ConfigPanel config={buildConfig()} onLoad={() => {}} />
         </span>

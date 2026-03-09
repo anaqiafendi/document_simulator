@@ -19,8 +19,8 @@ export async function listSamples(): Promise<string[]> {
   return data.samples as string[]
 }
 
-export async function loadSample(filename: string, dpi = 150): Promise<TemplateInfo> {
-  const r = await fetch(`${BASE}/api/samples/${encodeURIComponent(filename)}?dpi=${dpi}`)
+export async function loadSample(filename: string, dpi = 150, page = 0): Promise<TemplateInfo> {
+  const r = await fetch(`${BASE}/api/samples/${encodeURIComponent(filename)}?dpi=${dpi}&page=${page}`)
   if (!r.ok) throw new Error(`Failed to load sample: ${r.status}`)
   return r.json()
 }
