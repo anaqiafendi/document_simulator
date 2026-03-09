@@ -305,9 +305,8 @@ with tab_catalogue:
     if src_image is None:
         st.info("Upload a document image above to use the catalogue.")
     else:
-        # Prepare thumbnail source (256x256)
-        thumb_src = _thumbnail_source(src_image)
-        thumb_src_bytes = image_to_bytes(thumb_src)
+        # Use full-resolution source for all catalogue previews
+        src_bytes = image_to_bytes(src_image)
 
         # Ensure catalogue thumbnails dict exists
         if "aug_catalogue_thumbnails" not in st.session_state:
@@ -625,80 +624,33 @@ with tab_catalogue:
                             effective["p"] = 1.0
                             params_key = json.dumps(effective, sort_keys=True, default=str)
 
-                            # Generate / retrieve cached thumbnail
+                            # Generate / retrieve cached preview at full resolution
                             # Skip apply_single for slow entries to avoid long waits or crashes
                             cache_key = f"{aug_name}::{params_key}"
                             if entry.get("slow", False):
-                                thumb_bytes = thumb_src_bytes
+                                preview_bytes = src_bytes
                             elif cache_key not in thumbnails:
                                 try:
-                                    thumb_bytes = _cached_apply_single(
-                                        thumb_src_bytes, aug_name, params_key
+                                    preview_bytes = _cached_apply_single(
+                                        src_bytes, aug_name, params_key
                                     )
-                                    thumbnails[cache_key] = thumb_bytes
+                                    thumbnails[cache_key] = preview_bytes
                                     st.session_state["aug_catalogue_thumbnails"] = thumbnails
                                 except Exception as exc:
                                     st.warning(f"Preview failed: {exc}")
-                                    thumb_bytes = thumb_src_bytes
+                                    preview_bytes = src_bytes
                             else:
-                                thumb_bytes = thumbnails[cache_key]
+                                preview_bytes = thumbnails[cache_key]
 
                             st.image(
-                                Image.open(io.BytesIO(thumb_bytes)),
+                                Image.open(io.BytesIO(preview_bytes)),
                                 use_container_width=True,
                                 caption=entry["display_name"],
                             )
 
-                            if not entry.get("slow", False):
-                                if st.button(
-                                    "Full resolution preview",
-                                    key=f"aug_fullres_{aug_name}",
-                                    use_container_width=True,
-                                ):
-                                    st.session_state["aug_full_preview_name"] = aug_name
-
         _render_phase_cards(phase_tab_ink, "ink")
         _render_phase_cards(phase_tab_paper, "paper")
         _render_phase_cards(phase_tab_post, "post")
-
-        # ── Full resolution preview panel ─────────────────────────────────────
-        _full_name = st.session_state.get("aug_full_preview_name")
-        if _full_name and _full_name in CATALOGUE and not CATALOGUE[_full_name].get("slow", False):
-            import json as _json
-
-            _full_entry = CATALOGUE[_full_name]
-            st.divider()
-            _hcol, _xcol = st.columns([9, 1])
-            _hcol.subheader(f"Full resolution preview — {_full_entry['display_name']}")
-            if _xcol.button("✕", key="aug_full_close", help="Close preview"):
-                del st.session_state["aug_full_preview_name"]
-                st.rerun()
-            else:
-                _stored = st.session_state.get(f"aug_params_{_full_name}", {})
-                _params = {**_full_entry["default_params"], **_stored}
-                _params["p"] = 1.0
-                _params_key = _json.dumps(_params, sort_keys=True, default=str)
-                _orig_bytes = image_to_bytes(src_image)
-                try:
-                    with st.spinner(
-                        f"Rendering {_full_entry['display_name']} at original resolution…"
-                    ):
-                        _full_bytes = _cached_apply_single(_orig_bytes, _full_name, _params_key)
-                    _full_img = Image.open(io.BytesIO(_full_bytes))
-                    show_side_by_side(
-                        src_image,
-                        _full_img,
-                        labels=("Original", _full_entry["display_name"]),
-                    )
-                    st.download_button(
-                        f"⬇ Download {_full_entry['display_name']} (full resolution)",
-                        data=_full_bytes,
-                        file_name=f"{_full_name.lower()}_preview.png",
-                        mime="image/png",
-                        key="aug_full_dl",
-                    )
-                except Exception as _exc:
-                    st.error(f"Full resolution preview failed: {_exc}")
 
         # ── Generate button ───────────────────────────────────────────────────
         st.divider()
