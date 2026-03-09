@@ -85,5 +85,25 @@ export function useZonePreview() {
     delete fontSizeCache.current[`${respondentId}:${fieldTypeId}`]
   }, [])
 
-  return { previews, initZone, rerollZone, removeZone, clearFieldTypeFontSize }
+  // Immediately resample and apply a new font size for all zones of a given writing style.
+  // Only fontSize changes — text and position are preserved.
+  const resampleFontSize = useCallback((
+    respondentId: string,
+    fieldTypeId: string,
+    range: [number, number],
+    zoneIds: string[],
+  ) => {
+    const key = `${respondentId}:${fieldTypeId}`
+    const newSize = Math.round(range[0] + Math.random() * (range[1] - range[0]))
+    fontSizeCache.current[key] = newSize
+    setPreviews(prev => {
+      const next = { ...prev }
+      for (const id of zoneIds) {
+        if (next[id]) next[id] = { ...next[id], fontSize: newSize }
+      }
+      return next
+    })
+  }, [])
+
+  return { previews, initZone, rerollZone, removeZone, clearFieldTypeFontSize, resampleFontSize }
 }

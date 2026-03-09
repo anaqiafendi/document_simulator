@@ -93,9 +93,12 @@ export default function App() {
     const r = respondents.respondents.find(r => r.respondent_id === respondentId)
     const ft = r?.field_types.find(ft => ft.field_type_id === ftId)
     if (!ft) return
-    // When font_size_range changes, clear the cached size so next reroll resamples
+    // When font_size_range changes, immediately resample and apply to all affected zones
     if (patch.font_size_range) {
-      zonePreview.clearFieldTypeFontSize(respondentId, ftId)
+      const affectedIds = zones.zones
+        .filter(z => z.respondent_id === respondentId && z.field_type_id === ftId)
+        .map(z => z.zone_id)
+      zonePreview.resampleFontSize(respondentId, ftId, patch.font_size_range, affectedIds)
     }
     if (patch.jitter_x !== undefined || patch.jitter_y !== undefined) {
       const jx = patch.jitter_x ?? ft.jitter_x
@@ -128,7 +131,7 @@ export default function App() {
 
         <input
           type="file"
-          accept=".pdf,.png,.jpg,.jpeg"
+          accept=".pdf"
           disabled={template.loading}
           onChange={e => { const f = e.target.files?.[0]; if (f) template.upload(f) }}
         />
@@ -147,8 +150,7 @@ export default function App() {
         {template.loading && <span style={{ fontSize: 12, color: '#999' }}>Loading…</span>}
         {template.templateInfo && (
           <span style={{ fontSize: 12, color: '#777' }}>
-            {template.templateInfo.width_px}&times;{template.templateInfo.height_px}px
-            {template.templateInfo.is_pdf ? ' · PDF' : ' · Image'}
+            {template.templateInfo.width_px}&times;{template.templateInfo.height_px}px · PDF
           </span>
         )}
 
@@ -182,7 +184,7 @@ export default function App() {
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               color: '#bbb', fontSize: 14,
             }}>
-              Upload a PDF / image or pick a sample above to begin
+              Upload a PDF or pick a sample above to begin
             </div>
           )}
         </div>
@@ -240,7 +242,7 @@ export default function App() {
             loading={gen.loading}
             jobStatus={gen.jobStatus}
             downloadJobId={gen.downloadJobId}
-            onGenerate={(n, dir) => gen.generate(buildConfig(dir, n), n)}
+            onGenerate={(n, dir) => gen.generate(buildConfig(dir, n), n, template.templateInfo?.image_b64)}
             downloadUrl={gen.downloadUrl}
           />
         </section>
