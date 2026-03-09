@@ -8,13 +8,13 @@ export function useGenerate() {
   const [error, setError] = useState<string | null>(null)
   const [downloadJobId, setDownloadJobId] = useState<string | null>(null)
 
-  const generate = async (config: SynthesisConfig, n: number, templateB64?: string, templatePdfB64?: string) => {
+  const generate = async (config: SynthesisConfig, n: number, templateB64?: string, templateId?: string | null) => {
     setLoading(true)
     setError(null)
     setJobStatus(null)
     setDownloadJobId(null)
     try {
-      const jobId = await startGenerate(config, n, templateB64, templatePdfB64)
+      const jobId = await startGenerate(config, n, templateB64, templateId)
       const poll = setInterval(async () => {
         try {
           const status = await getJobStatus(jobId)

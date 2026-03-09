@@ -14,6 +14,7 @@ class TemplateResponse(BaseModel):
     dpi: int = 150
     is_pdf: bool = False
     page_count: int = 1
+    template_id: str | None = None  # server-side key for raw PDF bytes
 
 
 class PreviewSample(BaseModel):
@@ -45,6 +46,7 @@ class GenerateRequest(BaseModel):
     n: int = 10
     template_b64: str | None = None      # base64 PNG of a single rendered page
     template_pdf_b64: str | None = None  # raw PDF bytes as base64; enables multi-page generation
+    template_id: str | None = None       # server-side key returned by /api/template (preferred)
 
 
 class GenerateResponse(BaseModel):

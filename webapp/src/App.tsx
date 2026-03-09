@@ -264,7 +264,7 @@ export default function App() {
             loading={gen.loading}
             jobStatus={gen.jobStatus}
             downloadJobId={gen.downloadJobId}
-            onGenerate={(n, dir) => gen.generate(buildConfig(dir, n), n, template.templateInfo?.image_b64, template.rawPdfB64 ?? undefined)}
+            onGenerate={(n, dir) => gen.generate(buildConfig(dir, n), n, template.templateInfo?.image_b64, template.templateInfo?.template_id)}
             downloadUrl={gen.downloadUrl}
           />
         </section>

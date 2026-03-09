@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import base64
 import io
+import uuid
 import zipfile
 from typing import Annotated
 
@@ -37,6 +38,10 @@ router = APIRouter()
 _ALLOWED_EXTS = {".pdf"}
 
 _SAMPLES_DIR = Path(__file__).resolve().parents[4] / "data" / "samples" / "synthetic_generator"
+
+# In-memory store: template_id → raw PDF bytes.
+# Populated on every /api/template upload and /api/samples/{filename} load.
+_template_store: dict[str, bytes] = {}
 
 
 def _pil_to_png_b64(img: Image.Image) -> str:
@@ -92,8 +97,12 @@ async def upload_template(
 
     img, is_pdf, page_count = _render_template_bytes(file_bytes, filename, dpi=dpi, page=page)
 
+    # Store raw PDF bytes for multi-page generation later
+    template_id = str(uuid.uuid4())
+    _template_store[template_id] = file_bytes
+
     image_b64 = _pil_to_png_b64(img)
-    logger.info(f"Template uploaded: {filename!r} → {img.width}×{img.height}px is_pdf={is_pdf} pages={page_count}")
+    logger.info(f"Template uploaded: {filename!r} → {img.width}×{img.height}px is_pdf={is_pdf} pages={page_count} id={template_id}")
 
     return TemplateResponse(
         image_b64=image_b64,
@@ -102,6 +111,7 @@ async def upload_template(
         dpi=dpi,
         is_pdf=is_pdf,
         page_count=page_count,
+        template_id=template_id,
     )
 
 
@@ -210,6 +220,7 @@ def _run_generate_job(
     n: int,
     template_b64: str | None = None,
     template_pdf_b64: str | None = None,
+    template_id: str | None = None,
 ) -> None:
     """Background task: generate n documents and store ZIP bytes in job store."""
     try:
@@ -218,9 +229,12 @@ def _run_generate_job(
         synthesis_config = SynthesisConfig.model_validate(synthesis_config_dict)
         base_seed = synthesis_config.generator.seed
 
-        # Decode raw PDF bytes when provided — enables multi-page generation
+        # Resolve raw PDF bytes — template_id (server-side store) takes priority
         pdf_raw: bytes | None = None
-        if template_pdf_b64:
+        if template_id and template_id in _template_store:
+            pdf_raw = _template_store[template_id]
+            logger.info(f"Job {job_id}: using server-side template {template_id!r}")
+        elif template_pdf_b64:
             try:
                 pdf_raw = base64.b64decode(template_pdf_b64)
             except Exception as exc:
@@ -284,7 +298,8 @@ def generate(body: GenerateRequest, background_tasks: BackgroundTasks) -> Genera
 
     job_id = create_job()
     background_tasks.add_task(
-        _run_generate_job, job_id, body.synthesis_config, body.n, body.template_b64, body.template_pdf_b64
+        _run_generate_job, job_id, body.synthesis_config, body.n,
+        body.template_b64, body.template_pdf_b64, body.template_id,
     )
     logger.info(f"Job {job_id} queued: n={body.n}")
     return GenerateResponse(job_id=job_id)
@@ -343,8 +358,22 @@ def load_sample(filename: str, dpi: int = 150, page: int = 0) -> TemplateRespons
         raise HTTPException(status_code=404, detail=f"Sample '{safe_name}' not found.")
     file_bytes = sample_path.read_bytes()
     img, is_pdf, page_count = _render_template_bytes(file_bytes, safe_name, dpi=dpi, page=page)
-    logger.info(f"Sample loaded: {safe_name!r} → {img.width}×{img.height}px pages={page_count}")
-    return TemplateResponse(image_b64=_pil_to_png_b64(img), width_px=img.width, height_px=img.height, dpi=dpi, is_pdf=is_pdf, page_count=page_count)
+
+    # Store raw PDF bytes for multi-page generation later
+    # Use a stable key based on filename so repeated page navigations reuse the same slot
+    template_id = f"sample:{safe_name}"
+    _template_store[template_id] = file_bytes
+
+    logger.info(f"Sample loaded: {safe_name!r} → {img.width}×{img.height}px pages={page_count} id={template_id}")
+    return TemplateResponse(
+        image_b64=_pil_to_png_b64(img),
+        width_px=img.width,
+        height_px=img.height,
+        dpi=dpi,
+        is_pdf=is_pdf,
+        page_count=page_count,
+        template_id=template_id,
+    )
 
 
 @router.get("/api/config/schema")

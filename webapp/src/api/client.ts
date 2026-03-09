@@ -44,7 +44,7 @@ export async function startGenerate(
   synthesisConfig: SynthesisConfig,
   n: number,
   templateB64?: string,
-  templatePdfB64?: string,
+  templateId?: string | null,
 ): Promise<string> {
   const r = await fetch(`${BASE}/api/generate`, {
     method: 'POST',
@@ -53,7 +53,7 @@ export async function startGenerate(
       synthesis_config: synthesisConfig,
       n,
       template_b64: templateB64 ?? null,
-      template_pdf_b64: templatePdfB64 ?? null,
+      template_id: templateId ?? null,
     }),
   })
   if (!r.ok) throw new Error(`Generate failed: ${r.status}`)
