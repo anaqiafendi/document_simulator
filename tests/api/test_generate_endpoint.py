@@ -44,14 +44,14 @@ def test_get_job_download_returns_zip(client, minimal_synthesis_config):
     assert "zip" in r.headers["content-type"]
 
 
-def test_generate_zip_contains_n_png_files(client, minimal_synthesis_config):
+def test_generate_zip_contains_n_pdf_files(client, minimal_synthesis_config):
     n = 3
     job_id = client.post("/api/generate", json={"synthesis_config": minimal_synthesis_config, "n": n}).json()["job_id"]
     _wait_for_job(client, job_id)
     r = client.get(f"/api/jobs/{job_id}/download")
     zf = zipfile.ZipFile(io.BytesIO(r.content))
-    png_files = [f for f in zf.namelist() if f.endswith(".png")]
-    assert len(png_files) == n
+    pdf_files = [f for f in zf.namelist() if f.endswith(".pdf")]
+    assert len(pdf_files) == n
 
 
 def test_generate_zip_contains_n_json_files(client, minimal_synthesis_config):
