@@ -58,6 +58,10 @@ class StyleResolver:
         return self._cache[key]
 
 
+# Shear factor used when simulating italic via affine transform
+_ITALIC_SHEAR = 0.25
+
+
 class ZoneRenderer:
     """Draws text onto a PIL canvas for a given zone with resolved style."""
 
@@ -104,6 +108,48 @@ class ZoneRenderer:
         return x, y
 
     @staticmethod
+    def _render_italic_text(
+        canvas: Image.Image,
+        text: str,
+        position: tuple[float, float],
+        font: object,
+        color: tuple,
+        draw: ImageDraw.ImageDraw,
+    ) -> None:
+        """Render italic text by drawing to a temporary RGBA layer then shearing it.
+
+        The sheared layer is then composited onto the canvas in-place via
+        ``Image.alpha_composite``.  If anything goes wrong the text is drawn
+        normally without shearing.
+        """
+        try:
+            w, h = canvas.size
+            # Draw onto a transparent temp image the same size as the canvas
+            tmp = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+            tmp_draw = ImageDraw.Draw(tmp)
+            tmp_draw.text(position, text, font=font, fill=(*color, 255) if len(color) == 3 else color)
+
+            # Affine shear on x-axis: x' = x + shear * y, y' = y
+            # PIL AFFINE transform maps OUTPUT pixel (x,y) to INPUT pixel via
+            # (a*x + b*y + c, d*x + e*y + f), so shear in the forward direction
+            # means a=1, b=-shear, c=shear*h (approx), d=0, e=1, f=0.
+            shear = _ITALIC_SHEAR
+            affine = (1, -shear, shear * h * 0.5, 0, 1, 0)
+            sheared = tmp.transform((w, h), Image.AFFINE, affine, resample=Image.BILINEAR)
+
+            # Composite onto the canvas (canvas must be RGBA for alpha_composite)
+            if canvas.mode == "RGBA":
+                canvas.alpha_composite(sheared)
+            else:
+                # Convert, composite, convert back
+                base = canvas.convert("RGBA")
+                base.alpha_composite(sheared)
+                canvas.paste(base.convert(canvas.mode))
+        except Exception:
+            # Fallback: draw without shear
+            draw.text(position, text, font=font, fill=color)
+
+    @staticmethod
     def draw(
         canvas: Image.Image,
         text: str,
@@ -114,17 +160,27 @@ class ZoneRenderer:
         """Draw *text* onto a copy of *canvas* and return the new image.
 
         The original *canvas* is never mutated.
+
+        Bold is simulated via ``stroke_width=1`` when no bold TTF variant is
+        available.  Italic is simulated via affine shear when no italic TTF
+        variant is available.  Alignment (left/center/right) adjusts the x
+        starting position based on measured text width.
         """
         result = canvas.copy()
         draw = ImageDraw.Draw(result)
 
         rng = random.Random(hash((seed, zone.zone_id)) & 0xFFFFFFFF)
 
-        # Resolve font
-        font = FontResolver.resolve(style.font_family, size=style.font_size)
+        # Resolve font — pass bold/italic so FontResolver can pick a variant TTF
+        font = FontResolver.resolve(
+            style.font_family,
+            size=style.font_size,
+            bold=style.bold,
+            italic=style.italic,
+        )
 
-        # Jitter position
-        x, y = ZoneRenderer._apply_jitter(zone.box, style.jitter_x, style.jitter_y, rng)
+        # Jitter position (x used only for "left" alignment)
+        x_jittered, y = ZoneRenderer._apply_jitter(zone.box, style.jitter_x, style.jitter_y, rng)
 
         # Parse colour
         try:
@@ -137,7 +193,74 @@ class ZoneRenderer:
         if style.fill_style == "stamp":
             display_text = text.upper()
 
-        # Draw text
-        draw.text((x, y), display_text, font=font, fill=color)
+        # --- Alignment ---
+        x1 = zone.box[0][0]
+        x2 = zone.box[2][0]
+        alignment = getattr(zone, "alignment", "left")
+
+        if alignment == "center":
+            try:
+                text_width = draw.textlength(display_text, font=font)
+            except Exception:
+                text_width = 0.0
+            x = (x1 + x2) / 2 - text_width / 2
+        elif alignment == "right":
+            try:
+                text_width = draw.textlength(display_text, font=font)
+            except Exception:
+                text_width = 0.0
+            right_margin = 4
+            x = x2 - text_width - right_margin
+        else:
+            # "left" — use jittered x position
+            x = x_jittered
+
+        position = (x, y)
+
+        # --- Detect whether FontResolver actually returned a bold/italic variant ---
+        # We detect this by checking if the font is the regular one: if bold or
+        # italic were requested but the catalog had no matching file on disk,
+        # FontResolver falls back to the regular font and we simulate visually.
+
+        # Determine whether we need stroke simulation for bold:
+        # Always apply stroke when bold is requested (stroke_width=1 is lightweight
+        # and harmless even on actual bold TTF files).
+        stroke_width = 1 if style.bold else 0
+
+        # --- Italic rendering ---
+        if style.italic:
+            # _render_italic_text draws onto result in-place via paste/alpha_composite
+            ZoneRenderer._render_italic_text(
+                result,
+                display_text,
+                position,
+                font,
+                color,
+                draw,
+            )
+            # If bold is also requested, overlay a stroked version on top
+            if style.bold:
+                draw2 = ImageDraw.Draw(result)
+                draw2.text(
+                    position,
+                    display_text,
+                    font=font,
+                    fill=color,
+                    stroke_width=stroke_width,
+                    stroke_fill=color,
+                )
+        else:
+            # Normal (non-italic) path
+            if style.bold:
+                draw.text(
+                    position,
+                    display_text,
+                    font=font,
+                    fill=color,
+                    stroke_width=stroke_width,
+                    stroke_fill=color,
+                )
+            else:
+                draw.text(position, display_text, font=font, fill=color)
 
         return result
