@@ -673,51 +673,45 @@ with tab_catalogue:
                 st.info("Enable at least one augmentation above to use batch run.")
             else:
                 st.caption(
-                    "Upload N input documents. The catalogue pipeline above is applied to "
-                    "produce M augmented outputs, sampling randomly from your inputs."
+                    "Upload N input documents (images or PDFs). The catalogue pipeline above "
+                    "is applied to produce M augmented outputs, sampling randomly from your inputs."
                 )
 
                 batch_uploads = st.file_uploader(
-                    "Input templates (N documents)",
-                    type=["png", "jpg", "jpeg", "bmp", "tiff"],
+                    "Input templates (images or PDFs)",
+                    type=["png", "jpg", "jpeg", "bmp", "tiff", "pdf"],
                     accept_multiple_files=True,
                     key="aug_cat_batch_uploads",
                 )
 
                 if batch_uploads:
-                    batch_images = [uploaded_file_to_pil(f) for f in batch_uploads]
-                    st.caption(f"{len(batch_images)} template(s) loaded.")
+                    batch_images = []
+                    for f in batch_uploads:
+                        if f.name.lower().endswith(".pdf"):
+                            try:
+                                pages = uploaded_pdf_to_pil_pages(f, dpi=150)
+                                batch_images.extend(pages)
+                            except ImportError:
+                                st.warning(
+                                    f"PDF support requires PyMuPDF. "
+                                    "Install with: `uv sync --extra synthesis --native-tls`"
+                                )
+                        else:
+                            batch_images.append(uploaded_file_to_pil(f))
+                    st.caption(f"{len(batch_images)} template page(s) loaded from {len(batch_uploads)} file(s).")
 
-                    batch_mode = st.radio(
-                        "Output mode",
-                        ["N×M — copies per template", "M-total — random sample from N inputs"],
-                        key="aug_cat_batch_mode",
-                        horizontal=True,
+                    total = st.number_input(
+                        "How many outputs (M) do you want generated?",
+                        min_value=1, max_value=1000, value=20,
+                        key="aug_cat_batch_total",
                     )
-
-                    if batch_mode.startswith("N×M"):
-                        copies = st.number_input(
-                            "Copies per template (M)",
-                            min_value=1, max_value=200, value=3,
-                            key="aug_cat_batch_copies",
-                        )
-                        eff_mode = "per_template"
-                        eff_copies = int(copies)
-                        eff_total = len(batch_images) * eff_copies
-                        st.caption(f"→ {eff_total} total outputs")
-                    else:
-                        total = st.number_input(
-                            "Total outputs (M)",
-                            min_value=1, max_value=1000, value=20,
-                            key="aug_cat_batch_total",
-                        )
-                        eff_mode = "random_sample"
-                        eff_copies = 1
-                        eff_total = int(total)
-                        st.caption(
-                            f"→ {eff_total} outputs sampled randomly from "
-                            f"{len(batch_images)} template(s)"
-                        )
+                    eff_mode = "random_sample"
+                    eff_copies = 1
+                    eff_total = int(total)
+                    st.caption(
+                        f"→ {eff_total} output(s) sampled randomly from "
+                        f"{len(batch_images)} template page(s)"
+                    )
 
                     seed_raw = st.number_input(
                         "Random seed (0 = unseeded)",
