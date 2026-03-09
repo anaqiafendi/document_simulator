@@ -535,7 +535,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         "display_name": "Reflected Light",
         "phase": "post",
         "description": "Adds a bright elliptical reflection spot to simulate glossy surface reflections.",
-        "slow": False,
+        "slow": True,  # ZeroDivisionError in augraphy 8.2.6 on small images
         "default_params": {
             "reflected_light_smoothness": 0.8,
             "reflected_light_internal_radius_range": (0.0, 0.2),
@@ -643,7 +643,6 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
     """
     import numpy as np
     from PIL import Image as PILImage
-    from augraphy import AugraphyPipeline
     import augraphy.augmentations as aug_module
 
     entry = CATALOGUE[aug_name]
@@ -655,11 +654,8 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
     input_is_pil = isinstance(image, PILImage.Image)
     arr = np.array(image.convert("RGB")) if input_is_pil else image
 
-    phase = entry["phase"]
-    pipeline = AugraphyPipeline(
-        ink_phase=[aug_instance] if phase == "ink" else [],
-        paper_phase=[aug_instance] if phase == "paper" else [],
-        post_phase=[aug_instance] if phase == "post" else [],
-    )
-    result = pipeline(arr)
+    result = aug_instance(arr)
+    # Some augraphy augmentations return None (pipeline-mode only); fall back to original.
+    if result is None:
+        result = arr
     return PILImage.fromarray(result) if input_is_pil else result
