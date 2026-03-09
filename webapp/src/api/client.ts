@@ -28,12 +28,13 @@ export async function loadSample(filename: string, dpi = 150, page = 0): Promise
 export async function fetchPreviews(
   synthesisConfig: SynthesisConfig,
   seeds: number[] = [42, 43, 44],
-  templateB64?: string
+  templateB64?: string,
+  currentPage = 0,
 ): Promise<PreviewSample[]> {
   const r = await fetch(`${BASE}/api/preview`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ synthesis_config: synthesisConfig, seeds, template_b64: templateB64 ?? null }),
+    body: JSON.stringify({ synthesis_config: synthesisConfig, seeds, template_b64: templateB64 ?? null, current_page: currentPage }),
   })
   if (!r.ok) throw new Error(`Preview failed: ${r.status}`)
   const data = await r.json()

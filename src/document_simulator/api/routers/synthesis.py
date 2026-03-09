@@ -140,6 +140,11 @@ def preview(body: PreviewRequest) -> PreviewResponse:
     """Generate preview samples from a SynthesisConfig."""
     synthesis_config = _validate_synthesis_config_strict(body.synthesis_config)
 
+    # Filter zones to the current page so the preview only shows zones drawn on this page
+    page_config = synthesis_config.model_copy(
+        update={"zones": [z for z in synthesis_config.zones if z.page == body.current_page]}
+    )
+
     # Use the uploaded template if provided, otherwise fall back to a blank canvas
     if body.template_b64:
         try:
@@ -153,7 +158,7 @@ def preview(body: PreviewRequest) -> PreviewResponse:
             (synthesis_config.generator.image_width, synthesis_config.generator.image_height),
             color=(255, 255, 255),
         )
-    gen = SyntheticDocumentGenerator(template=template, synthesis_config=synthesis_config)
+    gen = SyntheticDocumentGenerator(template=template, synthesis_config=page_config)
 
     samples: list[PreviewSample] = []
     for seed in body.seeds:

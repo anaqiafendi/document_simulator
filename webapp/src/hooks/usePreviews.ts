@@ -7,11 +7,11 @@ export function usePreviews() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
-  const loadPreviews = async (config: SynthesisConfig, templateB64?: string) => {
+  const loadPreviews = async (config: SynthesisConfig, templateB64?: string, currentPage = 0) => {
     setLoading(true)
     setError(null)
     try {
-      const samples = await fetchPreviews(config, [42, 43, 44], templateB64)
+      const samples = await fetchPreviews(config, [42, 43, 44], templateB64, currentPage)
       setPreviews(samples)
     } catch (err) {
       setError(String(err))
@@ -20,13 +20,10 @@ export function usePreviews() {
     }
   }
 
-  const reroll = async (idx: number, config: SynthesisConfig, templateB64?: string) => {
-    // Bug 2 fix: use a different random seed on every re-roll so the image
-    // actually changes. Previously `1000 + idx` was always the same value,
-    // making repeated re-rolls a no-op.
+  const reroll = async (idx: number, config: SynthesisConfig, templateB64?: string, currentPage = 0) => {
     const seed = Math.floor(Math.random() * 1_000_000) + 10000
     try {
-      const samples = await fetchPreviews(config, [seed], templateB64)
+      const samples = await fetchPreviews(config, [seed], templateB64, currentPage)
       setPreviews(prev => {
         const next = [...prev]
         next[idx] = samples[0]

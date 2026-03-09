@@ -30,7 +30,8 @@ class PreviewRequest(BaseModel):
     synthesis_config: dict
     seeds: list[int] = [42, 43, 44]
     show_overlays: bool = False
-    template_b64: str | None = None  # base64 PNG; when None, a blank canvas is used
+    template_b64: str | None = None   # base64 PNG of the current page
+    current_page: int = 0             # which PDF page the preview is for; filters zones
 
 
 class PreviewResponse(BaseModel):

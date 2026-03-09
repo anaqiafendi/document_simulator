@@ -253,8 +253,8 @@ export default function App() {
             previews={previews.previews}
             loading={previews.loading}
             config={buildConfig()}
-            onPreview={() => previews.loadPreviews(buildConfig(), template.templateInfo?.image_b64)}
-            onReroll={idx => previews.reroll(idx, buildConfig(), template.templateInfo?.image_b64)}
+            onPreview={() => previews.loadPreviews(buildConfig(), template.templateInfo?.image_b64, template.currentPage)}
+            onReroll={idx => previews.reroll(idx, buildConfig(), template.templateInfo?.image_b64, template.currentPage)}
           />
         </section>
 
