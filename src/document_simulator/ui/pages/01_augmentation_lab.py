@@ -86,10 +86,36 @@ def _build_aug_objects(enabled_aug_names: list) -> list:
 def _cached_apply_single(image_bytes: bytes, aug_name: str, params_key: str) -> bytes:
     """Apply a single augmentation and return PNG bytes. Keyed by image + aug + params."""
     import json
+    import cv2
 
     params = json.loads(params_key)
     img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
-    result = apply_single(aug_name, img, params if params else None)
+
+    # PaperFactory is handled here directly so Streamlit hot-reload picks up changes.
+    if aug_name == "PaperFactory":
+        from augraphy.base.paperfactory import PaperFactory
+        from document_simulator.augmentation.catalogue import CATALOGUE
+        entry = CATALOGUE["PaperFactory"]
+        effective = {**entry["default_params"], **(params or {})}
+        effective["p"] = 1.0
+        arr = np.array(img)
+        h, w = arr.shape[:2]
+        aug = PaperFactory(**effective)
+        texture = aug(arr)
+        if texture is not None:
+            tex = np.array(texture)
+            if tex.ndim == 3:
+                tex = cv2.cvtColor(tex, cv2.COLOR_RGB2GRAY) if tex.shape[2] == 3 else tex[:, :, 0]
+            tex_resized = cv2.resize(tex, (w, h), interpolation=cv2.INTER_LINEAR)
+            texture_rgb = np.stack([tex_resized] * 3, axis=-1).astype(np.float32) / 255.0
+            base = arr.astype(np.float32) / 255.0
+            blended = np.clip(base * texture_rgb * 2.0, 0.0, 1.0)
+            result = Image.fromarray((blended * 255).astype(np.uint8))
+        else:
+            result = img
+    else:
+        result = apply_single(aug_name, img, params if params else None)
+
     buf = io.BytesIO()
     result.save(buf, format="PNG")
     return buf.getvalue()
