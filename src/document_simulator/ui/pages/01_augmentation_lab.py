@@ -652,6 +652,8 @@ with tab_catalogue:
                                 use_container_width=True,
                                 caption=entry["display_name"],
                             )
+                            if entry.get("slow", False):
+                                st.caption("⚠️ Preview unavailable — apply via Generate")
 
         _render_phase_cards(phase_tab_ink, "ink")
         _render_phase_cards(phase_tab_paper, "paper")
