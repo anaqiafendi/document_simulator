@@ -672,10 +672,13 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
         if texture is None:
             result = arr
         else:
-            # texture is 2D grayscale — resize to input, convert to RGB, overlay-blend
+            # texture may be 2D grayscale or 3D RGB depending on texture_enable_color
             h, w = arr.shape[:2]
             texture_resized = cv2.resize(texture, (w, h), interpolation=cv2.INTER_LINEAR)
-            texture_rgb = np.stack([texture_resized] * 3, axis=-1).astype(np.float32) / 255.0
+            if texture_resized.ndim == 2:
+                texture_rgb = np.stack([texture_resized] * 3, axis=-1).astype(np.float32) / 255.0
+            else:
+                texture_rgb = texture_resized.astype(np.float32) / 255.0
             base = arr.astype(np.float32) / 255.0
             blended = np.clip(base * texture_rgb * 2.0, 0.0, 1.0)
             result = (blended * 255).astype(np.uint8)
