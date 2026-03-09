@@ -28,6 +28,7 @@ class PreviewRequest(BaseModel):
     synthesis_config: dict
     seeds: list[int] = [42, 43, 44]
     show_overlays: bool = False
+    template_b64: str | None = None  # base64 PNG; when None, a blank canvas is used
 
 
 class PreviewResponse(BaseModel):

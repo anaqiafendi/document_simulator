@@ -132,12 +132,19 @@ def preview(body: PreviewRequest) -> PreviewResponse:
     """Generate preview samples from a SynthesisConfig."""
     synthesis_config = _validate_synthesis_config_strict(body.synthesis_config)
 
-    # Build a blank template sized from generator config
-    template = Image.new(
-        "RGB",
-        (synthesis_config.generator.image_width, synthesis_config.generator.image_height),
-        color=(255, 255, 255),
-    )
+    # Use the uploaded template if provided, otherwise fall back to a blank canvas
+    if body.template_b64:
+        try:
+            raw = base64.b64decode(body.template_b64)
+            template = Image.open(io.BytesIO(raw)).convert("RGB")
+        except Exception as exc:
+            raise HTTPException(status_code=422, detail=f"Cannot decode template_b64: {exc}") from exc
+    else:
+        template = Image.new(
+            "RGB",
+            (synthesis_config.generator.image_width, synthesis_config.generator.image_height),
+            color=(255, 255, 255),
+        )
     gen = SyntheticDocumentGenerator(template=template, synthesis_config=synthesis_config)
 
     samples: list[PreviewSample] = []
