@@ -315,11 +315,18 @@ export default function ZoneCanvas({
               const sh = h * displayScale
 
               const preview = zonePreviews[zone.zone_id]
-              const previewText = preview?.text ?? ''
+              const rawPreviewText = preview?.text ?? ''
+              // fill_style "stamp" renders as uppercase (matches Python ZoneRenderer)
+              const previewText = fieldType?.fill_style === 'stamp' ? rawPreviewText.toUpperCase() : rawPreviewText
               const rawTextX = sx + (preview?.dx ?? 0.05) * sw
               const rawTextY = sy + (preview?.dy ?? 0.10) * sh
-              const textX = Math.max(sx + 2, Math.min(rawTextX, sx + sw - fontSize - 2))
               const textY = Math.max(sy + 2, Math.min(rawTextY, sy + sh - fontSize - 2))
+              // Alignment: left uses jitter-based x; center/right anchor at zone left edge
+              // and rely on Konva's align prop to position within the zone width.
+              const alignment = zone.alignment ?? 'left'
+              const textX = alignment === 'left'
+                ? Math.max(sx + 2, Math.min(rawTextX, sx + sw - fontSize - 2))
+                : sx + 2
 
               // Floating label pill above zone
               const PILL_H = 18
@@ -385,7 +392,7 @@ export default function ZoneCanvas({
                       <Text
                         x={textX} y={textY} text={previewText}
                         fontSize={fontSize} fontFamily={fontFamily} fontStyle={fontStyle}
-                        fill={fontColor} width={sw - 8} wrap="word" listening={false}
+                        fill={fontColor} width={sw - 4} align={alignment} wrap="word" listening={false}
                       />
                     </Group>
                   )}

@@ -217,49 +217,57 @@ class ZoneRenderer:
 
         position = (x, y)
 
-        # --- Detect whether FontResolver actually returned a bold/italic variant ---
-        # We detect this by checking if the font is the regular one: if bold or
-        # italic were requested but the catalog had no matching file on disk,
-        # FontResolver falls back to the regular font and we simulate visually.
-
-        # Determine whether we need stroke simulation for bold:
-        # Always apply stroke when bold is requested (stroke_width=1 is lightweight
-        # and harmless even on actual bold TTF files).
         stroke_width = 1 if style.bold else 0
 
-        # --- Italic rendering ---
-        if style.italic:
-            # _render_italic_text draws onto result in-place via paste/alpha_composite
-            ZoneRenderer._render_italic_text(
-                result,
-                display_text,
-                position,
-                font,
-                color,
-                draw,
-            )
-            # If bold is also requested, overlay a stroked version on top
+        # --- Per-character rendering for baseline_wander / char_spacing_jitter ---
+        # Only engaged when at least one of these is non-zero; falls back to the
+        # fast single-call path otherwise.  Italic affine-shear is skipped in this
+        # path for simplicity — the font variant (if available) handles italics.
+        use_char_draw = (style.baseline_wander > 0 or style.char_spacing_jitter > 0) and not style.italic
+
+        if use_char_draw:
+            cursor_x = float(x)
+            baseline_y = float(y)
+            wander_y = 0.0
+            for ch in display_text:
+                try:
+                    ch_w = draw.textlength(ch, font=font)
+                except Exception:
+                    ch_w = style.font_size * 0.55
+
+                # Baseline wander: smooth random walk, clamped to ±40% of font size
+                if style.baseline_wander > 0:
+                    delta = rng.gauss(0, style.baseline_wander * style.font_size * 0.3)
+                    limit = style.font_size * 0.4
+                    wander_y = max(-limit, min(limit, wander_y + delta))
+
+                ch_pos = (cursor_x, baseline_y + wander_y)
+                if style.bold:
+                    draw.text(ch_pos, ch, font=font, fill=color,
+                              stroke_width=stroke_width, stroke_fill=color)
+                else:
+                    draw.text(ch_pos, ch, font=font, fill=color)
+
+                # Char spacing jitter: Gaussian offset on the advance width
+                if style.char_spacing_jitter > 0:
+                    spacing_delta = rng.gauss(0, style.char_spacing_jitter * style.font_size * 0.15)
+                else:
+                    spacing_delta = 0.0
+                cursor_x += ch_w + spacing_delta
+
+        # --- Italic rendering (affine-shear path) ---
+        elif style.italic:
+            ZoneRenderer._render_italic_text(result, display_text, position, font, color, draw)
             if style.bold:
                 draw2 = ImageDraw.Draw(result)
-                draw2.text(
-                    position,
-                    display_text,
-                    font=font,
-                    fill=color,
-                    stroke_width=stroke_width,
-                    stroke_fill=color,
-                )
+                draw2.text(position, display_text, font=font, fill=color,
+                           stroke_width=stroke_width, stroke_fill=color)
+
+        # --- Normal path ---
         else:
-            # Normal (non-italic) path
             if style.bold:
-                draw.text(
-                    position,
-                    display_text,
-                    font=font,
-                    fill=color,
-                    stroke_width=stroke_width,
-                    stroke_fill=color,
-                )
+                draw.text(position, display_text, font=font, fill=color,
+                          stroke_width=stroke_width, stroke_fill=color)
             else:
                 draw.text(position, display_text, font=font, fill=color)
 
