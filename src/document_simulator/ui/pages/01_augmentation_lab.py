@@ -105,11 +105,16 @@ def _cached_apply_single(image_bytes: bytes, aug_name: str, params_key: str) -> 
         if texture is not None:
             tex = np.array(texture)
             if tex.ndim == 3:
-                tex = cv2.cvtColor(tex, cv2.COLOR_RGB2GRAY) if tex.shape[2] == 3 else tex[:, :, 0]
-            tex_resized = cv2.resize(tex, (w, h), interpolation=cv2.INTER_LINEAR)
-            texture_rgb = np.stack([tex_resized] * 3, axis=-1).astype(np.float32) / 255.0
+                # Color texture — resize and keep as RGB for blending
+                tex_resized = cv2.resize(tex, (w, h), interpolation=cv2.INTER_LINEAR)
+                texture_rgb = tex_resized.astype(np.float32) / 255.0
+            else:
+                # Grayscale texture — expand to 3 channels
+                tex_resized = cv2.resize(tex, (w, h), interpolation=cv2.INTER_LINEAR)
+                texture_rgb = np.stack([tex_resized] * 3, axis=-1).astype(np.float32) / 255.0
             base = arr.astype(np.float32) / 255.0
-            blended = np.clip(base * texture_rgb * 2.0, 0.0, 1.0)
+            # Screen blend: tints bright (paper) areas while preserving dark ink
+            blended = np.clip(1.0 - (1.0 - base) * (1.0 - texture_rgb), 0.0, 1.0)
             result = Image.fromarray((blended * 255).astype(np.uint8))
         else:
             result = img
@@ -503,11 +508,30 @@ with tab_catalogue:
                                     params_override["hue_range"] = (h_low, h_high)
                                     params_override["saturation_range"] = (s_low, s_high)
                                 elif aug_name == "PaperFactory":
-                                    enable_color = st.checkbox("Enable texture colour", value=bool(dp.get("texture_enable_color", 0)), key=f"aug_p_{aug_name}_color")
-                                    blend_method = st.selectbox("Blend method", ["overlay", "normal", "multiply"], index=0, key=f"aug_p_{aug_name}_blend")
-                                    params_override["texture_enable_color"] = int(enable_color)
-                                    params_override["texture_color_blend_method"] = blend_method
+                                    bg_type = st.selectbox(
+                                        "Texture style",
+                                        ["random", "normal", "strange", "rough_stains", "fine_stains",
+                                         "severe_stains", "light_stains", "random_pattern",
+                                         "dot_granular", "light_granular", "rough_granular"],
+                                        index=0, key=f"aug_p_{aug_name}_bg",
+                                    )
+                                    edge_type = st.selectbox(
+                                        "Edge style",
+                                        ["random", "curvy_edge", "broken_edge"],
+                                        index=0, key=f"aug_p_{aug_name}_edge",
+                                    )
+                                    enable_color = st.checkbox("Enable colour tint", value=bool(dp.get("texture_enable_color", 0)), key=f"aug_p_{aug_name}_color")
+                                    color_preset = st.selectbox(
+                                        "Colour preset",
+                                        ["random", "Blank", "Old"],
+                                        index=0, key=f"aug_p_{aug_name}_colorpreset",
+                                        disabled=not enable_color,
+                                    )
                                     params_override["generate_texture"] = 1
+                                    params_override["generate_texture_background_type"] = bg_type
+                                    params_override["generate_texture_edge_type"] = edge_type
+                                    params_override["texture_enable_color"] = int(enable_color)
+                                    params_override["texture_color"] = color_preset if enable_color else "random"
                                 elif aug_name == "DirtyScreen":
                                     nc_low, nc_high = st.slider("Clusters", 10, 200, (int(dp.get("n_clusters", (50, 100))[0]), int(dp.get("n_clusters", (50, 100))[1])), 10, key=f"aug_p_{aug_name}_clusters")
                                     params_override["n_clusters"] = (nc_low, nc_high)

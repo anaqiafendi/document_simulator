@@ -326,8 +326,10 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         "slow": False,
         "default_params": {
             "generate_texture": 1,
+            "generate_texture_background_type": "random",
+            "generate_texture_edge_type": "random",
             "texture_enable_color": 0,
-            "texture_color_blend_method": "overlay",
+            "texture_color": "random",
             "p": 0.9,
         },
     },
