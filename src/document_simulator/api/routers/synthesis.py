@@ -30,9 +30,7 @@ from document_simulator.synthesis.zones import SynthesisConfig
 
 router = APIRouter()
 
-_ALLOWED_IMAGE_EXTS = {".png", ".jpg", ".jpeg"}
-_ALLOWED_PDF_EXTS = {".pdf"}
-_ALLOWED_EXTS = _ALLOWED_IMAGE_EXTS | _ALLOWED_PDF_EXTS
+_ALLOWED_EXTS = {".pdf"}
 
 _SAMPLES_DIR = Path(__file__).resolve().parents[4] / "data" / "samples" / "synthetic_generator"
 
@@ -46,7 +44,7 @@ def _pil_to_png_b64(img: Image.Image) -> str:
 
 
 def _render_template_bytes(file_bytes: bytes, filename: str, dpi: int, page: int) -> tuple[Image.Image, bool]:
-    """Render file bytes to a PIL Image.
+    """Render PDF file bytes to a PIL Image.
 
     Returns:
         (pil_image, is_pdf)
@@ -60,7 +58,7 @@ def _render_template_bytes(file_bytes: bytes, filename: str, dpi: int, page: int
     lower = filename.lower()
     ext = "." + lower.rsplit(".", 1)[-1] if "." in lower else ""
 
-    if ext in _ALLOWED_PDF_EXTS:
+    if ext == ".pdf":
         try:
             import fitz  # PyMuPDF
         except ImportError as exc:
@@ -70,16 +68,9 @@ def _render_template_bytes(file_bytes: bytes, filename: str, dpi: int, page: int
         img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
         return img, True
 
-    if ext in _ALLOWED_IMAGE_EXTS:
-        try:
-            img = Image.open(io.BytesIO(file_bytes)).convert("RGB")
-            return img, False
-        except Exception as exc:
-            raise HTTPException(status_code=422, detail=f"Cannot open image: {exc}") from exc
-
     raise HTTPException(
         status_code=422,
-        detail=f"Unsupported file type '{ext}'. Allowed: .pdf, .png, .jpg, .jpeg",
+        detail="Only PDF templates are supported. Please upload a .pdf file.",
     )
 
 
@@ -155,30 +146,41 @@ def preview(body: PreviewRequest) -> PreviewResponse:
     return PreviewResponse(samples=samples)
 
 
-def _run_generate_job(job_id: str, synthesis_config_dict: dict, n: int) -> None:
+def _run_generate_job(job_id: str, synthesis_config_dict: dict, n: int, template_b64: str | None = None) -> None:
     """Background task: generate n documents and store ZIP bytes in job store."""
     try:
         update_job(job_id, status="running")
 
         synthesis_config = SynthesisConfig.model_validate(synthesis_config_dict)
-        template = Image.new(
-            "RGB",
-            (synthesis_config.generator.image_width, synthesis_config.generator.image_height),
-            color=(255, 255, 255),
-        )
+
+        # Use the uploaded template if provided, otherwise fall back to a blank canvas
+        if template_b64:
+            try:
+                raw = base64.b64decode(template_b64)
+                template = Image.open(io.BytesIO(raw)).convert("RGB")
+            except Exception as exc:
+                raise ValueError(f"Cannot decode template_b64: {exc}") from exc
+        else:
+            template = Image.new(
+                "RGB",
+                (synthesis_config.generator.image_width, synthesis_config.generator.image_height),
+                color=(255, 255, 255),
+            )
+
         gen = SyntheticDocumentGenerator(template=template, synthesis_config=synthesis_config)
 
-        pairs = gen.generate(n=n, write=False)
-
-        # Build ZIP in memory
+        # Build ZIP in memory — generate documents one by one for progress reporting
         buf = io.BytesIO()
+        base_seed = synthesis_config.generator.seed
         with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zf:
-            for i, (img, gt) in enumerate(pairs):
+            for i in range(n):
                 stem = f"doc_{i + 1:06d}"
+                seed = base_seed + i
+                img, gt = gen.generate_one(seed=seed)
 
-                img_buf = io.BytesIO()
-                img.save(img_buf, format="PNG")
-                zf.writestr(f"{stem}.png", img_buf.getvalue())
+                pdf_buf = io.BytesIO()
+                img.save(pdf_buf, format="PDF")
+                zf.writestr(f"{stem}.pdf", pdf_buf.getvalue())
                 zf.writestr(f"{stem}.json", gt.model_dump_json(indent=2))
 
                 progress = (i + 1) / n
@@ -203,7 +205,7 @@ def generate(body: GenerateRequest, background_tasks: BackgroundTasks) -> Genera
         raise HTTPException(status_code=422, detail=str(exc)) from exc
 
     job_id = create_job()
-    background_tasks.add_task(_run_generate_job, job_id, body.synthesis_config, body.n)
+    background_tasks.add_task(_run_generate_job, job_id, body.synthesis_config, body.n, body.template_b64)
     logger.info(f"Job {job_id} queued: n={body.n}")
     return GenerateResponse(job_id=job_id)
 
@@ -247,7 +249,7 @@ def list_samples() -> dict:
         return {"samples": []}
     files = sorted(
         f.name for f in _SAMPLES_DIR.iterdir()
-        if f.suffix.lower() in _ALLOWED_EXTS and not f.name.startswith(".")
+        if f.suffix.lower() == ".pdf" and not f.name.startswith(".")
     )
     return {"samples": files}
 

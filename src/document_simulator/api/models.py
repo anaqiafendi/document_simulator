@@ -42,6 +42,7 @@ class GenerateRequest(BaseModel):
 
     synthesis_config: dict
     n: int = 10
+    template_b64: str | None = None  # base64 PNG; when None, a blank canvas is used
 
 
 class GenerateResponse(BaseModel):
