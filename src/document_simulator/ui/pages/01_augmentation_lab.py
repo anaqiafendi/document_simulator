@@ -595,7 +595,6 @@ with tab_catalogue:
                                     blend_alpha = st.slider("Blend alpha", 0.01, 0.5, float(dp.get("moire_blend_alpha", 0.1)), 0.01, key=f"aug_p_{aug_name}_alpha")
                                     params_override["moire_density"] = (d_low, d_high)
                                     params_override["moire_blend_alpha"] = blend_alpha
-                                    params_override["numba_jit"] = 0
                                 elif aug_name == "ReflectedLight":
                                     smooth = st.slider("Smoothness", 0.1, 1.0, float(dp.get("reflected_light_smoothness", 0.8)), 0.05, key=f"aug_p_{aug_name}_smooth")
                                     params_override["reflected_light_smoothness"] = smooth

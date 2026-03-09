@@ -337,7 +337,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         "display_name": "Dirty Screen",
         "phase": "paper",
         "description": "Adds clustered dust and smudge artifacts to simulate a dirty scanner screen.",
-        "slow": False,
+        "slow": True,  # make_blobs called 10× per image — too slow for auto-preview
         "default_params": {
             "n_clusters": (50, 100),
             "n_samples": (2, 20),
@@ -541,7 +541,6 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "moire_density": (15, 20),
             "moire_blend_method": "normal",
             "moire_blend_alpha": 0.1,
-            "numba_jit": 0,
             "p": 0.9,
         },
     },

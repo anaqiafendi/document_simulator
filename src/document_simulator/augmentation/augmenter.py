@@ -40,40 +40,21 @@ class DocumentAugmenter:
             self._augraphy_pipeline = self._create_pipeline(pipeline)
             logger.info(f"Initialized DocumentAugmenter with '{pipeline}' pipeline")
 
-    def _create_custom_pipeline(self, augmentations: list) -> AugraphyPipeline:
-        """Create an AugraphyPipeline from a list of augmentation objects.
+    def _create_custom_pipeline(self, augmentations: list) -> list:
+        """Store a flat list of augmentation objects for direct sequential application.
 
-        Each object's class name is looked up in ``CATALOGUE`` to determine
-        its phase (ink / paper / post).  Objects not found in CATALOGUE are
-        placed in ``post_phase`` by default.
+        Using AugraphyPipeline for catalogue augmentations causes unwanted
+        ink-to-paper compositing with a white canvas (overlay_alpha=0.3) that
+        washes out colours.  Applying each augmentation directly via aug(arr)
+        matches what the catalogue preview path does and preserves fidelity.
 
         Args:
             augmentations: List of Augraphy augmentation instances.
 
         Returns:
-            Configured AugraphyPipeline.
+            The same list (stored as-is for direct application in augment()).
         """
-        from document_simulator.augmentation.catalogue import CATALOGUE
-
-        ink_phase: list = []
-        paper_phase: list = []
-        post_phase: list = []
-
-        for aug in augmentations:
-            class_name = type(aug).__name__
-            phase = CATALOGUE.get(class_name, {}).get("phase", "post")
-            if phase == "ink":
-                ink_phase.append(aug)
-            elif phase == "paper":
-                paper_phase.append(aug)
-            else:
-                post_phase.append(aug)
-
-        return AugraphyPipeline(
-            ink_phase=ink_phase,
-            paper_phase=paper_phase,
-            post_phase=post_phase,
-        )
+        return augmentations
 
     def _create_pipeline(self, preset: str) -> AugraphyPipeline:
         """Create Augraphy pipeline based on preset.
@@ -108,12 +89,20 @@ class DocumentAugmenter:
 
         # Convert to numpy array if needed
         if input_is_pil:
-            image_array = np.array(image)
+            image_array = np.array(image.convert("RGB"))
         else:
             image_array = image
 
-        # Apply augmentation
-        augmented = self._augraphy_pipeline(image_array)
+        # Apply augmentation — catalogue custom pipelines use direct sequential
+        # application to avoid AugraphyPipeline's ink-to-paper compositing wash-out.
+        if isinstance(self._augraphy_pipeline, list):
+            augmented = image_array
+            for aug in self._augraphy_pipeline:
+                result = aug(augmented)
+                if result is not None:
+                    augmented = result
+        else:
+            augmented = self._augraphy_pipeline(image_array)
 
         # Convert back to PIL if needed
         if input_is_pil:
