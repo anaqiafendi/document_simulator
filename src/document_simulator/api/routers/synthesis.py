@@ -203,11 +203,16 @@ def _generate_multipage_doc(
             all_rendered_regions.append({
                 "box": zone.box,
                 "text": text,
+                "page": zone.page,
+                "label": zone.label,
+                "faker_provider": zone.faker_provider,
                 "respondent": zone.respondent_id,
                 "field_type": zone.field_type_id,
                 "font_family": style.font_family,
                 "font_size": style.font_size,
                 "font_color": style.font_color,
+                "alignment": zone.alignment,
+                "fill_style": style.fill_style,
             })
 
         pages_out.append(canvas)
@@ -215,6 +220,7 @@ def _generate_multipage_doc(
     gt = AnnotationBuilder.build(
         image_path=f"doc_{seed:06d}.pdf",
         rendered_regions=all_rendered_regions,
+        seed=seed,
     )
     return pages_out, gt
 
