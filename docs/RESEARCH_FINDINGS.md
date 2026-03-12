@@ -1371,3 +1371,172 @@ Introspected constructor signatures for all 28 missing augraphy 8.2.6 classes.
 - `numba_jit=0` required for: `PatternGenerator`, `VoronoiTessellation`, `PageBorder`, `Faxify`, `LensFlare`, `LightingGradient`, `Moire`, `DotMatrix`
 - Slow augmentations (skip auto-thumbnails): `BindingsAndFasteners`, `PageBorder`, `VoronoiTessellation`, `DelaunayTessellation`
 
+---
+
+## 2026-03-12 — Streamlit to React Migration
+
+### Goal
+
+Migrate all 5 Streamlit pages (Augmentation Lab, OCR Engine, Batch Processing, Evaluation Dashboard, RL Training) into the existing React 18 + TypeScript + Vite SPA (`webapp/`) backed by the existing FastAPI server (`src/document_simulator/api/`).
+
+### Existing Frontend Stack
+
+- **React 18 + TypeScript + Vite** in `webapp/`
+- **Konva / react-konva** for canvas drawing (zone editor)
+- **No routing library** — currently a single-page app rendering `App.tsx` (the zone editor)
+- **No charting library** — charts needed for CER/WER/confidence (Evaluation) and reward curve (RL Training)
+- **API client** in `webapp/src/api/client.ts` using raw `fetch` against same-origin `/api/*`
+- **Types** in `webapp/src/types/index.ts`
+
+### Existing Backend Stack
+
+- **FastAPI** app in `src/document_simulator/api/app.py`
+- **Jobs module** in `src/document_simulator/api/jobs.py` — `create_job / get_job / update_job` with in-memory `JobState` dataclass
+- **Synthesis router** (`src/document_simulator/api/routers/synthesis.py`) — handles template upload, preview, generate, download, samples
+- **`python-multipart>=0.0.9`** already in `pyproject.toml` (required for file uploads)
+- **`fastapi>=0.111.0`** already present
+
+### Streamlit Pages — What Each Needs
+
+#### 01 Augmentation Lab
+- Preset selector: `light | medium | heavy` (from `PresetFactory`)
+- Image/PDF upload
+- Catalogue mode: pick individual augmentations and tune parameters (advanced)
+- Before/after display (side-by-side)
+- Download result as PNG or PDF
+
+**FastAPI endpoints needed:**
+- `GET /api/augmentation/presets` → `["light","medium","heavy","default"]`
+- `POST /api/augmentation/augment` → multipart: `file` (image), `preset` (str) → `{"image_b64": str, "metadata": {...}}`
+
+#### 02 OCR Engine
+- Image/PDF upload
+- Language selector, GPU checkbox
+- Run OCR → annotated image with bboxes, text area, region table
+- Optional ground truth .txt upload → CER/WER
+
+**FastAPI endpoints needed:**
+- `POST /api/ocr/recognize` → multipart: `file` (image), `lang` (str), `use_gpu` (bool) → `{"text": str, "boxes": [...], "scores": [...], "mean_confidence": float}`
+
+#### 03 Batch Processing
+- Multi-file upload
+- Preset selector, worker count, mode (single/NxM/M-total)
+- Start job, poll progress, download ZIP
+
+**FastAPI endpoints needed:**
+- `POST /api/batch/process` → multipart: `files` (list), `preset` (str), `mode` (str), `copies` (int), `total_outputs` (int), `seed` (int) → `{"job_id": str}`
+- `GET /api/batch/jobs/{job_id}` → job status (reuse jobs module)
+- `GET /api/batch/jobs/{job_id}/download` → ZIP StreamingResponse
+
+#### 04 Evaluation Dashboard
+- ZIP upload or local directory path
+- Augmentation preset, GPU toggle
+- Run evaluation → CER/WER/confidence metrics, bar charts, summary table
+
+**FastAPI endpoints needed:**
+- `POST /api/evaluation/run` → multipart: `zip_file` (optional), `dataset_dir` (optional str), `preset` (str) → `{"job_id": str}`
+- `GET /api/evaluation/jobs/{job_id}` → job status + result metrics when done
+
+#### 05 RL Training
+- Dataset directory / ZIP upload
+- Hyperparameter form (lr, batch_size, n_steps, num_envs, total_steps, ckpt_freq)
+- Start/Stop training (background thread)
+- Live reward chart updates
+
+**FastAPI endpoints needed:**
+- `POST /api/rl/train` → JSON body with config → `{"job_id": str}`
+- `GET /api/rl/jobs/{job_id}/status` → `{status, progress, step, reward, error}`
+- `GET /api/rl/jobs/{job_id}/metrics` → `{reward_curve: [{step, reward}], loss_curve: []}`
+
+### Navigation Strategy
+
+Add **React Router v6** (`react-router-dom`) to support multi-page navigation:
+- `"/"` → Synthetic Generator (existing `App.tsx`)
+- `"/augmentation"` → Augmentation Lab
+- `"/ocr"` → OCR Engine
+- `"/batch"` → Batch Processing
+- `"/evaluation"` → Evaluation Dashboard
+- `"/rl"` → RL Training
+
+Add a persistent `<NavBar>` component rendered outside routes.
+
+### Charting Library
+
+**Recharts** (MIT, ~500KB gzipped 130KB) — chosen because:
+- React-native (uses SVG, no D3 dependency)
+- Simple `<BarChart>`, `<LineChart>` with declarative JSX matching existing React pattern
+- Active maintenance, 22k GitHub stars
+- Small bundle impact vs Plotly (5MB)
+
+Alternative considered: **Chart.js + react-chartjs-2** — Canvas-based, slightly smaller, but less idiomatic for React.
+
+### File Upload Handling
+
+- React: `<input type="file" multiple>` with `FormData` sent to FastAPI
+- FastAPI: `UploadFile` for single files; `List[UploadFile]` for batch
+- Images decoded with PIL in Python, converted to base64 PNG for React display
+- `python-multipart` already installed
+
+### Background Tasks (Batch, Evaluation, RL)
+
+- Pattern already established by synthesis router: `BackgroundTasks` + jobs module
+- React polls `GET /api/*/jobs/{job_id}/status` every 2s while status is `running|pending`
+- On `done`, enable download button
+- RL training uses `threading.Thread` (same as Streamlit page) because SB3 PPO is not async-compatible
+
+### Key Constraints
+
+- OCR engine (`OCREngine`) is expensive to initialise — lazy-load as module-level singleton in the router, cached after first call
+- SB3/PPO training: must run in a daemon thread; FastAPI `BackgroundTasks` spawns a thread anyway
+- Batch augmentation: `BatchAugmenter` uses Python `multiprocessing` internally — safe to call from a background thread in FastAPI
+- No streaming SSE needed — polling every 2s is sufficient given typical job durations (augmentation ~1-30s, OCR ~0.5-5s, evaluation ~30-300s, RL training ~minutes)
+
+### Package.json Changes
+
+Add to `webapp/package.json`:
+```json
+"react-router-dom": "^6.23.0",
+"recharts": "^2.12.0"
+```
+Dev deps: `"@types/recharts"` is not needed — recharts ships its own TypeScript types since v2.
+
+
+---
+
+## 2026-03-12 — Free Hosting for JS App
+
+### Context
+
+The Document Simulator React SPA + FastAPI backend currently runs locally only. This section documents research into free hosting options to make the app publicly accessible.
+
+### Options Evaluated
+
+#### Frontend-only (React SPA)
+- **Vercel / Netlify / Cloudflare Pages** — all free, excellent CDN, auto-deploy from GitHub. But require a separate backend host. CORS configuration needed.
+- **GitHub Pages** — free, static only, needs a separate backend.
+
+#### Backend (FastAPI + Python)
+- **Render free tier** — supports Python/Docker but **spins down after 15 min of inactivity** (cold-start ~30s). Unacceptable for demo use.
+- **Railway** — free trial ($5 credit) then paid. Not truly free.
+- **Google Cloud Run** — free tier (2M requests/month) but cold-starts and complex setup.
+- **Fly.io** — 3 free shared VMs, Docker, good Python support. Cold-start possible.
+
+#### Full-Stack (Frontend + Backend in one container)
+- **Hugging Face Spaces (Docker SDK)** ✅ **Recommended**
+  - Free forever, no credit card required
+  - 2 vCPUs, **16GB RAM** — enough for synthesis + augraphy
+  - **No cold-start** — containers stay alive
+  - Git-based deployment: `git push` → auto rebuild
+  - ML/demo ecosystem — good for discovery
+  - Port 7860 expected by default
+
+### Decision: Hugging Face Spaces with Docker
+
+Single Docker container serving both React SPA (as static files via FastAPI) and the Python API. Multi-stage Dockerfile: Node.js builds `webapp/dist/`, Python stage copies it and runs `uvicorn`.
+
+**Excluded from Docker image:** `paddleocr`, `paddlepaddle`, `stable-baselines3`, `gymnasium` — these add ~2.5GB and are not needed for the synthesis demo.
+
+### References
+- [HF Spaces Docker docs](https://huggingface.co/docs/hub/spaces-sdks-docker)
+- [Render free tier limitations](https://render.com/docs/free#free-web-services)
+- [Fly.io free allowances](https://fly.io/docs/about/pricing/#free-allowances)
