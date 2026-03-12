@@ -458,6 +458,155 @@ with tab_catalogue:
                                 elif aug_name == "BookBinding":
                                     cdir = st.selectbox("Curling direction", ["random", "up", "down"], index=0, key=f"aug_p_{aug_name}_cdir")
                                     params_override["curling_direction"] = cdir
+                                # ── New ink-phase augmentations ─────────────
+                                elif aug_name == "InkMottling":
+                                    a_low = st.slider("Alpha min", 0.05, 1.0, float(dp.get("ink_mottling_alpha_range", (0.2, 0.3))[0]), 0.05, key=f"aug_p_{aug_name}_a_low")
+                                    a_high = st.slider("Alpha max", 0.05, 1.0, float(dp.get("ink_mottling_alpha_range", (0.2, 0.3))[1]), 0.05, key=f"aug_p_{aug_name}_a_high")
+                                    params_override["ink_mottling_alpha_range"] = (a_low, a_high)
+                                elif aug_name == "LowInkPeriodicLines":
+                                    c_low = st.slider("Count min", 1, 20, int(dp.get("count_range", (2, 5))[0]), 1, key=f"aug_p_{aug_name}_c_low")
+                                    c_high = st.slider("Count max", 1, 20, int(dp.get("count_range", (2, 5))[1]), 1, key=f"aug_p_{aug_name}_c_high")
+                                    per_low = st.slider("Period min (px)", 5, 100, int(dp.get("period_range", (10, 30))[0]), 5, key=f"aug_p_{aug_name}_per_low")
+                                    per_high = st.slider("Period max (px)", 5, 100, int(dp.get("period_range", (10, 30))[1]), 5, key=f"aug_p_{aug_name}_per_high")
+                                    params_override["count_range"] = (c_low, c_high)
+                                    params_override["period_range"] = (per_low, per_high)
+                                elif aug_name == "LowInkRandomLines":
+                                    c_low = st.slider("Count min", 1, 30, int(dp.get("count_range", (5, 10))[0]), 1, key=f"aug_p_{aug_name}_c_low")
+                                    c_high = st.slider("Count max", 1, 30, int(dp.get("count_range", (5, 10))[1]), 1, key=f"aug_p_{aug_name}_c_high")
+                                    params_override["count_range"] = (c_low, c_high)
+                                elif aug_name == "Hollow":
+                                    k_low = st.slider("Median kernel min", 11, 201, int(dp.get("hollow_median_kernel_value_range", (71, 101))[0]), 10, key=f"aug_p_{aug_name}_k_low")
+                                    k_high = st.slider("Median kernel max", 11, 201, int(dp.get("hollow_median_kernel_value_range", (71, 101))[1]), 10, key=f"aug_p_{aug_name}_k_high")
+                                    params_override["hollow_median_kernel_value_range"] = (k_low, k_high)
+                                elif aug_name == "Scribbles":
+                                    s_type = st.selectbox("Scribble type", ["random", "lines", "circles", "text"], index=0, key=f"aug_p_{aug_name}_type")
+                                    t_low = st.slider("Thickness min", 1, 10, int(dp.get("scribbles_thickness_range", (1, 3))[0]), 1, key=f"aug_p_{aug_name}_t_low")
+                                    t_high = st.slider("Thickness max", 1, 10, int(dp.get("scribbles_thickness_range", (1, 3))[1]), 1, key=f"aug_p_{aug_name}_t_high")
+                                    params_override["scribbles_type"] = s_type
+                                    params_override["scribbles_thickness_range"] = (t_low, t_high)
+                                elif aug_name == "LinesDegradation":
+                                    g_low = st.slider("Gradient min", 0, 255, int(dp.get("line_gradient_range", (32, 255))[0]), 8, key=f"aug_p_{aug_name}_g_low")
+                                    g_high = st.slider("Gradient max", 0, 255, int(dp.get("line_gradient_range", (32, 255))[1]), 8, key=f"aug_p_{aug_name}_g_high")
+                                    params_override["line_gradient_range"] = (g_low, g_high)
+                                elif aug_name == "BindingsAndFasteners":
+                                    effect = st.selectbox("Effect type", ["random", "punch_holes", "binding_holes", "staple", "clip"], index=0, key=f"aug_p_{aug_name}_effect")
+                                    params_override["effect_type"] = effect
+                                    params_override["use_figshare_library"] = 0
+                                # ── New paper-phase augmentations ────────────
+                                elif aug_name == "BrightnessTexturize":
+                                    t_low = st.slider("Texturize min", 0.5, 1.0, float(dp.get("texturize_range", (0.8, 0.99))[0]), 0.05, key=f"aug_p_{aug_name}_t_low")
+                                    t_high = st.slider("Texturize max", 0.5, 1.0, float(dp.get("texturize_range", (0.8, 0.99))[1]), 0.01, key=f"aug_p_{aug_name}_t_high")
+                                    dev = st.slider("Deviation", 0.01, 0.3, float(dp.get("deviation", 0.08)), 0.01, key=f"aug_p_{aug_name}_dev")
+                                    params_override["texturize_range"] = (t_low, t_high)
+                                    params_override["deviation"] = dev
+                                elif aug_name == "ColorPaper":
+                                    h_low = st.slider("Hue min", 0, 179, int(dp.get("hue_range", (28, 45))[0]), 1, key=f"aug_p_{aug_name}_h_low")
+                                    h_high = st.slider("Hue max", 0, 179, int(dp.get("hue_range", (28, 45))[1]), 1, key=f"aug_p_{aug_name}_h_high")
+                                    s_low = st.slider("Saturation min", 0, 100, int(dp.get("saturation_range", (10, 40))[0]), 5, key=f"aug_p_{aug_name}_s_low")
+                                    s_high = st.slider("Saturation max", 0, 100, int(dp.get("saturation_range", (10, 40))[1]), 5, key=f"aug_p_{aug_name}_s_high")
+                                    params_override["hue_range"] = (h_low, h_high)
+                                    params_override["saturation_range"] = (s_low, s_high)
+                                elif aug_name == "DirtyScreen":
+                                    nc_low = st.slider("Clusters min", 10, 200, int(dp.get("n_clusters", (50, 100))[0]), 10, key=f"aug_p_{aug_name}_nc_low")
+                                    nc_high = st.slider("Clusters max", 10, 200, int(dp.get("n_clusters", (50, 100))[1]), 10, key=f"aug_p_{aug_name}_nc_high")
+                                    params_override["n_clusters"] = (nc_low, nc_high)
+                                elif aug_name == "Stains":
+                                    s_type = st.selectbox("Stain type", ["random", "watermark", "light_stain", "dark_stain"], index=0, key=f"aug_p_{aug_name}_type")
+                                    blend = st.selectbox("Blend method", ["darken", "normal", "overlay"], index=0, key=f"aug_p_{aug_name}_blend")
+                                    alpha = st.slider("Blend alpha", 0.1, 1.0, float(dp.get("stains_blend_alpha", 0.5)), 0.05, key=f"aug_p_{aug_name}_alpha")
+                                    params_override["stains_type"] = s_type
+                                    params_override["stains_blend_method"] = blend
+                                    params_override["stains_blend_alpha"] = alpha
+                                elif aug_name == "NoisyLines":
+                                    n_low = st.slider("Lines min", 1, 50, int(dp.get("noisy_lines_number_range", (5, 20))[0]), 1, key=f"aug_p_{aug_name}_n_low")
+                                    n_high = st.slider("Lines max", 1, 50, int(dp.get("noisy_lines_number_range", (5, 20))[1]), 1, key=f"aug_p_{aug_name}_n_high")
+                                    params_override["noisy_lines_number_range"] = (n_low, n_high)
+                                elif aug_name == "PatternGenerator":
+                                    a_low = st.slider("Alpha min", 0.05, 1.0, float(dp.get("alpha_range", (0.25, 0.5))[0]), 0.05, key=f"aug_p_{aug_name}_a_low")
+                                    a_high = st.slider("Alpha max", 0.05, 1.0, float(dp.get("alpha_range", (0.25, 0.5))[1]), 0.05, key=f"aug_p_{aug_name}_a_high")
+                                    params_override["alpha_range"] = (a_low, a_high)
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "DelaunayTessellation":
+                                    np_low = st.slider("Points min", 100, 1000, int(dp.get("n_points_range", (500, 800))[0]), 50, key=f"aug_p_{aug_name}_np_low")
+                                    np_high = st.slider("Points max", 100, 1000, int(dp.get("n_points_range", (500, 800))[1]), 50, key=f"aug_p_{aug_name}_np_high")
+                                    params_override["n_points_range"] = (np_low, np_high)
+                                    params_override["n_horizontal_points_range"] = (np_low, np_high)
+                                    params_override["n_vertical_points_range"] = (np_low, np_high)
+                                elif aug_name == "VoronoiTessellation":
+                                    m_low = st.slider("Mult min", 10, 150, int(dp.get("mult_range", (50, 80))[0]), 5, key=f"aug_p_{aug_name}_m_low")
+                                    m_high = st.slider("Mult max", 10, 150, int(dp.get("mult_range", (50, 80))[1]), 5, key=f"aug_p_{aug_name}_m_high")
+                                    params_override["mult_range"] = (m_low, m_high)
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "PageBorder":
+                                    rot_low = st.slider("Rotation min (°)", -10, 0, int(dp.get("page_rotation_angle_range", (-3, 3))[0]), 1, key=f"aug_p_{aug_name}_rot_low")
+                                    rot_high = st.slider("Rotation max (°)", 0, 10, int(dp.get("page_rotation_angle_range", (-3, 3))[1]), 1, key=f"aug_p_{aug_name}_rot_high")
+                                    params_override["page_rotation_angle_range"] = (rot_low, rot_high)
+                                    params_override["numba_jit"] = 0
+                                # ── New post-phase augmentations ─────────────
+                                elif aug_name == "DepthSimulatedBlur":
+                                    maj_low = st.slider("Major axis min", 50, 300, int(dp.get("blur_major_axes_length_range", (120, 200))[0]), 10, key=f"aug_p_{aug_name}_maj_low")
+                                    maj_high = st.slider("Major axis max", 50, 300, int(dp.get("blur_major_axes_length_range", (120, 200))[1]), 10, key=f"aug_p_{aug_name}_maj_high")
+                                    it_low = st.slider("Iterations min", 2, 20, int(dp.get("blur_iteration_range", (8, 10))[0]), 1, key=f"aug_p_{aug_name}_it_low")
+                                    it_high = st.slider("Iterations max", 2, 20, int(dp.get("blur_iteration_range", (8, 10))[1]), 1, key=f"aug_p_{aug_name}_it_high")
+                                    params_override["blur_major_axes_length_range"] = (maj_low, maj_high)
+                                    params_override["blur_minor_axes_length_range"] = (maj_low, maj_high)
+                                    params_override["blur_iteration_range"] = (it_low, it_high)
+                                elif aug_name == "DoubleExposure":
+                                    off_low = st.slider("Offset min (px)", 5, 50, int(dp.get("offset_range", (18, 25))[0]), 1, key=f"aug_p_{aug_name}_off_low")
+                                    off_high = st.slider("Offset max (px)", 5, 50, int(dp.get("offset_range", (18, 25))[1]), 1, key=f"aug_p_{aug_name}_off_high")
+                                    params_override["offset_range"] = (off_low, off_high)
+                                elif aug_name == "Faxify":
+                                    s_low = st.slider("Scale min", 0.5, 2.0, float(dp.get("scale_range", (1.0, 1.25))[0]), 0.05, key=f"aug_p_{aug_name}_s_low")
+                                    s_high = st.slider("Scale max", 0.5, 2.0, float(dp.get("scale_range", (1.0, 1.25))[1]), 0.05, key=f"aug_p_{aug_name}_s_high")
+                                    params_override["scale_range"] = (s_low, s_high)
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "LCDScreenPattern":
+                                    ptype = st.selectbox("Pattern type", ["random", "horizontal_lines", "vertical_lines", "dots"], index=0, key=f"aug_p_{aug_name}_type")
+                                    alpha = st.slider("Overlay alpha", 0.05, 0.8, float(dp.get("pattern_overlay_alpha", 0.3)), 0.05, key=f"aug_p_{aug_name}_alpha")
+                                    params_override["pattern_type"] = ptype
+                                    params_override["pattern_overlay_alpha"] = alpha
+                                elif aug_name == "LensFlare":
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "LightingGradient":
+                                    mode = st.selectbox("Mode", ["gaussian", "linear"], index=0, key=f"aug_p_{aug_name}_mode")
+                                    max_b = st.slider("Max brightness", 150, 255, int(dp.get("max_brightness", 255)), 5, key=f"aug_p_{aug_name}_max_b")
+                                    min_b = st.slider("Min brightness", 0, 100, int(dp.get("min_brightness", 0)), 5, key=f"aug_p_{aug_name}_min_b")
+                                    params_override["mode"] = mode
+                                    params_override["max_brightness"] = max_b
+                                    params_override["min_brightness"] = min_b
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "Moire":
+                                    d_low = st.slider("Density min", 5, 50, int(dp.get("moire_density", (15, 20))[0]), 1, key=f"aug_p_{aug_name}_d_low")
+                                    d_high = st.slider("Density max", 5, 50, int(dp.get("moire_density", (15, 20))[1]), 1, key=f"aug_p_{aug_name}_d_high")
+                                    blend_alpha = st.slider("Blend alpha", 0.01, 0.5, float(dp.get("moire_blend_alpha", 0.1)), 0.01, key=f"aug_p_{aug_name}_alpha")
+                                    params_override["moire_density"] = (d_low, d_high)
+                                    params_override["moire_blend_alpha"] = blend_alpha
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "ReflectedLight":
+                                    smooth = st.slider("Smoothness", 0.1, 1.0, float(dp.get("reflected_light_smoothness", 0.8)), 0.05, key=f"aug_p_{aug_name}_smooth")
+                                    params_override["reflected_light_smoothness"] = smooth
+                                elif aug_name == "DotMatrix":
+                                    dw_low = st.slider("Dot width min", 1, 40, int(dp.get("dot_matrix_dot_width_range", (3, 19))[0]), 1, key=f"aug_p_{aug_name}_dw_low")
+                                    dw_high = st.slider("Dot width max", 1, 40, int(dp.get("dot_matrix_dot_width_range", (3, 19))[1]), 1, key=f"aug_p_{aug_name}_dw_high")
+                                    params_override["dot_matrix_dot_width_range"] = (dw_low, dw_high)
+                                    params_override["dot_matrix_dot_height_range"] = (dw_low, dw_high)
+                                    params_override["numba_jit"] = 0
+                                elif aug_name == "Rescale":
+                                    dpi = st.slider("Target DPI", 72, 600, int(dp.get("target_dpi", 300)), 12, key=f"aug_p_{aug_name}_dpi")
+                                    params_override["target_dpi"] = dpi
+                                elif aug_name == "SectionShift":
+                                    n_low = st.slider("Sections min", 2, 15, int(dp.get("section_shift_number_range", (3, 5))[0]), 1, key=f"aug_p_{aug_name}_n_low")
+                                    n_high = st.slider("Sections max", 2, 15, int(dp.get("section_shift_number_range", (3, 5))[1]), 1, key=f"aug_p_{aug_name}_n_high")
+                                    x_low = st.slider("X shift min (px)", -30, 0, int(dp.get("section_shift_x_range", (-10, 10))[0]), 1, key=f"aug_p_{aug_name}_x_low")
+                                    x_high = st.slider("X shift max (px)", 0, 30, int(dp.get("section_shift_x_range", (-10, 10))[1]), 1, key=f"aug_p_{aug_name}_x_high")
+                                    params_override["section_shift_number_range"] = (n_low, n_high)
+                                    params_override["section_shift_x_range"] = (x_low, x_high)
+                                elif aug_name == "Squish":
+                                    direc = st.selectbox("Direction", ["random", "horizontal", "vertical"], index=0, key=f"aug_p_{aug_name}_dir")
+                                    sq_low = st.slider("Distance min (px)", 1, 20, int(dp.get("squish_distance_range", (5, 7))[0]), 1, key=f"aug_p_{aug_name}_sq_low")
+                                    sq_high = st.slider("Distance max (px)", 1, 20, int(dp.get("squish_distance_range", (5, 7))[1]), 1, key=f"aug_p_{aug_name}_sq_high")
+                                    params_override["squish_direction"] = direc
+                                    params_override["squish_distance_range"] = (sq_low, sq_high)
                                 else:
                                     p_val = st.slider("Probability", 0.0, 1.0, float(dp.get("p", 0.9)), 0.05, key=f"aug_p_{aug_name}_p")
                                     params_override["p"] = p_val
@@ -471,8 +620,11 @@ with tab_catalogue:
                             params_key = json.dumps(effective, sort_keys=True, default=str)
 
                             # Generate / retrieve cached thumbnail
+                            # Skip apply_single for slow entries to avoid long waits or crashes
                             cache_key = f"{aug_name}::{params_key}"
-                            if cache_key not in thumbnails:
+                            if entry.get("slow", False):
+                                thumb_bytes = thumb_src_bytes
+                            elif cache_key not in thumbnails:
                                 try:
                                     thumb_bytes = _cached_apply_single(
                                         thumb_src_bytes, aug_name, params_key

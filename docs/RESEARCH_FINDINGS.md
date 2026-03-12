@@ -965,3 +965,58 @@ Add new typed keys to `SessionStateManager` for:
 - [Layouts and Containers — Streamlit Docs](https://docs.streamlit.io/develop/api-reference/layout)
 - [streamlit-image-gallery (GitHub)](https://github.com/virtUOS/streamlit-image-gallery)
 - [Defining Custom Pipelines in Augraphy — Sparkfish](https://www.sparkfish.com/augraphy-series-custom-pipelines/)
+
+---
+
+## 2026-03-08 — Augraphy Full Catalogue (28 Missing Classes)
+
+Introspected constructor signatures for all 28 missing augraphy 8.2.6 classes.
+
+### Ink Phase
+
+| Class | Key Params |
+|-------|-----------|
+| `InkMottling` | `ink_mottling_alpha_range=(0.2,0.3)`, `ink_mottling_noise_scale_range=(2,2)`, `ink_mottling_gaussian_kernel_range=(3,5)` |
+| `LowInkPeriodicLines` | `count_range=(2,5)`, `period_range=(10,30)`, `use_consistent_lines=True`, `noise_probability=0.1` |
+| `LowInkRandomLines` | `count_range=(5,10)`, `use_consistent_lines=True`, `noise_probability=0.1` |
+| `Hollow` | `hollow_median_kernel_value_range=(71,101)`, `hollow_min_width_range=(1,2)`, `hollow_max_width_range=(150,200)`, etc. |
+| `Scribbles` | `scribbles_type='random'`, `scribbles_ink='random'`, `scribbles_size_range=(400,600)`, `scribbles_count_range=(1,6)`, `scribbles_thickness_range=(1,3)` |
+| `LinesDegradation` | `line_roi=(0.0,0.0,1.0,1.0)`, `line_gradient_range=(32,255)`, `line_gradient_direction=(0,2)`, `line_split_probability=(0.2,0.4)` |
+| `BindingsAndFasteners` | `overlay_types='random'`, `effect_type='random'`, `width_range='random'`, `height_range='random'`, `angle_range=(-30,30)`, `ntimes=(2,6)`, `nscales=(1.0,1.5)`, `edge='random'`, `edge_offset=(5,20)`, `use_figshare_library=0` |
+
+### Paper Phase
+
+| Class | Key Params |
+|-------|-----------|
+| `BrightnessTexturize` | `texturize_range=(0.8,0.99)`, `deviation=0.08` |
+| `ColorPaper` | `hue_range=(28,45)`, `saturation_range=(10,40)` |
+| `DirtyScreen` | `n_clusters=(50,100)`, `n_samples=(2,20)`, `std_range=(1,5)`, `value_range=(150,250)` |
+| `Stains` | `stains_type='random'`, `stains_blend_method='darken'`, `stains_blend_alpha=0.5` |
+| `NoisyLines` | `noisy_lines_direction='random'`, `noisy_lines_number_range=(5,20)`, `noisy_lines_thickness_range=(1,2)`, `noisy_lines_color=(0,0,0)` |
+| `PatternGenerator` | `imgx=512`, `imgy=512`, `n_rotation_range=(10,15)`, `color='random'`, `alpha_range=(0.25,0.5)`, `numba_jit=1` |
+| `DelaunayTessellation` | `n_points_range=(500,800)`, `n_horizontal_points_range=(500,800)`, `n_vertical_points_range=(500,800)`, `noise_type='random'` |
+| `VoronoiTessellation` | `mult_range=(50,80)`, `seed=19829813472`, `num_cells_range=(500,1000)`, `noise_type='random'`, `background_value=(200,255)`, `numba_jit=1` |
+| `PageBorder` | `page_border_width_height='random'`, `page_border_color=(0,0,0)`, `page_numbers='random'`, `page_rotation_angle_range=(-3,3)`, `numba_jit=1` |
+
+### Post Phase
+
+| Class | Key Params |
+|-------|-----------|
+| `DepthSimulatedBlur` | `blur_center='random'`, `blur_major_axes_length_range=(120,200)`, `blur_minor_axes_length_range=(120,200)`, `blur_iteration_range=(8,10)` |
+| `DoubleExposure` | `gaussian_kernel_range=(9,12)`, `offset_direction='random'`, `offset_range=(18,25)` |
+| `Faxify` | `scale_range=(1.0,1.25)`, `monochrome=-1`, `halftone=-1`, `numba_jit=1` |
+| `LCDScreenPattern` | `pattern_type='random'`, `pattern_value_range=(0,16)`, `pattern_skip_distance_range=(3,5)`, `pattern_overlay_method='darken'` |
+| `LensFlare` | `lens_flare_location='random'`, `lens_flare_color='random'`, `lens_flare_size=(0.5,5)`, `numba_jit=1` |
+| `LightingGradient` | `max_brightness=255`, `min_brightness=0`, `mode='gaussian'`, `numba_jit=1` |
+| `Moire` | `moire_density=(15,20)`, `moire_blend_method='normal'`, `moire_blend_alpha=0.1`, `numba_jit=1` |
+| `ReflectedLight` | `reflected_light_smoothness=0.8`, `reflected_light_internal_radius_range=(0.0,0.2)`, `reflected_light_external_radius_range=(0.1,0.8)` |
+| `DotMatrix` | `dot_matrix_shape='random'`, `dot_matrix_dot_width_range=(3,19)`, `dot_matrix_dot_height_range=(3,19)`, `numba_jit=1` |
+| `Rescale` | `target_dpi=300` |
+| `SectionShift` | `section_shift_number_range=(3,5)`, `section_shift_x_range=(-10,10)`, `section_shift_y_range=(-10,10)` |
+| `Squish` | `squish_direction='random'`, `squish_number_range=(5,10)`, `squish_distance_range=(5,7)` |
+
+### Notes
+
+- `BindingsAndFasteners`: set `use_figshare_library=0` (int, not bool) to avoid network calls
+- `numba_jit=0` required for: `PatternGenerator`, `VoronoiTessellation`, `PageBorder`, `Faxify`, `LensFlare`, `LightingGradient`, `Moire`, `DotMatrix`
+- Slow augmentations (skip auto-thumbnails): `BindingsAndFasteners`, `PageBorder`, `VoronoiTessellation`, `DelaunayTessellation`
