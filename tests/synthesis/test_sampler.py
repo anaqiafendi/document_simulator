@@ -108,3 +108,92 @@ def test_zone_data_sampler_initials_uses_respondent_identity():
     identity = generate_respondent("person_a", global_seed=42)
     text = ZoneDataSampler.sample(zone, identity, seed=42)
     assert text == identity["initials"]
+
+
+# ---------------------------------------------------------------------------
+# New field types — prices, numbers, dates, address, signature, checkbox
+# ---------------------------------------------------------------------------
+
+import re
+
+@pytest.mark.parametrize("provider", ["price_short", "price_medium", "price_large"])
+def test_price_providers_return_currency_string(provider):
+    zone = _make_zone(provider)
+    identity = generate_respondent("default", global_seed=1)
+    text = ZoneDataSampler.sample(zone, identity, seed=1)
+    assert isinstance(text, str) and len(text) > 0
+    assert "$" in text
+    assert any(c.isdigit() for c in text)
+
+
+@pytest.mark.parametrize("provider,min_len,max_len", [
+    ("number_short", 3, 5),
+    ("number_medium", 6, 9),
+    ("number_long", 10, 14),
+])
+def test_number_providers_return_expected_length(provider, min_len, max_len):
+    zone = _make_zone(provider)
+    identity = generate_respondent("default", global_seed=7)
+    text = ZoneDataSampler.sample(zone, identity, seed=7)
+    assert text.isdigit()
+    assert min_len <= len(text) <= max_len
+
+
+def test_date_numeric_format():
+    zone = _make_zone("date_numeric")
+    identity = generate_respondent("default", global_seed=3)
+    text = ZoneDataSampler.sample(zone, identity, seed=3)
+    # Expect MM/DD/YYYY
+    assert re.match(r"\d{2}/\d{2}/\d{4}", text), f"Unexpected format: {text!r}"
+
+
+@pytest.mark.parametrize("provider", ["date_written", "signing_date", "effective_date", "termination_date"])
+def test_written_date_providers_return_month_and_year(provider):
+    zone = _make_zone(provider)
+    identity = generate_respondent("default", global_seed=5)
+    text = ZoneDataSampler.sample(zone, identity, seed=5)
+    assert isinstance(text, str) and len(text) > 6
+    # Should contain a 4-digit year
+    assert re.search(r"\d{4}", text), f"No year in: {text!r}"
+
+
+def test_address_single_line_has_comma():
+    zone = _make_zone("address_single_line")
+    identity = generate_respondent("default", global_seed=9)
+    text = ZoneDataSampler.sample(zone, identity, seed=9)
+    assert "," in text
+    assert len(text) > 10
+
+
+def test_signature_uses_respondent_identity():
+    zone = _make_zone("signature")
+    identity = generate_respondent("person_a", global_seed=42)
+    text = ZoneDataSampler.sample(zone, identity, seed=42)
+    assert text == identity["signature"]
+    assert text == identity["full_name"]
+
+
+@pytest.mark.parametrize("provider,expected", [
+    ("checkbox_checked", "☑"),
+    ("checkbox_unchecked", "☐"),
+    ("checkbox_x", "☒"),
+])
+def test_checkbox_providers_return_unicode_symbol(provider, expected):
+    zone = _make_zone(provider)
+    identity = generate_respondent("default", global_seed=1)
+    text = ZoneDataSampler.sample(zone, identity, seed=1)
+    assert text == expected
+
+
+def test_checkbox_providers_ignore_seed_variation():
+    """Checkbox values must be static regardless of seed."""
+    zone = _make_zone("checkbox_checked")
+    identity = generate_respondent("default", global_seed=1)
+    results = {ZoneDataSampler.sample(zone, identity, seed=s) for s in range(10)}
+    assert results == {"☑"}
+
+
+def test_generate_respondent_includes_signature():
+    identity = generate_respondent("person_a", global_seed=42)
+    assert "signature" in identity
+    assert identity["signature"] == identity["full_name"]
