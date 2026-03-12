@@ -218,8 +218,19 @@ function ZoneRow({
 
         <select value={zone.faker_provider}
           onChange={e => { const v = e.target.value; onUpdate({ faker_provider: v }); onReroll(v) }}
-          style={{ fontSize: 11, maxWidth: 110 }} title="Data type">
-          {FAKER_PROVIDERS.map(p => <option key={p.key} value={p.key}>{p.label}</option>)}
+          style={{ fontSize: 11, maxWidth: 130 }} title="Data type">
+          {(() => {
+            const groups: Record<string, typeof FAKER_PROVIDERS> = {}
+            for (const p of FAKER_PROVIDERS) {
+              const g = p.group ?? 'Other'
+              ;(groups[g] ??= []).push(p)
+            }
+            return Object.entries(groups).map(([grp, providers]) => (
+              <optgroup key={grp} label={grp}>
+                {providers.map(p => <option key={p.key} value={p.key}>{p.label}</option>)}
+              </optgroup>
+            ))
+          })()}
         </select>
 
         <select value={zone.alignment}
