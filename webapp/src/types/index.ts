@@ -66,3 +66,87 @@ export interface JobStatus {
   progress: number
   error: string | null
 }
+
+// ── Augmentation ─────────────────────────────────────────────────────────────
+
+export interface AugmentMetadata {
+  preset: string
+  width: number
+  height: number
+  filename: string
+}
+
+export interface AugmentResult {
+  original_b64: string
+  augmented_b64: string
+  metadata: AugmentMetadata
+}
+
+// ── OCR ──────────────────────────────────────────────────────────────────────
+
+export interface OcrResult {
+  text: string
+  boxes: number[][][]
+  scores: number[]
+  mean_confidence: number
+  n_regions: number
+  annotated_b64: string
+}
+
+// ── Batch ────────────────────────────────────────────────────────────────────
+
+export type BatchMode = 'single' | 'per_template' | 'random_sample'
+
+export interface BatchJobStatus extends JobStatus {
+  // inherits job_id, status, progress, error
+}
+
+// ── Evaluation ───────────────────────────────────────────────────────────────
+
+export interface EvalMetrics {
+  n_samples: number
+  mean_original_cer: number
+  mean_augmented_cer: number
+  mean_original_wer: number
+  mean_augmented_wer: number
+  mean_original_confidence: number
+  mean_augmented_confidence: number
+  std_original_cer: number
+  std_augmented_cer: number
+  std_original_wer: number
+  std_augmented_wer: number
+  std_original_confidence: number
+  std_augmented_confidence: number
+}
+
+export interface EvalJobStatus extends JobStatus {
+  results: EvalMetrics | null
+}
+
+// ── RL Training ──────────────────────────────────────────────────────────────
+
+export interface RewardPoint {
+  step: number
+  reward: number
+}
+
+export interface RlJobStatus extends JobStatus {
+  step: number
+  reward: number
+  model_path: string | null
+}
+
+export interface RlMetrics {
+  job_id: string
+  reward_curve: RewardPoint[]
+}
+
+export interface RlTrainConfig {
+  learning_rate: number
+  batch_size: number
+  n_steps: number
+  num_envs: number
+  total_timesteps: number
+  checkpoint_freq: number
+  dataset_dir: string | null
+}

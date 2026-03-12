@@ -63,3 +63,108 @@ class JobStatusResponse(BaseModel):
     status: str  # pending | running | done | failed
     progress: float = 0.0
     error: str | None = None
+
+
+# ── Augmentation ──────────────────────────────────────────────────────────────
+
+
+class AugmentMetadata(BaseModel):
+    """Metadata returned alongside an augmented image."""
+
+    preset: str
+    width: int
+    height: int
+    filename: str
+
+
+class AugmentResponse(BaseModel):
+    """Response model for POST /api/augmentation/augment."""
+
+    original_b64: str
+    augmented_b64: str
+    metadata: AugmentMetadata
+
+
+class PresetsResponse(BaseModel):
+    """Response model for GET /api/augmentation/presets."""
+
+    presets: list[str]
+
+
+# ── OCR ───────────────────────────────────────────────────────────────────────
+
+
+class OcrResponse(BaseModel):
+    """Response model for POST /api/ocr/recognize."""
+
+    text: str
+    boxes: list[list[list[float]]]
+    scores: list[float]
+    mean_confidence: float
+    n_regions: int
+    annotated_b64: str
+
+
+# ── Batch ─────────────────────────────────────────────────────────────────────
+
+
+class BatchJobResponse(BaseModel):
+    """Response model for POST /api/batch/process."""
+
+    job_id: str
+
+
+class BatchStatusResponse(BaseModel):
+    """Response model for GET /api/batch/jobs/{job_id}."""
+
+    job_id: str
+    status: str
+    progress: float = 0.0
+    error: str | None = None
+
+
+# ── Evaluation ────────────────────────────────────────────────────────────────
+
+
+class EvalJobResponse(BaseModel):
+    """Response model for POST /api/evaluation/run."""
+
+    job_id: str
+
+
+class EvalStatusResponse(BaseModel):
+    """Response model for GET /api/evaluation/jobs/{job_id}/status."""
+
+    job_id: str
+    status: str
+    progress: float = 0.0
+    error: str | None = None
+    results: dict | None = None
+
+
+# ── RL Training ───────────────────────────────────────────────────────────────
+
+
+class RlJobResponse(BaseModel):
+    """Response model for POST /api/rl/train."""
+
+    job_id: str
+
+
+class RlStatusResponse(BaseModel):
+    """Response model for GET /api/rl/jobs/{job_id}/status."""
+
+    job_id: str
+    status: str
+    progress: float = 0.0
+    error: str | None = None
+    step: int = 0
+    reward: float = 0.0
+    model_path: str | None = None
+
+
+class RlMetricsResponse(BaseModel):
+    """Response model for GET /api/rl/jobs/{job_id}/metrics."""
+
+    job_id: str
+    reward_curve: list[dict]

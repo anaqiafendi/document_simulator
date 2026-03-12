@@ -1,4 +1,17 @@
-import type { TemplateInfo, SynthesisConfig, PreviewSample, JobStatus } from '../types'
+import type {
+  TemplateInfo,
+  SynthesisConfig,
+  PreviewSample,
+  JobStatus,
+  AugmentResult,
+  OcrResult,
+  BatchMode,
+  BatchJobStatus,
+  EvalJobStatus,
+  RlTrainConfig,
+  RlJobStatus,
+  RlMetrics,
+} from '../types'
 
 const BASE = ''  // same origin in prod; proxied in dev
 
@@ -70,4 +83,139 @@ export async function getJobStatus(jobId: string): Promise<JobStatus> {
 
 export function downloadUrl(jobId: string): string {
   return `${BASE}/api/jobs/${jobId}/download`
+}
+
+// ── Augmentation ─────────────────────────────────────────────────────────────
+
+export async function listPresets(): Promise<string[]> {
+  const r = await fetch(`${BASE}/api/augmentation/presets`)
+  if (!r.ok) throw new Error(`Failed to list presets: ${r.status}`)
+  const data = await r.json()
+  return data.presets as string[]
+}
+
+export async function augmentImage(file: File, preset: string): Promise<AugmentResult> {
+  const form = new FormData()
+  form.append('file', file)
+  form.append('preset', preset)
+  const r = await fetch(`${BASE}/api/augmentation/augment`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Augmentation failed: ${detail.detail ?? r.status}`)
+  }
+  return r.json()
+}
+
+// ── OCR ──────────────────────────────────────────────────────────────────────
+
+export async function recognizeOcr(file: File, lang = 'en', useGpu = false): Promise<OcrResult> {
+  const form = new FormData()
+  form.append('file', file)
+  form.append('lang', lang)
+  form.append('use_gpu', String(useGpu))
+  const r = await fetch(`${BASE}/api/ocr/recognize`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`OCR failed: ${detail.detail ?? r.status}`)
+  }
+  return r.json()
+}
+
+// ── Batch ────────────────────────────────────────────────────────────────────
+
+export interface BatchProcessOptions {
+  preset?: string
+  mode?: BatchMode
+  copiesPerTemplate?: number
+  totalOutputs?: number
+  seed?: number
+  nWorkers?: number
+}
+
+export async function startBatchProcess(files: File[], opts: BatchProcessOptions = {}): Promise<string> {
+  const form = new FormData()
+  files.forEach(f => form.append('files', f))
+  form.append('preset', opts.preset ?? 'medium')
+  form.append('mode', opts.mode ?? 'single')
+  form.append('copies_per_template', String(opts.copiesPerTemplate ?? 3))
+  form.append('total_outputs', String(opts.totalOutputs ?? 20))
+  form.append('seed', String(opts.seed ?? 0))
+  form.append('n_workers', String(opts.nWorkers ?? 4))
+  const r = await fetch(`${BASE}/api/batch/process`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Batch process failed: ${detail.detail ?? r.status}`)
+  }
+  const data = await r.json()
+  return data.job_id as string
+}
+
+export async function getBatchJobStatus(jobId: string): Promise<BatchJobStatus> {
+  const r = await fetch(`${BASE}/api/batch/jobs/${jobId}`)
+  if (!r.ok) throw new Error(`Batch job status failed: ${r.status}`)
+  return r.json()
+}
+
+export function batchDownloadUrl(jobId: string): string {
+  return `${BASE}/api/batch/jobs/${jobId}/download`
+}
+
+// ── Evaluation ────────────────────────────────────────────────────────────────
+
+export async function startEvaluation(
+  preset: string,
+  zipFile?: File,
+  datasetDir?: string,
+  useGpu = false,
+): Promise<string> {
+  const form = new FormData()
+  form.append('preset', preset)
+  form.append('use_gpu', String(useGpu))
+  if (zipFile) form.append('zip_file', zipFile)
+  if (datasetDir) form.append('dataset_dir', datasetDir)
+  const r = await fetch(`${BASE}/api/evaluation/run`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Evaluation failed: ${detail.detail ?? r.status}`)
+  }
+  const data = await r.json()
+  return data.job_id as string
+}
+
+export async function getEvaluationStatus(jobId: string): Promise<EvalJobStatus> {
+  const r = await fetch(`${BASE}/api/evaluation/jobs/${jobId}/status`)
+  if (!r.ok) throw new Error(`Eval status failed: ${r.status}`)
+  return r.json()
+}
+
+// ── RL Training ──────────────────────────────────────────────────────────────
+
+export async function startRlTraining(config: RlTrainConfig): Promise<string> {
+  const r = await fetch(`${BASE}/api/rl/train`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(config),
+  })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`RL training failed: ${detail.detail ?? r.status}`)
+  }
+  const data = await r.json()
+  return data.job_id as string
+}
+
+export async function getRlJobStatus(jobId: string): Promise<RlJobStatus> {
+  const r = await fetch(`${BASE}/api/rl/jobs/${jobId}/status`)
+  if (!r.ok) throw new Error(`RL status failed: ${r.status}`)
+  return r.json()
+}
+
+export async function getRlMetrics(jobId: string): Promise<RlMetrics> {
+  const r = await fetch(`${BASE}/api/rl/jobs/${jobId}/metrics`)
+  if (!r.ok) throw new Error(`RL metrics failed: ${r.status}`)
+  return r.json()
+}
+
+export async function stopRlTraining(jobId: string): Promise<void> {
+  await fetch(`${BASE}/api/rl/jobs/${jobId}/stop`, { method: 'POST' })
 }
