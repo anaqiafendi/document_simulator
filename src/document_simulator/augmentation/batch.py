@@ -1,8 +1,10 @@
 """Batch document augmentation with optional multiprocessing."""
 
+import random
+import re
 from multiprocessing import Pool
 from pathlib import Path
-from typing import List, Optional, Union
+from typing import List, Literal, Optional, Tuple, Union
 
 from PIL import Image
 from tqdm import tqdm
@@ -90,6 +92,82 @@ class BatchAugmenter:
             ]
 
         return results
+
+    @staticmethod
+    def _safe_stem(index: int) -> str:
+        """Generate a safe filename stem for a source at *index*."""
+        return f"template_{index:03d}"
+
+    def augment_multi_template(
+        self,
+        sources: List[Image.Image],
+        mode: Literal["per_template", "random_sample"] = "per_template",
+        copies_per_template: int = 1,
+        total_outputs: int = 10,
+        seed: Optional[int] = None,
+        parallel: bool = True,
+    ) -> List[Tuple[Image.Image, str]]:
+        """Augment multiple source templates to produce M total outputs.
+
+        Two modes are supported:
+
+        - ``per_template``: For each source, generate *copies_per_template* augmented copies.
+          Total output count = ``len(sources) * copies_per_template``.
+        - ``random_sample``: Sample *total_outputs* sources randomly (with replacement) and
+          produce one augmented copy of each sampled source.
+
+        Args:
+            sources: List of PIL Images to use as templates. Must be non-empty.
+            mode: ``"per_template"`` (N×M) or ``"random_sample"`` (M-total).
+            copies_per_template: Number of augmented copies per source in ``per_template`` mode.
+                Must be >= 1.
+            total_outputs: Total number of outputs in ``random_sample`` mode. Must be >= 1.
+            seed: Random seed for reproducible sampling in ``random_sample`` mode.
+                ``None`` means unseeded (non-deterministic).
+            parallel: Whether to use multiprocessing (passed to :meth:`augment_batch`).
+
+        Returns:
+            List of ``(augmented_image, source_stem)`` tuples where *source_stem* is a safe
+            filename stem derived from the source index (e.g. ``"template_000"``).
+
+        Raises:
+            ValueError: If *sources* is empty, *mode* is unrecognised, *copies_per_template* < 1,
+                or *total_outputs* < 1.
+        """
+        if not sources:
+            raise ValueError("sources must be a non-empty list of PIL Images.")
+        if mode not in ("per_template", "random_sample"):
+            raise ValueError(
+                f"mode must be 'per_template' or 'random_sample', got {mode!r}."
+            )
+        if mode == "per_template" and copies_per_template < 1:
+            raise ValueError(
+                f"copies_per_template must be >= 1, got {copies_per_template}."
+            )
+        if mode == "random_sample" and total_outputs < 1:
+            raise ValueError(f"total_outputs must be >= 1, got {total_outputs}.")
+
+        # Build the flat list of (source_image, source_stem) pairs to augment
+        pairs: List[Tuple[Image.Image, str]] = []
+
+        if mode == "per_template":
+            for idx, img in enumerate(sources):
+                stem = self._safe_stem(idx)
+                for _ in range(copies_per_template):
+                    pairs.append((img, stem))
+        else:  # random_sample
+            rng = random.Random(seed)
+            population = list(range(len(sources)))
+            indices = rng.choices(population, k=total_outputs)
+            for i in indices:
+                pairs.append((sources[i], self._safe_stem(i)))
+
+        # Augment all selected images
+        images_to_aug = [img for img, _ in pairs]
+        stems = [stem for _, stem in pairs]
+        augmented = self.augment_batch(images_to_aug, parallel=parallel)
+
+        return list(zip(augmented, stems))
 
     def augment_directory(
         self,
