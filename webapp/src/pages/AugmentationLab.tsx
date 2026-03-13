@@ -142,6 +142,8 @@ const PHASE_COLORS: Record<string, string> = { ink: '#6c3483', paper: '#1a6648',
 const PHASE_BG: Record<string, string> = { ink: '#f5eef8', paper: '#eafaf1', post: '#eaf0fb' }
 
 // ── Dual-handle range slider ──────────────────────────────────────────────────
+// Uses pointer-capture drag on each thumb div — no overlapping invisible inputs,
+// so both handles are always independently grabbable.
 
 function DualRangeSlider({
   label, rangeMin, rangeMax, step, value, onChange,
@@ -154,8 +156,51 @@ function DualRangeSlider({
   onChange: (v: [number, number]) => void
 }) {
   const [lo, hi] = value
+  const trackRef = useRef<HTMLDivElement>(null)
+  const dragging = useRef<'lo' | 'hi' | null>(null)
+
   const fmt = (v: number) => step < 1 ? v.toFixed(2) : String(v)
   const pct = (v: number) => ((v - rangeMin) / (rangeMax - rangeMin)) * 100
+
+  const valueFromClientX = (clientX: number): number => {
+    const rect = trackRef.current!.getBoundingClientRect()
+    const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width))
+    const raw = rangeMin + ratio * (rangeMax - rangeMin)
+    return Math.round(raw / step) * step
+  }
+
+  const onThumbDown = (which: 'lo' | 'hi') => (e: React.PointerEvent<HTMLDivElement>) => {
+    e.preventDefault()
+    e.currentTarget.setPointerCapture(e.pointerId)
+    dragging.current = which
+  }
+
+  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+    if (!dragging.current) return
+    const v = valueFromClientX(e.clientX)
+    if (dragging.current === 'lo') onChange([Math.min(Math.max(v, rangeMin), hi - step), hi])
+    else onChange([lo, Math.max(Math.min(v, rangeMax), lo + step)])
+  }
+
+  const onPointerUp = () => { dragging.current = null }
+
+  // Click on the track background snaps the nearest thumb
+  const onTrackClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if (dragging.current) return  // was a drag, not a click
+    const v = valueFromClientX(e.clientX)
+    if (Math.abs(v - lo) <= Math.abs(v - hi)) onChange([Math.min(Math.max(v, rangeMin), hi - step), hi])
+    else onChange([lo, Math.max(Math.min(v, rangeMax), lo + step)])
+  }
+
+  const thumbStyle = (pos: number): React.CSSProperties => ({
+    position: 'absolute', top: '50%', left: `${pct(pos)}%`,
+    width: 18, height: 18, borderRadius: '50%',
+    background: '#4f6ef7', border: '2px solid #fff',
+    boxShadow: '0 1px 5px rgba(0,0,0,0.3)',
+    transform: 'translate(-50%, -50%)',
+    cursor: 'grab', touchAction: 'none', userSelect: 'none',
+    zIndex: 2,
+  })
 
   return (
     <div style={{ marginBottom: 14 }}>
@@ -163,8 +208,14 @@ function DualRangeSlider({
         <span style={{ fontSize: 12, fontWeight: 600, color: '#555' }}>{label}</span>
         <span style={{ fontSize: 12, color: '#4f6ef7', fontWeight: 600 }}>{fmt(lo)} – {fmt(hi)}</span>
       </div>
-      {/* Track container */}
-      <div style={{ position: 'relative', height: 28 }}>
+      {/* Track container — pointer events handled here */}
+      <div
+        ref={trackRef}
+        onPointerMove={onPointerMove}
+        onPointerUp={onPointerUp}
+        onClick={onTrackClick}
+        style={{ position: 'relative', height: 28, cursor: 'pointer' }}
+      >
         {/* Background track */}
         <div style={{
           position: 'absolute', top: '50%', left: 0, right: 0,
@@ -176,40 +227,10 @@ function DualRangeSlider({
           left: `${pct(lo)}%`, width: `${pct(hi) - pct(lo)}%`,
           height: 4, background: '#4f6ef7', borderRadius: 2, transform: 'translateY(-50%)',
         }} />
-        {/* Min thumb (visual) */}
-        <div style={{
-          position: 'absolute', top: '50%', left: `${pct(lo)}%`,
-          width: 16, height: 16, borderRadius: '50%',
-          background: '#4f6ef7', border: '2px solid #fff',
-          boxShadow: '0 1px 4px rgba(0,0,0,0.25)',
-          transform: 'translate(-50%, -50%)', pointerEvents: 'none',
-        }} />
-        {/* Max thumb (visual) */}
-        <div style={{
-          position: 'absolute', top: '50%', left: `${pct(hi)}%`,
-          width: 16, height: 16, borderRadius: '50%',
-          background: '#4f6ef7', border: '2px solid #fff',
-          boxShadow: '0 1px 4px rgba(0,0,0,0.25)',
-          transform: 'translate(-50%, -50%)', pointerEvents: 'none',
-        }} />
-        {/* Invisible inputs for interaction */}
-        <input type="range" min={rangeMin} max={rangeMax} step={step} value={lo}
-          onChange={e => onChange([Math.min(parseFloat(e.target.value), hi - step), hi])}
-          style={{
-            position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
-            opacity: 0, cursor: 'pointer', margin: 0,
-            // Lo handle on top only when near max, so user can always grab it
-            zIndex: lo > (rangeMin + rangeMax) / 2 ? 2 : 1,
-          }}
-        />
-        <input type="range" min={rangeMin} max={rangeMax} step={step} value={hi}
-          onChange={e => onChange([lo, Math.max(parseFloat(e.target.value), lo + step)])}
-          style={{
-            position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
-            opacity: 0, cursor: 'pointer', margin: 0,
-            zIndex: lo > (rangeMin + rangeMax) / 2 ? 1 : 2,
-          }}
-        />
+        {/* Lo thumb */}
+        <div onPointerDown={onThumbDown('lo')} style={thumbStyle(lo)} />
+        {/* Hi thumb */}
+        <div onPointerDown={onThumbDown('hi')} style={thumbStyle(hi)} />
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color: '#aaa', marginTop: 2 }}>
         <span>{fmt(rangeMin)}</span><span>{fmt(rangeMax)}</span>
@@ -550,14 +571,19 @@ function CatalogueTab() {
     })
   }
 
+  // nocache nonces: per-card random string set when user clicks "Refresh preview"
+  const nocacheRef = useRef<Record<string, string>>({})
+
   // Internal: run one preview immediately — uses stable refs for params/file
   const runPreview = (name: string) => {
     const currentFile = fileRef2.current
     if (!currentFile) return
     const currentParams = augParamsRef.current[name] ?? {}
+    const nonce = nocacheRef.current[name] ?? ''
+    delete nocacheRef.current[name]  // consume the nonce — only used once
     activeCount.current++
     setLoadingThumb(prev => new Set(prev).add(name))
-    previewCatalogue(currentFile, name, JSON.stringify(currentParams))
+    previewCatalogue(currentFile, name, JSON.stringify(currentParams), nonce)
       .then(result => setThumbnails(prev => ({ ...prev, [name]: result.augmented_b64 })))
       .catch(() => { /* silently ignore failed previews */ })
       .finally(() => {
@@ -572,10 +598,16 @@ function CatalogueTab() {
   }
 
   // Public: enqueue a preview (or fire immediately if slots free)
-  const fetchPreview = (name: string) => {
+  const fetchPreview = (name: string, forceRefresh = false) => {
     if (!fileRef2.current) return
     if (loadingThumb.has(name)) return  // already running
-    if (previewQueue.current.includes(name)) return  // already queued
+    if (forceRefresh) {
+      // Remove from queue if present so it re-runs with new nonce
+      previewQueue.current = previewQueue.current.filter(n => n !== name)
+      nocacheRef.current[name] = String(Date.now())  // bust backend cache
+    } else {
+      if (previewQueue.current.includes(name)) return  // already queued
+    }
     if (activeCount.current < MAX_CONCURRENT) {
       runPreview(name)
     } else {
@@ -822,10 +854,10 @@ function CatalogueTab() {
                       </button>
                       <button
                         style={{ ...btnSm, background: thumb ? '#27ae60' : '#7f8c8d' }}
-                        onClick={() => fetchPreview(entry.name)}
+                        onClick={() => fetchPreview(entry.name, !!thumb)}
                         disabled={isLoadingThumb}
                       >
-                        {isLoadingThumb ? 'Loading…' : thumb ? 'Refresh preview' : 'Preview'}
+                        {isLoadingThumb ? 'Loading…' : thumb ? 'Re-roll preview' : 'Preview'}
                       </button>
                       <button style={{ ...btnSm, background: isExpanded ? '#e74c3c' : '#95a5a6' }}
                         onClick={() => toggleExpanded(entry.name)}>

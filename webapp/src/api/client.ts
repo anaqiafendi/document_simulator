@@ -141,11 +141,12 @@ export async function augmentCatalogue(file: File, augName: string, paramsJson =
   return r.json()
 }
 
-export async function previewCatalogue(file: File, augName: string, paramsJson = '{}'): Promise<{ aug_name: string; original_b64: string; augmented_b64: string }> {
+export async function previewCatalogue(file: File, augName: string, paramsJson = '{}', nocache = ''): Promise<{ aug_name: string; original_b64: string; augmented_b64: string }> {
   const form = new FormData()
   form.append('file', file)
   form.append('aug_name', augName)
   form.append('params_json', paramsJson)
+  if (nocache) form.append('nocache', nocache)
   const r = await fetch(`${BASE}/api/augmentation/catalogue/preview`, { method: 'POST', body: form })
   if (!r.ok) {
     const detail = await r.json().catch(() => ({ detail: r.statusText }))

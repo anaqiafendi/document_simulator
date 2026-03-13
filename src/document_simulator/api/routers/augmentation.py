@@ -177,6 +177,7 @@ async def preview_catalogue(
     file: UploadFile,
     aug_name: Annotated[str, Form()],
     params_json: Annotated[str, Form()] = "{}",
+    nocache: Annotated[str, Form()] = "",
 ) -> dict:
     """Apply a catalogue augmentation to a thumbnail for quick per-card preview.
 
@@ -194,14 +195,18 @@ async def preview_catalogue(
     if not contents:
         raise HTTPException(status_code=422, detail="Uploaded file is empty.")
 
-    # Check cache first — avoids re-running the augmentation for the same image+params
+    # Check cache first — skip if nocache nonce is set (refresh re-roll)
     cache_key = _cache_key(contents, aug_name, params_json)
-    cached = _cache_get(cache_key)
+    cached = None if nocache else _cache_get(cache_key)
     if cached:
         logger.debug(f"Preview cache hit: {aug_name!r}")
         return cached
 
     original = _file_to_pil(file, contents)
+
+    # Downscale large images for fast previews — max 900px on longest side.
+    # This keeps DepthSimulatedBlur (and similar slow augs) under ~2s instead of 40s+.
+    preview_img = _resize_for_preview(original, max_px=900)
 
     try:
         params_override = json.loads(params_json) if params_json else {}
@@ -210,17 +215,17 @@ async def preview_catalogue(
         params_override = {}
 
     try:
-        result_raw = await _run_in_thread(apply_single, aug_name, original, params_override if params_override else None)
+        result_raw = await _run_in_thread(apply_single, aug_name, preview_img, params_override if params_override else None)
         result = Image.fromarray(np.array(result_raw)) if not isinstance(result_raw, Image.Image) else result_raw
     except Exception as exc:
         logger.error(f"Preview failed: {aug_name} — {exc}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Preview error: {exc}") from exc
 
-    logger.info(f"Preview: {aug_name!r} {original.width}x{original.height}px (full res)")
+    logger.info(f"Preview: {aug_name!r} {preview_img.width}x{preview_img.height}px (downscaled from {original.width}x{original.height})")
 
     response = {
         "aug_name": aug_name,
-        "original_b64": _pil_to_png_b64(original),
+        "original_b64": _pil_to_png_b64(preview_img),
         "augmented_b64": _pil_to_png_b64(result),
     }
     _cache_set(cache_key, response)
@@ -393,6 +398,19 @@ def _bytes_to_pil(file_bytes: bytes, filename: str, dpi: int = 150, page: int = 
             return Image.open(io.BytesIO(file_bytes)).convert("RGB")
         except Exception as exc:
             raise HTTPException(status_code=422, detail=f"Cannot decode image: {exc}") from exc
+
+
+def _resize_for_preview(img: Image.Image, max_px: int = 900) -> Image.Image:
+    """Downscale image so its longest side is at most max_px, preserving aspect ratio.
+
+    Returns the original image unchanged if it is already within the limit.
+    """
+    w, h = img.size
+    longest = max(w, h)
+    if longest <= max_px:
+        return img
+    scale = max_px / longest
+    return img.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
 
 
 def _lists_to_tuples(params: dict) -> dict:
