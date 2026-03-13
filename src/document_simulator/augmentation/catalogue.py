@@ -319,11 +319,25 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "p": 0.9,
         },
     },
+    "PaperFactory": {
+        "display_name": "Paper Factory",
+        "phase": "paper",
+        "description": "Generates a procedural paper texture and overlays it onto the document.",
+        "slow": False,
+        "default_params": {
+            "generate_texture": 1,
+            "generate_texture_background_type": "random",
+            "generate_texture_edge_type": "random",
+            "texture_enable_color": 0,
+            "texture_color": "random",
+            "p": 0.9,
+        },
+    },
     "DirtyScreen": {
         "display_name": "Dirty Screen",
         "phase": "paper",
         "description": "Adds clustered dust and smudge artifacts to simulate a dirty scanner screen.",
-        "slow": False,
+        "slow": True,  # make_blobs called 10× per image — too slow for auto-preview
         "default_params": {
             "n_clusters": (50, 100),
             "n_samples": (2, 20),
@@ -527,7 +541,6 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "moire_density": (15, 20),
             "moire_blend_method": "normal",
             "moire_blend_alpha": 0.1,
-            "numba_jit": 0,
             "p": 0.9,
         },
     },
@@ -535,7 +548,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         "display_name": "Reflected Light",
         "phase": "post",
         "description": "Adds a bright elliptical reflection spot to simulate glossy surface reflections.",
-        "slow": False,
+        "slow": True,  # ZeroDivisionError in augraphy 8.2.6 on small images
         "default_params": {
             "reflected_light_smoothness": 0.8,
             "reflected_light_internal_radius_range": (0.0, 0.2),
@@ -641,25 +654,45 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
         KeyError: If aug_name is not in CATALOGUE.
         AttributeError: If aug_name is not a class in augraphy.augmentations.
     """
+    import cv2
     import numpy as np
     from PIL import Image as PILImage
-    from augraphy import AugraphyPipeline
     import augraphy.augmentations as aug_module
 
     entry = CATALOGUE[aug_name]
     effective_params = {**entry["default_params"], **(params or {})}
 
-    aug_class = getattr(aug_module, aug_name)
-    aug_instance = aug_class(**effective_params)
-
     input_is_pil = isinstance(image, PILImage.Image)
     arr = np.array(image.convert("RGB")) if input_is_pil else image
 
-    phase = entry["phase"]
-    pipeline = AugraphyPipeline(
-        ink_phase=[aug_instance] if phase == "ink" else [],
-        paper_phase=[aug_instance] if phase == "paper" else [],
-        post_phase=[aug_instance] if phase == "post" else [],
-    )
-    result = pipeline(arr)
+    # PaperFactory lives in augraphy.base and returns a texture, not an augmented image.
+    if aug_name == "PaperFactory":
+        from augraphy.base.paperfactory import PaperFactory
+        aug_instance = PaperFactory(**effective_params)
+        texture = aug_instance(arr)
+        if texture is None:
+            result = arr
+        else:
+            # texture may be 2D grayscale or 3D RGB depending on texture_enable_color
+            h, w = arr.shape[:2]
+            tex = np.array(texture)
+            # Ensure 2D before resize to avoid cv2 producing unexpected shapes
+            if tex.ndim == 3:
+                tex_gray = cv2.cvtColor(tex, cv2.COLOR_RGB2GRAY) if tex.shape[2] == 3 else tex[:, :, 0]
+                tex_resized = cv2.resize(tex_gray, (w, h), interpolation=cv2.INTER_LINEAR)
+                texture_rgb = np.stack([tex_resized] * 3, axis=-1).astype(np.float32) / 255.0
+            else:
+                tex_resized = cv2.resize(tex, (w, h), interpolation=cv2.INTER_LINEAR)
+                texture_rgb = np.stack([tex_resized] * 3, axis=-1).astype(np.float32) / 255.0
+            base = arr.astype(np.float32) / 255.0
+            blended = np.clip(base * texture_rgb * 2.0, 0.0, 1.0)
+            result = (blended * 255).astype(np.uint8)
+    else:
+        aug_class = getattr(aug_module, aug_name)
+        aug_instance = aug_class(**effective_params)
+        result = aug_instance(arr)
+        # Some augraphy augmentations return None (pipeline-mode only); fall back to original.
+        if result is None:
+            result = arr
+
     return PILImage.fromarray(result) if input_is_pil else result
