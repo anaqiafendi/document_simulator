@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import asyncio
 import base64
+import functools
 import io
 import json
 from pathlib import Path
@@ -121,7 +123,7 @@ async def augment_catalogue(
         params_override = {}
 
     try:
-        result_raw = apply_single(aug_name, original, params_override if params_override else None)
+        result_raw = await _run_in_thread(apply_single, aug_name, original, params_override if params_override else None)
         result = Image.fromarray(np.array(result_raw)) if not isinstance(result_raw, Image.Image) else result_raw
     except Exception as exc:
         logger.error(f"Catalogue augment failed: {aug_name} — {exc}", exc_info=True)
@@ -172,7 +174,7 @@ async def preview_catalogue(
         params_override = {}
 
     try:
-        result_raw = apply_single(aug_name, original, params_override if params_override else None)
+        result_raw = await _run_in_thread(apply_single, aug_name, original, params_override if params_override else None)
         result = Image.fromarray(np.array(result_raw)) if not isinstance(result_raw, Image.Image) else result_raw
     except Exception as exc:
         logger.error(f"Preview failed: {aug_name} — {exc}", exc_info=True)
@@ -234,7 +236,7 @@ async def apply_pipeline(
     for aug_name in aug_names:
         params_override = _lists_to_tuples(all_params.get(aug_name, {}))
         try:
-            result_raw = apply_single(aug_name, current, params_override if params_override else None)
+            result_raw = await _run_in_thread(apply_single, aug_name, current, params_override if params_override else None)
             current = Image.fromarray(np.array(result_raw)) if not isinstance(result_raw, Image.Image) else result_raw
             applied.append(aug_name)
         except Exception as exc:
@@ -312,6 +314,12 @@ async def augment_image(
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
+
+async def _run_in_thread(fn, *args):
+    """Run a CPU-bound function in the default thread pool so async endpoints stay responsive."""
+    loop = asyncio.get_event_loop()
+    return await loop.run_in_executor(None, functools.partial(fn, *args))
+
 
 def _pil_to_png_b64(img: Image.Image) -> str:
     buf = io.BytesIO()

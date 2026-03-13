@@ -509,8 +509,20 @@ function CatalogueTab() {
 
   const [showResult, setShowResult] = useState(false)
 
+  // Concurrency-limited preview queue — max 2 in-flight at a time
+  const previewQueue = useRef<string[]>([])
+  const activeCount = useRef(0)
+  const MAX_CONCURRENT = 2
+
   // Clear thumbnails when file changes
-  useEffect(() => { setThumbnails({}); setPipelineResult(null); setSingleResult(null); setShowResult(false) }, [file])
+  useEffect(() => {
+    setThumbnails({})
+    setPipelineResult(null)
+    setSingleResult(null)
+    setShowResult(false)
+    previewQueue.current = []
+    activeCount.current = 0
+  }, [file])
 
   const filtered = phase === 'all' ? entries : entries.filter(e => e.phase === phase)
 
@@ -532,18 +544,46 @@ function CatalogueTab() {
     })
   }
 
-  const fetchPreview = async (name: string) => {
-    if (!file || loadingThumb.has(name)) return
+  // Internal: run one preview immediately
+  const runPreview = (name: string, currentFile: File, currentParams: AugParams) => {
+    activeCount.current++
     setLoadingThumb(prev => new Set(prev).add(name))
-    try {
-      const params = augParams[name] ?? {}
-      const result = await previewCatalogue(file, name, JSON.stringify(params))
-      setThumbnails(prev => ({ ...prev, [name]: result.augmented_b64 }))
-    } catch {
-      // ignore — card just won't show a preview
-    } finally {
-      setLoadingThumb(prev => { const s = new Set(prev); s.delete(name); return s })
+    previewCatalogue(currentFile, name, JSON.stringify(currentParams))
+      .then(result => setThumbnails(prev => ({ ...prev, [name]: result.augmented_b64 })))
+      .catch(() => { /* silently ignore failed previews */ })
+      .finally(() => {
+        activeCount.current--
+        setLoadingThumb(prev => { const s = new Set(prev); s.delete(name); return s })
+        // drain queue
+        if (previewQueue.current.length > 0) {
+          const next = previewQueue.current.shift()!
+          runPreview(next, currentFile, currentParams)
+        }
+      })
+  }
+
+  // Public: enqueue a preview (or fire immediately if slots free)
+  const fetchPreview = (name: string) => {
+    if (!file) return
+    if (loadingThumb.has(name)) return  // already running
+    if (previewQueue.current.includes(name)) return  // already queued
+    const params = augParams[name] ?? {}
+    if (activeCount.current < MAX_CONCURRENT) {
+      runPreview(name, file, params)
+    } else {
+      setLoadingThumb(prev => new Set(prev).add(name))  // show "Loading…" while queued
+      previewQueue.current.push(name)
     }
+  }
+
+  // Preview all visible cards sequentially (enqueue all)
+  const previewAll = () => {
+    if (!file) return
+    filtered.forEach(e => {
+      if (!thumbnails[e.name] && !loadingThumb.has(e.name) && !previewQueue.current.includes(e.name)) {
+        fetchPreview(e.name)
+      }
+    })
   }
 
   const handleApplySingle = async (name: string) => {
@@ -656,7 +696,7 @@ function CatalogueTab() {
         </div>
       )}
 
-      {/* Phase filter */}
+      {/* Phase filter + Preview All */}
       <div style={{ display: 'flex', gap: 8, marginBottom: 12, alignItems: 'center', flexWrap: 'wrap' }}>
         {(['all', 'ink', 'paper', 'post'] as const).map(p => (
           <button key={p} onClick={() => setPhase(p)} style={{
@@ -665,9 +705,18 @@ function CatalogueTab() {
             fontWeight: phase === p ? 600 : 400,
           }}>{p === 'all' ? 'All phases' : p.charAt(0).toUpperCase() + p.slice(1)}</button>
         ))}
+        {file && (
+          <button onClick={previewAll} style={{
+            padding: '5px 14px', borderRadius: 20, border: '1px solid #2ecc71', cursor: 'pointer', fontSize: 13,
+            background: '#f0fff4', color: '#27ae60', fontWeight: 600,
+          }}>
+            Preview all ({filtered.filter(e => !thumbnails[e.name] && !loadingThumb.has(e.name)).length} remaining)
+          </button>
+        )}
         <span style={{ fontSize: 13, color: '#888' }}>
           {filtered.length} augmentation{filtered.length !== 1 ? 's' : ''}
           {enabled.size > 0 && ` · ${enabled.size} selected`}
+          {loadingThumb.size > 0 && ` · ${loadingThumb.size} loading (max ${MAX_CONCURRENT} at a time)`}
         </span>
         {!file && (
           <span style={{ fontSize: 12, color: '#e67e22', marginLeft: 8 }}>
