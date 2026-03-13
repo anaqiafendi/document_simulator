@@ -1,6 +1,75 @@
 import { useEffect, useRef, useState } from 'react'
-import { augmentImage, listPresets, listCatalogue, augmentCatalogue } from '../api/client'
+import { augmentImage, listPresets, listCatalogue, augmentCatalogue, listSamples, loadSample } from '../api/client'
 import type { AugmentResult, CatalogueEntry, CatalogueAugmentResult } from '../types'
+
+// ── Shared: load a sample template and convert to File ────────────────────────
+
+async function sampleToFile(filename: string): Promise<File> {
+  const info = await loadSample(filename, 150, 0)
+  const blob = await fetch(`data:image/png;base64,${info.image_b64}`).then(r => r.blob())
+  return new File([blob], filename.replace(/\.pdf$/i, '') + '.png', { type: 'image/png' })
+}
+
+// ── Shared: ImageSourceSelector ───────────────────────────────────────────────
+
+function ImageSourceSelector({
+  file, onFile,
+}: {
+  file: File | null
+  onFile: (f: File | null) => void
+}) {
+  const [samples, setSamples] = useState<string[]>([])
+  const [loadingSample, setLoadingSample] = useState(false)
+  const fileRef = useRef<HTMLInputElement>(null)
+
+  useEffect(() => {
+    listSamples().catch(() => []).then(s => setSamples(Array.isArray(s) ? s : []))
+  }, [])
+
+  const handleSample = async (name: string) => {
+    if (!name) return
+    setLoadingSample(true)
+    try {
+      onFile(await sampleToFile(name))
+    } catch {
+      // ignore — user will see no preview
+    } finally {
+      setLoadingSample(false)
+    }
+  }
+
+  return (
+    <div style={{ display: 'flex', gap: 12, alignItems: 'flex-end', flexWrap: 'wrap' }}>
+      <div>
+        <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>Upload image</label>
+        <input ref={fileRef} type="file" accept=".png,.jpg,.jpeg,.bmp,.tiff,.pdf"
+          onChange={e => onFile(e.target.files?.[0] ?? null)}
+          style={{ fontSize: 13 }} />
+      </div>
+      {samples.length > 0 && (
+        <div>
+          <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>
+            — or load template
+          </label>
+          <select
+            defaultValue=""
+            onChange={e => handleSample(e.target.value)}
+            style={{ fontSize: 13, padding: '6px 10px', borderRadius: 5, border: '1px solid #ccc', maxWidth: 220 }}
+          >
+            <option value="" disabled>Select sample…</option>
+            {samples.map(s => <option key={s} value={s}>{s}</option>)}
+          </select>
+          {loadingSample && <span style={{ marginLeft: 8, fontSize: 12, color: '#888' }}>Loading…</span>}
+        </div>
+      )}
+      {file && (
+        <div style={{ fontSize: 12, color: '#555', alignSelf: 'center' }}>
+          <strong>{file.name}</strong> ({(file.size / 1024).toFixed(0)} KB)
+        </div>
+      )}
+    </div>
+  )
+}
 
 // ── Styles ────────────────────────────────────────────────────────────────────
 
@@ -37,7 +106,6 @@ function PresetTab() {
   const [result, setResult] = useState<AugmentResult | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const fileRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     listPresets().then(setPresets).catch(() => setPresets(['light', 'medium', 'heavy', 'default']))
@@ -59,12 +127,7 @@ function PresetTab() {
     <>
       <div style={card}>
         <div style={{ display: 'flex', gap: 16, alignItems: 'flex-end', flexWrap: 'wrap' }}>
-          <div>
-            <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>Document image</label>
-            <input ref={fileRef} type="file" accept=".png,.jpg,.jpeg,.bmp,.tiff,.pdf"
-              onChange={e => { setFile(e.target.files?.[0] ?? null); setResult(null); setError(null) }}
-              style={{ fontSize: 13 }} />
-          </div>
+          <ImageSourceSelector file={file} onFile={f => { setFile(f); setResult(null); setError(null) }} />
           <div>
             <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>Preset</label>
             <select value={preset} onChange={e => setPreset(e.target.value)}
@@ -150,12 +213,7 @@ function CatalogueTab() {
       {/* File upload + apply bar */}
       <div style={card}>
         <div style={{ display: 'flex', gap: 16, alignItems: 'flex-end', flexWrap: 'wrap' }}>
-          <div>
-            <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>Document image</label>
-            <input type="file" accept=".png,.jpg,.jpeg,.bmp,.tiff,.pdf"
-              onChange={e => { setFile(e.target.files?.[0] ?? null); setResult(null); setError(null) }}
-              style={{ fontSize: 13 }} />
-          </div>
+          <ImageSourceSelector file={file} onFile={f => { setFile(f); setResult(null); setError(null) }} />
           <div style={{ fontSize: 13, color: '#555', alignSelf: 'center' }}>
             {selected ? <>Selected: <strong>{entries.find(e => e.name === selected)?.display_name ?? selected}</strong></> : 'Select an augmentation below'}
           </div>
