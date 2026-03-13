@@ -99,6 +99,12 @@ export interface CatalogueAugmentResult {
   phase: string
 }
 
+export interface PipelineResult {
+  original_b64: string
+  augmented_b64: string
+  applied: string[]
+}
+
 // ── OCR ──────────────────────────────────────────────────────────────────────
 
 export interface OcrResult {

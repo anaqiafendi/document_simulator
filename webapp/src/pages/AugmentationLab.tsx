@@ -1,16 +1,20 @@
 import { useEffect, useRef, useState } from 'react'
-import { augmentImage, listPresets, listCatalogue, augmentCatalogue, listSamples, loadSample } from '../api/client'
-import type { AugmentResult, CatalogueEntry, CatalogueAugmentResult } from '../types'
+import {
+  augmentImage, listPresets,
+  listCatalogue, augmentCatalogue, previewCatalogue, applyPipeline,
+  listAugSamples, loadAugSample,
+} from '../api/client'
+import type { AugmentResult, CatalogueEntry, CatalogueAugmentResult, PipelineResult } from '../types'
 
-// ── Shared: load a sample template and convert to File ────────────────────────
+// ── Shared: load a sample template (augmentation_lab dir) and convert to File ─
 
-async function sampleToFile(filename: string): Promise<File> {
-  const info = await loadSample(filename, 150, 0)
+async function augSampleToFile(filename: string): Promise<File> {
+  const info = await loadAugSample(filename, 150, 0)
   const blob = await fetch(`data:image/png;base64,${info.image_b64}`).then(r => r.blob())
   return new File([blob], filename.replace(/\.pdf$/i, '') + '.png', { type: 'image/png' })
 }
 
-// ── Shared: ImageSourceSelector ───────────────────────────────────────────────
+// ── Shared: ImageSourceSelector (uses augmentation_lab samples) ───────────────
 
 function ImageSourceSelector({
   file, onFile,
@@ -23,19 +27,15 @@ function ImageSourceSelector({
   const fileRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
-    listSamples().catch(() => []).then(s => setSamples(Array.isArray(s) ? s : []))
+    listAugSamples().catch(() => []).then(s => setSamples(Array.isArray(s) ? s : []))
   }, [])
 
   const handleSample = async (name: string) => {
     if (!name) return
     setLoadingSample(true)
-    try {
-      onFile(await sampleToFile(name))
-    } catch {
-      // ignore — user will see no preview
-    } finally {
-      setLoadingSample(false)
-    }
+    try { onFile(await augSampleToFile(name)) }
+    catch { /* ignore */ }
+    finally { setLoadingSample(false) }
   }
 
   return (
@@ -51,11 +51,8 @@ function ImageSourceSelector({
           <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>
             — or load template
           </label>
-          <select
-            defaultValue=""
-            onChange={e => handleSample(e.target.value)}
-            style={{ fontSize: 13, padding: '6px 10px', borderRadius: 5, border: '1px solid #ccc', maxWidth: 220 }}
-          >
+          <select defaultValue="" onChange={e => handleSample(e.target.value)}
+            style={{ fontSize: 13, padding: '6px 10px', borderRadius: 5, border: '1px solid #ccc', maxWidth: 240 }}>
             <option value="" disabled>Select sample…</option>
             {samples.map(s => <option key={s} value={s}>{s}</option>)}
           </select>
@@ -83,18 +80,174 @@ const btn: React.CSSProperties = {
   fontSize: 14, fontWeight: 600, background: '#4f6ef7', color: '#fff',
 }
 
+const btnSm: React.CSSProperties = { ...btn, padding: '4px 12px', fontSize: 12 }
+
 const btnDisabled: React.CSSProperties = { ...btn, background: '#aaa', cursor: 'not-allowed' }
 
-const PHASE_COLORS: Record<string, string> = {
-  ink: '#6c3483',
-  paper: '#1a6648',
-  post: '#1a3a6b',
-}
+const PHASE_COLORS: Record<string, string> = { ink: '#6c3483', paper: '#1a6648', post: '#1a3a6b' }
+const PHASE_BG: Record<string, string> = { ink: '#f5eef8', paper: '#eafaf1', post: '#eaf0fb' }
 
-const PHASE_BG: Record<string, string> = {
-  ink: '#f5eef8',
-  paper: '#eafaf1',
-  post: '#eaf0fb',
+// ── Parameter controls for catalogue augmentations ────────────────────────────
+
+type AugParams = Record<string, unknown>
+
+function ParamControls({
+  entry, params, onChange,
+}: {
+  entry: CatalogueEntry
+  params: AugParams
+  onChange: (p: AugParams) => void
+}) {
+  const dp = entry.default_params
+  const get = (key: string, fallback: unknown) => (key in params ? params[key] : (key in dp ? dp[key] : fallback))
+
+  const set = (key: string, val: unknown) => onChange({ ...params, [key]: val })
+
+  const RangeRow = ({ k, label, min, max, step }: { k: string; label: string; min: number; max: number; step: number }) => {
+    const arr = get(k, dp[k]) as [number, number]
+    return (
+      <div style={{ marginBottom: 10 }}>
+        <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 4, color: '#555' }}>{label}</div>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <label style={{ fontSize: 11 }}>min</label>
+          <input type="range" min={min} max={max} step={step} value={arr[0]}
+            onChange={e => set(k, [parseFloat(e.target.value), arr[1]])} style={{ flex: 1 }} />
+          <span style={{ fontSize: 11, minWidth: 32 }}>{typeof arr[0] === 'number' ? arr[0].toFixed(step < 1 ? 2 : 0) : arr[0]}</span>
+          <label style={{ fontSize: 11 }}>max</label>
+          <input type="range" min={min} max={max} step={step} value={arr[1]}
+            onChange={e => set(k, [arr[0], parseFloat(e.target.value)])} style={{ flex: 1 }} />
+          <span style={{ fontSize: 11, minWidth: 32 }}>{typeof arr[1] === 'number' ? arr[1].toFixed(step < 1 ? 2 : 0) : arr[1]}</span>
+        </div>
+      </div>
+    )
+  }
+
+  const SingleSlider = ({ k, label, min, max, step }: { k: string; label: string; min: number; max: number; step: number }) => {
+    const val = get(k, dp[k]) as number
+    return (
+      <div style={{ marginBottom: 10 }}>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <label style={{ fontSize: 12, fontWeight: 600, color: '#555', minWidth: 120 }}>{label}</label>
+          <input type="range" min={min} max={max} step={step} value={val}
+            onChange={e => set(k, parseFloat(e.target.value))} style={{ flex: 1 }} />
+          <span style={{ fontSize: 11, minWidth: 32 }}>{typeof val === 'number' ? val.toFixed(step < 1 ? 2 : 0) : val}</span>
+        </div>
+      </div>
+    )
+  }
+
+  const SelectRow = ({ k, label, options }: { k: string; label: string; options: string[] }) => {
+    const val = get(k, dp[k]) as string
+    return (
+      <div style={{ marginBottom: 10, display: 'flex', gap: 8, alignItems: 'center' }}>
+        <label style={{ fontSize: 12, fontWeight: 600, color: '#555', minWidth: 120 }}>{label}</label>
+        <select value={val} onChange={e => set(k, e.target.value)}
+          style={{ fontSize: 12, padding: '3px 8px', borderRadius: 4, border: '1px solid #ccc' }}>
+          {options.map(o => <option key={o} value={o}>{o}</option>)}
+        </select>
+      </div>
+    )
+  }
+
+  const n = entry.name
+
+  // Specific controls per augmentation type
+  if (n === 'InkBleed' || n === 'BleedThrough') {
+    return <RangeRow k="intensity_range" label="Intensity range" min={0} max={1} step={0.05} />
+  }
+  if (n === 'Markup') {
+    return <>
+      <SelectRow k="markup_type" label="Type" options={['strikethrough', 'crossed', 'highlight', 'underline']} />
+      <RangeRow k="num_lines_range" label="Lines range" min={1} max={20} step={1} />
+    </>
+  }
+  if (n === 'InkShifter') {
+    return <RangeRow k="text_shift_scale_range" label="Shift scale" min={1} max={100} step={1} />
+  }
+  if (n === 'Letterpress') {
+    return <>
+      <RangeRow k="n_samples" label="Sample points" min={50} max={1000} step={10} />
+      <RangeRow k="n_clusters" label="Clusters" min={100} max={1000} step={10} />
+    </>
+  }
+  if (n === 'ShadowCast') {
+    return <>
+      <SelectRow k="shadow_side" label="Shadow side" options={['left', 'right', 'top', 'bottom']} />
+      <RangeRow k="shadow_opacity_range" label="Opacity range" min={0.1} max={1.0} step={0.05} />
+    </>
+  }
+  if (n === 'NoiseTexturize') {
+    return <>
+      <RangeRow k="sigma_range" label="Sigma range" min={1} max={20} step={1} />
+      <RangeRow k="turbulence_range" label="Turbulence range" min={1} max={10} step={0.5} />
+    </>
+  }
+  if (n === 'ColorShift') {
+    const offX = get('color_shift_offset_x_range', dp['color_shift_offset_x_range']) as [number, number]
+    const iters = get('color_shift_iterations', dp['color_shift_iterations']) as [number, number]
+    return <>
+      <div style={{ marginBottom: 10 }}>
+        <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 4, color: '#555' }}>Offset max (px)</div>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <input type="range" min={1} max={50} step={1} value={offX[1]}
+            onChange={e => {
+              const v = parseInt(e.target.value)
+              set('color_shift_offset_x_range', [1, v])
+              set('color_shift_offset_y_range', [1, v])
+            }} style={{ flex: 1 }} />
+          <span style={{ fontSize: 11, minWidth: 24 }}>{offX[1]}</span>
+        </div>
+      </div>
+      <div style={{ marginBottom: 10 }}>
+        <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 4, color: '#555' }}>Iterations max</div>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <input type="range" min={1} max={8} step={1} value={iters[1]}
+            onChange={e => set('color_shift_iterations', [1, parseInt(e.target.value)])} style={{ flex: 1 }} />
+          <span style={{ fontSize: 11, minWidth: 24 }}>{iters[1]}</span>
+        </div>
+      </div>
+    </>
+  }
+  if (n === 'DirtyDrum') {
+    return <RangeRow k="line_width_range" label="Line width" min={1} max={8} step={1} />
+  }
+  if (n === 'Brightness') {
+    return <RangeRow k="brightness_range" label="Brightness range" min={0.1} max={2.0} step={0.05} />
+  }
+  if (n === 'Gamma') {
+    return <RangeRow k="gamma_range" label="Gamma range" min={0.5} max={3.0} step={0.1} />
+  }
+  if (n === 'Jpeg') {
+    return <RangeRow k="quality_range" label="Quality range" min={1} max={95} step={1} />
+  }
+  if (n === 'LowLightNoise') {
+    return <RangeRow k="low_light_range" label="Low light range" min={0.1} max={1.0} step={0.05} />
+  }
+  if (n === 'SubtleNoise') {
+    return <SingleSlider k="subtle_range" label="Noise range" min={1} max={20} step={1} />
+  }
+  if (n === 'Folding') {
+    return <RangeRow k="fold_count" label="Fold count" min={1} max={6} step={1} />
+  }
+
+  // Generic fallback: show any numeric range params as dual sliders
+  const rangeKeys = Object.entries(dp).filter(([, v]) => Array.isArray(v) && v.length === 2 && typeof v[0] === 'number')
+  if (rangeKeys.length === 0) {
+    return <div style={{ fontSize: 12, color: '#888', fontStyle: 'italic' }}>No tunable parameters.</div>
+  }
+  return (
+    <>
+      {rangeKeys.map(([k, v]) => {
+        const arr = v as [number, number]
+        const isFloat = arr[0] % 1 !== 0 || arr[1] % 1 !== 0
+        const sliderMax = Math.max(arr[1] * 2, 1)
+        return (
+          <RangeRow key={k} k={k} label={k.replace(/_/g, ' ')}
+            min={0} max={sliderMax} step={isFloat ? 0.05 : 1} />
+        )
+      })}
+    </>
+  )
 }
 
 // ── Preset tab ────────────────────────────────────────────────────────────────
@@ -114,13 +267,9 @@ function PresetTab() {
   const handleAugment = async () => {
     if (!file) return
     setLoading(true); setError(null)
-    try {
-      setResult(await augmentImage(file, preset))
-    } catch (e: unknown) {
-      setError(e instanceof Error ? e.message : 'Unknown error')
-    } finally {
-      setLoading(false)
-    }
+    try { setResult(await augmentImage(file, preset)) }
+    catch (e: unknown) { setError(e instanceof Error ? e.message : 'Unknown error') }
+    finally { setLoading(false) }
   }
 
   return (
@@ -157,7 +306,7 @@ function PresetTab() {
                 <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                   Augmented — {result.metadata.preset}
                 </div>
-                <button style={{ ...btn, padding: '4px 12px', fontSize: 12 }} onClick={() => {
+                <button style={btnSm} onClick={() => {
                   const a = document.createElement('a'); a.href = `data:image/png;base64,${result.augmented_b64}`
                   a.download = `augmented_${preset}.png`; a.click()
                 }}>Download PNG</button>
@@ -180,10 +329,21 @@ function PresetTab() {
 function CatalogueTab() {
   const [entries, setEntries] = useState<CatalogueEntry[]>([])
   const [phase, setPhase] = useState<'all' | 'ink' | 'paper' | 'post'>('all')
-  const [selected, setSelected] = useState<string | null>(null)
   const [file, setFile] = useState<File | null>(null)
-  const [result, setResult] = useState<CatalogueAugmentResult | null>(null)
-  const [loading, setLoading] = useState(false)
+  // Multi-select: set of enabled aug names
+  const [enabled, setEnabled] = useState<Set<string>>(new Set())
+  // Per-aug param overrides
+  const [augParams, setAugParams] = useState<Record<string, AugParams>>({})
+  // Per-card expanded state (params section)
+  const [expanded, setExpanded] = useState<Set<string>>(new Set())
+  // Per-card thumbnail previews
+  const [thumbnails, setThumbnails] = useState<Record<string, string>>({})
+  const [loadingThumb, setLoadingThumb] = useState<Set<string>>(new Set())
+  // Pipeline result (multi-aug apply)
+  const [pipelineResult, setPipelineResult] = useState<PipelineResult | null>(null)
+  // Single-aug result
+  const [singleResult, setSingleResult] = useState<CatalogueAugmentResult | null>(null)
+  const [loadingPipeline, setLoadingPipeline] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [loadingCatalogue, setLoadingCatalogue] = useState(true)
 
@@ -194,60 +354,128 @@ function CatalogueTab() {
       .finally(() => setLoadingCatalogue(false))
   }, [])
 
+  // Clear thumbnails when file changes
+  useEffect(() => { setThumbnails({}); setPipelineResult(null); setSingleResult(null) }, [file])
+
   const filtered = phase === 'all' ? entries : entries.filter(e => e.phase === phase)
 
-  const handleApply = async () => {
-    if (!file || !selected) return
-    setLoading(true); setError(null)
+  const toggleEnabled = (name: string) => {
+    setEnabled(prev => {
+      const next = new Set(prev)
+      if (next.has(name)) next.delete(name)
+      else next.add(name)
+      return next
+    })
+  }
+
+  const toggleExpanded = (name: string) => {
+    setExpanded(prev => {
+      const next = new Set(prev)
+      if (next.has(name)) next.delete(name)
+      else next.add(name)
+      return next
+    })
+  }
+
+  const fetchPreview = async (name: string) => {
+    if (!file || loadingThumb.has(name)) return
+    setLoadingThumb(prev => new Set(prev).add(name))
     try {
-      setResult(await augmentCatalogue(file, selected))
-    } catch (e: unknown) {
-      setError(e instanceof Error ? e.message : 'Unknown error')
+      const params = augParams[name] ?? {}
+      const result = await previewCatalogue(file, name, JSON.stringify(params))
+      setThumbnails(prev => ({ ...prev, [name]: result.augmented_b64 }))
+    } catch {
+      // ignore — card just won't show a preview
     } finally {
-      setLoading(false)
+      setLoadingThumb(prev => { const s = new Set(prev); s.delete(name); return s })
     }
   }
 
+  const handleApplySingle = async (name: string) => {
+    if (!file) return
+    setLoadingPipeline(true); setError(null)
+    try {
+      const params = augParams[name] ?? {}
+      setSingleResult(await augmentCatalogue(file, name, JSON.stringify(params)))
+      setPipelineResult(null)
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : 'Unknown error')
+    } finally {
+      setLoadingPipeline(false)
+    }
+  }
+
+  const handleApplyPipeline = async () => {
+    if (!file || enabled.size === 0) return
+    setLoadingPipeline(true); setError(null)
+    try {
+      const ordered = entries.filter(e => enabled.has(e.name)).map(e => e.name)
+      const result = await applyPipeline(file, ordered, augParams)
+      setPipelineResult(result); setSingleResult(null)
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : 'Unknown error')
+    } finally {
+      setLoadingPipeline(false)
+    }
+  }
+
+  const resultOriginal = pipelineResult?.original_b64 ?? singleResult?.original_b64
+  const resultAugmented = pipelineResult?.augmented_b64 ?? singleResult?.augmented_b64
+  const resultLabel = pipelineResult
+    ? `Pipeline (${pipelineResult.applied.length} augs)`
+    : singleResult ? singleResult.display_name : ''
+
   return (
     <>
-      {/* File upload + apply bar */}
+      {/* File upload + pipeline controls */}
       <div style={card}>
-        <div style={{ display: 'flex', gap: 16, alignItems: 'flex-end', flexWrap: 'wrap' }}>
-          <ImageSourceSelector file={file} onFile={f => { setFile(f); setResult(null); setError(null) }} />
-          <div style={{ fontSize: 13, color: '#555', alignSelf: 'center' }}>
-            {selected ? <>Selected: <strong>{entries.find(e => e.name === selected)?.display_name ?? selected}</strong></> : 'Select an augmentation below'}
+        <ImageSourceSelector file={file} onFile={f => { setFile(f); setError(null) }} />
+        {file && enabled.size > 0 && (
+          <div style={{ marginTop: 12, display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap' }}>
+            <button
+              style={loadingPipeline ? btnDisabled : btn}
+              disabled={loadingPipeline}
+              onClick={handleApplyPipeline}
+            >
+              {loadingPipeline ? 'Applying…' : `Apply Pipeline (${enabled.size} selected)`}
+            </button>
+            <button style={{ ...btnSm, background: '#e74c3c' }} onClick={() => setEnabled(new Set())}>
+              Clear selection
+            </button>
+            <span style={{ fontSize: 13, color: '#555' }}>
+              Selected: {entries.filter(e => enabled.has(e.name)).map(e => e.display_name).join(', ')}
+            </span>
           </div>
-          <button style={loading || !file || !selected ? btnDisabled : btn}
-            disabled={loading || !file || !selected} onClick={handleApply}>
-            {loading ? 'Applying…' : 'Apply'}
-          </button>
-        </div>
+        )}
         {error && <div style={{ marginTop: 12, color: '#c0392b', background: '#fdecea', padding: '8px 12px', borderRadius: 5, fontSize: 13 }}>{error}</div>}
       </div>
 
       {/* Before / After */}
-      {(file || result) && (
+      {(file || resultAugmented) && (
         <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginBottom: 16 }}>
           <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
             <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
-            <img src={result ? `data:image/png;base64,${result.original_b64}` : (file ? URL.createObjectURL(file) : '')}
+            <img
+              src={resultOriginal ? `data:image/png;base64,${resultOriginal}` : (file ? URL.createObjectURL(file) : '')}
               alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
           </div>
-          {result && (
+          {resultAugmented && (
             <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
                 <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                  {result.display_name}
-                  <span style={{ marginLeft: 8, background: PHASE_BG[result.phase], color: PHASE_COLORS[result.phase], borderRadius: 4, padding: '1px 6px', fontSize: 10, fontWeight: 700 }}>
-                    {result.phase}
-                  </span>
+                  {resultLabel}
+                  {singleResult && (
+                    <span style={{ marginLeft: 8, background: PHASE_BG[singleResult.phase], color: PHASE_COLORS[singleResult.phase], borderRadius: 4, padding: '1px 6px', fontSize: 10, fontWeight: 700 }}>
+                      {singleResult.phase}
+                    </span>
+                  )}
                 </div>
-                <button style={{ ...btn, padding: '4px 12px', fontSize: 12 }} onClick={() => {
-                  const a = document.createElement('a'); a.href = `data:image/png;base64,${result.augmented_b64}`
-                  a.download = `${result.aug_name}.png`; a.click()
+                <button style={btnSm} onClick={() => {
+                  const a = document.createElement('a'); a.href = `data:image/png;base64,${resultAugmented}`
+                  a.download = `${resultLabel.replace(/[^a-z0-9]/gi, '_')}.png`; a.click()
                 }}>Download</button>
               </div>
-              <img src={`data:image/png;base64,${result.augmented_b64}`} alt="Augmented"
+              <img src={`data:image/png;base64,${resultAugmented}`} alt="Augmented"
                 style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
             </div>
           )}
@@ -255,7 +483,7 @@ function CatalogueTab() {
       )}
 
       {/* Phase filter */}
-      <div style={{ display: 'flex', gap: 8, marginBottom: 12 }}>
+      <div style={{ display: 'flex', gap: 8, marginBottom: 12, alignItems: 'center', flexWrap: 'wrap' }}>
         {(['all', 'ink', 'paper', 'post'] as const).map(p => (
           <button key={p} onClick={() => setPhase(p)} style={{
             padding: '5px 14px', borderRadius: 20, border: '1px solid #ddd', cursor: 'pointer', fontSize: 13,
@@ -263,36 +491,109 @@ function CatalogueTab() {
             fontWeight: phase === p ? 600 : 400,
           }}>{p === 'all' ? 'All phases' : p.charAt(0).toUpperCase() + p.slice(1)}</button>
         ))}
-        <span style={{ marginLeft: 8, fontSize: 13, color: '#888', alignSelf: 'center' }}>
+        <span style={{ fontSize: 13, color: '#888' }}>
           {filtered.length} augmentation{filtered.length !== 1 ? 's' : ''}
+          {enabled.size > 0 && ` · ${enabled.size} selected`}
         </span>
+        {!file && (
+          <span style={{ fontSize: 12, color: '#e67e22', marginLeft: 8 }}>
+            Upload an image above to enable previews and apply augmentations.
+          </span>
+        )}
       </div>
 
       {/* Catalogue grid */}
       {loadingCatalogue ? (
         <div style={{ color: '#888', padding: '20px 0' }}>Loading catalogue…</div>
       ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 10 }}>
-          {filtered.map(entry => (
-            <div key={entry.name} onClick={() => setSelected(s => s === entry.name ? null : entry.name)}
-              style={{
-                borderRadius: 8, border: `2px solid ${selected === entry.name ? '#4f6ef7' : '#e8e8e8'}`,
-                padding: '12px 14px', cursor: 'pointer', background: selected === entry.name ? '#f0f4ff' : '#fff',
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 10 }}>
+          {filtered.map(entry => {
+            const isEnabled = enabled.has(entry.name)
+            const isExpanded = expanded.has(entry.name)
+            const thumb = thumbnails[entry.name]
+            const isLoadingThumb = loadingThumb.has(entry.name)
+            const params = augParams[entry.name] ?? {}
+
+            return (
+              <div key={entry.name} style={{
+                borderRadius: 8,
+                border: `2px solid ${isEnabled ? '#4f6ef7' : '#e8e8e8'}`,
+                background: isEnabled ? '#f0f4ff' : '#fff',
                 transition: 'border-color 0.15s, background 0.15s',
+                overflow: 'hidden',
               }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 5 }}>
-                <div style={{ fontWeight: 600, fontSize: 13 }}>{entry.display_name}</div>
-                <span style={{
-                  background: PHASE_BG[entry.phase], color: PHASE_COLORS[entry.phase],
-                  borderRadius: 4, padding: '1px 6px', fontSize: 10, fontWeight: 700, whiteSpace: 'nowrap', marginLeft: 6,
-                }}>{entry.phase}</span>
+                {/* Card header */}
+                <div style={{ padding: '12px 14px 8px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 5 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                      <input type="checkbox" checked={isEnabled} onChange={() => toggleEnabled(entry.name)}
+                        style={{ cursor: 'pointer', accentColor: '#4f6ef7', width: 15, height: 15 }} />
+                      <span style={{ fontWeight: 600, fontSize: 13 }}>{entry.display_name}</span>
+                    </div>
+                    <span style={{
+                      background: PHASE_BG[entry.phase], color: PHASE_COLORS[entry.phase],
+                      borderRadius: 4, padding: '1px 6px', fontSize: 10, fontWeight: 700, whiteSpace: 'nowrap', marginLeft: 6,
+                    }}>{entry.phase}</span>
+                  </div>
+                  <div style={{ fontSize: 12, color: '#666', lineHeight: 1.4, marginBottom: 5 }}>{entry.description}</div>
+                  {entry.slow && (
+                    <div style={{ fontSize: 11, color: '#e67e22', fontStyle: 'italic', marginBottom: 4 }}>⚠ slow</div>
+                  )}
+
+                  {/* Card action buttons */}
+                  {file && (
+                    <div style={{ display: 'flex', gap: 6, marginTop: 8, flexWrap: 'wrap' }}>
+                      <button style={{ ...btnSm, background: '#2ecc71' }}
+                        onClick={() => handleApplySingle(entry.name)}
+                        disabled={loadingPipeline}
+                      >
+                        Apply
+                      </button>
+                      <button
+                        style={{ ...btnSm, background: thumb ? '#27ae60' : '#7f8c8d' }}
+                        onClick={() => fetchPreview(entry.name)}
+                        disabled={isLoadingThumb}
+                      >
+                        {isLoadingThumb ? 'Loading…' : thumb ? 'Refresh preview' : 'Preview'}
+                      </button>
+                      <button style={{ ...btnSm, background: isExpanded ? '#e74c3c' : '#95a5a6' }}
+                        onClick={() => toggleExpanded(entry.name)}>
+                        {isExpanded ? 'Hide params' : 'Params'}
+                      </button>
+                    </div>
+                  )}
+                </div>
+
+                {/* Per-card thumbnail preview */}
+                {thumb && (
+                  <div style={{ padding: '0 14px 10px' }}>
+                    <img src={`data:image/png;base64,${thumb}`} alt={`Preview: ${entry.display_name}`}
+                      style={{ width: '100%', borderRadius: 4, border: '1px solid #ddd', display: 'block' }} />
+                  </div>
+                )}
+
+                {/* Parameter controls */}
+                {isExpanded && (
+                  <div style={{ padding: '8px 14px 12px', borderTop: '1px solid #e8e8e8', background: '#fafafa' }}>
+                    <div style={{ fontSize: 12, fontWeight: 700, color: '#555', marginBottom: 8 }}>Parameters</div>
+                    <ParamControls
+                      entry={entry}
+                      params={params}
+                      onChange={p => setAugParams(prev => ({ ...prev, [entry.name]: p }))}
+                    />
+                    {Object.keys(params).length > 0 && (
+                      <button style={{ ...btnSm, background: '#e74c3c', marginTop: 4 }}
+                        onClick={() => setAugParams(prev => {
+                          const next = { ...prev }; delete next[entry.name]; return next
+                        })}>
+                        Reset to defaults
+                      </button>
+                    )}
+                  </div>
+                )}
               </div>
-              <div style={{ fontSize: 12, color: '#666', lineHeight: 1.4 }}>{entry.description}</div>
-              {entry.slow && (
-                <div style={{ marginTop: 6, fontSize: 11, color: '#e67e22', fontStyle: 'italic' }}>⚠ slow</div>
-              )}
-            </div>
-          ))}
+            )
+          })}
         </div>
       )}
     </>
@@ -305,10 +606,10 @@ export default function AugmentationLab() {
   const [tab, setTab] = useState<'preset' | 'catalogue'>('preset')
 
   return (
-    <div style={{ maxWidth: 1200, margin: '0 auto', padding: '24px 24px' }}>
+    <div style={{ maxWidth: 1400, margin: '0 auto', padding: '24px 24px' }}>
       <h2 style={{ margin: '0 0 4px', fontSize: 22 }}>Augmentation Lab</h2>
       <p style={{ color: '#666', margin: '0 0 20px', fontSize: 14 }}>
-        Apply document degradation presets or choose from 51 individual Augraphy augmentations.
+        Apply document degradation presets or choose from 51 individual Augraphy augmentations — with per-card previews, parameter tuning, and multi-augmentation pipelines.
       </p>
 
       {/* Tab switcher */}

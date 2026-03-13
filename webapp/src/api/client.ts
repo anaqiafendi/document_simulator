@@ -108,6 +108,19 @@ export async function augmentImage(file: File, preset: string): Promise<AugmentR
   return r.json()
 }
 
+export async function listAugSamples(): Promise<string[]> {
+  const r = await fetch(`${BASE}/api/augmentation/samples`)
+  if (!r.ok) throw new Error(`Failed to list aug samples: ${r.status}`)
+  const data = await r.json()
+  return data.samples as string[]
+}
+
+export async function loadAugSample(filename: string, dpi = 150, page = 0): Promise<{ image_b64: string; width_px: number; height_px: number }> {
+  const r = await fetch(`${BASE}/api/augmentation/samples/${encodeURIComponent(filename)}?dpi=${dpi}&page=${page}`)
+  if (!r.ok) throw new Error(`Failed to load aug sample: ${r.status}`)
+  return r.json()
+}
+
 export async function listCatalogue(): Promise<CatalogueEntry[]> {
   const r = await fetch(`${BASE}/api/augmentation/catalogue`)
   if (!r.ok) throw new Error(`Failed to load catalogue: ${r.status}`)
@@ -115,14 +128,45 @@ export async function listCatalogue(): Promise<CatalogueEntry[]> {
   return data.entries as CatalogueEntry[]
 }
 
-export async function augmentCatalogue(file: File, augName: string): Promise<CatalogueAugmentResult> {
+export async function augmentCatalogue(file: File, augName: string, paramsJson = '{}'): Promise<CatalogueAugmentResult> {
   const form = new FormData()
   form.append('file', file)
   form.append('aug_name', augName)
+  form.append('params_json', paramsJson)
   const r = await fetch(`${BASE}/api/augmentation/catalogue/augment`, { method: 'POST', body: form })
   if (!r.ok) {
     const detail = await r.json().catch(() => ({ detail: r.statusText }))
     throw new Error(`Catalogue augmentation failed: ${detail.detail ?? r.status}`)
+  }
+  return r.json()
+}
+
+export async function previewCatalogue(file: File, augName: string, paramsJson = '{}'): Promise<{ aug_name: string; original_b64: string; augmented_b64: string }> {
+  const form = new FormData()
+  form.append('file', file)
+  form.append('aug_name', augName)
+  form.append('params_json', paramsJson)
+  const r = await fetch(`${BASE}/api/augmentation/catalogue/preview`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Preview failed: ${detail.detail ?? r.status}`)
+  }
+  return r.json()
+}
+
+export async function applyPipeline(
+  file: File,
+  augNames: string[],
+  allParams: Record<string, Record<string, unknown>> = {},
+): Promise<{ original_b64: string; augmented_b64: string; applied: string[] }> {
+  const form = new FormData()
+  form.append('file', file)
+  form.append('aug_names_json', JSON.stringify(augNames))
+  form.append('all_params_json', JSON.stringify(allParams))
+  const r = await fetch(`${BASE}/api/augmentation/catalogue/pipeline`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Pipeline failed: ${detail.detail ?? r.status}`)
   }
   return r.json()
 }
