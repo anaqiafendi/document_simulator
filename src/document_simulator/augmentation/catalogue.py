@@ -7,10 +7,12 @@ from typing import Any
 # slow (bool — skip in auto-thumbnail generation), description (1 sentence)
 #
 # Known platform issues in augraphy 8.2.6:
-#   - Scribbles: crashes with "module 'matplotlib' has no attribute 'font_manager'"
-#     on some matplotlib versions; marked slow=True to skip auto-thumbnail.
-#   - LensFlare: segfaults on all tested image sizes due to a native code bug;
-#     marked slow=True to skip auto-thumbnail generation.
+#   - Scribbles: needs matplotlib.font_manager pre-imported before first call;
+#     fixed in apply_single() by importing it eagerly.
+#   - LensFlare: segfaults unconditionally (numba parallel crash in native code);
+#     marked disabled=True — hidden from UI and skipped by apply_single().
+#   - Moire, DotMatrix: numba_jit=0 causes 'get_call_template' crash; fixed to 1.
+# disabled=True entries are hidden from the API catalogue listing.
 CATALOGUE: dict[str, dict[str, Any]] = {
     # ── Ink phase ─────────────────────────────────────────────────────────────
     "InkBleed": {
@@ -373,7 +375,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "n_rotation_range": (10, 15),
             "color": "random",
             "alpha_range": (0.25, 0.5),
-            "numba_jit": 0,
+            "numba_jit": 1,  # 0 causes 'get_call_template' crash in augraphy 8.2.6
             "p": 0.9,
         },
     },
@@ -403,7 +405,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "num_cells_range": (500, 1000),
             "noise_type": "random",
             "background_value": (200, 255),
-            "numba_jit": 0,
+            "numba_jit": 1,  # 0 causes 'get_call_template' crash in augraphy 8.2.6
             "p": 0.9,
         },
     },
@@ -492,7 +494,8 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         "display_name": "Lens Flare",
         "phase": "post",
         "description": "Adds a lens flare artifact to simulate camera or scanner lighting.",
-        "slow": True,  # augraphy 8.2.6: segfaults on all tested image sizes
+        "slow": True,
+        "disabled": True,  # augraphy 8.2.6: numba parallel crash, unconditional segfault
         "default_params": {
             "lens_flare_location": "random",
             "lens_flare_color": "random",
@@ -527,7 +530,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "moire_density": (15, 20),
             "moire_blend_method": "normal",
             "moire_blend_alpha": 0.1,
-            "numba_jit": 0,
+            "numba_jit": 1,  # 0 causes 'get_call_template' crash in augraphy 8.2.6
             "p": 0.9,
         },
     },
@@ -568,7 +571,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "dot_matrix_median_kernel_value_range": (128, 255),
             "dot_matrix_gaussian_kernel_value_range": (1, 3),
             "dot_matrix_rotate_value_range": (0, 360),
-            "numba_jit": 0,
+            "numba_jit": 1,  # 0 causes 'get_call_template' crash in augraphy 8.2.6
             "p": 0.9,
         },
     },
@@ -627,11 +630,15 @@ def get_phase_augmentations(phase: str) -> dict[str, dict]:
 
 
 def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
-    """Apply a single augmentation by catalogue name.
+    """Apply a single augmentation by catalogue name, bypassing the AugraphyPipeline.
+
+    Calling augmentations directly (not via AugraphyPipeline) prevents the
+    pipeline from compositing the ink layer onto a white paper background
+    (overlay_alpha=0.3), which otherwise washes out / lightens every effect.
 
     Args:
         aug_name: Key in CATALOGUE (e.g. "InkBleed").
-        image: PIL Image or numpy array.
+        image: PIL Image or numpy array (RGB).
         params: Override default_params. If None, uses CATALOGUE defaults.
 
     Returns:
@@ -643,11 +650,19 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
     """
     import numpy as np
     from PIL import Image as PILImage
-    from augraphy import AugraphyPipeline
     import augraphy.augmentations as aug_module
 
     entry = CATALOGUE[aug_name]
-    effective_params = {**entry["default_params"], **(params or {})}
+    if entry.get("disabled"):
+        raise ValueError(f"Augmentation '{aug_name}' is disabled due to a known crash in augraphy 8.2.6.")
+
+    # Scribbles uses matplotlib.font_manager inside its __call__ but does not
+    # import the submodule itself — pre-import it here to avoid AttributeError.
+    if aug_name == "Scribbles":
+        import matplotlib.font_manager  # noqa: F401
+
+    # Always force p=1.0 so the augmentation is guaranteed to apply
+    effective_params = {**entry["default_params"], **(params or {}), "p": 1.0}
 
     aug_class = getattr(aug_module, aug_name)
     aug_instance = aug_class(**effective_params)
@@ -655,11 +670,10 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
     input_is_pil = isinstance(image, PILImage.Image)
     arr = np.array(image.convert("RGB")) if input_is_pil else image
 
-    phase = entry["phase"]
-    pipeline = AugraphyPipeline(
-        ink_phase=[aug_instance] if phase == "ink" else [],
-        paper_phase=[aug_instance] if phase == "paper" else [],
-        post_phase=[aug_instance] if phase == "post" else [],
-    )
-    result = pipeline(arr)
+    # Call the augmentation directly — no pipeline, no paper composite, no overlay
+    result = aug_instance(arr)
+
+    if not isinstance(result, np.ndarray):
+        result = np.array(result)
+
     return PILImage.fromarray(result) if input_is_pil else result

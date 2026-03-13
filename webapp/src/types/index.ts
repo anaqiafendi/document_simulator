@@ -82,6 +82,29 @@ export interface AugmentResult {
   metadata: AugmentMetadata
 }
 
+export interface CatalogueEntry {
+  name: string
+  display_name: string
+  phase: 'ink' | 'paper' | 'post'
+  description: string
+  slow: boolean
+  default_params: Record<string, unknown>
+}
+
+export interface CatalogueAugmentResult {
+  original_b64: string
+  augmented_b64: string
+  aug_name: string
+  display_name: string
+  phase: string
+}
+
+export interface PipelineResult {
+  original_b64: string
+  augmented_b64: string
+  applied: string[]
+}
+
 // ── OCR ──────────────────────────────────────────────────────────────────────
 
 export interface OcrResult {
