@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DATA_DIR=/app/data
+      - OUTPUT_DIR=/app/output
+    restart: unless-stopped

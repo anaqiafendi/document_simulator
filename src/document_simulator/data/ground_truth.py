@@ -9,12 +9,28 @@ from pydantic import BaseModel, field_validator
 
 
 class TextRegion(BaseModel):
-    """A single detected text region with bounding box."""
+    """A single detected text region with bounding box and full synthesis metadata."""
 
     # Quadrilateral: [[x1,y1], [x2,y2], [x3,y3], [x4,y4]]
     box: List[List[float]]
     text: str
     confidence: float = 1.0
+
+    # Multi-page location
+    page: int = 0                  # 0-indexed PDF page this region was rendered onto
+
+    # Zone identity
+    label: str = ""                # human-readable zone label (e.g. "Signature", "Date")
+    faker_provider: str = ""       # data category used (e.g. "name", "address", "date_of_birth")
+    respondent_id: str = ""        # writing-style group identity
+    field_type_id: str = ""        # field-type profile within the respondent
+
+    # Rendering style (enough to reconstruct or classify the visual appearance)
+    font_family: str = ""          # e.g. "sans-serif", "handwriting"
+    font_size: int = 0             # resolved size in document pixels
+    font_color: str = ""           # CSS hex colour, e.g. "#000000"
+    alignment: str = "left"        # "left" | "center" | "right"
+    fill_style: str = "typed"      # "typed" | "form-fill" | "handwritten-font" | "stamp"
 
     @field_validator("box")
     @classmethod
@@ -40,6 +56,11 @@ class GroundTruth(BaseModel):
     image_path: str
     text: str
     regions: List[TextRegion] = []
+
+    # Document-level provenance
+    synthetic: bool = True         # always True for documents produced by this generator
+    seed: Optional[int] = None     # random seed — use to reproduce this exact document
+    generation_timestamp: Optional[str] = None  # ISO-8601 UTC timestamp of generation
 
     @property
     def full_text(self) -> str:

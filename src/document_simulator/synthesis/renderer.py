@@ -58,6 +58,10 @@ class StyleResolver:
         return self._cache[key]
 
 
+# Shear factor used when simulating italic via affine transform
+_ITALIC_SHEAR = 0.25
+
+
 class ZoneRenderer:
     """Draws text onto a PIL canvas for a given zone with resolved style."""
 
@@ -104,6 +108,48 @@ class ZoneRenderer:
         return x, y
 
     @staticmethod
+    def _render_italic_text(
+        canvas: Image.Image,
+        text: str,
+        position: tuple[float, float],
+        font: object,
+        color: tuple,
+        draw: ImageDraw.ImageDraw,
+    ) -> None:
+        """Render italic text by drawing to a temporary RGBA layer then shearing it.
+
+        The sheared layer is then composited onto the canvas in-place via
+        ``Image.alpha_composite``.  If anything goes wrong the text is drawn
+        normally without shearing.
+        """
+        try:
+            w, h = canvas.size
+            # Draw onto a transparent temp image the same size as the canvas
+            tmp = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+            tmp_draw = ImageDraw.Draw(tmp)
+            tmp_draw.text(position, text, font=font, fill=(*color, 255) if len(color) == 3 else color)
+
+            # Affine shear on x-axis: x' = x + shear * y, y' = y
+            # PIL AFFINE transform maps OUTPUT pixel (x,y) to INPUT pixel via
+            # (a*x + b*y + c, d*x + e*y + f), so shear in the forward direction
+            # means a=1, b=-shear, c=shear*h (approx), d=0, e=1, f=0.
+            shear = _ITALIC_SHEAR
+            affine = (1, -shear, shear * h * 0.5, 0, 1, 0)
+            sheared = tmp.transform((w, h), Image.AFFINE, affine, resample=Image.BILINEAR)
+
+            # Composite onto the canvas (canvas must be RGBA for alpha_composite)
+            if canvas.mode == "RGBA":
+                canvas.alpha_composite(sheared)
+            else:
+                # Convert, composite, convert back
+                base = canvas.convert("RGBA")
+                base.alpha_composite(sheared)
+                canvas.paste(base.convert(canvas.mode))
+        except Exception:
+            # Fallback: draw without shear
+            draw.text(position, text, font=font, fill=color)
+
+    @staticmethod
     def draw(
         canvas: Image.Image,
         text: str,
@@ -114,17 +160,27 @@ class ZoneRenderer:
         """Draw *text* onto a copy of *canvas* and return the new image.
 
         The original *canvas* is never mutated.
+
+        Bold is simulated via ``stroke_width=1`` when no bold TTF variant is
+        available.  Italic is simulated via affine shear when no italic TTF
+        variant is available.  Alignment (left/center/right) adjusts the x
+        starting position based on measured text width.
         """
         result = canvas.copy()
         draw = ImageDraw.Draw(result)
 
         rng = random.Random(hash((seed, zone.zone_id)) & 0xFFFFFFFF)
 
-        # Resolve font
-        font = FontResolver.resolve(style.font_family, size=style.font_size)
+        # Resolve font — pass bold/italic so FontResolver can pick a variant TTF
+        font = FontResolver.resolve(
+            style.font_family,
+            size=style.font_size,
+            bold=style.bold,
+            italic=style.italic,
+        )
 
-        # Jitter position
-        x, y = ZoneRenderer._apply_jitter(zone.box, style.jitter_x, style.jitter_y, rng)
+        # Jitter position (x used only for "left" alignment)
+        x_jittered, y = ZoneRenderer._apply_jitter(zone.box, style.jitter_x, style.jitter_y, rng)
 
         # Parse colour
         try:
@@ -137,7 +193,82 @@ class ZoneRenderer:
         if style.fill_style == "stamp":
             display_text = text.upper()
 
-        # Draw text
-        draw.text((x, y), display_text, font=font, fill=color)
+        # --- Alignment ---
+        x1 = zone.box[0][0]
+        x2 = zone.box[2][0]
+        alignment = getattr(zone, "alignment", "left")
+
+        if alignment == "center":
+            try:
+                text_width = draw.textlength(display_text, font=font)
+            except Exception:
+                text_width = 0.0
+            x = (x1 + x2) / 2 - text_width / 2
+        elif alignment == "right":
+            try:
+                text_width = draw.textlength(display_text, font=font)
+            except Exception:
+                text_width = 0.0
+            right_margin = 4
+            x = x2 - text_width - right_margin
+        else:
+            # "left" — use jittered x position
+            x = x_jittered
+
+        position = (x, y)
+
+        stroke_width = 1 if style.bold else 0
+
+        # --- Per-character rendering for baseline_wander / char_spacing_jitter ---
+        # Only engaged when at least one of these is non-zero; falls back to the
+        # fast single-call path otherwise.  Italic affine-shear is skipped in this
+        # path for simplicity — the font variant (if available) handles italics.
+        use_char_draw = (style.baseline_wander > 0 or style.char_spacing_jitter > 0) and not style.italic
+
+        if use_char_draw:
+            cursor_x = float(x)
+            baseline_y = float(y)
+            wander_y = 0.0
+            for ch in display_text:
+                try:
+                    ch_w = draw.textlength(ch, font=font)
+                except Exception:
+                    ch_w = style.font_size * 0.55
+
+                # Baseline wander: smooth random walk, clamped to ±40% of font size
+                if style.baseline_wander > 0:
+                    delta = rng.gauss(0, style.baseline_wander * style.font_size * 0.3)
+                    limit = style.font_size * 0.4
+                    wander_y = max(-limit, min(limit, wander_y + delta))
+
+                ch_pos = (cursor_x, baseline_y + wander_y)
+                if style.bold:
+                    draw.text(ch_pos, ch, font=font, fill=color,
+                              stroke_width=stroke_width, stroke_fill=color)
+                else:
+                    draw.text(ch_pos, ch, font=font, fill=color)
+
+                # Char spacing jitter: Gaussian offset on the advance width
+                if style.char_spacing_jitter > 0:
+                    spacing_delta = rng.gauss(0, style.char_spacing_jitter * style.font_size * 0.15)
+                else:
+                    spacing_delta = 0.0
+                cursor_x += ch_w + spacing_delta
+
+        # --- Italic rendering (affine-shear path) ---
+        elif style.italic:
+            ZoneRenderer._render_italic_text(result, display_text, position, font, color, draw)
+            if style.bold:
+                draw2 = ImageDraw.Draw(result)
+                draw2.text(position, display_text, font=font, fill=color,
+                           stroke_width=stroke_width, stroke_fill=color)
+
+        # --- Normal path ---
+        else:
+            if style.bold:
+                draw.text(position, display_text, font=font, fill=color,
+                          stroke_width=stroke_width, stroke_fill=color)
+            else:
+                draw.text(position, display_text, font=font, fill=color)
 
         return result

@@ -18,6 +18,16 @@ KEY_RL_MODEL_PATH = "rl_model_path"
 KEY_BATCH_INPUTS = "batch_input_images"
 KEY_BATCH_RESULTS = "batch_results"
 KEY_BATCH_ELAPSED = "batch_elapsed"
+KEY_BATCH_MODE = "batch_mode"
+KEY_BATCH_COPIES_PER_TPL = "batch_copies_per_tpl"
+KEY_BATCH_TOTAL_OUTPUTS = "batch_total_outputs"
+KEY_BATCH_SEED = "batch_seed"
+
+# Catalogue mode keys
+KEY_AUG_MODE = "aug_mode"
+KEY_AUG_CATALOGUE_ENABLED = "aug_catalogue_enabled"
+KEY_AUG_CATALOGUE_PARAMS = "aug_catalogue_params"
+KEY_AUG_CATALOGUE_THUMBNAILS = "aug_catalogue_thumbnails"
 
 _ALL_KEYS = [
     KEY_LAST_UPLOADED_IMAGE,
@@ -31,6 +41,14 @@ _ALL_KEYS = [
     KEY_BATCH_INPUTS,
     KEY_BATCH_RESULTS,
     KEY_BATCH_ELAPSED,
+    KEY_BATCH_MODE,
+    KEY_BATCH_COPIES_PER_TPL,
+    KEY_BATCH_TOTAL_OUTPUTS,
+    KEY_BATCH_SEED,
+    KEY_AUG_MODE,
+    KEY_AUG_CATALOGUE_ENABLED,
+    KEY_AUG_CATALOGUE_PARAMS,
+    KEY_AUG_CATALOGUE_THUMBNAILS,
 ]
 
 
@@ -115,6 +133,65 @@ class SessionStateManager:
 
     def set_batch_elapsed(self, seconds: float) -> None:
         st.session_state[KEY_BATCH_ELAPSED] = seconds
+
+    def get_batch_mode(self) -> str:
+        """Return current batch mode: 'single', 'per_template', or 'random_sample'."""
+        return st.session_state.get(KEY_BATCH_MODE, "single")
+
+    def set_batch_mode(self, mode: str) -> None:
+        """Set batch mode. Must be 'single', 'per_template', or 'random_sample'."""
+        st.session_state[KEY_BATCH_MODE] = mode
+
+    def get_batch_copies_per_tpl(self) -> int:
+        return int(st.session_state.get(KEY_BATCH_COPIES_PER_TPL, 3))
+
+    def set_batch_copies_per_tpl(self, copies: int) -> None:
+        st.session_state[KEY_BATCH_COPIES_PER_TPL] = copies
+
+    def get_batch_total_outputs(self) -> int:
+        return int(st.session_state.get(KEY_BATCH_TOTAL_OUTPUTS, 20))
+
+    def set_batch_total_outputs(self, total: int) -> None:
+        st.session_state[KEY_BATCH_TOTAL_OUTPUTS] = total
+
+    def get_batch_seed(self) -> Optional[int]:
+        """Return the random seed, or None if unseeded (seed stored as 0 = unseeded)."""
+        raw = st.session_state.get(KEY_BATCH_SEED, 0)
+        return int(raw) if raw else None
+
+    def set_batch_seed(self, seed: Optional[int]) -> None:
+        st.session_state[KEY_BATCH_SEED] = seed or 0
+
+    # ── Catalogue mode ────────────────────────────────────────────────────────
+
+    def get_aug_mode(self) -> str:
+        """Return current augmentation mode: "preset" or "catalogue"."""
+        return st.session_state.get(KEY_AUG_MODE, "preset")
+
+    def set_aug_mode(self, mode: str) -> None:
+        """Set augmentation mode. Must be "preset" or "catalogue"."""
+        st.session_state[KEY_AUG_MODE] = mode
+
+    def get_aug_catalogue_enabled(self) -> Dict[str, bool]:
+        """Return dict mapping aug_name -> enabled (bool)."""
+        return st.session_state.get(KEY_AUG_CATALOGUE_ENABLED, {})
+
+    def set_aug_catalogue_enabled(self, enabled: Dict[str, bool]) -> None:
+        st.session_state[KEY_AUG_CATALOGUE_ENABLED] = enabled
+
+    def get_aug_catalogue_params(self) -> Dict[str, Dict]:
+        """Return dict mapping aug_name -> {param_key: value}."""
+        return st.session_state.get(KEY_AUG_CATALOGUE_PARAMS, {})
+
+    def set_aug_catalogue_params(self, params: Dict[str, Dict]) -> None:
+        st.session_state[KEY_AUG_CATALOGUE_PARAMS] = params
+
+    def get_aug_catalogue_thumbnails(self) -> Dict[str, bytes]:
+        """Return dict mapping aug_name -> PNG bytes of cached thumbnail."""
+        return st.session_state.get(KEY_AUG_CATALOGUE_THUMBNAILS, {})
+
+    def set_aug_catalogue_thumbnails(self, thumbnails: Dict[str, bytes]) -> None:
+        st.session_state[KEY_AUG_CATALOGUE_THUMBNAILS] = thumbnails
 
     # ── Utility ───────────────────────────────────────────────────────────────
 

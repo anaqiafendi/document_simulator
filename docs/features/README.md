@@ -33,6 +33,23 @@ Each file follows [`feature_template.md`](feature_template.md) and links to the 
 | #16 | [Batch Processing Page](feature_ui_batch_processing.md) | `ui.pages.03_batch_processing` | complete |
 | #17 | [Evaluation Dashboard](feature_ui_evaluation_dashboard.md) | `ui.pages.04_evaluation` | complete |
 | #18 | [RL Training Page](feature_ui_rl_training.md) | `ui.pages.05_rl_training` | complete |
+| #21 | [Augmentation Lab Catalogue](feature_augmentation_lab_catalogue.md) | `augmentation.catalogue` + `ui.pages.01_augmentation_lab` | done |
+| #22 | [Multi-Template Batch Augmentation](feature_multi_template_batch.md) | `augmentation.batch` + `ui.pages.03_batch_processing` | done |
+| #23 | [Augraphy Full Catalogue (51 Classes)](feature_augraphy_full_catalogue.md) | `augmentation.catalogue` + `ui.pages.01_augmentation_lab` | done |
+
+## Synthesis
+
+| # | Feature | Module | Status |
+|---|---------|--------|--------|
+| #19 | [Synthetic Document Generator](feature_synthetic_document_generator.md) | `synthesis.*` | planned |
+| #20 | [React Zone Editor UI](feature_js_zone_editor_ui.md) | `api.*` + `webapp/` | complete |
+| #25 | [Migrate Streamlit Pages to React SPA](feature_migrate_streamlit_to_react.md) | `api.routers.*` + `webapp/src/pages/*` | complete |
+
+## Deployment
+
+| # | Feature | Module | Status |
+|---|---------|--------|--------|
+| #24 | [Free Hosting Deployment](feature_free_hosting_deployment.md) | `Dockerfile` + `.github/workflows/` | complete |
 
 ---
 
