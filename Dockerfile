@@ -32,9 +32,6 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
 
 WORKDIR /app
 
-# Copy fonts (bundled OFL TTFs used by synthesis renderer)
-COPY fonts/ ./fonts/
-
 # Copy dependency manifests first for layer caching
 COPY pyproject.toml uv.lock ./
 
