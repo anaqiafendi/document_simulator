@@ -3,8 +3,10 @@ import {
   augmentImage, listPresets,
   listCatalogue, augmentCatalogue, previewCatalogue, applyPipeline,
   listAugSamples, loadAugSample,
+  startCatalogueBatch, getCatalogueBatchStatus, catalogueBatchDownloadUrl,
 } from '../api/client'
 import type { AugmentResult, CatalogueEntry, CatalogueAugmentResult, PipelineResult } from '../types'
+import type { CatalogueBatchStatus } from '../api/client'
 
 // ── Shared: load a sample template (augmentation_lab dir) and convert to File ─
 
@@ -923,7 +925,236 @@ function CatalogueTab() {
           })}
         </div>
       )}
+
+      {/* ── Batch Run section ─────────────────────────────────────────────── */}
+      {enabled.size > 0 && (
+        <BatchSection
+          augNames={entries.filter(e => enabled.has(e.name)).map(e => e.name)}
+          augParams={augParams}
+          pipelineLabel={entries.filter(e => enabled.has(e.name)).map(e => e.display_name).join(' → ')}
+        />
+      )}
     </>
+  )
+}
+
+// ── Batch Run section (catalogue pipeline) ───────────────────────────────────
+
+function BatchSection({
+  augNames,
+  augParams,
+  pipelineLabel,
+}: {
+  augNames: string[]
+  augParams: Record<string, Record<string, unknown>>
+  pipelineLabel: string
+}) {
+  const [open, setOpen] = useState(false)
+  const [batchFiles, setBatchFiles] = useState<File[]>([])
+  const [mode, setMode] = useState<'per_template' | 'random_sample'>('per_template')
+  const [copies, setCopies] = useState(3)
+  const [total, setTotal] = useState(20)
+  const [seed, setSeed] = useState(0)
+  const [jobId, setJobId] = useState<string | null>(null)
+  const [status, setStatus] = useState<CatalogueBatchStatus | null>(null)
+  const [running, setRunning] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const pollRef = useRef<ReturnType<typeof setInterval> | null>(null)
+
+  const effTotal = mode === 'per_template' ? batchFiles.length * copies : total
+
+  const stopPoll = () => { if (pollRef.current) { clearInterval(pollRef.current); pollRef.current = null } }
+
+  useEffect(() => () => stopPoll(), [])
+
+  const handleRun = async () => {
+    if (!batchFiles.length) return
+    setRunning(true); setError(null); setStatus(null)
+    try {
+      const id = await startCatalogueBatch(batchFiles, augNames, augParams, mode, copies, total, seed)
+      setJobId(id)
+      stopPoll()
+      pollRef.current = setInterval(async () => {
+        const s = await getCatalogueBatchStatus(id).catch(() => null)
+        if (!s) return
+        setStatus(s)
+        if (s.status === 'done' || s.status === 'failed') {
+          stopPoll()
+          setRunning(false)
+          if (s.status === 'failed') setError(s.error ?? 'Batch failed')
+        }
+      }, 1500)
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : 'Unknown error')
+      setRunning(false)
+    }
+  }
+
+  return (
+    <div style={{ marginTop: 20 }}>
+      <button
+        onClick={() => setOpen(v => !v)}
+        style={{
+          display: 'flex', alignItems: 'center', gap: 8, width: '100%',
+          padding: '12px 16px', borderRadius: 6, border: '1px solid #dde',
+          background: open ? '#f0f4ff' : '#fafafa', cursor: 'pointer',
+          fontSize: 14, fontWeight: 600, color: '#4f6ef7', textAlign: 'left',
+        }}
+      >
+        <span style={{ fontSize: 16 }}>{open ? '▼' : '▶'}</span>
+        Batch Run with this pipeline ({augNames.length} augmentation{augNames.length !== 1 ? 's' : ''})
+      </button>
+
+      {open && (
+        <div style={{ ...card, marginTop: 0, borderTop: 'none', borderRadius: '0 0 8px 8px' }}>
+          <div style={{ fontSize: 12, color: '#888', marginBottom: 12 }}>
+            Pipeline: <span style={{ fontWeight: 600, color: '#555' }}>{pipelineLabel}</span>
+          </div>
+          <p style={{ fontSize: 13, color: '#555', margin: '0 0 12px' }}>
+            Upload N input templates. Apply the catalogue pipeline above to produce M augmented outputs.
+          </p>
+
+          {/* Multi-file upload */}
+          <div style={{ marginBottom: 12 }}>
+            <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>
+              Input templates (N documents)
+            </label>
+            <input
+              type="file" multiple accept=".png,.jpg,.jpeg,.bmp,.tiff"
+              onChange={e => setBatchFiles(Array.from(e.target.files ?? []))}
+              style={{ fontSize: 13 }}
+            />
+            {batchFiles.length > 0 && (
+              <div style={{ fontSize: 12, color: '#555', marginTop: 4 }}>
+                {batchFiles.length} template{batchFiles.length !== 1 ? 's' : ''} loaded
+              </div>
+            )}
+          </div>
+
+          {/* Mode selector */}
+          <div style={{ marginBottom: 12 }}>
+            <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 6 }}>Output mode</label>
+            <div style={{ display: 'flex', gap: 12 }}>
+              {([
+                ['per_template', 'N×M — copies per template'],
+                ['random_sample', 'M-total — random sample from N inputs'],
+              ] as const).map(([val, label]) => (
+                <label key={val} style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer', fontSize: 13 }}>
+                  <input type="radio" value={val} checked={mode === val} onChange={() => setMode(val)} />
+                  {label}
+                </label>
+              ))}
+            </div>
+          </div>
+
+          {/* Copies / total */}
+          {mode === 'per_template' ? (
+            <div style={{ marginBottom: 12, display: 'flex', alignItems: 'center', gap: 12 }}>
+              <label style={{ fontSize: 13, fontWeight: 600 }}>Copies per template (M)</label>
+              <input type="number" min={1} max={200} value={copies}
+                onChange={e => setCopies(Math.max(1, parseInt(e.target.value) || 1))}
+                style={{ width: 80, fontSize: 13, padding: '4px 8px', borderRadius: 4, border: '1px solid #ccc' }} />
+              <span style={{ fontSize: 12, color: '#888' }}>→ {effTotal} total outputs</span>
+            </div>
+          ) : (
+            <div style={{ marginBottom: 12, display: 'flex', alignItems: 'center', gap: 12 }}>
+              <label style={{ fontSize: 13, fontWeight: 600 }}>Total outputs (M)</label>
+              <input type="number" min={1} max={1000} value={total}
+                onChange={e => setTotal(Math.max(1, parseInt(e.target.value) || 1))}
+                style={{ width: 100, fontSize: 13, padding: '4px 8px', borderRadius: 4, border: '1px solid #ccc' }} />
+              {batchFiles.length > 0 && (
+                <span style={{ fontSize: 12, color: '#888' }}>
+                  sampled from {batchFiles.length} template{batchFiles.length !== 1 ? 's' : ''}
+                </span>
+              )}
+            </div>
+          )}
+
+          {/* Seed */}
+          <div style={{ marginBottom: 16, display: 'flex', alignItems: 'center', gap: 12 }}>
+            <label style={{ fontSize: 13, fontWeight: 600 }}>Random seed</label>
+            <input type="number" min={0} value={seed}
+              onChange={e => setSeed(Math.max(0, parseInt(e.target.value) || 0))}
+              style={{ width: 100, fontSize: 13, padding: '4px 8px', borderRadius: 4, border: '1px solid #ccc' }} />
+            <span style={{ fontSize: 12, color: '#888' }}>0 = unseeded</span>
+          </div>
+
+          {effTotal > 50 && (
+            <div style={{ marginBottom: 12, padding: '8px 12px', background: '#fff8e1', borderRadius: 5, fontSize: 12, color: '#8a6d00', border: '1px solid #ffe082' }}>
+              ⚠ Generating {effTotal} images may take a while. Consider a smaller number first.
+            </div>
+          )}
+
+          {/* Run button */}
+          <button
+            style={running || !batchFiles.length ? btnDisabled : btn}
+            disabled={running || !batchFiles.length}
+            onClick={handleRun}
+          >
+            {running ? `Generating… (${Math.round((status?.progress ?? 0) * 100)}%)` : `Run Batch (${effTotal} outputs)`}
+          </button>
+
+          {/* Progress bar */}
+          {running && (
+            <div style={{ marginTop: 12 }}>
+              <div style={{ height: 6, background: '#eee', borderRadius: 3, overflow: 'hidden' }}>
+                <div style={{
+                  height: '100%', background: '#4f6ef7', borderRadius: 3,
+                  width: `${Math.round((status?.progress ?? 0) * 100)}%`,
+                  transition: 'width 0.4s ease',
+                }} />
+              </div>
+              <div style={{ fontSize: 12, color: '#888', marginTop: 4 }}>
+                {status ? `${Math.round(status.progress * 100)}% — ${status.status}` : 'Starting…'}
+              </div>
+            </div>
+          )}
+
+          {error && (
+            <div style={{ marginTop: 12, color: '#c0392b', background: '#fdecea', padding: '8px 12px', borderRadius: 5, fontSize: 13 }}>
+              {error}
+            </div>
+          )}
+
+          {/* Results */}
+          {status?.status === 'done' && (
+            <div style={{ marginTop: 16 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
+                <span style={{ fontSize: 14, fontWeight: 600, color: '#27ae60' }}>
+                  ✓ Generated {status.n_outputs} output{(status.n_outputs ?? 0) !== 1 ? 's' : ''}
+                </span>
+                <a
+                  href={catalogueBatchDownloadUrl(jobId!)}
+                  download
+                  style={{ ...btn, textDecoration: 'none', display: 'inline-block', fontSize: 13 }}
+                >
+                  ⬇ Download all as ZIP
+                </a>
+              </div>
+
+              {/* Thumbnail grid (up to 8) */}
+              {status.thumbnails_b64.length > 0 && (
+                <>
+                  <div style={{ fontSize: 12, color: '#888', marginBottom: 8 }}>
+                    Preview (first {status.thumbnails_b64.length} of {status.n_outputs})
+                  </div>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: 8 }}>
+                    {status.thumbnails_b64.map((b64, i) => (
+                      <LightboxImage
+                        key={i}
+                        src={`data:image/png;base64,${b64}`}
+                        alt={`Batch output ${i + 1}`}
+                        style={{ width: '100%', borderRadius: 4, border: '1px solid #eee', display: 'block' }}
+                      />
+                    ))}
+                  </div>
+                </>
+              )}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
   )
 }
 

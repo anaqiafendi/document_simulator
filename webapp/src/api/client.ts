@@ -155,6 +155,51 @@ export async function previewCatalogue(file: File, augName: string, paramsJson =
   return r.json()
 }
 
+export interface CatalogueBatchStatus {
+  job_id: string
+  status: 'pending' | 'running' | 'done' | 'failed'
+  progress: number
+  error: string | null
+  n_outputs: number | null
+  thumbnails_b64: string[]
+}
+
+export async function startCatalogueBatch(
+  files: File[],
+  augNames: string[],
+  allParams: Record<string, Record<string, unknown>> = {},
+  mode: 'per_template' | 'random_sample' = 'per_template',
+  copiesPerTemplate = 3,
+  totalOutputs = 20,
+  seed = 0,
+): Promise<string> {
+  const form = new FormData()
+  files.forEach(f => form.append('files', f))
+  form.append('aug_names_json', JSON.stringify(augNames))
+  form.append('all_params_json', JSON.stringify(allParams))
+  form.append('mode', mode)
+  form.append('copies_per_template', String(copiesPerTemplate))
+  form.append('total_outputs', String(totalOutputs))
+  form.append('seed', String(seed))
+  const r = await fetch(`${BASE}/api/augmentation/catalogue/batch`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Catalogue batch failed: ${detail.detail ?? r.status}`)
+  }
+  const data = await r.json()
+  return data.job_id as string
+}
+
+export async function getCatalogueBatchStatus(jobId: string): Promise<CatalogueBatchStatus> {
+  const r = await fetch(`${BASE}/api/augmentation/catalogue/batch/jobs/${jobId}`)
+  if (!r.ok) throw new Error(`Catalogue batch status failed: ${r.status}`)
+  return r.json()
+}
+
+export function catalogueBatchDownloadUrl(jobId: string): string {
+  return `${BASE}/api/augmentation/catalogue/batch/jobs/${jobId}/download`
+}
+
 export async function applyPipeline(
   file: File,
   augNames: string[],

@@ -8,15 +8,19 @@ import functools
 import hashlib
 import io
 import json
+import random
+import zipfile
 from collections import OrderedDict
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, List, Optional
 
 import numpy as np
-from fastapi import APIRouter, Form, HTTPException, UploadFile
-from fastapi.responses import FileResponse
+from fastapi import APIRouter, BackgroundTasks, Form, HTTPException, UploadFile
+from fastapi.responses import FileResponse, StreamingResponse
 from loguru import logger
 from PIL import Image
+
+from document_simulator.api.jobs import create_job, get_job, update_job
 
 router = APIRouter(prefix="/api/augmentation", tags=["augmentation"])
 
@@ -292,6 +296,190 @@ async def apply_pipeline(
         "augmented_b64": _pil_to_png_b64(current),
         "applied": applied,
     }
+
+
+
+# ── Catalogue batch job ───────────────────────────────────────────────────────
+
+def _run_catalogue_batch_job(
+    job_id: str,
+    image_bytes_list: list[bytes],
+    labels: list[str],
+    aug_names: list[str],
+    all_params: dict[str, dict],
+    mode: str,
+    copies_per_template: int,
+    total_outputs: int,
+    seed: Optional[int],
+) -> None:
+    """Background task: apply a catalogue pipeline to N templates, write ZIP."""
+    from document_simulator.augmentation.catalogue import apply_single
+
+    try:
+        update_job(job_id, status="running")
+        images = [Image.open(io.BytesIO(b)).convert("RGB") for b in image_bytes_list]
+
+        # Build flat list of (image, stem) pairs
+        pairs: list[tuple] = []
+        if mode == "per_template":
+            for img, stem in zip(images, labels):
+                for _ in range(copies_per_template):
+                    pairs.append((img, stem))
+        else:  # random_sample
+            rng = random.Random(seed)
+            indices = rng.choices(range(len(images)), k=total_outputs)
+            pairs = [(images[i], labels[i]) for i in indices]
+
+        n_total = len(pairs)
+        results: list[tuple] = []
+        thumbnails_b64: list[str] = []
+
+        for i, (img, stem) in enumerate(pairs):
+            current = img.copy()
+            for aug_name in aug_names:
+                params_override = _lists_to_tuples(all_params.get(aug_name, {}))
+                try:
+                    result_raw = apply_single(aug_name, current, params_override or None)
+                    current = Image.fromarray(np.array(result_raw)) if not isinstance(result_raw, Image.Image) else result_raw
+                except Exception as exc:
+                    logger.warning(f"Catalogue batch: skipping {aug_name} item {i}: {exc}")
+            results.append((current, stem))
+            # Collect first 8 thumbnails at 256px for preview
+            if len(thumbnails_b64) < 8:
+                thumb = _resize_for_preview(current, max_px=256)
+                thumbnails_b64.append(_pil_to_png_b64(thumb))
+            update_job(job_id, progress=(i + 1) / max(n_total, 1))
+
+        # Build ZIP
+        stem_counter: dict = {}
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+            for aug_img, stem in results:
+                count = stem_counter.get(stem, 0)
+                stem_counter[stem] = count + 1
+                fname = f"{stem}_{count:03d}.png"
+                img_buf = io.BytesIO()
+                aug_img.save(img_buf, format="PNG")
+                zf.writestr(fname, img_buf.getvalue())
+
+        buf.seek(0)
+        update_job(
+            job_id,
+            status="done",
+            progress=1.0,
+            result_bytes=buf.read(),
+            thumbnails_b64=thumbnails_b64,
+            n_outputs=len(results),
+        )
+        logger.info(f"Catalogue batch job {job_id}: {len(results)} images done")
+
+    except Exception as exc:
+        logger.error(f"Catalogue batch job {job_id} failed: {exc}", exc_info=True)
+        update_job(job_id, status="failed", error=str(exc))
+
+
+@router.post("/catalogue/batch", status_code=202)
+async def start_catalogue_batch(
+    background_tasks: BackgroundTasks,
+    files: List[UploadFile],
+    aug_names_json: Annotated[str, Form()],
+    all_params_json: Annotated[str, Form()] = "{}",
+    mode: Annotated[str, Form()] = "per_template",
+    copies_per_template: Annotated[int, Form()] = 3,
+    total_outputs: Annotated[int, Form()] = 20,
+    seed: Annotated[int, Form()] = 0,
+) -> dict:
+    """Start a background batch job using the selected catalogue pipeline.
+
+    Args:
+        files: Input template images (N documents).
+        aug_names_json: JSON array of catalogue aug names in pipeline order.
+        all_params_json: JSON object of per-aug param overrides.
+        mode: ``per_template`` (N×M) or ``random_sample`` (M-total).
+        copies_per_template: Copies per template in ``per_template`` mode.
+        total_outputs: Total outputs in ``random_sample`` mode.
+        seed: Random seed (0 = unseeded).
+
+    Returns:
+        ``{"job_id": str}``
+    """
+    from document_simulator.augmentation.catalogue import CATALOGUE
+
+    try:
+        aug_names: list[str] = json.loads(aug_names_json)
+    except (json.JSONDecodeError, ValueError):
+        raise HTTPException(status_code=422, detail="aug_names_json must be a JSON array.")
+
+    unknown = [n for n in aug_names if n not in CATALOGUE]
+    if unknown:
+        raise HTTPException(status_code=422, detail=f"Unknown augmentation(s): {unknown}")
+
+    if mode not in ("per_template", "random_sample"):
+        raise HTTPException(status_code=422, detail=f"Invalid mode '{mode}'.")
+    if not files:
+        raise HTTPException(status_code=422, detail="At least one file is required.")
+
+    try:
+        all_params: dict = json.loads(all_params_json) if all_params_json else {}
+    except json.JSONDecodeError:
+        all_params = {}
+
+    image_bytes_list = []
+    labels = []
+    for f in files:
+        data = await f.read()
+        if not data:
+            raise HTTPException(status_code=422, detail=f"File '{f.filename}' is empty.")
+        image_bytes_list.append(data)
+        name = f.filename or f"file_{len(labels)}"
+        labels.append(name.rsplit(".", 1)[0] if "." in name else name)
+
+    job_id = create_job()
+    background_tasks.add_task(
+        _run_catalogue_batch_job,
+        job_id,
+        image_bytes_list,
+        labels,
+        aug_names,
+        all_params,
+        mode,
+        copies_per_template,
+        total_outputs,
+        seed if seed > 0 else None,
+    )
+    logger.info(f"Catalogue batch job {job_id} queued: {len(files)} files mode={mode!r}")
+    return {"job_id": job_id}
+
+
+@router.get("/catalogue/batch/jobs/{job_id}")
+def get_catalogue_batch_status(job_id: str) -> dict:
+    """Return status of a catalogue batch job, including preview thumbnails when done."""
+    job = get_job(job_id)
+    if job is None:
+        raise HTTPException(status_code=404, detail=f"Job '{job_id}' not found.")
+    return {
+        "job_id": job.job_id,
+        "status": job.status,
+        "progress": job.progress,
+        "error": job.error,
+        "n_outputs": getattr(job, "n_outputs", None),
+        "thumbnails_b64": getattr(job, "thumbnails_b64", []),
+    }
+
+
+@router.get("/catalogue/batch/jobs/{job_id}/download")
+def download_catalogue_batch(job_id: str) -> StreamingResponse:
+    """Download the ZIP archive for a completed catalogue batch job."""
+    job = get_job(job_id)
+    if job is None:
+        raise HTTPException(status_code=404, detail=f"Job '{job_id}' not found.")
+    if job.status != "done" or not job.result_bytes:
+        raise HTTPException(status_code=409, detail="Job not yet complete.")
+    return StreamingResponse(
+        io.BytesIO(job.result_bytes),
+        media_type="application/zip",
+        headers={"Content-Disposition": f'attachment; filename="batch_catalogue_{job_id[:8]}.zip"'},
+    )
 
 
 # ── Presets ───────────────────────────────────────────────────────────────────
