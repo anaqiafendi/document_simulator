@@ -87,6 +87,83 @@ const btnDisabled: React.CSSProperties = { ...btn, background: '#aaa', cursor: '
 const PHASE_COLORS: Record<string, string> = { ink: '#6c3483', paper: '#1a6648', post: '#1a3a6b' }
 const PHASE_BG: Record<string, string> = { ink: '#f5eef8', paper: '#eafaf1', post: '#eaf0fb' }
 
+// ── Dual-handle range slider ──────────────────────────────────────────────────
+
+function DualRangeSlider({
+  label, rangeMin, rangeMax, step, value, onChange,
+}: {
+  label: string
+  rangeMin: number
+  rangeMax: number
+  step: number
+  value: [number, number]
+  onChange: (v: [number, number]) => void
+}) {
+  const [lo, hi] = value
+  const fmt = (v: number) => step < 1 ? v.toFixed(2) : String(v)
+  const pct = (v: number) => ((v - rangeMin) / (rangeMax - rangeMin)) * 100
+
+  return (
+    <div style={{ marginBottom: 14 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6 }}>
+        <span style={{ fontSize: 12, fontWeight: 600, color: '#555' }}>{label}</span>
+        <span style={{ fontSize: 12, color: '#4f6ef7', fontWeight: 600 }}>{fmt(lo)} – {fmt(hi)}</span>
+      </div>
+      {/* Track container */}
+      <div style={{ position: 'relative', height: 28 }}>
+        {/* Background track */}
+        <div style={{
+          position: 'absolute', top: '50%', left: 0, right: 0,
+          height: 4, background: '#dde', borderRadius: 2, transform: 'translateY(-50%)',
+        }} />
+        {/* Filled segment */}
+        <div style={{
+          position: 'absolute', top: '50%',
+          left: `${pct(lo)}%`, width: `${pct(hi) - pct(lo)}%`,
+          height: 4, background: '#4f6ef7', borderRadius: 2, transform: 'translateY(-50%)',
+        }} />
+        {/* Min thumb (visual) */}
+        <div style={{
+          position: 'absolute', top: '50%', left: `${pct(lo)}%`,
+          width: 16, height: 16, borderRadius: '50%',
+          background: '#4f6ef7', border: '2px solid #fff',
+          boxShadow: '0 1px 4px rgba(0,0,0,0.25)',
+          transform: 'translate(-50%, -50%)', pointerEvents: 'none',
+        }} />
+        {/* Max thumb (visual) */}
+        <div style={{
+          position: 'absolute', top: '50%', left: `${pct(hi)}%`,
+          width: 16, height: 16, borderRadius: '50%',
+          background: '#4f6ef7', border: '2px solid #fff',
+          boxShadow: '0 1px 4px rgba(0,0,0,0.25)',
+          transform: 'translate(-50%, -50%)', pointerEvents: 'none',
+        }} />
+        {/* Invisible inputs for interaction */}
+        <input type="range" min={rangeMin} max={rangeMax} step={step} value={lo}
+          onChange={e => onChange([Math.min(parseFloat(e.target.value), hi - step), hi])}
+          style={{
+            position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
+            opacity: 0, cursor: 'pointer', margin: 0,
+            // Lo handle on top only when near max, so user can always grab it
+            zIndex: lo > (rangeMin + rangeMax) / 2 ? 2 : 1,
+          }}
+        />
+        <input type="range" min={rangeMin} max={rangeMax} step={step} value={hi}
+          onChange={e => onChange([lo, Math.max(parseFloat(e.target.value), lo + step)])}
+          style={{
+            position: 'absolute', top: 0, left: 0, width: '100%', height: '100%',
+            opacity: 0, cursor: 'pointer', margin: 0,
+            zIndex: lo > (rangeMin + rangeMax) / 2 ? 1 : 2,
+          }}
+        />
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color: '#aaa', marginTop: 2 }}>
+        <span>{fmt(rangeMin)}</span><span>{fmt(rangeMax)}</span>
+      </div>
+    </div>
+  )
+}
+
 // ── Parameter controls for catalogue augmentations ────────────────────────────
 
 type AugParams = Record<string, unknown>
@@ -106,19 +183,11 @@ function ParamControls({
   const RangeRow = ({ k, label, min, max, step }: { k: string; label: string; min: number; max: number; step: number }) => {
     const arr = get(k, dp[k]) as [number, number]
     return (
-      <div style={{ marginBottom: 10 }}>
-        <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 4, color: '#555' }}>{label}</div>
-        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-          <label style={{ fontSize: 11 }}>min</label>
-          <input type="range" min={min} max={max} step={step} value={arr[0]}
-            onChange={e => set(k, [parseFloat(e.target.value), arr[1]])} style={{ flex: 1 }} />
-          <span style={{ fontSize: 11, minWidth: 32 }}>{typeof arr[0] === 'number' ? arr[0].toFixed(step < 1 ? 2 : 0) : arr[0]}</span>
-          <label style={{ fontSize: 11 }}>max</label>
-          <input type="range" min={min} max={max} step={step} value={arr[1]}
-            onChange={e => set(k, [arr[0], parseFloat(e.target.value)])} style={{ flex: 1 }} />
-          <span style={{ fontSize: 11, minWidth: 32 }}>{typeof arr[1] === 'number' ? arr[1].toFixed(step < 1 ? 2 : 0) : arr[1]}</span>
-        </div>
-      </div>
+      <DualRangeSlider
+        label={label} rangeMin={min} rangeMax={max} step={step}
+        value={[Number(arr[0]), Number(arr[1])]}
+        onChange={v => set(k, v)}
+      />
     )
   }
 
