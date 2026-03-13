@@ -5,8 +5,10 @@ from __future__ import annotations
 import asyncio
 import base64
 import functools
+import hashlib
 import io
 import json
+from collections import OrderedDict
 from pathlib import Path
 from typing import Annotated
 
@@ -21,6 +23,31 @@ router = APIRouter(prefix="/api/augmentation", tags=["augmentation"])
 _PRESET_NAMES = ["light", "medium", "heavy", "default"]
 _AUG_SAMPLES_DIR = Path(__file__).resolve().parents[4] / "data" / "samples" / "augmentation_lab"
 _THUMB_SIZE = 256  # px — for per-card preview thumbnails
+
+# ── In-memory preview cache ───────────────────────────────────────────────────
+# Key: (image_sha256, aug_name, params_json) → {"original_b64": ..., "augmented_b64": ...}
+# LRU eviction: keeps at most _PREVIEW_CACHE_SIZE entries (one full set of previews ≈ 50 entries)
+_PREVIEW_CACHE_SIZE = 200
+_preview_cache: OrderedDict[tuple, dict] = OrderedDict()
+
+
+def _cache_key(image_bytes: bytes, aug_name: str, params_json: str) -> tuple:
+    sha = hashlib.sha256(image_bytes).hexdigest()[:16]
+    return (sha, aug_name, params_json)
+
+
+def _cache_get(key: tuple) -> dict | None:
+    if key in _preview_cache:
+        _preview_cache.move_to_end(key)
+        return _preview_cache[key]
+    return None
+
+
+def _cache_set(key: tuple, value: dict) -> None:
+    _preview_cache[key] = value
+    _preview_cache.move_to_end(key)
+    while len(_preview_cache) > _PREVIEW_CACHE_SIZE:
+        _preview_cache.popitem(last=False)
 
 
 # ── Sample templates for augmentation lab ────────────────────────────────────
@@ -70,6 +97,8 @@ def list_catalogue() -> dict:
 
     entries = []
     for name, info in CATALOGUE.items():
+        if info.get("disabled"):
+            continue  # skip entries with known fatal crashes
         # Serialise default_params: convert tuples to lists for JSON
         serialised_params = {}
         for k, v in info["default_params"].items():
@@ -165,6 +194,13 @@ async def preview_catalogue(
     if not contents:
         raise HTTPException(status_code=422, detail="Uploaded file is empty.")
 
+    # Check cache first — avoids re-running the augmentation for the same image+params
+    cache_key = _cache_key(contents, aug_name, params_json)
+    cached = _cache_get(cache_key)
+    if cached:
+        logger.debug(f"Preview cache hit: {aug_name!r}")
+        return cached
+
     original = _file_to_pil(file, contents)
 
     try:
@@ -182,11 +218,13 @@ async def preview_catalogue(
 
     logger.info(f"Preview: {aug_name!r} {original.width}x{original.height}px (full res)")
 
-    return {
+    response = {
         "aug_name": aug_name,
         "original_b64": _pil_to_png_b64(original),
         "augmented_b64": _pil_to_png_b64(result),
     }
+    _cache_set(cache_key, response)
+    return response
 
 
 # ── Multi-augmentation pipeline ───────────────────────────────────────────────

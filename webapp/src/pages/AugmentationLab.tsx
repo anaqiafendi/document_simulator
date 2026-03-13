@@ -509,10 +509,16 @@ function CatalogueTab() {
 
   const [showResult, setShowResult] = useState(false)
 
-  // Concurrency-limited preview queue — max 2 in-flight at a time
+  // Concurrency-limited preview queue — max 4 in-flight (thread pool backend handles it)
   const previewQueue = useRef<string[]>([])
   const activeCount = useRef(0)
-  const MAX_CONCURRENT = 2
+  const fileRef2 = useRef<File | null>(null)  // stable ref for async callbacks
+  const augParamsRef = useRef<Record<string, AugParams>>({})
+  const MAX_CONCURRENT = 4
+
+  // Keep refs in sync so async queue drains see latest values
+  useEffect(() => { fileRef2.current = file }, [file])
+  useEffect(() => { augParamsRef.current = augParams }, [augParams])
 
   // Clear thumbnails when file changes
   useEffect(() => {
@@ -544,8 +550,11 @@ function CatalogueTab() {
     })
   }
 
-  // Internal: run one preview immediately
-  const runPreview = (name: string, currentFile: File, currentParams: AugParams) => {
+  // Internal: run one preview immediately — uses stable refs for params/file
+  const runPreview = (name: string) => {
+    const currentFile = fileRef2.current
+    if (!currentFile) return
+    const currentParams = augParamsRef.current[name] ?? {}
     activeCount.current++
     setLoadingThumb(prev => new Set(prev).add(name))
     previewCatalogue(currentFile, name, JSON.stringify(currentParams))
@@ -554,37 +563,51 @@ function CatalogueTab() {
       .finally(() => {
         activeCount.current--
         setLoadingThumb(prev => { const s = new Set(prev); s.delete(name); return s })
-        // drain queue
+        // drain queue — each queued item looks up its own params via ref
         if (previewQueue.current.length > 0) {
           const next = previewQueue.current.shift()!
-          runPreview(next, currentFile, currentParams)
+          runPreview(next)
         }
       })
   }
 
   // Public: enqueue a preview (or fire immediately if slots free)
   const fetchPreview = (name: string) => {
-    if (!file) return
+    if (!fileRef2.current) return
     if (loadingThumb.has(name)) return  // already running
     if (previewQueue.current.includes(name)) return  // already queued
-    const params = augParams[name] ?? {}
     if (activeCount.current < MAX_CONCURRENT) {
-      runPreview(name, file, params)
+      runPreview(name)
     } else {
       setLoadingThumb(prev => new Set(prev).add(name))  // show "Loading…" while queued
       previewQueue.current.push(name)
     }
   }
 
-  // Preview all visible cards sequentially (enqueue all)
-  const previewAll = () => {
-    if (!file) return
-    filtered.forEach(e => {
-      if (!thumbnails[e.name] && !loadingThumb.has(e.name) && !previewQueue.current.includes(e.name)) {
-        fetchPreview(e.name)
-      }
+  // Preview all entries (skip slow ones by default; they can be manually triggered)
+  const previewAll = (includeSlowEntries = false) => {
+    if (!fileRef2.current) return
+    const toPreview = entries.filter(e => {
+      if (thumbnails[e.name] || loadingThumb.has(e.name) || previewQueue.current.includes(e.name)) return false
+      if (e.slow && !includeSlowEntries) return false
+      return true
     })
+    toPreview.forEach(e => fetchPreview(e.name))
   }
+
+  // Auto-preview all fast entries when a file is first loaded / changed
+  useEffect(() => {
+    if (file && entries.length > 0) {
+      previewAll(false)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [file, entries.length])
+
+  // Progress stats
+  const totalEntries = entries.length
+  const loadedCount = Object.keys(thumbnails).length
+  const inFlightCount = loadingThumb.size
+  const fastEntries = entries.filter(e => !e.slow).length
 
   const handleApplySingle = async (name: string) => {
     if (!file) return
@@ -697,7 +720,7 @@ function CatalogueTab() {
       )}
 
       {/* Phase filter + Preview All */}
-      <div style={{ display: 'flex', gap: 8, marginBottom: 12, alignItems: 'center', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', gap: 8, marginBottom: 8, alignItems: 'center', flexWrap: 'wrap' }}>
         {(['all', 'ink', 'paper', 'post'] as const).map(p => (
           <button key={p} onClick={() => setPhase(p)} style={{
             padding: '5px 14px', borderRadius: 20, border: '1px solid #ddd', cursor: 'pointer', fontSize: 13,
@@ -706,24 +729,49 @@ function CatalogueTab() {
           }}>{p === 'all' ? 'All phases' : p.charAt(0).toUpperCase() + p.slice(1)}</button>
         ))}
         {file && (
-          <button onClick={previewAll} style={{
-            padding: '5px 14px', borderRadius: 20, border: '1px solid #2ecc71', cursor: 'pointer', fontSize: 13,
-            background: '#f0fff4', color: '#27ae60', fontWeight: 600,
-          }}>
-            Preview all ({filtered.filter(e => !thumbnails[e.name] && !loadingThumb.has(e.name)).length} remaining)
-          </button>
+          <>
+            <button onClick={() => previewAll(false)} style={{
+              padding: '5px 14px', borderRadius: 20, border: '1px solid #2ecc71', cursor: 'pointer', fontSize: 13,
+              background: '#f0fff4', color: '#27ae60', fontWeight: 600,
+            }}>
+              Preview fast ({entries.filter(e => !e.slow && !thumbnails[e.name] && !loadingThumb.has(e.name) && !previewQueue.current.includes(e.name)).length} remaining)
+            </button>
+            <button onClick={() => previewAll(true)} style={{
+              padding: '5px 14px', borderRadius: 20, border: '1px solid #e67e22', cursor: 'pointer', fontSize: 13,
+              background: '#fff8f0', color: '#e67e22', fontWeight: 600,
+            }}>
+              + Slow ones ({entries.filter(e => e.slow && !thumbnails[e.name] && !loadingThumb.has(e.name) && !previewQueue.current.includes(e.name)).length} remaining)
+            </button>
+          </>
         )}
         <span style={{ fontSize: 13, color: '#888' }}>
           {filtered.length} augmentation{filtered.length !== 1 ? 's' : ''}
           {enabled.size > 0 && ` · ${enabled.size} selected`}
-          {loadingThumb.size > 0 && ` · ${loadingThumb.size} loading (max ${MAX_CONCURRENT} at a time)`}
         </span>
         {!file && (
           <span style={{ fontSize: 12, color: '#e67e22', marginLeft: 8 }}>
-            Upload an image above to enable previews and apply augmentations.
+            Upload an image above to auto-load previews.
           </span>
         )}
       </div>
+
+      {/* Progress bar — shown while loading previews */}
+      {file && (loadedCount > 0 || inFlightCount > 0) && (
+        <div style={{ marginBottom: 12 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, color: '#666', marginBottom: 4 }}>
+            <span>Previews loaded: {loadedCount} / {fastEntries} fast{inFlightCount > 0 ? ` · ${inFlightCount} loading…` : ' ✓'}</span>
+            <span style={{ color: '#aaa' }}>{totalEntries} total augmentations</span>
+          </div>
+          <div style={{ height: 4, background: '#eee', borderRadius: 2, overflow: 'hidden' }}>
+            <div style={{
+              height: '100%', borderRadius: 2,
+              background: inFlightCount > 0 ? '#4f6ef7' : '#2ecc71',
+              width: `${Math.round((loadedCount / Math.max(fastEntries, 1)) * 100)}%`,
+              transition: 'width 0.3s ease, background 0.5s ease',
+            }} />
+          </div>
+        </div>
+      )}
 
       {/* Catalogue grid */}
       {loadingCatalogue ? (
@@ -832,12 +880,12 @@ export default function AugmentationLab() {
     <div style={{ maxWidth: 1400, margin: '0 auto', padding: '24px 24px' }}>
       <h2 style={{ margin: '0 0 4px', fontSize: 22 }}>Augmentation Lab</h2>
       <p style={{ color: '#666', margin: '0 0 20px', fontSize: 14 }}>
-        Apply document degradation presets or choose from 51 individual Augraphy augmentations — with per-card previews, parameter tuning, and multi-augmentation pipelines.
+        Apply document degradation presets or choose from individual Augraphy augmentations — previews auto-load on upload, with parameter tuning and multi-augmentation pipelines.
       </p>
 
       {/* Tab switcher */}
       <div style={{ display: 'flex', gap: 0, marginBottom: 20, borderBottom: '2px solid #e8e8e8' }}>
-        {([['preset', 'Presets'], ['catalogue', 'Full Catalogue (51)']] as const).map(([id, label]) => (
+        {([['preset', 'Presets'], ['catalogue', 'Full Catalogue']] as const).map(([id, label]) => (
           <button key={id} onClick={() => setTab(id)} style={{
             padding: '8px 22px', border: 'none', cursor: 'pointer', fontSize: 14,
             fontWeight: tab === id ? 700 : 400,
