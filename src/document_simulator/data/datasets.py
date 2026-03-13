@@ -5,7 +5,17 @@ from pathlib import Path
 from typing import List, Optional, Tuple
 
 from PIL import Image
-from torch.utils.data import Dataset
+
+try:
+    from torch.utils.data import Dataset
+except ImportError:
+    # torch is an optional dep (in [project.optional-dependencies] rl).
+    # Provide a minimal shim so the module is importable without torch.
+    class Dataset:  # type: ignore[no-redef]
+        def __len__(self):
+            raise NotImplementedError
+        def __getitem__(self, idx):
+            raise NotImplementedError
 
 from document_simulator.data.ground_truth import GroundTruth, GroundTruthLoader
 from document_simulator.utils.image_io import ImageHandler
