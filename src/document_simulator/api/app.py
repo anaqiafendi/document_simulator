@@ -9,6 +9,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
 from document_simulator.api.routers import synthesis
+from document_simulator.api.routers import augmentation as augmentation_router
+from document_simulator.api.routers import ocr as ocr_router
+from document_simulator.api.routers import batch as batch_router
+from document_simulator.api.routers import evaluation as evaluation_router
+from document_simulator.api.routers import rl_training as rl_training_router
 
 app = FastAPI(title="Document Simulator API", version="0.1.0")
 
@@ -20,6 +25,11 @@ app.add_middleware(
 )
 
 app.include_router(synthesis.router)
+app.include_router(augmentation_router.router)
+app.include_router(ocr_router.router)
+app.include_router(batch_router.router)
+app.include_router(evaluation_router.router)
+app.include_router(rl_training_router.router)
 
 
 @app.get("/health")
