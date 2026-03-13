@@ -19,7 +19,7 @@ app = FastAPI(title="Document Simulator API", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:7860"],  # Vite dev + Docker
+    allow_origins=["*"],  # React SPA is same-origin in prod; wildcard covers HF Spaces previews
     allow_methods=["*"],
     allow_headers=["*"],
 )

@@ -16,11 +16,15 @@ RUN npm run build
 # ─── Stage 2: Python runtime ─────────────────────────────────────────────────
 FROM python:3.11-slim AS python-app
 
-# Install system libs needed by PyMuPDF and Pillow
+# Install system libs needed by PyMuPDF, OpenCV, and augraphy
 RUN apt-get update && apt-get install -y --no-install-recommends \
         libglib2.0-0 \
         libgl1 \
         libgomp1 \
+        libsm6 \
+        libxext6 \
+        libxrender1 \
+        libfontconfig1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Install uv
@@ -28,11 +32,14 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
 
 WORKDIR /app
 
+# Copy fonts (bundled OFL TTFs used by synthesis renderer)
+COPY fonts/ ./fonts/
+
 # Copy dependency manifests first for layer caching
 COPY pyproject.toml uv.lock ./
 
-# Sync core deps only — exclude heavy optional extras (paddleocr, rl, dev, ui)
-# The synthesis module + fastapi + augmentation is ~300 MB
+# Sync core deps only — heavy optional extras (ocr, rl, ui) are excluded.
+# Core = augraphy + fastapi + synthesis. Image is ~800 MB.
 RUN uv sync --no-dev --frozen --no-install-project
 
 # Copy source package
