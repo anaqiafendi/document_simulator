@@ -165,10 +165,6 @@ async def preview_catalogue(
 
     original = _file_to_pil(file, contents)
 
-    # Shrink to thumbnail for speed
-    thumb = original.copy()
-    thumb.thumbnail((_THUMB_SIZE, _THUMB_SIZE), Image.LANCZOS)
-
     try:
         params_override = json.loads(params_json) if params_json else {}
         params_override = _lists_to_tuples(params_override)
@@ -176,15 +172,17 @@ async def preview_catalogue(
         params_override = {}
 
     try:
-        result_raw = apply_single(aug_name, thumb, params_override if params_override else None)
+        result_raw = apply_single(aug_name, original, params_override if params_override else None)
         result = Image.fromarray(np.array(result_raw)) if not isinstance(result_raw, Image.Image) else result_raw
     except Exception as exc:
         logger.error(f"Preview failed: {aug_name} — {exc}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Preview error: {exc}") from exc
 
+    logger.info(f"Preview: {aug_name!r} {original.width}x{original.height}px (full res)")
+
     return {
         "aug_name": aug_name,
-        "original_b64": _pil_to_png_b64(thumb),
+        "original_b64": _pil_to_png_b64(original),
         "augmented_b64": _pil_to_png_b64(result),
     }
 

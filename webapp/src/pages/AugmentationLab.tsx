@@ -9,7 +9,7 @@ import type { AugmentResult, CatalogueEntry, CatalogueAugmentResult, PipelineRes
 // ── Shared: load a sample template (augmentation_lab dir) and convert to File ─
 
 async function augSampleToFile(filename: string): Promise<File> {
-  const info = await loadAugSample(filename, 150, 0)
+  const info = await loadAugSample(filename, 250, 0)  // 250 DPI for sharp augmentation input
   const blob = await fetch(`data:image/png;base64,${info.image_b64}`).then(r => r.blob())
   return new File([blob], filename.replace(/\.pdf$/i, '') + '.png', { type: 'image/png' })
 }
@@ -382,6 +382,7 @@ function PresetTab() {
   const [result, setResult] = useState<AugmentResult | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [showResult, setShowResult] = useState(false)
 
   useEffect(() => {
     listPresets().then(setPresets).catch(() => setPresets(['light', 'medium', 'heavy', 'default']))
@@ -390,7 +391,10 @@ function PresetTab() {
   const handleAugment = async () => {
     if (!file) return
     setLoading(true); setError(null)
-    try { setResult(await augmentImage(file, preset)) }
+    try {
+      setResult(await augmentImage(file, preset))
+      setShowResult(true)  // auto-expand when result arrives
+    }
     catch (e: unknown) { setError(e instanceof Error ? e.message : 'Unknown error') }
     finally { setLoading(false) }
   }
@@ -399,7 +403,7 @@ function PresetTab() {
     <>
       <div style={card}>
         <div style={{ display: 'flex', gap: 16, alignItems: 'flex-end', flexWrap: 'wrap' }}>
-          <ImageSourceSelector file={file} onFile={f => { setFile(f); setResult(null); setError(null) }} />
+          <ImageSourceSelector file={file} onFile={f => { setFile(f); setResult(null); setShowResult(false); setError(null) }} />
           <div>
             <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>Preset</label>
             <select value={preset} onChange={e => setPreset(e.target.value)}
@@ -416,33 +420,52 @@ function PresetTab() {
         {error && <div style={{ marginTop: 12, color: '#c0392b', background: '#fdecea', padding: '8px 12px', borderRadius: 5, fontSize: 13 }}>{error}</div>}
       </div>
 
-      {(file || result) && (
-        <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap' }}>
-          <div style={{ ...card, flex: '1 1 300px' }}>
-            <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
-            <LightboxImage
-              src={result ? `data:image/png;base64,${result.original_b64}` : (file ? URL.createObjectURL(file) : '')}
-              alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
-          </div>
-          {result && (
-            <div style={{ ...card, flex: '1 1 300px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                  Augmented — {result.metadata.preset}
-                </div>
-                <button style={btnSm} onClick={() => {
-                  const a = document.createElement('a'); a.href = `data:image/png;base64,${result.augmented_b64}`
-                  a.download = `augmented_${preset}.png`; a.click()
-                }}>Download PNG</button>
+      {!file && (
+        <div style={{ textAlign: 'center', padding: '40px 0', color: '#bbb', fontSize: 14 }}>Upload a document image to begin.</div>
+      )}
+
+      {/* Collapsible result section */}
+      {file && (
+        <div style={{ marginBottom: 16 }}>
+          <button
+            onClick={() => setShowResult(v => !v)}
+            style={{
+              display: 'flex', alignItems: 'center', gap: 8, width: '100%',
+              padding: '10px 16px', borderRadius: 6, border: '1px solid #dde',
+              background: showResult ? '#f0f4ff' : '#fafafa', cursor: 'pointer',
+              fontSize: 13, fontWeight: 600, color: '#4f6ef7', textAlign: 'left',
+            }}
+          >
+            <span style={{ fontSize: 16 }}>{showResult ? '▼' : '▶'}</span>
+            {result ? `Result — ${result.metadata.preset} preset` : 'Result (run Augment to generate)'}
+          </button>
+
+          {showResult && (
+            <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginTop: 12 }}>
+              <div style={{ ...card, flex: '1 1 300px', marginBottom: 0 }}>
+                <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
+                <LightboxImage
+                  src={result ? `data:image/png;base64,${result.original_b64}` : URL.createObjectURL(file)}
+                  alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
               </div>
-              <LightboxImage src={`data:image/png;base64,${result.augmented_b64}`} alt={`Augmented — ${result.metadata.preset}`}
-                style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+              {result && (
+                <div style={{ ...card, flex: '1 1 300px', marginBottom: 0 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                    <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                      Augmented — {result.metadata.preset}
+                    </div>
+                    <button style={btnSm} onClick={() => {
+                      const a = document.createElement('a'); a.href = `data:image/png;base64,${result.augmented_b64}`
+                      a.download = `augmented_${preset}.png`; a.click()
+                    }}>Download PNG</button>
+                  </div>
+                  <LightboxImage src={`data:image/png;base64,${result.augmented_b64}`} alt={`Augmented — ${result.metadata.preset}`}
+                    style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+                </div>
+              )}
             </div>
           )}
         </div>
-      )}
-      {!file && !result && (
-        <div style={{ textAlign: 'center', padding: '40px 0', color: '#bbb', fontSize: 14 }}>Upload a document image to begin.</div>
       )}
     </>
   )
@@ -478,8 +501,10 @@ function CatalogueTab() {
       .finally(() => setLoadingCatalogue(false))
   }, [])
 
+  const [showResult, setShowResult] = useState(false)
+
   // Clear thumbnails when file changes
-  useEffect(() => { setThumbnails({}); setPipelineResult(null); setSingleResult(null) }, [file])
+  useEffect(() => { setThumbnails({}); setPipelineResult(null); setSingleResult(null); setShowResult(false) }, [file])
 
   const filtered = phase === 'all' ? entries : entries.filter(e => e.phase === phase)
 
@@ -522,6 +547,7 @@ function CatalogueTab() {
       const params = augParams[name] ?? {}
       setSingleResult(await augmentCatalogue(file, name, JSON.stringify(params)))
       setPipelineResult(null)
+      setShowResult(true)  // auto-expand on result
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : 'Unknown error')
     } finally {
@@ -536,6 +562,7 @@ function CatalogueTab() {
       const ordered = entries.filter(e => enabled.has(e.name)).map(e => e.name)
       const result = await applyPipeline(file, ordered, augParams)
       setPipelineResult(result); setSingleResult(null)
+      setShowResult(true)  // auto-expand on result
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : 'Unknown error')
     } finally {
@@ -574,33 +601,50 @@ function CatalogueTab() {
         {error && <div style={{ marginTop: 12, color: '#c0392b', background: '#fdecea', padding: '8px 12px', borderRadius: 5, fontSize: 13 }}>{error}</div>}
       </div>
 
-      {/* Before / After */}
-      {(file || resultAugmented) && (
-        <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginBottom: 16 }}>
-          <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
-            <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
-            <LightboxImage
-              src={resultOriginal ? `data:image/png;base64,${resultOriginal}` : (file ? URL.createObjectURL(file) : '')}
-              alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
-          </div>
-          {resultAugmented && (
-            <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                  {resultLabel}
-                  {singleResult && (
-                    <span style={{ marginLeft: 8, background: PHASE_BG[singleResult.phase], color: PHASE_COLORS[singleResult.phase], borderRadius: 4, padding: '1px 6px', fontSize: 10, fontWeight: 700 }}>
-                      {singleResult.phase}
-                    </span>
-                  )}
-                </div>
-                <button style={btnSm} onClick={() => {
-                  const a = document.createElement('a'); a.href = `data:image/png;base64,${resultAugmented}`
-                  a.download = `${resultLabel.replace(/[^a-z0-9]/gi, '_')}.png`; a.click()
-                }}>Download</button>
+      {/* Collapsible Before / After result */}
+      {file && (
+        <div style={{ marginBottom: 16 }}>
+          <button
+            onClick={() => setShowResult(v => !v)}
+            style={{
+              display: 'flex', alignItems: 'center', gap: 8, width: '100%',
+              padding: '10px 16px', borderRadius: 6, border: '1px solid #dde',
+              background: showResult ? '#f0f4ff' : '#fafafa', cursor: 'pointer',
+              fontSize: 13, fontWeight: 600, color: '#4f6ef7', textAlign: 'left',
+            }}
+          >
+            <span style={{ fontSize: 16 }}>{showResult ? '▼' : '▶'}</span>
+            {resultAugmented ? `Result — ${resultLabel}` : 'Result (click Apply or Apply Pipeline to generate)'}
+          </button>
+
+          {showResult && (
+            <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginTop: 12 }}>
+              <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
+                <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
+                <LightboxImage
+                  src={resultOriginal ? `data:image/png;base64,${resultOriginal}` : URL.createObjectURL(file)}
+                  alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
               </div>
-              <LightboxImage src={`data:image/png;base64,${resultAugmented}`} alt={resultLabel}
-                style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+              {resultAugmented && (
+                <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                    <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                      {resultLabel}
+                      {singleResult && (
+                        <span style={{ marginLeft: 8, background: PHASE_BG[singleResult.phase], color: PHASE_COLORS[singleResult.phase], borderRadius: 4, padding: '1px 6px', fontSize: 10, fontWeight: 700 }}>
+                          {singleResult.phase}
+                        </span>
+                      )}
+                    </div>
+                    <button style={btnSm} onClick={() => {
+                      const a = document.createElement('a'); a.href = `data:image/png;base64,${resultAugmented}`
+                      a.download = `${resultLabel.replace(/[^a-z0-9]/gi, '_')}.png`; a.click()
+                    }}>Download</button>
+                  </div>
+                  <LightboxImage src={`data:image/png;base64,${resultAugmented}`} alt={resultLabel}
+                    style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+                </div>
+              )}
             </div>
           )}
         </div>
