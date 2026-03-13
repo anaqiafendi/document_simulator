@@ -4,6 +4,8 @@ import type {
   PreviewSample,
   JobStatus,
   AugmentResult,
+  CatalogueEntry,
+  CatalogueAugmentResult,
   OcrResult,
   BatchMode,
   BatchJobStatus,
@@ -102,6 +104,25 @@ export async function augmentImage(file: File, preset: string): Promise<AugmentR
   if (!r.ok) {
     const detail = await r.json().catch(() => ({ detail: r.statusText }))
     throw new Error(`Augmentation failed: ${detail.detail ?? r.status}`)
+  }
+  return r.json()
+}
+
+export async function listCatalogue(): Promise<CatalogueEntry[]> {
+  const r = await fetch(`${BASE}/api/augmentation/catalogue`)
+  if (!r.ok) throw new Error(`Failed to load catalogue: ${r.status}`)
+  const data = await r.json()
+  return data.entries as CatalogueEntry[]
+}
+
+export async function augmentCatalogue(file: File, augName: string): Promise<CatalogueAugmentResult> {
+  const form = new FormData()
+  form.append('file', file)
+  form.append('aug_name', augName)
+  const r = await fetch(`${BASE}/api/augmentation/catalogue/augment`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Catalogue augmentation failed: ${detail.detail ?? r.status}`)
   }
   return r.json()
 }
