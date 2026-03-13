@@ -142,8 +142,9 @@ const PHASE_COLORS: Record<string, string> = { ink: '#6c3483', paper: '#1a6648',
 const PHASE_BG: Record<string, string> = { ink: '#f5eef8', paper: '#eafaf1', post: '#eaf0fb' }
 
 // ── Dual-handle range slider ──────────────────────────────────────────────────
-// Uses pointer-capture drag on each thumb div — no overlapping invisible inputs,
-// so both handles are always independently grabbable.
+// Uses document-level mousemove/mouseup listeners for drag tracking.
+// Both handles are always independently grabbable — no pointer capture,
+// no overlapping inputs, no z-index fighting.
 
 function DualRangeSlider({
   label, rangeMin, rangeMax, step, value, onChange,
@@ -158,49 +159,67 @@ function DualRangeSlider({
   const [lo, hi] = value
   const trackRef = useRef<HTMLDivElement>(null)
   const dragging = useRef<'lo' | 'hi' | null>(null)
+  // Keep latest values in refs so document-level handlers don't use stale closures
+  const loRef = useRef(lo)
+  const hiRef = useRef(hi)
+  const onChangeRef = useRef(onChange)
+  loRef.current = lo
+  hiRef.current = hi
+  onChangeRef.current = onChange
 
   const fmt = (v: number) => step < 1 ? v.toFixed(2) : String(v)
   const pct = (v: number) => ((v - rangeMin) / (rangeMax - rangeMin)) * 100
 
-  const valueFromClientX = (clientX: number): number => {
-    const rect = trackRef.current!.getBoundingClientRect()
+  const snapToStep = (raw: number) => Math.round(raw / step) * step
+
+  const xToValue = (clientX: number): number => {
+    if (!trackRef.current) return loRef.current
+    const rect = trackRef.current.getBoundingClientRect()
     const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width))
-    const raw = rangeMin + ratio * (rangeMax - rangeMin)
-    return Math.round(raw / step) * step
+    return snapToStep(rangeMin + ratio * (rangeMax - rangeMin))
   }
 
-  const onThumbDown = (which: 'lo' | 'hi') => (e: React.PointerEvent<HTMLDivElement>) => {
+  // Attach document-level listeners once — refs avoid re-subscribing on value changes
+  useEffect(() => {
+    const onMove = (e: MouseEvent) => {
+      if (!dragging.current) return
+      const v = xToValue(e.clientX)
+      if (dragging.current === 'lo')
+        onChangeRef.current([Math.min(Math.max(v, rangeMin), hiRef.current - step), hiRef.current])
+      else
+        onChangeRef.current([loRef.current, Math.max(Math.min(v, rangeMax), loRef.current + step)])
+    }
+    const onUp = () => { dragging.current = null }
+    document.addEventListener('mousemove', onMove)
+    document.addEventListener('mouseup', onUp)
+    return () => {
+      document.removeEventListener('mousemove', onMove)
+      document.removeEventListener('mouseup', onUp)
+    }
+  }, [rangeMin, rangeMax, step]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const onThumbMouseDown = (which: 'lo' | 'hi') => (e: React.MouseEvent) => {
     e.preventDefault()
-    e.currentTarget.setPointerCapture(e.pointerId)
     dragging.current = which
   }
 
-  const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
-    if (!dragging.current) return
-    const v = valueFromClientX(e.clientX)
-    if (dragging.current === 'lo') onChange([Math.min(Math.max(v, rangeMin), hi - step), hi])
-    else onChange([lo, Math.max(Math.min(v, rangeMax), lo + step)])
-  }
-
-  const onPointerUp = () => { dragging.current = null }
-
-  // Click on the track background snaps the nearest thumb
+  // Track-background click snaps the nearest thumb to the click position
   const onTrackClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (dragging.current) return  // was a drag, not a click
-    const v = valueFromClientX(e.clientX)
-    if (Math.abs(v - lo) <= Math.abs(v - hi)) onChange([Math.min(Math.max(v, rangeMin), hi - step), hi])
-    else onChange([lo, Math.max(Math.min(v, rangeMax), lo + step)])
+    const v = xToValue(e.clientX)
+    if (Math.abs(v - loRef.current) <= Math.abs(v - hiRef.current))
+      onChange([Math.min(Math.max(v, rangeMin), hiRef.current - step), hiRef.current])
+    else
+      onChange([loRef.current, Math.max(Math.min(v, rangeMax), loRef.current + step)])
   }
 
-  const thumbStyle = (pos: number): React.CSSProperties => ({
-    position: 'absolute', top: '50%', left: `${pct(pos)}%`,
+  const thumbBase: React.CSSProperties = {
+    position: 'absolute', top: '50%',
     width: 18, height: 18, borderRadius: '50%',
     background: '#4f6ef7', border: '2px solid #fff',
     boxShadow: '0 1px 5px rgba(0,0,0,0.3)',
-    transform: 'translate(-50%, -50%)',
-    cursor: 'grab', touchAction: 'none', userSelect: 'none',
-    zIndex: 2,
-  })
+    transform: 'translateY(-50%)',
+    cursor: 'grab',
+  }
 
   return (
     <div style={{ marginBottom: 14 }}>
@@ -208,29 +227,31 @@ function DualRangeSlider({
         <span style={{ fontSize: 12, fontWeight: 600, color: '#555' }}>{label}</span>
         <span style={{ fontSize: 12, color: '#4f6ef7', fontWeight: 600 }}>{fmt(lo)} – {fmt(hi)}</span>
       </div>
-      {/* Track container — pointer events handled here */}
-      <div
-        ref={trackRef}
-        onPointerMove={onPointerMove}
-        onPointerUp={onPointerUp}
-        onClick={onTrackClick}
-        style={{ position: 'relative', height: 28, cursor: 'pointer' }}
-      >
+      {/* Track container */}
+      <div ref={trackRef} onClick={onTrackClick} style={{ position: 'relative', height: 28, cursor: 'pointer' }}>
         {/* Background track */}
         <div style={{
           position: 'absolute', top: '50%', left: 0, right: 0,
           height: 4, background: '#dde', borderRadius: 2, transform: 'translateY(-50%)',
+          pointerEvents: 'none',
         }} />
         {/* Filled segment */}
         <div style={{
           position: 'absolute', top: '50%',
-          left: `${pct(lo)}%`, width: `${pct(hi) - pct(lo)}%`,
+          left: `${pct(lo)}%`, width: `${Math.max(0, pct(hi) - pct(lo))}%`,
           height: 4, background: '#4f6ef7', borderRadius: 2, transform: 'translateY(-50%)',
+          pointerEvents: 'none',
         }} />
-        {/* Lo thumb */}
-        <div onPointerDown={onThumbDown('lo')} style={thumbStyle(lo)} />
+        {/* Lo thumb — slightly left of center so hi thumb is on top when overlapping */}
+        <div
+          onMouseDown={onThumbMouseDown('lo')}
+          style={{ ...thumbBase, left: `${pct(lo)}%`, marginLeft: -10, zIndex: 2 }}
+        />
         {/* Hi thumb */}
-        <div onPointerDown={onThumbDown('hi')} style={thumbStyle(hi)} />
+        <div
+          onMouseDown={onThumbMouseDown('hi')}
+          style={{ ...thumbBase, left: `${pct(hi)}%`, marginLeft: -8, zIndex: 3 }}
+        />
       </div>
       <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, color: '#aaa', marginTop: 2 }}>
         <span>{fmt(rangeMin)}</span><span>{fmt(rangeMax)}</span>
@@ -256,11 +277,14 @@ function ParamControls({
   const set = (key: string, val: unknown) => onChange({ ...params, [key]: val })
 
   const RangeRow = ({ k, label, min, max, step }: { k: string; label: string; min: number; max: number; step: number }) => {
-    const arr = get(k, dp[k]) as [number, number]
+    const raw = get(k, dp[k])
+    const arr = Array.isArray(raw) && raw.length >= 2 ? raw : [min, max]
+    const lo = isFinite(Number(arr[0])) ? Number(arr[0]) : min
+    const hi = isFinite(Number(arr[1])) ? Number(arr[1]) : max
     return (
       <DualRangeSlider
         label={label} rangeMin={min} rangeMax={max} step={step}
-        value={[Number(arr[0]), Number(arr[1])]}
+        value={[Math.max(min, Math.min(lo, max)), Math.max(min, Math.min(hi, max))]}
         onChange={v => set(k, v)}
       />
     )
