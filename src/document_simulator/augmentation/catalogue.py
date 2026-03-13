@@ -373,7 +373,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "n_rotation_range": (10, 15),
             "color": "random",
             "alpha_range": (0.25, 0.5),
-            "numba_jit": 0,
+            "numba_jit": 1,  # 0 causes 'get_call_template' crash in augraphy 8.2.6
             "p": 0.9,
         },
     },
@@ -403,7 +403,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "num_cells_range": (500, 1000),
             "noise_type": "random",
             "background_value": (200, 255),
-            "numba_jit": 0,
+            "numba_jit": 1,  # 0 causes 'get_call_template' crash in augraphy 8.2.6
             "p": 0.9,
         },
     },
@@ -627,11 +627,15 @@ def get_phase_augmentations(phase: str) -> dict[str, dict]:
 
 
 def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
-    """Apply a single augmentation by catalogue name.
+    """Apply a single augmentation by catalogue name, bypassing the AugraphyPipeline.
+
+    Calling augmentations directly (not via AugraphyPipeline) prevents the
+    pipeline from compositing the ink layer onto a white paper background
+    (overlay_alpha=0.3), which otherwise washes out / lightens every effect.
 
     Args:
         aug_name: Key in CATALOGUE (e.g. "InkBleed").
-        image: PIL Image or numpy array.
+        image: PIL Image or numpy array (RGB).
         params: Override default_params. If None, uses CATALOGUE defaults.
 
     Returns:
@@ -643,11 +647,11 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
     """
     import numpy as np
     from PIL import Image as PILImage
-    from augraphy import AugraphyPipeline
     import augraphy.augmentations as aug_module
 
     entry = CATALOGUE[aug_name]
-    effective_params = {**entry["default_params"], **(params or {})}
+    # Always force p=1.0 so the augmentation is guaranteed to apply
+    effective_params = {**entry["default_params"], **(params or {}), "p": 1.0}
 
     aug_class = getattr(aug_module, aug_name)
     aug_instance = aug_class(**effective_params)
@@ -655,11 +659,10 @@ def apply_single(aug_name: str, image: Any, params: dict | None = None) -> Any:
     input_is_pil = isinstance(image, PILImage.Image)
     arr = np.array(image.convert("RGB")) if input_is_pil else image
 
-    phase = entry["phase"]
-    pipeline = AugraphyPipeline(
-        ink_phase=[aug_instance] if phase == "ink" else [],
-        paper_phase=[aug_instance] if phase == "paper" else [],
-        post_phase=[aug_instance] if phase == "post" else [],
-    )
-    result = pipeline(arr)
+    # Call the augmentation directly — no pipeline, no paper composite, no overlay
+    result = aug_instance(arr)
+
+    if not isinstance(result, np.ndarray):
+        result = np.array(result)
+
     return PILImage.fromarray(result) if input_is_pil else result

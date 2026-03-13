@@ -350,7 +350,11 @@ function ParamControls({
     return <SingleSlider k="subtle_range" label="Noise range" min={1} max={20} step={1} />
   }
   if (n === 'Folding') {
-    return <RangeRow k="fold_count" label="Fold count" min={1} max={6} step={1} />
+    // fold_count is a scalar integer, not a range
+    return <SingleSlider k="fold_count" label="Fold count" min={1} max={6} step={1} />
+  }
+  if (n === 'Geometric') {
+    return <RangeRow k="rotate_range" label="Rotate range (deg)" min={-45} max={45} step={1} />
   }
 
   // Generic fallback: show any numeric range params as dual sliders
@@ -363,10 +367,12 @@ function ParamControls({
       {rangeKeys.map(([k, v]) => {
         const arr = v as [number, number]
         const isFloat = arr[0] % 1 !== 0 || arr[1] % 1 !== 0
-        const sliderMax = Math.max(arr[1] * 2, 1)
+        // Support negative ranges (e.g. rotate_range: (-10, 10))
+        const sliderMin = arr[0] < 0 ? arr[0] * 2 : 0
+        const sliderMax = Math.max(Math.abs(arr[1]) * 2, 1)
         return (
           <RangeRow key={k} k={k} label={k.replace(/_/g, ' ')}
-            min={0} max={sliderMax} step={isFloat ? 0.05 : 1} />
+            min={sliderMin} max={sliderMax} step={isFloat ? 0.05 : 1} />
         )
       })}
     </>
