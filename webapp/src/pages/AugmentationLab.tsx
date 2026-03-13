@@ -14,6 +14,60 @@ async function augSampleToFile(filename: string): Promise<File> {
   return new File([blob], filename.replace(/\.pdf$/i, '') + '.png', { type: 'image/png' })
 }
 
+// ── Lightbox ──────────────────────────────────────────────────────────────────
+
+function Lightbox({ src, title, onClose }: { src: string; title?: string; onClose: () => void }) {
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [onClose])
+
+  return (
+    <div
+      onClick={onClose}
+      style={{
+        position: 'fixed', inset: 0, zIndex: 9999,
+        background: 'rgba(0,0,0,0.85)',
+        display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+        cursor: 'zoom-out',
+      }}
+    >
+      {title && (
+        <div style={{ color: '#fff', fontSize: 14, fontWeight: 600, marginBottom: 12, opacity: 0.85 }}>
+          {title} — click or press Esc to close
+        </div>
+      )}
+      <img
+        src={src}
+        alt={title}
+        onClick={e => e.stopPropagation()}
+        style={{
+          maxWidth: '92vw', maxHeight: '88vh',
+          objectFit: 'contain', borderRadius: 6,
+          boxShadow: '0 4px 40px rgba(0,0,0,0.6)',
+          cursor: 'default',
+        }}
+      />
+    </div>
+  )
+}
+
+// Clickable image that opens in lightbox
+function LightboxImage({ src, alt, style }: { src: string; alt: string; style?: React.CSSProperties }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <>
+      <img
+        src={src} alt={alt}
+        onClick={() => setOpen(true)}
+        style={{ cursor: 'zoom-in', ...style }}
+      />
+      {open && <Lightbox src={src} title={alt} onClose={() => setOpen(false)} />}
+    </>
+  )
+}
+
 // ── Shared: ImageSourceSelector (uses augmentation_lab samples) ───────────────
 
 function ImageSourceSelector({
@@ -366,7 +420,8 @@ function PresetTab() {
         <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap' }}>
           <div style={{ ...card, flex: '1 1 300px' }}>
             <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
-            <img src={result ? `data:image/png;base64,${result.original_b64}` : (file ? URL.createObjectURL(file) : '')}
+            <LightboxImage
+              src={result ? `data:image/png;base64,${result.original_b64}` : (file ? URL.createObjectURL(file) : '')}
               alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
           </div>
           {result && (
@@ -380,7 +435,7 @@ function PresetTab() {
                   a.download = `augmented_${preset}.png`; a.click()
                 }}>Download PNG</button>
               </div>
-              <img src={`data:image/png;base64,${result.augmented_b64}`} alt="Augmented"
+              <LightboxImage src={`data:image/png;base64,${result.augmented_b64}`} alt={`Augmented — ${result.metadata.preset}`}
                 style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
             </div>
           )}
@@ -524,7 +579,7 @@ function CatalogueTab() {
         <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginBottom: 16 }}>
           <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
             <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
-            <img
+            <LightboxImage
               src={resultOriginal ? `data:image/png;base64,${resultOriginal}` : (file ? URL.createObjectURL(file) : '')}
               alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
           </div>
@@ -544,7 +599,7 @@ function CatalogueTab() {
                   a.download = `${resultLabel.replace(/[^a-z0-9]/gi, '_')}.png`; a.click()
                 }}>Download</button>
               </div>
-              <img src={`data:image/png;base64,${resultAugmented}`} alt="Augmented"
+              <LightboxImage src={`data:image/png;base64,${resultAugmented}`} alt={resultLabel}
                 style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
             </div>
           )}
@@ -636,7 +691,7 @@ function CatalogueTab() {
                 {/* Per-card thumbnail preview */}
                 {thumb && (
                   <div style={{ padding: '0 14px 10px' }}>
-                    <img src={`data:image/png;base64,${thumb}`} alt={`Preview: ${entry.display_name}`}
+                    <LightboxImage src={`data:image/png;base64,${thumb}`} alt={`Preview: ${entry.display_name}`}
                       style={{ width: '100%', borderRadius: 4, border: '1px solid #ddd', display: 'block' }} />
                   </div>
                 )}
