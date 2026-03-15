@@ -69,6 +69,16 @@ def list_aug_samples() -> dict:
     return {"samples": files}
 
 
+@router.get("/samples/{filename}/raw")
+def download_aug_sample_raw(filename: str) -> FileResponse:
+    """Return the raw sample file (PDF/image) as a download."""
+    safe_name = Path(filename).name
+    sample_path = _AUG_SAMPLES_DIR / safe_name
+    if not sample_path.exists():
+        raise HTTPException(status_code=404, detail=f"Sample '{safe_name}' not found.")
+    return FileResponse(str(sample_path), filename=safe_name)
+
+
 @router.get("/samples/{filename}")
 def load_aug_sample(filename: str, dpi: int = 150, page: int = 0) -> dict:
     """Render a sample augmentation-lab file and return as base64 PNG."""

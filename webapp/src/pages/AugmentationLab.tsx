@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import {
   augmentImage, listPresets,
   listCatalogue, augmentCatalogue, previewCatalogue, applyPipeline,
-  listAugSamples, loadAugSample,
+  listAugSamples, augSampleRawUrl,
   startCatalogueBatch, getCatalogueBatchStatus, catalogueBatchDownloadUrl,
 } from '../api/client'
 import type { AugmentResult, CatalogueEntry, CatalogueAugmentResult, PipelineResult } from '../types'
@@ -11,9 +11,10 @@ import type { CatalogueBatchStatus } from '../api/client'
 // ── Shared: load a sample template (augmentation_lab dir) and convert to File ─
 
 async function augSampleToFile(filename: string): Promise<File> {
-  const info = await loadAugSample(filename, 250, 0)  // 250 DPI for sharp augmentation input
-  const blob = await fetch(`data:image/png;base64,${info.image_b64}`).then(r => r.blob())
-  return new File([blob], filename.replace(/\.pdf$/i, '') + '.png', { type: 'image/png' })
+  // Fetch the raw file (PDF or image) so the backend can render it at its own DPI
+  const blob = await fetch(augSampleRawUrl(filename)).then(r => r.blob())
+  const mime = filename.toLowerCase().endsWith('.pdf') ? 'application/pdf' : blob.type || 'image/png'
+  return new File([blob], filename, { type: mime })
 }
 
 // ── Lightbox ──────────────────────────────────────────────────────────────────
@@ -777,6 +778,15 @@ function CatalogueTab() {
         </div>
       )}
 
+      {/* ── Batch Run — shown right after Result ───────────────────────────── */}
+      {enabled.size > 0 && (
+        <BatchSection
+          augNames={entries.filter(e => enabled.has(e.name)).map(e => e.name)}
+          augParams={augParams}
+          pipelineLabel={entries.filter(e => enabled.has(e.name)).map(e => e.display_name).join(' → ')}
+        />
+      )}
+
       {/* Phase filter + Preview All */}
       <div style={{ display: 'flex', gap: 8, marginBottom: 8, alignItems: 'center', flexWrap: 'wrap' }}>
         {(['all', 'ink', 'paper', 'post'] as const).map(p => (
@@ -926,14 +936,6 @@ function CatalogueTab() {
         </div>
       )}
 
-      {/* ── Batch Run section ─────────────────────────────────────────────── */}
-      {enabled.size > 0 && (
-        <BatchSection
-          augNames={entries.filter(e => enabled.has(e.name)).map(e => e.name)}
-          augParams={augParams}
-          pipelineLabel={entries.filter(e => enabled.has(e.name)).map(e => e.display_name).join(' → ')}
-        />
-      )}
     </>
   )
 }
@@ -960,18 +962,31 @@ function BatchSection({
   const [running, setRunning] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const pollRef = useRef<ReturnType<typeof setInterval> | null>(null)
+  // Sample picker
+  const [samples, setSamples] = useState<string[]>([])
+  const [selectedSamples, setSelectedSamples] = useState<Set<string>>(new Set())
+  const [loadingSamples, setLoadingSamples] = useState(false)
 
   const effTotal = mode === 'per_template' ? batchFiles.length * copies : total
+
+  // Load sample list when section opens
+  useEffect(() => {
+    if (!open || samples.length > 0) return
+    setLoadingSamples(true)
+    listAugSamples().then(s => { setSamples(s); setLoadingSamples(false) }).catch(() => setLoadingSamples(false))
+  }, [open])
 
   const stopPoll = () => { if (pollRef.current) { clearInterval(pollRef.current); pollRef.current = null } }
 
   useEffect(() => () => stopPoll(), [])
 
   const handleRun = async () => {
-    if (!batchFiles.length) return
+    const sampleFiles = await Promise.all([...selectedSamples].map(augSampleToFile))
+    const allFiles = [...batchFiles, ...sampleFiles]
+    if (!allFiles.length) return
     setRunning(true); setError(null); setStatus(null)
     try {
-      const id = await startCatalogueBatch(batchFiles, augNames, augParams, mode, copies, total, seed)
+      const id = await startCatalogueBatch(allFiles, augNames, augParams, mode, copies, total, seed)
       setJobId(id)
       stopPoll()
       pollRef.current = setInterval(async () => {
@@ -1017,19 +1032,56 @@ function BatchSection({
           {/* Multi-file upload */}
           <div style={{ marginBottom: 12 }}>
             <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>
-              Input templates (N documents)
+              Upload templates (images or PDFs)
             </label>
             <input
-              type="file" multiple accept=".png,.jpg,.jpeg,.bmp,.tiff"
+              type="file" multiple accept=".png,.jpg,.jpeg,.bmp,.tiff,.pdf"
               onChange={e => setBatchFiles(Array.from(e.target.files ?? []))}
               style={{ fontSize: 13 }}
             />
             {batchFiles.length > 0 && (
               <div style={{ fontSize: 12, color: '#555', marginTop: 4 }}>
-                {batchFiles.length} template{batchFiles.length !== 1 ? 's' : ''} loaded
+                {batchFiles.length} file{batchFiles.length !== 1 ? 's' : ''} selected
               </div>
             )}
           </div>
+
+          {/* Sample picker */}
+          <div style={{ marginBottom: 12 }}>
+            <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 4 }}>
+              Or use sample files
+              {loadingSamples && <span style={{ fontWeight: 400, color: '#888', marginLeft: 8 }}>loading…</span>}
+            </div>
+            {samples.length === 0 && !loadingSamples && (
+              <div style={{ fontSize: 12, color: '#aaa' }}>No samples available on this server.</div>
+            )}
+            {samples.length > 0 && (
+              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                {samples.map(s => (
+                  <label key={s} style={{ display: 'flex', alignItems: 'center', gap: 5, cursor: 'pointer', fontSize: 13,
+                    padding: '4px 10px', borderRadius: 5, border: `1px solid ${selectedSamples.has(s) ? '#4f6ef7' : '#ddd'}`,
+                    background: selectedSamples.has(s) ? '#f0f4ff' : '#fafafa' }}>
+                    <input type="checkbox" checked={selectedSamples.has(s)}
+                      onChange={() => setSelectedSamples(prev => {
+                        const next = new Set(prev)
+                        next.has(s) ? next.delete(s) : next.add(s)
+                        return next
+                      })} />
+                    {s}
+                  </label>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Total count summary */}
+          {(batchFiles.length > 0 || selectedSamples.size > 0) && (
+            <div style={{ fontSize: 12, color: '#555', marginBottom: 12 }}>
+              Total input templates: {batchFiles.length + selectedSamples.size}
+              {batchFiles.length > 0 && selectedSamples.size > 0 &&
+                ` (${batchFiles.length} uploaded + ${selectedSamples.size} sample${selectedSamples.size !== 1 ? 's' : ''})`}
+            </div>
+          )}
 
           {/* Mode selector */}
           <div style={{ marginBottom: 12 }}>
@@ -1086,13 +1138,18 @@ function BatchSection({
           )}
 
           {/* Run button */}
-          <button
-            style={running || !batchFiles.length ? btnDisabled : btn}
-            disabled={running || !batchFiles.length}
-            onClick={handleRun}
-          >
-            {running ? `Generating… (${Math.round((status?.progress ?? 0) * 100)}%)` : `Run Batch (${effTotal} outputs)`}
-          </button>
+          {(() => {
+            const hasInputs = batchFiles.length > 0 || selectedSamples.size > 0
+            return (
+              <button
+                style={running || !hasInputs ? btnDisabled : btn}
+                disabled={running || !hasInputs}
+                onClick={handleRun}
+              >
+                {running ? `Generating… (${Math.round((status?.progress ?? 0) * 100)}%)` : `Run Batch (${effTotal} outputs)`}
+              </button>
+            )
+          })()}
 
           {/* Progress bar */}
           {running && (

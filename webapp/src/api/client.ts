@@ -115,6 +115,10 @@ export async function listAugSamples(): Promise<string[]> {
   return data.samples as string[]
 }
 
+export function augSampleRawUrl(filename: string): string {
+  return `${BASE}/api/augmentation/samples/${encodeURIComponent(filename)}/raw`
+}
+
 export async function loadAugSample(filename: string, dpi = 150, page = 0): Promise<{ image_b64: string; width_px: number; height_px: number }> {
   const r = await fetch(`${BASE}/api/augmentation/samples/${encodeURIComponent(filename)}?dpi=${dpi}&page=${page}`)
   if (!r.ok) throw new Error(`Failed to load aug sample: ${r.status}`)
