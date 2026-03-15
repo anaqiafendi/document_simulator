@@ -314,6 +314,7 @@ async def apply_pipeline(
 def _run_catalogue_batch_job(
     job_id: str,
     image_bytes_list: list[bytes],
+    filenames: list[str],
     labels: list[str],
     aug_names: list[str],
     all_params: dict[str, dict],
@@ -327,7 +328,7 @@ def _run_catalogue_batch_job(
 
     try:
         update_job(job_id, status="running")
-        images = [Image.open(io.BytesIO(b)).convert("RGB") for b in image_bytes_list]
+        images = [_bytes_to_pil(b, fn) for b, fn in zip(image_bytes_list, filenames)]
 
         # Build flat list of (image, stem) pairs
         pairs: list[tuple] = []
@@ -435,6 +436,7 @@ async def start_catalogue_batch(
         all_params = {}
 
     image_bytes_list = []
+    filenames = []
     labels = []
     for f in files:
         data = await f.read()
@@ -442,6 +444,7 @@ async def start_catalogue_batch(
             raise HTTPException(status_code=422, detail=f"File '{f.filename}' is empty.")
         image_bytes_list.append(data)
         name = f.filename or f"file_{len(labels)}"
+        filenames.append(name)
         labels.append(name.rsplit(".", 1)[0] if "." in name else name)
 
     job_id = create_job()
@@ -449,6 +452,7 @@ async def start_catalogue_batch(
         _run_catalogue_batch_job,
         job_id,
         image_bytes_list,
+        filenames,
         labels,
         aug_names,
         all_params,
@@ -570,12 +574,9 @@ def _pil_to_png_b64(img: Image.Image) -> str:
 
 
 def _file_to_pil(upload: UploadFile, contents: bytes) -> Image.Image:
-    """Decode uploaded image bytes to a PIL Image (RGB)."""
-    try:
-        img = Image.open(io.BytesIO(contents)).convert("RGB")
-        return img
-    except Exception as exc:
-        raise HTTPException(status_code=422, detail=f"Cannot decode image: {exc}") from exc
+    """Decode uploaded image bytes to a PIL Image (RGB), with PDF support."""
+    filename = upload.filename or ""
+    return _bytes_to_pil(contents, filename)
 
 
 def _bytes_to_pil(file_bytes: bytes, filename: str, dpi: int = 150, page: int = 0) -> Image.Image:
