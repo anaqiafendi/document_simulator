@@ -494,29 +494,27 @@ function PresetTab() {
             {result ? `Result — ${result.metadata.preset} preset` : 'Result (run Augment to generate)'}
           </button>
 
-          {showResult && (
+          {showResult && result && (
             <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginTop: 12 }}>
               <div style={{ ...card, flex: '1 1 300px', marginBottom: 0 }}>
                 <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
                 <LightboxImage
-                  src={result ? `data:image/png;base64,${result.original_b64}` : URL.createObjectURL(file)}
+                  src={`data:image/png;base64,${result.original_b64}`}
                   alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
               </div>
-              {result && (
-                <div style={{ ...card, flex: '1 1 300px', marginBottom: 0 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                    <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                      Augmented — {result.metadata.preset}
-                    </div>
-                    <button style={btnSm} onClick={() => {
-                      const a = document.createElement('a'); a.href = `data:image/png;base64,${result.augmented_b64}`
-                      a.download = `augmented_${preset}.png`; a.click()
-                    }}>Download PNG</button>
+              <div style={{ ...card, flex: '1 1 300px', marginBottom: 0 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                  <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    Augmented — {result.metadata.preset}
                   </div>
-                  <LightboxImage src={`data:image/png;base64,${result.augmented_b64}`} alt={`Augmented — ${result.metadata.preset}`}
-                    style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+                  <button style={btnSm} onClick={() => {
+                    const a = document.createElement('a'); a.href = `data:image/png;base64,${result.augmented_b64}`
+                    a.download = `augmented_${preset}.png`; a.click()
+                  }}>Download PNG</button>
                 </div>
-              )}
+                <LightboxImage src={`data:image/png;base64,${result.augmented_b64}`} alt={`Augmented — ${result.metadata.preset}`}
+                  style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+              </div>
             </div>
           )}
         </div>
@@ -746,14 +744,14 @@ function CatalogueTab() {
           </button>
 
           {showResult && (
-            <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginTop: 12 }}>
-              <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
-                <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
-                <LightboxImage
-                  src={resultOriginal ? `data:image/png;base64,${resultOriginal}` : URL.createObjectURL(file)}
-                  alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
-              </div>
-              {resultAugmented && (
+            resultAugmented ? (
+              <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginTop: 12 }}>
+                <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
+                  <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
+                  <LightboxImage
+                    src={`data:image/png;base64,${resultOriginal}`}
+                    alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+                </div>
                 <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
                     <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
@@ -772,8 +770,12 @@ function CatalogueTab() {
                   <LightboxImage src={`data:image/png;base64,${resultAugmented}`} alt={resultLabel}
                     style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
                 </div>
-              )}
-            </div>
+              </div>
+            ) : (
+              <div style={{ ...card, marginTop: 8, color: '#aaa', fontSize: 13, textAlign: 'center', padding: '20px 16px' }}>
+                Apply an augmentation or pipeline to see the before/after result here.
+              </div>
+            )
           )}
         </div>
       )}
