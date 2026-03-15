@@ -845,7 +845,7 @@ function CatalogueTab() {
       {loadingCatalogue ? (
         <div style={{ color: '#888', padding: '20px 0' }}>Loading catalogue…</div>
       ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 10 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 10, minWidth: 0 }}>
           {filtered.map(entry => {
             const isEnabled = enabled.has(entry.name)
             const isExpanded = expanded.has(entry.name)
@@ -860,6 +860,7 @@ function CatalogueTab() {
                 background: isEnabled ? '#f0f4ff' : '#fff',
                 transition: 'border-color 0.15s, background 0.15s',
                 overflow: 'hidden',
+                minWidth: 0,
               }}>
                 {/* Card header */}
                 <div style={{ padding: '12px 14px 8px' }}>
@@ -967,7 +968,8 @@ function BatchSection({
   const [selectedSamples, setSelectedSamples] = useState<Set<string>>(new Set())
   const [loadingSamples, setLoadingSamples] = useState(false)
 
-  const effTotal = mode === 'per_template' ? batchFiles.length * copies : total
+  const totalInputs = batchFiles.length + selectedSamples.size
+  const effTotal = mode === 'per_template' ? totalInputs * copies : total
 
   // Load sample list when section opens
   useEffect(() => {
@@ -1114,9 +1116,9 @@ function BatchSection({
               <input type="number" min={1} max={1000} value={total}
                 onChange={e => setTotal(Math.max(1, parseInt(e.target.value) || 1))}
                 style={{ width: 100, fontSize: 13, padding: '4px 8px', borderRadius: 4, border: '1px solid #ccc' }} />
-              {batchFiles.length > 0 && (
+              {totalInputs > 0 && (
                 <span style={{ fontSize: 12, color: '#888' }}>
-                  sampled from {batchFiles.length} template{batchFiles.length !== 1 ? 's' : ''}
+                  sampled from {totalInputs} template{totalInputs !== 1 ? 's' : ''}
                 </span>
               )}
             </div>
@@ -1221,10 +1223,10 @@ export default function AugmentationLab() {
   const [tab, setTab] = useState<'preset' | 'catalogue'>('preset')
 
   return (
-    <div style={{ maxWidth: 1400, margin: '0 auto', padding: '24px 24px' }}>
+    <div style={{ maxWidth: 1400, margin: '0 auto', padding: '24px 24px', boxSizing: 'border-box', overflow: 'hidden' }}>
       <h2 style={{ margin: '0 0 4px', fontSize: 22 }}>Augmentation Lab</h2>
       <p style={{ color: '#666', margin: '0 0 20px', fontSize: 14 }}>
-        Apply document degradation presets or choose from individual Augraphy augmentations — previews auto-load on upload, with parameter tuning and multi-augmentation pipelines.
+        Apply degradation presets or pick individual augmentations from the catalogue — previews auto-load, parameters are tunable, multi-aug pipelines and batch runs supported.
       </p>
 
       {/* Tab switcher */}
@@ -1240,7 +1242,9 @@ export default function AugmentationLab() {
         ))}
       </div>
 
-      {tab === 'preset' ? <PresetTab /> : <CatalogueTab />}
+      {/* Keep both tabs mounted to preserve state (thumbnails, file) across tab switches */}
+      <div style={{ display: tab === 'preset' ? 'block' : 'none' }}><PresetTab /></div>
+      <div style={{ display: tab === 'catalogue' ? 'block' : 'none' }}><CatalogueTab /></div>
     </div>
   )
 }
