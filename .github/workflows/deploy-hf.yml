@@ -25,7 +25,7 @@ jobs:
           git config user.email "deploy-bot@github.com"
           git config user.name "GitHub Deploy Bot"
 
-          # Track binary file types via LFS
+          # Track binary file types via LFS (writes .gitattributes)
           git lfs track "*.ttf"
           git lfs track "*.otf"
           git lfs track "*.pdf"
@@ -33,6 +33,10 @@ jobs:
           git lfs track "*.jpg"
           git lfs track "*.jpeg"
           git lfs track "*.zip"
+
+          # Commit .gitattributes so working tree is clean before migrate
+          git add .gitattributes
+          git diff --cached --quiet || git commit -m "chore: track binary files with LFS [deploy]"
 
           # Migrate existing blobs in HEAD to LFS pointers
           # (rewrites only the local working copy — does not touch origin)
