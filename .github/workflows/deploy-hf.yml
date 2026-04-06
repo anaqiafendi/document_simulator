@@ -15,50 +15,36 @@ jobs:
           fetch-depth: 0
           lfs: false  # We'll handle LFS ourselves after migration
 
-      - name: Install Git LFS
-        run: |
-          sudo apt-get install -y git-lfs
-          git lfs install
-
-      - name: Convert binaries to LFS and push to Hugging Face Spaces
+      - name: Deploy to Hugging Face Spaces via Hub API
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           HF_USERNAME: ${{ secrets.HF_USERNAME }}
           HF_SPACE_NAME: ${{ secrets.HF_SPACE_NAME }}
         run: |
-          git config user.email "deploy-bot@github.com"
-          git config user.name "GitHub Deploy Bot"
+          pip install huggingface_hub
+          python - << 'EOF'
+          import os
+          from huggingface_hub import HfApi
 
-          HF_URL="https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/$HF_SPACE_NAME"
-          git remote add hf "$HF_URL"
-
-          # Write .gitattributes so LFS knows which types to track
-          cat > .gitattributes << 'ATTRS'
-          *.ttf filter=lfs diff=lfs merge=lfs -text
-          *.otf filter=lfs diff=lfs merge=lfs -text
-          *.pdf filter=lfs diff=lfs merge=lfs -text
-          *.png filter=lfs diff=lfs merge=lfs -text
-          *.jpg filter=lfs diff=lfs merge=lfs -text
-          *.jpeg filter=lfs diff=lfs merge=lfs -text
-          *.zip filter=lfs diff=lfs merge=lfs -text
-          ATTRS
-
-          # Remove binary files from the index (keeps working tree intact)
-          # then re-add them — LFS will now store them as pointers
-          git rm --cached -r --ignore-unmatch \
-            "*.ttf" "*.otf" "*.pdf" "*.png" "*.jpg" "*.jpeg" "*.zip"
-
-          git add .gitattributes
-          git add -- "*.ttf" "*.otf" "*.pdf" "*.png" "*.jpg" "*.jpeg" "*.zip" 2>/dev/null || true
-
-          # Stage any matched files found recursively
-          git add $(git ls-files --others --exclude-standard | grep -E "\.(ttf|otf|pdf|png|jpg|jpeg|zip)$") 2>/dev/null || true
-
-          git diff --cached --quiet || \
-            git commit -m "chore: convert binary blobs to LFS pointers [deploy]"
-
-          # Point LFS storage at the HF Space
-          git config "lfs.${HF_URL}.git/info/lfs.access" basic
-
-          # Push — git-lfs will upload objects to HF's LFS endpoint automatically
-          git push hf HEAD:main --force
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          api.upload_folder(
+              folder_path=".",
+              repo_id=f"{os.environ['HF_USERNAME']}/{os.environ['HF_SPACE_NAME']}",
+              repo_type="space",
+              ignore_patterns=[
+                  ".git",
+                  ".git/**",
+                  ".venv",
+                  ".venv/**",
+                  "__pycache__",
+                  "**/__pycache__/**",
+                  "node_modules",
+                  "node_modules/**",
+                  "webapp/.vite/deps/**",
+                  "*.pyc",
+                  "augraphy_cache/**",
+              ],
+              commit_message="deploy: sync from GitHub main",
+          )
+          print("Deploy complete.")
+          EOF
