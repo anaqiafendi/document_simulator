@@ -295,6 +295,356 @@ This project is highly feasible using existing open-source technologies. The rec
 
 ---
 
+## 2026-03-07 — JS Synthetic Document Generator UI
+
+### Context
+
+The Streamlit zone editor (`src/document_simulator/ui/pages/00_synthetic_generator.py`) is broken because `streamlit-drawable-canvas` (maintained by andfanilo) was archived on 2025-03-01 and is now read-only. The root cause is that Streamlit removed the `image_to_url` internal helper from `streamlit.elements.image` (moved to `image_utils`) in Streamlit ≥ 1.40. The original package raises `AttributeError: module 'streamlit.elements.image' has no attribute 'image_to_url'` on every canvas render. The project is already on Streamlit 1.54.0 (pinned via `streamlit>=1.32.0`).
+
+A community fork `streamlit-drawable-canvas-fix` exists on PyPI and patches the import path, but it is an unofficial stopgap with no long-term guarantee of tracking Streamlit API changes. Replacing the zone editor with a proper JavaScript SPA is the durable solution.
+
+The remaining five Streamlit pages (augmentation lab, OCR engine, batch processing, evaluation dashboard, RL training) are fully functional and must not be disrupted.
+
+---
+
+### 1. JS Libraries for Document Annotation / Zone Editors
+
+#### PDF Rendering
+
+| Library | Version (2026-03) | Licence | Weekly DLs | Verdict |
+|---|---|---|---|---|
+| `pdfjs-dist` | 5.5.207 | Apache 2.0 | ~8 M | **Best choice.** Mozilla's official PDF.js generic build. Low-level canvas rendering API. Worker script keeps rendering off the main thread. Must pin worker version to match `pdfjs-dist` version exactly — mismatches are the most common setup error. |
+| `react-pdf` | 9.x | MIT | ~950 K | Thin React wrapper around `pdfjs-dist`. Provides `<Document>` and `<Page>` components. Does not include annotations, form filling, or signatures. Good for rendering-only use cases; adds little value when the application needs a custom annotation layer anyway. |
+| `@react-pdf-viewer/core` | 3.12.0 | MIT | Low | Last published 3 years ago — **unmaintained**. Do not use. |
+
+**Decision: use `pdfjs-dist` directly.** `react-pdf` is a thin convenience wrapper; using `pdfjs-dist` directly avoids a middleman and gives full control of canvas layers needed for the zone overlay.
+
+**Server-side vs browser-side PDF rendering.** Two approaches exist:
+
+- **Server-side (PyMuPDF/FastAPI):** The Python backend opens the PDF with `fitz.open()`, calls `page.get_pixmap(dpi=150)`, converts to PNG bytes, base64-encodes, and returns from a FastAPI endpoint. The browser receives a flat PNG — no PDF parsing in JS. Simple and avoids cross-origin worker headaches.
+- **Browser-side (pdfjs-dist):** The browser fetches the raw PDF bytes and renders via `pdfjs-dist`. More interactive (zoom, text selection layer), but requires a Web Worker setup and careful CORS headers.
+
+**Recommended approach: server-side rendering for MVP.** The synthesis engine already uses PyMuPDF (`fitz.open(path)[page_num].get_pixmap(dpi=150)`) — re-using this path is zero additional code. The FastAPI endpoint returns `{ "image": "<base64 PNG>", "width": W, "height": H, "dpi": 150 }`. The browser composites the annotation canvas on top of an `<img>` element. Browser-side PDF rendering can be added later if zoom/text-layer is needed.
+
+#### Canvas / Annotation Layer
+
+| Library | Licence | React binding | Maintenance | Fit |
+|---|---|---|---|---|
+| **Konva.js + react-konva** | MIT | `react-konva` (official) | Active (2014–present) | **Best fit.** Declarative React API. Drag-and-drop, resizable rectangles, hit detection all built in. Lightweight (~130 KB gzipped). Used for design editors, annotation tools, interactive maps. |
+| Fabric.js | MIT | No official binding; imperative API | Active | More features (filters, SVG export) but heavier (~300 KB) and requires manual React lifecycle bridging. Overkill for rectangle annotation. |
+| Plain HTML5 Canvas | — | — | N/A | Maximum control; high implementation cost. Not worth it when Konva provides exactly what is needed. |
+| `@excalidraw/excalidraw` | MIT | React | Active | Whiteboard tool — wrong abstraction for form zone definition. |
+
+**Decision: `react-konva`.** The zone editor needs exactly what Konva provides: draggable resizable `<Rect>` components rendered on top of an `<Image>` background, with click-to-select and coordinate read-back. The `react-konva` pattern maps cleanly: one Konva `Stage` → one Konva `Layer` for the background image → one Konva `Layer` for zone rectangles. Zone coordinates are read directly from Konva node attributes (`x`, `y`, `width`, `height`) in screen pixels and scaled to document pixels: `doc_px = screen_px * (render_dpi / display_dpi)`.
+
+---
+
+### 2. JS Framework Choice
+
+| Framework | Bundle (runtime) | Ecosystem | Hiring pool | Streamlit component support | Verdict |
+|---|---|---|---|---|---|
+| **React 18** | ~42 KB | Largest | Very large | First-class (`streamlit/component-template` ships React + Vite) | **Recommended** |
+| Vue 3 | ~16 KB | Large | Large | Community template available | Good alternative |
+| Svelte 5 | ~1.6 KB | Growing | Smaller | Less documented for Streamlit components | Best perf, weakest ecosystem |
+
+**Decision: React 18 + TypeScript + Vite.**
+
+Rationale:
+- The Streamlit official component template (`streamlit/component-template` v2) ships a React 18 + Vite 6 + TypeScript 5 starter out of the box, meaning bidirectional communication boilerplate is already solved.
+- `react-konva` is a first-class React library.
+- `pdfjs-dist` has the most React examples and integration guides.
+- React dominates the document-tooling SaaS ecosystem (DocuSign, HelloSign, PDF.js Express all publish React SDKs or examples). Future library additions are more likely to have React bindings.
+- The development team already works in Python; React has the largest hiring pool if a dedicated frontend developer is ever brought in.
+
+---
+
+### 3. Python Backend API
+
+#### Options Evaluated
+
+| Option | Verdict |
+|---|---|
+| **FastAPI** | Recommended. Async, type-annotated, Pydantic-native, ships `StaticFiles` for serving the React build. `uvicorn` startup is a single line. |
+| Flask | Synchronous by default. Pydantic integration requires extra glue. No strong reason to prefer it. |
+| Starlette | FastAPI is built on Starlette. Use FastAPI unless zero-overhead is critical. |
+| Django REST | Massive overkill for an internal tool API. |
+
+**Decision: FastAPI + uvicorn.**
+
+The synthesis engine (`SyntheticDocumentGenerator`, `SynthesisConfig`, `ZoneDataSampler`, etc.) is pure Python with Pydantic models. FastAPI endpoints map 1:1 to the existing Python API:
+
+```
+POST /api/synthesis/render-template   → TemplateLoader.load() → base64 PNG
+POST /api/synthesis/preview           → generator.generate_one(seed) → base64 PNG
+POST /api/synthesis/generate          → generator.generate(n, write=True) → { output_dir, count }
+GET  /api/synthesis/config/schema     → SynthesisConfig.model_json_schema()
+POST /api/synthesis/config/validate   → SynthesisConfig.model_validate(payload)
+GET  /api/synthesis/download/{job_id} → StreamingResponse(zip_bytes)
+```
+
+`SynthesisConfig` is already a Pydantic `BaseModel` with `model_dump_json()` / `model_validate()`, so JSON serialisation is zero-cost.
+
+#### How to Run Alongside Streamlit
+
+The standard deployment pattern is two separate processes:
+
+```
+# Terminal 1 — Streamlit (existing pages, port 8501)
+uv run streamlit run src/document_simulator/ui/app.py
+
+# Terminal 2 — FastAPI + React zone editor (port 8000)
+uv run uvicorn document_simulator.api.app:app --port 8000 --reload
+```
+
+FastAPI serves the React build as static files via `app.mount("/", StaticFiles(directory="frontend/dist", html=True))`. All API routes are prefixed `/api/...` so the SPA catch-all does not shadow them.
+
+The Streamlit page `00_synthetic_generator.py` is replaced with a simple redirect page:
+
+```python
+# 00_synthetic_generator.py (replacement stub)
+import streamlit as st
+st.info("The Synthetic Document Generator has moved to the standalone zone editor.")
+st.markdown("[Open Zone Editor](http://localhost:8000)", unsafe_allow_html=True)
+```
+
+This preserves the sidebar navigation entry without breaking anything.
+
+**Alternative: Streamlit Custom Component (iframe).** The React app can also be embedded as a Streamlit custom component via `st.components.v1.iframe("http://localhost:8000", height=900)`. This keeps the navigation experience inside Streamlit but introduces a same-origin restriction for `Streamlit.setComponentValue()` callbacks. The standalone app on a separate port is simpler and more flexible for a tool this complex.
+
+---
+
+### 4. Packaging the React App Alongside the Python Package
+
+The React source lives at `frontend/` at the repo root (sibling to `src/`). It is a standard Vite project:
+
+```
+frontend/
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── components/
+    │   ├── ZoneCanvas.tsx      # react-konva stage + zone Rects
+    │   ├── TemplateDisplay.tsx # img tag from server-rendered PNG
+    │   ├── ZoneList.tsx        # sidebar list of zones
+    │   ├── RespondentPanel.tsx # respondent + field type config
+    │   └── PreviewGallery.tsx  # 3-sample preview grid
+    └── api/
+        └── client.ts           # typed fetch wrappers for /api/synthesis/*
+```
+
+Build output (`frontend/dist/`) is committed to the repo or generated in CI. The FastAPI app mounts it:
+
+```python
+# src/document_simulator/api/app.py
+from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+
+app = FastAPI()
+# API routes registered first
+app.include_router(synthesis_router, prefix="/api/synthesis")
+# SPA catch-all last
+app.mount("/", StaticFiles(directory="frontend/dist", html=True), name="frontend")
+```
+
+The `pyproject.toml` can add a `[project.scripts]` entry:
+
+```toml
+document-simulator-api = "document_simulator.api.app:run"
+```
+
+Where `run()` calls `uvicorn.run("document_simulator.api.app:app", host="0.0.0.0", port=8000)`.
+
+**No Node.js at runtime.** The React app is pre-built (`npm run build`) and the output is static HTML/JS/CSS. End users need only Python + uv.
+
+---
+
+### 5. PDF Page Rendering in the Browser
+
+#### Option A: Server-side rendering via PyMuPDF (Recommended for MVP)
+
+The FastAPI endpoint `POST /api/synthesis/render-template` accepts the uploaded PDF bytes (as multipart/form-data), opens it with `fitz.open(stream=pdf_bytes, filetype="pdf")`, renders page 0 at 150 DPI, encodes to base64 PNG, and returns:
+
+```json
+{
+  "image_b64": "...",
+  "width_px": 1240,
+  "height_px": 1754,
+  "dpi": 150
+}
+```
+
+The React component renders `<img src={`data:image/png;base64,${image_b64}`} />` behind the Konva stage. Zone coordinates drawn on the Konva stage are in screen pixels; scaling to document pixels requires the display scale factor: `doc_x = canvas_x * (doc_width_px / canvas_display_width_px)`.
+
+**Advantages:** Zero JS PDF-parsing complexity. No CORS worker headache. PyMuPDF already a dependency. Works for image templates too (same endpoint, different handler branch).
+
+**Disadvantages:** PDF must round-trip to server. No browser-side zoom/text-layer without re-fetching.
+
+#### Option B: Browser-side rendering via pdfjs-dist
+
+The frontend loads `pdfjs-dist` (Apache 2.0, latest 5.5.207), sets `GlobalWorkerOptions.workerSrc` to the matching worker script from the same package version (critical: mismatched versions cause silent failures), fetches the raw PDF bytes from the server, and renders into a hidden `<canvas>`. The rendered canvas is then used as the Konva background image.
+
+**Advantages:** Zoom without re-fetching. Text selection layer possible. Thumbnail navigation for multi-page documents.
+
+**Disadvantages:** Worker setup is finicky. CORS headers required on PDF serving endpoint. pdfjs-dist version and worker must be pinned together.
+
+**Recommendation:** Start with server-side (Option A) for MVP. Add Option B incrementally when multi-page navigation or zoom is needed.
+
+---
+
+### 6. Relevant Patterns in This Codebase
+
+- **Pydantic everywhere:** `SynthesisConfig`, `ZoneConfig`, `RespondentConfig`, `FieldTypeConfig`, `GeneratorConfig` are all `BaseModel`. FastAPI natively accepts and validates Pydantic models as request/response bodies — no serialisation glue required.
+- **PyMuPDF already a dependency:** `pymupdf>=1.23.0` is in `pyproject.toml` core dependencies. The template rendering path in `TemplateLoader` (`fitz.open().get_pixmap(dpi=150)`) is already implemented in `src/document_simulator/synthesis/template.py`.
+- **Generator API is clean and synchronous:** `SyntheticDocumentGenerator.generate_one(seed)` and `generate(n, write=True)` are pure Python with no async dependencies. FastAPI can call them directly in a route handler (use `run_in_executor` or `BackgroundTasks` for batch generation to avoid blocking the event loop).
+- **GroundTruth JSON format is documented:** `AnnotationBuilder.build()` produces `GroundTruth` which `GroundTruthLoader` can re-read. FastAPI can return the same JSON structure — the React preview panel can render it as a zone overlay.
+- **Existing `overlay_bboxes()` component:** Lives in `src/document_simulator/ui/components/image_display.py`. The React equivalent is Konva `<Rect>` components with `stroke` colour matching respondent ink colour and a Konva `<Text>` label. Same concept, different runtime.
+
+---
+
+### 7. Known Gotchas, Performance Considerations, and Compatibility Constraints
+
+| Issue | Detail | Mitigation |
+|---|---|---|
+| `streamlit-drawable-canvas` archived | Original repo read-only from 2025-03-01. `streamlit-drawable-canvas-fix` on PyPI is an unofficial patch fork. | Remove `streamlit-drawable-canvas` and `streamlit-image-coordinates` from `pyproject.toml` dependencies once the JS replacement is live. |
+| PyMuPDF AGPL licence | AGPL triggers on external distribution. Already documented in feature spec and accepted for internal use. | No change needed. |
+| FastAPI + uvicorn not in dependencies | Neither is in `pyproject.toml` yet. | Add `fastapi>=0.111.0` and `uvicorn[standard]>=0.30.0` to core dependencies (or a new `[project.optional-dependencies] api` group). |
+| CORS between Streamlit (8501) and FastAPI (8000) | If the Streamlit pages ever call the FastAPI API directly via `requests`, there is no CORS issue (server-to-server). If the React app (served on 8000) calls FastAPI on the same origin (8000), no CORS issue. Cross-origin only arises if the React app is served on a different origin than the FastAPI API. | Serve React from FastAPI (same origin). |
+| Large PDF upload size | `fitz.open(stream=bytes)` loads the whole PDF into memory. | Limit upload size via FastAPI `UploadFile` max-size; render only the requested page on demand. |
+| Konva coordinate system | Konva `Stage` uses CSS pixels, not device pixels. On HiDPI displays the stage appears blurry unless `scaleX/scaleY` is set to `window.devicePixelRatio` and CSS width/height are set accordingly. | Apply the standard Konva HiDPI pattern: `stage.width(containerWidth * ratio); stage.scale({ x: ratio, y: ratio })`. |
+| react-konva peer dependency | `react-konva` requires `react` and `react-dom` as peer dependencies. Must be the same React version. | Standard Vite + React setup satisfies this automatically. |
+| Batch generation blocking the event loop | `generate(n=1000, write=True)` is CPU-bound (PIL rendering). Calling it directly in a FastAPI route blocks the uvicorn worker. | Use `fastapi.BackgroundTasks` or `asyncio.get_event_loop().run_in_executor(None, generate_fn)` to offload to a thread pool. Return a job ID immediately; the client polls `GET /api/synthesis/job/{job_id}` for status. |
+| NumPy < 2.0 constraint | Already pinned in `pyproject.toml` (`numpy>=1.26.0,<2.0.0`) for PaddlePaddle compatibility. No impact on the JS frontend or FastAPI. | No action needed. |
+| Node.js build step | Developers need Node.js (≥ 18) installed to rebuild the frontend. The pre-built `frontend/dist/` can be committed to avoid this for most contributors. | Add a `Makefile` or `justfile` target: `make build-frontend` that runs `cd frontend && npm install && npm run build`. |
+
+---
+
+### 8. Recommended Implementation Approach
+
+**Architecture: FastAPI + React 18 + Vite + react-konva + pdfjs-dist (server-side rendering MVP)**
+
+#### Phase 1: FastAPI backend (2–3 days)
+
+1. Create `src/document_simulator/api/` package:
+   - `app.py` — FastAPI app, CORS middleware, router registration, static file mount
+   - `routers/synthesis.py` — `/render-template`, `/preview`, `/generate`, `/config/validate`, `/job/{id}`
+   - `models.py` — FastAPI-specific request/response models (thin wrappers or re-exports of existing Pydantic models)
+2. Add `fastapi>=0.111.0` and `uvicorn[standard]>=0.30.0` to `pyproject.toml` (core dependencies or new `api` optional group).
+3. Write pytest tests for each endpoint using `httpx.AsyncClient` and `FastAPI.TestClient`.
+
+#### Phase 2: React frontend scaffold (1–2 days)
+
+1. `cd frontend && npm create vite@latest . -- --template react-ts`
+2. Install: `npm install react-konva konva pdfjs-dist`
+3. Configure `vite.config.ts` to proxy `/api` to `http://localhost:8000` during development.
+4. Build `api/client.ts` with typed fetch wrappers for all synthesis endpoints.
+
+#### Phase 3: Zone editor components (3–5 days)
+
+1. `TemplateDisplay.tsx` — renders server-provided base64 PNG as a Konva `Image` node.
+2. `ZoneCanvas.tsx` — Konva `Stage` + `Layer`. Draw mode: mouse-down starts a new `Rect`, mouse-up finalises it. Select mode: click to select, drag handles to resize. Each zone is a Konva `Rect` + `Text` label. Zone state lives in React `useState` / `useReducer`.
+3. `RespondentPanel.tsx` — sidebar with respondent cards and field type sub-cards. Mirrors the Streamlit expander layout from the feature spec. Colour pickers, font selectors, fill style radios, jitter sliders.
+4. `ZoneList.tsx` — list of placed zones with respondent/field-type dropdowns and faker provider selector.
+5. `PreviewGallery.tsx` — fetches 3 preview PNGs from `/api/synthesis/preview` in parallel. Re-roll button calls the same endpoint with a different seed.
+
+#### Phase 4: Batch generation + download (1 day)
+
+1. "Generate batch" button calls `POST /api/synthesis/generate` with `write=true`. Returns `{ job_id }`.
+2. Client polls `GET /api/synthesis/job/{job_id}` every 2 s until `status === "done"`.
+3. Download link calls `GET /api/synthesis/download/{job_id}` which streams a ZIP of all PNGs + JSONs.
+
+#### Phase 5: Streamlit stub page (30 min)
+
+Replace `src/document_simulator/ui/pages/00_synthetic_generator.py` with a stub that shows a link/iframe to the zone editor. The five remaining Streamlit pages are untouched.
+
+#### Phase 6: Cleanup (1 day)
+
+- Remove `streamlit-drawable-canvas>=0.9.0` and `streamlit-image-coordinates>=0.1.4` from `pyproject.toml` dependencies.
+- Remove `streamlit_drawable_canvas.*` and `streamlit_image_coordinates.*` from `[tool.mypy.overrides]`.
+- Run full test suite: `uv run pytest -m "not slow" -q`.
+
+**Total estimated effort: 8–12 developer-days.**
+
+---
+
+### 9. Alternatives Considered and Why They Are Inferior
+
+| Alternative | Why Inferior |
+|---|---|
+| `streamlit-drawable-canvas-fix` (unofficial fork) | Unofficial, unarchived stopgap. No guarantee of tracking future Streamlit API changes. Does not address the fundamental problem that `streamlit-drawable-canvas` is abandoned. Acceptable as a 1-day hotfix but not a durable solution. |
+| Rebuild zone editor as a pure Streamlit page with numeric inputs (no canvas drawing) | Loses the core DocuSign-style drag-to-place UX described in the feature spec (AC-11). Zone placement via `x1, y1, x2, y2` number inputs is functional but frustrating for non-developers placing 10+ zones on a form. |
+| Label Studio embedded via `st.components.v1.iframe` | Label Studio is a heavy annotation tool (Docker or pip install, ~200 MB). Launching it as a subprocess adds operational complexity. Its UI is not DocuSign-like and does not integrate with `SynthesisConfig`. Overkill. |
+| CVAT | Same issues as Label Studio. Web-based but requires a full server deployment (PostgreSQL, Redis, nginx). |
+| Streamlit custom component (React + `streamlit-component-lib`) | Valid approach, but the bidirectional communication API (`Streamlit.setComponentValue`) is limited: it sends one value per interaction and requires a Python rerun for every canvas event. The zone editor needs continuous interaction (drag, resize, select, configure). Embedding as a full SPA on a separate port is cleaner. |
+| Next.js instead of Vite + React | Next.js is a full-stack framework with SSR. The zone editor is a pure SPA with no SSR requirements. Vite produces a smaller, simpler build. Next.js adds deployment complexity (Node.js server required at runtime). |
+| Vue 3 instead of React | Vue 3 is a good choice, but `react-konva` has no Vue equivalent with the same maturity. Konva's own Vue binding (`vue-konva`) exists but is less actively maintained. The Streamlit component template also favours React. |
+
+---
+
+### 10. Preserving the Existing Streamlit Pages
+
+The five functional Streamlit pages must not be touched:
+
+| Page | File | Status |
+|---|---|---|
+| Augmentation Lab | `01_augmentation_lab.py` | Intact |
+| OCR Engine | `02_ocr_engine.py` | Intact |
+| Batch Processing | `03_batch_processing.py` | Intact |
+| Evaluation Dashboard | `04_evaluation.py` | Intact |
+| RL Training | `05_rl_training.py` | Intact |
+
+The only change to the Streamlit app is:
+- `00_synthetic_generator.py` is replaced with a stub redirect page (no business logic removed — all business logic lives in `src/document_simulator/synthesis/` which is unchanged).
+- `streamlit-drawable-canvas` and `streamlit-image-coordinates` are removed from `pyproject.toml`. The stub page does not import them.
+- The Streamlit app (`app.py`) home page and navigation are unchanged.
+
+The FastAPI server is an additive new entry point. It imports from `document_simulator.synthesis.*` (existing, unchanged). It does not modify or replace any existing module.
+
+---
+
+### Summary Table
+
+| Decision | Choice | Rationale |
+|---|---|---|
+| JS framework | React 18 + TypeScript + Vite | Largest ecosystem, first-class Streamlit component template, react-konva requires React |
+| Canvas / annotation layer | react-konva (MIT) | Declarative React API, drag-resize rectangles, active maintenance since 2014 |
+| PDF rendering | PyMuPDF server-side → base64 PNG (MVP) | Zero new dependencies, already in codebase, avoids pdfjs-dist worker complexity |
+| Python API | FastAPI + uvicorn | Pydantic-native, async, StaticFiles for SPA serving, zero friction with existing models |
+| Deployment | FastAPI on :8000 serves React + API; Streamlit on :8501 serves other pages | Clean separation, no interference, standard two-process pattern |
+| Existing pages | Untouched | Only `00_synthetic_generator.py` is replaced with a redirect stub |
+| Removed dependencies | `streamlit-drawable-canvas`, `streamlit-image-coordinates` | Both broken/archived; zone editor no longer uses them |
+| Added dependencies | `fastapi>=0.111.0`, `uvicorn[standard]>=0.30.0` | Required for the API server |
+
+---
+
+### Sources Consulted
+
+- [react-pdf npm](https://www.npmjs.com/package/react-pdf)
+- [react-pdf GitHub (wojtekmaj)](https://github.com/wojtekmaj/react-pdf)
+- [pdfjs-dist npm](https://www.npmjs.com/package/pdfjs-dist)
+- [PDF.js Getting Started](https://mozilla.github.io/pdf.js/getting_started/)
+- [react-pdf-highlighter (agentcooper)](https://github.com/agentcooper/react-pdf-highlighter)
+- [Konva.js documentation — React](https://konvajs.org/docs/react/index.html)
+- [react-konva npm](https://www.npmjs.com/package/react-konva)
+- [react-konva GitHub (MIT licence)](https://github.com/konvajs/react-konva/blob/master/LICENSE)
+- [Konva vs Fabric comparison (DEV Community)](https://dev.to/lico/react-comparison-of-js-canvas-libraries-konvajs-vs-fabricjs-1dan)
+- [Konva vs Fabric npm-compare](https://npm-compare.com/fabric,konva)
+- [streamlit-drawable-canvas issue #157 — image_to_url](https://github.com/andfanilo/streamlit-drawable-canvas/issues/157)
+- [streamlit-drawable-canvas-fix on PyPI](https://pypi.org/project/streamlit-drawable-canvas-fix/)
+- [Streamlit Custom Components — intro](https://docs.streamlit.io/develop/concepts/custom-components/intro)
+- [Streamlit component-template (GitHub)](https://github.com/streamlit/component-template)
+- [streamlit-component-template-react-hooks (whitphx)](https://github.com/whitphx/streamlit-component-template-react-hooks)
+- [FastAPI Static Files](https://fastapi.tiangolo.com/tutorial/static-files/)
+- [Serving React with FastAPI](https://www.deeplearningnerds.com/how-to-serve-a-react-app-with-fastapi-using-static-files/)
+- [FastAPI + Streamlit ML serving (TestDriven.io)](https://testdriven.io/blog/fastapi-streamlit/)
+- [Build React PDF viewer with pdfjs-dist (Nutrient)](https://www.nutrient.io/blog/how-to-build-a-reactjs-viewer-with-pdfjs/)
+- [Top 6 React PDF Viewer Libraries 2025](https://blog.react-pdf.dev/top-6-pdf-viewers-for-reactjs-developers-in-2025)
+- [React vs Vue vs Svelte 2026 (Medium)](https://medium.com/h7w/react-vs-vue-vs-svelte-we-rebuilt-our-saas-in-all-three-heres-what-broke-1f166d22e26d)
+- [PyMuPDF documentation](https://pymupdf.readthedocs.io/en/latest/tutorial.html)
+---
+
 ## 2026-03-07 — Multi-Template Batch Augmentation
 
 ### Context
@@ -1020,3 +1370,173 @@ Introspected constructor signatures for all 28 missing augraphy 8.2.6 classes.
 - `BindingsAndFasteners`: set `use_figshare_library=0` (int, not bool) to avoid network calls
 - `numba_jit=0` required for: `PatternGenerator`, `VoronoiTessellation`, `PageBorder`, `Faxify`, `LensFlare`, `LightingGradient`, `Moire`, `DotMatrix`
 - Slow augmentations (skip auto-thumbnails): `BindingsAndFasteners`, `PageBorder`, `VoronoiTessellation`, `DelaunayTessellation`
+
+---
+
+## 2026-03-12 — Streamlit to React Migration
+
+### Goal
+
+Migrate all 5 Streamlit pages (Augmentation Lab, OCR Engine, Batch Processing, Evaluation Dashboard, RL Training) into the existing React 18 + TypeScript + Vite SPA (`webapp/`) backed by the existing FastAPI server (`src/document_simulator/api/`).
+
+### Existing Frontend Stack
+
+- **React 18 + TypeScript + Vite** in `webapp/`
+- **Konva / react-konva** for canvas drawing (zone editor)
+- **No routing library** — currently a single-page app rendering `App.tsx` (the zone editor)
+- **No charting library** — charts needed for CER/WER/confidence (Evaluation) and reward curve (RL Training)
+- **API client** in `webapp/src/api/client.ts` using raw `fetch` against same-origin `/api/*`
+- **Types** in `webapp/src/types/index.ts`
+
+### Existing Backend Stack
+
+- **FastAPI** app in `src/document_simulator/api/app.py`
+- **Jobs module** in `src/document_simulator/api/jobs.py` — `create_job / get_job / update_job` with in-memory `JobState` dataclass
+- **Synthesis router** (`src/document_simulator/api/routers/synthesis.py`) — handles template upload, preview, generate, download, samples
+- **`python-multipart>=0.0.9`** already in `pyproject.toml` (required for file uploads)
+- **`fastapi>=0.111.0`** already present
+
+### Streamlit Pages — What Each Needs
+
+#### 01 Augmentation Lab
+- Preset selector: `light | medium | heavy` (from `PresetFactory`)
+- Image/PDF upload
+- Catalogue mode: pick individual augmentations and tune parameters (advanced)
+- Before/after display (side-by-side)
+- Download result as PNG or PDF
+
+**FastAPI endpoints needed:**
+- `GET /api/augmentation/presets` → `["light","medium","heavy","default"]`
+- `POST /api/augmentation/augment` → multipart: `file` (image), `preset` (str) → `{"image_b64": str, "metadata": {...}}`
+
+#### 02 OCR Engine
+- Image/PDF upload
+- Language selector, GPU checkbox
+- Run OCR → annotated image with bboxes, text area, region table
+- Optional ground truth .txt upload → CER/WER
+
+**FastAPI endpoints needed:**
+- `POST /api/ocr/recognize` → multipart: `file` (image), `lang` (str), `use_gpu` (bool) → `{"text": str, "boxes": [...], "scores": [...], "mean_confidence": float}`
+
+#### 03 Batch Processing
+- Multi-file upload
+- Preset selector, worker count, mode (single/NxM/M-total)
+- Start job, poll progress, download ZIP
+
+**FastAPI endpoints needed:**
+- `POST /api/batch/process` → multipart: `files` (list), `preset` (str), `mode` (str), `copies` (int), `total_outputs` (int), `seed` (int) → `{"job_id": str}`
+- `GET /api/batch/jobs/{job_id}` → job status (reuse jobs module)
+- `GET /api/batch/jobs/{job_id}/download` → ZIP StreamingResponse
+
+#### 04 Evaluation Dashboard
+- ZIP upload or local directory path
+- Augmentation preset, GPU toggle
+- Run evaluation → CER/WER/confidence metrics, bar charts, summary table
+
+**FastAPI endpoints needed:**
+- `POST /api/evaluation/run` → multipart: `zip_file` (optional), `dataset_dir` (optional str), `preset` (str) → `{"job_id": str}`
+- `GET /api/evaluation/jobs/{job_id}` → job status + result metrics when done
+
+#### 05 RL Training
+- Dataset directory / ZIP upload
+- Hyperparameter form (lr, batch_size, n_steps, num_envs, total_steps, ckpt_freq)
+- Start/Stop training (background thread)
+- Live reward chart updates
+
+**FastAPI endpoints needed:**
+- `POST /api/rl/train` → JSON body with config → `{"job_id": str}`
+- `GET /api/rl/jobs/{job_id}/status` → `{status, progress, step, reward, error}`
+- `GET /api/rl/jobs/{job_id}/metrics` → `{reward_curve: [{step, reward}], loss_curve: []}`
+
+### Navigation Strategy
+
+Add **React Router v6** (`react-router-dom`) to support multi-page navigation:
+- `"/"` → Synthetic Generator (existing `App.tsx`)
+- `"/augmentation"` → Augmentation Lab
+- `"/ocr"` → OCR Engine
+- `"/batch"` → Batch Processing
+- `"/evaluation"` → Evaluation Dashboard
+- `"/rl"` → RL Training
+
+Add a persistent `<NavBar>` component rendered outside routes.
+
+### Charting Library
+
+**Recharts** (MIT, ~500KB gzipped 130KB) — chosen because:
+- React-native (uses SVG, no D3 dependency)
+- Simple `<BarChart>`, `<LineChart>` with declarative JSX matching existing React pattern
+- Active maintenance, 22k GitHub stars
+- Small bundle impact vs Plotly (5MB)
+
+Alternative considered: **Chart.js + react-chartjs-2** — Canvas-based, slightly smaller, but less idiomatic for React.
+
+### File Upload Handling
+
+- React: `<input type="file" multiple>` with `FormData` sent to FastAPI
+- FastAPI: `UploadFile` for single files; `List[UploadFile]` for batch
+- Images decoded with PIL in Python, converted to base64 PNG for React display
+- `python-multipart` already installed
+
+### Background Tasks (Batch, Evaluation, RL)
+
+- Pattern already established by synthesis router: `BackgroundTasks` + jobs module
+- React polls `GET /api/*/jobs/{job_id}/status` every 2s while status is `running|pending`
+- On `done`, enable download button
+- RL training uses `threading.Thread` (same as Streamlit page) because SB3 PPO is not async-compatible
+
+### Key Constraints
+
+- OCR engine (`OCREngine`) is expensive to initialise — lazy-load as module-level singleton in the router, cached after first call
+- SB3/PPO training: must run in a daemon thread; FastAPI `BackgroundTasks` spawns a thread anyway
+- Batch augmentation: `BatchAugmenter` uses Python `multiprocessing` internally — safe to call from a background thread in FastAPI
+- No streaming SSE needed — polling every 2s is sufficient given typical job durations (augmentation ~1-30s, OCR ~0.5-5s, evaluation ~30-300s, RL training ~minutes)
+
+### Package.json Changes
+
+Add to `webapp/package.json`:
+```json
+"react-router-dom": "^6.23.0",
+"recharts": "^2.12.0"
+```
+Dev deps: `"@types/recharts"` is not needed — recharts ships its own TypeScript types since v2.
+
+
+---
+
+## 2026-03-12 — Free Hosting for JS App
+
+### Context
+
+The Document Simulator React SPA + FastAPI backend currently runs locally only. This section documents research into free hosting options to make the app publicly accessible.
+
+### Options Evaluated
+
+#### Frontend-only (React SPA)
+- **Vercel / Netlify / Cloudflare Pages** — all free, excellent CDN, auto-deploy from GitHub. But require a separate backend host. CORS configuration needed.
+- **GitHub Pages** — free, static only, needs a separate backend.
+
+#### Backend (FastAPI + Python)
+- **Render free tier** — supports Python/Docker but **spins down after 15 min of inactivity** (cold-start ~30s). Unacceptable for demo use.
+- **Railway** — free trial ($5 credit) then paid. Not truly free.
+- **Google Cloud Run** — free tier (2M requests/month) but cold-starts and complex setup.
+- **Fly.io** — 3 free shared VMs, Docker, good Python support. Cold-start possible.
+
+#### Full-Stack (Frontend + Backend in one container)
+- **Hugging Face Spaces (Docker SDK)** ✅ **Recommended**
+  - Free forever, no credit card required
+  - 2 vCPUs, **16GB RAM** — enough for synthesis + augraphy
+  - **No cold-start** — containers stay alive
+  - Git-based deployment: `git push` → auto rebuild
+  - ML/demo ecosystem — good for discovery
+  - Port 7860 expected by default
+
+### Decision: Hugging Face Spaces with Docker
+
+Single Docker container serving both React SPA (as static files via FastAPI) and the Python API. Multi-stage Dockerfile: Node.js builds `webapp/dist/`, Python stage copies it and runs `uvicorn`.
+
+**Excluded from Docker image:** `paddleocr`, `paddlepaddle`, `stable-baselines3`, `gymnasium` — these add ~2.5GB and are not needed for the synthesis demo.
+
+### References
+- [HF Spaces Docker docs](https://huggingface.co/docs/hub/spaces-sdks-docker)
+- [Render free tier limitations](https://render.com/docs/free#free-web-services)
+- [Fly.io free allowances](https://fly.io/docs/about/pricing/#free-allowances)

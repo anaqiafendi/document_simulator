@@ -91,12 +91,16 @@ class SyntheticDocumentGenerator:
                 {
                     "box": zone.box,
                     "text": text,
+                    "page": zone.page,
+                    "label": zone.label,
+                    "faker_provider": zone.faker_provider,
                     "respondent": zone.respondent_id,
                     "field_type": zone.field_type_id,
-                    # Style info needed for PDF write-back
                     "font_family": style.font_family,
                     "font_size": style.font_size,
                     "font_color": style.font_color,
+                    "alignment": zone.alignment,
+                    "fill_style": style.fill_style,
                 }
             )
 
@@ -110,7 +114,7 @@ class SyntheticDocumentGenerator:
         """Generate a single document image and its annotation."""
         canvas, rendered_regions = self._generate_internal(seed)
         image_path = f"doc_{seed:06d}.png"
-        gt = AnnotationBuilder.build(image_path=image_path, rendered_regions=rendered_regions)
+        gt = AnnotationBuilder.build(image_path=image_path, rendered_regions=rendered_regions, seed=seed)
         return canvas, gt
 
     def generate_one_pdf(self, seed: int) -> tuple[Image.Image, GroundTruth, bytes]:
@@ -129,7 +133,7 @@ class SyntheticDocumentGenerator:
 
         canvas, rendered_regions = self._generate_internal(seed)
         image_path = f"doc_{seed:06d}.pdf"
-        gt = AnnotationBuilder.build(image_path=image_path, rendered_regions=rendered_regions)
+        gt = AnnotationBuilder.build(image_path=image_path, rendered_regions=rendered_regions, seed=seed)
 
         dpi = self._template_kwargs.get("dpi", 150)
         pdf_out = PDFZoneWriter.write(
