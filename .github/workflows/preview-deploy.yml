@@ -1,0 +1,124 @@
+name: PR Preview Deploy
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches: [dev, main]
+
+jobs:
+  deploy-preview:
+    if: github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy preview to HF Spaces
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_USERNAME: ${{ secrets.HF_USERNAME }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          pip install huggingface_hub
+          python - << 'EOF'
+          import os
+          from huggingface_hub import HfApi
+
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          username = os.environ["HF_USERNAME"]
+          pr_number = os.environ["PR_NUMBER"]
+          repo_id = f"{username}/document-simulator-pr-{pr_number}"
+
+          # Create the space if it doesn't exist yet
+          try:
+              api.create_repo(
+                  repo_id=repo_id,
+                  repo_type="space",
+                  space_sdk="docker",
+                  exist_ok=True,
+              )
+              print(f"Space ready: {repo_id}")
+          except Exception as e:
+              print(f"create_repo: {e}")
+
+          # Upload current code to the space
+          api.upload_folder(
+              folder_path=".",
+              repo_id=repo_id,
+              repo_type="space",
+              ignore_patterns=[
+                  ".git", ".git/**",
+                  ".venv", ".venv/**",
+                  "__pycache__", "**/__pycache__/**",
+                  "node_modules", "node_modules/**",
+                  "webapp/.vite/deps/**",
+                  "*.pyc",
+                  "augraphy_cache/**",
+              ],
+              commit_message=f"preview: PR #{pr_number}",
+          )
+
+          space_url = f"https://huggingface.co/spaces/{repo_id}"
+          print(f"SPACE_URL={space_url}")
+
+          # Write URL to file for next step
+          with open("/tmp/space_url.txt", "w") as f:
+              f.write(space_url)
+          EOF
+
+          SPACE_URL=$(cat /tmp/space_url.txt)
+
+          # Post or update PR comment with the preview URL
+          COMMENT_BODY="## Preview deployment
+
+          | | |
+          |---|---|
+          | **Space** | [$SPACE_URL]($SPACE_URL) |
+          | **PR** | #$PR_NUMBER — $PR_TITLE |
+          | **Status** | Building (HF Spaces may take 1–3 min to start) |
+
+          > This preview is rebuilt on every push to this PR and deleted when the PR closes."
+
+          # Check if a preview comment already exists and update it, otherwise create
+          EXISTING=$(gh api repos/$REPO/issues/$PR_NUMBER/comments \
+            --jq '.[] | select(.body | contains("Preview deployment")) | .id' | head -1)
+
+          if [ -n "$EXISTING" ]; then
+            gh api repos/$REPO/issues/comments/$EXISTING \
+              -X PATCH -f body="$COMMENT_BODY"
+            echo "Updated existing preview comment"
+          else
+            gh api repos/$REPO/issues/$PR_NUMBER/comments \
+              -f body="$COMMENT_BODY"
+            echo "Posted new preview comment"
+          fi
+
+  cleanup-preview:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete preview Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_USERNAME: ${{ secrets.HF_USERNAME }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          pip install huggingface_hub
+          python - << 'EOF'
+          import os
+          from huggingface_hub import HfApi
+
+          api = HfApi(token=os.environ["HF_TOKEN"])
+          username = os.environ["HF_USERNAME"]
+          pr_number = os.environ["PR_NUMBER"]
+          repo_id = f"{username}/document-simulator-pr-{pr_number}"
+
+          try:
+              api.delete_repo(repo_id=repo_id, repo_type="space")
+              print(f"Deleted preview space: {repo_id}")
+          except Exception as e:
+              print(f"Space may not exist (already deleted?): {e}")
+          EOF

@@ -149,6 +149,43 @@ Wait for the coding sub-agent to complete before proceeding.
 
 ---
 
+## Phase 5.5 — Write a demo script
+
+After the coding sub-agent finishes, produce a **Demo Script** for this feature. The demo script is a concrete, step-by-step walkthrough that lets anyone verify the feature is working without reading any code.
+
+Structure it as follows:
+
+```markdown
+## Demo — [Feature Name]
+
+### Start the app locally
+\```bash
+# Terminal 1 — FastAPI backend
+uv run uvicorn src.document_simulator.api.main:app --reload --port 8000
+
+# Terminal 2 — React frontend
+cd webapp && npm run dev
+# Open: http://localhost:5173
+\```
+
+### Steps
+1. Navigate to **[Page Name]** in the nav bar
+2. [Specific action — e.g. "Upload a PDF using the sample picker"]
+3. [Next action — e.g. "Click Apply"]
+4. **Expected:** [What the user should see, including specific UI elements, values, or outputs]
+
+### What to verify
+- [ ] [AC phrased as a visual/interactive check — e.g. "Result panel shows augmented image within 3s"]
+- [ ] [Another AC — e.g. "Downloading the ZIP contains N files"]
+
+### Known limitations in this PR
+[Any deferred items or rough edges the reviewer should be aware of]
+```
+
+Save the demo script to `/tmp/demo_script.md` so Phase 7 can embed it in the PR body.
+
+---
+
 ## Phase 6 — Post-implementation FDD update
 
 After implementation is complete:
@@ -166,7 +203,7 @@ Run in sequence:
 # Push the branch
 git push -u origin feature/[slug]
 
-# Open the PR
+# Open the PR — embed the demo script from /tmp/demo_script.md
 gh pr create \
   --title "[concise title under 70 chars]" \
   --base [target-branch] \
@@ -185,13 +222,20 @@ gh pr create \
 - [ ] FDD status is `complete` with signoff table
 - [ ] No regressions in existing test suite
 
+## Demo
+[Paste the full contents of /tmp/demo_script.md here]
+
+> **Live preview:** A dedicated HF Space for this PR is built automatically by the `PR Preview Deploy` workflow.
+> The Space URL will be posted as a comment on this PR within ~1 minute.
+> It is deleted automatically when the PR closes.
+
 ## FDD
 [Link to the feature doc: `docs/features/feature_[slug].md`]
 EOF
 )"
 ```
 
-Return the PR URL to the user.
+Return the PR URL to the user. Remind them that the live preview Space URL will appear as a PR comment once the `PR Preview Deploy` workflow finishes (usually within 2–3 minutes).
 
 ---
 
@@ -204,6 +248,8 @@ Idea: [restated idea title]
 Branch: feature/[slug]
 FDD: docs/features/feature_[slug].md
 PR: [URL]
+Live preview: https://huggingface.co/spaces/[HF_USERNAME]/document-simulator-pr-[PR_NUMBER]
+              (building now — check the PR comments in ~2 min)
 
 Phases completed:
   [x] 0 — Idea understood and confirmed
@@ -212,6 +258,7 @@ Phases completed:
   [x] 3 — Plan produced
   [x] 4 — FDD written and committed
   [x] 5 — Implementation complete (N tests passing)
+  [x] 5.5 — Demo script written
   [x] 6 — FDD updated and signed off
   [x] 7 — PR opened
 
