@@ -20,43 +20,45 @@ jobs:
           sudo apt-get install -y git-lfs
           git lfs install
 
-      - name: Migrate binary files to LFS
-        run: |
-          git config user.email "deploy-bot@github.com"
-          git config user.name "GitHub Deploy Bot"
-
-          # Track binary file types via LFS (writes .gitattributes)
-          git lfs track "*.ttf"
-          git lfs track "*.otf"
-          git lfs track "*.pdf"
-          git lfs track "*.png"
-          git lfs track "*.jpg"
-          git lfs track "*.jpeg"
-          git lfs track "*.zip"
-
-          # Commit .gitattributes so working tree is clean before migrate
-          git add .gitattributes
-          git diff --cached --quiet || git commit -m "chore: track binary files with LFS [deploy]"
-
-          # Migrate existing blobs in HEAD to LFS pointers
-          # (rewrites only the local working copy — does not touch origin)
-          git lfs migrate import \
-            --include="*.ttf,*.otf,*.pdf,*.png,*.jpg,*.jpeg,*.zip" \
-            --include-ref=HEAD
-
-      - name: Push to Hugging Face Spaces
+      - name: Convert binaries to LFS and push to Hugging Face Spaces
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           HF_USERNAME: ${{ secrets.HF_USERNAME }}
           HF_SPACE_NAME: ${{ secrets.HF_SPACE_NAME }}
         run: |
+          git config user.email "deploy-bot@github.com"
+          git config user.name "GitHub Deploy Bot"
+
           HF_URL="https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/$HF_SPACE_NAME"
-
-          # Point LFS storage at the HF Space so objects upload there
-          git config lfs.url "$HF_URL.git/info/lfs"
-          git config lfs.extraheader "Authorization: Bearer $HF_TOKEN"
-
           git remote add hf "$HF_URL"
 
-          # Push git objects + LFS objects to HF Spaces
+          # Write .gitattributes so LFS knows which types to track
+          cat > .gitattributes << 'ATTRS'
+          *.ttf filter=lfs diff=lfs merge=lfs -text
+          *.otf filter=lfs diff=lfs merge=lfs -text
+          *.pdf filter=lfs diff=lfs merge=lfs -text
+          *.png filter=lfs diff=lfs merge=lfs -text
+          *.jpg filter=lfs diff=lfs merge=lfs -text
+          *.jpeg filter=lfs diff=lfs merge=lfs -text
+          *.zip filter=lfs diff=lfs merge=lfs -text
+          ATTRS
+
+          # Remove binary files from the index (keeps working tree intact)
+          # then re-add them — LFS will now store them as pointers
+          git rm --cached -r --ignore-unmatch \
+            "*.ttf" "*.otf" "*.pdf" "*.png" "*.jpg" "*.jpeg" "*.zip"
+
+          git add .gitattributes
+          git add -- "*.ttf" "*.otf" "*.pdf" "*.png" "*.jpg" "*.jpeg" "*.zip" 2>/dev/null || true
+
+          # Stage any matched files found recursively
+          git add $(git ls-files --others --exclude-standard | grep -E "\.(ttf|otf|pdf|png|jpg|jpeg|zip)$") 2>/dev/null || true
+
+          git diff --cached --quiet || \
+            git commit -m "chore: convert binary blobs to LFS pointers [deploy]"
+
+          # Point LFS storage at the HF Space
+          git config "lfs.${HF_URL}.git/info/lfs.access" basic
+
+          # Push — git-lfs will upload objects to HF's LFS endpoint automatically
           git push hf HEAD:main --force
