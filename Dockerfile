@@ -32,8 +32,8 @@ COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /usr/local/bin/
 
 WORKDIR /app
 
-# Copy dependency manifests first for layer caching
-COPY pyproject.toml uv.lock ./
+# Copy dependency manifests + README (hatchling needs README.md at build time)
+COPY pyproject.toml uv.lock README.md ./
 
 # Sync core deps only — heavy optional extras (ocr, rl, ui) are excluded.
 # Core = augraphy + fastapi + synthesis. Image is ~800 MB.
@@ -56,5 +56,5 @@ EXPOSE 7860
 
 # Hugging Face Spaces uses port 7860 by default
 # The React SPA is served by FastAPI StaticFiles from webapp/dist/
-CMD ["uv", "run", "uvicorn", "document_simulator.api.app:app", \
+CMD ["/app/.venv/bin/uvicorn", "document_simulator.api.app:app", \
      "--host", "0.0.0.0", "--port", "7860", "--workers", "1"]

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import {
   augmentImage, listPresets,
   listCatalogue, augmentCatalogue, previewCatalogue, applyPipeline,
-  listAugSamples, loadAugSample,
+  listAugSamples, augSampleRawUrl,
   startCatalogueBatch, getCatalogueBatchStatus, catalogueBatchDownloadUrl,
 } from '../api/client'
 import type { AugmentResult, CatalogueEntry, CatalogueAugmentResult, PipelineResult } from '../types'
@@ -11,9 +11,10 @@ import type { CatalogueBatchStatus } from '../api/client'
 // ── Shared: load a sample template (augmentation_lab dir) and convert to File ─
 
 async function augSampleToFile(filename: string): Promise<File> {
-  const info = await loadAugSample(filename, 250, 0)  // 250 DPI for sharp augmentation input
-  const blob = await fetch(`data:image/png;base64,${info.image_b64}`).then(r => r.blob())
-  return new File([blob], filename.replace(/\.pdf$/i, '') + '.png', { type: 'image/png' })
+  // Fetch the raw file (PDF or image) so the backend can render it at its own DPI
+  const blob = await fetch(augSampleRawUrl(filename)).then(r => r.blob())
+  const mime = filename.toLowerCase().endsWith('.pdf') ? 'application/pdf' : blob.type || 'image/png'
+  return new File([blob], filename, { type: mime })
 }
 
 // ── Lightbox ──────────────────────────────────────────────────────────────────
@@ -493,29 +494,27 @@ function PresetTab() {
             {result ? `Result — ${result.metadata.preset} preset` : 'Result (run Augment to generate)'}
           </button>
 
-          {showResult && (
+          {showResult && result && (
             <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginTop: 12 }}>
               <div style={{ ...card, flex: '1 1 300px', marginBottom: 0 }}>
                 <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
                 <LightboxImage
-                  src={result ? `data:image/png;base64,${result.original_b64}` : URL.createObjectURL(file)}
+                  src={`data:image/png;base64,${result.original_b64}`}
                   alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
               </div>
-              {result && (
-                <div style={{ ...card, flex: '1 1 300px', marginBottom: 0 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                    <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                      Augmented — {result.metadata.preset}
-                    </div>
-                    <button style={btnSm} onClick={() => {
-                      const a = document.createElement('a'); a.href = `data:image/png;base64,${result.augmented_b64}`
-                      a.download = `augmented_${preset}.png`; a.click()
-                    }}>Download PNG</button>
+              <div style={{ ...card, flex: '1 1 300px', marginBottom: 0 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                  <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                    Augmented — {result.metadata.preset}
                   </div>
-                  <LightboxImage src={`data:image/png;base64,${result.augmented_b64}`} alt={`Augmented — ${result.metadata.preset}`}
-                    style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+                  <button style={btnSm} onClick={() => {
+                    const a = document.createElement('a'); a.href = `data:image/png;base64,${result.augmented_b64}`
+                    a.download = `augmented_${preset}.png`; a.click()
+                  }}>Download PNG</button>
                 </div>
-              )}
+                <LightboxImage src={`data:image/png;base64,${result.augmented_b64}`} alt={`Augmented — ${result.metadata.preset}`}
+                  style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+              </div>
             </div>
           )}
         </div>
@@ -745,14 +744,14 @@ function CatalogueTab() {
           </button>
 
           {showResult && (
-            <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginTop: 12 }}>
-              <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
-                <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
-                <LightboxImage
-                  src={resultOriginal ? `data:image/png;base64,${resultOriginal}` : URL.createObjectURL(file)}
-                  alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
-              </div>
-              {resultAugmented && (
+            resultAugmented ? (
+              <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginTop: 12 }}>
+                <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
+                  <div style={{ fontSize: 12, fontWeight: 700, color: '#888', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Original</div>
+                  <LightboxImage
+                    src={`data:image/png;base64,${resultOriginal}`}
+                    alt="Original" style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
+                </div>
                 <div style={{ ...card, flex: '1 1 280px', marginBottom: 0 }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
                     <div style={{ fontSize: 12, fontWeight: 700, color: '#888', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
@@ -771,10 +770,23 @@ function CatalogueTab() {
                   <LightboxImage src={`data:image/png;base64,${resultAugmented}`} alt={resultLabel}
                     style={{ width: '100%', borderRadius: 4, border: '1px solid #eee' }} />
                 </div>
-              )}
-            </div>
+              </div>
+            ) : (
+              <div style={{ ...card, marginTop: 8, color: '#aaa', fontSize: 13, textAlign: 'center', padding: '20px 16px' }}>
+                Apply an augmentation or pipeline to see the before/after result here.
+              </div>
+            )
           )}
         </div>
+      )}
+
+      {/* ── Batch Run — shown right after Result ───────────────────────────── */}
+      {enabled.size > 0 && (
+        <BatchSection
+          augNames={entries.filter(e => enabled.has(e.name)).map(e => e.name)}
+          augParams={augParams}
+          pipelineLabel={entries.filter(e => enabled.has(e.name)).map(e => e.display_name).join(' → ')}
+        />
       )}
 
       {/* Phase filter + Preview All */}
@@ -835,7 +847,7 @@ function CatalogueTab() {
       {loadingCatalogue ? (
         <div style={{ color: '#888', padding: '20px 0' }}>Loading catalogue…</div>
       ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: 10 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 10, minWidth: 0 }}>
           {filtered.map(entry => {
             const isEnabled = enabled.has(entry.name)
             const isExpanded = expanded.has(entry.name)
@@ -850,6 +862,7 @@ function CatalogueTab() {
                 background: isEnabled ? '#f0f4ff' : '#fff',
                 transition: 'border-color 0.15s, background 0.15s',
                 overflow: 'hidden',
+                minWidth: 0,
               }}>
                 {/* Card header */}
                 <div style={{ padding: '12px 14px 8px' }}>
@@ -926,14 +939,6 @@ function CatalogueTab() {
         </div>
       )}
 
-      {/* ── Batch Run section ─────────────────────────────────────────────── */}
-      {enabled.size > 0 && (
-        <BatchSection
-          augNames={entries.filter(e => enabled.has(e.name)).map(e => e.name)}
-          augParams={augParams}
-          pipelineLabel={entries.filter(e => enabled.has(e.name)).map(e => e.display_name).join(' → ')}
-        />
-      )}
     </>
   )
 }
@@ -960,18 +965,32 @@ function BatchSection({
   const [running, setRunning] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const pollRef = useRef<ReturnType<typeof setInterval> | null>(null)
+  // Sample picker
+  const [samples, setSamples] = useState<string[]>([])
+  const [selectedSamples, setSelectedSamples] = useState<Set<string>>(new Set())
+  const [loadingSamples, setLoadingSamples] = useState(false)
 
-  const effTotal = mode === 'per_template' ? batchFiles.length * copies : total
+  const totalInputs = batchFiles.length + selectedSamples.size
+  const effTotal = mode === 'per_template' ? totalInputs * copies : total
+
+  // Load sample list when section opens
+  useEffect(() => {
+    if (!open || samples.length > 0) return
+    setLoadingSamples(true)
+    listAugSamples().then(s => { setSamples(s); setLoadingSamples(false) }).catch(() => setLoadingSamples(false))
+  }, [open])
 
   const stopPoll = () => { if (pollRef.current) { clearInterval(pollRef.current); pollRef.current = null } }
 
   useEffect(() => () => stopPoll(), [])
 
   const handleRun = async () => {
-    if (!batchFiles.length) return
+    const sampleFiles = await Promise.all([...selectedSamples].map(augSampleToFile))
+    const allFiles = [...batchFiles, ...sampleFiles]
+    if (!allFiles.length) return
     setRunning(true); setError(null); setStatus(null)
     try {
-      const id = await startCatalogueBatch(batchFiles, augNames, augParams, mode, copies, total, seed)
+      const id = await startCatalogueBatch(allFiles, augNames, augParams, mode, copies, total, seed)
       setJobId(id)
       stopPoll()
       pollRef.current = setInterval(async () => {
@@ -1017,19 +1036,56 @@ function BatchSection({
           {/* Multi-file upload */}
           <div style={{ marginBottom: 12 }}>
             <label style={{ fontSize: 13, fontWeight: 600, display: 'block', marginBottom: 4 }}>
-              Input templates (N documents)
+              Upload templates (images or PDFs)
             </label>
             <input
-              type="file" multiple accept=".png,.jpg,.jpeg,.bmp,.tiff"
+              type="file" multiple accept=".png,.jpg,.jpeg,.bmp,.tiff,.pdf"
               onChange={e => setBatchFiles(Array.from(e.target.files ?? []))}
               style={{ fontSize: 13 }}
             />
             {batchFiles.length > 0 && (
               <div style={{ fontSize: 12, color: '#555', marginTop: 4 }}>
-                {batchFiles.length} template{batchFiles.length !== 1 ? 's' : ''} loaded
+                {batchFiles.length} file{batchFiles.length !== 1 ? 's' : ''} selected
               </div>
             )}
           </div>
+
+          {/* Sample picker */}
+          <div style={{ marginBottom: 12 }}>
+            <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 4 }}>
+              Or use sample files
+              {loadingSamples && <span style={{ fontWeight: 400, color: '#888', marginLeft: 8 }}>loading…</span>}
+            </div>
+            {samples.length === 0 && !loadingSamples && (
+              <div style={{ fontSize: 12, color: '#aaa' }}>No samples available on this server.</div>
+            )}
+            {samples.length > 0 && (
+              <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                {samples.map(s => (
+                  <label key={s} style={{ display: 'flex', alignItems: 'center', gap: 5, cursor: 'pointer', fontSize: 13,
+                    padding: '4px 10px', borderRadius: 5, border: `1px solid ${selectedSamples.has(s) ? '#4f6ef7' : '#ddd'}`,
+                    background: selectedSamples.has(s) ? '#f0f4ff' : '#fafafa' }}>
+                    <input type="checkbox" checked={selectedSamples.has(s)}
+                      onChange={() => setSelectedSamples(prev => {
+                        const next = new Set(prev)
+                        next.has(s) ? next.delete(s) : next.add(s)
+                        return next
+                      })} />
+                    {s}
+                  </label>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Total count summary */}
+          {(batchFiles.length > 0 || selectedSamples.size > 0) && (
+            <div style={{ fontSize: 12, color: '#555', marginBottom: 12 }}>
+              Total input templates: {batchFiles.length + selectedSamples.size}
+              {batchFiles.length > 0 && selectedSamples.size > 0 &&
+                ` (${batchFiles.length} uploaded + ${selectedSamples.size} sample${selectedSamples.size !== 1 ? 's' : ''})`}
+            </div>
+          )}
 
           {/* Mode selector */}
           <div style={{ marginBottom: 12 }}>
@@ -1062,9 +1118,9 @@ function BatchSection({
               <input type="number" min={1} max={1000} value={total}
                 onChange={e => setTotal(Math.max(1, parseInt(e.target.value) || 1))}
                 style={{ width: 100, fontSize: 13, padding: '4px 8px', borderRadius: 4, border: '1px solid #ccc' }} />
-              {batchFiles.length > 0 && (
+              {totalInputs > 0 && (
                 <span style={{ fontSize: 12, color: '#888' }}>
-                  sampled from {batchFiles.length} template{batchFiles.length !== 1 ? 's' : ''}
+                  sampled from {totalInputs} template{totalInputs !== 1 ? 's' : ''}
                 </span>
               )}
             </div>
@@ -1086,13 +1142,18 @@ function BatchSection({
           )}
 
           {/* Run button */}
-          <button
-            style={running || !batchFiles.length ? btnDisabled : btn}
-            disabled={running || !batchFiles.length}
-            onClick={handleRun}
-          >
-            {running ? `Generating… (${Math.round((status?.progress ?? 0) * 100)}%)` : `Run Batch (${effTotal} outputs)`}
-          </button>
+          {(() => {
+            const hasInputs = batchFiles.length > 0 || selectedSamples.size > 0
+            return (
+              <button
+                style={running || !hasInputs ? btnDisabled : btn}
+                disabled={running || !hasInputs}
+                onClick={handleRun}
+              >
+                {running ? `Generating… (${Math.round((status?.progress ?? 0) * 100)}%)` : `Run Batch (${effTotal} outputs)`}
+              </button>
+            )
+          })()}
 
           {/* Progress bar */}
           {running && (
@@ -1164,10 +1225,10 @@ export default function AugmentationLab() {
   const [tab, setTab] = useState<'preset' | 'catalogue'>('preset')
 
   return (
-    <div style={{ maxWidth: 1400, margin: '0 auto', padding: '24px 24px' }}>
+    <div style={{ maxWidth: 1400, margin: '0 auto', padding: '24px 24px', boxSizing: 'border-box', overflow: 'hidden' }}>
       <h2 style={{ margin: '0 0 4px', fontSize: 22 }}>Augmentation Lab</h2>
       <p style={{ color: '#666', margin: '0 0 20px', fontSize: 14 }}>
-        Apply document degradation presets or choose from individual Augraphy augmentations — previews auto-load on upload, with parameter tuning and multi-augmentation pipelines.
+        Apply degradation presets or pick individual augmentations from the catalogue — previews auto-load, parameters are tunable, multi-aug pipelines and batch runs supported.
       </p>
 
       {/* Tab switcher */}
@@ -1183,7 +1244,9 @@ export default function AugmentationLab() {
         ))}
       </div>
 
-      {tab === 'preset' ? <PresetTab /> : <CatalogueTab />}
+      {/* Keep both tabs mounted to preserve state (thumbnails, file) across tab switches */}
+      <div style={{ display: tab === 'preset' ? 'block' : 'none' }}><PresetTab /></div>
+      <div style={{ display: tab === 'catalogue' ? 'block' : 'none' }}><CatalogueTab /></div>
     </div>
   )
 }
