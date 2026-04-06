@@ -13,7 +13,32 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          lfs: true
+          lfs: false  # We'll handle LFS ourselves after migration
+
+      - name: Install Git LFS
+        run: |
+          sudo apt-get install -y git-lfs
+          git lfs install
+
+      - name: Migrate binary files to LFS
+        run: |
+          git config user.email "deploy-bot@github.com"
+          git config user.name "GitHub Deploy Bot"
+
+          # Track binary file types via LFS
+          git lfs track "*.ttf"
+          git lfs track "*.otf"
+          git lfs track "*.pdf"
+          git lfs track "*.png"
+          git lfs track "*.jpg"
+          git lfs track "*.jpeg"
+          git lfs track "*.zip"
+
+          # Migrate existing blobs in HEAD to LFS pointers
+          # (rewrites only the local working copy — does not touch origin)
+          git lfs migrate import \
+            --include="*.ttf,*.otf,*.pdf,*.png,*.jpg,*.jpeg,*.zip" \
+            --include-ref=HEAD
 
       - name: Push to Hugging Face Spaces
         env:
@@ -21,12 +46,13 @@ jobs:
           HF_USERNAME: ${{ secrets.HF_USERNAME }}
           HF_SPACE_NAME: ${{ secrets.HF_SPACE_NAME }}
         run: |
-          git config user.email "deploy-bot@github.com"
-          git config user.name "GitHub Deploy Bot"
+          HF_URL="https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/$HF_SPACE_NAME"
 
-          # Add HF Spaces as a remote
-          git remote add hf \
-            "https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/$HF_SPACE_NAME"
+          # Point LFS storage at the HF Space so objects upload there
+          git config lfs.url "$HF_URL.git/info/lfs"
+          git config lfs.extraheader "Authorization: Bearer $HF_TOKEN"
 
-          # Push main to the Space (HF Spaces builds from the default branch)
-          git push hf main --force
+          git remote add hf "$HF_URL"
+
+          # Push git objects + LFS objects to HF Spaces
+          git push hf HEAD:main --force
