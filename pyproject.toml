@@ -209,3 +209,6 @@ addopts = [
     "--cov-report=xml",
     "-v",
 ]
+markers = [
+    "slow: marks tests as slow (RL training, live API calls) — deselect with -m 'not slow'",
+]
