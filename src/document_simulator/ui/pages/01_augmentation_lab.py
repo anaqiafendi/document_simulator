@@ -203,18 +203,72 @@ with tab_preset:
                 "These sliders display the parameter ranges for the selected preset. "
                 "Check **Use custom sliders** to override the preset."
             )
-            ink_bleed_p = st.slider("InkBleed probability", 0.0, 1.0, 0.5, 0.01)
-            ink_bleed_intens = st.slider("InkBleed intensity max", 0.0, 1.0, 0.5, 0.01)
-            fading_p = st.slider("Fading (LowLightNoise) probability", 0.0, 1.0, 0.3, 0.01)
-            fading_val = st.slider("Fading value max", 0.0, 1.0, 0.5, 0.01)
-            markup_p = st.slider("Markup probability", 0.0, 1.0, 0.3, 0.01)
-            noise_p = st.slider("NoiseTexturize probability", 0.0, 1.0, 0.5, 0.01)
-            noise_sigma = st.slider("NoiseTexturize sigma max", 0.0, 20.0, 5.0, 0.5)
-            color_shift_p = st.slider("ColorShift probability", 0.0, 1.0, 0.3, 0.01)
-            brightness_p = st.slider("Brightness probability", 0.0, 1.0, 0.5, 0.01)
-            brightness_spr = st.slider("Brightness spread", 0.0, 0.4, 0.2, 0.01)
-            gamma_p = st.slider("Gamma probability", 0.0, 1.0, 0.3, 0.01)
-            jpeg_p = st.slider("Jpeg probability", 0.0, 1.0, 0.4, 0.01)
+            ink_bleed_p = st.slider(
+                "Ink bleed-through probability",
+                0.0, 1.0, 0.5, 0.01,
+                help="How likely ink from the reverse side bleeds through thin paper. "
+                     "Common in receipts and double-sided documents.",
+            )
+            ink_bleed_intens = st.slider(
+                "Ink bleed-through intensity",
+                0.0, 1.0, 0.5, 0.01,
+                help="How strongly the bleed-through effect darkens the page. "
+                     "Higher values produce more visible ghosting.",
+            )
+            fading_p = st.slider(
+                "Ink fading probability",
+                0.0, 1.0, 0.3, 0.01,
+                help="How likely the ink appears faded or washed out, as in aged or "
+                     "low-quality prints kept in sunlight.",
+            )
+            fading_val = st.slider(
+                "Ink fading strength",
+                0.0, 1.0, 0.5, 0.01,
+                help="How much the ink fades. Higher values produce lighter, harder-to-read text.",
+            )
+            markup_p = st.slider(
+                "Handwritten markup probability",
+                0.0, 1.0, 0.3, 0.01,
+                help="How likely handwritten strikethrough or annotation marks appear over the text.",
+            )
+            noise_p = st.slider(
+                "Paper grain / noise probability",
+                0.0, 1.0, 0.5, 0.01,
+                help="How likely a paper grain texture is overlaid. Simulates rough or recycled paper stock.",
+            )
+            noise_sigma = st.slider(
+                "Paper grain intensity",
+                0.0, 20.0, 5.0, 0.5,
+                help="How coarse the paper grain appears. Higher values produce more visible texture.",
+            )
+            color_shift_p = st.slider(
+                "Colour channel misalignment probability",
+                0.0, 1.0, 0.3, 0.01,
+                help="How likely colour channels are slightly offset, simulating aged paper "
+                     "or a mis-calibrated scanner.",
+            )
+            brightness_p = st.slider(
+                "Brightness variation probability",
+                0.0, 1.0, 0.5, 0.01,
+                help="How likely the overall image brightness is randomly adjusted, "
+                     "simulating different lighting or scanner exposure.",
+            )
+            brightness_spr = st.slider(
+                "Brightness variation range",
+                0.0, 0.4, 0.2, 0.01,
+                help="How wide the brightness swing can be. 0 = no change; 0.4 = large shift.",
+            )
+            gamma_p = st.slider(
+                "Scan exposure (gamma) probability",
+                0.0, 1.0, 0.3, 0.01,
+                help="How likely a gamma correction is applied to simulate over- or under-exposed scans.",
+            )
+            jpeg_p = st.slider(
+                "JPEG compression artefact probability",
+                0.0, 1.0, 0.4, 0.01,
+                help="How likely lossy JPEG compression artefacts appear — the blocky "
+                     "distortion common in low-quality scans or photographs.",
+            )
 
         run_btn = st.button("Augment", type="primary", key="aug_run_preset")
 
@@ -320,7 +374,7 @@ with tab_catalogue:
 
         # ── Phase tabs ────────────────────────────────────────────────────────
         phase_tab_ink, phase_tab_paper, phase_tab_post = st.tabs(
-            ["Ink Phase", "Paper Phase", "Post Phase"]
+            ["Ink Degradation", "Paper Degradation", "Capture Conditions"]
         )
 
         def _render_phase_cards(phase_tab, phase_name: str) -> None:
