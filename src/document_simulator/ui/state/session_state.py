@@ -29,6 +29,14 @@ KEY_AUG_CATALOGUE_ENABLED = "aug_catalogue_enabled"
 KEY_AUG_CATALOGUE_PARAMS = "aug_catalogue_params"
 KEY_AUG_CATALOGUE_THUMBNAILS = "aug_catalogue_thumbnails"
 
+# Synthetic generator keys
+KEY_SYNTH_GEN_IMAGE = "synth_gen_image"
+KEY_SYNTH_GEN_SEED = "synth_gen_seed"
+KEY_SYNTH_GEN_NUM_ITEMS = "synth_gen_num_items"
+KEY_SYNTH_GEN_DOC_TYPE = "synth_gen_doc_type"
+KEY_SYNTH_GEN_STYLE = "synth_gen_style"
+KEY_SYNTH_DOWNLOAD_READY = "synth_download_ready"
+
 _ALL_KEYS = [
     KEY_LAST_UPLOADED_IMAGE,
     KEY_LAST_AUG_IMAGE,
@@ -49,6 +57,12 @@ _ALL_KEYS = [
     KEY_AUG_CATALOGUE_ENABLED,
     KEY_AUG_CATALOGUE_PARAMS,
     KEY_AUG_CATALOGUE_THUMBNAILS,
+    KEY_SYNTH_GEN_IMAGE,
+    KEY_SYNTH_GEN_SEED,
+    KEY_SYNTH_GEN_NUM_ITEMS,
+    KEY_SYNTH_GEN_DOC_TYPE,
+    KEY_SYNTH_GEN_STYLE,
+    KEY_SYNTH_DOWNLOAD_READY,
 ]
 
 
@@ -192,6 +206,45 @@ class SessionStateManager:
 
     def set_aug_catalogue_thumbnails(self, thumbnails: Dict[str, bytes]) -> None:
         st.session_state[KEY_AUG_CATALOGUE_THUMBNAILS] = thumbnails
+
+    # ── Synthetic Generator ───────────────────────────────────────────────────
+
+    def get_synth_gen_image(self) -> Optional[Image.Image]:
+        return st.session_state.get(KEY_SYNTH_GEN_IMAGE)
+
+    def set_synth_gen_image(self, image: Image.Image) -> None:
+        st.session_state[KEY_SYNTH_GEN_IMAGE] = image
+
+    def get_synth_gen_seed(self) -> int:
+        return int(st.session_state.get(KEY_SYNTH_GEN_SEED, 42))
+
+    def set_synth_gen_seed(self, seed: int) -> None:
+        st.session_state[KEY_SYNTH_GEN_SEED] = seed
+
+    def get_synth_gen_num_items(self) -> Optional[int]:
+        raw = st.session_state.get(KEY_SYNTH_GEN_NUM_ITEMS)
+        return int(raw) if raw is not None else None
+
+    def set_synth_gen_num_items(self, n: int) -> None:
+        st.session_state[KEY_SYNTH_GEN_NUM_ITEMS] = n
+
+    def get_synth_gen_doc_type(self) -> str:
+        return st.session_state.get(KEY_SYNTH_GEN_DOC_TYPE, "receipt")
+
+    def set_synth_gen_doc_type(self, doc_type: str) -> None:
+        st.session_state[KEY_SYNTH_GEN_DOC_TYPE] = doc_type
+
+    def get_synth_gen_style(self) -> str:
+        return st.session_state.get(KEY_SYNTH_GEN_STYLE, "thermal")
+
+    def set_synth_gen_style(self, style: str) -> None:
+        st.session_state[KEY_SYNTH_GEN_STYLE] = style
+
+    def is_synth_download_ready(self) -> bool:
+        return bool(st.session_state.get(KEY_SYNTH_DOWNLOAD_READY, False))
+
+    def set_synth_download_ready(self, ready: bool) -> None:
+        st.session_state[KEY_SYNTH_DOWNLOAD_READY] = ready
 
     # ── Utility ───────────────────────────────────────────────────────────────
 
