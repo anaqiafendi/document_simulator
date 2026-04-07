@@ -446,3 +446,4 @@ uv run python -c "import torch; print(torch.cuda.is_available())"
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
