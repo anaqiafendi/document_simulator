@@ -1540,3 +1540,99 @@ Single Docker container serving both React SPA (as static files via FastAPI) and
 - [HF Spaces Docker docs](https://huggingface.co/docs/hub/spaces-sdks-docker)
 - [Render free tier limitations](https://render.com/docs/free#free-web-services)
 - [Fly.io free allowances](https://fly.io/docs/about/pricing/#free-allowances)
+
+---
+
+## Research: Variable-Length Multi-Template Document Generation (2026-04-06)
+
+### Problem Statement
+
+Real-world receipts are not fixed-field forms:
+- A receipt can have 2–20 line items; the document height grows dynamically.
+- Different merchants have completely different visual layouts (thermal receipt vs A4 invoice).
+- Air Canada expense use case: international receipts in multiple languages from many merchants.
+
+The existing `SyntheticDocumentGenerator` assumes a flat `list[ZoneConfig]` on a fixed-size canvas.
+It has no concept of repeating rows, variable document height, or named per-document-type templates.
+
+---
+
+### Variable-Length Section Modelling: Approaches Reviewed
+
+#### 1. Row-multiplied zone lists (simplest)
+Generate a flat list of zones at render time by repeating a "row template" N times,
+offsetting each row's Y coordinates by `row_height * index`. This requires no structural
+change to `ZoneRenderer`; the engine already draws any `ZoneConfig` at any position.
+
+**Verdict:** Best fit for this codebase. Keep rendering dumb; push variability into config.
+
+#### 2. Jinja2 template DSL (TRDG approach)
+TRDG uses text template files with `{field}` placeholders. Flexible but adds a text-rendering
+DSL on top of the existing PIL-based zone system — unnecessary coupling.
+
+**Verdict:** Overkill. The existing Faker-provider system already handles field content.
+
+#### 3. CSS-Flexbox-like layout engine
+Lay out zones relative to each other (`margin_top`, `flow: block`). Powerful but requires
+a full layout engine rewrite.
+
+**Verdict:** Future work. Out of scope for this feature.
+
+#### 4. SynthDog approach (background + text layer compositing)
+SynthDog generates a background texture, then composites a text layer on top.
+Useful idea for `BackgroundCompositor` (a separate feature).
+
+**Verdict:** Noted for a future background compositing feature; not needed here.
+
+---
+
+### PIL Layout Engine Patterns
+
+PIL's `ImageDraw` is stateless — it draws to a pixel canvas. Dynamic document height
+requires computing the total height before allocating the canvas:
+
+```
+total_height = header_height + (num_rows * row_height) + footer_height
+canvas = Image.new("RGB", (width, total_height), color=(255, 255, 255))
+```
+
+This is naturally handled by a `RepeatingSection` that knows its row count, row height,
+and child zone templates (with relative Y offsets from section top).
+
+---
+
+### Existing Codebase Patterns Used
+
+- `ZoneConfig` — already stores `box: list[list[float]]`; we add nothing to it.
+- `SynthesisConfig` — gains a `sections: list[Section]` field alongside `zones`.
+- `ZoneDataSampler` — used unchanged per-row; the `zone_id` gets a row suffix for seeding.
+- `GeneratorConfig` — gains `image_width` (already present) but `image_height` becomes
+  optional (None = dynamic, computed from sections).
+- `SyntheticDocumentGenerator._generate_internal()` — extended to expand sections before
+  calling the existing zone-rendering loop.
+
+---
+
+### TemplateRegistry Design
+
+A `TemplateRegistry` maps `(document_type, style_name)` → `DocumentTemplate`.
+Templates are plain Python objects (not files on disk) registered at import time or by
+user code. This avoids filesystem coupling for the initial implementation.
+
+```
+registry = TemplateRegistry()
+registry.register("receipt", "thermal", thermal_receipt_template)
+registry.register("receipt", "a4_invoice", a4_invoice_template)
+
+tpl = registry.get("receipt", "thermal")
+config = tpl.to_synthesis_config(num_line_items=7, seed=42)
+```
+
+---
+
+### References
+
+- SynthDog: https://github.com/clovaai/donut/tree/master/synthdog
+- TRDG: https://github.com/Belval/TextRecognitionDataGenerator
+- PIL Image.new with dynamic height: https://pillow.readthedocs.io/en/stable/reference/Image.html
+- Anand feedback (2026-04-06): variable-length + multi-template is priority #2 after LLM schema extraction

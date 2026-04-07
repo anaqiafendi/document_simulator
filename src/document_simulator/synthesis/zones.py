@@ -79,7 +79,10 @@ class GeneratorConfig(BaseModel):
     seed: int = 42
     output_dir: str = "output"
     image_width: int = 794   # A4 at 96 dpi
-    image_height: int = 1123
+    image_height: int | None = 1123
+    # When image_height is None the generator computes the canvas height
+    # dynamically from the document sections.  Set explicitly by
+    # DocumentTemplate.to_synthesis_config() once all sections are resolved.
 
 
 def _default_respondent() -> RespondentConfig:
