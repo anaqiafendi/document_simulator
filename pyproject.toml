@@ -55,6 +55,11 @@ dependencies = [
     "fastapi>=0.111.0",
     "uvicorn[standard]>=0.30.0",
     "python-multipart>=0.0.9",
+
+    # LLM schema extraction — free-tier providers bundled in core image
+    # (openai, anthropic, google-cloud-aiplatform remain optional via [llm] extra)
+    "google-generativeai>=0.8.0",
+    "groq>=0.11.0",
 ]
 
 [project.optional-dependencies]
