@@ -142,14 +142,21 @@ def test_generator_batch_writes_synthesis_config_json(tmp_path):
 
 
 def test_generator_batch_json_readable_by_ground_truth_loader(tmp_path):
-    """AC-2: annotations are valid GroundTruth JSON."""
+    """AC-2: annotations are valid enhanced GT JSON (schema_version="2.0")."""
+    import json as _json
+
+    from document_simulator.synthesis.ground_truth_writer import EnhancedGroundTruth
+
     config = _make_simple_config(str(tmp_path))
     gen = SyntheticDocumentGenerator(template="blank", synthesis_config=config)
     gen.generate(n=2, write=True)
     for json_path in sorted(Path(tmp_path).glob("doc_*.json")):
-        gt = GroundTruthLoader.load_json(json_path)
-        assert isinstance(gt, GroundTruth)
-        assert len(gt.regions) > 0
+        with open(json_path) as fh:
+            data = _json.load(fh)
+        assert data.get("schema_version") == "2.0"
+        egt = EnhancedGroundTruth(**data)
+        assert isinstance(egt, EnhancedGroundTruth)
+        assert len(egt.fields) > 0
 
 
 def test_generator_different_seeds_produce_different_data(tmp_path):

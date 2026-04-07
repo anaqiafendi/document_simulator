@@ -1,7 +1,7 @@
 # Feature: Robust Ground Truth Bundling
 
 > **GitHub Issue:** `#26`
-> **Status:** `in-progress`
+> **Status:** `complete`
 > **Module:** `document_simulator.synthesis.ground_truth_writer`, `document_simulator.synthesis.batch_integrity`
 
 ---
@@ -32,16 +32,16 @@ Generated datasets will fine-tune OCR models for receipt field extraction from p
 
 ## Acceptance Criteria
 
-- [ ] `GroundTruthRecord` Pydantic model includes: `field_name`, `text_value`, `bbox_pixels` `[x,y,w,h]`, `bbox_normalized` `[x,y,w,h]`, `font_info` dict, `confidence` float
-- [ ] `GroundTruthWriter.write_sidecar()` saves enhanced per-image JSON (backward-compatible with existing `GroundTruthLoader`)
-- [ ] `GroundTruthWriter.write_jsonl()` saves a JSONL manifest (one record per line)
-- [ ] `GroundTruthWriter.write_coco()` saves COCO-format JSON (images + annotations arrays)
-- [ ] `BatchIntegrityChecker.check()` raises `BatchIntegrityError` if image count != GT count
-- [ ] `BatchIntegrityChecker.check()` raises `BatchIntegrityError` if any GT `image_path` points to a non-existent file
-- [ ] `SyntheticDocumentGenerator.generate()` accepts `write_manifest` and `write_coco` flags
-- [ ] All new code has unit tests (TDD: red → green → refactor)
-- [ ] Existing test suite passes without regressions
-- [ ] `AnnotationBuilder` backward compatibility preserved
+- [x] `GroundTruthRecord` Pydantic model includes: `field_name`, `text_value`, `bbox_pixels` `[x,y,w,h]`, `bbox_normalized` `[x,y,w,h]`, `font_info` dict, `confidence` float
+- [x] `GroundTruthWriter.write_sidecar()` saves enhanced per-image JSON with `schema_version="2.0"`
+- [x] `GroundTruthWriter.write_jsonl()` saves a JSONL manifest (one record per line)
+- [x] `GroundTruthWriter.write_coco()` saves COCO-format JSON (images + annotations arrays)
+- [x] `BatchIntegrityChecker.check()` raises `BatchIntegrityError` if image count != GT count
+- [x] `BatchIntegrityChecker.check()` raises `BatchIntegrityError` if any GT `image_path` points to a non-existent file
+- [x] `SyntheticDocumentGenerator.generate()` accepts `write_manifest` and `write_coco` flags
+- [x] All new code has unit tests (TDD: red → green → refactor) — 39 new tests, all passing
+- [x] Existing test suite passes without regressions (252 passed, 1 pre-existing Faxify/Numba failure)
+- [x] `AnnotationBuilder` backward compatibility preserved (no changes to `AnnotationBuilder`)
 
 ---
 
@@ -173,5 +173,5 @@ No new PyPI packages required. All implementation uses stdlib + existing Pydanti
 
 | Role | Name | Date | Status |
 |------|------|------|--------|
-| Author | Amuhamad Afendi | 2026-04-06 | pending |
+| Author | Amuhamad Afendi | 2026-04-06 | complete |
 | Reviewer | — | — | pending |
