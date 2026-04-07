@@ -7,7 +7,7 @@ FROM node:20-slim AS node-builder
 
 WORKDIR /build/webapp
 COPY webapp/package*.json ./
-RUN npm ci --ignore-scripts
+RUN npm ci
 
 COPY webapp/ .
 RUN npm run build
