@@ -33,7 +33,9 @@ This file provides guidance to Claude Code and AI assistants when working with t
   - `src/document_simulator/data/` — Dataset loaders and ground truth parsers
   - `src/document_simulator/evaluation/` — Evaluator (CER/WER/confidence across datasets)
   - `src/document_simulator/utils/` — Shared utilities (ImageHandler)
-  - `src/document_simulator/ui/` — Streamlit web UI (5 pages + components)
+  - `src/document_simulator/ui/` — **SUNSETTED** Streamlit UI (do not modify)
+  - `src/document_simulator/api/` — FastAPI backend (serves React SPA + all API routes)
+  - `webapp/` — **CURRENT** React + TypeScript frontend (Vite, React Router, Recharts)
   - `src/document_simulator/cli.py` — CLI entry point
 
 ### Quick Setup
@@ -272,45 +274,129 @@ Click CLI with subcommands:
 
 ---
 
-## UI Architecture (`src/document_simulator/ui/`)
+## UI Architecture
 
-The Streamlit UI wraps the full package API without duplicating business logic.
+> **IMPORTANT FOR AI AGENTS**: The **React/TypeScript webapp** (`webapp/`) is the **current, active frontend**. The Streamlit UI (`src/document_simulator/ui/`) is **SUNSETTED — do NOT add features or modify it**. All new UI work goes in `webapp/`.
 
-### File layout
+---
 
-```
-ui/
-├── app.py                    # Home page + navigation + launch() entry point
-├── pages/
-│   ├── 01_augmentation_lab.py   # Preset selector, 12-dim sliders, before/after view
-│   ├── 02_ocr_engine.py         # OCR with bbox overlay, confidence metrics, region table
-│   ├── 03_batch_processing.py   # Multi-upload, parallel augmentation, ZIP download
-│   ├── 04_evaluation.py         # CER/WER/confidence charts across a labelled dataset
-│   └── 05_rl_training.py        # RLConfig form, background PPO thread, reward chart
-├── components/
-│   ├── image_display.py         # show_side_by_side(), overlay_bboxes(), image_to_bytes()
-│   ├── metrics_charts.py        # cer_wer_bar(), confidence_box(), reward_line() → Plotly
-│   └── file_uploader.py         # uploaded_file_to_pil(), uploaded_files_to_pil()
-└── state/
-    └── session_state.py         # SessionStateManager — typed wrappers around st.session_state
+### Current Frontend: React + TypeScript Webapp (`webapp/`)
+
+**Stack**: React 18, TypeScript 5.5, Vite, React Router v7, Recharts, React-Konva (canvas drawing), `@faker-js/faker`
+
+**Launch**:
+```bash
+# Backend (FastAPI serves both API and React SPA)
+uv run uvicorn src.document_simulator.api.main:app --reload --port 8000
+
+# Frontend dev server (proxies /api/* to :8000)
+cd webapp && npm run dev
+# Open: http://localhost:5173
 ```
 
-### Test layout
+**File layout**:
+```
+webapp/
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── src/
+    ├── App.tsx                   # React Router routes (see route list below)
+    ├── SyntheticGenerator.tsx    # Main generator page (template upload, zone canvas, respondents, preview)
+    ├── main.tsx                  # Entry point
+    ├── api/
+    │   └── client.ts             # fetch-based API client — all /api/* calls go here
+    ├── components/
+    │   ├── BatchGeneratePanel.tsx
+    │   ├── ConfigPanel.tsx
+    │   ├── FontSelect.tsx
+    │   ├── InkColorPicker.tsx
+    │   ├── NavBar.tsx
+    │   ├── PreviewGallery.tsx
+    │   ├── RespondentPanel.tsx
+    │   ├── StatusBar.tsx
+    │   ├── ZoneCanvas.tsx        # React-Konva canvas for zone drawing
+    │   └── ZoneList.tsx
+    ├── hooks/
+    │   ├── useGenerate.ts
+    │   ├── usePreviews.ts
+    │   ├── useRespondents.ts
+    │   ├── useTemplate.ts
+    │   ├── useZonePreview.ts
+    │   └── useZones.ts
+    ├── pages/
+    │   ├── AugmentationLab.tsx   # Augmentation presets + intensity sliders
+    │   ├── BatchProcessing.tsx
+    │   ├── Evaluation.tsx
+    │   ├── OcrEngine.tsx
+    │   └── RlTraining.tsx
+    ├── types/
+    │   └── index.ts              # All shared TypeScript types
+    └── utils/
+        ├── colors.ts
+        └── faker.ts
+```
+
+**Routes** (`App.tsx`):
+- `/` → `SyntheticGenerator`
+- `/augmentation` → `AugmentationLab`
+- `/ocr` → `OcrEngine`
+- `/batch` → `BatchProcessing`
+- `/evaluation` → `Evaluation`
+- `/rl` → `RlTraining`
+
+**API client pattern** (`webapp/src/api/client.ts`):
+- `BASE = ''` (relative — proxied by Vite in dev, served directly in prod)
+- Key endpoints: `/api/template`, `/api/samples`, `/api/preview`, `/api/generate`, `/api/jobs/:id`, `/api/augmentation/*`, `/api/ocr/recognize`, `/api/batch/*`, `/api/evaluation/*`, `/api/rl/*`, `/api/synthesis/*`
+- Always add new endpoint functions to `client.ts`
+
+**TypeScript conventions**:
+- Functional components with typed props
+- Custom hooks in `hooks/` for stateful logic (keep components lean)
+- Shared types in `types/index.ts`
+- Inline styles are acceptable; no CSS framework in use
+- Use `recharts` for charts, `react-konva` for canvas
+
+**Adding a new page**:
+1. Create `webapp/src/pages/MyPage.tsx`
+2. Add route in `App.tsx`
+3. Add nav link in `components/NavBar.tsx`
+4. Add API calls in `webapp/src/api/client.ts`
+5. Add corresponding FastAPI router in `src/document_simulator/api/routers/`
+
+---
+
+### Backend API (`src/document_simulator/api/`)
+
+FastAPI app that serves the React SPA and all backend routes.
 
 ```
-tests/ui/
-├── conftest.py               # blank_image, fake_uploaded_file, sample_ocr_result, etc.
-├── unit/                     # Components tested without Streamlit context
-├── integration/              # Each page tested via streamlit.testing.v1.AppTest
-└── e2e/                      # Home page + full-flow tests
+api/
+├── app.py          # FastAPI app, mounts routers, serves React SPA from webapp/dist/
+├── models.py       # Pydantic request/response models
+├── jobs.py         # Background job tracking
+└── routers/
+    ├── augmentation.py
+    ├── batch.py
+    ├── evaluation.py
+    ├── ocr.py
+    ├── rl_training.py
+    └── synthesis.py    # Template upload, zone preview, generate, sample
 ```
 
-### AppTest limitations (Streamlit 1.54)
+**Launch backend**:
+```bash
+uv run uvicorn src.document_simulator.api.main:app --reload --port 8000
+```
 
-`streamlit.testing.v1.AppTest` does **not** expose these as named widget accessors:
-- `plotly_chart` — test for surrounding `metric` / `dataframe` elements instead
-- `download_button` — check session state (`"key" in at.session_state`) instead
-- `file_uploader` — check markdown/caption text instead
+---
+
+### SUNSETTED: Streamlit UI (`src/document_simulator/ui/`)
+
+> **DO NOT MODIFY.** The Streamlit UI has been superseded by the React webapp. It remains in the repository for historical reference only. Do not add features, fix bugs, or write tests for it. All UI work belongs in `webapp/`.
+
+The Streamlit UI tests (`tests/ui/`) are also frozen — do not add to them.
 
 ---
 
