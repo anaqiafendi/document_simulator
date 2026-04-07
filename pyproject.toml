@@ -73,6 +73,15 @@ rl = [
     "wandb>=0.16.0",
 ]
 
+# LLM backends for schema extraction (all optional — install whichever you use)
+llm = [
+    "google-generativeai>=0.8.0",      # Gemini via Google AI Studio (free tier)
+    "groq>=0.11.0",                     # Groq API — LLaMA vision (free tier)
+    "openai>=1.30.0",                   # OpenAI GPT-4o
+    "anthropic>=0.28.0",                # Anthropic Claude
+    "google-cloud-aiplatform>=1.60.0",  # Vertex AI
+]
+
 # Streamlit legacy UI (no longer the primary UI)
 ui = [
     "streamlit>=1.32.0",

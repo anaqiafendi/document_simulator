@@ -1,9 +1,15 @@
 """LLM-backed schema extractor for document images.
 
-Supported backends:
-- ``mock``     — deterministic fake response, no API key needed (default)
-- ``openai``   — uses OpenAI vision API (requires ``OPENAI_API_KEY`` env var)
-- ``anthropic`` — uses Anthropic Claude vision API (requires ``ANTHROPIC_API_KEY`` env var)
+Supported backends (in recommended order):
+- ``mock``       — deterministic fake response, no API key needed (great for testing)
+- ``gemini``     — Google Gemini via google-generativeai (free tier at aistudio.google.com)
+- ``groq``       — Groq API with LLaMA vision (free tier at console.groq.com)
+- ``openai``     — OpenAI GPT-4o vision API
+- ``anthropic``  — Anthropic Claude vision API
+- ``vertex_ai``  — Google Vertex AI (Gemini on GCP, service-account auth)
+
+All provider packages are optional and lazy-imported — a missing package produces a
+clear error message with the install command rather than a cryptic import failure.
 """
 
 from __future__ import annotations
@@ -12,6 +18,7 @@ import base64
 import io
 import json
 import os
+import tempfile
 from typing import Literal
 
 from loguru import logger
@@ -23,7 +30,7 @@ from document_simulator.synthesis.field_schema import (
     FieldSchema,
 )
 
-Backend = Literal["mock", "openai", "anthropic"]
+Backend = Literal["mock", "gemini", "groq", "openai", "anthropic", "vertex_ai"]
 
 _SYSTEM_PROMPT = """\
 You are a document analysis assistant. Given one or more sample document images,
@@ -111,25 +118,106 @@ def _mock_schema(n_images: int) -> DocumentSchema:
     return DocumentSchema(
         document_type="receipt",
         fields=fields,
-        notes=f"Mock schema generated from {n_images} sample image(s). Switch to openai or anthropic backend for real extraction.",
+        notes=(
+            f"Mock schema generated from {n_images} sample image(s). "
+            "Use Gemini (free) or Groq (free) for real extraction."
+        ),
         backend_used="mock",
     )
+
+
+# ── Gemini backend ────────────────────────────────────────────────────────────
+
+
+def _gemini_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema:
+    """Extract schema via Google Gemini (free tier via Google AI Studio)."""
+    try:
+        import google.generativeai as genai  # type: ignore[import-untyped]
+    except ImportError as exc:
+        raise RuntimeError(
+            "google-generativeai package not installed. Run: uv add google-generativeai"
+        ) from exc
+
+    key = api_key or os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
+    if not key:
+        raise RuntimeError(
+            "No Gemini API key found. Provide one in the UI or set GOOGLE_API_KEY env var. "
+            "Get a free key at https://aistudio.google.com/app/apikey"
+        )
+
+    genai.configure(api_key=key)
+    model = genai.GenerativeModel(
+        model_name="gemini-2.0-flash",
+        system_instruction=_SYSTEM_PROMPT,
+    )
+
+    parts: list = [_USER_PROMPT]
+    for b64 in images_b64:
+        parts.append({"mime_type": "image/png", "data": b64})
+
+    response = model.generate_content(parts)
+    raw = response.text if response.text else "{}"
+    return _parse_llm_response(raw, backend="gemini")
+
+
+# ── Groq backend ──────────────────────────────────────────────────────────────
+
+
+def _groq_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema:
+    """Extract schema via Groq API (free tier, LLaMA vision)."""
+    try:
+        from groq import Groq  # type: ignore[import-untyped]
+    except ImportError as exc:
+        raise RuntimeError(
+            "groq package not installed. Run: uv add groq"
+        ) from exc
+
+    key = api_key or os.environ.get("GROQ_API_KEY")
+    if not key:
+        raise RuntimeError(
+            "No Groq API key found. Provide one in the UI or set GROQ_API_KEY env var. "
+            "Get a free key at https://console.groq.com"
+        )
+
+    client = Groq(api_key=key)
+
+    content: list[dict] = [{"type": "text", "text": _USER_PROMPT}]
+    for b64 in images_b64:
+        content.append({
+            "type": "image_url",
+            "image_url": {"url": f"data:image/png;base64,{b64}"},
+        })
+
+    response = client.chat.completions.create(
+        model="meta-llama/llama-4-scout-17b-16e-instruct",
+        messages=[
+            {"role": "system", "content": _SYSTEM_PROMPT},
+            {"role": "user", "content": content},
+        ],
+        max_tokens=2048,
+        temperature=0,
+    )
+
+    raw = response.choices[0].message.content or "{}"
+    return _parse_llm_response(raw, backend="groq")
 
 
 # ── OpenAI backend ────────────────────────────────────────────────────────────
 
 
-def _openai_schema(images_b64: list[str]) -> DocumentSchema:
+def _openai_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema:
     try:
         from openai import OpenAI  # type: ignore[import-untyped]
     except ImportError as exc:
         raise RuntimeError("openai package not installed. Run: uv add openai") from exc
 
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        raise RuntimeError("OPENAI_API_KEY environment variable is not set.")
+    key = api_key or os.environ.get("OPENAI_API_KEY")
+    if not key:
+        raise RuntimeError(
+            "No OpenAI API key found. Provide one in the UI or set OPENAI_API_KEY env var."
+        )
 
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=key)
 
     content: list[dict] = [{"type": "text", "text": _USER_PROMPT}]
     for b64 in images_b64:
@@ -155,17 +243,21 @@ def _openai_schema(images_b64: list[str]) -> DocumentSchema:
 # ── Anthropic backend ─────────────────────────────────────────────────────────
 
 
-def _anthropic_schema(images_b64: list[str]) -> DocumentSchema:
+def _anthropic_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema:
     try:
         import anthropic as anthropic_sdk  # type: ignore[import-untyped]
     except ImportError as exc:
-        raise RuntimeError("anthropic package not installed. Run: uv add anthropic") from exc
+        raise RuntimeError(
+            "anthropic package not installed. Run: uv add anthropic"
+        ) from exc
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise RuntimeError("ANTHROPIC_API_KEY environment variable is not set.")
+    key = api_key or os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        raise RuntimeError(
+            "No Anthropic API key found. Provide one in the UI or set ANTHROPIC_API_KEY env var."
+        )
 
-    client = anthropic_sdk.Anthropic(api_key=api_key)
+    client = anthropic_sdk.Anthropic(api_key=key)
 
     content: list[dict] = []
     for b64 in images_b64:
@@ -186,12 +278,68 @@ def _anthropic_schema(images_b64: list[str]) -> DocumentSchema:
     return _parse_llm_response(raw, backend="anthropic")
 
 
+# ── Vertex AI backend ─────────────────────────────────────────────────────────
+
+
+def _vertex_schema(
+    images_b64: list[str],
+    api_key: str | None,
+    service_account_json: str | None,
+) -> DocumentSchema:
+    """Extract schema via Vertex AI (Gemini on GCP)."""
+    try:
+        import vertexai  # type: ignore[import-untyped]
+        from vertexai.generative_models import GenerativeModel, Image as VImage  # type: ignore[import-untyped]
+    except ImportError:
+        try:
+            import google.cloud.aiplatform as aiplatform  # type: ignore[import-untyped]
+            from google.cloud.aiplatform import GenerativeModel  # type: ignore[import-untyped]
+        except ImportError as exc:
+            raise RuntimeError(
+                "Vertex AI package not installed. Run: uv add google-cloud-aiplatform"
+            ) from exc
+
+    sa_json = service_account_json or os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
+    if sa_json:
+        # Write to a temp file and set credentials env var
+        tmp = tempfile.NamedTemporaryFile(mode="w", suffix=".json", delete=False)
+        tmp.write(sa_json)
+        tmp.flush()
+        tmp.close()
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = tmp.name
+        logger.debug("Vertex AI: using service account credentials from provided JSON")
+    else:
+        logger.debug("Vertex AI: using application default credentials")
+
+    project = os.environ.get("GOOGLE_CLOUD_PROJECT") or os.environ.get("GCLOUD_PROJECT")
+    location = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
+
+    try:
+        vertexai.init(project=project, location=location)  # type: ignore[name-defined]
+        model = GenerativeModel(  # type: ignore[name-defined]
+            model_name="gemini-2.0-flash",
+            system_instruction=_SYSTEM_PROMPT,
+        )
+        parts: list = [_USER_PROMPT]
+        for b64 in images_b64:
+            parts.append({"mime_type": "image/png", "data": b64})
+        response = model.generate_content(parts)
+        raw = response.text if response.text else "{}"
+    except NameError:
+        # vertexai not available, fall back to google.cloud.aiplatform path
+        raise RuntimeError(
+            "Could not initialise Vertex AI. Ensure google-cloud-aiplatform is installed: "
+            "uv add google-cloud-aiplatform"
+        )
+
+    return _parse_llm_response(raw, backend="vertex_ai")
+
+
 # ── Response parser ───────────────────────────────────────────────────────────
 
 
 def _parse_llm_response(raw: str, backend: str) -> DocumentSchema:
     """Parse a raw LLM JSON response into a DocumentSchema."""
-    # Strip markdown code fences if present
     text = raw.strip()
     if text.startswith("```"):
         lines = text.splitlines()
@@ -203,7 +351,6 @@ def _parse_llm_response(raw: str, backend: str) -> DocumentSchema:
         logger.warning(f"LLM returned invalid JSON: {exc}. Raw: {text[:200]}")
         data = {}
 
-    # Normalise fields
     raw_fields = data.get("fields", [])
     fields: list[FieldSchema] = []
     for f in raw_fields:
@@ -224,10 +371,28 @@ def _parse_llm_response(raw: str, backend: str) -> DocumentSchema:
 
 
 class SchemaExtractor:
-    """Extract a DocumentSchema from one or more document scan images."""
+    """Extract a DocumentSchema from one or more document scan images.
 
-    def __init__(self, backend: Backend = "mock") -> None:
+    Args:
+        backend: LLM provider to use. Default is ``"mock"`` (no API key needed).
+            Free options with an API key: ``"gemini"`` and ``"groq"``.
+        api_key: Optional API key for the chosen provider. Falls back to the
+            corresponding environment variable if not supplied.
+        service_account_json: Raw JSON string of a GCP service account key,
+            used only by the ``vertex_ai`` backend. Falls back to
+            ``GOOGLE_APPLICATION_CREDENTIALS`` / ``GOOGLE_SERVICE_ACCOUNT_JSON``
+            env vars if not supplied.
+    """
+
+    def __init__(
+        self,
+        backend: Backend = "mock",
+        api_key: str | None = None,
+        service_account_json: str | None = None,
+    ) -> None:
         self.backend: Backend = backend
+        self.api_key = api_key or None  # normalise empty string → None
+        self.service_account_json = service_account_json or None
 
     def extract(self, images: list[Image.Image]) -> DocumentSchema:
         """Run schema extraction on a list of PIL images.
@@ -256,9 +421,15 @@ class SchemaExtractor:
             img.convert("RGB").save(buf, format="PNG")
             images_b64.append(base64.b64encode(buf.getvalue()).decode())
 
+        if self.backend == "gemini":
+            return _gemini_schema(images_b64, self.api_key)
+        if self.backend == "groq":
+            return _groq_schema(images_b64, self.api_key)
         if self.backend == "openai":
-            return _openai_schema(images_b64)
+            return _openai_schema(images_b64, self.api_key)
         if self.backend == "anthropic":
-            return _anthropic_schema(images_b64)
+            return _anthropic_schema(images_b64, self.api_key)
+        if self.backend == "vertex_ai":
+            return _vertex_schema(images_b64, self.api_key, self.service_account_json)
 
         raise ValueError(f"Unknown backend: {self.backend!r}")

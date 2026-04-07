@@ -339,10 +339,17 @@ export async function stopRlTraining(jobId: string): Promise<void> {
 
 // ── Schema Extraction ─────────────────────────────────────────────────────────
 
-export async function extractSchema(files: File[], backend: SchemaBackend = 'mock'): Promise<DocumentSchema> {
+export async function extractSchema(
+  files: File[],
+  backend: SchemaBackend = 'gemini',
+  apiKey?: string,
+  serviceAccountJson?: string,
+): Promise<DocumentSchema> {
   const form = new FormData()
   files.forEach(f => form.append('files', f))
   form.append('backend', backend)
+  if (apiKey) form.append('api_key', apiKey)
+  if (serviceAccountJson) form.append('service_account_json', serviceAccountJson)
   const r = await fetch(`${BASE}/api/synthesis/extract-schema`, { method: 'POST', body: form })
   if (!r.ok) {
     const detail = await r.json().catch(() => ({ detail: r.statusText }))

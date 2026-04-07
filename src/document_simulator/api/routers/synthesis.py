@@ -399,12 +399,16 @@ def config_schema() -> dict:
 async def extract_schema(
     files: list[UploadFile],
     backend: Annotated[Backend, Form()] = "mock",
+    api_key: Annotated[str, Form()] = "",
+    service_account_json: Annotated[str, Form()] = "",
 ) -> DocumentSchema:
     """Extract a DocumentSchema from 1–10 sample document scan images.
 
     Accepts multipart form data with:
     - ``files``: 1–10 image files (PNG, JPG, TIFF, PDF first-page)
-    - ``backend``: ``mock`` (default) | ``openai`` | ``anthropic``
+    - ``backend``: ``mock`` | ``gemini`` | ``groq`` | ``openai`` | ``anthropic`` | ``vertex_ai``
+    - ``api_key``: optional API key (falls back to server-side env vars)
+    - ``service_account_json``: GCP service account JSON string (Vertex AI only)
 
     Returns a ``DocumentSchema`` JSON object.
     """
@@ -441,7 +445,11 @@ async def extract_schema(
         raise HTTPException(status_code=422, detail="No valid images could be decoded from the uploaded files.")
 
     try:
-        extractor = SchemaExtractor(backend=backend)
+        extractor = SchemaExtractor(
+            backend=backend,
+            api_key=api_key or None,
+            service_account_json=service_account_json or None,
+        )
         schema = extractor.extract(images)
     except (ValueError, RuntimeError) as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc

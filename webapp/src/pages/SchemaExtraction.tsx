@@ -47,10 +47,18 @@ const FIELD_DATA_TYPES: FieldDataType[] = [
   'phone', 'email', 'address', 'company', 'id', 'checkbox', 'signature', 'other',
 ]
 
-const BACKENDS: { value: SchemaBackend; label: string; note: string }[] = [
-  { value: 'mock', label: 'Mock', note: 'No API key needed — returns a demo schema' },
-  { value: 'openai', label: 'OpenAI GPT-4o', note: 'Requires OPENAI_API_KEY on the server' },
-  { value: 'anthropic', label: 'Anthropic Claude', note: 'Requires ANTHROPIC_API_KEY on the server' },
+const BACKENDS: { value: SchemaBackend; label: string; note: string; free?: boolean; keyLabel?: string; keyPlaceholder?: string; isVertexAI?: boolean }[] = [
+  { value: 'mock',       label: 'Mock',             note: 'No API key — returns a demo receipt schema. Good for testing.',                      },
+  { value: 'gemini',     label: 'Gemini Flash',     note: 'Free tier via Google AI Studio (aistudio.google.com/app/apikey)', free: true,
+    keyLabel: 'Google AI Studio API Key', keyPlaceholder: 'AIza…' },
+  { value: 'groq',       label: 'Groq (LLaMA)',     note: 'Free tier via Groq console (console.groq.com)', free: true,
+    keyLabel: 'Groq API Key', keyPlaceholder: 'gsk_…' },
+  { value: 'openai',     label: 'OpenAI GPT-4o',    note: 'Paid — requires an OpenAI API key',
+    keyLabel: 'OpenAI API Key', keyPlaceholder: 'sk-…' },
+  { value: 'anthropic',  label: 'Anthropic Claude', note: 'Paid — requires an Anthropic API key',
+    keyLabel: 'Anthropic API Key', keyPlaceholder: 'sk-ant-…' },
+  { value: 'vertex_ai',  label: 'Vertex AI',        note: 'GCP Gemini — requires a service account or ADC', isVertexAI: true,
+    keyLabel: 'Service Account JSON', keyPlaceholder: '{"type":"service_account",…}' },
 ]
 
 const TYPE_COLORS: Record<FieldDataType, string> = {
@@ -89,7 +97,9 @@ export default function SchemaExtraction() {
 
   const [files, setFiles] = useState<File[]>([])
   const [previews, setPreviews] = useState<string[]>([])
-  const [backend, setBackend] = useState<SchemaBackend>('mock')
+  const [backend, setBackend] = useState<SchemaBackend>('gemini')
+  const [apiKey, setApiKey] = useState('')
+  const [serviceAccountJson, setServiceAccountJson] = useState('')
   const [schema, setSchema] = useState<DocumentSchema | null>(null)
   const [editedFields, setEditedFields] = useState<FieldSchema[]>([])
   const [loading, setLoading] = useState(false)
@@ -139,7 +149,12 @@ export default function SchemaExtraction() {
     setError(null)
     setUsedMessage(null)
     try {
-      const result = await extractSchema(files, backend)
+      const result = await extractSchema(
+        files,
+        backend,
+        apiKey || undefined,
+        serviceAccountJson || undefined,
+      )
       setSchema(result)
       setEditedFields(result.fields.map(f => ({ ...f, example_values: [...f.example_values] })))
     } catch (e: unknown) {
@@ -255,9 +270,9 @@ export default function SchemaExtraction() {
           </div>
 
           {/* Backend selector */}
-          <div style={{ flex: '0 0 260px' }}>
+          <div style={{ flex: '0 0 280px' }}>
             <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 6 }}>LLM Backend</div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
               {BACKENDS.map(b => (
                 <label
                   key={b.value}
@@ -265,7 +280,7 @@ export default function SchemaExtraction() {
                     display: 'flex',
                     alignItems: 'flex-start',
                     gap: 10,
-                    padding: '10px 12px',
+                    padding: '8px 12px',
                     borderRadius: 6,
                     border: `1px solid ${backend === b.value ? '#4f6ef7' : '#e0e0e0'}`,
                     background: backend === b.value ? '#f0f3ff' : '#fff',
@@ -278,16 +293,64 @@ export default function SchemaExtraction() {
                     name="backend"
                     value={b.value}
                     checked={backend === b.value}
-                    onChange={() => setBackend(b.value)}
+                    onChange={() => { setBackend(b.value); setApiKey(''); setServiceAccountJson('') }}
                     style={{ marginTop: 2 }}
                   />
                   <div>
-                    <div style={{ fontSize: 13, fontWeight: 600 }}>{b.label}</div>
+                    <div style={{ fontSize: 13, fontWeight: 600 }}>
+                      {b.label}
+                      {b.free && (
+                        <span style={{ marginLeft: 6, fontSize: 10, fontWeight: 700, color: '#15803d', background: '#dcfce7', borderRadius: 4, padding: '1px 6px', border: '1px solid #bbf7d0' }}>
+                          FREE
+                        </span>
+                      )}
+                    </div>
                     <div style={{ fontSize: 11, color: '#888', marginTop: 2 }}>{b.note}</div>
                   </div>
                 </label>
               ))}
             </div>
+
+            {/* API key / service account input — shown for non-mock backends */}
+            {backend !== 'mock' && (() => {
+              const active = BACKENDS.find(b => b.value === backend)!
+              return (
+                <div style={{ marginTop: 12 }}>
+                  <div style={{ fontSize: 12, fontWeight: 600, marginBottom: 4, color: '#555' }}>
+                    {active.keyLabel ?? 'API Key'}
+                    <span style={{ fontWeight: 400, color: '#aaa', marginLeft: 4 }}>(sent per request, never stored)</span>
+                  </div>
+                  {active.isVertexAI ? (
+                    <textarea
+                      rows={4}
+                      value={serviceAccountJson}
+                      onChange={e => setServiceAccountJson(e.target.value)}
+                      placeholder={active.keyPlaceholder}
+                      style={{
+                        ...inputCell,
+                        fontFamily: 'monospace',
+                        fontSize: 11,
+                        resize: 'vertical',
+                      }}
+                    />
+                  ) : (
+                    <input
+                      type="password"
+                      value={apiKey}
+                      onChange={e => setApiKey(e.target.value)}
+                      placeholder={active.keyPlaceholder ?? 'Paste API key…'}
+                      autoComplete="off"
+                      style={inputCell}
+                    />
+                  )}
+                  {active.free && (
+                    <div style={{ fontSize: 11, color: '#15803d', marginTop: 4 }}>
+                      Free tier available — no credit card required.
+                    </div>
+                  )}
+                </div>
+              )
+            })()}
           </div>
         </div>
 

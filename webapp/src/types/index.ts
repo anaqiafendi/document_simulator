@@ -209,4 +209,4 @@ export interface DocumentSchema {
   backend_used: string
 }
 
-export type SchemaBackend = 'mock' | 'openai' | 'anthropic'
+export type SchemaBackend = 'mock' | 'gemini' | 'groq' | 'openai' | 'anthropic' | 'vertex_ai'
