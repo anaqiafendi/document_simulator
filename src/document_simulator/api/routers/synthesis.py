@@ -28,9 +28,11 @@ from document_simulator.api.models import (
 )
 from document_simulator.data.ground_truth import GroundTruth
 from document_simulator.synthesis.annotation import AnnotationBuilder
+from document_simulator.synthesis.field_schema import DocumentSchema
 from document_simulator.synthesis.generator import SyntheticDocumentGenerator
 from document_simulator.synthesis.renderer import StyleResolver, ZoneRenderer
 from document_simulator.synthesis.sampler import ZoneDataSampler, generate_respondent
+from document_simulator.synthesis.schema_extractor import Backend, SchemaExtractor
 from document_simulator.synthesis.zones import SynthesisConfig
 
 router = APIRouter()
@@ -391,3 +393,60 @@ def load_sample(filename: str, dpi: int = 150, page: int = 0) -> TemplateRespons
 def config_schema() -> dict:
     """Return the JSON Schema for SynthesisConfig."""
     return SynthesisConfig.model_json_schema()
+
+
+@router.post("/api/synthesis/extract-schema", response_model=DocumentSchema)
+async def extract_schema(
+    files: list[UploadFile],
+    backend: Annotated[Backend, Form()] = "mock",
+) -> DocumentSchema:
+    """Extract a DocumentSchema from 1–10 sample document scan images.
+
+    Accepts multipart form data with:
+    - ``files``: 1–10 image files (PNG, JPG, TIFF, PDF first-page)
+    - ``backend``: ``mock`` (default) | ``openai`` | ``anthropic``
+
+    Returns a ``DocumentSchema`` JSON object.
+    """
+    if not files:
+        raise HTTPException(status_code=422, detail="At least one file is required.")
+    if len(files) > 10:
+        files = files[:10]
+
+    images: list[Image.Image] = []
+    for upload in files:
+        raw = await upload.read()
+        if not raw:
+            continue
+        filename = upload.filename or ""
+        lower = filename.lower()
+        try:
+            if lower.endswith(".pdf"):
+                try:
+                    import fitz  # type: ignore[import-untyped]
+                except ImportError as exc:
+                    raise HTTPException(status_code=500, detail="PyMuPDF not installed.") from exc
+                doc = fitz.open(stream=raw, filetype="pdf")
+                pix = doc[0].get_pixmap(matrix=fitz.Matrix(150 / 72, 150 / 72))
+                img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+            else:
+                img = Image.open(io.BytesIO(raw)).convert("RGB")
+            images.append(img)
+        except HTTPException:
+            raise
+        except Exception as exc:
+            logger.warning(f"Could not decode uploaded file {filename!r}: {exc}")
+
+    if not images:
+        raise HTTPException(status_code=422, detail="No valid images could be decoded from the uploaded files.")
+
+    try:
+        extractor = SchemaExtractor(backend=backend)
+        schema = extractor.extract(images)
+    except (ValueError, RuntimeError) as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    except Exception as exc:
+        logger.error(f"Schema extraction failed: {exc}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Schema extraction failed: {exc}") from exc
+
+    return schema

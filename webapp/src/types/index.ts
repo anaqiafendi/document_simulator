@@ -173,3 +173,40 @@ export interface RlTrainConfig {
   checkpoint_freq: number
   dataset_dir: string | null
 }
+
+// ── Schema Extraction ─────────────────────────────────────────────────────────
+
+export type FieldDataType =
+  | 'text'
+  | 'name'
+  | 'date'
+  | 'time'
+  | 'datetime'
+  | 'number'
+  | 'currency'
+  | 'phone'
+  | 'email'
+  | 'address'
+  | 'company'
+  | 'id'
+  | 'checkbox'
+  | 'signature'
+  | 'other'
+
+export interface FieldSchema {
+  field_name: string
+  data_type: FieldDataType
+  description: string
+  example_values: string[]
+  faker_provider: string | null
+  required: boolean
+}
+
+export interface DocumentSchema {
+  document_type: string
+  fields: FieldSchema[]
+  notes: string
+  backend_used: string
+}
+
+export type SchemaBackend = 'mock' | 'openai' | 'anthropic'
