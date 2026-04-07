@@ -36,6 +36,7 @@ Each file follows [`feature_template.md`](feature_template.md) and links to the 
 | #21 | [Augmentation Lab Catalogue](feature_augmentation_lab_catalogue.md) | `augmentation.catalogue` + `ui.pages.01_augmentation_lab` | done |
 | #22 | [Multi-Template Batch Augmentation](feature_multi_template_batch.md) | `augmentation.batch` + `ui.pages.03_batch_processing` | done |
 | #23 | [Augraphy Full Catalogue (51 Classes)](feature_augraphy_full_catalogue.md) | `augmentation.catalogue` + `ui.pages.01_augmentation_lab` | done |
+| #26 | [Augmentation UI — Perceptual Degradation Language](feature_augmentation_ui_perceptual_language.md) | `augmentation.catalogue` + `ui.pages.01_augmentation_lab` | complete |
 
 ## Synthesis
 
@@ -44,6 +45,7 @@ Each file follows [`feature_template.md`](feature_template.md) and links to the 
 | #19 | [Synthetic Document Generator](feature_synthetic_document_generator.md) | `synthesis.*` | planned |
 | #20 | [React Zone Editor UI](feature_js_zone_editor_ui.md) | `api.*` + `webapp/` | complete |
 | #25 | [Migrate Streamlit Pages to React SPA](feature_migrate_streamlit_to_react.md) | `api.routers.*` + `webapp/src/pages/*` | complete |
+| #27 | [LLM-Powered Field Schema Extraction](feature_llm_schema_extraction.md) | `synthesis.schema_extractor` + `synthesis.field_schema` | complete |
 
 ## Deployment
 
