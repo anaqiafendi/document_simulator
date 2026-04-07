@@ -105,5 +105,11 @@ export function useZonePreview() {
     })
   }, [])
 
-  return { previews, initZone, rerollZone, removeZone, clearFieldTypeFontSize, resampleFontSize }
+  /** Remove all zone previews and clear font size cache (e.g. when template style changes). */
+  const clearAllPreviews = useCallback(() => {
+    setPreviews({})
+    fontSizeCache.current = {}
+  }, [])
+
+  return { previews, initZone, rerollZone, removeZone, clearFieldTypeFontSize, resampleFontSize, clearAllPreviews }
 }

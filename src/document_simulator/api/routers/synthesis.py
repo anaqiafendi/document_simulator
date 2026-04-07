@@ -31,6 +31,7 @@ from document_simulator.synthesis.annotation import AnnotationBuilder
 from document_simulator.synthesis.generator import SyntheticDocumentGenerator
 from document_simulator.synthesis.renderer import StyleResolver, ZoneRenderer
 from document_simulator.synthesis.sampler import ZoneDataSampler, generate_respondent
+from document_simulator.synthesis.template_registry import TemplateRegistry
 from document_simulator.synthesis.zones import SynthesisConfig
 
 router = APIRouter()
@@ -391,3 +392,51 @@ def load_sample(filename: str, dpi: int = 150, page: int = 0) -> TemplateRespons
 def config_schema() -> dict:
     """Return the JSON Schema for SynthesisConfig."""
     return SynthesisConfig.model_json_schema()
+
+
+# ── Template styles ───────────────────────────────────────────────────────────
+
+
+@router.get("/api/synthesis/templates")
+def list_template_styles() -> dict:
+    """Return all registered built-in template styles.
+
+    Response shape::
+
+        {
+            "templates": [
+                {"id": "receipt_thermal", "name": "Thermal Receipt",
+                 "description": "...", "supports_line_items": true,
+                 "default_line_items_range": [3, 10]}
+            ]
+        }
+    """
+    styles = TemplateRegistry.list_all()
+    return {
+        "templates": [
+            {
+                "id": s.id,
+                "name": s.name,
+                "description": s.description,
+                "supports_line_items": s.supports_line_items,
+                "default_line_items_range": list(s.default_line_items_range),
+            }
+            for s in styles
+        ]
+    }
+
+
+@router.get("/api/synthesis/templates/{template_id}/zones")
+def get_template_zones(template_id: str) -> dict:
+    """Return the default zones for a registered template style.
+
+    Response shape::
+
+        {"template_id": "receipt_thermal", "zones": [...ZoneConfig dicts...]}
+
+    Returns 404 if *template_id* is not registered.
+    """
+    style = TemplateRegistry.get(template_id)
+    if style is None:
+        raise HTTPException(status_code=404, detail=f"Template style '{template_id}' not found.")
+    return {"template_id": template_id, "zones": style.default_zones}
