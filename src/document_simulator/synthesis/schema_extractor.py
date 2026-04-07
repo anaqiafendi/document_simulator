@@ -2,7 +2,7 @@
 
 Supported backends (in recommended order):
 - ``mock``       — deterministic fake response, no API key needed (great for testing)
-- ``gemini``     — Google Gemini via google-generativeai (free tier at aistudio.google.com)
+- ``gemini``     — Google Gemini via google-genai SDK (free tier at aistudio.google.com)
 - ``groq``       — Groq API with LLaMA vision (free tier at console.groq.com)
 - ``openai``     — OpenAI GPT-4o vision API
 - ``anthropic``  — Anthropic Claude vision API
@@ -130,12 +130,16 @@ def _mock_schema(n_images: int) -> DocumentSchema:
 
 
 def _gemini_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema:
-    """Extract schema via Google Gemini (free tier via Google AI Studio)."""
+    """Extract schema via Google Gemini (free tier via Google AI Studio).
+
+    Uses the new ``google-genai`` SDK (v1.x), which replaced ``google-generativeai``.
+    """
     try:
-        import google.generativeai as genai  # type: ignore[import-untyped]
+        from google import genai  # type: ignore[import-untyped]
+        from google.genai import types as genai_types  # type: ignore[import-untyped]
     except ImportError as exc:
         raise RuntimeError(
-            "google-generativeai package not installed. Run: uv add google-generativeai"
+            "google-genai package not installed. Run: uv add google-genai"
         ) from exc
 
     key = api_key or os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
@@ -145,17 +149,36 @@ def _gemini_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema
             "Get a free key at https://aistudio.google.com/app/apikey"
         )
 
-    genai.configure(api_key=key)
-    model = genai.GenerativeModel(
-        model_name="gemini-2.0-flash",
-        system_instruction=_SYSTEM_PROMPT,
+    client = genai.Client(api_key=key)
+
+    # Build content parts: system instruction + user prompt + images
+    contents: list = [
+        genai_types.Content(
+            role="user",
+            parts=[
+                genai_types.Part(text=f"{_SYSTEM_PROMPT}\n\n{_USER_PROMPT}"),
+                *[
+                    genai_types.Part(
+                        inline_data=genai_types.Blob(
+                            mime_type="image/png",
+                            data=base64.b64decode(b64),
+                        )
+                    )
+                    for b64 in images_b64
+                ],
+            ],
+        )
+    ]
+
+    response = client.models.generate_content(
+        model="gemini-2.0-flash",
+        contents=contents,
+        config=genai_types.GenerateContentConfig(
+            temperature=0,
+            max_output_tokens=2048,
+        ),
     )
 
-    parts: list = [_USER_PROMPT]
-    for b64 in images_b64:
-        parts.append({"mime_type": "image/png", "data": b64})
-
-    response = model.generate_content(parts)
     raw = response.text if response.text else "{}"
     return _parse_llm_response(raw, backend="gemini")
 

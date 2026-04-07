@@ -23,42 +23,34 @@ classifiers = [
 dependencies = [
     # Document Augmentation
     "augraphy>=8.2.0",
-
     # Computer Vision & Image Processing
     "opencv-python-headless>=4.9.0",
     "pillow>=10.2.0",
     "scikit-image>=0.22.0",
     "albumentations>=1.4.0",
-
     # Numerics
     "numpy>=1.26.0,<2.0.0",
     "scipy>=1.12.0",
-
     # Data Handling
     "pandas>=2.2.0",
-
     # Utilities
     "pydantic>=2.6.0",
     "pydantic-settings>=2.2.0",
     "python-dotenv>=1.0.0",
     "tqdm>=4.66.0",
     "rich>=13.7.0",
-
     # Logging
     "loguru>=0.7.2",
-
     # Synthetic Generator
     "faker>=24.0.0",
     "pymupdf>=1.23.0",
-
     # FastAPI backend
     "fastapi>=0.111.0",
     "uvicorn[standard]>=0.30.0",
     "python-multipart>=0.0.9",
-
     # LLM schema extraction — free-tier providers bundled in core image
     # (openai, anthropic, google-cloud-aiplatform remain optional via [llm] extra)
-    "google-generativeai>=0.8.0",
+    "google-genai>=1.70.0",
     "groq>=0.11.0",
 ]
 
@@ -80,7 +72,7 @@ rl = [
 
 # LLM backends for schema extraction (all optional — install whichever you use)
 llm = [
-    "google-generativeai>=0.8.0",      # Gemini via Google AI Studio (free tier)
+    "google-genai>=1.70.0",             # Gemini via Google AI Studio (free tier, new SDK)
     "groq>=0.11.0",                     # Groq API — LLaMA vision (free tier)
     "openai>=1.30.0",                   # OpenAI GPT-4o
     "anthropic>=0.28.0",                # Anthropic Claude
