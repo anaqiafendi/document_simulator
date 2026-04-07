@@ -1,29 +1,14 @@
-# Multi-stage Dockerfile
-# Stage 1: build the React SPA
-# Stage 2: Python + FastAPI serves everything
+# Single-stage Dockerfile for HF Spaces deployment.
 #
-# Note: tsc is run via `node node_modules/typescript/bin/tsc` to avoid
-# symlink permission issues in the HF Spaces Docker build environment.
+# The React SPA is pre-built by the CI workflow (preview-deploy.yml /
+# deploy-hf.yml) on a standard Ubuntu runner where esbuild works normally.
+# The built webapp/dist/ is uploaded to the HF Space before Docker runs, so
+# the image just copies the artefact — no Node.js stage needed.
+#
+# For local Docker builds, run `cd webapp && npm ci && npm run build` first
+# so that webapp/dist/ exists in the build context.
 
-# ─── Stage 1: Node build ────────────────────────────────────────────────────
-FROM node:20-slim AS node-builder
-
-WORKDIR /build/webapp
-COPY webapp/package*.json ./
-RUN npm ci
-
-COPY webapp/ .
-
-# Run type-check then bundle.
-# Use `node <path>` directly — avoids the symlink permission issue seen in
-# some Docker build environments (HF Spaces) where node_modules/.bin/* are
-# not executable despite npm ci completing successfully.
-RUN node node_modules/typescript/bin/tsc --noEmit && \
-    node node_modules/vite/bin/vite.js build
-# Output: /build/webapp/dist/
-
-# ─── Stage 2: Python runtime ─────────────────────────────────────────────────
-FROM python:3.11-slim AS python-app
+FROM python:3.11-slim
 
 # Install system libs needed by PyMuPDF, OpenCV, and augraphy
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -45,7 +30,6 @@ WORKDIR /app
 COPY pyproject.toml uv.lock README.md ./
 
 # Sync core deps only — heavy optional extras (ocr, rl, ui) are excluded.
-# Core = augraphy + fastapi + synthesis. Image is ~800 MB.
 RUN uv sync --no-dev --frozen --no-install-project
 
 # Copy source package
@@ -54,8 +38,11 @@ COPY src/ ./src/
 # Install the project itself (no-deps, already synced above)
 RUN uv sync --no-dev --frozen
 
-# Copy React build output from stage 1
-COPY --from=node-builder /build/webapp/dist ./webapp/dist/
+# Copy React build output.
+# In HF Spaces, webapp/dist/ is gitignored so Docker can't access it directly.
+# CI uploads the build artefact to webapp_dist/ (a non-gitignored path) so it
+# is available in the Docker build context.
+COPY webapp_dist/ ./webapp/dist/
 
 # Copy sample data (optional — provides demo templates)
 COPY data/ ./data/
