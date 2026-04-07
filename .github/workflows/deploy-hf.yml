@@ -40,9 +40,10 @@ jobs:
           from huggingface_hub import HfApi
 
           api = HfApi(token=os.environ["HF_TOKEN"])
+          repo_id = f"{os.environ['HF_USERNAME']}/{os.environ['HF_SPACE_NAME']}"
           api.upload_folder(
               folder_path=".",
-              repo_id=f"{os.environ['HF_USERNAME']}/{os.environ['HF_SPACE_NAME']}",
+              repo_id=repo_id,
               repo_type="space",
               ignore_patterns=[
                   ".git",
@@ -54,10 +55,19 @@ jobs:
                   "node_modules",
                   "node_modules/**",
                   "webapp/.vite/deps/**",
+                  "webapp/dist", "webapp/dist/**",
                   "*.pyc",
                   "augraphy_cache/**",
               ],
               commit_message="deploy: sync from GitHub main",
+          )
+          # Upload pre-built React SPA as webapp_dist/ (bypasses gitignore filter)
+          api.upload_folder(
+              folder_path="webapp/dist",
+              path_in_repo="webapp_dist",
+              repo_id=repo_id,
+              repo_type="space",
+              commit_message="deploy: pre-built webapp_dist",
           )
           print("Deploy complete.")
           EOF

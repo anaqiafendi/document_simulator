@@ -59,7 +59,10 @@ jobs:
           except Exception as e:
               print(f"create_repo: {e}")
 
-          # Upload current code to the space
+          # Upload current code to the space.
+          # webapp/dist/ is gitignored so HF Spaces Docker builds can't access
+          # it via COPY.  We upload it separately as webapp_dist/ (a
+          # non-gitignored path) so the Dockerfile can COPY webapp_dist/.
           api.upload_folder(
               folder_path=".",
               repo_id=repo_id,
@@ -70,10 +73,19 @@ jobs:
                   "__pycache__", "**/__pycache__/**",
                   "node_modules", "node_modules/**",
                   "webapp/.vite/deps/**",
+                  "webapp/dist", "webapp/dist/**",
                   "*.pyc",
                   "augraphy_cache/**",
               ],
               commit_message=f"preview: PR #{pr_number}",
+          )
+          # Upload pre-built React SPA as webapp_dist/ (bypasses gitignore filter)
+          api.upload_folder(
+              folder_path="webapp/dist",
+              path_in_repo="webapp_dist",
+              repo_id=repo_id,
+              repo_type="space",
+              commit_message=f"preview: PR #{pr_number} — pre-built webapp_dist",
           )
 
           space_url = f"https://huggingface.co/spaces/{repo_id}"

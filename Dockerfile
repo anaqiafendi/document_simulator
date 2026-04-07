@@ -1,10 +1,12 @@
-# Dockerfile — single Python stage
+# Single-stage Dockerfile for HF Spaces deployment.
 #
-# The React SPA (webapp/dist/) is pre-built by CI (GitHub Actions) before
-# being uploaded to the HF Space repo, so we don't need a Node build stage here.
-# If you're building locally without a pre-built dist, run:
-#   cd webapp && npm ci && npm run build
-# first.
+# The React SPA is pre-built by the CI workflow (preview-deploy.yml /
+# deploy-hf.yml) on a standard Ubuntu runner where esbuild works normally.
+# The built webapp/dist/ is uploaded to the HF Space before Docker runs, so
+# the image just copies the artefact — no Node.js stage needed.
+#
+# For local Docker builds, run `cd webapp && npm ci && npm run build` first
+# so that webapp/dist/ exists in the build context.
 
 FROM python:3.11-slim
 
@@ -36,8 +38,11 @@ COPY src/ ./src/
 # Install the project itself (no-deps, already synced above)
 RUN uv sync --no-dev --frozen
 
-# Copy pre-built React SPA from CI
-COPY webapp/dist ./webapp/dist/
+# Copy React build output.
+# In HF Spaces, webapp/dist/ is gitignored so Docker can't access it directly.
+# CI uploads the build artefact to webapp_dist/ (a non-gitignored path) so it
+# is available in the Docker build context.
+COPY webapp_dist/ ./webapp/dist/
 
 # Copy sample data (optional — provides demo templates)
 COPY data/ ./data/
@@ -45,5 +50,7 @@ COPY data/ ./data/
 # Expose FastAPI port
 EXPOSE 7860
 
+# Hugging Face Spaces uses port 7860 by default
+# The React SPA is served by FastAPI StaticFiles from webapp/dist/
 CMD ["/app/.venv/bin/uvicorn", "document_simulator.api.app:app", \
      "--host", "0.0.0.0", "--port", "7860", "--workers", "1"]
