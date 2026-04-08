@@ -61,13 +61,19 @@ jobs:
               ],
               commit_message="deploy: sync from GitHub main",
           )
-          # Upload pre-built React SPA as webapp_dist/ (bypasses gitignore filter)
-          api.upload_folder(
-              folder_path="webapp/dist",
-              path_in_repo="webapp_dist",
-              repo_id=repo_id,
-              repo_type="space",
-              commit_message="deploy: pre-built webapp_dist",
-          )
+          # Upload pre-built React SPA as webapp_dist/ (bypasses gitignore filter).
+          # Non-fatal: if HF returns a transient 5xx the previous webapp_dist
+          # remains in the Space so the Docker build still succeeds.
+          try:
+              api.upload_folder(
+                  folder_path="webapp/dist",
+                  path_in_repo="webapp_dist",
+                  repo_id=repo_id,
+                  repo_type="space",
+                  commit_message="deploy: pre-built webapp_dist",
+              )
+              print("webapp_dist uploaded successfully")
+          except Exception as e:
+              print(f"WARNING: webapp_dist upload failed (non-fatal, using previous): {e}")
           print("Deploy complete.")
           EOF
