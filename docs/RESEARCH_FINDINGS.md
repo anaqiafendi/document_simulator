@@ -1540,3 +1540,113 @@ Single Docker container serving both React SPA (as static files via FastAPI) and
 - [HF Spaces Docker docs](https://huggingface.co/docs/hub/spaces-sdks-docker)
 - [Render free tier limitations](https://render.com/docs/free#free-web-services)
 - [Fly.io free allowances](https://fly.io/docs/about/pricing/#free-allowances)
+
+---
+
+## Research: Robust Ground Truth Bundling (2026-04-06)
+
+### Context
+
+Anand's feedback (2026-04-06 meeting) confirmed the ground truth generation works for the template-based flow, but needs hardening for the LLM-inferred-schema flow. Air Canada use case: generated datasets will fine-tune OCR models for international receipt field extraction — GT reliability is non-negotiable.
+
+Key requirements extracted from meeting transcript and feedback doc:
+1. Every generated image must have a paired GT file — no exceptions
+2. GT must include bounding box coordinates per field (not just text values) for OCR fine-tuning
+3. GT schema must be self-describing: field_name, text_value, bbox_pixels, bbox_normalized, font_info, confidence (1.0 for synthetic, <1.0 for LLM-inferred)
+4. Batch integrity check: after N documents, verify N GT files exist and each references a real image
+5. Export formats: per-image JSON sidecar, JSONL manifest for whole batch, COCO-style JSON
+
+### Current State Analysis
+
+The codebase already has:
+- `TextRegion` + `GroundTruth` Pydantic models in `data/ground_truth.py` — solid foundation with quad bbox support
+- `AnnotationBuilder` in `synthesis/annotation.py` — builds and saves GT JSON sidecars
+- `SyntheticDocumentGenerator.generate()` in `synthesis/generator.py` — saves JSON alongside images
+- No batch integrity verification exists
+- No JSONL manifest output
+- No COCO-format export
+- No normalized bbox (all boxes are in pixel coordinates only)
+- No explicit `field_name` field (uses `label` instead)
+- GT schema does not distinguish "confidence from synthetic generation" vs "confidence from LLM inference"
+
+### COCO Text Detection Format
+
+COCO format for text detection (as used by PaddleOCR training data and mainstream benchmarks):
+
+```json
+{
+  "info": {"description": "...", "version": "1.0", "date_created": "..."},
+  "images": [
+    {"id": 1, "file_name": "doc_000001.png", "width": 794, "height": 1123}
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [x, y, width, height],
+      "segmentation": [[x1,y1,x2,y2,x3,y3,x4,y4]],
+      "text": "Jane Doe",
+      "field_name": "customer_name",
+      "confidence": 1.0,
+      "area": width * height,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [{"id": 1, "name": "text"}]
+}
+```
+
+Key: COCO uses `[x, y, width, height]` for `bbox` and quad polygon for `segmentation`. PaddleOCR fine-tuning uses this format with an added `transcription` or `text` field.
+
+### PaddleOCR 3.x Training Data Format
+
+PaddleOCR 3.x (detection task) expects a label file where each line is:
+```
+path/to/image.jpg\t[{"transcription": "text", "points": [[x1,y1],[x2,y2],[x3,y3],[x4,y4]]}]
+```
+
+For recognition task, format is:
+```
+path/to/crop.jpg\ttext_content
+```
+
+The JSONL manifest and COCO export must be compatible with these formats for downstream fine-tuning.
+
+### Batch Integrity Pattern
+
+Key failure modes to guard against:
+1. Partial write: image saved, process crashes before GT written
+2. Orphaned GT: GT file exists but image file missing (rare in generation, common after cleanup)
+3. Schema mismatch: GT fields don't match current schema version
+4. Count mismatch: expected N documents, got fewer (process killed, disk full)
+
+Solution: `BatchIntegrityChecker` runs after batch completes and:
+- Verifies `len(image_files) == len(gt_files) == expected_n`
+- For each image, verifies a `.json` sidecar exists with matching stem
+- For each GT, verifies `image_path` field points to an existing file
+- Reports missing pairs as `BatchIntegrityError` with actionable message
+
+### Design Decisions
+
+1. **`GroundTruthRecord`** is a new enhanced model extending current schema. It adds:
+   - `field_name: str` — canonical field identifier (maps to zone `label`)
+   - `bbox_pixels: list[float]` — `[x, y, w, h]` axis-aligned bounding box
+   - `bbox_normalized: list[float]` — `[x, y, w, h]` normalized to `[0, 1]` by image dims
+   - `image_width: int` and `image_height: int` on the parent record for normalization
+   - `confidence: float` — 1.0 for synthetic, <1.0 for LLM-inferred fields
+
+2. **`GroundTruthWriter`** handles three output formats via explicit methods:
+   - `write_sidecar(gt, path)` — per-image JSON (existing behaviour, enhanced schema)
+   - `write_jsonl(records, path)` — batch JSONL manifest (one record per line)
+   - `write_coco(records, path)` — COCO-format JSON for the whole batch
+
+3. **`BatchIntegrityChecker`** is a standalone utility — no side effects, raises on failure.
+
+4. **Integration**: `SyntheticDocumentGenerator.generate()` gains optional `write_manifest` and `write_coco` flags. The `AnnotationBuilder` is kept for backward compatibility; new code calls `GroundTruthWriter` instead (or `AnnotationBuilder` delegates to it).
+
+### References
+- [COCO Detection Format](https://cocodataset.org/#format-data)
+- [PaddleOCR 3.x Training Data Preparation](https://github.com/PaddlePaddle/PaddleOCR/blob/main/docs/ppocr/training/detection.md)
+- [ICDAR 2015 GT Format](https://rrc.cvc.uab.es/?ch=4&com=tasks)
+- feedback-anand-2026-04-06.md: "Every generated image must come with a paired ground truth file so the OCR model can be fine-tuned to extract fields correctly."

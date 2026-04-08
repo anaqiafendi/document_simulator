@@ -9,6 +9,7 @@ from PIL import Image
 
 from document_simulator.data.ground_truth import GroundTruth
 from document_simulator.synthesis.annotation import AnnotationBuilder
+from document_simulator.synthesis.ground_truth_writer import EnhancedGroundTruth, GroundTruthWriter
 from document_simulator.synthesis.renderer import StyleResolver, ZoneRenderer
 from document_simulator.synthesis.sampler import ZoneDataSampler, generate_respondent
 from document_simulator.synthesis.template import TemplateLoader
@@ -154,17 +155,25 @@ class SyntheticDocumentGenerator:
         n: int | None = None,
         write: bool = False,
         output_pdf: bool = False,
+        write_manifest: bool = False,
+        write_coco: bool = False,
     ) -> list[tuple[Image.Image, GroundTruth]]:
         """Generate *n* documents and optionally write output to disk.
 
         Args:
-            n:          Number of documents.  Falls back to
-                        ``synthesis_config.generator.n`` when ``None``.
-            write:      If ``True``, save files under
-                        ``synthesis_config.generator.output_dir``.
-            output_pdf: If ``True`` and either *pdf_bytes* was supplied or a
-                        blank PDF can be created, write ``.pdf`` files instead
-                        of PNG files.
+            n:              Number of documents.  Falls back to
+                            ``synthesis_config.generator.n`` when ``None``.
+            write:          If ``True``, save files under
+                            ``synthesis_config.generator.output_dir``.
+                            Sidecars use the enhanced ``schema_version="2.0"`` format.
+            output_pdf:     If ``True`` and either *pdf_bytes* was supplied or a
+                            blank PDF can be created, write ``.pdf`` files instead
+                            of PNG files.
+            write_manifest: If ``True`` (and ``write=True``), also write a
+                            ``batch_manifest.jsonl`` file in the output directory
+                            containing one enhanced GT record per line.
+            write_coco:     If ``True`` (and ``write=True``), also write a
+                            ``coco_annotations.json`` file in COCO format.
 
         Returns:
             List of ``(PIL Image, GroundTruth)`` pairs (unchanged signature).
@@ -176,6 +185,8 @@ class SyntheticDocumentGenerator:
         produce_pdf = output_pdf
 
         pairs: list[tuple[Image.Image, GroundTruth]] = []
+        enhanced_records: list[EnhancedGroundTruth] = []
+
         for i in range(count):
             seed = base_seed + i
 
@@ -192,20 +203,37 @@ class SyntheticDocumentGenerator:
                 stem = f"doc_{i + 1:06d}"
 
                 if pdf_out is not None:
-                    pdf_path = output_dir / f"{stem}.pdf"
-                    pdf_path.write_bytes(pdf_out)
-                    gt_with_path = gt.model_copy(update={"image_path": str(pdf_path)})
+                    img_path = output_dir / f"{stem}.pdf"
+                    img_path.write_bytes(pdf_out)
                 else:
                     img_path = output_dir / f"{stem}.png"
                     img.save(img_path)
-                    gt_with_path = gt.model_copy(update={"image_path": str(img_path)})
 
+                gt_with_path = gt.model_copy(update={"image_path": str(img_path)})
+
+                # Write enhanced sidecar (schema_version="2.0")
+                egt = GroundTruthWriter.from_ground_truth(
+                    gt_with_path,
+                    image_width=img.width,
+                    image_height=img.height,
+                )
                 json_path = output_dir / f"{stem}.json"
-                AnnotationBuilder.save(gt_with_path, json_path)
+                GroundTruthWriter.write_sidecar(egt, json_path)
+
+                if write_manifest or write_coco:
+                    enhanced_records.append(egt)
 
         if write:
             config_path = output_dir / "synthesis_config.json"
             with open(config_path, "w", encoding="utf-8") as f:
                 f.write(self._config.model_dump_json(indent=2))
+
+            if write_manifest:
+                manifest_path = output_dir / "batch_manifest.jsonl"
+                GroundTruthWriter.write_jsonl(enhanced_records, manifest_path)
+
+            if write_coco:
+                coco_path = output_dir / "coco_annotations.json"
+                GroundTruthWriter.write_coco(enhanced_records, coco_path)
 
         return pairs
