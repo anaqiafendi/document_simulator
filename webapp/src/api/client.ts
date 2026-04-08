@@ -13,6 +13,8 @@ import type {
   RlTrainConfig,
   RlJobStatus,
   RlMetrics,
+  TemplateStyle,
+  ZoneConfig,
 } from '../types'
 
 const BASE = ''  // same origin in prod; proxied in dev
@@ -333,4 +335,20 @@ export async function getRlMetrics(jobId: string): Promise<RlMetrics> {
 
 export async function stopRlTraining(jobId: string): Promise<void> {
   await fetch(`${BASE}/api/rl/jobs/${jobId}/stop`, { method: 'POST' })
+}
+
+// ── Template styles ───────────────────────────────────────────────────────────
+
+export async function listTemplateStyles(): Promise<TemplateStyle[]> {
+  const r = await fetch(`${BASE}/api/synthesis/templates`)
+  if (!r.ok) throw new Error(`Failed to list template styles: ${r.status}`)
+  const data = await r.json()
+  return data.templates as TemplateStyle[]
+}
+
+export async function getTemplateZones(templateId: string): Promise<ZoneConfig[]> {
+  const r = await fetch(`${BASE}/api/synthesis/templates/${encodeURIComponent(templateId)}/zones`)
+  if (!r.ok) throw new Error(`Failed to get template zones: ${r.status}`)
+  const data = await r.json()
+  return data.zones as ZoneConfig[]
 }

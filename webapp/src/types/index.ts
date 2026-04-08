@@ -37,6 +37,22 @@ export interface GeneratorConfig {
   output_dir: string
   seed: number
   n: number
+  line_items_range?: [number, number]
+}
+
+// ── Template styles ───────────────────────────────────────────────────────────
+
+export interface TemplateStyle {
+  id: string
+  name: string
+  description: string
+  supports_line_items: boolean
+  default_line_items_range: [number, number]
+}
+
+export interface LineItemsRange {
+  min: number
+  max: number
 }
 
 export interface SynthesisConfig {

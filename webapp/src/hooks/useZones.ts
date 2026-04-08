@@ -39,5 +39,11 @@ export function useZones() {
     setZones(prev)
   }
 
-  return { zones, selectedId, addZone, updateZone, removeZone, selectZone, undo }
+  /** Replace all zones at once (e.g. when a template style is selected). */
+  const replaceZones = (next: ZoneConfig[]) => {
+    setZones(prev => { pushHistory(prev); return next })
+    setSelectedId(null)
+  }
+
+  return { zones, selectedId, addZone, updateZone, removeZone, selectZone, undo, replaceZones }
 }

@@ -11,7 +11,8 @@ import RespondentPanel from './components/RespondentPanel'
 import PreviewGallery from './components/PreviewGallery'
 import BatchGeneratePanel from './components/BatchGeneratePanel'
 import ConfigPanel from './components/ConfigPanel'
-import type { SynthesisConfig, ZoneConfig } from './types'
+import { listTemplateStyles, getTemplateZones } from './api/client'
+import type { SynthesisConfig, ZoneConfig, TemplateStyle, LineItemsRange } from './types'
 
 const sectionHead: React.CSSProperties = {
   fontSize: 11, fontWeight: 700, letterSpacing: '0.06em',
@@ -29,6 +30,45 @@ export default function SyntheticGenerator() {
 
   // Enhancement 7: lift activeRespondentId so RespondentPanel can show the "Active" badge
   const [activeRespondentId, setActiveRespondentId] = useState<string | undefined>(undefined)
+
+  // Template style selector
+  const [templateStyles, setTemplateStyles] = useState<TemplateStyle[]>([])
+  const [selectedStyleId, setSelectedStyleId] = useState<string>('') // '' = custom
+  const [styleLoading, setStyleLoading] = useState(false)
+  const [lineItemsRange, setLineItemsRange] = useState<LineItemsRange>({ min: 3, max: 8 })
+
+  // Load available template styles on mount (best-effort)
+  useEffect(() => {
+    listTemplateStyles().then(setTemplateStyles).catch(() => {})
+  }, [])
+
+  const selectedStyle = templateStyles.find(s => s.id === selectedStyleId) ?? null
+
+  const handleStyleChange = async (styleId: string) => {
+    setSelectedStyleId(styleId)
+    if (!styleId) return  // "Custom" selected — keep existing zones
+    const style = templateStyles.find(s => s.id === styleId)
+    if (!style) return
+    // Update line items range to the template's defaults
+    setLineItemsRange({ min: style.default_line_items_range[0], max: style.default_line_items_range[1] })
+    // Fetch and populate default zones
+    setStyleLoading(true)
+    try {
+      const defaultZones = await getTemplateZones(styleId)
+      zones.replaceZones(defaultZones)
+      // Reset previews then initialise new ones
+      zonePreview.clearAllPreviews()
+      defaultZones.forEach(z => {
+        const r = respondents.respondents.find(r => r.respondent_id === z.respondent_id)
+        const ft = r?.field_types.find(ft => ft.field_type_id === z.field_type_id) ?? r?.field_types[0]
+        zonePreview.initZone(z, ft?.jitter_x ?? 0, ft?.jitter_y ?? 0, ft?.font_size_range ?? [12, 12])
+      })
+    } catch {
+      // ignore — API may not be running
+    } finally {
+      setStyleLoading(false)
+    }
+  }
 
   // Enhancement 5: Cmd+Z / Ctrl+Z undo
   useEffect(() => {
@@ -53,6 +93,9 @@ export default function SyntheticGenerator() {
       output_dir: outputDir,
       seed: 42,
       n,
+      ...(selectedStyle?.supports_line_items
+        ? { line_items_range: [lineItemsRange.min, lineItemsRange.max] as [number, number] }
+        : {}),
     },
   })
 
@@ -178,6 +221,54 @@ export default function SyntheticGenerator() {
         <span style={{ marginLeft: 'auto' }}>
           <ConfigPanel config={buildConfig()} onLoad={() => {}} />
         </span>
+      </div>
+
+      {/* Document Template row */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16, flexWrap: 'wrap' }}>
+        <label style={{ fontSize: 13, fontWeight: 600, color: '#555' }}>Document Template</label>
+
+        <select
+          value={selectedStyleId}
+          disabled={styleLoading}
+          onChange={e => handleStyleChange(e.target.value)}
+          style={{ fontSize: 12, padding: '3px 6px', borderRadius: 3, border: '1px solid #ccc' }}
+        >
+          <option value="">Custom (upload PDF)</option>
+          {templateStyles.map(s => (
+            <option key={s.id} value={s.id}>{s.name}</option>
+          ))}
+        </select>
+
+        {styleLoading && <span style={{ fontSize: 12, color: '#999' }}>Loading zones…</span>}
+
+        {selectedStyle && (
+          <span style={{ fontSize: 12, color: '#777' }}>{selectedStyle.description}</span>
+        )}
+
+        {selectedStyle?.supports_line_items && (
+          <span style={{ display: 'flex', alignItems: 'center', gap: 6, marginLeft: 12 }}>
+            <span style={{ fontSize: 12, fontWeight: 600, color: '#555' }}>Line items:</span>
+            <input
+              type="number"
+              min={1}
+              max={lineItemsRange.max}
+              value={lineItemsRange.min}
+              onChange={e => setLineItemsRange(prev => ({ ...prev, min: Math.max(1, Number(e.target.value)) }))}
+              style={{ width: 52, fontSize: 12, padding: '2px 4px', borderRadius: 3, border: '1px solid #ccc', textAlign: 'center' }}
+              title="Minimum line items"
+            />
+            <span style={{ fontSize: 12, color: '#888' }}>–</span>
+            <input
+              type="number"
+              min={lineItemsRange.min}
+              max={99}
+              value={lineItemsRange.max}
+              onChange={e => setLineItemsRange(prev => ({ ...prev, max: Math.max(prev.min, Number(e.target.value)) }))}
+              style={{ width: 52, fontSize: 12, padding: '2px 4px', borderRadius: 3, border: '1px solid #ccc', textAlign: 'center' }}
+              title="Maximum line items"
+            />
+          </span>
+        )}
       </div>
 
       {/* Main 2-column layout */}

@@ -57,9 +57,21 @@ class SyntheticDocumentGenerator:
     # ------------------------------------------------------------------
 
     def _load_canvas(self) -> Image.Image:
-        """Load or copy the base template image."""
+        """Load or copy the base template image.
+
+        When ``template="blank"`` and the SynthesisConfig has a dynamic
+        ``image_height`` (set by DocumentTemplate.to_synthesis_config), the
+        canvas is created at the exact computed size instead of the default
+        A4 dimensions.
+        """
+        gen = self._config.generator
         if isinstance(self._template_source, Image.Image):
             return self._template_source.copy().convert("RGB")
+        if self._template_source == "blank" and gen.image_height is not None:
+            kwargs = dict(self._template_kwargs)
+            kwargs["width"] = gen.image_width
+            kwargs["height"] = gen.image_height
+            return TemplateLoader.load("blank", **kwargs)
         return TemplateLoader.load(self._template_source, **self._template_kwargs)
 
     def _generate_internal(self, seed: int) -> tuple[Image.Image, list[dict]]:
