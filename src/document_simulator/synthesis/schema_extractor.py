@@ -172,7 +172,7 @@ def _gemini_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.0-flash-lite",
             contents=contents,
             config=genai_types.GenerateContentConfig(
                 temperature=0,
