@@ -170,14 +170,21 @@ def _gemini_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema
         )
     ]
 
-    response = client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=contents,
-        config=genai_types.GenerateContentConfig(
-            temperature=0,
-            max_output_tokens=2048,
-        ),
-    )
+    try:
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=contents,
+            config=genai_types.GenerateContentConfig(
+                temperature=0,
+                max_output_tokens=2048,
+            ),
+        )
+    except Exception as api_exc:
+        # Wrap in RuntimeError so the endpoint handler returns a clean JSON 422
+        # instead of a 500 plain-text uvicorn error.
+        raise RuntimeError(
+            f"Gemini API error ({type(api_exc).__name__}): {api_exc!r}"
+        ) from api_exc
 
     raw = response.text if response.text else "{}"
     return _parse_llm_response(raw, backend="gemini")
@@ -211,15 +218,20 @@ def _groq_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema:
             "image_url": {"url": f"data:image/png;base64,{b64}"},
         })
 
-    response = client.chat.completions.create(
-        model="meta-llama/llama-4-scout-17b-16e-instruct",
-        messages=[
-            {"role": "system", "content": _SYSTEM_PROMPT},
-            {"role": "user", "content": content},
-        ],
-        max_tokens=2048,
-        temperature=0,
-    )
+    try:
+        response = client.chat.completions.create(
+            model="meta-llama/llama-4-scout-17b-16e-instruct",
+            messages=[
+                {"role": "system", "content": _SYSTEM_PROMPT},
+                {"role": "user", "content": content},
+            ],
+            max_tokens=2048,
+            temperature=0,
+        )
+    except Exception as api_exc:
+        raise RuntimeError(
+            f"Groq API error ({type(api_exc).__name__}): {api_exc!r}"
+        ) from api_exc
 
     raw = response.choices[0].message.content or "{}"
     return _parse_llm_response(raw, backend="groq")
@@ -249,15 +261,20 @@ def _openai_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema
             "image_url": {"url": f"data:image/png;base64,{b64}", "detail": "high"},
         })
 
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": _SYSTEM_PROMPT},
-            {"role": "user", "content": content},
-        ],
-        max_tokens=2048,
-        temperature=0,
-    )
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": _SYSTEM_PROMPT},
+                {"role": "user", "content": content},
+            ],
+            max_tokens=2048,
+            temperature=0,
+        )
+    except Exception as api_exc:
+        raise RuntimeError(
+            f"OpenAI API error ({type(api_exc).__name__}): {api_exc!r}"
+        ) from api_exc
 
     raw = response.choices[0].message.content or "{}"
     return _parse_llm_response(raw, backend="openai")
@@ -290,12 +307,17 @@ def _anthropic_schema(images_b64: list[str], api_key: str | None) -> DocumentSch
         })
     content.append({"type": "text", "text": _USER_PROMPT})
 
-    response = client.messages.create(
-        model="claude-opus-4-5",
-        max_tokens=2048,
-        system=_SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": content}],
-    )
+    try:
+        response = client.messages.create(
+            model="claude-opus-4-5",
+            max_tokens=2048,
+            system=_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": content}],
+        )
+    except Exception as api_exc:
+        raise RuntimeError(
+            f"Anthropic API error ({type(api_exc).__name__}): {api_exc!r}"
+        ) from api_exc
 
     raw = response.content[0].text if response.content else "{}"
     return _parse_llm_response(raw, backend="anthropic")
