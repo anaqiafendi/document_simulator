@@ -129,10 +129,22 @@ def _mock_schema(n_images: int) -> DocumentSchema:
 # ── Gemini backend ────────────────────────────────────────────────────────────
 
 
-def _gemini_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema:
+# Candidate model IDs tried in order until one succeeds.  Gemini model IDs are
+# deprecated frequently — keep this list in order of preference.
+_GEMINI_MODELS = [
+    "gemini-2.5-flash-preview-04-17",  # April 2026 release, free tier
+    "gemini-2.0-flash-001",            # Stable versioned GA release
+    "gemini-2.0-flash",                # Alias — may be restricted on new keys
+    "gemini-2.0-flash-lite",           # Lighter variant
+    "gemini-1.5-flash",                # Legacy fallback (deprecated Sep 2025)
+]
+
+
+def _gemini_schema(images_b64: list[str], api_key: str | None, model: str | None = None) -> DocumentSchema:
     """Extract schema via Google Gemini (free tier via Google AI Studio).
 
     Uses the new ``google-genai`` SDK (v1.x), which replaced ``google-generativeai``.
+    Automatically tries candidate models in order if the preferred one is unavailable.
     """
     try:
         from google import genai  # type: ignore[import-untyped]
@@ -170,24 +182,37 @@ def _gemini_schema(images_b64: list[str], api_key: str | None) -> DocumentSchema
         )
     ]
 
-    try:
-        response = client.models.generate_content(
-            model="gemini-2.0-flash-lite",
-            contents=contents,
-            config=genai_types.GenerateContentConfig(
-                temperature=0,
-                max_output_tokens=2048,
-            ),
-        )
-    except Exception as api_exc:
-        # Wrap in RuntimeError so the endpoint handler returns a clean JSON 422
-        # instead of a 500 plain-text uvicorn error.
-        raise RuntimeError(
-            f"Gemini API error ({type(api_exc).__name__}): {api_exc!r}"
-        ) from api_exc
+    candidates = [model] if model else _GEMINI_MODELS
+    last_exc: Exception | None = None
+    for model_id in candidates:
+        try:
+            response = client.models.generate_content(
+                model=model_id,
+                contents=contents,
+                config=genai_types.GenerateContentConfig(
+                    temperature=0,
+                    max_output_tokens=2048,
+                ),
+            )
+            logger.info(f"Gemini: used model {model_id!r}")
+            raw = response.text if response.text else "{}"
+            return _parse_llm_response(raw, backend="gemini")
+        except Exception as api_exc:
+            err_str = repr(api_exc)
+            # Only skip to next candidate on 404 / model-not-found errors
+            if "404" in err_str or "NOT_FOUND" in err_str or "no longer available" in err_str:
+                logger.warning(f"Gemini model {model_id!r} unavailable, trying next: {api_exc}")
+                last_exc = api_exc
+                continue
+            # Any other error (auth, quota, etc.) — fail immediately
+            raise RuntimeError(
+                f"Gemini API error ({type(api_exc).__name__}): {api_exc!r}"
+            ) from api_exc
 
-    raw = response.text if response.text else "{}"
-    return _parse_llm_response(raw, backend="gemini")
+    raise RuntimeError(
+        f"No available Gemini model found. Tried: {candidates}. "
+        f"Last error: {last_exc!r}"
+    )
 
 
 # ── Groq backend ──────────────────────────────────────────────────────────────
