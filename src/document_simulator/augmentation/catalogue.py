@@ -18,78 +18,78 @@ CATALOGUE: dict[str, dict[str, Any]] = {
     "InkBleed": {
         "display_name": "Ink Bleed",
         "phase": "ink",
-        "description": "Simulates ink bleeding through paper fibres.",
+        "description": "Ink seeps outward from the printed characters, creating fuzzy or feathered edges — common in cheap or wet paper.",
         "slow": False,
         "default_params": {"intensity_range": (0.1, 0.3), "p": 0.9},
     },
     "LowLightNoise": {
-        "display_name": "Low Light / Fading",
+        "display_name": "Ink Fading",
         "phase": "ink",
-        "description": "Darkens image to simulate faded or low-light document.",
+        "description": "The printed ink appears faded or washed out, as though the document was left in sunlight or printed with low toner.",
         "slow": False,
         "default_params": {"p": 0.9},
     },
     "Markup": {
-        "display_name": "Markup",
+        "display_name": "Handwritten Markup",
         "phase": "ink",
-        "description": "Adds handwritten markup lines over text.",
+        "description": "Handwritten strikethrough lines or annotations are drawn over the printed text, as if someone reviewed and marked up the document.",
         "slow": False,
         "default_params": {"num_lines_range": (2, 4), "markup_type": "strikethrough", "p": 0.9},
     },
     "BleedThrough": {
-        "display_name": "Bleed Through",
+        "display_name": "Reverse-Side Bleed Through",
         "phase": "ink",
-        "description": "Simulates ink bleed-through from the reverse side of a page.",
+        "description": "Text or images from the other side of the page show through as a ghost image — common in thin paper receipts and newspapers.",
         "slow": False,
         "default_params": {"intensity_range": (0.1, 0.3), "p": 0.9},
     },
     "BadPhotoCopy": {
-        "display_name": "Bad Photocopy",
+        "display_name": "Poor Photocopy Quality",
         "phase": "ink",
-        "description": "Applies photocopy noise and darkening artifacts.",
+        "description": "The document looks like a bad photocopy — uneven darkness, smearing, and noise typical of a worn-out office copier.",
         "slow": False,
         "default_params": {"p": 0.9},
     },
     "InkColorSwap": {
-        "display_name": "Ink Color Swap",
+        "display_name": "Ink Colour Change",
         "phase": "ink",
-        "description": "Swaps the ink color to a different hue.",
+        "description": "The ink colour shifts to an unusual hue, as might happen with a malfunctioning colour printer or age-related chemical change.",
         "slow": False,
         "default_params": {"p": 0.9},
     },
     "InkShifter": {
-        "display_name": "Ink Shifter",
+        "display_name": "Ink Smear",
         "phase": "ink",
-        "description": "Shifts ink pixels to simulate smudging.",
+        "description": "Ink is smeared across the page as if the paper was touched before it dried, displacing characters slightly.",
         "slow": False,
         "default_params": {"text_shift_scale_range": (18, 27), "text_shift_factor_range": (1, 4), "p": 0.9},
     },
     "Letterpress": {
-        "display_name": "Letterpress",
+        "display_name": "Letterpress Print Texture",
         "phase": "ink",
-        "description": "Simulates letterpress printing texture.",
+        "description": "Characters show the embossed, uneven ink distribution of old letterpress or typewriter printing.",
         "slow": False,
         "default_params": {"n_samples": (100, 300), "n_clusters": (300, 500), "p": 0.9},
     },
     "ShadowCast": {
-        "display_name": "Shadow Cast",
+        "display_name": "Shadow from Holding",
         "phase": "ink",
-        "description": "Adds a directional shadow over part of the document.",
+        "description": "A shadow falls across one side of the document, as if someone's hand was partly blocking the scanner light.",
         "slow": False,
         "default_params": {"shadow_side": "left", "shadow_opacity_range": (0.5, 0.8), "p": 0.9},
     },
     # ── Paper phase ───────────────────────────────────────────────────────────
     "NoiseTexturize": {
-        "display_name": "Noise Texturize",
+        "display_name": "Paper Grain",
         "phase": "paper",
-        "description": "Adds paper grain / noise texture to the background.",
+        "description": "Random grain is added to the page background to simulate rough, recycled, or textured paper stock.",
         "slow": False,
         "default_params": {"sigma_range": (3, 10), "turbulence_range": (2, 5), "p": 0.9},
     },
     "ColorShift": {
-        "display_name": "Color Shift",
+        "display_name": "Scanner Colour Drift",
         "phase": "paper",
-        "description": "Shifts colour channels to simulate aged or scanned paper.",
+        "description": "The colour channels are slightly misaligned, producing a faint colour fringe around text — seen in poorly calibrated or ageing scanners.",
         "slow": False,
         "default_params": {
             "color_shift_offset_x_range": (5, 15),
@@ -99,30 +99,30 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "DirtyDrum": {
-        "display_name": "Dirty Drum",
+        "display_name": "Scanner Drum Smear",
         "phase": "paper",
-        "description": "Adds drum-roll ink smears from a dirty scanner roller.",
+        "description": "Repeating dark streaks run along the page, left by ink build-up on a scanner or photocopier drum roller.",
         "slow": False,
         "default_params": {"line_width_range": (1, 4), "line_concentration": 0.1, "p": 0.9},
     },
     "DirtyRollers": {
-        "display_name": "Dirty Rollers",
+        "display_name": "Roller Feed Marks",
         "phase": "paper",
-        "description": "Adds periodic roller marks from a dirty copying machine.",
+        "description": "Periodic marks appear across the page where dirty feed rollers on a photocopier or printer pressed against the paper.",
         "slow": False,
         "default_params": {"line_width_range": (2, 6), "p": 0.9},
     },
     "SubtleNoise": {
-        "display_name": "Subtle Noise",
+        "display_name": "Fine Background Noise",
         "phase": "paper",
-        "description": "Adds fine random noise over the entire page.",
+        "description": "Very fine random speckle noise covers the page, mimicking sensor noise in a digital camera or low-quality scanner.",
         "slow": False,
         "default_params": {"subtle_range": 10, "p": 0.9},
     },
     "WaterMark": {
-        "display_name": "Watermark",
+        "display_name": "Document Stamp / Watermark",
         "phase": "paper",
-        "description": "Overlays a faint watermark text stamp.",
+        "description": "A faint stamp word such as DRAFT or CONFIDENTIAL is overlaid diagonally across the document.",
         "slow": False,
         "default_params": {
             "watermark_word": "DRAFT",
@@ -132,68 +132,68 @@ CATALOGUE: dict[str, dict[str, Any]] = {
             "p": 0.9,
         },
     },
-    # ── Post phase ────────────────────────────────────────────────────────────
+    # ── Post phase (Capture Conditions) ───────────────────────────────────────
     "Jpeg": {
-        "display_name": "JPEG Compression",
+        "display_name": "JPEG Compression Artefacts",
         "phase": "post",
-        "description": "Applies lossy JPEG compression artifacts.",
+        "description": "Blocky distortion artefacts appear across the image, typical of saving a scan at low JPEG quality or sending via messaging apps.",
         "slow": False,
         "default_params": {"quality_range": (40, 80), "p": 0.9},
     },
     "Brightness": {
-        "display_name": "Brightness",
+        "display_name": "Exposure Variation",
         "phase": "post",
-        "description": "Adjusts overall image brightness.",
+        "description": "The overall image is made brighter or darker to simulate different lighting conditions when photographing a document.",
         "slow": False,
         "default_params": {"brightness_range": (0.7, 1.3), "numba_jit": 0, "p": 0.9},
     },
     "Gamma": {
-        "display_name": "Gamma",
+        "display_name": "Scanner Exposure Correction",
         "phase": "post",
-        "description": "Applies gamma correction to simulate scanner exposure.",
+        "description": "Gamma is adjusted to simulate an over- or under-exposed scan, shifting midtone brightness non-linearly.",
         "slow": False,
         "default_params": {"gamma_range": (0.5, 2.0), "p": 0.9},
     },
     "Dithering": {
-        "display_name": "Dithering",
+        "display_name": "Halftone / Dithered Print",
         "phase": "post",
-        "description": "Converts image to a dithered halftone pattern.",
+        "description": "The image is converted to a dot pattern resembling a newspaper photograph or a low-resolution fax printout.",
         "slow": False,
         "default_params": {"numba_jit": 0, "p": 0.9},
     },
     "GlitchEffect": {
-        "display_name": "Glitch Effect",
+        "display_name": "Digital Glitch / Corruption",
         "phase": "post",
-        "description": "Adds digital glitch / data-corruption artifacts.",
+        "description": "Horizontal bands of the image are shifted or corrupted, mimicking data-transmission errors or a damaged image file.",
         "slow": False,
         "default_params": {"glitch_number_range": (8, 16), "glitch_size_range": (5, 50), "p": 0.9},
     },
     "Geometric": {
-        "display_name": "Geometric Distortion",
+        "display_name": "Skew and Perspective Warp",
         "phase": "post",
-        "description": "Applies rotation and perspective distortion to the page.",
+        "description": "The document is rotated or warped as if it was photographed at an angle — the most common real-world capture problem.",
         "slow": False,
         "default_params": {"rotate_range": (-10, 10), "p": 0.9},
     },
     "Folding": {
-        "display_name": "Folding",
+        "display_name": "Page Fold Crease",
         "phase": "post",
-        "description": "Simulates a page fold crease.",
+        "description": "A fold line crease appears across the page, as if the document was folded in half before being scanned.",
         "slow": False,
         "default_params": {"fold_count": 1, "p": 0.9},
     },
     "BookBinding": {
-        "display_name": "Book Binding",
+        "display_name": "Book Spine Curvature",
         "phase": "post",
-        "description": "Simulates book-binding curvature and shadow.",
+        "description": "The page curves and darkens near the spine, as seen when scanning a bound book without pressing it flat.",
         "slow": False,
         "default_params": {"p": 0.9},
     },
     # ── Ink phase (additional) ────────────────────────────────────────────────
     "InkMottling": {
-        "display_name": "Ink Mottling",
+        "display_name": "Uneven Ink Absorption",
         "phase": "ink",
-        "description": "Adds mottling texture to ink areas, simulating uneven ink absorption.",
+        "description": "Ink is absorbed unevenly into the paper fibres, creating a blotchy, mottled texture on printed areas.",
         "slow": False,
         "default_params": {
             "ink_mottling_alpha_range": (0.2, 0.3),
@@ -203,9 +203,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "LowInkPeriodicLines": {
-        "display_name": "Low Ink Periodic Lines",
+        "display_name": "Ink Cartridge Banding",
         "phase": "ink",
-        "description": "Simulates low-ink streaks that appear periodically along lines.",
+        "description": "Faint horizontal streaks appear at regular intervals, caused by an ink cartridge running low and missing lines during printing.",
         "slow": False,
         "default_params": {
             "count_range": (2, 5),
@@ -216,9 +216,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "LowInkRandomLines": {
-        "display_name": "Low Ink Random Lines",
+        "display_name": "Random Ink Dropout Streaks",
         "phase": "ink",
-        "description": "Simulates low-ink streaks that appear at random positions.",
+        "description": "Faint streaks appear at unpredictable positions, simulating a low or clogged ink cartridge that drops out randomly.",
         "slow": False,
         "default_params": {
             "count_range": (5, 10),
@@ -228,9 +228,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "Hollow": {
-        "display_name": "Hollow",
+        "display_name": "Hollow / Overexposed Characters",
         "phase": "ink",
-        "description": "Removes ink from the centre of characters, leaving hollow outlines.",
+        "description": "The centres of printed characters lose their ink, leaving hollow outlines — as in overexposed photocopies or worn typewriter ribbons.",
         "slow": False,
         "default_params": {
             "hollow_median_kernel_value_range": (71, 101),
@@ -245,9 +245,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "Scribbles": {
-        "display_name": "Scribbles",
+        "display_name": "Pen Scribbles",
         "phase": "ink",
-        "description": "Overlays handwritten scribble marks on the document.",
+        "description": "Random pen or marker scribbles are drawn over the page, as if someone doodled or annotated freely while reading.",
         "slow": True,  # augraphy 8.2.6: crashes with some matplotlib versions
         "default_params": {
             "scribbles_type": "random",
@@ -261,9 +261,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "LinesDegradation": {
-        "display_name": "Lines Degradation",
+        "display_name": "Worn Line Printing",
         "phase": "ink",
-        "description": "Degrades horizontal or vertical lines to simulate worn print.",
+        "description": "Horizontal or vertical ruled lines break up and fade, simulating the kind of degradation seen in aged or heavily photocopied forms.",
         "slow": False,
         "default_params": {
             "line_roi": (0.0, 0.0, 1.0, 1.0),
@@ -279,9 +279,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "BindingsAndFasteners": {
-        "display_name": "Bindings and Fasteners",
+        "display_name": "Staples, Punch Holes and Rings",
         "phase": "ink",
-        "description": "Overlays binding or fastener shadows (staples, punch holes, rings).",
+        "description": "Shadows and markings from physical fasteners — staples, hole punches, or ring-binder impressions — appear on the document.",
         "slow": True,
         "default_params": {
             "overlay_types": "random",
@@ -300,9 +300,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
     },
     # ── Paper phase (additional) ──────────────────────────────────────────────
     "BrightnessTexturize": {
-        "display_name": "Brightness Texturize",
+        "display_name": "Subtle Paper Texture",
         "phase": "paper",
-        "description": "Adds subtle brightness variation texture to simulate paper grain.",
+        "description": "Very subtle brightness variations are added across the page, giving a lightly textured feel as in matte or slightly rough paper stock.",
         "slow": False,
         "default_params": {
             "texturize_range": (0.8, 0.99),
@@ -311,9 +311,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "ColorPaper": {
-        "display_name": "Color Paper",
+        "display_name": "Coloured Paper Stock",
         "phase": "paper",
-        "description": "Tints the page background to simulate coloured paper stock.",
+        "description": "The page background is tinted to resemble coloured paper such as yellow legal pads, pink forms, or cream archival paper.",
         "slow": False,
         "default_params": {
             "hue_range": (28, 45),
@@ -322,9 +322,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "DirtyScreen": {
-        "display_name": "Dirty Screen",
+        "display_name": "Dust and Smudge on Scanner Glass",
         "phase": "paper",
-        "description": "Adds clustered dust and smudge artifacts to simulate a dirty scanner screen.",
+        "description": "Clustered dust specks and smudge patches appear on the page, left by dirt on the scanner glass or camera lens.",
         "slow": False,
         "default_params": {
             "n_clusters": (50, 100),
@@ -335,9 +335,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "Stains": {
-        "display_name": "Stains",
+        "display_name": "Coffee and Water Stains",
         "phase": "paper",
-        "description": "Overlays organic stain blobs on the paper surface.",
+        "description": "Irregular stain blobs appear on the paper, simulating liquid spills — coffee rings, water damage, or oil marks.",
         "slow": False,
         "default_params": {
             "stains_type": "random",
@@ -347,9 +347,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "NoisyLines": {
-        "display_name": "Noisy Lines",
+        "display_name": "Ruled Lines / Scan Streaks",
         "phase": "paper",
-        "description": "Draws faint noisy lines over the page, simulating ruled paper or scan artifacts.",
+        "description": "Faint irregular lines cross the page, resembling ruled notebook paper, form lines, or artefact streaks from a scanner.",
         "slow": False,
         "default_params": {
             "noisy_lines_direction": "random",
@@ -365,9 +365,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "PatternGenerator": {
-        "display_name": "Pattern Generator",
+        "display_name": "Security Background Pattern",
         "phase": "paper",
-        "description": "Generates and overlays a mathematical tiling pattern on the background.",
+        "description": "A repeating geometric tile pattern is overlaid on the background, like the security tinting found on cheques or official documents.",
         "slow": False,
         "default_params": {
             "imgx": 512,
@@ -380,9 +380,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "DelaunayTessellation": {
-        "display_name": "Delaunay Tessellation",
+        "display_name": "Triangular Mesh Texture",
         "phase": "paper",
-        "description": "Overlays a Delaunay triangulation pattern to simulate textured paper.",
+        "description": "A triangular mesh pattern is overlaid on the background, giving the page a textured or embossed paper appearance.",
         "slow": True,
         "default_params": {
             "n_points_range": (500, 800),
@@ -395,9 +395,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "VoronoiTessellation": {
-        "display_name": "Voronoi Tessellation",
+        "display_name": "Cell / Mosaic Paper Texture",
         "phase": "paper",
-        "description": "Overlays a Voronoi diagram pattern on the paper background.",
+        "description": "A cell-like mosaic pattern is overlaid on the background, resembling handmade or heavily textured paper.",
         "slow": True,
         "default_params": {
             "mult_range": (50, 80),
@@ -410,9 +410,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "PageBorder": {
-        "display_name": "Page Border",
+        "display_name": "Scanner Edge Shadow and Curl",
         "phase": "paper",
-        "description": "Adds realistic page border shadows and curl effects from scanning.",
+        "description": "Dark shadows and page curl appear along the document edges, as seen when scanning a page that isn't pressed flat against the glass.",
         "slow": True,
         "default_params": {
             "page_border_width_height": "random",
@@ -433,9 +433,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
     },
     # ── Post phase (additional) ───────────────────────────────────────────────
     "DepthSimulatedBlur": {
-        "display_name": "Depth Simulated Blur",
+        "display_name": "Camera Focus Blur",
         "phase": "post",
-        "description": "Blurs an elliptical region to simulate depth-of-field camera defocus.",
+        "description": "Part of the image is blurred as if the camera was focused on a different distance — the out-of-focus area you see when photographing a document with a phone.",
         "slow": False,
         "default_params": {
             "blur_center": "random",
@@ -446,9 +446,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "DoubleExposure": {
-        "display_name": "Double Exposure",
+        "display_name": "Ghost / Double Impression",
         "phase": "post",
-        "description": "Overlays a shifted ghost copy of the image to simulate double exposure.",
+        "description": "A faint shifted copy of the page is overlaid as a ghost image, simulating a double-feed jam through a photocopier or scanner.",
         "slow": False,
         "default_params": {
             "gaussian_kernel_range": (9, 12),
@@ -458,9 +458,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "Faxify": {
-        "display_name": "Faxify",
+        "display_name": "Fax Transmission Quality",
         "phase": "post",
-        "description": "Simulates fax transmission degradation with halftoning and monochroming.",
+        "description": "The document looks like it was sent by fax — monochrome, halftoned, with the characteristic grey speckle and low resolution of a thermal fax print.",
         "slow": False,
         "default_params": {
             "scale_range": (1.0, 1.25),
@@ -477,9 +477,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "LCDScreenPattern": {
-        "display_name": "LCD Screen Pattern",
+        "display_name": "Phone Screen Photograph",
         "phase": "post",
-        "description": "Overlays an LCD pixel grid pattern to simulate a screen photograph.",
+        "description": "An LCD pixel grid is overlaid, simulating a photo taken of a document displayed on a screen — common when capturing e-statements or PDFs.",
         "slow": False,
         "default_params": {
             "pattern_type": "random",
@@ -493,7 +493,7 @@ CATALOGUE: dict[str, dict[str, Any]] = {
     "LensFlare": {
         "display_name": "Lens Flare",
         "phase": "post",
-        "description": "Adds a lens flare artifact to simulate camera or scanner lighting.",
+        "description": "A bright lens flare streaks across the image, as seen when a camera or scanner light source appears in the field of view.",
         "slow": True,
         "disabled": True,  # augraphy 8.2.6: numba parallel crash, unconditional segfault
         "default_params": {
@@ -505,9 +505,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "LightingGradient": {
-        "display_name": "Lighting Gradient",
+        "display_name": "Uneven Lighting",
         "phase": "post",
-        "description": "Applies a directional brightness gradient to simulate uneven illumination.",
+        "description": "One side of the document is brighter than the other, simulating a desk lamp shining from an angle or uneven overhead lighting during capture.",
         "slow": False,
         "default_params": {
             "light_position": None,
@@ -522,9 +522,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "Moire": {
-        "display_name": "Moire Pattern",
+        "display_name": "Scan Interference Pattern",
         "phase": "post",
-        "description": "Adds a moire interference pattern to simulate scan artifacts.",
+        "description": "A wave-like interference pattern ripples across the image, caused by a mismatch between the document's fine print pattern and the scanner resolution.",
         "slow": False,
         "default_params": {
             "moire_density": (15, 20),
@@ -535,9 +535,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "ReflectedLight": {
-        "display_name": "Reflected Light",
+        "display_name": "Glossy Surface Glare",
         "phase": "post",
-        "description": "Adds a bright elliptical reflection spot to simulate glossy surface reflections.",
+        "description": "A bright oval glare spot washes out part of the image, as seen when photographing a laminated or glossy document under room lighting.",
         "slow": False,
         "default_params": {
             "reflected_light_smoothness": 0.8,
@@ -554,9 +554,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "DotMatrix": {
-        "display_name": "Dot Matrix",
+        "display_name": "Dot-Matrix Printer Output",
         "phase": "post",
-        "description": "Converts text regions to dot-matrix print style.",
+        "description": "Text areas are rendered as a grid of dots, replicating the look of a dot-matrix or impact printer — common in older receipts and invoices.",
         "slow": False,
         "default_params": {
             "dot_matrix_shape": "random",
@@ -576,9 +576,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "Rescale": {
-        "display_name": "Rescale",
+        "display_name": "Resolution Change (DPI)",
         "phase": "post",
-        "description": "Resamples the image to a target DPI, simulating resolution changes.",
+        "description": "The image is resampled to a different resolution, simulating a low-DPI mobile phone photo versus a high-DPI flatbed scan.",
         "slow": False,
         "default_params": {
             "target_dpi": 300,
@@ -586,9 +586,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "SectionShift": {
-        "display_name": "Section Shift",
+        "display_name": "Scanner Feed Misalignment",
         "phase": "post",
-        "description": "Shifts horizontal bands of the image to simulate misaligned scanning.",
+        "description": "Horizontal strips of the page are shifted sideways, simulating a sheet-fed scanner that pulled the paper unevenly during the scan.",
         "slow": False,
         "default_params": {
             "section_shift_number_range": (3, 5),
@@ -600,9 +600,9 @@ CATALOGUE: dict[str, dict[str, Any]] = {
         },
     },
     "Squish": {
-        "display_name": "Squish",
+        "display_name": "Page Compression Distortion",
         "phase": "post",
-        "description": "Squishes rows or columns together to simulate compression distortion.",
+        "description": "Rows or columns are squeezed together, creating a stretch or compression distortion as seen when a page is slightly skewed under the scanner lid.",
         "slow": False,
         "default_params": {
             "squish_direction": "random",

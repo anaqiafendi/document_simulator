@@ -295,6 +295,53 @@ This project is highly feasible using existing open-source technologies. The rec
 
 ---
 
+## 2026-04-06 — Augmentation UI Perceptual Language Reframing
+
+### Context
+
+During a live demo with Anand (2026-04-06), feedback was given that the term "jitter" in the augmentation UI is misleading. Verbatim from the transcript:
+
+> "jitter is too literal here. So feedback for you. The point is not that these things get filled out in nicely typed fonts, right? The point is that there's it's difficult to process because... jitter in image processing, jitter could look like, you know, weird angles, less resolution, right? Noise, you know what I mean? Noise over the the text, right?"
+
+The current augmentation lab uses:
+- Technical parameter names in the sidebar sliders (e.g., "InkBleed probability", "Fading (LowLightNoise) probability")
+- Phase groupings labelled "Ink Phase", "Paper Phase", "Post Phase"
+- The word "jitter" in synthesis `FieldTypeConfig` for positional variation (unrelated to perceptual degradation)
+
+The audience is business users ("it's not really just for devs, it's for business users"), so language should describe real-world scenarios, not library internals.
+
+### 1. Existing Patterns in the Codebase
+
+- `CATALOGUE` in `augmentation/catalogue.py` already has `display_name` and `description` fields per augmentation — these can be improved without changing the Python parameter names
+- The 12-dim sidebar sliders in the Preset tab use `st.slider(label, ...)` — labels can be changed freely without breaking any backend
+- Phase tab labels in the Catalogue tab (`"Ink Phase"`, `"Paper Phase"`, `"Post Phase"`) are plain strings
+- `FieldTypeConfig` in `synthesis/zones.py` uses `jitter_x`, `jitter_y`, `char_spacing_jitter` as Python attribute names — these must NOT be renamed (would be a breaking API change). The UI can display them with different labels.
+
+### 2. Recommended Implementation Approach
+
+**A — Preset sidebar slider labels:** Replace raw technical names with plain English descriptions. Add `help=` tooltip strings explaining the real-world effect.
+
+**B — Catalogue phase tab headers:** Rename to business-meaningful groupings:
+- "Ink Phase" → "Ink Degradation" (what ink looks like after wear/time/printing)
+- "Paper Phase" → "Paper Degradation" (what the paper surface looks like)
+- "Post Phase" → "Capture Conditions" (what happens when the document is photographed/scanned)
+
+**C — Catalogue description strings:** Improve `description` values in `catalogue.py` to be 1–2 sentence plain English that describes the real-world scenario (e.g., "This simulates ink bleed-through from the other side of the page, common in thin paper receipts").
+
+**D — No Python API changes:** `jitter_x`, `jitter_y`, `char_spacing_jitter` stay as-is in the Python models. The synthesis page already redirects to the React app which owns those labels.
+
+### 3. No New Dependencies
+
+This is a pure UI label/copy change. No new Python packages, no backend changes, no API changes.
+
+### 4. Testing Approach
+
+- Existing AppTest integration tests for the augmentation lab check for label substrings. They must be updated to match the new labels.
+- New tests verify that the plain-English section headers and slider labels are present.
+- No new tests required for `catalogue.py` description strings (pure text content).
+
+---
+
 ## 2026-03-07 — JS Synthetic Document Generator UI
 
 ### Context
