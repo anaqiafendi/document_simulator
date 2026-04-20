@@ -13,6 +13,9 @@ import type {
   RlTrainConfig,
   RlJobStatus,
   RlMetrics,
+  SchemaBackend,
+  SchemaExtractionResponse,
+  FakerProvidersResponse,
 } from '../types'
 
 const BASE = ''  // same origin in prod; proxied in dev
@@ -333,4 +336,33 @@ export async function getRlMetrics(jobId: string): Promise<RlMetrics> {
 
 export async function stopRlTraining(jobId: string): Promise<void> {
   await fetch(`${BASE}/api/rl/jobs/${jobId}/stop`, { method: 'POST' })
+}
+
+// ── Schema Extraction ─────────────────────────────────────────────────────────
+
+export async function extractSchema(
+  files: File[],
+  backend: SchemaBackend = 'gemini',
+  apiKey?: string,
+  serviceAccountJson?: string,
+  documentTypeHint?: string,
+): Promise<SchemaExtractionResponse> {
+  const form = new FormData()
+  files.forEach(f => form.append('files', f))
+  form.append('backend', backend)
+  if (apiKey) form.append('api_key', apiKey)
+  if (serviceAccountJson) form.append('service_account_json', serviceAccountJson)
+  if (documentTypeHint) form.append('document_type_hint', documentTypeHint)
+  const r = await fetch(`${BASE}/api/synthesis/extract-schema`, { method: 'POST', body: form })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Schema extraction failed: ${detail.detail ?? r.status}`)
+  }
+  return r.json()
+}
+
+export async function listFakerProviders(): Promise<FakerProvidersResponse> {
+  const r = await fetch(`${BASE}/api/synthesis/faker-providers`)
+  if (!r.ok) throw new Error(`Failed to fetch faker providers: ${r.status}`)
+  return r.json()
 }

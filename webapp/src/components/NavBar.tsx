@@ -7,6 +7,7 @@ const NAV_ITEMS = [
   { to: '/batch', label: 'Batch Processing', emoji: '⚙️' },
   { to: '/evaluation', label: 'Evaluation', emoji: '📊' },
   { to: '/rl', label: 'RL Training', emoji: '🤖' },
+  { to: '/schema-extraction', label: 'Schema Extraction', emoji: '🧩' },
 ]
 
 const navStyle: React.CSSProperties = {

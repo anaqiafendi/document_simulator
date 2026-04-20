@@ -71,6 +71,10 @@ class ZoneConfig(BaseModel):
     # Multi-page support: which PDF page (0-indexed) this zone belongs to
     page: int = 0
 
+    # Locale overrides — when set, drive Faker's locale / currency for this zone.
+    language: str | None = None  # BCP-47 / ISO 639-1 (e.g. "en", "fr", "ja")
+    currency: str | None = None  # ISO 4217 (e.g. "USD", "CAD", "EUR")
+
 
 class GeneratorConfig(BaseModel):
     """Batch generation settings."""

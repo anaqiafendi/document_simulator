@@ -173,3 +173,101 @@ export interface RlTrainConfig {
   checkpoint_freq: number
   dataset_dir: string | null
 }
+
+// ── Schema Extraction ─────────────────────────────────────────────────────────
+
+export type FieldDataType =
+  | 'text'
+  | 'name'
+  | 'date'
+  | 'time'
+  | 'datetime'
+  | 'number'
+  | 'amount'
+  | 'currency'
+  | 'percentage'
+  | 'currency_code'
+  | 'language_code'
+  | 'phone'
+  | 'email'
+  | 'address'
+  | 'company'
+  | 'id'
+  | 'checkbox'
+  | 'signature'
+  | 'line_items'
+  | 'boolean'
+  | 'other'
+  | 'unknown'
+
+export interface BoundingBox {
+  x1: number
+  y1: number
+  x2: number
+  y2: number
+}
+
+export interface LineItem {
+  description: string
+  quantity: number | null
+  unit_price: string | null
+  total: string | null
+  currency: string | null
+  language: string | null
+  bbox: BoundingBox | null
+}
+
+export interface FieldSchema {
+  field_name: string
+  display_label: string
+  data_type: FieldDataType
+  required: boolean
+  example_values: string[]
+  value_pattern: string | null
+  faker_provider: string
+  description: string
+  notes: string
+  bbox: BoundingBox | null
+  language: string | null
+  currency: string | null
+}
+
+export interface DocumentSchema {
+  document_type: string
+  language: string
+  currency: string
+  fields: FieldSchema[]
+  line_items: LineItem[]
+  confidence: number
+  source_count: number
+  source_image_index: number
+  source_image_width: number | null
+  source_image_height: number | null
+  raw_llm_output: string
+  extractor_model: string
+  backend_used: string
+  notes: string
+}
+
+export interface SchemaExtractionResponse {
+  schemas: DocumentSchema[]
+  source_images: string[]  // base64 PNG, one per schema
+}
+
+export type SchemaBackend = 'mock' | 'gemini' | 'groq' | 'openai' | 'anthropic' | 'vertex_ai'
+
+export interface FakerProvider {
+  name: string
+  label: string
+  description: string
+}
+
+export interface CurrencyInfo {
+  code: string
+  symbol: string
+}
+
+export interface FakerProvidersResponse {
+  categories: Record<string, FakerProvider[]>
+  currencies: CurrencyInfo[]
+}

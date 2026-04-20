@@ -1540,3 +1540,87 @@ Single Docker container serving both React SPA (as static files via FastAPI) and
 - [HF Spaces Docker docs](https://huggingface.co/docs/hub/spaces-sdks-docker)
 - [Render free tier limitations](https://render.com/docs/free#free-web-services)
 - [Fly.io free allowances](https://fly.io/docs/about/pricing/#free-allowances)
+
+---
+
+## Research Section 2026-04-06 — LLM-Powered Field Schema Extraction
+
+### Context
+
+Anand (client meeting 2026-04-06) requested a feature to replace manual zone-tagging: given a dump of real messy receipts, an LLM should analyse them and produce a "field generator spec" that feeds the synthetic document generator. Primary use case: Air Canada employee expense receipts — international, multi-language, photographed on phones.
+
+### Vision LLM APIs
+
+#### OpenAI GPT-4o
+- Accepts base64-encoded JPEG/PNG images in the `image_url` content block with `"detail": "low"` or `"high"`.
+- `"detail": "low"` costs 85 tokens per image regardless of size; sufficient for field extraction.
+- Response format: `response.choices[0].message.content`.
+- Install: `uv add openai`; lazy import only — do not import at module top level.
+- Max images per request: no hard limit but keep to ≤5 for cost/latency.
+- JSON mode: set `response_format={"type": "json_object"}` to guarantee JSON output (GPT-4o only).
+
+#### Anthropic Claude (claude-sonnet-4-6 / claude-3-5-sonnet)
+- Vision via `messages` API with `{"type": "image", "source": {"type": "base64", ...}}` content blocks.
+- Image must be JPEG/PNG/GIF/WEBP; JPEG preferred for size.
+- Response: `response.content[0].text`.
+- Install: `uv add anthropic`; lazy import only.
+- Does not support JSON mode natively — prompt must instruct "respond only with JSON".
+
+#### Key Differences
+| Capability | GPT-4o | Claude claude-sonnet-4-6 |
+|---|---|---|
+| JSON mode | `response_format={"type":"json_object"}` | Prompt-only |
+| Max images/call | ~10 practical | ~20 practical |
+| Detail tiers | low / high | Automatic |
+| Multi-page PDF | No (need rasterise) | No |
+| Cost (low detail) | ~$0.001/image | ~$0.004/image |
+
+### Structured JSON Extraction from Document Images
+
+Best practice pattern:
+1. Resize image to 768px short-side (`detail: low` equivalent) before encoding — reduces tokens and cost.
+2. System prompt instructs the model to output **only** a JSON object with a fixed schema.
+3. Strip markdown fences from response before `json.loads()`.
+4. Validate extracted JSON against Pydantic models; skip malformed fields gracefully.
+5. For receipts: ask for `faker_provider` suggestions in the prompt itself — the LLM can infer `"price_medium"` from monetary amounts.
+
+### Pydantic Schema Generation
+
+- Use `BaseModel` with `field_validator` for normalisation (snake_case field names, confidence clamping).
+- `model_dump_json()` / `model_validate_json()` for serialisation roundtrip.
+- `model_copy(update={...})` to apply post-extraction overrides non-destructively.
+- `FieldDataType` as `str` enum so JSON serialisation uses string values.
+
+### Existing Codebase Patterns Used
+
+- `synthesis/zones.py` `ZoneConfig.faker_provider` — the exact field the extracted schema feeds into.
+- `synthesis/sampler.py` `_CUSTOM_PROVIDERS` dict — defines the valid `faker_provider` keys.
+- `data/ground_truth.py` — Pydantic `BaseModel` pattern to follow.
+- Lazy import pattern: `openai`/`anthropic` imported inside function body only.
+
+### Decision: No New Runtime Dependencies
+
+- `openai` and `anthropic` are **optional** — imported lazily inside the backend functions.
+- Module imports cleanly without either package installed.
+- Added to `pyproject.toml` as optional extras (`llm`).
+- `mock` backend enables full TDD and CI without any API key or network access.
+
+### Faker Provider Mapping for Receipt Fields
+
+| Field | `faker_provider` |
+|---|---|
+| Merchant name | `company` |
+| Date | `date_numeric` |
+| Total amount | `price_medium` |
+| Tax | `price_short` |
+| Phone | `phone_number` |
+| Address | `address_single_line` |
+| Receipt/transaction ID | `numerify:########` |
+| Line item description | `sentence` |
+| Line item price | `price_short` |
+| Currency code | `currency_code` → `bothify:???` fallback |
+
+### References
+- OpenAI Vision API: https://platform.openai.com/docs/guides/vision
+- Anthropic Vision API: https://docs.anthropic.com/en/docs/build-with-claude/vision
+- Pydantic v2 validators: https://docs.pydantic.dev/latest/concepts/validators/
