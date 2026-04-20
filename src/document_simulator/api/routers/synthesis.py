@@ -6,9 +6,8 @@ import base64
 import io
 import uuid
 import zipfile
-from typing import Annotated
-
 from pathlib import Path
+from typing import Annotated
 
 from fastapi import APIRouter, BackgroundTasks, Form, HTTPException, UploadFile
 from fastapi.responses import StreamingResponse
@@ -28,11 +27,20 @@ from document_simulator.api.models import (
 )
 from document_simulator.data.ground_truth import GroundTruth
 from document_simulator.synthesis.annotation import AnnotationBuilder
-from document_simulator.synthesis.field_schema import DocumentSchema
 from document_simulator.synthesis.generator import SyntheticDocumentGenerator
 from document_simulator.synthesis.renderer import StyleResolver, ZoneRenderer
-from document_simulator.synthesis.sampler import ZoneDataSampler, generate_respondent
-from document_simulator.synthesis.schema_extractor import Backend, SchemaExtractor
+from document_simulator.synthesis.sampler import (
+    ZoneDataSampler,
+    generate_respondent,
+    list_currency_codes,
+    list_faker_providers,
+)
+from document_simulator.synthesis.schema_extractor import (
+    Backend,
+    SchemaExtractionError,
+    SchemaExtractor,
+    SchemaExtractorConfig,
+)
 from document_simulator.synthesis.zones import SynthesisConfig
 
 router = APIRouter()
@@ -395,22 +403,26 @@ def config_schema() -> dict:
     return SynthesisConfig.model_json_schema()
 
 
-@router.post("/api/synthesis/extract-schema", response_model=DocumentSchema)
+@router.post("/api/synthesis/extract-schema")
 async def extract_schema(
     files: list[UploadFile],
     backend: Annotated[Backend, Form()] = "mock",
     api_key: Annotated[str, Form()] = "",
     service_account_json: Annotated[str, Form()] = "",
-) -> DocumentSchema:
-    """Extract a DocumentSchema from 1–10 sample document scan images.
+    document_type_hint: Annotated[str, Form()] = "",
+) -> dict:
+    """Extract ONE :class:`DocumentSchema` per uploaded image.
 
     Accepts multipart form data with:
     - ``files``: 1–10 image files (PNG, JPG, TIFF, PDF first-page)
     - ``backend``: ``mock`` | ``gemini`` | ``groq`` | ``openai`` | ``anthropic`` | ``vertex_ai``
     - ``api_key``: optional API key (falls back to server-side env vars)
     - ``service_account_json``: GCP service account JSON string (Vertex AI only)
+    - ``document_type_hint``: optional hint to bias the extractor
 
-    Returns a ``DocumentSchema`` JSON object.
+    Returns ``{"schemas": [DocumentSchema, …], "source_images": [b64, …]}``.
+    The second list is the re-encoded PNG of each processed image so the UI
+    can render bounding boxes over the exact pixels the LLM saw.
     """
     if not files:
         raise HTTPException(status_code=422, detail="At least one file is required.")
@@ -418,6 +430,7 @@ async def extract_schema(
         files = files[:10]
 
     images: list[Image.Image] = []
+    source_images_b64: list[str] = []
     for upload in files:
         raw = await upload.read()
         if not raw:
@@ -436,25 +449,51 @@ async def extract_schema(
             else:
                 img = Image.open(io.BytesIO(raw)).convert("RGB")
             images.append(img)
+            source_images_b64.append(_pil_to_png_b64(img))
         except HTTPException:
             raise
         except Exception as exc:
             logger.warning(f"Could not decode uploaded file {filename!r}: {exc}")
 
     if not images:
-        raise HTTPException(status_code=422, detail="No valid images could be decoded from the uploaded files.")
+        raise HTTPException(
+            status_code=422,
+            detail="No valid images could be decoded from the uploaded files.",
+        )
 
     try:
         extractor = SchemaExtractor(
-            backend=backend,
-            api_key=api_key or None,
-            service_account_json=service_account_json or None,
+            SchemaExtractorConfig(
+                backend=backend,
+                api_key=api_key or None,
+                service_account_json=service_account_json or None,
+            )
         )
-        schema = extractor.extract(images)
-    except (ValueError, RuntimeError) as exc:
+        schemas = extractor.extract_per_image(images, document_type_hint=document_type_hint)
+    except SchemaExtractionError as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
     except Exception as exc:
         logger.error(f"Schema extraction failed: {exc}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Schema extraction failed: {exc}") from exc
 
-    return schema
+    return {
+        "schemas": [s.model_dump(mode="json") for s in schemas],
+        "source_images": source_images_b64,
+    }
+
+
+@router.get("/api/synthesis/faker-providers")
+def faker_providers() -> dict:
+    """Enumerate Faker providers supported by :class:`ZoneDataSampler`.
+
+    Returns ``{"categories": {...}, "currencies": [...]}``:
+
+    - ``categories`` — ``{category_name: [{name, label, description}, …]}``
+      grouped for a UI dropdown (identity, static, custom, person, contact,
+      address, company, date_time, finance, identifiers, text, internet).
+    - ``currencies`` — ISO 4217 codes + symbols the sampler can format.
+    """
+    return {
+        "categories": list_faker_providers(),
+        "currencies": list_currency_codes(),
+    }
