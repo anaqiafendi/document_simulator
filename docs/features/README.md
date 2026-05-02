@@ -44,6 +44,7 @@ Each file follows [`feature_template.md`](feature_template.md) and links to the 
 | #19 | [Synthetic Document Generator](feature_synthetic_document_generator.md) | `synthesis.*` | planned |
 | #20 | [React Zone Editor UI](feature_js_zone_editor_ui.md) | `api.*` + `webapp/` | complete |
 | #25 | [Migrate Streamlit Pages to React SPA](feature_migrate_streamlit_to_react.md) | `api.routers.*` + `webapp/src/pages/*` | complete |
+| #27 | [Photorealistic Receipt Photo Synthesis (v0.1)](feature_photoreal_receipt_synthesis.md) | `synthesis.receipts` | complete |
 
 ## Deployment
 

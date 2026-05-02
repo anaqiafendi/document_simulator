@@ -102,9 +102,19 @@ notebook = [
     "seaborn>=0.13.0",
 ]
 
+# Photoreal receipt synthesis (v0.1 tracer bullet)
+synthesis = [
+    "weasyprint>=60,<63",
+    # pydyf is a transitive of weasyprint that needs an explicit upper bound:
+    # pydyf >=0.12 is API-incompatible with weasyprint 62.x (write_pdf raises
+    # AttributeError). Pinning to <0.11 keeps the install reproducible.
+    "pydyf>=0.10,<0.11",
+    "jinja2>=3.1",
+]
+
 # Everything — local full dev install
 all = [
-    "document-simulator[ocr,rl,ui,dev,docs,notebook]",
+    "document-simulator[ocr,rl,ui,dev,docs,notebook,synthesis]",
 ]
 
 
