@@ -1,9 +1,10 @@
 import { useEffect, useState, type CSSProperties } from 'react'
 import { useReceiptSynthesis } from '../hooks/useReceiptSynthesis'
-import { listTemplates, listAugraphyPresets } from '../api/client'
-import type { TemplateInfoReceipt } from '../types'
+import { listTemplates, listAugraphyPresets, listHdriThumbnails } from '../api/client'
+import type { TemplateInfoReceipt, HDRIInfo } from '../types'
 import PipelineStageStrip from '../components/receipt-synthesis/PipelineStageStrip'
 import StageInspector from '../components/receipt-synthesis/StageInspector'
+import HDRIPicker from '../components/receipt-synthesis/HDRIPicker'
 
 const NONE_PRESET = 'none'
 
@@ -90,6 +91,29 @@ const errorBanner: CSSProperties = {
   gap: 12,
 }
 
+const renderHint: CSSProperties = {
+  fontSize: 12,
+  color: '#4f6ef7',
+  fontStyle: 'italic',
+  marginTop: 6,
+  textAlign: 'right',
+}
+
+const toggleRow: CSSProperties = {
+  display: 'inline-flex',
+  alignItems: 'center',
+  gap: 6,
+  fontSize: 13,
+  color: '#333',
+  cursor: 'pointer',
+  userSelect: 'none',
+}
+
+const sliderInput: CSSProperties = {
+  width: 140,
+  verticalAlign: 'middle',
+}
+
 function Spinner() {
   return (
     <span
@@ -129,6 +153,12 @@ export default function ReceiptSynthesis() {
   const [metaError, setMetaError] = useState<string | null>(null)
   const [bannerDismissed, setBannerDismissed] = useState<boolean>(false)
 
+  // ── HDRI list state ──
+  const [hdris, setHdris] = useState<HDRIInfo[]>([])
+  const [hdriLoading, setHdriLoading] = useState<boolean>(true)
+  const [hdriError, setHdriError] = useState<string | null>(null)
+  const [hdriRetryNonce, setHdriRetryNonce] = useState<number>(0)
+
   // Load templates + augraphy presets on mount
   useEffect(() => {
     let cancelled = false
@@ -156,6 +186,34 @@ export default function ReceiptSynthesis() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
+  // Load HDRI thumbnails on mount (and on retry). Failures degrade gracefully
+  // — the picker shows an empty state with a retry button.
+  useEffect(() => {
+    let cancelled = false
+    setHdriLoading(true)
+    setHdriError(null)
+    listHdriThumbnails()
+      .then(res => {
+        if (cancelled) return
+        setHdris(res.hdris)
+        // If the current selection isn't in the returned list, pick the first
+        // one so the picker has a valid default once 3D is enabled.
+        if (res.hdris.length > 0 && !res.hdris.find(h => h.id === synth.request.hdri_id)) {
+          synth.setRequest({ hdri_id: res.hdris[0].id })
+        }
+      })
+      .catch(e => {
+        if (cancelled) return
+        setHdriError(e instanceof Error ? e.message : 'Failed to load HDRIs')
+      })
+      .finally(() => {
+        if (cancelled) return
+        setHdriLoading(false)
+      })
+    return () => { cancelled = true }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hdriRetryNonce])
+
   // Reset the dismissed flag whenever a fresh error comes in
   useEffect(() => {
     if (synth.error) setBannerDismissed(false)
@@ -167,13 +225,15 @@ export default function ReceiptSynthesis() {
 
   const presetValue = synth.request.augraphy_preset ?? NONE_PRESET
   const canRender = !synth.isRendering && !!synth.request.template
+  const render3D = synth.request.render_3d ?? false
+  const curlStrength = synth.request.curl_strength ?? 0.1
 
   return (
     <div style={pageWrap}>
       <h2 style={{ margin: '0 0 4px', fontSize: 22 }}>Receipt Synthesis</h2>
       <p style={{ color: '#666', margin: '0 0 20px', fontSize: 14 }}>
         Generate photoreal receipts and inspect every pipeline stage. Pick a template, set a seed,
-        choose an Augraphy preset, then click <strong>Render Preview</strong>.
+        choose an Augraphy preset, optionally enable 3D, then click <strong>Render Preview</strong>.
       </p>
 
       {/* ── Top controls ─────────────────────────────────────────────── */}
@@ -239,6 +299,18 @@ export default function ReceiptSynthesis() {
             </select>
           </div>
 
+          <div>
+            <span style={label}>3D Scene</span>
+            <label style={toggleRow} title="Render the receipt into a programmatic 3D scene with HDRI lighting.">
+              <input
+                type="checkbox"
+                checked={render3D}
+                onChange={() => synth.enable3DToggle()}
+              />
+              Enable 3D
+            </label>
+          </div>
+
           <div style={{ marginLeft: 'auto' }}>
             <button
               type="button"
@@ -248,8 +320,61 @@ export default function ReceiptSynthesis() {
             >
               {synth.isRendering ? <><Spinner /> Rendering…</> : 'Render Preview'}
             </button>
+            {synth.isRendering && synth.showLongRenderHint && (
+              <div style={renderHint} role="status" aria-live="polite">
+                {render3D
+                  ? 'Rendering 3D scene… (this can take 5-15s)'
+                  : 'Still rendering…'}
+              </div>
+            )}
           </div>
         </div>
+
+        {/* ── 3D-only secondary controls (revealed only when 3D is on) ── */}
+        {render3D && (
+          <div style={{
+            marginTop: 14,
+            paddingTop: 12,
+            borderTop: '1px dashed #e0e0e0',
+            display: 'flex',
+            gap: 24,
+            alignItems: 'flex-start',
+            flexWrap: 'wrap',
+          }}>
+            <div style={{ flex: '0 0 auto' }}>
+              <span style={label}>HDRI lighting</span>
+              <HDRIPicker
+                hdris={hdris}
+                selectedId={synth.request.hdri_id ?? null}
+                onSelect={id => synth.setRequest({ hdri_id: id })}
+                loading={hdriLoading}
+                error={hdriError}
+                onRetry={() => setHdriRetryNonce(n => n + 1)}
+                enabled={render3D}
+              />
+            </div>
+
+            <div style={{ flex: '0 0 auto', minWidth: 180 }}>
+              <label style={label} htmlFor="rs-curl">
+                Paper curl: <strong>{curlStrength.toFixed(2)}</strong>
+              </label>
+              <input
+                id="rs-curl"
+                type="range"
+                min={0}
+                max={0.5}
+                step={0.01}
+                value={curlStrength}
+                onChange={e => synth.setRequest({ curl_strength: parseFloat(e.target.value) })}
+                style={sliderInput}
+                aria-label="Paper curl strength"
+              />
+              <div style={{ fontSize: 11, color: '#888', marginTop: 2 }}>
+                0.0 = flat, 0.5 = strongly curled.
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Selected template description */}
         {(() => {

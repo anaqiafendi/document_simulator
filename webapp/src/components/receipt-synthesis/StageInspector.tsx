@@ -1,4 +1,4 @@
-import { useState, type CSSProperties } from 'react'
+import { useEffect, useMemo, useState, type CSSProperties } from 'react'
 import type {
   CoordSnapshotStage,
   ReceiptRenderResponse,
@@ -6,6 +6,7 @@ import type {
 } from '../../types'
 import BboxOverlay from './BboxOverlay'
 import TokenList from './TokenList'
+import StageSelector from './StageSelector'
 
 interface StageInspectorProps {
   response: ReceiptRenderResponse
@@ -19,8 +20,8 @@ interface StageInspectorProps {
 // Map a pipeline-stage id (from PipelineStageCard) → which CoordSnapshot.stage
 // to draw on top of that image. v0.2 only emits `html` and `raster` snapshots
 // (the post-Augraphy image is geometrically identical to raster, so we re-use
-// the raster polygons there). The 3D / camera_fx / final_crop snapshots are
-// reserved for v0.3 / v1.0.
+// the raster polygons there). v0.3+ adds 3d_render → camera_2d, with
+// final_crop / camera_fx reserved for v1.0.
 function snapshotStageFor(stageId: string): CoordSnapshotStage {
   switch (stageId) {
     case 'content':
@@ -80,6 +81,13 @@ const checkboxLabel: CSSProperties = {
   cursor: 'pointer',
 }
 
+const controlsRow: CSSProperties = {
+  display: 'flex',
+  gap: 14,
+  alignItems: 'center',
+  flexWrap: 'wrap',
+}
+
 export default function StageInspector({
   response,
   selectedStage,
@@ -89,9 +97,22 @@ export default function StageInspector({
   setShowLabels,
 }: StageInspectorProps) {
   const [highlight, setHighlight] = useState<string | null>(null)
+  // User override for the overlay stage. When null, the inspector tracks the
+  // selected pipeline card via `snapshotStageFor()`. The user's choice
+  // persists across stage card clicks until they reset to "auto".
+  const [overlayOverride, setOverlayOverride] = useState<CoordSnapshotStage | null>(null)
+
   const { image, output } = findStageOutput(response, selectedStage)
-  const snapshotStage = snapshotStageFor(selectedStage)
+  const autoStage = useMemo(() => snapshotStageFor(selectedStage), [selectedStage])
+  const overlayStage: CoordSnapshotStage = overlayOverride ?? autoStage
+  const isAuto = overlayOverride === null
   const hasImage = !!image
+
+  // When the response identity changes (a fresh render), clear the override
+  // so the inspector starts in auto-track mode again.
+  useEffect(() => {
+    setOverlayOverride(null)
+  }, [response.image_id])
 
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 2fr) minmax(280px, 1fr)', gap: 16, marginTop: 16 }}>
@@ -108,7 +129,7 @@ export default function StageInspector({
               </span>
             )}
           </div>
-          <div style={{ display: 'flex', gap: 14, alignItems: 'center' }}>
+          <div style={controlsRow}>
             <label style={checkboxLabel}>
               <input type="checkbox" checked={showBboxes} onChange={e => setShowBboxes(e.target.checked)} />
               Show bboxes
@@ -125,11 +146,26 @@ export default function StageInspector({
           </div>
         </div>
 
+        <div style={{ ...controlsRow, marginBottom: 10 }}>
+          <StageSelector
+            value={overlayStage}
+            onChange={s => setOverlayOverride(s)}
+            isAuto={isAuto}
+            onReset={isAuto ? undefined : () => setOverlayOverride(null)}
+            disabled={!showBboxes}
+          />
+          {!isAuto && (
+            <span style={{ fontSize: 11, color: '#888', fontStyle: 'italic' }}>
+              overriding auto ({autoStage})
+            </span>
+          )}
+        </div>
+
         {hasImage ? (
           <BboxOverlay
             imageB64={image!}
             tokens={response.ground_truth.tokens}
-            stage={snapshotStage}
+            stage={overlayStage}
             showBboxes={showBboxes}
             showLabels={showLabels}
             highlightTokenId={highlight}

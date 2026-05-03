@@ -7,8 +7,13 @@ export interface PipelineStageCardProps {
   thumbnailB64?: string | null
   badge?: string | null
   selected?: boolean
+  /** Hard-disabled — the card is unclickable (used for Camera FX in v0.3). */
   disabled?: boolean
   disabledReason?: string
+  /** Soft hint shown under the thumbnail when the card *is* clickable but the
+   *  underlying stage hasn't been rendered yet (used for the 3D Scene card
+   *  when `render_3d=false`). Ignored when `disabled` is true. */
+  hint?: string | null
   onClick?: () => void
 }
 
@@ -62,6 +67,7 @@ export default function PipelineStageCard({
   selected = false,
   disabled = false,
   disabledReason,
+  hint = null,
   onClick,
 }: PipelineStageCardProps) {
   const style: CSSProperties = {
@@ -74,6 +80,11 @@ export default function PipelineStageCard({
     if (disabled) return
     onClick?.()
   }
+
+  // Show the soft hint when not disabled (and a hint string is provided).
+  const showHint = !disabled && !!hint
+  // Show the disabled note when actually disabled.
+  const showDisabledNote = disabled
 
   return (
     <div
@@ -90,7 +101,7 @@ export default function PipelineStageCard({
           onClick?.()
         }
       }}
-      title={disabled ? disabledReason ?? `${label} (not yet available)` : label}
+      title={disabled ? disabledReason ?? `${label} (not yet available)` : hint ?? label}
       style={style}
     >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -119,9 +130,14 @@ export default function PipelineStageCard({
           <span aria-hidden="true">{emoji}</span>
         )}
       </div>
-      {disabled && (
+      {showDisabledNote && (
         <span style={{ fontSize: 10, color: '#888', fontStyle: 'italic', textAlign: 'center' }}>
           {disabledReason ?? 'Coming soon'}
+        </span>
+      )}
+      {showHint && (
+        <span style={{ fontSize: 10, color: '#4f6ef7', fontStyle: 'italic', textAlign: 'center' }}>
+          {hint}
         </span>
       )}
     </div>
