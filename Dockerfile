@@ -10,7 +10,11 @@
 
 FROM python:3.11-slim
 
-# Install system libs needed by PyMuPDF, OpenCV, and augraphy
+# Install system libs needed by PyMuPDF, OpenCV, augraphy, and headless bpy.
+# bpy 4.2 (the synthesis-3d extra, FDD #29 v0.3a) needs the X11 + EGL stack
+# even when running headless. Already-present libs (libglib2.0-0, libgl1,
+# libgomp1, libxrender1) cover OpenCV/PyMuPDF; the new bpy-driven additions
+# are libxi6, libxxf86vm1, libxfixes3 and libegl1.
 RUN apt-get update && apt-get install -y --no-install-recommends \
         libglib2.0-0 \
         libgl1 \
@@ -18,6 +22,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libsm6 \
         libxext6 \
         libxrender1 \
+        libxi6 \
+        libxxf86vm1 \
+        libxfixes3 \
+        libegl1 \
         libfontconfig1 \
     && rm -rf /var/lib/apt/lists/*
 
@@ -29,14 +37,16 @@ WORKDIR /app
 # Copy dependency manifests + README (hatchling needs README.md at build time)
 COPY pyproject.toml uv.lock README.md ./
 
-# Sync core deps only — heavy optional extras (ocr, rl, ui) are excluded.
-RUN uv sync --no-dev --frozen --no-install-project
+# Sync core deps + photoreal synthesis extras. ``synthesis`` brings in
+# weasyprint/jinja2 for v0.1+v0.2; ``synthesis-3d`` brings in bpy 4.2 for the
+# v0.3 3D scene + render path. Heavy ML extras (ocr, rl, ui) remain excluded.
+RUN uv sync --no-dev --frozen --no-install-project --extra synthesis --extra synthesis-3d
 
 # Copy source package
 COPY src/ ./src/
 
 # Install the project itself (no-deps, already synced above)
-RUN uv sync --no-dev --frozen
+RUN uv sync --no-dev --frozen --extra synthesis --extra synthesis-3d
 
 # Copy React build output.
 # In HF Spaces, webapp/dist/ is gitignored so Docker can't access it directly.
@@ -46,6 +56,10 @@ COPY webapp_dist/ ./webapp/dist/
 
 # Copy sample data (optional — provides demo templates)
 COPY data/ ./data/
+
+# Enable OpenCV's OpenEXR codec — the v0.3 scene render decodes UV/depth
+# passes from EXR via cv2; the codec is gated on this env var.
+ENV OPENCV_IO_ENABLE_OPENEXR=1
 
 # Expose FastAPI port
 EXPOSE 7860

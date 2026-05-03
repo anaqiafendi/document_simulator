@@ -65,9 +65,11 @@ docs/_build/
 site/
 
 # Data & Models — ignore generated runtime dirs, but track data/samples/
+# and data/hdri/ (CC0 HDRIs + thumbnails bundled for v0.3 receipt synthesis).
 data/*
 !data/.gitkeep
 !data/samples
+!data/hdri
 models/
 !models/.gitkeep
 output/
