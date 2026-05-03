@@ -81,6 +81,27 @@ The original synthesis claimed **~43k images/hr** on an M3 Max with an 8-worker 
 
 ---
 
+## 3.5 Deployment Architecture — HF-Compatible Single App
+
+**Decided 2026-05-03**: the entire pipeline (including v0.3+ bpy rendering) deploys to HF Spaces as a single FastAPI app + React webapp. **No split architecture, no separate renderer service.** Resolution + asset count are env-var-driven so the same code adapts to whichever environment it's running in.
+
+| Env var | HF Free (CPU) | Local (M-series) | HF Paid GPU (T4) |
+|---|---|---|---|
+| `RECEIPT_RENDER_RESOLUTION` | 384 | 1024 | 1024 |
+| `RECEIPT_HDRI_COUNT` | 5 (bundled subset) | 30–50 | 30–50 |
+| `RECEIPT_RENDER_TIMEOUT_S` | 30 | 10 | 10 |
+| `RECEIPT_WORKER_POOL_SIZE` | 1 | 4–8 | 2–4 |
+| Render time per image | 5–15s | 800ms–1.5s | 1–2s |
+| Cycles enabled | no | optional | yes |
+
+**The user-visible UX delta is render latency.** On HF free tier, click → spinner → result in 5–15s. Locally, click → near-instant. The pipeline correctness, the GT polygons, the bbox overlay — all identical.
+
+**Dockerfile additions for v0.3**: bpy needs Linux system libs for headless rendering — `libxrender1 libxi6 libxxf86vm1 libxfixes3 libgl1 libgomp1 libegl1 libglib2.0-0`. First v0.3 commit verifies `import bpy` succeeds in CI.
+
+**Future GPU upgrade path**: switch HF Space tier to a GPU container — no code change, just bump env vars. Or point a future `RENDERER_SERVICE_URL` env var at a Modal/RunPod instance for cloud burst (the architecture supports this without code change because `bbox_projector` and `scene_render` are pure functions).
+
+---
+
 ## 4. Ground Truth — The Core Deliverable
 
 **This is the heart of the project, not a side artifact.** Every generated image must be paired with a ground-truth file recording (a) the receipt's text content, (b) per-token bounding boxes in the *final image's pixel space*, and (c) the **full coordinate trail** through every transform stage so debugging is tractable. If photorealism is the product, the GT-bundled dataset is the deliverable.

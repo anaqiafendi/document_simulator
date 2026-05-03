@@ -1,0 +1,41 @@
+name: bpy smoke
+
+# AC-3a: verify `import bpy` works in the HF Spaces Docker image.
+#
+# Triggered on PRs touching pyproject.toml or the Dockerfile (the two files
+# that can break the bpy install) plus the bpy-relevant scene module + this
+# workflow itself. We build the same image the deploy workflow builds, then
+# run a one-liner that imports bpy and prints its version. If the wheel
+# install fails on the HF builder we'll catch it here, on the PR, before it
+# breaks Spaces.
+
+on:
+  pull_request:
+    paths:
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - 'Dockerfile'
+      - 'src/document_simulator/synthesis/receipts/scene/**'
+      - '.github/workflows/bpy-smoke.yml'
+  workflow_dispatch:
+
+jobs:
+  bpy-import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # The full Dockerfile expects webapp_dist/ (built React SPA) but the
+      # bpy smoke test doesn't need it — we shadow with an empty dir so
+      # `COPY webapp_dist/` succeeds with zero files.
+      - name: Stub webapp_dist for the smoke build
+        run: mkdir -p webapp_dist
+
+      - name: Build the HF Spaces Docker image
+        run: docker build -t document-simulator-bpy-smoke:ci .
+
+      - name: Run `import bpy` inside the image
+        run: |
+          docker run --rm document-simulator-bpy-smoke:ci \
+            /app/.venv/bin/python -c "import bpy; print('bpy ok:', bpy.app.version_string)"

@@ -3,7 +3,14 @@ name: PR Preview Deploy
 on:
   pull_request:
     types: [opened, synchronize, reopened, closed]
-    branches: [dev, main]
+    branches:
+      - dev
+      - main
+      # Stacked feature PRs (e.g. v0.3a → v0.3b → v0.3c → v0.3d for the
+      # photoreal receipt synthesis sequence) target each other rather than
+      # dev/main, so we explicitly opt them in for HF preview deploys.
+      # Each PR still gets its own unique Space (named by PR number).
+      - "feature/photoreal-receipt-**"
 
 jobs:
   deploy-preview:

@@ -112,9 +112,18 @@ synthesis = [
     "jinja2>=3.1",
 ]
 
+# Photoreal receipt synthesis (v0.3a) — headless Blender for 3D scene + render.
+# bpy==4.2.0 ships wheels only for Python 3.11 (see PyPI). The marker keeps
+# `uv sync --extra synthesis-3d` resolvable on Python 3.10/3.12 environments
+# (the extra silently no-ops on those interpreters; v0.3 features only run
+# on 3.11). The Dockerfile + CI smoke check pin Python 3.11.
+synthesis-3d = [
+    "bpy==4.2.0; python_version >= '3.11' and python_version < '3.12'",
+]
+
 # Everything — local full dev install
 all = [
-    "document-simulator[ocr,rl,ui,dev,docs,notebook,synthesis]",
+    "document-simulator[ocr,rl,ui,dev,docs,notebook,synthesis,synthesis-3d]",
 ]
 
 
@@ -206,6 +215,28 @@ module = [
     "fitz.*",
 ]
 ignore_missing_imports = true
+
+# bpy ships its own ``__init__.so`` (no py.typed) so mypy can't introspect it.
+# Suppress both ``[import-untyped]`` (bpy: found but no stubs) and
+# ``[import-not-found]`` (bmesh: mypy can't even discover it from the .so) on
+# the synthesis.scene module that imports them.
+[[tool.mypy.overrides]]
+module = [
+    "bpy",
+    "bpy.*",
+    "bmesh",
+    "bmesh.*",
+    "mathutils",
+    "mathutils.*",
+    "bpy_extras",
+    "bpy_extras.*",
+]
+ignore_missing_imports = true
+follow_imports = "skip"
+
+[[tool.mypy.overrides]]
+module = ["document_simulator.synthesis.receipts.scene.*"]
+disable_error_code = ["import-untyped", "import-not-found"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
