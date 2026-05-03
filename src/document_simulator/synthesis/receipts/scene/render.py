@@ -175,15 +175,28 @@ def _render_uv_depth_cycles(
                 f"available: {[o.name for o in rl.outputs]}"
             )
 
-        # UV pass: ``Vector(u, v, w)`` from Cycles. Wired straight into a
-        # 3-channel EXR (cv2 reads it back as BGR -> R=u, G=v, B=0).
+        # UV pass: ``Vector(u, v, w)`` from Cycles. Wiring the vector socket
+        # straight into the OutputFile node was found to drop the U component
+        # (the file came back single-channel containing only V) on this
+        # bpy 4.2 build. Explicitly split the vector and recombine into RGB
+        # so cv2 can read both U and V back correctly:
+        #     R <- u   G <- v   B <- 0
+        # cv2 reads BGR -> img[..., 2] = R = u, img[..., 1] = G = v.
+        sep_uv = ct.nodes.new("CompositorNodeSeparateXYZ")
+        ct.links.new(uv_socket, sep_uv.inputs[0])
+        comb_uv = ct.nodes.new("CompositorNodeCombineColor")
+        comb_uv.mode = "RGB"
+        ct.links.new(sep_uv.outputs["X"], comb_uv.inputs[0])  # R = u
+        ct.links.new(sep_uv.outputs["Y"], comb_uv.inputs[1])  # G = v
+        # B left unconnected -> 0 (we don't need w)
+
         out_uv = ct.nodes.new("CompositorNodeOutputFile")
         out_uv.base_path = str(tmp_path)
         out_uv.file_slots[0].path = "uv_"
         out_uv.format.file_format = "OPEN_EXR"
         out_uv.format.color_mode = "RGB"
         out_uv.format.color_depth = "32"
-        ct.links.new(uv_socket, out_uv.inputs[0])
+        ct.links.new(comb_uv.outputs["Image"], out_uv.inputs[0])
 
         # Depth pass: Cycles' Z socket is single-channel. cv2's OpenEXR
         # reader cannot decode single-channel EXRs reliably, so we splat
