@@ -1,17 +1,26 @@
-"""Token projector orchestrator (FDD #29 v0.3b AC-4b).
+"""Token projector orchestrator (FDD #29 v0.3b AC-4b, v0.3c AC-1c..AC-3c).
 
-Walks a single ``TokenGroundTruth`` through the v0.3b coord chain:
+The v0.3b ``project_token`` walks a single ``TokenGroundTruth`` through:
 
     raster (already present) -> uv -> world -> camera_2d
 
-For each new stage, a ``CoordSnapshot`` is appended to the token's ``coords``
-list (never overwritten — the chain is append-only by FDD design).
+The v0.3c ``project_token_full`` extends that chain with:
 
-The ``world`` snapshot carries both:
-    - ``polygon`` — the xy slice (z dropped) for schema consistency, and
-    - ``polygon_3d`` — the full 3D coords on the surface.
+    -> visibility (mutates token.visible / token.occlusion_ratio)
+    -> camera_fx (identity copy of camera_2d in v0.3)
+    -> final_crop (Sutherland-Hodgman clipped to output image bounds)
 
-The ``camera_2d`` snapshot only carries ``polygon`` (image px).
+Each stage *appends* a ``CoordSnapshot`` (never overwrites — the chain is
+append-only by FDD design). The visibility step does not produce a
+CoordSnapshot; it populates fields on ``TokenGroundTruth`` directly.
+
+**Why two entry points?** The v0.3b round-trip test (AC-5b) projects through
+``camera_2d`` only and asserts ``raster == camera_2d`` within ±2 px. Adding
+``camera_fx`` and ``final_crop`` snapshots there would mean the test has to
+look past them; keeping ``project_token`` strictly v0.3b preserves the test
+as-is. Production callers that want the full chain (visibility + crop) call
+``project_token_full`` and pass in the rendered UV pass + depth pass + the
+cropped output size.
 
 Polygon edges are subdivided BEFORE projecting so the resulting world /
 camera-space polygon hugs the deformed surface (per design doc §2 critical
@@ -27,14 +36,24 @@ from __future__ import annotations
 
 from typing import Any
 
+import numpy as np
 from loguru import logger
 
+from document_simulator.synthesis.receipts.bbox_projector.camera_fx import (
+    apply_identity,
+)
+from document_simulator.synthesis.receipts.bbox_projector.clip import (
+    apply_final_crop,
+)
 from document_simulator.synthesis.receipts.bbox_projector.subdivide import (
     subdivide_polygon,
 )
 from document_simulator.synthesis.receipts.bbox_projector.uv_to_world import (
     UVSpatialHash,
     uv_to_world,
+)
+from document_simulator.synthesis.receipts.bbox_projector.visibility import (
+    compute_visibility,
 )
 from document_simulator.synthesis.receipts.bbox_projector.world_to_camera import (
     world_to_camera_2d,
@@ -139,4 +158,83 @@ def project_token(
         camera_polygon.append(px)
 
     token.coords.append(CoordSnapshot(stage="camera_2d", polygon=camera_polygon))
+    return token
+
+
+def project_token_full(
+    token: TokenGroundTruth,
+    mesh: Any,
+    scene: Any,
+    camera: Any,
+    uv_pass: np.ndarray,
+    depth_pass: np.ndarray,
+    render_size: tuple[int, int],
+    raster_size: tuple[int, int],
+    output_size: tuple[int, int],
+    *,
+    spatial_hash: UVSpatialHash | None = None,
+    edge_segments: int = _DEFAULT_EDGE_SEGMENTS,
+    crop_origin: tuple[float, float] | None = None,
+) -> TokenGroundTruth:
+    """Run the full v0.3c chain on a single token, in place.
+
+    Pipeline:
+
+        1. ``project_token`` — appends ``uv``, ``world``, ``camera_2d``.
+        2. ``compute_visibility`` — populates ``token.visible`` and
+           ``token.occlusion_ratio`` based on the rendered UV pass.
+        3. ``apply_identity`` — appends a ``camera_fx`` snapshot (identity
+           copy of ``camera_2d`` in v0.3; non-trivial FX defer to v1.0).
+        4. ``apply_final_crop`` — appends a ``final_crop`` snapshot with the
+           Sutherland-Hodgman clipped polygon, OR sets ``visible=False`` and
+           skips the snapshot if the polygon is fully off the cropped image.
+
+    Visibility is computed against the ``camera_2d`` polygon (not the cropped
+    one) on purpose: visibility is "is this surface rendered into the camera
+    frame", which happens before the user-side crop.
+
+    Args:
+        token: Token with a ``raster`` snapshot. Mutated in place.
+        mesh: ``bpy.types.Mesh`` with active UV layer.
+        scene: ``bpy.types.Scene`` with a configured camera.
+        camera: ``bpy.types.Object`` of type CAMERA.
+        uv_pass: Per-pixel UV ``(H, W, 2)`` from ``render_eevee``.
+        depth_pass: Per-pixel depth ``(H, W)`` from ``render_eevee``. Passed
+            through to ``compute_visibility`` (currently unused in v0.3 —
+            see visibility.py docstring).
+        render_size: ``(width, height)`` of the camera-space image, must
+            match the UV/depth pass shape.
+        raster_size: ``(width, height)`` of the raster-stage source image.
+        output_size: ``(width, height)`` of the cropped output image. Equal
+            to ``render_size`` for "no crop".
+        spatial_hash: Optional pre-built ``UVSpatialHash`` for batch reuse.
+        edge_segments: Polygon-edge subdivision factor. Default 4 (per AC-2b).
+        crop_origin: ``(x, y)`` offset of the crop window in render-space px.
+            Defaults to centering the output inside the render:
+            ``((render_w - output_w) / 2, (render_h - output_h) / 2)``.
+
+    Returns:
+        The same ``token`` (mutated). After this call ``token.coords`` has
+        either 6 snapshots (raster + uv + world + camera_2d + camera_fx +
+        final_crop) when visible, or 5 snapshots when fully off-frame.
+    """
+    if crop_origin is None:
+        crop_origin = (
+            (render_size[0] - output_size[0]) / 2.0,
+            (render_size[1] - output_size[1]) / 2.0,
+        )
+
+    project_token(
+        token,
+        mesh=mesh,
+        scene=scene,
+        camera=camera,
+        render_size=render_size,
+        raster_size=raster_size,
+        spatial_hash=spatial_hash,
+        edge_segments=edge_segments,
+    )
+    compute_visibility(token, uv_pass, depth_pass, render_size)
+    apply_identity(token)
+    apply_final_crop(token, output_size=output_size, crop_origin=crop_origin)
     return token
