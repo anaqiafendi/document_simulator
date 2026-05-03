@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from document_simulator.synthesis.receipts.schema import ImageGroundTruth
 
@@ -182,6 +182,18 @@ class ReceiptRenderRequest(BaseModel):
 
     ``start_stage`` and ``cached_image_id`` are accepted for forward-compat
     with v0.3+ (resume-from-stage caching) but are ignored in v0.2.
+
+    v0.3d adds the 3D-render trio:
+
+      * ``render_3d`` toggles the bpy scene + Eevee render stage. When False
+        (default), the endpoint behaves exactly as v0.2.
+      * ``hdri_id`` selects which HDRI from ``data/hdri/`` drives the world
+        background. Ignored when ``render_3d=False``. ``None`` falls back
+        to the first bundled HDRI.
+      * ``curl_strength`` controls procedural paper curl in
+        :func:`document_simulator.synthesis.receipts.scene.deform_paper`.
+        Bounded ``[0.0, 0.5]`` so a fat-fingered slider can't crinkle the
+        receipt off-camera.
     """
 
     template: str
@@ -189,16 +201,24 @@ class ReceiptRenderRequest(BaseModel):
     augraphy_preset: str | None = None
     start_stage: str | None = None
     cached_image_id: str | None = None
+    # v0.3d additions
+    render_3d: bool = False
+    hdri_id: str | None = None
+    curl_strength: float = Field(0.1, ge=0.0, le=0.5)
 
 
 class StageOutput(BaseModel):
     """One pipeline stage's output, returned by the /render endpoint.
 
-    The ``stage`` literal is intentionally narrow in v0.2; v0.3+ will widen
-    it to include ``"3d_scene"``, ``"camera_fx"``, and ``"final_crop"``.
+    The ``stage`` literal widens with each pipeline phase. v0.3d adds
+    ``3d_render`` (Eevee output of the textured 3D receipt scene) and
+    ``visibility`` (placeholder for a future stage that renders only the
+    visibility mask — populated as a coord-trail field on TokenGroundTruth
+    in v0.3c, but reserved here as a literal so the response schema is
+    stable across the v0.3 series).
     """
 
-    stage: Literal["content", "raster", "augraphy"]
+    stage: Literal["content", "raster", "augraphy", "3d_render", "visibility"]
     image_b64: str | None  # null for "content" stage (no image yet)
     parameters: dict[str, Any]
     elapsed_ms: int
@@ -233,3 +253,22 @@ class AugraphyPresetListResponse(BaseModel):
     """Response model for GET /api/receipt-synthesis/augraphy-presets."""
 
     presets: list[str]
+
+
+class HDRIInfo(BaseModel):
+    """Metadata for one HDRI returned by GET /hdri-thumbnails (FDD #29 AC-5d).
+
+    The ``thumbnail_b64`` is a base64 PNG (no ``data:`` prefix) of the
+    pre-rendered 128×128 thumbnail bundled alongside each ``.hdr`` file in
+    ``data/hdri/``.
+    """
+
+    id: str
+    name: str
+    thumbnail_b64: str
+
+
+class HDRIListResponse(BaseModel):
+    """Response model for GET /api/receipt-synthesis/hdri-thumbnails."""
+
+    hdris: list[HDRIInfo]

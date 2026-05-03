@@ -250,3 +250,6 @@ addopts = [
     "--cov-report=xml",
     "-v",
 ]
+markers = [
+    "slow: tests that take >5s (RL training, bpy sidecar 3D renders); skip with -m 'not slow'",
+]
