@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page {
+    /* Narrow taxi/parking stub */
+    size: 65mm 130mm;
+    margin: 2mm;
+  }
+  html, body { margin: 0; padding: 0; background: #ffffff; color: #000; }
+  body {
+    font-family: "Menlo", "Consolas", ui-monospace, monospace;
+    font-size: 9pt;
+    line-height: 1.25;
+  }
+  .center { text-align: center; }
+  .row    { display: flex; justify-content: space-between; }
+  .row .left  { flex: 1 1 auto; text-align: left; }
+  .row .right { flex: 0 0 auto; text-align: right; }
+  hr      { border: none; border-top: 1px dashed #000; margin: 4px 0; }
+  .meta   { font-size: 8pt; }
+</style>
+</head>
+<body>
+
+<div class="center">
+  <span data-token-id="merchant">{{ receipt.merchant }}</span>
+</div>
+<div class="center meta">
+  <span data-token-id="address">{{ receipt.address }}</span>
+</div>
+
+<hr>
+
+<div class="row meta">
+  <span class="left">DRIVER #<span data-token-id="driver">2241</span></span>
+  <span class="right">CAR <span data-token-id="car">14</span></span>
+</div>
+<div class="row meta">
+  <span class="left">FROM: <span data-token-id="from_loc">DOWNTOWN</span></span>
+</div>
+<div class="row meta">
+  <span class="left">TO: <span data-token-id="to_loc">AIRPORT</span></span>
+</div>
+
+<hr>
+
+{% for item in receipt.items %}
+<div class="row">
+  <span class="left">
+    <span data-token-id="item_{{ loop.index0 }}_qty">{{ item.qty }}</span>
+    x
+    <span data-token-id="item_{{ loop.index0 }}_sku">{{ item.sku }}</span>
+  </span>
+  <span class="right">
+    <span data-token-id="item_{{ loop.index0 }}_price">{{ "%.2f"|format(item.total) }}</span>
+  </span>
+</div>
+{% endfor %}
+
+<hr>
+
+<div class="row">
+  <span class="left">SUBTOTAL</span>
+  <span class="right"><span data-token-id="subtotal">{{ "%.2f"|format(receipt.subtotal) }}</span></span>
+</div>
+<div class="row">
+  <span class="left">TAX</span>
+  <span class="right"><span data-token-id="tax">{{ "%.2f"|format(receipt.tax) }}</span></span>
+</div>
+<div class="row">
+  <span class="left">TIP</span>
+  <span class="right">_____</span>
+</div>
+<div class="row">
+  <span class="left">TOTAL</span>
+  <span class="right"><span data-token-id="total">{{ "%.2f"|format(receipt.total) }}</span></span>
+</div>
+
+<hr>
+
+<div class="center meta">
+  PAID **** <span data-token-id="payment">{{ receipt.payment_last4 }}</span>
+</div>
+
+</body>
+</html>

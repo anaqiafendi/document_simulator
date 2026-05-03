@@ -1,0 +1,26 @@
+{
+  "currency": "USD",
+  "tax_rate_range": [0.0, 0.08],
+  "items": [
+    {"sku": "BASE FARE", "price_range": [2.50, 4.50]},
+    {"sku": "DISTANCE MI", "price_range": [1.10, 2.95]},
+    {"sku": "TIME MIN", "price_range": [0.30, 0.65]},
+    {"sku": "AIRPORT FEE", "price_range": [3.00, 6.50]},
+    {"sku": "TOLL", "price_range": [1.50, 8.50]},
+    {"sku": "PARK 1HR", "price_range": [3.00, 8.00]},
+    {"sku": "PARK 2HR", "price_range": [5.00, 14.00]},
+    {"sku": "PARK DAY", "price_range": [12.00, 32.00]},
+    {"sku": "VALET", "price_range": [12.00, 28.00]},
+    {"sku": "OVERNIGHT", "price_range": [18.00, 45.00]},
+    {"sku": "SVC FEE", "price_range": [1.50, 4.99]},
+    {"sku": "BOOKING FEE", "price_range": [0.99, 3.49]},
+    {"sku": "CC SURCHARGE", "price_range": [0.50, 1.99]},
+    {"sku": "RUSH HOUR", "price_range": [2.00, 6.00]},
+    {"sku": "NIGHT RATE", "price_range": [1.50, 4.50]},
+    {"sku": "WAIT TIME", "price_range": [0.50, 2.50]},
+    {"sku": "BAGGAGE FEE", "price_range": [1.00, 3.00]},
+    {"sku": "MULTI STOP", "price_range": [1.50, 3.50]},
+    {"sku": "PET FEE", "price_range": [3.00, 5.00]},
+    {"sku": "CANCEL FEE", "price_range": [3.00, 8.00]}
+  ]
+}

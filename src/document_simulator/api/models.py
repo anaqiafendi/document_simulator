@@ -2,7 +2,11 @@
 
 from __future__ import annotations
 
+from typing import Any, Literal
+
 from pydantic import BaseModel
+
+from document_simulator.synthesis.receipts.schema import ImageGroundTruth
 
 
 class TemplateResponse(BaseModel):
@@ -30,8 +34,8 @@ class PreviewRequest(BaseModel):
     synthesis_config: dict
     seeds: list[int] = [42, 43, 44]
     show_overlays: bool = False
-    template_b64: str | None = None   # base64 PNG of the current page
-    current_page: int = 0             # which PDF page the preview is for; filters zones
+    template_b64: str | None = None  # base64 PNG of the current page
+    current_page: int = 0  # which PDF page the preview is for; filters zones
 
 
 class PreviewResponse(BaseModel):
@@ -45,9 +49,9 @@ class GenerateRequest(BaseModel):
 
     synthesis_config: dict
     n: int = 10
-    template_b64: str | None = None      # base64 PNG of a single rendered page
+    template_b64: str | None = None  # base64 PNG of a single rendered page
     template_pdf_b64: str | None = None  # raw PDF bytes as base64; enables multi-page generation
-    template_id: str | None = None       # server-side key returned by /api/template (preferred)
+    template_id: str | None = None  # server-side key returned by /api/template (preferred)
 
 
 class GenerateResponse(BaseModel):
@@ -168,3 +172,64 @@ class RlMetricsResponse(BaseModel):
 
     job_id: str
     reward_curve: list[dict]
+
+
+# ── Receipt Synthesis (FDD #28) ───────────────────────────────────────────────
+
+
+class ReceiptRenderRequest(BaseModel):
+    """Request model for POST /api/receipt-synthesis/render.
+
+    ``start_stage`` and ``cached_image_id`` are accepted for forward-compat
+    with v0.3+ (resume-from-stage caching) but are ignored in v0.2.
+    """
+
+    template: str
+    seed: int
+    augraphy_preset: str | None = None
+    start_stage: str | None = None
+    cached_image_id: str | None = None
+
+
+class StageOutput(BaseModel):
+    """One pipeline stage's output, returned by the /render endpoint.
+
+    The ``stage`` literal is intentionally narrow in v0.2; v0.3+ will widen
+    it to include ``"3d_scene"``, ``"camera_fx"``, and ``"final_crop"``.
+    """
+
+    stage: Literal["content", "raster", "augraphy"]
+    image_b64: str | None  # null for "content" stage (no image yet)
+    parameters: dict[str, Any]
+    elapsed_ms: int
+
+
+class ReceiptRenderResponse(BaseModel):
+    """Response model for POST /api/receipt-synthesis/render."""
+
+    image_id: str
+    final_image_b64: str
+    ground_truth: ImageGroundTruth
+    stages: list[StageOutput]
+    pipeline_version: str
+
+
+class TemplateInfo(BaseModel):
+    """Metadata for one template entry returned by GET /templates."""
+
+    id: str
+    name: str
+    description: str
+    sample_token_count: int  # estimated token count, used in dropdown UX
+
+
+class TemplateListResponse(BaseModel):
+    """Response model for GET /api/receipt-synthesis/templates."""
+
+    templates: list[TemplateInfo]
+
+
+class AugraphyPresetListResponse(BaseModel):
+    """Response model for GET /api/receipt-synthesis/augraphy-presets."""
+
+    presets: list[str]

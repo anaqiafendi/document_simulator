@@ -13,6 +13,10 @@ import type {
   RlTrainConfig,
   RlJobStatus,
   RlMetrics,
+  ReceiptRenderRequest,
+  ReceiptRenderResponse,
+  TemplateListResponse,
+  AugraphyPresetListResponse,
 } from '../types'
 
 const BASE = ''  // same origin in prod; proxied in dev
@@ -333,4 +337,31 @@ export async function getRlMetrics(jobId: string): Promise<RlMetrics> {
 
 export async function stopRlTraining(jobId: string): Promise<void> {
   await fetch(`${BASE}/api/rl/jobs/${jobId}/stop`, { method: 'POST' })
+}
+
+// ── Receipt Synthesis (FDD #28) ──────────────────────────────────────────────
+
+export async function renderReceipt(req: ReceiptRenderRequest): Promise<ReceiptRenderResponse> {
+  const r = await fetch(`${BASE}/api/receipt-synthesis/render`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(req),
+  })
+  if (!r.ok) {
+    const detail = await r.json().catch(() => ({ detail: r.statusText }))
+    throw new Error(`Receipt render failed: ${detail.detail ?? r.status}`)
+  }
+  return r.json()
+}
+
+export async function listTemplates(): Promise<TemplateListResponse> {
+  const r = await fetch(`${BASE}/api/receipt-synthesis/templates`)
+  if (!r.ok) throw new Error(`Failed to list templates: ${r.status}`)
+  return r.json()
+}
+
+export async function listAugraphyPresets(): Promise<AugraphyPresetListResponse> {
+  const r = await fetch(`${BASE}/api/receipt-synthesis/augraphy-presets`)
+  if (!r.ok) throw new Error(`Failed to list augraphy presets: ${r.status}`)
+  return r.json()
 }

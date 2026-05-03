@@ -10,6 +10,7 @@ import OcrEngine from './pages/OcrEngine'
 import BatchProcessing from './pages/BatchProcessing'
 import Evaluation from './pages/Evaluation'
 import RlTraining from './pages/RlTraining'
+import ReceiptSynthesis from './pages/ReceiptSynthesis'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<SyntheticGenerator />} />
+          <Route path="/receipt-synthesis" element={<ReceiptSynthesis />} />
           <Route path="/augmentation" element={<AugmentationLab />} />
           <Route path="/ocr" element={<OcrEngine />} />
           <Route path="/batch" element={<BatchProcessing />} />

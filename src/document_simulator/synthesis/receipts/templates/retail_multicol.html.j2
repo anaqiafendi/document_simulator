@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page {
+    /* Wider thermal for the 3-column SKU/name/price grid */
+    size: 100mm 240mm;
+    margin: 4mm;
+  }
+  html, body { margin: 0; padding: 0; background: #ffffff; color: #000; }
+  body {
+    font-family: "Menlo", "Consolas", ui-monospace, monospace;
+    font-size: 9pt;
+    line-height: 1.25;
+  }
+  .center { text-align: center; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 4px;
+  }
+  th, td {
+    text-align: left;
+    padding: 1px 2px;
+    vertical-align: top;
+  }
+  th { border-bottom: 1px solid #000; font-weight: bold; }
+  .col-sku   { width: 28%; }
+  .col-name  { width: 50%; }
+  .col-price { width: 22%; text-align: right; }
+  .row    { display: flex; justify-content: space-between; }
+  .row .left  { flex: 1 1 auto; text-align: left; }
+  .row .right { flex: 0 0 auto; text-align: right; }
+  hr      { border: none; border-top: 1px dashed #000; margin: 5px 0; }
+  .totals { margin-top: 4px; }
+</style>
+</head>
+<body>
+
+<div class="center">
+  <span data-token-id="merchant">{{ receipt.merchant }}</span>
+</div>
+<div class="center">
+  <span data-token-id="address">{{ receipt.address }}</span>
+</div>
+
+<hr>
+
+<table>
+  <thead>
+    <tr>
+      <th class="col-sku">SKU</th>
+      <th class="col-name">DESC</th>
+      <th class="col-price">PRICE</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in receipt.items %}
+    <tr>
+      <td class="col-sku"><span data-token-id="item_{{ loop.index0 }}_sku">{{ item.sku }}</span></td>
+      <td class="col-name"><span data-token-id="item_{{ loop.index0 }}_qty">{{ item.qty }}</span> @ <span data-token-id="item_{{ loop.index0 }}_unit">{{ "%.2f"|format(item.unit_price) }}</span></td>
+      <td class="col-price"><span data-token-id="item_{{ loop.index0 }}_price">{{ "%.2f"|format(item.total) }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<hr>
+
+<div class="row totals">
+  <span class="left">SUBTOTAL</span>
+  <span class="right"><span data-token-id="subtotal">{{ "%.2f"|format(receipt.subtotal) }}</span></span>
+</div>
+<div class="row">
+  <span class="left">TAX</span>
+  <span class="right"><span data-token-id="tax">{{ "%.2f"|format(receipt.tax) }}</span></span>
+</div>
+<div class="row">
+  <span class="left">TOTAL</span>
+  <span class="right"><span data-token-id="total">{{ "%.2f"|format(receipt.total) }}</span></span>
+</div>
+
+<hr>
+
+<div class="center">
+  CARD ****<span data-token-id="payment">{{ receipt.payment_last4 }}</span>
+</div>
+
+</body>
+</html>
