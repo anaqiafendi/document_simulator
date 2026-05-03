@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 const NAV_ITEMS = [
   { to: '/', label: 'Synthetic Generator', emoji: '🗂️' },
+  { to: '/receipt-synthesis', label: 'Receipt Synthesis', emoji: '🧾' },
   { to: '/augmentation', label: 'Augmentation Lab', emoji: '🔬' },
   { to: '/ocr', label: 'OCR Engine', emoji: '🔍' },
   { to: '/batch', label: 'Batch Processing', emoji: '⚙️' },

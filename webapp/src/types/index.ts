@@ -173,3 +173,85 @@ export interface RlTrainConfig {
   checkpoint_freq: number
   dataset_dir: string | null
 }
+
+// ── Receipt Synthesis (FDD #28) ──────────────────────────────────────────────
+
+export type CoordSnapshotStage =
+  | 'html'
+  | 'raster'
+  | 'uv'
+  | 'world'
+  | 'camera_2d'
+  | 'camera_fx'
+  | 'final_crop'
+
+export interface CoordSnapshot {
+  stage: CoordSnapshotStage
+  polygon: [number, number][]
+  polygon_3d?: [number, number, number][] | null
+}
+
+export interface TokenGroundTruth {
+  token_id: string
+  text: string
+  semantic_role: string | null
+  coords: CoordSnapshot[]
+  visible: boolean
+  occlusion_ratio: number
+}
+
+export interface ImageGroundTruth {
+  image_id: string
+  image_path: string
+  image_size: [number, number]
+  tokens: TokenGroundTruth[]
+  receipt: unknown  // full Receipt — opaque to UI
+  seed: number
+  pipeline_version: string
+}
+
+export interface ReceiptRenderRequest {
+  template: string
+  seed: number
+  augraphy_preset?: string | null
+  start_stage?: string | null
+  cached_image_id?: string | null
+}
+
+export type StageName =
+  | 'content'
+  | 'raster'
+  | 'augraphy'
+  | '3d_render'
+  | 'visibility'
+  | 'camera_fx'
+
+export interface StageOutput {
+  stage: StageName
+  image_b64: string | null
+  parameters: Record<string, unknown>
+  elapsed_ms: number
+}
+
+export interface ReceiptRenderResponse {
+  image_id: string
+  final_image_b64: string
+  ground_truth: ImageGroundTruth
+  stages: StageOutput[]
+  pipeline_version: string
+}
+
+export interface TemplateInfoReceipt {
+  id: string
+  name: string
+  description: string
+  sample_token_count: number
+}
+
+export interface TemplateListResponse {
+  templates: TemplateInfoReceipt[]
+}
+
+export interface AugraphyPresetListResponse {
+  presets: string[]
+}
