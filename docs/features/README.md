@@ -46,6 +46,7 @@ Each file follows [`feature_template.md`](feature_template.md) and links to the 
 | #25 | [Migrate Streamlit Pages to React SPA](feature_migrate_streamlit_to_react.md) | `api.routers.*` + `webapp/src/pages/*` | complete |
 | #27 | [Photorealistic Receipt Photo Synthesis (v0.1)](feature_photoreal_receipt_synthesis.md) | `synthesis.receipts` | complete |
 | #28 | [Receipt Synthesis — React UI + Faker + Augraphy (v0.2)](feature_receipt_synthesis_react_ui.md) | `synthesis.receipts` + `api.routers.receipt_synthesis` + `webapp/.../ReceiptSynthesis` | complete |
+| #29 | [Receipt Synthesis — 3D Scene + Bbox Projector (v0.3)](feature_receipt_synthesis_3d.md) | `synthesis.receipts.scene` + `synthesis.receipts.bbox_projector` | in-progress (sub-phases v0.3a–d) |
 
 ## Deployment
 
