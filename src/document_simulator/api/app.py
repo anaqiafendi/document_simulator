@@ -14,6 +14,7 @@ from document_simulator.api.routers import ocr as ocr_router
 from document_simulator.api.routers import batch as batch_router
 from document_simulator.api.routers import evaluation as evaluation_router
 from document_simulator.api.routers import rl_training as rl_training_router
+from document_simulator.api.routers import receipt_synthesis as receipt_synthesis_router
 
 app = FastAPI(title="Document Simulator API", version="0.1.0")
 
@@ -30,6 +31,7 @@ app.include_router(ocr_router.router)
 app.include_router(batch_router.router)
 app.include_router(evaluation_router.router)
 app.include_router(rl_training_router.router)
+app.include_router(receipt_synthesis_router.router)
 
 
 @app.get("/health")

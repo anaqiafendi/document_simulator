@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page {
+    size: A4;
+    margin: 18mm;
+  }
+  html, body { margin: 0; padding: 0; background: #ffffff; color: #111; }
+  body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+  .header { display: flex; justify-content: space-between; align-items: flex-start; }
+  .header .brand { font-size: 22pt; font-weight: bold; letter-spacing: 1px; }
+  .header .meta { text-align: right; font-size: 10pt; }
+  .billing { margin-top: 18pt; display: flex; justify-content: space-between; }
+  .billing .col { flex: 1 1 0; }
+  .billing .label { font-weight: bold; text-transform: uppercase; font-size: 9pt; color: #555; }
+  table.items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 18pt;
+  }
+  table.items th, table.items td {
+    text-align: left;
+    padding: 6pt 4pt;
+    border-bottom: 1px solid #ddd;
+  }
+  table.items th { background: #f4f4f4; font-size: 9pt; text-transform: uppercase; }
+  .col-qty   { width: 10%; }
+  .col-desc  { width: 50%; }
+  .col-unit  { width: 18%; text-align: right; }
+  .col-total { width: 22%; text-align: right; }
+  .totals { margin-top: 14pt; margin-left: auto; width: 50%; }
+  .totals .row { display: flex; justify-content: space-between; padding: 3pt 0; }
+  .totals .row.grand { font-weight: bold; border-top: 2px solid #000; font-size: 12pt; }
+  .footer { margin-top: 28pt; font-size: 9pt; color: #555; text-align: center; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="brand"><span data-token-id="merchant">{{ receipt.merchant }}</span></div>
+    <div><span data-token-id="address">{{ receipt.address }}</span></div>
+  </div>
+  <div class="meta">
+    <div><strong>INVOICE</strong></div>
+    <div>NO. <span data-token-id="invoice_no">INV-{{ "%05d"|format(receipt.payment_last4|int) }}</span></div>
+  </div>
+</div>
+
+<div class="billing">
+  <div class="col">
+    <div class="label">BILL TO</div>
+    <div><span data-token-id="bill_to_name">CUSTOMER ACCOUNT</span></div>
+    <div><span data-token-id="bill_to_addr">123 BUYER STREET</span></div>
+  </div>
+  <div class="col" style="text-align: right;">
+    <div class="label">DUE DATE</div>
+    <div><span data-token-id="due_date">NET 30</span></div>
+  </div>
+</div>
+
+<table class="items">
+  <thead>
+    <tr>
+      <th class="col-qty">QTY</th>
+      <th class="col-desc">DESCRIPTION</th>
+      <th class="col-unit">UNIT</th>
+      <th class="col-total">TOTAL</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in receipt.items %}
+    <tr>
+      <td class="col-qty"><span data-token-id="item_{{ loop.index0 }}_qty">{{ item.qty }}</span></td>
+      <td class="col-desc"><span data-token-id="item_{{ loop.index0 }}_sku">{{ item.sku }}</span></td>
+      <td class="col-unit"><span data-token-id="item_{{ loop.index0 }}_unit">{{ "%.2f"|format(item.unit_price) }}</span></td>
+      <td class="col-total"><span data-token-id="item_{{ loop.index0 }}_price">{{ "%.2f"|format(item.total) }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div class="totals">
+  <div class="row">
+    <span>SUBTOTAL</span>
+    <span><span data-token-id="subtotal">{{ "%.2f"|format(receipt.subtotal) }}</span></span>
+  </div>
+  <div class="row">
+    <span>TAX ({{ "%.1f"|format(receipt.tax_rate * 100) }}%)</span>
+    <span><span data-token-id="tax">{{ "%.2f"|format(receipt.tax) }}</span></span>
+  </div>
+  <div class="row grand">
+    <span>TOTAL DUE</span>
+    <span><span data-token-id="total">{{ "%.2f"|format(receipt.total) }}</span></span>
+  </div>
+</div>
+
+<div class="footer">
+  Payment via card ending **** <span data-token-id="payment">{{ receipt.payment_last4 }}</span>
+</div>
+
+</body>
+</html>
