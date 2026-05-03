@@ -11,10 +11,11 @@
 FROM python:3.11-slim
 
 # Install system libs needed by PyMuPDF, OpenCV, augraphy, and headless bpy.
-# bpy 4.2 (the synthesis-3d extra, FDD #29 v0.3a) needs the X11 + EGL stack
-# even when running headless. Already-present libs (libglib2.0-0, libgl1,
-# libgomp1, libxrender1) cover OpenCV/PyMuPDF; the new bpy-driven additions
-# are libxi6, libxxf86vm1, libxfixes3 and libegl1.
+# bpy 4.2 (the synthesis-3d extra, FDD #29 v0.3a) needs the full X11 + EGL +
+# input + dbus stack even when running headless — these are eagerly loaded at
+# `import bpy` time. The libxkbcommon0 + libdbus-1-3 additions came from the
+# CI failure on PR #30 (`bpy-import` workflow):
+#   ImportError: libxkbcommon.so.0: cannot open shared object file
 RUN apt-get update && apt-get install -y --no-install-recommends \
         libglib2.0-0 \
         libgl1 \
@@ -26,6 +27,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libxxf86vm1 \
         libxfixes3 \
         libegl1 \
+        libxkbcommon0 \
+        libdbus-1-3 \
         libfontconfig1 \
     && rm -rf /var/lib/apt/lists/*
 
