@@ -216,6 +216,15 @@ export interface ReceiptRenderRequest {
   augraphy_preset?: string | null
   start_stage?: string | null
   cached_image_id?: string | null
+  // ── v0.3 additions ─────────────────────────────────────────────────────────
+  /** When true, the backend runs the 3D rendering stage. Defaults to false on
+   *  the wire (Pydantic side); we mirror the same default in the hook. */
+  render_3d?: boolean
+  /** ID of the HDRI to light the scene with (e.g. "office_warm"). Ignored
+   *  when render_3d=false. */
+  hdri_id?: string | null
+  /** Procedural paper curl strength (0.0–0.5). Ignored when render_3d=false. */
+  curl_strength?: number
 }
 
 export type StageName =
@@ -254,4 +263,19 @@ export interface TemplateListResponse {
 
 export interface AugraphyPresetListResponse {
   presets: string[]
+}
+
+// ── HDRI picker (v0.3) ───────────────────────────────────────────────────────
+
+export interface HDRIInfo {
+  /** Stable HDRI identifier (filename stem, e.g. "office_warm"). */
+  id: string
+  /** Human-readable display name. */
+  name: string
+  /** Pre-computed thumbnail PNG, base64-encoded (no data:image/... prefix). */
+  thumbnail_b64: string
+}
+
+export interface HDRIListResponse {
+  hdris: HDRIInfo[]
 }

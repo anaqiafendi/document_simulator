@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import type {
   ReceiptRenderRequest,
   ReceiptRenderResponse,
@@ -11,7 +11,14 @@ const DEFAULT_REQUEST: ReceiptRenderRequest = {
   augraphy_preset: null,
   start_stage: null,
   cached_image_id: null,
+  // ── v0.3 additions ──
+  render_3d: false,
+  hdri_id: null,
+  curl_strength: 0.1,
 }
+
+/** When the render takes longer than this, we surface the long-render hint. */
+const LONG_RENDER_HINT_MS = 2000
 
 export interface UseReceiptSynthesis {
   request: ReceiptRenderRequest
@@ -24,9 +31,15 @@ export interface UseReceiptSynthesis {
   showLabels: boolean
   setShowLabels: (v: boolean) => void
   isRendering: boolean
+  /** Becomes true after ~2s of waiting on a 3D render. Used to surface the
+   *  "Rendering 3D scene… (this can take 5-15s)" hint. */
+  showLongRenderHint: boolean
   error: string | null
   render: () => Promise<void>
   rerollSeed: () => void
+  /** Toggle the 3D-render flag on the next request. When turning it off we
+   *  also clear hdri_id so the next request matches the v0.2 wire shape. */
+  enable3DToggle: () => void
 }
 
 export function useReceiptSynthesis(
@@ -43,7 +56,18 @@ export function useReceiptSynthesis(
   const [showBboxes, setShowBboxes] = useState<boolean>(true)
   const [showLabels, setShowLabels] = useState<boolean>(false)
   const [isRendering, setIsRendering] = useState<boolean>(false)
+  const [showLongRenderHint, setShowLongRenderHint] = useState<boolean>(false)
   const [error, setError] = useState<string | null>(null)
+
+  // Track the long-render timer so we can clear it on unmount / new render.
+  const longRenderTimer = useRef<number | null>(null)
+  useEffect(() => {
+    return () => {
+      if (longRenderTimer.current !== null) {
+        window.clearTimeout(longRenderTimer.current)
+      }
+    }
+  }, [])
 
   const setRequest = useCallback((next: Partial<ReceiptRenderRequest>) => {
     setRequestState(prev => ({ ...prev, ...next }))
@@ -54,9 +78,31 @@ export function useReceiptSynthesis(
     setRequestState(prev => ({ ...prev, seed }))
   }, [])
 
+  const enable3DToggle = useCallback(() => {
+    setRequestState(prev => {
+      const nextOn = !(prev.render_3d ?? false)
+      if (nextOn) {
+        return { ...prev, render_3d: true }
+      }
+      // Turning off — also clear hdri_id so wire payload matches v0.2 shape.
+      return { ...prev, render_3d: false, hdri_id: null }
+    })
+  }, [])
+
   const render = useCallback(async () => {
     setIsRendering(true)
+    setShowLongRenderHint(false)
     setError(null)
+
+    // Schedule the long-render hint. Show it for any render — but it really
+    // only matters for the 3D path (which is the only one that takes 5-15s).
+    if (longRenderTimer.current !== null) {
+      window.clearTimeout(longRenderTimer.current)
+    }
+    longRenderTimer.current = window.setTimeout(() => {
+      setShowLongRenderHint(true)
+    }, LONG_RENDER_HINT_MS)
+
     try {
       const res = await apiRenderReceipt(request)
       setResponse(res)
@@ -70,6 +116,11 @@ export function useReceiptSynthesis(
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : 'Unknown error')
     } finally {
+      if (longRenderTimer.current !== null) {
+        window.clearTimeout(longRenderTimer.current)
+        longRenderTimer.current = null
+      }
+      setShowLongRenderHint(false)
       setIsRendering(false)
     }
   }, [request, selectedStage])
@@ -85,8 +136,10 @@ export function useReceiptSynthesis(
     showLabels,
     setShowLabels,
     isRendering,
+    showLongRenderHint,
     error,
     render,
     rerollSeed,
+    enable3DToggle,
   }
 }

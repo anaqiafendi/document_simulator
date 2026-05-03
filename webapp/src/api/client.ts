@@ -17,6 +17,7 @@ import type {
   ReceiptRenderResponse,
   TemplateListResponse,
   AugraphyPresetListResponse,
+  HDRIListResponse,
 } from '../types'
 
 const BASE = ''  // same origin in prod; proxied in dev
@@ -363,5 +364,11 @@ export async function listTemplates(): Promise<TemplateListResponse> {
 export async function listAugraphyPresets(): Promise<AugraphyPresetListResponse> {
   const r = await fetch(`${BASE}/api/receipt-synthesis/augraphy-presets`)
   if (!r.ok) throw new Error(`Failed to list augraphy presets: ${r.status}`)
+  return r.json()
+}
+
+export async function listHdriThumbnails(): Promise<HDRIListResponse> {
+  const r = await fetch(`${BASE}/api/receipt-synthesis/hdri-thumbnails`)
+  if (!r.ok) throw new Error(`Failed to list HDRI thumbnails: ${r.status}`)
   return r.json()
 }

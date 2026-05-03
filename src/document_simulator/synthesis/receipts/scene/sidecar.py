@@ -18,6 +18,18 @@ Architecture
     since the ``Image`` object itself isn't picklable across the spawn boundary
     cleanly on macOS (forking bpy is unsupported).
 
+    v0.3d adds two extensions to the worker payload:
+
+        * ``texture_png_bytes``: optional bytes of a PNG to attach as the
+          receipt mesh's albedo texture. PIL convention (top-left origin)
+          is V-flipped before saving so it matches Blender's bottom-left
+          UV-space sampler. Without a texture, the receipt renders as a
+          plain white plane.
+        * ``return_passes``: when True the worker also ships back the UV
+          and depth passes from ``render_eevee``. Needed by the v0.3d API
+          router so it can run ``project_token_full`` to populate the GT
+          coord trail through ``visibility -> camera_fx -> final_crop``.
+
 Recycle on crash
     Each ``render()`` call checks ``self._process.is_alive()`` and respawns
     a fresh worker if it died. This keeps the public API simple ("just call
@@ -131,7 +143,10 @@ class BpySidecar:
         fold_count: int,
         resolution: tuple[int, int],
         timeout: float = 60.0,
-    ) -> Image.Image:
+        texture_png_bytes: bytes | None = None,
+        tokens_json: list[dict] | None = None,
+        raster_size: tuple[int, int] | None = None,
+    ) -> Image.Image | tuple[Image.Image, list[dict]]:
         """Submit a render job to the worker; block until result or timeout.
 
         Args:
@@ -142,13 +157,34 @@ class BpySidecar:
             fold_count: deform_paper fold_count.
             resolution: ``(W, H)`` Eevee render resolution.
             timeout: Maximum seconds to wait for the worker to return.
+            texture_png_bytes: Optional PNG bytes (already V-flipped to
+                Blender's bottom-left UV convention) to attach as the
+                receipt's albedo texture. None -> plain-white receipt
+                (legacy v0.3a/b behavior).
+            tokens_json: Optional list of ``TokenGroundTruth.model_dump()``
+                dicts. When provided (along with ``raster_size``), the worker
+                also runs ``project_token_full`` against the just-rendered
+                scene's UV/depth passes and returns the projected tokens —
+                keeps bpy entirely out of the parent process.
+            raster_size: ``(W, H)`` of the raster-stage source image. Required
+                when ``tokens_json`` is supplied (the projector needs it to
+                map raster-px to UV).
 
         Returns:
-            The rendered RGB ``PIL.Image``.
+            ``PIL.Image`` of the rendered RGB when ``tokens_json`` is None
+            (preserves the v0.3 sidecar contract used by existing tests).
+            When ``tokens_json`` is supplied, returns ``(image, projected_tokens)``
+            where ``projected_tokens`` is the input list with
+            ``uv/world/camera_2d/camera_fx/final_crop`` snapshots appended
+            and ``visible/occlusion_ratio`` populated.
 
         Raises:
             RuntimeError: If the worker died, returned an error, or timed out.
+            ValueError: If ``tokens_json`` is supplied without ``raster_size``.
         """
+        if tokens_json is not None and raster_size is None:
+            raise ValueError("raster_size is required when tokens_json is supplied")
+
         self._ensure_alive()
         assert self._req_q is not None and self._res_q is not None
 
@@ -159,6 +195,9 @@ class BpySidecar:
             "curl_strength": curl_strength,
             "fold_count": fold_count,
             "resolution": resolution,
+            "texture_png_bytes": texture_png_bytes,
+            "tokens_json": tokens_json,
+            "raster_size": raster_size,
         }
         self._req_q.put((job_id, payload))
 
@@ -178,7 +217,14 @@ class BpySidecar:
             )
         if not ok:
             raise RuntimeError(f"BpySidecar worker error: {result}")
-        # result is (image_bytes, size, mode)
+
+        if tokens_json is not None:
+            # result is (image_bytes, size, mode, projected_tokens_list)
+            img_bytes, size, mode, projected = result
+            img = Image.frombytes(mode, size, img_bytes)
+            return img, projected
+
+        # result is (image_bytes, size, mode) — legacy contract.
         img_bytes, size, mode = result
         return Image.frombytes(mode, size, img_bytes)
 
@@ -224,22 +270,146 @@ def _worker_main(req_q: Any, res_q: Any) -> None:
 
         try:
             scene = build_scene(seed=payload["seed"], hdri_id=payload["hdri_id"])
-            mesh = scene.objects["receipt"].data
+            receipt_obj = scene.objects["receipt"]
+            mesh = receipt_obj.data
             deform_paper(
                 mesh,
                 curl_strength=payload["curl_strength"],
                 fold_count=payload["fold_count"],
                 seed=payload["seed"],
             )
-            rgb, _uv_pass, _depth_pass = render_eevee(scene, resolution=payload["resolution"])
+
+            # v0.3d: optionally attach a texture (e.g. the augraphy'd receipt
+            # raster) as the receipt mesh's albedo.
+            tex_bytes = payload.get("texture_png_bytes")
+            if tex_bytes:
+                _attach_texture_from_png_bytes(receipt_obj, tex_bytes)
+
+            rgb, uv_pass, depth_pass = render_eevee(scene, resolution=payload["resolution"])
+
             # Serialize the PIL image into a tuple that survives the spawn
             # IPC boundary cleanly.
             buf = io.BytesIO()
             rgb.save(buf, format="PNG")
             buf.seek(0)
-            # Re-decode so we ship raw RGB bytes (smaller pickle than PNG-in-bytes
-            # on the wire? PNG is fine, decompresses cheaply on the parent.).
             img = Image.open(buf).convert("RGB").copy()
-            res_q.put((job_id, True, (img.tobytes(), img.size, img.mode)))
+
+            tokens_json = payload.get("tokens_json")
+            if tokens_json:
+                # v0.3d full-chain: project tokens here in the worker so the
+                # parent process never has to import bpy. Round-trip the GT
+                # via Pydantic JSON dicts since live bpy.types.Mesh objects
+                # are not picklable.
+                projected = _project_tokens_in_worker(
+                    tokens_json=tokens_json,
+                    mesh=mesh,
+                    scene=scene,
+                    uv_pass=uv_pass,
+                    depth_pass=depth_pass,
+                    render_size=tuple(payload["resolution"]),
+                    raster_size=tuple(payload["raster_size"]),
+                )
+                res_q.put(
+                    (
+                        job_id,
+                        True,
+                        (img.tobytes(), img.size, img.mode, projected),
+                    )
+                )
+            else:
+                res_q.put((job_id, True, (img.tobytes(), img.size, img.mode)))
         except Exception as exc:  # noqa: BLE001
             res_q.put((job_id, False, repr(exc)))
+
+
+def _project_tokens_in_worker(
+    *,
+    tokens_json: list[dict],
+    mesh,
+    scene,
+    uv_pass,  # numpy.ndarray; not annotated to avoid eager-importing numpy
+    depth_pass,
+    render_size: tuple[int, int],
+    raster_size: tuple[int, int],
+) -> list[dict]:
+    """Run ``project_token_full`` for every token; return updated dicts.
+
+    Tokens are deserialized via ``TokenGroundTruth.model_validate``, mutated
+    in place, then serialized back via ``model_dump``. This keeps the
+    parent process bpy-free — it only ever sees JSON-friendly dicts.
+
+    A single ``UVSpatialHash`` is built and reused across all tokens (per
+    the FDD-projector amortization note).
+    """
+    from document_simulator.synthesis.receipts.bbox_projector import (
+        UVSpatialHash,
+        project_token_full,
+    )
+    from document_simulator.synthesis.receipts.schema import TokenGroundTruth
+
+    spatial_hash = UVSpatialHash(mesh)
+    projected: list[dict] = []
+    for raw in tokens_json:
+        token = TokenGroundTruth.model_validate(raw)
+        try:
+            project_token_full(
+                token,
+                mesh=mesh,
+                scene=scene,
+                camera=scene.camera,
+                uv_pass=uv_pass,
+                depth_pass=depth_pass,
+                render_size=render_size,
+                raster_size=raster_size,
+                output_size=render_size,
+                spatial_hash=spatial_hash,
+            )
+        except Exception as exc:  # noqa: BLE001
+            # Per-token failure must not poison the whole batch — log and
+            # keep the original snapshots so downstream code can detect.
+            logger.warning(
+                "project_token_full failed for token={!r}: {}",
+                token.token_id,
+                exc,
+            )
+        projected.append(token.model_dump(mode="json"))
+    return projected
+
+
+def _attach_texture_from_png_bytes(receipt_obj, png_bytes: bytes) -> None:
+    """Attach a PNG texture (already V-flipped) as the receipt's albedo.
+
+    Uses a Principled BSDF material so the rendered output respects the
+    HDRI lighting and procedural curl shadows. The caller is responsible
+    for V-flipping the source image (PIL top-left vs Blender bottom-left
+    UV convention) — the API router does this before serializing the bytes.
+    """
+    import tempfile
+    from pathlib import Path
+
+    import bpy
+
+    tmp_dir = Path(tempfile.mkdtemp(prefix="bpy_sidecar_tex_"))
+    tex_path = tmp_dir / "receipt_albedo.png"
+    tex_path.write_bytes(png_bytes)
+
+    mat = bpy.data.materials.new(name="receipt_mat_albedo")
+    mat.use_nodes = True
+    nt = mat.node_tree
+    for node in list(nt.nodes):
+        nt.nodes.remove(node)
+
+    out = nt.nodes.new("ShaderNodeOutputMaterial")
+    bsdf = nt.nodes.new("ShaderNodeBsdfPrincipled")
+    tex = nt.nodes.new("ShaderNodeTexImage")
+    tex.image = bpy.data.images.load(str(tex_path), check_existing=True)
+    tex.image.colorspace_settings.name = "sRGB"
+    # Closest interpolation preserves character contrast (Linear bilinear
+    # smears glyph pixels into adjacent paper, halving visible contrast).
+    tex.interpolation = "Closest"
+
+    nt.links.new(tex.outputs["Color"], bsdf.inputs["Base Color"])
+    nt.links.new(bsdf.outputs["BSDF"], out.inputs["Surface"])
+
+    receipt_obj.data.materials.clear()
+    receipt_obj.data.materials.append(mat)
