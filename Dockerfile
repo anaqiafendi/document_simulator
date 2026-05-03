@@ -10,11 +10,19 @@
 
 FROM python:3.11-slim
 
-# Install system libs needed by PyMuPDF, OpenCV, augraphy, and headless bpy.
-# bpy 4.2 (the synthesis-3d extra, FDD #29 v0.3a) needs the full X11 + EGL +
-# input + dbus stack even when running headless — these are eagerly loaded at
-# `import bpy` time. The libxkbcommon0 + libdbus-1-3 additions came from the
-# CI failure on PR #30 (`bpy-import` workflow):
+# Install system libs needed by PyMuPDF, OpenCV, augraphy, WeasyPrint, and headless bpy.
+#
+# WeasyPrint (the `synthesis` extra, FDD #27 v0.1+) eagerly loads Pango via
+# cffi at import time. Without these libs, `from weasyprint import HTML`
+# crashes with `OSError: cannot load library 'pango-1.0-0'`, which takes
+# down the FastAPI app at startup because the receipts package imports
+# render at module load. Required: libpango-1.0-0 + libpangoft2-1.0-0
+# + libharfbuzz0b + libcairo2.
+#
+# bpy 4.2 (the `synthesis-3d` extra, FDD #29 v0.3a) needs the full X11 +
+# EGL + input + dbus stack even when running headless — these are eagerly
+# loaded at `import bpy` time. The libxkbcommon0 + libdbus-1-3 additions
+# came from CI failure on PR #30:
 #   ImportError: libxkbcommon.so.0: cannot open shared object file
 RUN apt-get update && apt-get install -y --no-install-recommends \
         libglib2.0-0 \
@@ -29,6 +37,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libegl1 \
         libxkbcommon0 \
         libdbus-1-3 \
+        libpango-1.0-0 \
+        libpangoft2-1.0-0 \
+        libharfbuzz0b \
+        libcairo2 \
         libfontconfig1 \
     && rm -rf /var/lib/apt/lists/*
 
