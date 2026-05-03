@@ -43,14 +43,15 @@ Decisions, with confidence levels, after both critiques:
 | **Hand asset** | Sprite composite of a real hand cutout (CC0 from Pexels/Unsplash) | High | Lower friction than MANO/Mixamo. Skeptic's point: anatomical hand fidelity adds nothing photorealism users will notice as long as the hand casts a believable shadow on the receipt |
 | **HDRI lighting** | **Poly Haven** (CC0, ~700 maps), bundle 30–50 indoor under `data/hdri/` | High | inv3d's hdrdb.com is dead. Poly Haven's API and license are both sane |
 | **Camera FX** | 2D post-process via `kornia` + `Augraphy` post-phase. **Exception**: depth-of-field stays in the renderer using its depth pass | High | Both 2D-friendly perf and renderer-faithful DoF |
-| **UI** | Streamlit page-per-stage, **`st.form` + "Render Preview" button** (not slider-on-change) | High | bpy at 512² is 300–800ms; rendering on every slider drag is unusable |
-| **UI param forms** | `streamlit-pydantic` — generated from per-stage Pydantic configs | High | Single source of truth for UI + CLI |
-| **3D preview** | Server-rendered PNG thumbnail from the actual `bpy` instance is canonical. Optional Three.js iframe is **debug aid only**, labeled "lighting preview — final may differ" | High | The single highest-leverage UX decision; renderer parity is non-negotiable |
+| **UI stack** | **React webapp + FastAPI** (per FDD #25). **No Streamlit** — sunsetted. | High | Aligns with the live frontend stack; Streamlit pages are deprecated |
+| **UI page layout** | One page (`/receipt-synthesis`) with a horizontal **stage strip** (one card per pipeline stage); inspector panel below for the selected stage. **"Render Preview" button** drives all renders (not slider-on-change) | High | bpy at 512² is 300–800ms; per-stroke rendering is unusable. See `docs/PHOTOREAL_RECEIPT_UI_DESIGN.md` for the full spec |
+| **UI param forms** | Hand-written React forms in v0.2; evaluate `pydantic-to-typescript` codegen at v0.3 when param surface grows | Medium | Decision deferred to v0.3; v0.2 has too few params to justify codegen |
+| **3D preview** | Server-rendered PNG from the actual `bpy` pipeline (returned as base64 in the render response) is canonical. **No Three.js viewer.** Bbox overlays are client-side SVG over `<img>` — instant toggle, no round-trip | High | Renderer parity is non-negotiable; a live Three.js viewer would lie about lighting |
 | **Param sampling** | `scipy.stats.qmc.Sobol(scramble=True)` for continuous dims, plain categorical sampling for `background ∈ {office, café, kitchen}` | High | Conditional spaces handled hierarchically: sample background first, then per-branch Sobol |
 | **Param spec / sweeps** | **Pydantic `ParamRange` models with a `.sample(rng)` method**. **Skip Hydra.** Use `itertools.product` over Pydantic configs for grid sweeps | High | Skeptic's point and it's airtight: Hydra + OmegaConf actively fights Pydantic v2 (two schema systems), and a single dev doesn't need Hydra's structured-config power |
 | **Parallel exec (local)** | `concurrent.futures.ProcessPoolExecutor` with `mp_context="spawn"`, `initializer=load_renderer`, **`max_tasks_per_child=10`** | High | The `max_tasks_per_child` is critical — bpy can segfault under load and you must recycle workers |
 | **Parallel exec (later)** | Ray Data only when going beyond one machine; otherwise overkill | Medium | |
-| **Caching** | Two layers, not four: (1) `@st.cache_resource` for renderer/OCR singletons, (2) `diskcache.Cache` keyed on `hash(json.dumps(config.model_dump(), sort_keys=True))` for stage outputs. **Drop `joblib.Memory` and `cache_data`** | High | Skeptic's simplification — three of the four invalidation surfaces silently serve stale renders when Pydantic models gain fields |
+| **Caching** | Two layers: (1) `@functools.lru_cache` for renderer/Jinja singletons (per-process, FastAPI worker lifetime), (2) `diskcache.Cache` keyed on `hash(json.dumps(config.model_dump(), sort_keys=True))` for stage outputs (cross-process, survives restarts) | High | Per-process singleton + cross-process artifact cache covers both needs without the Streamlit-specific `cache_resource`/`cache_data` split |
 | **Observability** | `rich.progress` + a SQLite (or Parquet) manifest with `pending` / `done` / `failed(reason)` states | High | Sufficient for 10k–100k runs |
 | **Cloud burst** | RunPod RTX 4090 (~$0.34/hr) for path-traced production passes | Medium | Only after v1.0 ships locally |
 
@@ -225,8 +226,9 @@ Deps: `uv add 'weasyprint>=60,<63' 'jinja2>=3.1' --extra synthesis`
 - Add 4 more templates (restaurant tip, retail multi-column, A4 invoice, taxi stub) — every token tagged with `data-token-id` and `data-semantic`
 - `synthesis/manifest.py` — JSONL manifest writer with append + resume support
 - Wire in **post-render** Augraphy 2D degradation (per §4.3 — Augraphy applies *after* the would-be-3D step, so for v0.2 it just applies after the raster step). Augraphy ops do not modify GT polygons (they're pixel-only at this stage).
-- Add a Streamlit page (`ui/pages/06_receipt_synthesis.py`) showing 12 random samples in a grid with toggleable bbox overlay
-- Validation gate: gates #1 + #5 from §4.5 across 100 random Faker-generated receipts; manual review of a 24-sample contact sheet (gate #2)
+- Add a React tab (`webapp/src/pages/ReceiptSynthesis.tsx`) registered in `NavBar` with the **stage strip** layout per `docs/PHOTOREAL_RECEIPT_UI_DESIGN.md`. Cards: Content, Raster, Augraphy, Final (3D + Camera FX cards visible but disabled placeholders for later phases). Bbox overlay toggle. Token list. **Hand-written param form.**
+- New FastAPI router `src/document_simulator/api/routers/receipt_synthesis.py` exposing `POST /api/receipt-synthesis/render`, `GET /templates`, `GET /augraphy-presets`
+- Validation gate: gates #1 + #5 from §4.5 across 100 random Faker-generated receipts; manual review via the React UI's stage strip (gate #2 — the visual overlay tool is now built into the page)
 
 ### v0.3 — Cheap 3D + the bbox projector (2–3 weekends, the hard one)
 
@@ -237,8 +239,9 @@ Deps: `uv add 'weasyprint>=60,<63' 'jinja2>=3.1' --extra synthesis`
 - `synthesis/scene_render.py` — loads `.blend`, swaps texture, randomizes HDRI/camera/curl, renders Eevee 1024² + UV pass + depth pass
 - `synthesis/bbox_projector.py` — implements the §4.2 stages 3–7 chain (UV → world → camera_2d → visibility → camera_fx → final_crop). **Budget: 600–900 LoC, 1–2 weeks.** Each stage appends a `CoordSnapshot` to every token; nothing is overwritten.
 - `synthesis/visibility.py` — UV-pass + depth-pass occlusion test populating `visible` and `occlusion_ratio`
-- Streamlit page (`ui/pages/07_3d_scene.py`) with `st.form` + "Render Preview" button at 256² (~150ms), GT-overlay toggle, **and a stage selector that lets the dev visualize any intermediate `CoordSnapshot` overlaid on the corresponding intermediate render** (this is the debugging tool that justifies the coord-trail design)
-- Sidecar bpy in `multiprocessing.Process` started at session start, communicates via `multiprocessing.Queue` — keeps Streamlit alive when bpy segfaults (~80 LoC)
+- Activate the **3D card** in the React `ReceiptSynthesis` page. Add `HDRIPicker` component (Poly Haven thumbnails). The inspector panel for the 3D card includes a **stage selector** dropdown that lets the dev visualize any intermediate `CoordSnapshot` (uv / world / camera_2d / visibility) overlaid on the 3D render — this is the debugging tool that justifies the coord-trail design. Backend endpoint `GET /api/receipt-synthesis/hdri-thumbnails` added.
+- Decide v0.3 param-form strategy (auto-gen via `pydantic-to-typescript` vs continue hand-writing) — document in v0.3 FDD
+- Sidecar bpy in `multiprocessing.Process` started at FastAPI startup, communicates via `multiprocessing.Queue` — keeps the API process alive when bpy segfaults (~80 LoC). The renderer-worker process is recycled on segfault.
 - Validation gate: gates #1 + #2 + #3 + #5 from §4.5 across 50 3D-rendered samples. Gate **#3 (pixel-content statistical test)** is the moment of truth — if the projected polygons don't actually contain the rendered text pixels, the projector is wrong.
 
 ### v0.4 — Batch + Sampling (1 weekend)
@@ -246,8 +249,10 @@ Deps: `uv add 'weasyprint>=60,<63' 'jinja2>=3.1' --extra synthesis`
 - `synthesis/sampler.py` — Sobol over Pydantic `ParamRange` fields, hierarchical for conditional spaces
 - `ProcessPoolExecutor` runner with `spawn`, `initializer=load_renderer`, `max_tasks_per_child=10`
 - SQLite manifest with pending/done/failed states, resumable
-- `rich.progress` for CLI; `st.progress` for Streamlit batch page
-- Two-layer cache: `@st.cache_resource` for renderer, `diskcache.Cache` for stage outputs
+- New React page `webapp/src/pages/ReceiptSynthesisBatch.tsx` at `/receipt-synthesis/batch` with sample-count input, template-distribution sliders, parameter-sampler config, job-progress poller (reuses the existing `JobStatusResponse` pattern from FDD #25), live-preview tile updating every ~5s, and download buttons (manifest + dataset zip)
+- Backend: `POST /api/receipt-synthesis/batch`, `GET /batch/{id}`, `GET /batch/{id}/download`
+- `rich.progress` for CLI invocations
+- Two-layer cache: `@lru_cache` for renderer/Jinja singletons (per-process), `diskcache.Cache` for stage outputs (cross-process)
 
 ### v1.0 — Photoreal Polish (1–2 weekends)
 
@@ -256,7 +261,8 @@ Deps: `uv add 'weasyprint>=60,<63' 'jinja2>=3.1' --extra synthesis`
 - Per-render lens distortion with realistic phone-camera intrinsics (24mm equivalent, ~1–2% barrel)
 - Auto-exposure / white balance jitter to match real phone HDR
 - Contact-shadow plane under the receipt for grounded look
-- Documentation page in Streamlit showing 32-sample contact sheet for qualitative review
+- Activate the **Camera FX card** in the React `ReceiptSynthesis` page (DoF, motion blur, lens distortion, exposure jitter parameters)
+- New React page `/receipt-synthesis/contact-sheet` showing a 4×8 grid of random samples for qualitative review (backend: `POST /api/receipt-synthesis/contact-sheet`)
 
 ### v1.1+ — Stretch (post-ship, evaluate need)
 
@@ -277,7 +283,7 @@ Both judges agreed on these. Cutting them now saves a week each:
 - **Hydra** — Pydantic + `itertools.product` is enough; Hydra + OmegaConf actively fights Pydantic v2
 - **`polyfactory`** — Pydantic + Faker is enough until you're past 10k samples
 - **`joblib.Memory`** — silent staleness when Pydantic models gain fields
-- **Streamlit `cache_data` for renders** — same problem; use `diskcache` instead
+- **Streamlit (entire stack)** — the React webapp + FastAPI per FDD #25 is the live frontend. No new Streamlit pages.
 - **MANO hand model** — overkill; sprite composite is fine
 - **Doc3D mesh dependency** — unreliable hosting, license risk, format conversion needed; generate procedural warps instead
 - **PyTorch3D / Mitsuba 3 / Kaolin** for v1 — all assume CUDA; no benefit on Mac dev
