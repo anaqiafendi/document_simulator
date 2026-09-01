@@ -1,0 +1,187 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-15T14:40:52.239Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "590e065f-ec84-48db-a090-c3be69b63124",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "ANCOL JIMBARAN RESTO\nJL. PANTAI KARNAVAL ANCOL NO. 7\nANCOL\nJAKARTA UTARA\n\nPOS: JT04 Cashier: NURLAILA MANDASARI\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d6e64125-7b04-4207-a85c-4344fae2e346",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\nServer: MEY"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "PAX: 3"
+        },
+        {
+          "quantity": "",
+          "description": "Jun 21, 2026 4:08:00 PM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TBL LL-02",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "15",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3b12d355-9800-4878-a908-afad470a2e94",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "3  KELAPA BATOK",
+          "total": "105,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  KWETIAU GORENG AYAM",
+          "total": "80,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  SAMBAL TERASI",
+          "total": "12,500"
+        },
+        {
+          "quantity": "",
+          "description": "1  NASI PORSI ",
+          "total": " 54,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  LALAPAN",
+          "total": "27,500"
+        },
+        {
+          "quantity": "",
+          "description": "1  LAKAR ALA JIMBARAN ",
+          "total": "50,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  AYAM GORENG MENTEGA",
+          "total": "70,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  SAPO TAHU AYAM",
+          "total": "85,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  LONG BLACK",
+          "total": "50,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  PISANG GORENG",
+          "total": "30,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  IGA BAKAR ",
+          "total": "175,000"
+        },
+        {
+          "quantity": "",
+          "description": "BAKAR KECAP",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal Item : 12",
+          "total": "\n\nTotal Qty : 17"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n739,000"
+        },
+        {
+          "quantity": "",
+          "description": "SERVICES CHARGE",
+          "total": "36,950"
+        },
+        {
+          "quantity": "",
+          "description": "PHR",
+          "total": "77,595"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "853,545"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "24d57d71-0f46-43b5-90f2-fc8ab21ae2b6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Printed Jun 21, 2026 6:34:50 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8bc35cc2-4a80-4d9b-aff8-60a36873314f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n(+62) 87844518186\nancol.com/restoran/ancol-jimbaran\nTHANK YOU\nMATUR SUKSEMA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Ancol Jimbaran Resto and identifies the restaurant as Jl. Pantai Karnaval Ancol No. 7, Ancol, Jakarta Utara, Indonesia. The header contains the restaurant name, address, POS terminal number, cashier name, server name, transaction date and time, table number, and party size. The receipt records an itemized dine-in order consisting of Indonesian food and beverages, including grilled coconut, fried chicken, sambal, steamed rice, fish, soup, coffee, grilled ribs, and other menu items. The financial section records the subtotal, service charge, PPN (Indonesian Value Added Tax), and the final transaction total. The footer includes the print time, restaurant contact number, official website, and a customer appreciation message. The overall layout is representative of an Indonesian restaurant POS receipt, combining table-service order management, service charge calculation, tax reporting, and transaction reconciliation within a compact hospitality receipt format.",
+  "name": "Ancol Jimbaran Receipt",
+  "slug": "Ancol-Jimbaran-Receipt",
+  "published": true,
+  "id": "ltfsRwrkRZUY78N5CGoi"
+}

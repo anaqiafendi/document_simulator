@@ -1,0 +1,48 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "HomeGoods Receipt",
+  "description": "This receipt template represents a retail point-of-sale transaction issued by HomeGoods, a home décor and household goods retail chain. The header includes the store branding, a corporate contact phone number, and the physical store address located on Virginia Beach Boulevard in Virginia Beach, Virginia. Transaction metadata is printed beneath the header including the date and time of purchase, transaction number, register number, and cashier identification. The body of the receipt presents a structured POS layout with quantity, description, and amount columns followed by a financial summary section that includes Sub-Total, Tax, and Total fields. The payment block documents the tender method with cash received and change returned. The footer section contains a customer feedback promotion inviting participation in a survey for a chance to win a gift card, along with service code and store number identifiers and instructions regarding survey eligibility and response timeframe.",
+  "slug": "HomeGoods-Receipt",
+  "createdAt": "$D2026-03-11T13:20:07.840Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Welcome to HomeGoods\nPhone: 1-800-888-5288\n4400 Virginia Beach Blvd\nVirginia Beach, VA 23452",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "234f9915-dc34-431b-988d-25ed3d1e9ed0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "5/19/2018   3:11 PM   Trans: 199205\nRegister 113        Cashier: Natalia",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4215983-4581-4e7d-9a0f-fc16b00d38c6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "--------------------------------\nTotal:        89.63\n--------------------------------\n\nQty  Description        Amount\n\nAL  CUSTON DR. MEX      $8.09\nMASTER CARD             $1.00\nPOST MEL 4402           $9.09\n--------------------------------\nSub-Total               50.54\nTax                      9.63\n--------------------------------\nTotal                   89.63\n\nCash                   100.00\nChange                  10.37\n\n--------------------------------\n\nYOUR OPINION MATTERS!\n\nTell us about your experience at\nHomeGoods by visiting:\n\nTake our survey & chance to win\na $250 Visa Gift Card\nSpoonable on E-Rewards\n\nService Code: 319825\nStore Number: 05278\n\nPlease respond within 5 days\nNo purchase necessary\nSee rules on website",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FXO2gv79nRYDPcz6wmPa6%2FXO2gv79nRYDPcz6wmPa6-d05928d2-57ae-490a-8014-ba28d4995338.png?alt=media&token=60c945bc-a6ee-40d8-9728-0fad66d65fc2",
+  "published": true,
+  "id": "XO2gv79nRYDPcz6wmPa6"
+}

@@ -1,0 +1,129 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T08:58:20.594Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "6441c4e4-ec2c-49ba-9da6-b6d4076ac6c3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": " Yankee Pier SFO\nFresh from Coast to Coast\n\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "16bc6c65-9054-4c8d-aa0e-458f0b1e8e61",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Emilio",
+          "total": "09/06/2018"
+        },
+        {
+          "quantity": "",
+          "description": "Table 37/1",
+          "total": "9:04 AM"
+        },
+        {
+          "quantity": "",
+          "description": "Guests: 1",
+          "total": "40023"
+        },
+        {
+          "quantity": "",
+          "description": "Reprint #: 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Area: Dining Room",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCappuccino ",
+          "total": "\n\n4.25"
+        },
+        {
+          "quantity": "",
+          "description": "Meat Scramble",
+          "total": "15.25"
+        },
+        {
+          "quantity": "",
+          "description": "seat #1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Yogurt",
+          "total": "4.25"
+        },
+        {
+          "quantity": "",
+          "description": "seat #1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n23.75"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "2.12"
+        },
+        {
+          "quantity": "",
+          "description": "EE Benefit Surcharge",
+          "total": "0.49"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n26.36"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nBalance Due",
+          "total": "\n\n26.36"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3861488d-c368-4962-bcf2-84ebb241a63d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nHave a Great Flight\nHOW DID WE DO?\nGo to www.tastesonthefly.com\nfor a free appetizer or dessert",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Yankee Pier Receipt",
+  "description": "This receipt is issued by Yankee Pier SFO and identifies the restaurant with the tagline \"Fresh from Coast to Coast.\" The receipt contains POS transaction metadata including server identification (Emilio), table number, guest count, reprint number, dining area, transaction date and time, and receipt reference number. The itemized order includes seat-specific meal assignments, followed by a financial summary recording the subtotal, sales tax, an Employee Benefit (EE Benefit) Surcharge, the final transaction total, and the outstanding balance due. The footer contains a customer feedback invitation directing guests to Taste on the Fly for a survey offering a complimentary appetizer or dessert, together with a farewell message for airport travelers. The overall layout is representative of a United States airport restaurant POS receipt, combining table-service management, surcharge reporting, tax calculation, customer-survey promotion, and transaction reconciliation within a hospitality receipt format.",
+  "slug": "Yankee-Pier-Receipt",
+  "published": true,
+  "id": "3bOlqSLDU88Oc3sfCPoL"
+}

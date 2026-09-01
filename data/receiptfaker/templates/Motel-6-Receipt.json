@@ -1,0 +1,162 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T09:10:46.589Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Motel 6 Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fb6b8705d-3f4e-4483-812b-10300abd4c5c-1011544%20(1).png?alt=media&token=4ef237f1-2230-4d33-bfe8-296aa654cff8",
+      "size": 113,
+      "businessDetails": "MOTEL 6 - COALINGA EAST\n25008 W Dorris Ave\nCoalinga, CA, 93210\n(559) 935 1536\nm613432@motel6.com\nwww.motel6.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "dcd4d168-f924-443f-a66c-36029b90eed7",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Confirmation # 1356AAV330\nRoom # 269",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Jasmine Carter\njasmine.carter84@emailpro.net",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "735a29c6-320e-4988-a33d-31464b8e1ab0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Check in: 5/24/2025\nCheck-out: 5/26/2025\nGuests: 2 adults\nNumber of Nights: 2\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "May 24th",
+          "total": "160"
+        },
+        {
+          "quantity": "",
+          "description": "May 25th",
+          "total": "160"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "320"
+        },
+        {
+          "title": "Tax",
+          "value": "30.40"
+        }
+      ],
+      "total": "350.40",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for staying with Motel 6.",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d8d22f1-7bc8-47ab-a598-8fcc14357f5e",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 2:03:33 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "slug": "Motel-6-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FZkz7GaXEdc9166DYWanS%2FZkz7GaXEdc9166DYWanS-94adfccf-5d90-4031-afb7-f57775771257.png?alt=media&token=785b5337-47f5-4ef3-a3db-b9abeb7c5f78",
+  "description": "Need a Motel 6 receipt? Create a custom lodging receipt using our free tool. Enter guest info, stay dates, room rates, taxes, and payment method—perfect for travel records, reimbursements, or expense tracking.",
+  "published": true,
+  "metatitle": "Custom Motel Receipt",
+  "metadesc": "customizable lodging receipts with guest details, nightly rates, tax calculations, and payment methods for travel records",
+  "id": "Zkz7GaXEdc9166DYWanS"
+}

@@ -1,0 +1,66 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Advance Auto Parts Receipt",
+  "description": "This automotive parts retail receipt from Advance Auto Parts displays the company logo and slogan at the header followed by the store number, full street address in Delray Beach, Florida, and a phone number. The receipt includes register and transaction identifiers, cashier name, and a timestamp using numeric date and 24-hour style time with AM/PM notation. A structured item table with quantity, price, and total columns appears beneath a dashed separator. The financial summary section lists subtotal, tax rate, and final total. Below the payment section are card processing details including card method, authorization number, reference number, terminal and issuer codes, AID number, and a customer code above a barcode. The footer contains a promotional survey invitation and contest notice typical of automotive retail POS systems.",
+  "slug": "Advance-Auto-Parts-Receipt",
+  "createdAt": "$D2026-02-19T11:46:28.572Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "5c0d77cc-852e-4deb-a80f-4b429ac6a138",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdd64152e-8812-4601-b76f-39ff32cd6d2a-advance.jpg?alt=media&token=0cd65f43-ac1e-4250-9c25-b57a6f2efe42",
+      "size": 174,
+      "businessDetails": "Store # 09195\n1350, North Federal Highway\nDELRAY BEACH FL 33483 (561) 272-4247\n03/31/22 10:59 REG 05 TRN 3252R Ksch ",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "11789885-eac6-4582-b116-e0c5a7e006c4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ITEM            QTY   PRICE   TOTAL\n----------------------------------\nOIL 5W30-SYNTHETIC 1 1  $9.99 $19.98\n8140022\n24812               \n\nSub Total                 $19.98\n1 Tax @ 7.0000%            $1.40\nTotal                     $21.38\n\n\n$21.38 PURCHASE 11:00 AM\nVisa ************9749 CHIP READ\nAUTH 006864 APPROVED REF 919505325201\nEMV CHRDL MERCH 315221\n\nTERM 000000015\nIssuer TC 37987AF6B8D6591\n\nAID A0000000031010\n\nCUSTOMER :\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "78d21502-848f-4f2c-8d85-556b53ca7af8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Z2P421F2VC1NPR",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "562a7d64-7f30-4114-b4d2-f3af5cc924ff",
+      "type": "BARCODE",
+      "size": 66,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a634bdf-77c7-43d1-a19a-aa81133f160b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ENTER TO WIN FREE GAS FOR A YEAR!\nComplete a brief survey about your visit:\nadvanceautoparts.com/survey\nEnter code: 919505 03252 2090\nCONTEST ENDS APRIL 23, 2022",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FWMmdfsSMlA9InDPGgica%2FWMmdfsSMlA9InDPGgica-25107b3a-72f8-481b-8dbe-edd47a7463ad.png?alt=media&token=29bf23ba-2ce3-451b-a460-67ab77b64703",
+  "published": true,
+  "id": "WMmdfsSMlA9InDPGgica"
+}

@@ -1,0 +1,155 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T11:32:01.850Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "7603632c-545b-4210-b0d7-623d615c4388",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Laos in Town\n250 K St. NE\nWashington, DC 20002\n(202) 864-6620\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6bddd6e7-5a4e-4266-ae7a-6120863d5bb7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nDining ",
+          "total": "\nChk# 80"
+        },
+        {
+          "quantity": "",
+          "description": "Table# X3",
+          "total": "Guest: 2"
+        },
+        {
+          "quantity": "",
+          "description": "Server: Fred",
+          "total": "1/20/2024 7:41 PM"
+        },
+        {
+          "quantity": "",
+          "description": "\n1  Mist of Mekong",
+          "total": "\n16.00"
+        },
+        {
+          "quantity": "",
+          "description": "2  Kai Pan Roll",
+          "total": "80.00"
+        },
+        {
+          "quantity": "",
+          "description": "Prik Kluea ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  This Side of Noma",
+          "total": "15.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  GLASS Sato, Village Ghost ",
+          "total": "18.00"
+        },
+        {
+          "quantity": "",
+          "description": "2  Sun Flower ",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cdb15bb9-d621-4577-b7a2-73a78820144e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n[9 items] Sub Total",
+          "total": "\n129.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Sales Tax ",
+          "total": "15.74"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nTotal Amount",
+          "value": "\n144.74"
+        },
+        {
+          "title": "20% Service Charge",
+          "value": "28.38"
+        },
+        {
+          "title": "",
+          "value": "========"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f1bf2f67-e944-4362-934b-f119a7b6f8c0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total Due ",
+          "total": "$$173.12"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "46cb9dc2-8de8-409e-9b4f-c4f0e4b3bb0a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nFree Delivery Within 2 Miles",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Laos in Town restaurant receipt issued from the 250 K St. NE location in Washington, DC 20002. The header presents the restaurant name, complete street address, and customer telephone number. Dining and POS information includes the check number, table identifier, guest count, server name, and exact transaction date and time. The main transaction section follows a traditional restaurant thermal receipt format with itemized entries and amounts arranged in columns. The financial summary records the nine-item subtotal, sales tax, total amount, a separately calculated 20% service charge, and the final total due. Divider lines distinguish the dining information, transaction details, and payment summary, while the footer contains a free-delivery notice for customers within two miles.",
+  "name": "Laos in Town Receipt",
+  "slug": "Laos-in-Town-Receipt",
+  "published": true,
+  "id": "gPIJJzmXPFm0TrJh9eCt"
+}

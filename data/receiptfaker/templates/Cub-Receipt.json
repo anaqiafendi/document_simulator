@@ -1,0 +1,158 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T07:36:17.784Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "a6706859-7f7d-4c55-bc2b-e2cf9e38f415",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F27880daf-0461-4cab-9517-d85e2cf6cfee-image%20(9).jpg?alt=media&token=248b6b5a-a15d-4424-a8a3-dc25ffe5e87e",
+      "size": 176,
+      "businessDetails": "Chanhassen\n7900 Market Boulevard\nChanhassen, MN 55317\n952-934-1010\nStore Director: John Lee\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0db0c869-9589-405e-a926-aca29d0a9623",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCashier: Lane 47",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "9/06/25",
+          "total": "10:08 PM"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b031f6c1-0594-40de-bcba-07fe659995d7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nGROCERY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "GATORADE DRINK",
+          "total": "052000043693 $12.99 TF"
+        },
+        {
+          "quantity": "",
+          "description": "18PK",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "COCA COLA DIET",
+          "total": "049000005943 $7.00 TF"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSUBTOTAL",
+          "value": "\n$19.99"
+        },
+        {
+          "title": "MN STATE TAX",
+          "value": "$$1.37"
+        },
+        {
+          "title": "CHANHASSEN CITY TAX",
+          "value": "$$0.10"
+        },
+        {
+          "title": "CARVER CNTY TAX",
+          "value": "$$0.10"
+        },
+        {
+          "title": "METRO H/T CNTY TAX",
+          "value": "$$0.20"
+        },
+        {
+          "title": "TOTAL",
+          "value": "$$21.76"
+        },
+        {
+          "title": "CREDIT ",
+          "value": "$$21.76"
+        },
+        {
+          "title": "TOTAL TENDERED ",
+          "value": "$$21.76"
+        },
+        {
+          "title": "-------------------------",
+          "value": ""
+        },
+        {
+          "title": "Change",
+          "value": "$$0.00"
+        },
+        {
+          "title": "NUMBER OF ITEMS",
+          "value": "2"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1717e401-e638-4d9e-9c5d-51b605a3e056",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTrx: 138669",
+          "total": "\nTerm: 47 Store: 1644"
+        },
+        {
+          "quantity": "",
+          "description": "9/6/25",
+          "total": "10:09 PM"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Cub and identifies the store as 7900 Market Boulevard, Chanhassen, Minnesota 55317. The header contains the Cub branding, store address, contact telephone number, store director's name, cashier lane, and transaction date and time. The receipt records the purchase of a Gatorade Drink 18-Pack and Diet Coca-Cola. The financial section records the subtotal, Minnesota state tax, Chanhassen city tax, Carver County tax, Metro H/T County tax, and the final transaction total. The payment section confirms settlement by credit card, records the total amount tendered, and indicates that no change was due. The footer includes the total number of items purchased together with the transaction, terminal, and store reference numbers. The overall layout is representative of a United States supermarket POS receipt, combining grocery itemization, jurisdiction-specific sales tax reporting, electronic payment processing, and transaction reconciliation within a compact retail receipt format.",
+  "name": "Cub Receipt",
+  "slug": "Cub-Receipt",
+  "published": true,
+  "id": "KP9mJT0atOvll4Q4VjCg"
+}

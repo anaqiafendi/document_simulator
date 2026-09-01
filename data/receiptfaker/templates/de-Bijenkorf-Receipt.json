@@ -1,0 +1,146 @@
+{
+  "currency": "",
+  "slug": "de-Bijenkorf-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T19:14:59.495Z",
+  "description": "This department store receipt from de Bijenkorf documents a cash transaction processed at the Amsterdam, Netherlands location. The receipt includes store branding, telephone number formatting, website references, register identifiers, receipt numbering metadata, store location references, and timestamp information. The POS structure contains item reference formatting, quantity and pricing presentation, total amount calculations, cash payment confirmation (“Euro Contant”), VAT accounting at 21%, and total paid presentation aligned in standard Dutch department store thermal receipt formatting. Additional receipt elements include barcode formatting, return and exchange policy notices, customer service instructions, membership club references, and website information near the footer. The layout reflects a standard Netherlands department store thermal receipt with localized VAT accounting and retail return policy presentation.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "de Bijenkorf Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f83a15e9-6409-40e8-8dd2-ecc6b7166f59",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F986b2914-d384-4845-8e0d-7920feef957e-image%20(4).jpg?alt=media&token=eab56933-19c4-4220-a02b-c7c19ed98d5b",
+      "size": 253,
+      "businessDetails": "telephone: 020-8009500\nRaadpleeg voor onze openingstijden: www.debijenkorf.nl\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7bccfd3f-bdf6-432c-80e0-8ce71a07977a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "OMSCHRIJVING\tAANT PRIJS \t",
+          "total": "BTW"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "edc9b79b-df02-4e3f-920a-debdfb3a9478",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "BALENCIAGA ",
+          "description": "1\t285,00\t285,00\t",
+          "total": "H"
+        },
+        {
+          "quantity": "",
+          "description": "7472 000086   00066",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Detail: 8007639007",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\n__________"
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n285,00"
+        },
+        {
+          "quantity": "",
+          "description": "\nAantal artikelen",
+          "total": "\n1"
+        },
+        {
+          "quantity": "",
+          "description": "Euro Contant",
+          "total": "295,00"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAAL BETAALD",
+          "total": "285,00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nBTW 21,00% 49,40",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Vloket: 1\tKassa: 65",
+          "total": "Bon: 56"
+        },
+        {
+          "quantity": "",
+          "description": "8018506   Datum: 5-3-2022   17:18:16",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7f7146d-40e4-4f91-b8b4-62eacdbebb2b",
+      "type": "BARCODE",
+      "size": 74,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3fd1b591-1239-4ae3-9bb2-1e87a9c2de56",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "3 9 1 0 2 2 0 3 9 5 7 1 1 8 6 0 0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "43e1bf18-798d-45c4-bca6-7f4fbcac335a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nU kunt uw aankoop niet ruilen tot en met 18-4-2022. Ruilen of terugbrengen kan 14 dagen na afloop van aankopen. In afsluiting van het voorgaande: retour voor het merk Valentino de volgende afwijkende retourvoorwaarden. Retourneer artikelen van 14 dagen bij de Valentino shops in de Bijenkorf Amsterdam en de Bijenkorf Rotterdam.\n\n\n\nWord lid van de Bijenkorf:\ndebijenkorf.nl/membershlio",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "eFJ8nduTeXmvTgWlJCCZ"
+}

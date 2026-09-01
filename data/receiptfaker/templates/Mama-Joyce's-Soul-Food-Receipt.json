@@ -1,0 +1,180 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Mama Joyce’s Soul Food Receipt",
+  "description": "This receipt is a takeout restaurant transaction issued by Mama Joyce’s Soul Food at its Cleveland Heights, Ohio location, including full address and contact number. It contains order identification, cashier information, and a timestamped transaction record. The receipt presents an itemized list of menu items with add-on selections, followed by a structured financial summary including total amount. Payment details indicate a cash transaction with tendered amount and change returned. Additional system information includes Clover POS identifiers and transaction references, reflecting a standard U.S. quick-service restaurant POS receipt format with takeout service and item customization.",
+  "slug": "Mama-Joyce's-Soul-Food-Receipt",
+  "createdAt": "$D2026-04-17T11:26:35.156Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "e54d2468-0e4c-4c37-833e-4cca0d2f670a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9b92175b-985d-493f-b0ee-73a9dce1c8af-image%20(3).jpg?alt=media&token=ecc73029-073b-431f-a5f6-02673acf25ad",
+      "size": 228,
+      "businessDetails": "2238 LEE RD\nCLEVELAND HTS, OH 44118\n2163312882",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b0fa5952-8e8a-4211-9b14-5748605f9684",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nORDER: 241\nTake-Out\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d270f3b-842a-4424-a1da-982e2600f082",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCashier: Khiya S.\n15-Oct-2025  1:52:15P\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "89121267-ca33-43ae-9a9d-bfc28406d35c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Chicken Wing Snack Pack",
+          "total": "$$8.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSweet Red BBQ Sauce",
+          "value": " \n$1.00"
+        },
+        {
+          "title": "Sweet Red BBQ Sauce",
+          "value": " $1.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bf087f43-346e-49ac-89c3-47597e587792",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Collard Greens ",
+          "total": "$$6.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Each @ $6.00/Each",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "151e2287-60c1-49a8-8f6f-ac98157f1fb4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$16.50"
+        },
+        {
+          "quantity": "",
+          "description": "CASH SALE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cash tendered ",
+          "total": "$$20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$3.00"
+        },
+        {
+          "quantity": "",
+          "description": "Station: POS System",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "All Sales Are Final",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02aef363-15de-4cfa-9f39-83467f278b4a",
+      "type": "BARCODE",
+      "size": 64,
+      "length": 471,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ec44f2b6-8dc0-4905-8fcf-bb5494270bd2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "H G G 0 V S 4 A C A T J 0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92dd0712-54d5-4293-92e0-36860f5e27ff",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nClover ID: 8H8WFVPE0MNSR\nPayment: HGG0VS4ACATJ0\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8ac53c74-a730-4ba6-9fd2-74e56bfe0009",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nClover ID: 8H8WFVPE0MNSR\nPayment: HGG0VS4ACATJ0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fro7msBDhvYxEv8IPhMer%2Fro7msBDhvYxEv8IPhMer-956ee303-0e51-4605-90ad-e473ba318116.png?alt=media&token=382c7d5b-d921-455a-a329-6e146915a6f2",
+  "published": true,
+  "id": "ro7msBDhvYxEv8IPhMer"
+}

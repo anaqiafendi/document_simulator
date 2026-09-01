@@ -1,0 +1,195 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Generic POS Receipt",
+  "slug": "Generic-POS-Receipt",
+  "createdAt": "$D2025-09-30T11:06:14.774Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2Fd618b2e1-f1b9-4749-9833-f0b2b8a69b9b-5549023_buy_card_cash_payment_pos_icon.png?alt=media&token=32ff27d6-9b70-4e33-9b87-4960455848e4",
+      "size": 92,
+      "businessDetails": "Crimson Fork\n487 Elmwood Avenue\nChicago, IL 60614\n(312) 555-8932",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c15a7fd3-861f-4bd5-a857-0ec063188a5a",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "9/30/2025, 2:01:44 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "POS Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "698277dd-d4fc-42a1-9513-f1d5a7d211bb",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Table",
+          "value": "415"
+        },
+        {
+          "title": "Server",
+          "value": "Rebecca"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Guests",
+          "value": "2"
+        },
+        {
+          "title": "Order",
+          "value": "0587"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef802271-27ff-4ce9-9d51-02ffa615f9ab",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "QTY",
+          "value": ""
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "AMT",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Pan-Seared Duck Breast",
+          "total": "28.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Roasted Vegetable Flatbread",
+          "total": "29.00"
+        },
+        {
+          "quantity": "3",
+          "description": "Chocolate Lava Cake",
+          "total": "24.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "81.00"
+        },
+        {
+          "title": "Tax",
+          "value": "7.09"
+        }
+      ],
+      "total": "88.09",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "88.23"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ebd13417-f35a-4366-bf50-e393750a086d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a2814c8b-152a-4abc-8e64-5e0a204e69d7",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FWSKJNDpq8Uh09DXF80D9%2FWSKJNDpq8Uh09DXF80D9-acff80be-127e-4baf-ace5-1755178b96e4.png?alt=media&token=98ab7df1-bcdd-4d72-b0dd-9d73340957f9",
+  "description": "Need a POS receipt? Use our free tool to generate a professional point-of-sale record. Add store details, items sold, prices, tax, and payment—ideal for business transactions, records, or expense tracking.",
+  "published": true,
+  "metatitle": "POS Receipt Template",
+  "metadesc": "professional point-of-sale receipts with custom store details, itemized purchases, taxes, and payment info for any business",
+  "id": "WSKJNDpq8Uh09DXF80D9"
+}

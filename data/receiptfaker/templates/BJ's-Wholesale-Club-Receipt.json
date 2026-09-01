@@ -1,0 +1,100 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "description": "Retail receipt from BJ’s Wholesale Club, a membership-based warehouse retailer. The receipt includes the store’s location and contact information, order type (Eat In), an itemized list of purchased goods (personal care items, snacks, and groceries), subtotal, sales tax, and total amount paid. It ends with a thank-you message and return visit prompt, making it suitable for purchase records, reimbursements, or expense tracking.",
+  "createdAt": "$D2026-02-05T18:16:32.697Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3c02ac3c-f569-40b2-982b-9da2a508e0fa",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FCfQpQtoHcrS07oDmgt2zoyuuWGi2%2F3a16f4d8-f298-4ccc-8777-d03d2428ff5d-download-2.png?alt=media&token=82aa122e-fa3d-4219-9773-3f57433b7fe0",
+      "size": 216,
+      "businessDetails": "777 Executive Center Dr, West Palm Beach, FL 33401\n(561) 232-2984",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db092125-9dae-4ff9-ac95-e707ed3c3151",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "  \n   Order 27  Eat In",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "3ea71f7e-95ec-4a5f-b1a7-8bd5198d3aa1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Gillette Clear Gel Deodorant Supreme Protection 5 pk",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookies",
+          "total": "3.89"
+        },
+        {
+          "quantity": 1,
+          "description": "Breyers CarbSmart bars 18 ct.",
+          "total": "12.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Gallon of milk",
+          "total": "3.49"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "4866dd55-cd54-4729-b633-63cdf32a38ea",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "6516dedf-f7f9-4011-acff-ab2c079f3f46",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "IT WAS OUR PLEASURE SERVING YOU\n<*>   PLEASE COME AGAIN   <*>",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "One Twenty Three Burger House Receipt",
+  "published": true,
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff0K8en1tT6H0Wm6UgEvQ%2Ff0K8en1tT6H0Wm6UgEvQ-4bc72666-60fb-4711-9409-84f93a01cbe0.png?alt=media&token=b70c8e56-a971-4c68-9244-2c2981509adc",
+  "name": "BJ’s Wholesale Club Receipt ",
+  "slug": "BJ's-Wholesale-Club-Receipt",
+  "id": "f0K8en1tT6H0Wm6UgEvQ"
+}

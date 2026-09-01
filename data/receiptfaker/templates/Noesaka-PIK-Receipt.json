@@ -1,0 +1,230 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-20T03:25:33.957Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "af59444d-e288-4118-8f55-d6fbd404b85e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "NOESAKA PIK\n Land's End PIK 2\nUnit LEP 2 No. 16\n+62822 1000 8050\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "deb2dc93-f141-435e-8e52-b5ab3aeb8bba",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TBL:302",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b382ce76-345d-4bc7-8697-336345605ed4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Pax:5          OP:MUSA",
+          "total": "SILVI"
+        },
+        {
+          "quantity": "",
+          "description": "POS Title:Cashier2 ",
+          "total": " POS:POS002"
+        },
+        {
+          "quantity": "",
+          "description": "Rcpt#:GB2500016490",
+          "total": "09/08/2025 17:41"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4312dc94-cdb4-44a2-b668-7a314beaf8e3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1  Apple NS ",
+          "total": "55,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Aqua Still NS",
+          "total": "35,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Ayam Opor Kuning",
+          "total": "98,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Bakwan Jagung ",
+          "total": "48,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Es Laksamana",
+          "total": "65,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Genjer Belacan",
+          "total": "58,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Gulai Kepala Ikan",
+          "total": "198,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Kerang MD BKR ",
+          "total": "98,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  NS Liwet KBN Ry",
+          "total": "68,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Rndng Minangkabau",
+          "total": "98,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Sate Ayam",
+          "total": "58,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Sate Ayam Kuning ",
+          "total": "58,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Strawberry Soda",
+          "total": "65,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Syr Asam Kmpg Joglo",
+          "total": "48,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Telur Pindang Balado",
+          "total": "48,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Telur Pindang Balado ",
+          "total": "48,000"
+        },
+        {
+          "quantity": "",
+          "description": "4  Fresh Iced Tea ",
+          "total": "140,000"
+        },
+        {
+          "quantity": "",
+          "description": "4  NS Putih Wangi  ",
+          "total": "60,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0abc91e0-368c-47e0-a460-643d80444b63",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL ",
+          "total": "1,288,000"
+        },
+        {
+          "quantity": "",
+          "description": "SC 7.5% ",
+          "total": "96,600"
+        },
+        {
+          "quantity": "",
+          "description": "PB1",
+          "total": "138,460"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6c237b1-43ca-4f42-8808-0b1e6151531e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL ",
+          "total": "1,523,100"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "977d1918-12e8-4200-a763-8b7a8e16a742",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you\nSee you again!\n*********\n\n\nPreSettlement Bill\n09/08/2025 19:37",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Noesaka PIK, located at Land's End PIK 2, Unit L9-2 No. 15, Indonesia. The receipt header includes the restaurant name, branch location, telephone number, guest count (Pax), dining section/table identifier, cashier name (SILVI), POS terminal identifier, receipt number, and transaction date and time. The lower section contains a financial summary showing Subtotal, SC 7.5% (Service Charge), PB1 (restaurant tax), and the Total amount due. The footer includes a customer appreciation message (\"Thank you, See you again!\"), followed by a PreSettlement Bill designation and a final timestamp. This is a standard Indonesian restaurant POS receipt formatted as a pre-settlement bill prior to final payment.",
+  "name": "Noesaka PIK Receipt",
+  "slug": "Noesaka-PIK-Receipt",
+  "published": true,
+  "id": "Jptiupl1aJdMI2GbFE5C"
+}

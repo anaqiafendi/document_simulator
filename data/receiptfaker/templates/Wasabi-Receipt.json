@@ -1,0 +1,248 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T14:33:15.197Z",
+  "description": "$3e",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Wasabi Receipt",
+  "slug": "Wasabi-Receipt",
+  "sections": [
+    {
+      "id": "ada7da39-d8ee-43b1-9cf0-9691eefcda9b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcc8df478-4c5a-450f-b667-96d18ab610fd-image.jpg?alt=media&token=b66a0f65-5390-4b32-aa1e-ccd1748bf97e",
+      "size": 253,
+      "businessDetails": "sushi & bento\nwasabi.uk.com\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "adf6a8bd-708f-4f06-984a-8fdfdc30cba0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Slip",
+          "total": "000001010"
+        },
+        {
+          "quantity": "",
+          "description": "Staff",
+          "total": "Trans: 10133"
+        },
+        {
+          "quantity": "",
+          "description": "Till",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Date: 25/0",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4ff6af86-2990-4190-8854-4bbad004e133",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Description",
+          "total": "Amount"
+        },
+        {
+          "quantity": "",
+          "description": "Coke each",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Still Water each",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Rainbow Set each",
+          "total": "6...."
+        },
+        {
+          "quantity": "",
+          "description": "Chicken Curry Yakiso eac",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e231256-fb41-429c-948b-e9d31eb33052",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total £",
+          "total": "18.86"
+        },
+        {
+          "quantity": "",
+          "description": "Card",
+          "total": "-18.86"
+        },
+        {
+          "quantity": "",
+          "description": "Other Cards",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "0475",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "44bff426-0d4d-46fb-bc60-8e16dd11f06a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Number of Items:  ",
+          "total": "4"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f151d9c7-e4f5-40ce-9e64-1dee77604978",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VATS\t Net  Amt    VAT",
+          "total": "Amount"
+        },
+        {
+          "quantity": 1,
+          "description": "20\t 15.72\t   3.14",
+          "total": "18.86"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "83ca58ad-ca17-46ab-adf2-94b0b5df5329",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n*** CARDHOLDER COPY ***\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "331d1ad0-bd3b-46b4-85da-622d919e77c0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "P: #95071169",
+          "total": "T: ***6363"
+        },
+        {
+          "quantity": "",
+          "description": "M: ***13051",
+          "total": "25/04/2017 13:01:09"
+        },
+        {
+          "quantity": "",
+          "description": "MASTERCARD ************0475",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ICC CP SALE",
+          "total": "account"
+        },
+        {
+          "quantity": "",
+          "description": "AMOUNT",
+          "total": "GBP18.86"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "GBP18.86"
+        },
+        {
+          "quantity": "",
+          "description": "SIGNATURE VERIFIED",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee5562ec-6996-497a-b96b-904eabcae7fd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nPlease Keep This Receipt\nFor your Records\nAuth Code: 568723\nAuth Code: 00004679020000010106\nAID: A0000000041010   App Seq: 01...",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "H77KXzxzSTE0tPk1Rss2"
+}

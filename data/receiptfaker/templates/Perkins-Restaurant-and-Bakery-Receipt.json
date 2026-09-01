@@ -1,0 +1,143 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Perkins Restaurant & Bakery Receipt",
+  "description": "This receipt is a casual dining restaurant transaction issued by Perkins Restaurant & Bakery at its Burley, Idaho location, including store number, full address, and contact information. It contains server identification, table and check numbers, guest count, and timestamped transaction records. The receipt presents an itemized list of menu items grouped by seat, including complimentary items, followed by a structured financial summary with subtotal, tax, and total amount due. It also includes promotional messaging encouraging bakery purchases and branding elements. The format reflects a standard U.S. full-service restaurant POS receipt with seat-based ordering and dine-in service structure.",
+  "slug": "Perkins-Restaurant-and-Bakery-Receipt",
+  "createdAt": "$D2026-04-17T12:59:08.869Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "96152f14-4b90-4285-9786-7ebc2e1c17f2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffdc3cb47-4d83-4bb2-881d-d62fe9151ff8-image%20(6).jpg?alt=media&token=0adf5983-114d-49c3-8630-134babfb35be",
+      "size": 233,
+      "businessDetails": "\nPERKINS RESTAURANT & BAKERY\nStore #3892 800 N Overland Avenue Burley, ID 83318 (208) 678-1304",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "41edf492-a491-4cec-91db-4dc178fa4ab8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n831 ROBBIE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42704a30-fa91-4a94-943d-2bc687356515",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTbl 2/1 Chk 3775 Gst 2 Aug19'22  C7:23PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "19d257dc-7001-4e55-aba1-3ee2a261145c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n *** SEAT # 1 ***\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ce05e9fe-5087-4308-84e3-e51843e5b120",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "3",
+          "description": "TURK/DRESS (SR) @ 10.59",
+          "total": "31.77"
+        },
+        {
+          "quantity": 1,
+          "description": "CTRY FRY STK(SR) ",
+          "total": "9.59"
+        },
+        {
+          "quantity": "4",
+          "description": "*WATER",
+          "total": "0.00"
+        },
+        {
+          "quantity": "3",
+          "description": "*VIENNA BRD REQ",
+          "total": "0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "TAX 2.48  AMT DUE ",
+          "total": "43.84"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ab61385-830b-48f6-bc3a-363e5471943a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n ***** All *****\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f377ca3b-ca16-4c7f-88d7-2eb423474710",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "41.36"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "2.48"
+        },
+        {
+          "quantity": "",
+          "description": "08:06PM  AMT DUE   ",
+          "total": "43.84"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "948e5720-aff1-4392-bbf5-4f811c4af198",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n**************************************\n\n TAKE HOME SOME\n FRESH BAKERY\nTODAY!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FJx9gJdXlu48OG06rpRsG%2FJx9gJdXlu48OG06rpRsG-2eb747f4-860c-40dc-a738-668e2db52755.png?alt=media&token=8c4373b0-bab7-44db-acd2-f5f169b8ad4f",
+  "published": true,
+  "id": "Jx9gJdXlu48OG06rpRsG"
+}

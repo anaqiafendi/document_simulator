@@ -1,0 +1,105 @@
+{
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PRODUCT SERIAL # 5YJZTOVQER3RJFCAY8NE\n\nPRODUCT SERIAL # 81DQXMUV40BBF8MFJP9O",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [],
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Google Play",
+          "total": 25
+        },
+        {
+          "quantity": 1,
+          "description": "Google Play",
+          "total": 50
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "total": 75,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "2/20/2025 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0d6b6b8a-7f09-4c25-80df-d7de505b3143",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "",
+  "createdAt": "$D2025-03-29T03:00:20.376Z",
+  "backgroundCrumpled": false,
+  "isParent": false,
+  "fontType": "MERCHANT_COPY",
+  "parentId": "1lVd5Q7hB05cXActIS6o",
+  "parentName": "Kroger Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FktAtXDTo4btaNxu7Vbqb%2FktAtXDTo4btaNxu7Vbqb-99f8fb21-3ecb-4569-ace1-e3da299c6e92.png?alt=media&token=e68581bd-3123-4aa3-90b1-62cad39fc0b8",
+  "name": "Receipt example with Google Play and 2 more items totalling $75.00",
+  "description": "This receipt was created with ReceiptFaker generator based on  template on **Mar 28, 2025**.",
+  "published": true,
+  "slug": "Receipt-example-with-Google-Play-and-2-more-items-totalling-dollar75.00",
+  "metatitle": "Google Play Receipt",
+  "metadesc": "realistic Google Play store receipts with multiple digital purchases and custom totals using our professional receipt maker",
+  "id": "ktAtXDTo4btaNxu7Vbqb"
+}

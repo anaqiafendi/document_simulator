@@ -1,0 +1,100 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Visionworks Receipt",
+  "description": "This receipt is issued by Visionworks Doctors of Optometry and identifies Store #523 at 5509 Urbana Pike, Frederick, Maryland 21704. The header contains the Visionworks name, store address, telephone number, website information, sales receipt reference, and transaction date and time. The receipt documents an optical purchase involving eyeglass frames, right and left prescription lenses, and a premium non-glare option, together with a MetLife Choice Standard third-party plan adjustment. The financial section records the merchandise and service amounts, a $172.16 plan-related discount, subtotal and total information, and payment of $333.97 by Visa. The lower section contains third-party billing information and an authorization statement covering insurance benefits, unpaid balances, and vision-care services.",
+  "slug": "Visionworks-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T14:58:33.673Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "7ecb9151-b465-4040-b1f1-5a6e33f3e79c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "VISIONWORKS #523\nDOCTORS OF OPTOMETRY\n5509 URBANA PIKE\nFREDERICK, MD 21704\n301-682-0660\nPlease visit us at www.visionworks.com\nor find us on Facebook\n\n\nSALES RECEIPT   5.9 NT\n00523-111933 01/15/2020 16:50:16\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7de09a27-e691-446f-b3a4-11c639c67017",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nLINDA PFLUG\n5835 PECKING STONE ST\nNEW MARKET,MD 21774\nH (985) 502-1227\nW ( )        EXT.\n\n\nDOCTOR: RUBY ARTHUR\n3RD PARTY PLAN: METLIFE CHOICE STAND\n\n\nPAIR #1   DUE: 01/29/2020\n1 1312564 WM 6105 (BK/G)  N  99.95\n1 1111110 RIGHT LENS   N   240.00\n1 1111110 LEFT LENS     N   240.00\n1 8001299 PREMIUM NON-GLARE  N .00\n1 9010 METLIFE CHOICE STAN N -172.16\n\n\nPAYMENT  333.97  THIS SALE  579.95\nVISA   333.97 061140\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "606b1494-7d7d-45cd-a167-f3ac9f0c2094",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "",
+          "value": "DISCOUNTS"
+        },
+        {
+          "title": "",
+          "value": "AMOUNT SAVED  172.16"
+        },
+        {
+          "title": "",
+          "value": "SUB TOTAL  407.79"
+        },
+        {
+          "title": "",
+          "value": "TOTAL     407.79"
+        },
+        {
+          "title": "\nOLD BAL     .00   PAYMENT",
+          "value": "\n333.97"
+        },
+        {
+          "title": "THIS BAL   407.79",
+          "value": "AMT TENDERED  .00"
+        },
+        {
+          "title": "NEW BAL   407.79",
+          "value": "CHANGE DUE   .00"
+        },
+        {
+          "title": "",
+          "value": "BALANCE DUE  407.79"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6d49b76-0e79-4868-8187-a7c3e65e3eeb",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\n3rd PARTY PLAN: METLIFE CHOICE STANDARD\nGRP #:    TO BE BILLED: $73.82",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ddf171a0-b120-4f27-8204-0067134c83f8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\n\nAUTHORIZATION OF PAYMENT AND PATIENT\nRELEASE  I authorize the direct pay-\nment of medical/vision benefits for\nall services rendered. I accept\nfinancial responsibility for any\nunpaid balances not covered by my\nVision Care Program for services\nrendered to me, my spouse, and/or my\ndependents. I authorize the release",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "gjx62860RPRfqh6tEgS9"
+}

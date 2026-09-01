@@ -1,0 +1,152 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Warehouse Stationery Receipt",
+  "description": "This receipt is issued by Warehouse Stationery and identifies the location as 120 Johnsonville Road, Johnsonville, Wellington, New Zealand. The header contains the Warehouse Stationery branding, store address, contact telephone number, GST registration number, staff information, and transaction date and time. The receipt records the purchase of a Biometric Passport Photo Digital + Print service for $25.00. The financial section records a final total of $25.00, including $3.26 GST. Payment was completed using a contactless Mastercard through EFTPOS, with the terminal number, masked card number, application identifier, authorization reference, purchase amount, approval status, and confirmation that no cardholder verification was required. The receipt is identified as the customer copy and follows a New Zealand retail POS format combining service details, GST reporting, and electronic payment information.",
+  "slug": "Warehouse-Stationery-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T14:05:55.770Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d61b2200-f8dd-4985-9aef-1bc38fba7bda",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3258d475-bda4-4892-8631-7232e3656722-image%20(9).jpg?alt=media&token=28e4ecec-35fc-4fa0-afb1-9f6a1a646dcf",
+      "size": 265,
+      "businessDetails": " ● work ● study ● create ● connect\n\n Warehouse Stationery\nJohnsonville, 120 Johnsonville Road\nJohnsonville, Wellington\n Phone: (04)212-0301\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3765fb3b-6d74-47d0-a4a2-0bf095643677",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "1113  39413",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d39c9470-581c-4954-82c3-5a052f6e8a2f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTax Invoice GST # 41-482-354\nDK: 96706  SP:Alex 11-Sep-22 11:38am\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d5830ec-798f-40ad-a935-6e7ff0d47c88",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "",
+          "value": "Total           $25.00"
+        },
+        {
+          "title": "",
+          "value": "Includes GST of        $3.26"
+        },
+        {
+          "title": "",
+          "value": "EFTPOS MASTERCARD     $25.00"
+        },
+        {
+          "title": "WSL Johnsonville",
+          "value": ""
+        },
+        {
+          "title": "120 Johnsonville Road",
+          "value": ""
+        },
+        {
+          "title": "Johnsonville",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6e472121-d69a-4d55-9790-40a53e94260e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n*------------EFTPOS------------*\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba67171e-e421-4ba4-a48c-405eec8ab32b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nTERMINAL",
+          "value": "\n0003"
+        },
+        {
+          "title": "11 Sep 22 11:37",
+          "value": ""
+        },
+        {
+          "title": "MASTERCARD ",
+          "value": "Contactless"
+        },
+        {
+          "title": "AID",
+          "value": "A0000000041010"
+        },
+        {
+          "title": "APP LABEL",
+          "value": "Mastercard"
+        },
+        {
+          "title": "CARD",
+          "value": "***********5553"
+        },
+        {
+          "title": "PAN Seq Number",
+          "value": "R96668"
+        },
+        {
+          "title": "REFERENCE",
+          "value": "269696"
+        },
+        {
+          "title": "PURCHASE",
+          "value": "NZD25.00"
+        },
+        {
+          "title": "TOTAL",
+          "value": "NZD25.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7095211c-e7a2-4289-94d4-eed72893e75a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nAPPROVED\n\nNO CARDHOLDER VERIFICATION\n\n*------------------------------*\n\nCUSTOMER COPY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "GLibsXPIlSqaDYEcx27Z"
+}

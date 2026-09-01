@@ -1,0 +1,187 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Foot Locker Receipt",
+  "description": "This receipt is a retail transaction issued by Foot Locker at its Fairview Pointe Claire location in Pointe-Claire, Quebec, Canada. It includes full store address, contact information, and tax registration details. The receipt presents an itemized purchase of footwear with original price, promotional discount, and adjusted sale price. A structured financial summary includes subtotal, applicable GST/TVQ taxes, and total amount. Payment details indicate a MasterCard transaction with authorization information. The format reflects a standard Canadian retail POS receipt with bilingual elements and regional tax structure.",
+  "slug": "Foot-Locker-Receipt",
+  "createdAt": "$D2026-04-18T15:00:44.881Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "9d791420-aa70-4a71-81f6-8d51b5f13e89",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdf2a7f96-4499-43d2-90fb-869b6011bd7c-image%20(6).jpg?alt=media&token=3101c8fa-6068-43d2-be6b-5281472ff8d4",
+      "size": 236,
+      "businessDetails": "FAIRVIEW POINTE CLAIRE 6815 TRANSCANADA HWY B00BB POINTE CLAIRE, QC H9R5J2 Canada 514-697-6894 TVQ Reg. No. 1017552194TQ0001\n\nVisitez nous au www.FootLocker.ca\n\nGST/HST Reg. No. R134482702",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a2884f2-4378-4cac-a20b-65da7fcc768d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nMagasin: 7699101 ",
+          "total": "\nCaisse: 1"
+        },
+        {
+          "quantity": "",
+          "description": "Date: 07/17/2023",
+          "total": "Heure: 11:56 AM"
+        },
+        {
+          "quantity": "",
+          "description": "Etiquette: 145753",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Caissier: Chloe L.",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7b09988-686f-4615-bbe5-4280401fa0ce",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Article Qté Prix Montant Taxe %",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "NB 990 D-GREY/CASTLEROCK",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "764206385004080",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n$260.00  $199.99  14.975%",
+          "value": ""
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "27c45053-c1a6-4727-a559-5bf6324f3ff0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Promotion",
+          "total": "($60.01)"
+        },
+        {
+          "quantity": "",
+          "description": "Conseiller: Chloe L.",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSous-total",
+          "value": "\n$199.99"
+        },
+        {
+          "title": "GST/TPS",
+          "value": "$$10.00"
+        },
+        {
+          "title": "GST/TVQ",
+          "value": "$$19.95"
+        },
+        {
+          "title": "Total",
+          "value": "$$229.94"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a04f8f8d-bbe9-4ed9-8de9-8b2dbb55b159",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": " \nMasterCard",
+          "total": "\n$229.94"
+        },
+        {
+          "quantity": "",
+          "description": "Type de transaction: Vente",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Heure de l'autorisation: 11:56 AM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Date",
+          "total": "17/07/2023"
+        },
+        {
+          "quantity": "",
+          "description": "Time",
+          "total": "11:56:57"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03a41d28-9b44-4a66-b9a3-d7f1f57cb5d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU FOR YOUR VISIT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fi2pDjTW1r3I0xNE5mAdx%2Fi2pDjTW1r3I0xNE5mAdx-a54410e9-df36-4ada-afae-66ab2f719914.png?alt=media&token=b6a364d6-e43f-47eb-868f-c2d90cba035c",
+  "published": true,
+  "id": "i2pDjTW1r3I0xNE5mAdx"
+}

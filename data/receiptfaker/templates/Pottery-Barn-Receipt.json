@@ -1,0 +1,92 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Pottery Barn Receipt",
+  "description": "Pottery Barn store receipt showing a retail sale transaction. The receipt lists multiple purchased items including “BBY Midsize Anniversary S,” “KitchenAid 5 Qt Grey Bowl,” “AERO,” and “Disney Resort Ear Headband.” Each item is priced at either $10.00 or $11.99.",
+  "slug": "Pottery-Barn-Receipt",
+  "createdAt": "$D2026-02-14T18:52:15.269Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "2a489ed6-2ff6-479a-a4ce-9fbcb67ee5c7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe54d534a-b904-4a19-8a71-feee63d47f2e-POTTERY%20BARN.jpg?alt=media&token=a5fc6ee1-86e9-4862-b263-d7f2358761dd",
+      "size": 137,
+      "businessDetails": "PA REGION\nLocation Number: 05\nRegister: 2\n\nSALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "67b56d32-56a0-4512-a688-03c50452f21a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "BBY Midsize Anniversary S",
+          "total": "11.99"
+        },
+        {
+          "quantity": "",
+          "description": "BBY Midsize Anniversary S",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "KitchenAid 5 Qt Grey Bowl",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "KitchenAid 5 Qt Grey Bowl",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "AERO",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Disney Resort Ear Headband",
+          "total": 10
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL  ",
+          "value": "61.99"
+        },
+        {
+          "title": "TAX ",
+          "value": "0.19"
+        }
+      ],
+      "total": "60.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9da60306-ce17-45c2-ac8b-c0d535100671",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FFnjq1JWpX8YVi5cdY89V%2FFnjq1JWpX8YVi5cdY89V-b79b5e2e-4207-41c7-9561-873a28cfe064.png?alt=media&token=090f92fa-c404-4df5-b262-315485d24414",
+  "published": true,
+  "id": "Fnjq1JWpX8YVi5cdY89V"
+}

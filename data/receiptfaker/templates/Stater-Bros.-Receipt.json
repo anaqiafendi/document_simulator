@@ -1,0 +1,161 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Stater Bros. Receipt",
+  "description": "Looking for a custom Stater Bros. Markets receipt template? Our Stater Bros. Receipt Generator lets you create and download realistic grocery receipts in just a few clicks. Whether you need a receipt for expense tracking, personal records, demonstrations, or bookkeeping practice, this tool offers a fast and professional solution. Customize store location, cashier name, items purchased, prices, discounts, taxes, totals, payment method, transaction date/time, and barcode to instantly generate a Stater Bros.–style receipt ready for printing or digital use.",
+  "slug": "Stater-Bros.-Receipt",
+  "createdAt": "$D2026-02-08T15:40:15.820Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "401ae0a2-ff0c-4669-8cf1-a07e175875ee",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb09f4755-e4ff-4273-9b10-2f9552c09968-staterbroslogo.jpg?alt=media&token=5d71d6c4-9b6d-4eb3-bd6d-bdbebe4707ec",
+      "size": 271,
+      "businessDetails": "San Diego\n(858) 484-1281\n***** MANAGER *****\nDiana Bridgman\nStore #167",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b9b7abb7-f525-4a3c-8c0d-c40e8be7d809",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Cashier: Tina M.\nDate: 02/03/16\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "352445bf-a048-44b6-ad01-6e6289023098",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MTN HIGH YOGURT \nYOU JUST SAVED              .70",
+          "total": "2.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "SB EGGS X-LG AA  \nYOU JUST SAVED              .40",
+          "total": "1.98 F"
+        },
+        {
+          "quantity": "",
+          "description": "SB BROCCOLI FLORE*  \nSB BROCCOLI FLORE*          .10",
+          "total": "1.5 F"
+        },
+        {
+          "quantity": "",
+          "description": "SB KETCHUP ",
+          "total": "1.79 F"
+        },
+        {
+          "quantity": "",
+          "description": "LAWRYS GRAVY MIX  $1.49 F\nYOU JUST SAVED              .10",
+          "total": "1.49 F"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "33.9"
+        },
+        {
+          "title": "Tax",
+          "value": ".22"
+        }
+      ],
+      "total": "39.94",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b407dfe2-6178-4c2b-902e-c821b5168e27",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Paid Cash ",
+          "value": "39.95"
+        },
+        {
+          "title": "Change",
+          "value": "0.01"
+        },
+        {
+          "title": "Number of Items",
+          "value": "5"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3065aff-70b2-40cb-8602-266c3e8c2d3d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Save even more with Digital Deals! \n********************************** 01/24/2024 Oper #: 1166255 Trx #: 685\n12:07   Term#: 8  Store: 208\n**********************************",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "81fd84cd-5b52-46f2-aeb3-010b68e2604f",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d75897bc-4556-4d8a-ada7-14b97ac9bc34",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "14752863858252478892",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FDivH2MRnEnv0thKFLgv8%2FDivH2MRnEnv0thKFLgv8-f78d1105-ef3d-449e-99af-8710bbcfce2d.png?alt=media&token=b2690807-1b58-4f19-bd0d-0e185a044538",
+  "published": true,
+  "id": "DivH2MRnEnv0thKFLgv8"
+}

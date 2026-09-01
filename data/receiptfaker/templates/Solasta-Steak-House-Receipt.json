@@ -1,0 +1,161 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-07T13:08:11.133Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Solasta Steak House Receipt",
+  "description": "This receipt is a dine-in restaurant transaction from Solasta Steak House in the United Kingdom. It records multiple food and beverage orders including steaks, seafood, fries, vegetables, beer, wine, soft drinks, and children’s cheeseburger meals. The receipt includes table number, service date and time, item modifications, and final total amount due. The format reflects a standard UK restaurant POS receipt used for table service dining.",
+  "sections": [
+    {
+      "id": "98879d2f-07b4-43d1-b1bf-a6af561701ff",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nSOLASTA STEAK HOUSE\n64-66 Derby Road\nL36 9UL\nTel: 0151 480 2020",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e54a5a90-3465-40e1-bf49-0879b0171c25",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ADMIN\nTable No: T-1\nDate: 29/06/2022   Time: 19:46 No: 4",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "78b57939-94c9-4ec1-9c8c-fff891b6f5f1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 Garlic Prawn",
+          "total": "\n8.00"
+        },
+        {
+          "quantity": 1,
+          "description": " Fillet Steak ",
+          "total": "28.00"
+        },
+        {
+          "quantity": "",
+          "description": "* Medium",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Sirloin Steak",
+          "total": "20.00"
+        },
+        {
+          "quantity": 1,
+          "description": "* Medium",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Fries",
+          "total": "4.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Sauted Greens",
+          "total": "4.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Sprite",
+          "total": "2.60"
+        },
+        {
+          "quantity": 1,
+          "description": "Fanta",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "* Drink",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "glass of water",
+          "total": "0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Estrella Pint",
+          "total": "4.90"
+        },
+        {
+          "quantity": 1,
+          "description": "Pinot Grigio, 175ml",
+          "total": "5.20"
+        },
+        {
+          "quantity": 1,
+          "description": "CHEESEBURGER KIDS",
+          "total": "7.00"
+        },
+        {
+          "quantity": 1,
+          "description": "* plain, no cheese",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": " CHEESEBURGER KIDS",
+          "total": "7.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "048a150d-d965-408c-ac35-ee1ce04cadb1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\n£90.60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "48aa82ce-7c9d-4f99-b7a2-a2adc027757a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Solasta-Steak-House-Receipt",
+  "published": true,
+  "id": "fPDtNQkvwRUAwjgQgkR0"
+}

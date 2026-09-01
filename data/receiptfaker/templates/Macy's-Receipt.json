@@ -1,0 +1,137 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Macy’s Receipt",
+  "description": "This receipt is a department store retail transaction issued by Macy’s at its Yorktown Heights, New York location, including full store address and contact number. It contains transaction identifiers such as register number, transaction sequence, and timestamp. The receipt presents a structured financial summary with itemized purchase reference, applicable New York sales tax rate, and total amount. Payment details include masked card number, authorization code, EMV chip processing data, and transaction reference information. The document concludes with a savings summary statement, reflecting a standard U.S. department store POS receipt format.",
+  "slug": "Macy's-Receipt",
+  "createdAt": "$D2026-04-08T16:21:12.030Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "346358f0-0c40-427b-a1d5-0cae95d7f6d5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nMacy's\nYorktown\n150 Lee Blvd. & Route 6\nJefferson Valley, NY 10598",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88c0298c-834d-4714-b402-0be65209ae55",
+      "type": "BARCODE",
+      "size": 73,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff3b7f77-75a5-4214-a1d8-5ae01d67b137",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0 4 0 0 7 0 5 5 0 0 0 2 3 9 4 7 1 0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2430488-ec26-438e-b30c-8d9cb386f3b1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n055-0005-2294\n03036444  0005 2:53 PM  10/14/2019\n\nPURCHASE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a10c8747-cad8-4751-89f0-815b03123d93",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "BETTER SUITS",
+          "total": "507/32    380.00"
+        },
+        {
+          "quantity": "",
+          "description": "Orig 450.00",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Speed",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CM:",
+          "total": "XXXXXXXXXXXXX146"
+        },
+        {
+          "quantity": "",
+          "description": "8.375% NY RGLR Tax",
+          "total": "15.08"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Total       195.08"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5596ec2c-257f-4fae-aefd-91595b01f1a3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Master Card\nMasterCard A000000041010\nDAVID M WILSON\n769797 XXXXXXXXXXXXXXXXX2501\nTC: BE62665532418O0  TSI: E800\nEMV Contact(2) : No CVM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7042407-7d93-4310-a6ff-7f68d58a79b7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nREWARD ACCOUNT\nXXXXXXXXXX7029\nReward $5.00  You Saved $5.00\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "18afc022-2ba7-40fe-8aeb-0f9ca0ccec87",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTotal Coupon Savings Is $15.50\nYour Total Savings Is $270.00\n\n\nTHANK YOU FOR SHOPPING AT MACY'S",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6dc43f91-1fd7-477b-962f-bd69efbd262f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " \nDon't forget to check out Macy's\nBackstage located on the 8th floor!\nArriving daily.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0F3lvQiszedYROWP3os1%2F0F3lvQiszedYROWP3os1-eaa28533-ec14-4dac-b269-5a32795ed500.png?alt=media&token=1735f41c-7d4b-40c7-9832-555a3143e222",
+  "published": true,
+  "id": "0F3lvQiszedYROWP3os1"
+}

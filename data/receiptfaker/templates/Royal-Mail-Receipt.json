@@ -1,0 +1,145 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Royal Mail Receipt",
+  "slug": "Royal-Mail-Receipt",
+  "createdAt": "$D2025-09-30T09:18:09.864Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Post Office Ltd.\nYour Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20d74d3c-b3dc-4562-ba47-ac52f3914e6a",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "FAD: 37850",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd29dc1d-03b7-44bb-9011-dd981f3c42d7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "The Triangle\n28A Old Street\nClevedon\nSomerset\nBS20 6NB",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3c5c7f8-7bb4-42ef-8819-4d07702b031f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "VAT REG No. 98 173 8795 02\nDate of Issue: 30/09/2025 12:04\nSESSION: 5-3950",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Shipping",
+          "total": "5.40"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.40"
+        }
+      ],
+      "total": "5.40",
+      "totalText": "TOTAL DUE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We'd love your feedback\nYou could win a 100 pounds One4All Gift Card\nVisit postoffice.co.uk/feedback",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "59100f24-3b5f-4349-ad52-71cecbc34e8b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please retain for future reference\n\nThank you",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FhxcO2XZ6LUuh5Ows8mxX%2FhxcO2XZ6LUuh5Ows8mxX-906ac9dc-8af2-472c-a686-e278d045432c.png?alt=media&token=15665f11-8a99-430d-abb9-71100aefb79b",
+  "description": "Need a Royal Mail receipt? Use our free tool to generate a detailed postage record. Add sender info, tracking number, delivery details, and payment—perfect for proof of shipping, expense tracking, or records.",
+  "published": true,
+  "metatitle": "Royal Mail Receipt",
+  "metadesc": "professional Royal Mail receipts with sender details, tracking numbers, delivery info, and payment records for shipping proof",
+  "id": "hxcO2XZ6LUuh5Ows8mxX"
+}

@@ -1,0 +1,129 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Krispy Kreme Receipt",
+  "description": "This receipt is a quick-service restaurant drive-thru transaction issued by Krispy Kreme Doughnuts & Coffee, located at 810 Cassat Avenue, Jacksonville, FL 32205, with phone number 904.781.4559. The receipt includes host designation (“Order Taker”), cashier name (Felicity), terminal identifier (147), order reference (40095), masked payment account digits (XXXXXXXXXX9070), and transaction date/time (07/01/2022 at 12:48 PM). It features a structured subtotal, sales tax line, total tax line, drive-thru total, cash tendered, and change due. The layout includes a customer acknowledgment section, loyalty program promotional messaging with web URLs, employment promotion (“SweetPlaceToWork.com”), a “Check Closed” separator line, and purchase tracking progress lines for coffee and dozen counts. The format follows a standard QSR POS drive-thru receipt structure with detailed transactional and promotional footer elements.",
+  "slug": "Krispy-Kreme-Receipt",
+  "createdAt": "$D2026-03-03T14:51:33.225Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Krispy Kreme\n\nDoughnuts & Coffee\n810 Cassat Avenue\nJacksonville, FL 32205\n904.781.4559",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "541b5873-7eec-4118-a9a3-6d3f49edb494",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Host: Order Taker        07/01/2022\nCashier: Felicity \n147              12:48 PM\nArea: Drive Thru           40095",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "fd5cb84c-f3f1-444e-ad81-6a6e9b9e9de8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f39c59bc-22b6-4292-afa9-05faa6fbbf1c",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2c955cb-65b2-49e7-80bb-69f6e6d66893",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank You for Visiting Krispy Kreme\nWe appreciate your business\nNot a loyalty member? Join at\nwww.krispykreme.com/account/\ncreate-account. This order can still\nearn credits toward sweet treats at\nkrispykreme.com/account/\nmissed-transactions within 30 days.\nApply Online at SweetPlaceToWork.com\n\n--- Check Closed ---\n\nCoffee Track progress: 2.00\nDozens Track progress: 3.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FiNcEn7toMYYB6XuEeCi7%2FiNcEn7toMYYB6XuEeCi7-8d96ef98-b18b-4eda-8b9d-eba8b92a624d.png?alt=media&token=8fe85bbf-8959-474d-a010-1de0cfd00988",
+  "published": true,
+  "id": "iNcEn7toMYYB6XuEeCi7"
+}

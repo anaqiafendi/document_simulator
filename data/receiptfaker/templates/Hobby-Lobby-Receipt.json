@@ -1,0 +1,143 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Hobby Lobby Receipt",
+  "slug": "Hobby-Lobby-Receipt",
+  "createdAt": "$D2025-05-24T12:16:16.367Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F7cfa4b7c-3b5f-490f-85d9-708093a18a4e-hobby-lobby-logo-black-and-white.png?alt=media&token=cbb37183-041f-46e8-a250-95e2a8e741e7",
+      "size": 150,
+      "businessDetails": "3525 Ross Clark Circle, Suite\nDothan, AL 36303\nHobby Lobby Store #462 (334) 671-0612",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Home Decor",
+          "total": "3"
+        },
+        {
+          "quantity": "1",
+          "description": "Home Decor",
+          "total": "4"
+        },
+        {
+          "quantity": 1,
+          "description": "Spring",
+          "total": "2"
+        },
+        {
+          "quantity": 1,
+          "description": "Home Decor",
+          "total": "6"
+        },
+        {
+          "quantity": "2",
+          "description": "Spring",
+          "total": "10"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "25"
+        },
+        {
+          "title": "Tax Total",
+          "value": "2.32"
+        }
+      ],
+      "total": "27.32",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_75",
+      "date": "$undefined"
+    },
+    {
+      "id": "60cf54e3-cf8a-433d-978d-46c0a553695c",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you. Please come again.\nBecome a fan on Facebook.\n\nVisit our website at www.hobbylobby.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88a6716c-b6bb-4968-b4bc-110385c046fc",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fe1ThEXKHBLgoA57CR9hV%2Fe1ThEXKHBLgoA57CR9hV-143fc149-305f-4780-af80-39cdbf80c0be.png?alt=media&token=ce4cac64-6936-4ae5-ad49-13952cbdfb52",
+  "description": "Need a Hobby Lobby receipt? Easily create a custom arts and crafts purchase receipt with our free tool. Enter store info, item list, prices, tax, and payment details—great for returns, budgeting, or personal records.",
+  "published": true,
+  "metatitle": "Hobby Lobby Receipt",
+  "metadesc": "custom Hobby Lobby receipts with arts and crafts items, store details, prices, and tax information for returns or records",
+  "id": "e1ThEXKHBLgoA57CR9hV"
+}

@@ -1,0 +1,169 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Tropical Smoothie Cafe Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Tropical Smoothie Cafe at its Hyannis, Massachusetts location, including full address and contact number. It contains order identification, cashier reference, and a timestamped transaction record. The receipt presents an itemized list of customized bowl orders with add-ons and beverage selections, followed by a structured financial summary including subtotal, tax, and total amount. Payment details indicate Visa card usage. It also includes promotional messaging with a customer survey link and incentive offer, reflecting a standard U.S. fast-casual POS receipt format with takeout service and customer engagement features.",
+  "slug": "Tropical-Smoothie-Cafe-Receipt",
+  "createdAt": "$D2026-04-17T13:20:17.230Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "7fcb71f4-7979-4925-94fd-5e1f59e2554c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": " \nTROPICAL SMOOTHIE CAFE\n489 B-S Bearses Way\n Hyannis, MA 02601\n (508) 822-4896\n Cafe MA003",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e4a2bc3-c605-478a-b40d-7bdf44a47cde",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n902 Matthew\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3243a05a-3771-4b06-94be-33b7cd10e99c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Chk 3070 ",
+          "total": "Gst 0"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea0f465a-ee0e-4055-947c-056a0239ae46",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Apr 05'18  05:25PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a063a07-1c7c-4278-86b5-87da1358ae39",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTo Go",
+          "total": ""
+        },
+        {
+          "quantity": "1",
+          "description": "Bowl Smth CBD",
+          "total": "12.79"
+        },
+        {
+          "quantity": "",
+          "description": "Carib Jerk",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Side Kale Apple",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Detox Island",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Bowl Smth CBD",
+          "total": "12.79"
+        },
+        {
+          "quantity": "",
+          "description": "Thai Chicken",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Bowl",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Side Kale Apple",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Detox Island",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": " XXXXXXXXXXXX     Visa        ",
+          "total": "27.37"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal:",
+          "total": "25.58"
+        },
+        {
+          "quantity": "",
+          "description": "Tax:",
+          "total": "1.79"
+        },
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "27.37"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe8500ed-5bf6-40c6-9a66-52c16694de66",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "**** 502 Check  Closed 05:26PM ****\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cdf90bc6-8a25-487b-92cc-99efa8faecd3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nLet us know how we did!\nVisit: www.taclisters.com\n\n\n *** GET A $1.99 SMOOTHIE ***\nWith wrap or sandwich purchase\nWe look forward to\nhearing from you!\n\n\nValidation:\nNational Code: 715\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2h9BlkkpWAyYXKoO5cq4%2F2h9BlkkpWAyYXKoO5cq4-9c7e7033-f329-485b-a491-198b84b0fa63.png?alt=media&token=b6c15f9a-e365-4748-9981-89ba5c3f755c",
+  "published": true,
+  "id": "2h9BlkkpWAyYXKoO5cq4"
+}

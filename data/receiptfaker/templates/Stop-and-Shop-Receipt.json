@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Stop & Shop Receipt",
+  "description": "Stop & Shop grocery store receipt issued by Store #2579 located at 11215 Beach Channel Drive in Belle Harbor, New York with store telephone number (718) 945-4894. The receipt header displays the Stop & Shop brand name and store address, followed by POS identifiers including store number and transaction timestamp formatted as 07/19/19 at 08:18PM. The receipt contains a department section labeled “Prepared Food,” followed by a financial summary including tax line, balance total, cash tendered, and change issued. A secondary transaction line includes a later timestamp and POS tracking numbers identifying terminal and sequence data. The footer section includes a promotional message titled “Helping Our Communities,” directing customers to Stop & Shop’s community donation program website. The format reflects a grocery supermarket point-of-sale receipt used for prepared food purchases.",
+  "slug": "Stop-and-Shop-Receipt",
+  "createdAt": "$D2026-03-09T11:38:41.396Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1bd8a869-3966-4d71-91e9-b53dadc39537-image%20(43).jpg?alt=media&token=250a4304-7051-445e-929a-38db49994365",
+      "size": 236,
+      "businessDetails": "11215 BEACH CHANNEL DRIVE\nBELLE HARBOR, NY 11694\nStore Telephone: (718) 945-4894",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6d2482d-7095-4230-ac4b-48de0fbcdadc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Store #2579  07/19/19  08:18PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "db7002cd-db8d-481a-80d7-1a8d08b55d02",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "04/30/22 03:14pm 177 502 164 99999502\n2022 SUB CLUB PTS: 0F 15 REQ\nTHESE POINTS EXPIRE 1/31/2023\nTHESE POINTS CANNOT BE COMBINED\nWITH 2021 SUB POINTS\n\nAPR FUEL POINTS\nREDEEM 100PTS TO SAVE .10 PER GAL.\nON ONE PURCHASE OF UP TO 35 GAL.\nSAVE UP TO $1 PER GAL AT HT OR BP\nFUEL CENTERS ON 1 FILL-UP.\n\nFUEL POINTS THIS ORDER = 6\nFUEL POINTS THIS MONTH = 12\n\nTHIS MONTH POINTS EXPIRE 5/31/22.\nVISIT WWW.HARRISTEETER.COM FOR DETAILS\n\nNEAREST PARTICIPATING LOCATIONS\n(0.4 mi.)\n1159 MILLMONT ST.\nCHARLOTTESVILLE, VA 22903\n\nKroger (1.15 mi.)\n1904 Emmet St. N\nCharlottesville, VA 22901\n*Locations subject to change",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4fbc856-bf45-4d0d-8b83-92fdfa946b80",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FqJbrhCtz1UPB4NrECdMa%2FqJbrhCtz1UPB4NrECdMa-ec8be272-b7dd-48e4-94b1-4cdecb4bcead.png?alt=media&token=64cf3604-934a-429c-be3f-0587a1fc5612",
+  "published": true,
+  "id": "qJbrhCtz1UPB4NrECdMa"
+}

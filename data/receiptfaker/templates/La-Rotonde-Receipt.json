@@ -1,0 +1,151 @@
+{
+  "currency": "",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "numberFormat": "LEFT",
+  "isParent": true,
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "bb6b3d1d-a28e-4a9d-9265-6fa8f3ea0e6a",
+      "bottomDivider": false,
+      "businessDetails": "\n105, BDV DU MONTPARNASSE\n75006 PARIS FRANCE\nSIRET:38502607500015 NAF:5610A TVA:FR06385026075\nTEL. 01.43.26.68.84 / 01.43.26.48.26\n",
+      "size": 237,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F96f27e25-e9ea-4b01-a80b-5a03411d9c38-image%20(21).jpg?alt=media&token=d8c83e2a-e3b8-4019-a009-7032a0ed4fe9",
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "type": "HEADER",
+      "date": "$undefined"
+    },
+    {
+      "alignment": "LEFT",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "id": "7049e803-bc80-45bc-b137-d3347c37e5dc",
+      "bottomDivider": false,
+      "custom": "TABLE 303\n2 COUVERT   LUCAS\n",
+      "date": "$undefined"
+    },
+    {
+      "total": "",
+      "bottomDividerType": "DASHES",
+      "type": "ITEMS",
+      "totalDividerType": "DASHES",
+      "id": "404ec694-2b87-45c2-bd89-ae38bab1eb43",
+      "bottomDivider": false,
+      "totalLines": [],
+      "totalText": "",
+      "totalDivider": false,
+      "items": [
+        {
+          "total": "19.00 C",
+          "quantity": 1,
+          "description": "CROUSTILLANT GAMBAS"
+        },
+        {
+          "total": "16.00 C",
+          "quantity": 1,
+          "description": "PENNES REGATE"
+        },
+        {
+          "quantity": 1,
+          "total": "6.00 C",
+          "description": "SUP. SLDE VERTE"
+        },
+        {
+          "description": "MILLE FEUILLES",
+          "total": "10.50 C",
+          "quantity": 1
+        },
+        {
+          "description": "25 CL SANCERRE",
+          "total": "28.00 B",
+          "quantity": 1
+        },
+        {
+          "description": "EXPRESS",
+          "quantity": 1,
+          "total": "3.50 C"
+        },
+        {
+          "quantity": "",
+          "total": "\n83.00",
+          "description": "\nTOTAL"
+        }
+      ],
+      "date": "$undefined"
+    },
+    {
+      "id": "fe56a70a-6c79-4f8d-a900-881e01da114a",
+      "bottomDivider": false,
+      "custom": "HT  TVA  TTC\nB TVA 20.00  23.33   4.67   28.00\nC TVA 10.00   50.00  5.00   55.00\n\n",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "date": "$undefined"
+    },
+    {
+      "type": "ITEMS",
+      "bottomDividerType": "DASHES",
+      "totalDividerType": "DASHES",
+      "total": "",
+      "totalDivider": false,
+      "items": [
+        {
+          "description": "ESPECES",
+          "quantity": "",
+          "total": "83.00"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "(C.PROF. 1 RESTAURANT)"
+        },
+        {
+          "description": "To:017 Doc:169492 B0002 (Edn1)",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "MARDI 20-03-2018   15:28:51"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "Cle 28-Serv:28   Caisse 1 "
+        },
+        {
+          "description": "Num:0015799/002",
+          "total": "",
+          "quantity": ""
+        }
+      ],
+      "totalText": "",
+      "bottomDivider": false,
+      "id": "943b52a2-4936-4cbc-a186-fddc07aa59da",
+      "totalLines": [],
+      "date": "$undefined"
+    },
+    {
+      "alignment": "CENTER",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "custom": "\n\nSERVICE 15% SUR LE HT INCLUS\n\nMERCI A BIENTOT",
+      "id": "6e6aa5e5-ebc6-47a3-a8cd-8cdd1106962c",
+      "date": "$undefined"
+    }
+  ],
+  "name": "La Rotonde Receipt",
+  "slug": "La-Rotonde-Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "parentName": "Office Depot",
+  "description": "This restaurant receipt from La Rotonde documents a cash payment transaction processed at the Boulevard du Montparnasse location in Paris, France. The receipt includes full address details, SIRET registration information, French VAT identifiers (TVA), telephone numbers, table references, guest count formatting, and transaction metadata. The POS structure contains VAT-separated HT, TVA, and TTC calculations, subtotal and total presentation, cash payment confirmation (“ESPECES”), and service charge inclusion notices aligned in standard French restaurant thermal receipt formatting. Additional receipt elements include document references, cashier and service identifiers, timestamp formatting in French date style, and hospitality footer messaging near the bottom of the receipt. The layout reflects a standard French brasserie thermal receipt with localized VAT accounting and restaurant service formatting.",
+  "textColor": "#101828",
+  "createdAt": "$D2026-05-26T10:39:26.458Z",
+  "backgroundCrumpled": false,
+  "published": true,
+  "id": "LX3OL2BA02ozKi8RA9qU"
+}

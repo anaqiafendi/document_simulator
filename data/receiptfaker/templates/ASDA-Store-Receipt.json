@@ -1,0 +1,149 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T16:20:33.310Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "ASDA Store Receipt",
+  "description": "This receipt is a retail transaction issued by ASDA Stores Ltd., located in Grangemouth, United Kingdom. It includes store identification, manager name, contact number, terminal and transaction details, and timestamp. The receipt presents an itemized purchase of grocery items (biscuits and sweets) with individual prices. A financial summary shows the total amount paid using a Mastercard contactless transaction, along with authorization and terminal details. The receipt also includes the number of items purchased and a prompt to retain the receipt for records. The format reflects a standard UK supermarket POS receipt with card payment verification and transaction tracking.",
+  "slug": "ASDA-Store-Receipt",
+  "sections": [
+    {
+      "id": "3fe41a9b-d135-405f-85aa-7103df08ca85",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n***For a chance to win £1,000! ***\nPlease tell us how we did today at\nwww.tellasda.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a87a54c-b6df-4639-ba0b-3fc60d35e9f1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5f46d335-af47-4afb-bf43-47b492fdff03",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb5533778-d601-4e4c-9bc6-11694399300b-image%20(6).jpg?alt=media&token=7ce53b9e-ed75-4f81-b008-bc7938fce93b",
+      "size": 164,
+      "businessDetails": "ASDA STORES LTD.\nPERMANENTLY LOW PRICES\nMANAGER PAUL TRAYNOR\nTELEPHONE  01324 492400\nGRANGEMOUTH\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "631a7276-56dc-4f0d-a50d-58d7ec22cc0c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ST. 05868 OP.009042 TE. 42 TR. 01981",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BISCUITS    501003506929",
+          "total": "£1.00"
+        },
+        {
+          "quantity": "",
+          "description": "BISCUITS    501003506929",
+          "total": "£1.00"
+        },
+        {
+          "quantity": "",
+          "description": "SWEETS      506038426290",
+          "total": "£2.50V"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n\nTOTAL",
+          "value": "\n\n£4.50"
+        },
+        {
+          "title": "CARD",
+          "value": "£4.50"
+        },
+        {
+          "title": "TOTAL EPS",
+          "value": "£4.50"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9a1b1f21-ff8d-4bd6-99da-35537c0ab2ad",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nEPS NO. 3499\nAID A0000000041010\nCT:80  CV:54C648FBC799B291\nMastercard\n*No Cardholder Verification\nA/C No. **** **** **** 3783  2 C\nTERMINAL No. 0015492352\nAUTHORISATION No.292680\nPayPass Contactless\n16/09/22              17:58:35\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae90561b-cc82-4349-b3eb-2fd756c159e6",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "CHANGE DUE        £0.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "87b3c6dc-2dc2-4d32-be1c-fd5bdf643c47",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "PLEASE KEEP THIS COPY FOR YOUR RECORDS",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ec6fc83a-12c3-4690-9d6d-3586684ff95c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNo. ITEMS SOLD 3\nTC# 4861 2738 2417 2653 2317\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f32400d8-b2c7-412b-be76-a1004363d373",
+      "type": "BARCODE",
+      "size": 72,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1a65740f-3daf-4231-ad4d-deedbc6cdc22",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Shop online at Asda.com for easy\nhome delivery or collection in store\n\n16/09/22              17:58:43\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Wxk95ICDpnBtWPQqcFtx"
+}

@@ -1,0 +1,153 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T18:55:16.372Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "ce50eb92-1a3a-474c-a57c-23593c6b42b6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F00d94038-ad14-4c18-aafb-7440e076227a-image.jpg?alt=media&token=98a60f81-88d7-422d-af2f-9ffad1b53945",
+      "size": 219,
+      "businessDetails": "TAX INVOICE\nU2W ENERGY RETAIL PTY LTD  ABN: 95662372027\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c07db693-bbc4-48d6-8d80-f15a87b4dc1b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nReddy Express Loyani 93\n1201 Logan Road\nMount Gravatt QLD 4122\n405\nPh: +61 1 3532 3197",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6badb9de-3e1b-4011-ba3f-27860068128a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDate: 22/06/2025  11:15\nTrans: 517044-91764101-174761A533734\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb1e6c9b-9ab3-4934-af36-ef1b13ad87da",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\nITEM ",
+          "description": " QTY               $ ",
+          "total": "\n $ "
+        },
+        {
+          "quantity": "",
+          "description": "\nShell V-Power Unleaded 98 44.73 L 2.229  ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Pump number: 8, Sales Id: 0736",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "222.9 c/L",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d2a0b2a4-1d6d-4874-9b99-20a3df8b33e8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL ($) ",
+          "total": "99.70"
+        },
+        {
+          "quantity": "",
+          "description": "GST INCLUDED IN TOTAL",
+          "total": "9.06"
+        },
+        {
+          "quantity": "",
+          "description": "\nE FTPOS",
+          "total": "\n99.70"
+        },
+        {
+          "quantity": "",
+          "description": "*Indicates GST free item",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "faff2647-0e6a-45e9-81ab-1eac583ca9cc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "279003834036",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2948a90e-1032-4b90-b050-5c4b32c67189",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nwww.reddyexpress.com.au",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1df94c0-411d-4f13-811a-5853e291b4a1",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ab8aff50-fa73-48fc-b713-2ec69e2ddb4e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " 9384011041850",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Reddy Express and identifies the fuel retailer as Red Express Bend Road, 1201 Logan Road, Mount Gravatt, Queensland 4122, Australia. The receipt is presented as a Tax Invoice and includes the company name, Australian Business Number (ABN), store location, point-of-sale information, and transaction date and time. The transaction records the purchase of 44.731 litres of Shell V-Power Unleaded 98 fuel at a unit price of AUD 2.229 per litre, dispensed from Pump 8. The financial section records the total purchase amount and confirms that Goods and Services Tax (GST) is included in the total. The payment section indicates that the transaction was completed using Visa Debit via EFTPOS. The overall layout is representative of an Australian fuel station tax invoice, combining fuel purchase details, GST reporting, electronic payment processing, and retailer identification within a compact receipt format.",
+  "name": "Reddy Express Receipt",
+  "slug": "Reddy-Express-Receipt",
+  "published": true,
+  "id": "KQQNnUfDQfwdMjj8LKtt"
+}

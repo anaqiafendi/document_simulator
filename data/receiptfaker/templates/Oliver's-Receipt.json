@@ -1,0 +1,113 @@
+{
+  "currency": "",
+  "slug": "Oliver's-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T11:28:48.494Z",
+  "description": "This receipt template originates from Oliver's, located at Caltex Stopover F3 Freeway, Northbound Wyong, New South Wales, Australia. The header contains the Oliver's branding, store location details, Tax Invoice designation, and ABN registration number. The transaction section includes an order number and itemized sales area. The financial summary displays the transaction total, payment method, balance due, and GST information, including a notice regarding GST-free items. The footer contains the transaction date and time, cashier/server identifier, and receipt number. The format is representative of a quick-service restaurant and highway service-centre point-of-sale receipt.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Oliver's Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "af683b53-af17-4fa2-b938-eb9eabd36119",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6a60bbf3-49c8-4d13-8381-7347315d2822-Oliver's%20Receipt.jpg?alt=media&token=4bbd3e82-e43b-4060-b4fd-6be9a7d0a2be",
+      "size": 198,
+      "businessDetails": "Caltex Stopover F3 Fwy\nNorthbound Wyong, NSW 2259\n*** TAX INVOICE ***\nABN: 33 166 495 441\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "737bd843-ab93-4054-a90a-83bea9888657",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order#: 85\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b43d2685-cbee-4781-aa4b-5dc97aba39c2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "$$"
+        },
+        {
+          "quantity": 1,
+          "description": "Chicken",
+          "total": "12.95"
+        },
+        {
+          "quantity": "1",
+          "description": "Create Your Own J",
+          "total": "10.95"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "----------\n"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$23.90"
+        },
+        {
+          "quantity": "",
+          "description": "MASTERCARD",
+          "total": "23.90"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "----------\n"
+        },
+        {
+          "quantity": "",
+          "description": "Balance",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal includes GST of",
+          "total": "\n\n$2.17"
+        },
+        {
+          "quantity": "",
+          "description": "* Indicates GST free items",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "91a91dc9-023b-42f5-801a-27bbbe054b11",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n4/12/21   1:48PM   Vicky S\nreceipt no. 15086735",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "KF3Dlqu0ZaZhfG3nJBkF"
+}

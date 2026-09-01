@@ -1,0 +1,171 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T12:20:09.391Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "770f5792-8b21-4b64-9f50-c292ae963a42",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "GINGER\nTHAI CUISINE\n\nREEK (M) SDN BHD\nSSM: ( 980198-H )\nGST NO: 000836848960\nLOT M-12 CENTRE MARKET\nJALANN HANG KASTURI 50050 K.L\nTEL: 603-2273 7371\n\nTAX INVOICE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7b7a394-40ad-4ff4-a28a-614967078a9c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTable : 20\n\nOrder : 00041190\nCashier: PART TIMER\nBILL 07: 31/12/2015 02:57:53 PM   RM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4f2d49c4-9b80-4c09-919f-edaa60d2d432",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1  VEGETARIAN SPRING ROLL (S)",
+          "total": "\n8.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  THAI FRIED RICE (S) ",
+          "total": "32.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  PATTAYA OMELETTE (S) ",
+          "total": "18.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  GREEN CURRY CHICKEN (S)",
+          "total": "22.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  CRISPY SQUID (M)",
+          "total": "39.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  MINERAL MATER @4.00",
+          "total": "8.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  ORANGE JUICE",
+          "total": "10.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  ICE LEMON TEA @8.00",
+          "total": "16.00"
+        },
+        {
+          "quantity": "",
+          "description": "2  STEAMED FRAGRANT RICE @2.50",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n13 SUB TOTAL ",
+          "total": "\n158.00"
+        },
+        {
+          "quantity": "",
+          "description": "Service Charges 10%",
+          "total": "15.80"
+        },
+        {
+          "quantity": "",
+          "description": "6% Std Rate GST Charged ",
+          "total": "10.43"
+        },
+        {
+          "quantity": "",
+          "description": "ROUNDING ADJ ",
+          "total": "0.02"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b4564d9b-5526-471c-9634-e48346182c2b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "NET TOTAL",
+          "total": "184.25"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4858081-50b6-4765-8163-77ce2d2ac021",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Tax Summary",
+          "total": " Amount   Tax"
+        },
+        {
+          "quantity": "",
+          "description": "S 6% Std Rate GST Charged",
+          "total": "173.80"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e5159a2b-bae6-41e8-a9d8-2d044b65554a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTHANK YOU, PLEASE COME AGAIN\nEMAIL: ginger.m12@gmail.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Ginger Thai Cuisine restaurant tax invoice receipt issued by RECK (M) Sdn Bhd from its Jalan Hang Kasturi location in Kuala Lumpur. The header displays the restaurant name and cuisine type, followed by the registered business name, SSM and GST numbers, location, telephone number, and tax-invoice designation. POS metadata includes the table number, order number, cashier designation, and exact billing date and time. The transaction section follows a restaurant thermal POS format with itemized entries and aligned amounts. The financial summary records the subtotal, 10% service charge, 6% standard-rate GST, rounding adjustment, and net total. A separate tax-summary section provides the taxable amount and GST figure, while the footer contains a customer thank-you message and contact email.",
+  "name": "Ginger Thai Cuisine Tax Invoice Receipt",
+  "slug": "Ginger-Thai-Cuisine-Tax-Invoice-Receipt",
+  "published": true,
+  "id": "4VkPZEKedbziOOFw2h2Y"
+}

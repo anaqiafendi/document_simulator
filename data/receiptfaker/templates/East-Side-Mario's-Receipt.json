@@ -1,0 +1,177 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "East Side Mario's Receipt",
+  "description": "This restaurant receipt from East Side Mario’s documents a dine-in transaction at the Regina, Saskatchewan location at 2060 Prince of Wales D. The receipt includes GST registration information, guest identification details, table number formatting (“Tbl 41/1”), and a dining room service section header. POS metadata includes guest/server routing (“Gst 2”) along with subtotal, GST, PST, and total due calculations. The receipt also contains cash-rounding notice text and a customer feedback footer prompt. The format reflects a standard thermal restaurant POS receipt with itemized dining entries, modifier formatting, and aligned financial summary totals.",
+  "slug": "East-Side-Mario's-Receipt",
+  "createdAt": "$D2026-05-21T14:22:52.458Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "13eba6fe-77b1-4c8a-902e-dbc3cbef6edc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd13f8a1b-815a-42e0-be5b-b15713173fd2-image%20(14).jpg?alt=media&token=da5f3b3c-8388-44ed-bfb9-a3f441b941a7",
+      "size": 193,
+      "businessDetails": "East Side Mario's\n2060 Prince of Wales D\nRegina, SK, S4Y 3A6\nGST #: 8796740OR T0001\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef62f7b4-4f94-4255-a5b8-c9aa4adc62ec",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "421 Grace F",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a84f4972-6daf-42cc-bb7e-c13223b92967",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTbl 41/1                       Gst 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "83d28659-3089-4374-9492-996d7c227d1d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "AYCE Soup",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "P&B Soup",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "AYCE Soup",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Wedding Soup",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "AYCE Spag MBalls",
+          "total": "19.99"
+        },
+        {
+          "quantity": 1,
+          "description": "AYCE Fet Alf Chk",
+          "total": "19.99"
+        },
+        {
+          "quantity": 1,
+          "description": "R Fet Alf Chk",
+          "total": "0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "R Bkd Penne",
+          "total": "0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "R S N P Penne",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "SUB CHICKEN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "*",
+          "total": ""
+        },
+        {
+          "quantity": "1",
+          "description": "R Spag MBalls",
+          "total": "0.00"
+        },
+        {
+          "quantity": "1",
+          "description": "R S N P Penne",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SUB CHICKN",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": " ItaSoda Stone",
+          "total": "3.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Vodka VITL",
+          "total": "7.49"
+        },
+        {
+          "quantity": 1,
+          "description": "R-Violet Lem",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "50.46"
+        },
+        {
+          "quantity": "",
+          "description": "GST",
+          "total": "2.52"
+        },
+        {
+          "quantity": "",
+          "description": "PST",
+          "total": "3.25"
+        },
+        {
+          "quantity": "",
+          "description": "Total Due",
+          "total": "56.23"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a1df99a-e2f7-4f59-a524-d435f6d4c695",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nRounded if Paying Cash $56.25\nHow did we do?",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "voUVRNSMLq8BEU5uqHqu"
+}

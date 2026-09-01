@@ -1,0 +1,120 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T18:09:46.586Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e3844582-a568-446d-b783-001e3977d8bf",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5baecd58-5bc4-4a1b-989f-038ad6ac2ac5-image%20(3).jpg?alt=media&token=f9dfbab9-432e-44c5-b604-897b8915cd11",
+      "size": 266,
+      "businessDetails": "Store #357, 2265 Downer St.\nBaldwinsville, NY 13027\nStore Phone: (315) 635-3536\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dd41069f-208c-4e0a-952b-293900c02211",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Now Hiring\nImmediate Openings\nInquire at the Customer Service Desk\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6119bb0-ad62-489a-9bf3-5979040b3fff",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "8ALLEGRA TAB30C ",
+          "total": "21.49 Q"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "**** BALANCE ",
+          "total": "21.49"
+        },
+        {
+          "quantity": "",
+          "description": "CASH ",
+          "total": "30.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "8.51"
+        },
+        {
+          "quantity": "",
+          "description": "10/10/23  09:20am  357  11  16  106",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "de78bf6c-9d57-4430-b80c-5299f37d82e3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTOPS BONUSCARD WILL SAVE YOU MONEY\n\n************************************\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef2eafb9-d6e9-4363-9ae4-2645c668ed63",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Enter to win a $100.00 Tops Gift Card! Tell us how we did at topslistens.com ACCESS #: 357-16-11\n\n************************************",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "274814cb-554b-4d72-bc61-dc86945ce249",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nRetain receipt for refunds & exchanges",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ebc5790a-98cd-424f-97a4-535943012b68",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank You, Your Cashier MONICA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Baldwinsville Tops Receipt",
+  "description": "Tops grocery retail receipt issued from Store #357 on Downer Street in Baldwinsville, New York. The header displays the Tops branding followed by the store number, full street address, telephone number, and a recruitment notice directing customers to the service desk. The transaction area follows a compact supermarket thermal POS format with purchase information and aligned amount fields. The financial summary records tax, balance, cash tendered, and change, followed by the transaction date and time and additional store, register, and transaction identifiers. The lower section contains a Tops BonusCard promotional message, customer survey and gift-card promotion, survey access reference, and a notice instructing customers to retain the receipt for refunds and exchanges. The footer concludes with a thank-you message and identifies the cashier by name.",
+  "slug": "Baldwinsville-Tops-Receipt",
+  "published": true,
+  "id": "aN5s3WJ9leOBziQr4qRb"
+}

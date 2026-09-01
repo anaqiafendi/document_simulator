@@ -1,0 +1,134 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-29T10:53:32.353Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "fc3fa5aa-c17b-430b-be8e-78c8a4af6235",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F15b6ba74-da40-40e1-aa8f-6135b5ef962a-image%20(3).jpg?alt=media&token=39edf2aa-1040-4356-bc52-9a52ce10190a",
+      "size": 271,
+      "businessDetails": "\n131 US 1 BYP N LOUISVILLE, GA\nSTORE #494 (478) 625-8629\nSTORE MANAGER: SHAUN CADMAN\nYOUR CASHIER TODAY WAS KELLIE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "79216795-dfe2-4a16-9aa2-5378435f24ec",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nGroceries",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "A  BENITOS LIME",
+          "total": "3.68 B"
+        },
+        {
+          "quantity": "",
+          "description": "A  BENITOS SWT C ",
+          "total": "3.68 B"
+        },
+        {
+          "quantity": "",
+          "description": "A  SO DEL STRB",
+          "total": "1.88 B"
+        },
+        {
+          "quantity": "",
+          "description": "A  SILK ALM YG.PC",
+          "total": "1.98 B"
+        },
+        {
+          "quantity": "",
+          "description": "A  LACOLOMBECOLMPC",
+          "total": "3.98 B"
+        },
+        {
+          "quantity": "",
+          "description": "SC 3547 6      ADV SAVINGS ",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "Produce",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 @ 10/10.00",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PEANUTS SALTED",
+          "total": "1.00 B"
+        },
+        {
+          "quantity": "",
+          "description": "ADVANTAGE CUSTOMER",
+          "total": "*******1254"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "0.65"
+        },
+        {
+          "quantity": "",
+          "description": "**** BALANCE",
+          "total": "16.85"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "3.15"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal Number of Items Sold = 6",
+          "total": "\n"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a69cab4c-4ea4-4f73-b9ee-b6fc2a972981",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n---------- Ingles Savings ----------\nYEAR TO DATE SAVINGS:       $9.98\nADVANTAGE & STORE COUPONS:   $2.00\nTotal Savings               $2.00\n---------- Ingles Savings ----------\n\n\n07/16/21  10:41am  494  4  42  115\n\nINGLES HAS CONTRIBUTED OVER\n$15,000,000\nTO THE TOOLS FOR SCHOOLS PROGRAM\n\nNOW HIRING\n\nRetail-Text INGLES to 22100\nWhse/Driving-Text WAREHOUSE to 22100\n\nTHANK YOU FOR SHOPPING INGLES #494\nCORPORATE CUSTOMER SRV 1-866-226-7168\nOR WWW.INGLES-MARKETS.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "$3e",
+  "name": "Ingles Markets Receipt",
+  "slug": "Ingles-Markets-Receipt",
+  "published": true,
+  "id": "soHBTAyRWEtdvCGqJcFr"
+}

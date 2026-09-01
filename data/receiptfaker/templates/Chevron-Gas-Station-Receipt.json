@@ -1,0 +1,130 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-30T13:35:19.336Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "published": true,
+  "name": "Chevron Gas Station Receipt",
+  "description": "This receipt is a retail transaction issued by a Chevron gas station located at 100 N Samish Way in Bellingham, Washington, United States. It includes store address, transaction number, register and operator identifiers, cashier name, and timestamp. The receipt is marked as a reprint and presents an itemized purchase with both taxable and non-taxable amounts. It provides a financial summary showing subtotal, tax, and total. Payment details indicate a cash transaction with the amount tendered and change returned. The format follows a standard U.S. POS receipt with transaction tracking and reprint notation.",
+  "slug": "Chevron-Gas-Station-Receipt",
+  "sections": [
+    {
+      "id": "72e0bd18-2b94-4d43-a9ea-f16f01fc54d5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Samish Way Chevron\n100 N Samish Way\nBellingham, WA 98225\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "97b6c53e-c38a-4dd5-93bd-79b2ec552f6f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Samish Way Chevron, 94948\n100 N Samish Way\nBellingham, WA 98225\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "386f562c-2283-4788-a30e-66f68ac5a336",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n08/15/2020  2:39:23 PM\nRegister: 1  Trans #: 3592 Op ID:19\nYour cashier: Kashmiri\n\n\n\n  ** REPRINT ** REPRINT ** REPRINT \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "125badc5-b1f6-4a6f-8932-29dc96b343e7",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "DR PEPPER",
+          "value": "$$1.99   1"
+        },
+        {
+          "title": "TAX",
+          "value": "$$4.00   1"
+        },
+        {
+          "title": "NON TAX",
+          "value": "$$0.50  99"
+        },
+        {
+          "title": "",
+          "value": "___________\n\n"
+        },
+        {
+          "title": "Subtotal",
+          "value": "$$6.49"
+        },
+        {
+          "title": " Tax",
+          "value": "$$0.52"
+        },
+        {
+          "title": " Total",
+          "value": "$$7.01"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5799a255-d85d-42f2-86c4-3feeedf84281",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "  ** REPRINT ** REPRINT ** REPRINT \n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e492aa90-1698-45b8-a217-0bec9c6da0d2",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Change Due",
+          "value": "-$17.99"
+        },
+        {
+          "title": "Cash",
+          "value": "$$25.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8b1138ad-3e8c-4a9f-a1eb-f542bd296e24",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNo Refunds! All Sales Final!\n360-9072-0980\n\n\nCustomer Copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "FbU0kVnFkIaLD9ogJCpB"
+}

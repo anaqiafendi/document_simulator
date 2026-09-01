@@ -1,0 +1,134 @@
+{
+  "createdBy": "invIrv4X0HQzQyXBWAfgYGUsPBr1",
+  "name": "Dior example with Womens Shoe and 2 more items totalling 1,297 dollars 50 cents",
+  "slug": "Dior-example-with-Womens-Shoe-and-2-more-items-totalling-1297-dollars-50-cents",
+  "createdAt": "$D2025-11-15T05:30:41.292Z",
+  "isParent": false,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F24687201-f081-4069-8298-33f2b81a3c07-89c3feda39b058f68ef21bf4232f4f86.png?alt=media&token=3453df75-afe9-4d87-96b5-122830aeb7d7",
+      "size": 118,
+      "businessDetails": "Christian Dior Boutique\n333333 Bristol St,\nSte 2529 \nCosta Mesa, CA ",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Trans #30888 Date: 11/14/25 9:010:25\nStore: 85101 Register: 2\nCashier: 9375059\nCustomer ID: D85917436\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "020 WOMEN S SHO 1724/630\n837055 - 195",
+          "total": "1.100.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1.100.00"
+        },
+        {
+          "title": "Tax",
+          "value": "197.50"
+        }
+      ],
+      "total": "1,297.50",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "1.300"
+        },
+        {
+          "title": "Change",
+          "value": "3.50"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "I agree to pay the above total amount according to the card issuer's agreement. Items can be returned within 30 days of receipt. Products must be in their original condition with all packaging intact.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f2a8051-671e-4a93-89d6-d1736c9555c9",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt was created with ReceiptFaker generator based on **Dior** template on **Nov 14, 2025**.",
+  "metatitle": "Luxury Dior Receipt",
+  "metadesc": "authentic-looking Dior receipts with customizable boutique info, luxury items, pricing, and payment details using our free tool",
+  "parentId": "8eXCLN4bh8vWXoSDAy5S",
+  "parentName": "Dior",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FinvIrv4X0HQzQyXBWAfgYGUsPBr1%2FyX12rx616Qhu9yekHpHC%2FyX12rx616Qhu9yekHpHC-0ec54b7d-0517-425a-8e26-4bf936b67bdb.png?alt=media&token=1a3446ca-106b-47c1-9a81-4619fae35a9d",
+  "published": true,
+  "id": "yX12rx616Qhu9yekHpHC"
+}

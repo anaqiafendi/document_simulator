@@ -1,0 +1,163 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Moe's Southwest Grill Receipt",
+  "description": "This receipt is a fast-casual restaurant transaction issued by Moe’s Southwest Grill at its Conyers, Georgia location, including store number, full address, and contact number. It contains order identification, service type indicated as eat-in, and a timestamped transaction record. The receipt presents a detailed itemization of customized menu selections, including add-ons and modifiers, followed by a structured financial summary with subtotal, tax, and total amount. It also includes total item count, reflecting a standard U.S. fast-casual POS receipt format with configurable meal options and add-on pricing.",
+  "slug": "Moe's-Southwest-Grill-Receipt",
+  "createdAt": "$D2026-04-11T15:14:30.216Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "f9062402-8f14-4eb9-ae06-d5b4f985f578",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 154,
+      "businessDetails": "\nWelcome to Moe's!\nConyers #104007\n863 Flat Shoals Road\n(770) 922-0889\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7cb76e6d-89dc-4d87-b44b-f736f5e1c41c",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\nOrder# 131016620\nEat In Order\nDate: 8/7/23, 11:07 AM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7504bf70-0598-4abc-8070-c35f948e715d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "HW Bowl White Meat Chicken",
+          "total": "$$13.58"
+        },
+        {
+          "quantity": "",
+          "description": "Extra Adobo Chicken",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Shredded Cheese",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Pico de Gallo",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Guacamole N/C",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Lettuce, Shredded",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Sour Cream",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Queso Inside $$",
+          "total": "$$1.99"
+        },
+        {
+          "quantity": "",
+          "description": "Queso Inside $$",
+          "total": "$$1.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a85d7cd6-5231-4d92-bf3f-abc48c4fd5a1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nowl White Meat Chicken        $12.08\nExtra Adobo Chicken\nShredded Cheese\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0483a3df-1608-4256-a8af-cd4f227ff365",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Queso Inside $$",
+          "total": "$$1.99"
+        },
+        {
+          "quantity": "",
+          "description": "Queso Inside $$",
+          "total": "$$1.99"
+        },
+        {
+          "quantity": "",
+          "description": "Cookie, Chocolate Chip",
+          "total": "$$0.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dfabbac2-2759-4b66-9177-37f1c43d69c6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total Item Count:                  7",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b02827cf-c18f-4605-96f7-28f4208c8fbd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Subtotal:                     $34.61\nTotal Tax:                     $2.42",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "549d31d8-4324-4578-b373-75753edba8b6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total:                        $37.03",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fyp5rEAm2X0EqO0NM2UgB%2Fyp5rEAm2X0EqO0NM2UgB-52140f26-b673-4a61-98e2-d4d76478d157.png?alt=media&token=bda4e27a-b20b-491e-822b-553f1007565d",
+  "published": true,
+  "id": "yp5rEAm2X0EqO0NM2UgB"
+}

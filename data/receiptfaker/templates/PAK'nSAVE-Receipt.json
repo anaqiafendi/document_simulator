@@ -1,0 +1,120 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-26T11:32:36.259Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e7f3727b-6b40-4bf6-be57-a1b0e771a5ab",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F56ffb099-aec8-43c8-8cd7-59d622d14236-image%20(8).jpg?alt=media&token=f45c4d35-84d0-4f5a-a04c-9bdea99161a7",
+      "size": 282,
+      "businessDetails": "**** ORMISTON PAK'n'SAVE ****\n**** 240 ORMISTON ROAD ****\n**** Flat Bush Farm Ltd ****\nPh: (09) 905-2700",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "61a2bba8-4798-4718-a524-9cf9562fd28f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGIFT\nSTATION\n\n|——Pak n Save Open Gift Redeem——|",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "48cfa9f2-976f-42b1-88d8-d1e69b7080a4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nPak n Save Ormiston\nPO Box 217003\nEzilay\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ce6cc69-1cf8-4617-a668-9c834c1e3b03",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Terminal Id:",
+          "total": "12944915"
+        },
+        {
+          "quantity": "",
+          "description": "Transaction No",
+          "total": "1327"
+        },
+        {
+          "quantity": "",
+          "description": "Card",
+          "total": "27-Jan-17 14:47"
+        },
+        {
+          "quantity": "",
+          "description": "Sale Id",
+          "total": "60622333   4334"
+        },
+        {
+          "quantity": "",
+          "description": "Amount",
+          "total": "Storeline 15-8836"
+        },
+        {
+          "quantity": "",
+          "description": "Incorrect PIN",
+          "total": "$$19.89"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "52a15063-9f2a-4d9b-ae9d-ca85670f4401",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDECLINED 55\nPIN does not match\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b6513ed-dad4-4f84-b741-db93d22223be",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCASHIER NAME: Tua M\n27/01/2017 14:48:18 05047 019 9835 0004\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "916eee78-a428-46dd-8240-3acb10d11ef9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n******** TAX INVOICE ********\n**** GST No: 117-135-322 ****\nAll items GST inclusive\nunless otherwise specified by (*)\npromotions exclude tobacco, gift\ncard, christmas card purchases and\npayments on account. Please\nretain receipt as proof of purchase\nTHANK YOU FOR SHOPPING AT PAK'nSAVE\n\nwww.paknsave.co.nz",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "PAK'nSAVE Receipt",
+  "description": "This receipt is issued by PAK'nSAVE and identifies the transaction as originating from PAK'nSAVE Westgate, 124–26 Don Buck Road, Westgate, Auckland. The receipt documents a Gift Station gift-card activation transaction and includes store branding, location details, a contact telephone number, terminal identifier, transaction number, transaction timestamp, masked card number, sale identifier, and activation amount. The receipt also records an Incorrect PIN message indicating that the entered PIN did not match during the transaction process. The footer contains the cashier name, GST registration number, tax-inclusive pricing notice, purchase conditions, and the official PAK'nSAVE website. The overall layout is representative of a New Zealand supermarket POS receipt, combining gift-card activation processing, GST-compliant reporting, transaction controls, and retail payment documentation within a compact receipt format.",
+  "slug": "PAK'nSAVE-Receipt",
+  "published": true,
+  "id": "y5YgU8p1wqRmOcENAGdK"
+}

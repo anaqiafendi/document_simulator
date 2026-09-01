@@ -1,0 +1,48 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Jersey Mike's Subs Receipt",
+  "description": "This receipt is a Jersey Mike’s Subs quick-service restaurant transaction formatted in a standard POS thermal print layout for a takeout order. It includes full store identification with store number, address, and phone number, along with a ticket number and server name. The receipt features a timestamp and clearly structured sections including item listing, discount application (loyalty program), and a financial summary showing subtotal, taxable amount, tax, total, tendered cash, and change. Additional POS metadata includes items sold count, loyalty program identifiers (JM Club number and registration code), and points tracking details. The layout uses dashed separators and aligned totals consistent with U.S. fast-casual restaurant receipt formatting.",
+  "slug": "Jersey-Mike's-Subs-Receipt",
+  "createdAt": "$D2026-03-23T13:41:37.975Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Take Out\n\nJersey Mike's Subs 2067\n912 North Western Avenue\nSan Pedro, CA 90732\nPhone: (310) 832-0200",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTicket: 01-000000-02-093356\n\nServer: Diane    09/11/16 11:37 AM\n------------------------------\n\nRegular #13                 8.79 D\nRegular CHIPS               1.25\n------------------------------\n\nDISCOUNTS:\nLoyalty E-Program - 100%\n------------------------------\n\nSub Total                  $1.25\nTaxable                    $0.00\n9% Tax                     $0.00\nTotal                      $1.25\n\nTendered cash              $1.25\nChange                     $0.00\n\nItems sold: 2\n\nJM Club #: ********1231\nRegistration Code: 1231\n\nPurchase points: 0\nBonus points:    0\nRedeem points:   72\nCurrent balance: 64 points",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "37c2a2ce-ebec-49f5-86dc-461e390ff24a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FfqZAIdLHiQkYmVpQQ2bo%2FfqZAIdLHiQkYmVpQQ2bo-5d52473c-af18-47a0-af58-30c3a16d94e3.png?alt=media&token=22da0e59-8db0-4efe-a04d-91b0ebbc03ee",
+  "published": true,
+  "id": "fqZAIdLHiQkYmVpQQ2bo"
+}

@@ -1,0 +1,190 @@
+{
+  "currency": "",
+  "slug": "The-Old-Manor-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T18:48:04.690Z",
+  "description": "This restaurant receipt from The Old Manor documents an EFT card payment transaction processed at the RG12 1BP location in the United Kingdom. The receipt includes venue contact information, cashier identification, table number references, account number metadata, receipt numbering, and timestamp information. The POS structure contains subtotal presentation, promotional voucher deductions, balance calculations, payment receipt formatting, EFT payment confirmation, and VAT-inclusive accounting aligned in standard UK restaurant thermal receipt formatting. Additional receipt elements include promotional savings summaries, parking voucher references, VAT registration information, and separate transaction receipt numbering for the payment section. The layout reflects a standard United Kingdom restaurant thermal receipt with integrated payment confirmation and VAT accounting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Old Manor Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d816a2eb-4bc5-49a0-8bf1-da550a600d40",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "The Old Manor\nRG12 1BP\n01344 304490\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4040fb0a-1f02-427c-aee5-9a5e316ab852",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTill 3",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Lisa",
+          "total": "13 Oct 2016   11:19"
+        },
+        {
+          "quantity": "",
+          "description": "Table: 20",
+          "total": "Acc No: 9244"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n1\tBreakfast Offer",
+          "total": "\n\n=\t4,54"
+        },
+        {
+          "quantity": "",
+          "description": "1 Eggs Benedict",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Large Cappuccino",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1\tBreakfast Offer",
+          "total": "=\t4,54"
+        },
+        {
+          "quantity": "",
+          "description": "1 Eggs Benedict",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Large Cappuccino",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "875dee58-bb62-4ec2-847f-0d244210605f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£9.08"
+        },
+        {
+          "quantity": "",
+          "description": "CarPark Vouc",
+          "total": "-£1.00"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt no. 14/2768",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2b36df19-d834-4c08-8f54-8b883f26ab3a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Balance",
+          "total": "£8.08"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cfd9eafd-8e49-4173-95fe-3474439cdfe5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Total promotional savings     £1.20\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "688bda09-ffff-4f92-8e2a-e0daccc32b45",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Payment Receipt\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42010d62-b541-4b13-aa80-90407fba22eb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "EFT",
+          "total": "£8.08"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT included",
+          "total": "£1.34"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt no. 14/2769",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Vat No: 396 331 433",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "nWiQRRLa42jKQIPwjMEc"
+}

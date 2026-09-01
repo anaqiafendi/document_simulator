@@ -1,0 +1,135 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Saint Laurent Paris Receipt",
+  "slug": "Saint-Laurent-Paris-Receipt",
+  "createdAt": "$D2026-02-07T12:14:23.099Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "€",
+  "textColor": "#101828",
+  "numberFormat": "RIGHT_SPACE",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "8274e281-7dc7-4a33-bcd5-c5f253fbe504",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FdYNaFA6blGWiDYKerdl7E1i6rAx1%2Fe47d3211-e2c3-4241-a2b9-c9f79063c2b8-Saint-Laurent-logo.png?alt=media&token=5ba73b86-20c1-4b08-9498-970f29d76981",
+      "size": 274,
+      "businessDetails": "\n\n\nBOUTIQUE FRANCE\n37–39 RUE DE BELLECHASSE,\n 75007 PARIS\nSIREN : 429 057 276  TVA : FR76429057276\nSASU AU CAPITAL DE 418 000 €",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTrans #16068 \nDate: 21/05/2025 16:05:25\nStore: 001 Register: 2\nCashier:AA3/AA223\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "CASSANDRE \nTHIN BELT\nWITH SQUARE BUCKLE IN\nBOX SAINT LAURENT LEATHER",
+          "total": "395,00 "
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Tot.HT:",
+          "value": " 329,17 "
+        },
+        {
+          "title": "TVA 20%:",
+          "value": "65,83"
+        }
+      ],
+      "total": "395,00 ",
+      "totalText": "Total:",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "N° carte:",
+          "value": "**** **** **** 2622"
+        },
+        {
+          "title": "Type:",
+          "value": "Debit"
+        },
+        {
+          "title": "Mode:",
+          "value": "Chip"
+        },
+        {
+          "title": "Date:",
+          "value": "21/05/2025 16:05 AM"
+        },
+        {
+          "title": "Réf.:",
+          "value": "YSL-TXN-654875F"
+        },
+        {
+          "title": "Statut:",
+          "value": "APPROUVÉ"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "POLITIQUE DE RETOUR\nLes retours sont acceptés dans un délai de 14 jours à compter de la date d’achat.\nL’article doit être non porté, en parfait état, avec son emballage d’origine et tous les accessoires.\nLes articles personnalisés ou gravés ne peuvent être ni échangés ni remboursés, sauf défaut de fabrication.\nLe remboursement sera effectué via le mode de paiement d’origine après vérification de l’article.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FdYNaFA6blGWiDYKerdl7E1i6rAx1%2F59c9b682-8e0f-4750-af4d-9caecc7c6192-barcode%20(4).png?alt=media&token=4bcb9647-e040-4f94-9a5d-3c5992b4a670",
+      "size": 264,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Luxury retail receipt from Saint Laurent Paris Boutique in France, detailing a designer accessory purchase, item description, price, VAT, total amount, debit card payment, transaction date and time, register details, and return policy information.",
+  "metatitle": "Luxury Gucci Receipt",
+  "metadesc": "authentic Gucci receipts with customizable boutique details, luxury items, pricing, and payment info for returns or records",
+  "parentName": "Ysl",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FbIn8jkaXIccrGjMAzigL%2FbIn8jkaXIccrGjMAzigL-67dab4c0-7f84-4a91-aed6-bc9a61caaafe.png?alt=media&token=cfe20118-2d86-40f9-9f92-64fbf9c00da2",
+  "published": true,
+  "id": "bIn8jkaXIccrGjMAzigL"
+}

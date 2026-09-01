@@ -1,0 +1,97 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Grailed Receipt",
+  "slug": "Grailed-Receipt",
+  "createdAt": "$D2025-09-30T15:39:12.696Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F61ac6ad6-ed26-42a6-94e0-f2db64af219f-logo.png?alt=media&token=968d1d2e-7ce5-4a4f-80f9-4ae5b05093b9",
+      "size": 208,
+      "businessDetails": "Congrats on Your Purchase!",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d13b91c2-8b27-4729-893c-b66636d6d687",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ITEM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb9861a8-25bf-4af5-8b38-e389babee7a4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Christian Louboutin\nSo Kate Pumps\nHeels\nUS 8 / EU 38.5\n\nSHIPPING DETAILS",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4d5b342-3451-4f25-ba67-4a675826f37a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Isabella Grant\n472 Maplewood Drive\nLos Angeles, CA 90042\nUS\n\nPAYMENT",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c85f1735-360c-4108-a604-c81fec48d151",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Sold Price",
+          "total": "725"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "725",
+      "totalText": "TOTAL",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7e7e2d4-48a2-4df9-b5df-88c855a1ed39",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Your Seller is Located in: Italy",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "abe4edbd-fb09-44ac-b085-caf725c84186",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Estimated Shipping Time\n\nInternational: 3-6 weeks (or longer)\n\nSellers have up to 7 days to ship the item and provide tracking. We'll send you an email as soon as the item is on its way. If you have any questions, you can reach out to the seller.\n\nIf you don't receive tracking within 7 days, Grailed is here to help. We'll cancel the order and issue you a full refund.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FXMEnPvDSdORE9arZ0EGz%2FXMEnPvDSdORE9arZ0EGz-60ab212b-8be9-4bcc-8757-84b62c0d5efd.png?alt=media&token=5939aaab-168d-4fd5-a95b-781affce49b6",
+  "description": "Need a Grailed receipt? Easily generate a custom fashion purchase record with our free tool. Add seller info, item details, prices, tax, and payment—perfect for proof of purchase or resale documentation.",
+  "published": true,
+  "metatitle": "Grailed Purchase Receipt",
+  "metadesc": "realistic streetwear receipts with customizable seller info, item details, pricing, and payment data for any fashion purchase",
+  "id": "XMEnPvDSdORE9arZ0EGz"
+}

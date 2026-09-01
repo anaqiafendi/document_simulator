@@ -1,0 +1,56 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Ulta Beauty Receipt",
+  "description": "This cosmetics retail receipt from Ulta Beauty includes the stylized brand logo at the header followed by the store address in Pittsburgh, Pennsylvania, and a contact phone number. The receipt contains transaction number, store and register identifiers, cashier name, and a timestamp with date and time. A structured item pricing table is presented with regular price and extended price columns. The financial summary section lists subtotal, tax rate, tax total, final total, cash tendered, and change due. The footer features a promotional survey message offering a gift card incentive along with a survey website link, consistent with beauty retail point-of-sale receipt formatting.",
+  "slug": "Ulta-Beauty-Receipt",
+  "createdAt": "$D2026-02-19T15:08:37.186Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "79e23f96-4380-4319-ac9a-9773d995dfae",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9f6e51bc-00aa-4e3c-ad28-c6d4ee1a51f5-ultra.jpg?alt=media&token=7a5598b0-650d-4f99-b324-1451a7cf142b",
+      "size": 174,
+      "businessDetails": "Pittsburgh\n1310 Settler Ridge Center Dr\nPittsburgh, PA 15205\n412-787-8780",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b0be34cd-6b88-4cd2-a9e4-c03b1f687bda",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "TRANS 1917     DATE 2/20/16     TIME 12:29 PM\nSTORE 484      REG 3            CASHIER Kiersten",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "c8b8d7fb-3ef0-435d-99aa-958b196dedd3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ITEM  REG PRICE    EXT PRICE\n----------------------------------- \nMAY LASH SEN LUSCI WSH       $7.19\n BLK 0.32OZ\n041554460247       8.99        \n20% Off One Item CPN \n(1.80) 999000003732\n\nTOO FACED CHOCOLATE BAR       $49.00\nEYESHADOW\n651986410132                    \n\nSUBTOTAL                  $56.19\nTAX   7%                  $3.93\nTAX TOTAL              $3.93\nTOTAL                      $60.12\n\nCASH                       $61.00\nCHANGE\nCASH                      ($0.88)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "23e62467-2265-4b1e-ac5f-6ace328086c5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "WIN A $500 GIFT CARD\nGO ONLINE AND SHARE YOUR THOUGHTS ABOUT\nULTA.\nEACH MONTH ONE SURVEY WILL BE RANDOMLY\nSELECTED TO WIN A $500 ULTA GIFT CARD.\nSEE WEBSITE FOR RULES\nHTTP://SURVEY.ULTA.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9dKpiQfTpv7PJLJdwFB1%2F9dKpiQfTpv7PJLJdwFB1-a9a26f2f-becd-4d76-b719-36fb1239d4a0.png?alt=media&token=342ff572-0d72-4673-821a-719c04960003",
+  "published": true,
+  "id": "9dKpiQfTpv7PJLJdwFB1"
+}

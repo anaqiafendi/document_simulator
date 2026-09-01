@@ -1,0 +1,241 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T11:21:25.368Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "1c7cb637-da14-4bb0-8e68-22731e1ed886",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "  CITYHALLEN\nMACHTMEISTER KARLSKRONA",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1fb4cc1-5b8e-420d-bc63-8a4c44435f25",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "  EV RABATTER STAR SIST PA KVITTOT",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1680a77a-b0c1-4c0c-9f17-38a7e91dcdb8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " \nForce :32   ka:   4   Nr: 6795\nDatum: 2008-07-11  Kv: 4  kr: 6795",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cf4f77c-d91e-4edb-8e19-868bb3d32fbc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Breqqtti xs",
+          "total": "28.90"
+        },
+        {
+          "quantity": "",
+          "description": "Chios Original",
+          "total": "19.90"
+        },
+        {
+          "quantity": "",
+          "description": "Drom Vogel B1.Hal",
+          "total": "15.90"
+        },
+        {
+          "quantity": "",
+          "description": "Fruktsoda ",
+          "total": "8.90"
+        },
+        {
+          "quantity": "",
+          "description": "+Pant ",
+          "total": "1.00"
+        },
+        {
+          "quantity": "",
+          "description": "ICA filter vit 1x4",
+          "total": "14.90"
+        },
+        {
+          "quantity": "",
+          "description": "Indian Popcorn Che",
+          "total": "11.50"
+        },
+        {
+          "quantity": "",
+          "description": "Marlbro Red ",
+          "total": "49.00"
+        },
+        {
+          "quantity": "",
+          "description": "Matsäck  ",
+          "total": "12.90"
+        },
+        {
+          "quantity": "",
+          "description": "Mellanmjolk Klover",
+          "total": "6.90"
+        },
+        {
+          "quantity": "",
+          "description": "Melon Vatten",
+          "total": "28.61"
+        },
+        {
+          "quantity": "",
+          "description": "1.920kg*14.90kr/kg",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Plastkasse",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "Rund smorgastarta 2st*1.50",
+          "total": "84.90"
+        },
+        {
+          "quantity": "",
+          "description": "Rokt skinka Butik",
+          "total": "18.07"
+        },
+        {
+          "quantity": "",
+          "description": "Agg 6 pack",
+          "total": "14.90"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "886b6f42-836f-4074-bd80-d06fd147c0c1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n324.88"
+        },
+        {
+          "quantity": "",
+          "description": "Momsk    Moms     Netto     Brutto",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "25.00    13.38    93.52     66.90",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "12.00     27.64   230.34    257.98",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nKOP MAESTRO",
+          "total": "\nSEK 324.88"
+        },
+        {
+          "quantity": "",
+          "description": "\nKortnr: **** **** **** 0274     1104",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nButik: 0272371 ",
+          "total": "\n\nAukt.nr: 318096"
+        },
+        {
+          "quantity": "",
+          "description": "Termnr: 88020106",
+          "total": "DA1000 5 FS"
+        },
+        {
+          "quantity": "",
+          "description": "Refnr: 080711984052",
+          "total": "Personlig Kod"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "2008-07-11 18:06"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nBonus ICA KORT ONLINE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Kortnr: **** **** **** 7083",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Termnr: 88020106 ",
+          "total": "D0I5"
+        },
+        {
+          "quantity": "",
+          "description": "Butik: 0272371 ",
+          "total": "2008-07-11 18:06"
+        },
+        {
+          "quantity": "",
+          "description": "ICA Bonusgrundande belopp: 324,88",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0f0c30b-76d1-4079-be37-deb20277e860",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nVALKOMMEN ATER\nOPPET ALLA DAGAR  8-22",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Cityhallen Receipt",
+  "description": "This receipt is issued by Cityhallen in Karlskrona, Sweden. The header contains the store branding, transaction date and time, and a notice regarding discounts. The receipt includes an itemized list of grocery purchases with prices in Swedish Krona (SEK), including weighted products priced per kilogram. The financial section records the transaction total together with a detailed MOMS (VAT) breakdown showing taxable amounts at 25% and 12% VAT rates. The payment section confirms settlement using a Maestro card and includes masked card details, terminal information, authorization references, and PIN verification. The footer contains ICA Bonus loyalty information, the qualifying purchase amount, a welcome message, and store opening hours. The overall layout is representative of a Swedish supermarket POS receipt, combining VAT reporting, loyalty-program tracking, EMV card payment, and retail transaction reconciliation within a compact receipt format.",
+  "slug": "Cityhallen-Receipt",
+  "published": true,
+  "id": "Q3PLBFjA5BTFqf8QDOCo"
+}

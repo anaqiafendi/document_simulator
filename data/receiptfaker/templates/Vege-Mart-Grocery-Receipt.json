@@ -1,0 +1,158 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T11:42:10.432Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Vege Mart Grocery Receipt",
+  "description": "This receipt is a retail transaction from Vege Mart, a grocery store specializing in organic produce. It lists items such as romaine lettuce and pakoy (bok choy), priced per kilogram with quantities and discounts applied. The receipt shows subtotal, total discount, and final amount paid in cash. It also includes cashier information, receipt number, date and time, and a standard thank-you message in Indonesian. The format reflects a typical point-of-sale receipt used in local grocery markets.",
+  "sections": [
+    {
+      "id": "a5f54a4b-90c1-4d69-9f09-2935d34ca198",
+      "type": "HEADER",
+      "alignment": "RIGHT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F36f8c73c-b838-436d-9f27-88b41d04eb81-image%20(7).jpg?alt=media&token=29399823-b541-485a-83a7-9648a309c69c",
+      "size": 244,
+      "businessDetails": "Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3957fcd9-3063-4eb3-96b2-72d3277bf57d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n10-03-2026              ",
+          "total": "\n16.11.25"
+        },
+        {
+          "quantity": "",
+          "description": "No. Struk",
+          "total": "17"
+        },
+        {
+          "quantity": "",
+          "description": "Oleh:              ",
+          "total": "Sarah Astriani"
+        },
+        {
+          "quantity": "",
+          "description": "Alat Kasir",
+          "total": "VEGEMART KBP"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb610154-435a-4004-aeef-a383905d2e39",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nROMAINE ORGANIK BRI KBP / KG\n0.20 x @35,000                 5,950\nDisc: 15% (1,050)\n\nKCOY ORGANIK BRI KBP / KG\n0.40 x @35,000                11,900\nDisc: 15% (2,100)\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03e29511-dc4f-44d8-9538-8337341e31df",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal (2 items, 0.60 qty)  ",
+          "total": "21,000"
+        },
+        {
+          "quantity": "",
+          "description": "Total Diskon                   ",
+          "total": "3,150"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "43ccf7aa-0a62-450b-818d-95f6fd3a98dc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total                         ",
+          "total": "17,850"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8b251334-649a-410d-92d2-ddaed4dd2701",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Tunai                         ",
+          "total": "17,850"
+        },
+        {
+          "quantity": "",
+          "description": "Kembalian",
+          "total": "0"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9fc486e4-c9ee-4466-9e61-41dde5308360",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "QR",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f393c7d-f884-4495-b602-f23417638452",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTerima Kasih &\nSelamat Belanja Kembali\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Vege-Mart-Grocery-Receipt",
+  "published": true,
+  "id": "vc22elkXL5C1l6MuX1US"
+}

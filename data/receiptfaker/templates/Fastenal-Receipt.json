@@ -1,0 +1,106 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-06T13:36:50.194Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "6cc8f954-9c42-40e4-b425-ae972b3324cc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6d92f2df-bc8f-4c2c-aec8-c54e7c0fec3c-image%20(2).jpg?alt=media&token=a4a2644a-4a96-4ebe-a615-434d066e6f3b",
+      "size": 244,
+      "businessDetails": "\nFastenal Company: KYSHE\n128 Carter Ave\nLOUISVILLE, KY 40229\n502-957-0291\nMonday, June 29, 2020 3:40:45 PM\n\nAccount: KYSHECAST Invoice: 89630\n\n\nS/S TRUBOLT 3/8X3.75    50 x 1.67 EA\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "004b4eb9-3c4e-4012-9bc8-53b32e8b3b6b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "83.50"
+        },
+        {
+          "quantity": "",
+          "description": "S&H Charge",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "City Tax ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "County Tax",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "\n\n88.51"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf8d5e46-e825-4f71-81c6-f15e48c0f4ef",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nPayment Type: CreditCard\nCardholder Name: KATHY G. CAREY\nAccount No: XXXXXXXXXXXX3047\n\n\n # ITEMS SOLD: 1\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d0f91a68-8dee-47f7-8f90-6ced2edb3cfb",
+      "type": "BARCODE",
+      "size": 85,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4b2aada7-88f1-4937-8a5a-36cab6ba053e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank You For Your Business",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "980b9f9f-5764-4273-a792-352717ff3cd1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nBuy online at www.fastenal.com\nNo materials accepted for return without permission. All discrepancies must be reported within 10 days.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Fastenal Receipt",
+  "description": "$3e",
+  "slug": "Fastenal-Receipt",
+  "published": true,
+  "id": "ZJs4nNPqeGwJe81oInoF"
+}

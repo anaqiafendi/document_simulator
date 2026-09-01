@@ -1,0 +1,125 @@
+{
+  "name": "Walgreens Receipt example with Nicorette Inhaler, Nicoderm and 2 more items totalling 97 dollars 40 cents",
+  "slug": "Walgreens-Receipt-example-with-Nicorette-Inhaler-Nicoderm-and-2-more-items-totalling-97-dollars-40-cents",
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F12996a6e-bb5a-4226-9de2-f2bd5a9fcb3b.png?alt=media&token=dfe6d677-17f3-493f-a4f4-1a86ef743e8c",
+      "size": 225,
+      "businessDetails": "(423) 968 - 2258\nMANAGER RENE PUENTES\n3451 TRUXEL RD\nCHATTANOOGA, TN 37412\nST# 314 OP# 567 TE# 23 TR# 03111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "NICODERM",
+          "total": "53.99"
+        },
+        {
+          "quantity": 1,
+          "description": "NICORETTE INHALER",
+          "total": "35.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Sub Total",
+          "value": "89.98"
+        },
+        {
+          "title": "Tax",
+          "value": "7.42"
+        }
+      ],
+      "total": "97.40",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "CREDIT"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "04/10/2025 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "4/10/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "# ITEMS SOLD 2\n\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "OSv0G3euAkgVBVeBZPcSS9Q6kWg1",
+  "createdAt": "$D2025-05-07T10:03:59.080Z",
+  "backgroundCrumpled": false,
+  "isParent": false,
+  "description": "This receipt was created with ReceiptFaker generator based on **Walgreens Receipt** template on **May 7, 2025**.",
+  "parentName": "Walgreens Receipt",
+  "parentId": "QGJiuNA9wtWrrxjWR2tW",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FXlJaUGLzN4zAo9N7Po07%2FXlJaUGLzN4zAo9N7Po07-5f3a2f8f-6c2a-473b-babc-ec2d22b327ab.png?alt=media&token=1eb281b8-e8e0-47ed-8d82-c3abfe78dc48",
+  "published": true,
+  "metatitle": "Walgreens Receipt",
+  "metadesc": "realistic Walgreens pharmacy receipts with smoking cessation products like Nicorette and Nicoderm for personal or business use",
+  "id": "XlJaUGLzN4zAo9N7Po07"
+}

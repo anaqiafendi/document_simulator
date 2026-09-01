@@ -1,0 +1,263 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-26T14:47:20.117Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "FoodMaxx Receipt",
+  "description": "This receipt is issued by FoodMaxx and identifies the location as 3825 Highway 99 East. The header contains store branding, location details, store number, cashier identification (Dean J), and the transaction date and time. The receipt includes an itemized purchase summary organized by supermarket departments, including Grocery, Dairy/Deli/Frozen, Produce/Garden, Meat, Bakery, and Coupons. The financial section records the subtotal, total tax, final transaction total, payment by debit, and change due. The footer summarizes the total number of items purchased and the total savings obtained through store coupons. The overall layout is representative of a United States supermarket POS receipt, combining department-based itemization, promotional coupon reporting, debit-card payment processing, and retail transaction reconciliation within a compact receipt format.",
+  "slug": "FoodMaxx-Receipt",
+  "sections": [
+    {
+      "id": "11bf5e57-3588-47f7-8058-7db3337bfd0a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F20a84d98-a8d0-40a0-b903-60a88bfd3f07-image%20(13).jpg?alt=media&token=175d3888-764a-4b61-83be-0444441f2221",
+      "size": 282,
+      "businessDetails": "FoodMaxx\n3325 Highway 5C East\n(775) 805-7400\nStore: 446\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "25ed9743-7fc5-4777-a843-1695a257cb43",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Cashier: Dean J\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04470a80-7dcb-4cf0-bd2d-925b72d35061",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "02/26/25                    10:25:24",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0358c0ac-5f4e-480e-b581-b53d2f8d4641",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nGROCERY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "HUNT'S SF PONG C/V",
+          "total": "1.29F"
+        },
+        {
+          "quantity": "",
+          "description": "HUNTS SF PONG VAN",
+          "total": "1.29F"
+        },
+        {
+          "quantity": "",
+          "description": "MONK JC MNNI LOCO",
+          "total": "2.75F"
+        },
+        {
+          "quantity": "",
+          "description": "MONK JUE RIO MUCH",
+          "total": "2.75F"
+        },
+        {
+          "quantity": "",
+          "description": "DAIRY - DELI - FROZEN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "DAISY SOUR CREAM",
+          "total": "2.95F"
+        },
+        {
+          "quantity": "",
+          "description": "SNKR WLGHT MN CHP",
+          "total": "12.99F"
+        },
+        {
+          "quantity": "",
+          "description": "4L BRUSSEL SPSTS",
+          "total": "2.45F"
+        },
+        {
+          "quantity": "",
+          "description": "4SL BRUSSEL SPATS",
+          "total": "2.45F"
+        },
+        {
+          "quantity": "",
+          "description": "PRODUCE - GARDEN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "FARM GDN BSL HERB",
+          "total": "4.95F"
+        },
+        {
+          "quantity": "",
+          "description": "0.90 lb @ 1.lb / .79",
+          "total": ".71F"
+        },
+        {
+          "quantity": "",
+          "description": "ONION YELLOW",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PTO SIERRA OLD 5LB",
+          "total": "4.45F"
+        },
+        {
+          "quantity": "",
+          "description": "5LG CRIMONK MSHRM",
+          "total": "3.00F"
+        },
+        {
+          "quantity": "",
+          "description": "MEAT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BF PIE'S EAK BT MP",
+          "total": "18.22F"
+        },
+        {
+          "quantity": "",
+          "description": "BAKERY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "APPLE TURNOVERS 6C",
+          "total": "5.00F"
+        },
+        {
+          "quantity": "",
+          "description": "COUPONS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "RW MF MK DWN 6.00   5C",
+          "total": "-6.00F"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSUB TOTAL",
+          "value": "\n59.53"
+        },
+        {
+          "title": "TOTAL TAX",
+          "value": ".00"
+        },
+        {
+          "title": "TOTAL",
+          "value": "59.53"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff4d54f1-7967-4876-a1f2-1ff8bd7f1538",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DEBIT TENDER   TENDER",
+          "total": "59.53"
+        },
+        {
+          "quantity": "",
+          "description": "Acct: xxxxxxxxxx",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "APPRVL CODE",
+          "total": "793534"
+        },
+        {
+          "quantity": "",
+          "description": "Cas Ref#",
+          "total": "du783kgs"
+        },
+        {
+          "quantity": "",
+          "description": "CASH          CHANCE",
+          "total": ".00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "af7969db-21eb-4802-b327-80879cc61599",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNUMBER OF ITEMS   14",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73dedb64-e3d8-4ee4-9b85-eeada6452114",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nStore Coupons",
+          "total": "\n6.00"
+        },
+        {
+          "quantity": "",
+          "description": "YOU SAVED A TOTAL OF",
+          "total": "6.00"
+        },
+        {
+          "quantity": "",
+          "description": "THAT'S A SAVINGS OF   9%",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "UVUFJXOniMuof2HwoFXw"
+}

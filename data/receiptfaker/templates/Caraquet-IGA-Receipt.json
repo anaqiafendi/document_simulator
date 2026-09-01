@@ -1,0 +1,192 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T17:37:53.765Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "741d45c5-4aa5-45f4-bb77-475758f45e52",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F31f4af8f-101f-4b9c-998f-8eee183505f4-image.jpg?alt=media&token=dbbaac22-ecd7-422c-aaff-7090757916d5",
+      "size": 261,
+      "businessDetails": "BIENVENUE CHEZ COOP IGA EXTRA CARAQUET Tel#: 506-727-0295\nIGA, Vive la bouffe et le bon service\n\n\nServi par: Libre Service 20\n\nNuméro carte membre *******382",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9fcbfc22-f4ae-44fd-ab4c-dd4fb80f7149",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nEPICERIE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "DIAN SAUCE MIEL AIL",
+          "total": "$$5.49"
+        },
+        {
+          "quantity": "",
+          "description": "CEREALES NATURE BIO ",
+          "total": "$$5.49"
+        },
+        {
+          "quantity": "",
+          "description": "Rabais sur le prix courant: $0.80",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SCE DI CAMPANA MARI",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "Rabais sur le prix courant: $1.30",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CLAS SCE TOM AIL ",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "Rabais sur le prix courant: $1.30",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CLAS SCE TOM BASILIC",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "Rabais sur le prix courant: $1.30",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CLAS SCE TOM BASILIC",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "PHIL FR CRM REG BRIQ ",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "POINTS OBTENUS ",
+          "total": "80 PTS"
+        },
+        {
+          "quantity": "",
+          "description": "Rabais sur le prix courant: $0.30",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PHIL FR CRM REG BRIQ",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "PHIL FR CRM REG BRIQ ",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "Rabais sur le prix courant: $0.30",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PHIL FR CRM REG BRIQ",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "Rabais sur le prix courant: $0.30",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSOUS-TOTAL ",
+          "value": "\n$50.90"
+        },
+        {
+          "title": "Taxe",
+          "value": "$$0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d61fab1e-2001-4f14-9e4a-8d831ca84727",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n$50.90"
+        },
+        {
+          "quantity": "",
+          "description": "AMEX          Media ",
+          "total": "$$50.90"
+        },
+        {
+          "quantity": "",
+          "description": "ARGENT        Monnaie  ",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Nombre d'articles",
+          "total": 10
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6f2153b-59f1-4891-91cc-79b836345215",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMerci de votre visite!\nThank you for shopping with us!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Caraquet IGA Receipt",
+  "description": "IGA grocery retail receipt issued from the Coop IGA Extra Caraquet location in Canada. The header prominently displays the IGA branding followed by the store identification, telephone number, customer-service slogan, service register information, and a masked member-card reference. The main transaction section follows a traditional supermarket thermal POS format with a grocery category heading, itemized entries, promotional discount lines, and loyalty points earned during the transaction. Multiple reductions are identified separately beneath their associated entries, providing a clear record of promotional savings. The financial summary records the subtotal, applicable tax, and prominently displayed final total. The payment section identifies American Express as the tender method and records the payment amount and change, while the lower portion provides the total number of items included in the transaction.",
+  "slug": "Caraquet-IGA-Receipt",
+  "published": true,
+  "id": "1vRKSmd7OCdYis7HCsDS"
+}

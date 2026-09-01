@@ -1,0 +1,97 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Fastop Receipt",
+  "description": "This receipt is issued by Fastop and identifies the location as Fastop #206, 3507 E AJ Highway, Morristown, Tennessee. The header contains the Fastop name, store number, street address, and contact telephone number. The document is identified as a prepaid receipt and records a Prepay CA #08 transaction for $2.29. The financial section shows a subtotal and final total of $2.29, with $10.00 paid in cash and $7.71 returned as change. The footer contains the store reference, drawer number, transaction number, cashier reference, transaction date and time, and customer appreciation messages encouraging the customer to return and drive safely. The overall layout is representative of a United States convenience-store POS receipt, combining a prepaid transaction, cash payment reconciliation, and store transaction information.",
+  "slug": "Fastop-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T12:30:54.501Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "84bc6473-8e6b-448d-a373-2747e00ea199",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa4cc7f5f-cfcd-4e07-9959-4bcef1770f12-image%20(4).jpg?alt=media&token=8d211a75-725e-4bd2-b056-fdfc58e564cc",
+      "size": 232,
+      "businessDetails": "3507 E AJ HWY\nMORRISTOWN, TN 37813\n423-307-5750\n****************\nFASTOP 206\n3507 E AJ HWY\nMORRISTOWN TN 37814\n\n***PREPAID RECEIPT***\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa04fe44-64a6-495f-bff7-d7c76223ba4d",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Description      Qty      ",
+          "value": "Amount"
+        },
+        {
+          "title": "-------         ------",
+          "value": " ------"
+        },
+        {
+          "title": "PREPAY CA #08 ",
+          "value": "2.29"
+        },
+        {
+          "title": "",
+          "value": "Subtotal        2.29"
+        },
+        {
+          "title": "TOTAL",
+          "value": "2.29"
+        },
+        {
+          "title": "",
+          "value": "CASH  $        10.00"
+        },
+        {
+          "title": "",
+          "value": "Change $       -7.71"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd4290f4-53b5-44eb-865f-6b65616d3295",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTHANK YOU FOR VISITING\nCOME AGAIN\nDRIVE SAFELY ! ! ! !\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c916823-1def-42d3-9c7a-44cf5d366860",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "ST#FS206 ",
+          "value": " DR#1  TRAN#1025847"
+        },
+        {
+          "title": "CSH: 1 ",
+          "value": "12/26/25 10:17:01 AM"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "ZAENdy5neWVq7rSpFZpv"
+}

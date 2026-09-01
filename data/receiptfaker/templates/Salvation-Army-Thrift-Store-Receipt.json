@@ -1,0 +1,108 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-14T17:22:11.082Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "caddbed5-1bf7-4eec-abfd-393bf6555371",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5b282856-917d-4bfc-acc9-7c9db4716c90-image.jpg?alt=media&token=0bd939a3-68c7-4e46-b8de-39833ecce247",
+      "size": 256,
+      "businessDetails": "\nThank You for Supporting\nThe Work of The Salvation Army!\n\n2659 Alta Vista Drive\nOttawa, ON\n613 523 9059\nwww.thriftstore.ca\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0b90c1a2-2365-4213-8322-f99564f95276",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "9/11/2014  1:39:01 PM ",
+          "total": "Valentina"
+        },
+        {
+          "quantity": "",
+          "description": "\nHOUSEWARES",
+          "total": "\n$0.69"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a28c6ce7-e002-4666-8f93-f20429dfdb4a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n$0.69"
+        },
+        {
+          "quantity": "",
+          "description": "Rounding ",
+          "total": "($0.01)"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "$$0.75"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE ",
+          "total": "$$0.05"
+        },
+        {
+          "quantity": "",
+          "description": "Item count: 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Trans:207422",
+          "total": " Terminal:030201015-153"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84de5acd-4efc-4f70-9192-05d0fa03e4a1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n7 Day Exchange on Clothing Only\nWith Receipt and Price Tag(s) Attached.\n\n\nWe Gratefully Accept Clothing,\nFurniture and Houseware Donations!\n\n\nwww.thriftstore.ca",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by The Salvation Army Thrift Store and identifies the store as 2659 Alta Vista Drive, Ottawa, Ontario. The header contains the store branding, address, contact telephone number, website, transaction date and time, and cashier identification (Valentina). The receipt records the purchase of a single housewares item. The financial section includes the total purchase amount, a cash-rounding adjustment, the cash tendered, and the change returned. The footer outlines the store's clothing exchange policy and encourages donations of clothing, furniture, and household goods. The overall layout is representative of a Canadian thrift store POS receipt, combining merchandise sales, cash-payment reconciliation, exchange policy information, and charitable messaging within a compact retail receipt format.",
+  "name": "Salvation Army Thrift Store Receipt",
+  "slug": "Salvation-Army-Thrift-Store-Receipt",
+  "published": true,
+  "id": "DkXon4aEglpKvnhKdc9R"
+}

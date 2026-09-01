@@ -1,0 +1,170 @@
+{
+  "currency": "",
+  "slug": "Paperchase-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T12:05:13.688Z",
+  "description": "This Paperchase retail receipt originates from Unit 93 at York Designer Outlet on St Nicholas Avenue in York. The header includes the brand name, unit number, store location, and telephone number. The transaction record contains a subtotal, promotional savings calculation, final total, electronic funds transfer payment entry, masked card number, date and time, till and transaction identifiers, and the serving employee’s name. The footer includes a Treat Me customer-program promotion, a machine-readable barcode number, a customer appreciation message, and a notice advising customers to retain the receipt as proof of purchase. The format is representative of a stationery, greeting-card, and specialty-gift retail point-of-sale receipt.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Paperchase Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "9612991f-75be-4a37-8e52-170fe6bac061",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3b9470bb-c3df-475d-9fd1-dedc96cf4dbf-image%20(3).jpg?alt=media&token=133563e9-2fc0-470d-8c6b-c66679937cb4",
+      "size": 261,
+      "businessDetails": "Paperchase\nUnit 93\nYork Designer Outlet\nSt Nicholas Avenue, York\nTel: 0333 016 7239\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42e0aa9f-8646-48cb-ac29-ac908eee8ff8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "PINA COLADA",
+          "total": "£2.50"
+        },
+        {
+          "quantity": "",
+          "description": "PINA COLADA",
+          "total": "£2.50"
+        },
+        {
+          "quantity": "",
+          "description": "PINA COLADA",
+          "total": "£2.50"
+        },
+        {
+          "quantity": "",
+          "description": "PINA COLADA",
+          "total": "£2.50"
+        },
+        {
+          "quantity": "",
+          "description": "CC ENJOY THE NEXT THREE YEARS",
+          "total": "£0.50"
+        },
+        {
+          "quantity": "",
+          "description": "TO MY FAVOURITE HUSBAND",
+          "total": "£1.00"
+        },
+        {
+          "quantity": "",
+          "description": "PULL OUT PRINCESS AGE 2",
+          "total": "£1.75"
+        },
+        {
+          "quantity": "",
+          "description": "CC ENJOY THE NEXT THREE YEARS",
+          "total": "£0.50"
+        },
+        {
+          "quantity": "",
+          "description": "COLD HARD LOOK IN MIRROR",
+          "total": "£0.50"
+        },
+        {
+          "quantity": "",
+          "description": "COLD HARD LOOK IN MIRROR",
+          "total": "£0.50"
+        },
+        {
+          "quantity": "",
+          "description": "SUB TOTAL",
+          "total": "£14.75"
+        },
+        {
+          "quantity": "",
+          "description": "Generic EFT",
+          "total": "-£5.00"
+        },
+        {
+          "quantity": "",
+          "description": "535566*****8003",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "76dc5a7f-99ef-4722-8ecb-f11fb3fd6285",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n********* PROMOTION *********\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b2ebc9ec-e6b8-476e-bb25-f8bb135721bc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "10 Cards for £/€5",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "You have saved",
+          "total": "-£9.75"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3d093e98-0177-437a-845e-49da8e803c66",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "03/02/23 10:58 3603 008585 0002\n\nYou were served by\nVanessa M.\n\nSign up for Treat Me in-store and\nreceive exclusive treats\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e3b03ddf-9cce-4441-ab88-1267865b4d78",
+      "type": "BARCODE",
+      "size": 79,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc2eff04-d625-40bc-a9cf-a514c1f8884b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0008585002360323020310574 44\n\nThank you for shopping at Paperchase\nPlease retain your receipt for\nproof of purchase",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "QW1p9BFoQkNqL6WSbSQK"
+}

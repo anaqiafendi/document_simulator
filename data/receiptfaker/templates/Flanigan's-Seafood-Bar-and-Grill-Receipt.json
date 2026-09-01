@@ -1,0 +1,132 @@
+{
+  "createdAt": "$D2026-02-26T13:31:11.966Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ded6e9d4-e2eb-45c0-91e1-d2f67529d042",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb5f4c59c-4aeb-427b-8c51-7ba52abac196-image%20(8).jpg?alt=media&token=357515a8-5cb1-499c-9ff5-3579bbc13f08",
+      "size": 217,
+      "businessDetails": "FLANIGAN'S  #40\nNORTH LAUDERDALE\n0140  Table 60  #Party 1\nJEANETTE  Srvr: 21 15:20 10/11/23\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cde2757e-7fff-4571-b956-54efe4a558e6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e27c6add-1e3b-4c15-b763-632252398b45",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a52b641-706a-4349-8420-07787506c3af",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Suggested Gratuity:\nGOOD: 18%       1.71\nBETTER:20%      1.90\nBEST: 22%       2.09\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f63e471d-f899-43b2-a772-964e77c4c71e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBUY ONE GET ONE FREE VOLI 305 VODKA 750ml\nSAVE: $19.99 at any BIG DADDY'S WINE & LIQUORS\nRemit this receipt or order online at \nbigdaddysliquors.com\nUse Promocode: 305\nWhile supplies last \nLimit 2 BOGOs/cust\nExpires10/29/23",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "metatitle": "Tim Hortons Receipt",
+  "metadesc": "realistic Tim Hortons receipts with custom coffee, food items, store details, and payment info using our free generator tool",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Flanigan’s Seafood Bar and Grill Receipt",
+  "description": "This receipt is issued by Flanigan’s Seafood Bar and Grill, Store #40, North Lauderdale. It includes table identification (Table 60), party count (#Party 1), server identification (JEANETTE, Srvr: 21), and timestamp 10/11/23 with transaction time 15:20 and total finalized at 15:54. The receipt presents a subtotal, tax, and total section, followed by cash tendered and change due. A suggested gratuity section displays calculated tip options at 18%, 20%, and 22%. The footer contains a promotional advertisement for BIG DADDY’S WINE & LIQUORS, including offer details, website reference, promo code, purchase limits, and expiration date. The structure reflects a casual dining restaurant POS system with integrated promotional coupon messaging and gratuity guidance.",
+  "slug": "Flanigan's-Seafood-Bar-and-Grill-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FtdNo5gMwCkhXq0myA6OZ%2FtdNo5gMwCkhXq0myA6OZ-0107a6c0-5f6c-49b7-a18f-edc47d6b73db.png?alt=media&token=33bd4aaa-58a3-4e9f-b630-438d4d33cf12",
+  "published": true,
+  "id": "tdNo5gMwCkhXq0myA6OZ"
+}

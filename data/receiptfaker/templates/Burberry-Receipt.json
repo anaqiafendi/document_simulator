@@ -1,0 +1,142 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Burberry Receipt",
+  "slug": "Burberry-Receipt",
+  "createdAt": "$D2025-09-30T08:09:22.418Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F78f3fc47-31fb-41dd-93b9-b44776d2eb14-pngegg.png?alt=media&token=09baf47d-10ac-404f-ba1e-7f482fb9e1c5",
+      "size": 206,
+      "businessDetails": "Shops at Crystals\n3720 S. Las Vegas Blvd Las Vegas\nNV 89158\n702 560 5022",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Trans: 14005 Register: 1\nDate: 9/30/2025 Time: 11:06 AM\nStore: 4068\nSalesperson: 50126686\nCashier: 50126686\nCustomer: 400010142184",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "58e31e6a-97f5-4ec1-b762-6e90333d8d01",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Item",
+          "value": ""
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Amount",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Eyewear 40816801",
+          "total": "560.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "560.00"
+        },
+        {
+          "title": "Tax",
+          "value": "46.90"
+        }
+      ],
+      "total": "606.90",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please keep this receipt as proof of purchase. Returns of full-price items are accepted within 30 days, and sale items within 14 days. Items must be unused, in original condition, with all tags attached. Personalized, pierced, or fragrance items are non-returnable. Refunds are issued to the original payment method. Exchanges are not available; please return and place a new order.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FzIoqmkuACDO8gqk3NRsi%2FzIoqmkuACDO8gqk3NRsi-6a601526-60d0-4e48-b6de-f46a35af80e4.png?alt=media&token=25a15307-3aae-4232-8717-f0fadea5a8b2",
+  "description": "Need a Burberry receipt? Use our free tool to make a detailed luxury purchase record. Add store info, item details, prices, tax, and payment—ideal for proof of purchase, returns, or insurance documentation.",
+  "published": true,
+  "metatitle": "Luxury Burberry Receipt",
+  "metadesc": "authentic Burberry luxury receipts with store details, item descriptions, prices, tax, and payment info for returns or records",
+  "id": "zIoqmkuACDO8gqk3NRsi"
+}

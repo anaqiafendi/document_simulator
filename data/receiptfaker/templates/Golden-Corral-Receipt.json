@@ -1,0 +1,146 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T06:40:27.197Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e1259395-d7be-4405-9516-b50e97e171e1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbb839ceb-0e24-402d-b93e-dfb8b4cc1090-image%20(7).jpg?alt=media&token=13e67ee4-9a10-4f96-b232-e09fda453f82",
+      "size": 242,
+      "businessDetails": "2498 - Hanover, MD\n7047 Arundel Mills Blvd.\nHanover, MD 21076\n410-799-0959\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6aef4fc5-025c-4b81-a9b0-2050716b51ad",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "# ASAAD B",
+          "total": "04/20/2025"
+        },
+        {
+          "quantity": "",
+          "description": "2283  Dine In",
+          "total": "03:06 PM"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "99f2a5fd-70f2-44b9-80e2-3d32a1c64ecb",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tell Us How We Did For A Chance\nTO WINA $50 Golden Corral Gift Card!\nVisit www.MyGCExperience.com\nSURVEY CODE: 24980420250306\nFor Complete Details, Visit\nwww.MyGCExperience.com\nDisponible En Espanol",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "064c031b-103b-4a50-99f6-c83fc9b9bcb4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Item",
+          "total": "Price"
+        },
+        {
+          "quantity": "",
+          "description": "HOLIDAY ADULT BUFFET",
+          "total": "$$19.49"
+        },
+        {
+          "quantity": "",
+          "description": "HOLIDAY ADULT BUFFET",
+          "total": "$$19.49"
+        },
+        {
+          "quantity": "",
+          "description": "LARGE FOUNTAIN BEVERAGE ",
+          "total": "$$3.99"
+        },
+        {
+          "quantity": "",
+          "description": "FANTA STRAWBERRY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "LARGE FOUNTAIN BEVERAGE",
+          "total": "$$3.99"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$46.96"
+        },
+        {
+          "quantity": "",
+          "description": "\nTaxes",
+          "total": "\n$2.82"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n $49.78"
+        },
+        {
+          "quantity": "",
+          "description": "\nVisa Tendered",
+          "total": "\n$49.78"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f669d17b-7ddb-4477-a206-5b6abe59ff97",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nEnter/Scan Code in the App Within 3 Days",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "379cba66-c08a-4ae6-9ee9-2d79ad4a6b8e",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Golden Corral and identifies the restaurant as 7047 Arundel Mills Boulevard, Hanover, Maryland 21076. The header contains the restaurant location, contact telephone number, transaction date and time, customer name, transaction number, and indicates that the order was dine-in. The receipt records the purchase of two Holiday Adult Buffet meals and two Large Fountain Beverages, including Fanta Strawberry and Dr. Pepper. The financial section records the subtotal, applicable sales tax, and the final transaction total. The payment section confirms settlement using a Visa card. The receipt also promotes the MyCCExperience customer survey and provides the survey code together with instructions for participation. The overall layout is representative of a United States restaurant POS receipt, combining menu itemization, sales-tax reporting, electronic payment confirmation, and customer feedback information within a compact hospitality receipt format.",
+  "name": "Golden Corral Receipt",
+  "slug": "Golden-Corral-Receipt",
+  "published": true,
+  "id": "9GOXDVNxQ3eOv66GRODs"
+}

@@ -1,0 +1,270 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Yard House Receipt",
+  "description": "This receipt is a full-service restaurant transaction issued by Yard House at its Irvine, California location, including full address and contact information. It contains staff identification for management and server, along with a multi-guest order structure separating items by guest number. The receipt presents a detailed itemization of food and beverage orders, including appetizers ordered via digital ordering system and customized items. A structured financial summary includes subtotal, sales tax, and total amount due. It also includes gratuity guidance with suggested tip percentages and amounts, as well as duplicate receipt notation, reflecting a standard U.S. casual dining POS receipt format with multi-guest billing and tipping recommendations.",
+  "slug": "Yard-House-Receipt",
+  "createdAt": "$D2026-04-17T10:37:45.542Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d85b251e-9d91-4720-bb2c-7d0738bdbe83",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F804535ec-b3d5-4254-be20-c876ce8f7014-image%20(2).jpg?alt=media&token=069aca8f-127f-4f7e-8e72-06e8b5cb5634",
+      "size": 245,
+      "businessDetails": "\n71 Fortune Dr.\nIrvine, CA 92618\n949-753-9373\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "753ee8f3-739f-4d13-a27e-b68eade722ff",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nGeneral Manager: Scott Bystrom\nProudly Served by: Theodore S\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cc15cf3c-662b-4fa3-980a-8ee061201050",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Guest No. 1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84792c20-bd75-4561-a59a-1d345d996fce",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Chicken Nachos Grande",
+          "total": "17.49"
+        },
+        {
+          "quantity": 1,
+          "description": "*Ziosk Ordered Appetizer*",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Onion Ring Tower",
+          "total": "13.99"
+        },
+        {
+          "quantity": "",
+          "description": "  *Ziosk Ordered Appetizer*",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Water",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Water",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Water",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Water",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Water",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Water",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "House Cheesesteak Sandwich",
+          "total": "18.49"
+        },
+        {
+          "quantity": 1,
+          "description": " Cobb Salad",
+          "total": "15.49"
+        },
+        {
+          "quantity": "",
+          "description": " Add Chicken",
+          "total": "5.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d9553a4b-6db4-47e1-997a-6487fcdf837a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Guest No. 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "71d4ea08-c8cb-4059-a561-e7b25ddbb403",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "1 House Cheesesteak Sandwich  ",
+          "total": " 18.49"
+        },
+        {
+          "quantity": "",
+          "description": "French Fries",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1b1f359-b7ce-4f8d-ab56-b26149330f89",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Guest No. 3",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "842c56b3-e80a-4c0f-9ff4-c8879c7350d9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 Korean Cheesesteak Sandwich  ",
+          "total": "18.99"
+        },
+        {
+          "quantity": "",
+          "description": "French Fries",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a580ff4-e6a8-4507-a549-95ef023baf31",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Duplicate Receipt\nStored Order\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1bf1bde8-fe09-4f6f-969e-0a126b285813",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "126.93"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "9.84"
+        },
+        {
+          "title": "\nPlease pay this amount",
+          "value": ""
+        },
+        {
+          "title": "Total",
+          "value": " 136.77"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8698f6be-7198-4835-bdbb-f20de483bf70",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Gratuity Not Included. Suggested\namounts are provided for your\nconvenience.\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a24f491-07f5-49a7-9d7f-2716da0616c9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Suggested gratuity is 20%",
+          "total": " - $27.35"
+        },
+        {
+          "quantity": "",
+          "description": "calculated after tax  18%",
+          "total": "- $24.62"
+        },
+        {
+          "quantity": "",
+          "description": "and before discounts      15%",
+          "total": "- $20.52"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3XRv9beqbjFfpdG1MR5H%2F3XRv9beqbjFfpdG1MR5H-7922331c-2d0f-4217-895a-a9250240fe52.png?alt=media&token=e57c05f9-db9c-4c41-8f20-e7aedc40bc3a",
+  "published": true,
+  "id": "3XRv9beqbjFfpdG1MR5H"
+}

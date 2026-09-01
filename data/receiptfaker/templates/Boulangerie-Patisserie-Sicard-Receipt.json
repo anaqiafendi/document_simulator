@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "slug": "Boulangerie-Patisserie-Sicard-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T15:13:43.358Z",
+  "description": "This bakery receipt from Boulangerie Patisserie Sicard documents a cash transaction processed at the Avenue de Suffren location in Paris, France. The receipt includes bakery branding, full address details, telephone number formatting, French SIRET registration information, ticket numbering metadata, cashier/vendor identification, and timestamp information. The POS structure contains item quantity formatting, total amount presentation in euros, pre-tax amount references (“Hors Taxes”), cash payment confirmation (“Reçu ESPECES”), and VAT calculations with multiple French tax rates aligned in standard French bakery thermal receipt formatting. Additional receipt elements include barcode formatting, customer appreciation messaging, and business registration details near the footer. The layout reflects a standard French bakery and pastry shop thermal receipt with localized VAT accounting and cash payment processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Boulangerie Patisserie Sicard Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "849ad7ad-79e4-46a3-a88d-798f8cc0c0b8",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F89c19317-480d-4a7c-9e2d-892d591f3e0f-image.jpg?alt=media&token=dd46d5cd-3087-4fd2-bded-026ec6eac86a",
+      "size": 266,
+      "businessDetails": "\nTicket 935913-1\t\nEite le05/06/2018 a 14:12:02\t",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad857863-f103-4b92-8c41-8189e23cdcec",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\n\nVendeur : océane (2)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5fc0f01-b599-4923-8b7c-e13a9f992136",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\nQté",
+          "description": "Désignation",
+          "total": "\nPrix €"
+        },
+        {
+          "quantity": 1,
+          "description": "MILLE FEUILLE",
+          "total": "4,10"
+        },
+        {
+          "quantity": 1,
+          "description": "MILLE FEUILLE",
+          "total": "4,10"
+        },
+        {
+          "quantity": 1,
+          "description": "PIZZA LARDONS CHAMPIGNON",
+          "total": "5,50"
+        },
+        {
+          "quantity": 1,
+          "description": "COCA 33",
+          "total": "2,20"
+        },
+        {
+          "quantity": 1,
+          "description": "COCA 33",
+          "total": "2,20"
+        },
+        {
+          "quantity": 1,
+          "description": "\tHOT DOG",
+          "total": "5,60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fcbc563-9dda-4fcf-a398-03e08ece1cd6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTotal 23,70€\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b1e7b88b-d4ce-40f6-9050-552d5217fe6c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Hors Taxes",
+          "total": "22,03"
+        },
+        {
+          "quantity": "",
+          "description": "Reçu ESPECES (1x23.70)",
+          "total": "23,70"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTVA à 5,50%",
+          "total": "\n\n0,66"
+        },
+        {
+          "quantity": "",
+          "description": "TVA à 10,00%",
+          "total": "1,01"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e58a63cb-ef03-4add-b1b6-a16193b8f2eb",
+      "type": "BARCODE",
+      "size": 83,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "450de668-9803-49fc-9c53-e286a57777aa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nBOULANGERIE-PATISSERIE VOUS REMERCIE...\n\nMerci de votre visite et à très bientôt !\n*** Bonne dégustation !  ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "WPHDIZbrAJdRIk4llPnN"
+}

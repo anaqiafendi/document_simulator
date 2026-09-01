@@ -1,0 +1,194 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-03T18:28:25.436Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "9b33705f-77a1-46a7-83a8-8d1cc1c3b900",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc36927d6-6808-437e-a5e5-36c3a8d57587-image.jpg?alt=media&token=35d54254-5142-49ad-918e-1a8735761fb9",
+      "size": 261,
+      "businessDetails": "BACARDI MOJITO BAR\n18% GRATUITY ADDED TO ALL CHECKS",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "074ea4fe-cde2-4b98-b566-a6693ac945fb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n****Gratuity Included****\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fccd93d5-092c-4cc2-a408-9e02db26f59f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Order# 31434092"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Station# POS4"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Seat Count 1"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Server Claudie M"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Table 61"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Date:\n6/23/25 1:02 PM"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e1d53e30-4f04-4671-8e89-4ac406d0d359",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MOJITO CLASSIC",
+          "total": "$$20.99"
+        },
+        {
+          "quantity": "",
+          "description": "WINGS HNY GARLIC BBQ 5pc",
+          "total": "$$9.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1836f010-5883-4955-a9cd-319e1d662568",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total Item Count",
+          "total": "2"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "43f50b86-6bce-46dd-ad76-896753e21820",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$30.98"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tax",
+          "total": "$$2.48"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f0451ecf-34c4-4ae0-a1b5-e460d65bc247",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$33.46"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nGratuity 18%",
+          "total": "\n\n$5.58"
+        },
+        {
+          "quantity": "",
+          "description": "Sum Total",
+          "total": "$$39.04"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nOrder Balance due",
+          "total": "\n\n$39.04"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "867dad25-2744-4c3c-9413-deb9f93ef1cf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "  \n   ****Gratuity Included****",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Mojito Receipt",
+  "description": "This receipt is issued by Mojito and contains a notice stating that cards must be present and that an 18% gratuity is automatically added to all checks. The receipt includes POS transaction metadata such as order number, station identifier, seat count, server identification (Claudia M), table number, and transaction date and time. The financial section records the subtotal, sales tax, transaction total, automatic gratuity amount, final amount due, and outstanding order balance. The receipt concludes by reiterating that gratuity has been included in the total. The overall layout is representative of a United States full-service restaurant POS receipt, combining table-service management, automatic gratuity reporting, tax calculation, and transaction reconciliation within a compact hospitality receipt format.",
+  "slug": "Mojito-Receipt",
+  "published": true,
+  "id": "T3yRHkt9pWN7SDhgWSal"
+}

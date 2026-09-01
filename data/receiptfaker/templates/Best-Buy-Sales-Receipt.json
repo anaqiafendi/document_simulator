@@ -1,0 +1,114 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-06T13:57:59.454Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f3cb8649-9c26-4c88-963a-a63c6f57c9d9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "WELCOME TO BEST BUY #1193\nCOLLEGEVILLE, PA 19426\n(610)409-7879\nKeep your receipt!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a589b62c-58b5-497f-99a3-59c2687c8ddb",
+      "type": "BARCODE",
+      "size": 85,
+      "length": 521,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b028530a-3f7c-4410-adb9-0e2fe50d8586",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVal #: 0434-0893-4753-6000\n1193 003 4029 03/26/12   20 14 008\n \n2736048  34048                 29.99\nPS3-BEAR RISING 2: OFF THE RE\nITEM TAX  1.80\n\n2916389  19579                 19.99\nTHE SIMS 3 TOWN LIFE STUFF-PC\nITEM TAX  1.20\n\n9256789  60930                 69.99\nAUDIO 995 WIRELESS STEREO HE\nREG $79.99  20.00 SALE DISC\nITEM TAX  3.60",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f318700-2868-4bb1-b4c9-716981ec97aa",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "\nSUBTOTAL",
+          "value": "\n109.97"
+        },
+        {
+          "title": "SALES TAX AMOUNT",
+          "value": "6.60"
+        },
+        {
+          "title": "TOTAL",
+          "value": "116.57"
+        },
+        {
+          "title": "\n\nCASH",
+          "value": "\n\n116.60"
+        },
+        {
+          "title": "CHANGE CASH",
+          "value": "0.03"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb5f4456-e6f5-4d4a-8b65-4eced5770926",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nValid ID is required for returns or exchanges. ID info may be stored in a secure, encrypted database used for tracking returns & exchanges. Best Buy reserves the right to deny any return. Full return and exchange policies are online at www.BestBuy.com.\n\n\nBest Buy is not responsible for any personal data left on a returned item.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Best Buy Sales Receipt",
+  "description": "$3f",
+  "slug": "Best-Buy-Sales-Receipt",
+  "published": true,
+  "id": "jdhvVgfdWIVYV3BWj1L4"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Kroger Receipt example Steak, Rice Chex, Cheez-Its, Tide Rescue Laundry Stain, and BSN with 4 more items totalling $97.29",
+  "slug": "Kroger-Receipt-example-Steak-Rice-Chex-Cheez-Its-Tide-Rescue-Laundry-Stain-and-BSN-with-4-more-items-totalling-dollar97.29",
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fce9b75d9-cd87-46de-b568-5292d8c66d38.png?alt=media&token=30287645-f5c1-429b-b832-5439bd7300c9",
+      "size": 153,
+      "businessDetails": "( 916) 968 - 2258\nMANAGER RENE PUENTES\n3451 TRUXEL RD\nSACRAMENTO CA 23456\nST# 01234 OP# 567890 TE# 23 TR# 03111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PRODUCT SERIAL # TH66B3C1ZZ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 2,
+          "description": "Rice Chex",
+          "total": 8.39
+        },
+        {
+          "quantity": 4,
+          "description": "Cheez-Its",
+          "total": 12.47
+        },
+        {
+          "quantity": 2,
+          "description": "Tide Rescue Laundry Stain ",
+          "total": 13.22
+        },
+        {
+          "quantity": 4,
+          "description": "BSN",
+          "total": 60.21
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": 94.29
+        },
+        {
+          "title": "Tax",
+          "value": 3
+        }
+      ],
+      "total": 97.29,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "4/9/2025, 9:26:00 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "# ITEMS SOLD 1\n\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "Uxrkk4cUK6T8CPnoyuyn8jzkIHh1",
+  "createdAt": "$D2025-04-13T21:16:05.164Z",
+  "backgroundCrumpled": false,
+  "isParent": false,
+  "description": "This receipt was created with ReceiptFaker generator based on **Kroger Receipt** template on **Apr 13, 2025**.",
+  "parentId": "1lVd5Q7hB05cXActIS6o",
+  "parentName": "Kroger Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FoxJacYMGsW9TuazokMNT%2FoxJacYMGsW9TuazokMNT-e64ee93c-abd8-4d02-b011-606c6b4578de.png?alt=media&token=d2b7f52c-ef43-4187-ab18-04d89769dc5a",
+  "published": true,
+  "metatitle": "Kroger Grocery Receipt",
+  "metadesc": "professional Kroger receipts with mixed grocery items including meat, cereals, and cleaning products for any purpose needed",
+  "id": "oxJacYMGsW9TuazokMNT"
+}

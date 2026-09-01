@@ -1,0 +1,83 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Levi’s Receipt",
+  "description": "This Levi’s retail receipt documents a transaction from LFO Gloucester, Unit 64 Gloucester Quays Outlet, St Ann Way, GL1 5SH Gloucester, United Kingdom. The header features the Levi’s® logo followed by full store address details, VAT number, and contact telephone number. The receipt includes POS identifiers such as Store number (10019), Register (1), Ticket number (37543), Salesperson and Cashier IDs, along with clearly printed date and time (12/1/22 – 13:01). The structure contains itemized transaction formatting, subtotal and total presentation, VAT breakdown at 20% with taxable amount and tax amount displayed, payment method (Visa) with masked card number and authorization code, transaction type, authorization time, and change line. The footer includes a customer satisfaction survey promotion with web address, discount incentive notice, barcode string, and “Consumer Copy” designation, reflecting standard apparel retail POS formatting in the United Kingdom.",
+  "slug": "Levi's-Receipt",
+  "createdAt": "$D2026-02-24T12:45:34.550Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "44c476e3-7ee3-44b4-b800-73abb1b99caf",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa2c3af4c-ab4b-4d4e-8e8a-234c07d509fc-levi's.jpg?alt=media&token=b4252b56-bbef-49b1-8753-8492ddbd7acf",
+      "size": 207,
+      "businessDetails": "LFO Gloucester 831525010u\nUnit 64 Gloucester Quays Outlet, St Ann\nWay\nGL1 5SH Gloucester\nUnited Kingdom\n00441452521270\nV T nr.: GB387506813",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4703a5a0-7df9-4914-965b-43d027868367",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Store: 10019            Register: 1\nDate: 12/1/22           Time: 13:01\nTicket: 37543\nSalesperson:\n688604\nCashier: 653037\n\nConsumer:",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "5a6bf87f-36e3-4f3c-b8db-443ada2e5bb4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Item                 Qty   Price    Amount\n510™ SKINNY NATIVE CALI\n05510086203232       1     66.00    66.00\nWaist: 32\nLength: 32\n\n                    Total    66.00\n\nTax %     Taxable Amt.    Tax Amt.\n20%       66.00           11.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "bddd5085-8910-4c65-8814-fe6c717a7a28",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Visa                                   66.00\n************0225\nAuth #: 012915\nTransaction Type: Sale\nAuth Time: 13:03\n\nChange              0.00\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "4ec39adf-d28a-4f56-9b82-8366aa554bf1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTell us about your experience today at www.levi.com/storesurvey\n\nAND RECEIVE 20% OFF YOUR NEXT PURCHASE IN SELECTED LEVI'S STORES OR ON LEVI.COM\n\n*Please take this survey within 7 days of your visit\n\nSee above website for complete details and rules.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "61dc0713-ff65-4162-986f-058b006dbcd8",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb6a9163-4933-4b44-a88c-36b19a58c4a3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0T11311JRE113146IY4AWHDD0\n\nConsumer Copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FiOeL9y5zjbsgr1gT4rKl%2FiOeL9y5zjbsgr1gT4rKl-28782bd9-e880-48f9-896b-40a2a3f15f33.png?alt=media&token=24505791-31d2-41ac-a127-7b494e400567",
+  "published": true,
+  "id": "iOeL9y5zjbsgr1gT4rKl"
+}

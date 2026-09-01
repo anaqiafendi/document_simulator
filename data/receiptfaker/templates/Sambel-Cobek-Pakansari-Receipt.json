@@ -1,0 +1,157 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T12:38:19.244Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "76009365-e4a0-4ce3-8d54-a9b39d11b39b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "sambel cobek\nRuko 9, Jl. Kol. Edy Yoso\nMartadipura No.4, Pakansari,\nCibinong, Bogor, Jawa Barat\n16915\nTel 081290893378",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d3433f6c-87ea-4751-a520-ab64b043b3e7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Nomor Tagihan ",
+          "total": "000013"
+        },
+        {
+          "quantity": "",
+          "description": "waktu ",
+          "total": "2025-08-09 20:00"
+        },
+        {
+          "quantity": "",
+          "description": "penagihan",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cashier",
+          "total": "Admin"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6c2c43aa-bffa-4741-b7ea-cd02a40e182d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\nProduct",
+          "description": "         Qty   Price      ",
+          "total": "\nTotal"
+        },
+        {
+          "quantity": "Ayam Goreng",
+          "description": "     1  19000.0",
+          "total": "19000.0"
+        },
+        {
+          "quantity": "kulit",
+          "description": "           2   6000.0",
+          "total": "16000.0"
+        },
+        {
+          "quantity": "usus",
+          "description": "           1   6000.0",
+          "total": "6000.0"
+        },
+        {
+          "quantity": "petak kecil",
+          "description": "      1   6000.0",
+          "total": "6000.0"
+        },
+        {
+          "quantity": "Cak kangkung",
+          "description": "    1  15000.0",
+          "total": "5000.0"
+        },
+        {
+          "quantity": "Nasi putih",
+          "description": "     2  12000.0 ",
+          "total": "15000.0"
+        },
+        {
+          "quantity": "Air mineral",
+          "description": "     2  12000.0 ",
+          "total": "12000.0"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4d191452-4010-431c-8c77-4383f761e9c5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTotal QTY",
+          "total": "\n12"
+        },
+        {
+          "quantity": "",
+          "description": "Jumlah",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "91000.0"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88925cb2-eae2-429f-8127-9f8595a46a3e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTERIMA KASIH\nATAS KUNJUNGANYA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Sambel Cobek Pakansari, located at Ruko 9, Jl. Nol. Edy Yoso, Martadipura No. 4, Pakansari, Cibinong, Bogor, West Java 16915, Indonesia. The header includes the restaurant name, full business address, telephone number, invoice number (Nomor Tagihan), transaction date and time, and cashier designation (Admin). The receipt features a tabular transaction section with quantity, price, and total columns, followed by a payment summary showing the Total Quantity and Jumlah (Grand Total). The footer concludes with a customer appreciation message thanking the customer for their visit. This receipt represents a standard Indonesian restaurant POS receipt designed for dine-in or takeaway transactions with a straightforward tabular sales and payment summary.",
+  "name": "Sambel Cobek Pakansari Receipt",
+  "slug": "Sambel-Cobek-Pakansari-Receipt",
+  "published": true,
+  "id": "Y9n5TTgUVHim5xJnIQlV"
+}

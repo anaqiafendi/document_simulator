@@ -1,0 +1,135 @@
+{
+  "currency": "",
+  "slug": "Bambu-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T05:54:00.196Z",
+  "description": "This restaurant receipt from Bambú Oriental Bar Restaurant documents a dine-in transaction processed at the Erts–La Massana location in Andorra. The receipt includes ticket numbering metadata, table number references, customer name formatting, transaction date and time information, telephone number details, website references, and business registration information (NRT). The POS structure contains item quantity formatting, taxable base calculations (“BASE IMPOSABLE”), IGI tax calculations, and total amount presentation in euros aligned in standard Andorran restaurant thermal receipt formatting. Additional receipt elements include takeaway service notices (“TAMBE PER EMPORTAR”), customer appreciation messaging, address references, and website information near the footer. The layout reflects a standard Andorran restaurant thermal receipt with localized IGI tax accounting and hospitality-focused footer presentation.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bambu Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "60521fab-3996-4bbd-baf5-7b1593ea0c6c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff2f6f5a8-b6eb-4508-b5b3-8a402d3937aa-image%20(7).jpg?alt=media&token=a1131c5e-a84a-4947-8653-a38b1e825a08",
+      "size": 237,
+      "businessDetails": "ORIENTAL BAR\nRESTAURANT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6037035d-c7c9-4ffc-a1b4-710570ce14a8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TIQUET T00192057",
+          "total": "DATA 25/07/2017"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "HORA 22:29:03"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "TAULA 11"
+        },
+        {
+          "quantity": "",
+          "description": "\nGRAHAM\tUTS",
+          "total": ""
+        },
+        {
+          "quantity": "DESCRIPCIO",
+          "description": "             PREU",
+          "total": "TOTAL"
+        },
+        {
+          "quantity": "\n1\tCerveza SIN ALCHO",
+          "description": "  2,50",
+          "total": "\n2,50"
+        },
+        {
+          "quantity": "1\tCerveza SIN ALCHO",
+          "description": "  2,50",
+          "total": "2,50"
+        },
+        {
+          "quantity": "1\tRotllets de Prim",
+          "description": "   5,95",
+          "total": "5,95"
+        },
+        {
+          "quantity": "1\tCurry Vermell Tail",
+          "description": "11,50",
+          "total": "11,50"
+        },
+        {
+          "quantity": "",
+          "description": "vegetariana",
+          "total": ""
+        },
+        {
+          "quantity": "1\tArros al Vapor",
+          "description": "      2,60",
+          "total": "2,60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "feaa8c40-eca7-4f1b-8925-ad468366d81f",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "BASE IMPOSABLE",
+          "value": "23,97€"
+        },
+        {
+          "title": "IGI 4,5%",
+          "value": "1,08€"
+        },
+        {
+          "title": "TOTAL",
+          "value": "25,05€"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84b8d6c9-e424-4046-82f8-2c5da287fb22",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGracies Per La Seva Visita \nC/ General Arinsal – Erts – La\nTAMBE PER EMPORTAR\nTel. (+376) 737393\nwww.hotelpalarine.com\nNRT: L-707",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "rfbEXJcXsupolMO0BK2p"
+}

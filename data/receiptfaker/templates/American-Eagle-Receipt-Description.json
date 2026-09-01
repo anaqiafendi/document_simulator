@@ -1,0 +1,104 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-26T18:38:10.469Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c659b7bb-bd87-4d21-9e91-4a6263c8a4e4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd9a4338c-bb16-4fa7-906e-9689c354368a-image%20(14).jpg?alt=media&token=8e0c1a35-466f-400b-bad4-34e17ecdb595",
+      "size": 203,
+      "businessDetails": "PH: 7062820034\n2890 BIG A ROAD\nTOCCAO GA 30577\n00013229006\nAMERICAN EAGLE 1 CITGO\n2890 BIG A RD S\nTOCCAO GA 30577\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7243530c-81df-41ef-a0d4-95e3ddacb478",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Description",
+          "description": "      Qty",
+          "total": "Amount"
+        },
+        {
+          "quantity": "UNLD CR #02",
+          "description": "     10.022G",
+          "total": "29.86"
+        },
+        {
+          "quantity": "",
+          "description": "SELF @ 2.979/ G",
+          "total": "------------"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "29.86"
+        },
+        {
+          "title": "Tax",
+          "value": "0.00"
+        },
+        {
+          "title": "TOTAL",
+          "value": "29.86"
+        },
+        {
+          "title": "CREDIT $",
+          "value": "29.86"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "08d7fc7e-3c69-4609-a5c5-00f05151a968",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nZIP CODE APPROVED\nAMEX\nINVOICE: 000854\nACCT NUMBER: 6002\nAUTH: 00\nRef #: 890004B0057\nAPPNAME: AMERICAN EXPRESS\nAID: A000000025010801\nAPP CRYPTOGRAM: ARQC 41F9692C8EB14C05\nAPPROVAL#: 811308\nENTRY: Insert\nEMV STAN#: 071478161",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "10a2bd74-2b3c-4ebf-a03b-dd44cd016ba2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDEALER#: 00013229006   Term ID: 10\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "febc5967-2de6-431a-86e8-786104f582ee",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANKS COME AGAIN\nST# AB123  TILL XXXX DR# 1 TRAN#\nCSH: 0        6/11/23   12:10:39 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "American Eagle Receipt  Description",
+  "description": "$3e",
+  "slug": "American-Eagle-Receipt-Description",
+  "published": true,
+  "id": "BLjpA7HoP0WeHdIXDhiE"
+}

@@ -1,0 +1,199 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T17:34:41.204Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "The Food Warehouse Receipt",
+  "description": "This receipt is a retail grocery transaction issued by The Food Warehouse, a UK-based supermarket chain. It includes store identification, location code, contact number, and store manager name. The receipt presents an itemized list of frozen and packaged food products, including quantities, unit prices, and total amounts. A summary section shows the total number of items purchased and the total cost. A promotional discount (“Mix & Match 3 for £6.00”) is applied, reducing the final balance due. The format reflects a standard UK supermarket POS receipt with itemization, promotional pricing, and final payable amount.",
+  "slug": "The-Food-Warehouse-Receipt",
+  "sections": [
+    {
+      "id": "f2493053-ea8d-4960-a11b-7e190da09f96",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcc82e794-b8e3-4a02-b366-434f4e7e106a-image%20(8).jpg?alt=media&token=e004a5c4-4f32-4f42-a539-53d3dc19e83f",
+      "size": 212,
+      "businessDetails": "\n1575 - SITTINGBOURNE FWH 1575\nStore Tel: 01795410021\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a5ffe35-1cb2-4556-9efe-0c629037b1ef",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Store Manager: Dani\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "892c99f2-ad44-4f21-9a2e-117e25694784",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "QTY",
+          "value": "DESCRIPTION"
+        },
+        {
+          "title": "3",
+          "value": "XL VEST BAG"
+        },
+        {
+          "title": "6",
+          "value": "ORK STUFFING"
+        },
+        {
+          "title": "4",
+          "value": "TURKEY CROWN"
+        },
+        {
+          "title": "3",
+          "value": "MARMALADE GAMMON"
+        },
+        {
+          "title": "2",
+          "value": "STUFFED ROAST DUCK"
+        },
+        {
+          "title": "3",
+          "value": "STUFFING PARCELS"
+        },
+        {
+          "title": "2",
+          "value": "CHICKEN KORMA"
+        },
+        {
+          "title": "1",
+          "value": "SAUCE 500ML"
+        },
+        {
+          "title": "1",
+          "value": "EGG FRIED RICE"
+        },
+        {
+          "title": "1",
+          "value": "CHICKEN FRIED RICE"
+        },
+        {
+          "title": "1",
+          "value": "CAD MINI EGGS BAG"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "PRICE",
+          "value": "AMOUNT"
+        },
+        {
+          "title": "£0.30",
+          "value": "£0.90"
+        },
+        {
+          "title": " £0.50",
+          "value": "£0.90"
+        },
+        {
+          "title": " £0.50",
+          "value": "£0.90"
+        },
+        {
+          "title": " £0.50",
+          "value": "£1.00"
+        },
+        {
+          "title": "£0.30",
+          "value": "£0.90"
+        },
+        {
+          "title": "£0.30",
+          "value": "£1.00"
+        },
+        {
+          "title": " £0.50",
+          "value": "£0.90"
+        },
+        {
+          "title": " £0.50",
+          "value": "£0.90"
+        },
+        {
+          "title": "£0.30",
+          "value": "£0.90"
+        },
+        {
+          "title": "£0.30",
+          "value": "£0.90"
+        },
+        {
+          "title": " £0.50",
+          "value": "£1.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "247e2d0a-d679-40f6-b5c7-2bafaa83fbb0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nSold Items",
+          "total": "\n\n27"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "Total"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5873d1d2-6e23-4dc1-99bd-9806c0e7b23c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DISCOUNTS\n",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Mix & Match 3 For £6.00 FWH",
+          "total": "-£1.50"
+        },
+        {
+          "quantity": "",
+          "description": "BALANCE DUE",
+          "total": "£19.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "b9N6ugaYJQXH4dCRSiPK"
+}

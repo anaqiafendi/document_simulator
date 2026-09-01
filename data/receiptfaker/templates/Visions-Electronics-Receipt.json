@@ -1,0 +1,130 @@
+{
+  "createdAt": "$D2026-02-12T18:13:17.981Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b77bc5df-0b5d-4f4f-a025-4744a7948769",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FnZTENP2dS4abbOL3wVTyxmXZjGE2%2F3b7d820f-d671-4426-911a-e3589396e86a-vision%20etro.png?alt=media&token=e2959518-0892-422f-941a-9f4915d3eb06",
+      "size": 228,
+      "businessDetails": "CUSTOMER COPY\nVisions Electronics\nWinnipeg Pembina\n1680 PEMBINA HIGHWAY\nWINNIPEG, MB R3T 2G2\nGST# 83517 5043 R1001\n(204) 269-2379",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf3d4c24-0537-49fe-8040-7a383c59ace2",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "    Store No:        024\nCashier:      13234 ABHISHEK SONI \nSalesperson:  13234 ABHISHEK SONI \n\n43000026961\nNTUMBA, CHADRAC\nWINNIPEG, MB\n204-898-5960\nInvoice Date:  02/04/2026\nInvoice No:     02415118870\nPrinted on:      Feb 4 2026",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "6e6b69d6-aae7-4b0e-8aa7-41fea5bd0f87",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ITEM         QTY   PRICE       TOTAL\n65Q651G-CA    1   1498.00    1498.00\nTCL 75\" 4K UHD QLED Google TV\nADS-MB-46+    2      7.00      14.00\nDISPOSAL  SURCHARGE 46\"+\nM5406KA-DS71  2   1649.00    3298.00\nASUS 14” Vivobook S 14 OLED Laptop\nOIPLEX7460I   3   1009.00    3027.00\nDell 24\" 7460 All-in-One Desktop\n960-001616    6     59.00     354.00\nLogitech Brio 100 1080p Webcam\nRAX36S-100PAS 2    219.99     439.98\nNetgear Nighthawk Dual-Band AX3000 WiFi",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60aa7f34-aa6e-4b1c-b68f-88a6699e9ca3",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "8630.98"
+        },
+        {
+          "title": "GST",
+          "value": "345.23"
+        },
+        {
+          "title": "PST",
+          "value": "517.85"
+        },
+        {
+          "title": "Total",
+          "value": "9494.07"
+        }
+      ],
+      "total": "9494.07",
+      "totalText": "DEBIT",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f157a509-acea-4cf6-a2a6-e712ff33dfad",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "************* 4718"
+        },
+        {
+          "title": "Date/time",
+          "value": "2026-02-04 03:15 PM"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Card type ",
+          "value": "INTERAC"
+        },
+        {
+          "title": "Reference #",
+          "value": "A00000027711010"
+        },
+        {
+          "title": "TVR",
+          "value": "0080008000"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "69046cd5-0064-46eb-ac47-5802feaf00c6",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 550,
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Visions Electronics Receipt ",
+  "description": "A customer copy receipt from Visions Electronics in Winnipeg, Manitoba (1680 Pembina Highway, Winnipeg, MB R3T 2G2). The receipt includes store number 024, cashier and salesperson listed as Abhishek Soni, and invoice details dated 02/04/2026. Items purchased include multiple electronics such as a 65-inch LG TV, LG OLED panel, ASUS 14\" Vivobook laptop, Dell OptiPlex desktop, Logitech 1080p webcam, Netgear Nighthawk dual-band WiFi router, and additional accessories. The receipt displays quantities, individual prices, and totals for each item.",
+  "slug": "Visions-Electronics-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FbQP5VQFh6PQriNFEWG63%2FbQP5VQFh6PQriNFEWG63-831ff9df-a04d-4f5d-a00c-1905115eb5dd.png?alt=media&token=c0442109-dd59-4059-8f7c-801d66d551dc",
+  "published": true,
+  "id": "bQP5VQFh6PQriNFEWG63"
+}

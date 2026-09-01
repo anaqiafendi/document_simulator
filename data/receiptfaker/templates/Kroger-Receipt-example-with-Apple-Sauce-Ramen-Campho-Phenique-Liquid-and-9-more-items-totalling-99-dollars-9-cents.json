@@ -1,0 +1,168 @@
+{
+  "name": "Kroger Receipt example with Apple Sauce, Ramen, Campho-Phenique Liquid and 9 more items totalling 99 dollars 9 cents",
+  "slug": "Kroger-Receipt-example-with-Apple-Sauce-Ramen-Campho-Phenique-Liquid-and-9-more-items-totalling-99-dollars-9-cents",
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fce9b75d9-cd87-46de-b568-5292d8c66d38.png?alt=media&token=30287645-f5c1-429b-b832-5439bd7300c9",
+      "size": 153,
+      "businessDetails": "5050 RUTGERS ST\n(540)362-5990\nYOUR CASHIER WAS CHEC 650",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "KROGER PLUS CUSTOMER    *******2640",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "INSTACART MRKTPLC",
+          "total": "0.00"
+        },
+        {
+          "quantity": "2",
+          "description": "TREE TOP ORIGINAL APPLE SAUCE",
+          "total": "6.78"
+        },
+        {
+          "quantity": 1,
+          "description": "MARUCHAN RAMEN 6-PK ORIENTAL",
+          "total": "2.29"
+        },
+        {
+          "quantity": 1,
+          "description": "CAMPHO-PHENIQUE LIQUID",
+          "total": "4.99"
+        },
+        {
+          "quantity": 1,
+          "description": "ARM&HAMMER PEROXICARE",
+          "total": "5.69"
+        },
+        {
+          "quantity": "2",
+          "description": "ARM&HAMMER COMPLETE CARE",
+          "total": "11.38"
+        },
+        {
+          "quantity": 1,
+          "description": "KROGER PRETZEL MINI",
+          "total": "2.50"
+        },
+        {
+          "quantity": 1,
+          "description": "FABULOSO MULTI CLEANER PEACH",
+          "total": "4.99"
+        },
+        {
+          "quantity": 1,
+          "description": "SILK COLD FOAM WHITE CHOC",
+          "total": "5.99"
+        },
+        {
+          "quantity": 1,
+          "description": "STEM LIGHT STARTER KIT",
+          "total": "21.99"
+        },
+        {
+          "quantity": 1,
+          "description": "ARM&HAMMER ODOR 166.5",
+          "total": "13.99"
+        },
+        {
+          "quantity": "3",
+          "description": "SILK KIDS OAT MILK",
+          "total": "14.97"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Tax",
+          "value": "2.17"
+        },
+        {
+          "title": "Tax",
+          "value": "1.36"
+        }
+      ],
+      "total": "99.09",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "totalText": "****BALANCE",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "MASTERCARD",
+          "value": "*****0116 - SWIPED"
+        },
+        {
+          "title": "Ref#",
+          "value": "S88231"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/24/25 4:51pm 325 650 140 999999650",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TOTAL NUMBER OF ITEMS SOLD = 12",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "",
+  "createdAt": "$D2025-05-25T13:51:52.185Z",
+  "backgroundCrumpled": false,
+  "isParent": false,
+  "description": "This receipt was created with ReceiptFaker generator based on **Kroger Receipt** template on **May 25, 2025**.",
+  "parentId": "1lVd5Q7hB05cXActIS6o",
+  "parentName": "Kroger Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwsopSWnY4W0oBwMcamQP%2FwsopSWnY4W0oBwMcamQP-bf2a8a72-4e86-48a0-9d4b-4d864736ad50.png?alt=media&token=51f2bbb7-4b87-4708-9c46-d720fa1934a3",
+  "published": true,
+  "metatitle": "Kroger Grocery Receipt",
+  "metadesc": "realistic Kroger grocery receipts with Apple Sauce, Ramen, medicine and more items totaling $99.09 using our template generator",
+  "id": "wsopSWnY4W0oBwMcamQP"
+}

@@ -1,0 +1,122 @@
+{
+  "name": "Walgreens Receipt example with FSA RX 2378541, FSA RX 2378542 and 1 more items totalling 304 dollars 22 cents",
+  "slug": "Walgreens-Receipt-example-with-FSA-RX-2378541-FSA-RX-2378542-and-1-more-items-totalling-304-dollars-22-cents",
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F12996a6e-bb5a-4226-9de2-f2bd5a9fcb3b.png?alt=media&token=dfe6d677-17f3-493f-a4f4-1a86ef743e8c",
+      "size": 206,
+      "businessDetails": "#13891 429 N STATE OF FRANKLIN RD \nJOHNSON CITY, TN 37604\n \n945 0138 0041   05/24/2025 8:30 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "FSA RX 2378541",
+          "total": "233.34"
+        },
+        {
+          "quantity": 1,
+          "description": "FSA RX 2378542",
+          "total": "70.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "304.22"
+        }
+      ],
+      "total": "304.22",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "CREDIT"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "THANK YOU FOR SHOPPING AT WALGREENS\n\n# ITEMS SOLD 3\n\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "EKf8Q6n2MUPV0byvPMWqQRXDV332",
+  "createdAt": "$D2025-05-25T02:10:14.769Z",
+  "backgroundCrumpled": false,
+  "isParent": false,
+  "description": "This receipt was created with ReceiptFaker generator based on **Walgreens Receipt** template on **May 24, 2025**.",
+  "parentId": "4SxI5pNFfueq5ZM3jLik",
+  "parentName": "Walgreens Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FLeH9wJYYOfUF7rcq0K3Q%2FLeH9wJYYOfUF7rcq0K3Q-8a788b9a-e184-459d-8e90-88564f67a456.png?alt=media&token=129473fe-4692-4504-a680-824365ad8f21",
+  "published": true,
+  "metatitle": "Walgreens FSA Receipt",
+  "metadesc": "authentic Walgreens receipts featuring FSA prescription items with realistic formatting and customizable transaction details",
+  "id": "LeH9wJYYOfUF7rcq0K3Q"
+}

@@ -1,0 +1,146 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-29T10:47:11.062Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Shake Shack Receipt",
+  "slug": "Shake-Shack-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F5MDNfaUxM3lcgoEkyzEK%2F5MDNfaUxM3lcgoEkyzEK-84f268e5-614f-4108-8dde-da5bf8214859.png?alt=media&token=4111c2a7-546c-46cb-b341-9a4431fcecfd",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 218,
+      "businessDetails": "Shake Shack\n2957 Broadway\nNew York, NY 10025\n(646) 383-5506\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "74d252d4-cd70-4015-a895-39a42f4bc54c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "HOST: Jack",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9d8e8e9-a9f5-437c-a054-4ed5133cf9a8",
+      "type": "DATE",
+      "alignment": "RIGHT",
+      "date": "5/25/2025, 8:37:07 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "ShackBurger",
+          "total": "7.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Cheese Fries",
+          "total": "3.99"
+        },
+        {
+          "quantity": "6",
+          "description": "Chicken Bites",
+          "total": "5.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Chocolate Shake",
+          "total": "4.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "21.96"
+        },
+        {
+          "title": "Tax",
+          "value": "1.95"
+        }
+      ],
+      "total": "23.91",
+      "totalText": "To Stay Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_75",
+      "date": "$undefined"
+    },
+    {
+      "id": "1fff70e9-7bfe-4506-8a88-ada874c06226",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We Tweet.\nYou Tweet.\nWe All Tweet.\n#ShakeShack",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need a Shake Shack receipt? Use our free tool to create a custom burger order receipt. Add restaurant info, menu items, prices, tax, and payment—ideal for meal tracking, reimbursements, or personal records.",
+  "published": true,
+  "metatitle": "Shake Shack Receipt",
+  "metadesc": "authentic Shake Shack receipts with custom burger orders, menu items, prices, tax, and payment details for tracking and records",
+  "id": "5MDNfaUxM3lcgoEkyzEK"
+}

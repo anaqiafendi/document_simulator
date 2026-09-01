@@ -1,0 +1,216 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-30T17:28:13.617Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Love's Travel Stop Receipt",
+  "description": "This receipt is a fuel transaction issued by Love’s, located at 1262 Route 414 in Waterloo, New York, United States. It includes store number, full address, contact information, transaction date, and ticket number. The receipt presents a diesel fuel purchase with pump number, gallons dispensed, and price per gallon. A financial summary shows subtotal, tax, and total amount. Payment details indicate a card transaction with authorization number and company billing information. Additional sections include vehicle identification and loyalty rewards information. The format reflects a standard U.S. gas station POS receipt with fuel details, transaction tracking, and rewards program data.",
+  "slug": "Love's-Travel-Stop-Receipt",
+  "sections": [
+    {
+      "id": "875026e2-07df-4387-9101-bc3e6f0615aa",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F46c033af-c7d1-4505-8b3d-1c90bc3da4d9-image%20(2).jpg?alt=media&token=5a5de78d-74e7-43b7-9ca4-565528b86deb",
+      "size": 227,
+      "businessDetails": "\nLoves #820\n1262 Route 414\nWaterloo, NY 13165\n(315) 835-7244\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "955cd6c8-7bbc-4f7e-b2db-a50ea58b3fa2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n06/23/2025   Tkt #99904917",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe989086-f333-4342-ae1f-525acb540131",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nType: SALE     (ORIGINAL)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eefc64b1-2e8f-4aa2-8236-42a5b55f0a38",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nQty    Name       Price       Total\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "101c45a2-3527-4c7a-a70d-87ca243d8aa4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "  DIESEL",
+          "total": "151.59"
+        },
+        {
+          "quantity": "",
+          "description": "Pump",
+          "total": "17"
+        },
+        {
+          "quantity": "",
+          "description": "Gallons",
+          "total": "36.188"
+        },
+        {
+          "quantity": "",
+          "description": "Price / Gal",
+          "total": "4.189"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b69e2f4-0edf-4488-8729-66b3816ce64b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "151.59"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax",
+          "total": " 0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "151.59"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "72fce8c9-16fb-4943-88a8-16335ad765b2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Received",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TCH",
+          "total": "151.59"
+        },
+        {
+          "quantity": "",
+          "description": "***************5926   SWIPED",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Auth No: 315272",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Company: 374872 ONTARIO LIMITED",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": " INVOICE# 79802",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73e59352-b3fd-4aaa-a32f-f0b9e8476aba",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VehicleID",
+          "total": "1903"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f61bf568-5267-4d1f-849c-b9ae2196e180",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMy Love Rewards\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "27eeb551-c9d3-4b6e-9e7b-bdc8d778c769",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": " Loyalty Member: Christian Bressette",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "Points Earned",
+          "total": "214"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "xl7NstoXNggFAWHxp9SY"
+}

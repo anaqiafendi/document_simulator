@@ -1,0 +1,132 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T12:43:15.967Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "ad8f1187-0c2b-461d-a17c-f4bfc9a0a019",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Central Market NY\nGrand Central Terminal\nNew York, NY 10017\n(212) 808-5227\n\nServer: CASHIER4          Station: 2\n----------------------------------\n\nTake Out\n\nServer: CASHIER4          Station: 2\n-----------------------------------\n\n >> SETTLED<<\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0cc349e8-9d18-402b-a006-a8b638c6a129",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 CEASAR SALAD ",
+          "total": "\n11.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 GRILLED CHICKEN",
+          "total": "1.70"
+        },
+        {
+          "quantity": "",
+          "description": "POLAND SPRING 16.9oz",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nSUB TOTAL ",
+          "total": "\n12.70"
+        },
+        {
+          "quantity": "",
+          "description": "NYC SALES TAX:",
+          "total": "1.13"
+        },
+        {
+          "quantity": "",
+          "description": "Tax 2:",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n$13.83"
+        },
+        {
+          "quantity": "",
+          "description": "\nVisa Tendered:",
+          "total": "\n13.83"
+        },
+        {
+          "quantity": "",
+          "description": "1082 XX/XX",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ECC Tran ID: 987490900",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "======"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE ",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "340ee788-28ca-492f-bad0-b77f592c4849",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCreated: 10/11/2015 10:04:32 AM\nSettled: 10/11/2015 10:04:51 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "966130af-0096-4600-a48f-cff8d5c38976",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n***********************************\n====THANKS FOR YOUR BUSINESS====\n***********************************\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5e9ae181-b237-45ab-9591-cb5e5a11f5f6",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Grand Central Market NY Receipt",
+  "description": "Central Market NY retail food receipt issued from the Grand Central Terminal location in New York, New York 10017. The header identifies the business and terminal location, followed by the full address and telephone number. POS metadata includes the server or cashier identifier, station number, take-out designation, customer name, and settled transaction status. The financial section records the subtotal, New York City sales tax, additional tax fields, and final total. Payment information identifies Visa as the tender method and includes an electronic transaction reference and change amount. The lower section records separate creation and settlement timestamps, followed by a customer thank-you message and machine-readable barcode.",
+  "slug": "Grand-Central-Market-NY-Receipt",
+  "published": true,
+  "id": "3sYBDSgTMvU6lgceypgt"
+}

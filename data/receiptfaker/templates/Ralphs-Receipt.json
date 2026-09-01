@@ -1,0 +1,151 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T07:38:07.956Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F6d7d8920-ff17-4ba4-9477-4258dbfb29ae-ralphs-logo-png-transparent.png?alt=media&token=14998297-4b13-42e9-8a27-51b0113bac47",
+      "size": 283,
+      "businessDetails": "211 N. Glendale Ave.\n(818) 549-0035\nYour cashier was Dom Y.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "DANNON ACTV DRINK XP",
+          "total": "4.49"
+        },
+        {
+          "quantity": "1",
+          "description": "KRD TUNA",
+          "total": "0.99"
+        },
+        {
+          "quantity": "1",
+          "description": "KRD TUNA",
+          "total": "0.99"
+        },
+        {
+          "quantity": 1,
+          "description": "CHK BRST",
+          "total": "17.00"
+        },
+        {
+          "quantity": 1,
+          "description": "RST CKN MNTRY JACK",
+          "total": "6.49"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "TAX",
+          "value": "1.95"
+        },
+        {
+          "title": "****BALANCE",
+          "value": "31.91"
+        }
+      ],
+      "total": "31.91",
+      "totalText": "FS BAL DUE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ce81851-bc61-47ea-8794-2fdc4655913c",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TOTAL NUMBER OF ITEMS SOLD = 5",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4481456f-a44c-4882-8a7f-268a4f396ba7",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "9/30/2025, 10:37:07 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "MGR: MARIA GUERRA (818) 549-0035\nTHANK YOU FOR SHOPPING AT RALPHS!\n\nwww.ralphs.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Ralphs Receipt",
+  "slug": "Ralphs-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FCsQc7mivQ2egTUnSaZEI%2FCsQc7mivQ2egTUnSaZEI-d764668c-9a65-46d6-b429-cca0addb737a.png?alt=media&token=4c0305b9-c3a6-4642-af56-1849026d1a09",
+  "description": "Need a Ralphs receipt? Easily create a custom grocery receipt with our free tool. Add store details, purchased items, prices, tax, and payment—perfect for budgeting, returns, or expense tracking.",
+  "published": true,
+  "metatitle": "Ralphs Grocery Receipt",
+  "metadesc": "realistic Ralphs grocery receipts with custom items, prices, store details, and tax calculations for budgeting and tracking",
+  "id": "CsQc7mivQ2egTUnSaZEI"
+}

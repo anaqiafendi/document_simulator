@@ -1,0 +1,167 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Hartford Baking Co. Receipt",
+  "description": "Food purchase receipt from Hartford Baking Company showing store location, cashier and order details, list of menu items ordered for takeout, individual prices, subtotal, tax, total amount paid, and a closing customer message from the store.",
+  "slug": "Hartford-Baking-Co.-Receipt",
+  "createdAt": "$D2026-02-04T15:38:44.619Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "RECEIPTIONAL_RECEIPT",
+  "sections": [
+    {
+      "id": "e03c72d7-7fcf-47ee-8dcf-07c95626902c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "158",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c02ac3c-f569-40b2-982b-9da2a508e0fa",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0aa15a85-535f-4eb7-b7ca-9488fb5dad41-Baking.jpg?alt=media&token=cc156576-9006-4c5c-a119-2b0f329d0233",
+      "size": 216,
+      "businessDetails": "Hartford Baking Co. \n(860) 724-4169\n965 Farmington Ave, West Hartford, CT 06107\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ca596232-e17f-44de-8ec4-99e1df7dbc7f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TO GO",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c3ee54f1-40ef-492b-b82d-59cc30ea6dc0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Customer: Name",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db092125-9dae-4ff9-ac95-e707ed3c3151",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "\nRegister 1: Aisha\n   WED 01/14/26      12:01\n   Order 27  Take Out",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "3ea71f7e-95ec-4a5f-b1a7-8bd5198d3aa1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Chicken Caesar Wrap",
+          "total": "11.49"
+        },
+        {
+          "quantity": "1",
+          "description": "California Wrap",
+          "total": "10.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Chicken Salad Sand",
+          "total": "11.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Chicken Caesar Salad",
+          "total": "13.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Cuban Sandwich",
+          "total": "12.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Turkey Bacon Cheddar",
+          "total": "13.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Southwest Turkey",
+          "total": "11.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Chicken Caesar Wrap",
+          "total": "11.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Chicken Caesar Wrap",
+          "total": "11.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Soup and half sand",
+          "total": "13.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Turkey Bacon Cheddar",
+          "total": "13.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Southwest Turkey",
+          "total": "11.49"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "148.88"
+        },
+        {
+          "title": "Tax",
+          "value": "10.92"
+        }
+      ],
+      "total": "159.80",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "4866dd55-cd54-4729-b633-63cdf32a38ea",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nWe are both proud and humbled that we are quickly becoming the top choice among bakeries in Hartford, CT and thank all of our customers who have made this success story possible. \n \nWith love,\n \nThe HBC team",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "6516dedf-f7f9-4011-acff-ab2c079f3f46",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "One Twenty Three Burger House Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FLpYkrZ0rb2qALSL8trTL%2FLpYkrZ0rb2qALSL8trTL-f35da194-674b-442d-b4d9-f9becd89dfef.png?alt=media&token=3cd4690b-dad6-4e10-9bfb-103a9e56e940",
+  "published": true,
+  "id": "LpYkrZ0rb2qALSL8trTL"
+}

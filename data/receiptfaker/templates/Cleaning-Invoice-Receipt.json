@@ -1,0 +1,150 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-24T04:53:19.416Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FO8JPOz1DRp0uAXFhmqHu%2FO8JPOz1DRp0uAXFhmqHu-18e2da49-eced-4896-bcf3-f52fe27d7a71.png?alt=media&token=4cf9f5c5-6a5d-4561-b2dd-232d5bb5e3dd",
+  "name": "Cleaning Invoice Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F5a924ce8-1313-4a52-ad60-fe26578dfa47-2852862_cleaning_mop_icon.png?alt=media&token=db316493-7a7a-4254-afe5-01b1be19fb58",
+      "size": 50,
+      "businessDetails": "HomeGlow Residential Cleaning LLC\n456 Cedar Ridge Road\nBoulder, CO 80302\nUnited States\nPhone number: (720) 415-8392\nRegistration Number: CO-2025-4783921",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Cleaning Invoice Receipt\nInvoice number: INV-20250524-762915\nInvoice date: 5/24/2025\nDue date: 6/1/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to: Evelyn Harper\n5379 Predmore Place\nColumbus, OH 43230",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "General Cleaning",
+          "total": "80"
+        },
+        {
+          "quantity": "1",
+          "description": "Kitchen Deep Cleaning",
+          "total": "100"
+        },
+        {
+          "quantity": "3",
+          "description": "Carpet Deep Cleaning",
+          "total": "120"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "300"
+        },
+        {
+          "title": "Tax",
+          "value": "24.00"
+        }
+      ],
+      "total": "324",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Invoices will be generated immediately upon completion of the cleaning service unless otherwise agreed. Customers will receive the invoice via email or printed copy, based on their preference. Customers must notify the company of any billing discrepancies within 5 business days of receiving the invoice.",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Cleaning-Invoice-Receipt",
+  "description": "Need a cleaning invoice receipt? Quickly create a professional record of cleaning services with our free tool. Add company info, service details, charges, and payment—perfect for client billing or reimbursement purposes.",
+  "published": true,
+  "metatitle": "Cleaning Invoice Receipt",
+  "metadesc": "professional cleaning service invoices with editable business info, service items, and payment details for record keeping",
+  "id": "O8JPOz1DRp0uAXFhmqHu"
+}

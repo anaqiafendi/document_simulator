@@ -1,0 +1,145 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T11:20:50.208Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "3a941f1d-f46d-4926-aef6-a78827e5cbcd",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F16642bce-8cbc-43f8-8e07-de796ff5e514-image%20(2).jpg?alt=media&token=74474421-9754-4930-8f06-c435b550dc08",
+      "size": 237,
+      "businessDetails": "\nJamba Juice Central Park\n021 2920 1131\n\ncustomer.voice@map.co.id\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "203a5be3-581f-437c-b463-144614f705f3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nBill No: 002001-25012019-0029\nC:6766     Yuni     19:32\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "adf10f19-7f13-4b4b-a10a-c49f5ca24767",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n12 BANANA BERRY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x 63,000",
+          "total": "63,000"
+        },
+        {
+          "quantity": "",
+          "description": "16 GUAVA STRAWBERRY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x 69,000",
+          "total": "69,000"
+        },
+        {
+          "quantity": "",
+          "description": "Total Qty: 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Nett.             : Rp.",
+          "total": "120,000"
+        },
+        {
+          "quantity": "",
+          "description": "Gross             : Rp.",
+          "total": "132,000"
+        },
+        {
+          "quantity": "",
+          "description": "Tax  10.0%        : Rp.",
+          "total": "12,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "66f9450a-2e2a-4680-a6cc-8b29cbc4d12a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total             : Rp.",
+          "total": "132,000"
+        },
+        {
+          "quantity": 1,
+          "description": "CASH            : Rp. ",
+          "total": "18,000"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f634e713-a78b-4803-bb16-5173383303a0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPT.Sari Gemilang Makmur\nNPWP : 71.037.524.7-022.000\nSahid Sudirman Center Lt 38\nJl.Jend.Sudirman Kav 86\nJakarta Pusat\n\nTHANK YOU FOR COMING\nAT JAMBA JUICE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8bbab51c-704a-437d-bc51-343cba32cbe5",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e38543ac-602a-4c98-9205-4fdc100cd36c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n002001-25012019-0029\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Jamba Juice Receipt",
+  "description": "This receipt is issued by Jamba Juice and identifies the location as Jamba Juice Central Park. The header contains the store branding, location name, contact telephone number, customer identifier, bill number, cashier identification (Yuli), and transaction time. The financial section records the total quantity purchased, gross amount, net amount, 10.0% tax, final transaction total, cash payment received, and change returned. The footer contains the corporate information for PT Sari Coffee Indonesia, including the NPWP tax registration number and registered business address in Jakarta Pusat, followed by a customer appreciation message and transaction barcode number. The overall layout is representative of an Indonesian beverage retail POS receipt, combining tax reporting, cash-payment reconciliation, corporate identification, and transaction controls within a compact retail receipt format.",
+  "slug": "Jamba-Juice-Receipt",
+  "published": true,
+  "id": "KHgVLMCYewjI0cRLMhDx"
+}

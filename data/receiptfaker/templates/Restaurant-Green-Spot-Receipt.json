@@ -1,0 +1,135 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T12:31:12.292Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "bf539e03-34b9-4ee6-9c1d-b1cf36177d44",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "RESTAURANT GREEN SPOT\n3041 NOTRE-DAME\nMONTREAL QUEBEC\n- - - - - - - - - - - - -\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff79ab9b-2c0a-47f3-a9d2-94ba970d00b6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "REG  06-15-2023(JEU) 13:25\nOUVERT    MC#01 831943\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1677628c-c1ff-4f48-869f-809a0f7a621b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 MEU DU JOUR",
+          "total": "$$4.25"
+        },
+        {
+          "quantity": "",
+          "description": "1 MEU DU JOUR",
+          "total": "$$3.45"
+        },
+        {
+          "quantity": "",
+          "description": "1 MEU DU JOUR",
+          "total": "$$4.95"
+        },
+        {
+          "quantity": "",
+          "description": "MONTANT DU",
+          "total": "$$14.54"
+        },
+        {
+          "quantity": "",
+          "description": "SOUS-TOTAL",
+          "total": "$$12.65"
+        },
+        {
+          "quantity": "",
+          "description": "TPS",
+          "total": "$$0.63"
+        },
+        {
+          "quantity": "",
+          "description": "TVQ",
+          "total": "$$1.26"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "$$ 14.54"
+        },
+        {
+          "quantity": "",
+          "description": "DEBIT",
+          "total": "$$14.54"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8710a93a-f3aa-4ba0-a8cd-6011c95d42ac",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n---------------------\n\nTPS#828511089RT0001\nTVQ#1218632978TQ0001\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "9b4fe3b5-bed8-456d-9682-a2da3dce1759",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTPS: 0,63 $ TVQ: 1,26 $\nTotal :  14,54 $\n\nPAIEMENT REÇU\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7447f142-0f83-4344-a95e-721010b77c44",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f065692d-204d-404a-8b52-03efb2a2f29a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n2023-06-15 14:27:34\nMEV:15364001-10870679\nRESTAURANT GREEN SPOT\n3041, RUE NOTRE-DAME O MONTREAL",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Restaurant Green Spot Receipt",
+  "description": "This receipt is issued by Restaurant Green Spot and identifies the location as 3041 Notre-Dame, Montréal, Québec. The header contains restaurant branding, location details, register number, transaction date and time, terminal identifier (MC#01), and receipt number. The financial section records the subtotal (Sous-total), the Canadian federal TPS (GST) and Québec TVQ (QST) tax calculations, the final transaction total, and payment by debit. Additional fiscal information includes the registered TPS and TVQ tax numbers, a payment confirmation (Paiement Reçu), transaction timestamp, and merchant transaction reference. The overall layout is representative of a Canadian restaurant POS receipt, combining bilingual fiscal reporting, provincial and federal tax compliance, debit-payment reconciliation, and transaction-control information within a compact hospitality receipt format.",
+  "slug": "Restaurant-Green-Spot-Receipt",
+  "published": true,
+  "id": "PvbUW7SjoY6xre2csM2Z"
+}

@@ -1,0 +1,149 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-18T15:21:09.250Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "466c77ac-e8fb-4d97-8f70-c39d7e32d0d9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "IG:@koberbar - Twitter:@koberbar\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5679eefd-52b3-49ad-b5bc-149cfd4a9d83",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F65f06723-c7d9-4ac6-9337-cf3a9c434a98-image.jpg?alt=media&token=329a1d31-51a4-4977-96b0-6bde5ea7b57e",
+      "size": 275,
+      "businessDetails": "\nREGULER\nJl. Sulawesi no 2 GKB - Gresik\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d53ca792-0c12-49e3-9e47-7f9230d76330",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Menu          Qty  Price   Amount\n\nMie Cabe 2 (B)  1  9.500    9.500\nMie Iblis M (B) 1 10.500   10.500\nUdang Rambutan   1  10.000   10.000\nUdang Keju (B)   1 10.000    10.000",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "09eb32ab-a98b-4c01-9093-da1a726a4934",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "\nTotal",
+          "value": "\n40,000"
+        },
+        {
+          "title": "Tax 10%",
+          "value": "4,000"
+        },
+        {
+          "title": "",
+          "value": "---------------"
+        },
+        {
+          "title": "Sub Total",
+          "value": "44,000"
+        },
+        {
+          "title": "Tax Service",
+          "value": "0"
+        },
+        {
+          "title": "",
+          "value": "----------------"
+        },
+        {
+          "title": "Grand Total",
+          "value": "44,000"
+        },
+        {
+          "title": "Cash",
+          "value": "44,000"
+        },
+        {
+          "title": "",
+          "value": "----------------"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3896cd0-ca05-41c0-8e00-95136287f8bd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCash Back",
+          "total": "\n0"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6fafad01-f0b4-43e2-be0b-b5ff657f61e8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n------Thank You------\n\n24/04/2021 22:28:53\nKasir 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal POS receipt issued by Kober Noodles, an Indonesian restaurantREGULAR Stuart O'BriCopyright © 2019 All Rights Reserved. All rights reserved.. The HeadeIG: @koberbar and Twitter: @koberbar). The transaction section includes an order number, customer name, seating/location identifier, and payment method. An itemized sales table is followed by a financial summary showing the Total, 10% Tax, Sub Total, Tax Service, Grand Total, Cash received, and Cash Back fields. The receipt concludes with a \"Thank You\" message, the transaction date and time (24/04/2021 22:28:53), and the cashier identifier (Cashier 2). This is a standard restaurant point-of-sale receipt used for dine-in food service transactions in Indonesia.",
+  "name": "Noodles Kober Receipt",
+  "slug": "Noodles-Kober-Receipt",
+  "published": true,
+  "id": "raOck5K2Uq0Soa5RuoeK"
+}

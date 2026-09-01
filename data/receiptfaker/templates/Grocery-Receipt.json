@@ -1,0 +1,171 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Grocery Receipt",
+  "slug": "Grocery-Receipt",
+  "createdAt": "$D2025-05-24T06:27:28.503Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F11813360-9696-4820-a5bf-6283a1f1eb5e-9239029_groceries_food_supermarket_vegetable_box_icon.png?alt=media&token=89e0428a-2419-4e2f-a91c-8a3e259611e1",
+      "size": 50,
+      "businessDetails": "Farm & Table Market\n2897 Willow Lane\nRiverton, NJ 08077\nUnited States\n(201) 456-7893",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "6",
+          "description": "Bananas",
+          "total": "1.50"
+        },
+        {
+          "quantity": "1",
+          "description": "Whole Milk (1 gallon)",
+          "total": "3.20"
+        },
+        {
+          "quantity": 1,
+          "description": "Bread (loaf)",
+          "total": "2.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Eggs (dozen)",
+          "total": "2.80"
+        },
+        {
+          "quantity": "2",
+          "description": "Chicken Breast",
+          "total": "8.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Rice (1 lb)",
+          "total": "1.20"
+        },
+        {
+          "quantity": "4",
+          "description": "Tomatoes",
+          "total": "3.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Cheddar Cheese (8 oz)",
+          "total": "4.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Orange Juice (1 liter)\t",
+          "total": "3.50"
+        },
+        {
+          "quantity": "4",
+          "description": "Apples",
+          "total": "3.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "32.70"
+        }
+      ],
+      "total": "32.70",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "This receipt serves as proof of purchase. Please retain it for returns or exchanges. Items can be returned or exchanged within 14 days with a valid receipt and original packaging. Perishable goods may be subject to different return policies. Refunds will be issued using the original payment method. Cash refunds are provided for cash purchases only. For questions or concerns, call (201) 456-7893 or visit farmandtablemarket.com.\n\nThank you for shopping with us!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FdrL6KyhztKLUTOkEKBcs%2FdrL6KyhztKLUTOkEKBcs-b1cdcf47-a544-4e76-aa2c-2e87d7dc2296.png?alt=media&token=2417a668-0d6e-47b4-a454-c07399c4ae2c",
+  "description": "Need a grocery receipt? Use our free tool to create a detailed shopping record. Enter store info, item list, prices, tax, and payment method—ideal for budgeting, returns, or expense tracking.",
+  "published": true,
+  "metatitle": "Grocery Store Receipt",
+  "metadesc": "realistic grocery store receipts with custom items, prices, store details, and payment info for budgeting and expense tracking",
+  "id": "drL6KyhztKLUTOkEKBcs"
+}

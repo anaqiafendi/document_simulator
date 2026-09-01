@@ -1,0 +1,162 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bonefish Grill Receipt",
+  "description": "This receipt is a casual dining restaurant transaction issued by Bonefish Grill, featuring a branded header with loyalty program messaging related to Dine Rewards. It includes table number, party size, server identification, and a timestamped transaction record. The receipt presents a structured financial summary with subtotal, tax, and total amount, followed by a tip advisory section indicating that gratuity is not included and providing suggested tip percentages. The layout reflects a standard U.S. restaurant POS receipt format with dine-in service details and tipping guidance.",
+  "slug": "Bonefish-Grill-Receipt",
+  "createdAt": "$D2026-04-07T20:42:40.460Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "7fc32174-2339-419f-af61-524fd3348b0a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0b63f479-d9b6-4a80-b88b-41aa659c0976-image%20(6).jpg?alt=media&token=7daf6398-7e61-4f9f-8a46-2d01fa8d2a74",
+      "size": 223,
+      "businessDetails": "\nDine Rewards account not attached\n**********************************\nNot a Dine Rewards member?\nJoin now at DINE-REWARDS.COM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "48c04c18-b0f6-45a0-a16a-efa1a1e660e2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "0016   Table 303   #Party 2\nREGINALD M.SvrCk: 2 11:51a 04/01/21\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a495e92d-f3a4-40a0-b272-3a5c661d53f0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SIR n SHRIMP",
+          "total": "21.90"
+        },
+        {
+          "quantity": "",
+          "description": "SVENER",
+          "total": "20.90"
+        },
+        {
+          "quantity": "",
+          "description": "NO BEVERAGE",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "NO BEVERAGE",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 COFFEE",
+          "total": "5.58"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dbbabd78-0b9f-4d06-8a34-697f2bca3f04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "**********************************\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "547fe73d-1a95-48b9-9691-4e8304050ced",
+      "type": "RESTAURANT",
+      "leftFields": [],
+      "rightFields": [
+        {
+          "title": "Sub Total:",
+          "value": "49.38"
+        },
+        {
+          "title": "TAX:",
+          "value": "3.21"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e797d40c-f595-473a-9c8b-d288cc050e03",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n04/01   1:29p   TOTAL: 52.59\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c10d2ac8-9677-48aa-b76d-10339c35e3d0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Tip Not Included",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Tip Guide:",
+          "total": "1.98"
+        },
+        {
+          "quantity": "",
+          "description": "15%",
+          "total": "7.89"
+        },
+        {
+          "quantity": "",
+          "description": "18%",
+          "total": "9.47"
+        },
+        {
+          "quantity": "",
+          "description": "20%",
+          "total": "10.52"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d3f6b12-d2b0-4df8-9f9f-cd84ba7afc6d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nJoin our Bonefish Grill Insiders and get exclusive rewards!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FQe8LcaAm9xLt4orVtqTJ%2FQe8LcaAm9xLt4orVtqTJ-9990e28a-e992-4d83-bbef-6675b4836d80.png?alt=media&token=efcfe3f2-9de6-488b-aabf-5860ba1d057e",
+  "published": true,
+  "id": "Qe8LcaAm9xLt4orVtqTJ"
+}

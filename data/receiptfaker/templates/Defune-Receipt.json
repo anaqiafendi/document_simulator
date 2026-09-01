@@ -1,0 +1,163 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T09:03:51.618Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "03a85181-4bdc-4336-8675-b35838a7a60b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Defune\n34 George Street, London\nW1U 7DP\nTel: 020 7935 8311",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0dccf4e1-ad56-44ca-8b3d-0de2f2cb20c3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CHK# 3 ",
+          "total": "TBL# 109"
+        },
+        {
+          "quantity": "",
+          "description": "Server",
+          "total": "#     1"
+        },
+        {
+          "quantity": "",
+          "description": "04/04/2019 12:33:28",
+          "total": "GUESTS   2"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe06f16b-8a4c-4612-8140-04de8c470eb1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Restaurant",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Sea Bream Sashim",
+          "total": "12.80"
+        },
+        {
+          "quantity": "",
+          "description": "1 Yellow Tail Sash",
+          "total": "18.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Fattier Tuna Sas",
+          "total": "21.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Scallop Sashimi",
+          "total": "12.80"
+        },
+        {
+          "quantity": "",
+          "description": "1 Eel Sashimi ",
+          "total": "14.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 @ 6.40 Miso Soup ",
+          "total": "12.80"
+        },
+        {
+          "quantity": "",
+          "description": "1 Agedofu",
+          "total": "7.80"
+        },
+        {
+          "quantity": "",
+          "description": "1 Soft Shell Crab",
+          "total": "19.80"
+        },
+        {
+          "quantity": "",
+          "description": "1 Prawns Tempura",
+          "total": "23.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 @ 1.80 Green Tea",
+          "total": "3.60"
+        },
+        {
+          "quantity": "",
+          "description": "1 Shochikubai Sml",
+          "total": "5.60"
+        },
+        {
+          "quantity": "",
+          "description": "\nSUBTOTAL",
+          "total": "\n151.20"
+        },
+        {
+          "quantity": "",
+          "description": "Service Charge",
+          "total": "22.68"
+        },
+        {
+          "quantity": "",
+          "description": "BackOfficeServer   T#0000016",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "£173.88"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5f04ed8a-7d4e-4323-8747-e724b6d5e382",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSales-VAT VAT Rate  VAT Amt  Total\n126.00     20.00%  25.20   151.20\n------------------------------------\n\nLast Serviced   04/04/2019  13:26:00\n------------------------------------\n\nTHANK YOU\nA DISCRETIONARY SERVICE CHARGE OF\n15% WILL BE ADDED TO YOUR BILL\nVAT No: 235 1221 09\nwww.defune.co.uk",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Defune and identifies the restaurant as 34 George Street, London W1U 7DP, United Kingdom. The header contains the restaurant name, address, contact telephone number, check number, table number, server number, guest count, and transaction date and time. The receipt records a dine-in order consisting of Sea Bream Sashimi, Yellow Tail Sashimi, Fatter Tuna Sashimi, Scallop Sashimi, Eel Sashimi, Miso Soup, Rigatoni, Soft Shell Crab, Prawn Tempura, Green Tea, and a Shokubai Set. The financial section records the subtotal, a 15% discretionary service charge, and the final transaction total. The receipt also includes VAT information, the back-office server reference, the last service timestamp, the restaurant's VAT number, and the official website. The overall layout is representative of a United Kingdom restaurant POS receipt, combining table-service order management, VAT reporting, discretionary service charges, and transaction reconciliation within a compact hospitality receipt format.",
+  "name": "Defune Receipt",
+  "slug": "Defune-Receipt",
+  "published": true,
+  "id": "3gS3y03C0XSWuj1EQ4JU"
+}

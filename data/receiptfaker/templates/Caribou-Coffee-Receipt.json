@@ -1,0 +1,129 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Caribou Coffee Receipt",
+  "description": "This receipt is a dine-in POS transaction from Caribou Coffee Pakuwon located at Pakuwon Mall Lantai GF, Surabaya, with telephone number 031-99148108 and a printed email contact. It includes transaction identifier 10097 (Fitriana), check number 8688, and staff name “melli.” The receipt is labeled “Dine In” and shows currency formatting in Indonesian Rupiah (Rp). A beverage subtotal and total are displayed at Rp38,000, with cash tendered (Rp50,000) and calculated change due (Rp12,000). The receipt includes a “Check Closed” notice with timestamp 21 OCT 17 12:20 PM, a tax inclusion statement noting 10% applicable tax, Wi-Fi password information, and promotional footer messaging. The format reflects an international coffee retail POS system with localized currency and tax-inclusive pricing.",
+  "slug": "Caribou-Coffee-Receipt",
+  "createdAt": "$D2026-03-02T15:16:09.283Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "Rp",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fac75927a-f3fd-42e9-8598-bf3fb94f13ef-image%20(20).jpg?alt=media&token=8cdf62d6-aa2f-4fb3-8615-9a18e32f572f",
+      "size": 236,
+      "businessDetails": "CARIBOU COFFEE PAKUWON\nPakuwon Mall Lantai GF\nSurabaya\n\nTelp. 031- 99148108\ncaribou.coffee@mahadyaco.id\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "541b5873-7eec-4118-a9a3-6d3f49edb494",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "10097 Fitriana\n--------------------------\nCHK 8688             melli\n--------------------------\n          Dine In",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "f700b674-1cda-41b6-ad6c-c0793c7c04df",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ac36ca9-429c-437e-bc0c-92fb135aea47",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cbb8eab4-ed25-4c68-9e76-d2c0eb64ac27",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n---- Check Closed -----\n\n21 OCT 17 12:20 PM\n\n* ALL PRICES ARE INCLUSIVE OF *\n* APPLICABLE 10% TAX *\n\nPassword Wi-Fi: coffee\n\nLife is Short. Stay awake for it.\nFollow us @CaribouCoffeeID",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FciDnTLsfb9VwhhI9QlFn%2FciDnTLsfb9VwhhI9QlFn-c12b3abd-add8-4f34-bf54-6c5c2fd4bd89.png?alt=media&token=915de140-8166-4ca4-a86c-4aeb2c001762",
+  "published": true,
+  "id": "ciDnTLsfb9VwhhI9QlFn"
+}

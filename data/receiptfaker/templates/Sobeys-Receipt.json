@@ -1,0 +1,203 @@
+{
+  "isParent": true,
+  "sections": [
+    {
+      "size": 229,
+      "id": "e5e84f8a-d31a-44d2-af18-18fe0dd3954f",
+      "bottomDividerType": "DASHES",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "bottomDivider": false,
+      "businessDetails": "\nSobeys Saint John East Point\nThank you from Store Manager\nJason London and Staff 633-1187\nHST# R895588788\n",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F233fa2fa-3b71-478c-ab0a-3bae53ddf209-image%20(17).jpg?alt=media&token=ed90bec8-4035-43f9-956b-948a1ff7888e",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": true,
+      "custom": "Served by: Self Serve 23\nWelcome to Sobeys",
+      "alignment": "LEFT",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "id": "62695f9c-1700-4a67-ae4e-1e5269528c9e",
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [
+        {
+          "value": "\n$6.98",
+          "title": "\nSUBTOTAL"
+        },
+        {
+          "value": "$$0.67",
+          "title": "HST"
+        }
+      ],
+      "type": "ITEMS",
+      "totalDividerType": "DASHES",
+      "totalText": "",
+      "total": "",
+      "bottomDivider": false,
+      "items": [
+        {
+          "description": "\nMEAT",
+          "quantity": "",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Bacon",
+          "total": "$$2.49 C"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "YOU SAVED $1.00"
+        },
+        {
+          "total": "",
+          "description": "BAKERY",
+          "quantity": ""
+        },
+        {
+          "total": "$$4.49 HC",
+          "quantity": "",
+          "description": "Donuts Strawberry Fl"
+        },
+        {
+          "description": "YOU SAVED $0.50",
+          "quantity": "",
+          "total": ""
+        },
+        {
+          "total": "\n\n1 Miles",
+          "description": "\n\nReward Mile For Every $20",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "Spd .25 get 95 Bonus Miles",
+          "total": "95 Miles"
+        }
+      ],
+      "bottomDividerType": "DASHES",
+      "totalDivider": false,
+      "id": "eaf87b1b-e2f1-457a-b7b4-970256a20ab3",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "totalDivider": false,
+      "id": "5b97c435-9bb8-4054-9770-bafa540eba70",
+      "bottomDivider": false,
+      "items": [
+        {
+          "total": "$$7.65",
+          "quantity": "",
+          "description": "TOTAL"
+        },
+        {
+          "description": "Visa  TENDER",
+          "quantity": "",
+          "total": "$$7.65"
+        },
+        {
+          "total": "$$0.00",
+          "quantity": "",
+          "description": "Cash  CHANGE"
+        }
+      ],
+      "totalLines": [],
+      "type": "ITEMS",
+      "totalDividerType": "DASHES",
+      "totalText": "",
+      "total": "",
+      "date": "$undefined"
+    },
+    {
+      "id": "d8d9e053-6158-497f-98cc-bf6630524716",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "bottomDivider": false,
+      "custom": "\nNUMBER OF ITEMS    2\n\n*  * * * * YOUR SAVINGS * * * * * \n\n",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "id": "1d00b107-45cd-4fd6-966a-8b5019bd957f",
+      "totalDivider": false,
+      "items": [
+        {
+          "total": "$$1.50",
+          "description": "Discounts & Specials",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "Your Total Savings",
+          "total": "$$1.50"
+        },
+        {
+          "total": "18%",
+          "description": "Percentage Savings",
+          "quantity": ""
+        }
+      ],
+      "bottomDivider": false,
+      "totalLines": [],
+      "type": "ITEMS",
+      "totalText": "",
+      "total": "",
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "alignment": "CENTER",
+      "bottomDivider": false,
+      "custom": "\nAIR MILES\n\n",
+      "id": "e426f4da-e247-4da1-92f5-c54362f231e9",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "items": [
+        {
+          "description": "Member number",
+          "quantity": "",
+          "total": "7462-8831-95"
+        },
+        {
+          "total": "96",
+          "description": "Total Miles Earned",
+          "quantity": ""
+        }
+      ],
+      "bottomDivider": false,
+      "totalText": "",
+      "total": "",
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "type": "ITEMS",
+      "id": "c3e61d09-c28f-4b49-97a4-0c6586b29b69",
+      "totalDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Sobeys-Receipt",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "parentName": "Office Depot",
+  "backgroundCrumpled": false,
+  "description": "This grocery retail receipt from Sobeys documents a VISA transaction processed at the Saint John East Point location in Canada. The receipt includes store branding, store manager acknowledgment messaging, HST registration information, self-serve terminal attribution, AIR MILES loyalty formatting, and promotional bonus mile references. The POS structure contains subtotal, HST calculation, total amount formatting, VISA tender confirmation, change due presentation, and item count fields aligned in standard Canadian grocery retail thermal receipt formatting. Additional receipt elements include savings summaries, percentage savings calculations, AIR MILES member references, and customer appreciation messaging near the footer. The layout reflects a standard Canadian supermarket thermal receipt with integrated loyalty rewards and promotional savings formatting.",
+  "numberFormat": "LEFT",
+  "textColor": "#101828",
+  "backgroundType": "CRUMPLED_1",
+  "name": "Sobeys Receipt",
+  "currency": "",
+  "createdAt": "$D2026-05-25T11:18:45.235Z",
+  "published": true,
+  "id": "thycroCqP4LvzT1zgHaK"
+}

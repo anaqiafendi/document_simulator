@@ -1,0 +1,116 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T10:55:53.524Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Ff63509dd-6c99-4c74-9be1-ab55f9d5efe4-Daco_4237869.png?alt=media&token=a5a0a109-03c0-46bf-b28e-bd1af2a0a6fb",
+      "size": 196,
+      "businessDetails": "LOWE'S HOME CENTERS, LLC\nV3255 VAN ROY ROAD\nAPPLETON, WI 54915 (920) 636-2782",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "- SALE -\nSALE#: S918 45 TRANS# 1596 05-25-25",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "TIMBERLINE HDZ CHARCOAL",
+          "total": "5029.90"
+        },
+        {
+          "quantity": "1",
+          "description": "WALLPAPER",
+          "total": "50.20"
+        },
+        {
+          "quantity": "2",
+          "description": "32131357 EG NEUTRAL",
+          "total": "21.98"
+        },
+        {
+          "quantity": 1,
+          "description": "569321 ORCHID 236",
+          "total": "10.99"
+        },
+        {
+          "quantity": 1,
+          "description": "GRILL 8963215 SPONGE",
+          "total": "300"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5,413.07"
+        },
+        {
+          "title": "Tax",
+          "value": "297.72"
+        }
+      ],
+      "total": "5,710.79",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "STORE:3255 TERMINAL:14 05/25/25",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU FOR SHOPPING LOWE'S.\n\nFOR DETAILS ON OUR RETURN POLICY, VISIT LOWES.COM/RETURNS\nA WRITTEN COPY OF THE RETURN POLICY IS AVAILABLE AT OUR CUSTOMER SERVICE DESK\n\nSTORE MANAGER: DOUG WILLIAMS\n\nLOWE'S PRICE PROMISE\nFOR MORE DETAILS, VISIT LOWES.COM/PRICEPROMISE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F83ScM2dL3erxkwTS4mLB%2F83ScM2dL3erxkwTS4mLB-20abb092-c47d-4de8-8df7-b8a9a5dcc7b4.png?alt=media&token=69834457-cdc9-4a76-915e-ceb5393209a3",
+  "name": "Lowe's Receipt",
+  "description": "Need a Lowe’s receipt? Use our free generator to create a custom home improvement receipt. Add store info, item details, prices, tax, and payment method—perfect for returns, warranties, or expense tracking.",
+  "published": true,
+  "slug": "Lowe's-Receipt",
+  "metatitle": "Lowe's Home Store Receipt",
+  "metadesc": "realistic Lowe's home improvement receipts with custom store details, items, prices, and payment info for returns and records",
+  "id": "83ScM2dL3erxkwTS4mLB"
+}

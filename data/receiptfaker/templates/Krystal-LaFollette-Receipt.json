@@ -1,0 +1,132 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Krystal LaFollette Receipt",
+  "description": "This receipt is issued by Krystal and identifies the restaurant at 2404 Jackson Pike, LaFollette, Tennessee 37766. The header contains the Krystal welcome message, restaurant address, location reference, host and cashier information, check number, and transaction date and time. The receipt documents a drive-thru order featuring a Sackful 12 containing 12 Krystals, together with a Sackful Combo that includes medium fries and large Coke beverages. The transaction also shows a separate CPS & Service Fee of $0.69 and records two main items in the order. The financial section displays $22.98 in item charges, $2.19 in tax, and a final drive-thru total of $25.85, with $26.00 tendered in cash. The lower section promotes ordering through the Krystal app or website, advertises Club Krystal rewards and points, and provides a customer-feedback address. A transaction barcode is printed at the bottom of the receipt.",
+  "slug": "Krystal-LaFollette-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T16:27:19.668Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "fb29d9d2-781b-4499-b1fe-4fde3c23e23a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "WELCOME TO KRYSTAL\n2404 Jacksboro Pike\nLaFollette, TN 37766\n#00F04 423 456 6557\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "050c3509-f97c-4ace-9ef8-4e9e5cc04994",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Host: Test  ",
+          "value": "05/07/2026"
+        },
+        {
+          "title": "Cashier: Britney",
+          "value": "8:09 PM"
+        },
+        {
+          "title": "3 ",
+          "value": "Check:"
+        },
+        {
+          "title": "150",
+          "value": "40011"
+        },
+        {
+          "title": "\nOrder Type: Drive Thru\n",
+          "value": ""
+        },
+        {
+          "title": "\n\nSackFul 12 ",
+          "value": "\n\n12.00"
+        },
+        {
+          "title": "12 Krystals",
+          "value": ""
+        },
+        {
+          "title": "Make it a Sackful Cmb",
+          "value": "9.40"
+        },
+        {
+          "title": "(2) Medium Fries",
+          "value": ""
+        },
+        {
+          "title": "2 Medium to Large Drink (80.79)",
+          "value": "1.58"
+        },
+        {
+          "title": "(2) Large Coke",
+          "value": ""
+        },
+        {
+          "title": "\nTotal DFS & Service Fee",
+          "value": "\n0.69"
+        },
+        {
+          "title": "Total Tax",
+          "value": "22.98"
+        },
+        {
+          "title": "",
+          "value": "2.19"
+        },
+        {
+          "title": "Drive Thru Total ",
+          "value": "25.85"
+        },
+        {
+          "title": "Cash ",
+          "value": "25.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "4b16dc08-cc38-40ab-8554-1b26950ee818",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nKrystal app or Krystal.com Order now for exclusive deals! ***Sign up for Club Krystal*** Join Club Krystal for exclusive deals! Earn points on every order you make. GET FREE FOOD and unlock surprise perks. Sign up today at Krystal.com/Rewards",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "6bea7b11-ce71-4a63-9fca-5217ca44131b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPlease provide feedback or comments at Krystal.com/contact-us\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "693c02ba-a7a8-4a4f-9dc0-ae897a9187a4",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "YfR3QEAoPhSz2E5sxhfY"
+}

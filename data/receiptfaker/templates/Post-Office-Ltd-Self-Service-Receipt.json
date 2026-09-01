@@ -1,0 +1,164 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Post Office Ltd Self Service Receipt",
+  "description": "This receipt is a self-service postal transaction issued by Post Office Ltd at its Orpington High Street location in Kent, United Kingdom. It includes full branch address, VAT registration number, session details, and timestamped transaction information. The receipt presents a structured breakdown of postal services with pricing excluding VAT, VAT status indicators, and total amount due. Payment details indicate a debit card transaction processed through a self-service device. It also includes customer feedback information and promotional messaging. The format reflects a standard UK postal service receipt with VAT classification and government-regulated service structure.",
+  "slug": "Post-Office-Ltd-Self-Service-Receipt",
+  "createdAt": "$D2026-04-18T11:56:42.820Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "e038e53c-53ac-4dec-a2ce-940dce41ff2a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Post Office Ltd.\nYour Self Service Receipt\nFAO: 012012X",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "56305ed0-f659-438c-9822-8e338b6a7669",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nOrpington\n189-193 High Street\n Orpington\n Kent\n BR6 0PF\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42d66ca2-43da-47d4-92aa-63c786e58535",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " \nVAT REG No. GB 172 6705 02\n  Date of Issue: 02/07/2020  12:41\n  SESSION: 67-72362\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b87f8f5b-e136-477d-b6c1-a7e7ea5277db",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Item Price      ",
+          "value": "Total(£)"
+        },
+        {
+          "title": " ex VAT  Inc VAT",
+          "value": ""
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb64ec8f-7584-48d6-844b-2239fe3f5e44",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "(E) Tracked Returns",
+          "total": ""
+        },
+        {
+          "quantity": "1",
+          "description": "@    0.00    0.00",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "(E) 2nd Class",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "@    3.10    3.10",
+          "total": "3.10"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe4f6d7d-ab29-432d-be22-e125da3a14ad",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "(S)=Standard Rate  (Z)=Zero Rate  (E)=Exempt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85bfa666-dad7-46d7-b2ef-46a2195dca51",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TOTAL DUE TO POST OFFICE:  3.10",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a70ee38a-0b06-4c69-8591-f40ebf350bdb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Device Debit Cd  FROM CUSTOMER:",
+          "total": "3.10"
+        },
+        {
+          "quantity": "",
+          "description": "  BALANCE:",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6f33f8fc-1108-454d-b35b-e7d8fdcb8a7f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n* * * * * * * * * * * * * * * * * * \nWe'd love your feedback. Share your opinion and you could win a One4all Gift Card worth £100. Visit postoffice.co.uk/feedback or call us free on 0800 047 2322.\n  * * * * * * * * * * * * * * * * * \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f3cb706f-e6cf-44e6-a8a3-0fb3034c9072",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPlease retain for future reference\n\nThank You\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fp6Eyo5dgOX1eZ1H2N4Vh%2Fp6Eyo5dgOX1eZ1H2N4Vh-a91d743e-9296-452f-ad18-0bcbc3619bae.png?alt=media&token=e048cc3b-8c54-45c4-9182-51cb68945ccd",
+  "published": true,
+  "id": "p6Eyo5dgOX1eZ1H2N4Vh"
+}

@@ -1,0 +1,176 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T19:42:40.505Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f69e661f-bae0-439c-8caf-601c79dce86e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Pepco Poland Sp. z o.o.\nStrzeszynska 73A, 60-479 Poznan\nNr rej.: 000007930\nPEPCO\nMetalowcow 5, 26-110 Skarzysko-Kamienna\nNIP 782-21-31-157",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7c56cded-1fc5-43c5-bc8f-3f5ccce2078f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n2021-11-06 16:24",
+          "total": "\n495703"
+        },
+        {
+          "quantity": "",
+          "description": "PARAGON FISKALNY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "32437201 spodnie ch sport KVI",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "1 x20,00       20,00A"
+        },
+        {
+          "quantity": "",
+          "description": "32431401 czapka meska z mater",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "1 x10,00       10,00A"
+        },
+        {
+          "quantity": "",
+          "description": "31979501 Koszyk Diamond S",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "1 x3,00         3,00A"
+        },
+        {
+          "quantity": "",
+          "description": "---------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nSPRZEDAZ OPODATKOWANA A",
+          "total": "\n33,00"
+        },
+        {
+          "quantity": "",
+          "description": "PTU A 23,00 %",
+          "total": "6,17"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PTU ",
+          "total": "6,17"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PLN",
+          "total": "33,00"
+        },
+        {
+          "quantity": "",
+          "description": "00222 #1 1029904",
+          "total": "2021-11-06 16:24"
+        },
+        {
+          "quantity": "",
+          "description": "596589CE23BC35C8171C0C9C553949",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "7EP CBR 1601310047",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "567ac0cf-1f37-4029-8188-30664767a3ba",
+      "type": "BARCODE",
+      "size": 102,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d6cc96f7-5811-43b3-b344-c8e6c64bc762",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "7 700136701309934202111061624 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "881922a5-f96b-485b-af32-7823dc0c08de",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nKarta",
+          "total": "\n33,00 PLN"
+        },
+        {
+          "quantity": "",
+          "description": "Nr transakcji",
+          "total": "1367-1-309934"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2fd83e50-15a8-418f-be51-b165d339a68d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nDziekujemy za zakupy! Aktualnej oferty szukaj na www.pepco.pl Zwrotu towaru mozna dokonac na podstawie paragonu, w ciagu 30 dni od daty zakupu dowolnym sklepie PEPCO w kraju Zwrotowi nie podlegaja wybrane produkty kategorii bielizna",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal fiscal point-of-sale (POS) receipt issued by Pepco Poland Sp. z o.o. from the PEPCO store located at ul. Metalowców 5, 26-110 Skarżysko-Kamienna, Poland. The header contains the company name, registered office address, registration number, store location, tax identification number (NIP), transaction date and time, and fiscal receipt identifier. The fiscal summary includes Taxable Sales (Sprzedaż Opodatkowana A), 23% VAT (PTU A), Total VAT (Suma PTU), and the Grand Total (SUMA PLN). The payment section records a card (Karta) payment and includes the transaction number, payment identifiers, and barcode. The footer provides a customer thank-you message, directs customers to the official PEPCO website for current offers, and outlines the store's 30-day return policy along with exclusions for selected underwear products. This is a standard Polish retail fiscal receipt used by PEPCO stores.",
+  "name": "Pepco Receipt",
+  "slug": "Pepco-Receipt",
+  "published": true,
+  "id": "H38FUltxQagXHnsZFQ5r"
+}

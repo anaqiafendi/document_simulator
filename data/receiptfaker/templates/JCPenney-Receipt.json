@@ -1,0 +1,66 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "JCPenney Receipt",
+  "description": "This receipt features the JCPenney header logo printed at the top, followed by store identification listed as Store #2950-4, located at 800 S Randall Road, Algonquin, IL 60102, with the store phone number included. The transaction section presents structured item lines with SKU references, clearance and coupon discount entries, and return value indicators. A financial summary block shows Subtotal, Sales Tax (7.7500%), and Total with right-aligned currency formatting. Additional transaction metadata includes total items sold and returned counts. The lower section highlights cumulative discount totals (“Total Item Discounts,” “Total Coupon Discounts,” and “Your Total Discounts Today”) before concluding with the payment type (Cash). The format reflects a standard department store retail POS thermal receipt layout with segmented discount reporting and tax detail.",
+  "slug": "JCPenney-Receipt",
+  "createdAt": "$D2026-02-22T18:15:17.004Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "44bbd71a-5297-4076-9466-cae7bae46d15",
+      "type": "HEADER",
+      "alignment": "RIGHT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1af10ff9-f938-4067-bb06-578e19b6e009-image%20(9).jpg?alt=media&token=b85e7ed8-b14a-494a-9be2-ba97a6e553ed",
+      "size": 215,
+      "businessDetails": "JCPenney\nStore # 2950 - 4\n800 S Randall Road\nAlgonquin IL, 60102\n(847) 915-3267\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f82bf0b6-b25e-4048-b02b-d82e48fb5b91",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SJB MRLD CRW SWTR          845/5171/040709\n                             36.00\nClearance Disc              -30.01\nCoupon Disc                 -5.46\nReturn Value                0.53T\n\n842 ANA TOPS                842/6281/030611\n                             30.00\nClearance Disc              -25.01\nCoupon Disc                 -4.54\nReturn Value                0.45T\n\n\nSubtotal                     0.98\nSales Tax 7.7500% 60102      0.08\n\n\nTotal Items Sold: 2\nTotal Items Returned: 0",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "68be296d-88dc-4f2b-901e-0d3e8346f8e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total                        1.06",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3167e3af-a691-406b-99b0-8e9e3ad90df4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total Item Discounts: 55.02\nTotal Coupon Discounts: 10.00\nYour Total Discounts Today: 65.02",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ec706bd3-389d-4bde-817a-93bb0e39353e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CASH                         1.06",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FIv2WZhv4xYhrZOkiKP90%2FIv2WZhv4xYhrZOkiKP90-ea2fa235-0a71-4257-806a-8b066ee644e2.png?alt=media&token=a12f122f-1412-4969-9448-7ed156b82438",
+  "published": true,
+  "id": "Iv2WZhv4xYhrZOkiKP90"
+}

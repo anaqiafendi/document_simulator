@@ -1,0 +1,143 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Zomato Receipt",
+  "slug": "Zomato-Receipt",
+  "createdAt": "$D2025-09-30T12:00:12.759Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F30e939b9-2779-466c-946f-0e226825db1e-%5BCITYPNG.COM%5DZomato%20App%20Logo%20Icon%20HD%20PNG%20-%203500x3500.png?alt=media&token=7e7a3812-01af-421a-bdd1-c1fb140b967a",
+      "size": 105,
+      "businessDetails": "Order Summary\n\nOrder ID: 947860487\nOrder Time: 26 September 2025 09:45 PM\nRestaurant Name: Ember & Thyme\nRestaurant Address: 742 Linden Avenue, San Diego, CA 92103\nCustomer Name: Daniel Herrera\nCustomer Address: 1830 Palm Canyon Drive, San Diego, CA 92104",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "97630071-2d16-47e0-83ff-ef783d2a80e8",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Item",
+          "value": ""
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Total Price",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Margherita Pizza",
+          "total": "25.98"
+        },
+        {
+          "quantity": "1",
+          "description": "Caesar Salad",
+          "total": "9.50"
+        },
+        {
+          "quantity": "3",
+          "description": "Iced Latte",
+          "total": "12.75"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Delivery Charge",
+          "value": "0.00"
+        },
+        {
+          "title": "Taxes",
+          "value": "4.22"
+        }
+      ],
+      "total": "52.45",
+      "totalText": "TOTAL",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "88.23"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4001cbb8-8420-4568-98d9-c922ec76fb79",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Communication Address:\n1830 Palm Canyon Drive, San Diego, CA 92104\nSecond floor, Apartment #3 — ring the bell on the right.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2Fak2xSVZwZKIinRRRIEH5%2Fak2xSVZwZKIinRRRIEH5-099ff2d1-a2ac-4481-8cc8-031ebcf5c84f.png?alt=media&token=6b59fe56-558c-4312-ac45-fa0c1a7d9643",
+  "description": "Need a Zomato receipt? Easily create a detailed food order receipt with our free tool. Add restaurant info, order items, prices, delivery details, and payment—perfect for expense tracking or reimbursements.",
+  "published": true,
+  "metatitle": "Zomato Food Receipts",
+  "metadesc": "professional Zomato delivery receipts with restaurant details, order items, prices, and payment info for expense tracking",
+  "id": "ak2xSVZwZKIinRRRIEH5"
+}

@@ -1,0 +1,202 @@
+{
+  "currency": "",
+  "slug": "GBK-Cribbs-Causeway-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T15:30:38.486Z",
+  "description": "This receipt template originates from Gourmet Burger Kitchen (GBK) at the Cribbs Causeway location in Bristol, United Kingdom. The header contains the GBK branding, full store address, telephone number, customer feedback contact information, and website address. Transaction metadata includes the date and time, terminal identifier, table number, and bill number. The receipt structure separates food and drink sections and provides corresponding subtotal summaries, followed by an item count and final total. The format is representative of a casual dining restaurant point-of-sale receipt with table-service functionality and customer feedback messaging.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "GBK Cribbs Causeway Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "88224f0f-dd18-42d9-bc33-dabea2f3dc44",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F15d6b22a-caf9-4a92-97b0-966a7207c462-image%20(7).jpg?alt=media&token=f91daa55-cf60-4b1a-809e-d778f8b814c1",
+      "size": 196,
+      "businessDetails": "GBK Cribbs Causeway\n\nUnit UR132A Upper Level\nThe Mall, Cribbs Causeway\nPatchway\nBS34 5DG\nTel: 0117 950 7419",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "831612f5-61af-4516-8f78-2d4f32f22632",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFrom the first bite to the last,\nwe want to hear about it!\nContact us on: 0333 234 1889\nwww.gbk.co.uk/contact-us\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a0663f15-e5b8-47c9-9180-aa13af958f1c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Florin ",
+          "total": "Terminal 1"
+        },
+        {
+          "quantity": "",
+          "description": "09/08/20  12:32",
+          "total": "000000005"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ec70c5c-2cf1-4d65-82e6-efc0499cbeec",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Table: 51\nRestaurant\nB1ll: 7",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a7beaff-bb79-4d19-bf90-b5bd35f97cc1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\n1",
+          "description": "The Mighty",
+          "total": "\n£12.95"
+        },
+        {
+          "quantity": 1,
+          "description": " --Medium",
+          "total": "£0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Cheddar Cheese",
+          "total": "£8.55"
+        },
+        {
+          "quantity": 1,
+          "description": "--Medium    ",
+          "total": "£0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Chunky Fries ",
+          "total": "£3.45"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6d221c7-e49d-4021-bd25-6cf93c582d1f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "5",
+          "description": "Food SubTotal",
+          "total": "£24.95"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bbed7e02-48c4-4ae7-aed1-7c297c2614f8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Shake Peanut Butter ",
+          "total": "£5.25"
+        },
+        {
+          "quantity": 1,
+          "description": "Diet Coca Cola",
+          "total": "£2.80"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7231598-b12e-439a-9e35-448a79b71147",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Drink SubTotal",
+          "total": "£8.05"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f967aa40-c387-41c2-80a0-70295ab9a185",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n7 Items\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b678a16d-33fc-491e-8fcd-3794fe0e8525",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL                           ",
+          "total": "£33.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "isrfiBGmWU01ZPibPKwk"
+}

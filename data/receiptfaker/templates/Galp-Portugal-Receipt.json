@@ -1,0 +1,145 @@
+{
+  "currency": "",
+  "slug": "Galp-Portugal-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T12:52:25.916Z",
+  "description": "This fuel station receipt from Galp documents a bank card transaction processed at a Galp service station in Coimbra, Portugal. The receipt includes company identification details for Supermercados–Supermercados, Lda., full address information, taxpayer registration references, telephone number formatting, pump number references, invoice and receipt numbering metadata, and timestamp information. The POS structure contains fuel quantity measurements in liters, unit pricing per liter, total transaction value in euros, bank card payment confirmation, VAT calculations, ISP tax references, tax reduction information, and pre-tax pricing details aligned in standard Portuguese fuel station thermal receipt formatting. Additional receipt elements include fuel grade identification, terminal transaction references, and localized tax accounting information throughout the receipt. The layout reflects a standard Portuguese fuel retail receipt with detailed fuel taxation and card payment processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Galp Portugal Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "published": true,
+  "sections": [
+    {
+      "id": "cf61db86-d8b9-49e8-8e2e-2c9acbccd279",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F27d427b6-5289-4bd9-aecf-5a9ecba51599-image%20(3).jpg?alt=media&token=dfdd358b-9186-4ec0-bcd6-68c8ec1a97a4",
+      "size": 237,
+      "businessDetails": "\nSUPERMESURA-Supermercados, Lda\nRua Central da Mesura, n. 35\n3040-197 Coimbra\nContribuinte: 513 836 869\nTel: 239448180 Chamada a rede fixa\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e3523fc-ea20-4f53-acad-67a0d08ac848",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nData:\t03/10/2025 00:42\nOPT Nr: 64\tTurno: 4579\nFatura/Recibo: FR 13181342025V040V/4842\nWM REF: 333876938\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6379a677-facc-4e6d-a09c-46b64949b43f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nBomba: 4",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "E5 Gasolina Simp 95",
+          "total": "1,639 EUR/L"
+        },
+        {
+          "quantity": "",
+          "description": "62,54 L",
+          "total": "EUR 102,50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1b73ab79-a02f-44b1-b715-f037bcb09124",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "EUR 102,50"
+        },
+        {
+          "quantity": "",
+          "description": "Cartão Bancário",
+          "total": "EUR 102,50"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nIVA 23,00%",
+          "total": "\n\nEUR 19,17"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c39aecbf-f9ce-42a6-b079-09cb6450512d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "E5 Gasolina Simp 95\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "957b3263-eadf-4d4a-93ca-eaafecc138fe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ISP",
+          "total": "EUR 39,65"
+        },
+        {
+          "quantity": "",
+          "description": "Reducao (ISP+IVA)",
+          "total": "EUR 10,18"
+        },
+        {
+          "quantity": "",
+          "description": "Preço taxas e impostos",
+          "total": "EUR/L 0,70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f9757dcd-8da4-4236-b77a-84edb9c93874",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nObrigado pela sua visita!\nVolte sempre ao seu Galp de confiança.\n\n*** Boas viagens e boa estrada! ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "i8Vc9XJjbdefO2kMgMsc"
+}

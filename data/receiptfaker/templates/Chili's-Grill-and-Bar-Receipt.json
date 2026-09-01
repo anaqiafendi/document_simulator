@@ -1,0 +1,102 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Chili's Grill & Bar Receipt",
+  "description": "This receipt is a casual dining restaurant transaction issued by Chili’s Grill & Bar at its Silverlake location. It includes staff identification, transaction number, and timestamped order details. The receipt presents an itemized list of food and beverage purchases, including happy hour items and menu selections, followed by a structured financial summary with subtotal, sales tax, and total amount. It concludes with customer feedback information and contact details, reflecting a standard U.S. full-service restaurant POS receipt format with promotional pricing and dine-in service structure.",
+  "slug": "Chili's-Grill-and-Bar-Receipt",
+  "createdAt": "$D2026-04-17T11:46:34.857Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "e54d2468-0e4c-4c37-833e-4cca0d2f670a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F063e64a8-6bb3-470f-b857-3b210cf11ceb-image%20(4).jpg?alt=media&token=baec72ae-324e-478b-9908-fa91587c7c1e",
+      "size": 198,
+      "businessDetails": "Grill & Bar\nSilverlake\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "55db6b07-66a3-4f27-9e28-51f32313cb95",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "#015 AMANDA L                   T073\n04/14/11  18:09:00           #00776\n\n\nCHECK                          #0148",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90e9037c-a48e-4ee3-aa7c-34e4a382599c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "BEVERAGE",
+          "total": "4.58"
+        },
+        {
+          "quantity": "",
+          "description": "HH EGGROLL",
+          "total": "4.99"
+        },
+        {
+          "quantity": "",
+          "description": "HH BBWINGS X 5",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "DOUBLE TAKE",
+          "total": "20.00"
+        },
+        {
+          "quantity": "",
+          "description": "  HH 1/2 TX FF",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "35.55"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax",
+          "total": "2.93"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "38.48"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "783c597f-0988-4fee-a6a3-f66445f0015b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU!!!\nWe welcome your comments.\n(800) 983-4637\nwww.chilis.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FTOUO5dPurLbciRHtACup%2FTOUO5dPurLbciRHtACup-f5585fce-a328-4f18-ba88-028cd75eac0e.png?alt=media&token=e6bab0ac-c5e4-4314-add3-6d2216258c95",
+  "published": true,
+  "id": "TOUO5dPurLbciRHtACup"
+}

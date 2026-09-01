@@ -1,0 +1,166 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T12:13:32.910Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d098cc16-24bc-4a98-b6ed-6d37f7ebcd33",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F66c5a3a6-895b-49f5-8361-242e100e278c-image%20(7).jpg?alt=media&token=d7c19f60-9112-4c40-872c-6892fe8708bb",
+      "size": 254,
+      "businessDetails": "\nSS Fried Chicken\nLhokseumawe\n\nTAKE-AWAY\n\n\nAntrian: 24\nNo. 240911-1616-23UEJ\nLhokseumawe             11-09-24 16:17\n------OPEN :11-09-24 16:16------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6071a6d-b99f-400b-9fad-277eb2a1ad4f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nPaket Ss Dm",
+          "total": "\n22,000"
+        },
+        {
+          "quantity": "",
+          "description": "=>1 Green Tea",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "=>1 Nasi Putih",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "=>1 Dada Mentok ",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "Paket Red Spicy Pb /",
+          "total": "22,000"
+        },
+        {
+          "quantity": "",
+          "description": "S",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "=>1 Sayap",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "=>1 Green Tea",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "=>1 Nasi Putih ",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "=>1 Add On Spicy ",
+          "total": 10
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1eb577e4-5a8a-4d88-b19c-5df14b4bc865",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n------CLOSE:11-09-24 16:17------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f224eec8-8319-4294-bb63-a16541740c0e",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Total",
+          "value": "44,000"
+        },
+        {
+          "title": "QRIS BSI",
+          "value": "44,000"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "40764a42-0067-45a8-b1f8-231a6b306131",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n Terima Kasih\nwww.ss-group.id",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a8c6c9c7-0199-409a-af21-29fac85926e2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nWA : 085296762467\nIG : ssfriedchicken.id\nFB : ssfriedchicken",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by SS Fried Chicken Lhokseumawe, located in Lhokseumawe, Aceh, Indonesia. The header displays the restaurant name, branch location, order type (TAKE-AWAY), queue number, transaction number, branch name, and the transaction open and close timestamps. The receipt includes an itemized order section with package selections and associated modifiers before concluding with a financial summary showing the Total and the QRIS BSI digital payment amount. The footer contains a customer appreciation message, the company's official website, WhatsApp contact number, Instagram account (@ssfriedchicken.id), and Facebook page (ssfriedchicken). This receipt represents a standard Indonesian quick-service restaurant POS receipt for takeaway orders, combining transaction metadata, digital payment confirmation, and business contact information in a compact thermal receipt format.",
+  "name": "SS Fried Chicken Lhokseumawe Receipt",
+  "slug": "SS-Fried-Chicken-Lhokseumawe-Receipt",
+  "published": true,
+  "id": "gLt6rLkJfxuAJU6Ki3Th"
+}

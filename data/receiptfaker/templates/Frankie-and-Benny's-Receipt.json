@@ -1,0 +1,140 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-06-12T19:27:08.454Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Frankie & Benny's Receipt",
+  "description": "This receipt template originates from Frankie & Benny's at the Wembley location and includes unit identification, till number, server name, table number, cover count, order number, and transaction timestamp. The financial section contains VAT calculations showing net amount, tax amount, VAT-inclusive total, and the final transaction total. The footer includes customer appreciation messaging, telephone number, VAT registration number, company website, a customer-survey promotion with invitation number, terms-and-conditions notice, and print timestamp. A handwritten thank-you note is also present on the receipt. The format is representative of a casual dining restaurant point-of-sale receipt.",
+  "sections": [
+    {
+      "id": "3e60e005-edb7-4e0e-819e-b7e968995683",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "F&B Wembley\nUnit 100\nHA9 0FD\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1518f164-f6a2-44d4-b476-683b6b36b31a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Till 2",
+          "total": "13 Jan 2018 15:10"
+        },
+        {
+          "quantity": "",
+          "description": "Craig",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Table: 40  c: 2",
+          "total": "ORDER #: S199"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n2    J20 Orange/Pass",
+          "total": "\n\n =       6.30"
+        },
+        {
+          "quantity": "",
+          "description": "2    Bacon Cheese",
+          "total": "=      22.00"
+        },
+        {
+          "quantity": "",
+          "description": "1    Side Salad",
+          "total": "=       3.45"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7a4ca68-b0ea-4733-b6e1-34627eca17ad",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "20% VAT 1 Net ",
+          "total": "27.21"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT 1",
+          "total": "5.44"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT 1 Total",
+          "total": "32.65"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "05876ead-6cd5-47e8-8d7a-bd38a52fb76b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£32.65"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9c754f5d-1c52-49ed-88bb-430a5c0ee051",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ORDER #: S199",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db09f1b1-fb69-466f-a827-178562c83a4b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for visiting and we\nlook forward to seeing you soon\nTel:02089037824\nVAT No 340 377 862\nwww.frankieandbennys.com\n\n\nHow was your visit?\n£10 off your food bill\non your next visit\nwhen you complete our online\nsurvey at\nfabfeedback.com\n\n\nInvitation Number: 5108901445426\nTerms & Conditions apply\nPrinted at 13 Jan 2018 15:10\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Frankie-and-Benny's-Receipt",
+  "published": true,
+  "id": "JYQ2Rn7KBSgRqTMujxYB"
+}

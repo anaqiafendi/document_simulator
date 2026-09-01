@@ -1,0 +1,77 @@
+{
+  "createdAt": "$D2026-02-26T11:59:17.896Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CUSTOMER COPY",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd1c2fcdf-baa5-45ce-b54f-2eeb5efb60fb-image%20(4).jpg?alt=media&token=746a0eab-3794-4a18-bcd0-def45c30a78c",
+      "size": 222,
+      "businessDetails": "Trans#: 2025/1/400/9769 04/11/25 12:23:10\nEmployee: 150233\nPOS: Stand1-Station18\nTrans. Type: Sale\nCust No : Guest Customer",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Product   QTYxPrice($)  Total($)\n--------------------------------\nCrows Nest   5x6.00        30.00\n(craft)\n\nTotal QTY                  5.0\n--------------------------------\nSubtotal                   30.00\nDiscount                    0.00\nTax1                        2.55\nTOTAL                       32.55\n-------------------------------- \nDue($)                       32.55\nTendered($)                  32.55\nCredit($)                     0.00\nChange($) \n-------------------------------- \nCREDIT($)                    32.55\n\n             APPROVAL\n\nACCT:\nCARD:\nREF\nAPPR:\nENTRY:\nCARDHOLDER\nLABEL:\nAID:\nCRYPTOTYPE:\nARC:\nTVR:\nTSI:\nIAD:\nTRANSACTION SEQUENCE NUMBER\n(TSN):\nCVM:",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e13b83a4-fa3a-4e73-b65b-364f4dc15364",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU!\nAUGUSTA NATIONAL GOLF CLUB\n2604 WASHINGTON ROAD\nAUGUSTA, GA 30904\nPHONE: 706-667-6600",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "96efb9c8-ba10-4eca-93c3-42345492439c",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "324addbe-f08f-4b61-b8ec-151c697271d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2025/1/400/9769",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "metatitle": "Tim Hortons Receipt",
+  "metadesc": "realistic Tim Hortons receipts with custom coffee, food items, store details, and payment info using our free generator tool",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Masters Receipt",
+  "description": "This receipt is a customer copy issued by Masters at Augusta National Golf Club, located at 2604 Washington Road, Augusta, GA 30904, with phone number 706-667-6600. It includes transaction number 2025/1/400/9769 with date and time stamp 04/11/25 12:23:10, employee ID 150233, and POS identifier Stand1-Station18. The receipt reflects a sale transaction for a guest customer and includes a structured financial summary with subtotal, discount, tax, total, amount due, tendered amount, credit, and change fields. A full credit card approval section is present with labeled authorization and EMV data fields. The footer includes a thank-you message, full business address, phone number, and a barcode with the transaction number. The format indicates a hospitality/food service environment within a private golf club setting.",
+  "slug": "Masters-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Feyok6zP8PT3aPgWPpTqj%2Feyok6zP8PT3aPgWPpTqj-34751db5-e60c-4e6f-aac7-cd3cf29ac281.png?alt=media&token=fd898f21-cba9-4592-9076-a9986600a797",
+  "published": true,
+  "id": "eyok6zP8PT3aPgWPpTqj"
+}

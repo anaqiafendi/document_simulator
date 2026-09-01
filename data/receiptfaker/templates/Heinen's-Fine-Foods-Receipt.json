@@ -1,0 +1,114 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T08:52:57.928Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "description": "This receipt is issued by Harris' and identifies the restaurant as 2100 Van Ness Avenue, San Francisco, California 94109. The header contains the Harris' branding, restaurant address, contact telephone number, website, server name, check number, table number, guest count, and order date and time. The receipt records a dine-in order consisting of two glasses of Lallier Brut, Executive Prime Rib, Caesar Salad, GL Korbin Kamaron Mr, and a Scallop Appetizer. The financial section records the subtotal, applicable sales tax, and the final transaction total. The footer thanks the customer for dining at the restaurant and provides the official @harrisrestaurantsf social media handle. The overall layout is representative of a United States steakhouse POS receipt, combining table-service order management, menu itemization, sales-tax reporting, and restaurant branding within a compact hospitality receipt format.",
+  "name": "Heinen's Fine Foods Receipt",
+  "slug": "Heinen's-Fine-Foods-Receipt",
+  "sections": [
+    {
+      "id": "49560a4b-7087-4459-8ba9-35d0755d0431",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6e8b8151-8bed-4a26-8f11-a0852d8b8499-image%20(1).jpg?alt=media&token=dd273b01-ac76-44e0-9b0e-94cd69ec2d77",
+      "size": 251,
+      "businessDetails": "\nHarris' Restaurant\n2100 Van Ness Ave.\nSan Francisco, CA 94109\n(415) 673-1888\nHarrisrestaurant.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3925fa7c-dbc6-427a-a2e9-a96af683e38a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nServer: Lucy C",
+          "total": "\nTable 21"
+        },
+        {
+          "quantity": "",
+          "description": "Check #22",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Guest Count: 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ordered: 6/15/24  5:30 PM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n2 GL Lalliar Brut",
+          "total": "\n$38.00"
+        },
+        {
+          "quantity": "",
+          "description": "Executive Prime Rib",
+          "total": "$$87.00"
+        },
+        {
+          "quantity": "",
+          "description": "Caesar Salad",
+          "total": "$$17.00"
+        },
+        {
+          "quantity": "",
+          "description": "GL Korbin Kamaron MR",
+          "total": "$$18.00"
+        },
+        {
+          "quantity": "",
+          "description": "Scallop App ",
+          "total": "$$28.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$188.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$16.21"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$204.21"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2729349e-3e52-432c-ae52-98c0d1f0e3df",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for dining with\nus!\n@harrisrestaurantsf",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "W9lnD8kAIzeULoCCayUc"
+}

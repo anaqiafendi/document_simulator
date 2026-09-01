@@ -1,0 +1,172 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T15:41:06.281Z",
+  "description": "This restaurant receipt from Jolly Badger Harvester, located on Vale Lane, Hayes, contains a POS terminal identifier, server name, table number, account number, and an allergy-status notation. The receipt includes a transaction timestamp, a product group summary section, VAT calculations showing net amount, VAT amount, and VAT-inclusive total, followed by a final transaction total. The footer contains a customer feedback survey URL and restaurant contact telephone number. The format is consistent with a UK casual dining restaurant POS system utilizing table-based account management and VAT reporting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Jolly Badger Harvester Receipt",
+  "slug": "Jolly-Badger-Harvester-Receipt",
+  "sections": [
+    {
+      "id": "48fadeab-dfbf-48ce-9b5a-8379a268bda8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Jolly Badger Harvester\nMole Lane\nHA8 8RZ\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1a13deef-79b6-4758-8e27-79ebbb4053a0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ZA180021-POS-03",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Amber F",
+          "total": "29 Jun 2022   20:33"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTable: 7A   G: 2",
+          "total": "\n\nAcc No: 3633"
+        },
+        {
+          "quantity": "",
+          "description": "\nIS ALLERGIC: NO",
+          "total": ""
+        },
+        {
+          "quantity": "3",
+          "description": "Calamari Strips",
+          "total": "=\t14.97"
+        },
+        {
+          "quantity": 1,
+          "description": "Crackerjack Fries",
+          "total": "=\t5.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Glass Fruit Juice",
+          "total": "=\t0.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Butik Fried Chix",
+          "total": "=\t4.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Nachos",
+          "total": "=\t4.99"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "=\t-3.50"
+        },
+        {
+          "quantity": "",
+          "description": "HRV ON21 Tapas x 2",
+          "total": "=\t-3.50"
+        },
+        {
+          "quantity": "",
+          "description": "HRV ON21 Tapas x 4",
+          "total": "=\t-2.97"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "076ca5d5-98d5-4fbf-9dc1-a69db9bed25b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Product Group Summary",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Food And Drink",
+          "total": "27.96"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n20% VAT Net",
+          "total": "\n\n23.30"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT",
+          "total": "4.66"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Total",
+          "total": "27.96"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db7145c6-ae67-42ec-bf18-37e6bba8b881",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£27.96"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02f381b4-c099-471b-8ed3-fadeda71aabb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for visiting us today! We would love to hear your thoughts at: www.guestsurvey.co.uk/harvester\n\nTel 0208 9533403\nVAT 232 153 895",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "yu8MpoxtwbE1ldrK8bBG"
+}

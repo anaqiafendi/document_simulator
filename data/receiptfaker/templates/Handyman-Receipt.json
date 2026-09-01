@@ -1,0 +1,158 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T10:43:04.303Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Handyman Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F1d129e50-a495-4d91-a879-7193b12ddb00-2318435_handy_handyman_tool_tool%20in%20hand_wrench_icon.png?alt=media&token=289b1220-d55f-4be3-97f3-092eac154c26",
+      "size": 50,
+      "businessDetails": "GreenShield Pest Control Inc.\nReliable Fix-It Pros LLC\nBusiness Address:\n742 Oakridge Avenue, Suite B\nRivertown, CA 92843\nPhone Number:\n(555) 873-2049\nEmail Address:\ncontact@reliablefixitpros.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Handyman Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to: Derrick Lawson\n1842 Maplewood Drive\nSpringfield, IL 62704",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "5",
+          "description": "Hours of general repairs",
+          "total": "250"
+        },
+        {
+          "quantity": "1",
+          "description": "Window handle replacement",
+          "total": "30"
+        },
+        {
+          "quantity": "2",
+          "description": "Door knob replacements",
+          "total": "60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "340"
+        },
+        {
+          "title": "Tax",
+          "value": "24.65"
+        }
+      ],
+      "total": "364.65",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Invoices are issued promptly upon the completion of handyman services, unless prior arrangements have been made. Clients will receive their invoice either by email or as a printed copy, based on their stated preference. Any concerns or discrepancies regarding the invoice must be communicated to the company within 5 business days of receipt.",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "753c4324-d721-4816-8cc8-c2502a85780d",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 1:21:51 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Handyman-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F3KMub7vHMOCKv6YR29nt%2F3KMub7vHMOCKv6YR29nt-3cdbad0c-36d8-4cc0-a928-321c9f8d7748.png?alt=media&token=7451cd61-2cdd-479e-a80d-7861a4dba8ba",
+  "description": "Need a handyman receipt? Quickly create a detailed service receipt with our free tool. Add contractor info, job description, hours worked, materials, rates, and payment—ideal for client records or invoicing.",
+  "published": true,
+  "metatitle": "Contractor Receipt",
+  "metadesc": "professional handyman receipts with contractor details, job descriptions, hours worked, materials, and payment information",
+  "id": "3KMub7vHMOCKv6YR29nt"
+}

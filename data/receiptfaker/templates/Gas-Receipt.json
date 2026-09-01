@@ -1,0 +1,151 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Gas Receipt",
+  "slug": "Gas-Receipt",
+  "createdAt": "$D2025-05-24T07:07:10.464Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FiE6gVR0lVS4BijRpYjKJ%2FiE6gVR0lVS4BijRpYjKJ-de425a8b-c3a2-418f-9db0-5759093244c7.png?alt=media&token=b5ce8845-146b-4c48-9723-8d3c0540a773",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F3612e84d-c8bc-4571-8515-4d4aed25e2db-9025790_gas_pump_icon.png?alt=media&token=26a1c6f8-fe71-4d68-a6bb-d0b008de686d",
+      "size": 50,
+      "businessDetails": "FuelPoint Station\n4857 Birchwood Drive\nColumbus, OH 43215\nUnited States\n(614) 382-9471",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Pump: 5\nTransaction number: TXN-8493726150",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb305d3f-d341-4e6c-8bf6-4220dd4da226",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Details",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07b4d0b0-ae83-40a0-8924-1601d6b9d7c3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Base Price: $2.97/GAL\nGallons: 17.43",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "51.77"
+        },
+        {
+          "title": "Tax",
+          "value": "6.71"
+        }
+      ],
+      "total": "58.48",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "This receipt serves as proof of fuel or store purchase. Please retain it for your records. All fuel sales are final and non-refundable once pumped. Refunds on non-fuel items are subject to manager approval and require the original receipt within 7 days of purchase. If you believe there was an error at the pump, report it immediately to the cashier before leaving the station. We cannot honor claims made after departure. For questions or concerns, call (614) 382-9471 or email support@fuelpointstation.com.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS"
+    }
+  ],
+  "description": "Need a gas receipt? Quickly generate a fuel purchase record with our free tool. Add station info, fuel type, quantity, price, and payment details—perfect for mileage tracking, reimbursements, or expense documentation.",
+  "published": true,
+  "metatitle": "Gas Bill Receipt",
+  "metadesc": "professional gas station purchase receipts featuring station details, fuel type, quantity purchased, and payment information",
+  "id": "iE6gVR0lVS4BijRpYjKJ"
+}

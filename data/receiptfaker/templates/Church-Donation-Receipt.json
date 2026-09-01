@@ -1,0 +1,139 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Church Donation Receipt",
+  "slug": "Church-Donation-Receipt",
+  "createdAt": "$D2025-05-25T11:10:04.749Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fe305eaaf-d5e2-4859-aa55-0643594f1b5b-2884797_church_love_wedding_icon.png?alt=media&token=5266de38-1a3f-48e1-b289-66315b6af9a5",
+      "size": 81,
+      "businessDetails": "New Light Community Church\nAddress: 129 Maple Avenue, Oak Ridge, TN 37830\nWebsite: www.newlightcommunity.org\nEmail: info@newlightcommunity.org\nPhone Number: (865) 555-2741",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b920414b-bd5e-48a6-a592-6ac976524b4d",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 10:30:41 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Church Donation Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Name: Olivia Bennett\nAddress: 317 Pinecrest Road\nCity, State, Zip: Columbus, OH 43215\nCountry: United States\nEmail: olivia.bennett23@mail.com\nPhone: (614) 555-9817",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Individual donation",
+          "total": "20"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "20",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "48ef67db-40e2-489c-a21a-1b3909d80e40",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for your generous support!\nYour contribution helps us continue our mission to serve the community and spread hope.\nMay God bless you abundantly!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FLoTqJAJ4FkDfiritUFNK%2FLoTqJAJ4FkDfiritUFNK-4854c671-5a28-4f00-8c37-4e6ec0bba613.png?alt=media&token=e72ff75d-f577-4371-a214-06bde65b3530",
+  "description": "Need a church donation receipt? Use our free tool to generate a formal receipt for charitable contributions. Enter church details, donor name, donation amount, and date—perfect for tax records or personal documentation.",
+  "published": true,
+  "metatitle": "Church Donation Receipt",
+  "metadesc": "professional church donation receipts with donor details, contribution amounts, and tax documentation using our free generator",
+  "id": "LoTqJAJ4FkDfiritUFNK"
+}

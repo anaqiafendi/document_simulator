@@ -1,0 +1,41 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Kmart Receipt",
+  "slug": "Kmart-Receipt",
+  "createdAt": "$D2026-02-21T15:37:06.388Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "description": "This receipt is issued by Big Kmart Store #9647 located at 4820 S 4th St Trafficway, Leavenworth, KS 66048, with a listed contact phone number. It includes store header information followed by policy notices indicating all sales are final and no refunds or exchanges. The document contains a cashier identifier and rewards account reference, departmental section headers, and a financial summary showing tax, balance, and total. The lower section records card authorization data including masked card number, approval code, entry method, AID, application preference name, CVM verification, and change line. The receipt concludes with the total number of items, representing a general retail merchandise point-of-sale transaction format.",
+  "metatitle": "Fake ShopRite Receipt",
+  "metadesc": "authentic ShopRite grocery receipts with custom items, prices, store details, and payment info for returns or expense tracking",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F844410f5-c373-4936-a28b-5e3c8cd0578f-kmart.jpg?alt=media&token=2945598f-ec61-44e7-8889-d53025813d8a",
+      "size": 237,
+      "businessDetails": "BIG KMART STORE 9647\n4820 S 4TH ST TRAFFICWAY\nLEAVENWORTH, KS 66048\n(913)727-6530",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n     *** ALL SALES FINAL ***\n  *** NO REFUNDS OR EXCHANGES ***\n\nCASHIER: SOON\nShop Your Way Rewards XXXXXXX3831\n\nGENERAL MERCHANDISE\n01864368016   16 PK HANGER A 11.99 T\n03660082800   CHAPSTICK   A  1.83 T\n\nGROCERY\n88396739296   SS K-CUP A 5.39 B\n\n**** TAX 1               BAL   21.03\nXXXXXXXXXXXX2864\nVS APPROVAL 023431\nENTRY METHOD: C      H MODE: E\nAID:A0000000031010\nAPPL PREF NAME:Vis Credit\nCVM: VERIFIED BY ICC\nVF   VS    21.03\nCHANGE      .00\n\nTOTAL NUMBER OF ITEMS = 3",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FtJvFwAUvAOZjzrSwt7gW%2FtJvFwAUvAOZjzrSwt7gW-f293fefd-f9d3-418b-968d-4d849a5cb554.png?alt=media&token=d34dc0cf-8d76-4319-bb59-cb47cbd23612",
+  "published": true,
+  "id": "tJvFwAUvAOZjzrSwt7gW"
+}

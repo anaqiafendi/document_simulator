@@ -1,0 +1,154 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T04:21:54.263Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Nordstrom Store Receipt",
+  "description": "This receipt is a retail transaction issued by Nordstrom, a U.S. department store, at its Michigan Avenue location in Chicago, Illinois. It records the purchase of a single item priced at $0.01, likely a test, adjustment, or clearance transaction. The receipt includes store number, register, transaction ID, date and time, and payment details. It shows the payment was made in cash with change returned. The format reflects a standard U.S. retail POS receipt with itemized pricing, tax, and transaction tracking information.",
+  "slug": "Nordstrom-Store-Receipt",
+  "published": true,
+  "sections": [
+    {
+      "id": "62919287-ab13-44b9-aa4e-97d5742a46b5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F41d7024a-6630-44c5-b397-c25b4ddc3174-image%20(6).jpg?alt=media&token=46e4153e-4b09-4b58-b48e-ce14c6def651",
+      "size": 236,
+      "businessDetails": "NORDSTROM\nMichigan Avenue\nFlagship\n55 East Grand Avenue\nChicago, IL 60611\n(312) 464-1515",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cafd372-ca83-43e1-97b5-67d6a651fe79",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Store 220        Tran# 4817",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SALE",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2bf5c351-0f10-4d05-a888-0be33a39e5f9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOPSHOP FLORAL MIDI DRESS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 X BLACK SIZE 10",
+          "total": "0.01"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "817c257d-1df1-470e-860f-af8d88460549",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "0.01"
+        },
+        {
+          "quantity": "",
+          "description": "SALES TAX ",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4bde5ba6-29c8-4549-87c3-02daa6480526",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE DUE",
+          "total": "(4.99)"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL ",
+          "total": "0.01"
+        },
+        {
+          "quantity": "",
+          "description": "Total Items Purchased = 1",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad0b6cf5-9c40-4b9a-9f49-bcd041699235",
+      "type": "BARCODE",
+      "size": 73,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8bc177de-79de-4c04-ad72-68f1b2525743",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n02/04/2016              11:44 AM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "YrRtGsEPEjHLGJB7oQUL"
+}

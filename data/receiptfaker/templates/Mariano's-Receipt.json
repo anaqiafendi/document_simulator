@@ -1,0 +1,174 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Mariano's Receipt",
+  "description": "This receipt is a grocery retail transaction issued by Mariano’s at its East Benton Place location, including store address and contact number. It features cashier identification and a rewards customer designation, along with a timestamped transaction record. The receipt presents an itemized purchase list including grocery items and a gift card purchase, followed by a structured financial summary with tax breakdowns reflecting Illinois state and local rates. Payment details include masked debit card information, authorization references, and EMV transaction identifiers. The receipt concludes with total items sold and transaction metadata, reflecting a standard U.S. supermarket POS receipt format with integrated rewards and tax reporting.",
+  "slug": "Mariano's-Receipt",
+  "createdAt": "$D2026-04-10T09:00:16.442Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "18934b54-8559-4fd2-9f6a-cfc46b2d50e3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9c6685a7-5751-4fa2-ace6-909110c7a6b7-image%20(2).jpg?alt=media&token=0a4b0973-d502-43ba-af3b-6f91b7bb66b4",
+      "size": 233,
+      "businessDetails": "\n333 East Benton Place\n312.228.1349\nYour cashier was CHEC 511 ****1942\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ade6b6d-14ef-44ac-82cd-194cf0f6c787",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Rewards Customer",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "DRIS RASPBRY",
+          "total": "3.49 B"
+        },
+        {
+          "quantity": "",
+          "description": "LSTRNE PCKTPAK",
+          "total": "5.99 T"
+        },
+        {
+          "quantity": "",
+          "description": "MR AMAZON GC ",
+          "total": "50.00 BInc"
+        },
+        {
+          "quantity": "",
+          "description": "DORITO CHIPS",
+          "total": "1.37"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "69.60"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9a2d3c90-3665-483b-bd15-0b5649dec178",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n**** BALANCE\nDebit Purchase\n**************2070 - C\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "adcf02fb-9fcd-4c04-b30e-cb9a2bf1a5ba",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "REF#:     052831",
+          "total": "TOTAL: 69.60"
+        },
+        {
+          "quantity": "",
+          "description": "PURCHASE: 69.60",
+          "total": "CASHBACK: 0.00"
+        },
+        {
+          "quantity": "",
+          "description": "AID: A0000000042203",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TC: D52B4EAA772ABF2E",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VERIFIED BY PIN",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "DEBIT",
+          "value": "69.60"
+        },
+        {
+          "title": "CHANGE",
+          "value": "0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba9d20f8-ca44-4672-b34d-88a81891572f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "2.25% SALES TAX",
+          "total": "0.96"
+        },
+        {
+          "quantity": "",
+          "description": "8.0% SALES TAX IL",
+          "total": "1.37"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL TAX",
+          "total": "1.37"
+        },
+        {
+          "quantity": 1,
+          "description": "TOTAL NUMBER OF ITEMS SOLD =",
+          "total": "4"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03c971b9-c4f7-4719-b496-8b96723a2234",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "05/14/24  03:28pm  503  511  130  999999511\n\n***********************************\n\nTHANK YOU FOR SHOPPING AT MARIANO'S",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FhfpOdeGtd5jZbZzHvGcZ%2FhfpOdeGtd5jZbZzHvGcZ-c7b35e8f-e23e-40a8-8287-5df46f397c16.png?alt=media&token=20b18713-dfbd-42b3-9786-6fa2f8680735",
+  "published": true,
+  "id": "hfpOdeGtd5jZbZzHvGcZ"
+}

@@ -1,0 +1,200 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T11:56:01.741Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "7a126fbe-8ddc-4beb-9df9-916d1962e36c",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7ff6cf51-c961-45bd-aa56-0597a6e492b9-image%20(1).jpg?alt=media&token=0e54e9e7-755b-4301-88d2-19c9ad43826e",
+      "size": 207,
+      "businessDetails": "Stew Leonard's Norwalk\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90be250a-7c83-4601-98a0-93642c49c8b2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "100 Westport Ave",
+          "total": "July 1, 2026"
+        },
+        {
+          "quantity": "",
+          "description": "Norwalk, CT",
+          "total": "6:22 PM"
+        },
+        {
+          "quantity": "",
+          "description": "06851-3915",
+          "total": "Alessia"
+        },
+        {
+          "quantity": "",
+          "description": "(203) 847-7213",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "https://stewleonards.com/",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": " @StewLeonards",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3d8ed7f3-5a3a-485a-b1c6-c75ebab4d38d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "FOR HERE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5afc1601-aad7-42d0-a68d-36be787c047e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Ticket 50\nReceipt: 9(B)\nServer: Marissa T.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6aaed002-dc31-4f6a-af10-7601c0ca29c0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nKid's Cheeseburger Combo",
+          "total": "\n$7.49"
+        },
+        {
+          "quantity": "",
+          "description": "plain",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cheeseburger Combo",
+          "total": "$$10.99"
+        },
+        {
+          "quantity": "",
+          "description": "Swap Sweet Potato Fries ($1.00),",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Poland Spring",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "plain",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cheeseburger Combo ",
+          "total": "$$9.99"
+        },
+        {
+          "quantity": "",
+          "description": "Add Tomato, Poland Spring",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5caea4a3-01eb-4bf6-bd03-ff9859aa7d7f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal ",
+          "total": "\n$28.47"
+        },
+        {
+          "quantity": "",
+          "description": "CT Meal Tax (7.35%)",
+          "total": "$$2.09"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4876fef9-81cd-408f-b3cb-147cde15ef72",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTotal ",
+          "total": "\n$30.56"
+        },
+        {
+          "quantity": "",
+          "description": "American Express 1000 ",
+          "total": "$$30.56"
+        },
+        {
+          "quantity": "",
+          "description": "(Contactless)",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Stew Leonard's restaurant receipt issued from the Norwalk location at 100 Westport Ave., Norwalk, Connecticut 06851-3915. The header features the Stew Leonard's branding followed by the store location, full street address, telephone number, company website, and social media reference. Transaction metadata records the date and time, employee name, service designation, ticket number, and receipt identifier. The main section follows a restaurant-style thermal POS format with itemized order entries and corresponding amounts. The financial summary separately records the subtotal, Connecticut meal tax percentage and amount, and final total. The payment section identifies American Express as the tender type, indicates contactless payment, displays a masked card reference, and repeats the final amount charged.",
+  "name": "Stew Leonard's Receipt",
+  "slug": "Stew-Leonard's-Receipt",
+  "published": true,
+  "id": "miCGUF1DhQYH8yjztut4"
+}

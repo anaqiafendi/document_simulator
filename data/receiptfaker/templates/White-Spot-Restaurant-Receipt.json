@@ -1,0 +1,161 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "White Spot Restaurant Receipt",
+  "description": "This receipt is from White Spot restaurant in Canada. It records a dine-in meal for three guests including haddock and fish, prime rib, broccoli, beverages, dessert, and additional sides. The receipt includes subtotal calculations, PST, PLT, GST tax breakdowns, total due, and guest count information. It also contains customer feedback and social media details printed at the bottom of the receipt. The format reflects a standard Canadian restaurant POS receipt.",
+  "slug": "White-Spot-Restaurant-Receipt",
+  "createdAt": "$D2026-05-20T07:55:56.022Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0ff85065-a4ce-464f-a3f8-aee50d41fb28",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b53feaeb-e984-4032-a55b-44406bb87d96",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "CHECK #: 2931          TIME: 16:45PM\nTABLE # 43                TABLE # 43",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "d299ee5b-cdd2-4e5b-9412-8851ac4af6f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n-- 1-DINING :     John  --\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc380f4d-00ed-421d-85cc-9218b2e4be91",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "ITEMS ",
+          "description": "ORDERED",
+          "total": "AMOUNT"
+        },
+        {
+          "quantity": "2",
+          "description": "PC HADDOCK AND. Fries",
+          "total": "22.08"
+        },
+        {
+          "quantity": 1,
+          "description": "CHIN TIRE DON",
+          "total": "21.95"
+        },
+        {
+          "quantity": 1,
+          "description": "PIRATE HB",
+          "total": "10.95"
+        },
+        {
+          "quantity": 1,
+          "description": "strate side, no fries",
+          "total": "8.43"
+        },
+        {
+          "quantity": 1,
+          "description": "SLTED CRM BRNTE",
+          "total": "4.29"
+        },
+        {
+          "quantity": 1,
+          "description": "COKE",
+          "total": "7.00"
+        },
+        {
+          "quantity": 1,
+          "description": "SANGRIA - RSE SPZ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "No Straw/ia",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d3348789-1db4-48f4-956c-409f2f0ed5aa",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "75.75"
+        },
+        {
+          "quantity": "",
+          "description": "P.S.T.",
+          "total": "0.30"
+        },
+        {
+          "quantity": "",
+          "description": "L.T.",
+          "total": "0.70"
+        },
+        {
+          "quantity": "",
+          "description": "G.S.T.",
+          "total": "3.79"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL DUE",
+          "total": "80.54"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n\n\n# OF GUESTS",
+          "value": "\n\n\n3"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7eb27847-81f1-4a69-a9f3-a2b4e78f90f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for visiting White Spot!\nShare today's experience at:\nwww.whitespot.ca/contact-us\n\nFollow us on social media\nFacebook - whitespot\nInstagram - whitespot_restaurants\nWhite Spot Restaurant",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "vBuA2BqcpPRs24xD1uSJ"
+}

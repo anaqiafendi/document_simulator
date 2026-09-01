@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Save Mart Supermarkets Receipt",
+  "description": "Grocery store receipt from Save Mart Supermarkets in Fresno, California, showing a retail grocery purchase. The receipt includes store address and location number, cashier name, transaction date and time, terminal number, itemized grocery and produce purchases with prices, subtotal, sales tax, total amount paid, Visa card payment details with approval code, and a closing thank-you message from the store.",
+  "slug": "Save-Mart-Supermarkets-Receipt",
+  "createdAt": "$D2026-02-08T14:00:30.240Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "e1e0b01a-003b-4764-a431-fcc601dc47af",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd9009405-ef67-4785-95b0-91b539149ec0-savemart%20logo.jpg?alt=media&token=49968312-535e-4538-9764-82a1d746e0a0",
+      "size": 237,
+      "businessDetails": "4295 W. Shaw Ave\nFresno, CA 93722\nSave Mart #50",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bf88f8d0-adfd-4587-bf3a-66fbbcc462a4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCashier: Kathleen R\n09/08/23           18:27:52\n\nTRX RESUMED                148\nTERMINAL NUMBER:           1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0c735b2e-87fa-4106-a4b4-11661fd90d8f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\ncard number   *********147",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd01f4b6-5339-49b4-8ba1-5ea594b072f0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "GROCERY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CSN GREEN PLUMS  ",
+          "total": "5.99"
+        },
+        {
+          "quantity": "",
+          "description": "REGULAR RICE  ",
+          "total": "4.49"
+        },
+        {
+          "quantity": "",
+          "description": "FLAY PITAS  ",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "\nPRODUCE / GARDEN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BANANAS  ",
+          "total": "0.30"
+        },
+        {
+          "quantity": "",
+          "description": "AVOCADO",
+          "total": "1.29"
+        },
+        {
+          "quantity": "",
+          "description": "\nMEAT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BEEF BRISKET ",
+          "total": "15.99"
+        },
+        {
+          "quantity": "",
+          "description": "GROUND BEEF ",
+          "total": "9.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "91.31"
+        },
+        {
+          "title": "Tax",
+          "value": "10"
+        }
+      ],
+      "total": "101.10",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c69abb62-1e1a-4ea9-b348-a75a8ba17494",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Visa\nAcct: **** **** **** 6105\nApproval Code: 613401\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "475e8e12-73fc-4f33-9396-4cf40aef1ed2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU FOR SHOPPING AT SAVE MART",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FJSh3NTdgWwsU1GcypyvR%2FJSh3NTdgWwsU1GcypyvR-10463619-c9bf-47fc-8058-56da6ab3ccad.png?alt=media&token=e14eb725-5419-4ec2-aedf-b271b7d1ac3f",
+  "published": true,
+  "id": "JSh3NTdgWwsU1GcypyvR"
+}

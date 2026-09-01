@@ -1,0 +1,126 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T12:29:15.614Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Brico Depot Receipt",
+  "description": "This receipt is from Brico Dépôt, a home improvement and hardware retail store located in Brive-la-Gaillarde, France. It records the purchase of a waterproofing bracket or construction-related hardware item. The receipt includes product code information, quantity, VAT details at the French 20% tax rate, total amount paid, and card payment confirmation. It also lists the pre-tax amount and total tax charged. The format reflects a standard French retail POS receipt used in hardware and building supply stores.",
+  "sections": [
+    {
+      "id": "8e2ccc2b-3ba7-4f18-beba-ae3f6a5bdbc1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcca37db5-3cdf-418e-bd0b-3cefb9b3aa06-image%20(17).jpg?alt=media&token=5c6cde99-abb9-4a9a-a484-21315ee2e200",
+      "size": 179,
+      "businessDetails": "CHARLEVILLE\n08000 CHARLEVILLE\n0324583650\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8cb2d510-dea3-4300-9193-4fd821f58591",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "QTE DESCRIPTION",
+          "total": "PRIX MONTANT"
+        },
+        {
+          "quantity": "2",
+          "description": "\nGRIL RIGIDE ANTHRA LOUGA H123",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "3663602729716",
+          "total": "20,50 41,00"
+        },
+        {
+          "quantity": "4",
+          "description": "PLATINE POT ENCOCHE ANTHRA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "3663602730576 18,90",
+          "total": "75,60 v5"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nNOMBRE D'ARTICLES: 6",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "\n\n116,60 €"
+        },
+        {
+          "quantity": "",
+          "description": "\nEspèces",
+          "total": "\n-120,00 €"
+        },
+        {
+          "quantity": "",
+          "description": "Rendu",
+          "total": "3,40 €"
+        },
+        {
+          "quantity": "",
+          "description": "\nDETAIL TVA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "V5  TVA  20,00% 19, 43 97,17",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb6c72dd-5fa0-4865-8874-7568fae8484d",
+      "type": "BARCODE",
+      "size": 73,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cc400ff3-579f-4e27-98ba-2739c3670275",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "R T 2 3 3 7 2 3  3 7  3  0 0 6 0 2 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0fac2ffe-9129-4efe-9b49-ae16b6c9cc95",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n06/02/2026 09:29  2337   030   0022\n\nConservez-moi comme preuve d'achat.\nMerci de votre visite chez\n\nBRICO DÉPÔT\nA bientôt !\n* * * * * * * * * *\nwww.bricodepot.fr",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Brico-Depot-Receipt",
+  "published": true,
+  "id": "G9XwclWaOvBDJkDXawX1"
+}

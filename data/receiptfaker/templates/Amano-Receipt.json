@@ -1,0 +1,246 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Amano Receipt",
+  "description": "This receipt is issued by Amano and identifies the restaurant at 106–108 Quay Street, Britomart, Auckland, New Zealand. The header records the table number, number of guests, opening time, and printing time. The receipt documents a substantial restaurant order containing alcoholic and non-alcoholic beverages, wine, gin, focaccia, burrata, mozzarella, fish dishes, pasta dishes, steak, lamb, salads, vegetable sides, and desserts including Budino, Trifle, and Cannoli. The financial section records a subtotal and final total of $1,428.00. The footer provides the business's GST registration number, Auckland address, contact telephone number, and POS system information. The overall layout is representative of a New Zealand table-service restaurant receipt, combining detailed food and beverage itemization, GST identification, table information, and transaction totals.",
+  "slug": "Amano-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T14:28:46.005Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "fd73434e-6a26-403a-830f-1c9a0fffe99a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "Amano\n\nSUMMARY\nTable: 70\nTables\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a163f21c-09d2-40bf-83b3-6169d4ed2112",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Guests ",
+          "value": "14"
+        },
+        {
+          "title": "Printed",
+          "value": "8:52 PM 2 Mar 20"
+        },
+        {
+          "title": "Opened",
+          "value": "6:42 PM 2 Mar 20"
+        },
+        {
+          "title": "",
+          "value": "NINA B"
+        },
+        {
+          "title": "\nItem",
+          "value": "\nPaid    Due"
+        },
+        {
+          "title": "\nSAWMILL IPA",
+          "value": "55.00"
+        },
+        {
+          "title": "5 @ 11.00 ea",
+          "value": ""
+        },
+        {
+          "title": "TAP WAIHEKE HEKE",
+          "value": "11.00"
+        },
+        {
+          "title": "GL CONTESA MONTEPULCIANO",
+          "value": "12.00"
+        },
+        {
+          "title": "BT ALOIS LAGEDER CHARD",
+          "value": "240.00"
+        },
+        {
+          "title": "3 @ 80.00 ea",
+          "value": ""
+        },
+        {
+          "title": "BT CONTESA MONTEPULCIANO",
+          "value": "60.00"
+        },
+        {
+          "title": "BT MOMO P NOIR",
+          "value": "140.00"
+        },
+        {
+          "title": "2 @ 70.00 ea",
+          "value": ""
+        },
+        {
+          "title": "SCAPEGRACE PREMIUM GIN",
+          "value": "24.00"
+        },
+        {
+          "title": "2 @ 12.00 ea",
+          "value": ""
+        },
+        {
+          "title": "FOCACCIA",
+          "value": "28.00"
+        },
+        {
+          "title": "2 @ 14.00 ea",
+          "value": ""
+        },
+        {
+          "title": "BURRATA",
+          "value": "52.00"
+        },
+        {
+          "title": "2 @ 26.00 ea",
+          "value": ""
+        },
+        {
+          "title": "MOZZARELLA",
+          "value": "52.00"
+        },
+        {
+          "title": "2 @ 26.00 ea",
+          "value": ""
+        },
+        {
+          "title": "FISH PATE",
+          "value": "48.00"
+        },
+        {
+          "title": "2 @ 24.00 ea",
+          "value": ""
+        },
+        {
+          "title": "KINGFISH",
+          "value": "60.00"
+        },
+        {
+          "title": "3 @ 20.00 ea",
+          "value": ""
+        },
+        {
+          "title": "JOHN DORY",
+          "value": "34.00"
+        },
+        {
+          "title": "CHITARRA",
+          "value": "216.00"
+        },
+        {
+          "title": "6 @ 36.00 ea",
+          "value": ""
+        },
+        {
+          "title": "FUSILLI ",
+          "value": "22.00"
+        },
+        {
+          "title": "TAGLIATELLE",
+          "value": "34.00"
+        },
+        {
+          "title": "STEAK",
+          "value": "35.00"
+        },
+        {
+          "title": "LAMB",
+          "value": "105.00"
+        },
+        {
+          "title": "3 @ 35.00 ea",
+          "value": ""
+        },
+        {
+          "title": "FENNEL SALAD",
+          "value": "24.00"
+        },
+        {
+          "title": "2 @ 12.00 ea",
+          "value": ""
+        },
+        {
+          "title": "COURGETTE",
+          "value": "20.00"
+        },
+        {
+          "title": "2 @ 10.00 ea",
+          "value": ""
+        },
+        {
+          "title": "POTATOES",
+          "value": "20.00"
+        },
+        {
+          "title": "2 @ 10.00 ea",
+          "value": ""
+        },
+        {
+          "title": "SWEETCORN",
+          "value": "24.00"
+        },
+        {
+          "title": " 2 @ 12.00 ea",
+          "value": ""
+        },
+        {
+          "title": "APRICOT DESSERT",
+          "value": "45.00"
+        },
+        {
+          "title": "3 @ 15.00 ea",
+          "value": ""
+        },
+        {
+          "title": "BUDINO ",
+          "value": "15.00"
+        },
+        {
+          "title": "TRIFLE",
+          "value": "14.00"
+        },
+        {
+          "title": "CANNOLO",
+          "value": "6.00"
+        },
+        {
+          "title": "\nSub Total",
+          "value": "\n$ 1,428.00"
+        },
+        {
+          "title": "TOTAL",
+          "value": "$$ 1,428.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c39f21fb-35be-4899-bb2b-0c56bb1d3e27",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nGST # 114-828-939\n106-108 Quay Street, Britomart, Auckland\nPh: (09) 3941416\n\nPrinted by onetap systems",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "NpiUTCFep7w2J4QlYNxH"
+}

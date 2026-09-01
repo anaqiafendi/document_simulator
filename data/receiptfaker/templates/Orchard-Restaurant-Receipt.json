@@ -1,0 +1,131 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T11:12:35.436Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Orchard Restaurant Receipt",
+  "description": "This receipt is from Orchard restaurant in the United Kingdom and records a breakfast dining transaction for three guests. The order includes unlimited breakfasts, breakfast drinks, and a cappuccino. The receipt provides product group totals, VAT calculations at the UK 20% rate, account number, table information, and final amount due. It also includes restaurant contact information and a customer thank-you message. The format reflects a standard UK restaurant POS receipt for casual dining service.",
+  "sections": [
+    {
+      "id": "63de33a4-70db-43ca-b7ac-38393e24b956",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Orchard\nRiverfield Drive\nMK41 0UE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "927d8326-2d33-4762-adc6-89cd0b61c396",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ZA199761-POS-03",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Claire",
+          "total": "25 Nov 2014 11:02"
+        },
+        {
+          "quantity": "",
+          "description": "Table: 44  c: 3",
+          "total": "Acc No: 6967"
+        },
+        {
+          "quantity": "\n\n4",
+          "description": "Unlmted Brkfst 1",
+          "total": "\n\n= 19.96"
+        },
+        {
+          "quantity": "2",
+          "description": "Breakfast Drinks",
+          "total": "=  4.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Cappuccino Bean",
+          "total": "=  1.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d436b09-5a67-40ba-9691-d118c36c17c5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Product Group Summary",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Food And Drink",
+          "total": "26.45"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Net",
+          "total": "22.04"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT",
+          "total": "4.41"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Total",
+          "total": "26.45"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9130dc90-a450-496e-8045-aa3157f293e7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total                        £26.45",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4f972f39-e379-4650-8974-a42288764251",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for visiting\nOrchard\n\n\n\nTEL: 0122 427 1330\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Orchard-Restaurant-Receipt",
+  "published": true,
+  "id": "wkso0jczD6weWt5CpGtp"
+}

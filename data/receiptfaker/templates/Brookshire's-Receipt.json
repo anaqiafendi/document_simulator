@@ -1,0 +1,169 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Brookshire's Receipt",
+  "description": "This receipt is a grocery retail transaction issued by Brookshire’s Food & Pharmacy at its Forney, Texas location, including full store address and pharmacy contact information. It features cashier identification and a timestamped transaction record. The receipt presents a structured financial summary with subtotal, tax, and total amount, along with payment details indicating Mastercard usage. It also includes loyalty program information showing points balance, earned points, and expiration details, reflecting a standard U.S. supermarket POS receipt format with integrated rewards tracking and customer service references.",
+  "slug": "Brookshire's-Receipt",
+  "createdAt": "$D2026-04-10T06:53:43.226Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "cad3e506-21e6-48e5-be38-b91f18fc6e07",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F938c4151-1d1a-47f3-be3c-c8d604c1baf5-image.jpg?alt=media&token=c16c5cf7-472f-4bf5-8631-0dfad1453175",
+      "size": 213,
+      "businessDetails": "\nYour Cashier Is:    SEANA GRAVES\n\n427 Pinson Rd. P.O. Box #1230\nFORNEY, TEXAS 564-0244\nPHARMACY PHONE: 972-552-9541\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e030a7a5-c402-4799-808f-bf98a633066f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Thank You Card Number: XXXXXXXX4291",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BAKERY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1/4 SHEET CUSTOM CAK",
+          "total": "36.99 FD"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c780e08-1260-48d3-82cb-8c9f69180421",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL",
+          "value": "36.99"
+        },
+        {
+          "title": "TAX DUE",
+          "value": "10.00"
+        },
+        {
+          "title": "TOTAL",
+          "value": "36.99"
+        },
+        {
+          "title": "MASTERCARD",
+          "value": "36.99"
+        },
+        {
+          "title": "CASH CHG ",
+          "value": ".00"
+        },
+        {
+          "title": "NUMBER OF ITEMS",
+          "value": "1"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bd22b183-a0b3-42e6-ac68-1c8e70a03a7b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "T 6 X172 S089 Op#113 02/21/21  14:52:05\n\nTHANK YOU SHOPP HOUSEHOLD!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5bb80834-c060-4d6e-b9a5-9df7b54bdb79",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "YourPoints Beginning: ",
+          "total": "13.76"
+        },
+        {
+          "quantity": "",
+          "description": "YourPoints earned:",
+          "total": "36.99"
+        },
+        {
+          "quantity": "",
+          "description": "YourPoints redeemed:",
+          "total": ".00"
+        },
+        {
+          "quantity": "",
+          "description": "YourPoints total: ",
+          "total": "50.75"
+        },
+        {
+          "quantity": "",
+          "description": "Expiring 02-28:",
+          "total": "2.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f734c336-e222-4fad-80ee-58b0f0f4bb52",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHave a question or comment?\n1-888-WE-RESPOND or brookshires.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0749dbd2-a29d-43b4-a903-d1700137d836",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for your visit!\nEnjoy your bagels!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8VejaA58VCdL4hmAkP0k%2F8VejaA58VCdL4hmAkP0k-8fac97b1-1d0d-4056-bbf2-980464115d70.png?alt=media&token=bbbc93cb-5a1c-480a-ab9b-1f99221e1ef7",
+  "published": true,
+  "id": "8VejaA58VCdL4hmAkP0k"
+}

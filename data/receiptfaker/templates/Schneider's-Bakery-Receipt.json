@@ -1,0 +1,129 @@
+{
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "bottomDividerType": "DASHES",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FrYMb0xd13vR7119krsGXfW3KxB62%2Fe5192ce8-d77e-4724-b724-b5a779a64917-schneiders-logo-brown.png?alt=media&token=88601096-1751-4f54-84c3-a43caf75bdea",
+      "type": "HEADER",
+      "size": 142,
+      "bottomDivider": false,
+      "businessDetails": "SCHNEIDER'S BAKERY\n(614)882-6611\n6 S STATE ST, WESTERVILLE, OH 43081\nscneiders-bakery.com",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "date": "1/28/2026, 6:56:412 AM",
+      "type": "DATE",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "alignment": "LEFT",
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626"
+    },
+    {
+      "totalDivider": true,
+      "bottomDividerType": "DASHES",
+      "items": [
+        {
+          "description": "DOZEN- VARIETY",
+          "quantity": "4",
+          "total": "100.00"
+        },
+        {
+          "description": "DOZEN- PLAIN",
+          "total": "60.00",
+          "quantity": "3"
+        },
+        {
+          "description": "DOZEN- EVTH BAGEL",
+          "total": "75.00",
+          "quantity": "3"
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "total": "253.80",
+      "totalLines": [
+        {
+          "title": "Total",
+          "value": "235"
+        }
+      ],
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "totalSizeIncreased": "PERCENT_75",
+      "bottomDivider": true,
+      "totalText": "Total",
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "cashFields": [
+        {
+          "value": "6",
+          "title": "Cash"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "bottomDivider": true,
+      "isCash": false,
+      "bottomDividerType": "DASHES",
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 7667"
+        },
+        {
+          "value": "Debit",
+          "title": "Card type"
+        },
+        {
+          "value": "Chip",
+          "title": "Card entry"
+        },
+        {
+          "value": "1/28/2025, 6:56 AM",
+          "title": "Date/time"
+        },
+        {
+          "value": "4896U2395U9035Y",
+          "title": "Reference #"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "type": "PAYMENT",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "custom": "This receipt is your proof of purchase. ",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-02-04T14:04:12.623Z",
+  "name": "Schneider’s Bakery Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "fontType": "MERCHANT_COPY",
+  "metadesc": "professional bakery receipts with custom items, quantities, prices, and business details using our free receipt generator tool",
+  "metatitle": "Bakery Shop Receipt",
+  "currency": "$$",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "parentName": "Bakery Receipt",
+  "backgroundCrumpled": true,
+  "isParent": true,
+  "slug": "Schneider's-Bakery-Receipt",
+  "description": "Bakery purchase receipt from Schneider’s Bakery listing assorted bagel orders by dozen, item prices, subtotal and total amount, payment method, transaction date and time, card details, approval status, and store contact information.",
+  "numberFormat": "LEFT",
+  "textColor": "#101828",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FWsiknu2lxHQApPR4NTnB%2FWsiknu2lxHQApPR4NTnB-8ccd0b7c-80b2-4d6b-b60c-a9d74b0877e9.png?alt=media&token=6bba185b-403c-47ec-b3db-12b730fb3c37",
+  "published": true,
+  "id": "Wsiknu2lxHQApPR4NTnB"
+}

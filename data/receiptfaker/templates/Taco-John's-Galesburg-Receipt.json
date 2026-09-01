@@ -1,0 +1,114 @@
+{
+  "sections": [
+    {
+      "id": "a3825386-945e-4511-bcb8-b8cecb887aa6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F77b8dc81-821d-43d6-a3b2-887ed430f599-image%20(9).jpg?alt=media&token=0caa0e03-487a-42fc-a9c7-9a723f5a5482",
+      "size": 247,
+      "businessDetails": "Taco John's - Galesburg IL\n1922 N Henderson Street\nGalesburg, IL 61401\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60c6286a-ecca-49af-9069-257104dc12a5",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nServer: Dorothy P",
+          "value": "\n11/18/2024"
+        },
+        {
+          "title": "Check: 5003",
+          "value": "11:16 AM"
+        },
+        {
+          "title": "",
+          "value": "Drive-Thru"
+        },
+        {
+          "title": "\n\nItem",
+          "value": "\n\nPrice"
+        },
+        {
+          "title": "Queso FC Taco (2 @ 3.59)",
+          "value": "$$7.18"
+        },
+        {
+          "title": "Small Potato Ole's",
+          "value": "$$7.73"
+        },
+        {
+          "title": "Side Nacho Cheese @ 2.25",
+          "value": ""
+        },
+        {
+          "title": "Side Sour Cream @ 1.49",
+          "value": ""
+        },
+        {
+          "title": "Side of Red Rice",
+          "value": "$$2.49"
+        },
+        {
+          "title": "\nSubtotal ",
+          "value": "\n$17.40"
+        },
+        {
+          "title": "\nSales Tax",
+          "value": "\n$1.87"
+        },
+        {
+          "title": "\nTotal ",
+          "value": "\n$19.27"
+        },
+        {
+          "title": "\nVisa Tendered  ",
+          "value": "\n$19.27"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "54ca878e-404b-433e-8265-9de89ef0c6b5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n...te the Taco John's App!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d2d3d78-a229-4728-8ee5-f4a324c707f7",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "354afcdd-36f4-4479-bbba-a2aeca25b6ff",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "4819556117",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-23T12:33:43.140Z",
+  "imageUrl": "",
+  "name": "Taco John's Galesburg Receipt",
+  "slug": "Taco-John's-Galesburg-Receipt",
+  "description": "This receipt is issued by Taco John's and identifies the restaurant at 1922 N Henderson Street, Galesburg, Illinois 61401. The header contains the restaurant branding, location, server name, check number, transaction date and time, and indicates that the purchase was made through the drive-thru. The order includes two Queso FC Tacos, Small Potato Ole's with Nacho Cheese and Sour Cream, and a side of Red Rice. The financial section records a subtotal of $17.40, sales tax of $1.87, and a final total of $19.27. Payment was completed using Visa for the full amount. The footer promotes the Taco John's mobile app and contains a transaction barcode.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "lge0P9nScWVP3aSVl62M"
+}

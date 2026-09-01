@@ -1,0 +1,158 @@
+{
+  "parentName": "Office Depot",
+  "fontType": "MERCHANT_COPY",
+  "name": "Neste Oil K-market Receipt",
+  "slug": "Neste-Oil-K-market-Receipt",
+  "sections": [
+    {
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "type": "HEADER",
+      "businessDetails": "\nNeste Oil K-market\nSILTAPUISTO PORI\nSiltapuistokatu 33\nPun. 02-6335913\n\n",
+      "id": "ec3d5c26-b00a-4e6f-b2fb-bc01087a0178",
+      "bottomDividerType": "DASHES",
+      "size": 50,
+      "logo": "",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "totalDividerType": "DASHES",
+      "total": "",
+      "bottomDividerType": "DASHES",
+      "totalText": "",
+      "totalDivider": false,
+      "items": [
+        {
+          "description": "K001  M000100/0476 16:09 28-03-2016",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "description": "05 BE98 E5",
+          "total": "79.81",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "59.16 L     1.349 EUR/L",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "total": "79.81",
+          "description": "YHTEENSA"
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "\nKORTTITAPAHTUMA\n"
+        },
+        {
+          "quantity": "",
+          "description": "Kortti",
+          "total": "Visa Electron"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "**** **** **** 8232 CP"
+        },
+        {
+          "description": "Sovellus",
+          "total": "A0000000032010",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "06799/821561",
+          "description": "Tap.nro/Varmennus"
+        },
+        {
+          "description": "Yritys/Ala",
+          "total": "014697765200/5541",
+          "quantity": ""
+        },
+        {
+          "description": "\nAutentisointi",
+          "total": "\nDEFB26FE72F7E723",
+          "quantity": ""
+        },
+        {
+          "total": "160328016799",
+          "description": "Viite",
+          "quantity": ""
+        },
+        {
+          "total": "\n79.81 EUR",
+          "description": "\nDebit/Veloitus",
+          "quantity": ""
+        },
+        {
+          "description": "\nKANTA-ASIAKAS",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "KORTTI: 9372",
+          "total": ""
+        },
+        {
+          "total": "79.81",
+          "description": "PLUSSAA KERRYTTAVAT OSTOT",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "\n\nALV   VEROTON  VEROLLINEN"
+        },
+        {
+          "description": "3    24,00%   64.36     79.81",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "YHTEENSA   64.36   15.45   79.81",
+          "quantity": ""
+        }
+      ],
+      "totalLines": [],
+      "type": "ITEMS",
+      "id": "4246b136-00f1-46f1-a63b-663403d3d672",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "id": "63dbf76c-8121-499f-aae6-99ba31757cf0",
+      "custom": "\n\nY-tunnus 1469778-5\nTERVETULOA UUDELLEEN!\n",
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "size": 76,
+      "id": "39e45dbd-8ac3-4d65-bffa-e33f9b5478ca",
+      "bottomDivider": false,
+      "length": 500,
+      "type": "BARCODE",
+      "date": "$undefined"
+    }
+  ],
+  "backgroundCrumpled": false,
+  "numberFormat": "LEFT",
+  "createdAt": "$D2026-05-25T12:38:13.083Z",
+  "textColor": "#101828",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "currency": "",
+  "description": "This fuel station retail receipt from Neste Oil K-market documents a Visa Electron debit transaction processed at the Siltapuisto Pori location in Finland. The receipt includes store address details, phone number formatting, transaction sequence identifiers, timestamp information, fuel volume calculations in liters, and euro-per-liter pricing structure. The POS structure contains subtotal formatting, debit authorization references, VAT (ALV) calculations, taxable and tax-inclusive amount presentation, and loyalty program references aligned in standard Finnish thermal receipt formatting. Additional receipt elements include masked payment card data, application ID formatting, authentication references, customer loyalty identifiers, Finnish business registration details, barcode formatting, and customer appreciation messaging near the footer. The layout reflects a standard Finnish fuel station thermal receipt with localized VAT accounting and debit card authorization formatting.",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "published": true,
+  "id": "xibE305nKI1OZGJUESkl"
+}

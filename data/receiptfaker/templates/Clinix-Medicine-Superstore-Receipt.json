@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Clinix Medicine Superstore Receipt",
+  "description": "Bilingual pharmacy header logo printed in thermal receipt format for Clinix Medicine Superstore. The mark features the brand name “CLINIX+” in bold Latin characters with a medical cross symbol, accompanied by Urdu script and a black banner tagline reading “THE MEDICINE SUPERSTORE.” It appears at the top of a medical retail POS receipt that includes store address in Bahria Town Lahore, contact numbers, invoice and cashier identifiers, timestamp, payment mode, totals section, and a courtesy closing message, indicating a pharmacy and healthcare retail point-of-sale system layout.",
+  "slug": "Clinix-Medicine-Superstore-Receipt",
+  "createdAt": "$D2026-02-20T14:23:39.326Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0febd981-4e75-4993-8128-df74374dfc43",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5cdad2cc-f094-452a-ad1d-2624d8e2e2e4-clinix.jpg?alt=media&token=3dc67138-f2a3-41d9-b5ea-5cb164644641",
+      "size": 145,
+      "businessDetails": "Sector C, Plaza 2, Tower Chowk, \nBahria Town Lahore\nPh: 042-37895015     \nUAN: 05-352-0066/0069/70",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d927e76-c2de-4a49-860d-04a517562eb7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Invoice #: 31027            POS No:\nCashier: DR MAHNOOR     04/01/2024\nMode of Payment: DEFAULT 11:38:58 PM\n\nCustomer: CREDIT CARD WALKING CUSTOMER A/\nRemarks: Price ABD / MRF FAHEEM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea0f54fb-f2ed-41d2-b844-272bf4a3c263",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Sr#  Description  Qty   GST %  Total\n----------------------------------\n1    Fast D Tab    1.00       759.20\n     18.98  18.98  40\n\n2    Dr Koff (B/10)           180.00\n     Lemonhoney Lozg (mint) 1.00\n\n3    Dr Koff (6/10) Tulsi    180.00\n       Lozg (mint)\n    \n--------------------------------- \nTotal Qty:                51     \nTotal Amount:        2,758.20\nSales Tax:              0.80%\n\nPayable:                 2739.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6641ef13-84ce-4913-8b3e-21a403bc7096",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FiTpHi9DseZVmVfs0uyjt%2FiTpHi9DseZVmVfs0uyjt-f03cb0ab-e768-4070-a9b0-ab7cc54f01c6.png?alt=media&token=3eabb673-7e24-4288-b5c8-568a1525a144",
+  "published": true,
+  "id": "iTpHi9DseZVmVfs0uyjt"
+}

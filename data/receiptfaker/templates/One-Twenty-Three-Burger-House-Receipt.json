@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "One Twenty Three Burger House Receipt",
+  "description": "Food and beverage purchase receipt from One Twenty Three Burger House, showing store details, order number, dine-in status, items purchased, prices, subtotal, tax, total amount, and closing thank-you message.",
+  "slug": "One-Twenty-Three-Burger-House-Receipt",
+  "createdAt": "$D2026-01-23T17:15:17.945Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3c02ac3c-f569-40b2-982b-9da2a508e0fa",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F711c2652-030c-4670-9523-b38d547a63be-one%20thwenty%20three%20burger%20house.jpg?alt=media&token=9c1a52cb-4b13-4647-89b3-5801d9fb827a",
+      "size": 216,
+      "businessDetails": "ST. JAMES HOUSE\nST. JAMES STREET\n904-867-2804\n\n20045 Denver                         ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db092125-9dae-4ff9-ac95-e707ed3c3151",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "   Till 01      4110      16:58\n   Order 27  Eat In",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "3ea71f7e-95ec-4a5f-b1a7-8bd5198d3aa1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "4866dd55-cd54-4729-b633-63cdf32a38ea",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "6516dedf-f7f9-4011-acff-ab2c079f3f46",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "IT WAS OUR PLEASURE SERVING YOU\n<*>   PLEASE COME AGAIN   <*>",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcs6DrOoMBIR0Fbl30Q1b%2Fcs6DrOoMBIR0Fbl30Q1b-7598925d-fc68-4b93-a3e8-54faa60b147a.png?alt=media&token=0f0f776f-85db-483c-beb9-b3c65e17d772",
+  "published": true,
+  "id": "cs6DrOoMBIR0Fbl30Q1b"
+}

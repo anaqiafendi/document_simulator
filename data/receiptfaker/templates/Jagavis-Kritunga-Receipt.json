@@ -1,0 +1,179 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T16:38:30.910Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "136c16b3-9712-47ed-a9b5-0cf55609eac8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "JAGAVIS KRITUNGA\nRESTAURANT DINEIN & TAKEAWAY\nDWARAKAPURI COLONY,\nJAGAVIS KRITUNGA\nTEL NO:7995979918\nTRN NO:GSTIN:36AFJPT2355R1ZL",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0f0a947f-d6a3-46e7-a373-dd455ce556a6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCHECK PRINT (2)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc3c9993-ef87-4d00-a7f1-f3b6fcb9a452",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCREW :Captain    WAITER :Captain\nTABLE :Dine/17   PAX : 5\nORD NO:10",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d700482b-709c-4dd2-8080-49efdf739cfd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "DATE :16-Jan-2025 02:14 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7a6ad32-7ecf-4751-81cc-da8dd73d7615",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "QTY    ITEM ",
+          "total": "AMOUNT"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7f2bccd-2d95-4c73-8762-831254f58940",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "4   RAGI MUDDA (SANKATI)",
+          "total": "440.00"
+        },
+        {
+          "quantity": "",
+          "description": "2   NATUKODI PULUSU",
+          "total": "698.00"
+        },
+        {
+          "quantity": "",
+          "description": "1   GONGURA CHICKEN BIRYA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "NI",
+          "total": "349.00"
+        },
+        {
+          "quantity": "",
+          "description": "1   PRAWNS BIRYANI",
+          "total": "369.00"
+        },
+        {
+          "quantity": "",
+          "description": "1   MUTTON BIRYANI",
+          "total": "399.00"
+        },
+        {
+          "quantity": "",
+          "description": "2   WATER BOTTLE",
+          "total": "40.00"
+        },
+        {
+          "quantity": "",
+          "description": "2   DOUBLE KA MEETA",
+          "total": "280.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "22cacd6a-2b38-4bdf-acb3-57f9914ad2d8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTotal(excl GST)",
+          "total": "\n2575.00"
+        },
+        {
+          "quantity": "",
+          "description": "GROSS AMT",
+          "total": "2575.00"
+        },
+        {
+          "quantity": "",
+          "description": "CGST@2.5",
+          "total": "63.38"
+        },
+        {
+          "quantity": "",
+          "description": "SGST@2.5",
+          "total": "63.38"
+        },
+        {
+          "quantity": "",
+          "description": "GST Amount",
+          "total": "126.75"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "\n2701.75",
+      "totalText": "\nNET AMT",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "850a0c66-0343-438b-81d1-315f9320cb73",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank You!! Visit Again!!7995979918",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Jagavis Kritunga, located at Dwarakapuri Colony, Jagavi's Kritunga, India. The header includes the restaurant name, service types (Restaurant Dine-In & Takeaway), business address, telephone number, and GSTIN (Goods and Services Tax Identification Number). The receipt is identified as a Check Print, and records the crew designation, waiter name, table number, guest count (PAX), order number, and transaction date and time. The financial summary includes the Total (excluding GST), Gross Amount, CGST @ 2.5%, SGST @ 2.5%, GST Amount, and the Net Amount payable. The footer concludes with a customer appreciation message and the restaurant's contact number. This receipt represents a standard Indian restaurant POS receipt featuring GST tax reporting, transaction metadata, and dine-in service information.",
+  "name": "Jagavis Kritunga Receipt",
+  "slug": "Jagavis-Kritunga-Receipt",
+  "published": true,
+  "id": "wSb2PvgRAiXYpXLXzCHR"
+}

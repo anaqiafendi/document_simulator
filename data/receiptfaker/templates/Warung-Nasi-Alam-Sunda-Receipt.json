@@ -1,0 +1,193 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-19T11:34:11.623Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5c9b658d-26f3-4f23-aefe-3e32d10c1542",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4a22736d-c5f2-48b1-8b93-0edd6b81de30-image%20(2).jpg?alt=media&token=b88b62a9-db01-4865-9e2a-9a01a0bf5b6e",
+      "size": 195,
+      "businessDetails": "\nJl. Raya Cipanas No.173, Sindang\nKec. Cipanas  Kab. Cianjur  Jawa Barat 43253\nHP : 0819 4433 2003\n\n\nPOS: CIPANAS           Cashier: RENA",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f450f159-974a-4e3f-bdd6-d21ce34ae42a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nInvoice #004538",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "15 Nov 25 10:56:27",
+          "total": "PAX: 7"
+        },
+        {
+          "quantity": "",
+          "description": "TBL  172 ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "RENA",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a388685e-00b0-4857-ab58-fe3ba864ac8f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n7  Nasi Perorang",
+          "total": "\n49.000"
+        },
+        {
+          "quantity": "",
+          "description": "5  Ayam Goreng Kampung",
+          "total": "95.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Gurame Goreng",
+          "total": "20.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  Empal ",
+          "total": "25.000"
+        },
+        {
+          "quantity": "",
+          "description": "3  Usus Sapi  ",
+          "total": "45.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Karedok",
+          "total": "10.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Tempe ",
+          "total": "3.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Tahu",
+          "total": "3.000"
+        },
+        {
+          "quantity": "",
+          "description": "5  Perkedel Jagung ",
+          "total": "25.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Sosis",
+          "total": "26.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Cikua",
+          "total": "3.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Tumis Peda ",
+          "total": "15.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Es Jeruk",
+          "total": "13.000"
+        },
+        {
+          "quantity": "",
+          "description": "4  Es Teh Manis / Hangat",
+          "total": "30.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Es Teh Tawar",
+          "total": "4.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Pisang  ",
+          "total": "3.000"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal Item : 16",
+          "total": "\nTotal Qty : 38"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n398.000"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "398.000"
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "400.000"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE   ",
+          "total": "2.000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "084b44e7-25a0-4db7-9c4f-e668d0d02785",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Closed 15 Nov 25 10:57:53\n------------------------------------\n\n\n\nTERIMA KASIH SUDAH BERKUNJUNG\nMelayani Pesanan Nasi Box",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Warung Nasi Alam Sunda, located at Jl. Raya Cipanas No. 173, Sindanglaya, Kecamatan Cipanas, Kabupaten Cianjur, West Java 43253, Indonesia. The header displays the restaurant branding, full business address, WhatsApp contact number, POS location (CIPANAS), and cashier identifier (RENA). The receipt includes an invoice number, transaction date and time, table number, guest count (PAX), and cashier name before the itemized transaction section. The footer contains transaction totals, including Total Item, Total Quantity, Subtotal, Total, Cash, and Change, followed by the closing timestamp, a customer appreciation message, and a notice that the restaurant accepts Nasi Box orders. This is a standard restaurant POS receipt used for dine-in transactions in Indonesia.",
+  "name": "Warung Nasi Alam Sunda Receipt",
+  "slug": "Warung-Nasi-Alam-Sunda-Receipt",
+  "published": true,
+  "id": "FrEyd6SSxXNgWhmGy9Ls"
+}

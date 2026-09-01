@@ -1,0 +1,171 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-19T11:46:03.131Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "9ba48fca-b954-4db5-9281-1ba1050de842",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffbefc397-30a3-40dd-afb0-75645382419e-image%20(3).jpg?alt=media&token=722b96ee-50fb-47c9-a972-8324d9b269b1",
+      "size": 225,
+      "businessDetails": "Jl. Raya Puncak Tugu Selatan\nKab. Bogor\n====================================\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "196c5d8e-8784-44fa-b886-9baabe1c7b6d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Date        : 15 Nov 25 14:00\nCashier     : JORDAN AB\nOrder Name  : T 02 Riyani",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3398e54a-6852-4a72-bf02-fad9c39d4d74",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n2  Ice Kopi Susu Ranu ",
+          "total": "\n53.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Manggo Matcha Ranu",
+          "total": "28.500"
+        },
+        {
+          "quantity": "",
+          "description": "1  Hot Americano",
+          "total": "22.000"
+        },
+        {
+          "quantity": "",
+          "description": "> pisah gula",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1  Curros Coklat KT ",
+          "total": "18.500"
+        },
+        {
+          "quantity": "",
+          "description": "1  French Fries HT",
+          "total": "16.500"
+        },
+        {
+          "quantity": "",
+          "description": "1  Cireng Rujak KT",
+          "total": "18.500"
+        },
+        {
+          "quantity": "",
+          "description": "1  Roti Bakar Coklat Keju",
+          "total": "19.500"
+        },
+        {
+          "quantity": "",
+          "description": "1  Spaghetti Carbonara KT ",
+          "total": "33.000"
+        },
+        {
+          "quantity": "",
+          "description": "3  Black Hi Tea ",
+          "total": "33.000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e157dff8-cb1a-459f-be08-e9b6a370cc47",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "\nSubtotal 12 Product",
+          "total": "\n242.500"
+        },
+        {
+          "quantity": 1,
+          "description": "Service Charge",
+          "total": "12.125"
+        },
+        {
+          "quantity": 1,
+          "description": "Total  ",
+          "total": "254.625"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7c4a718e-6bf9-4e13-b61f-bc8feada1ea3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Transfer ",
+          "total": "254.625"
+        },
+        {
+          "quantity": "",
+          "description": "Total Paid ",
+          "total": "254.625"
+        },
+        {
+          "quantity": "",
+          "description": "=====================================",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6542e25a-f1ed-4025-83da-df64f6374c2e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n Instagram\n@cafe.anjani\n@kopiranu\n@hi.teacafe\n\n\nPaid  15 Nov 25 14:03\n printed: JORDAN AB",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Cafe Anjani, operating in Bogor, West Java, Indonesia, with branding for Kopi Ranu and Hi Tea Cafe shown in the footer. The header identifies the location as Jl. Raya Puncak, Tugu Selatan, Kabupaten Bogor. The receipt contains the transaction date and time, cashier identifier, customer/order name, and a structured sales section. The financial summary includes Subtotal (12 Product), Service Charge, Total, Transfer, and Total Paid, indicating payment was completed via electronic transfer. The footer lists the business's Instagram accounts and concludes with the payment completion timestamp and the staff member who printed the receipt. This is a standard thermal restaurant and café POS receipt used for dine-in food and beverage transactions in Indonesia.",
+  "name": "Cafe Anjani Receipt",
+  "slug": "Cafe-Anjani-Receipt",
+  "published": true,
+  "id": "XtT3TL5gG5s18dY7ZdXH"
+}

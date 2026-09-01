@@ -1,0 +1,150 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T17:31:05.857Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Locksmith Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fb224e4ce-ba68-4f58-bde2-bbb38fde5d10-2849796_lock_security_multimedia_close_protection_icon.png?alt=media&token=b7a4069d-ce1b-4431-8775-5c9410126455",
+      "size": 50,
+      "businessDetails": "SecureKey Locksmith Services, LLC\n921 Silver Oak Drive\nSacramento, CA 95814\n(916) 555-7382\nwww.securekeylocks.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Locksmith Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Emergency Lockout",
+          "total": "95.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Lock Rekeying",
+          "total": "85.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Smart Lock Installation",
+          "total": "150.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "330.00"
+        },
+        {
+          "title": "Tax",
+          "value": "27.23"
+        }
+      ],
+      "total": "357.23",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Services are available 24/7, with after-hours surcharges applied between 8:00 PM – 6:00 AM. Payment is due upon service completion. We accept cash, all major credit cards, and mobile payment platforms. All newly installed locks and hardware are backed by a 1-year manufacturer warranty. Labor is guaranteed for 90 days. Tampering or improper use voids warranty. Photo ID and proof of property ownership or residence may be required for certain services (e.g., lockouts, rekeying).\n\nservice@securekeylocks.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3995f8d2-5b06-4d7b-843e-74da9f766c69",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 1:19:11 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "slug": "Locksmith-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F8oCOoUNwSirc271pXQaG%2F8oCOoUNwSirc271pXQaG-c316399f-401f-4678-bfd6-0dfde8eb4b6b.png?alt=media&token=7d026d85-7b0a-4ea8-913c-b33f04766545",
+  "description": "Need a locksmith service receipt? Our free tool lets you create and download a detailed invoice in minutes. Add business info, service type, labor, parts, and payment details—perfect for records or client documentation.",
+  "published": true,
+  "metatitle": "Locksmith Receipt",
+  "metadesc": "professional locksmith service receipts with customizable labor, parts, and business details using our free receipt generator",
+  "id": "8oCOoUNwSirc271pXQaG"
+}

@@ -1,0 +1,133 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Crosby Receipt",
+  "description": "Restaurant receipt from The Crosby at Rancho Santa Fe, showing ticket number, employee name, item ordered, subtotal, total amount, Visa payment details, transaction date and time, and customer copy notice.",
+  "slug": "The-Crosby-Receipt",
+  "createdAt": "$D2026-02-03T13:41:45.459Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d828b7e2-fadd-4153-b84d-20dade2b7676",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FuMzjeQYTYIaSiH0ZgXNUr3kPlIO2%2F03006228-2789-46a6-aa9e-599069555c9b-crosby.jpg?alt=media&token=f7b5d3ef-b97b-4e06-8a6d-dc6aae973da9",
+      "size": 61,
+      "businessDetails": "The Crosby at Rancho Santa Fe\n17102 Bing Crosby Blvd.\nSan Diego, CA 92127\n858.756.6310",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3cda56aa-6e9d-4f04-893d-ebb07898b854",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "1/16/2026                11:33:50 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "ad2482e4-6aa1-4287-b453-b59959ee2f94",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Ticket",
+          "value": "574332"
+        },
+        {
+          "title": "Employee",
+          "value": "Jason"
+        }
+      ],
+      "rightFields": [],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fda60b28-77d9-4e3e-9b5a-d102e42497f2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Guest-Weekend\nItem# 111100223",
+          "total": "200.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "200.00"
+        }
+      ],
+      "total": "200.00",
+      "totalText": "Amount",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4f34ff86-e863-4dde-82b4-abcf0ec1595c",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Payment: Visa",
+          "value": "200.00"
+        },
+        {
+          "title": "************0204",
+          "value": "200.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d962488b-dfb2-4b98-ac63-f5441deec06c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Retain this copy for your records\nCardholder/VISA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FfoRfCO3bj7yOaoiqyFhj%2FfoRfCO3bj7yOaoiqyFhj-cbaac486-e0fb-4139-8b03-10e7380ab35b.png?alt=media&token=7444975d-7c05-4161-89f7-c20485da9df2",
+  "published": true,
+  "id": "foRfCO3bj7yOaoiqyFhj"
+}

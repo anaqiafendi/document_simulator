@@ -1,0 +1,96 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-15T14:09:36.164Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5f9289df-66a7-4d01-9f2d-765372bd44de",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2d7dd836-46a8-43e7-9deb-edb1305ca116-image%20(4).jpg?alt=media&token=474d29e7-1397-40e3-add0-859e13bf4b81",
+      "size": 259,
+      "businessDetails": "Datum: 17.05.25   Tijd: 08.50.01\nTerminal 28798784   TraceNr 34065\nTAN 0000000000000287987843406 \n---------------------------------------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a4d76bb-ef6d-4171-bfb4-782ace537c1c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Neosurf OnDemand\n100.00 EUR\n\nSerienummer / No. de série /\nSerial number:\n79718183\n\nCode / PIN:\n\nH198 1CW V32\n---------------\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cff3e872-2c06-49c9-b48f-2db6ef5b7416",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal ",
+          "total": "\n€100.00"
+        },
+        {
+          "quantity": "",
+          "description": "BTW",
+          "total": " €0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total  ",
+          "total": "€100.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee5232c6-b069-4998-aa55-d84dd876017b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Betaalmethode:     PIN / Debit Card\n\nStatus:                  GOEDGEKEURD\n\nAutorisatiecode:             482917\n\nReferentienummer:     NSF170525340655\n\nTerminal ID:                28798784",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a2624fde-c938-4a38-a70a-8545690154ad",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVervalt 6 maanden na eerste gebruik.\nTe gebruiken tegen: 17/05/2035\n-----------------------------------\n\nVervalt 6 maanden na eerste gebruik. Te gebruiken tegen: 17/05/2035\n\nGebruiksaanwijzingen: Kies Neosurf wanneer u online wenst te betalen. Voer de code bestaande uit 10 tekens in. Lees VOOR gebruik de Algemene voorwaarden. Algemene voorwaarden en Klantenservice op www.neosurf.com\n------------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e8cae19-09ff-427a-a83e-3a585221fa31",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBehandel als CASH.\nBedankt voor uw aankoop.\n\nBewaar dit ontvangstbewijs\nvoor uw administratie.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Neosurf and documents the activation of a Neosurf OnDemand prepaid voucher with a face value of 100.00 EUR. The receipt includes the transaction date and time, terminal number, trace number, transaction authentication number (TAN), voucher value, serial number, and the voucher Code/PIN required for online redemption. The instructions explain that the voucher expires six months after its first use, provide the final validity date, and direct customers to the Neosurf website for the terms and conditions and customer support. The receipt concludes with a reminder to treat the voucher as cash, reflecting the stored-value nature of the product. The overall layout is representative of a European prepaid digital payment voucher activation receipt, combining voucher activation details, redemption credentials, and customer usage instructions within a compact receipt format.",
+  "name": "Neosurf Receipt",
+  "slug": "Neosurf-Receipt",
+  "published": true,
+  "id": "8uUMhqRfuFnCOgqE1hR3"
+}

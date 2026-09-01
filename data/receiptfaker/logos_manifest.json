@@ -1,0 +1,4792 @@
+{
+  "reference_count": 799,
+  "distinct_sources": 751,
+  "distinct_files": 749,
+  "failed_sources": [
+    "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fd4006921-5212-4e3f-a915-e4d0e0734a20-2181272_asset_loan_pawnshop_shop_commerce_icon.png?alt=media&token=238f8133-6283-42d3-88c5-15e536504db3"
+  ],
+  "templates": {
+    "2bisCafe-Paris-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e86977a4a50d2e06.jpg"
+      }
+    ],
+    "34-Mayfair-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2d76bd762a79d822.jpg"
+      }
+    ],
+    "501(c)(3)-Donation-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3b8ab280068d97d4.png"
+      }
+    ],
+    "7-Eleven-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0a2b78172b4b6b63.png"
+      }
+    ],
+    "99-Ranch-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ed9d6725766cdf68.jpg"
+      }
+    ],
+    "ABC-Fine-Wine-and-Spirits-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1f74c5ac574af10d.jpg"
+      }
+    ],
+    "ACME-Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "83cbf63ac3bc7a04.png"
+      }
+    ],
+    "AMC-Theatres-Receipt": [
+      {
+        "section_index": 0,
+        "file": "09804536eac3e042.jpg"
+      }
+    ],
+    "ARCO-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3c316643149c6f01.jpg"
+      }
+    ],
+    "ASDA-Store-Receipt": [
+      {
+        "section_index": 2,
+        "file": "9df4fee8bcd4e80d.jpg"
+      }
+    ],
+    "ATandT-Retail-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "259d77397990577e.jpg"
+      }
+    ],
+    "AandW-Fast-Food-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ccca9f9aed9c8d4e.jpg"
+      }
+    ],
+    "Abercrombie-and-Fitch-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8ed3f221e7580be1.jpg"
+      }
+    ],
+    "Abortion-Receipt": [
+      {
+        "section_index": 0,
+        "file": "93cae53cd4934cc6.png"
+      }
+    ],
+    "Academy-Sports-+-Outdoors-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e7edf73998f10d04.jpg"
+      }
+    ],
+    "Ace-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7050bd642329a2ca.png"
+      }
+    ],
+    "Acne-Studios-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2efb57b62d24cc38.jpg"
+      }
+    ],
+    "Action-Receipt": [
+      {
+        "section_index": 0,
+        "file": "819644975b7bdb66.jpg"
+      }
+    ],
+    "Adams-Catfish-House-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f357ab1c5868f40e.jpg"
+      }
+    ],
+    "Adidas-Receipt": [
+      {
+        "section_index": 0,
+        "file": "896b572ab13fa497.jpg"
+      }
+    ],
+    "Advance-Auto-Parts-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6c948135a86383b0.jpg"
+      }
+    ],
+    "Aeropostale-Broadway-Mall-Receipt": [
+      {
+        "section_index": 0,
+        "file": "439b69bbbd910c74.jpg"
+      }
+    ],
+    "Airport-Parking-Receipt": [
+      {
+        "section_index": 0,
+        "file": "92e7184d20b6717d.png"
+      }
+    ],
+    "Airport-Taxi-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ce98668a90c8d01a.png"
+      }
+    ],
+    "Albertsons-Receipt": [
+      {
+        "section_index": 0,
+        "file": "42ce5b82a1b43a6c.png"
+      }
+    ],
+    "All-Saints-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b51a878a621dae7d.jpg"
+      }
+    ],
+    "American-Deli-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0b01e8470b2d4090.jpg"
+      }
+    ],
+    "American-Eagle-Outfitters-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d57f3e946078d6a0.jpg"
+      }
+    ],
+    "American-Eagle-Receipt-Description": [
+      {
+        "section_index": 0,
+        "file": "0c527789359149e2.jpg"
+      }
+    ],
+    "Apple-Receipt-example-with-AirPods-Generation-3-and-3-more-items-totalling-278-dollars": [
+      {
+        "section_index": 0,
+        "file": "4c5d9326ad24800c.png"
+      }
+    ],
+    "Apple-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4c5d9326ad24800c.png"
+      }
+    ],
+    "Applebee's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "58bb446a7a3365c1.jpg"
+      }
+    ],
+    "Atlantic-Superstore-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4229f39642d55717.jpg"
+      }
+    ],
+    "Auto-Repair-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9542948b93ce5842.png"
+      }
+    ],
+    "Autozone-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1838221b4f7818e2.png"
+      }
+    ],
+    "BIG-W-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a200fe1a670507a4.png"
+      }
+    ],
+    "BJ's-Wholesale-Club-Receipt": [
+      {
+        "section_index": 0,
+        "file": "53eb2a3eed7d179f.png"
+      }
+    ],
+    "Babysitting-Receipt": [
+      {
+        "section_index": 0,
+        "file": "97c5212fddd86819.png"
+      }
+    ],
+    "Bahama-Breeze-Receipt": [
+      {
+        "section_index": 0,
+        "file": "437ae3e2dbf84b06.jpg"
+      }
+    ],
+    "Baja-Fresh-Receipt": [
+      {
+        "section_index": 0,
+        "file": "90ab01e6be6e2692.jpg"
+      }
+    ],
+    "Bakery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "139509a4c495c9fa.png"
+      }
+    ],
+    "Baldwinsville-Tops-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bffd77c8c863eca8.jpg"
+      }
+    ],
+    "Balenciaga-receipt-example-with-Hourglass-Bag-Tax-and-3-more-items-totalling-3212-dollars-19-cents": [
+      {
+        "section_index": 0,
+        "file": "fb8c0b625b52be77.jpg"
+      }
+    ],
+    "Balenciaga-receipt": [
+      {
+        "section_index": 0,
+        "file": "fb8c0b625b52be77.jpg"
+      }
+    ],
+    "Bambu-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5ccab1d6de3eb278.jpg"
+      }
+    ],
+    "BandM-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2f759625549dc920.jpg"
+      }
+    ],
+    "BandQ-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9fbc08db617857ed.jpg"
+      }
+    ],
+    "Bank-Transaction-Receipt": [
+      {
+        "section_index": 0,
+        "file": "de3cdfa72e27afee.png"
+      }
+    ],
+    "Bar-and-Grill-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f7e8d7971ebf8e93.jpg"
+      }
+    ],
+    "Barton-Rouge-Receipt": [
+      {
+        "section_index": 0,
+        "file": "09999e880fb7801f.jpg"
+      }
+    ],
+    "Baskin-Robbins-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0af77a67c4d6d31f.jpg"
+      }
+    ],
+    "Bass-Pro-Shops-Cabela's-Gift-Card-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f799c6670e8a90f3.jpg"
+      }
+    ],
+    "Bass-Pro-Shops-Outdoor-World-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fa3a1461e55e88d5.jpg"
+      }
+    ],
+    "Bath-and-Body-Works-Receipt": [
+      {
+        "section_index": 0,
+        "file": "df3089534d5244d2.jpg"
+      }
+    ],
+    "Bealls-Outlet-Receipt": [
+      {
+        "section_index": 0,
+        "file": "adbb8a9e12078482.jpg"
+      }
+    ],
+    "Bed-Bath-and-Beyond-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c6643ba2237d98c7.jpg"
+      }
+    ],
+    "Belk-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e7e3314fff1612c0.jpg"
+      }
+    ],
+    "Bella-Italia-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8401d35f7eb63484.jpg"
+      }
+    ],
+    "Ben-and-Jerry's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6e71eb8fd48e99c7.jpg"
+      }
+    ],
+    "Bench-Cafe-and-Restaurant-Tax-Invoice": [
+      {
+        "section_index": 0,
+        "file": "538ab2928412b80f.jpg"
+      }
+    ],
+    "Bergdorf-Goodman-Receipt": [
+      {
+        "section_index": 0,
+        "file": "233e87e1a4596d3b.jpg"
+      }
+    ],
+    "Best-Buy-Receipt-example-Camera-Canon-EF24-70mm-f2.8L-II-USM-Black-USB-wire-and-Photo-port-case-totalling-1887-dollars-77-cents": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-Sony-WF1000XM5-In-Ear-Noise-Cancelling-True-Wireless-Earbuds-Black-for-373-dollars-40-cents-with-42-dollars-96-cents-tax-totalling-416-dollars-36-cents": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-AirPod-Pro-2nd-Generation-totalling-dollar207.71": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-Canon-PowerShot-G7-X-Mark-III-Total-1652-dollars-99-cents": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-Canon-PowerShot-G7-X-Mark-III-and-1-more-items-totalling-1652-dollars-99-cents": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-Canon-RF-24-105mm-f4L-IS-USM-lens-and-3-more-items-totalling-dollar1413.99": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-HP-Latitude-Laptop-and-1-more-item-totalling-800-dollars-80-cents": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-Iphone-12-Pro-Max-128Gb-and-3-more-items-totalling-dollar1149": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-Iphone-16-pro-max-total-of-1220-dollars-66-cents": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-Logitech-MK470-Fullsize-and-1-more-item-totalling-dollar43.54": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt-example-with-Sony-WF1000XM5-In-Ear-Noise-Cancelling-True-Wireless-Earbuds-and-1-more-items-totalling-416-dollars-36-cents": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Buy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "535a376ff5c1eb5f.png"
+      }
+    ],
+    "Best-Havasu-Hardware-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5843a59ca9f91fe2.jpg"
+      }
+    ],
+    "BevMo!-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2e6d9d8e90e85741.jpg"
+      }
+    ],
+    "Biedronka-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3764370e07e866f0.jpg"
+      }
+    ],
+    "Big-Lots-Receipt": [
+      {
+        "section_index": 0,
+        "file": "aad4d879a150049f.jpg"
+      }
+    ],
+    "Bill's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a282c91bb4fb3f98.jpg"
+      }
+    ],
+    "Billa-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f9e9769b7b5e8729.jpg"
+      }
+    ],
+    "Bipang-Ambawang-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f035f349c9949cc5.jpg"
+      }
+    ],
+    "Bird-in-Hand-Receipt": [
+      {
+        "section_index": 0,
+        "file": "50ab54b2b887cc2d.jpg"
+      }
+    ],
+    "Blaze-Pizza-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a18106d40bd6d1e2.jpg"
+      }
+    ],
+    "Blend-Receipt": [
+      {
+        "section_index": 0,
+        "file": "596dc7b803eacf97.jpg"
+      }
+    ],
+    "Blue-Pine-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fe2b7bd19226e8b0.jpg"
+      }
+    ],
+    "Bollywood-Parks-Dubai-Receipt": [
+      {
+        "section_index": 0,
+        "file": "af3f403648cc1ed1.jpg"
+      }
+    ],
+    "Bon-Bini-Supermarket-Receipt": [
+      {
+        "section_index": 0,
+        "file": "def368f8f13a5688.jpg"
+      }
+    ],
+    "Bonefish-Grill-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1556b348a3b7af30.jpg"
+      }
+    ],
+    "Books-A-Million-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f0a088bc3f344a03.jpg"
+      }
+    ],
+    "Boots-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3b7e3770e71230e1.jpg"
+      }
+    ],
+    "Bosley's-Pet-Valu-Receipt": [
+      {
+        "section_index": 0,
+        "file": "aec7abdfd18b4c2e.png"
+      }
+    ],
+    "Boston-Pizza-Receipt": [
+      {
+        "section_index": 0,
+        "file": "aac12869f7a58a67.jpg"
+      }
+    ],
+    "Boulangerie-Patisserie-Sicard-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c1e66d9e0f71a078.jpg"
+      }
+    ],
+    "Bravo-Supermarket-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5fc345b0c1681165.jpg"
+      }
+    ],
+    "Brico-Depot-Receipt": [
+      {
+        "section_index": 0,
+        "file": "811f89a23d844369.jpg"
+      }
+    ],
+    "Bridgestone-receipt-example-with-Bridgestone-ALENZA-AS-ULTRA-Tires-Debit-card-and-1-more-items-totalling-6-dollars-39-cents": [
+      {
+        "section_index": 0,
+        "file": "412b313ddcee2f25.jpg"
+      }
+    ],
+    "Brioche-Doree-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5bc143cf55312ab8.jpg"
+      }
+    ],
+    "Bristol-Farms-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9e804b6a465a8852.jpg"
+      }
+    ],
+    "Brooklyn-Deli-and-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8930bf014865baeb.jpg"
+      }
+    ],
+    "Brookshire's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d26170044e2c2585.jpg"
+      }
+    ],
+    "Bunnings-Warehouse-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8f3b4e8815cc9d4d.jpg"
+      }
+    ],
+    "Burberry-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0f22c68c997c3dc7.png"
+      }
+    ],
+    "Burger-King-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a81ba98c5c868ec9.jpg"
+      }
+    ],
+    "Burger-Oiz-Receipt": [
+      {
+        "section_index": 0,
+        "file": "671c2f386b685e84.jpg"
+      }
+    ],
+    "BurgerFi-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2675f489db145bb3.jpg"
+      }
+    ],
+    "Burlington-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8d8753d367f5717f.jpg"
+      }
+    ],
+    "Butter-Baby-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4a94ecae866c4666.jpg"
+      }
+    ],
+    "CARQUEST-Logo-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bc899f7e41e10b96.jpg"
+      }
+    ],
+    "CVS-Pharmacy-Receipt-example-with-Cleaning-Wipes-and-1-more-item-totalling-9-dollars-71-cents": [
+      {
+        "section_index": 0,
+        "file": "ff0fd49062109479.png"
+      }
+    ],
+    "CVS-Pharmacy-Receipt-example-with-Friskies-Tasty-Prime-Fillets-Assorted-Cat-Food-and-1-more-item-totalling-14-dollars-33-cents": [
+      {
+        "section_index": 0,
+        "file": "ff0fd49062109479.png"
+      }
+    ],
+    "CVS-Pharmacy-Receipt-example-with-Pepto-Child-Tabs-Sprite-and-2-more-items-totalling-13-dollars-78-cents": [
+      {
+        "section_index": 0,
+        "file": "ff0fd49062109479.png"
+      }
+    ],
+    "CVS-Pharmacy-Receipt-example-with-Prescription-and-1-more-item-totalling-66-dollars-76-cents": [
+      {
+        "section_index": 0,
+        "file": "ff0fd49062109479.png"
+      }
+    ],
+    "CVS-Pharmacy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ff0fd49062109479.png"
+      }
+    ],
+    "Cabela's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8343e73fee2f06f5.jpg"
+      }
+    ],
+    "Cafe-Anjani-Receipt": [
+      {
+        "section_index": 0,
+        "file": "eae08ad2d16070b4.jpg"
+      }
+    ],
+    "Cafe-Obligado-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1d86f2622d8adee6.jpg"
+      }
+    ],
+    "Cafe-Rouge-Receipt": [
+      {
+        "section_index": 0,
+        "file": "29ee11a76a1b2a16.jpg"
+      }
+    ],
+    "Calvin-Klein-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6e3a02eb339326e9.jpg"
+      }
+    ],
+    "Canada-Goose-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ce18f3f489474939.jpg"
+      }
+    ],
+    "Car-Detailing-Receipt": [
+      {
+        "section_index": 0,
+        "file": "774a49a7706cc68f.png"
+      }
+    ],
+    "Car-Rental-Receipt": [
+      {
+        "section_index": 0,
+        "file": "23021dd8581e9519.png"
+      }
+    ],
+    "Car-Repair-Receipt": [
+      {
+        "section_index": 0,
+        "file": "08a32db5e5979e70.png"
+      }
+    ],
+    "Car-Wash-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f149cfaebfe95add.png"
+      }
+    ],
+    "Caraquet-IGA-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5fd2306df35bb1e4.jpg"
+      }
+    ],
+    "Cardenas-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5e04b6d429680457.jpg"
+      }
+    ],
+    "Caribou-Coffee-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e4e0e6b64e25e0ea.jpg"
+      }
+    ],
+    "Carl's-Jr.-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0a6e2de18093b63b.jpg"
+      }
+    ],
+    "Carpet-Cleaning-Receipt": [
+      {
+        "section_index": 0,
+        "file": "438ffd08730d7242.png"
+      }
+    ],
+    "Carrabba's-Italian-Grill-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b94e37966fc4b143.jpg"
+      }
+    ],
+    "Carrefour-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3d4fbaf21528517c.jpg"
+      }
+    ],
+    "Carrefour-Wetteren-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c8368c8f12cbfa07.jpg"
+      }
+    ],
+    "Cartier-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2993febf2176b6c2.png"
+      }
+    ],
+    "Cash-App-Receipt": [
+      {
+        "section_index": 0,
+        "file": "500d968ba0e0bc2a.png"
+      }
+    ],
+    "Cash-Register-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2032b87b75d6aff4.png"
+      }
+    ],
+    "Catering-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0b40e39e1757b912.png"
+      }
+    ],
+    "Catherine's-Cafe-To-Go-Receipt": [
+      {
+        "section_index": 6,
+        "file": "53ec425136eb614f.jpg"
+      }
+    ],
+    "Cavender's-Boot-City-Receipt": [
+      {
+        "section_index": 0,
+        "file": "92b19a9a95f5bc9c.jpg"
+      }
+    ],
+    "Champs-Sports-Receipt": [
+      {
+        "section_index": 0,
+        "file": "59cb3d6b5ffee9da.png"
+      }
+    ],
+    "Chanel-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1a725abe03754008.png"
+      }
+    ],
+    "Cheaney-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e7da7ba01190dd6b.jpg"
+      }
+    ],
+    "Checkers-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ae57ff1e8595eba6.jpg"
+      }
+    ],
+    "Chemist-Warehouse-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e6f1eabbfad85a20.jpg"
+      }
+    ],
+    "Chez-Marco-Receipt": [
+      {
+        "section_index": 0,
+        "file": "78e9899bbcad7416.jpg"
+      }
+    ],
+    "Child-Care-Receipt": [
+      {
+        "section_index": 0,
+        "file": "79da992d09483262.png"
+      }
+    ],
+    "Chili's-Grill-and-Bar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "242da07cf0bc6ba3.jpg"
+      }
+    ],
+    "Chipotle-Mexican-Grill-Receipt": [
+      {
+        "section_index": 0,
+        "file": "228c80cfe5b6c1c1.jpg"
+      }
+    ],
+    "Chipotle-Receipt": [
+      {
+        "section_index": 0,
+        "file": "96446ec1c8b3dfe2.png"
+      }
+    ],
+    "Chrome-Hearts-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c45c33cf86172c0f.png"
+      }
+    ],
+    "Church-Donation-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6d487f5aa6ff9d31.png"
+      }
+    ],
+    "Cinemark-Receipt": [
+      {
+        "section_index": 0,
+        "file": "de40eb7f980ea2a6.jpg"
+      }
+    ],
+    "Circle-K-Canada-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fcd3f555364d1176.jpg"
+      }
+    ],
+    "Citizens-Bank-Park-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7735648cd9526e4c.jpg"
+      }
+    ],
+    "Clarks-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e24843aaeae8af32.jpg"
+      }
+    ],
+    "Cleaning-Invoice-Receipt": [
+      {
+        "section_index": 0,
+        "file": "16c26b34b1a7985c.png"
+      }
+    ],
+    "Cleaning-Receipt": [
+      {
+        "section_index": 0,
+        "file": "19d3f607bb0f9945.png"
+      }
+    ],
+    "Clinic-Receipt": [
+      {
+        "section_index": 0,
+        "file": "97d463c46f26b004.png"
+      }
+    ],
+    "Clinix-Medicine-Superstore-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e71f0c17b170ee69.jpg"
+      }
+    ],
+    "Clothes-Quarters-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4bac77e11959c823.png"
+      }
+    ],
+    "Co-op-UK-Receipt": [
+      {
+        "section_index": 0,
+        "file": "df27347024cf6fa8.jpg"
+      }
+    ],
+    "Cold-Stone-Creamery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0f93e40ba660ad64.jpg"
+      }
+    ],
+    "Coles-Express-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ecd90a4997594ca0.jpg"
+      }
+    ],
+    "Computer-Repair-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9561ad12a393c5cd.png"
+      }
+    ],
+    "Conrad-Centennial-Singapore-Receipt": [
+      {
+        "section_index": 0,
+        "file": "276551ffb10d7c1f.jpg"
+      }
+    ],
+    "Construction-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4652f51b336c7030.png"
+      }
+    ],
+    "Contractor-Receipt": [
+      {
+        "section_index": 0,
+        "file": "90b11349ed7d5f11.png"
+      }
+    ],
+    "Convenience-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f000b68d5d378f0b.png"
+      }
+    ],
+    "Coogee-Pavilion-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6d294c0f8a4f39ff.jpg"
+      }
+    ],
+    "Coop-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "761be6e4a7b8625a.jpg"
+      }
+    ],
+    "Costa-Coffee-Receipt": [
+      {
+        "section_index": 0,
+        "file": "12c0d8cddb467faf.jpg"
+      }
+    ],
+    "Costco-Receipt-example-with-Shampoo-Fancy-Feast-Gems-and-2-more-items-totalling-dollar274.18": [
+      {
+        "section_index": 1,
+        "file": "f349ec81a0eb2012.png"
+      }
+    ],
+    "Costco-Receipt": [
+      {
+        "section_index": 0,
+        "file": "654a478b95459efd.png"
+      }
+    ],
+    "Countdown-Supermarket-Receipt": [
+      {
+        "section_index": 0,
+        "file": "dc041bc14efd4f35.jpg"
+      }
+    ],
+    "Country-Hills-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "51728e5157a5876e.jpg"
+      }
+    ],
+    "Courier-Service-Receipt": [
+      {
+        "section_index": 0,
+        "file": "33baa81e9eaa82aa.png"
+      }
+    ],
+    "CrateandBarrel-Receipt": [
+      {
+        "section_index": 0,
+        "file": "895825359b53f968.jpg"
+      }
+    ],
+    "Cream-Stone-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d778042837c95014.jpg"
+      }
+    ],
+    "Credit-Card-Receipt": [
+      {
+        "section_index": 1,
+        "file": "14ad272a662ae972.png"
+      }
+    ],
+    "Creperie-Bretonne-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f80a89769ff8960d.jpg"
+      }
+    ],
+    "Cub-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8b043601e1781fe3.jpg"
+      }
+    ],
+    "Currys-PC-World-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d3cdb81bb98c5f58.jpg"
+      }
+    ],
+    "Custom-Receipt-Template": [
+      {
+        "section_index": 0,
+        "file": "d6c3a9f75ff6c0f5.png"
+      }
+    ],
+    "Cynibel-Supermarket-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d7db924e396d9a4a.png"
+      }
+    ],
+    "DICK'S-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a882598b7ed7612c.jpg"
+      }
+    ],
+    "DISHOOM-receipt": [
+      {
+        "section_index": 0,
+        "file": "7d223399dd890150.jpg"
+      }
+    ],
+    "DNA-Sports-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fe472b0dd07b6f14.jpg"
+      }
+    ],
+    "DSW-Receipt": [
+      {
+        "section_index": 0,
+        "file": "96b52d216752a1df.jpg"
+      }
+    ],
+    "Dairy-Queen-Grill-and-Chill-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8d51ccfefc8cfcff.jpg"
+      }
+    ],
+    "Daycare-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7169fd9df321621e.png"
+      }
+    ],
+    "Dealz-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b3198d280b95af66.jpg"
+      }
+    ],
+    "Decathlon-Retail-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b589c1529173b5dd.jpg"
+      }
+    ],
+    "Deliveroo-Delivery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "801ebd6daba0f279.jpg"
+      }
+    ],
+    "Delivery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a84f0212537ae6ed.png"
+      }
+    ],
+    "Denner-Receipt": [
+      {
+        "section_index": 0,
+        "file": "908f11a9587cd315.jpg"
+      }
+    ],
+    "Denny's-PickUp-Receipt": [
+      {
+        "section_index": 0,
+        "file": "df2c5141b9170bd8.jpg"
+      }
+    ],
+    "Denny's-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d6426c535f2da506.jpg"
+      }
+    ],
+    "Dental-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5ef8fc245883e253.png"
+      }
+    ],
+    "Dentist-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1c5463e405d1be48.png"
+      }
+    ],
+    "Dick's-Sporting-Goods-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8f0dae5d2058d21d.jpg"
+      }
+    ],
+    "Dillons-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3b2ccbbc918c2754.jpg"
+      }
+    ],
+    "Dior-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c0ad0343d6c7b7f7.png"
+      }
+    ],
+    "Dior-example-with-Womens-Shoe-and-2-more-items-totalling-1297-dollars-50-cents": [
+      {
+        "section_index": 0,
+        "file": "c0ad0343d6c7b7f7.png"
+      }
+    ],
+    "Doctor-Receipt": [
+      {
+        "section_index": 0,
+        "file": "92a7f7f85c22b848.png"
+      }
+    ],
+    "Dollar-Tree-Receipt": [
+      {
+        "section_index": 0,
+        "file": "651b3fc0871f33d0.jpg"
+      }
+    ],
+    "Dollar-Tree-receipt-example-with-Colgate-Total-Whitning-Tpst-Colgate-Charcoal-Toothbrush-and-4-more-items-totalling-6-dollars-39-cents": [
+      {
+        "section_index": 0,
+        "file": "d6d842b9511ab77d.png"
+      }
+    ],
+    "Dollar-Tree-receipt": [
+      {
+        "section_index": 0,
+        "file": "d6d842b9511ab77d.png"
+      }
+    ],
+    "Dollarama-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0df9e09d43902fb1.jpg"
+      }
+    ],
+    "Donation-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8e581920e2f84c3e.png"
+      }
+    ],
+    "DoorDash-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9e1635cdd284892e.png"
+      }
+    ],
+    "Douglas-Pharmacy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "399c0ecc91f2199f.jpg"
+      }
+    ],
+    "Duck-and-Waffle-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e1dd9325bd9e0fca.jpg"
+      }
+    ],
+    "Dunelm-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c45e17de6ddcab50.jpg"
+      }
+    ],
+    "Dunkin'-Donuts-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e0d989374c077f8c.jpg"
+      }
+    ],
+    "E.Leclerc-France-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0bc8c09eb1a520bb.jpg"
+      }
+    ],
+    "ESTG-Grill-and-Bistro-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7daee9dd3ec36b14.jpg"
+      }
+    ],
+    "Earls-Ambleside-Beach-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6283659820793bc3.jpg"
+      }
+    ],
+    "East-Side-Mario's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "510fcdc5a00e730e.jpg"
+      }
+    ],
+    "El-Alma-Cafe-y-Cantina-Receipt": [
+      {
+        "section_index": 0,
+        "file": "870da5549c177abd.jpg"
+      }
+    ],
+    "El-Jimador-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4d30ba3fd84ae6e7.jpg"
+      }
+    ],
+    "El-Pollo-Loco-Receipt": [
+      {
+        "section_index": 0,
+        "file": "24b73e5956119516.jpg"
+      }
+    ],
+    "El-Rincon-De-Amador-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "75a575b4dd2b3e48.png"
+      }
+    ],
+    "El-Super-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6df5d75004c3839e.jpg"
+      }
+    ],
+    "Electrician-Receipt": [
+      {
+        "section_index": 0,
+        "file": "17004a9fd657b885.png"
+      }
+    ],
+    "Elliot's-Woodfired-Kitchen-and-Tap-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9302129f5b66a3b5.jpg"
+      }
+    ],
+    "Equipment-Rental-Receipt": [
+      {
+        "section_index": 0,
+        "file": "04b16a8773977aa5.png"
+      }
+    ],
+    "Eurospin-Italy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8f1f5477be381a29.jpg"
+      }
+    ],
+    "Fairway-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0b89f2626baaaba3.jpg"
+      }
+    ],
+    "Farley's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cd5fc7e801e40987.jpg"
+      }
+    ],
+    "Farm-Boy-Country-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "46670639462b5cc4.jpg"
+      }
+    ],
+    "FarmSudz-Receipt": [
+      {
+        "section_index": 0,
+        "file": "de5da649b4604b0c.jpg"
+      }
+    ],
+    "Farmacia-Savia-Receipt": [
+      {
+        "section_index": 0,
+        "file": "042be4f1ca3f42dd.jpg"
+      }
+    ],
+    "Fastenal-Receipt": [
+      {
+        "section_index": 0,
+        "file": "29ca18d03d853664.jpg"
+      }
+    ],
+    "Fastop-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ad2a5a57539229b6.jpg"
+      }
+    ],
+    "FedEx-Office-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b099e1fe65efa133.jpg"
+      }
+    ],
+    "Fenwick-Receipt": [
+      {
+        "section_index": 0,
+        "file": "94b1df8099a0531c.jpg"
+      }
+    ],
+    "Festival-Foods-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e32fe58f90f18b6d.jpg"
+      }
+    ],
+    "Finish-Line-Receipt": [
+      {
+        "section_index": 0,
+        "file": "11211955970663cf.jpg"
+      }
+    ],
+    "First-Watch-Receipt": [
+      {
+        "section_index": 0,
+        "file": "effc326222d85249.jpg"
+      }
+    ],
+    "Five-Below-Receipt": [
+      {
+        "section_index": 0,
+        "file": "521e8ace672fe4fc.jpg"
+      }
+    ],
+    "Five-Guys-Receipt": [
+      {
+        "section_index": 0,
+        "file": "997989c582c946d7.jpg"
+      }
+    ],
+    "Flanigan's-Seafood-Bar-and-Grill-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f081a46f3df9aa34.jpg"
+      }
+    ],
+    "Flunch-Receipt": [
+      {
+        "section_index": 0,
+        "file": "535aaf12e43dabcc.jpg"
+      }
+    ],
+    "Food-4-Less-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f82f985e9d1b2ac7.jpg"
+      }
+    ],
+    "Food-Basics-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a15faeab27c90e1b.jpg"
+      }
+    ],
+    "Food-City-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9ffa9a6d107c3f54.jpg"
+      }
+    ],
+    "Food-Delivery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4489c9d4feab4c03.png"
+      }
+    ],
+    "Food-Lion-Receipt": [
+      {
+        "section_index": 0,
+        "file": "23e19e4fd9956e70.png"
+      }
+    ],
+    "Food4Less-Receipt": [
+      {
+        "section_index": 0,
+        "file": "65bed4604c85e625.jpg"
+      }
+    ],
+    "FoodMaxx-Receipt": [
+      {
+        "section_index": 0,
+        "file": "59aca75212dc954e.jpg"
+      }
+    ],
+    "Foot-Locker-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8e1ffa491a5b485e.jpg"
+      }
+    ],
+    "Forever-21-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a5e044ed9e1f4b0b.jpg"
+      }
+    ],
+    "Freddy's-Frozen-Custard-and-Steakburgers-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6b56aff353138e7d.jpg"
+      }
+    ],
+    "Fresh-Thyme-Farmers-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7bfa0d3df50d2a0e.jpg"
+      }
+    ],
+    "FreshCo-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2b5045a76452e028.jpg"
+      }
+    ],
+    "Frida's-Mexican-Cuisine-and-Bar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "490c61eeca6d663a.jpg"
+      }
+    ],
+    "Fry's-Food-Stores-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0ae91b1b3dd33359.jpg"
+      }
+    ],
+    "Funeral-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4f6db470c631ab1a.png"
+      }
+    ],
+    "Furlong-Vision-Correction-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b4f2a9704bd92404.png"
+      }
+    ],
+    "Furniture-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4652f51b336c7030.png"
+      }
+    ],
+    "GAGA-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0bf79f8b53bbe411.jpg"
+      }
+    ],
+    "GAP-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e7f7a16d76e17b7c.jpg"
+      }
+    ],
+    "GBK-Cribbs-Causeway-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d7db4997d3c0f055.jpg"
+      }
+    ],
+    "GDK-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2e83f477706739d0.jpg"
+      }
+    ],
+    "GIANT-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5a908f74ee111051.png"
+      }
+    ],
+    "GNC-Receipt": [
+      {
+        "section_index": 0,
+        "file": "422e61cccf80eb0e.jpg"
+      }
+    ],
+    "GOAT-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4ccb13fe0cff993a.png"
+      }
+    ],
+    "Galp-Portugal-Receipt": [
+      {
+        "section_index": 0,
+        "file": "247909e3adc24930.jpg"
+      }
+    ],
+    "GameStop-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a92bb756327e586f.jpg"
+      }
+    ],
+    "Gas-Receipt": [
+      {
+        "section_index": 0,
+        "file": "89128a84004327f3.png"
+      }
+    ],
+    "Gasthaus-Gensle-Receipt": [
+      {
+        "section_index": 0,
+        "file": "449fdb103612d247.jpg"
+      }
+    ],
+    "Gelson's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d891b0c2f43ebd10.jpg"
+      }
+    ],
+    "Generic-Business-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d228d3b1167f79fd.png"
+      }
+    ],
+    "Generic-POS-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2ed96b8d30e46c96.png"
+      }
+    ],
+    "Generic-Parking-Receipt": [
+      {
+        "section_index": 1,
+        "file": "f341d2cd4461191f.png"
+      }
+    ],
+    "Generic-Service-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e3795e4479173fcb.png"
+      }
+    ],
+    "GetGo-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0c69a7617167ad8a.jpg"
+      }
+    ],
+    "Giant-Eagle-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e518a6a64116ae1b.jpg"
+      }
+    ],
+    "Gingerbread-House-Florist-and-Gifts-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b4923ec3645e5897.jpg"
+      }
+    ],
+    "Golden-Corral-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3c07479e0e97f687.jpg"
+      }
+    ],
+    "Golf-Galaxy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3f5509b4beb02bd9.jpg"
+      }
+    ],
+    "Good-Stuff-Eatery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5329218f65464b60.jpg"
+      }
+    ],
+    "Gordon-Ramsay-Plane-Food-Receipt": [
+      {
+        "section_index": 0,
+        "file": "56919f2e618ea43e.jpg"
+      }
+    ],
+    "Gordy-and-Sons-Outfitters-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fa83c5113bdfbc5d.png"
+      }
+    ],
+    "Goyard-Boutique-Receipt": [
+      {
+        "section_index": 0,
+        "file": "206a6fcf10e79d43.png"
+      }
+    ],
+    "Grailed-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1d481ca5a7c48fcf.png"
+      }
+    ],
+    "Great-Clips-Receipt": [
+      {
+        "section_index": 0,
+        "file": "755228ba107cd722.jpg"
+      }
+    ],
+    "Grill'd-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b398e8c8730c4824.jpg"
+      }
+    ],
+    "Gristedes-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7ad23e7d8aa8d6d3.jpg"
+      }
+    ],
+    "Grocery-Outlet-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5be3be3b12239dba.jpg"
+      }
+    ],
+    "Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bf635cc10f967806.png"
+      }
+    ],
+    "Gucci-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a6deb3e6882c9990.png"
+      }
+    ],
+    "Gugu's-Corner-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d820231cd99c9a0e.jpg"
+      }
+    ],
+    "Guld-and-Rod-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cfd0f12328fb8a07.jpg"
+      }
+    ],
+    "H-E-B-Receipt": [
+      {
+        "section_index": 0,
+        "file": "41d73da5858bee50.jpg"
+      }
+    ],
+    "H-Mart-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ee8b82e50483b51a.jpg"
+      }
+    ],
+    "HSBC-Receipt": [
+      {
+        "section_index": 0,
+        "file": "967dab1a34dc2a67.jpg"
+      }
+    ],
+    "Habitat-ReStore-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bc6bbeb767c8725f.jpg"
+      }
+    ],
+    "Hai-Lan-Coffee-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c6d628baf6ed265b.jpg"
+      }
+    ],
+    "Half-Price-Books-Receipt": [
+      {
+        "section_index": 0,
+        "file": "96ccc92a7fe2bf35.jpg"
+      }
+    ],
+    "HandM-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c53cfe2da5fdf278.jpg"
+      }
+    ],
+    "Handyman-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2911f082ccf971a7.png"
+      }
+    ],
+    "Harbor-Freight-Tools-Receipt": [
+      {
+        "section_index": 1,
+        "file": "da5491291d0f97bd.png"
+      }
+    ],
+    "Harris'-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "272a7707857978b8.jpg"
+      }
+    ],
+    "Harris-Teeter-Receipt": [
+      {
+        "section_index": 0,
+        "file": "98f12a38cb16cb99.jpg"
+      }
+    ],
+    "Hartford-Baking-Co.-Receipt": [
+      {
+        "section_index": 1,
+        "file": "fc86cb124bbe0b59.jpg"
+      }
+    ],
+    "Harvey-Nichols-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a165f0eaba653c14.jpg"
+      }
+    ],
+    "Harvey-Norman-Invoice-Payment-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7c326b137e0fdfe5.jpg"
+      }
+    ],
+    "Hawaiian-Bros-Island-Grill-Receipt": [
+      {
+        "section_index": 1,
+        "file": "acec4f9c15da8ca6.jpg"
+      }
+    ],
+    "Heinen's-Fine-Foods-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3327f4ff4f0b4481.jpg"
+      }
+    ],
+    "Helzberg-Diamonds-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0ccde317d05f6aba.jpg"
+      }
+    ],
+    "Hemingways-Receipt": [
+      {
+        "section_index": 0,
+        "file": "39f350d7d720674a.jpg"
+      }
+    ],
+    "Heritage-Catering-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4271dd59059d2699.jpg"
+      }
+    ],
+    "Hillside-Liquor-Receipt": [
+      {
+        "section_index": 0,
+        "file": "65477d87d0beb1a3.png"
+      }
+    ],
+    "Hiltl-Dachterrasse-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1b81efa3c2733b6d.jpg"
+      }
+    ],
+    "Hilton-Hotel-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3ca5301484cfdcbb.png"
+      }
+    ],
+    "Hippo-Burgers-Receipt": [
+      {
+        "section_index": 0,
+        "file": "15b66cd39638d768.jpg"
+      }
+    ],
+    "Hippopotamus-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8a91b4758b36bfbe.jpg"
+      }
+    ],
+    "Hisana-Receipt": [
+      {
+        "section_index": 0,
+        "file": "56b645ef1441e066.jpg"
+      }
+    ],
+    "Hobby-Lobby-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ce05d58430a0b9e7.png"
+      }
+    ],
+    "Holiday-Inn-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a00a6db6e4d0ce46.png"
+      }
+    ],
+    "Hollister-Receipt": [
+      {
+        "section_index": 0,
+        "file": "19d2d368d92b0712.jpg"
+      }
+    ],
+    "Home-Bargains-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7e8b285e5b1b6237.jpg"
+      }
+    ],
+    "Home-Depot-Retail-Receipt": [
+      {
+        "section_index": 0,
+        "file": "877f6544141d2920.jpg"
+      }
+    ],
+    "Homebase-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c7a3c0b2318d64fa.jpg"
+      }
+    ],
+    "Hospital-Receipt": [
+      {
+        "section_index": 0,
+        "file": "35495ff16410a0a6.png"
+      }
+    ],
+    "Hot-Topic-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6f920886d6cd1a2d.jpg"
+      }
+    ],
+    "Hotel-Receipt": [
+      {
+        "section_index": 0,
+        "file": "05dbf70416deb38a.png"
+      }
+    ],
+    "Hotel-receipt": [
+      {
+        "section_index": 0,
+        "file": "7831c51f8cea3010.jpg"
+      }
+    ],
+    "House-of-Fraser-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f4683761a2c0e767.jpg"
+      }
+    ],
+    "Humble-Origins-Coffee-Roasters-Receipt": [
+      {
+        "section_index": 0,
+        "file": "408bbf94599a7670.jpg"
+      }
+    ],
+    "Hunters-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6b524f88f1842272.jpg"
+      }
+    ],
+    "Hy-Vee-Receipt": [
+      {
+        "section_index": 0,
+        "file": "87665c16ea8f35b1.jpg"
+      }
+    ],
+    "IHOP-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8a181a1da5c2af6d.jpg"
+      }
+    ],
+    "IKEA-Food-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5a3bd1f0bb5d4b8e.jpg"
+      }
+    ],
+    "IKEA-Furniture-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "423c5bf62a512040.png"
+      }
+    ],
+    "ISABEL-MARANT-Receipt": [
+      {
+        "section_index": 0,
+        "file": "017510412bd48578.png"
+      }
+    ],
+    "Iceland-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "38d188e131bcee36.jpg"
+      }
+    ],
+    "Il-Fortino-Receipt": [
+      {
+        "section_index": 0,
+        "file": "53b18380d4cfcdd2.jpg"
+      }
+    ],
+    "Indian-Petrol-Pump-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5c37038c56ba22a0.png"
+      }
+    ],
+    "Indian-Restaurant-Bill": [
+      {
+        "section_index": 0,
+        "file": "33680b54e9741b2f.png"
+      }
+    ],
+    "Ingles-Markets-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4430bb2633e5c2ff.jpg"
+      }
+    ],
+    "Itemized-Sales-Receipt": [
+      {
+        "section_index": 0,
+        "file": "857b6d8c1ee2365c.png"
+      }
+    ],
+    "Itsu-Receipt": [
+      {
+        "section_index": 0,
+        "file": "977e5032ea1e1d36.jpg"
+      }
+    ],
+    "J.CO-Pluit-Village-Receipt": [
+      {
+        "section_index": 0,
+        "file": "438b29b04e86f5e9.jpg"
+      }
+    ],
+    "J.Crew-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fa3e42be6fe3a484.jpg"
+      }
+    ],
+    "JCPenney-Receipt": [
+      {
+        "section_index": 0,
+        "file": "399354959ff745c1.jpg"
+      }
+    ],
+    "JOZY-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1ec3dfc490a9ca17.jpg"
+      }
+    ],
+    "JUSTUDIOS-Concept-Receipt": [
+      {
+        "section_index": 0,
+        "file": "34eecb2a1e2ca490.jpg"
+      }
+    ],
+    "JYSK-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4f9398d4d084abdf.jpg"
+      }
+    ],
+    "Jack-in-the-Box-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a6587cbe96c4ea5a.jpg"
+      }
+    ],
+    "Jamba-Juice-Receipt": [
+      {
+        "section_index": 0,
+        "file": "48ecea4b21a9daeb.jpg"
+      }
+    ],
+    "Jamba-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7687a66718923bbc.jpg"
+      }
+    ],
+    "Jay-Jays-Receipt": [
+      {
+        "section_index": 0,
+        "file": "72c8677e3717d73c.jpg"
+      }
+    ],
+    "Jewelry-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6c8d4413c691cf0c.png"
+      }
+    ],
+    "Jhoots-Pharmacy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a5291d902c65d2c2.jpg"
+      }
+    ],
+    "Jimmy-John's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f05c92028b7dbea6.jpg"
+      }
+    ],
+    "Joe's-Kansas-City-Bar-B-Que-Receipt": [
+      {
+        "section_index": 0,
+        "file": "122db7d151f6125f.png"
+      }
+    ],
+    "John-Lewis-Concession-Receipt": [
+      {
+        "section_index": 0,
+        "file": "43c0dd7c7b8cd135.jpg"
+      }
+    ],
+    "Jollibee-Receipt": [
+      {
+        "section_index": 0,
+        "file": "370550666e9f3a83.png"
+      }
+    ],
+    "Joma-Bakery-Cafe-In-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c5aae62264adfeae.jpg"
+      }
+    ],
+    "Journey-Cocktailbar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "949ab06a45875077.png"
+      }
+    ],
+    "Journeys-Kidz-Receipt": [
+      {
+        "section_index": 0,
+        "file": "69d75180e8287c90.jpg"
+      }
+    ],
+    "Journeys-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e0024a3ef566cd89.jpg"
+      }
+    ],
+    "Jumbo-Supermarkets-Receipt": [
+      {
+        "section_index": 0,
+        "file": "852e9cc7f3c469ee.jpg"
+      }
+    ],
+    "Jus-Antara-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4108bb2c31b6082a.jpg"
+      }
+    ],
+    "Just-Eat-Delivery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e4b097c8b4498596.jpg"
+      }
+    ],
+    "KFC-Kentucky-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7a746394497b29ff.jpg"
+      }
+    ],
+    "Key-Food-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c3b2d944efd2d4fe.jpg"
+      }
+    ],
+    "Khadak-Receipt": [
+      {
+        "section_index": 0,
+        "file": "133b8352089e5cc5.jpg"
+      }
+    ],
+    "King-Soopers-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a0ebba4fd561da20.png"
+      }
+    ],
+    "Kinney-Drugs-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d5b3849963cab328.jpg"
+      }
+    ],
+    "Kmart-Receipt": [
+      {
+        "section_index": 0,
+        "file": "98c2d7ab5a0dccb2.jpg"
+      }
+    ],
+    "Koffee-Paradise-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0e2b0ae72ab3c106.jpg"
+      }
+    ],
+    "Kroger-Receipt-example-Steak-Rice-Chex-Cheez-Its-Tide-Rescue-Laundry-Stain-and-BSN-with-4-more-items-totalling-dollar97.29": [
+      {
+        "section_index": 0,
+        "file": "e1294b9c1d549cf9.png"
+      }
+    ],
+    "Kroger-Receipt-example-with-Apple-Sauce-Ramen-Campho-Phenique-Liquid-and-9-more-items-totalling-99-dollars-9-cents": [
+      {
+        "section_index": 0,
+        "file": "e1294b9c1d549cf9.png"
+      }
+    ],
+    "Kroger-Receipt-example-with-Google-Play-Card-for-200-dollars": [
+      {
+        "section_index": 0,
+        "file": "e1294b9c1d549cf9.png"
+      }
+    ],
+    "Kroger-Receipt-example-with-Tide-Rescue-Stain-Remover-Shabe-Wet-Cat-Food-and-1-more-item-totalling-dollar86.48": [
+      {
+        "section_index": 0,
+        "file": "e1294b9c1d549cf9.png"
+      }
+    ],
+    "Kroger-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e1294b9c1d549cf9.png"
+      }
+    ],
+    "Kruidvat-Receipt": [
+      {
+        "section_index": 0,
+        "file": "683d9aebc3f9dcea.jpg"
+      }
+    ],
+    "Kushiyu-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "df0376d6d0ca2889.jpg"
+      }
+    ],
+    "Kwik-Trip-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c87c3583732f24a7.jpg"
+      }
+    ],
+    "LEON-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f6ae2d0cbce618f3.jpg"
+      }
+    ],
+    "LIDL-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bf5f7d7f90dd8993.jpg"
+      }
+    ],
+    "LOTII-Bakehouse": [
+      {
+        "section_index": 0,
+        "file": "2fd9dbc4cfe8ee4b.jpg"
+      }
+    ],
+    "La-Boite-a-Cafe-Receipt": [
+      {
+        "section_index": 0,
+        "file": "84d44cff4bb57e1b.jpg"
+      }
+    ],
+    "La-Cabana-Venice-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b39661138c2c3ee0.jpg"
+      }
+    ],
+    "La-Rotonde-Receipt": [
+      {
+        "section_index": 0,
+        "file": "121724ad7359028b.jpg"
+      }
+    ],
+    "La-Taqueria-Receipt": [
+      {
+        "section_index": 0,
+        "file": "acd6f0ffbccce9e1.jpg"
+      }
+    ],
+    "Labor-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c71600e00e822ae0.png"
+      }
+    ],
+    "Landscaping-Receipt": [
+      {
+        "section_index": 0,
+        "file": "056e48e4f154c788.png"
+      }
+    ],
+    "Las-Iguanas-Receipt": [
+      {
+        "section_index": 0,
+        "file": "19021612143547aa.jpg"
+      }
+    ],
+    "Law-Firm-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b1ac6d17e7dfceda.png"
+      }
+    ],
+    "Lawyer-Receipt": [
+      {
+        "section_index": 0,
+        "file": "de7016a00f06a3e6.png"
+      }
+    ],
+    "Le-Madrigal-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b2ac82365395d11f.jpg"
+      }
+    ],
+    "Le-Pain-Quotidien-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2a04630986c7aaea.jpg"
+      }
+    ],
+    "Leroy-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "faebcac9015efa8c.jpg"
+      }
+    ],
+    "Levi's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "eb8d8f934aaf5376.jpg"
+      }
+    ],
+    "Little-Fatty-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8c31cb03c6f4385b.jpg"
+      }
+    ],
+    "Locksmith-Receipt": [
+      {
+        "section_index": 0,
+        "file": "89f9c6b7cc1c44c6.png"
+      }
+    ],
+    "Londis-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4ff641dc10599007.jpg"
+      }
+    ],
+    "London-Drugs-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7c13341fce4d6b66.jpg"
+      }
+    ],
+    "Louis-Vuitton-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b8806b992cf5d1f8.png"
+      }
+    ],
+    "Love's-Travel-Stop-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c9b63a074333d6a0.jpg"
+      }
+    ],
+    "Lowe's-Receipt-example-with-LED-A19-E26-DL-40W-4PK-FRSH-PLANT-FERN-and-1-more-items-totalling-38-dollars-69-cents": [
+      {
+        "section_index": 0,
+        "file": "1a4f8a2370e1f185.png"
+      }
+    ],
+    "Lowe's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "83c4588d67e85e82.png"
+      }
+    ],
+    "Lucky-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bba60f8012c66c76.jpg"
+      }
+    ],
+    "Lululemon-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0db1084974116f94.jpg"
+      }
+    ],
+    "Lush-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2e14a13306a86c73.jpg"
+      }
+    ],
+    "Luxury-Brand-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ad9c40a71a0e0ab9.png"
+      }
+    ],
+    "Lyft-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b446b634181c47ee.png"
+      }
+    ],
+    "Lynn-Valley-AandW-Receipt": [
+      {
+        "section_index": 1,
+        "file": "7e806cb696f4e251.jpg"
+      }
+    ],
+    "MIDAS-Shoes-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9f7cb705bb3ef35c.jpg"
+      }
+    ],
+    "MIU-MIU-Receipt": [
+      {
+        "section_index": 0,
+        "file": "42c30f47e1759283.jpg"
+      }
+    ],
+    "MOD-Pizza-Receipt": [
+      {
+        "section_index": 0,
+        "file": "830fae8211c1d472.jpg"
+      }
+    ],
+    "MUJI-Retail-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3d6dca9604f7b5c3.jpg"
+      }
+    ],
+    "Mama-Joyce's-Soul-Food-Receipt": [
+      {
+        "section_index": 0,
+        "file": "410989cce3a98619.jpg"
+      }
+    ],
+    "Mamacita-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7d3b2389c4c374cf.jpg"
+      }
+    ],
+    "Marco's-Pizza-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3ade34cd53e9e099.jpg"
+      }
+    ],
+    "Mariano's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d347e1baa8da16a5.jpg"
+      }
+    ],
+    "Marigold-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "eec43fd6b48511d2.jpg"
+      }
+    ],
+    "Market-Basket-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e55e8712675bad1b.png"
+      }
+    ],
+    "Marks-and-Spencer-(MandS)-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0339c0a4db61eb7f.jpg"
+      }
+    ],
+    "Marks-and-Spencer-Receipt": [
+      {
+        "section_index": 0,
+        "file": "537acd44b85c0b99.jpg"
+      }
+    ],
+    "Marsano-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9f6c100714b8415a.jpg"
+      }
+    ],
+    "Marshalls-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1e59768741c80b8a.png"
+      }
+    ],
+    "Martinho-Optica-(Ourivesaria)-Receipt": [
+      {
+        "section_index": 0,
+        "file": "068db64b1fd0eea9.png"
+      }
+    ],
+    "Massage-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cda5b9acbe987144.png"
+      }
+    ],
+    "Masters-Receipt": [
+      {
+        "section_index": 1,
+        "file": "5ad5c04c1947562b.jpg"
+      }
+    ],
+    "Matjeom-Central-Market-Receipt": [
+      {
+        "section_index": 7,
+        "file": "669c91880ab02d14.jpg"
+      }
+    ],
+    "Maverik-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3d20775c50da5ec2.jpg"
+      }
+    ],
+    "Max-Burger-Receipt": [
+      {
+        "section_index": 0,
+        "file": "16368f5c6d229538.jpg"
+      }
+    ],
+    "Mazzio's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8111de2290256faf.jpg"
+      }
+    ],
+    "McDonald's-Germany-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b426b6b1bebf80b4.jpg"
+      }
+    ],
+    "McDonald's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6132300245eab75b.png"
+      }
+    ],
+    "McPhee's-Butcher-Block-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fca0f4c50fdfd97e.jpg"
+      }
+    ],
+    "Meat-Steak-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0dc18cda95ebc8f0.jpg"
+      }
+    ],
+    "Mechanic-Receipt": [
+      {
+        "section_index": 0,
+        "file": "07fad0ddc32a443e.png"
+      }
+    ],
+    "Mechanic-Shop-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ffa87ae33f0b1fdd.png"
+      }
+    ],
+    "MedPlus-Pharmacy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "83b5337dbceda5f9.jpg"
+      }
+    ],
+    "Media-Markt-Receipt": [
+      {
+        "section_index": 0,
+        "file": "485e212fcb059c68.jpg"
+      }
+    ],
+    "Medical-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f34a0c012c2dd549.png"
+      }
+    ],
+    "Medicine-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b90a4d453aef4124.png"
+      }
+    ],
+    "Mediterraneo-Cucina-Italiana-Receipt": [
+      {
+        "section_index": 0,
+        "file": "10176e7b16e2f8d4.png"
+      }
+    ],
+    "Meijer-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b6c46975e4decbc5.jpg"
+      }
+    ],
+    "Menards-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b7b8e4d8957fe659.jpg"
+      }
+    ],
+    "Mentone-BCF-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6a69fb2fe48eabb5.jpg"
+      }
+    ],
+    "Mercadona-Spain-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d8260617d6ff2e50.jpg"
+      }
+    ],
+    "Metro-Diner-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f0641bcb4db3d4d5.jpg"
+      }
+    ],
+    "Metro-Receipt": [
+      {
+        "section_index": 0,
+        "file": "35d866ef99e17c75.jpg"
+      }
+    ],
+    "Metropolitan-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6ac5183183061da3.jpg"
+      }
+    ],
+    "Mexico-Lindo-Mexican-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "58cd2ebd014a72a0.jpg"
+      }
+    ],
+    "MiPOS-Tax-Receipt": [
+      {
+        "section_index": 0,
+        "file": "40742daec970101b.jpg"
+      }
+    ],
+    "Michael-Chell-Receipt": [
+      {
+        "section_index": 0,
+        "file": "138f821eb9cd6e39.jpg"
+      }
+    ],
+    "Michaels-Craft-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cd055f276ca6467f.jpg"
+      }
+    ],
+    "Michaels-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a67d604205a40c45.jpg"
+      }
+    ],
+    "Mie-Gacoan-Receipt": [
+      {
+        "section_index": 0,
+        "file": "08e4eeb66776afa4.jpg"
+      }
+    ],
+    "Milestones-Grill-+-Bar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a9877976212663e4.jpg"
+      }
+    ],
+    "Modern-POS-Template": [
+      {
+        "section_index": 0,
+        "file": "7d6dd6f2fbc45adf.png"
+      }
+    ],
+    "Mojito-Receipt": [
+      {
+        "section_index": 0,
+        "file": "69108d6c08a239ea.jpg"
+      }
+    ],
+    "Monona-Bakery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "91aa8f065f8d9e6d.jpg"
+      }
+    ],
+    "Monsoon-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3259560447d9f533.jpg"
+      }
+    ],
+    "Montana's-BBQ-Bar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f64bb82dab7590bc.jpg"
+      }
+    ],
+    "Montana's-Cookhouse-Receipt": [
+      {
+        "section_index": 0,
+        "file": "622cfe23083ae8af.jpg"
+      }
+    ],
+    "Monthly-Parking-Receipt": [
+      {
+        "section_index": 0,
+        "file": "eaa17a01d43bc728.png"
+      }
+    ],
+    "Morrisons-Cafe-Receipt": [
+      {
+        "section_index": 0,
+        "file": "97902c94a844b772.jpg"
+      }
+    ],
+    "Morton-Williams-Receipt": [
+      {
+        "section_index": 0,
+        "file": "015722a99c81b9c1.jpg"
+      }
+    ],
+    "Motel-6-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0bec4989b480d56a.png"
+      }
+    ],
+    "Motel-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c02915edaf68bd19.png"
+      }
+    ],
+    "Moving-Receipt": [
+      {
+        "section_index": 0,
+        "file": "78a0a72bbde46b75.png"
+      }
+    ],
+    "Moxie's-Grill-Bar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e609bb2e3b53c1e9.jpg"
+      }
+    ],
+    "Moxies-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0f4897975a0166a6.jpg"
+      }
+    ],
+    "NAPA-Auto-Parts-Receipt": [
+      {
+        "section_index": 0,
+        "file": "88e109eab2ed3f20.jpg"
+      }
+    ],
+    "NOMAD-Coffee-and-Bakery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a3d1c27eb13045e4.png"
+      }
+    ],
+    "NYC-Taxi-Receipt": [
+      {
+        "section_index": 0,
+        "file": "94c2bb695a64a5e1.png"
+      }
+    ],
+    "Nando's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8b5bc62f79fdf5a6.jpg"
+      }
+    ],
+    "Nando's-UK-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6a4c7f60d5444701.jpg"
+      }
+    ],
+    "Nanny-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9def6d56b9f71b2c.png"
+      }
+    ],
+    "Natural-Grocers-Receipt": [
+      {
+        "section_index": 0,
+        "file": "42bd4dff8ee0a35a.jpg"
+      }
+    ],
+    "Neiman-Marcus-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cab3edd539742d84.png"
+      }
+    ],
+    "Neosurf-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5e21ec62b79f8cc9.jpg"
+      }
+    ],
+    "Netto-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e08e6ad35796fd29.jpg"
+      }
+    ],
+    "New-Balance-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e99167d2adb21dbf.jpg"
+      }
+    ],
+    "New-World-Albany-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bb753a710e42e24c.jpg"
+      }
+    ],
+    "New-York-Fries-Receipt": [
+      {
+        "section_index": 0,
+        "file": "34b2d733a87ff66c.jpg"
+      }
+    ],
+    "Nia-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "17c35bd7b5ff3f5c.jpg"
+      }
+    ],
+    "Nike-Shoes-Receipt-example-with-Air-Jordan-Retro-4-Levis-Debit-card-and-3-more-items-totalling-611-dollars-10-cents": [
+      {
+        "section_index": 0,
+        "file": "178126ec0beff2e1.png"
+      }
+    ],
+    "Nike-Shoes-Receipt-example-with-Air-max-95central-cee-Sales-Tax-and-3-more-items-totalling-192-dollars-10-cents": [
+      {
+        "section_index": 0,
+        "file": "178126ec0beff2e1.png"
+      }
+    ],
+    "Nike-Shoes-Receipt": [
+      {
+        "section_index": 0,
+        "file": "178126ec0beff2e1.png"
+      }
+    ],
+    "Noel-Leeming-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6bf43ddcec08a6e6.jpg"
+      }
+    ],
+    "Noodles-Kober-Receipt": [
+      {
+        "section_index": 1,
+        "file": "fb78d5869982a309.jpg"
+      }
+    ],
+    "Nordsee-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2bbd9706b3806a96.jpg"
+      }
+    ],
+    "Nordstrom-Rack-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7437d78a08b8ce50.jpg"
+      }
+    ],
+    "Nordstrom-Receipt": [
+      {
+        "section_index": 1,
+        "file": "bd6478489c88f393.jpg"
+      }
+    ],
+    "Nordstrom-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ca23bb03ba5f4a88.jpg"
+      }
+    ],
+    "Northern-Tool-+-Equipment-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4db18ca5b6b1c44b.jpg"
+      }
+    ],
+    "Notary-Receipt": [
+      {
+        "section_index": 0,
+        "file": "93d268be04dbf674.png"
+      }
+    ],
+    "Nothing-Bundt-Cakes-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b8f9a69f5b602541.jpg"
+      }
+    ],
+    "O!Save-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d20aef38b360a27c.jpg"
+      }
+    ],
+    "O'Reilly-Auto-Parts-Receipt": [
+      {
+        "section_index": 0,
+        "file": "644e6855cf393ef4.jpg"
+      }
+    ],
+    "OH!SOME-Lippo-Plaza-Kramat-Jati-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5e2db59fa5a5c299.jpg"
+      }
+    ],
+    "ORLEN-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9d4440b51e9afdff.jpg"
+      }
+    ],
+    "Oasis-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fa1255e6227f19c5.jpg"
+      }
+    ],
+    "Odettes-Eatery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6f16784a1d70612f.jpg"
+      }
+    ],
+    "Office-Depot-OfficeMax-Receipt": [
+      {
+        "section_index": 0,
+        "file": "14c1d8cc11864ee6.png"
+      }
+    ],
+    "Oil-Change-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f1efedb90749482f.png"
+      }
+    ],
+    "Oisit-Nasakan-Bangka-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ac9142b48c5a267f.jpg"
+      }
+    ],
+    "Ola-Cab-Receipt": [
+      {
+        "section_index": 1,
+        "file": "94ca66c8b985207f.png"
+      }
+    ],
+    "Olive-Garden-Receipt": [
+      {
+        "section_index": 0,
+        "file": "35251a217747af8c.jpg"
+      }
+    ],
+    "Oliver's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2a963d57cfd51fd5.jpg"
+      }
+    ],
+    "Ollie's-Bargain-Outlet-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1388ba1b5bf7846d.jpg"
+      }
+    ],
+    "One-Twenty-Three-Burger-House-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ef29228c3d2a9ac6.jpg"
+      }
+    ],
+    "Orchard-City-Kitchen-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c5a774dcdc9a6519.jpg"
+      }
+    ],
+    "Outback-Steakhouse-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a9d0de8edfa81bf4.jpg"
+      }
+    ],
+    "PACSUN-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1a361519f40e6e28.jpg"
+      }
+    ],
+    "PAK'nSAVE-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b347b53cf003cf4d.jpg"
+      }
+    ],
+    "PC-Market-of-Choice-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6d0c5971184d9602.jpg"
+      }
+    ],
+    "PIGI-Pasta-Bar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "af8053c26d0d7eae.jpg"
+      }
+    ],
+    "Palm-Court-Receipt": [
+      {
+        "section_index": 0,
+        "file": "11e03a8652a8dfd1.jpg"
+      }
+    ],
+    "Pandora-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c11a3ac1d1998472.jpg"
+      }
+    ],
+    "Papa-John's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f691117e6678d282.jpg"
+      }
+    ],
+    "Paperchase-Receipt": [
+      {
+        "section_index": 0,
+        "file": "90076f97f6492162.jpg"
+      }
+    ],
+    "Pappasito's-Cantina-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e1feaa08d27bc60e.jpg"
+      }
+    ],
+    "Parking-Ticket-Receipt": [
+      {
+        "section_index": 0,
+        "file": "16524a05f44311aa.png"
+      }
+    ],
+    "Parking-lot-receipt": [
+      {
+        "section_index": 0,
+        "file": "3f628bdc5449c1c7.jpg"
+      }
+    ],
+    "Party-King-Receipt": [
+      {
+        "section_index": 0,
+        "file": "975fc521241a4a50.jpg"
+      }
+    ],
+    "Patel-Brothers-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6412b3a687955a7c.jpg"
+      }
+    ],
+    "Pavilions-Receipt": [
+      {
+        "section_index": 0,
+        "file": "37c4d6b1cae17d84.jpg"
+      }
+    ],
+    "Peet's-Coffee-Receipt": [
+      {
+        "section_index": 0,
+        "file": "daa5b5572aa677a5.jpg"
+      }
+    ],
+    "Pep-Boys-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3fa3ed247ea7e567.jpg"
+      }
+    ],
+    "Perkins-Restaurant-and-Bakery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b9a17bf1df9b2782.jpg"
+      }
+    ],
+    "Pest-Control-Receipt": [
+      {
+        "section_index": 0,
+        "file": "df838b706b773341.png"
+      }
+    ],
+    "Pet-Supplies-Plus-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5b5af356e84af83c.jpg"
+      }
+    ],
+    "PetSmart-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b93426ab69139687.jpg"
+      }
+    ],
+    "Petco-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1bd3fb14f2005d14.jpg"
+      }
+    ],
+    "Petrol-Receipt": [
+      {
+        "section_index": 0,
+        "file": "53a0a6031473e8d3.png"
+      }
+    ],
+    "Pharmacy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "85211f84fedc5849.png"
+      }
+    ],
+    "Phoenix-WSS-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2ded9acb670cd1dc.jpg"
+      }
+    ],
+    "Photography-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b70f79b5061cf70d.png"
+      }
+    ],
+    "Piggly-Wiggly-Receipt": [
+      {
+        "section_index": 0,
+        "file": "520caa772671e758.jpg"
+      }
+    ],
+    "Pilot-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0a97806b6089d511.jpg"
+      }
+    ],
+    "Pingo-Doce-Receipt": [
+      {
+        "section_index": 0,
+        "file": "22f1da6746ecee2b.jpg"
+      }
+    ],
+    "Pita-Factory-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ea3a7ebbb0cf5efa.jpg"
+      }
+    ],
+    "Pizza-Express-Receipt": [
+      {
+        "section_index": 0,
+        "file": "57b93d649b244e6e.jpg"
+      }
+    ],
+    "Pizza-Hut-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3917e80e44797d6f.jpg"
+      }
+    ],
+    "Plachutta-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a37b6a498a4aa216.jpg"
+      }
+    ],
+    "Plumbing-Receipt": [
+      {
+        "section_index": 0,
+        "file": "923242170e88da1d.png"
+      }
+    ],
+    "Popeyes-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d10d1ed0f4dabe27.jpg"
+      }
+    ],
+    "Popeyes-receipt-example-with-Chicken-Combo-Fries-Sprite-and-3-more-items-totalling-38-dollars-89-cents": [
+      {
+        "section_index": 0,
+        "file": "bee964eea631cdc6.jpg"
+      }
+    ],
+    "Popeyes-receipt": [
+      {
+        "section_index": 0,
+        "file": "bee964eea631cdc6.jpg"
+      }
+    ],
+    "Pottery-Barn-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a3c2e0104ee2da82.jpg"
+      }
+    ],
+    "Prada-Receipt": [
+      {
+        "section_index": 0,
+        "file": "77af1a80964c13e0.png"
+      }
+    ],
+    "Prescription-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a44adf4bbebf59eb.png"
+      }
+    ],
+    "Presidente-Supermarket-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c77aab0aedee35e3.jpg"
+      }
+    ],
+    "Preston-Street-IGA-Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9b627054f47bb843.jpg"
+      }
+    ],
+    "Pret-UK-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3dec92287e11a65a.jpg"
+      }
+    ],
+    "Prezzo-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b1aab98268bbf9f4.jpg"
+      }
+    ],
+    "Price-Chopper-Receipt": [
+      {
+        "section_index": 0,
+        "file": "93f1b3733e2b8fb8.jpg"
+      }
+    ],
+    "Primark-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ed6e339d3839f067.jpg"
+      }
+    ],
+    "Printemps-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9725db2aa3a5442b.jpg"
+      }
+    ],
+    "Publix-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6ed99edf01e8777c.png"
+      }
+    ],
+    "Publix-Super-Markets-Receipt": [
+      {
+        "section_index": 0,
+        "file": "221d32fa2e13bc2f.jpg"
+      }
+    ],
+    "Q8-Service-Receipt": [
+      {
+        "section_index": 0,
+        "file": "10da212d931f892b.jpg"
+      }
+    ],
+    "QuickChek-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3700ea38dfd7ebf7.jpg"
+      }
+    ],
+    "REI-Co-op-Receipt": [
+      {
+        "section_index": 0,
+        "file": "449b8a2890c5a1b6.jpg"
+      }
+    ],
+    "REMA-1000-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a19207573a753223.jpg"
+      }
+    ],
+    "REWE-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a1892a8c932aed38.jpg"
+      }
+    ],
+    "ROSS-Dress-For-Less-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fa6a40d76955a466.jpg"
+      }
+    ],
+    "RaceTrac-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f5df5575270ec65f.jpg"
+      }
+    ],
+    "Raising-Cane's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "19de38ff9ef6cfff.jpg"
+      }
+    ],
+    "Raley's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ff211a21ee8b3bd1.jpg"
+      }
+    ],
+    "Ralphs-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9b5f9d47d68c7f15.png"
+      }
+    ],
+    "Ramen-Bar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "699ad90c7804b8a3.jpg"
+      }
+    ],
+    "Rance's-Chicago-Pizza-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2fecc07c4d897e29.jpg"
+      }
+    ],
+    "Razz-Coffee-Receipt": [
+      {
+        "section_index": 6,
+        "file": "ce42ef4514981b3a.jpg"
+      }
+    ],
+    "Real-Canadian-Superstore-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8205bb1750a09b2c.jpg"
+      }
+    ],
+    "Red-Lobster-Receipt": [
+      {
+        "section_index": 0,
+        "file": "742dec37e0db35f8.jpg"
+      }
+    ],
+    "Reddy-Express-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b311c52620aaa542.jpg"
+      }
+    ],
+    "Regalado-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ebb82cae0628e670.jpg"
+      }
+    ],
+    "Rent-Payment-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5d2a76cb7a3c30ad.png"
+      }
+    ],
+    "Restaurant-Kabul-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7e74ac1eb375c95c.jpg"
+      }
+    ],
+    "Restaurant-Receipt-example-with-Steak-Tap-water-and-3-more-items-totalling-dollar38.70": [
+      {
+        "section_index": 0,
+        "file": "75a575b4dd2b3e48.png"
+      }
+    ],
+    "Retail-Management-Solutions-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ffed1245bcaf6fdd.jpg"
+      }
+    ],
+    "Rinascente-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e11890b9498a443e.jpg"
+      }
+    ],
+    "Rite-Aid-Pharmacy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b0244f355bfdd80e.jpg"
+      }
+    ],
+    "River-Island-Receipt": [
+      {
+        "section_index": 0,
+        "file": "79b1b97e86853f53.jpg"
+      }
+    ],
+    "Roasting-Plant-Coffee-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ae34a6275defc1cb.jpg"
+      }
+    ],
+    "Roche-Bros.-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4998da73ab20fac4.jpg"
+      }
+    ],
+    "Rock-N-Taco-Grill-Receipt": [
+      {
+        "section_index": 0,
+        "file": "debdd468647ff1a1.jpg"
+      }
+    ],
+    "Rolex-receipt-example-with-Oyster-Perpetual-and-1-more-item-totalling-104-dollars-55-cents": [
+      {
+        "section_index": 0,
+        "file": "6281328361e75746.png"
+      }
+    ],
+    "Rolex-receipt-example-with-Rolex-Oyster-Perpetual-totalling-9-dollars-5-cents": [
+      {
+        "section_index": 0,
+        "file": "6281328361e75746.png"
+      }
+    ],
+    "Rolex-receipt": [
+      {
+        "section_index": 0,
+        "file": "6281328361e75746.png"
+      }
+    ],
+    "Rona-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b0bd6804e5bdc85f.jpg"
+      }
+    ],
+    "Roofing-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b064f2f5f9eec147.png"
+      }
+    ],
+    "Roots-Receipt": [
+      {
+        "section_index": 0,
+        "file": "66c467aed7a8cecf.jpg"
+      }
+    ],
+    "Rouses-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4016981ddf67b95c.jpg"
+      }
+    ],
+    "Rubio's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "60895cfb3bb7a8f6.jpg"
+      }
+    ],
+    "SIM-Local-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e602a65105c53c39.jpg"
+      }
+    ],
+    "SONO-Japanese-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f7e44458eb28f216.png"
+      }
+    ],
+    "SPAR-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b9b479d0eb578fbc.jpg"
+      }
+    ],
+    "SS-Fried-Chicken-Lhokseumawe-Receipt": [
+      {
+        "section_index": 0,
+        "file": "552eaed9e3c3f9e1.jpg"
+      }
+    ],
+    "Safeway-receipt-example-with-Bananas-Carrots-and-8-more-items-totalling-46-dollars-13-cents": [
+      {
+        "section_index": 0,
+        "file": "8cc1c65f68344cee.png"
+      }
+    ],
+    "Safeway-receipt": [
+      {
+        "section_index": 0,
+        "file": "8cc1c65f68344cee.png"
+      }
+    ],
+    "Sainsbury's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7c89cc9bd9bd06e8.jpg"
+      }
+    ],
+    "Saint-Laurent-Paris-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9885152bb3456dbc.png"
+      },
+      {
+        "section_index": 5,
+        "file": "e41b434932fc077f.png"
+      }
+    ],
+    "Saks-Fifth-Avenue-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c6c5b5ea1ba47ee3.jpg"
+      },
+      {
+        "section_index": 1,
+        "file": "5de0bee8958a95d7.png"
+      }
+    ],
+    "Saks-Fifth-Receipt-example-with-Amiri-Ma-Eagle-Shirt-Amiri-Vintage-Crystal-Tee-and-1-more-item-totalling-1755-dollars-50-cents": [
+      {
+        "section_index": 0,
+        "file": "3ce44cce5e9aeb18.png"
+      }
+    ],
+    "Saks-Fifth-Receipt": [
+      {
+        "section_index": 0,
+        "file": "951f592ddc4c806f.png"
+      }
+    ],
+    "Salem-Pharmacy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6482fc662e038ea6.png"
+      }
+    ],
+    "Sally-Beauty-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ec10a29d7a1781ec.jpg"
+      }
+    ],
+    "Salt-and-Straw-Receipt": [
+      {
+        "section_index": 0,
+        "file": "47d888c37acc6457.jpg"
+      }
+    ],
+    "Salvation-Army-Thrift-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "72dd521ff31bff0e.jpg"
+      }
+    ],
+    "Sam's-Club-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3e9551da00d897c0.png"
+      }
+    ],
+    "Saturn-Receipt": [
+      {
+        "section_index": 0,
+        "file": "345ee1a672ecab07.jpg"
+      }
+    ],
+    "Save-A-Lot-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5383af44d65fb167.jpg"
+      }
+    ],
+    "Save-Mart-Supermarkets-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f585c87af9895ed8.jpg"
+      }
+    ],
+    "Schlotzsky's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "50912ed199045164.jpg"
+      }
+    ],
+    "Schneider's-Bakery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bf09fa0096eca9db.png"
+      }
+    ],
+    "Screwfix-Invoice-Receipt": [
+      {
+        "section_index": 0,
+        "file": "34c6c26036511117.jpg"
+      }
+    ],
+    "Sego-Tempong-Negoro-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fc45bc1761c022d2.jpg"
+      }
+    ],
+    "Selfridges-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6f79829233636492.png"
+      }
+    ],
+    "Sephora-receipt-example-with-Yves-Saint-Laurent-Black-Opium-Le-Parfum-Nuit-and-1-more-item-totalling-189-dollars-64-cents": [
+      {
+        "section_index": 0,
+        "file": "53cd12cf3d0f4d6c.png"
+      }
+    ],
+    "Sephora-receipt": [
+      {
+        "section_index": 0,
+        "file": "53cd12cf3d0f4d6c.png"
+      }
+    ],
+    "Sheetz-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f6c8683f91a21037.jpg"
+      }
+    ],
+    "Shell-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e5441cba8f0d2705.png"
+      }
+    ],
+    "Shipping-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a638c778bb49e5c7.png"
+      }
+    ],
+    "Shoe-Dept.-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d4323a640672655d.jpg"
+      }
+    ],
+    "ShopRite-Millville-Receipt": [
+      {
+        "section_index": 0,
+        "file": "caefd154a5256069.jpg"
+      }
+    ],
+    "Shoppers-Drug-Mart-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3ce3b9ad78f70f11.jpg"
+      }
+    ],
+    "Shoprite-Receipt": [
+      {
+        "section_index": 0,
+        "file": "372377faebb4bdf5.png"
+      }
+    ],
+    "Simple-Business-Receipt": [
+      {
+        "section_index": 2,
+        "file": "d613dc1b32c2db12.png"
+      }
+    ],
+    "Skechers-Receipt": [
+      {
+        "section_index": 0,
+        "file": "73375cdb7a8187b0.jpg"
+      }
+    ],
+    "Smart-and-Final-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f8ef1de3923c35e2.jpg"
+      }
+    ],
+    "Smashburger-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ad1a7292336cfc31.jpg"
+      }
+    ],
+    "Smith's-Grocery-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "383843c4cdecec55.jpg"
+      }
+    ],
+    "Smoothie-King-Receipt": [
+      {
+        "section_index": 0,
+        "file": "54a6c7471c325172.jpg"
+      }
+    ],
+    "Sobeys-Receipt": [
+      {
+        "section_index": 0,
+        "file": "23e2ccf1f3f5bb9c.jpg"
+      }
+    ],
+    "Sonic-Drive-In-Receipt": [
+      {
+        "section_index": 0,
+        "file": "51cdfbe0ba5a9cfb.jpg"
+      }
+    ],
+    "Sop-Jando-Kawanua-Receipt": [
+      {
+        "section_index": 0,
+        "file": "92cdddf8b5fed436.jpg"
+      }
+    ],
+    "Spaghetti-House-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1206210616fa6814.jpg"
+      }
+    ],
+    "Spangles-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3ca4605746616e2d.jpg"
+      }
+    ],
+    "Spec's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cbd8172aa0261276.jpg"
+      }
+    ],
+    "Splend'Or-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e0560bf3f30e11ae.jpg"
+      }
+    ],
+    "Sports-Direct-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a42bb8c25932b973.jpg"
+      }
+    ],
+    "Sprouts-Farmers-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2115f9528757fc9b.jpg"
+      }
+    ],
+    "Staples-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f1c8aa3e31c9af25.png"
+      }
+    ],
+    "Star-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "daaa8b836d9d94ca.jpg"
+      }
+    ],
+    "Starbucks-Receipt-example-with-Venti-Mocha-Latte-Oat-Milk-and-3-more-items-totalling-38-dollars-02-cents": [
+      {
+        "section_index": 0,
+        "file": "af6a06ceea4afb30.png"
+      }
+    ],
+    "Starbucks-Receipt": [
+      {
+        "section_index": 0,
+        "file": "af6a06ceea4afb30.png"
+      }
+    ],
+    "State-and-Main-Kitchen-+-Bar-Receipt": [
+      {
+        "section_index": 0,
+        "file": "83c8961883aab87a.jpg"
+      }
+    ],
+    "Stater-Bros.-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3bd23ab087708942.jpg"
+      }
+    ],
+    "Stew-Leonard's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "dbd6afa318f34735.jpg"
+      }
+    ],
+    "StockX-Receipt": [
+      {
+        "section_index": 0,
+        "file": "defb3e9191d57bfd.png"
+      }
+    ],
+    "Stop-and-Shop-Receipt": [
+      {
+        "section_index": 0,
+        "file": "80d0e783ce51d52c.jpg"
+      }
+    ],
+    "Storage-Receipt": [
+      {
+        "section_index": 0,
+        "file": "46b9b26b259101b7.png"
+      }
+    ],
+    "Subway-Receipt": [
+      {
+        "section_index": 0,
+        "file": "07d7a5b3c8ffd033.jpg"
+      }
+    ],
+    "Summer-Camp-Receipt": [
+      {
+        "section_index": 0,
+        "file": "174db4f835cbff81.png"
+      }
+    ],
+    "Sunglass-Hut-Receipt": [
+      {
+        "section_index": 0,
+        "file": "92fc27d27ac28cc2.jpg"
+      }
+    ],
+    "Super-Food-Aruba-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b80793c503c4034f.jpg"
+      }
+    ],
+    "Super-King-Markets-Receipt": [
+      {
+        "section_index": 0,
+        "file": "659a2ed830e4f98d.jpg"
+      }
+    ],
+    "Super-Metro-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a03753617b9a8c7c.jpg"
+      }
+    ],
+    "Superdrug-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d4054b8f2be91f19.jpg"
+      }
+    ],
+    "Superior-Grocers-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ecb29b8b1050ac8b.jpg"
+      }
+    ],
+    "Supermarket-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f36a377302848c14.png"
+      }
+    ],
+    "Swatch-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3341b00b727071e5.jpg"
+      }
+    ],
+    "Swiggy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "018267f572b0934b.png"
+      }
+    ],
+    "Swiss-Chalet-Receipt": [
+      {
+        "section_index": 0,
+        "file": "66f5f56fb148a135.jpg"
+      }
+    ],
+    "T-Mobile-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ae2c9d430d5b0983.png"
+      }
+    ],
+    "TAB-Gida-Receipt": [
+      {
+        "section_index": 1,
+        "file": "185b1cd459c56d22.jpg"
+      }
+    ],
+    "TELUS-Mobile-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b2cbce25a7a83d73.jpg"
+      }
+    ],
+    "THE-PORT-AUTHORITY-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4f9fabe3747cf9d0.jpg"
+      }
+    ],
+    "TJ-Maxx-Receipt": [
+      {
+        "section_index": 0,
+        "file": "85df30148b703aa3.png"
+      }
+    ],
+    "Ta-Wan-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9a56ac4251c28689.jpg"
+      }
+    ],
+    "Taco-Bell-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6d294c0f8a4f39ff.jpg"
+      }
+    ],
+    "Taco-Cabana-Denton-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0e3dcbf9fcd202eb.jpg"
+      }
+    ],
+    "Taco-John's-Galesburg-Receipt": [
+      {
+        "section_index": 0,
+        "file": "eefe0e859de63886.jpg"
+      }
+    ],
+    "Takko-Fashion-Receipt": [
+      {
+        "section_index": 0,
+        "file": "48936a5a5d0a272a.jpg"
+      }
+    ],
+    "Target-Australia-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bfb14af276537750.jpg"
+      }
+    ],
+    "Target-Receipt-example-with-Apple-Gift-Card-and-1-more-item-totalling-20-dollars": [
+      {
+        "section_index": 0,
+        "file": "494c3ebc413eb106.png"
+      }
+    ],
+    "Target-Receipt-example-with-GOTRAX-XP-Tour-Electric-Scooter-Cash-and-3-more-items-totalling-533-dollars-74-cents": [
+      {
+        "section_index": 0,
+        "file": "494c3ebc413eb106.png"
+      }
+    ],
+    "Target-Receipt-example-with-Lion-Mints-Debit-Card-and-3-more-items-totalling-21-dollars-29-cents": [
+      {
+        "section_index": 0,
+        "file": "494c3ebc413eb106.png"
+      }
+    ],
+    "Target-Receipt-example-with-Sleeping-Bag-Camping-Tent-and-2-more-items-totalling-dollar529.17": [
+      {
+        "section_index": 0,
+        "file": "494c3ebc413eb106.png"
+      }
+    ],
+    "Target-Receipt": [
+      {
+        "section_index": 0,
+        "file": "494c3ebc413eb106.png"
+      }
+    ],
+    "Taxi-Ride-Receipt": [
+      {
+        "section_index": 0,
+        "file": "abb2804a66f13ec0.png"
+      }
+    ],
+    "Tesco-Metro-Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b82888a4b3274bfa.jpg"
+      }
+    ],
+    "Tesco-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a1c630d20772d622.jpg"
+      }
+    ],
+    "Texas-Roadhouse-Receipt": [
+      {
+        "section_index": 0,
+        "file": "37b0ca6a30675b73.jpg"
+      }
+    ],
+    "The-Beefeater-Spain-Receipt": [
+      {
+        "section_index": 0,
+        "file": "212434dadfd2c4b7.jpg"
+      }
+    ],
+    "The-Body-Shop-Receipt": [
+      {
+        "section_index": 0,
+        "file": "dc3f83f95c4d9194.jpg"
+      }
+    ],
+    "The-Cheesecake-Factory-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7a8f1538524bff4a.jpg"
+      }
+    ],
+    "The-Cheesecake-Factory-Ross-Park-Receipt": [
+      {
+        "section_index": 6,
+        "file": "7e225c3508f873fc.jpg"
+      }
+    ],
+    "The-Common-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "78afd3dace9a2745.png"
+      }
+    ],
+    "The-Crosby-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3f43f0ee061bfe47.jpg"
+      }
+    ],
+    "The-Flower-Shop-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cf5248a6cc34b655.jpg"
+      }
+    ],
+    "The-Food-Warehouse-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6cca3f165d689e20.jpg"
+      }
+    ],
+    "The-Gym-Group-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4c5a31579f259e95.jpg"
+      }
+    ],
+    "The-John-Hewitt-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d30f0c06628b9dc4.jpg"
+      }
+    ],
+    "The-Kathmandu-Restaurant-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6b6192434ae593bb.jpg"
+      }
+    ],
+    "The-Kooples-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4c34137374757e2d.jpg"
+      }
+    ],
+    "The-Loft-at-Picker's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2fdef556d1f54f77.jpg"
+      }
+    ],
+    "The-O2-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cf745ae1aff7b356.jpg"
+      }
+    ],
+    "The-UPS-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "9be2b82cba7ac2b1.jpg"
+      }
+    ],
+    "The-Whistle-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6160379b35941bc6.jpg"
+      }
+    ],
+    "Therapy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "acc5b34aa8086719.png"
+      }
+    ],
+    "Three-(Three.co.uk)-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c3c567a216649088.jpg"
+      }
+    ],
+    "Three-Ireland-Receipt": [
+      {
+        "section_index": 0,
+        "file": "de805b337b73fd7a.jpg"
+      }
+    ],
+    "Thrifty-Foods-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c486d8cd5ad44ec8.jpg"
+      }
+    ],
+    "Tim-Hortons-Receipt": [
+      {
+        "section_index": 0,
+        "file": "aec0ef8bf4db1a98.png"
+      }
+    ],
+    "Tire-Shop-Receipt": [
+      {
+        "section_index": 0,
+        "file": "614c527f7673b57e.png"
+      }
+    ],
+    "Tokyo-Shokudo-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c24b3afa9e4900d6.jpg"
+      }
+    ],
+    "Tom-Thumb-Receipt": [
+      {
+        "section_index": 0,
+        "file": "019bab92e3b13613.jpg"
+      }
+    ],
+    "Tommy-Hilfiger-Receipt": [
+      {
+        "section_index": 0,
+        "file": "936fde7b6aac4671.jpg"
+      }
+    ],
+    "Tony-Roma's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7977d50deb61d582.png"
+      }
+    ],
+    "Torchy's-Tacos-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0c9b58d55fad77e3.jpg"
+      }
+    ],
+    "Total-Wine-and-More-Receipt": [
+      {
+        "section_index": 0,
+        "file": "480d6360a618d1af.jpg"
+      }
+    ],
+    "Towing-Receipt": [
+      {
+        "section_index": 0,
+        "file": "182850490fae1875.png"
+      }
+    ],
+    "Town-and-Country-Receipt": [
+      {
+        "section_index": 0,
+        "file": "55af2de25f88ec3f.jpg"
+      }
+    ],
+    "Tractor-Supply-Co-Receipt": [
+      {
+        "section_index": 0,
+        "file": "97da23db04568e4d.jpg"
+      }
+    ],
+    "Trader-Joe's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "20d49d085f395a27.jpg"
+      }
+    ],
+    "Transportation-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6ac95dd8133f035c.png"
+      }
+    ],
+    "True-Value-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a18de95b299557e5.jpg"
+      }
+    ],
+    "Tuesday-Morning-Receipt": [
+      {
+        "section_index": 0,
+        "file": "09ee6129575c1bd4.jpg"
+      }
+    ],
+    "Turtle-Bay-Receipt": [
+      {
+        "section_index": 0,
+        "file": "12fae50c909d21aa.jpg"
+      }
+    ],
+    "Tutoring-Receipt": [
+      {
+        "section_index": 0,
+        "file": "704b9109410a46bf.png"
+      }
+    ],
+    "Tuuk-Eatery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ec04a701bcdb7ff6.jpg"
+      }
+    ],
+    "UNIQLO-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cc9be2f0e9df653b.jpg"
+      }
+    ],
+    "UPS-Shipping-Receipt": [
+      {
+        "section_index": 0,
+        "file": "cac049be78ff1278.png"
+      }
+    ],
+    "USPS-Receipt": [
+      {
+        "section_index": 0,
+        "file": "ebb312f49fef2677.jpg"
+      }
+    ],
+    "Uber-Receipt": [
+      {
+        "section_index": 0,
+        "file": "39efcefb21460a0b.png"
+      }
+    ],
+    "Ulta-Beauty-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2b62b88c668d624b.jpg"
+      }
+    ],
+    "Uncle-Willies-Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bec4db41e3b1cb24.jpg"
+      }
+    ],
+    "Under-Armour-Receipt": [
+      {
+        "section_index": 0,
+        "file": "fbc7ef4a06d1f36c.jpg"
+      }
+    ],
+    "Unieuro-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3544c2c6779dbd0f.jpg"
+      }
+    ],
+    "Urban-Outfitters-Receipt": [
+      {
+        "section_index": 0,
+        "file": "33ada65de053aa2b.jpg"
+      }
+    ],
+    "Valentino-Boutique-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a543d9d457dac983.png"
+      }
+    ],
+    "Vallarta-Supermarkets-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7d4f3f794c88eb86.jpg"
+      }
+    ],
+    "Vans-Receipt": [
+      {
+        "section_index": 0,
+        "file": "e498060a33d02f31.jpg"
+      }
+    ],
+    "Vapiano-Receipt": [
+      {
+        "section_index": 0,
+        "file": "592d800d3e6664cc.jpg"
+      }
+    ],
+    "Veerman-Juwelen-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6425723a0538bc5f.png"
+      },
+      {
+        "section_index": 13,
+        "file": "9037428b09c44df9.png"
+      }
+    ],
+    "Vege-Mart-Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "71c7481d6ae4dec1.jpg"
+      }
+    ],
+    "Verizon-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f845cbb3f78f3c7d.png"
+      }
+    ],
+    "Vet-Receipt": [
+      {
+        "section_index": 0,
+        "file": "a237ae2715f7066c.png"
+      }
+    ],
+    "Victoria's-Secret-Receipt": [
+      {
+        "section_index": 0,
+        "file": "12dd2721d0d92603.jpg"
+      }
+    ],
+    "Visions-Electronics-Receipt": [
+      {
+        "section_index": 0,
+        "file": "f40d0f2eca5734ee.png"
+      }
+    ],
+    "Vodafone-Receipt": [
+      {
+        "section_index": 0,
+        "file": "692d629d7099d29e.jpg"
+      }
+    ],
+    "Vons-Receipt-example-with-Broccoli-Cereal-Honey-Oats-Penne-Pasta-Eggs-Chicken-Breast-Toilet-Paper-Tomatoes-Bottled-Water-Orange-Juice-Apples-and-Skyy-Vodka-totalling-58-dollars-81-cents": [
+      {
+        "section_index": 0,
+        "file": "678a009dce151544.png"
+      }
+    ],
+    "Vons-Receipt": [
+      {
+        "section_index": 0,
+        "file": "678a009dce151544.png"
+      }
+    ],
+    "Wagamama-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5a43aa5d1c2e057e.jpg"
+      }
+    ],
+    "Waitrose-and-Partners-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2a9acee729aa7237.jpg"
+      }
+    ],
+    "Walgreens-Receipt-example-with-FSA-RX-2378541-FSA-RX-2378542-and-1-more-items-totalling-304-dollars-22-cents": [
+      {
+        "section_index": 0,
+        "file": "1fb3c23734645096.jpg"
+      }
+    ],
+    "Walgreens-Receipt-example-with-Fluticasone-Inhaler-Air-Physio-and-1-more-items-totalling-dollar216.29": [
+      {
+        "section_index": 0,
+        "file": "1fb3c23734645096.jpg"
+      }
+    ],
+    "Walgreens-Receipt-example-with-Nicorette-Inhaler-Nicoderm-and-2-more-items-totalling-97-dollars-40-cents": [
+      {
+        "section_index": 0,
+        "file": "1fb3c23734645096.jpg"
+      }
+    ],
+    "Walgreens-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1fb3c23734645096.jpg"
+      }
+    ],
+    "Walmart-Receipt-example-with-Blue-Buffalo-wet-dog-food-and-3-more-items-totalling-dollar9.71": [
+      {
+        "section_index": 1,
+        "file": "f7bacb0c7495ec13.png"
+      }
+    ],
+    "Walmart-Receipt-example-with-Blue-Dental-Bones-Small-12oz-and-1-more-item-totalling-16-dollars-70-cents": [
+      {
+        "section_index": 1,
+        "file": "f7bacb0c7495ec13.png"
+      }
+    ],
+    "Walmart-Receipt-example-with-Grilled-Beef-Sides-and-19-more-items-totalling-dollar94.30": [
+      {
+        "section_index": 1,
+        "file": "f7bacb0c7495ec13.png"
+      }
+    ],
+    "Walmart-Receipt-example-with-Tide-Rescue-Stain-Remover-Shebe-Wet-Cat-Food-and-2-more-items-totalling-dollar281.37": [
+      {
+        "section_index": 1,
+        "file": "f7bacb0c7495ec13.png"
+      }
+    ],
+    "Walmart-Receipt": [
+      {
+        "section_index": 1,
+        "file": "f7bacb0c7495ec13.png"
+      }
+    ],
+    "Warehouse-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6ac95dd8133f035c.png"
+      }
+    ],
+    "Warehouse-Stationery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5e2ab8bc7b6348f6.jpg"
+      }
+    ],
+    "Warung-Nasi-Alam-Sunda-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4e6eea03334ab397.jpg"
+      }
+    ],
+    "Wasabi-Receipt": [
+      {
+        "section_index": 0,
+        "file": "52eac329ba220e3a.jpg"
+      }
+    ],
+    "Wegmans-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4e6d8c0cea12df34.jpg"
+      }
+    ],
+    "West-Elm-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "aadbb3b479e62a2f.jpg"
+      }
+    ],
+    "Whataburger-Receipt": [
+      {
+        "section_index": 0,
+        "file": "3e1c93d1aa22c785.jpg"
+      }
+    ],
+    "Whole-Foods-Market-Grocery-Store-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5c8dd0ecd2e96a2f.jpg"
+      }
+    ],
+    "Wickes-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c39cb9a8862eb879.jpg"
+      }
+    ],
+    "Wienerwald-Receipt": [
+      {
+        "section_index": 0,
+        "file": "34040d26244bc333.jpg"
+      }
+    ],
+    "Willy-McCoy's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4982d499c05a2d66.jpg"
+      }
+    ],
+    "WinCo-Foods-Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b303d49f00972a63.jpg"
+      }
+    ],
+    "Wingstop-USA-Receipt": [
+      {
+        "section_index": 0,
+        "file": "be94debfc03cb978.jpg"
+      }
+    ],
+    "Winn-Dixie-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b34055f8f1b4fe56.jpg"
+      }
+    ],
+    "Wizzmie-Receipt": [
+      {
+        "section_index": 0,
+        "file": "478d8da8e55d9b17.jpg"
+      }
+    ],
+    "Woodman's-Markets-Receipt": [
+      {
+        "section_index": 0,
+        "file": "389195bc130aa7ea.jpg"
+      }
+    ],
+    "Woolworths-Barkly-Square-Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "c7a8c2f937fa34c1.jpg"
+      }
+    ],
+    "Woolworths-Grocery-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d5e972d6dbed4c42.jpg"
+      }
+    ],
+    "Woolworths-UK-Receipt": [
+      {
+        "section_index": 0,
+        "file": "664d211c007b2248.jpg"
+      }
+    ],
+    "World-Market-Receipt": [
+      {
+        "section_index": 0,
+        "file": "240b8baeae6c0153.jpg"
+      }
+    ],
+    "Xieng-Khouang-Receipt": [
+      {
+        "section_index": 0,
+        "file": "44f42070a30cc450.jpg"
+      }
+    ],
+    "Xiyue-Pasir-Mukti-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bee88421a5ea6910.jpg"
+      }
+    ],
+    "Yard-House-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4b64a0b916d6e124.jpg"
+      }
+    ],
+    "Yeppoon-Day-and-Night-Pharmacy-Receipt": [
+      {
+        "section_index": 0,
+        "file": "1b0b29d953683e4d.jpg"
+      }
+    ],
+    "Yo!-Sushi-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4be3b96fe23f25bf.jpg"
+      }
+    ],
+    "Yodel-Parcel-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0511323b3daf5d23.jpg"
+      }
+    ],
+    "Yonsei-Handrolls-Receipt": [
+      {
+        "section_index": 0,
+        "file": "5604903427445bb1.jpg"
+      }
+    ],
+    "ZARA-Receipt": [
+      {
+        "section_index": 0,
+        "file": "2cb3a2ffffc4d36d.jpg"
+      }
+    ],
+    "Zadig-and-Voltaire-Receipt": [
+      {
+        "section_index": 0,
+        "file": "6b45bbf22a99bff4.jpg"
+      }
+    ],
+    "Zambrero-Receipt": [
+      {
+        "section_index": 0,
+        "file": "d5e6a7348854b326.jpg"
+      }
+    ],
+    "Zaxby's-Receipt-example-with-Wings-and-Sandwich-and-3-more-items-totalling-27-dollars-36-cents": [
+      {
+        "section_index": 0,
+        "file": "7b522fcf74d2b3a4.png"
+      }
+    ],
+    "Zaxby's-Receipt": [
+      {
+        "section_index": 0,
+        "file": "7b522fcf74d2b3a4.png"
+      }
+    ],
+    "Zaxby's-US-Receipt": [
+      {
+        "section_index": 0,
+        "file": "0330ad03d61bf569.jpg"
+      }
+    ],
+    "Zehrs-Greatfood-Receipt": [
+      {
+        "section_index": 0,
+        "file": "08c1ffe2cdf3ebf1.jpg"
+      }
+    ],
+    "Zizzi-Receipt": [
+      {
+        "section_index": 0,
+        "file": "bc83db432020b86e.jpg"
+      }
+    ],
+    "Zomato-Receipt": [
+      {
+        "section_index": 0,
+        "file": "b4b6bd36256edd90.png"
+      }
+    ],
+    "de-Bijenkorf-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8e6540919b79bee9.jpg"
+      }
+    ],
+    "k-kiosk-Receipt": [
+      {
+        "section_index": 0,
+        "file": "8b2ba181f01bb760.jpg"
+      }
+    ],
+    "myLowe's-Rewards-Receipt": [
+      {
+        "section_index": 0,
+        "file": "4626fcee04378f61.jpg"
+      }
+    ],
+    "walmart-example-with-Zsty-Paws-FLTK-products-Debit-card-and-2-more-items-totalling-42-dollars-54-cents": [
+      {
+        "section_index": 0,
+        "file": "f7bacb0c7495ec13.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Giant Eagle Receipt",
+  "description": "This receipt is a grocery retail transaction issued by Giant Eagle at its Strip Avenue NW location, including store number, full address, and contact information. It features cashier identification and a timestamped transaction record. The receipt presents detailed itemization with pricing categories, coupon deductions, and promotional discounts, followed by a structured financial summary including tax, balance, and cash tendered with change returned. It also includes transaction identifiers and a masked card reference, reflecting a standard U.S. supermarket POS receipt format with integrated coupon and savings tracking.",
+  "slug": "Giant-Eagle-Receipt",
+  "createdAt": "$D2026-04-10T07:38:28.026Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d552d782-5924-4f39-b0db-7622cdf4ba5f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd7ae7bf4-7b30-4da1-997d-fde821ed45cd-image%20(1).jpg?alt=media&token=b3d6200a-9891-48f7-a2de-846c03e5bffd",
+      "size": 211,
+      "businessDetails": " \n#4060 STRIP\n6493 Strip Ave. NW    330-497-7902\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4738e31f-03b6-480e-89d0-857585cc8299",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Your Cashier Today was Matt E.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "80cc5d26-16e6-4cbd-a541-c514b88365d6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "RP  REACH FLOSS WAXD",
+          "total": "1.00 T"
+        },
+        {
+          "quantity": "",
+          "description": "RP  REACH FLOSS WAXD",
+          "total": "1.00 T"
+        },
+        {
+          "quantity": "",
+          "description": "RP  BAKSTN SOUR CRM",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "DIAL LHS PUMP    AC",
+          "total": "1.79 T"
+        },
+        {
+          "quantity": "",
+          "description": "SC  DIAL LHS PU (1.00)",
+          "total": "-0.79 T"
+        },
+        {
+          "quantity": "",
+          "description": "DIAL LHS PUMP    AC",
+          "total": "1.79 T"
+        },
+        {
+          "quantity": "",
+          "description": "NAT BAKED FRIES",
+          "total": " 1.49 F"
+        },
+        {
+          "quantity": "",
+          "description": "MC  NAT BAKED FRIES",
+          "total": "-0.75 F"
+        },
+        {
+          "quantity": "",
+          "description": "MC  MULTIPLIED COUPON",
+          "total": "-0.74 F"
+        },
+        {
+          "quantity": "",
+          "description": "DIAL LHS PUMP",
+          "total": "-0.50 T"
+        },
+        {
+          "quantity": "",
+          "description": "SC  MULTIPLIED COUPON",
+          "total": "-0.50 T"
+        },
+        {
+          "quantity": "",
+          "description": "SC  MULTIPLIED COUPON",
+          "total": "-0.50 T"
+        },
+        {
+          "quantity": "",
+          "description": "MC  MULTIPLIED COUPON",
+          "total": "-0.50 T"
+        },
+        {
+          "quantity": "",
+          "description": "MC  REACH FLOSS WAXD",
+          "total": "-1.00 T"
+        },
+        {
+          "quantity": "",
+          "description": "MC  REACH FLOSS WAXD",
+          "total": "-1.00 T"
+        },
+        {
+          "quantity": "",
+          "description": "MC  DAIRY",
+          "total": "-0.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "MC  DAIRY",
+          "total": " -0.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "TAX  ",
+          "total": "0.19"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f09709a1-8781-493a-ab76-d7e1423be4d1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "**** BALANCE",
+          "total": "0.19"
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "0.20"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "0.01"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL NUMBER OF ITEMS SOLD =",
+          "total": "7"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f54f7a35-eb19-411f-8225-0293034b3b18",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n12/20/12  03:41pm  4060  9 89 143\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7135c0dd-6d7d-4aa2-a8c7-d0f1d4d80b92",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n**** CARD #: **********8928\n**** REF #: S12S0491318   C\n**** AUTH #: C08669\n\n\nTERMINAL: 0000000031010\nTUR: 6000000000",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea3dd707-2d8c-40a0-870f-bcfaebc8fb29",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTOTAL NUMBER OF ITEMS SOLD = 20\n\n**** THANK YOU FOR YOUR SAVINGS ****\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FQGq7KHpP8JS2UukzLcN8%2FQGq7KHpP8JS2UukzLcN8-39347750-2610-4a9d-a7cf-ef50b2717a9b.png?alt=media&token=83a2afba-cc2e-4d37-92bf-1e547e92a8af",
+  "published": true,
+  "id": "QGq7KHpP8JS2UukzLcN8"
+}

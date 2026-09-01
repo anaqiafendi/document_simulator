@@ -1,0 +1,183 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Dillons Receipt",
+  "description": "This receipt is a grocery store transaction issued by Dillons at its Manhattan, Kansas location, including store address, phone number, and cashier identification. It contains transaction details such as loyalty account reference, item quantity formatting, and promotional pricing structures. The receipt presents a financial summary including tax, total balance, and payment processed via Visa with masked card number and reference number. It also includes fuel points tracking, total items sold, and savings breakdown from store coupons. The layout reflects a standard U.S. supermarket POS receipt with loyalty integration and promotional pricing details.",
+  "slug": "Dillons-Receipt",
+  "createdAt": "$D2026-04-06T04:54:09.361Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9f646aca-e2b9-41fc-8a46-12c4b8324be5-image%20(6).jpg?alt=media&token=8ce9a6cf-9b44-431a-93ed-06576c9f74b4",
+      "size": 213,
+      "businessDetails": "\n130 SARBER LANE\n(785) 776-9285\nYOUR CASHIER WAS PAT",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "93d8730f-6ce7-406e-9282-2f525a92d06b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DL 2% MILK GALLON",
+          "total": "2.99 W"
+        },
+        {
+          "quantity": "",
+          "description": "Plus Customer",
+          "total": "*******9906"
+        },
+        {
+          "quantity": "",
+          "description": "KRO APPLE JUICE   PC",
+          "total": "1.88 W"
+        },
+        {
+          "quantity": "",
+          "description": "SC   PLUS SAVINGS",
+          "total": "0.12"
+        },
+        {
+          "quantity": "",
+          "description": "PINEAPPLE",
+          "total": "1.99 W"
+        },
+        {
+          "quantity": "",
+          "description": "AVOCADO HASS",
+          "total": "4.00 W"
+        },
+        {
+          "quantity": "",
+          "description": "BO   Dbl 31 Fuel Points",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "25872709-5ccc-4522-b7a9-397b771d6994",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "1.01"
+        },
+        {
+          "quantity": "",
+          "description": "**** BALANCE",
+          "total": "12.83"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0aa913f1-bec5-48bc-81ec-0b81d1fd5875",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "615 DILLONS #15\n130 SARBER LANE\nMANHATTAN, KS 66502\nVISA Purchase\n************8937\nTOTAL: 12.83\nREF#: 040654",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02d255f7-5d11-4870-93cd-075f507fef48",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VISA",
+          "total": "12.83"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL NUMBER OF ITEMS SOLD -",
+          "total": "9"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d6e8c5c0-80f7-4beb-8e82-846d57cc1471",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "*********** SAVINGS ***********\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd7e16d3-40fb-4f04-a9dc-fc70ebf4a270",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "STORE COUPONS",
+          "total": "0.12"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL SAVINGS (1 coupon)",
+          "total": "0.12"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5467d84-69ed-47f1-af6b-d4cd2888dbf8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "05/23/24   02:01pm\n\n************************************",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fz43D6X1P2ExnX9UwI5gr%2Fz43D6X1P2ExnX9UwI5gr-b313adae-ec69-472a-9674-3726594c9d7f.png?alt=media&token=3a3c2711-0c30-48ec-9378-779cd1559f37",
+  "published": true,
+  "id": "z43D6X1P2ExnX9UwI5gr"
+}

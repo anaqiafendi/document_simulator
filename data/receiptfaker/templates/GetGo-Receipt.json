@@ -1,0 +1,197 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "GetGo Receipt",
+  "description": "This receipt is a quick-service food transaction issued by GetGo at its Cranberry, Pennsylvania location, including full address and contact number. It contains check number and timestamped order details. The receipt presents an itemized list of customized sandwich orders with detailed ingredient selections and modifiers. It concludes with order identification, customer instruction messaging, and barcode reference. The format reflects a standard U.S. convenience store and quick-service food POS receipt with made-to-order customization and pickup instructions.",
+  "slug": "GetGo-Receipt",
+  "createdAt": "$D2026-04-17T19:29:16.107Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "39b07f2f-e57b-493d-8314-197bfd243757",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd7b72959-bf11-48be-9e1f-5b154318831a-image%20(2).jpg?alt=media&token=e4a56b6a-b7df-4a59-b109-f73999a99306",
+      "size": 222,
+      "businessDetails": "724.741.2380",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b9cdd96f-3bb2-45fd-8cd1-88d12771eee3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": " 1000",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2575bc59-abf7-4e5a-afa4-8feafc3e4ae4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "  \nChk 1239          Jul 09'15  01:41PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0677b596-a810-4a32-9dff-8fba161f6bbf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": " 7in Smokestack ",
+          "total": "5.99"
+        },
+        {
+          "quantity": "",
+          "description": "Italian Roll",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Pork",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Chipotle Sauce",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Yellow Cheddar",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Toasted",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Crispy Onions",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Jalapeno Poppers",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "+ No Combo",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "50c90b90-2298-4925-8120-1054d599afd6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "3.5in Reuben",
+          "total": "3.69"
+        },
+        {
+          "quantity": "",
+          "description": "Italian Bread",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Swiss Cheese",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Kielbasa",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Sauerkraut",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Toasted",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Sauce",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "+ No Combo",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d8356251-9dad-4ab6-b194-14490db2d053",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank You\nHave a good day",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f9dca8d5-5dfb-4a63-a854-61a5c4957fab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " \nOrder #1239\n\nPLEASE TAKE RECEIPT\nTO FRONT REGISTER\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "be52ae34-e65d-4b63-ac2d-6e66aaf35ce4",
+      "type": "BARCODE",
+      "size": 61,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ab45fc4e-cbe2-4076-85d6-9659632fba8d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1 0 0 3 5 2 0 1 2 3 9 0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FnkwO4Geg2wS4NgxRp3YS%2FnkwO4Geg2wS4NgxRp3YS-aa2166b8-3442-459b-ac79-93b1ad674898.png?alt=media&token=40749ac2-8ece-4ec5-a23d-5fcb926693ab",
+  "published": true,
+  "id": "nkwO4Geg2wS4NgxRp3YS"
+}

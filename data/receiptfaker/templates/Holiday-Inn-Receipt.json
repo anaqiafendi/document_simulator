@@ -1,0 +1,139 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T09:41:02.886Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Holiday Inn Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fce80c50a-8060-4bf9-a8ce-151ea0cac7bd-Holiday-Inn-Symbol.png?alt=media&token=3cd3a80f-182b-4807-95e6-11e9d5a254e2",
+      "size": 113,
+      "businessDetails": "Holiday Inn Express Lodi\n1337 East Ketleman Lane\nLodi, CA 95240\nTelephone: (209) 210-0150\nFax: (209) 369-7829",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d8d22f1-7bc8-47ab-a598-8fcc14357f5e",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 2:03:33 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS"
+    },
+    {
+      "id": "dcd4d168-f924-443f-a66c-36029b90eed7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Daniel Whitaker\n781 Oak Hill Drive, Toledo, OH 43615\nUnited States\n\nRoom No.: 333\nArrival: 05-25-25\nDeparture: 05-27-25\nConf. No.: 59631583",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Room 333",
+          "total": "600"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "600"
+        },
+        {
+          "title": "Tax",
+          "value": "46.50"
+        }
+      ],
+      "total": "646.50",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for staying with us!",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Holiday-Inn-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FnrVwQhjJWoPXMonF8D0w%2FnrVwQhjJWoPXMonF8D0w-70f5ea97-3392-498b-98ac-9da1fb1bffd6.png?alt=media&token=d17ccbb2-fc40-4419-a23c-d52bfa7350a2",
+  "description": "Need a Holiday Inn receipt? Easily generate a custom hotel stay receipt with our free tool. Add guest info, stay dates, room charges, taxes, and payment details—perfect for travel records, reimbursements, or expense tracking.",
+  "published": true,
+  "metatitle": "Holiday Inn Receipt",
+  "metadesc": "professional Holiday Inn hotel receipts with guest details, room charges, taxes, and dates for expense reports and travel records",
+  "id": "nrVwQhjJWoPXMonF8D0w"
+}

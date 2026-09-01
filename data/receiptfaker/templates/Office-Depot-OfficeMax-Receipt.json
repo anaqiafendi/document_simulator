@@ -1,0 +1,104 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Office Depot / OfficeMax Receipt",
+  "description": "Office supplies purchase receipt from Office Depot / OfficeMax showing store location and contact details, item purchased, subtotal, sales tax, total amount paid, payment method, transaction date and time, barcode, and customer survey information.",
+  "slug": "Office-Depot-OfficeMax-Receipt",
+  "createdAt": "$D2026-02-04T14:25:04.555Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "635d64c4-1f61-4236-bfc3-0ebb855fe10d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FmMc00Ajf3wM5B2e2V6z2Q7X6lt82%2F124dd342-075f-4ce8-a581-a23a6974c5c1-Office-Depot-Logo-2.png?alt=media&token=6e404dff-c27a-4576-9536-d01c0a1f1a3a",
+      "size": 204,
+      "businessDetails": "Metairie - (504) 889-6661\n12/03/2025  8:32 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4942829b-e186-49b4-a6c2-457476c3ab0f",
+      "type": "BARCODE",
+      "size": 73,
+      "length": 344,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf1e90ae-eec8-43a3-83fd-ab2bef3c4237",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "V2V175G6804DC116Y\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "65ceea4f-ecc9-47df-a7d3-0b0f85ec5a5c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SALE      2612-1-2254-1012403-25.2.1     ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02d0474c-03a1-4155-8231-a3a3b6071ab0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "HIGHMARK HAND SANITIZER",
+          "total": "22.88"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "22.88"
+        },
+        {
+          "title": "Sales Tax ",
+          "value": "2.35"
+        }
+      ],
+      "total": "25.23",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef9da71c-86d7-4294-adb8-824c27809a19",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "AUTH CODE 113490\nTDS Chip Read\nAID A0000000042203  US Debit 8897\nTVR 8000048000\nCVS PIN verified",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "816f68ad-1078-412e-80a3-28a45a333739",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "WE WANT TO HEAR FROM YOU!\nVisit survey.officedepot.com\nand enter the survey code below\nZ6XF BRR3H Y6Y6",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FgU4qgaCnb957Gz7J9cEU%2FgU4qgaCnb957Gz7J9cEU-84802499-8ba1-484f-84d7-6ef2eff6b58e.png?alt=media&token=8d1b109a-221a-4a27-8ed3-acf2ad02ab52",
+  "published": true,
+  "id": "gU4qgaCnb957Gz7J9cEU"
+}

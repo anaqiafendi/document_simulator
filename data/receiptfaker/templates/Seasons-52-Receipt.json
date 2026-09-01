@@ -1,0 +1,200 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Seasons 52 Receipt",
+  "description": "This receipt is a full-service dining transaction issued by Seasons 52 at its Westshore Boulevard location in Tampa, Florida. It includes table and check identification, guest count, server reference, and timestamped transaction details. The receipt presents a structured itemization of food and beverage orders grouped by guest number, followed by a financial summary including subtotal, sales tax, and total amount due. The format reflects a standard U.S. casual dining POS receipt with multi-guest ordering and table service structure.",
+  "slug": "Seasons-52-Receipt",
+  "createdAt": "$D2026-04-17T11:08:18.043Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d85b251e-9d91-4720-bb2c-7d0738bdbe83",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 245,
+      "businessDetails": "\nSeasons 52 Receipt\n\n204 N Westshore Blvd\nTampa, FL 33609\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e22e019a-4fd6-4f95-b41a-9830273aa8c9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Check # :15726-4511"
+        },
+        {
+          "quantity": "",
+          "description": "\nTable 115",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Brittany D",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "18:43:14  08/24/2017",
+          "total": " Gst 2"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "82386dfd-cad8-4e3e-9cae-5a941355c257",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGuest No. 1\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2b979ff4-a7e8-4f74-badb-a0823f2f5efd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Guest No. 1",
+          "total": "10.70"
+        },
+        {
+          "quantity": "1",
+          "description": "Pacific Rim",
+          "total": " 8.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Cedar Plank Salmon",
+          "total": "21.80"
+        },
+        {
+          "quantity": "1",
+          "description": "SMores ",
+          "total": "3.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Decaf Coffee",
+          "total": "3.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "52fa47da-18c8-4f03-8582-89863e43e5ff",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGuest No. 4\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "41abb8e9-69d2-4138-9509-e431ec4a63f6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": " Stuffed Mushrooms",
+          "total": "9.90"
+        },
+        {
+          "quantity": 1,
+          "description": "Grilled Sea Scallops",
+          "total": "24.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Celebration Mini",
+          "total": 10
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "72d28c2d-b876-4146-ab45-a29286078b09",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "80.90"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "5.67"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "14463e5e-635c-4bd6-9f4c-0f680ca0ff49",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n18:43:14  08/24/2017",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nPlease pay this amount",
+          "value": ""
+        },
+        {
+          "title": "Total",
+          "value": "86.57"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FPLOPtLQ2NADSBhljqByQ%2FPLOPtLQ2NADSBhljqByQ-de3e0e09-65da-4df6-a1a0-26a0b580769a.png?alt=media&token=bee0769f-744e-4fb2-899e-db9999a6d347",
+  "published": true,
+  "id": "PLOPtLQ2NADSBhljqByQ"
+}

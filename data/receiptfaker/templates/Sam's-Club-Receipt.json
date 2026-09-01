@@ -1,0 +1,264 @@
+{
+  "currency": "$$",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FmMc00Ajf3wM5B2e2V6z2Q7X6lt82%2F23765c5d-5ba3-4ad8-83ef-f076b1714dc6-sams-club-logo.png?alt=media&token=9e9864be-e23b-487f-a8c8-7f49ab98384e",
+      "size": 210,
+      "businessDetails": "( 504 ) 467 - 9677\nKENNER, LA\nVisit SamsClub.com\n12/15/25  12:40 0933 08261 004 818  \n       ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "    W MEMBER 101-*******3124 ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20dc9246-b217-402f-add4-91325d280850",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "THANK YOU,\nRJG",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "NAVY BEANS",
+          "total": "13.76"
+        },
+        {
+          "quantity": "",
+          "description": "MUFFINS",
+          "total": "8.98"
+        },
+        {
+          "quantity": "",
+          "description": "MUFFINS",
+          "total": "8.98"
+        },
+        {
+          "quantity": "",
+          "description": "MUFFINS",
+          "total": "8.98"
+        },
+        {
+          "quantity": "",
+          "description": "TIDE PODS",
+          "total": "29.98"
+        },
+        {
+          "quantity": "",
+          "description": "TIDE PODS",
+          "total": "29.98"
+        },
+        {
+          "quantity": "",
+          "description": "DISINFECTANT",
+          "total": "7.98"
+        },
+        {
+          "quantity": "",
+          "description": "ENTRANCE MA",
+          "total": "19.98"
+        },
+        {
+          "quantity": "",
+          "description": "MM TOWELS",
+          "total": "20.93"
+        },
+        {
+          "quantity": "",
+          "description": "NAVY BEANS",
+          "total": "13.76"
+        },
+        {
+          "quantity": "",
+          "description": "HAND SOAP",
+          "total": "20.48"
+        },
+        {
+          "quantity": "",
+          "description": "ZPLC STORAGE",
+          "total": "12.48"
+        },
+        {
+          "quantity": "",
+          "description": "APPLES",
+          "total": "4.94"
+        },
+        {
+          "quantity": "",
+          "description": "HD SPONGES",
+          "total": "14.97"
+        },
+        {
+          "quantity": "",
+          "description": "OATMEAL",
+          "total": "12.48"
+        },
+        {
+          "quantity": "",
+          "description": "OATMEAL",
+          "total": "12.48"
+        },
+        {
+          "quantity": "",
+          "description": "CLEANER",
+          "total": "10.14"
+        },
+        {
+          "quantity": "",
+          "description": "TIDE PODS-S",
+          "total": "12.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL",
+          "value": "233.40"
+        },
+        {
+          "title": "TAX ",
+          "value": "23.93"
+        },
+        {
+          "title": "TOTAL",
+          "value": "257.33"
+        }
+      ],
+      "total": "257.33",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalText": "DEBIT TEND",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "EFT DEBIT",
+          "value": "PRAY FROM PRIMARY"
+        },
+        {
+          "title": "      257.33 TOTAL PURCHASE",
+          "value": ""
+        },
+        {
+          "title": "US DEBIT",
+          "value": "**** **** **** 8897 I O"
+        },
+        {
+          "title": "REF # U8SOP4397979",
+          "value": ""
+        },
+        {
+          "title": "NETWORK ID. 0076",
+          "value": "APPR CODE 281662"
+        },
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "US DEBIT",
+          "value": ""
+        },
+        {
+          "title": "AID A0000000980840",
+          "value": ""
+        },
+        {
+          "title": "AAC F3C70F1B9B1A8409",
+          "value": ""
+        },
+        {
+          "title": "*Pin Verified*",
+          "value": ""
+        },
+        {
+          "title": "TERMINAL # 51083851",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "12/15/25    12:40:12",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "243901c0-3087-4b4e-a1f4-429288806969",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "# ITEMS SOLD 17",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "834c563f-6552-47e2-b09d-68bb5ecea9b8",
+      "type": "BARCODE",
+      "size": 66,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c46635d2-e468-47da-93ff-30248b203a8b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Save time. Order ahead.\nSamsClub.com/clubpickup\n12/15/25      12:40:12",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-02-05T17:14:04.360Z",
+  "backgroundCrumpled": false,
+  "isParent": true,
+  "metatitle": "Fake Walmart Receipt",
+  "metadesc": "authentic Walmart receipts with customizable items, prices, store details, and transaction info using our free generator tool",
+  "backgroundType": "CRUMPLED_2",
+  "description": "Retail purchase receipt from Sam’s Club, showing a grocery and household items transaction. The receipt includes store location (Kenner, LA), visit date and time, membership number, detailed item list with prices, subtotal, tax, total amount paid, and debit payment details. Commonly used for expense tracking, personal records, returns, or reimbursement documentation.",
+  "parentName": "Sams",
+  "published": true,
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1Nrg1jC8wgCp0i07Lzyb%2F1Nrg1jC8wgCp0i07Lzyb-94a501a6-580a-4330-9ff7-7b5df6881dda.png?alt=media&token=981e694d-72cc-46e9-8436-5753fa546716",
+  "name": "Sam’s Club Receipt",
+  "slug": "Sam's-Club-Receipt",
+  "id": "1Nrg1jC8wgCp0i07Lzyb"
+}

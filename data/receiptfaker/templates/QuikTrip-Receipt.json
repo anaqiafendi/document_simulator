@@ -1,0 +1,130 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "QuikTrip Receipt",
+  "description": "This receipt originates from QuikTrip #00151, a convenience store and fuel retailer located at 655 S. 291, Liberty, Missouri, with the store phone number printed beneath the address. The receipt header begins with a welcome message followed by the store identification number and location information. Transaction metadata includes the time and date of purchase, along with a register identifier (Register #0002) used by the POS system. A financial summary section presents Sub-Total, Tax, and Total, followed by a dedicated Payment Methods section separated by a dashed divider. The payment was processed as a MasterCard Sale, with a masked card number and authorization code printed for transaction verification. The layout reflects a convenience store POS receipt format, structured with clear transaction timing, register identification, financial summary totals, and card authorization details.",
+  "slug": "QuikTrip-Receipt",
+  "createdAt": "$D2026-03-12T11:38:03.235Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Welcome to QuikTrip\n\nQuikTrip #00151\n655 S. 291\nLiberty, MO\n(816)415-8700",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "66b1e9b5-1163-49e6-a410-e4ef98f9a78a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "2:10:18 PM             08-01-2015\n          Register #0002",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ac47e58f-8b8b-4459-98c1-9bb27f5f479d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c471ade-2277-4e68-bab1-dd88caf8ac90",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f93c431e-f183-4f56-9ee7-5977585f0513",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Payment Methods\n--------------------------------\n\nMasterCard Sale               $17.38\n************5037\nAuth Code: H42820",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FwxTWO2X11HOKW8XTXiCM%2FwxTWO2X11HOKW8XTXiCM-a35a0302-28eb-4faa-97d8-372699e8a243.png?alt=media&token=0be38141-12e0-4d43-9ef1-e02b3cdc017f",
+  "published": true,
+  "id": "wxTWO2X11HOKW8XTXiCM"
+}

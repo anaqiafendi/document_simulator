@@ -1,0 +1,117 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Arby's Canada Receipt",
+  "description": "This receipt is from an Arby’s restaurant located in Thornton, Colorado, United States. It records a drive-thru fast food order including roast beef sandwiches, curly fries, a drink, and sauce packets. The receipt includes subtotal, sales tax, total amount due, employee information, order identifiers, and customer feedback details. It also contains recruitment and QR code feedback references commonly printed on US fast-food POS receipts.",
+  "slug": "Arby's-Canada-Receipt",
+  "createdAt": "$D2026-05-15T15:08:41.182Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4eb8d1be-c2a6-4307-8aad-8a9ee5142bd4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 138,
+      "businessDetails": "THE RETURN IS FOLLOW (ARBY)\n\nArby's\nRestaurant #01972\n3903 E. 120th Ave.\nThornton, CO 80233\nPhone 303-452-3622\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "35d5bafe-196f-40c9-b339-73ef5faeabac",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "6/30/2024                11:11:21 AM\nOrder Id: AAC57MBYAJAJ\nDT308 - DT\nEmployee: ALEXIS\nTotal Items: 5",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "97eeccc3-5555-4ffc-aee1-e077985b19ac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDT308",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "67e6ade9-92d5-4a81-9936-3afd2dee8dbc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\n1",
+          "description": "CPN - 2/$6 Everyday Value",
+          "total": "\n$6.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 RB Classic",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Medium Curly Fry ",
+          "total": "$$2.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Medium Drink Diet Cola ",
+          "total": "$$2.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Arby Sauce Pkt",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n\nSub Total",
+          "total": "\n\n\n$11.58"
+        },
+        {
+          "quantity": "",
+          "description": "\nSALES TAX\n",
+          "total": "\n$0.98\n"
+        },
+        {
+          "quantity": "",
+          "description": "Order Total",
+          "total": "$$12.56"
+        },
+        {
+          "quantity": "",
+          "description": "Balance Due",
+          "total": "$$12.56"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5813f1b7-0b71-4203-a3f9-333338089292",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nJoin our team! Text JOB to 35966\n\nWe would love your feedback!\n\nVisit arbys.com/feedback\n\nOr scan the QR code below\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "52U6QL3isjmT6et2obmO"
+}

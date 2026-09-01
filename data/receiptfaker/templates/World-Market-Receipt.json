@@ -1,0 +1,68 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "World Market Receipt ",
+  "description": "Customer purchase receipt from World Market showing itemized products including Moonstruck DC Espresso and Nuri 4PK Gift Set items. The receipt displays regular prices, promotional discounts (including 15% off), subtotal, 7.50% sales tax, and final total amount due. It also includes the store website (worldmarket.com) and transaction reference numbers.",
+  "slug": "World-Market-Receipt",
+  "createdAt": "$D2026-02-13T15:12:49.476Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "95cec8be-2b4a-4d8d-90be-60c660864d21",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3e2363d7-ccb5-421f-abb5-7eb9992fb49f-world%20market.jpg?alt=media&token=1a15bcda-958c-447a-9be5-acdeaac68760",
+      "size": 201,
+      "businessDetails": "worldmarket.com\n\n366665 CK01 9685 200 001\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b44cf992-dc57-4a3e-82ac-ec8d549abdd5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MOONSTRUCK DC ESPR\n00000060865\n1 @ 4.24 A 4.24\nReg. Price\n1 @ 4.99 \n15% Off .75\n",
+          "total": "4.99"
+        },
+        {
+          "quantity": "",
+          "description": "\nNURI 4PK GIFT SET\n000000640276\n1 @ 5.30 N \nReg. Price\n1 @ 24.99 24.99\nPromo 18.75\n15% Off .94-\n",
+          "total": "5.30"
+        },
+        {
+          "quantity": "",
+          "description": "NURI 4PK GIFT SET\n000000640276\n1 @ 5.30 N \nReg. Price\n1 @ 24.99 24.99\nPromo 18.75\n15% Off .94-\n",
+          "total": "5.30"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "14.84"
+        },
+        {
+          "title": "7.50% TAX ",
+          "value": ".32"
+        }
+      ],
+      "total": "14.52",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FNGrHrN1b1dNgerwQ0TOF%2FNGrHrN1b1dNgerwQ0TOF-393f5a69-5242-4f3f-b129-edf7f7e8851e.png?alt=media&token=ed40de10-79e3-4b11-b1bb-834b46aff297",
+  "published": true,
+  "id": "NGrHrN1b1dNgerwQ0TOF"
+}

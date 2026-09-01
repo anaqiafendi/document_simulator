@@ -1,0 +1,126 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Chevron Receipt",
+  "slug": "Chevron-Receipt",
+  "createdAt": "$D2025-09-30T15:09:29.446Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 149,
+      "businessDetails": "Chevron Station Inc.\n00206541\n18050 San Ramon Valley San Ramon, CA",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e5f9243-f447-413b-bd40-62349de5bdb8",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "09/30/2025 23487502\n6:04:46 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "XXXXXXXXXXXX3741\nMC\nINVOICE E/2347342\nAUTH 020759\nPUMP #2\n\nUNLEAD REG 12.43G",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "PRICE/GAL",
+          "total": "5.99"
+        },
+        {
+          "quantity": "",
+          "description": "FUEL TOTAL",
+          "total": "74.46"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "74.46",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "88.23"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "33e6b9b2-2324-4232-ab4d-7c09f52ec505",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "THANK YOU FOR\nCHOOSING CHEVRON",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FWqdAVbN6Ub6esmV3UGZU%2FWqdAVbN6Ub6esmV3UGZU-3c6392c8-b48f-47f7-9e15-33d1cc2909eb.png?alt=media&token=a565f19b-5e1f-4c04-ba69-dbf8c137117e",
+  "description": "Need a Chevron receipt? Use our free tool to make a detailed fuel purchase record. Add station name, fuel type, quantity, price, and payment—ideal for reimbursements, tax purposes, or expense tracking.",
+  "published": true,
+  "metatitle": "Chevron Gas Receipt",
+  "metadesc": "realistic Chevron fuel receipts with station details, gas type, quantity, and pricing for expense tracking and reimbursements",
+  "id": "WqdAVbN6Ub6esmV3UGZU"
+}

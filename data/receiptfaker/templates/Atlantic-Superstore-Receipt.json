@@ -1,0 +1,207 @@
+{
+  "description": "This grocery retail receipt from Atlantic Superstore documents a MasterCard credit purchase transaction processed at the Trinity Superstore location in Canada. The receipt includes store identification details, phone number, department category formatting, timestamp metadata, masked payment card information, authorization references, and PC Optimum loyalty redemption details. The POS structure contains subtotal, HST tax calculations, total amount formatting, loyalty redemption entries, and MasterCard payment confirmation aligned in standard Canadian grocery retail thermal receipt formatting. Additional receipt elements include EMV transaction references, approval confirmation messaging, customer copy indicators, points redemption summaries, and closing loyalty balance information near the footer. The layout reflects a standard Canadian supermarket thermal receipt with integrated loyalty rewards redemption and card authorization formatting.",
+  "textColor": "#101828",
+  "fontType": "MERCHANT_COPY",
+  "createdAt": "$D2026-05-25T11:58:55.615Z",
+  "backgroundType": "CRUMPLED_1",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "numberFormat": "LEFT",
+  "sections": [
+    {
+      "businessDetails": "\nTRINITY SUPERSTORE\n(506)383-4919\nWelcome #\n",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0760ab5f-fb75-4dc4-8bf2-0602297d5ec6-image%20(19).jpg?alt=media&token=f4fec28a-2fdf-4861-affb-12917cd974c6",
+      "type": "HEADER",
+      "id": "21e41ca3-ebe0-4e45-bf8b-966abd7444ee",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "alignment": "LEFT",
+      "size": 249,
+      "date": "$undefined"
+    },
+    {
+      "id": "b3f13f6e-fc68-41ff-8b20-5cf6f7cd0a36",
+      "type": "ITEMS",
+      "totalLines": [],
+      "bottomDivider": false,
+      "total": "",
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "items": [
+        {
+          "total": "",
+          "description": "21-GROCERY",
+          "quantity": ""
+        },
+        {
+          "description": "0613283242 CASHMERE  HMRJ",
+          "quantity": "",
+          "total": "13.99"
+        },
+        {
+          "description": "25-NATURAL FOODS",
+          "quantity": "",
+          "total": ""
+        },
+        {
+          "total": "9.99",
+          "description": "03500098747 ACTIVATD  CHRCOAL  HMRJ",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "",
+          "quantity": ""
+        },
+        {
+          "description": "08425324551 RED SOD CRMY",
+          "quantity": "",
+          "total": "6.99"
+        },
+        {
+          "description": "66147531001 BIOI TOMATO  CHOP MRJ",
+          "quantity": "",
+          "total": "3.79"
+        },
+        {
+          "total": "",
+          "description": "38-HOME HEALTH",
+          "quantity": ""
+        },
+        {
+          "description": "06565100826 HEALTH PROD  ITEM HMRJ ",
+          "quantity": "",
+          "total": "7.89"
+        },
+        {
+          "description": "SUBTOTAL",
+          "quantity": "",
+          "total": "42.65"
+        },
+        {
+          "description": "HcHST 15%   31.87 @ 15.000%",
+          "quantity": "",
+          "total": "4.78"
+        },
+        {
+          "description": "\nTOTAL",
+          "quantity": "",
+          "total": "\n47.43"
+        },
+        {
+          "description": "\nLOYALTY",
+          "quantity": "",
+          "total": "\n10.00"
+        },
+        {
+          "total": "",
+          "description": "Trans. Type: PURCHASE",
+          "quantity": ""
+        },
+        {
+          "total": "CAD$ 37.43",
+          "description": "Account: MASTERCARD",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "Card Type: CREDIT",
+          "quantity": ""
+        },
+        {
+          "total": "***********7389 P",
+          "description": "Card Number",
+          "quantity": ""
+        },
+        {
+          "description": "DateTime",
+          "quantity": "",
+          "total": "23/10/20 12:42:59"
+        },
+        {
+          "description": "Ref. #",
+          "quantity": "",
+          "total": "133196"
+        },
+        {
+          "total": "035311",
+          "description": "Auth #",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "MASTERCARD",
+          "quantity": ""
+        },
+        {
+          "description": "A0000000041010 0000008001",
+          "quantity": "",
+          "total": ""
+        }
+      ],
+      "totalText": "",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "custom": "\nGO APPROVED – THANK YOU\nRetain this copy for statement\nvalidation\n*** CUSTOMER COPY ***\n\n",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "id": "985f72e0-f2b1-40e4-adbb-fd4d6384d5a4",
+      "date": "$undefined"
+    },
+    {
+      "type": "ITEMS",
+      "id": "e8f97cf4-f6e0-4c20-a790-4bd75ba2bbe3",
+      "bottomDivider": false,
+      "total": "",
+      "totalDivider": false,
+      "totalLines": [],
+      "items": [
+        {
+          "total": "37.43",
+          "description": "CREDIT TN",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "PC Optimum",
+          "quantity": ""
+        },
+        {
+          "total": "10000",
+          "description": "Points Redeemed",
+          "quantity": ""
+        },
+        {
+          "description": "Closing Balance",
+          "quantity": "",
+          "total": "3538"
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "totalText": "",
+      "date": "$undefined"
+    },
+    {
+      "size": 74,
+      "bottomDivider": false,
+      "id": "2e707848-b4d0-4adc-a448-40500c9ee959",
+      "bottomDividerType": "DASHES",
+      "type": "BARCODE",
+      "length": 500,
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "backgroundCrumpled": false,
+  "slug": "Atlantic-Superstore-Receipt",
+  "currency": "",
+  "imageUrl": "",
+  "name": "Atlantic Superstore Receipt",
+  "isParent": true,
+  "published": true,
+  "id": "oDQwOowdNBQCdHytDusp"
+}

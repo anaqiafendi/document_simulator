@@ -1,0 +1,117 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Super Food Aruba Receipt",
+  "description": "This receipt is issued by Super Food and identifies the store as its Bubali #141B location in Aruba. The header contains the Super Food branding, official website, telephone number, register information, transaction date and time, cashier name, invoice number, transaction number, and Tourist Bonus Card reference. The receipt records purchases across the Grocery, Meat, Bakery, and Produce departments, including Jumbo grocery products, Piri Piri Spareribs, Homemade Lemon Cake, and Homemade Mango Chicken. The financial section records a subtotal of Afl 52.82, provides the equivalent amount in U.S. dollars, and shows Mastercard payment information and change. The footer records the item count, business registration information, return conditions, and a customer appreciation message. The overall layout is representative of an Aruban supermarket POS receipt, combining department-based merchandise itemization, dual-currency reporting, electronic payment, and customer service information.",
+  "slug": "Super-Food-Aruba-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T17:01:13.660Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "2e63cb04-156f-443f-acc6-c3fa44e74538",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdf505a8b-6c89-45bf-a31b-e56596178dfb-image.jpg?alt=media&token=1329faba-45b5-41e2-8e42-b041a4242773",
+      "size": 276,
+      "businessDetails": "Buball #1418\nwww.superfoodaruba.com\n297.622 2000\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "36ede269-13e9-42b3-b58f-c1166c59bce2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "001-012 6/2/2025 12:38:18 Kaylee Sap\nInv#:00388895  Trs#:391653\nTOURIST BONUS CARD  454321350679\n\nGROCERY\nJUMBO BAKKERKRAKELINGEN 200 G  6.29\nJUMBO BAKKERKRAKELINGEN 200 G  6.29\n\nMEAT\nSPARERIBS GEGAARD PIRI PIRI  24.29 \n\nBAKERY\nHOMEMADE LEMON CAKE 350 GRAM  10.95 NoTa\n\nPRODUCE SNIJLIJN\nHOMEMADE MANGO CHICKEN   5.00 NoTa",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba6fec4b-b2e8-447c-8c35-c2bf8715ff87",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Items Subtotal",
+          "value": "52.82"
+        },
+        {
+          "title": "Subtotal",
+          "value": "52.82"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "21d72e31-d11c-4f81-8e82-5cc23a657c63",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nTOTAL AFl",
+          "value": "\n52.82"
+        },
+        {
+          "title": "TOTAL US $$$",
+          "value": "30.19"
+        },
+        {
+          "title": "Master US",
+          "value": ""
+        },
+        {
+          "title": "[30.19 @ 1.75]",
+          "value": "52.83"
+        },
+        {
+          "title": "Change ",
+          "value": "0.01"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "33c2ffb6-f1cb-4c14-98c9-7cb29588c696",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nCustomers new balance",
+          "value": "\n0.00"
+        },
+        {
+          "title": "Item count",
+          "value": "5"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e73b6523-f572-4728-92f7-8e33791f87a0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nK.v.K.:42429.0 PERS# 5047339\nReturn on claims within\n3 days. Please bring your\nreceipt. No cash refunds.\nThank you for shopping with us and\nwe hope to see you again soon.\n\n\n\nBETTER EVERY DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "uZW71dehbFtPWGZGftci"
+}

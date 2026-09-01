@@ -1,0 +1,182 @@
+{
+  "createdAt": "$D2026-02-09T14:22:26.306Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FZGij7Cj8TpVqmYPDJGx1ckI0DYu1%2Ff84d1a0b-2fef-48f1-9f18-6427eb59a05a-Screenshot%202026-02-08%20at%2010.59.02%E2%80%AFPM.png?alt=media&token=1386e3de-ea46-428c-8d56-a988c458bb5b",
+      "size": 193,
+      "businessDetails": "IKEA  - Richmond Store\n3320 Jacombs Rd, Richmond, BC\nTel: (604) 555 4430\nMar 23 2024      2:14 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Furniture Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Billed to: Olivia Harper\n789 Willow Creek Road\nMadison, WI 53703",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Lack Side Table White",
+          "total": "19.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Malm 6 Drawer Dresser White",
+          "total": "179.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Skubb Drawer Organizers 6Pack",
+          "total": "9.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Fejka Potted Plant Artificial",
+          "total": "7.88"
+        },
+        {
+          "quantity": 1,
+          "description": "Rinnig Tea Towels 4Pack",
+          "total": "3.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Snitsig Kitchen Utensil Set",
+          "total": "9.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Blanda Blank Bowl Stainless",
+          "total": "8.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "239.94"
+        },
+        {
+          "title": "GST %5",
+          "value": "11.99"
+        },
+        {
+          "title": "PST 7%",
+          "value": "16.80"
+        }
+      ],
+      "total": "268.73",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "3/23/2024 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for shopping at IKEA!",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "1dbf3f71-9844-418e-b7c9-a64519a225c6",
+      "type": "DATE",
+      "alignment": "RIGHT",
+      "date": "Mar 23 2024      2:14 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "metatitle": "Furniture Store Receipt",
+  "metadesc": "professional furniture store receipts with item details, quantities, prices, taxes, and payment info for tracking purchases",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "IKEA – Furniture Store Receipt",
+  "description": "This receipt template represents a standard in-store purchase from an IKEA furniture retail location in Richmond, British Columbia. It includes the IKEA wordmark at the top, full store address and contact details, transaction date and time, itemized furniture and home goods purchases, subtotals, applicable GST and PST taxes, and a clearly stated grand total. The receipt also shows billing information, payment method (debit card), masked card number, reference and authorization details, barcode, and closing customer message. This template is suitable for furniture retail receipt libraries, mock transactions, expense documentation samples, and receipt generator tools requiring realistic, structured IKEA-style formatting.",
+  "slug": "IKEA-Furniture-Store-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FVLFhxwwfWohr3okan2lo%2FVLFhxwwfWohr3okan2lo-792c7522-a600-4877-b95a-8dd6be07de99.png?alt=media&token=75b049ad-3856-4c39-922f-4de3833a0235",
+  "published": true,
+  "id": "VLFhxwwfWohr3okan2lo"
+}

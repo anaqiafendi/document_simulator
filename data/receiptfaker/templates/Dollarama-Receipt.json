@@ -1,0 +1,143 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-22T08:59:03.073Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d3365495-c3d2-41ce-9b6f-966727878378",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0f35e317-57d4-4330-836e-2ab4116d3d72-image%20(15).jpg?alt=media&token=8df99f33-1500-4de4-aa29-5b6f25693ae3",
+      "size": 237,
+      "businessDetails": "\n789 Memorial Avenue\nThunder Bay ON P7B 3Z7\nGST 863624433\nWWW.DOLLARAMA.COM\n\nNATIVE SALE\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba136126-1564-4e47-99fd-e74dc7d7625b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "HAIR COLORING",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "SHOPPING BAG",
+          "total": "1.25"
+        },
+        {
+          "quantity": "",
+          "description": "FIGURINE SET",
+          "total": "1.50"
+        },
+        {
+          "quantity": "",
+          "description": "FIGURINE SET",
+          "total": "1.50"
+        },
+        {
+          "quantity": "",
+          "description": "FIGURINE SET",
+          "total": "1.50"
+        },
+        {
+          "quantity": "",
+          "description": "3 TENNIS BALLS",
+          "total": "1.50"
+        },
+        {
+          "quantity": "",
+          "description": "TENNIS RACKET",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "TENNIS RACKET",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "STITCH-IT SEWING",
+          "total": "1.25"
+        },
+        {
+          "quantity": "",
+          "description": "FLIP FLOPS",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "FLIP FLOPS",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "DOLL",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "BAND NUMBER: 18565963",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "\n\n$22.50"
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "$$25.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "$$2.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4d5b02c7-992b-45e0-8812-16e40d61ea8e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNO EXCHANGE\nNO RETURN\nTHANK YOU FOR SHOPPING AT \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4bee78fa-4a4e-4116-981b-91bf3413e108",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "2013-07-18 18:39:09\n000802 02 0202                  0216",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "name": "Dollarama Receipt",
+  "description": "This retail receipt from Dollarama documents a cash transaction processed at the Memorial Avenue location in Thunder Bay, Ontario. The receipt includes store address information, GST registration number, website reference formatting, and a “Native Sale” transaction designation. The POS structure contains itemized retail entries, total amount formatting, cash tendered, and change due fields aligned in standard discount retail thermal receipt format. Additional receipt elements include a band number identifier, no exchange/no return policy notices, thank-you footer messaging, timestamp formatting, and transaction sequence identifiers near the footer. The layout reflects a standard Canadian discount retail thermal receipt with simplified cash payment formatting and policy notice presentation.",
+  "slug": "Dollarama-Receipt",
+  "published": true,
+  "id": "P2yRAzToZRW1CNCtkG5e"
+}

@@ -1,0 +1,144 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "DSW Receipt",
+  "description": "This receipt is a retail transaction issued by DSW (Designer Shoe Warehouse) at its Sullivan Center location in Chicago, Illinois, including full address and contact number. It contains transaction identifiers and sale details. The receipt presents an itemized purchase of a discounted apparel item, including original price, clearance discount, and final adjusted price. A structured financial summary includes subtotal, sales tax, and total amount. It also highlights savings details such as clearance discounts and comparative savings. The format reflects a standard U.S. retail POS receipt with promotional pricing and savings breakdown.",
+  "slug": "DSW-Receipt",
+  "createdAt": "$D2026-04-18T12:14:20.867Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "9a17841a-1f75-448c-aea7-683bbf8c50fc",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffdd8be20-5f36-4734-8c15-2b164a712612-image%20(3).jpg?alt=media&token=7a9f7672-32cd-4a67-aa66-5da809a4ae4c",
+      "size": 237,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f6f837f1-b015-44e2-a109-a05bd76b16c9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSullivan Center\n35 South State Street\nChicago, IL 60603\n312-629-5386\n\nT-00002411    C-0121\n00029382/0009   SALE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f91391f5-5622-4706-a4e9-d91282c99873",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "7424987940008 WOMENS DRESS",
+          "total": "169.94"
+        },
+        {
+          "quantity": "",
+          "description": "80% ITEM CLEARANCE DISC  003",
+          "total": "135.95-"
+        },
+        {
+          "quantity": "",
+          "description": "$$ OFF TRANS DISC         388",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "YOUR PRICE",
+          "value": "33.99"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cbfaefbc-b89a-44cb-b929-f9ef72b7b980",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL:",
+          "total": "33.99"
+        },
+        {
+          "quantity": "",
+          "description": "IL TAX 9.250%:",
+          "total": "3.14"
+        },
+        {
+          "quantity": "",
+          "description": "DSW Rewards # 400412329575",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL:",
+          "total": "37.13"
+        },
+        {
+          "quantity": "",
+          "description": "Visa",
+          "total": "/XXXX/584192 1  37.13"
+        },
+        {
+          "quantity": "",
+          "description": "  CHANGE DUE",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "870ff78a-236d-4dae-91c7-64e74fd60bdb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n * * * * * * * * * * * * * * * * * * \nCOMPARE AT SAVINGS:          158.06 \nCLEARANCE SAVINGS:           135.95 \n \nYOU SAVED                     294.01\n  * * * * * * * * * * * * * * * * *\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a360a60e-65d2-4097-99bb-2d4dae2b2d62",
+      "type": "BARCODE",
+      "size": 69,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "39b0814d-cf17-4360-86fb-b6971fe9b63e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU FOR YOUR VISIT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FgZROXlAmAaadFmjPHCti%2FgZROXlAmAaadFmjPHCti-45ef379e-c0e1-4185-abdd-89a511813f6d.png?alt=media&token=4b10bed7-21b1-44d2-bd41-d4758a08b422",
+  "published": true,
+  "id": "gZROXlAmAaadFmjPHCti"
+}

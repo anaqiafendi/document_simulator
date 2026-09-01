@@ -1,0 +1,163 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Monthly Parking Receipt",
+  "slug": "Monthly-Parking-Receipt",
+  "createdAt": "$D2025-09-29T14:05:23.177Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FYq5RQqyaBViDdYhOjWCN%2FYq5RQqyaBViDdYhOjWCN-5f728e7e-acc7-4d11-9d79-ad7c5e5ccb89.png?alt=media&token=e72bb395-9e16-40a9-a8b8-84365e6c4c0b",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2Fc435fc50-e219-4f9d-b983-e7580b13f7d0-8679549_parking_box_line_icon.png?alt=media&token=c3dbdf27-bc55-4520-b17d-6688fba0d1ab",
+      "size": 81,
+      "businessDetails": "Monthly Parking Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CityCenter Parking Solutions\n420 Terminal Lane, Suite A, Columbus\nOH 43215\nUnited States\n(614) 555-2817",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to:\nOlivia Parker\nAddress: 276 Maplewood Drive, Apt 9C, Denver, CO 80220\nPhone Number: (303) 555-7614",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Monthly Parking Fee",
+          "total": "150.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Security Fee",
+          "total": "10.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "160"
+        },
+        {
+          "title": "Tax",
+          "value": "12.80"
+        }
+      ],
+      "total": "172.80",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e0f981a8-6403-4556-8198-3b1cc564b8af",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:54:03 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b489d995-2633-4446-9168-4a0378c5e75e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Payment is due at the time of exit or according to the monthly agreement. Customers must keep their receipt/ticket for verification; lost receipts may incur additional fees. The garage is not responsible for theft, loss, or damage to vehicles or contents. By using this service, you acknowledge and agree to these terms.",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for choosing ParkRight Garage!\nwww.parkright.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need a monthly parking receipt? Easily create a professional record with our free tool. Add parking facility info, vehicle details, duration, rate, and payment—ideal for expense reports or personal records.",
+  "published": true,
+  "metatitle": "Monthly Parking Receipt",
+  "metadesc": "professional monthly parking receipts with facility details, vehicle info, duration, rates, and payment records instantly",
+  "id": "Yq5RQqyaBViDdYhOjWCN"
+}

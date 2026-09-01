@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T19:47:41.310Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "6267c557-306e-4dd7-8117-26f561aa3479",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "03-05-2025             03:25 PM CST\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "93d5e732-0db6-4843-b583-de98de3a4e5b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "KDOR DL SALINA\n2941 CENTENNIAL RD\nSALINA, KS 67401\n\nTERMINAL NAME: E6552902\n\nORDER# 197405094\n\n\nPAYMENT\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "70df66ba-0cdb-4dca-a980-652214b52ad4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DL COUNTER",
+          "total": "$$26.00"
+        },
+        {
+          "quantity": "",
+          "description": "2430844",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8798bd79-0b85-4e02-976f-b8ea77a9a140",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\nAGENCY SUBTOTAL:  $26.00\nLEXISNEXIS SERVICE FEE:  $0.75\n\nTOTAL USD:  $26.75",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "89745ee1-36d9-443d-8069-bc6fc700718f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCARD #: 2443",
+          "total": "\nVISA"
+        },
+        {
+          "quantity": "",
+          "description": "PAYMENT: DEBIT",
+          "total": "CHIP READ-CONTACT"
+        },
+        {
+          "quantity": "",
+          "description": "MODE",
+          "total": "ISSUER"
+        },
+        {
+          "quantity": "",
+          "description": "AUTH CODE",
+          "total": "465688"
+        },
+        {
+          "quantity": "",
+          "description": "APP LABEL",
+          "total": "US DEBIT"
+        },
+        {
+          "quantity": "",
+          "description": "CVM",
+          "total": "PIN VERIFIED"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "A0000000980840"
+        },
+        {
+          "quantity": "",
+          "description": "ARQC",
+          "total": "0E0924A6FC623840"
+        },
+        {
+          "quantity": "",
+          "description": "AMOUNT",
+          "total": "$$26.75"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb913f1a-835d-4534-ba95-ecb9c89f9236",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n *** CARD APPROVED ***",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d33ae6b-aaa4-437a-bff8-5c00200a1660",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n********************************\nAMOUNT PAID:\n$26.75\n********************************\n\n\nSIGNATURE NOT REQUIRED\n\nAGENCY COPY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt documents a payment made at the Kansas Department of Revenue Driver Licensing office located on Centennial Road, Salina, Kansas. The receipt includes the order number, terminal identification, agency subtotal, a LexisNexis service fee, and the final amount paid. The payment section confirms that the transaction was completed using a Visa Debit card via EMV chip with PIN verification, and includes the authorization code, application label, AID, and other EMV transaction details. The receipt concludes by confirming that the card transaction was approved, that no signature was required, and identifies the document as the Agency Copy. The overall layout is representative of a United States government agency payment receipt, combining service charges, payment authorization, and transaction reconciliation in a compact receipt format.",
+  "name": "Kansas Driver's License Receipt",
+  "slug": "Kansas-Driver's-License-Receipt",
+  "published": true,
+  "id": "wxw5wpDzEFCZI118rPHL"
+}

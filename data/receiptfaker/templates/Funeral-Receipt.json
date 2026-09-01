@@ -1,0 +1,149 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T09:51:43.857Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Funeral Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F0657413a-dc21-490e-a2cb-6201cd1a72fc-4167905_burial_candle_decoration_flower_funeral_icon.png?alt=media&token=10fceda0-01b9-4644-ae1a-da9bc2b28e4a",
+      "size": 50,
+      "businessDetails": "Serenity Path Funeral Services, LLC\nAddress: 4125 Memorial Parkway, Dayton, OH 45420\nPhone Number: (937) 555-8472\nRegistration Number: OH-FS-229864",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Funeral Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Casket",
+          "total": "2000"
+        },
+        {
+          "quantity": "1",
+          "description": "Funeral Service",
+          "total": "1300"
+        },
+        {
+          "quantity": "1",
+          "description": "Transportation",
+          "total": "400"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "3,700"
+        },
+        {
+          "title": "Tax",
+          "value": "296.00"
+        }
+      ],
+      "total": "3,996.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Applicable local and state sales taxes are added to merchandise items such as caskets, urns, and memorial products, in compliance with Ohio tax law. Services prepaid under a pre-need agreement will be honored according to contract terms. Any additional services requested at the time of need will be billed separately. All services and merchandise are itemized on the receipt in accordance with the Federal Trade Commission’s Funeral Rule. This ensures transparency and allows families to choose only the goods and services they desire.\n\ninfo@serenitypathfunerals.com\nwww.serenitypathfunerals.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3995f8d2-5b06-4d7b-843e-74da9f766c69",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 1:19:11 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "slug": "Funeral-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FNuwtCXXmZ626yQoaqg4D%2FNuwtCXXmZ626yQoaqg4D-d96a2984-795a-4236-bd70-5f905ae691c2.png?alt=media&token=155f7668-8317-46bd-81d9-71be6fbffc2e",
+  "description": "Need a funeral receipt? Our free tool helps you generate a formal receipt for memorial services. Enter funeral home details, service items, dates, fees, and payment info—ideal for records, insurance, or estate documentation.",
+  "published": true,
+  "metatitle": "Funeral Service Receipt",
+  "metadesc": "professional funeral receipts with memorial service details, costs, and payment information for estate records and insurance",
+  "id": "NuwtCXXmZ626yQoaqg4D"
+}

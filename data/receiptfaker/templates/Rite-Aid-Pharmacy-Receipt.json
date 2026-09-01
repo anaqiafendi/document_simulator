@@ -1,0 +1,103 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Rite Aid Pharmacy Receipt",
+  "description": "This receipt is issued by Rite Aid Pharmacy, displaying the RITE AID PHARMACY logo at the top followed by the brand slogan “With us, it’s personal.” The header lists the store number (#04376), store address in Farmington Hills, Michigan, and store phone number. The transaction metadata section includes register number, transaction number, cashier identifier, and timestamp. The receipt indicates a return transaction involving a prepaid credit card, followed by a financial summary that includes subtotal, tax, and total, along with cash refund details and change issued. A return summary line (“TOTAL AMOUNT OF RETURN”) is presented above a barcode used for POS reference or tracking. The footer includes Rite Aid wellness+ rewards program information, promotional notices, and references to store policies such as coupon redemption and return policy.",
+  "slug": "Rite-Aid-Pharmacy-Receipt",
+  "createdAt": "$D2026-03-06T15:40:41.401Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff37b1ed1-1369-4a44-90f7-a4b922de1be0-image%20(30).jpg?alt=media&token=a367a8bd-5045-4a73-8785-0ecc77387370",
+      "size": 236,
+      "businessDetails": "Store #04376\n33330 W. 12 MILE\nFARMINGTON HILLS, MI 48334\n(248) 553-4005",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fea83957-d2b6-43b1-8ce3-e9f0cc897346",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Register #2   Transaction #11588743\nCashier #8732054 10/25/2020 4:08 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7c21192-e2ff-41c0-9aef-7452a4ef1fa6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n013240160103 OUTERWEAR/VEST/SLVLS/OTHER\nSILVER   1     24.99 T\n\n012624960101 CORE ACCESSORIES/SUNGLASSES/S\nSILVER/SILVER   1   9.99  T3\n-------------------------------\n\nSubTotal : 34.98\ntax 7.000% : 1.7493\nTax 7.000% : 0.6993\nTotal : 37.43\n-------------------------------\n\nAmount Tendered : 37.43\n(Change)\nChange : 0.00",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "7e279a58-ab7c-4958-930b-51be6ec0d63c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "PREPAID CREDIT CARD              \nRETURN",
+          "total": "500"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "500"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "500.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad2ddc7a-a3ef-424c-8f9a-e53f7e8071d4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "THANK YOU FOR SHOPPING AT RITE AID\n\nTOTAL AMOUNT OF RETURN:          500.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d43e36cc-bf69-4d8b-8170-0694984d089b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f823bcc9-7a5d-4937-a8ac-da3134b1cbef",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Wellness+ BonusCash Rewards are loaded automatically to wellness+ card only for use in-store or at riteaid.com (on day after issuance and expire after 60 days). Product exclusions are the same as those for Rite Aid coupon and Shopping Pass redemptions. \nTurn receipt over for Promotion Terms and Wellness+ Coupon Terms. See Wellness+ BonusCash Survey, Coupon Redemption, Return Policy, Customer Care in or Speech disabled, and Customer Care.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FBFPkT2LY9jpuKQssPqdQ%2FBFPkT2LY9jpuKQssPqdQ-0170f35e-c516-434c-9f18-b44d561057e8.png?alt=media&token=123edf31-cc4f-43c6-ac94-66a3cfecce9b",
+  "published": true,
+  "id": "BFPkT2LY9jpuKQssPqdQ"
+}

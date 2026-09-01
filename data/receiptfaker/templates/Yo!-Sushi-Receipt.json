@@ -1,0 +1,107 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-07T14:38:51.074Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Yo! Sushi Receipt",
+  "description": "This receipt is a pre-receipt issued by YO! Sushi at Dubai Mall. It records a dine-in sushi order categorized by plate color pricing, including purple, pink, and gray plate selections. The receipt includes slip number, staff name, table number, date, and item totals. It also provides sections for tips and final payment completion, along with customer service and delivery contact details. The format reflects a restaurant pre-bill commonly used before final payment in casual dining establishments.",
+  "sections": [
+    {
+      "id": "6f7f5e82-9d16-44be-a223-38563dd8a1af",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F72baebf0-53c8-49de-95ca-d8188d444191-image%20(5).jpg?alt=media&token=5bcbde2f-08e2-4e08-9e9d-b2eb3977aff0",
+      "size": 207,
+      "businessDetails": "Pre-Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92042c74-f409-432d-9a04-acf88701ce7a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSlip:   00000YI10000012620\nStaff:  Karen\nDate:   02/16/17  9:27\nTable:  12",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c748ea6b-d048-4b61-b10a-8f85bbbfe68f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nDescription",
+          "total": "\nAmount"
+        },
+        {
+          "quantity": "",
+          "description": "PURPLE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 pcs @ 18.00",
+          "total": "36.00"
+        },
+        {
+          "quantity": "",
+          "description": "PINK",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "2 pcs @ 22.00",
+          "total": "44.00"
+        },
+        {
+          "quantity": "",
+          "description": "GRAY",
+          "total": "24.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\n104.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nTips",
+          "total": "__________"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "__________"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d0249947-10cb-42a3-ad42-9e8df305dade",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOrder Delivery at 800 YOSUSHI\nLet us know of your comments\ncustomercare@gourmetgulf.com\nLike us and Follow us @YDSushi_ME",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Yo!-Sushi-Receipt",
+  "published": true,
+  "id": "mT3iMI3Ox6j0i4KkZzz8"
+}

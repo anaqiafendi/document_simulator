@@ -1,0 +1,183 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T21:43:11.823Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Screwfix Invoice Receipt",
+  "description": "This receipt is an invoice issued by Screwfix, a UK-based hardware and trade supplies retailer. It documents the purchase of a single hardware item (a 3/4 inch BSP blank nut) collected in-store. The receipt includes invoice number, date, item details, and total amount paid in cash. It also provides a VAT breakdown showing the standard UK 20% rate, along with gross, net, and tax values. Additional information includes store location, opening hours, collection number, and company registration details. The format reflects a standard UK retail invoice for in-store pickup.",
+  "sections": [
+    {
+      "id": "91c347f8-2874-4509-9e47-ae8d8e317609",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3233f029-561e-4b5d-9c77-cdbab0e78730-image%20(12).jpg?alt=media&token=bf5e4130-cad3-4165-acfc-2635670cc2d9",
+      "size": 263,
+      "businessDetails": "Unit 3 Finchley Industrial Centre\nNorth Finchley        Opening Hours\nLondon          Mon - Fri 6am - 9pm\nN12 0QA         Sat       7am - 8pm\n                     Sun   8am - 4pm\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0744cd37-8a81-400e-a95b-e40abb9a9c54",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nInvoice Number A5867870126",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "17e6866c-b818-42e6-8e23-cedf8a044872",
+      "type": "BARCODE",
+      "size": 74,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "77464678-7635-4a15-9c13-f418a73a06a7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Date                    11/11/2019",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1c9a4ad3-4808-4adc-96a6-555d191c7717",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " Order Details",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f21c47c5-2b98-4e83-8c0c-906910e33ebf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nGoods collected today\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "51449449-39a1-46d5-8278-383fd2ad95cd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "39553  3/4 Inch Bsp Blank",
+          "total": "1.35 (20%)"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nTotal                           ",
+          "value": "\n1.35"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "48d2f937-f2ce-4390-8c17-32d5a9a0a7a4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Payment Details",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "de89d9a7-4efb-4b94-8f91-b8bd68ede5bf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nPayment Methods",
+          "total": "\n2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Cash                           ",
+          "total": " 1.35"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c896d03c-e7ec-4083-9b9d-db840947afd1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "VAT Breakdown",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb155898-a735-4ffb-8369-6564bc483ad0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Rate          Gross    Net      VAT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VAT @ 20%      1.35   1.13     0.22",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ac64a68-b5d2-4be9-ab2a-8edd13b780e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Collection No: 428",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9b0c1f64-0325-468f-8638-a078bbee3018",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nScrewfix Direct Ltd  Reg Office: Trade House Mead Avenue Yeovil BA22 8RT Reg. No. 3006378  Registered in England VAT No: 232 5555 75 Telephone: 03330 112 212  24 hours a day, 7 days a week  Online: www.screwfix.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Screwfix-Invoice-Receipt",
+  "published": true,
+  "id": "qaxJQbIDqgJQxTH394TF"
+}

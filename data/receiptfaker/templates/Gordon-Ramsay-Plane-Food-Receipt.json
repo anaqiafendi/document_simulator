@@ -1,0 +1,209 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Gordon Ramsay Plane Food Receipt",
+  "description": "This receipt is a full-service restaurant transaction issued by Gordon Ramsay Plane Food at Heathrow Airport Terminal 5 in London, United Kingdom. It includes full location details, server identification, table number, and timestamped transaction information. The receipt presents an itemized list of food and beverage purchases, followed by a structured financial summary including service charge, VAT (Value Added Tax), and total amount due in British Pounds. It also provides currency conversion references for international travelers and includes notes regarding optional service charges and dining options. The format reflects a standard UK airport restaurant POS receipt with VAT-inclusive pricing and service charge disclosure.",
+  "slug": "Gordon-Ramsay-Plane-Food-Receipt",
+  "createdAt": "$D2026-04-17T17:47:55.330Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "00277ce4-153e-4bc0-a490-5732f2567262",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F02dd8630-549d-4be0-866e-1789ae6b852d-image%20(7).jpg?alt=media&token=1043f6f1-0ca5-4668-bcc7-775f0e952b58",
+      "size": 216,
+      "businessDetails": "\nHeathrow Terminal 5\nHellington Road\nHeathrow Airport\nHounslow\nLondon\nTW6 2GA\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9f8a709f-fd40-4d92-ba2b-0a2c9cbb6b8a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTel: 0208 897 4545\nwww.gordonramsayplanefood.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fff21983-943c-4d83-82f3-ee7c6eaec1b4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": " Server: Tejendra",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "30/03/18   08:55pm",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Table No: 4 ",
+          "total": "Covers: 1"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2dbce44-0b5a-4d06-8c89-c7dea17d5cbf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "---[ Seat 1 ]-----------------------",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d6c5b119-b16d-4ad9-bb19-1a979ece3b1a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Short Rib Burger",
+          "total": "£14.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Triple Cooked Chips",
+          "total": "£4.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Cover Charge",
+          "total": "£1.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Small Sparkling ",
+          "total": "£3.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f000baff-d6c4-4742-8f2c-c9027646220e",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Opt Svc Ch:",
+          "value": "£2.69"
+        },
+        {
+          "title": " Amt Due:",
+          "value": "£25.69"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "78ed0d90-dee6-4af8-978a-f3010efe3b9b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": " VAT Included: ",
+          "total": "£3.33"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "981228ac-d884-4990-bc07-7e03517a5081",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": " Euro    €1.1396",
+          "total": "33.64"
+        },
+        {
+          "quantity": "",
+          "description": "Dollar  $1.3133: ",
+          "total": "41.45"
+        },
+        {
+          "quantity": "",
+          "description": "Yen     ¥170.276:",
+          "total": "4,372.85"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60f923d9-37c4-412d-8734-02cd0e5dade1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "An optional 12.50% service charge\nis included.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b9bf5f32-a212-4c0f-bb15-74314772d25c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCheck in at Plane Food for pre-flight dining or order a Gordon Ramsay Plane Food picnic.\n\nBuy a Gordon Ramsay gift experience\nat www.gordonramsayrestaurants.com\n\nCall: 0208 897 4545\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F49hGB88n6FaUqBZxTI9x%2F49hGB88n6FaUqBZxTI9x-972716e2-f2fc-423a-b523-e8c76078c6d3.png?alt=media&token=3762ba0f-3286-4796-953d-4056eb7ed88d",
+  "published": true,
+  "id": "49hGB88n6FaUqBZxTI9x"
+}

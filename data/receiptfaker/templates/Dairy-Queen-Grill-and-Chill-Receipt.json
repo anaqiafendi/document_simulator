@@ -1,0 +1,91 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Dairy Queen Grill & Chill Receipt",
+  "description": "This receipt is from a Dairy Queen Grill & Chill restaurant in the United States. It records a drive-thru food order including shrimp combo meals, beverages, and an Oreo Blizzard dessert. The receipt includes subtotal, sales tax, total amount, server information, promotional offers, and customer survey details. It also contains a validation code for a complimentary Dilly Bar reward after completing an online feedback survey. The format reflects a standard US fast-food restaurant POS receipt.",
+  "slug": "Dairy-Queen-Grill-and-Chill-Receipt",
+  "createdAt": "$D2026-05-15T15:33:20.257Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "9c185e72-8144-483e-b0ae-438f745bf8b7",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff0d1088c-c501-480d-8b53-bca669ece788-image%20(27).jpg?alt=media&token=4c38a4dc-6b4d-412b-9c6b-7c249f42bb78",
+      "size": 232,
+      "businessDetails": "\nMINT   OREO    IS    BACK!\n0088\nAITLYND M   SvrCk: 60   3:14p   03/10/19\nDT PAYMENT STATION\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "47659f28-e709-4f38-b47a-d88689bd4ea0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SHRIMP W/BEV, reg fry, md drink,",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20ff6661-4a3b-4336-bfe8-32990f2439b8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "dr. pepper",
+          "total": "7.99"
+        },
+        {
+          "quantity": "",
+          "description": "LG DRINK, iced tea",
+          "total": "1.89"
+        },
+        {
+          "quantity": "",
+          "description": "LG BLIZZ, oreo",
+          "total": "4.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSub Total",
+          "value": "\n14.87"
+        },
+        {
+          "title": "Tax ",
+          "value": "1.15"
+        },
+        {
+          "title": "03/10   3:17p  TOTAL",
+          "value": "16.02"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7bfac236-4d7f-41e2-ae4a-37c0126713d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTRY OUR NEW\nSPICY SWEET GLAZED\nCHICKEN STRIPS!\n\n************************************\n\nEnjoy a free\nDilly Bar\non us!!\nVisit dqfansurvey.com to complete\na brief survey in the next 3 days.\n\n************************************\n\nSurvey Code:\n418125-9100008-333811\nValidation Code: ___________________\nOffer valid only at this Dairy Queen within 30 days of your visit.\nDilly Bar PLU: 25352\n\n\nTOTAL                         16.02",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "aapopLSkrR0fLsWfzVva"
+}

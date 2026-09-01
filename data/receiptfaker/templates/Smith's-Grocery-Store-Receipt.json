@@ -1,0 +1,120 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-09T16:32:03.536Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Smith’s – Grocery Store Receipt",
+  "description": "This receipt template represents an in-store grocery purchase from a Smith’s grocery store located on Golf Course Road. It features the Smith’s logo with the “FRESH FOR EVERYONE.” tagline at the top, followed by the store address, phone number, and cashier identification. The receipt includes itemized grocery purchases with pricing, fuel points and FreshValues savings lines, balance and tax details, and a clearly stated total. Payment information shows a U.S. debit card transaction with verification by PIN, cashback details, item count, transaction date and time, and terminal identifiers. This template is suitable for grocery retail receipt libraries, mock POS transactions, expense documentation samples, and receipt generator tools requiring realistic Smith’s formatting and structure.",
+  "sections": [
+    {
+      "id": "51bc834c-0898-4b60-abe7-60a317f0b6ae",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3cce26c3-329a-420b-9914-62cd83ea3bc4-SMITH'S.jpg?alt=media&token=311b1c7e-ec38-44e2-840c-c2e3f65c993e",
+      "size": 196,
+      "businessDetails": "8311 Golf Course Road\n505-897-3411\nYOUR CASHIER WAS CHEC 504\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa6dfd25-29d8-49b5-8ad0-2345061e8ac5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "SC",
+          "description": "SC   Fuel Points\nKR CREAMER",
+          "total": "0.98 F"
+        },
+        {
+          "quantity": "SC",
+          "description": "NTN BF FRANKS NATL ",
+          "total": "3.98 F"
+        },
+        {
+          "quantity": "SC",
+          "description": "NTN BF FRANKS NATL ",
+          "total": "0.44 F"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "TAX",
+          "value": "5.47"
+        },
+        {
+          "title": "BAL",
+          "value": "0.24"
+        }
+      ],
+      "total": "6.24",
+      "totalText": "Total  ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "00399b5e-29eb-4b02-a4dc-9ca1a6d078e8",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "DEBIT",
+          "value": "6.24"
+        },
+        {
+          "title": "Change",
+          "value": "0.0"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "22b4dd3c-f653-4951-8719-77b5031f1e5e",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "TOTAL NUMBER OF ITEMS SOLD = 3\n02/01/15 10:25AM 328 3 20 1178514\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS"
+    }
+  ],
+  "slug": "Smith's-Grocery-Store-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FYWh2M7xpESsnt8Tei7nB%2FYWh2M7xpESsnt8Tei7nB-8c3e6dd7-2a77-4aa1-a1e0-9ebb2eb5a1d7.png?alt=media&token=7a234308-dccd-4210-a652-073a7d87ee5c",
+  "published": true,
+  "id": "YWh2M7xpESsnt8Tei7nB"
+}

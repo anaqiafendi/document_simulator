@@ -1,0 +1,211 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Car Rental Receipt",
+  "slug": "Car-Rental-Receipt",
+  "createdAt": "$D2025-05-25T11:52:10.868Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fc78292c2-6670-4198-9cce-7a644c480c4a-2075813_car_rental_taxi_transportation_travel_icon.png?alt=media&token=63d44c54-30d7-4d8c-81f6-7d06d00e43db",
+      "size": 50,
+      "businessDetails": "Premier Auto Rentals Inc.\n\nAddress: 2201 Gateway Boulevard, Miami, FL 33126\nPhone Number: (305) 555-6734\nEmail: support@premierautorentals.com\nWebsite: www.premierautorentals.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Car Rental Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e5f9243-f447-413b-bd40-62349de5bdb8",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/23/2025, 5:22:31 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "8a58af01-9175-485c-a44c-c1f4fa4e0259",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customer:\nName: Chloe Bennett\nLicense No.: D8392745\nAddress: 4127 Aspen Street, Reno, NV 89502\nPhone Number: (775) 555-3849",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "54c31723-0d72-4405-853a-2cd10eac4e34",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Make",
+          "value": "Toyota"
+        },
+        {
+          "title": "Year",
+          "value": "2018"
+        },
+        {
+          "title": "Mileage",
+          "value": "45.300"
+        },
+        {
+          "title": "Engine",
+          "value": "2.5L"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Model",
+          "value": "Camry"
+        },
+        {
+          "title": "Color",
+          "value": "Midnight Blue"
+        },
+        {
+          "title": "Plate No",
+          "value": "FLX-5298"
+        },
+        {
+          "title": "Transmission",
+          "value": "Automatic"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b1bbba1e-c354-411c-85f6-717ddb586daa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "VIN number: 4T1B11HK5JU123456",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8286d476-5d9e-4b40-a8e1-095c73c0827e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "5",
+          "description": "Days of car rent",
+          "total": "500"
+        },
+        {
+          "quantity": 1,
+          "description": "Cleaning Service",
+          "total": "80"
+        },
+        {
+          "quantity": 1,
+          "description": "Insurance",
+          "total": "200"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "780"
+        },
+        {
+          "title": "Tax",
+          "value": "66.30"
+        }
+      ],
+      "total": "846.30",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Vehicles may be returned within 7 days of delivery or up to 250 miles driven—whichever comes first. The vehicle must be returned in the same condition as delivered, with no damage, alterations, or missing items. A restocking fee may apply. All returns are subject to inspection and approval by our team. Refunds will be processed to the original payment method after the return is finalized.\n\nThank you for choosing Premier Auto Rentals—we appreciate your business and strive to make your rental experience smooth and hassle-free!",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b52b45e8-3504-4064-af69-0359edf50fac",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FRr88Wc8nS2XhEZOMMGpD%2FRr88Wc8nS2XhEZOMMGpD-8f5b9b07-bfbc-4088-9a04-dffd3c65323d.png?alt=media&token=ecfa7e27-de46-4183-955e-221416569033",
+  "description": "Need a car rental receipt? Use our free generator to create a detailed rental record. Add agency info, vehicle details, rental dates, charges, mileage, and payment—perfect for travel expenses or customer documentation.",
+  "published": true,
+  "metatitle": "Car Rental Receipt",
+  "metadesc": "professional car rental receipts with vehicle details, rental dates, mileage, charges, and payment info for expense tracking",
+  "id": "Rr88Wc8nS2XhEZOMMGpD"
+}

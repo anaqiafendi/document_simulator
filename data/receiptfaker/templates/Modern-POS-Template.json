@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Modern POS Template",
+  "slug": "Modern-POS-Template",
+  "createdAt": "$D2025-09-30T11:44:03.555Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F9711a632-b020-46b7-a8d9-b895023925cf-9111266_pos_icon.png?alt=media&token=1c4e7588-0b02-4435-bebe-91bbbcefd3a8",
+      "size": 81,
+      "businessDetails": "Modern POS Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e5f9243-f447-413b-bd40-62349de5bdb8",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "30 September 2025\n01:55",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Nova Enterprises\nTel. (415) 555-8937\ninfo@novaenterprises.com\nwww.novaenterprises.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Your cashier was Mitchell U.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Wireless Bluetooth Headset",
+          "total": "149.97"
+        },
+        {
+          "quantity": "1",
+          "description": "Portable Power Bank",
+          "total": "59.00"
+        },
+        {
+          "quantity": "3",
+          "description": "Smart LED Desk Lamp",
+          "total": "64.75"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL",
+          "value": "273.72"
+        },
+        {
+          "title": "TAX (8.5%)",
+          "value": "23.27"
+        }
+      ],
+      "total": "296.99",
+      "totalText": "TOTAL",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "88.23"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "706dc16d-6edc-4672-aee8-d8960130b6fb",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4001cbb8-8420-4568-98d9-c922ec76fb79",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for shopping at Nova!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FZKB4BrZnXmTk86K9YImt%2FZKB4BrZnXmTk86K9YImt-1e62da81-1b9f-4192-bdde-0a105e3e1d9e.png?alt=media&token=193679ee-f0e0-484f-8394-55084d9c9bf2",
+  "description": "Need a modern POS receipt? Use our free tool to design a sleek digital sales record. Add business info, products or services, prices, tax, and payment—ideal for shops, cafes, or online transactions.",
+  "published": true,
+  "metatitle": "Modern POS Receipt",
+  "metadesc": "sleek digital POS receipts with business info, products, prices, tax, and payment details for shops, cafes, or online stores",
+  "id": "ZKB4BrZnXmTk86K9YImt"
+}

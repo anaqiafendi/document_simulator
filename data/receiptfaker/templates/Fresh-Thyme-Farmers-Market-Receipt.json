@@ -1,0 +1,162 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Fresh Thyme Farmers Market Receipt",
+  "description": "This receipt template represents an in-store grocery purchase from Fresh Thyme Farmers Market located in Carmel, Indiana. It features the Fresh Thyme Farmers Market logo at the top with the tagline “Healthy Food. Healthy Values.” followed by the store address and phone number. The receipt includes transaction date and time, transaction and register numbers, cashier and server identifiers, and guest count. An itemized list of organic produce purchases is shown with individual prices, followed by subtotal, tax, total, cash payment, and change due. The receipt closes with a thank-you message and the brand slogan “Organic food at its finest!” This template is suitable for grocery retail receipt libraries, mock POS transactions, expense documentation samples, and receipt generator tools requiring realistic Fresh Thyme Farmers Market formatting and structure.",
+  "slug": "Fresh-Thyme-Farmers-Market-Receipt",
+  "createdAt": "$D2026-02-10T15:15:03.425Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "137d8199-de0c-4cf4-a505-6e13bd1e3a33",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F767ae4d1-9da3-4056-883d-18881bb6616f-Fresh%20Thyme%20Market.jpg?alt=media&token=dba2ce15-6727-42d3-af5e-a14d8a7b9845",
+      "size": 176,
+      "businessDetails": "14727 Fresh Thyme Market Drive\nCarmel, IN\n(317) 975-7203",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4eb9b196-347e-4abf-9bfa-07dcd096591b",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "18/10/19                     2:45 PM\nTrans.: 0770                Store: 51696\nReg.: 003                   Till: 1003\nCashier: 3393287",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "069a1fff-5d96-4440-bcaf-5dd257a96d69",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Table",
+          "value": "415"
+        },
+        {
+          "title": "Server",
+          "value": "Rebecca"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Guests",
+          "value": "2"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f8269c6-8d39-467d-ad5d-68434410cb6b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ORGANIC BANANAS",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "ROMA TOMATOES",
+          "total": "1.98"
+        },
+        {
+          "quantity": "",
+          "description": "ORGANIC AVOCADO",
+          "total": "1.5"
+        },
+        {
+          "quantity": "",
+          "description": "ORGANIC STRAWBERRIES",
+          "total": "1"
+        },
+        {
+          "quantity": "",
+          "description": "ORGANIC BLUEBERRIES",
+          "total": "1"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "45a401c2-5081-40da-95c2-10f90f5a694e",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0db0e309-425e-4c4f-9d7a-25ab46171153",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping at\nFresh Thyme Farmers Market\n\nOrganic food at its finest!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FlOENuznQxtizx9F3hcYt%2FlOENuznQxtizx9F3hcYt-55b2341a-29d8-44a1-97ce-805d757aa942.png?alt=media&token=82ecd9bb-9515-49de-8626-2f444156a79c",
+  "published": true,
+  "id": "lOENuznQxtizx9F3hcYt"
+}

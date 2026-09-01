@@ -1,0 +1,102 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "MedPlus Pharmacy Receipt",
+  "description": "This receipt is issued by MedPlus Pharmacy and documents a pharmacy transaction dated 30 July 2025. The header contains the pharmacy name, customer-care information, receipt number, customer designation, and attendant name. The visible products include Calpol Infant Suspension, a children's Naproxen product, and Augmentin 228.5 mg/5 ml. The financial section displays a subtotal and final total of ₦27,300.00, with payment recorded through Interswitch Standalone. The lower section refers to branches around Lekki and Saka Tinubu, provides loyalty-point information and customer contact numbers, and states that goods once purchased cannot be returned or exchanged.",
+  "slug": "MedPlus-Pharmacy-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T15:41:03.765Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "05d0ca61-2ab6-41ee-84cd-fc4737b92b62",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Faed1824e-6164-4a3a-87f3-8267544a3c79-image%20(1).jpg?alt=media&token=fef28a4a-feae-46a2-9a8f-5252ab2537f3",
+      "size": 270,
+      "businessDetails": "MOBILE NOS:\nPHONE NOS:\nEMAIL: CUSTOMERCARE@MEDPLUSNG.COM\nReceipt NOS:FH27/986 30/07/2025  7:50:55 PM\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "341d1693-907a-4273-9314-5aeb6636957e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Cust Name:  Generic clients\nAttended By: LAWAL BASHIR\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4500c86a-a651-4f11-8a1a-c761933c8d29",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nQTY DESCRIPTION",
+          "value": "\nPRICE      AMOUNT"
+        },
+        {
+          "title": "=====================================",
+          "value": ""
+        },
+        {
+          "title": "1  CALPOL INFANT SUSPEN",
+          "value": "12550.00150.0"
+        },
+        {
+          "title": "1  NUROFEN FOR CHILD 100",
+          "value": "6550.00 65.0"
+        },
+        {
+          "title": "1  AUGMENTIN 228.5MG/5ML",
+          "value": "8200.00 80.0"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "90736260-5424-440e-ae46-04ba86ba2745",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n",
+          "value": "\nSUBTOTAL: =N=27,300.00"
+        },
+        {
+          "title": "",
+          "value": "\nTOTAL: =N=27300.00\n"
+        },
+        {
+          "title": "",
+          "value": "INTERMITCH STANDALONE =N= 27,300.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa2a728d-15e1-4e0c-94b0-92efb28d0cc0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nLEKKI,SAKA,1004,ISAAC JOHN,168\nBUKKA HUT BRANCHES OPENS FOR 24HRS\nPOINTS GAINED IN TRANS: 0\nPOINTS USED IN TRANS: 0\nNEW ACCUMULATED POINTS: 0\n\n\nTHANK YOU, PLEASE CALL AGAIN\n\n\n02015150550,02015150551\n02015150552,02015150553\nGOODS ONCE PURCHASED\nCANNOT BE RETURNED / EXCHANGED",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "FrVaT8alPdRoYNrgb5cR"
+}

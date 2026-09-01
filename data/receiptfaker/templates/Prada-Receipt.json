@@ -1,0 +1,202 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Prada Receipt",
+  "slug": "Prada-Receipt",
+  "createdAt": "$D2026-02-03T12:17:02.168Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F00ea9e7e-bb1b-4c55-91ab-1899e943679a-%5BCITYPNG.COM%5DPrada%20Fashion%20Logo%20Image%20PNG%20-%203000x3000.png?alt=media&token=a36344c7-f618-4a4c-a248-8b63cbce641f",
+      "size": 199,
+      "businessDetails": "Prada Malaysia Kuala Lumpur Pavilion\n\n168, Jln Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia\nTel: +60 3-2144 3608\n\nInv#: 10111759505\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "274e7b59-b905-4749-80b4-37a63462ceca",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Description",
+          "value": ""
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Price",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "BONNIE LARGE\nTRAVERTINE",
+          "total": "1350.00"
+        },
+        {
+          "quantity": "",
+          "description": "1BA433_2CYR_F03MV_V_MOO\nMETAL TU",
+          "total": ""
+        },
+        {
+          "quantity": "1",
+          "description": "SYMBOLE SUNGLASSES",
+          "total": "295.00"
+        },
+        {
+          "quantity": "",
+          "description": "SPRB17_E25F_FE70B_C_054",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1645.00"
+        },
+        {
+          "title": "Sales & Service Tax \n(10%) ",
+          "value": "164.50"
+        }
+      ],
+      "total": "MYR 1 809.50",
+      "totalText": "TOTAL",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "54f1fd9e-1423-401c-baf2-a466e1f7e18c",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "29/09/2024, 10:56:03 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "DOCUMENT # 1880-0006\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4579"
+        },
+        {
+          "title": "Card type",
+          "value": "VISA_Credit"
+        },
+        {
+          "title": "Date/time",
+          "value": "29/09/2024, 10:56:03 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "VERIFIED BY PIN"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Prada is happy to offer product exchanges within 10 days of the purchase date, in accordance with any applicable legal guarantees. This exchange policy does not cover personalized items, made-to-measure or made-to-order products, cosmetics, or fragrances. For lingerie, any provided undergarment protection must remain intact. Please note that no exceptions to these requirements will be accepted.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "1c975794-8e7c-46d5-9054-0a34b3c6c88a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1BA433_2CYR_F03MV_V_MOO",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "71bf0ffd-540e-4760-8af2-addfbd835d02",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b5844cb-f606-4ab8-841a-6d1be5d24421",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SPRB17_E25F_FE70B_C_054",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Luxury retail receipt from Prada Malaysia (Kuala Lumpur Pavilion) showing store details, purchased fashion items with descriptions and prices, invoice number, transaction date, and total amount paid.",
+  "metatitle": "Luxury Prada Receipt",
+  "metadesc": "authentic Prada luxury receipts with boutique details, product info, pricing, and payment methods for records and documentation",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FyWmDbCtKYDz5Czx4wi5I%2FyWmDbCtKYDz5Czx4wi5I-6344cb0d-c0b5-4f6d-a042-297b05b44158.png?alt=media&token=5df47d7b-da8e-4030-9c6f-f549c83f0860",
+  "published": true,
+  "id": "yWmDbCtKYDz5Czx4wi5I"
+}

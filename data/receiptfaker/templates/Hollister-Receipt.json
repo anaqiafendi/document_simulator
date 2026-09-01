@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Hollister Receipt",
+  "description": "This receipt format belongs to Hollister Co., an American apparel retailer, and features the brand’s seabird logo with the “HOLLISTER California” header centered at the top of the receipt. The layout includes a customer appreciation message beneath the logo followed by store location information and a date-and-time transaction stamp. The POS structure contains column headings for item number, quantity, description, and cost, followed by a financial summary section displaying subtotal, tax, and total values. A payment authorization block appears near the lower section of the receipt including card type, masked card number, entry method, and approval code. The receipt concludes with a signature notice and customer copy message typical of apparel retail POS systems.",
+  "slug": "Hollister-Receipt",
+  "createdAt": "$D2026-03-16T14:17:44.574Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2e5b42a7-af5f-4249-be3e-f8ce03d902b8-image%20(54).jpg?alt=media&token=760044dc-0514-45cd-972a-d697fe137cfe",
+      "size": 236,
+      "businessDetails": "HOLLISTER CO.\n\nTHANK YOU FOR\nSHOPPING WITH US\nHAVE FUN!\n\nNew York",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Date 2018-12-29      Time  05:43",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "052c33c3-93bb-4d6d-9401-06422a9243fe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Shirts",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Shorts",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Pants",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e600dbcd-d50e-4fc5-a6af-d5bd87aedefb",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f68d0c3e-6159-4cc1-95f2-d50b94735dbc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ACQU CODE    XXXXXX\nCARD TYPE    VISA\nENTRY TYPE   SWIPE\nCARD NUMBER  ************1009\nAUTH CODE    XXXXX\n\nAPPROVED",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "77c61792-f5f8-456c-8305-663bae6ab513",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SIGNATURE REQUIRED\n\nTHIS COPY IS YOURS",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FnPdFtO7dwBiuI7XRm7wD%2FnPdFtO7dwBiuI7XRm7wD-5f91ad0d-d220-4f21-99d3-ca1b7ba73234.png?alt=media&token=713209aa-bba0-4476-ae48-6676ae2d3c8f",
+  "published": true,
+  "id": "nPdFtO7dwBiuI7XRm7wD"
+}

@@ -1,0 +1,169 @@
+{
+  "sections": [
+    {
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa0280bba-275d-4895-8f06-307b76dececf-image%20(19).jpg?alt=media&token=2415c628-e314-4f61-8392-ebfe7adcbfb6",
+      "size": 246,
+      "bottomDivider": false,
+      "type": "HEADER",
+      "id": "9eeb36eb-684f-4326-a55e-236000fee642",
+      "businessDetails": "\nØstergade 14\n8700 Horsens\nTlf: 75 62 10 42\nCVR: 31013562\n",
+      "date": "$undefined"
+    },
+    {
+      "type": "ITEMS",
+      "totalDivider": true,
+      "id": "7c45a67b-4a5d-47c7-acb7-3fd623d85f4c",
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "bottomDivider": false,
+      "totalLines": [],
+      "items": [
+        {
+          "description": "Linie share",
+          "quantity": "",
+          "total": "-150,00"
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "4 x 150,00"
+        },
+        {
+          "description": "EAN: 1111111111111",
+          "quantity": "",
+          "total": ""
+        }
+      ],
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "items": [
+        {
+          "description": "Rabat",
+          "quantity": "",
+          "total": "-150,00"
+        },
+        {
+          "description": "1 stk.",
+          "quantity": "",
+          "total": "450,00"
+        }
+      ],
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "totalDivider": true,
+      "id": "41b1cd16-b6c3-43d7-8fe5-ded5a7888d02",
+      "type": "ITEMS",
+      "bottomDivider": false,
+      "totalLines": [],
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "date": "$undefined"
+    },
+    {
+      "total": "",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "totalLines": [],
+      "type": "ITEMS",
+      "id": "f29b0a90-aaba-4876-88a0-5d82f261aa75",
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "items": [
+        {
+          "description": "TOTAL",
+          "quantity": "",
+          "total": "450,00"
+        },
+        {
+          "description": "HERAF MOMS",
+          "quantity": "",
+          "total": "90,00"
+        }
+      ],
+      "totalText": "",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "EQUALS",
+      "items": [
+        {
+          "quantity": "",
+          "total": "-450,00",
+          "description": "Uddbetalinger"
+        },
+        {
+          "description": "Gavekort (450,00)",
+          "quantity": "",
+          "total": "450,00"
+        }
+      ],
+      "totalText": "",
+      "bottomDivider": false,
+      "totalLines": [],
+      "total": "",
+      "bottomDividerType": "DASHES",
+      "id": "7e20189c-0ba7-4468-adc5-5662dc8941eb",
+      "totalDivider": true,
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "DASHES",
+      "totalText": "",
+      "items": [
+        {
+          "quantity": "",
+          "total": "0,00",
+          "description": "BYTTEP"
+        }
+      ],
+      "totalLines": [],
+      "bottomDivider": false,
+      "total": "",
+      "bottomDividerType": "DASHES",
+      "id": "3246d77c-b186-4332-96eb-22fb721f8607",
+      "totalDivider": true,
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "alignment": "LEFT",
+      "bottomDividerType": "DASHES",
+      "custom": "Har du lyst til at blive medlem\naf vores kundeklub?\n\n",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "id": "0251ae75-c645-4a37-a95d-ed2ae87c5deb",
+      "date": "$undefined"
+    },
+    {
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "custom": "Du kan bytte din vare indenfor 30 dage med bon og original emballage.\n\n\nButiksnøgler:\nwww.guldroed.dk\nHerrer er altid som børn.",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "id": "8fda49df-b3b1-4a02-97a3-335ff26ac600",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "currency": "",
+  "description": "This retail receipt from Guld & Rod documents a Dankort/VISA card transaction processed at the København location in Denmark. The receipt includes store branding, Copenhagen location references, item quantity and pricing formatting, total amount presentation in Danish kroner, and Dankort/VISA payment formatting. Additional receipt elements include exchange slip references (“BYTTEP.”), customer club promotional messaging, website and in-store membership notices, and exchange policy information near the footer. The layout reflects a compact Danish boutique retail thermal receipt with localized payment formatting and customer membership promotion presentation.",
+  "slug": "Guld-and-Rod-Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "createdAt": "$D2026-05-26T09:55:14.348Z",
+  "textColor": "#101828",
+  "name": "Guld & Rod Receipt",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "published": true,
+  "id": "svlemDptAMCJmfcjW2QI"
+}

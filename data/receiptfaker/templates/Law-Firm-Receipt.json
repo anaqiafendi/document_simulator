@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T14:24:21.171Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Law Firm Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fe1be27d7-f906-404e-b0b7-8d3fbb3ccd17-2738307_compare_law_libra_icon.png?alt=media&token=6e3bb8e9-1638-4704-a800-a61486964253",
+      "size": 50,
+      "businessDetails": "Langston & Pierce LLP\n\nAddress:\n1234 Liberty Avenue, Suite 800\nNew York, NY 10001\nUnited States\n\nPhone:\n(212) 555-0199\n\nWebsite:\nwww.langstonpierce.com\n\nEmail:\ncontact@langstonpierce.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Law Firm Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to:\nName: Jasmine Holloway\nAddress: 7425 Maple Ridge Lane, Denver, CO 80221 United States",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Consultation (Hours)",
+          "total": "250"
+        },
+        {
+          "quantity": "3",
+          "description": "Research (Hours)",
+          "total": "150"
+        },
+        {
+          "quantity": 1,
+          "description": "Document Drafting",
+          "total": "100"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "500"
+        },
+        {
+          "title": "Tax",
+          "value": "25.63"
+        }
+      ],
+      "total": "525.63",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customers are encouraged to review their receipts immediately and report any discrepancies within 7 days. Any disputes regarding receipts or payments should be reported promptly and will be addressed within 10 business days. Receipts serve as proof of payment and include details such as date, amount paid, payment method, and items or services purchased.\n\nLangston & Pierce LLP",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c99f2d9-5993-49a3-863b-24e54b1f7943",
+      "type": "DATE",
+      "alignment": "RIGHT",
+      "date": "5/25/2025, 3:32:56 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "slug": "Law-Firm-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FJBALOSomSnVjRUJugOtB%2FJBALOSomSnVjRUJugOtB-22749d53-95d2-4714-85a6-72f7746e2c43.png?alt=media&token=01ddcd5d-f141-47ec-9d53-bf904360d3d6",
+  "description": "Need a law firm receipt? Generate a detailed legal services receipt with our free tool. Add firm info, client name, case details, billing hours, fees, and payment—ideal for professional records or client documentation.",
+  "published": true,
+  "metatitle": "Legal Services Receipt",
+  "metadesc": "professional legal services receipts with firm details, client info, case numbers, billing hours, and fees for documentation",
+  "id": "JBALOSomSnVjRUJugOtB"
+}

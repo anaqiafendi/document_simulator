@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-19T20:07:40.908Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "a9a64401-a6ab-4bfc-a1cc-b9c5a6ea8d0e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F247d061f-70c9-4573-88a2-e7793f7509e0-image%20(1).jpg?alt=media&token=e35793cc-df9c-4d02-8985-7fa96c2f7d23",
+      "size": 270,
+      "businessDetails": "2929 Turner Hill Rd #2590\nLithonia, GA 30038\nTel : 470-417-1356",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0aef6685-62f4-48e2-aed3-1cfd2968bec9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nOwner",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "FRI          12/26/25",
+          "total": "11:59am"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d9d7fa9-25cf-4454-9391-c20370ab272a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1  10PC WINGS F.C",
+          "total": "\n13.79"
+        },
+        {
+          "quantity": "",
+          "description": "(5) HONEY Hot",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Half / Half",
+          "total": "0.50"
+        },
+        {
+          "quantity": "",
+          "description": "(5) Sweet Chili",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Ranch",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3689dec7-0c6b-4c73-93f7-e318bedcfc40",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSub/Ttl",
+          "total": "\n14.29"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "1.14"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "15.43"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "24d437d3-f31a-4fa3-9049-07754e4c8434",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVisa                           15.43\nAcct: 408138******8083\nAuth: 939403\nTrans ID: 4",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8b120a6d-998b-433a-acef-9110be0c3ce9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nOrder Number\n205\n\n\nThis restaurant is independently owned and operated under a license with American Deli International, Inc Any comments or concerns, \nplease contact Customerservice@americandeli.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04b70771-7bae-49b9-a546-c0fad2989fab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by American Deli at 2929 Turner Hill Rd #2590, Lithonia, Georgia 30038, United States. The header includes the restaurant branding, full business address, and telephone number. The transaction section records the business day, transaction date and time, and presents an itemized sales area with associated modifiers. The financial summary contains Sub/Ttl, Tax, and Total, followed by integrated card payment information including the card brand, masked account number, authorization code, and transaction ID. A prominently printed Order Number appears near the bottom of the receipt. The footer states that the restaurant is independently owned and operated under a license from American Deli International, Inc. and provides a customer service email for inquiries, making this a standard U.S. quick-service restaurant POS receipt.",
+  "name": "American Deli Receipt",
+  "slug": "American-Deli-Receipt",
+  "published": true,
+  "id": "6cRhYQB6R9xPgcVhwTSX"
+}

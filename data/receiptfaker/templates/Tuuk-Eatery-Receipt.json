@@ -1,0 +1,136 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T13:36:26.420Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "54a09029-a48d-4ae4-bd2d-ba5d2e23e5c9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdc08a31a-3f6d-4a24-926f-714a9a8ffc8e-image%20(4).jpg?alt=media&token=c647aef0-175c-45d7-bb7d-9c8f4c53e3a6",
+      "size": 285,
+      "businessDetails": "Tuuk Eatery\n082285795779\nJl. Andi Mappanyompa\nKota Palopo, Sulawesi Selatan\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84efd7d1-4d18-4518-9230-d48af60d754e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNo        : TEAM202404010080\nSales No  : STEAM171195156224\nDate      : 01-04-2024 14:06\nTime In   : 01-04-2024 14:06\nInfo      : SITI\nPurpose   : TAKE AWAY",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4fe92b77-0dec-4402-8bcd-b21ecabf3623",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n3  Melaka",
+          "total": "\n39.000"
+        },
+        {
+          "quantity": "",
+          "description": "3  Level 3",
+          "total": "13.000"
+        },
+        {
+          "quantity": "",
+          "description": "5  PACKAGING",
+          "total": "10.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Level 4",
+          "total": "12.500"
+        },
+        {
+          "quantity": "",
+          "description": "1  Level 1 ",
+          "total": "5.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Air Cristaline ",
+          "total": "10.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Kalarona Blacktea",
+          "total": "36.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Xiaoba ",
+          "total": "4.500"
+        },
+        {
+          "quantity": "",
+          "description": "3  PACKAGING",
+          "total": "20.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Kalaterik Greentea Jasmine",
+          "total": "12.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Milo Tea",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "21 items",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal :",
+          "value": "162.000"
+        },
+        {
+          "title": "Grand Total :",
+          "value": "162.000"
+        },
+        {
+          "title": "CASH :",
+          "value": "162.000"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f93e5cb-53dc-42ba-911d-ca4932a67374",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n - Thank You -",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Tuuk Eatery, located on Jl. Andi Mappanyompa, Kota Palopo, South Sulawesi, Indonesia. The header includes the restaurant name, telephone number, business address, sales number, transaction number, transaction date and time, customer identifier, and the order type marked as TAKE AWAY. The transaction section is followed by a financial summary containing the Subtotal, Grand Total, and Cash payment amount. The receipt concludes with a customer appreciation message (\"Thank You\"). This is a standard Indonesian restaurant takeaway POS receipt featuring transaction identifiers, cashier/order metadata, and a concise payment summary.",
+  "name": "Tuuk Eatery Receipt",
+  "slug": "Tuuk-Eatery-Receipt",
+  "published": true,
+  "id": "I1lRKaIIOOO4MgtfLzaS"
+}

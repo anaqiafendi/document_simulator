@@ -1,0 +1,167 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-29T11:17:41.903Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "259453db-2bd6-4929-85c1-d2fd42f93293",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F97eeac7f-ccd4-4dfb-ab5b-b6cdbef5336c-image%20(4).jpg?alt=media&token=0ac6d3ec-9693-41a5-a8d9-4a75843374fb",
+      "size": 232,
+      "businessDetails": "\n2250 Robinson Rd\nWenatchee, WA 98874\nCell: (360) 580-3774\ninfo@McPheesButcherBlock.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa95c90a-0280-4445-aba5-32f3737fe8d8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order Notes:\nButcher Box #6\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f1225c1b-7641-40c7-bdbe-0cef8ba94a98",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Boneless Pork Chop",
+          "total": "$$3.54"
+        },
+        {
+          "quantity": "",
+          "description": "0.709 @ 4.99 Lbs",
+          "total": "3.18"
+        },
+        {
+          "quantity": "",
+          "description": "Pepper Bacon",
+          "total": "$$12.89"
+        },
+        {
+          "quantity": "",
+          "description": "1.290 @ 9.99 Lbs",
+          "total": "11.50"
+        },
+        {
+          "quantity": "",
+          "description": "Hot Links",
+          "total": "$$8.02"
+        },
+        {
+          "quantity": "",
+          "description": "0.730 @ 10.99 Lbs",
+          "total": "7.22"
+        },
+        {
+          "quantity": "",
+          "description": "Boneless Pork Chop",
+          "total": "$$2.69"
+        },
+        {
+          "quantity": "",
+          "description": "0.539 @ 4.99 Lbs",
+          "total": "2.42"
+        },
+        {
+          "quantity": "",
+          "description": "Boneless Pork Chop",
+          "total": "$$3.99"
+        },
+        {
+          "quantity": "",
+          "description": "0.800 @ 4.99 Lbs",
+          "total": "3.59"
+        },
+        {
+          "quantity": "",
+          "description": "Babyback Ribs",
+          "total": "$$15.45"
+        },
+        {
+          "quantity": "",
+          "description": "2.579 @ 5.99 Lbs",
+          "total": "13.90"
+        },
+        {
+          "quantity": "",
+          "description": "Top Sirloin Steak",
+          "total": "$$7.19"
+        },
+        {
+          "quantity": "",
+          "description": "0.600 @ 11.99 Lbs",
+          "total": "6.47"
+        },
+        {
+          "quantity": "",
+          "description": "T Bone",
+          "total": "$$23.59"
+        },
+        {
+          "quantity": "",
+          "description": "1.180 @ 19.99 Lbs",
+          "total": "21.23"
+        },
+        {
+          "quantity": "",
+          "description": "Petite Sirloin Steaks",
+          "total": "$$6.27"
+        },
+        {
+          "quantity": "",
+          "description": "1.160 @ 7.99 Lbs",
+          "total": "8.34"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "",
+          "value": "Total Sale   $77.95"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ac99365-7b07-4834-877c-4f5cda8e046b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nThank You!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2d9cdc51-b305-4720-a3a3-57f62ff27239",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nOrder 7386 | Printed: 09/05/24",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by McPhee's Butcher Block and identifies the butcher shop as 2250 Robinson Road, Woodbine, Washington 98674. The header contains the business branding, address, contact telephone number, website, and customer pickup instructions. The receipt records the purchase of various fresh meat products, including Boneless Pork Chops, Pepper Bacon, Hot Links, Baby Back Ribs, Top Sirloin Steak, T-Bone Steak, and Petite Sirloin Steaks, with each item priced according to its weight. The financial section records the final Total Sale amount of $77.95. The footer includes the order number, print date, and a customer appreciation message. The overall layout is representative of a United States butcher shop POS receipt, combining weight-based meat pricing, itemized sales, and transaction reconciliation within a compact retail receipt format.",
+  "name": "McPhee's Butcher Block Receipt",
+  "slug": "McPhee's-Butcher-Block-Receipt",
+  "published": true,
+  "id": "AvXP8fYT2TP6Cg8e6VyI"
+}

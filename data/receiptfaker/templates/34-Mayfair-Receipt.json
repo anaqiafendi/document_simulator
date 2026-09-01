@@ -1,0 +1,172 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-20T03:39:44.289Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "01844e8e-8cd8-489d-80c9-c1c23922f179",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F97da8580-f319-4d95-b3f3-4a50d0ed3ac6-image%20(2).jpg?alt=media&token=b310b745-a326-4651-8cec-d0308946c60f",
+      "size": 266,
+      "businessDetails": "34 Grosvenor Square\nLondon\nW1K 2HD\nTel: 0203 350 3434\n34-restaurant.co.uk\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7aa6186-e297-421e-96f1-b6fb3f6b8542",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1Net Guest",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "-----------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nCHK# 134         TBL#",
+          "total": "\n8"
+        },
+        {
+          "quantity": "",
+          "description": "Tiziano F        #",
+          "total": "128"
+        },
+        {
+          "quantity": "",
+          "description": "29/09/2023 21:07:21     GUESTS",
+          "total": "3"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "afebc501-fda2-4662-a6cb-425148e502ef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n3 @ 2.00",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cover Charge  ",
+          "total": "6.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Crispy Duck Salad Lrg",
+          "total": "24.00"
+        },
+        {
+          "quantity": "",
+          "description": "!!! Wagyu Sando  ",
+          "total": "80.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Lrg Rigatoni ",
+          "total": "25.50"
+        },
+        {
+          "quantity": "",
+          "description": "1 Chips ",
+          "total": "5.50"
+        },
+        {
+          "quantity": "",
+          "description": "1 Tiramisu Eclair",
+          "total": "12.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Coca Cola",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Still Water",
+          "total": " 6.95"
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "164.95"
+        },
+        {
+          "quantity": "",
+          "description": "Service Charge 13.5%",
+          "total": "21.46"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "£186.41"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSales-VAT   VAT Rate   VAT Amt    ",
+          "total": "\n\nTotal"
+        },
+        {
+          "quantity": "",
+          "description": "137.46     20.00%    27.49   ",
+          "total": "164.95"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a2b556b9-59d4-4115-b870-e94e9ba0a512",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Last Serviced\n29/09/2023 22:30:14",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f71aa4c-4c22-4a59-b49c-47720989167d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank You\nAll prices are inclusive of VAT.\ndiscretionary Service Charge of 13.5%\nVAT no.868 1405 09",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by 34 Mayfair, located at 34 Grosvenor Square, London W1K 2HD, England, United Kingdom. The header includes the restaurant branding, full business address, telephone number, and official website. The transaction details record the check number, table number, server name, guest count, and transaction date and time. The financial summary includes Subtotal, a 13.5% Service Charge, and the Total payable in pounds sterling. A VAT summary table is provided showing the taxable sales amount, VAT rate, VAT amount, and total subject to VAT. The footer records the final service completion time, a customer appreciation message, a notice stating that prices are inclusive of VAT, the discretionary service charge policy, and the restaurant's VAT registration number. This is a standard full-service restaurant POS receipt used in the United Kingdom.",
+  "name": "34 Mayfair Receipt",
+  "slug": "34-Mayfair-Receipt",
+  "published": true,
+  "id": "tl1yzVfSLiAPRquqLq5P"
+}

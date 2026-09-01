@@ -1,0 +1,192 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-20T07:41:31.160Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5c9bae49-ae55-4a0c-9028-068bac2def5c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Imperial Kitchen & Dimsum\nImperial Duta Mall\nJL.A.Yani Melayu\nLt.3 Blok E\n0511-6742025\n\n Guest Check\n------------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ed9b55a-ce76-4296-86c5-37fd6ce849c6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTable: 27         Check: 00024\n\nServer         : 13\nOpen Time      : 6/4/23 16:53\nPrint By       : VINA\n27(1)\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "01d5e8a1-101a-49d5-b298-0f424b7ddd7a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "2   4,900  99,800",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "NS GRG SAPI SMBL EBI",
+          "total": "53,900"
+        },
+        {
+          "quantity": "",
+          "description": " KW SIRAM SAPI",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "1   46,900 ",
+          "total": "93,800"
+        },
+        {
+          "quantity": "",
+          "description": "2   NS GRG SUSIS AYM GR",
+          "total": "42,900"
+        },
+        {
+          "quantity": "1",
+          "description": "AYM GRG WENTEGA",
+          "total": "49,900"
+        },
+        {
+          "quantity": "1",
+          "description": "AYAM GRG PDS BMG PTH",
+          "total": "39,600"
+        },
+        {
+          "quantity": "1",
+          "description": "STEAM RICE",
+          "total": "9,999"
+        },
+        {
+          "quantity": "1",
+          "description": "BAKPAO TIU ASIN DF",
+          "total": "41,900"
+        },
+        {
+          "quantity": "1",
+          "description": "SYP AYM GRG BMG PTH",
+          "total": "46,900"
+        },
+        {
+          "quantity": "1",
+          "description": "NS GRG IKN ASIN",
+          "total": "55,900"
+        },
+        {
+          "quantity": "1",
+          "description": "KW GRG SFD XO",
+          "total": "58,900"
+        },
+        {
+          "quantity": "1",
+          "description": "AYAM ASM MNS",
+          "total": "49,900"
+        },
+        {
+          "quantity": "1",
+          "description": "ICED TEA (SWEET)",
+          "total": "31,800"
+        },
+        {
+          "quantity": "1",
+          "description": "ICED TEA (PLAIN)",
+          "total": "15,900"
+        },
+        {
+          "quantity": "1",
+          "description": "MILKSHAKE CHOCOLATE",
+          "total": "19,900"
+        },
+        {
+          "quantity": 1,
+          "description": "ICED MILK TEA",
+          "total": "19,900"
+        },
+        {
+          "quantity": 1,
+          "description": "TAJIL FREE",
+          "total": "58,900"
+        },
+        {
+          "quantity": 1,
+          "description": "NS AYAM HAINAN",
+          "total": "29,900"
+        },
+        {
+          "quantity": 1,
+          "description": "ES SALJU COOKIES",
+          "total": "29,900"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSub Total(Rp) ",
+          "total": "\n\n 826,699"
+        },
+        {
+          "quantity": "",
+          "description": "\nSC 5%(Rp)",
+          "total": "\n41,335"
+        },
+        {
+          "quantity": "",
+          "description": "Pb1 10%(Rp)",
+          "total": " 86,604"
+        },
+        {
+          "quantity": "",
+          "description": "Total(Rp)",
+          "total": "954,838"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8b98daf2-006c-4041-a84b-41310b6ec44b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Pay Amount :                954,838",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11a711ef-d6cb-4891-ab91-7029aef33a7a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNo. of Print : 3",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) guest check issued by Imperial Kitchen & Dimsum at Imperial Duta Mall. The header contains the restaurant branding, mall location, street address, and telephone number, followed by the Guest Check title. The receipt records the table number, check number, cover count, opening time, and the employee who printed the receipt. The transaction concludes with a financial summary showing Sub Total, 5% Service Charge (SC), 10% PB1 tax, Total, and Pay Amount, all denominated in Indonesian Rupiah (Rp). The footer also includes the print count, making this a standard restaurant POS guest check used for dine-in service.",
+  "name": "Imperial Kitchen & Dimsum Receipt",
+  "slug": "Imperial-Kitchen-and-Dimsum-Receipt",
+  "published": true,
+  "id": "wAiuTmPTBK3chqwDoi1J"
+}

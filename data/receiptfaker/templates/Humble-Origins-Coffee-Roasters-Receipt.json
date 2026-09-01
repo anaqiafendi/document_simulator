@@ -1,0 +1,210 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T14:24:36.048Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d1fb82a2-ae01-4ecc-a2b3-39615472216b",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fac4376c2-0867-44f9-9320-562c408a457b-image%20(5).jpg?alt=media&token=cdfd87c5-f845-4357-a599-0cd78bec6e83",
+      "size": 205,
+      "businessDetails": "\nHumble Origins Coffee\nRoasters\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1422476e-5765-42da-a25e-6fc61d317c90",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "476 Joo Chiat Road, #1",
+          "total": "23 Jun 2024"
+        },
+        {
+          "quantity": "",
+          "description": "Singapore 427682",
+          "total": "10:02 AM"
+        },
+        {
+          "quantity": "",
+          "description": "87190191",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3ee90174-32fd-4021-aa84-ae3bb48e9ac9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Ticket: Takeaway",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Receipt: r1iz",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "09137a70-6904-4311-aa78-9513aa1116bf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "FOR HERE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee9c0588-d35d-4e7a-870a-80f6c382c03a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Shan Origin Tofu Fries",
+          "total": "S$13.00"
+        },
+        {
+          "quantity": "",
+          "description": "More sauce",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Tea Leaf Salad",
+          "total": "S$18.00"
+        },
+        {
+          "quantity": "",
+          "description": "Sunday Roast ",
+          "total": " S$36.00"
+        },
+        {
+          "quantity": "",
+          "description": "Choco Hazelnut Cruffin",
+          "total": "S$6.50"
+        },
+        {
+          "quantity": "",
+          "description": "Scrambled Eggs with XO Kaya",
+          "total": "S$10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Yorkshire Pudding",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "[Yorkshire Set] Sauteed",
+          "total": "S$18.00"
+        },
+        {
+          "quantity": "",
+          "description": "Mushrooms, Nori & Truffle",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Aioli set of 3",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Iced Matcha Latte × 2",
+          "total": "S$18.00"
+        },
+        {
+          "quantity": "",
+          "description": "($8.00 each)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Oat Milk (S$1.00)",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6223a0fa-fb18-458a-8749-ee516c1a3b23",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\nS$119.50"
+        },
+        {
+          "quantity": "",
+          "description": "Other",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Paylah ",
+          "total": "S$119.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5787b854-ac68-4822-96a8-50a4b9480f70",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you! Hope to serve you again.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Humble Origins Coffee Roasters Receipt",
+  "description": "This receipt is issued by Humble Origins Coffee Roasters and identifies the location as 476 Joo Chiat Road, Singapore 427682. The header contains the café branding, business address, contact number, transaction date and time, ticket type, and receipt identifier. The receipt records a takeaway order that includes a variety of food and beverage items, along with menu customizations such as extra sauce, oat milk, and a Yorkshire set accompaniment. The financial section records the total amount due and confirms payment using PayLah, a popular Singapore digital payment service. The receipt concludes with a customer appreciation message. The overall layout is representative of a Singapore café POS receipt, combining menu customization, digital-payment processing, and transaction reconciliation within a compact hospitality receipt format.",
+  "slug": "Humble-Origins-Coffee-Roasters-Receipt",
+  "published": true,
+  "id": "Yqyzil6bBc94sMnSYIkw"
+}

@@ -1,0 +1,136 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Earls Ambleside Beach Receipt",
+  "description": "This receipt is from Earls Ambleside Beach restaurant in West Vancouver, British Columbia, Canada. It records a dine-in order including coffee beverages, a bacon cheddar burger with yam fries, and an ahi poke bowl. The receipt includes subtotal calculations, GST tax amount, total due, table and guest information, and restaurant hiring information. It also contains the restaurant GST registration number and standard Canadian restaurant POS formatting.",
+  "slug": "Earls-Ambleside-Beach-Receipt",
+  "createdAt": "$D2026-05-20T08:08:05.606Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0fa50ac4-86f9-41ef-8e06-1d8bbde05e4b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb1c33887-cddc-4d19-baf2-f370fe3b4af0-image%20(15).jpg?alt=media&token=415cbc5b-8ae9-4981-8b31-d9775b12cfec",
+      "size": 195,
+      "businessDetails": "\nEARLS AMBLESIDE BEACH\n1375 BELLEVUE AVENUE\nWEST VANCOUVER, BC\nPH: 604-262-3632\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7389ce8-cfd8-4652-9367-721afa8e2c91",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "183 GERVAIS",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c8004aa-8e78-4cfb-b84d-5830c4cb40cb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTbl 105/1   Chk 4112   ",
+          "total": "\nGst 2"
+        },
+        {
+          "quantity": "",
+          "description": "Apr10'19   12:31PM",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f749e1a6-8ea4-443b-a2d4-1293a59498cb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "AMERICANO",
+          "total": "4.00"
+        },
+        {
+          "quantity": 1,
+          "description": "COFFEE",
+          "total": "3.75"
+        },
+        {
+          "quantity": 1,
+          "description": "BURG CHED BACN",
+          "total": "17.75"
+        },
+        {
+          "quantity": "",
+          "description": "w/yam fries",
+          "total": "2.00"
+        },
+        {
+          "quantity": 1,
+          "description": "AHI POKE BOWL",
+          "total": "19.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n46.50"
+        },
+        {
+          "quantity": "",
+          "description": "GST Tax",
+          "total": "2.33"
+        },
+        {
+          "quantity": "",
+          "description": "01:44PM   Total",
+          "total": "48.83"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1c3736ae-1dff-4283-ac35-07acadc67c44",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\n-- PLEASE PAY YOUR SERVER --\nWE'RE HIRING!\nReach us at EAmbleside@earls.ca",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e63c85f4-07b1-4c44-a5f6-22153da60bea",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nGST # 78738 9725 RT0001",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "wnp0wgLcr2lfH3bSbTH2"
+}

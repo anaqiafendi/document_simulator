@@ -1,0 +1,176 @@
+{
+  "currency": "",
+  "slug": "Miller-and-Carter-Chigwell-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T03:26:56.572Z",
+  "description": "This restaurant receipt from Miller & Carter Chigwell, located on Manor Road, RM4 1NH, is generated from POS terminal ZA200069-POS-3 and includes an account identifier (Acc No: 3151) and table reference (Table: 18) associated with a walk-in guest. The receipt contains a clearly printed transaction date and time, a product group summary section, VAT calculations showing net amount, tax amount, and VAT-inclusive total, followed by a final transaction total. The layout uses structured POS formatting with aligned monetary values, summary sections, separator lines, and a customer feedback footer containing the brand website, telephone number, and VAT registration information. The receipt represents a full-service restaurant dining transaction format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Miller & Carter Chigwell Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "3eaa9278-0bcf-4e8b-9978-e36f95906f7c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Miller & Carter\nChigwell\nManor Road\nRM4 1NH\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5e461614-fb23-4f96-bba2-c47a1c756095",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ZA200069-POS-03",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Corrine",
+          "total": "11 May 2018   14:14"
+        },
+        {
+          "quantity": "",
+          "description": "Table: 18   G: 2",
+          "total": "Acc No: 3151"
+        },
+        {
+          "quantity": "",
+          "description": "WALK-IN",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d2a2c6af-2440-46b2-a805-b6ecdff20e46",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Mango Melba",
+          "total": "=\t6.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Chicken Wings",
+          "total": "=\t3.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Cheddar Mushroom",
+          "total": "=\t3.00"
+        },
+        {
+          "quantity": 1,
+          "description": "FP Cod & Chips",
+          "total": "=\t7.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Chick Schnitzel",
+          "total": "=\t7.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Carmel Apple Trt",
+          "total": "=\t3.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "150a10ad-2da6-4d0f-9b02-fd37e3769487",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nProduct Group Summary",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Food And Drink",
+          "total": "31.40"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n20% VAT Net",
+          "total": "\n\n26.17"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT",
+          "total": "5.23"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Total",
+          "total": "31.40"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "46a7c2f1-06b0-4308-bce9-b9a592c2c51f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£31.40"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4f026798-dc0a-418d-a042-b7c8ae834677",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for visiting us today\nWe'd love to hear your thoughts at:\ntellus.millerandcarter.co.uk\nTel 020 8500 7712\nVAT 232 153 895",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "050rxxuuLfDbyP3n6Fox"
+}

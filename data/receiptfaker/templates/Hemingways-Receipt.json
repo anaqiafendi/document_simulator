@@ -1,0 +1,163 @@
+{
+  "currency": "",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "backgroundType": "CRUMPLED_1",
+  "description": "This restaurant receipt from Hemingways documents a cash payment transaction processed at the Regensburg, Germany location on Obere Bachgasse. The receipt includes full address details, telephone number, invoice numbering, German tax registration formatting (Steuer-Nr.), table number references, and timestamp metadata. The POS structure contains VAT-separated net sales calculations, MwSt tax percentages, total amount formatting, and cash payment confirmation aligned in standard German restaurant thermal receipt formatting. Additional receipt elements include multilingual hospitality messaging, website references, Facebook branding references, and business email contact formatting near the footer. The layout reflects a standard German restaurant thermal receipt with localized VAT accounting and customer appreciation presentation.",
+  "name": "Hemingways Receipt",
+  "textColor": "#101828",
+  "slug": "Hemingways-Receipt",
+  "sections": [
+    {
+      "bottomDivider": false,
+      "businessDetails": "Obere Bachgasse 3-5\n93047 Regensburg\nTel.: 0941-78845161\n",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd8380d98-bdef-4322-b460-32887c721f2d-image%20(14).jpg?alt=media&token=05b60ccc-4a00-4c3e-8554-3a3011ba4582",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "id": "fb3fa087-1fef-43fa-a449-52cebe1a73c3",
+      "bottomDividerType": "DASHES",
+      "size": 239,
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [],
+      "type": "ITEMS",
+      "bottomDivider": false,
+      "totalDivider": false,
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "items": [
+        {
+          "total": "",
+          "quantity": "",
+          "description": "Ihre Rechnung 58748"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "Steuer-Nr...: 244/200/50042"
+        },
+        {
+          "description": "Steuer-Nr...: 244/200/50042",
+          "quantity": "",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "Steuer-Nr...: 244/200/50042"
+        }
+      ],
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "id": "7c002f93-a9ae-409f-bad4-9a2e5a5e926e",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "EQUALS",
+      "custom": "\nTisch Nr. 33",
+      "alignment": "LEFT",
+      "id": "08fb83a8-7d08-4b72-814c-8a127a974a89",
+      "type": "CUSTOM",
+      "bottomDivider": true,
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": true,
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "id": "7c1ddb6e-1ada-4909-a598-17bbe9cffe73",
+      "bottomDividerType": "DASHES",
+      "custom": "Radler 0,51                     4,00",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": true,
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "id": "ca6ae017-8ce6-4e97-8a89-3da99be08deb",
+      "bottomDividerType": "DASHES",
+      "custom": "Hugo 0,21                       6,50",
+      "date": "$undefined"
+    },
+    {
+      "alignment": "LEFT",
+      "id": "c68b5b51-7b8a-4cdf-a967-8ff1d48619cb",
+      "custom": "Salat New Orleans              11,90",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": true,
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "id": "2e07ebd5-a768-4ca2-b6fa-07e88c453ade",
+      "bottomDividerType": "DASHES",
+      "custom": "Sloppy Joe Burger              14,50",
+      "date": "$undefined"
+    },
+    {
+      "total": "",
+      "items": [
+        {
+          "description": "\nTotal",
+          "total": "\n36,90 €",
+          "quantity": ""
+        },
+        {
+          "total": "9,05",
+          "quantity": "",
+          "description": "Umsatz 16% netto"
+        },
+        {
+          "quantity": "",
+          "total": "1,45",
+          "description": "MwSt 16%"
+        },
+        {
+          "quantity": "",
+          "total": "25,14",
+          "description": "Umsatz 5% netto"
+        },
+        {
+          "description": "MwSt 5%",
+          "quantity": "",
+          "total": "1,26"
+        },
+        {
+          "description": "Bar",
+          "total": "36,90 €",
+          "quantity": ""
+        }
+      ],
+      "totalText": "",
+      "id": "f129de16-cb7b-4776-869a-7b3438ceba56",
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "type": "ITEMS",
+      "totalDivider": false,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "alignment": "CENTER",
+      "id": "863e00cf-a3f4-44bc-85cf-aa3f19bec025",
+      "custom": "\n\nSchön, dass Sie bei uns waren.\nEs hat uns Freude gemacht Sie zu bewirten.\nVielen Dank und auf Wiedersehen.\n\n\nBesuchen Sie uns auch im Internet:\nwww.hemingways.de\nfacebook\ninfo@hemingways.de",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-05-25T14:52:41.089Z",
+  "imageUrl": "",
+  "isParent": true,
+  "fontType": "MERCHANT_COPY",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "parentName": "Office Depot",
+  "published": true,
+  "id": "nC9EHGRjoVIx5zhOjMyF"
+}

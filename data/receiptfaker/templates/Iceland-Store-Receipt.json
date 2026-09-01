@@ -1,0 +1,183 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T17:21:18.458Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Iceland Store Receipt",
+  "description": "This receipt is a retail transaction issued by Iceland Foods Ltd., a supermarket chain in the United Kingdom. It includes company name, VAT registration number, and an itemized list of grocery and frozen food products with pricing. A financial summary shows the subtotal and total amount, with tax included in pricing as is common in UK retail. Payment details indicate a card transaction. The receipt follows a standard UK supermarket POS format with itemization, VAT information, and transaction confirmation.",
+  "slug": "Iceland-Store-Receipt",
+  "sections": [
+    {
+      "id": "30826930-d362-48e4-92ef-6712955b8e70",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff7ddf858-3470-4d4c-a3e1-e3e925bbfe7a-Iceland%20Foods%20Receipt.jpg?alt=media&token=7f5be2f1-a561-41f0-89ec-077b18e3efca",
+      "size": 186,
+      "businessDetails": "\nICN: 0011-026-20\nPurchase Date: 31/08/2020",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "726239ea-67a0-4ca8-abb8-78bdb0ba7d0c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nStore Manager: Cat\nYou were served today by: Sarah\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c5c3d54d-cd0a-40fc-9bc4-d6d86def0b73",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20abd5ea-94da-4434-a475-e047d5b23d1f",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "NO",
+          "value": "DESCRIPTION"
+        },
+        {
+          "title": "",
+          "value": "ITALIAN ICE FRIES"
+        },
+        {
+          "title": "",
+          "value": "CRISPY PANCAKES"
+        },
+        {
+          "title": "",
+          "value": "CRISPY PANCAKES"
+        },
+        {
+          "title": "",
+          "value": "CORN NIBBLES"
+        },
+        {
+          "title": "",
+          "value": "WAFFLES PANCAKES"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "£2.00",
+          "value": "£4.00"
+        },
+        {
+          "title": "£2.00",
+          "value": "£2.00"
+        },
+        {
+          "title": "£2.00",
+          "value": "£2.00"
+        },
+        {
+          "title": "£2.00",
+          "value": "£2.00"
+        },
+        {
+          "title": "£1.75",
+          "value": "£1.75"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1932921b-aed7-49d6-bb31-73b5dabdaf2e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nSub Total",
+          "total": "\n\n£11.75"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nDISCOUNTS",
+          "total": "\n\n"
+        },
+        {
+          "quantity": "",
+          "description": "BUY 4 MEALS 3 FOR £6.00",
+          "total": "-£1.75"
+        },
+        {
+          "quantity": "",
+          "description": "SAVINGS",
+          "total": "-£1.75"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73223d31-fdde-4086-8437-4246b4b28087",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n £10.00"
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c3358ac6-d090-4aa2-885e-984de15b9de4",
+      "type": "BARCODE",
+      "size": 65,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e62a46fd-1295-4bce-8af7-a27643c4ff5d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping with us\nwww.iceland.co.uk\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "LkDoWH4jH0lXCxUl8lL2"
+}

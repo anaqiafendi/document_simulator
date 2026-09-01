@@ -1,0 +1,110 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bit's n Bob's Receipt",
+  "description": "This receipt is issued by Bit's n Bob's and documents a takeaway transaction dated 21 June 2023. The header contains the business name, reference number, transaction date and time, and receipt identifier. The order records a Cream Tea with Cherry and Fruit selections, together with a Cruffin and Vegan Cake. The financial section shows a final total of £20.48, paid entirely in cash, with £0.00 change due. The receipt also provides a tax breakdown using categories A and B, displaying the applicable rates together with net, tax, and total amounts. The overall layout is representative of a compact food-service POS receipt, combining takeaway order itemization, cash payment reconciliation, and tax information.",
+  "slug": "Bit's-n-Bob's-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T13:49:43.395Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "78826d40-4f83-4863-94cc-59e1fb20b7de",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "Bit's n Bob's\n\n857404531\n\n21 June 2023\n01:16",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0af570d2-b061-4a30-a251-23f9f79c1265",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Receipt: V6ep",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "476f7ea1-d1ac-416e-82fc-ec9a9c62917d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTAKEAWAY",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "91aaf960-f079-4d2b-81a8-dc5e62b25a69",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nCream Tea ",
+          "value": "\n£16.50 A B"
+        },
+        {
+          "title": "Cherry (£5.00), Fruit (£5.00)",
+          "value": ""
+        },
+        {
+          "title": "Cruffin ",
+          "value": "£1.99 B"
+        },
+        {
+          "title": "Vegan Cake",
+          "value": "£1.99"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a866b507-97c3-4afc-a061-afeb2e72572e",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nTotal",
+          "value": "\n£20.48"
+        },
+        {
+          "title": "Cash",
+          "value": "£20.48"
+        },
+        {
+          "title": "Change",
+          "value": "£0.00"
+        },
+        {
+          "title": "\n\nTax Rate     Net",
+          "value": "\n\nTax      Total"
+        },
+        {
+          "title": "\nA (10%)     £14.74",
+          "value": "\n£1.47    £16.21"
+        },
+        {
+          "title": "B (2%)      £16.69",
+          "value": "£0.33    £17.02"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "A8TiEmHYwWGzcWn8Q84b"
+}

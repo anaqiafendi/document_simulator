@@ -1,0 +1,148 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Zambrero Receipt",
+  "description": "This receipt is a food delivery transaction issued through the Uber Eats platform, containing order identification, delivery timestamp, and customer information. It presents an itemized list of ordered food and beverage items with customization options, followed by a financial summary including subtotal and total amount. The receipt reflects a digital delivery order format rather than an in-store POS transaction, with emphasis on customer details, order tracking, and delivery context. The presence of an Australian-format phone number indicates the transaction is associated with the Australian market.",
+  "slug": "Zambrero-Receipt",
+  "createdAt": "$D2026-04-17T18:08:47.361Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0f707bcc-727e-4073-9f41-8fa17103e92f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff2ea3b1d-ac8a-4124-86e0-216f2ca656de-image%20(1).jpg?alt=media&token=16f95772-9120-4da1-b56f-29217c174db3",
+      "size": 97,
+      "businessDetails": "#1ADC0\nUber Eats\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "887cebd9-ea57-47e5-930d-7c3edb66088b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Delivery                     7:31 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75477cda-dbe9-44be-ba86-9e4f7ff83c47",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": " \nJuly 30, 2024",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "26461170-3751-4b7b-a401-7ea989470dbf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nMichaela M.\n+61480020263  #666 22 816\n1 Previous Orders",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4be07d2e-cd87-4b8c-922c-accee759ae5f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNo delivery address available for this order\n\nMichaela M.\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a8e4cb55-9edd-4ea0-a7d5-7d8ecda8aa36",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Toasted Burrito",
+          "total": "$$17.90"
+        },
+        {
+          "quantity": 1,
+          "description": "Vegetarian",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Basilo (Contains Nuts)",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Secret BBQ (VG)",
+          "total": "$$0.70"
+        },
+        {
+          "quantity": 1,
+          "description": "No - Jalapeños",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a82cb3bf-859e-4ca3-918b-af31a31a3270",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Pepsi Max 600ml ",
+          "total": "$$6.10"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9994d404-ee22-466f-9364-130fb95bf61f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal:",
+          "total": "$$24.70"
+        },
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "$$24.70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FXfdpn7Ogh5LfBnKkyG0N%2FXfdpn7Ogh5LfBnKkyG0N-6560743d-5066-4c5e-8dd1-0780711f8414.png?alt=media&token=dedf5ea5-61f0-461d-b4ec-a9fe213969de",
+  "published": true,
+  "id": "Xfdpn7Ogh5LfBnKkyG0N"
+}

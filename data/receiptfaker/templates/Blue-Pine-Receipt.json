@@ -1,0 +1,173 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T16:31:38.439Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "fa1d6772-0991-4291-8b2f-56d6704fbb93",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe591755e-7956-4c78-a4a2-8bde414a57e9-image%20(4).jpg?alt=media&token=8e12127c-f901-4121-83b9-a1d76f95f701",
+      "size": 150,
+      "businessDetails": "\nLOUNGE\nPhipps Plaza\n3520 Peachtree Road NE\nAtlanta, GA 30326\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee9878ea-a3ab-420e-889f-a02c8b1da969",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "18404 Tiana D",
+          "total": "1"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f24dbc87-9a3b-45b6-9856-7cfb5ad7c5d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CHK   2117    TBL  302/1   GST 2\n11/25/2022 8:45 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4eb2c3a8-3507-457e-95c5-f08cee11b20d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Soda",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Acqua Panna 25oz",
+          "total": "8.00"
+        },
+        {
+          "quantity": "",
+          "description": "Crispy Rice Spicy Tuna",
+          "total": "20.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Avocado Crispy Rice",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 GI Matsuhisa Cabernet",
+          "total": "40.00"
+        },
+        {
+          "quantity": "",
+          "description": "20.00",
+          "total": "6.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Lemonade",
+          "total": "21.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 House Sp Out",
+          "total": "42.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Grilled Salmon",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Chili Garlic Pst",
+          "total": "9.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Anticucho",
+          "total": "4.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Sprite",
+          "total": "22.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Taco Lobster @ 11.00",
+          "total": "30.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Taco Wagyu @ 15.00",
+          "total": "14.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Taco Salmon @ 7.00",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\n$185.00"
+        },
+        {
+          "quantity": "",
+          "description": "Food",
+          "total": "$$40.00"
+        },
+        {
+          "quantity": "",
+          "description": "Wine",
+          "total": "$$23.00"
+        },
+        {
+          "quantity": "",
+          "description": "Add-on Tax",
+          "total": "$$22.07"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL DUE",
+          "total": "$$270.07"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Blue Pine Receipt",
+  "description": "This receipt is issued by Blue Pine and identifies the location as 320 Peachtree Road NE, Atlanta, Georgia 30326. The header contains restaurant branding, location details, POS transaction metadata including the customer name, check number, table designation, guest count, and transaction date and time. The receipt includes an itemized order followed by a categorized financial summary that separates Food, Wine, and Non-Alcoholic Beverage charges before reporting the applicable tax and final amount due. The overall layout is representative of a United States full-service restaurant POS receipt, combining table-service management, itemized order reporting, category-based sales totals, tax calculation, and transaction reconciliation within a hospitality receipt format.",
+  "slug": "Blue-Pine-Receipt",
+  "published": true,
+  "id": "jPjuL1SHxoGjcwz337aD"
+}

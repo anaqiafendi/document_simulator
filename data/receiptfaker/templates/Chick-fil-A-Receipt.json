@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Chick-fil-A Receipt",
+  "description": "This receipt originates from Chick-fil-A Charlotte Pike FSU (#00886) located in Nashville, Tennessee, a quick-service restaurant specializing in chicken-based meals. The receipt header includes a welcome message followed by the store location, phone number, and operator identification. The transaction metadata records the date and time of purchase, service type (DINE IN), and an order number, indicating a restaurant POS environment. The receipt contains register and cashier identifiers along with a transaction sequence number for internal tracking. A financial summary section presents Sub Total, Tax, and Total, followed by payment confirmation via Visa card, including masked card number, terminal ID, and approval code. The footer includes customer service messaging and social media promotional text, encouraging engagement through Instagram and Facebook. The receipt is labeled CUSTOMER COPY, indicating it is intended for the customer’s records.",
+  "slug": "Chick-fil-A-Receipt",
+  "createdAt": "$D2026-03-12T11:25:56.701Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Welcome to Chick-fil-A\nCharlotte Pike FSU (#00886)\nNashville, TN\n615-352-1222\nOperator: Will Sims",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "234f9915-dc34-431b-988d-25ed3d1e9ed0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCUSTOMER COPY\n\n10/10/2017 8:10:58 PM\nDINE IN",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6e986d81-7325-4092-b754-515a4bf4e873",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order Number: 4239613",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ac47e58f-8b8b-4459-98c1-9bb27f5f479d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c471ade-2277-4e68-bab1-dd88caf8ac90",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f93c431e-f183-4f56-9ee7-5977585f0513",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Register:5     Tran Seq No: 4239613\nCashier: Aryae",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "603f8f61-3c76-4922-8f5c-84294b984e6f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "It was a pleasure serving you!\nHave a wonderful day!\n\nFollow Us On Insta - @cfacharottepike\nfacebook.com/chickfilacharlottepike\nHelp us reach 6k likes on facebook!!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6cdf29f9-e658-4829-b035-a3a64451b1e4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Visa\nCard Num : VXXXXXXXXXXXX4804\nTerminal : KA47948318005\nApproval : 211058",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5SsjN0XLsbP9RMOK6mQb%2F5SsjN0XLsbP9RMOK6mQb-71bb87f2-e4e7-45b6-90d0-8f720ec3375a.png?alt=media&token=e29472d3-28d9-4618-83d2-517ccbe6d11a",
+  "published": true,
+  "id": "5SsjN0XLsbP9RMOK6mQb"
+}

@@ -1,0 +1,106 @@
+{
+  "parentName": "Swarovski",
+  "createdAt": "$D2026-02-03T13:06:08.630Z",
+  "metatitle": "Jewelry Store Receipt",
+  "metadesc": "professional jewelry receipts with custom store details, item descriptions, pricing, and payment info for insurance claims",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "numberFormat": "RIGHT_SPACE",
+  "description": "Retail purchase receipt from Splend’Or showing store details, product description, subtotal, VAT amount, total paid in RON, return policy information, tax details, barcode, and transaction date and time.",
+  "textColor": "#101828",
+  "isParent": true,
+  "slug": "Splend'Or-Receipt",
+  "currency": "RON",
+  "fontType": "MERCHANT_COPY",
+  "name": "Splend’Or Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "backgroundCrumpled": false,
+  "sections": [
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FCxCkKYrwxFXgV7OkPEKT8f7ZByH2%2F968b2ee2-5007-4e03-aa7b-9dba3dc03581-baneasa-logo-splendor.jpg?alt=media&token=c007f79a-8df6-4ed5-ba40-580fc6df72ec",
+      "bottomDivider": true,
+      "size": 271,
+      "alignment": "CENTER",
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "businessDetails": "\nB&B Collection SRL\nCoresi Brasov\nStr. Zaharia Stancu N. 1, 500167\nTelefon: 0736 738 787\nCIF: RO28164684",
+      "type": "HEADER",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "total": "1949.00",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1,578.69"
+        },
+        {
+          "value": "370.31",
+          "title": "TVA 19%"
+        }
+      ],
+      "totalSizeIncreased": "PERCENT_50",
+      "totalDivider": true,
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "bottomDivider": true,
+      "totalDividerType": "DASHES",
+      "items": [
+        {
+          "total": "1949.00",
+          "description": "Ceas Tissot PRX 40mm",
+          "quantity": "1"
+        }
+      ],
+      "bottomDividerType": "DASHES",
+      "totalText": "TOTAL",
+      "date": "$undefined"
+    },
+    {
+      "type": "CUSTOM",
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "custom": "POLITICA RETURNARE\nSchimb posibil in termen de 30 de zile de la data achizitiei.\nProdusul trebuie returnat in stare originala, nefolosit.\nRambursarile in numerar nu sunt disponibile.\nBonul este obligatoriu pentru orice schimb.\n\nINFORMATII ECO / REGLEMENTARI (UE)\nSwarovski utilizeaza identificatori unici pentru ambalaje,\nconform registrelor producatorilor autorizati.\n\nDEEE ID: RO-EEE-389904\nAmbalaje: RO-PACK-9543\nTextile: RO-TEX-4591",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "type": "BARCODE",
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "bottomDivider": true,
+      "size": 94,
+      "length": 412,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "type": "DATE",
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "bottomDividerType": "DASHES",
+      "date": "Data 23/03/2025, 16:37\n",
+      "alignment": "CENTER"
+    },
+    {
+      "custom": "Z:0671 BF:0271\nID BF:         600924562301200750728\nS/N:DB480002324          TD:00367811         \nCASIER1:                        6204     ",
+      "type": "CUSTOM",
+      "bottomDivider": true,
+      "alignment": "LEFT",
+      "id": "18395181-3ece-4b54-b32e-328687f9132a",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "custom": "Multumim pentru cumparaturi!\n\nPastrati bonul fiscal pentru garantie.",
+      "alignment": "CENTER",
+      "id": "dc54052f-fea1-40a0-a37f-66a6c081d959",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FF6eOb1Qrl6PZUf8V0nuA%2FF6eOb1Qrl6PZUf8V0nuA-a6e49baa-1ba4-4d42-8d51-43688398c74a.png?alt=media&token=c4559bc1-24c4-43cf-b587-cba762732b57",
+  "published": true,
+  "id": "F6eOb1Qrl6PZUf8V0nuA"
+}

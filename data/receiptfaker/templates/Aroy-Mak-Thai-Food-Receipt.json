@@ -1,0 +1,160 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T11:53:28.288Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "9345957c-b812-4974-8f91-e676f9bd262a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Aroy Mak Thai Food\n14419 Greenwood Ave N #C,\nSeattle WA 98133\nTel. (206) 361-9999\nwww.aroymakthaifood.com\nWelcome to Aroy Mak Thai Food\n\n Order #45\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a00ca91-bc3b-4030-854a-0c1fc05bc1b6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Dine-In"
+        },
+        {
+          "quantity": "",
+          "description": "Order Time: 07/04/2025",
+          "total": "Table 4"
+        },
+        {
+          "quantity": "",
+          "description": "Party Size: 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Server: Patty",
+          "total": "(T.1)"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb213a55-276b-4d94-a80c-15d70c8faa85",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Wonton Cream Cheese",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Gai Krob Kra Tiem",
+          "total": "$$10.00"
+        },
+        {
+          "quantity": "",
+          "description": "[Jasmine Rice] ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Khao Man Gai Yang",
+          "total": "$$17.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4eceb822-5588-4ef8-9f9d-937cd0039658",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total 3 item(s)",
+          "total": "$$44.00"
+        },
+        {
+          "quantity": "",
+          "description": "Taxes",
+          "total": "$$4.55"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e40fd3c8-755c-4c7c-909f-7d16a03f4923",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Grand Total  ",
+          "total": "$$48.55"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7286ddde-af9b-4a62-9af0-91dde525e393",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTip Guide\n15%=$7.28, 18%=$8.74, 20%=$9.71",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c4798e7-9035-4998-a597-427e5b54614d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you very much.\nCome back again!!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Aroy Mak Thai Food and identifies the restaurant as 14419 Greenwood Avenue North, Suite C, Seattle, Washington 98133. The header contains the restaurant name, address, contact telephone number, website, order number, transaction date and time, party size, server name (Patty), dining type (Dine-In), and table number. The receipt records an order consisting of Wonton Cream Cheese, Gai Krob Kra Tien served with jasmine rice, and Khao Man Gai Yang. The financial section records the total for the three menu items, applicable sales tax, and the final grand total. The footer provides suggested gratuity amounts based on 15%, 18%, and 20% tip rates and concludes with a customer appreciation message. The overall layout is representative of a United States restaurant POS receipt, combining table-service order management, sales-tax reporting, suggested gratuities, and transaction reconciliation within a compact hospitality receipt format.",
+  "name": "Aroy Mak Thai Food Receipt",
+  "slug": "Aroy-Mak-Thai-Food-Receipt",
+  "published": true,
+  "id": "H9J0GsFAMmY2iOhzGU7t"
+}

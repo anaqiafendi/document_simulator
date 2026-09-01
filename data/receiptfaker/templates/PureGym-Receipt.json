@@ -1,0 +1,74 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "PureGym Receipt",
+  "description": "Gym body composition receipt from PureGym London Stratford showing age, gender, weight, height, BMI, body fat percentage, body fat mass, ideal ranges, and measurement date and time.",
+  "slug": "PureGym-Receipt",
+  "createdAt": "$D2026-01-23T15:19:38.438Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "193f7ee9-4b3e-4cdc-ae68-21dbf269dfd8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "WELCOME TO PURE GYM\nLONDON STRATFORD\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db092125-9dae-4ff9-ac95-e707ed3c3151",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "12:30                    1/23/2026 \n\nAGE: 36                         MALE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "4866dd55-cd54-4729-b633-63cdf32a38ea",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "WEIGHT: 13st 21lb 83.9kg             HEIGHT: 5' 8.4\" 1.74 m              \nYOUR IDEAL WEIGHT IS:               \n                 8st11lb TO 11st12lb        56.0 kg TO 75.6 kg ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb5db74e-1328-492a-9d2a-42e0da960ad1",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "B.M.I.:                       27.7       YOUR IDEAL B.M.I. IS:                FROM 18.5 UPTO 25.0",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bda05da8-1875-48f7-ae93-1ebb1f78e810",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "BODY FAT(%):                  19.1%           IDEAL BODY FAT:  \n                      16.1% TO 25.6%                                           ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "234963be-3fe9-4eea-8ef6-94ff5314d04d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "BODY FAT MASS:               16.0 kg              IDEAL BODY FAT MASS: \n                 13.5 kg TO 21.4 kg                         ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FWbcQL2WbcP29CBteimoB%2FWbcQL2WbcP29CBteimoB-c5b3930f-1db6-45f4-af57-dbcf56cac0bd.png?alt=media&token=fbd9cd05-178b-46ec-ab79-c2c3f23b3b97",
+  "published": true,
+  "id": "WbcQL2WbcP29CBteimoB"
+}

@@ -1,0 +1,189 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T12:59:39.254Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "4d204c0a-749b-4593-8a39-9964e19aaaf5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7bc6c57e-08e0-4352-86df-811188951b8a-image%20(2).jpg?alt=media&token=cad4a870-a4fd-4b3a-b364-8af5928e2df2",
+      "size": 254,
+      "businessDetails": "JYSK sp. z o.o. Sklep: P337\nul. Metalowcow 5\n26-110 Skarżysko - Kamienna\nBDO 000002848\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b381dd8-d54b-4e24-9544-c18a2e61efec",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNIP 586-20-16-763",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6588dcf6-a343-4f62-8d33-c59631068128",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n2024-03-05",
+          "total": "\nnr wydr.216449/1391"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f3bde5d-53b2-4744-a8bf-ad011a96511a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPARAGON FISKALNY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd52573a-e568-447b-80eb-c20304f69f4f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "6819701 POSZUKA OZD. EMOJI 835 MIX",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "1 * 25,00     25,00 A"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ca1b299-b4e6-4f9b-b40d-7830102fe7e9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Sprzed. opod. PTU A",
+          "total": "25,00"
+        },
+        {
+          "quantity": "",
+          "description": "Kwota A 23,00% ",
+          "total": "4,67"
+        },
+        {
+          "quantity": "",
+          "description": "Podatek PTU",
+          "total": "4,67"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PLN",
+          "total": "25,00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "982597a0-c818-4780-922d-2103474a4304",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "000054 #102 211828 P337",
+          "total": "17:39"
+        },
+        {
+          "quantity": "",
+          "description": "11747F327027F519F184A8E386284CCE2415",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "7EP  CBH 1601157911",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Płatność",
+          "total": "Terminal   25,00"
+        },
+        {
+          "quantity": "",
+          "description": "RAZEM PLN",
+          "total": "25,00"
+        },
+        {
+          "quantity": "",
+          "description": "Nr transakcji",
+          "total": " P337/102/00861"
+        },
+        {
+          "quantity": "",
+          "description": "\nNowości i świetne oferty",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Zobacz więcej na JYSK.pl",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "28d9120e-dc07-422d-9623-af5d8d9f5cf0",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal fiscal point-of-sale (POS) receipt issued by JYSK Poland from Store P337, located at ul. Metalowców 5, 26-110 Skarżysko-Kamienna, Poland. The header contains the JYSK logo, company name, store number, address, BDO registration number, tax identification number (NIP), receipt print number, and transaction date. The fiscal section includes the receipt title (PARAGON FISKALNY), followed by a tax summary showing Taxable Sales (Sprzed. opod. PTU A), 23% VAT, VAT Amount (Podatek PTU), and the Grand Total (SUMA PLN). The payment section records a terminal card payment, transaction reference, and total amount paid. The footer promotes the official JYSK.pl website for offers and concludes with a barcode. This is a standard Polish retail fiscal receipt used by JYSK home furnishing stores.",
+  "name": "JYSK Receipt",
+  "slug": "JYSK-Receipt",
+  "published": true,
+  "id": "GJnuSXnEKpPhVeGQ00jO"
+}

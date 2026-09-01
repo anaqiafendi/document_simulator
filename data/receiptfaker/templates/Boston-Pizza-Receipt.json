@@ -1,0 +1,105 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Boston Pizza Receipt",
+  "description": "This restaurant receipt from Boston Pizza documents a dine-in transaction at store location BP #418-Sudbury. The receipt includes table and party identifiers, server checkpoint metadata, and a timestamped transaction format showing both order and payment times. POS formatting includes subtotal, tax, and total calculations with aligned monetary fields, along with GST registration information and a “PLEASE PAY SERVER” notice. The lower section contains promotional messaging, customer survey instructions, website references, gift card incentive text, and a receipt identification number footer. The layout reflects a standard thermal restaurant POS receipt structure with server-tracked dining service metadata and promotional footer formatting.",
+  "slug": "Boston-Pizza-Receipt",
+  "createdAt": "$D2026-05-21T14:31:37.146Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0960e816-7e28-46b3-9c16-cab80c34c3aa",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7935bdb0-f221-4284-9747-544d3332f22b-image%20(15).jpg?alt=media&token=a4c535a7-0b87-466f-8a6e-177d0a92a78d",
+      "size": 242,
+      "businessDetails": "BP #418-SUDBURY\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "62f55446-15d9-4e0c-adc5-bdbf60441a28",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0284   Table 302   #Party 2\nBRITTANIE K SvrCk: 21 20:43 07/13/16\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "91453ae8-3a9e-43ac-ace1-94e937f05784",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nWATER",
+          "total": "\n\n0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Item",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "SAUSG ARRA",
+          "total": "15.99"
+        },
+        {
+          "quantity": "",
+          "description": "FETTUCINI, alfredo",
+          "total": "12.49"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSub Total",
+          "value": "\n28.48"
+        },
+        {
+          "title": "Tax",
+          "value": "3.70"
+        },
+        {
+          "title": "07/13 21:26   TOTAL",
+          "value": "32.18"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e18f0d54-246b-4dd8-be5f-56dd53f80d8a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGST # 846106870\nPLEASE PAY SERVER\n\nTake Out Special: Order 1 med or lg\npizza, get 2nd half off!!!\n\n\nWWW.BOSTONPIZZA.COM/SUDBURY\nTELL US HOW WE DID!\nWe value your feedback.\nComplete a short survey and receive a weekly chance to WIN an awesome $200 Boston Pizza Gift Card. Keep this receipt and go to www.tellbostonpizza.com\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "32304b77-deeb-496a-b230-68e6c252c649",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "For complete rules and eligibility\nplease visit www.tellbostonpizza.com\n\n\n40884-72000-31121\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "dAoujyLHBmGEP6MvCFik"
+}

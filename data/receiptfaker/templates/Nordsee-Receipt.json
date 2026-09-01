@@ -1,0 +1,155 @@
+{
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "backgroundCrumpled": false,
+  "currency": "",
+  "slug": "Nordsee-Receipt",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "createdAt": "$D2026-05-26T11:45:59.411Z",
+  "name": "Nordsee Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "description": "This restaurant and seafood fast-service receipt from Nordsee documents a cash transaction processed at the Spandauer Straße location in Berlin, Germany. The receipt includes store address details, telephone number formatting, German VAT registration information (UID), branch identifiers, cashier station references, receipt numbering metadata, and timestamp information. The POS structure contains subtotal presentation, cash payment formatting, change due calculation, and VAT-separated net, tax, and gross amount accounting aligned in standard German thermal receipt formatting. Additional receipt elements include cashier/service attribution, promotional food advertising messaging, and WC access code formatting near the footer. The layout reflects a standard German quick-service restaurant thermal receipt with localized VAT accounting and promotional footer presentation.",
+  "sections": [
+    {
+      "bottomDivider": false,
+      "type": "HEADER",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "size": 249,
+      "businessDetails": "\nSpandauer Str. 4\n10178 Berlin\nTel. 030/2426881\nUID: DE21496447B\nNORDSEE GmbH\n\n",
+      "id": "a307a939-0836-42f7-bca1-be74f30e21da",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3af1c308-1485-480e-bf7c-d6ed63a846b3-image%20(15).jpg?alt=media&token=296f6240-a535-4be5-affe-aabd7c72fcee",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "totalText": "",
+      "totalLines": [],
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalDivider": true,
+      "type": "ITEMS",
+      "items": [
+        {
+          "description": "Filiale: 326",
+          "total": "Datum: 11.08.2016",
+          "quantity": ""
+        },
+        {
+          "description": "Kasse: 4",
+          "total": "Zeit: 14:41:15",
+          "quantity": ""
+        },
+        {
+          "total": "Winkel",
+          "quantity": "",
+          "description": "Bon: 61398"
+        },
+        {
+          "total": "EUR Mw",
+          "quantity": "",
+          "description": "Artikel"
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "id": "3b6bf28d-fd3a-44ee-812f-9a61281303c8",
+      "date": "$undefined"
+    },
+    {
+      "type": "ITEMS",
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalDivider": true,
+      "id": "376a3bcb-3fea-43c9-885e-5a3d72ab7dcb",
+      "totalDividerType": "DASHES",
+      "items": [
+        {
+          "description": "Portobello",
+          "total": "",
+          "quantity": 1
+        },
+        {
+          "total": "4,49 1",
+          "quantity": 1,
+          "description": "R-Lachs-Walnussbrot"
+        },
+        {
+          "total": "4,29 1",
+          "quantity": 1,
+          "description": "Garn.Ciab.Caprese"
+        },
+        {
+          "description": "1 Garn.Ciab.Caprese",
+          "total": "4,29 1",
+          "quantity": 1
+        }
+      ],
+      "bottomDivider": false,
+      "totalLines": [],
+      "totalText": "",
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [],
+      "totalText": "",
+      "bottomDivider": false,
+      "totalDividerType": "DASHES",
+      "items": [
+        {
+          "total": "13,27",
+          "quantity": 1,
+          "description": "Total"
+        },
+        {
+          "description": "Bar",
+          "total": "13,30",
+          "quantity": 1
+        },
+        {
+          "total": "0,03",
+          "quantity": 1,
+          "description": "Zurück"
+        }
+      ],
+      "id": "f16aa968-965e-466a-9167-0d53a22d9d0a",
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalDivider": true,
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "custom": "MWST  Netto   Steuer  Brutto\n1   7,0%   12,40   0,87  13,27",
+      "id": "3f2717b7-f936-40b3-8960-7c3ddebbfe17",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "custom": "Es bediente Sie: Frau Reimann\n",
+      "id": "a06c8841-5dd7-496a-a6c4-0068f42903be",
+      "bottomDividerType": "DASHES",
+      "alignment": "LEFT",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "custom": "\nSchon probiert? Unser knusprig getoastetes Thunfisch- Brot mit Thunfischcreme und  knackigem Salat  WC-Code: 1421",
+      "id": "d3f1dc17-580e-4e53-a851-c5b3f258a2dd",
+      "date": "$undefined"
+    }
+  ],
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "isParent": true,
+  "published": true,
+  "id": "FGSgTHbUQ5i0cmqsB61z"
+}

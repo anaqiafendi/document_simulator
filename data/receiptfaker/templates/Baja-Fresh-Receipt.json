@@ -1,0 +1,152 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Baja Fresh Receipt",
+  "description": "This receipt is issued by Baja Fresh and identifies Store #30565 at 7421 SW Barbur Boulevard, Suite 190, Portland, Oregon 97219. The header contains the restaurant branding, store number, address, telephone number, and general manager information. The transaction is a take-out order dated 27 September 2019 and includes a Steak Mexicano Buro with black beans, Baja rice, and Six Chiles Salsa, a Roasted Veggies Buro with pinto beans and Six Chiles Salsa, and Guacamole & Chips. The subtotal is $23.73, with a $5.00 discount on a $20 purchase, reducing the final total to $18.73. Payment was made by Mastercard, with no change due. The footer thanks the customer for visiting, invites them to return, and includes a partially visible $2 off a future $10 purchase promotion.",
+  "slug": "Baja-Fresh-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T15:01:29.303Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "06ee0f9c-8f77-4b29-a83a-ad98e15ab144",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdd9edc87-6212-4a6f-a1ef-444403a24aff-image%20(16).jpg?alt=media&token=feb2fcd1-da30-45ed-9733-1455b0e5b9a2",
+      "size": 256,
+      "businessDetails": "Store #30565\n7421 SW Barbur Blvd Ste 190\nPortland, OR 97219\nPhone (503)-595-0399\nGENERAL MANAGER : ROSY HERNANDEZ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "32220b65-b1d4-44ee-a0be-e84faa958e60",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nCheck 32",
+          "value": ""
+        },
+        {
+          "title": "Sandro L.",
+          "value": "9/27/2019"
+        },
+        {
+          "title": "Take Out",
+          "value": "12:03 PM"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ab2ce5e2-519b-4958-848c-86234354fae5",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSteak Mexicano Buro ",
+          "value": "\n9.79D"
+        },
+        {
+          "title": "Black Beans",
+          "value": ""
+        },
+        {
+          "title": "Baja Rice",
+          "value": ""
+        },
+        {
+          "title": "Six Chiles Salsa",
+          "value": ""
+        },
+        {
+          "title": "Roasted Veggies Buro",
+          "value": "7.99D"
+        },
+        {
+          "title": "Pinto Beans",
+          "value": ""
+        },
+        {
+          "title": "Six Chiles Salsa",
+          "value": ""
+        },
+        {
+          "title": "Guacamole & Chips",
+          "value": "5.95D"
+        },
+        {
+          "title": "Order ID",
+          "value": "0.00D"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f2aac28-3cca-4ead-b27b-c6e856a5ce8b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSubtotal ",
+          "value": "\n23.73"
+        },
+        {
+          "title": "E-$5 Off $20",
+          "value": "-5.00"
+        },
+        {
+          "title": "",
+          "value": "-------------"
+        },
+        {
+          "title": "TOTAL",
+          "value": "18.73"
+        },
+        {
+          "title": "\nM/C",
+          "value": "\n-18.73"
+        },
+        {
+          "title": "Acct. XXXXXXXXXXXX8650",
+          "value": ""
+        },
+        {
+          "title": "Approval 02806P",
+          "value": ""
+        },
+        {
+          "title": "CHANGE DUE",
+          "value": "0.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "66910b48-e2e2-4ac7-b256-247e9866d573",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for visiting\nBaja Fresh\nPlease come again!\n\n$2 OFF NEXT PURCHASE OF $10",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "jqKRIDHelcu9o2uaMdFN"
+}

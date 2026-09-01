@@ -1,0 +1,140 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-04T13:14:45.100Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "7ecba4c1-99a2-4f35-b624-5ae625dda01b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "531",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FK1cY2QaILteVELDNLFdefYsLg1E3%2F208e1661-d90b-44fa-b8ff-824d6b38fae9-Hawaiian_Bros_Logo.jpg?alt=media&token=90b97ed1-8c4e-4c5f-a51f-4ad26e31dcab",
+      "size": 218,
+      "businessDetails": "6957 W 75th St\nOverland Park, KS 66204\n(913) 233-8881",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "faf63d2e-6e68-456e-897d-b33aada2800c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TO GO",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b980fc13-f71c-4703-933c-75d2f4f68c79",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Jhonny C",
+          "value": ""
+        }
+      ],
+      "rightFields": [],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Large - Huli Huli Chicken",
+          "total": "16.95"
+        },
+        {
+          "quantity": "",
+          "description": "Dole Soft Serve - Pineapple",
+          "total": "3.75"
+        },
+        {
+          "quantity": "",
+          "description": "Large - Molokai Chicken",
+          "total": "16.95"
+        },
+        {
+          "quantity": "",
+          "description": "Dole Soft Serve - Pineapple",
+          "total": "3.75"
+        },
+        {
+          "quantity": "",
+          "description": "Large - Luau Pig",
+          "total": "16.95"
+        },
+        {
+          "quantity": "",
+          "description": "Classic - Huli Huli Chicken",
+          "total": "11.95"
+        },
+        {
+          "quantity": "",
+          "description": "Classic - Kilauea Chicken",
+          "total": "11.95"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "82.25"
+        },
+        {
+          "title": "Tax",
+          "value": "8.19"
+        }
+      ],
+      "total": "90.44",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee47ea0a-f642-4812-b054-9c0da5189490",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSurvey Code\n02157996042\n\nGive Feedback for a Free Dole\nSoft-Serve!\nLovesfeedback.com/hbros",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9d8e8e9-a9f5-437c-a054-4ed5133cf9a8",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "1/4/2026, 4:49 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    }
+  ],
+  "name": "Hawaiian Bros Island Grill Receipt",
+  "slug": "Hawaiian-Bros-Island-Grill-Receipt",
+  "description": "Restaurant receipt from Hawaiian Bros Island Grill showing store location, dine-in or to-go order, menu items selected, prices, subtotal, tax, total amount paid, survey code, and transaction date and time.",
+  "metatitle": "Fast Food Receipt",
+  "metadesc": "professional Hardee's receipts featuring menu items, taxes, totals, and payment info for expense reports and documentation",
+  "parentName": "Hardee's Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FcOR0EmKUSGOzS2u1rpfR%2FcOR0EmKUSGOzS2u1rpfR-f0305857-1d6e-4557-a0ee-f0fc8cd23664.png?alt=media&token=50386f8c-52a7-4901-9f30-595cc97a432e",
+  "published": true,
+  "id": "cOR0EmKUSGOzS2u1rpfR"
+}

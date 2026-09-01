@@ -1,0 +1,72 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Waitrose & Partners Receipt",
+  "description": "Grocery store receipt issued by Waitrose & Partners, showing store location, item details, promotional pricing, balance due, transaction date and time, and customer feedback invitation.",
+  "slug": "Waitrose-and-Partners-Receipt",
+  "createdAt": "$D2026-01-24T12:45:54.534Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "£",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bc8a8296-85d6-41e4-ab0d-a23e888f62b2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7d9e52dc-3d2d-498b-b91e-d98a9ac90d6a-Waitrose.jpg?alt=media&token=770df9a7-a6fa-41fa-bf24-8f061003d233",
+      "size": 229,
+      "businessDetails": "Godalming 216: 01483 418161\nwww.waitrose.com/godalming",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "99acda4d-3cef-4a85-8801-0760350dece3",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\n£\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4efb240d-4dcd-44db-a4f5-a2ef1b92c2c0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Reason:\nIt's on Us\nTRUFRU STRAWBERRIES",
+          "total": "0"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "1 item\nBALANCE DUE",
+          "value": "0"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Change",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b99596a-7fff-4d7c-8def-952de86dc090",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nHow was your visit today?\nVisit waitrosehaveyoursay.com and you\ncould win an e-gift card prize\nworth £100 - £300\n\nTHANK YOU FOR SHOPPING AT WAITROSE\n\n20:34 07/07/2025 216 027 1228 50624",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FNTJnC1sYNG8oDBnnOJtY%2FNTJnC1sYNG8oDBnnOJtY-50230a6e-2a71-4c4b-be15-c8060223b445.png?alt=media&token=cade8381-cbe0-46b4-8109-ce1227a12ede",
+  "published": true,
+  "id": "NTJnC1sYNG8oDBnnOJtY"
+}

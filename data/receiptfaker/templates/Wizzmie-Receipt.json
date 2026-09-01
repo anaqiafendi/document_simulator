@@ -1,0 +1,130 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Wizzmie Receipt",
+  "description": "This receipt is issued by Wizzmie and identifies the location as Wizzmie Pancing Medan. The format features the Wizzmie logo with mascot at the header, followed by transaction metadata including receipt number, printed date and time stamp, service type designation (Quick Service), order purpose (DINE IN), and cashier identification. The document includes a structured financial summary section displaying subtotal, tax, total, cash tendered, and change amount. It also provides a customer service contact number with WhatsApp reference and concludes with a thank-you message and printed queue number. The layout reflects a quick-service restaurant POS thermal receipt format with clear section dividers and standardized transaction fields.",
+  "slug": "Wizzmie-Receipt",
+  "createdAt": "$D2026-02-27T11:01:34.119Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "fb2b3046-59b3-45b1-9960-c6a2322c08cb",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F19120cb2-2852-46e2-8ae0-9a04ae0c4900-image%20(10).jpg?alt=media&token=5945df69-684c-4c3a-b78c-d0e4841ae0c7",
+      "size": 198,
+      "businessDetails": "Wizzmie Pancing Medan",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "74023b1c-2fa2-4079-959e-fcf90fd9d94c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "No : MPM202512280015\nDate : 28-12-2025 10:58\nInfo :\nTable : Quick Service\nPurpose : DINE IN\nCashier : INDAH",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "911b21b3-50ad-4db9-aeb2-54ef293dd8c1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6ed0877c-1cf0-4f0f-9734-bbf8c567aa9f",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e36b599d-9362-4e6e-9227-bc580a83a7cc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customer Service : 08113069155 (Whatsapp)\n\nThank You - Your queue number\n\n15\n\nPlease wait until your number is called",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FUmdO6V8Icl4ewfxlbCBg%2FUmdO6V8Icl4ewfxlbCBg-0263b9cc-ab50-4adb-bb94-ec9453abde3e.png?alt=media&token=63a2357b-1b12-40ea-98ab-db4013e2c594",
+  "published": true,
+  "id": "UmdO6V8Icl4ewfxlbCBg"
+}

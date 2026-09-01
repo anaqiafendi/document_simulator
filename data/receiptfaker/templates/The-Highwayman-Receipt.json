@@ -1,0 +1,186 @@
+{
+  "currency": "",
+  "slug": "The-Highwayman-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T03:56:28.586Z",
+  "description": "This restaurant receipt from The Highwayman, located on Southend Arterial Road, CM2 4AL, includes POS terminal identifier ZA79707-POS-03, server identification, table number (Table 3), and account number (Acc No: 4071). The receipt contains a transaction timestamp, product group summary, VAT breakdown showing net amount, tax amount, and VAT-inclusive total, followed by a cash payment section documenting tendered amount and change given. Additional metadata includes a receipt number, VAT registration number, customer feedback website, and restaurant contact telephone number. The format is consistent with a full-service restaurant POS receipt used for dine-in transactions.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Highwayman Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "3eaa9278-0bcf-4e8b-9978-e36f95906f7c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "The Highwayman\nSouthend Arterial Road\nCM2 4AL\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5e461614-fb23-4f96-bba2-c47a1c756095",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ZA79707-POS-03",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Alisha",
+          "total": "01 Nov 2018 12:47"
+        },
+        {
+          "quantity": "",
+          "description": "\nTable: 3",
+          "total": "\nAcc No: 4071"
+        },
+        {
+          "quantity": "",
+          "description": "SWEETS",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d2a2c6af-2440-46b2-a805-b6ecdff20e46",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Choc Brownie",
+          "total": "=\t3.29"
+        },
+        {
+          "quantity": 1,
+          "description": "Banana Sweet Pizza",
+          "total": "=\t3.29"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "150a10ad-2da6-4d0f-9b02-fd37e3769487",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Product Group Summary",
+          "total": "\n"
+        },
+        {
+          "quantity": "",
+          "description": "Food And Drink",
+          "total": "6.58"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n20% VAT Net",
+          "total": "\n5.48"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT",
+          "total": "1.10"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Total",
+          "total": "6.58"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "127c5eef-b2f3-4e44-8b87-271caecb248c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£6.58"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nPayment Receipt",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "£6.60"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "£0.02"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT included",
+          "total": "1.10"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt no. 26/2546",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VAT 232 153 895",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03b7e7c4-7e41-44ac-a5b1-3f9d87ede7a5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for visiting us today\nWe'd love to hear what you thought\ntellus.stonehouserestaurants.co.uk\n\nTel 02476 451174\nVAT 232 153 895\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "aeCU9LouSA1Gx5MbyHNu"
+}

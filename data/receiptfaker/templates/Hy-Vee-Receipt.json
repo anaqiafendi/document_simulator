@@ -1,0 +1,138 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-28T12:58:57.389Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_4",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd15adf11-34a4-4d9b-8b6d-f42d7dd20735-image%20(12).jpg?alt=media&token=ab3651ea-3937-4dbb-87cd-ddd2c0e1c4b3",
+      "size": 217,
+      "businessDetails": "2720 DEKALB AVE\nSYCAMORE, IL 60178\n815-756-2363\nE-mail comments:\n164Directory@hy-vee.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6072eb52-eba0-4b95-af0d-41a91000ac0c",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "01/04/2025, 5:29:332 PM\nOP # 274 Name: Joshua",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "BACARDI rum,SUPERIOR 1.75LT",
+          "total": "69.33"
+        },
+        {
+          "quantity": "2",
+          "description": "PATRON SILVER, 1.75",
+          "total": "75.98"
+        },
+        {
+          "quantity": "4",
+          "description": "Minute Maid Fruit Drink ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Blue raspberry 20 FL OZ",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Item",
+          "total": "10.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Item",
+          "total": 10
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "156.30"
+        },
+        {
+          "title": "Tax",
+          "value": "13.22"
+        }
+      ],
+      "total": "169.52",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "09b0e4b9-fce7-428a-806f-f6373dc619b5",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 2234"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6e544a3c-96c2-43a8-949b-fcba29f41985",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "IN A $500 HY-VEE GIFT CARD!\n\nPlease visit www.Hy-VeeSurv.com and key in the 16-digit code below\nto take a brief survey and enter for your chance to win a $500 Hy-Vee\ngift card. \n\n# 0731564270020237\n\nNo purchase necessary to enter sweepstakes. See website for official\nsweepstakes rules. ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Hy-Vee Receipt",
+  "slug": "Hy-Vee-Receipt",
+  "description": "This receipt documents a fuel transaction from Hy-Vee located at 2720 DeKalb Ave, Sycamore, IL 60178. The receipt includes full store branding, contact information, lane and checker identifiers, authorization and reference numbers, pump number, date and time stamp (July 31, 2019, 07:36 PM), and payment method masking details. A complete financial summary is present including purchase total, Fuel Saver redemption, balance due, and change. The receipt contains promotional messaging for a $500 Hy-Vee gift card survey, a unique survey code, reward tracking details, segment identification, and cashier name and number. The format reflects a grocery/fuel retail POS system with structured separators and loyalty program integration.",
+  "metatitle": "Warehouse Receipt",
+  "metadesc": "realistic Costco warehouse receipts with custom items, prices, store details, and membership info for returns or expense tracking",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FsdnJuz9kl1KwUTVER5C9%2FsdnJuz9kl1KwUTVER5C9-eac06549-89c2-4463-b113-590254e6bf65.png?alt=media&token=7003f567-447e-4d52-8dbb-fc8ff26496f1",
+  "published": true,
+  "id": "sdnJuz9kl1KwUTVER5C9"
+}

@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Wegmans Receipt",
+  "description": "This receipt format originates from Wegmans Food Markets, a U.S. supermarket and grocery retail chain. The receipt header displays the Wegmans brand name with the tagline “Helping you live healthier, better”, followed by the store location identifier LYLE AVE – Arlington, NY #1083 and the store phone number. The POS section includes date and time information, along with a service indicator noting the dining option selected. Transaction metadata includes balance amount, payment method, masked card number, authorization code, issue credit reference, and PIN verification indicators, which are typical of U.S. grocery POS debit processing systems. The lower portion of the receipt contains transaction references and terminal identifiers used for payment verification and record keeping. The format reflects a supermarket POS receipt structure used for grocery and prepared food service transactions.",
+  "slug": "Wegmans-Receipt",
+  "createdAt": "$D2026-03-08T18:36:31.255Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff8a558cb-42e5-486f-8eae-6324f121136e-image%20(39).jpg?alt=media&token=b87bdafb-8f75-4cfd-a216-5aff5135d60d",
+      "size": 236,
+      "businessDetails": "LYLE AVE\nRLRINGTON, NY #1083\n(518) 748-0700",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e1a33f7-0681-4739-86df-e89b4ee3fdab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "06/23/18  8:09 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "91cc4697-1a9c-4585-b3f4-abf5e972a715",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "You have selected to eat in\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6383724c-c0cf-46ab-8ac8-3a911f422e35",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "50ccb0c8-6e5f-41b5-a5a0-3dc7fb7630b2",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6d2482d-7095-4230-ac4b-48de0fbcdadc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "06/23/18  01:32 PM 59 60 153 95722",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FgiXrYFqb1d72hrVE5XAd%2FgiXrYFqb1d72hrVE5XAd-ca25340e-2720-4ca4-9855-70d9f9be50ca.png?alt=media&token=6c8628b1-568f-406e-83f9-8055bdde4a90",
+  "published": true,
+  "id": "giXrYFqb1d72hrVE5XAd"
+}

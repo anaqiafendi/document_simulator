@@ -1,0 +1,132 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-05T15:13:54.424Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "dbe04aec-e316-4e2b-80fb-6fb8a44466c2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Van's Burgers\n411 E Magnolia\nMathis, Tx 78368\n361-547-8012\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3da056df-4f01-4d21-aef1-0047fb089868",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Valerie",
+          "total": "03/06/2020"
+        },
+        {
+          "quantity": "",
+          "description": "Table 19/1",
+          "total": "6:33 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Guests: 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\n#40091"
+        },
+        {
+          "quantity": "",
+          "description": "Margarita-Rocks",
+          "total": "6.00"
+        },
+        {
+          "quantity": "",
+          "description": "Texas Red-16oz (2 @3.75)",
+          "total": "7.50"
+        },
+        {
+          "quantity": "",
+          "description": "Onion Rings-Half",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Touchdown n Fries",
+          "total": "7.99"
+        },
+        {
+          "quantity": "",
+          "description": "SUB Zucchinni",
+          "total": "1.50"
+        },
+        {
+          "quantity": "",
+          "description": "Beef Tacos",
+          "total": "6.49"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n6 Items",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n32.47"
+        },
+        {
+          "quantity": "",
+          "description": "\nFood/Non-Alc Tax ",
+          "total": "\n1.57"
+        },
+        {
+          "quantity": "",
+          "description": "Mixed Beverage Tax",
+          "total": "1.11"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal ",
+          "total": "\n35.15"
+        },
+        {
+          "quantity": "",
+          "description": "\nBalance Due",
+          "total": "\n35.15"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "24942392-67d8-41e5-95df-36772225d82e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank You and Come Again!\nAsk About Our Catering Service\n361-547-8012",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Van's Burgers Receipt",
+  "description": "This receipt is issued by Van's Burgers and identifies the restaurant as 411 E Magnolia, Mathis, Texas 78368. The header contains the restaurant name, address, telephone number, server identification (Valerie), table number, guest count, transaction date and time, and order number (#40091). The receipt records six menu items, including food and alcoholic beverages, with one menu substitution (Sub Zucchini). The financial section records the subtotal, separate Food/Non-Alcoholic Tax and Mixed Beverage Tax, the final transaction total, and the outstanding balance due. The footer contains a customer appreciation message together with a promotion for the restaurant's catering service and contact number. The overall layout is representative of a United States restaurant POS receipt, combining table-service order management, separate food and alcohol tax reporting, and transaction reconciliation within a compact hospitality receipt format.",
+  "slug": "Van's-Burgers-Receipt",
+  "published": true,
+  "id": "MuhQvkjRKVBUouD0i18p"
+}

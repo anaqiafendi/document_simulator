@@ -1,0 +1,39 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Wendy’s Receipt",
+  "description": "This receipt is issued under the Wendy’s brand and displays the header “WENDY’S REG 3” at the top, indicating the specific register used for the transaction. It includes a full street address at 8701 NE Andresen Road, Vancouver, WA, along with a printed date and time stamp (2013-01-04, 10:12:08 AM). The receipt contains internal POS identifiers, including a transaction number and register reference. A financial summary section is present, showing tax, a “TO GO” service designation, and a total item count. The receipt also features customer feedback messaging with a contact phone number (360-882-4224). The structure and formatting reflect a standard quick-service restaurant POS thermal print layout with clear section separation lines and aligned monetary values.",
+  "slug": "Wendy's-Receipt",
+  "createdAt": "$D2026-02-23T13:41:30.271Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4f493bbd-003e-43d9-b92e-418098bc0e20",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "WENDY'S REG 3\n2013-01-04 -413  10:12:08 AM\n12907744 3 3036\n8701 NE ANDRESEN ROAD\nVANCOUVER, WA",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4278032-9b55-42f8-aafc-2bb014922eed",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CHICKEN BISCUIT            2.59\nBACON PANINI               3.19\nHOME S POTATO              1.29\nSAU EG BURITO              0.99\nOATMEAL BAR                1.29\nTax                         0.79\n***TO GO***                 0.14\n\nHow was your visit?\nCall us at (360) 882-4224\nTotal Items 5",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FxRrkID231Pr7mFIwhFD5%2FxRrkID231Pr7mFIwhFD5-a6834074-ed44-4460-90d8-554a7108c915.png?alt=media&token=eb905598-ff4d-4712-a296-d03460aa9fd5",
+  "published": true,
+  "id": "xRrkID231Pr7mFIwhFD5"
+}

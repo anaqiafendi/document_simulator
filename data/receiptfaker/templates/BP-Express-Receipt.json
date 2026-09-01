@@ -1,0 +1,191 @@
+{
+  "currency": "",
+  "slug": "BP-Express-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T14:36:24.809Z",
+  "description": "This BP Express receipt originates from the Braintree SF Connect location operated by BP Express Shopping Limited. The header includes the site name, telephone number, site identifier, VAT registration number, and transaction date and time. The financial section records the total, payment method, and a VAT analysis showing the exclusive value, tax amount, and inclusive value at the applicable rate. The customer card-payment record includes an approval notice, receipt number, application name, masked card number, authorization and action codes, terminal and merchant identifiers, transaction number, NFC entry mode, batch information, card-verification method, and payment amount. The footer promotes registration for the BPme Rewards loyalty programme. The format is representative of a fuel-station and convenience-store point-of-sale receipt.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "BP Express Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "909f8311-96f3-478d-bdc9-146aa13ad546",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Thank you for shopping at:\nBraintree SF Connect\nBP Express Shopping Limited\nTel: 01376 327723\n03/05/2022   06:37   Site Id: 11800850\nVAT Reg No. 243 5105 93\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "74767bbe-d14b-4282-9651-c1e9e2720999",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Qty",
+          "description": "   Name      Price",
+          "total": "Total"
+        },
+        {
+          "quantity": 1,
+          "description": "   ADBLUE 10L  28.00",
+          "total": "28.00"
+        },
+        {
+          "quantity": "",
+          "description": "     Total",
+          "total": "28.00"
+        },
+        {
+          "quantity": "",
+          "description": "Mastercard     GBP",
+          "total": "28.00"
+        },
+        {
+          "quantity": "\nVAT  rate",
+          "description": "\t   Excl\t  VAT\t",
+          "total": "\nIncl"
+        },
+        {
+          "quantity": "D: 20.00%",
+          "description": "    23.33  4.67",
+          "total": "28.00"
+        },
+        {
+          "quantity": "Total",
+          "description": "        23.33   4.67",
+          "total": "28.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9730b3f4-8cce-4174-84de-91fa3e23f375",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CUSTOMER RECEIPT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e23768b-c788-4fbf-b124-9a8e2d8dbfca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Card payment\nAPPROVED\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03c65661-16a5-4748-bd50-28db8de5fd04",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Receipt no.",
+          "total": "1209"
+        },
+        {
+          "quantity": "",
+          "description": "Date/Time",
+          "total": "03.05.2022 06:36:52"
+        },
+        {
+          "quantity": "",
+          "description": "Application name",
+          "total": "Debit MasterCard"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "A0000000041010"
+        },
+        {
+          "quantity": "",
+          "description": "Card",
+          "total": "XXXXXXXXXXX8950"
+        },
+        {
+          "quantity": "",
+          "description": "Auth Code",
+          "total": "545100"
+        },
+        {
+          "quantity": "",
+          "description": "Action code",
+          "total": "00000012/00"
+        },
+        {
+          "quantity": "",
+          "description": "Transaction number",
+          "total": "Terminal ID"
+        },
+        {
+          "quantity": "",
+          "description": "Merchant ID",
+          "total": "2100978181"
+        },
+        {
+          "quantity": "",
+          "description": "Entry Mode",
+          "total": "NFC"
+        },
+        {
+          "quantity": "",
+          "description": "STAN/BATCH",
+          "total": "406834/1100"
+        },
+        {
+          "quantity": "",
+          "description": "CVM",
+          "total": "None"
+        },
+        {
+          "quantity": "",
+          "description": "Amount",
+          "total": "28.00 GBP"
+        },
+        {
+          "quantity": "",
+          "description": "AS-Proc-Code = 00 075 00/Capt.-Ref.=",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ac84d88-0785-4667-99dc-1bfbc3319d8e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nRegister your BPme Rewards card at\nBPmeRewards.co.uk for 500 points",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "hviX0gb3PCcgtskDxhPw"
+}

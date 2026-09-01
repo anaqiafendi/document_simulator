@@ -1,0 +1,152 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-18T06:48:44.621Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "description": "This receipt is issued by Razz Coffee Nongki and identifies the restaurant as Jln. Sisingamangaraja No. 185, Indonesia. The receipt is a temporary bill (Tagihan Sementara) and contains the bill number, customer name, transaction date and time, and an itemized list of food orders. The order includes Kentang Goreng, Nugget, RAMADHAN 1 (Ayam Mentega), RAMADHAN 2 (Nasi Burung with Sambal Ijo), and Sosis. The financial section records the subtotal and final total in Indonesian Rupiah (Rp). The footer thanks the customer for visiting and indicates that the receipt was generated using the Youtap point-of-sale platform. The overall layout is representative of an Indonesian café or restaurant POS receipt, combining temporary billing, menu itemization, and transaction reconciliation within a compact hospitality receipt format.",
+  "name": "Razz Coffee Receipt",
+  "slug": "Razz-Coffee-Receipt",
+  "sections": [
+    {
+      "id": "ff7fcd51-c24c-433d-a07e-8aeaef4eb232",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Razz coffee nongki\nJln Sisingamangaraja no 185\n6282168799810\n ---Tagihan Sementara---\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d157251b-1825-44c6-9555-ad198508e7ee",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "No. Tagihan",
+          "total": "7"
+        },
+        {
+          "quantity": "",
+          "description": "Tagihan",
+          "total": "RISKA DALAM"
+        },
+        {
+          "quantity": "",
+          "description": "Tempat",
+          "total": 10
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e53d64e7-5a08-43f5-8178-282371ae8594",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Waktu              16:26, 27/03/25",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4d8425ab-84b4-4a35-b3e2-f050d1ce957c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1x Kentang goreng",
+          "total": "\nRp12.000"
+        },
+        {
+          "quantity": "",
+          "description": "1x Nugget ",
+          "total": "Rp12.000"
+        },
+        {
+          "quantity": "",
+          "description": "3x RAMADHAN 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "AYAM MENTEGA   ",
+          "total": "Rp84.000"
+        },
+        {
+          "quantity": "",
+          "description": "4x RAMADHAN 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "NASI BURUNG",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SAMBAL IJO  ",
+          "total": "Rp112.000"
+        },
+        {
+          "quantity": "",
+          "description": "1x Sosis   ",
+          "total": "Rp12.000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "124d24c3-e88e-4d8a-88ef-df9efa25f0d2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Subtotal                  Rp232.000\n------------------------------------\n\nTOTAL                     Rp232.000",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6da4fde-6cfb-4369-a449-c73e1929a2a6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTerima kasih datang nongki lagi\nke Razz yaa\n-------------------------------------\n------------------------------------\n\n Powered by youtap.id\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92b3480e-cdf6-4355-b19b-80343cbde1f8",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F70f0f9b2-ceb8-4a10-b9da-c933e6a73a00-image.jpg?alt=media&token=6549c5c5-d6fe-4089-b0a6-09f776995c85",
+      "size": 150,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "donfc26xnNuRxemk2pB2"
+}

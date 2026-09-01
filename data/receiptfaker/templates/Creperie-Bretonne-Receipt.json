@@ -1,0 +1,102 @@
+{
+  "name": "Creperie Bretonne Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "parentName": "Office Depot",
+  "isParent": true,
+  "description": "This restaurant receipt from Creperie Bretonne documents a dine-in transaction processed in Sainte-Maxime, France. The receipt includes restaurant address details, telephone number formatting, RC business registration references, table number formatting, guest count metadata (“COUVERTS”), dining room references (“SALLE”), and timestamp information. The POS structure contains subtotal presentation, VAT calculation formatting (“TVA 10%”), total amount presentation in euros, and remaining balance due formatting (“RESTE A PAYER”) aligned in standard French restaurant thermal receipt formatting. Additional receipt elements include historical euro-to-FRF conversion references, customer farewell messaging, customer name references, and receipt numbering formatting near the footer. The layout reflects a standard French crêperie thermal receipt with localized VAT accounting and dine-in service presentation.",
+  "backgroundCrumpled": false,
+  "slug": "Creperie-Bretonne-Receipt",
+  "createdAt": "$D2026-05-27T18:18:45.968Z",
+  "textColor": "#101828",
+  "currency": "",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "sections": [
+    {
+      "businessDetails": "\n83120 St Maxime\nTEL.04.94.54.16.98\nRC481358406\n",
+      "type": "HEADER",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "2ce2ab20-a07c-4fd9-8e32-8d4750372f87",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F82b53ae4-c82d-4066-a4ad-9f812441da33-image%20(16).jpg?alt=media&token=14eaf630-8359-42e1-9f63-fe1cd46fef04",
+      "size": 258,
+      "date": "$undefined"
+    },
+    {
+      "totalText": "",
+      "id": "b472afb0-1e99-4f22-9ec5-fdc2970a0578",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "totalDivider": false,
+      "total": "",
+      "totalLines": [
+        {
+          "value": "\n22.90",
+          "title": "\nTOTAL   EUR"
+        },
+        {
+          "value": "2.08",
+          "title": "TVA 10%"
+        },
+        {
+          "title": "RESTE A PAYER",
+          "value": "22.90"
+        }
+      ],
+      "type": "ITEMS",
+      "totalDividerType": "DASHES",
+      "items": [
+        {
+          "total": "0",
+          "description": "TABLE   103   COUVERTS   2",
+          "quantity": ""
+        },
+        {
+          "total": "SALLE",
+          "description": "PROFORMA                       ",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "\n\n\nLUN 14 AOU 2017   13:53\n",
+          "quantity": ""
+        },
+        {
+          "total": "9.30",
+          "description": "Complète",
+          "quantity": 1
+        },
+        {
+          "total": "5.70",
+          "description": "Nutella",
+          "quantity": 1
+        },
+        {
+          "total": "3.90",
+          "description": "Limonade",
+          "quantity": 1
+        },
+        {
+          "total": "4.00",
+          "description": "Coca Zéro",
+          "quantity": 1
+        }
+      ],
+      "date": "$undefined"
+    },
+    {
+      "alignment": "CENTER",
+      "id": "c738ea51-e594-4440-8929-88c20f425d84",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "custom": "\n\nA BIENTOT\n\n\nFrancois D.                 NUMERO F",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "2E9JBmrD4OGF5MKiRHla"
+}

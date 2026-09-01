@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Culver’s Receipt",
+  "description": "This receipt is issued by Culver’s restaurant location #814, displaying the store name, street address, city/state location, and a contact telephone number at the header. The receipt indicates a Dine In order and includes POS identifiers such as the guest number, the employee serving the transaction, and the date and time stamp formatted with weekday and timestamp. Below the item section, the receipt presents a financial summary with subtotal, tax, total, and tender paid fields. Promotional messaging follows the financial section, including a survey invitation with a survey code, a limited-time redemption notice, and additional promotional text. The receipt concludes with a guest queue number and a brief closing message typical of quick-service restaurant POS thermal receipts.",
+  "slug": "Culver's-Receipt",
+  "createdAt": "$D2026-03-14T12:03:02.243Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Culver's #814\n4900 W. Valley Rd.\nMcCook, NE 69001\n308-345-2800\n\nBrett Stewart served by\nAug 20 2023 Sunday 1:45 PM\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "66b1e9b5-1163-49e6-a410-e4ef98f9a78a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "        Dine In\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f93c431e-f183-4f56-9ee7-5977585f0513",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n1 KIDS DONUT MAKERS\n\n  1 SIDE\n    2 TOPPINGS\n      Vanilla Butter\n      Marshmallow\n\n  1 TOAST\n  1 TOAST",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6b95ab9-883b-4d1c-a356-e6fd05dc0c2e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SUBTOTAL                    5.49\nTAX                          .38\nTOTAL                       5.87\nTEND PAID   ",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a60ffd6-00fd-4363-aadb-b0ebf90b845b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFREE SINGLE DISH OR CAKE CONE\nWITH YOUR NEXT PURCHASE\n\nVisit tellculvers.com\nEnter survey code:\n0228-2809-2008-0306",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "19513f2d-c7cb-42b6-88df-cb972803d064",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThis offer expires\nin 3 days\n\nStrawberry Cheesecake\nTry a Chicken Tender Value Basket!",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "77c2c831-caaa-46e8-a699-0d561b30c9c0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "GUEST 111\n\nHave a nice day",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FfRjd76jY5cdfPFGy0Bhh%2FfRjd76jY5cdfPFGy0Bhh-07d04ec4-b0ce-43c6-abf7-3b6bd087cf59.png?alt=media&token=5c74884d-ce73-4869-ad5e-b2ed7e768917",
+  "published": true,
+  "id": "fRjd76jY5cdfPFGy0Bhh"
+}

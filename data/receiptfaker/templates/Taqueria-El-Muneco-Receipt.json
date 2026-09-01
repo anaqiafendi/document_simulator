@@ -1,0 +1,123 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "description": "This receipt is issued by Taqueria El Muneco #2 and identifies the restaurant at 2009 W Mile 3 Road, Mission, Texas 78573. The header contains the restaurant name, street address, telephone number, transaction date and time, and order number. The receipt documents a dine-in order containing a Sincronizada, Fajita Tacos, Poncho, Coca-Cola, Coca Zero, Sprite, bottled water, Dr Pepper, Hot Dog Sencillo, and Aguacate. The financial section records a subtotal of $70.50, tax of $5.82, and a final total of $76.32. The customer paid in cash, tendering $77.00 and receiving $0.68 in change. The footer contains a receipt code and concludes with a customer appreciation and return message.",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T14:39:24.986Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "published": true,
+  "name": "Taqueria El Muneco Receipt",
+  "slug": "Taqueria-El-Muneco-Receipt",
+  "sections": [
+    {
+      "id": "9e8fbe96-9858-4dc8-b325-95adbbdfd08e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 242,
+      "businessDetails": "TAQUERIA EL MUNECO #2\n2009 W MILE 3 RD\nMISSION, TX 78573\n(956) 536-9422\nFeb 24, 2026 en 8:27 PM\n\nOrder #5044\n\n5",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a7893a8-aeeb-4374-8bb0-5bebf268544b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Dine In\nMesero",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b052c599-5966-4341-98ff-b674a799395f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSincronizada",
+          "value": "\n12.50"
+        },
+        {
+          "title": "Taco Fajita ORD    2 x $12.00",
+          "value": "24.00"
+        },
+        {
+          "title": "Taco Fajita ORD ",
+          "value": "12.00"
+        },
+        {
+          "title": "Ponche",
+          "value": "3.00"
+        },
+        {
+          "title": "Coca Cola",
+          "value": "2.00"
+        },
+        {
+          "title": "Sprite            2 x $2.00",
+          "value": "4.00"
+        },
+        {
+          "title": "Botella Agua",
+          "value": "1.50"
+        },
+        {
+          "title": "Dr.Pepper",
+          "value": "2.00"
+        },
+        {
+          "title": "Hot Dog Sencillo   2 x $3.00",
+          "value": "6.00"
+        },
+        {
+          "title": "Aguacate ",
+          "value": "1.50"
+        },
+        {
+          "title": "\nSubtotal ",
+          "value": "\n70.50"
+        },
+        {
+          "title": "Tax",
+          "value": "5.82"
+        },
+        {
+          "title": "Total",
+          "value": "76.32"
+        },
+        {
+          "title": "\nCash",
+          "value": "\n76.32"
+        },
+        {
+          "title": "Total Tender",
+          "value": "77.00"
+        },
+        {
+          "title": "Change",
+          "value": "0.68"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88cd3f4f-8317-4f7d-aa1a-f6b4092bd09a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nReceipt Code: 0054696523097\n\nThank you for visiting!\nCome back soon!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "C0eH4w1ZTzK8KlKIsnEp"
+}

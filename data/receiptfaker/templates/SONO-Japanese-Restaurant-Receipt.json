@@ -1,0 +1,157 @@
+{
+  "createdAt": "$D2026-02-11T11:50:20.534Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "fc644526-4d48-46c6-b45f-b2fc8b0088c8",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FBOsL8RIJT9OUkqQKQztS4bMsl1w2%2Fe5dadbda-d5f7-490a-b0d4-cad3fca9a946-tempImage5RwMN6.png?alt=media&token=c317a23e-2819-4109-976c-54dcd47a5492",
+      "size": 155,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8538a80a-0bfb-4043-a67c-ad0ded28c4e4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 66,
+      "businessDetails": "SONO \nJapanese Restaurant \nPortside Brisbane\nLevel 1, Portside Wharf\n39 Hercules St\nHamilton QLD\n(Opposite Dendy Cinemas)\n(07) 3268 6655\ncontact@sonorestaurant.com.au",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1c81e779-bc23-4ee1-8fdc-d160c627b338",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "4/02/2026, 6:46:54 pm",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "f55adf34-51de-4457-bb56-4c8bbac69871",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Sakura Teppanyaki",
+          "total": "110.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "110.00"
+        },
+        {
+          "title": "Includes GST of",
+          "value": "11.00"
+        }
+      ],
+      "total": "110.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "761e22f5-da29-436f-be91-48297b3a42c8",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "CREDIT"
+        },
+        {
+          "title": "Card entry",
+          "value": "Tap"
+        },
+        {
+          "title": "Date/time",
+          "value": "4/02/2026, 6:46:54 pm"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        },
+        {
+          "title": "Approval Code",
+          "value": "0458283"
+        },
+        {
+          "title": "Batch:",
+          "value": "018750"
+        },
+        {
+          "title": "INV:",
+          "value": "28754"
+        },
+        {
+          "title": "STAN:",
+          "value": "038576"
+        },
+        {
+          "title": "RRN:",
+          "value": "141242038529"
+        },
+        {
+          "title": "Sale: AUD",
+          "value": "$$110.00"
+        },
+        {
+          "title": " ",
+          "value": " "
+        },
+        {
+          "title": "ARQC:",
+          "value": "F18295496AA770DA"
+        },
+        {
+          "title": "APSN:00",
+          "value": "ATC:0087"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "SONO Japanese Restaurant Receipt",
+  "description": "This receipt template represents a dine-in transaction from SONO Japanese Restaurant located at Portside Wharf in Hamilton, Queensland, Australia. It features the SONO logo with the establishment year (“ESTD. 1997”) at the top, followed by the full restaurant address, contact phone number, and email address. The receipt includes transaction date and time, an itemized listing of menu selections, subtotal, GST inclusion note, and total amount. Payment details show a credit card transaction with masked card number, card entry method (tap), authorization and approval codes, reference number, terminal identifiers, and batch information. This template is suitable for restaurant receipt libraries, mock POS dining transactions, reimbursement documentation samples, and receipt generator tools requiring realistic Australian restaurant formatting and structure.",
+  "slug": "SONO-Japanese-Restaurant-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FfvzGeW3tHJfjQYShjtpy%2FfvzGeW3tHJfjQYShjtpy-c1e154fe-d074-4158-8068-5600e16408c2.png?alt=media&token=ded57a8f-80b7-4363-9997-ce7101d13fdc",
+  "published": true,
+  "id": "fvzGeW3tHJfjQYShjtpy"
+}

@@ -1,0 +1,102 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Kooples Receipt",
+  "description": "This receipt is issued by The Kooples for the Collins Lane store in Melbourne, Australia, and includes full store identification such as address, phone number, and ABN. It contains POS identifiers including docket number, cashier (served by), terminal reference (Frontline), and a timestamped transaction. The receipt includes a structured product description section, followed by a financial summary showing total including tax and tax amount. Payment details are indicated under a dedicated section, and the receipt includes regulatory tax notation, a barcode section, and a detailed return policy outlining conditions for exchanges and refunds. The format reflects a fashion retail POS tax invoice with structured sections, compliance details, and policy messaging.",
+  "slug": "The-Kooples-Receipt",
+  "createdAt": "$D2026-03-27T19:00:04.685Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd26012fd-2d79-4c70-9f03-ff81eab6987d-image%20(20).jpg?alt=media&token=46fcaf12-edbd-47a6-b7b9-e57aa190e033",
+      "size": 236,
+      "businessDetails": "TAX INVOICE\n\n51 COLLINS LANE\nSHOP 001 GROUND FLOOR\n260 COLLINS STREET\nMELBOURNE VICTORIA 3000\nPh. 03 96534999\nABN 93 609 435 436",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e1b620d-1db9-4541-8db0-5ffa5f69f2dc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Docket No. Served by  Till No. Date/Time\n01000005382 Olympia Frontline 5/10/2017 12:55 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Customer Details:\nAccount: KOOPLES - KOOPLES\nWHITE ANDREW",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f1c3bc0-3413-4ecf-a4e2-e7805f8cfdcf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Product Description:\nWASHED LEATHER SNEAKERS BLACK 45\n#ACH1407 148.00 x 1 units          148.00\n\nFreight Charge\nFREIGHT 0.00 x 1 units               0.00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "06ebc3cd-573f-46de-af2e-2534ac16d8ee",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Total Units: 2\n\nTotal Inc Tax            $148.00\nTax                      $13.45",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "82ce99c7-41e7-4b6a-bc28-92f5b0930d8a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Payment Details:\nCustOrd/Online           148.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fbb76b1-4e64-4398-8b36-87a40c22adfd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "* PRICES IN TAXABLE ITEMS *",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf8a45f5-7d20-4829-8309-5e848aa767a5",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "31581cf4-f974-43fc-a934-aee73479a3c0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Please keep your receipt as proof of purchase for your\nnew item. We are happy to take it back for credit or\nexchange within 7 days of purchase. We accept items in\nnew condition with original tags attached.\n\nNo refunds unless required by law. No refunds or\nexchange on sale items unless faulty or required by law.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FplglSbokSl43zLuxPg6Q%2FplglSbokSl43zLuxPg6Q-2b27fdde-666e-4401-838e-3b466c69f81a.png?alt=media&token=fadbcdbd-8132-47c4-b842-cc1e23ab8833",
+  "published": true,
+  "id": "plglSbokSl43zLuxPg6Q"
+}

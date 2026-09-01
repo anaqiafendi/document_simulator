@@ -1,0 +1,216 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T09:54:54.326Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "acdb46eb-5312-4710-bd45-2ea00d0fb054",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F66b06c36-709b-471c-8bce-fd90f2ef52f1-image%20(3).jpg?alt=media&token=555a5e4e-88da-4970-9c21-4bb9ce8023f7",
+      "size": 268,
+      "businessDetails": "2320 E. BELL ROAD\nSUITE 120\nPHOENIX, AZ 85022\n(480)219-7820\nOPEN DAILY 10:00AM TO 8:00 PM\nVISIT US AT: WWW.PATELBROS.COM\nAny comments, questions, or concerns?\nPlease email:info@patelbros.com\n10/18/2025  3:13:55 PM CASHIER 101",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "70142f15-076f-4ec8-a8c3-0a020af5703c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nRefund key",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "DAL & BEANS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "3 @ $4.49ea",
+          "total": "F  ($13.47)"
+        },
+        {
+          "quantity": "",
+          "description": "DAL & BEANS",
+          "total": "F  ($4.49)"
+        },
+        {
+          "quantity": "",
+          "description": "*Approved by: Temp Manager",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92e6da49-5063-4092-a52e-28cc8cc748fb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n($17.96)"
+        },
+        {
+          "quantity": "",
+          "description": "Visa",
+          "total": "($17.96)"
+        },
+        {
+          "quantity": "",
+          "description": "EPS SEQ#: 014745",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Item count: -4",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "10/18/2025  3:13:55 PM",
+          "total": "CASHIER 101"
+        },
+        {
+          "quantity": "",
+          "description": "Trans:1347",
+          "total": "Terminal:050108015-054001"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "26e53f9d-e743-426c-afcc-c687f732d222",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n2320 E. BELL ROAD\nSUITE 120\nPHOENIX, AZ 85022\n(480) 219-7820\nREFUND",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b69e124e-dcaa-4525-b01f-693dc15173cf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nMID",
+          "total": "\n542929803501915"
+        },
+        {
+          "quantity": "",
+          "description": "TID",
+          "total": "813550"
+        },
+        {
+          "quantity": "",
+          "description": "\n10/18/2025",
+          "total": "\n15:14:25"
+        },
+        {
+          "quantity": "",
+          "description": "Entry Method",
+          "total": "Contactless"
+        },
+        {
+          "quantity": "",
+          "description": "Seq #: 014745",
+          "total": "028050"
+        },
+        {
+          "quantity": "",
+          "description": "Approval Code",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nCHASE VISA",
+          "total": "\nXXXXXXXXXXXX0430"
+        },
+        {
+          "quantity": "",
+          "description": "CARD #",
+          "total": "A0000000031010"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "00000000"
+        },
+        {
+          "quantity": "",
+          "description": "TVR",
+          "total": "06021203A00000"
+        },
+        {
+          "quantity": "",
+          "description": "IAD",
+          "total": "0000"
+        },
+        {
+          "quantity": "",
+          "description": "TSI",
+          "total": "571BA9393BF3D716"
+        },
+        {
+          "quantity": "",
+          "description": "AAC",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "USD$ 17.96"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4dadf607-dfb8-4bb9-aed5-4d80562d96f5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping with us!\nWe appreciate your business.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Patel Brothers grocery retail refund receipt issued from the store at 2320 E. Bell Road, Suite 120, Phoenix, Arizona 85022. The header displays the Patel Brothers branding and slogan, followed by the full store address, telephone number, daily operating hours, website, customer-service email, transaction date and time, and cashier identifier. The receipt is specifically marked as a refund and contains refund-key entries, manager approval information, a negative item count, and a clearly separated refund total. The lower POS section records the transaction number, terminal identifier, EPS sequence number, cashier reference, and payment-processing details. It also includes a repeated store address, refund notice, merchant and terminal fields, contactless entry method, approval information, masked card number, and additional card-processing identifiers.",
+  "name": "Patel Brothers Receipt",
+  "slug": "Patel-Brothers-Receipt",
+  "published": true,
+  "id": "UQ4o3zharZoucyr7mqEs"
+}

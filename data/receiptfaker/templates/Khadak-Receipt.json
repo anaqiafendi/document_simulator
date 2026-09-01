@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "slug": "Khadak-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T18:24:52.902Z",
+  "description": "This receipt template originates from Khadak, an Indian dining restaurant in Dubai, United Arab Emirates. The header includes the restaurant branding, draft receipt designation, VAT registration number, transaction identifiers, statement reference, and transaction date and time. The dining section records the table number and cover count, followed by an itemized order area. The financial summary displays the amount due in AED and includes a notice indicating that no payment has been received. The footer contains a customer appreciation message along with the restaurant location, license number, and post office box information. The format is representative of a full-service restaurant point-of-sale receipt generated prior to payment settlement.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Khadak Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "686ba413-69e6-4640-8978-550b9de215dc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdc55bd3c-03d3-4632-b032-f0edb53254eb-image%20(9).jpg?alt=media&token=3240b815-a0a9-462e-914b-7ae15bd90790",
+      "size": 251,
+      "businessDetails": " * DRAFT RECEIPT #1 *\n\nAll day Indian dining\nVAT:104552878100003\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7ac3864-81b7-4cf8-9171-1586577d034a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MAIN/656240-Krishna",
+          "total": "AQ24663.1357"
+        },
+        {
+          "quantity": "",
+          "description": "Statement N924663",
+          "total": "29/11/2024, 20:45"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2b36ed05-2486-4ad3-b79b-299e378dfc6c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n10-36 & 73-77. Table 33\n2 covers\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "34575bdd-8e41-4182-9b1d-ca6b6f9cdd39",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MonViso Sparkling (sml)",
+          "total": "18.00"
+        },
+        {
+          "quantity": "",
+          "description": "Broccoli Bhel",
+          "total": "38.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tangra Prawns",
+          "total": "52.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tarleli Masa",
+          "total": "98.00"
+        },
+        {
+          "quantity": "",
+          "description": "Shabrati Nihari",
+          "total": "68.00"
+        },
+        {
+          "quantity": "",
+          "description": "Butter Naan",
+          "total": "12.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cucumber Raita",
+          "total": "18.00"
+        },
+        {
+          "quantity": "",
+          "description": "Bhuni Sabzi",
+          "total": "28.00"
+        },
+        {
+          "quantity": "",
+          "description": "Warqi Paratha",
+          "total": "18.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "efe42fd2-1546-4912-a625-11a3ed961933",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Amount due               AED 370.00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8cfa379e-e742-44ff-8390-7eb0e9ebfeac",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "No payment received",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d8453827-252f-4000-8eee-5f1d5cbaf0ee",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for your patronage!\nKhadak, Dubai, U.A.E.\nLightspeed (K) P4 44.7.22553",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "LNEa5MhrcPtLl04jsZYz"
+}

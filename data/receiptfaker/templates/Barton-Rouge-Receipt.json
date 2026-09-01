@@ -1,0 +1,215 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T16:16:34.299Z",
+  "description": "This restaurant receipt from Barton Rouge, located at 26 Excise Street, Liverpool, L2 3PH, contains venue contact information including telephone number, website address, and email address. The receipt includes transaction metadata such as date and time, staff identifier (Katy), device designation (Restaurant), and table reference (A1). Financial sections include subtotal, total amount, total quantity count, and a tax summary showing applicable tax categories and total tax collected. The receipt also contains a barcode and an internal receipt reference code. The format is representative of a UK restaurant POS system utilizing table management, staff tracking, tax reporting, and electronic order processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Barton Rouge Receipt",
+  "slug": "Barton-Rouge-Receipt",
+  "sections": [
+    {
+      "id": "9eb1647d-1af7-4aa4-a758-796d17ab9bac",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc112331e-e780-44b5-90f0-fc342d493e84-image%20(5).jpg?alt=media&token=e8b175f4-2616-4f55-b73d-462816a286f1",
+      "size": 234,
+      "businessDetails": "Order Details\nBaron Rouge\n26 Exchange Street East\nLiverpool\nL2 3PH\n0151 227 1600\nwww.baronrouge.co.uk\ninfo@baronrouge.co.uk\n\n\nItems:\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "909b5cb4-3442-45c4-9121-fd686f297893",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Product",
+          "description": "   Price    Qty",
+          "total": "Total"
+        },
+        {
+          "quantity": "Central Monet",
+          "description": "     £18.95 1",
+          "total": "£18.95"
+        },
+        {
+          "quantity": "Sauvignon Blanc",
+          "description": "   £2.40 1",
+          "total": ""
+        },
+        {
+          "quantity": "Bottle",
+          "description": "",
+          "total": "£2.40"
+        },
+        {
+          "quantity": "Pineapple Half",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "Dips",
+          "description": "              £2.10 1",
+          "total": "£2.10"
+        },
+        {
+          "quantity": "Papadum Basket",
+          "description": "    £2.40 1",
+          "total": "£2.40"
+        },
+        {
+          "quantity": "Jhinga Nisha",
+          "description": "      £8.35 1",
+          "total": "£8.35"
+        },
+        {
+          "quantity": "Rocky the rooster",
+          "description": " £5.95 1",
+          "total": "£5.95"
+        },
+        {
+          "quantity": "Punjabi Kukkar",
+          "description": "    £11.95 1",
+          "total": "£11.95"
+        },
+        {
+          "quantity": "Chole",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "Boti Kebab",
+          "description": "         £14.35 1",
+          "total": "£14.35"
+        },
+        {
+          "quantity": "Aloo",
+          "description": "",
+          "total": "£5.40"
+        },
+        {
+          "quantity": "Raita saag aloo",
+          "description": "     £5.40 1",
+          "total": "£9.55"
+        },
+        {
+          "quantity": "1 Mix Mixed Veg",
+          "description": "     £2.50 1",
+          "total": "£3.00"
+        },
+        {
+          "quantity": "Rice",
+          "description": "                £1.00 1",
+          "total": "£5.40"
+        },
+        {
+          "quantity": "Coca Cola Half",
+          "description": "",
+          "total": "£3.00"
+        },
+        {
+          "quantity": "Total Qty: 12",
+          "description": "       £2.40 1",
+          "total": "£2.40"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c06177f9-34ea-406f-89b9-4a702fd4b2a5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTotal Qty: 12\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "35a90680-4291-4e10-9f56-9ea438d17be9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Sub Total",
+          "total": "£86.80"
+        },
+        {
+          "quantity": "",
+          "description": "Date",
+          "total": "25/07/2017 21.48:41"
+        },
+        {
+          "quantity": "",
+          "description": "Staff",
+          "total": "Katy"
+        },
+        {
+          "quantity": "",
+          "description": "Device",
+          "total": "Restaurant"
+        },
+        {
+          "quantity": "",
+          "description": "Table",
+          "total": "A1"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£86.80"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b0c4ba1b-9fce-4cdb-8445-75ed11a02945",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTax Summary\n---------------\n\n\nName   Perc.  Tax\n 20VAT  20%  £10.50\nNoTax  0%  £0.00\nTotal     £10.50\n\nVAT Number\n------------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "93ab7a4e-5137-4c7d-8f84-e19dbd7158eb",
+      "type": "BARCODE",
+      "size": 83,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ed200bf1-6935-4966-97de-2b325d376f1f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "RECA0DM0J5MJG-+CQ0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Pvdr0rDGk6CyBMXp6hmq"
+}

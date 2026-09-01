@@ -1,0 +1,93 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Books-A-Million Receipt ",
+  "description": "This receipt-style logo presents the “BOOKS·A·MILLION®” brand name in bold, uppercase lettering with centered dot separators between each word segment, printed in solid black on a white background. The typography is clean and evenly spaced, reflecting standard thermal receipt printer output. A registered trademark symbol (®) appears at the upper right of the brand name. Beneath the main logo, a secondary line displays the phrase “shop online at booksamillion.com” in smaller, lowercase text, aligned centrally. The overall format is minimal and high-contrast, consistent with POS receipt branding used in bookstore retail environments.",
+  "slug": "Books-A-Million-Receipt",
+  "createdAt": "$D2026-03-24T13:18:18.398Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F54b6e037-6a29-4941-9cd5-4a97fb35e2d4-image%20(6).jpg?alt=media&token=2a5422b1-4dc3-47d6-92ff-6724b216cc49",
+      "size": 236,
+      "businessDetails": "Store # 153\nUS 64 East & 2nd Circle\n North Little Rock, AR 72117\n 501-945-1848",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Date  Description  QTY PRICE TOTAL\n\n10/24/23    MAGAZINE TP          1    15.00   15.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "612e553b-3e35-40c8-9b91-14caf2b2c743",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Sub Total          15.00\nTax                 1.28\nTotal              16.28\n\nCash               20.00\nChange              3.72",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "85a35bb8-d830-4cf0-bb3e-cfa824ba950d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Acct ************5534\nAuth 438594",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0fbf10a3-2d13-47c7-a252-6ec75ea4c36a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Review your experience at www.tellbam.com or on your receipt or in the BAM app\nEnter the 15 digit code between 7 days \n*** SURVEY ENTRY CODE ***\n0652 1423 011 01586\n\nSee www.tellbam.com for complete contest rules\n\nYour Discount Code: Save $1.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "33d03cf3-dbaf-44af-8442-65b749b203d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Associate: Alyssa   Reg: 50411\n\nTran: 9856  Sls: 153  Rg: 50411  Till: 2   10/24/23 20:16",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "622fb463-049b-4bde-a6d9-7b7f0d404bf4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "For returns, bring this item and this receipt back\nwithin 30/60/90 days. Some items cannot be returned if\nopened.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "47ff184b-06cb-4c4a-beb8-4fb49534da1d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Treat Yourself\nTo Something Sweet\n\nAll Godiva is 20% Off\nDec. 1st - Dec. 8th!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FWGLaOnNYzW2kqM4trwXt%2FWGLaOnNYzW2kqM4trwXt-996cacda-2d2a-4ea9-a94c-cdf14dd3a30a.png?alt=media&token=c575c907-57c4-498d-957c-e623735253cd",
+  "published": true,
+  "id": "WGLaOnNYzW2kqM4trwXt"
+}

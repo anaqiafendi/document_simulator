@@ -1,0 +1,136 @@
+{
+  "isParent": true,
+  "name": "Media Markt Receipt",
+  "parentName": "Office Depot",
+  "backgroundCrumpled": false,
+  "sections": [
+    {
+      "type": "HEADER",
+      "size": 275,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6d590bba-c942-490d-bb79-ee4d5edb432c-image%20(16).jpg?alt=media&token=4693dfbe-6465-46dd-b3a2-06d5afd41a09",
+      "id": "df350f1f-9ae0-485b-b90c-5eb0b489c62d",
+      "alignment": "CENTER",
+      "bottomDivider": true,
+      "businessDetails": "FACTURA SIMPLIFICADA\nMEDIA MARKT ZARAGOZA PUERTO VENECIA\nC/ TEATRO MALIBRAN Nº 18-20\n50007 – ZARAGOZA – TEL. 976720400\nCIF A63905855",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "items": [
+        {
+          "description": "\n60150618",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "description": "Venta al contado Contabilización",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "699.1170389",
+          "total": ""
+        },
+        {
+          "description": "EP 9840 DERMAPERFECT",
+          "total": "349,00 b",
+          "quantity": ""
+        },
+        {
+          "description": "1144676",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "G+ 5 AÑOS 300-500 GP",
+          "total": "49,00 a"
+        },
+        {
+          "description": "Nº de Poliza: 00293.1023431",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "---------\n"
+        },
+        {
+          "quantity": "",
+          "description": "Total EUR",
+          "total": "398,00"
+        },
+        {
+          "quantity": "",
+          "description": "Efectivo EUR",
+          "total": "400,00"
+        },
+        {
+          "description": "Cambio EUR",
+          "total": "-2,00",
+          "quantity": ""
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "total": "",
+      "totalLines": [],
+      "totalText": "",
+      "id": "b301e99e-0e9a-4259-8427-2738c6974037",
+      "type": "ITEMS",
+      "totalDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "alignment": "LEFT",
+      "custom": "\n\nIVA incluido",
+      "id": "abae6b64-3ed1-424e-84d5-2baa3e3cbd24",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "66aab948-65a6-4f08-865d-4010fbaac27f",
+      "custom": "\nembalaje en perfecto estado Producto incompleto o danado: 24 horas a partir de fecha del ticket. Libros: 72 horas para el cambio. Software abierto, cambio por el mismo.\n\n\n\n51225 E279 110        26/08/13 12:50",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "type": "BARCODE",
+      "length": 500,
+      "size": 82,
+      "id": "2de3f521-03e1-4ab9-baae-848e4180c4d5",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "custom": "5 1 2 2 5 0 0 2 9 3 1 1 0 2 0 1 3 0",
+      "id": "82f6f93e-9531-42e8-bdd9-c2075651f5af",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This electronics retail receipt from Media Markt documents a cash purchase transaction processed at the Zaragoza Puerto Venecia location in Zaragoza, Spain. The receipt includes store identification details, full address information, telephone number formatting, Spanish tax registration information (CIF), transaction references, warranty policy identifiers, and timestamp metadata. The POS structure contains total amount presentation in euros, cash tendered formatting, change due calculations, and VAT-inclusive accounting aligned in standard Spanish electronics retail thermal receipt formatting. Additional receipt elements include extended warranty references, insurance policy numbering, return policy notices, product exchange conditions, software replacement restrictions, barcode formatting, and customer appreciation messaging near the footer. The layout reflects a standard Spanish consumer electronics retail thermal receipt with localized VAT accounting and return policy presentation.",
+  "numberFormat": "LEFT",
+  "createdAt": "$D2026-05-31T12:27:35.258Z",
+  "textColor": "#101828",
+  "backgroundType": "CRUMPLED_1",
+  "fontType": "MERCHANT_COPY",
+  "slug": "Media-Markt-Receipt",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "imageUrl": "",
+  "currency": "",
+  "published": true,
+  "id": "LEFkqyWWTY5sZWuUpiIy"
+}

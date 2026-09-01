@@ -1,0 +1,141 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-03-01T17:31:17.175Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_4",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 217,
+      "businessDetails": "Buffalo Wild Wings\nStore# 3237\n9415 Broadway St. #123\n281-854-2929",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "118b8121-62f6-4b3c-887a-6979e21ce17f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Server: Joshua     09/01/2018\nTable 116/1        5:22 PM\nGuests: 1\n\nOrder Type:  DINE IN    #20034\n\nSeat 1\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5d870d94-9ec3-4580-85eb-62b20f7efc4d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nGet out the door quicker with our new CakePay app.\nDownload today!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "add6dac4-f248-4a76-83c4-03680c8fbe59",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "101d486e-2db0-49a4-afe5-6f07e57d973e",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ee302f8-63c7-47c2-9037-63f2cfcba819",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Order Takeout Online\nwww.buffalowildwings.com\nBLAZIN' REWARDS\n\nDon't leave points on the table! Download\nthe Blazin' Rewards Mobile App and scan\nthe code below or enter your claim number\nto receive credit for your visit.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Buffalo Wild Wings Receipt",
+  "slug": "Buffalo-Wild-Wings-Receipt",
+  "description": "This receipt is issued under the Buffalo Wild Wings brand and identifies Store #3237 located at 9415 Broadway St. #123, with phone number 281-854-2929. It includes server identification (Joshua), table number 116/1, guest count, order type marked as DINE IN, and order number #20034. The receipt displays a timestamp formatted as 09/01/2018 at 5:22 PM. A financial summary section includes Subtotal, Tax, Total, Cash, and Change lines. Promotional messaging encourages faster checkout via the CakePay app and references the Blazin’ Rewards program, including online ordering at www.buffalowildwings.com\n. The format reflects a casual dining restaurant POS system with table service tracking and loyalty program integration.",
+  "metatitle": "Warehouse Receipt",
+  "metadesc": "realistic Costco warehouse receipts with custom items, prices, store details, and membership info for returns or expense tracking",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FlQ053C4VTnSH8Wo6b8M2%2FlQ053C4VTnSH8Wo6b8M2-51758679-307b-4d1c-9bf3-424b0dbe7c85.png?alt=media&token=885b23dd-9050-4c5d-b570-78f70c2cbd56",
+  "published": true,
+  "id": "lQ053C4VTnSH8Wo6b8M2"
+}

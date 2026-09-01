@@ -1,0 +1,173 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-29T14:38:58.896Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F596f59db-2fe3-415c-88d1-d123859b8b1c-7-eleven-3-logo-black-and-white.png?alt=media&token=e6374932-e1bb-4722-b165-a4e95a0bece9",
+      "size": 253,
+      "businessDetails": "3992 HAVANA ST\nDENVER CO 80239\n3033719329\nSTORE#: 35053",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "UNIT ID: 000236759 TERM ID: 22",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "939f75b0-ade2-45c5-81af-3c059381c4ab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANKS FOR SHOPPING\n7-ELEVEN",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f1ef3813-eadb-4cc9-bd00-b0e7e41b7dfd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "--== SALE TRANSACTION ==--",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Big Gulp (32 oz)",
+          "total": "2.49"
+        },
+        {
+          "quantity": "1",
+          "description": "Hot Dog",
+          "total": "1.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Doritos (9.75 oz)",
+          "total": "3.49"
+        },
+        {
+          "quantity": 1,
+          "description": "AA Batteries (12-pack)",
+          "total": "6.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "14.96"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "1.23"
+        }
+      ],
+      "total": "16.19",
+      "totalText": "TOTAL DUE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb7cbaf7-8bc1-4be1-8d94-4f21f037484e",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SALE\nBatch: 11 Seq Num: 2\nTerm ID: 1\nWorkstation ID: 1\nYour opinion counts! Enter to Win 1 of 50 $25 gas gift cards!!!\nProvide feedback at www.gasvisit.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a2dd6dbb-a0bd-4ea8-b551-a7d22af78722",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANKS FOR SHOPPING HERE\nWE WILL SEE YOU SOON",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "7-Eleven Receipt",
+  "slug": "7-Eleven-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2Fc8UZJdljGF94kcNT9JYG%2Fc8UZJdljGF94kcNT9JYG-53ab3050-1db3-4035-b35b-37309b39dc29.png?alt=media&token=b1016ae6-a570-4b96-9350-74f148f9cd3c",
+  "description": "Need a 7-Eleven receipt? Use our free tool to quickly make a custom convenience store receipt. Add store info, items purchased, prices, tax, and payment—ideal for expense tracking, returns, or personal records.",
+  "published": true,
+  "metatitle": "Convenience Store Receipt",
+  "metadesc": "authentic 7-Eleven convenience store receipts with custom items, prices, tax, and store details using our free generator tool",
+  "id": "c8UZJdljGF94kcNT9JYG"
+}

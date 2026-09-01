@@ -1,0 +1,164 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bench Cafe & Restaurant Tax Invoice",
+  "description": "This receipt is from Bench Cafe & Restaurant in Dubai, United Arab Emirates. It records a dine-in order containing chicken zinger burgers and Pepsi beverages. The receipt includes bill number, token number, table information, VAT-inclusive pricing, subtotal before VAT, grand total, and employee details for the waiter and cashier. It also displays the restaurant’s TRN tax registration number and contact information. The format reflects a standard UAE restaurant POS tax invoice.",
+  "slug": "Bench-Cafe-and-Restaurant-Tax-Invoice",
+  "createdAt": "$D2026-05-15T08:51:51.977Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "9552ff6c-33f6-41d5-ba29-1947832d5023",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa42e11ee-5177-45ae-807a-1e30116c8192-image%20(17).jpg?alt=media&token=b710dd0c-cf31-48a4-9356-1362d727e08a",
+      "size": 241,
+      "businessDetails": "cafe&restaurant\nTel:04-3339786\nMob:056-1384471 / 055-6020556\nBarsha Heights, Dubai - UAE\nTRN:100427500003\nTAX INVOICE\n#14271\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "006ed4b9-d069-4b35-8d86-a9f187437475",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Bill# C12113 | TOKEN# 65",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "15-Feb-25",
+          "total": "02:47 pm"
+        },
+        {
+          "quantity": "",
+          "description": "Table No: 7/0",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3493f50d-f792-4143-a0d2-8c2dfb8b368f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Description",
+          "description": "  Description",
+          "total": "Amount"
+        },
+        {
+          "quantity": "CHICKEN ZINKER BURGER",
+          "description": "2   ",
+          "total": "36.00"
+        },
+        {
+          "quantity": "PEPSI",
+          "description": "                2",
+          "total": "10.00"
+        },
+        {
+          "quantity": "CHICKEN ZINKER BURGER 2",
+          "description": "",
+          "total": "36.00"
+        },
+        {
+          "quantity": "",
+          "description": "no cheese",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc4b25fa-f3a9-47a1-a165-d2448606b9c9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total before VAT",
+          "total": "78.10"
+        },
+        {
+          "quantity": "",
+          "description": "VAT incl",
+          "total": "3.90"
+        },
+        {
+          "quantity": "",
+          "description": "Grand Total",
+          "total": "82.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90faa5dc-6e93-4108-8a68-8706687f6878",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Dine In",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff1bdbcf-36ec-478a-a93e-0472a8cdc21e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nWaiter Name: ALI RATHER\nCashier Name: MUFESAL\nCounter: 1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "01c7c65c-dfad-4dec-ad67-f255b9a1a2a8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n     *** THANK YOU COME AGAIN ***\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d976d8f-91f9-43b9-9d04-89b477d43e5f",
+      "type": "BARCODE",
+      "size": 60,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "4gX5JZcxiTFohPboVMTX"
+}

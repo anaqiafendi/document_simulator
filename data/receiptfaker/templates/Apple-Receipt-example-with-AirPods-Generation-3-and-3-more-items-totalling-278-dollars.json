@@ -1,0 +1,124 @@
+{
+  "createdBy": "lfnmVaiqP9VE5T9XotDs1XxK8Id2",
+  "name": "Apple Receipt example with AirPods Generation 3 and 3 more items totalling 278 dollars",
+  "slug": "Apple-Receipt-example-with-AirPods-Generation-3-and-3-more-items-totalling-278-dollars",
+  "createdAt": "$D2025-06-10T00:00:25.146Z",
+  "isParent": false,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_3",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F56c1d6f4-c126-4871-ac44-68d38990b3b5-580b57fcd9996e24bc43c516.png?alt=media&token=005e9e87-11b0-4f5c-978c-568b8974e9e5",
+      "size": 44,
+      "businessDetails": "Apple Store, 1485 Portage  Avenue, Winnipeg, MB R3G 0W4, CA\n\nwww.apple.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8741dfe9-ac60-4632-be04-d726721bd361",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "May 05, 2025 02:00 PM\n\nKion Focht\nKfocht2010@outlook.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "AirPods Generation 3",
+          "total": "249.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "249.99"
+        },
+        {
+          "title": "Tax",
+          "value": "29"
+        }
+      ],
+      "total": "278",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt was created with ReceiptFaker generator based on **Apple Receipt** template on **Jun 9, 2025**.",
+  "parentId": "a2x58BESwAttWzYqqmwX",
+  "parentName": "Apple Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F6D8DnSxxSpbEizk7U6TE%2F6D8DnSxxSpbEizk7U6TE-62361f3e-3dc2-4087-90be-d010c9b41237.png?alt=media&token=aa9e1cce-ef5b-4e30-8f1e-18ce6d1e9371",
+  "published": true,
+  "metatitle": "Apple AirPods Receipt",
+  "metadesc": "realistic Apple store receipts featuring AirPods Gen 3 and multiple items with authentic formatting and customizable details",
+  "id": "6D8DnSxxSpbEizk7U6TE"
+}

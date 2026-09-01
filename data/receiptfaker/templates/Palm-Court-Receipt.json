@@ -1,0 +1,133 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T17:08:45.285Z",
+  "description": "This receipt is issued by Palm Court and identifies the location as 39 King Street, London WC2E 8JS. The receipt contains POS transaction metadata including a reference number, server identifier (Ali K.), table number (Table 13), guest count (Covers 2), transaction date, and service time. The transaction section follows a traditional table-service restaurant format and is accompanied by a financial summary showing a subtotal, discretionary service charge, and final transaction total. Additional customer-facing information includes a bill-splitting calculation, a notice explaining that a 12.5% discretionary service charge has been added to the bill, and a customer-feedback invitation directing guests to the restaurant's website. The overall layout is representative of a United Kingdom full-service restaurant receipt, combining table management, server tracking, service-charge reporting, transaction reconciliation, and customer-engagement messaging within a hospitality POS receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Palm Court Receipt",
+  "slug": "Palm-Court-Receipt",
+  "sections": [
+    {
+      "id": "e8c6ccf0-1330-475a-bbbe-a77e4fbaa2ac",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9a1317b9-67e1-4147-9368-09d889e1d70f-image%20(6).jpg?alt=media&token=6d58b7b0-5a81-4b88-b398-1173a22edef5",
+      "size": 273,
+      "businessDetails": "BRASSERIE\n39 King Street WC2E 8JS\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "94f5c288-eb1b-45b7-be9a-9aeb098c72f4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Tel: 020 7240 2939",
+          "total": "VAT: 354048800"
+        },
+        {
+          "quantity": "",
+          "description": "Ref: 2829 / 6 / 77231",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Server: Ali K.",
+          "total": "Covers: 2"
+        },
+        {
+          "quantity": "",
+          "description": "Tab: 1a",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "18 July 2021",
+          "total": "Time: 15:25"
+        },
+        {
+          "quantity": "",
+          "description": "1x Water Still Large",
+          "total": "£4.00"
+        },
+        {
+          "quantity": "",
+          "description": "1x Sea Bass Fillet",
+          "total": "£18.95"
+        },
+        {
+          "quantity": "",
+          "description": "1x French Fries",
+          "total": "£3.95"
+        },
+        {
+          "quantity": "",
+          "description": "1x Chicken Milanese",
+          "total": "£16.95"
+        },
+        {
+          "quantity": "",
+          "description": "1x English Breakfast",
+          "total": "£3.25"
+        },
+        {
+          "quantity": "",
+          "description": "1x Cidre Breton",
+          "total": "£5.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSub-total",
+          "total": "\n\n£52.10"
+        },
+        {
+          "quantity": "",
+          "description": "Service charge",
+          "total": "£6.51"
+        },
+        {
+          "quantity": "",
+          "description": "Splitting the bill in half? That'll be £29.31 each.",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "57c1a910-d2d2-4491-a3db-e5b4bc4c1061",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nA discretionary service charge of 12.5% has been added to your bill. 100% of service goes to staff.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "acddb27a-ea85-4dd4-b27d-978c316991dd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTell us about your experience on http://talktopalmcourt.co.uk/ and get rewarded for your feedback \n\n** Powered by Kobas **",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "FlpDuVJcvuHgFbRLjwsL"
+}

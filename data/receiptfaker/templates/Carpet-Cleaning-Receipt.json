@@ -1,0 +1,146 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T14:06:54.586Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Carpet Cleaning Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fc57867fc-6cfd-4ff3-8f44-11de1eb82e90-6989152_prevention_sanitary_mop_cleaning_clean_icon.png?alt=media&token=59e9a0ed-092b-4a90-bc62-409c0a869cda",
+      "size": 50,
+      "businessDetails": "FreshNest Cleaning Co.\n4309 Pinecrest Avenue, Seattle, WA 98109\nUnited States\nPhone number: (206) 555-2178\nWebsite: www.freshnestcleaning.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Carpet Cleaning Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Bill to: Sophia Martinez\n2679 Oakridge Lane\nDenver, CO 80220",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Carpet Cleaning (Kitchen)",
+          "total": "80"
+        },
+        {
+          "quantity": "2",
+          "description": "Carpet Deep Cleaning",
+          "total": "120"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "200"
+        },
+        {
+          "title": "Tax",
+          "value": "10"
+        }
+      ],
+      "total": "210",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Invoices will be generated immediately upon completion of the cleaning service unless otherwise agreed. Customers will receive the invoice via email or printed copy, based on their preference. Customers must notify the company of any billing discrepancies within 5 business days of receiving the invoice.",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Carpet-Cleaning-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FswBqvCpWELA3QqMyTiMz%2FswBqvCpWELA3QqMyTiMz-241aeb32-d274-4641-98a5-2de36e1a7575.png?alt=media&token=b9523aea-b33c-429a-8071-b838bf5fd42b",
+  "description": "Need a carpet cleaning receipt? Easily generate a professional receipt with our free tool. Add company info, service date, room details, charges, and payment—great for client records, reimbursements, or business use.",
+  "published": true,
+  "metatitle": "Carpet Cleaning Receipt",
+  "metadesc": "professional carpet cleaning receipts with service details, room info, charges, and payment records for business documentation",
+  "id": "swBqvCpWELA3QqMyTiMz"
+}

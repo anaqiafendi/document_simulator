@@ -1,0 +1,194 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-15T15:47:19.547Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "abcd2186-b53e-4780-9d97-6f99b2ed4f11",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "AEON BSD\nTEL : 021-29168300\nNPWP: 03.230.091.7-077.000\nTGL PENGUKUHAN: 2012/07/06\ncustomer-hotline@aeonindonesia.co.id",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0b148c7e-6f9e-41b3-a507-d00b94b6b6ad",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n001       ELEMENT SARIO",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "000003810149  2,427,000 ",
+          "total": "1 2,427,000"
+        },
+        {
+          "quantity": "",
+          "description": "Item promo 01,456,000",
+          "total": "-971,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8cee061c-a5a4-4f43-967d-2ad78d60c904",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "1,456,000"
+        },
+        {
+          "quantity": "",
+          "description": "ROUNDOWN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL ",
+          "total": "1,456,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04d55111-255c-4ee3-8a1e-0fbc08b9b3dd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VISA        455633********1,456,000",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL PAYMENT",
+          "total": "1,456,000"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL ITEM",
+          "total": "1     TOTAL QTY:      1"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL SAVING(Rp) ",
+          "total": "971,000"
+        },
+        {
+          "quantity": "",
+          "description": "TARIFF          DPP           ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PAJAK",
+          "total": "11%    1,311,712        144,288"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "61578911-edd5-4e50-9323-8d0df18a3955",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TRANS NO: 3130070 ",
+          "total": "14/02/2024 15:10"
+        },
+        {
+          "quantity": "",
+          "description": "CASHIER : 8000581    POS: 313",
+          "total": " "
+        },
+        {
+          "quantity": "",
+          "description": "VALUED CUSTOMER: 5280036833",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7a002d4-3af3-4214-bcd1-d3baca1481b9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBelanja Daging, Buah dan Sayur\nKini lebih mudah melalui\nTokopedia AEON Fresh!\n\nKunjungi\ntokopedia.com/aeonfreshbsd\nuntuk pengalaman belanja produk\nfresh AEON via online!\n\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "459e6ed1-15cb-4660-9b80-2be19da5b30b",
+      "type": "BARCODE",
+      "size": 78,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "63e010ed-3153-4dd4-b63e-a0d0e384e1aa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " 01001334478 76475",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by AEON BSD and identifies the transaction as taking place at an AEON retail store in Indonesia. The header contains the store contact information, tax registration details, and customer service website. The receipt records the purchase of an ELEMENT SANRIO merchandise item, showing the original selling price, promotional discount, total savings, and final selling price after the discount. The financial section records the total payment, indicates that no change was due, summarizes the number of items purchased, and includes PPN (Indonesian Value Added Tax) information. The payment section confirms settlement using a Visa card with a masked card number. The footer promotes Tokopedia AEON Fresh online grocery shopping and provides the official website for the service. The overall layout is representative of an Indonesian retail POS receipt, combining promotional pricing, tax reporting, electronic card payment, and customer information within a compact receipt format.",
+  "name": "AEON Receipt",
+  "slug": "AEON-Receipt",
+  "published": true,
+  "id": "JgRXXksFUqdXNfYnKK3r"
+}

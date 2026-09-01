@@ -1,0 +1,156 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T09:31:02.092Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Bella Italia Receipt",
+  "description": "This receipt is from Bella Italia, an Italian restaurant located in Mansfield, United Kingdom. It records a dine-in order for four guests including soft drinks, bolognese, pepperoni pizzas, cookie dough desserts, brownie, and complimentary tap water. The receipt includes table and account details, product group summaries for food and drinks, and the final total amount due. It also notes that gratuities are not included. The format reflects a standard UK casual dining restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "2e297726-5713-4a00-a70f-2717483ae2ed",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F087c481a-f72e-493a-9f30-609136219e84-image%20(3).jpg?alt=media&token=58d84384-9a9a-4727-ae07-c90cf3dd66ad",
+      "size": 244,
+      "businessDetails": "\nBella Italia Mansfield\nMansfield, NG18 1BU\n01623 659 791\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6752052a-364c-471f-970e-1d7de14753a6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Till 3",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Aimee",
+          "total": "26 Sep 2020 14:12"
+        },
+        {
+          "quantity": "",
+          "description": "\nTable: 14   c: 4",
+          "total": "\nACC NO: 13"
+        },
+        {
+          "quantity": "",
+          "description": "PAULA BROOKES",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n2  Lemonade",
+          "total": "\n=  5.78"
+        },
+        {
+          "quantity": "",
+          "description": "2 Coca Cola",
+          "total": 10
+        },
+        {
+          "quantity": 1,
+          "description": "SM Bolognese",
+          "total": "= 10.99"
+        },
+        {
+          "quantity": 1,
+          "description": " SM Pepperoni Pic",
+          "total": "= 32.97"
+        },
+        {
+          "quantity": "3",
+          "description": "Cookie Dough",
+          "total": "= 18.87"
+        },
+        {
+          "quantity": 1,
+          "description": "Choc Brownie",
+          "total": "=  6.19"
+        },
+        {
+          "quantity": 1,
+          "description": "JugTap Water FOC",
+          "total": "=  0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1b6410d4-22fc-4a00-bc62-0cb1a573fbcc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Product Group Summary",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Food",
+          "total": "68.82"
+        },
+        {
+          "quantity": "",
+          "description": "Drinks",
+          "total": "11.76"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "55a7590e-36da-4a8c-ac04-eae52df62d4b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Total",
+          "total": "£80.58"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6e8bfcf8-e075-4867-bdd2-d632210fb0a8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nGratuities Not Included",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Bella-Italia-Receipt",
+  "published": true,
+  "id": "ODksv6f9mjP4YJbbdT65"
+}

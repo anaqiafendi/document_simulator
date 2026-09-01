@@ -1,0 +1,117 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-05T16:37:09.227Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "2f0e90f0-606b-449e-a63b-1bfe1c9c8a12",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5fbc0440-f5e0-4c60-8d22-18cba28f61e5-image%20(15).jpg?alt=media&token=6dd45291-f496-4409-9e6a-2c963eeacf97",
+      "size": 270,
+      "businessDetails": "STORE #121\n1101 Suremall Way, Atlantic & Michigan\nSpace #550\nAtlantic City, NJ 08401\n609-345-5299\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "242388bf-c4ea-4eee-a783-4920646a3d37",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSALESPERSON # 6671\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "951a66d3-f1e4-40ef-9fee-1984592d1b7c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "80000086244  M SG OTHERS",
+          "total": "$$45.00"
+        },
+        {
+          "quantity": "",
+          "description": "88110098627  LB DUFFLE",
+          "total": "$$89.00"
+        },
+        {
+          "quantity": "",
+          "description": "88110768898  LB BAGS",
+          "total": "$$65.00"
+        },
+        {
+          "quantity": "",
+          "description": "88110598247  LB DUFFLE",
+          "total": "$$89.00"
+        },
+        {
+          "quantity": "",
+          "description": "69269705297  M DUFFEL BAGS",
+          "total": "$$99.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSUBTOTAL",
+          "total": "\n\n$387.00"
+        },
+        {
+          "quantity": "",
+          "description": "SALES TAX",
+          "total": "$$27.09"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "$$414.09"
+        },
+        {
+          "quantity": "",
+          "description": "DEBIT ",
+          "total": "$$414.09"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7d7e415b-8c41-4edc-8061-357a72fb6980",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nXXXXXXXXXXXX0066\n\nPURCHASE\nSWIPED\nAPPROVED\nAUTH CODE: 04521\n\nINVOICE #  6337\n02-10-08 06:56:54\nREFERENCE #  00000012",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3bc8ba0d-5a63-4df0-8e43-05ea9792d1b9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nWe will gladly accept returns\nfor a full refund within\n90 days when accompanied by\na valid store receipt\n\nSome exclusions apply,\nplease see store for\ncomplete details",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Tommy Hilfiger Receipt",
+  "description": "$3f",
+  "slug": "Tommy-Hilfiger-Receipt",
+  "published": true,
+  "id": "JVvN36hqVwDjhhE4rDV6"
+}

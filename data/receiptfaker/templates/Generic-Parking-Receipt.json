@@ -1,0 +1,162 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Generic Parking Receipt",
+  "slug": "Generic-Parking-Receipt",
+  "createdAt": "$D2025-09-29T14:17:19.982Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FQMDdBKF4Fvt7mf2BnYPV%2FQMDdBKF4Fvt7mf2BnYPV-84d1bd18-76ba-4844-86e6-f37d44f4bdc5.png?alt=media&token=6e9c0af2-83f0-489e-be3f-91785a87f032",
+  "sections": [
+    {
+      "id": "e0f981a8-6403-4556-8198-3b1cc564b8af",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:54:03 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2Fbf0cc87b-57f4-4f07-8434-b212786fb45d-352508_local_parking_icon.png?alt=media&token=291464ee-a3ad-4bec-8bd9-c4a0ea9aa9ae",
+      "size": 81,
+      "businessDetails": "Parking Receipt\n\nMetroPark Lot Services",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "550 Market Street, Garage Level 2, San Francisco, CA 94105\nUnited States\n(415) 555-9032",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Entry time: 9/29/2025 5:14 PM\nExit time: 9/29/2025 5:40 PM\nDuration: 26 min\nTransaction # 1224\nTicket # 129857",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Parking Fee",
+          "total": "1.30"
+        },
+        {
+          "quantity": "",
+          "description": "Facility Fee",
+          "total": "1.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "2.30"
+        },
+        {
+          "title": "Tax",
+          "value": "0.19"
+        }
+      ],
+      "total": "2.49",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "2.50"
+        },
+        {
+          "title": "Change",
+          "value": "0.01"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for choosing us!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "926b38ca-0f8c-4805-8862-1cad6f48661d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Keep your receipt/ticket for verification; lost tickets may incur additional fees. The garage is not responsible for theft, loss, or damage to vehicles or contents. By using this service, you agree to these terms.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need a parking receipt? Use our free tool to make a detailed parking record in minutes. Add lot name, vehicle info, time, rate, and payment—perfect for reimbursements, travel logs, or personal documentation.",
+  "published": true,
+  "metatitle": "Parking Lot Receipt",
+  "metadesc": "professional parking receipts with lot details, vehicle info, time stamps, and payment records for reimbursements and travel logs",
+  "id": "QMDdBKF4Fvt7mf2BnYPV"
+}

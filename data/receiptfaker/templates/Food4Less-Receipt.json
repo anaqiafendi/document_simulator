@@ -1,0 +1,131 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-28T13:42:32.721Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_4",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff2a56dfc-ba63-4fb6-811b-51ceb4bc74fc-image%20(14).jpg?alt=media&token=22c41494-e6bd-4c30-9598-e0b703b5f63a",
+      "size": 217,
+      "businessDetails": "Natural Grocers\nby Vitamin Cottage\n516 Frontier Mall Dr\nCheyenne, WY 82009\nPhone: 307-635-3800",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6072eb52-eba0-4b95-af0d-41a91000ac0c",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "1717 S. Western Ave.\n(323) 731-0164\nYour cashier was Avedesa Q",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "5522a423-a5f5-4761-a59a-d8dd67c310db",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "84512421-dcbf-4adb-8adc-3c04f079f86e",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "118b8121-62f6-4b3c-887a-6979e21ce17f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TELL US HOW WE ARE DOING!\nGo to www.krogerfeedback.com\n¡Dénos su opinión!\nVisita www.krogerfeedback.com\nDate/Fecha: 12/27/22\nTime/Hora: 09:38am\nEntry ID: 704-595-98-381-1-99\n\nNo purchase necessary\nSee website for official rules",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Food4Less Receipt",
+  "slug": "Food4Less-Receipt",
+  "description": "This receipt is issued by Food4Less, located at 1717 S. Western Ave., and includes store contact number (323-731-0164) and cashier identification (Avedesa Q). The document displays transaction date and time (12/27/22 at 09:38am), internal transaction string (381 1 98 315), and total number of items sold (14). It presents a full financial summary including tax, bag fee line (NP designation), balance, total, debit payment confirmation, cashback line, and change. The receipt includes EMV transaction data (AID, TC), masked debit account indicator (************5011 - C), reference number (H18191), and verification method (VERIFIED BY PIN). The footer contains bilingual customer feedback instructions directing to www.krogerfeedback.com\n, an entry ID, and official sweepstakes notice. The format reflects a U.S. grocery retail POS system with integrated debit authorization and survey promotion footer.",
+  "metatitle": "Warehouse Receipt",
+  "metadesc": "realistic Costco warehouse receipts with custom items, prices, store details, and membership info for returns or expense tracking",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4YKdS6btUDxPQxxaCS4g%2F4YKdS6btUDxPQxxaCS4g-1485adb4-3502-4f68-a963-a68a59a06a4a.png?alt=media&token=d6ac9793-2538-40c1-8b09-e8040cd20106",
+  "published": true,
+  "id": "4YKdS6btUDxPQxxaCS4g"
+}

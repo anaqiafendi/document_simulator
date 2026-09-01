@@ -1,0 +1,162 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T10:14:40.490Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Photography Receipt",
+  "slug": "Photography-Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F31eed12f-8317-4da4-ab8c-d52f07d6963c-290124_camera_image_photo_photography_video_icon.png?alt=media&token=c389b230-1816-4953-83a3-01f9cef93775",
+      "size": 50,
+      "businessDetails": "Silver Lens Photography LLC\nAddress: 789 Oak Avenue, Portland, OR 97205\nPhone Number: (503) 555-2987\nEmail: contact@silverlensphoto.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Photography Receipt\nReceipt #: 10202963",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Billed to: Michael Anderson\n4527 Pinecrest Drive, Austin\nTX 78731",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "10",
+          "description": "Hours Of Photography",
+          "total": "3000"
+        },
+        {
+          "quantity": "1",
+          "description": "Drone Package",
+          "total": "500"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "3500"
+        },
+        {
+          "title": "Tax",
+          "value": "0"
+        }
+      ],
+      "total": "3500",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Receipts include a breakdown of charges such as session fees, prints, digital files, travel fees, and any additional services or products purchased. Deposits are generally non-refundable. Cancellations made with at least 7 days' notice may be eligible for a partial refund or rescheduling. Full payments are refundable only if the company cancels the session. Full payment or agreed deposit is required before or on the day of the shoot. Upon payment, the client will receive a detailed, itemized receipt either as a printed copy or emailed, based on their preference.",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "63e24d27-0948-4140-95d0-4e265cd36a78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "www.silverlens.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FZUk7BLUt3i2MIZawuMqG%2FZUk7BLUt3i2MIZawuMqG-75b0cd8c-f29e-49f0-ab90-4f19f3c9151e.png?alt=media&token=f91d0733-4614-4806-9979-0e1882dbb927",
+  "description": "Need a photography receipt? Easily create a custom receipt for photo sessions with our free tool. Add photographer info, shoot details, rates, and payment—perfect for client records, invoices, or business use.",
+  "published": true,
+  "metatitle": "Photography Receipt",
+  "metadesc": "professional photography receipts with custom photographer info, session details, rates, and payment terms for your business",
+  "id": "ZUk7BLUt3i2MIZawuMqG"
+}

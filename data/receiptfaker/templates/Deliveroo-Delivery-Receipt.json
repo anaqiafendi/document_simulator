@@ -1,0 +1,106 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T08:42:28.000Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Deliveroo Delivery Receipt",
+  "description": "This receipt is a food delivery order issued through Deliveroo for a Wasabi restaurant location at Cambridge Station in the United Kingdom. It documents a delivery purchase of a sweet chilli chicken bento meal. The receipt includes order submission and pickup timestamps, subtotal, delivery fee, discount amount, and final total. It also contains customer delivery instructions requesting no cutlery. The format reflects a standard UK online food delivery platform receipt.",
+  "sections": [
+    {
+      "id": "b169e61a-d551-4d05-b191-38897fb05f93",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1f12d669-0460-494a-8e1d-614436b730a5-image.jpg?alt=media&token=6ab6767b-01f1-4294-a47d-64abc622e139",
+      "size": 253,
+      "businessDetails": "Order submitted: 03/26/2023, \nPick up at: 03/26/2023, 19:18:56\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c81986c7-3339-447f-adcd-664614c490b5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Delivery\n7324",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b2ce3da-df0b-491d-89b9-c0757b86fe28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 x Sweet chilli chicken bento",
+          "total": "\n£7.95"
+        },
+        {
+          "quantity": "",
+          "description": "_______________________",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3e71531-0778-44dd-a4b1-2368c981174e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nDiscount",
+          "total": "\n£0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "£7.95"
+        },
+        {
+          "quantity": "",
+          "description": "Delivery fee",
+          "total": "£0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£7.95"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9a83ce0-1173-4767-a386-dc88953a4e77",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Additional instructions:\nNO CUTLERY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Deliveroo-Delivery-Receipt",
+  "published": true,
+  "id": "e5NdEamb6lH5D7YSj8MO"
+}

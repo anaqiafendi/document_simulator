@@ -1,0 +1,147 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T08:55:20.439Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Pizza Express Receipt",
+  "description": "This receipt is from PizzaExpress in Notting Hill Gate, London. It records a dine-in restaurant transaction for a group of four guests, including calamari, multiple Romana pizzas, and Coca-Cola. The receipt includes subtotal, promotional discounts, and final amount due. It also notes that service charge is not included and provides promotional survey and app payment information. The format reflects a standard UK casual dining restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "da22f2b4-d44b-4c24-a78f-6217ca6446f1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F07f88e76-be01-4a41-8663-d7cd62d630e5-image%20(1).jpg?alt=media&token=f711f1df-9c5e-45a4-8fe9-519d62587912",
+      "size": 188,
+      "businessDetails": "\n137 Notting Hill Gate\nW11 3LB\nVAT No: 627 067 30\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b663883-b5ea-4dbb-b54e-1a6052bcf43f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ANTONIO 13/03/2016 19:05",
+          "total": "T213D1L421"
+        },
+        {
+          "quantity": "",
+          "description": "Till No: 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Table: 23   Covers: 4",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ceff3e02-78a7-4393-bb14-c8b5f13127e9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "4",
+          "description": "Calamari",
+          "total": "23.80"
+        },
+        {
+          "quantity": 1,
+          "description": " Romana 65 Am Hottest",
+          "total": "13.75"
+        },
+        {
+          "quantity": 1,
+          "description": " Romana 65 Bufala",
+          "total": "11.60"
+        },
+        {
+          "quantity": 1,
+          "description": " Romana Pizza Nicoise",
+          "total": "13.10"
+        },
+        {
+          "quantity": 1,
+          "description": " Coca Cola",
+          "total": "12.65"
+        },
+        {
+          "quantity": 1,
+          "description": "Coca Cola",
+          "total": "2.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSub-Total",
+          "value": "\n77.40"
+        },
+        {
+          "title": "Discounts/Promotions",
+          "value": "17.55"
+        },
+        {
+          "title": "TOTAL",
+          "value": "9.85"
+        },
+        {
+          "title": "TO PAY",
+          "value": "59.85"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "510d0af2-8230-4274-8fe8-7d0d853d9166",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Service Charge not included",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4d1b9ad3-9c74-4a8e-ab34-4a5592e0e83b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Printed By: ANTONIO\n\nFor a chance to win a £500 Gift Card in our Monthly Prize Draw  please go to\n\n  www.mypizzaexpress.co.uk to tell us about your visit. Your invite code is: 0141",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c64b5dd-43a8-4e48-a3bc-fa52f386f5bb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nYou can now pay your bill using the PizzaExpress iPhone or Android app & PayPal account. Download the app & enter the code below\n\n4169   6700   0171",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Pizza-Express-Receipt",
+  "published": true,
+  "id": "435uUptpC8b3KTIBmVsf"
+}

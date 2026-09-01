@@ -1,0 +1,151 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Roots Steakhouse Receipt",
+  "description": "This receipt is from Roots Steakhouse, a restaurant in the United States. It records a dine-in meal for two guests including steak dishes, macaroni and cheese, sweet fries, beverages, and desserts. The receipt includes table and server information, subtotal, sales tax, total amount due, and suggested gratuity percentages. It also provides reservation contact information for the restaurant. The format reflects a standard US restaurant POS receipt.",
+  "slug": "Roots-Steakhouse-Receipt",
+  "createdAt": "$D2026-05-15T09:39:50.913Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "6b4239e6-4623-4564-96c4-0abbfae6c123",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "ROOTS STEAKHOUSE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4a00f46d-7b6e-4e26-abc5-4fd4d124042d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n0086   TABLE 92   #Party 2\nRODRIGO A   SvrCk: 10   18:39   09/21/16\nT4 DR RIGHT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "acb9a5be-c42a-4a5a-8328-ffedaa4ab18d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "PETITE NY STRIP",
+          "total": "39.95"
+        },
+        {
+          "quantity": 1,
+          "description": "BONE-IN FILET",
+          "total": "39.95"
+        },
+        {
+          "quantity": 1,
+          "description": "MAC & CHG",
+          "total": "7.95"
+        },
+        {
+          "quantity": 1,
+          "description": "SWT FRIES",
+          "total": "6.95"
+        },
+        {
+          "quantity": 1,
+          "description": "DIET",
+          "total": "2.95"
+        },
+        {
+          "quantity": 1,
+          "description": "7-UP",
+          "total": "2.95"
+        },
+        {
+          "quantity": "2",
+          "description": "SORBETS",
+          "total": "17.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSub Total",
+          "value": "\n114.60"
+        },
+        {
+          "title": "Tax",
+          "value": "8.02"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eda3e918-1ee8-47b4-a640-90805588b2eb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "09/21 19:46   TOTAL",
+          "total": "122.62"
+        },
+        {
+          "quantity": "",
+          "description": "\nFor your convenience",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "suggested gratuity",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "GRAT 18 %",
+          "total": "20.63"
+        },
+        {
+          "quantity": "",
+          "description": "GRAT 20 %",
+          "total": "22.92"
+        },
+        {
+          "quantity": "",
+          "description": "GRAT 22 %",
+          "total": "25.21"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "de1fce15-5c43-467f-95e1-c7991fc43aab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTHANK YOU FOR DINING AT ROOTS STEAKHOUSE\n\n\nPLEASE CALL FOR\nRESERVATIONS\n973-326-1800",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "tUH5f6OTcDo871A8ZZzu"
+}

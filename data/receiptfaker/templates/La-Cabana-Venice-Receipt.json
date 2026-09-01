@@ -1,0 +1,91 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "La Cabaña Venice Receipt",
+  "description": "This receipt is issued by La Cabaña and identifies the restaurant at 738 Rose Avenue, Venice, California 90291. The transaction section records the opening date and time, order and check numbers, dine-in service, Table 15, and Emilio as the server. The order includes Dos Tacos (Brunch) for $18.00, a Taco y Enchilada Super Combo for $21.95, and a Brunch Regular Lime Margarita for $12.75. The financial section records a subtotal of $52.70, sales tax of $5.01, and a final total of $57.71. The receipt also displays a cash-payment price of $55.49, indicating a lower amount when paying with cash. The footer identifies the receipt as the customer copy and concludes with a thank-you message.",
+  "slug": "La-Cabana-Venice-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T13:57:35.003Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3dd7b522-799b-4c49-b166-cc20865f308f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbddef642-e77c-4d3a-b682-4f694c38ef61-image%20(13).jpg?alt=media&token=ca6de22d-3ecf-4266-884b-4d0348b17959",
+      "size": 254,
+      "businessDetails": "La Cabana - Venice\n738 Rose Ave\nVenice, CA 90291\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "18ef3d37-cadd-43e9-b5d7-b7580f13e924",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nOpened: 03/10/2024 1:06 pm  Check: 1\nOrder: 1809\nOrder Type: Dine In\nName: Table 15\nServer: Emilio\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "568b4268-18d6-4e81-a2ce-723e6730611c",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n1  Dos Tacos (Brunch) ",
+          "value": "\n18.00"
+        },
+        {
+          "title": "1  6. Taco y Enchilada",
+          "value": "21.95"
+        },
+        {
+          "title": "1  Brunch Reg Lime Margarita",
+          "value": "12.75"
+        },
+        {
+          "title": "\nSubtotal",
+          "value": "52.70"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "5.01"
+        },
+        {
+          "title": "\nTotal",
+          "value": "\n57.71"
+        },
+        {
+          "title": "Pay With Cash:",
+          "value": "55.49"
+        },
+        {
+          "title": "Customer copy",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dd5fac3d-04fe-4b2c-9c99-f07e293c6ad5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "sjr7LRIBE814yhKjMrWp"
+}

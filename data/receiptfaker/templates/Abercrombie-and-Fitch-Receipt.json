@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Abercrombie & Fitch Receipt",
+  "description": "This receipt format belongs to Abercrombie & Fitch, a U.S. apparel retailer known for clothing and accessories. The receipt header features the “Abercrombie & Fitch New York” brand mark centered at the top, followed by store identification details including store number, shopping center location, street address, and city in Tampa, Florida. The POS structure includes register, transaction, and cashier identifiers along with the exact date and time of purchase. The receipt body contains item code lines and promotional adjustments before the financial summary section displaying subtotal, tax, and total values. The payment confirmation block records the card network, masked card number, entry method, transaction type, authorization approval, terminal ID, and merchant ID. The receipt concludes with a customer appreciation message typical of apparel retail POS receipts.",
+  "slug": "Abercrombie-and-Fitch-Receipt",
+  "createdAt": "$D2026-03-16T15:00:36.514Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc1e046f5-5ac8-41f5-bcc8-626639b865c1-image%20(58).jpg?alt=media&token=615702e1-f278-4c25-a388-2592a9cf1304",
+      "size": 236,
+      "businessDetails": "Store #0399\nInternational Plaza\n2223 N West Shore Blvd\nTampa FL 33607",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Date: 2021-01-06       Time: 11:15\nReg   Trans   Cashier\n003   3096",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cf493a1-5cbe-4fb0-8279-7da053d9cf56",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n146456104 CAMPUS LOGO\n\nPrice                         $31.50\nPromo                         -$5.14",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4f2e9f6-9324-4d4c-b528-e26e002cc7ac",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Subtotal                      $26.36\nTax 7.50%                     $1.98\nTotal                         $28.34\n\nDEST ORD",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f0ff8a6d-4922-401e-9466-10b7db75bcd7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Charge Due                    $0.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ccf31dec-abec-47a2-89c1-a199f437c4e2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VISA\n**** **** **** 0447\n\nCODE 005651\nENTRY METHOD:  SWIPE\nTRANS TYPE:    SALE\nAPPROVED\n\nAUTH #:        365559\nTERMINAL ID:   10002\nMERCHANT ID:   365559",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ac8c9643-c74c-40c2-ad0d-c6fa52e2bc0d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank You For Shopping\nAbercrombie & Fitch",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FqX4vTwIp54rCUSnnHqrM%2FqX4vTwIp54rCUSnnHqrM-da463a94-82cf-4889-850c-dc140472b822.png?alt=media&token=bb95b875-aa9d-468e-9e73-9390d522b178",
+  "published": true,
+  "id": "qX4vTwIp54rCUSnnHqrM"
+}

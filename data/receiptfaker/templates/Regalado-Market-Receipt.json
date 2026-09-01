@@ -1,0 +1,141 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T13:16:01.391Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "61edcc58-86bf-4ff1-9467-ad848ce1d46e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8a0f6881-c958-4cb0-9002-d0bc39e19d28-image%20(4).jpg?alt=media&token=80fd25c3-7527-45c1-b57f-57593a714d08",
+      "size": 256,
+      "businessDetails": "REGALADO MARKET\n27126 SHADEL RD\nMENIFEE CA. 92586\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f8df4d08-86dd-46d4-a8ed-825a83504d10",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ORDER # 1279\nINVOICE# 1279\nClosed to Cash Purchase\n\nDATE/TIME: 7/28/2025 12:07:55 PM\nCASHIER: Yess1\nSTATION: 02\n\nItem Count: 2",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "4605a06d-140b-44e5-8064-712e9a67ebb3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Weight/pc",
+          "total": "Unit Price   Total Price"
+        },
+        {
+          "quantity": "",
+          "description": "\nFS MARINATEDBEEF SHOULDER CLOD ",
+          "total": "\n200134"
+        },
+        {
+          "quantity": "",
+          "description": "1.16 LB    @",
+          "total": " $8.99/LB       $10.43"
+        },
+        {
+          "quantity": "",
+          "description": "PLASTIC BAG-plasticbag",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 PC       @        $0.15/PC ",
+          "total": "$$0.15"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3b481915-4180-47e8-a2e0-1252fd64a71a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$10.58"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$0.01"
+        },
+        {
+          "quantity": "",
+          "description": "GRAND TOTAL",
+          "total": "$$10.59"
+        },
+        {
+          "quantity": "",
+          "description": "\nCash",
+          "total": "\n$10.59"
+        },
+        {
+          "quantity": "",
+          "description": "Amt Tendered",
+          "total": "$$20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$9.41"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8932472d-bfc8-4c20-b300-a8de84f1c366",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "777fbe8a-f5d7-4a1a-9889-594047cfd2da",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Invoice: I1001-1279",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Regalado Market Receipt",
+  "description": "Regalado Market grocery retail receipt issued from the Shadel Road location in Menifee, California 92586. The header identifies the market name and full store address, followed by the order and invoice numbers and a cash-purchase status notice. POS metadata includes the exact transaction date and time, cashier name, station identifier, and total item count. The transaction area uses weight or quantity, unit-price, and total-price columns separated from the payment summary by divider lines. The financial section records the subtotal, tax, grand total, cash payment, amount tendered, and change due. The footer contains a machine-readable barcode and a printed invoice reference for transaction identification.",
+  "slug": "Regalado-Market-Receipt",
+  "published": true,
+  "id": "0rvKygchINnylgeEMMxT"
+}

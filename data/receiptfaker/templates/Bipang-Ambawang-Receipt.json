@@ -1,0 +1,148 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-18T15:40:20.137Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d9cd8e95-fddb-4fb8-9546-c6e3cc0e6645",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0eb41bf7-711a-4148-9fc2-d4e7d186d6b3-image%20(1).jpg?alt=media&token=29ff72c7-f8d4-4e29-9b95-bb93004a49cc",
+      "size": 256,
+      "businessDetails": "\nBIPANG AMBAWANG\nKULINER KHAS KALIMANTAN BARAT\n\nJl. Pulau Maju Bersama ECS-A-02, EAST COAST - SQ\nLF ISLAND PIK\n+62-811-1907-9688",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1435f434-6b3b-4b4f-859a-2a7bf6d7ba5f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "--------------------------------\n\nDate       : 05-07-2023 18:44\nTime In    : 05-07-2023 18:08\nServer     : Chelsy\nTable      : 33\nPurpose    : Dine In\nPax        : 2\nCashier    : CHALISTA\n\n--------------------------------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88ec4090-5c1c-4276-85ee-de46127b10f1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Saloneng Boh",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @189.000 ",
+          "total": "189.000"
+        },
+        {
+          "quantity": "",
+          "description": "Saporsi Ngamare",
+          "total": "95.000"
+        },
+        {
+          "quantity": "",
+          "description": "Sup Tubon Ambawang",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @110.000 ",
+          "total": "110.000"
+        },
+        {
+          "quantity": "",
+          "description": "Tumis Pakis",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @55.000  ",
+          "total": "55.000"
+        },
+        {
+          "quantity": "",
+          "description": "Teh Tawar Hangat",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2x  @12.000 ",
+          "total": "24.000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8748b29e-1425-4d49-aed0-ebcfcab1e663",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "6 items\n\n",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal   :",
+          "value": "473.000"
+        },
+        {
+          "title": "Service Charge :",
+          "value": "23.650"
+        },
+        {
+          "title": "PB1        :\n",
+          "value": "49.665\n"
+        },
+        {
+          "title": "",
+          "value": "--------------------------"
+        },
+        {
+          "title": "Grand Total :",
+          "value": "546.315"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cea8e4e6-3d76-4ec7-8591-891e01f934be",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n --- NOT PAID ---",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Bipang Ambawang, an Indonesian restaurant specializing in traditional West Kalimantan cuisine. The receipt identifies the business location as Copyright © 2019 All Rights Reserved. All rights reserved., and includes the restaurant's telephone number. It contains complete transaction metadata, including the transaction date, time-in, server name, table number, dining purpose (Dine In), guest count (Pax), and cashier identifier. The lower section provides a financial summary with Subtotal, Service Charge, PB1 (restaurant tax), and Grand Total, followed by a \"NOT PAID\" status indicating the transaction had not yet been settled when the receipt was printed. The Battle of the",
+  "name": "Bipang Ambawang Receipt",
+  "slug": "Bipang-Ambawang-Receipt",
+  "published": true,
+  "id": "j4G33cHBEgaiUhbeL6gv"
+}

@@ -1,0 +1,86 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "WinCo Foods Grocery Receipt",
+  "description": "This receipt documents a retail grocery purchase at WinCo Foods, including store location details, cashier name, transaction date and time, and a breakdown of purchased food items with individual prices. It shows the subtotal, tax, and final total, along with debit card payment confirmation, PIN verification, approval status, terminal and transaction numbers, and a closing customer message from WinCo Foods.",
+  "slug": "WinCo-Foods-Grocery-Receipt",
+  "createdAt": "$D2026-02-08T11:37:17.538Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "c25a7748-2fd8-4a68-af22-57b25d792479",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc15ef2a1-4c3f-4c18-91b5-5dce344787bc-winco.jpg?alt=media&token=3c86cd0b-3bc4-44e3-971c-d678d39ec77a",
+      "size": 127,
+      "businessDetails": "www.wincofoods.com\n2757 NW Stewart Pkwy\nRoseburg, OR 97471\nStore #0172\n\nCashier: TRACCI K                    \n01/19/24                11:57:55",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a5a09ef0-d40b-4b02-883f-254d2133b55d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a993c522-e922-4468-a585-ac594ef12980",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "DEBIT CARD\nACCT: ********\nAPPVL. Code:\nChip Read\nVerified by PIN\nUS DEBIT PURCHASE\nAID A0000000980840\nMode: Issuer\nCASH            CHANGE      .00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fde054ca-6288-4eb1-9579-019bcc1c6cf3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "NUMBER OF ITEMS  15\n\n01/02/2026 Oper: 22598 Trx: 148\nTerminal: 7 Store: 80143\n\nTHANK YOU FOR SHOPPING AT WINCO\n(541) 666-7500\n\nWork where you love to shop!\nJoin our family of employee-owned stores\nwincodfoods.com/apply",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FMKHkQYzuiKMvPYER633F%2FMKHkQYzuiKMvPYER633F-7a29e674-b94f-43bc-bb27-3af972ad948a.png?alt=media&token=e6aca8a3-ebbe-435c-94cb-605c7b2fcdf5",
+  "published": true,
+  "id": "MKHkQYzuiKMvPYER633F"
+}

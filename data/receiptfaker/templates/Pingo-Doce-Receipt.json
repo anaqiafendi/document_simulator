@@ -1,0 +1,146 @@
+{
+  "currency": "",
+  "slug": "Pingo-Doce-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T13:32:06.488Z",
+  "description": "This grocery retail receipt from Pingo Doce documents a Multibanco card transaction processed in Portugal. The receipt includes company identification details for Pingo Doce Distribuição Alimentar, S.A., business address information, Portuguese tax registration references (NIPC), simplified invoice numbering, cashier attribution, and timestamp metadata. The POS structure contains VAT calculations, subtotal formatting, total amount presentation in euros, Multibanco payment confirmation, and change due fields aligned in standard Portuguese supermarket thermal receipt formatting. Additional receipt elements include certified software references, customer service contact information, website references, and company copyright notices near the footer. The layout reflects a standard Portuguese grocery retail thermal receipt with localized VAT accounting and electronic payment formatting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Pingo Doce Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "published": true,
+  "sections": [
+    {
+      "id": "23b1e751-8d09-4fec-9c74-453b48a875d3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdf9cc42c-438a-4425-9c1f-8ef49991fccd-image%20(5).jpg?alt=media&token=7511251f-caa5-4ef9-9af7-1c96f33d515a",
+      "size": 246,
+      "businessDetails": "\nPreço e Qualidade\nPoupança e Frescura\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d4329fd-5710-4f3b-a752-729f9ff66830",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nPingo Doce Faro-Sítio das Figuras\nPingo Doce-Distribuição Alimentar.\nR Actor Antonio Oliva, NQ 7\n1949-031 LISBOA\nCapital Social: EUR\nRegisto na CRC de\nMatricula/NIPC: 500823993\n\nN.Contribuinte: ___________\n\nFatura simplificada FS 684/352046\nData: 2017-04-10 Hora: 19:34:23\n\nOriginal:",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "83a481b3-7ada-42d3-9e88-75dfbf0c8440",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Qt Artigo",
+          "total": "Iv Total"
+        },
+        {
+          "quantity": "",
+          "description": "1 Grelhado Misto",
+          "total": "13  4.69"
+        },
+        {
+          "quantity": "",
+          "description": "1 Angus Hamburger",
+          "total": "13  4.89"
+        },
+        {
+          "quantity": "",
+          "description": "1 Agua 1.5 l Algarve",
+          "total": "13  0.95"
+        },
+        {
+          "quantity": "",
+          "description": "1 Salada Especial pequen",
+          "total": "13  0.75"
+        },
+        {
+          "quantity": "",
+          "description": "1 Bife Pingo Doce",
+          "total": "13  5.99"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "€ 17.47"
+        },
+        {
+          "quantity": "",
+          "description": "Paga",
+          "total": "€ 17.47"
+        },
+        {
+          "quantity": "",
+          "description": "Troco",
+          "total": "€ 00.00"
+        },
+        {
+          "quantity": "",
+          "description": "Multibanco",
+          "total": "€ 17.47"
+        },
+        {
+          "quantity": "",
+          "description": "\nConsultas\n",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Taxa        Base       IVA     ",
+          "total": "Total"
+        },
+        {
+          "quantity": 1,
+          "description": "13.00   € 15.46    € 2.01",
+          "total": "€ 17.47"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "67415491-2e1d-4f32-a4b2-87f75d36e5c0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Atendido(s) sr: Guadalupe Gomes",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d71698c-c621-4b0f-a886-be478b0f1892",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "wdEe-Processado por programa\ncertificado n. 0071/AT",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1bb720ea-bdb5-4f54-b66b-160ad6f6a200",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nApoio ao Cliente - 808 20 45 45\n(Serviço disponível 24 horas)\nwww.pingodoce.pt\nB08885\n\nCopyright, GrupoPIE, SA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "LciIR7sVHT76BFWQ4ksF"
+}

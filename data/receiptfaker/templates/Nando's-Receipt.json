@@ -1,0 +1,126 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-07T13:58:17.501Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Nando's Receipt",
+  "description": "This receipt is from Nando’s Woodstock and documents a take-out food order. It includes a burger order with customization details such as spice level and toppings. The receipt shows subtotal, payment made in cash, and change due after the transaction. It also includes customer service contact information, order number, check number, and timestamp details. The format reflects a standard quick-service restaurant takeaway receipt used by Nando’s locations.",
+  "sections": [
+    {
+      "id": "3274dd97-654c-4fcc-bc82-c820d3c42d38",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F18ebeb46-974a-4f6e-896a-9a394b3aa072-image%20(3).jpg?alt=media&token=9cece102-2f3f-40b2-965b-4efbe0d5fa4e",
+      "size": 232,
+      "businessDetails": "\nVat Reg\n021 448 6523\nCustomer Care - 086 011 3332\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "887590bd-0f22-444e-99f4-945b1191e5da",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "102 Anthony",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f4994ace-b4fc-4daf-ab67-fdf66ef8cbe7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Chk 1073 11Apr'09 11:40  Gst 0",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a35e272-003f-4291-b539-606643747d59",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTake Out",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "BURGER",
+          "total": "33.05"
+        },
+        {
+          "quantity": "",
+          "description": "MILD",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CHEESE&PINE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "3500.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nGratuity",
+          "total": "\n___________"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "___________"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nOrder Number 73",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "33.05"
+        },
+        {
+          "quantity": "",
+          "description": "Payment",
+          "total": "33.05"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due",
+          "total": "3466.95"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0067e007-2c67-4489-a250-3164933ee4cf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank You\nPlease Call Again",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Nando's-Receipt",
+  "published": true,
+  "id": "O54MWh1PKN8vgNmqrtxU"
+}

@@ -1,0 +1,123 @@
+{
+  "currency": "",
+  "slug": "Three-Ireland-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-07T20:56:25.692Z",
+  "description": "This telecommunications retail receipt from Three Ireland documents a purchase transaction processed at the Three Waterford store in Waterford, Ireland. The receipt includes mobile network branding, store address information, contact telephone details, invoice numbering metadata, staff identification, and transaction references. The POS structure contains product pricing, discount entries, upgrade-related adjustments, trade-in or device credit references, VAT-inclusive accounting, and total amount presentation in pounds sterling as displayed on the receipt. Additional receipt elements include Apple product references, promotional discount formatting, transaction summaries, cashier attribution, and invoice tracking information near the footer. The layout reflects a standard mobile phone retailer thermal receipt used for handset sales, upgrades, and related telecommunications transactions.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Three Ireland Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "8e10dcc4-fdda-492d-92c0-8e5f61e25eb4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc624f9e7-4108-4e8c-b7e7-5fe73df7e9d9-image%20(2).jpg?alt=media&token=93b6047f-1f3f-4163-bb45-5435f0bfc558",
+      "size": 229,
+      "businessDetails": "Three Wellingborough\nJul 16 Corn Lane\nWellingborough NN8 1EZ\n016 1891 4711\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "15b7dcf5-e9c3-43f3-9c7a-0c44220a1150",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Apple Airpod Max Headphones",
+          "total": "£499.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nDiscount",
+          "total": "\n\n0.00"
+        },
+        {
+          "quantity": "",
+          "description": "UPG AC 10GB AYCC",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "UPGRADE",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Three Rescue Decline",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "DAD Validated",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "R Chip & Pin £ Refund x -1",
+          "total": "-1.00"
+        },
+        {
+          "quantity": "",
+          "description": "£1.00 each (inc. VAT at rate 20%)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Trio PAYG Voice 8m",
+          "total": "0.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c80ac12a-db87-4891-b4fe-248cb66422b2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\n£499.00"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Pound Sterling   £499.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5be79c41-afe8-4126-90fd-ae6974277c7c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nInvoice Number\n9374882349278380873423\n\nYou were served today by: Allan Esler\n\nretain for your record\nVat Number: 124647724",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "MyFPZ0Nx9AVwszrjBHc9"
+}

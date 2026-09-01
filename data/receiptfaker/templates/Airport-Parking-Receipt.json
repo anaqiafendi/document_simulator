@@ -1,0 +1,153 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Airport Parking Receipt",
+  "slug": "Airport-Parking-Receipt",
+  "createdAt": "$D2025-09-29T13:54:22.440Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F9KZ5ZLDTLUFL5LjwbHCC%2F9KZ5ZLDTLUFL5LjwbHCC-c235e494-7a3a-4fb0-ba7f-39ebb441567b.png?alt=media&token=13f69e92-9ab6-4300-b303-69da8083321d",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F5ce1a5ba-e17a-4bb4-8b02-e3e24613f8a9-753118_parking_car_packing_sign_vehicle_icon.png?alt=media&token=1c42479b-8fc0-4506-807f-371acb8834f8",
+      "size": 81,
+      "businessDetails": "Airport Parking Receipt\nSkyPark Express Parking",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1800 Aviation Blvd, Los Angeles\nCA 90045\nUnited States\n(310) 555-4721",
+      "bottomDivider": false,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "e0f981a8-6403-4556-8198-3b1cc564b8af",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:54:03 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Entry time: 9/29/2025 4:49 PM\nExit time: 9/29/2025 5:50 PM\nDuration: 1 hr 1 min\nTransaction # 12273\nTicket # 1283",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Parking Fee",
+          "total": "2.54"
+        },
+        {
+          "quantity": "",
+          "description": "Airport Shuttle Service",
+          "total": "3.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.54"
+        },
+        {
+          "title": "Tax",
+          "value": "0.45"
+        }
+      ],
+      "total": "5.99",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for choosing us!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need an airport parking receipt? Use our free tool to generate a detailed parking record. Add lot name, vehicle info, entry and exit times, fees, and payment—perfect for reimbursements or travel expense tracking.",
+  "published": true,
+  "metatitle": "Airport Parking Receipt",
+  "metadesc": "professional airport parking receipts with lot details, vehicle info, entry/exit times, and fees for expense reimbursements",
+  "id": "9KZ5ZLDTLUFL5LjwbHCC"
+}

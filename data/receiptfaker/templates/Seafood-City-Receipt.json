@@ -1,0 +1,168 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Seafood City Receipt",
+  "description": "This receipt is a grocery retail transaction issued by Seafood City Supermarket at its St. Louis, Missouri location, including full store address, contact number, and operating hours. It contains a timestamped transaction record and itemized purchase list with weighted pricing for produce and meat items. The receipt presents a structured financial summary with subtotal, tax, and total amount, followed by payment details indicating Visa card usage. Additional transaction metadata includes sequence number, item count, terminal identification, and points earned, reflecting a standard U.S. supermarket POS receipt format with integrated loyalty tracking.",
+  "slug": "Seafood-City-Receipt",
+  "createdAt": "$D2026-04-10T09:48:31.030Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "771d217b-7554-48f9-bce1-761d136163e4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "SEAFOOD CITY SUPERMARKET\n8020 Olive Blvd. St. Louis, MO 63130\n(314) 993-2800\n Store Hours 9am-9pm Everyday\nSeafood & Meat Departments Open\nMonday-Thursday 10am-7:30pm\nFriday-Sunday 9am-8pm\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c72c33ac-8fb2-4aa6-a662-543f60909f91",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n10/14/2022  2:00:56 PM          ANIL\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73ea6bfb-9e99-412d-bae9-0bb7ab84e7c3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Chicken Breast Bone-In   F",
+          "total": "$$7.95  Tx1"
+        },
+        {
+          "quantity": "",
+          "description": "Green Mangos             F",
+          "total": "$$4.27  Tx1"
+        },
+        {
+          "quantity": "",
+          "description": "1.26 lb @ $3.39/lb",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Philippine Eggplant      F",
+          "total": "$$1.28  Tx1"
+        },
+        {
+          "quantity": "",
+          "description": "Pork Baby Ribs           F",
+          "total": "$$4.54  Tx1"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b1fe55ff-c2a0-4bd6-b3aa-6c3fe4851177",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUB TOTAL",
+          "total": "$$18.04"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$1.05"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7e76d2a5-6371-403b-9866-b246bfbfe52c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "$$19.09"
+        },
+        {
+          "quantity": "",
+          "description": "Visa",
+          "total": "$$19.09"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60ab66eb-21b4-4aa2-b301-ed43853a3a9b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nEPS SEQ NUMBER: 065547\nPoints in this transaction: 18\nItem count: 4\n10/14/2022  2:00:56 PM          ANIL\nTrans: 417964  Terminal: 050017009-001008\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ada19128-9921-4b4d-bb78-b6c5bd0e0622",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " \nSEAFOOD CITY\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "410e749c-0273-4ada-81ee-3dd12d457cfe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "10/14/2022",
+          "total": "14:01:30"
+        },
+        {
+          "quantity": "",
+          "description": "VISA CREDIT",
+          "total": "Entry Method: Chip"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FxjN2B9McHwhMsVyD5NCn%2FxjN2B9McHwhMsVyD5NCn-2990930f-2628-4ce6-bdb8-8af1cd2089ec.png?alt=media&token=562fe946-922c-4869-bb2f-27b84f56f7c1",
+  "published": true,
+  "id": "xjN2B9McHwhMsVyD5NCn"
+}

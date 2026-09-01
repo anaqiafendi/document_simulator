@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T15:50:17.632Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Auto Repair Receipt",
+  "slug": "Auto-Repair-Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F088ece7e-4aa4-481b-80e5-49330b560955-6875984_auto_car_repair_service_icon.png?alt=media&token=a490b479-2da3-433f-9e7e-b89182b5d212",
+      "size": 50,
+      "businessDetails": "Apex Motors Garage\n1425 Motorway Drive, Charlotte, NC 28262\n(704) 555-3981\ncontact@apexmotorsgarage.com\n\nwww.apexmotorsgarage.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to: Olivia Bennett\n2987 Willow Creek Drive\nFargo, ND 58104",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Auto Repair Receipt\nReceipt #: 1012344\nReceipt date: 5/30/2025\nTechnician: L. Ramirez",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Oil Change (Synthetic)",
+          "total": "75.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Brake Pad Replacement",
+          "total": "220.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Tire Rotation & Alignment",
+          "total": "60.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "355.00"
+        },
+        {
+          "title": "Tax (8.25%)",
+          "value": "29.29"
+        }
+      ],
+      "total": "384.29",
+      "totalText": "TOTAL",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "63e24d27-0948-4140-95d0-4e265cd36a78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please retain this receipt as proof of service. All labor is covered by a 30-day workmanship guarantee. Replacement parts carry the manufacturer’s warranty. Returns or refunds are not available for completed services. For any questions or concerns, please contact us at (704) 555-3981 or contact@apexmotorsgarage.com\n\nThank you for choosing Apex Motors Garage!",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "metatitle": "Auto Repair Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FIfhizxsouRTCru6mf21T%2FIfhizxsouRTCru6mf21T-2f358c7b-2bb3-42e0-b310-463551da23cb.png?alt=media&token=de499b26-9fd0-446c-aa06-d030317f3e23",
+  "description": "Need an auto repair receipt? Easily create a professional service record with our free tool. Add shop info, vehicle details, labor, parts, costs, and payment—perfect for customers, insurance, or warranties.",
+  "published": true,
+  "metadesc": "authentic garage receipts featuring vehicle information, repair services, costs breakdown, and payment confirmation details",
+  "id": "IfhizxsouRTCru6mf21T"
+}

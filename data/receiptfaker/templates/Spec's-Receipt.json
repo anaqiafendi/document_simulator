@@ -1,0 +1,113 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Spec's Receipt",
+  "description": "This receipt represents a point-of-sale transaction from Spec’s, a Texas-based retail liquor and beverage store, showing the location at 10515 North Mopac Express, Austin, Texas, along with the store phone number and Store #162 identifier. The receipt includes POS metadata such as the assigned store associate (“YOUR STORE: MICHAEL”), a clearly labeled CASH TRANSACTION section, and a promotional notice encouraging cash payments. The layout contains structured separators, item scan codes, and a financial summary including tax and final balance, followed by a payment section identifying a debit card transaction with a masked Visa card number. The footer reiterates the store address and contains transaction-type information typical of retail POS systems used in beverage and liquor stores.",
+  "slug": "Spec's-Receipt",
+  "createdAt": "$D2026-03-08T17:43:01.018Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F10fc293c-a0a1-40e7-947b-f902945dd9ac-image%20(36).jpg?alt=media&token=1fec381c-ba13-4ef3-a96d-67dad593917d",
+      "size": 236,
+      "businessDetails": "10515 North Mopac Express\nPh: 512-342-6893\nStore # 162\nYOUR STORE: MICHAEL",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e1a33f7-0681-4739-86df-e89b4ee3fdab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CASH TRANSACTION",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "91cc4697-1a9c-4585-b3f4-abf5e972a715",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CONGRATULATIONS\nYOU SAVE $5 BY PAYING WITH CASH",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db623418-727b-4f30-904f-432e3bafab2d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0cba4939-e953-497f-84af-3ee079ab306c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Spec's\n10515 North Mopac Express\nAustin, TX 78759\n\nDEBIT CARD\n\nVISA CREDIT **********4411\nTYPE: Purchase",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "303e6bf8-ea7c-47a0-9ca3-5f48aad4941f",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "30ee6fdd-25eb-4dc1-a0cf-1d77a04d5299",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FdAHE4YFAhaTaG5QUGaOv%2FdAHE4YFAhaTaG5QUGaOv-5ee86fe3-a22c-4bff-9fbd-a8cb96348978.png?alt=media&token=e6596ea3-92a9-4266-bc20-98819077fb10",
+  "published": true,
+  "id": "dAHE4YFAhaTaG5QUGaOv"
+}

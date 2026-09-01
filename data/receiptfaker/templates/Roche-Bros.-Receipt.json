@@ -1,0 +1,162 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Roche Bros. Receipt",
+  "description": "This receipt is issued by Roche Bros. and identifies the transaction as originating from a Boston, Massachusetts store. The receipt organizes the purchased merchandise into Grocery, Produce, Meat, Bakery, Dairy, and Courtesy Booth sections. Items include Prince Spaghetti, peanut butter, Post Honey Bunches of Oats, pizza sauce, Classico sauce, mixed fruit, pepper products, 85% lean ground beef, fresh pizza dough, Hood 2% Milk, shredded mozzarella, International Delight, and checkout bags. The financial section records a $51.62 subtotal, applicable tax, and a final amount due of $51.63. Payment was made using an American Express card, with the masked card number, authorization number, and transaction reference displayed. The overall layout is representative of a United States supermarket POS receipt, combining department-based grocery itemization, tax reporting, checkout bag charges, and electronic card payment processing.",
+  "slug": "Roche-Bros.-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T16:47:48.739Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3643494b-82ff-4adf-97cd-dd770813eaf0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F838548d5-333a-458f-8f14-12baaff47b81-image%20(3).jpg?alt=media&token=4a2e39a6-3e8f-4f35-b65b-28ff93881af9",
+      "size": 275,
+      "businessDetails": "Thank you for shopping\nRoche Bros. Boston, MA\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dcae0bfb-85d1-4150-a184-decaee44931f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Grocery",
+          "value": ""
+        },
+        {
+          "title": "PRINCE SPAGHETTI",
+          "value": ""
+        },
+        {
+          "title": "1 @ 2 FOR 3.00",
+          "value": ""
+        },
+        {
+          "title": "SMART B PEANUT BUTTE",
+          "value": " 4.59 F"
+        },
+        {
+          "title": "POST HNY BNCHS OATS",
+          "value": "3.89 F"
+        },
+        {
+          "title": "CASA VISCO PIZZA",
+          "value": "3.59 F"
+        },
+        {
+          "title": "CLASSICO DINAPOLI SA",
+          "value": "3.79 F"
+        },
+        {
+          "title": "\nProduce",
+          "value": ""
+        },
+        {
+          "title": "MIXED FRUIT BIG DEAL ",
+          "value": "12.91 F"
+        },
+        {
+          "title": "\nMeat",
+          "value": ""
+        },
+        {
+          "title": "D&W PILLOW PACK PEPP",
+          "value": "4.49 F"
+        },
+        {
+          "title": "85% LEAN GROUND BEEF",
+          "value": "5.90 F"
+        },
+        {
+          "title": "\nBakery",
+          "value": ""
+        },
+        {
+          "title": "FRESH PIZZA DOUGH",
+          "value": "2.09 F"
+        },
+        {
+          "title": "\nDairy",
+          "value": ""
+        },
+        {
+          "title": "HOOD 2% MILK",
+          "value": "2.79 F"
+        },
+        {
+          "title": "FCLUB SHRD MOZZARELL ",
+          "value": "2.99 F"
+        },
+        {
+          "title": "INT'L DELIGHT FR VAN",
+          "value": "2.99 F"
+        },
+        {
+          "title": "\nCourtesy Booth",
+          "value": ""
+        },
+        {
+          "title": "CHECKOUT BAG CHARGE",
+          "value": "0.10 T"
+        },
+        {
+          "title": "2 @ 0.05",
+          "value": ""
+        },
+        {
+          "title": "\nSubtotal",
+          "value": "\n51.62"
+        },
+        {
+          "title": "TAX 1",
+          "value": "0.01"
+        },
+        {
+          "title": "American Express",
+          "value": "$$51.63"
+        },
+        {
+          "title": "XXXXXXXXXXXX3485",
+          "value": ""
+        },
+        {
+          "title": "Auth# 503352    Ref# 191433",
+          "value": ""
+        },
+        {
+          "title": "Amount Due",
+          "value": "51.63"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1eac7cc-142c-436a-912b-fdd3a4c6ac91",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n Having you as a Happy Shopper",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "1UumSl868etNDNdjyfMK"
+}

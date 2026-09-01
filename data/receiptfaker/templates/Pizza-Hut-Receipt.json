@@ -1,0 +1,190 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-06T03:12:37.735Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Pizza Hut Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Pizza Hut at the Antwerpen Keyserlei location in Antwerp, Belgium. It includes store address, contact details, and order identifiers such as till number and order number, along with a timestamp and service type indicated as takeout. The receipt contains staff information including cashier name and shift, and presents a structured financial summary with total amount and cash payment. It also includes VAT reporting with rate, pre-tax amount, tax amount, and total including VAT. The footer contains company registration details, VAT number, and licensing information, reflecting a European restaurant POS receipt format compliant with tax regulations.",
+  "sections": [
+    {
+      "id": "dd64cba8-56dd-4de5-87ad-de1259a85cfa",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9d83b9ed-985c-4cb8-b067-564bb7ff7adc-image%20(3).jpg?alt=media&token=10ca8457-fad7-422a-a77a-bfe2b7a06fc9",
+      "size": 150,
+      "businessDetails": "Antwerpen Keyseriei\nde Keyseriei 17\nAntwerpen\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3cfa5676-518f-490f-b87b-8b5445c4fb67",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Tel   03/233.68.10",
+          "total": "Fax"
+        },
+        {
+          "quantity": "",
+          "description": "Till   R3451 Order #",
+          "total": " M345042627"
+        },
+        {
+          "quantity": "",
+          "description": "8 August 2013",
+          "total": "11.53.53"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ac2c4d94-a64c-43b3-aa8f-fbf7cd63cb80",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "TAKEOUT\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad6e6fe1-4fea-4b22-bda4-659bc41c356f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cashier",
+          "total": "MATTEO S"
+        },
+        {
+          "quantity": "",
+          "description": "Shift",
+          "total": "SHIFT-1"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a63633a-890e-4352-842d-99fd7f755ab6",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Description",
+          "value": "Qty"
+        },
+        {
+          "title": "Super Supreme M",
+          "value": "1"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Price",
+          "value": "Amount"
+        },
+        {
+          "title": "16.45",
+          "value": "16.45"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "57ba4f31-a6b2-4e2b-88d6-c9e10ddfdc97",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "16.45"
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "-16.45"
+        },
+        {
+          "quantity": "",
+          "description": "Meals",
+          "total": "1"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc52c8d0-0b37-4361-ad45-6fdce960ad27",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VAT Serial",
+          "total": "VAT Seal"
+        },
+        {
+          "quantity": "",
+          "description": "235084",
+          "total": "508324394"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7e2a218-9a50-4496-9f82-796f6a849f9a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "VAT%  Excl VAT     VAT  Total VAT\n6.00      15.52     0.93   16.45",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9befbf53-33f2-45a2-b843-fb92e0a1442f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nPizza Belgium NV\nFotografielei 41\nB-2610 Wilrijk\nBTW/TVA 428.600.141\nVergunning-Autorisatie no. 6/1999\nVergunn-Author: E.T. 103.592/20.10.2003\nBTW ticket/2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Pizza-Hut-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FU1mjLAJZGkkJP1riJ7PU%2FU1mjLAJZGkkJP1riJ7PU-d16d5720-c5cf-4177-b012-27a310e53f49.png?alt=media&token=74e7cc09-7847-40e1-8f87-88332ac4198a",
+  "published": true,
+  "id": "U1mjLAJZGkkJP1riJ7PU"
+}

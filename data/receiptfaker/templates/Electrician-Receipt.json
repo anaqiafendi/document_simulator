@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T15:11:31.441Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Electrician Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fd7ead29d-1491-4a0c-9513-1c70e824d8c2-4753019_electricity_mast_pole_power_pylon_icon.png?alt=media&token=b7b4f212-04fa-4746-900c-3a6d0dadf317",
+      "size": 50,
+      "businessDetails": "VoltPro Electric Services\n1234 Circuit Lane\nPower City, TX 75001\n\nPhone: (555) 987-6543\nEmail: contact@voltproelectric.com\nWebsite: www.voltproelectric.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Electrician Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to: Emily Carter\n789 Maplewood Drive\nSpringfield, IL 62704",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "25a2e279-e76f-4ddc-b465-5d3b79149748",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Electrician: Josh B.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "4",
+          "description": "LED Light Bulb (60W)\t",
+          "total": "14.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Electrical Outlet (Duplex)\t",
+          "total": 10
+        },
+        {
+          "quantity": 1,
+          "description": "Circuit Breaker (20 Amp)\t",
+          "total": "22"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "46.50"
+        },
+        {
+          "title": "Tax",
+          "value": "3.26"
+        }
+      ],
+      "total": "49.76",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All electrical items sold are subject to a 30-day return policy from the date of purchase, provided the items are unused and in original packaging. Please retain your receipt for any returns or exchanges.\n\nWarranty claims for defective products should be reported within 90 days. VoltPro Electric Services is not responsible for damage caused by improper installation, misuse, or unauthorized repairs.\n\nFor assistance, contact our customer service at (555) 987-6543 or email support@voltproelectric.com.",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Electrician-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FzXKTw0VSknt393hDMRf7%2FzXKTw0VSknt393hDMRf7-89548b86-1cb1-4526-8f7b-945a40b02afa.png?alt=media&token=4af6a1b6-e3d5-4ee1-b3da-7c0dece46e9d",
+  "description": "Need an electrician receipt? Our free tool helps you create a detailed receipt for electrical work. Enter contractor info, services provided, parts used, labor costs, and payment—great for clients, records, or invoicing.",
+  "published": true,
+  "metatitle": "Electrician Receipt",
+  "metadesc": "professional electrician receipts with contractor details, services, parts, labor costs, and payment info using our free tool",
+  "id": "zXKTw0VSknt393hDMRf7"
+}

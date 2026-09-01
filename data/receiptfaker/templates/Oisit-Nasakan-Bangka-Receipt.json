@@ -1,0 +1,121 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-18T14:53:53.507Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5b283dde-547c-4737-8f16-5b54d75c2372",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F41bc11e6-9f05-4fda-a166-41c536744497-image%20(2).jpg?alt=media&token=302b5aab-715a-4eb1-90b7-5dfc0ef02d22",
+      "size": 222,
+      "businessDetails": "\nMasakan Bangka\nJl. Sunset Avenue Blok K-02A No.\n05, Citra Garden City 8\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "52da94da-3fcf-46c1-8391-d159bb0e0076",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Id Transaksi : #4267\nMinggu, 27/07/2025 16:05",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6728c25-38e8-410c-bea2-f9d1493a4332",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Babi Asin Bangka,",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x 105,000  ",
+          "total": "105,000"
+        },
+        {
+          "quantity": "",
+          "description": "Lempah Kuning Ikan Pari,",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": " 1 x 70,000 ",
+          "total": "70,000"
+        },
+        {
+          "quantity": "",
+          "description": "Nasi Putih,",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x 7,000  ",
+          "total": "7,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7991c52-c557-4a7d-a756-08b86cf37508",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SubTotal",
+          "total": "182,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73a48b82-e25d-4452-98e9-7e74002b09a5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Customer :\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "286da58e-08df-47af-9339-c0676e4d1315",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTotal Harga : Rp.182,000\nBayar       : Rp.182,000\n\n\nUntuk Pemesan Bisa Menghubungi\nWA: 0822-1038-3322\n\n\nTerima Kasih!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Oisit Nasakan Bangka and identifies the restaurant as Jl. Sunset Avenue Blok K-02A No. 05, Citra Garden City B, Indonesia. The header contains the Oisit Nasakan Bangka branding, restaurant address, transaction ID, transaction date, and time. The receipt records a dine-in order consisting of Babi Asin Bangka, Lempah Kuning Ikan Pari, and Nasi Putih. The financial section records the subtotal and confirms the total amount due and the amount paid in Indonesian Rupiah (Rp). The footer provides a WhatsApp contact number for placing future orders and concludes with a customer appreciation message. The overall layout is representative of an Indonesian restaurant POS receipt, combining menu itemization, payment summary, and ordering information within a compact hospitality receipt format.",
+  "name": "Oisit Nasakan Bangka Receipt",
+  "slug": "Oisit-Nasakan-Bangka-Receipt",
+  "published": true,
+  "id": "7lPEcz0TzTWlAV07J6sN"
+}

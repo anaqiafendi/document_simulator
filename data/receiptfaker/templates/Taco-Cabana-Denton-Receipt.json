@@ -1,0 +1,115 @@
+{
+  "sections": [
+    {
+      "id": "9afa2cd9-59e6-4cfd-b738-0112571f129e",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F757e644f-8a24-4697-856c-753d45e01e21-image%20(10).jpg?alt=media&token=1ae28466-02ac-4aea-b6e7-71a6c6d6a6c4",
+      "size": 265,
+      "businessDetails": "2330 W University Drive\nDenton, TX 76201\nStore# 20355  Phone# (940) 205-4662\n\n\nReg 1 - 3N                \nOrder 142366  10/6/2024 3:27:59 PM\nEmployee: 401618    Name: Adrian",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75ce05ba-292f-4c3f-9055-e7d4c6948249",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nNew Plate & 20 oz Drink ",
+          "value": "\n11.09"
+        },
+        {
+          "title": "1 Sm Cashier",
+          "value": "11.09"
+        },
+        {
+          "title": "1 SM Drink",
+          "value": ""
+        },
+        {
+          "title": "Street Taco Combo (QR3)",
+          "value": "30.39"
+        },
+        {
+          "title": "1 Chips Guac",
+          "value": ""
+        },
+        {
+          "title": "1 SM Drink",
+          "value": ""
+        },
+        {
+          "title": "\nSubTotal",
+          "value": "\n21.48"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "1.77"
+        },
+        {
+          "title": "Total",
+          "value": "23.25"
+        },
+        {
+          "title": "Visa",
+          "value": "23.25"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd13012a-0ccf-4f46-8501-6197a59adcf9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nAcct: _______________\nAuthorization:\n\nORDER# 166: _______________\nYour Table Tent Number: 30\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "7a3dc4f5-2fc4-439b-99d5-4c3928e7e46d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nScan barcode on MY TC! App to get points Barcode valid for 5 days after purchase",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "80116d80-d792-460a-84d5-072112744398",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "68e55681-d74a-4211-888d-44c299024c89",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "5568641312042\n\nNot a member? Register on the MY TC! app\n\nTELL US ABOUT YOUR EXPERIENCE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-23T12:46:24.345Z",
+  "imageUrl": "",
+  "name": "Taco Cabana Denton Receipt",
+  "slug": "Taco-Cabana-Denton-Receipt",
+  "description": "This receipt is issued by Taco Cabana and identifies Store #2035 at 2330 W. University Drive, Denton, Texas 76201. The header contains the restaurant branding, street address, telephone number, register information, order number, transaction date and time, and employee details. The order includes a Mex Plate with a 20 oz drink and a Street Taco Combo, with chips and queso and small drinks listed as associated selections. The financial section records a subtotal of $21.48, sales tax of $1.77, and a final total of $23.25. A Visa payment is shown in the payment section, followed by authorization information. The lower portion provides Table Tent Number 36, promotes the MY TC! rewards program, includes a barcode for earning points, and displays a QR code inviting the customer to provide feedback about their experience.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "gRifGzRH6VOGcX65xc5P"
+}

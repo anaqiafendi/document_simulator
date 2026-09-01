@@ -70,6 +70,9 @@ data/*
 !data/.gitkeep
 !data/samples
 !data/hdri
+# ReceiptFaker corpus: labelled template definitions drive the layout
+# taxonomy prior. Logos are Git LFS (see .gitattributes).
+!data/receiptfaker
 models/
 !models/.gitkeep
 output/

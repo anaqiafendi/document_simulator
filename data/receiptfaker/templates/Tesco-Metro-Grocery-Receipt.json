@@ -1,0 +1,186 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Tesco Metro Grocery Receipt",
+  "description": "This receipt is from Tesco Metro, a supermarket convenience store in the United Kingdom. It records the purchase of grocery items including fresh milk, muesli, and dark chocolate. The receipt includes Mastercard payment details, authorization information, Clubcard loyalty points summary, and promotional points totals. It also contains a customer feedback invitation and transaction reference details. The format reflects a standard UK supermarket POS receipt used by Tesco Metro stores.",
+  "slug": "Tesco-Metro-Grocery-Receipt",
+  "createdAt": "$D2026-05-15T08:28:26.664Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "sections": [
+    {
+      "id": "171a7117-1a41-42bc-88a8-a0277a9ecad2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fda77960b-4111-48b0-9b2b-aa08d23da3c1-image%20(16).jpg?alt=media&token=0fd4fcd0-f9a9-4275-b4a8-f33c75c10c8c",
+      "size": 183,
+      "businessDetails": "TEL 0843 6779218\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee1b87b1-bc8e-47c2-89ee-21bcc575c5a2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "FRESH MILK",
+          "total": "£"
+        },
+        {
+          "quantity": "",
+          "description": "MUESLI",
+          "total": "0.89"
+        },
+        {
+          "quantity": "",
+          "description": "DARK CHOCOLATE *",
+          "total": "2.29"
+        },
+        {
+          "quantity": "",
+          "description": "2 @    £0.95",
+          "total": "1.90"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "\n\n5.08"
+        },
+        {
+          "quantity": "",
+          "description": "MASTERCARD SALE",
+          "total": ""
+        },
+        {
+          "quantity": "AID",
+          "description": "A00000000410l0          ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "NUMBER ************093",
+          "total": "ICC"
+        },
+        {
+          "quantity": "",
+          "description": "PAN SEQ NO",
+          "total": "02"
+        },
+        {
+          "quantity": "",
+          "description": "AUTH CODE",
+          "total": "086017"
+        },
+        {
+          "quantity": "",
+          "description": "MERCHANT",
+          "total": "1833431"
+        },
+        {
+          "quantity": "",
+          "description": "START : 10/10   EXPIRY : 11/13",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cardholder PIN Verified",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE DUE",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b780a9e-8d0c-4dde-87ab-ce3af02902d0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CLUBCARD STATEMENT",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "795d9592-133c-46e8-826b-74b8751b0e35",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCLUBCARD 634004902428294*",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "POINTS THIS VISIT",
+          "total": "5"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL UP TO 22/04/12",
+          "total": "717"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL INCLUDES",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TCF BONUS POINTS",
+          "total": "360"
+        },
+        {
+          "quantity": "",
+          "description": "GREEN CLUBCARD POINTS",
+          "total": "14"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "89e90fe2-1d5d-420c-84d4-207660e22b51",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHow did we do?\nVisit www.tescocomments.com and\ntell us about your shopping trip",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f113c4e-cbf6-41f8-afa7-6801fd987ef8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n23/04/12   19:51   2407   004   1004\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "ooIEQr4MatBAFd5potOS"
+}

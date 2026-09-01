@@ -1,0 +1,178 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Metropolitan Market Receipt",
+  "description": "This receipt is issued by Metropolitan Market and documents a transaction completed at Self Check-Out #18. The receipt records grocery purchases including Rainier Cherries, Organic Bananas, Cool Ranch Doritos, and Pretzel Braids. A Rainier Cherries entry is also shown as a reversed amount, reducing the transaction balance. The financial section records $0.00 tax and a final balance of $15.08. The payment section confirms settlement using a Mastercard and includes the approval status, EMV application ID, issuer approval information, payment amount, and change due. The footer records the transaction date and time and concludes with a customer appreciation message. The overall layout is representative of a United States supermarket self-checkout POS receipt, combining weight-based produce pricing, merchandise adjustments, electronic card payment processing, and transaction information.",
+  "slug": "Metropolitan-Market-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T15:45:03.822Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "16b8fb57-f13e-4993-9a9a-d00fdbdd8f69",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa45fc02b-f2ff-451f-8aad-7acf26bc1561-image%20(1).jpg?alt=media&token=69783927-7971-4ed4-89cc-0bcfef181b7a",
+      "size": 288,
+      "businessDetails": "Self Check-Out #18",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b9dd3e95-ec1e-407e-bcca-3c162ff034ff",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "\n2.85 lb @ 12.99 /lb",
+          "value": ""
+        },
+        {
+          "title": "WT  RAINIER CHERRIES",
+          "value": "37.02 F"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0812a060-6814-43f9-af96-7c4ed400043b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n*** Check Cart ***\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "abed165c-3695-446a-90d5-92942e986e46",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "3.33 lb @ 0.99 /lb",
+          "value": ""
+        },
+        {
+          "title": "WT  ORGANIC BANANAS",
+          "value": "3.30 F"
+        },
+        {
+          "title": "2.85 lb @ 12.99 /lb",
+          "value": ""
+        },
+        {
+          "title": "CL MO  RAINIER CHERRIES",
+          "value": "37.02-F"
+        },
+        {
+          "title": "COUKEN RANCH DDMIT",
+          "value": "5.49 F"
+        },
+        {
+          "title": "PRETZEL BRAIDS MAU",
+          "value": "6.29 F"
+        },
+        {
+          "title": "TAX",
+          "value": "0.00"
+        },
+        {
+          "title": "\n**** BALANCE ",
+          "value": "\n15.08"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c86c8e93-2488-49ab-8774-75fae1ef6abb",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nMasterCard/Mastercard",
+          "value": "******"
+        },
+        {
+          "title": "Purchase APPROVED",
+          "value": ""
+        },
+        {
+          "title": "AID: A0000000041010",
+          "value": ""
+        },
+        {
+          "title": "CVM: 1E0300 TYPE: 00 MODE: 07",
+          "value": ""
+        },
+        {
+          "title": "ISSUER APR#: 75173P ARC:000",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07c4214b-ec43-4518-9b9a-f8d964c59d8f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "MasterCard",
+          "value": "15.08"
+        },
+        {
+          "title": " CHANGE",
+          "value": "0.00"
+        },
+        {
+          "title": "06/04/26  15:28  165  18  142",
+          "value": "18"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f37472bf-a328-4eaa-9c00-a1cde6d8427d",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dbe66bff-7a72-4f06-bd03-97e3d3afc5ba",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " 99016501801422606041528\n\nTHANK YOU FOR SHOPPING WITH US!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "kXM24tU1rv3czUW0aRWT"
+}

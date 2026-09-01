@@ -1,0 +1,140 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T11:34:14.661Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Beefeater Harvester Receipt",
+  "description": "This receipt is from a Beefeater Harvester restaurant in the United Kingdom. It records a casual dining transaction including food and drink items such as a combo meal, soft drink, and side dish. The receipt includes table and account information, VAT calculations at the UK 20% rate, product group summaries, and the final total amount due. It also contains promotional messaging for future meal discounts and restaurant VAT registration details. The format reflects a standard UK restaurant POS receipt used for dine-in service.",
+  "sections": [
+    {
+      "id": "1ca3796a-83b0-47b3-a9a8-25ad9ce16ee8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nBeefeater Harvester\nBeehive Lane\nIG4 5GB",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "259fc50f-1815-4545-9175-65cb6b745625",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ZA701004-POS-0",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "KELLIE",
+          "total": "18 Jun 2015 20:19"
+        },
+        {
+          "quantity": "",
+          "description": "\nTable: 1k",
+          "total": "\nAcc No: 2267"
+        },
+        {
+          "quantity": 1,
+          "description": "Glad Pepsi",
+          "total": "=  2.55"
+        },
+        {
+          "quantity": 1,
+          "description": "Original Combo",
+          "total": "=  6.79"
+        },
+        {
+          "quantity": 1,
+          "description": "Sweet Pot Chips",
+          "total": "=  3.49"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc3704a2-489c-4b6d-93ae-d9f63ae4d541",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Product Group Summar",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Food And Drink",
+          "total": "11.83"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Net",
+          "total": "9.86"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT",
+          "total": "1.97"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Total",
+          "total": "11.83"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "072dba86-9e21-4d54-9a84-c6b71feb313e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total                        £11.83",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "18d914d2-6115-4924-b744-d41df3d81c1a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nBring this bill back between 22nd-28th June 2015 to receive 50% OFF MAIN MEALS. One voucher per group. Excludes breakfast. Cannot be used with any other offers inc £9.99 meal deal/set menus. Excludes Harvester Moto.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "48b23abf-416d-4317-8ec1-250f61d68d43",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVAT NO: 232153895",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Beefeater-Harvester-Receipt",
+  "published": true,
+  "id": "shkIXVRFBZ3rUBbJxcHG"
+}

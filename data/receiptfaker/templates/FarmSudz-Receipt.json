@@ -1,0 +1,125 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "FarmSudz Receipt",
+  "description": "This receipt is issued by FarmSudz and identifies the business as 109 S. Main Street, Chelsea, Michigan 48118. The header contains the FarmSudz branding, store address, contact telephone number, website, transaction date and time, and staff name. The receipt records the purchase of four gift cards valued at $25.00 each, resulting in a total purchase amount of $100.00. The payment section confirms settlement using a contactless Mastercard and includes the card reference, authorization information, and EMV application identifier. The footer contains a customer appreciation message and the store's return policy, which generally requires eligible merchandise to be returned within 30 days of purchase with the original receipt. A transaction barcode appears at the bottom of the receipt.",
+  "slug": "FarmSudz-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T13:41:29.185Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "a91b4fc1-01e2-4de4-9014-63ffa0462f7b",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F145ebaff-8634-4c49-8bc8-5a83e23f7515-image%20(8).jpg?alt=media&token=de91faea-4e4e-4338-a809-41a0ec3c644d",
+      "size": 282,
+      "businessDetails": "FarmSudz\n\n109 S. Main St.         Nov 15, 2023\nChelsea, MI 48118       11:16 AM\n(734) 593-7030           Sandy\nfarmsudz.com\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe1bd83e-dd3d-4de9-9bfa-e3ca643830ee",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nReceipt: 7L-NW\nAuthorization: 00184Q",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c792e12-9180-4b84-9798-7f955dfac5e9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nMASTERCARD\nAID A0 60 00 00 04 10 10",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "38b6bc7f-31dc-4cd8-984b-7d99a6c3fb25",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nGift Card 3284 x 1",
+          "value": "\n$25.00"
+        },
+        {
+          "title": "\nGift Card 3292 x 1 ",
+          "value": "\n$25.00"
+        },
+        {
+          "title": "\nGift Card 6873 x 1",
+          "value": "\n$25.00"
+        },
+        {
+          "title": "\nGift Card 6741 x 1",
+          "value": "\n$25.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f787b7f6-2085-4ac6-a7a1-9483ecb023e9",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nTotal ",
+          "value": "\n$100.00"
+        },
+        {
+          "title": "MasterCard 0391",
+          "value": "$$100.00"
+        },
+        {
+          "title": "(Contactless)",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "367bac96-7728-4587-979d-3fddb300af45",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThanks for being a Sudzer!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b665033b-fa90-4fa0-a44a-a31e8bdfc208",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nReturn Policy: We hope that you are always perfectly happy with your \nFarmSudz purchase, but we realize there are times that you may need to return/exchange a product.\n\nIf you do, please note that returns must be made within 30 days of purchase and be accompanied by the original receipt\n(email/text/paper).\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db1af55f-4265-4736-bf40-70a71c7f4e07",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "3JVy9NeSAJK9RRFQ80by"
+}

@@ -1,0 +1,165 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T08:36:27.875Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "4a3ea400-ae8d-4306-8989-2f19d0eca471",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbc32dc43-b95a-4a2b-bcea-64f3d0ea839f-image.jpg?alt=media&token=7693a171-5830-403c-8a86-f57f9dcd440b",
+      "size": 270,
+      "businessDetails": "Monona Bakery and Eatery\n4544 Monona Dr   February 18, 2026\nMadison, WI         3:17 PM\n53716                        Claudia\n(608) 263-9987\nMononaBakeryEatery.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "63c4e71f-f110-440f-a17e-f0cec8c1118d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Ticket: Mid booth 7\nReceipt: NULM\nAuthorization: 018260",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1241f98d-7562-4235-b194-126e39525759",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "DEBIT\nAID A0 00 00 00 04 22 03",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f9d281d-3771-420b-b511-f307429b19e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHERE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a4f3e79b-e86a-411b-8648-9a60db6ac5fa",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nPlato Tipico-Res (GF) x 2",
+          "total": "\n$39.50"
+        },
+        {
+          "quantity": "",
+          "description": "(5) Corn Tortillas",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "($19.75 each)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Juice",
+          "total": "$$3.75"
+        },
+        {
+          "quantity": "",
+          "description": "16 oz. Pineapple",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Juice",
+          "total": "$$3.75"
+        },
+        {
+          "quantity": "",
+          "description": "16 oz. Apple",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2bb36bf1-66c9-4e79-b594-e56d66b399b5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$47.00"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax (5.5%)",
+          "total": "$$2.58"
+        },
+        {
+          "quantity": "",
+          "description": "Tip",
+          "total": "$$5.00"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n$54.58"
+        },
+        {
+          "quantity": "",
+          "description": "Mastercard 0654 (Contactless)",
+          "total": "$$54.58"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "14dbd397-b470-41cf-863d-38bf611f8ab4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nhank you for your support!\nGracias por su apoyo!\n\n\nConsuming raw or undercooked meats, poultry, seafood, shellfish, or eggs\nmay increase your risk of food borne illness",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "$3e",
+  "name": "Monona Bakery Receipt",
+  "slug": "Monona-Bakery-Receipt",
+  "published": true,
+  "id": "Wljvs1Jcgz5ciZ5955wX"
+}

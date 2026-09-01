@@ -1,0 +1,95 @@
+{
+  "sections": [
+    {
+      "id": "44854dc1-b14f-427f-b04c-ee71aedda128",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "Bojangles #0790\n310 Springside Drive\nClinton, SC 29325\n(864) 938-1052\nBocountry.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "786b9765-8d1f-4cc7-9878-752df378ad1b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCheck 20033\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "35429c9d-1431-4a1b-b091-1c660c24659e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Station 2\nCashier 13\nMED          12/24/25       10:35am",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "153b0074-4a1c-47ed-8ca7-235fda4a8e5d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n1 Bacon Egg Chez Bi             4.09\n1 SM Sweet Tea                  0.75\nPol/Fam/MIT 10%                 0.40",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20b1fb6b-7125-41d7-93de-8c69fdb0de49",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSub/Tt1",
+          "value": "\n4.40"
+        },
+        {
+          "title": "Tax ",
+          "value": "0.44"
+        },
+        {
+          "title": "EAT-IN",
+          "value": "4.84"
+        },
+        {
+          "title": "Rounding Adj",
+          "value": "0.01"
+        },
+        {
+          "title": "\nCash",
+          "value": "\n5.04"
+        },
+        {
+          "title": "\nChange",
+          "value": "\n0.19"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe690f29-134b-49f1-8480-7590347a38ee",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nJoin Our Team at\nwww.bocountry.com/careers",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-22T19:41:28.851Z",
+  "imageUrl": "",
+  "name": "Bojangles Receipt",
+  "slug": "Bojangles-Receipt",
+  "description": "This receipt is issued by Bojangles and identifies the restaurant as Store #0790 in Clinton, South Carolina. The header contains the restaurant name, store number, location information, and check number. The transaction is dated 24 December 2025 and records an eat-in order that includes a Bacon, Egg & Cheese biscuit and a sweet tea, with additional POS wording associated with the beverage. The financial section shows the food amount, applicable tax, and a final eat-in total of $4.84, followed by a small rounding adjustment. The customer paid in cash, and change was returned. The footer contains a recruitment message directing customers to the company's careers page.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "KjvKCmsTvtHfsxl8aUJn"
+}

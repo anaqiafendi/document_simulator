@@ -1,0 +1,126 @@
+{
+  "createdBy": "b1df5KHRC9ezcjyVHf8RrxZtXzE3",
+  "name": "Starbucks Receipt example with Venti Mocha Latte, Oat Milk and 3 more items totalling 38 dollars 02 cents",
+  "slug": "Starbucks-Receipt-example-with-Venti-Mocha-Latte-Oat-Milk-and-3-more-items-totalling-38-dollars-02-cents",
+  "createdAt": "$D2025-06-10T07:15:46.511Z",
+  "isParent": false,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fa100bca9-2330-4778-90e2-b4c78ee88780-61054fd9c32c81000497725a.png?alt=media&token=85b3e269-7f06-4a28-8cd5-0f86c33ca223",
+      "size": 122,
+      "businessDetails": "11309 Lebanon Rd\nMt. Juliet, TN 37122\nPhone: (615) 917-9151\nSTORE # 63225\nVAT No: 273 5224 09",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1002 Olivia",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f33280a4-40d7-425f-be8f-6f1a251d74c6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Chk 2639",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Venti Mocha Latte",
+          "total": "13.90"
+        },
+        {
+          "quantity": "",
+          "description": "Oat Milk",
+          "total": "0.50"
+        },
+        {
+          "quantity": "1",
+          "description": "Chocolate Pie",
+          "total": "8"
+        },
+        {
+          "quantity": 1,
+          "description": "Gr Wht Mocha",
+          "total": "11.90"
+        },
+        {
+          "quantity": "",
+          "description": "Oat Milk",
+          "total": "0.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "34.8"
+        },
+        {
+          "title": "Tax",
+          "value": "3.22"
+        }
+      ],
+      "total": "38.02",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f3934b1-d2f6-4811-a646-abbd5179653f",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "06/07/25, 3:48:03 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for visiting Starbucks",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt was created with ReceiptFaker generator based on **Starbucks Receipt** template on **Jun 10, 2025**.",
+  "parentId": "k18UG4ClifkR2NmBxaYf",
+  "parentName": "Starbucks Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FdkmfL76mlAtNdb4tufQB%2FdkmfL76mlAtNdb4tufQB-a0a3458f-fa41-4fd2-abaa-de0e50773eb8.png?alt=media&token=2ab54730-2741-46eb-82bf-1221791fa2bb",
+  "published": true,
+  "metatitle": "Starbucks Receipt",
+  "metadesc": "realistic Starbucks receipts with custom drinks like Venti Mocha Latte, food items, and totals using our free receipt generator",
+  "id": "dkmfL76mlAtNdb4tufQB"
+}

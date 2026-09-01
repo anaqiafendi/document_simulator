@@ -1,0 +1,191 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T09:22:50.875Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "1581c63d-740d-4d02-b0a6-81a806456976",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Domino's Pizza\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6470fe98-9f77-406d-ad56-d9d453bbad56",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "C/O\nC\n\n#50    Domino's Pizza #973\nPAID        (210) 229-7232\n       3/13/2025  5:01 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6f94a03e-959f-48cb-85ae-4e0f5f7f9870",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n1st Order Ready: 5:14 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29b81f5e-b7ae-4a1a-beb3-84ada5be63be",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n------------ SUMMARY ------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cae4ab7-02bd-48a9-be20-07f246015ac0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n#50\n1-12\" Pan Ultimate Pep Pizza\n1-14\" Thin ExtravaganZZa\n1-16-Piece WINGS Hot Buffalo\nTOTAL ITEMS: 3\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "05213be3-2696-4a4b-b439-681328edfd58",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "---------- ORDER: Oven ----------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee0eb255-f7a1-48c8-abb8-0eafcb805f1f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 12\" Pan Ultimate Pep Pizza",
+          "total": "$$18.99"
+        },
+        {
+          "quantity": "",
+          "description": "(Ultimate Pep Pizza)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 14\" Thin ExtravaganZZa",
+          "total": "$$19.99"
+        },
+        {
+          "quantity": "",
+          "description": "(ExtravaganZZa)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 16-Piece WINGS Hot Buffalo",
+          "total": "$$19.49"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL BOXES: 3",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c75b3840-ad1a-40c9-bb0c-08de6305f9f7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n-------- ORDER: Non-Oven ---------\n\n------ COUPONS/ADJUSTMENTS -------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4397dbf9-7613-46ef-868d-8a06ae4b21f3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "------------------"
+        },
+        {
+          "quantity": "\n\n",
+          "description": "Sub Total",
+          "total": "\n\n$58.47"
+        },
+        {
+          "quantity": "",
+          "description": "Tax 1",
+          "total": "$$4.82"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal ",
+          "total": "\n$63.29"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3a5c08f-ba8a-495a-8b88-bcd32b60a321",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n----------- PAYMENTS -------------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "deaaf9da-1d9a-40cf-8a29-4c6bc79128de",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Visa ",
+          "total": "$$63.29"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Domino's Pizza Receipt",
+  "description": "This receipt is issued by Domino's Pizza and documents a completed customer order. The visible portion of the receipt includes the transaction status (Paid), transaction date and time, estimated order-ready time, and an order summary listing pizzas and chicken wings. The receipt separates items into Oven and Non-Oven preparation categories and records the total number of items and boxes required for the order. The financial section includes the subtotal, applicable sales tax, and final transaction total. The overall layout is representative of a United States Domino's Pizza POS receipt, combining kitchen production workflow, order management, tax reporting, and transaction reconciliation within a compact quick-service restaurant receipt format.",
+  "slug": "Domino's-Pizza-Receipt",
+  "published": true,
+  "id": "ru86BdEeQPxrCoD55OH8"
+}

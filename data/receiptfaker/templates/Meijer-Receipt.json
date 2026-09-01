@@ -1,0 +1,158 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Meijer Receipt",
+  "description": "This receipt is a retail transaction issued by Meijer at its Lorain, Ohio location, including full address and contact information. It contains transaction identifiers, operator details, and timestamped checkout information. The receipt presents a purchase of general merchandise with product identification and pricing, followed by a structured financial summary including sales tax and total amount. Payment details indicate a cash transaction with tendered amount and change returned. The format reflects a standard U.S. supermarket and retail POS receipt with tax breakdown and transaction tracking information.",
+  "slug": "Meijer-Receipt",
+  "createdAt": "$D2026-04-18T12:47:00.830Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "6f5ce228-09f1-491d-a35e-e836e669a3a9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1d39a8e2-5704-4d38-9467-ff864dcb01cb-image%20(4).jpg?alt=media&token=cb1e1a65-38c8-4c45-a348-2d7c8b938271",
+      "size": 187,
+      "businessDetails": "5350 Leavitt Rd. - #318\nLorain, OH 44053\n440.538.0090 \nmeijer.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7b830da-e88a-4f48-8b6f-3a7a1b5f4071",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "The Meijer Team appreciates your business 03/05/22 Your checkout was provided by Fastlane111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c78c4ebf-936d-47ec-903a-0b56e4f667e2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSALE\nGENERAL MERCHANDISE\n19473502591 ACTION FIGURE 8.99 CT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1aa56d5-711a-451b-8f82-19c948f85f81",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": " TOTAL",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "OH 6.50% Sales Tax:",
+          "value": "0.58"
+        },
+        {
+          "title": "TOTAL TAX",
+          "value": " 0.58"
+        },
+        {
+          "title": "TOTAL",
+          "value": "9.57"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "70c1b333-24f0-49fe-910c-76a8efbc5de1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "PAYMENTS",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": " CASH  TENDER",
+          "value": "10.00"
+        },
+        {
+          "title": "CASH    CHANGE",
+          "value": "0.43"
+        },
+        {
+          "title": "NUMBER OF ITEMS",
+          "value": "1"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1b1940b8-4518-48f4-987e-2c942afac8a4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFor information on Meijer return policy visit meijer.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d67fd675-a22e-4104-92cb-f3c3987cead1",
+      "type": "BARCODE",
+      "size": 73,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0b06c7c9-c0d3-464d-9e0f-dcd5f7b0f921",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "A 0 3 1 8 0 N S K S I Z V D S",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "82dee11b-d00f-4d84-94ae-c3174cd8196a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTx:124 Op:562 Tm:111 St:318 16:25:22",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FvYsS1hES6g4qMvO3dXEf%2FvYsS1hES6g4qMvO3dXEf-c5725130-d3ee-473f-8e12-e762018644f3.png?alt=media&token=b25c4c55-ff62-4dcb-a06f-8f3d6beb9433",
+  "published": true,
+  "id": "vYsS1hES6g4qMvO3dXEf"
+}

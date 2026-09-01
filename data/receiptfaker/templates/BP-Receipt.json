@@ -1,0 +1,147 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "BP Receipt",
+  "slug": "BP-Receipt",
+  "createdAt": "$D2025-09-30T13:01:32.865Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 49,
+      "businessDetails": "BP\n5048 S CORNELL CHICAGO IL. 60615\n8887853",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "80566e26-31ef-489e-9a10-6533e976264a",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Description",
+          "value": ""
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Amount",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "15",
+          "description": "Diesel Fuel ($4.15/gal)",
+          "total": "62.25"
+        },
+        {
+          "quantity": "2",
+          "description": "Motor Oil (1 qt)",
+          "total": "13.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "75.25"
+        },
+        {
+          "title": "Tax",
+          "value": "6.21"
+        }
+      ],
+      "total": "81.46",
+      "totalText": "TOTAL",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "85.00"
+        },
+        {
+          "title": "Change",
+          "value": "3.54"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "REWARD\nAcct/Card #: ************8368\nStan: 03231856997",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ddf6b41-cf9d-4600-a04e-b83248b8ad65",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANKS, COME AGAIN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FEAyHpP2lw3abtkawk95Q%2FEAyHpP2lw3abtkawk95Q-57ed1a52-1e7d-430f-a0e4-99dce39e2657.png?alt=media&token=515478fc-f2be-4b3b-b60a-83ee165f228e",
+  "description": "Need a BP receipt? Easily create a detailed fuel purchase record with our free tool. Add station info, fuel type, volume, price, and payment—perfect for reimbursements, mileage logs, or expense tracking.",
+  "published": true,
+  "metatitle": "BP Gas Station Receipt",
+  "metadesc": "realistic BP fuel receipts with station details, fuel type, volume, pricing, and payment info for expense tracking and logs",
+  "id": "EAyHpP2lw3abtkawk95Q"
+}

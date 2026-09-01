@@ -1,0 +1,112 @@
+{
+  "backgroundCrumpled": true,
+  "currency": "$$",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-15T15:21:17.122Z",
+  "isParent": true,
+  "description": "A retail purchase receipt from Dollar Tree showing store number 2011 located at 615 Brockport Spencerport Rd, Brockport, NY 14420-2666. The receipt is dated 01/11/2026 at 4:18 PM and lists the purchase of 19 Cracker Packs totaling $23.75. The transaction shows tax exemption (GEN EXEMPT $0.00) with a total displayed as $160.00. Payment was made by credit card (chip entry) with approval status confirmed. The receipt also includes masked card details, promotional website information (dollartree.com and dollartreefeedback.com), and sales associate name Xavier.",
+  "fontType": "RECEIPTIONAL_RECEIPT",
+  "sections": [
+    {
+      "id": "cf2a2df0-9cd7-40ad-9716-3b7cb0a6aba0",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcc8128b7-6aff-41ba-8a67-cfe356e5380e-dollar%20tree.jpg?alt=media&token=bb0940f6-e8b6-45ea-9ac6-b97236c349ee",
+      "size": 124,
+      "businessDetails": "Store 2011                585-391-0250\n615 Brockport Spencerport Rd\nBrockport NY 14420-2666",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "4bc6fe5b-b0bc-4775-bfc2-333ad58570af",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Date: 01/11/2026 4:18 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS"
+    },
+    {
+      "items": [
+        {
+          "quantity": "19",
+          "description": "CRACKER PACKS",
+          "total": "23.75"
+        }
+      ],
+      "id": "66369368-4333-438e-adf4-1ea4c5c2c820",
+      "type": "ITEMS",
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "23.75"
+        },
+        {
+          "title": "GEN EXEMPT ",
+          "value": "00.00"
+        }
+      ],
+      "total": "160.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ac88b22-8033-4d62-97f6-5d1c044e38bd",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "CARD",
+          "value": "**** **** **** 1922"
+        },
+        {
+          "title": "CARD TYPE",
+          "value": "CREDIT"
+        },
+        {
+          "title": "CARD ENTRY",
+          "value": "CHIP"
+        },
+        {
+          "title": "STATUS",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "695c4794-77a6-4ba8-877e-33069040093a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "NOW SHOP ONLINE AT DOLLARTREE.COM\nPlease provide your feedback at\nwww.dollartreefeedback.com\nSales Assoc. Xavier",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "metatitle": "Dollar Tree Receipts",
+  "metadesc": "custom Dollar Tree receipts with editable store details, items, prices, and dates for budgeting and expense tracking needs",
+  "backgroundType": "CRUMPLED_1",
+  "name": "Dollar Tree Receipt",
+  "slug": "Dollar-Tree-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FxUHKawSgbUKVrt5XqnJm%2FxUHKawSgbUKVrt5XqnJm-89029db8-831f-4514-94bb-ef4bae49cb51.png?alt=media&token=59399b77-f1b3-42e9-b660-714006506c3a",
+  "published": true,
+  "id": "xUHKawSgbUKVrt5XqnJm"
+}

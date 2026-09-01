@@ -1,0 +1,201 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-26T11:01:24.975Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "179966e9-86b1-4f12-9ee0-2de51eaedbf2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdf5a35e4-1d3a-4bea-8951-6ab84f7afeac-image%20(6).jpg?alt=media&token=7c77589e-d1d9-4064-969d-ce4afdd3ff58",
+      "size": 169,
+      "businessDetails": "Store: Maidstone, Loose Road\nTel: TBC",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2c3434a-0321-442c-93bc-d42ed54e7d97",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nQty Item              Price",
+          "total": "\nTotal"
+        },
+        {
+          "quantity": "",
+          "description": "\n1 CP SB Mira P2 320  £3.00",
+          "total": "\n£3.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 CP SB Mira P2 320  £3.00",
+          "total": "£3.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 CP FRU Margarita   £3.65",
+          "total": "£3.65"
+        },
+        {
+          "quantity": "",
+          "description": "Reduced Item",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 OVN BTTN MFFN 65   £0.92",
+          "total": "£0.92"
+        },
+        {
+          "quantity": "",
+          "description": "Reduced Item",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 CP GRLE CHCE MBO   £0.42",
+          "total": "£0.42"
+        },
+        {
+          "quantity": "",
+          "description": "1 MALTESERS BAR      £0.75",
+          "total": "£0.75"
+        },
+        {
+          "quantity": "",
+          "description": "1 TELLA STRAWS       £0.63",
+          "total": "£0.63"
+        },
+        {
+          "quantity": "",
+          "description": "Reduced Item   Multi-save",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 CP V HP Veg 1506   £0.22",
+          "total": "£0.22"
+        },
+        {
+          "quantity": "",
+          "description": "Reduced Item",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 CP Guacole 1706    £0.40",
+          "total": "£0.40"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL BEFORE SAVINGS",
+          "total": "£13.01"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8eacaf45-f742-4480-ac68-5cef3e98f028",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "★ YOUR SAVINGS TODAY ★",
+          "total": "£0.40"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f98c8192-a1cd-4a43-97e9-0785fe640ff0",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "BALANCE DUE",
+          "value": "£12.61"
+        },
+        {
+          "title": "CREDIT/DEBIT",
+          "value": "£12.61"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8cc70ccb-d414-412b-880c-1aecf6da8ec4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nBy becoming a Co-op Member you could have earned:\n\n£0.19 to spend in the Co-op\n\nWe'd have also given the same amount you would've earned today to community causes.\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d728bbc0-e7e0-461c-924d-4d74388fc6c2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Join us today - download the\nCo-op App, ask in store or visit\ncoop.co.uk/membership\nThank you for shopping at Co-op.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Co-op UK Receipt",
+  "description": "This receipt is issued by Co-op and identifies the transaction as originating from the Marlborough (Rose Road) store. The receipt contains an itemized purchase summary with unit prices, line totals, and multiple member price reductions applied to qualifying products. The financial section records the total before savings, the total amount saved during the transaction, the balance due, and payment by credit/debit card. Additional customer messaging explains the Co-op membership reward contribution to community causes and promotes the Co-op Membership programme through the mobile app, in-store enrollment, and the official membership website. The overall layout is representative of a United Kingdom supermarket POS receipt, combining member-discount reporting, savings summaries, card-payment reconciliation, community rewards messaging, and retail transaction controls within a compact receipt format.",
+  "slug": "Co-op-UK-Receipt",
+  "published": true,
+  "id": "v8GsaLNLAmPbbtTX37ha"
+}

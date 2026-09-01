@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Half Price Books Receipt",
+  "description": "This receipt is issued by Half Price Books store #043 located in Garland, Texas, and includes full POS identifiers such as store number, cashier ID (KBo1043), and register number (Reg 3). The receipt displays a transaction timestamp, sale number, and a clearly defined “SALE TRANSACTION” section. It provides a financial summary including subtotal, applied sales tax rate (8.25%), and total amount due, followed by a payment section indicating card type and masked account digits. The receipt includes a savings notification, promotional messaging encouraging resale of media items, social media references, and a barcode with a numeric identifier. The format reflects a standard retail bookstore POS receipt with structured sections, separators, and footer messaging.",
+  "slug": "Half-Price-Books-Receipt",
+  "createdAt": "$D2026-03-25T13:38:37.986Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7630bed0-4078-4cfa-ad19-406db00985b1-image%20(10).jpg?alt=media&token=acdb286a-a861-41e9-8428-064ae61b36ec",
+      "size": 236,
+      "businessDetails": "Half Price Books #043\n3085 N. George Bush Freeway\nGarland, TX 75040\n972-276-1400",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "03-17-19  3:00PM\nStore #0043  Cashier KBo1043 / Reg 3\nSale # 122227",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE TRANSACTION",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "915744d8-1791-4ce4-a9ce-72cacde5b65e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "93e27584-7c88-43a8-8534-1274fd931337",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc153bf4-7988-49e1-bd7b-ef5e97e83b0c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "      ** YOU HAVE SAVED 5.00 **\n\nThanks for shopping at Half Price Books!\n\nGet cash back PLUS a coupon when you\nsell your books, music, moves & games!\nWe are bookish, but have a social life.\nFind us @halfpricebooks on\nFacebook, Twitter & Instagram",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "539a3a06-78f7-4105-b6f5-67664d146e81",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1bc538a-295b-4c3d-85d4-3bbadb2779d4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "H0200430031222278",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2NAHIiGd1ZlyFz0s29Ff%2F2NAHIiGd1ZlyFz0s29Ff-66728fdb-f8cd-4fe2-9dc4-b6251524f966.png?alt=media&token=66820d63-0c49-4037-a200-3a46584f250e",
+  "published": true,
+  "id": "2NAHIiGd1ZlyFz0s29Ff"
+}

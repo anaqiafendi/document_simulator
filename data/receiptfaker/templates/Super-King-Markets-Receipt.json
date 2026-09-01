@@ -1,0 +1,143 @@
+{
+  "sections": [
+    {
+      "type": "HEADER",
+      "bottomDividerType": "EMPTY",
+      "businessDetails": "2716 N San Fernando Rd\nLos Angeles, CA 90065\n(323) 225-0044",
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FCLIvSWwyd7QHLwtIxPgdmktV9BA2%2Fd2e07b34-5084-4786-9e56-49ab6936e5c7-download%20(4).jpg?alt=media&token=0bec9e06-8817-4c8a-ac84-ebcb3b243240",
+      "bottomDivider": true,
+      "size": 193,
+      "date": "$undefined"
+    },
+    {
+      "date": "01/15/2026                   8:12 PM",
+      "alignment": "LEFT",
+      "id": "def05a69-e6ef-4acc-ab1e-4b9485cc19c9",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "type": "DATE"
+    },
+    {
+      "totalSizeIncreased": "PERCENT_50",
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "bottomDividerType": "STARS",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "items": [
+        {
+          "total": "140.00",
+          "description": "Levi's Yoga Scrub Pant",
+          "quantity": "1"
+        },
+        {
+          "description": "Diesel Drawstring Pant",
+          "total": "160.00",
+          "quantity": 1
+        },
+        {
+          "total": "150.00",
+          "description": "Belkins Charger station",
+          "quantity": 1
+        },
+        {
+          "quantity": 1,
+          "description": "Mandy Water wipes pack",
+          "total": "40.00"
+        },
+        {
+          "quantity": "3",
+          "total": "60.00",
+          "description": "Dove body spray"
+        }
+      ],
+      "total": "595.00",
+      "totalLines": [
+        {
+          "value": "551.00",
+          "title": "Subtotal"
+        },
+        {
+          "value": "44.00",
+          "title": "Tax "
+        }
+      ],
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "value": "Chip",
+          "title": "Card entry"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "value": "62845289260246240685C",
+          "title": "Reference #"
+        },
+        {
+          "value": "APPROVED",
+          "title": "Status"
+        }
+      ],
+      "type": "PAYMENT",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "cashFields": [
+        {
+          "value": "600.00",
+          "title": "Cash"
+        },
+        {
+          "value": "5.00",
+          "title": "Change"
+        }
+      ],
+      "isCash": true,
+      "id": "b84f3930-7f3b-4e9d-9cdd-cd9e1af1f454",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "custom": "\n\nIf for any reason you are not completely satisfied with your purchase, simply return the item to us in its original condition. Refunds with a receipt will be given in the manner in which you paid. Store credit will be issued for returns without a receipt. Items that have been worn, washed, customized, or altered are not returnable. Please call with any questions or to further discuss the policy.",
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "date": "$undefined"
+    }
+  ],
+  "backgroundType": "CRUMPLED_5",
+  "fontType": "MERCHANT_COPY",
+  "slug": "Super-King-Markets-Receipt",
+  "description": "Grocery store receipt from Super King Markets showing store address, date and time of purchase, items bought with prices, subtotal, tax, total amount paid, and payment method.",
+  "name": "Super King Markets Receipt",
+  "backgroundCrumpled": false,
+  "textColor": "#101828",
+  "createdAt": "$D2026-02-03T11:54:34.505Z",
+  "isParent": true,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "metadesc": "authentic Clothes Quarters receipts with custom clothing items, prices, store details, and payment info for returns and records",
+  "numberFormat": "LEFT",
+  "currency": "$$",
+  "metatitle": "Clothes Quarters Receipt",
+  "parentName": "super King Markets",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FT51EHJ81m4dezKA9qwAW%2FT51EHJ81m4dezKA9qwAW-62dc9922-d869-4de9-9fd2-3ffc6362f1b2.png?alt=media&token=c7ba2a4e-9380-4480-afe4-a9b2f37f218e",
+  "published": true,
+  "id": "T51EHJ81m4dezKA9qwAW"
+}

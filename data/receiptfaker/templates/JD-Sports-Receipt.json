@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "JD Sports Receipt",
+  "description": "This receipt is a retail transaction record from JD Sports, associated with an airport retail location (Aeropuerto Manzanillo de Costa Maya). It includes store and product identification references, along with transaction metadata such as receipt number, terminal identifiers, and timestamp details. The receipt presents a financial summary including subtotal with taxes included, tax breakdown, and total amount paid, along with payment method confirmation via card. It contains bilingual operational and compliance messaging, including receipt retention instructions and clarification policies, and concludes with a barcode section for transaction tracking and verification within the retail POS system.",
+  "slug": "JD-Sports-Receipt",
+  "createdAt": "$D2026-03-17T15:56:57.881Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "JD SPORTS\n\nMORRAL ADIDAS 16.6L\nEL 34 4797894\nART: 6497765",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Aeropuerto Manzanillo de Costa Maya\n14\n\nFECHA: LUN 26 OCT 2023 08:59\n\nRECIBO: 02001-4-5936\nAEROPUERTO DESTINO: LA \n\nX",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dce7b8ba-9f4d-4553-8fa2-e9b239b00783",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Subtotal con impuestos\nImpuesto(s) incluido(s) en el costo        50.00\nI.G.V. 18.00%                               0.00\n\nTOTAL                                      650.00\n\nPAGADO EN:\nVISA                                        650.00\n\nVER-850 DUAL: 00001 / TRANS: 5936 / TS: 06",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "23423af5-7726-4b94-bf00-a84cb87f42a6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "PLEASE RETAIN THIS RECEIPT CAREFULLY\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d0a632b9-9753-4b6d-a78f-b54209e894f0",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "93f92784-03dd-4880-84a8-10c9af143b93",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPara toda aclaracion relacionada a este recibo debera presentar este documento. Este documento es valido como comprobante fiscal y debera conservarse en buen estado para cualquier aclaracion o garantia. JD Sports no se hace  responsable por perdida o dano del recibo.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c513787-ff5e-4be6-a538-004b0ee45959",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "APROVECHA MAS DE LAS OFERTAS!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fw1FpOLP6HA2onNHEN6Q1%2Fw1FpOLP6HA2onNHEN6Q1-673afa29-72fe-405e-bf3b-52526dcd09c0.png?alt=media&token=107428f8-6d2d-4f01-bd97-695283a5611d",
+  "published": true,
+  "id": "w1FpOLP6HA2onNHEN6Q1"
+}

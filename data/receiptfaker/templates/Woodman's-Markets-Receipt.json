@@ -1,0 +1,139 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T05:58:27.089Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c3dcc6ff-8b41-4fc1-8e94-ce030ece6962",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffb26d958-da91-4b6a-8ce8-9abe1c51bd9e-image%20(6).jpg?alt=media&token=316c2ee5-2864-47ce-99a8-f66e32ed9c82",
+      "size": 261,
+      "businessDetails": "North Aurora, IL\n(630) 723-3900\nYour Checker Today is: Anna\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "64e2e904-0595-4412-a5dc-37fd89f43a1a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Purchased Items\n20 @ 0.07",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7931400a-dd52-42e5-bdfc-f8f5263d4375",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "GROCERY DEPT KEY",
+          "total": "1.40 B"
+        },
+        {
+          "quantity": "",
+          "description": "TAX ",
+          "total": "0.01"
+        },
+        {
+          "quantity": "",
+          "description": "**** BALANCE",
+          "total": "1.41"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "911d5218-d58e-4683-ac53-23ebc4ba1901",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "WFM $35 Debit Receipt - C\n151 Hansen Blvd\nNorth Aurora IL\n**********3314\n161518-40561-000-APPROVED\nPurchase Amount : 1.41\nCashback Amount : 0.00\nTotal Amount    : 1.41",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "828dc7bb-5efe-4cf0-940b-fa82c9bc1c6d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Debit",
+          "total": "1.41"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL NUMBER OF ITEMS SOLD - 20",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "11/27/22  11:08am  35  40  23  1352863",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3dbc6aa9-ae16-492d-a9bf-b96f1f42194a",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2d1cb60b-50a8-4be8-8db4-a3b80e074be2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0000350400023221127110B",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60d93413-5463-4e84-947b-4a39578912f5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n- Thank You -\nSave Receipt: See Return\nPolicy Posted in Store",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "$3f",
+  "name": "Woodman's Markets Receipt",
+  "slug": "Woodman's-Markets-Receipt",
+  "published": true,
+  "id": "u1zyOgIvn8vETjQYj6L3"
+}

@@ -1,0 +1,170 @@
+{
+  "currency": "",
+  "slug": "REWE-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T11:55:46.824Z",
+  "description": "This grocery retail receipt from REWE documents a YAPITAL mobile card transaction processed at the Eckenheimer Landstraße location in Frankfurt, Germany. The receipt includes store address details, German tax registration information (Steuer.Nr.), EU VAT identification formatting (UID Nr.), terminal references, transaction numbering metadata, authorization references, and timestamp information. The POS structure contains quantity and pricing alignment, subtotal presentation in euros, and YAPITAL mobile payment confirmation aligned in standard German supermarket thermal receipt formatting. Additional receipt elements include customer receipt designation (“Kundenbeleg”), card payment references, terminal and authorization identifiers, and transaction confirmation formatting near the footer. The layout reflects a standard German grocery retail thermal receipt with localized VAT accounting and mobile payment processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "REWE Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "b058e584-7c70-46e1-aa6e-a31ba0bbcf09",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F64b476f7-7dfe-4a78-874c-8a94bd40d626-image.jpg?alt=media&token=f8e19212-ecda-4b76-8f83-d97c22d9b3ef",
+      "size": 229,
+      "businessDetails": "REWE MARKT\nEckenheimer Landstr. 97-99\n60318 Frankfurt\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c9dbe87d-a423-4656-b5c8-60c86b439e14",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Steuer.-Nr.",
+          "total": "215/5940/2539"
+        },
+        {
+          "quantity": "",
+          "description": "UID Nr.:",
+          "total": "DE812706034"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2b733ad5-a19e-4d21-9261-4712106235d6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "EUR"
+        },
+        {
+          "quantity": "",
+          "description": "BIO H-MILCH 3,8%",
+          "total": "2,18 B"
+        },
+        {
+          "quantity": "",
+          "description": "2 x   1,09",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CONT. LEBKUCHEN",
+          "total": "1,59 B"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "691488d2-1f98-4cbd-a670-85440581e796",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUMME           EUR",
+          "total": "3,77"
+        },
+        {
+          "quantity": "",
+          "description": "Yapital         EUR",
+          "total": "3,77"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6988b45-70e6-40a1-8b64-bc717db8d06a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nKundenbeleg\nKartenzahlung\n\nYAPITAL mobile",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d47bdd2a-9106-4168-96ce-e49c434f391c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "06.12.2013",
+          "total": "09:15:00"
+        },
+        {
+          "quantity": "",
+          "description": "Terminal-Ref.:",
+          "total": "P1000-HGB1"
+        },
+        {
+          "quantity": "",
+          "description": "Transaktions Nr.:",
+          "total": "000001"
+        },
+        {
+          "quantity": "",
+          "description": "Genehmigungs Nr.:",
+          "total": "01-HohOYi"
+        },
+        {
+          "quantity": "",
+          "description": "EUR",
+          "total": "3,77"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "49864004-26ad-4a62-9bf0-3d6c32270fca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nVielen Dank für Ihren Einkauf!\nWir freuen uns auf Ihren nächsten Besuch.\n\n*** REWE – Jeden Tag ein bisschen besser ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "spq3lNWiosPxIbJwVImI"
+}

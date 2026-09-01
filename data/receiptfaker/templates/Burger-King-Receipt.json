@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Burger King Receipt",
+  "description": "$3e",
+  "slug": "Burger-King-Receipt",
+  "createdAt": "$D2026-02-23T14:03:08.303Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4f493bbd-003e-43d9-b92e-418098bc0e20",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8a2f539c-b70a-412e-be4a-ebbc2cd52a9c-burger%20king.jpg?alt=media&token=dd035d91-b178-49d8-8ef2-202161b505ae",
+      "size": 181,
+      "businessDetails": "BURGER KING #5165\n790 King King Park Drive\nBillings, MT 59102\n(406) 656-6711",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "59132008-7229-41f7-b41c-4e65df5b6c7e",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "ORDER 65\n\nEAT AT IN",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "ff5b0f2f-ac2e-4b22-8c57-427982cf18d5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4278032-9b55-42f8-aafc-2bb014922eed",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Free Whopper® for your ths\nComplete the online survy\nmybkexperience.com\n*Purchase of SM/L soft drink any size\nfries required. (see terms at bkterms)\n\nTransaction ID: 4665 46551-95011-2210540",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4d4e45e0-4742-428c-94c2-9d5149d80286",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Royal Loyal Perks\nJoin Royal Perks and start earning today!\nDownload BK app or visit bk.com\nClaim points to claim your points within\n48 hours of purchase.\nAt participating U.S. restaurants at\nbk.com/rewards-terms\n================================\nAT BK... TASTE IS KING\n================================\n\nJOIN OUR TEAM AT JoAt JoinMeridiany.com\n\nFri Nov 12 2021 02:29 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FtHf7ibNIGvh18ECTEs30%2FtHf7ibNIGvh18ECTEs30-2f31ebae-ce05-4579-947c-2250e0cc397c.png?alt=media&token=bbd6132d-b1ab-4d45-acfc-65367e9de8c4",
+  "published": true,
+  "id": "tHf7ibNIGvh18ECTEs30"
+}

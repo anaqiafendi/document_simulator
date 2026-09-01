@@ -1,0 +1,149 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Chipotle Mexican Grill Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Chipotle Mexican Grill at its Bohemia, New York location, including full store address and contact number. It contains order and staff identifiers along with a timestamped transaction record. The receipt presents an itemized purchase list followed by a structured financial summary with subtotal, tax, and takeout total. Payment details indicate Visa card authorization. It also includes customer engagement messaging with rewards points information and a feedback survey code, reflecting a standard U.S. fast-casual POS receipt format with integrated loyalty and feedback features.",
+  "slug": "Chipotle-Mexican-Grill-Receipt",
+  "createdAt": "$D2026-04-11T14:58:49.788Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "f9062402-8f14-4eb9-ae06-d5b4f985f578",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcab90b64-f636-48d9-85a8-d85af9f901e1-image%20(2).jpg?alt=media&token=50ba1a52-6784-4158-9a65-89702cf014ac",
+      "size": 154,
+      "businessDetails": "\nHAND-MASHING THE STATUS QUO\n\n5171 Sunrise Hwy\nBohemia NY 11716\n631 567-1396\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5001959-7350-405d-808c-289fa45a5f8f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: Shannon",
+          "total": "04/23/2019"
+        },
+        {
+          "quantity": "",
+          "description": "ORDER #240 ",
+          "total": "1:55 PM  10142"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "554c3136-7b76-4029-b6cf-d8861ab0482d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Chicken Bowl",
+          "total": " 7.95"
+        },
+        {
+          "quantity": "",
+          "description": "Chips & Guac",
+          "total": "3.70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "66550a9f-b7b8-4b9a-9a4d-0ff5a7999c7a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nREWARDS POINTS ARE ON THE WAY!\nThey will display in 24-48 hrs\n\nHow're we doing? Let us know at\nChipotleFeedback.com. Unique code:\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "201100dd-45dc-45c2-9765-ab00bfa3164e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "139 004 100 032 210 526 54",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a37f3a14-3152-42e4-babf-996f0fa6540e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n11.65"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "1.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTAKE OUT Total",
+          "total": "\n\n12.65"
+        },
+        {
+          "quantity": "",
+          "description": "Visa #XXXXXXXXXX",
+          "total": "12.65"
+        },
+        {
+          "quantity": "",
+          "description": "Authorizing...",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Balance Due",
+          "total": "12.65"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7cd1835-1238-4e18-b056-6b76ddaca9e7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOrder online at chipotle.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FHzA33aHu5UkFU4LtKCMr%2FHzA33aHu5UkFU4LtKCMr-5d0d8179-a3f2-4a4c-9b2c-a41e13808dfe.png?alt=media&token=82ef8e13-9459-499c-be88-da2dcc5d3975",
+  "published": true,
+  "id": "HzA33aHu5UkFU4LtKCMr"
+}

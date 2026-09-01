@@ -1,0 +1,154 @@
+{
+  "sections": [
+    {
+      "alignment": "CENTER",
+      "bottomDivider": false,
+      "id": "8433a48f-57b7-4cbb-bb0e-a34979367edb",
+      "size": 219,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F11bc680c-b3d7-48d8-bf02-61bc95b8c240-image%20(14).jpg?alt=media&token=9a908b22-d85b-4d9a-a5a5-3a4001b0480e",
+      "bottomDividerType": "DASHES",
+      "businessDetails": "\nKoffee Paradise\n6308 East Main Street\nColumbus, OH 43213\n",
+      "type": "HEADER",
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [],
+      "id": "3051ddcd-2cc1-45f3-84ad-5808e6c19867",
+      "bottomDividerType": "DASHES",
+      "type": "ITEMS",
+      "total": "",
+      "totalText": "",
+      "totalDivider": false,
+      "bottomDivider": false,
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Juan T",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Check #102",
+          "total": "Ana"
+        },
+        {
+          "quantity": "",
+          "total": "11/20/25 10:47 AM",
+          "description": "Ordered"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n\nLarge Iced the Latte - COFFEE",
+          "total": "\n\n\n$7.85"
+        },
+        {
+          "quantity": "",
+          "description": "Whipped Cream",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2X Espresso Shots",
+          "total": ""
+        },
+        {
+          "description": "Soy Milk",
+          "total": "$$0.80",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "\n\n\n-$0.06",
+          "description": "\n\n\nOpen % Check (10%)"
+        },
+        {
+          "quantity": "",
+          "total": "\n\n$8.75",
+          "description": "\n\nPre-discount Subtotal"
+        },
+        {
+          "total": "-$0.88",
+          "description": "Discount Total",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n$7.67"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$7.87"
+        },
+        {
+          "total": "\n\nSwiped",
+          "description": "\n\n\nPre-Paid Card",
+          "quantity": ""
+        },
+        {
+          "description": "Visa",
+          "total": "xxxxxxxx7535",
+          "quantity": ""
+        },
+        {
+          "description": "\n\nTransaction Type",
+          "total": "\n\nSale",
+          "quantity": ""
+        },
+        {
+          "total": "Approved",
+          "description": "Authorization",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "Approval Code",
+          "total": "320559"
+        },
+        {
+          "quantity": "",
+          "total": "bf6SvfAgRfMc",
+          "description": "Payment ID"
+        },
+        {
+          "quantity": "",
+          "total": "unknown",
+          "description": "Pre-Paid Card Balance"
+        },
+        {
+          "quantity": "",
+          "description": "Card Reader",
+          "total": "6BPOS"
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "custom": "\n\nKoffee Paradise - 6308 East Main St.\nRewards earned on this order\n* * * * * * * * * *\nThank you for visiting!",
+      "type": "CUSTOM",
+      "bottomDivider": false,
+      "id": "8f4d185e-6770-40a6-ac9f-107a1592b19f",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    }
+  ],
+  "backgroundCrumpled": false,
+  "createdAt": "$D2026-05-29T13:06:07.650Z",
+  "slug": "Koffee-Paradise-Receipt",
+  "numberFormat": "LEFT",
+  "isParent": true,
+  "backgroundType": "CRUMPLED_1",
+  "description": "This coffee shop receipt from Koffee Paradise documents a prepaid VISA card transaction processed at the East Main Street location in Columbus, Ohio. The receipt includes store branding, full address details, server and cashier references, check numbering metadata, and order timestamp information. The POS structure contains pre-discount subtotal formatting, discount calculations, subtotal and total presentation, prepaid card payment confirmation, and masked VISA card information aligned in standard U.S. café thermal receipt formatting. Additional receipt elements include transaction type references, authorization status, approval code formatting, payment identifier metadata, BBPOS card reader information, rewards program references, and customer appreciation messaging near the footer. The layout reflects a standard U.S. coffee shop thermal receipt with integrated card authorization and loyalty program formatting.",
+  "parentName": "Office Depot",
+  "fontType": "MERCHANT_COPY",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "imageUrl": "",
+  "textColor": "#101828",
+  "currency": "",
+  "name": "Koffee Paradise Receipt",
+  "published": true,
+  "id": "CSgVLgSvricyi3ohr3TH"
+}

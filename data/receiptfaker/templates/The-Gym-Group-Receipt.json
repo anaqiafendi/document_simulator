@@ -1,0 +1,166 @@
+{
+  "currency": "",
+  "slug": "The-Gym-Group-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T12:40:48.173Z",
+  "description": "This The Gym Group receipt originates from the Grimsby location and includes a printed location code, transaction time, and date. The record identifies the user’s age and sex and presents a structured body-composition summary containing measured weight, height, body mass index, body-fat percentage, and body-fat mass. Each measurement section also includes a corresponding ideal reference range, with horizontal separators dividing the printed categories. The format is representative of an automated health and fitness measurement receipt produced by an in-gym body-composition machine.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Gym Group Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "13f19281-fb49-455f-a245-f76e9c5e323f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fce2b2a2e-2abe-4720-9aa8-08edf3e6280b-image%20(4).jpg?alt=media&token=ae89c443-65c6-447d-87e2-b7099f2447df",
+      "size": 208,
+      "businessDetails": "\n23:10                  01/03/25\nAGE: 21                  FEMALE\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "36f3f0a1-4500-4123-b525-7d5ce3eb615c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nWEIGHT",
+          "total": "\n9st 11lb   58.0kg"
+        },
+        {
+          "quantity": "",
+          "description": "HEIGHT",
+          "total": "5' 1.0\"   1.55 m"
+        },
+        {
+          "quantity": "",
+          "description": "YOUR IDEAL WEIGHT IS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "6st13lb TO 9st 6lb",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "44.4 kg TO 60.0 kg",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "54b0426a-3aa0-426f-8715-7be99692b8c6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "B.M.I.",
+          "total": "24.1"
+        },
+        {
+          "quantity": "",
+          "description": "Item",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "YOUR IDEAL B.M.I. IS",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3e7dfb1-3750-426e-b68a-0d99419d37f8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "FROM 18.5 UPTO 25.0",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88591bae-b5f2-424a-bf97-a925497a48fd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "BODY FAT(%)",
+          "total": "22.8%"
+        },
+        {
+          "quantity": "",
+          "description": "IDEAL BODY FAT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "20.9% TO 29.0%"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "256ed5df-cd23-4694-8388-824fc25544ec",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "BODY FAT MASS",
+          "total": "13.2 kg"
+        },
+        {
+          "quantity": "",
+          "description": "IDEAL BODY FAT MASS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "12.1 kg TO 16.8 kg",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Um6Kw8TJ14SWmSwokv8p"
+}

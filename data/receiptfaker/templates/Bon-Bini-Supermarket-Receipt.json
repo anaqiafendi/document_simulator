@@ -1,0 +1,177 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T16:06:25.887Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "description": "This receipt is issued by Bon Bini Supermarket and identifies the business as Barcelos Bon Bini B.V., located at Jungle Odenweg #21, Curaçao. The header contains the supermarket branding, business name, address, contact telephone number, CRIB registration number, fiscal authorization information, invoice date, transaction time, and fiscal reference numbers. The receipt records the purchase of Panolini Baby Wipes 72PC and Panolini Baby Wipes 20PC. The financial section records the subtotal, final transaction total, and confirms payment by cash. The footer records the quantity of items purchased, the applicable 6.00% tax category, tax amount, cashier identification, and additional fiscal control information. The overall layout is representative of a Curaçao retail fiscal receipt, combining merchandise itemization, fiscal tax reporting, cash payment reconciliation, and government-required fiscal identifiers within a compact retail receipt format.",
+  "name": "Bon Bini Supermarket Receipt",
+  "slug": "Bon-Bini-Supermarket-Receipt",
+  "sections": [
+    {
+      "id": "eaa6267a-91ca-4144-8aba-b73cf818aed6",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2e6cf54a-6e74-4e3e-a7aa-6e599320a9bb-image%20(1).jpg?alt=media&token=46c8b90d-986a-4347-aa71-4e7b68a39da0",
+      "size": 283,
+      "businessDetails": "BARCELOS BON BINI B.V.\nJONGBLOEDWEG # 21\nTel: (5999)737-9240\nCRIB NUMBER: 122307150\nRES SBAB: P3N201412 DATE: 09/07/2014\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3b5aaf24-36ff-40f8-bca0-928d88a9f80d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "AUTHORIZED DOCUMENT SBAB\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1e736263-a8bd-46c1-8973-3103c8511e8d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Date 06/03/2019        Time 14:04:21\nNKK: 0023240000044057\nNKF: A122307150051044057",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "19fc1ad6-f158-4b34-af78-221634fe0218",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFISCAL INVOICE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "14ecfc5b-f9df-4ba3-9c60-2e1f0c58e825",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDESCRIPTION                    VALUE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d21c652f-ed70-4ea0-a331-272242a7bfca",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nPANOLINI BABY WIPES 72PC",
+          "total": "\n5.29 T1"
+        },
+        {
+          "quantity": "",
+          "description": "PANOLINI BABY WIPES 20PC",
+          "total": "1.95 T1"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc784481-5ed9-46aa-ae7a-d78beb28130f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSUBTOTAL ",
+          "total": "\n7.24"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "7.24"
+        },
+        {
+          "quantity": "",
+          "description": "\nCASH",
+          "total": "\n7.24"
+        },
+        {
+          "quantity": "",
+          "description": "\nQUANTITY ITEMS: 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "06/03/2019  14:04:21  0001",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "28dbca53-5eaf-4832-915d-f8960f5c2cce",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nQuantity Items T1 6.00%",
+          "total": "\n2"
+        },
+        {
+          "quantity": "",
+          "description": "Total T1 6.00%",
+          "total": "0.41"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL OB:",
+          "total": "0.41"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4088d046-de56-4d81-aa98-f0b89a4cf9cd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "YOU'RE BEING SERVED BY: CLERK1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c66888d-60de-496c-a3a5-c19cdf83a954",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNKK: 0023240000044057\n002324        E11ix40FC V: 1.50FC",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "OsD66FQht7kvYcqWjjhT"
+}

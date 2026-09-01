@@ -1,0 +1,171 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-24T11:04:19.673Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Motel Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fbba075b5-fcc6-443c-a814-7dca60a2aa38-750372_building_business_hotel_motel_small_icon.png?alt=media&token=ab203185-ec4a-4722-a9a5-631b2ba91140",
+      "size": 50,
+      "businessDetails": "Sunset Horizon Motel\n892 Mapleview Drive\nReno, NV 89509\nUnited States\nPhone number: (702) 555-8391\nEmail address: info@sunsethorizonmotel.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Motel Receipt #24693",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d8d22f1-7bc8-47ab-a598-8fcc14357f5e",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 2:03:33 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Paid by: Caleb Turner\ncturner82@gmail.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "65894ee4-e89f-4a0e-842f-b27749bc2a35",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Booking details",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "735a29c6-320e-4988-a33d-31464b8e1ab0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Check in: 5/24/2025\nCheck-out: 5/26/2025\nGuests: 2 adults\nUnit: Apartment Sunset\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Nights Apartment Sunset",
+          "total": "400"
+        },
+        {
+          "quantity": "2",
+          "description": "Breakfast",
+          "total": "40"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "440"
+        },
+        {
+          "title": "Tax",
+          "value": "36.75"
+        }
+      ],
+      "total": "476.75",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customers must report any discrepancies within 5 to 10 business days of receipt issuance. All receipts include applicable sales tax and comply with local tax regulations. Sensitive payment information is masked or excluded to protect customer privacy.\n\nThank you for choosing Sunset Horizon Motel!\n\nwww.sunsethorizon.com",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Motel-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FWRyfQt17CENy076gk6FK%2FWRyfQt17CENy076gk6FK-732a81ab-aff4-496c-bab9-44b7a5a3e8d9.png?alt=media&token=50704734-5c53-48b9-baf5-bc462ad2797b",
+  "description": "Need a motel receipt? Use our free generator to create a custom lodging receipt. Enter motel name, guest details, stay duration, room charges, taxes, and payment info—perfect for travel records or expense reimbursement.",
+  "published": true,
+  "metatitle": "Accommodation Receipt",
+  "metadesc": "professional motel receipts with guest details, room charges, taxes, and payment info for travel records and expense reports",
+  "id": "WRyfQt17CENy076gk6FK"
+}

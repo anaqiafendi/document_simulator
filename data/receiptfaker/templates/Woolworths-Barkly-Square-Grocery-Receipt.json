@@ -1,0 +1,168 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T14:32:55.992Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Woolworths Barkly Square Grocery Receipt",
+  "description": "This receipt is from Woolworths Barkly Square, a supermarket in Victoria, Australia. It records the purchase of grocery items including vegetables, tuna products, steak, and canned goods. The receipt includes item weights, price-per-kilogram calculations, subtotal, gift card redemption details, EFT payment confirmation, and promotional rewards information. It also contains ABN, merchant identification numbers, and loyalty promotion references. The format reflects a standard Australian supermarket POS receipt.",
+  "sections": [
+    {
+      "id": "a4d8d780-49e0-4d8b-a83f-3d463c376551",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F784d6d30-4099-42a6-ab19-87b3b23bf15d-image%20(20).jpg?alt=media&token=95e39d8e-46f1-4b60-92af-7ec438200f82",
+      "size": 236,
+      "businessDetails": "BARKLY SQUARE   PH: 9905 6548\nStore Manager is: DANNY WOOLWORTHS TAX INVOICE ABN 88 000 014 675\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1204b0f-3c1d-4b0d-9ab0-e7e5b378e5f5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CAPSICUM GREEN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "0.203 KG NET @ $4.48/kg",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MARKET VALUE RUMP STEAK SMALL BROCCOLI",
+          "total": "8.78"
+        },
+        {
+          "quantity": "",
+          "description": "0.402 KG NET @ $3.98/kg",
+          "total": "1.28"
+        },
+        {
+          "quantity": "",
+          "description": "SPRING ONION ESCHALLOT",
+          "total": "0.98"
+        },
+        {
+          "quantity": "",
+          "description": "SEL PAL TUNA CHUNKS EX VIRGIN OIL 95G",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SEL PAL TUNA LEMON CRCKD PEPPR 95G",
+          "total": "1.89"
+        },
+        {
+          "quantity": "",
+          "description": "HOMEBRAND SPREAD HAZELNUT CHOC 400G",
+          "total": "2.40"
+        },
+        {
+          "quantity": "",
+          "description": "CUCUMBER LEBANESE",
+          "total": "0.23"
+        },
+        {
+          "quantity": "",
+          "description": "0.102 KG @ $2.25/kg",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BROCCOLI",
+          "total": "0.94"
+        },
+        {
+          "quantity": "",
+          "description": "0.237 KG NET @ $3.98/kg",
+          "total": ""
+        },
+        {
+          "quantity": "9   ",
+          "description": "SUBTOTAL",
+          "total": "$$19.30"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSAFEWAY",
+          "total": "\n\n3362"
+        },
+        {
+          "quantity": "",
+          "description": "BARKLEY SQR",
+          "total": "VIC"
+        },
+        {
+          "quantity": "",
+          "description": "MERCH ID: 611000603003362",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TERM ID: W3362007",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CARD: ............6070 S",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "GIFT CARD SAVINGS REDEMPTION",
+          "total": "$$19.30"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "$$19.30"
+        },
+        {
+          "quantity": "",
+          "description": "APPROVED",
+          "total": "00"
+        },
+        {
+          "quantity": "",
+          "description": "BALANCE",
+          "total": "$$46.68"
+        },
+        {
+          "quantity": "",
+          "description": "06/09/15   18:17   001486",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "adbe813a-c0a6-47b7-b940-956d61375a9a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nYou have earned a TOTAL of 1 Earn & Learn Stickers for your local school or Early Learning Centre.\n\n\nBWS RECEIPT REWARDS – BUY 1 GET 1 FREE On PALLADIUM WATCHMAN SHIRAZ OR FIVE SOUNDS MARLBOROUGH SAUV BLANC 750ML Present coupon at a BWS store. Expires 16-SEP-2015",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Woolworths-Barkly-Square-Grocery-Receipt",
+  "published": true,
+  "id": "KPDY2Og7P1UHhNr7OJ23"
+}

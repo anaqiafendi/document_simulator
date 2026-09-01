@@ -1,0 +1,188 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-06T02:38:43.958Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Raley's Receipt",
+  "description": "This receipt is a grocery and deli transaction issued by Raley's, featuring a branded header with loyalty program reference and website. It includes transaction metadata such as time, date, register number, operator ID, and transaction number. The receipt presents categorized sections including standard merchandise and prepared food items, followed by a structured financial summary with subtotal, state tax rate, and total amount. Payment details indicate debit processing with final balance and change information. The document concludes with a customer appreciation message, reflecting a typical U.S. grocery store POS receipt format.",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3cf6db52-65ba-4a11-8229-ebae473c49d3-image%20(2).jpg?alt=media&token=3b83351d-a6cd-48c4-9f8c-39bb3b5b89a3",
+      "size": 200,
+      "businessDetails": "GET SOMETHING EXTRA\nAT RALEYS.COM\n\nSTORE 209             OPERATION 060\nRaley's         05/03/20   11:11 AM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a00e38f-dc33-4f93-86ab-afff34689f34",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TRX RESUMED",
+          "total": "03"
+        },
+        {
+          "quantity": "",
+          "description": "TERMINAL NUMBER",
+          "total": "6"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0f110f36-5362-4509-8851-09ba98f2a31e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSOMETHING EXTRA ACT    XXXXXXXXX9923\nGROCERRY ITEMS ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9de9aa5e-3701-47e6-a077-0c26fbca4021",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "107 100% NF OJ         ",
+          "total": "2.39"
+        },
+        {
+          "quantity": "",
+          "description": "  Regular Price      ",
+          "total": "0.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84237a09-c7a2-4d25-88ca-cd06468d59d1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Produce/Deli Items",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "HOMER BEER 01",
+          "total": "2.06 F"
+        },
+        {
+          "quantity": "",
+          "description": "Regular Price",
+          "total": "4.19"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ce72d65-c014-4658-bd1d-487dc4dda389",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Sub Total",
+          "total": "28.84"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "6.57"
+        },
+        {
+          "quantity": "",
+          "description": "RALEYS TELE SALE",
+          "total": "-10.00"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "45.41"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d85157ba-6ed3-4c76-8018-6656e20ba6f6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DEBIT (POS) XXXXXXXXXX0866",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e6ab533c-0e18-4e10-8356-69e079ccfc0e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping at Raley's",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Raley's-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fyc5hrrj54Ocht6T9UlXk%2Fyc5hrrj54Ocht6T9UlXk-b8e836fb-7804-4612-9ea4-44409e16d3ef.png?alt=media&token=531a5ab7-78b6-40af-8a34-12554dbfe33b",
+  "published": true,
+  "id": "yc5hrrj54Ocht6T9UlXk"
+}

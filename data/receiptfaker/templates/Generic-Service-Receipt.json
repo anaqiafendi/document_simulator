@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T16:16:11.678Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Generic Service Receipt",
+  "slug": "Generic-Service-Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2Fe2905c4c-1cc0-4b5a-9cf9-f847a7a87140-4622509_builder_employee_labor_work_worker_icon.png?alt=media&token=e495d0f2-57a6-4e3d-803c-dc120161f690",
+      "size": 50,
+      "businessDetails": "Titan Handyman Services\n238 Oakwood Lane, Orlando, FL 32803\nPhone: (407) 555-9182\nEmail: info@titanhandyman.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Service Receipt\nReceipt #: THS-1047\nDate: 09/30/2025\nTechnician: M. Collins",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Billed to:\nMarcus Bennett\n1542 Elm Street\nColumbus, OH 43215\nmarcus@bennett.com",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Plumbing Repair (Faucet Fix)",
+          "total": "95.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Electrical Outlet Install",
+          "total": "120.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Drywall Patch & Paint",
+          "total": "80.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "295.00"
+        },
+        {
+          "title": "Tax (8.25%)",
+          "value": "24.34"
+        }
+      ],
+      "total": "319.34",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please retain this receipt as proof of service. All labor is covered by a 30-day workmanship guarantee. Materials and parts carry the manufacturer’s warranty. Returns or refunds are not available for completed services. For any questions or concerns, please contact us at (407) 555-9182 or info@titanhandyman.com\n\nThank you for trusting Titan Handyman Services!",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F9v3VA4oiX38ELZGZbyMo%2F9v3VA4oiX38ELZGZbyMo-f67a1c68-5a90-45b2-8218-3e3a75fb75db.png?alt=media&token=4e3dcd18-c59b-4999-a033-84f9fa35ad2e",
+  "description": "Need a repair receipt? Use our free tool to make a clear record for any repair service. Add business info, service details, parts used, costs, and payment—perfect for clients, warranties, or expense tracking.",
+  "published": true,
+  "metatitle": "Generic Service Receipt",
+  "metadesc": "professional service receipts with business info, service details, parts used, costs, and payment info for repair records",
+  "id": "9v3VA4oiX38ELZGZbyMo"
+}

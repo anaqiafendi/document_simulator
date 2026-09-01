@@ -1,0 +1,186 @@
+{
+  "createdAt": "$D2026-02-09T15:29:51.226Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Whole Foods Market - Grocery Store Receipt",
+  "description": "This receipt template represents an in-store grocery purchase from a Whole Foods Market location in North Vancouver, British Columbia. It features the circular Whole Foods Market logo at the top, followed by store name, store number, full address, contact information, cashier identification, and transaction date and time. The receipt includes a detailed itemized list of grocery products with quantities and prices, subtotal, GST and PST tax lines, and a clearly stated total. Payment details show a debit card transaction with a masked card number, reference number, approval status, loyalty messaging, barcode, and terminal information. This template is suitable for grocery retail receipt libraries, expense documentation samples, mock transactions, and receipt generator tools requiring realistic Whole Foods Market formatting and structure.",
+  "sections": [
+    {
+      "id": "401ae0a2-ff0c-4669-8cf1-a07e175875ee",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd8450250-400b-4db4-87c0-b355797dc223-whole%20food%20amrket%20logo.jpg?alt=media&token=5d5553bf-deb3-45f8-aac6-fcb02d193c4b",
+      "size": 271,
+      "businessDetails": "Whole Foods Market\nNorth Vancouver #1527\n1250 Marine Dr, North Vancouver, BC\nTel: (604) 555 2198",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b9b7abb7-f525-4a3c-8c0d-c40e8be7d809",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Cashier: Tina M.\nDate: 03/30/24\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "352445bf-a048-44b6-ad01-6e6289023098",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "2% Milk 2L",
+          "total": "5.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Eggs Large 12Pk",
+          "total": "6.29"
+        },
+        {
+          "quantity": 1,
+          "description": "Bananas 1Kg",
+          "total": "1.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Roma Tomatoes 4Pk",
+          "total": "3.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Baby Spinach 200g",
+          "total": "4.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Whole Wheat Bread Loaf",
+          "total": "3.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Cheddar Cheese 400g",
+          "total": "7.29"
+        },
+        {
+          "quantity": 1,
+          "description": "Yogurt Multi-Pack 6X100g",
+          "total": "6.79"
+        },
+        {
+          "quantity": 1,
+          "description": "Almond Butter 250g",
+          "total": "8.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Granola Bars 12Pk",
+          "total": "9.49"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "58.79"
+        },
+        {
+          "title": "GST 5%",
+          "value": "2.94"
+        },
+        {
+          "title": "PST 7%",
+          "value": "4.11"
+        }
+      ],
+      "total": "65.84",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b407dfe2-6178-4c2b-902e-c821b5168e27",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Paid Cash ",
+          "value": "39.95"
+        },
+        {
+          "title": "Change",
+          "value": "0.01"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "3/30/2024 2:09 PM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3065aff-70b2-40cb-8602-266c3e8c2d3d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Save even more with Digital Deals! \n********************************** 01/24/2024 Oper #: 1166255 Trx #: 685\n12:07   Term#: 8  Store: 208\n**********************************",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "81fd84cd-5b52-46f2-aeb3-010b68e2604f",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d75897bc-4556-4d8a-ada7-14b97ac9bc34",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "14752863858252478892",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Whole-Foods-Market-Grocery-Store-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FSk7IHUNip3ty9Q92tR03%2FSk7IHUNip3ty9Q92tR03-edbec1e6-39b1-4d30-95b9-5a34e88afdca.png?alt=media&token=dcd5c474-dce1-4a94-adf8-d3d293448b05",
+  "published": true,
+  "id": "Sk7IHUNip3ty9Q92tR03"
+}

@@ -1,0 +1,150 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-04T15:44:12.700Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "RIGHT",
+  "fontType": "RECEIPTIONAL_RECEIPT",
+  "sections": [
+    {
+      "id": "cb57ed53-f818-4a33-a428-7f5300299a22",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FyxXevIEW5dNYEy5wlSln6a8mGxF2%2Faccb769e-51d3-484b-af0c-23409cb53be2-cdnlogo.com_tony-roma-amps1.png?alt=media&token=8836ef3a-f669-4c0f-8355-00ebedf67413",
+      "size": 160,
+      "businessDetails": "Tony Roma's       CIF 11780932X\nTerminal T4s Barajas Airport, s/n\nBarajas, 28042 Madrid\nFra simplificada: 19658/2026\nFecha : 30/01/2026 Hora: 22:17",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "54e48781-60b5-497b-bb23-2260d4ba40d0",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Mesa",
+          "value": "26"
+        },
+        {
+          "title": "Le atendio",
+          "value": "Roberto"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Comensales",
+          "value": "1"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7825274-dd61-42c9-b867-d457269365f4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Agua Mineral con gas",
+          "total": "3.75"
+        },
+        {
+          "quantity": 1,
+          "description": "Baby Back Ribs                                                     Salsa Originale BBQ",
+          "total": "17.90"
+        },
+        {
+          "quantity": 1,
+          "description": "Patatas Fritas",
+          "total": "5.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Pan y servicio",
+          "total": "1.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Coto Verdejo",
+          "total": "4.95"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Neto",
+          "value": "30.55"
+        },
+        {
+          "title": " Porcentaje IVA 10%",
+          "value": "3.55"
+        }
+      ],
+      "total": "33.60",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "totalText": "Bruto Eur",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d48e105-99dd-4f97-8c52-5c6f62f39b00",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Num tarjeta",
+          "value": "**** **** **** 1007"
+        },
+        {
+          "title": "Tipo",
+          "value": "AMEX"
+        },
+        {
+          "title": "Fecha/hora",
+          "value": "30/01/2026 23:09"
+        },
+        {
+          "title": "Referencia",
+          "value": "39027715553932112"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f1d54220-35a4-4ee9-97a4-537958797f11",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Comparte tu experiencia con nosotros \n*****Nos encantaria tu opinion****\nDeja tu compentario en tu red social favorita, esto nos ayudara a mejorar\nexperiencia en Tony Roma's\nGracias por su visita",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Restaurante",
+  "name": "Tony Roma’s Receipt",
+  "description": "Restaurant receipt from Tony Roma’s showing dine-in order details, items purchased, quantities, prices, subtotal, VAT, total amount, payment method, transaction date and time, and server information.",
+  "slug": "Tony-Roma's-Receipt",
+  "metatitle": "Restaurant Receipts",
+  "metadesc": "realistic restaurant receipts with custom menu items, pricing, and business details for your projects using our generator",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0VXCl0J7jCjH0UdPp9Gd%2F0VXCl0J7jCjH0UdPp9Gd-819ec495-c225-4ce7-82c7-38377df6c170.png?alt=media&token=b2cfeb28-d89d-4b38-ae28-122ac8981166",
+  "published": true,
+  "id": "0VXCl0J7jCjH0UdPp9Gd"
+}

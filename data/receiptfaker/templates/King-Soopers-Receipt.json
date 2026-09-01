@@ -1,0 +1,156 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T06:56:55.754Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2Fd7b16b29-44e8-443a-93ee-e5dd18862891-king-soopers-1-logo-black-and-white.png?alt=media&token=5e4948ba-483f-4801-968a-bab338952893",
+      "size": 133,
+      "businessDetails": "5544 Promenade Pkwy\n(303) 562-9128 Store\nYour cashier was CHEC 860",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "LAYS POTATO CHIPS",
+          "total": "4.39"
+        },
+        {
+          "quantity": "1",
+          "description": "LAYS DIP",
+          "total": "5.49"
+        },
+        {
+          "quantity": "1",
+          "description": "KRO GRND",
+          "total": "6.79"
+        },
+        {
+          "quantity": 1,
+          "description": "SNWFX MIXED FRUIT",
+          "total": "15.99"
+        },
+        {
+          "quantity": 1,
+          "description": "CHECKOUT BAG TAX",
+          "total": "0.10"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Tax",
+          "value": "2.13"
+        }
+      ],
+      "total": "34.89",
+      "totalText": "****Balance",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "5fbe777a-395b-4d57-8551-4657c7d27366",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TOTAL NUMBER OF ITEMS SOLD = 5",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6b81a29-21d4-4899-b334-9a609c9d9fb2",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "9/30/2025, 9:53:55 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "** Sign up for your Sooper Card **\nSooper card would have saved you 6.50\nGO kingsoopers.com FOR WEEKLY SPECIALS",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Fresh opportunity awaits\nJoin our team today!\n#ER#\njobs.kingsoopers.com\nwww.kingsoopers.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "King Soopers Receipt",
+  "slug": "King-Soopers-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FX2T7HvRGoMdociCIgRla%2FX2T7HvRGoMdociCIgRla-37933d41-7a9e-4208-bca3-5a62a1bf66aa.png?alt=media&token=320b625f-a000-4084-8c4f-1325182e50c6",
+  "description": "Need a King Soopers receipt? Easily generate a custom grocery receipt with our free tool. Add store info, items purchased, prices, tax, and payment—perfect for returns, reimbursements, or budgeting records.",
+  "published": true,
+  "metatitle": "King Soopers Receipt",
+  "metadesc": "realistic King Soopers grocery receipts with custom items, prices, tax, and store details for returns or expense tracking",
+  "id": "X2T7HvRGoMdociCIgRla"
+}

@@ -1,0 +1,48 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Belk Receipt",
+  "description": "This receipt displays the Belk header logo with the lowercase “belk” wordmark and leaf icon at the top, followed by the store location identified as Triangle Towne Center, 7500 Old Wake Forest Road, Raleigh, NC 27616, including the printed phone number and store manager name. The POS section lists Store 0243, Register 2239, transaction number 2448, associate ID 020176, and timestamp dated 12/27/2013 at 11:18:07 AM. The receipt includes a structured sale section and a financial summary with subtotal and discount formatting, along with item identifiers. The footer concludes with a thank-you message, consistent with a department store retail point-of-sale thermal receipt layout.",
+  "slug": "Belk-Receipt",
+  "createdAt": "$D2026-02-22T17:36:22.360Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "44bbd71a-5297-4076-9466-cae7bae46d15",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0141cc6f-6433-46da-bbb4-443fd36e740f-image%20(8).jpg?alt=media&token=aa3db5b7-f564-4830-8466-ea63b83c5925",
+      "size": 215,
+      "businessDetails": "     TRIANGLE TOWNE CTR\n  7500 OLD WAKE FOREST RD\n       RALEIGH, NC 27616\n        ( 919 ) 792 - 2400\nSTORE MANAGER: Richard Hudson",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f82bf0b6-b25e-4048-b02b-d82e48fb5b91",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "STORE:0243   REG:2239  V01.63   12/27/2013\nTRAN#:2448   ASSOC:020176   11:18:07 AM\n\n\nASSOCIATE NAME:  BRENDA\n\n\nSALE\n\n\nCOLD WEATHER\n794815872517                  T    9.00\n  18.00  50% OFF              9.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "68be296d-88dc-4f2b-901e-0d3e8346f8e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FmOJ3ulDgCnBA94BJF0By%2FmOJ3ulDgCnBA94BJF0By-692a08a4-0720-4ea1-9c27-3266c0e0444f.png?alt=media&token=c6be8714-0f64-4d5e-b642-602b26ab6026",
+  "published": true,
+  "id": "mOJ3ulDgCnBA94BJF0By"
+}

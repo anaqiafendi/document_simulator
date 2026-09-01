@@ -1,0 +1,101 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Cabela’s Receipt",
+  "description": "A printed retail receipt from Cabela’s displaying the Cabela’s logo and the tagline “World’s Foremost Outfitter” at the top. The receipt includes the store location (5291 Wellington Branch Dr) and phone number (571-222-9000), followed by detailed sale transaction information. It lists purchased items such as Viper HD 10x50 and Hodgdon Varget 1-lb, along with SKU/UPC references, subtotal, tax, total amount, club points earned, masked Visa payment details, authorization code, and confirmation of signature on file.",
+  "slug": "Cabela's-Receipt",
+  "createdAt": "$D2026-02-15T16:59:46.812Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "29957206-d26f-434b-8d48-a78eb9ff77f6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdf125131-fca7-437f-abd9-fc5891b3c440-cabelas.jpg?alt=media&token=feb5b770-3f6b-4d63-8ae6-6488be04fca9",
+      "size": 272,
+      "businessDetails": "5291 Wellington Branch Dr\n571-222-9000",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "7019a483-4f8b-49c1-9d71-68114c2a99fc",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "SALE TRANSACTIONST#00078 REG 073 TRN ",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "aff737fb-dd04-4a8b-87d6-7c6d4f46c7c8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "005097329 VIPER HD 10X50 1T\nUPC# 000000875874009080Hodgdon Varget 1-lb  \n0039288531326\n",
+          "total": "549.99"
+        },
+        {
+          "quantity": "",
+          "description": "003256964 ROUND UP    IN ",
+          "total": "0.01"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal  ",
+          "value": "550.00"
+        },
+        {
+          "title": "Tax    ",
+          "value": "33.00"
+        },
+        {
+          "title": "Total  ",
+          "value": "583.00"
+        },
+        {
+          "title": "CLUB Points ",
+          "value": "31.06"
+        },
+        {
+          "title": "Acct# **** Visa   ",
+          "value": "551.94"
+        }
+      ],
+      "total": "33.00",
+      "totalText": "General Sales & Use",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7cb41e9-bcc6-473f-ad1d-9775fe733ffc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CLUB Visa Points Available: $0.00\n\nAcct# ************\nAuth# 007961\nSignature on file",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0b12b673-abde-4c1a-9dcd-d12a00f158e2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ITEMS SOLD 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FjEUeZKZgNk9HYDqLaDbj%2FjEUeZKZgNk9HYDqLaDbj-5ede099e-1031-4c35-8848-61bc026b26d0.png?alt=media&token=41e33c1a-a8fe-4ea6-9ca0-38cabc585e54",
+  "published": true,
+  "id": "jEUeZKZgNk9HYDqLaDbj"
+}

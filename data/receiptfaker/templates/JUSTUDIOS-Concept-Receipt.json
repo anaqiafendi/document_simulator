@@ -1,0 +1,138 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T03:12:28.832Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "JUSTUDIOS Concept Receipt",
+  "description": "This is not a real commercial transaction receipt. It is a conceptual or artistic receipt design created by JUSTUDIOS Ltd., a creative label based in Jyväskylä, Finland. The layout mimics a retail receipt but replaces typical purchase items with symbolic entries such as “Mental Health,” “Labour,” and “Design,” paired with abstract or philosophical values like “Priceless” and “Hard to say.” The “Total” line (“For a better future”) reinforces its purpose as a message-driven or artistic statement rather than a financial record. It blends fashion/creative branding with social commentary, encouraging reflection rather than documenting a transaction.",
+  "sections": [
+    {
+      "id": "ec98e20d-458c-4268-9f1e-0833901082a0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe66d09dd-94fe-4c84-a238-556114c21b47-image%20(3).jpg?alt=media&token=babd29ca-2309-4e9b-91c8-29792daa610b",
+      "size": 132,
+      "businessDetails": "\n© 2023, JUSTUDIOS Ltd.\nESTABLISHED IN JYVASKYLA, FIN. 2021.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d70b9c2c-9d0a-4190-b28a-dd0f318be79c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "22.07.2023  #00190",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d30267db-4ab3-4fcd-b4d4-cbcb700f78ae",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MENTAL HEALTH",
+          "total": "PRICELESS"
+        },
+        {
+          "quantity": "",
+          "description": "LABOUR",
+          "total": "55.80/HOUR"
+        },
+        {
+          "quantity": "",
+          "description": "FABRIC",
+          "total": "13.5/M"
+        },
+        {
+          "quantity": "",
+          "description": "DESIGN",
+          "total": "HARD TO SAY"
+        },
+        {
+          "quantity": "",
+          "description": "SALARY",
+          "total": "MAYBE SOME DAY"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "24%"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "efe186ea-4490-4ac2-9262-2b2e296bd713",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nITEM COUNT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "43e36cb1-4540-4d9c-a038-ac0fc4e39183",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "FOR A BETTER FUTURE"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c41c6840-a8a4-45b3-8c2c-f443721c9a90",
+      "type": "BARCODE",
+      "size": 70,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90f29ec7-3363-4540-adad-e6a163d16533",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCARD: 040101-704000\nAUTH: 777###\nCARDHOLDER: INDEPENDENT\nLABEL: JUSTUDIOS Ltd.\nWEAR THE CHANGE YOU WANT TO SEE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "752d9073-18ad-4a4e-aa05-b3360786bc70",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nJUSTUDIOS.ONLINE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "JUSTUDIOS-Concept-Receipt",
+  "published": true,
+  "id": "K31IolBKB9gSv0u8ex0F"
+}

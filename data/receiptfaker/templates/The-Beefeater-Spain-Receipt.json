@@ -1,0 +1,154 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T13:05:26.490Z",
+  "description": "This restaurant receipt from The Beefeater contains a table reference (Mesa 36) and is marked as a Proforma transaction document. The receipt includes quantity, description, unit price, and line total columns, followed by a tax summary showing the taxable base amount (Base Imponible), VAT rate (IVA 10.00), and total amount due. Additional metadata includes a corporate tax identifier (CIF), business address information in Fuengirola, a manager designation, and a timestamp recording the transaction date and time. The layout is consistent with a restaurant POS system used in Spain and follows Spanish VAT and receipt formatting conventions.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "The Beefeater Spain Receipt",
+  "slug": "The-Beefeater-Spain-Receipt",
+  "sections": [
+    {
+      "id": "372a4e9c-2eab-4f49-b7ab-aae5ad0fa1c0",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F07d552a0-4745-47b4-90ed-6b726aae9abd-image%20(3).jpg?alt=media&token=bcb80270-3e16-40ef-97d0-7dbf20ad61ac",
+      "size": 249,
+      "businessDetails": "\nMESA: 35\t\nPROFORMA\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5d8c3dcd-b01f-4cd1-9b56-b42d163869e7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Cant.",
+          "description": "\tDescripcion",
+          "total": "P.U.\tTotal"
+        },
+        {
+          "quantity": 1,
+          "description": "    Costillas Barbacoa",
+          "total": "11.50  11.50"
+        },
+        {
+          "quantity": "2",
+          "description": "Patata Asada Mantequi",
+          "total": "3.00  6.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Solan Cabras 1L",
+          "total": "3.20  3.20"
+        },
+        {
+          "quantity": 1,
+          "description": "Nestea",
+          "total": "3.60  3.60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c78175a1-d575-4f59-bd6b-f8a8623507b9",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Base Imponible",
+          "value": "24.30"
+        },
+        {
+          "title": "IVA 10.00",
+          "value": "2.43"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5135ba7c-9f0b-460a-bc44-be56abba5f98",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "26.73"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03e26587-4134-4a16-a9d7-a0a9b0c2c3d0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CIF: B-29.035.995",
+          "total": "C/ DE LA CRUZ 14"
+        },
+        {
+          "quantity": "",
+          "description": "GRACIAS POR SU VISITA",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "61b60107-0525-4d93-ae99-34b7f1522046",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MANAGER",
+          "total": "1 SAB 04 JUN 2016 21:04"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "YoJXUCqihCQMPUbnJf9Q"
+}

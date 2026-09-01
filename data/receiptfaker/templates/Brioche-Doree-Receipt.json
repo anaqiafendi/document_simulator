@@ -1,0 +1,159 @@
+{
+  "backgroundCrumpled": false,
+  "description": "This bakery and café receipt from Brioche Dorée documents a cash payment transaction processed at the Boulevard Saint-Michel location in Paris, France. The receipt includes full address details, telephone number formatting, cashier/service attribution, ticket numbering metadata, timestamp information, and French SIRET business registration references. The POS structure contains subtotal formatting, VAT (“TVA”) calculations, total amount presentation in euros, cash tendered references, and change due formatting aligned in standard French bakery thermal receipt formatting. Additional receipt elements include customer appreciation messaging, website references, restroom access code formatting, and localized tax accounting presentation near the footer. The layout reflects a standard French café and bakery thermal receipt with VAT-inclusive accounting and hospitality service formatting.",
+  "sections": [
+    {
+      "alignment": "CENTER",
+      "size": 236,
+      "id": "4b524877-efb6-494d-a192-28028550e0c7",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F146cd920-47af-45ae-9150-c465a6b02a75-image%20(15).jpg?alt=media&token=e2efc0c8-de03-4db4-b81e-bd4496efc3ff",
+      "businessDetails": "\nBRIOCHE DOREE\n20 bld st michel\n75006 PARIS\nTel : +33 1 56 81 03 12\n05/08/2017   12:08   C:9018203   Tkt:78765\nVOUS AVEZ ETE SERVI PAR :\nHachimia S.\n",
+      "type": "HEADER",
+      "date": "$undefined"
+    },
+    {
+      "type": "CUSTOM",
+      "custom": "BD",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "id": "1575a80c-24d7-4865-8c97-5d90042bc072",
+      "alignment": "LEFT",
+      "date": "$undefined"
+    },
+    {
+      "custom": "\nDESIGNATION ARTICLE             Euro",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "type": "CUSTOM",
+      "id": "f442726e-9aa8-4535-a24b-d26344f28f52",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [],
+      "id": "75a668bc-45d8-45db-841a-00dfd325f8c2",
+      "bottomDividerType": "DASHES",
+      "totalDivider": true,
+      "total": "",
+      "items": [
+        {
+          "total": "\n2,30",
+          "description": "\nMAXI CHOC",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "FEUILLETE POMMES FRAMBOISES",
+          "total": "3,00"
+        },
+        {
+          "total": "3,00",
+          "description": "FEUILLETE POMMES FRAMBOISES",
+          "quantity": ""
+        },
+        {
+          "total": "2,40",
+          "description": "ORANGINA 33CL",
+          "quantity": ""
+        }
+      ],
+      "type": "ITEMS",
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "bottomDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "totalDivider": true,
+      "total": "",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL Euro",
+          "total": "10,70"
+        }
+      ],
+      "type": "ITEMS",
+      "totalLines": [],
+      "id": "8cbfaa49-7559-4c6b-b54e-983c9869da2c",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "totalDivider": true,
+      "total": "",
+      "items": [
+        {
+          "total": "10,70",
+          "description": "1 - ESPECES  ",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "Rendu: 4,30",
+          "description": "Comptant donné: 15,00"
+        }
+      ],
+      "type": "ITEMS",
+      "totalLines": [],
+      "id": "f217abe1-91f6-495a-b23d-9989cf79f54f",
+      "date": "$undefined"
+    },
+    {
+      "total": "",
+      "items": [
+        {
+          "description": "TAUX   TVA    H.T.   T.T.C.   TVA",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "5.50     10,14     10,70     0,56",
+          "quantity": ""
+        }
+      ],
+      "type": "ITEMS",
+      "bottomDividerType": "DASHES",
+      "totalDivider": true,
+      "id": "dab1f3dd-d9a7-4a68-b5e6-565bb058c7f0",
+      "totalLines": [],
+      "bottomDivider": false,
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "type": "CUSTOM",
+      "custom": "\n\nSIRET : 31890659101585\nMerci et a Bientot.\nwww.briochedoree.fr\nCODE TOILETTE : CB 8093",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "id": "885119ed-0d95-4921-a8d3-146d9fd95ad4",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    }
+  ],
+  "isParent": true,
+  "imageUrl": "",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-05-28T13:49:56.031Z",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "currency": "",
+  "numberFormat": "LEFT",
+  "slug": "Brioche-Doree-Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "name": "Brioche Dorée Receipt",
+  "textColor": "#101828",
+  "published": true,
+  "id": "X9tnZT5GM58PyVOowRjP"
+}

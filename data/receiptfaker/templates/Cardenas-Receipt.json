@@ -1,0 +1,159 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-26T12:26:40.069Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5d1ded6a-debe-4b66-8115-35652a9412d6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F562ec57a-5020-4c33-8c71-c0babd81a57f-image%20(10).jpg?alt=media&token=5c46484a-fdd9-4121-9784-f204c4ca2178",
+      "size": 273,
+      "businessDetails": "BIENVENIDOS A CARDENAS\nWELCOME TO CARDENAS\n25745 Baseline St.\nSan Bernardino, CA 92410\n(909) 890-1111\n\n STORE 41\nDUPLICATE RECEIPT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "10a2b2c6-847e-497b-bb46-aa4711570f3c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SPECIAL OCACION CA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ITEM CANCELLED",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SPECIAL OCACION CA",
+          "total": "-$12.99 N F"
+        },
+        {
+          "quantity": "",
+          "description": "Supervisor #9003",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nBALANCE DUE",
+          "total": "\n$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nSupervisor #9003",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "EXPIRED",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CUPCAKES 12 CT",
+          "total": "-$7.99 N F"
+        },
+        {
+          "quantity": "",
+          "description": "Supervisor #9003",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "EXPIRED",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CUPCAKES 12 CT",
+          "total": "$$7.99 N F"
+        },
+        {
+          "quantity": "",
+          "description": "Supervisor #9003",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "EXPIRED",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CUPCAKES 12 CT",
+          "total": "$$7.99 N F"
+        },
+        {
+          "quantity": "",
+          "description": "Supervisor #9003",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nBALANCE DUE",
+          "total": "\n$23.97"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal number of items sold = 0",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nCHANGE",
+          "total": "\n$23.97"
+        },
+        {
+          "quantity": "",
+          "description": "\nCASHIER NAME: PATRICIA A",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "C2000   #6379   08:16   17OCT2022",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "500041   R040",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3194fa5f-8fbc-464d-8eb9-4cfa964685c7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThanks for shopping at Cardenas\nVisite: www.cardenasmarkets.com\n\nReview us on Yelp\nCUSTOMER SERVICE 909-923-7426\nSave Receipt for Return/Exchanges",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Cardenas Receipt",
+  "description": "This receipt is issued by Cardenas and identifies the location as 2518 S. Lorena Street, Los Angeles, California 90023. The receipt is clearly marked as a Duplicate Receipt and documents item cancellations and supervisor-authorized adjustments, including expired promotional discounts. The financial section records balance-due calculations, change returned, and indicates that the total number of items sold is 0 after the transaction adjustments. The footer includes the store identification, cashier and register information, transaction date, customer-service contact details, the official Cardenas Markets website, a request for Yelp reviews, and the retailer's return and exchange notice. The overall layout is representative of a United States supermarket POS receipt, combining transaction corrections, supervisor overrides, promotional adjustments, and retail transaction reconciliation within a compact receipt format.",
+  "slug": "Cardenas-Receipt",
+  "published": true,
+  "id": "eCBOxZik14tCfgmBQo5K"
+}

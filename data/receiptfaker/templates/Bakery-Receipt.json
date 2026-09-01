@@ -1,0 +1,141 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Bakery Receipt",
+  "slug": "Bakery-Receipt",
+  "createdAt": "$D2025-05-25T14:29:38.198Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F3a200234-3396-4bed-88ec-27babc1999bd-4053431_bakery_dessert_donut_doughnut_food_icon.png?alt=media&token=66f141b2-e628-48bf-9698-86a35486ad6d",
+      "size": 50,
+      "businessDetails": "Sweet Hearth Bakery\n(415) 555-3472\nwww.sweethearthbakery.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Classic Sourdough Loaf",
+          "total": "6.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Chocolate Ganache Croissant",
+          "total": "4.25"
+        },
+        {
+          "quantity": "1",
+          "description": "Lemon Blueberry Muffin",
+          "total": "3.75"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "14.50"
+        },
+        {
+          "title": "Total",
+          "value": "1.23"
+        }
+      ],
+      "total": "15.73",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_75",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "This receipt is your proof of purchase. Please keep it safe for any returns or exchanges. Items may be returned or exchanged within 14 days with a valid receipt and original packaging. Please note that perishable goods, such as baked items, may have special return policies. Refunds will be processed using the original method of payment. Cash refunds are available only for cash purchases. For questions or assistance, please call (415) 555-3472 or visit sweethearthbakery.com.\n\nThank you for choosing Sweet Hearth Bakery!\n\n2980 Willow Creek Road\nSan Francisco, CA 94110\nhello@sweethearthbakery.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FABraqurzmqmGcdhptdN8%2FABraqurzmqmGcdhptdN8-4980ffbd-a53c-4b78-9444-0e37e126c456.png?alt=media&token=f4d2cb22-3294-443b-85ca-0b8fdfbfdad7",
+  "description": "Need a bakery receipt? Use our free generator to create a detailed receipt for baked goods. Enter bakery name, items sold, quantities, prices, tax, and payment info—perfect for customer records or business use.",
+  "published": true,
+  "metatitle": "Bakery Shop Receipt",
+  "metadesc": "professional bakery receipts with custom items, quantities, prices, and business details using our free receipt generator tool",
+  "id": "ABraqurzmqmGcdhptdN8"
+}

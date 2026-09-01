@@ -1,0 +1,119 @@
+{
+  "sections": [
+    {
+      "businessDetails": "\ndi: Giuseppe Strazzulla\nVia Re Manfredi, 14 - BARI\nP. Iva 08334950725\n\nDOCUMENTO COMMERCIALE\ndi vendita o prestazione\n\n",
+      "size": 200,
+      "bottomDividerType": "DASHES",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F46c9c1ff-2ebf-4d67-829e-63cb5294e27d-image%20(18).jpg?alt=media&token=65d7885f-5d1e-4569-98aa-dc494a4fe1fb",
+      "alignment": "CENTER",
+      "type": "HEADER",
+      "bottomDivider": false,
+      "id": "f335cf2d-07cc-46b7-8f9a-d5d331791e2c",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "totalDivider": false,
+      "items": [
+        {
+          "description": "        IVA",
+          "quantity": "DESCRIZIONE",
+          "total": "Prezzo (€)"
+        },
+        {
+          "total": "2.00",
+          "quantity": "COPERTO",
+          "description": "            10%"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "    2 × 1.00"
+        },
+        {
+          "quantity": "SECONDO PESCE",
+          "total": "8.00",
+          "description": "      10%"
+        },
+        {
+          "quantity": "ACQUA",
+          "total": "",
+          "description": "              10%"
+        },
+        {
+          "total": "",
+          "quantity": "VINO",
+          "description": "               10%"
+        },
+        {
+          "total": "",
+          "quantity": "DIGESTIVI",
+          "description": "          10%"
+        },
+        {
+          "total": "\n\n36.00",
+          "quantity": "",
+          "description": "\n\nSUBTOTALE"
+        },
+        {
+          "total": "-7.20",
+          "quantity": "",
+          "description": "SCONTO   20%"
+        },
+        {
+          "description": "TOTALE COMPLESSIVO",
+          "quantity": "",
+          "total": "28.80"
+        },
+        {
+          "quantity": "",
+          "total": "2.62",
+          "description": "DI CUI IVA"
+        },
+        {
+          "description": "Pagamento contante",
+          "quantity": "",
+          "total": "28.80"
+        },
+        {
+          "total": "28.80",
+          "quantity": "",
+          "description": "Importo pagato"
+        }
+      ],
+      "total": "",
+      "id": "34eacb5d-a19f-4ac0-87de-bf3d157d6988",
+      "bottomDivider": false,
+      "totalText": "",
+      "type": "ITEMS",
+      "totalLines": [],
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "type": "CUSTOM",
+      "bottomDivider": false,
+      "custom": "\n18-01-2020   14:27\nDOCUMENTO N. 0075-0001\nRT 57IME021722\n\n\n\nGrazie per la vostra visita!\nIL FORTINO\nVi aspettiamo presto a Bari!\n* * * * * * * * * *",
+      "id": "d0b4d429-5af7-4a97-ae3e-452985d260ea",
+      "date": "$undefined"
+    }
+  ],
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "currency": "",
+  "slug": "Il-Fortino-Receipt",
+  "createdAt": "$D2026-05-25T11:42:36.985Z",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "description": "This restaurant receipt from Il Fortino documents a cash payment transaction processed in Bari, Italy. The receipt includes proprietor information, full business address details, Italian VAT registration formatting (P.IVA), commercial document classification text, timestamp information, and document numbering references. The POS structure contains VAT category formatting, subtotal presentation, percentage discount calculations, total amount formatting, VAT-inclusive totals (“DI CUI IVA”), and cash payment confirmation aligned in standard Italian restaurant thermal receipt formatting. Additional receipt elements include item quantity formatting, discount references, payment confirmation lines, and fiscal RT identification formatting near the footer. The layout reflects a standard Italian restaurant fiscal receipt with VAT accounting presentation and localized transaction formatting.",
+  "isParent": true,
+  "parentName": "Office Depot",
+  "backgroundType": "CRUMPLED_1",
+  "name": "Il Fortino Receipt",
+  "imageUrl": "",
+  "textColor": "#101828",
+  "published": true,
+  "id": "ihGSkrAA75L0tZDp3d1s"
+}

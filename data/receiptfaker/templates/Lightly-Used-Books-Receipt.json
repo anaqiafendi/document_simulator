@@ -1,0 +1,103 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T09:38:08.831Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "46b6b201-fdb7-4e93-a331-5d99b65cd4ad",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Lightly Used Books LLC\n\n141 North Center Street\nTurlock, California\n95380\n+12094272188",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae404560-ae3d-4e84-bc1f-ece60c6f65b4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTOTAL\n$17.38\n\n\nItems                          Price\n------------------------------------\n\nCustom sale                 $16.00\n(2 x $8.00)\n------------------------------------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3d0aaa9-bef5-41fd-9e3d-3fcee25bee38",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL\n",
+          "total": "$$16.00\n"
+        },
+        {
+          "quantity": "",
+          "description": "CALIFORNIA STATE TAX (6%)\n",
+          "total": "$$0.96\n"
+        },
+        {
+          "quantity": "",
+          "description": "STANISLAUS COUNTY TAX (0.25%)\n",
+          "total": "$$0.04\n"
+        },
+        {
+          "quantity": "",
+          "description": "TURLOCK CITY TAX (0.75%)\n",
+          "total": "$$0.12\n"
+        },
+        {
+          "quantity": "",
+          "description": "STANISLAUS COUNTY DISTRICT TAX SP\n",
+          "total": "$$0.10\n"
+        },
+        {
+          "quantity": "",
+          "description": "(0.625%)\n",
+          "total": "10\n"
+        },
+        {
+          "quantity": "",
+          "description": "STANISLAUS CO LOCAL TAX SL (1%)\n",
+          "total": "$$0.16\n"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL\n",
+          "total": "$$17.38\n"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c40c219-6faa-423b-b86b-798667457301",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTransaction Record",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Lightly Used Books LLC and identifies the business as 141 North Center Street, Turlock, California 95380. The header contains the business name, address, contact telephone number, and the total transaction amount. The receipt records a Custom Sale consisting of two items priced at $8.00 each. The financial section records the subtotal together with a detailed breakdown of California State Tax, Stanislaus County Tax, Turlock City Tax, Stanislaus County District Tax, and Stanislaus County Local Tax, resulting in a final transaction total of $17.38. The lower portion of the receipt contains the Transaction Record section for electronic payment processing, but the payment details are not fully visible in the provided image. The overall layout is representative of a United States retail POS receipt, combining merchandise pricing, jurisdiction-specific sales tax reporting, and electronic payment processing within a compact retail receipt format.",
+  "name": "Lightly Used Books Receipt",
+  "slug": "Lightly-Used-Books-Receipt",
+  "published": true,
+  "id": "yjarzllM8s9JwSEAbotN"
+}

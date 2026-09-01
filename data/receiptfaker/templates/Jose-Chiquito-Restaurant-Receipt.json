@@ -1,0 +1,155 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-06-12T19:12:47.565Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Jose Chiquito Restaurant Receipt",
+  "description": "This receipt template originates from Jose Chiquito Restaurant located at 317 S Broadway, Los Angeles, California. The header contains the restaurant name, street address, telephone number, website, transaction date and time, and order number. The receipt identifies the service type as Dine In and includes a server or order-association name. The financial summary section records the subtotal, tax, and total, followed by a payment section showing the payment method, total tendered, and change returned. The footer contains a receipt code and customer appreciation messages. The format is representative of a restaurant point-of-sale receipt used for dine-in transactions.",
+  "sections": [
+    {
+      "id": "ead654f9-74ef-4049-be1f-10255de31f74",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "JOSE CHIQUITO RESTAURANT\n317 S BROADWAY\nLOS ANGELES, CA 90013\n(213) 680-3363\nJOSECHIQUITO.COM/ABOUT/\nOctober 8, 2022 at 8:34 AM\nOrder #5007",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ed555c46-20b8-4d14-90d9-4ed181d29f10",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDine In\nMarlon",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5313d9f-7151-419c-85e4-610331a4e144",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nFrench Toast",
+          "total": "\n11.99"
+        },
+        {
+          "quantity": "",
+          "description": "Open Food ",
+          "total": "3.50"
+        },
+        {
+          "quantity": "",
+          "description": "French Toast",
+          "total": "11.99"
+        },
+        {
+          "quantity": "",
+          "description": "Open Food",
+          "total": "3.50"
+        },
+        {
+          "quantity": "",
+          "description": "Huevos A La Ranchera",
+          "total": "11.99"
+        },
+        {
+          "quantity": "",
+          "description": "Open Food",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "Open Beverage",
+          "total": "8.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6963224b-9fc8-4361-9c3a-5c5fb9cb3fe7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "52.97"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "5.43"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "58.40"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb92a95d-d333-4a7f-b029-fbf8ea4c479c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "58.40"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tender",
+          "total": "60.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "1.60"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8dbfbd3a-7dda-4d98-a453-da714d6583f6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nReceipt Code: 00543169l6652\nThank you for visiting!\nCome back soon!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Jose-Chiquito-Restaurant-Receipt",
+  "published": true,
+  "id": "FbQyDp8jAly0wBjoAULj"
+}

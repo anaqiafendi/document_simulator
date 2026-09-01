@@ -1,0 +1,184 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T18:32:52.419Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "eb99a57b-a407-47a5-8ce0-9b331420d82b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "BEL AIR GRILL\n3820 Neal Drive\nKnoxville, TN 37918\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "24abc3b7-b094-465e-a987-d9766aa4df93",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Paige ",
+          "total": "08/25/2023"
+        },
+        {
+          "quantity": "",
+          "description": "C7/1",
+          "total": "8:43 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Guests: 5",
+          "total": "40075"
+        },
+        {
+          "quantity": "",
+          "description": "Area: Dining",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nFountain Drink",
+          "total": "\n\n2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Coke",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cherry ",
+          "total": "0.59"
+        },
+        {
+          "quantity": "",
+          "description": "Iced Tea ",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Yuengling Short (3 @5.50)",
+          "total": "16.50"
+        },
+        {
+          "quantity": "",
+          "description": "Kid's Grilled Cheese ",
+          "total": "5.99"
+        },
+        {
+          "quantity": "",
+          "description": "Hand Cut Fries",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Kid's Cheeseburger ",
+          "total": "6.49"
+        },
+        {
+          "quantity": "",
+          "description": "AMERICAN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Hand Cut Fries",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Southwest Burger ",
+          "total": "13.99"
+        },
+        {
+          "quantity": "",
+          "description": "JALAPENO CHEESE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Hand Cut Fries",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Fried Cod",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Baked Potato",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BUTTER",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Green Beans",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Complete Subtotal",
+          "total": "64.53"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n64.53"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "4.44"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n68.97"
+        },
+        {
+          "quantity": "",
+          "description": "\nBalance Due ",
+          "total": "\n68.97"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cc1b8a7d-0af6-4cfa-8ec3-9d11a7dc9d32",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBook Your Holiday Party Now!\nCall 865-922-5522\nDon't Forget Your Holiday Gift Cards",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Bel Air Markets Receipt",
+  "description": "Bel Air Grill restaurant receipt issued from the Neal Drive location in Knoxville, Tennessee. The header identifies the restaurant name and full street address, followed by dining and POS metadata including the server name, guest count, dining-area designation, transaction reference, and exact date and time. The main section follows a traditional restaurant thermal POS layout with primary order entries and indented modifiers or selections displayed beneath them. The financial summary records the complete subtotal, subtotal, applicable tax, final total, and remaining balance due, with the total displayed prominently. The footer contains a holiday-party booking promotion with a contact telephone number and an additional reminder advertising holiday gift cards.",
+  "slug": "Bel-Air-Markets-Receipt",
+  "published": true,
+  "id": "EwpJyhERkCkQfcLqxh3Y"
+}

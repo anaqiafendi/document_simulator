@@ -1,0 +1,193 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T16:23:08.373Z",
+  "description": "This receipt is issued by Farmavalue and identifies the location as El Cangrejo, Calle F, Edif. 16, Local 2. The receipt contains business registration information, taxpayer identifiers, receipt and invoice control numbers, customer classification, transaction date, and transaction time. The financial section includes a subtotal, discount summary, exempt amount reporting, total transaction value, cash payment amount, and change calculation. Additional POS metadata includes document reference numbers, cashier or transaction-control identifiers, and fiscal invoice formatting required for retail pharmacy transactions. The overall layout is representative of a Latin American pharmacy POS receipt, combining fiscal reporting, discount tracking, payment reconciliation, and transaction-control documentation within a compact retail receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Farmavalue Receipt",
+  "slug": "Farmavalue-Receipt",
+  "sections": [
+    {
+      "id": "5244b984-ab01-40e4-97da-ccb742b7d036",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "RUC 2123632-1-760780 DV 70\nFARMACIAS EUROPEAS, S.A.\nFARMAVALUE\nEl Cangrejo, Calle F\nEdif. 16, Local 2.\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04f8cba2-52cd-4196-a4c6-4458d408aed0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "RUC/CIP: 00000000000000",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "RAZON SOCIAL: Consumidor Final",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "REF: 140596",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Publico General",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a7069c2-e5de-4fc8-89e9-d733a60d8e54",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "FACTURA\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "72cecfff-54f0-4368-8d6f-c2a77f680415",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "FACTURA",
+          "total": "TFBK110051748-00144130"
+        },
+        {
+          "quantity": "",
+          "description": "FECHA: 29-02-2020",
+          "total": "HORA: 11:23"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c34966a3-1e10-4d19-a2f1-1116106457d1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "9x B/.0.10",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Mascarilla Conica Desechable1 de 50",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Mascarilla Conica Desechable1 de 50",
+          "total": "B/.0.90"
+        },
+        {
+          "quantity": "",
+          "description": "-B/.0.27",
+          "total": "-B/.0.27"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "87f2eedc-ef0c-4adc-83aa-ceabdaf87d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SUBTOTAL                     B/.0.63",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "365eafda-712c-47b1-804a-975cd0526d6c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSUBTOTAL DESCUENTOS         -B/.0.27",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0fad3483-2f30-4144-a42d-c3b8e72b2596",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nEXENTO                       B/.0.63",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5efc8344-b538-4453-b5ff-2200d9f7b761",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "B/.0.63"
+        },
+        {
+          "quantity": "",
+          "description": "EFECTIVO",
+          "total": "B/.1.00"
+        },
+        {
+          "quantity": "",
+          "description": "CAMBIO",
+          "total": "B/.0.37"
+        },
+        {
+          "quantity": "",
+          "description": "IGZ",
+          "total": "TFBK110051748"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "gBBMDA4FjxwXSfGxeQS8"
+}

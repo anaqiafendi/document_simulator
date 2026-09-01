@@ -1,0 +1,93 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Swatch Receipt",
+  "description": "A retail receipt from Swatch Toronto Eaton Centre 2, located at 220 Yonge Street, Toronto, ON M5B 2H1. The receipt includes store contact details (416-341-8033), a barcode, and purchase information for “MISSION TO MERCURY” priced at CAD $335.00. It shows HST (13%) of $43.55, bringing the total to $378.55. Payment was made with American Express (Auth #: 86157). The receipt also outlines the return policy, indicating merchandise must be returned within 7 days with the original condition and receipt, and that gift cards are non-refundable. It ends with invoice number #28431, dated 01/03/2023, with sales associate Amanda (Reg: 1).",
+  "slug": "Swatch-Receipt",
+  "createdAt": "$D2026-02-16T15:26:31.891Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "53f29338-b1bc-4a3a-b84c-262e3be30ca4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F76fe3ac5-d0e5-46ff-8942-055ca91c85f8-swatch.jpg?alt=media&token=c1590392-911c-4500-a433-cf8010e591ae",
+      "size": 186,
+      "businessDetails": "Swatch Toronto Eaton Centre 2\n220 Yonge Street\nToronto, ON M5B 2H1\n416-341-8033",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3d0e48b2-8dbe-412a-b021-e1e6ee7f78e2",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ac21de43-3d2d-4dca-9978-48acf1180360",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "5 7 2 2 5 5 6 3 5 9 2 1 2 8 6 5 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4259ced4-9de9-4327-add0-f08ba208cd65",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "--------------------------------- DESCRIPTION      QTY PRICE  TOTAL\n---------------------------------\nMISSION TO MERCURY 1 335.00 335.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a7f8edf-440b-4959-93a1-0e084c366724",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSUBTOTAL                    $335.00\nHST (13.000%)               $43.55\nRECEIPT TOTAL               $378.55\n\nAmerican Express CAD\nAUTH #: 86157",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "36707e41-e61a-4a0b-a883-ed434ba5afc3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "RETURN POLICY\n\nWe Pride ourselves on offering the highest quality merchandise.\n\nIf you change your mind, the merchandise must be returned within 7 days in its original condition, with receipt and original packaging.\n\nReturns are accepted for exchange only.\n\nAll merchandise must be accompanied by the original receipt.\n\nGift cards are not refundable.\n\nFor detailed information, please refer to swatch.com.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "973e3cfd-c0df-4cad-b9f2-81be8363ebdd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Signature\n\nThank you for shopping at Swatch",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "37a46499-c7de-4e13-9596-55a56ef1a76d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "INVOICE # 28431  \nDATE: 01/03/2023  \n\nSALES ASSOC: AMANDA  \nREG: 1  \n\n    DUPLICATE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FALj1biX7kGxnWsXW4Gwf%2FALj1biX7kGxnWsXW4Gwf-046cda4a-2ea5-4312-b5e1-043fd2883432.png?alt=media&token=a0a058cd-5d39-4cde-96cb-a6e243929da9",
+  "published": true,
+  "id": "ALj1biX7kGxnWsXW4Gwf"
+}

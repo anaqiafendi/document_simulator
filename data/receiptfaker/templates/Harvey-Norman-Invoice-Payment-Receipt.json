@@ -1,0 +1,131 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Harvey Norman Invoice Payment Receipt",
+  "slug": "Harvey-Norman-Invoice-Payment-Receipt",
+  "createdAt": "$D2026-05-14T15:36:47.589Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "8bf21fc5-a9c3-48b6-a254-1e8978349444",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6f7bfdc8-594a-4214-9455-bc23b3b375d9-image%20(23).jpg?alt=media&token=340322e2-322b-49c9-b4d4-4184fdb4be35",
+      "size": 246,
+      "businessDetails": "BDNOAR PTY LTD\nA.C.N. 606676777 / A.B.N. 09503192035\nas trustee of the\nBDNOAR PTY LTD\ntrading as\nHarvey Norman Furniture Noarlunga\nUnit 4/2 Seaman Drive\nNOARLUNGA SA 5168\nPh. 00 0329 5400   Fax: 00 0329 5498\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "357e2107-45d1-42c9-a34d-437eb3b30335",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Assistant:5669/26ANGEL",
+          "total": "Date:07/06/21"
+        },
+        {
+          "quantity": "",
+          "description": "Operator:  5661/26 James",
+          "total": "16:03:02"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Type: CASH SALE",
+          "total": "4382342"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "77951567-206a-4a3c-bbe7-d57b1038f04b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTAX INVOICE   INVOICE PAYMENT 1909764\nMARIJA FICKLING\n36 FOXFIELD DR\nONKAPARINGA HILLS SA 5163\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7baaee3-2ff0-4d5b-be01-96e558a95d28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Delivery Fee",
+          "total": "$$150.00"
+        },
+        {
+          "quantity": "",
+          "description": "G.S.T. CONTENT",
+          "total": "$$303.55"
+        },
+        {
+          "quantity": "",
+          "description": "INV PENDING",
+          "total": "$$3,339.00"
+        },
+        {
+          "quantity": "",
+          "description": "PAID SO FAR",
+          "total": "$$1,000.00"
+        },
+        {
+          "quantity": "",
+          "description": "INV PAYMENT",
+          "total": "$$2,339.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "$$2,400.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due",
+          "total": "$$61.00"
+        },
+        {
+          "quantity": "",
+          "description": "BALANCE OWING",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bffa1334-f17b-4a1c-9fec-940ab15dd501",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPLEASE RETAIN RECEIPT FOR PROOF OF PURCHASE.\n\n\nFor consumer enquiries please contact 1300 GO HARVEY (1300 464 278) or the store phone number listed on this invoice.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is from Harvey Norman Furniture Bedding in Noarlunga, South Australia. It records a cash invoice payment transaction including delivery fees, GST content, previous payments made, remaining invoice balance, and final settlement amount. The receipt includes assistant and operator details, transaction identifiers, customer address information, and proof-of-purchase instructions. The format reflects a standard Australian retail invoice payment receipt commonly used for furniture and home goods purchases.",
+  "imageUrl": "",
+  "published": true,
+  "id": "9THNpnaErPudINk1pSNJ"
+}

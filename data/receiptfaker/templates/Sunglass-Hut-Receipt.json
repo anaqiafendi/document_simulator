@@ -1,0 +1,144 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Sunglass Hut Receipt",
+  "description": "This receipt is issued by Sunglass Hut and identifies the store in Camarillo, California 93010. The header contains the retailer name, store address, telephone number, receipt number, transaction date and time, store and register information, and staff references. The transaction records the purchase of one Ray-Ban RB 2140 Wayfarer polarized sunglasses, with promotional discounts applied to the purchase. The financial section shows a subtotal of $72.00, 8.25% tax of $5.94, and a final total of $77.94. Payment was completed using Visa, with authorization, transaction-entry, reference, and merchant information printed below. The footer contains the retailer's customer-satisfaction message, number of items purchased, and a transaction barcode.",
+  "slug": "Sunglass-Hut-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T15:25:51.256Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "5d5a9096-0741-4cfa-a65c-d40b521afe62",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F80c3c5ff-254c-4bb4-bf1f-32ccb406c64b-image.jpg?alt=media&token=24a96875-fc29-4849-b30f-6cc44d2de0a6",
+      "size": 276,
+      "businessDetails": "SUNGLASS HUT #\n3771 740 VENTURA\nBLVD STE 50B\nCAMARILLO, CA 93010-8547\n(805)484-3799\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9d87868-0fb8-4b06-862d-6b84dc21311e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nReceipt #: 3629083\nDate: 01/05/25 @ 3:32\nStore: 3771        Register:\n1 Cashier: Lauren854758\nSalesperson:\nLauren854758",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5eca6f73-9cc4-4bef-8c5a-fdc0473bf51a",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nItem          Qty",
+          "value": "\nPrice    Amount"
+        },
+        {
+          "title": "\nRB 2140 54 WAYFARER,POLARIZED,BLK,GN",
+          "value": ""
+        },
+        {
+          "title": "80538752333411   1",
+          "value": "$$144.00    $144"
+        },
+        {
+          "title": "\n20% off Coupon Code",
+          "value": ""
+        },
+        {
+          "title": "$$28.8         30% off VIP Pass(20%)",
+          "value": ""
+        },
+        {
+          "title": "$$43.2",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7675c40a-8998-407d-a32f-c5aa6bb51f61",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSubtotal",
+          "value": "\n$72"
+        },
+        {
+          "title": "US TAX (8.25%)",
+          "value": "$$5.94"
+        },
+        {
+          "title": "Total",
+          "value": "$$77.94"
+        },
+        {
+          "title": "\nPayments:",
+          "value": "\n$77.94"
+        },
+        {
+          "title": "Visa",
+          "value": " **********7048"
+        },
+        {
+          "title": "Auth Code: 0096558",
+          "value": "*SWIPED*"
+        },
+        {
+          "title": "Reference: 1347",
+          "value": ""
+        },
+        {
+          "title": "Merchant ID: 55360047792",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e313b6e6-8f27-4796-b134-3736a31b5d78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nYour COMPLETE\nSatisfaction With Your\nSunglasses\nis Our Satisfaction",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2b01fa1-535c-4861-ad15-ddf6e68ca051",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nTotal Item(s) Purchased *1\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d50d52c-2f84-466d-a740-7d1b27bc82c6",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "ihuh9dV7I2yaOznBBT5k"
+}

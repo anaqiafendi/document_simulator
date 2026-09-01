@@ -1,0 +1,190 @@
+{
+  "numberFormat": "LEFT",
+  "textColor": "#101828",
+  "name": "Eric Kayser Receipt",
+  "fontType": "MERCHANT_COPY",
+  "description": "This café and bakery receipt from Eric Kayser documents a card payment transaction processed at the Lippo Mall Puri location in Indonesia. The receipt includes website references, table number formatting, guest count metadata, cashier/operator identifiers, POS terminal references, receipt numbering, and timestamp information. The POS structure contains subtotal formatting, service charge calculations, tax percentage presentation, total amount formatting, and BOA V/M card payment confirmation aligned in standard Indonesian restaurant and café thermal receipt formatting. Additional receipt elements include reservation and inquiry contact information, closed bill references, masked cardholder data formatting, and official receipt notices near the footer. The layout reflects a standard Indonesian café thermal receipt with service charge accounting and restaurant POS formatting.",
+  "backgroundType": "CRUMPLED_1",
+  "slug": "Eric-Kayser-Receipt",
+  "backgroundCrumpled": false,
+  "imageUrl": "",
+  "createdAt": "$D2026-05-28T13:28:59.977Z",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "currency": "",
+  "isParent": true,
+  "parentName": "Office Depot",
+  "sections": [
+    {
+      "logo": "",
+      "id": "08f026df-dc3f-426f-8d93-8bc2bf983249",
+      "businessDetails": "\nEric Kayser Lippo Mall Puri\nwww.erickayser.co.id",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "size": 50,
+      "alignment": "CENTER",
+      "type": "HEADER",
+      "date": "$undefined"
+    },
+    {
+      "id": "2d701272-ad9e-451d-80ec-d80c9e8780fb",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "custom": "\n\nTABLE: 41\n",
+      "alignment": "CENTER",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "id": "f9678c34-1bd4-4053-a77d-c6270e85033f",
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "bottomDividerType": "DASHES",
+      "totalText": "",
+      "totalDivider": true,
+      "items": [
+        {
+          "total": "OP: Cherry",
+          "description": "Pax: 2",
+          "quantity": ""
+        },
+        {
+          "total": "POS: POS001",
+          "description": "POS Title: Cashier",
+          "quantity": ""
+        },
+        {
+          "total": "31/12/2016 13:50",
+          "description": "Rcpt#: A16000049769",
+          "quantity": ""
+        }
+      ],
+      "bottomDivider": false,
+      "total": "",
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "totalText": "",
+      "id": "3fd541f5-0f2f-4b4c-a486-a5a1e564e13a",
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "type": "ITEMS",
+      "totalDivider": false,
+      "items": [
+        {
+          "quantity": 1,
+          "total": "25,454",
+          "description": "Baguette Sesame"
+        },
+        {
+          "total": "85,000",
+          "description": "Butter Escargots",
+          "quantity": 1
+        },
+        {
+          "quantity": 1,
+          "total": "30,000",
+          "description": "Diet Coke"
+        },
+        {
+          "quantity": 1,
+          "total": "98,000",
+          "description": "Ham Cheese Croissant"
+        },
+        {
+          "quantity": "2",
+          "total": "70,000",
+          "description": "Ice Long Black"
+        },
+        {
+          "total": "75,000",
+          "description": "Iced Tea",
+          "quantity": "3"
+        },
+        {
+          "quantity": 1,
+          "total": "35,000",
+          "description": "Long Black"
+        },
+        {
+          "quantity": 1,
+          "total": "38,000",
+          "description": "Lychee Iced Tea"
+        }
+      ],
+      "bottomDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "totalDivider": true,
+      "items": [
+        {
+          "quantity": "",
+          "total": "456,454",
+          "description": "SUBTOTAL"
+        },
+        {
+          "quantity": "",
+          "total": "34,234",
+          "description": "Service Charge"
+        },
+        {
+          "total": "49,069",
+          "description": "Tax 10%",
+          "quantity": ""
+        }
+      ],
+      "bottomDivider": false,
+      "total": "",
+      "type": "ITEMS",
+      "id": "4cef208b-7c4e-4a0e-a430-d1321d0c3c72",
+      "totalLines": [],
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "totalText": "",
+      "date": "$undefined"
+    },
+    {
+      "totalDivider": true,
+      "items": [
+        {
+          "quantity": "",
+          "total": "539,757",
+          "description": "TOTAL"
+        },
+        {
+          "quantity": "",
+          "total": "539,757",
+          "description": "BCA V/M"
+        },
+        {
+          "total": "",
+          "description": "Name: %B3755391072171O5^SURIA NATAAD",
+          "quantity": ""
+        }
+      ],
+      "bottomDivider": false,
+      "total": "",
+      "type": "ITEMS",
+      "id": "699d9df7-d8b7-4dd2-aaab-57528202a341",
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "bottomDividerType": "DASHES",
+      "totalText": "",
+      "date": "$undefined"
+    },
+    {
+      "custom": "Closed Bill\n<------31/12/2016 16:24----->\n\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nFor Reservation & Inquiry\n\n021 2258 2723\nxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nTHIS IS YOUR OFFICIAL RECEIPT\n\n\n",
+      "alignment": "CENTER",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "id": "4bf8a79a-570b-42a3-a540-6b3dd7759b24",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "qQrGXrNap9pnhsbNSl9i"
+}

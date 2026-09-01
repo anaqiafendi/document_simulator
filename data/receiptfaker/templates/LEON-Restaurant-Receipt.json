@@ -1,0 +1,154 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-07T13:42:15.298Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "LEON Restaurant Receipt",
+  "description": "This receipt is from LEON Naturally Fast Food at the Cheshire Oaks location in the United Kingdom. It documents an eat-in restaurant transaction including a Thai curry meal box, dessert, and mango kefir drink. The receipt includes cashier information, check number, subtotal, VAT at the UK 20% rate, payment made in cash, and change returned. It also records the check opening and closing times. The format reflects a standard UK quick-service restaurant POS receipt for dine-in orders.",
+  "sections": [
+    {
+      "id": "b23d1302-8836-497f-8b11-bd33e9dc7117",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4d73da53-8fca-455c-8119-cbf08aaa4240-image%20(2).jpg?alt=media&token=527894c9-e1ad-4f01-a73b-687a80e929b5",
+      "size": 198,
+      "businessDetails": "HMSHost Cheshire Oaks\nLeon",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1aa69e11-6600-4f72-9a44-9cf663de302a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n440110072   Lauren",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0e9d2c3c-f8ff-4ddb-b06c-12a31a4f91f1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCHK 50673\n3 AUG'19   18:51 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f802e963-de81-48b5-9e60-6ef412b93036",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nEat-In",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1596e02-b33e-4379-9cfe-72d518874ead",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "18:51 B by: Lauren",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "LBox Kays Thai Curry",
+          "total": "5.95"
+        },
+        {
+          "quantity": "",
+          "description": "Pastel Nata Rasp",
+          "total": "2.40"
+        },
+        {
+          "quantity": "",
+          "description": "Kefir Mango",
+          "total": "3.55"
+        },
+        {
+          "quantity": "",
+          "description": "Cash GBP",
+          "total": "12.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cash GBP",
+          "total": "-0.10"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n11.90"
+        },
+        {
+          "quantity": "",
+          "description": "Payment",
+          "total": "11.90"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due",
+          "total": "0.10"
+        },
+        {
+          "quantity": "",
+          "description": "0.99 VAT 20%",
+          "total": "5.95"
+        },
+        {
+          "quantity": "",
+          "description": "Net Total:",
+          "total": "4.96"
+        },
+        {
+          "quantity": "",
+          "description": "0.99 Eat In 20%",
+          "total": "5.95"
+        },
+        {
+          "quantity": "",
+          "description": "Net Total:",
+          "total": "4.96"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1defc01f-1779-4b5c-8230-be7ade6bd47f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "---------- Check Closed ----------\n3 AUG'19   18:53 PM\n_____________________",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "e94d187e-03d7-4f43-8f3d-63adafade2b1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank You.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "LEON-Restaurant-Receipt",
+  "published": true,
+  "id": "il8xRRVZvY3Sbuk3Oghc"
+}

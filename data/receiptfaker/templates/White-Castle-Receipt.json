@@ -1,0 +1,95 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-23T16:40:14.157Z",
+  "description": "This receipt is issued by White Castle and identifies the transaction as originating from White Castle Store #020061. The header contains store branding, sale number, telephone number, team-member identifier (TM #560), transaction date and time, and register designation. The receipt is clearly marked as a Drive-thru transaction and includes POS transaction metadata associated with order processing and cashier operations. The financial section contains tax reporting, grand total calculation, cash tendered, and change returned. Promotional pricing and combo-discount adjustments are reflected within the transaction summary and are accompanied by a dedicated savings calculation showing the total amount saved during the purchase. The overall layout is representative of a United States quick-service restaurant POS receipt, combining drive-thru order tracking, discount reporting, tax calculation, payment reconciliation, and transaction-control information within a compact hospitality receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "White Castle Receipt",
+  "slug": "White-Castle-Receipt",
+  "sections": [
+    {
+      "id": "dd7a3ca3-5c55-456b-8ea8-1404e0567d38",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nHardee's\nCantrell Avenue #1502954\nHarrisonburg, VA 22801\n(540) 433-8224\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a8100b28-5b8f-43c5-9291-ced980b0b281",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Order 184149",
+          "total": "Cashier Dakota"
+        },
+        {
+          "quantity": "",
+          "description": "1 Md 1/3 GrhzBcn",
+          "total": "9.08"
+        },
+        {
+          "quantity": "",
+          "description": "1 Onion Rings",
+          "total": "0.40"
+        },
+        {
+          "quantity": "",
+          "description": "1 Md Cold Beverage",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSubTotal",
+          "value": "\n9.48"
+        },
+        {
+          "title": "Tax",
+          "value": "1.17"
+        },
+        {
+          "title": "Total",
+          "value": "10.65"
+        },
+        {
+          "title": "Visa",
+          "value": "10.65"
+        },
+        {
+          "title": "Card # XXXXXXXX5677",
+          "value": ""
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8bd13867-2c36-4b3b-be51-5e4d82539077",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTray/Bag Count 2\nDine In # 45\n---------------------\n\nWe Need Your Feedback!\nPlease visit us online at -\nwww.TellHappyStar.com\nFollow the directions on back of this receipt to receive a special offer.\n----------------------------\n\nCOME BE A STAR WITH US!\nCompetitive pay, Employee Meal Discount Flexible Hours, Opportunities For Advancement\nAPPLY NOW!\n1-800-997-1456 or www.bnecareers.com\nA Franchisee of Hardee's Restaurants\n----------------------------\n\nWe Appreciate Your Business!\n\n\n2/10/2019                   12:27 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "vRKCrr2D1j2MSPsZoXan"
+}

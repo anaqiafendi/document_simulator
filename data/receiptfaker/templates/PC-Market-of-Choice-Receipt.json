@@ -1,0 +1,89 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "PC Market of Choice Receipt",
+  "description": "This receipt template represents a grocery purchase from Market of Choice located at 1968 Franklin Boulevard in Eugene, Oregon. It features the Market of Choice logo with the “PC” emblem at the top, followed by a welcome message and itemized purchase details. The receipt includes weighted meat products with price-per-pound calculations, subtotal and tax breakdown, cash payment details with change provided, and final total. Additional transaction information includes cashier identification, register and terminal numbers, and a closing thank-you message with full store address and phone number. This template is suitable for supermarket receipt libraries, mock POS transactions, expense documentation samples, and receipt generator tools requiring realistic Market of Choice formatting and structure.",
+  "slug": "PC-Market-of-Choice-Receipt",
+  "createdAt": "$D2026-02-11T14:43:35.977Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "e64b0af9-ff5e-46bc-b47e-baba3f285a7e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa8895bb6-3cec-45b0-879c-41cfaa01743d-pc%20market%20of%20choice.jpg?alt=media&token=a187d468-c92f-44eb-881f-4bf81fc26ee6",
+      "size": 174,
+      "businessDetails": "WELCOME TO\nPC MARKET OF CHOICE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "730411de-ae7d-488b-a76a-edf41fca830a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "PC HARVEST BRISKET\n1.84 lb @ 6.99 lb            ",
+          "total": "12.85 N"
+        },
+        {
+          "quantity": "",
+          "description": "\nPC LAMB\n1.41 lb @ 8.99 lb            ",
+          "total": "12.67 N"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Cash",
+          "value": "5.47"
+        },
+        {
+          "title": "Change",
+          "value": "0.24"
+        },
+        {
+          "title": "Sub Total",
+          "value": "0"
+        },
+        {
+          "title": "Total Tax",
+          "value": "0"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c8aff085-dd1f-4482-b465-05a14f202677",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNAME: KRISTI 04JAN2007\n#6213     TILL 1\n5000190    RO01",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4518bdcd-6131-42f2-82a9-94b79261bba2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU FOR SHOPPING WITH US TODAY!\nPC HARVEST OF CHOICE\n1968 FRANKLIN BLVD.\nEUGENE, OREGON\n541-687-1188",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FE3bwgpcwPhgD43L8urzt%2FE3bwgpcwPhgD43L8urzt-8e61d3bc-0d43-4cdb-9ed1-d459bac403da.png?alt=media&token=862b9771-0161-457c-8341-341d96ccba8b",
+  "published": true,
+  "id": "E3bwgpcwPhgD43L8urzt"
+}

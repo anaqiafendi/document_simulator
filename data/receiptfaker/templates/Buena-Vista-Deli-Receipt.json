@@ -1,0 +1,101 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Buena Vista Deli Receipt",
+  "description": "This receipt is a casual dining transaction issued by Buena Vista Deli LLC at its Miami, Florida location, including full address and contact number. It contains order identification, service type indicated as dine-in, cashier information, and a timestamped transaction record. The receipt presents an itemized list of food and beverage purchases followed by a structured financial summary including subtotal, tax, and total amount. It also includes an order reference code and a service notice regarding gratuity and credit card minimums, along with multilingual customer messaging. The format reflects a standard U.S. café-style POS receipt with dine-in service details and customer guidance information.",
+  "slug": "Buena-Vista-Deli-Receipt",
+  "createdAt": "$D2026-04-11T15:41:24.452Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bd1efcdd-39c4-48d2-b657-e5ed30241c15",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 183,
+      "businessDetails": "BUENA VISTA DELI LLC\n4590 NE 2 AVE\nMIAMI, FL 33137\n3055763945",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b42c05b5-d212-4732-a465-54f4ce7876ab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nORDER: Table 32\nDINE IN\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb2e6815-8ca1-4475-8688-3e1cc9d14df4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCashier: Yai\n16-Feb-2015  12:21:37P\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a2d8bf97-eb96-4f4b-85c1-6bfa5805997b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Toasted Baguette With Butter \nand Jelly",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "Madeleine, almond \nCookies, Chouchette",
+          "total": "$$1.00"
+        },
+        {
+          "quantity": "",
+          "description": "Soy Latte",
+          "total": "$$3.50"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$7.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$0.49"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$7.49"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f2871252-99d4-4690-b11a-5be36f813947",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nOrder R8MP9WMV8TTZG\n\nGratuity is not included. Minimum\n$10 for credit card. Thank you!\nGracias! Merci! Visit our Wine and\nChocolates store 2 doors down",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FaSAjZKbPCGKyNe4vnJ2O%2FaSAjZKbPCGKyNe4vnJ2O-f62aaa9c-8413-4267-b7cd-ebda4e9665e1.png?alt=media&token=254faff7-ab49-4a02-875f-7a3c86be0b1a",
+  "published": true,
+  "id": "aSAjZKbPCGKyNe4vnJ2O"
+}

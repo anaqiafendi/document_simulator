@@ -1,0 +1,152 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T18:43:31.942Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "8790ac60-b439-4cae-a849-53250a4a91f6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F79540a32-8da6-44e5-8c19-14d903ae3bff-image%20(4).jpg?alt=media&token=a37eabac-1253-4551-a767-f668c7c2810b",
+      "size": 263,
+      "businessDetails": "DACHAUERSTRASSE 33\n80335 MUNCHEN\nTELEFON: 089 / 46 22 70 38\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee49090a-3a5c-47ed-a2cf-fbbc166f98c2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Rechnung",
+          "total": "3759"
+        },
+        {
+          "quantity": "",
+          "description": "Tisch #",
+          "total": "8"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "98127a85-5533-40f8-8fb0-bb25aeb5fde0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 10 - BOLANI",
+          "total": "\n7.10"
+        },
+        {
+          "quantity": "",
+          "description": "1 39 - QUABELI PALAU-LAMM ",
+          "total": "17.60"
+        },
+        {
+          "quantity": "",
+          "description": "1 56 - KABAB-E-SCHAMI",
+          "total": "18.40"
+        },
+        {
+          "quantity": "",
+          "description": "1 ADELHOLZNER NATUR 0,75L ",
+          "total": "5.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "402a842f-9a68-4410-a8f4-dfb09f1f7ecf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "4 Total ",
+          "total": "48.60"
+        },
+        {
+          "quantity": "",
+          "description": "Netto MWST. 7%",
+          "total": "40.28"
+        },
+        {
+          "quantity": "",
+          "description": "MWST. 7%",
+          "total": "2.82"
+        },
+        {
+          "quantity": "",
+          "description": "Netto MWST.19% ",
+          "total": "4.62"
+        },
+        {
+          "quantity": "",
+          "description": "MWST.19% ",
+          "total": "0.88"
+        },
+        {
+          "quantity": "",
+          "description": "\nBAR",
+          "total": "\n48,60"
+        },
+        {
+          "quantity": "",
+          "description": "\nFreitag  20- 5-2022  23:04:35",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "#045028         KELLNER 3",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "171f2ed7-f690-44f2-96bd-32846c07f5c6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSteuer-Nummer: 145/164/51239\nVielen Dank fur Ihren Besuch.\nEs hat uns Freude gemacht,\nSie zu bewirten.\nWir freuen uns auf ein\nbaldiges Wiedersehen!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Restaurant Kabul Receipt",
+  "description": "Restaurant Kabul dining receipt issued from the Dachauerstrasse 33 location in Munich, Germany. The header prominently displays the restaurant name followed by the full street address and telephone number. Transaction and POS metadata includes the invoice number, table number, transaction date and exact time, receipt reference, and waiter identifier. The main section follows a restaurant thermal POS format with numbered transaction entries and corresponding amounts, followed by the total number of entries and final transaction value. The financial section provides separate net and VAT amounts for the applicable 7% and 19% tax rates and identifies cash as the payment method. The lower portion records the restaurant tax number and concludes with a multi-line German customer thank-you and farewell message.",
+  "slug": "Restaurant-Kabul-Receipt",
+  "published": true,
+  "id": "D9QV0LI6Ud4oFsrMMP6h"
+}

@@ -1,0 +1,134 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T13:51:53.510Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "4c7238b4-4ed0-41b1-9773-a1efde2f97f4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F91674972-f621-4eda-bed4-34fe10df3a82-image%20(9).jpg?alt=media&token=8d892d8b-43fe-4f29-8660-8784bdfe3496",
+      "size": 242,
+      "businessDetails": "Pluit Village\nJln. Pluit Indah Raya\nGF No. 90",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f47fc55e-8fc1-4217-b2b5-7f65f74f22b0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "100006233 Yolanda Dinata",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "36a81005-dc1c-4acc-bf58-7f7e28be11b8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CHK 12507880\n7 Jan'26 18:04 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f3bab69-2126-4b9b-9f1d-b9ce1c44fec2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDine In",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f38930fd-1612-45dd-aa81-62fbe09b8c1c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 Donuts 1/2 dzn",
+          "total": "62000"
+        },
+        {
+          "quantity": "",
+          "description": "Box 1/2 Dzn",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "QR BRI ",
+          "total": "IDR62,000"
+        },
+        {
+          "quantity": "",
+          "description": "**0",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "IDR62,000"
+        },
+        {
+          "quantity": "",
+          "description": "Payment",
+          "total": "IDR62,000"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due",
+          "total": "IDR0"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9a921d6f-ada1-4e45-8a3b-0e0232557103",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n-----Check Closed-----\n7 Jan'26 18:04 PM\n\nHarga sudah termasuk PB1\nTHANK YOU\nPembelian Anda gratis jika tidak\ndiberi struk atau apabila Anda\nditagih lebih dari yg tertera di struk\nDelivery / WA: 0815 8898 000\nHotline: www.jco.id\nMore Info: www.jcodonuts.com\n\n APP DELIVERY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "58252f9b-bf0f-4424-833a-4763680aa53a",
+      "type": "BARCODE",
+      "size": 101,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "74faf02f-5ed9-4037-a55d-73e12a57c608",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SCAN ME",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by J.CO Donuts & Coffee at the Pluit Village branch, located on Jl. Pluit Indah Raya, GF No. 90, Jakarta, Indonesia. The header includes the J.CO logo, branch name, branch address, customer identifier, check number, and the transaction date and time. The receipt identifies the service type as Dine In and concludes with a financial summary showing the Subtotal, Payment, and Change Due. The footer confirms that the check has been closed, states that the displayed prices include PB1 tax, provides a customer receipt guarantee notice, and includes the official delivery website, hotline/WhatsApp number, official website, and a QR code for additional services. This receipt represents a standard Indonesian café and bakery POS receipt combining transaction metadata, payment reconciliation, customer service information, and digital service access within a compact thermal receipt format.",
+  "name": "J.CO Pluit Village Receipt",
+  "slug": "J.CO-Pluit-Village-Receipt",
+  "published": true,
+  "id": "9mvOpiHWZwBpCeKfcDef"
+}

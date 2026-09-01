@@ -1,0 +1,122 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "BevMo! Receipt",
+  "description": "This receipt represents a point-of-sale transaction from BevMo! (Beverages & More), a beverage and liquor retail chain. The receipt header includes the store name, address in San Rafael, California, and store phone number, followed by transaction metadata including cashier name (REGINA), transaction date and time, and membership identification tied to the BevMo! Rewards program. The layout includes promotional messaging for the store’s Rewards discount program, a structured financial summary showing subtotal, sales tax, and total, and a payment section indicating a cash transaction with change provided. The lower portion of the receipt contains customer policy notices such as ID requirements, return and exchange policies, and loyalty reward program details, along with marketing messages encouraging online engagement and store pickup services. The structure reflects a standard U.S. liquor retail POS receipt format with integrated loyalty program tracking and promotional messaging.",
+  "slug": "BevMo!-Receipt",
+  "createdAt": "$D2026-03-08T18:08:42.462Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4b20c27f-0f6b-4a2f-9fc6-315ef450dedc-image%20(38).jpg?alt=media&token=f42beb44-f471-4a80-9d74-ab3fe028d1bf",
+      "size": 236,
+      "businessDetails": "THE WINE SHOP AT HOME\n1515 4TH STREET\nSAN RAFAEL, CA\n(415) 456-7770",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e1a33f7-0681-4739-86df-e89b4ee3fdab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Cashier: REGINA\nDate: 08/07/14     Time: 11:54 AM\n\nMember #: 67**** ****",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "91cc4697-1a9c-4585-b3f4-abf5e972a715",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "REWARDS\nSAVE 10% (Up To $10.00 On Each Item)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6383724c-c0cf-46ab-8ac8-3a911f422e35",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bdaae790-6ad6-47de-b1a6-fe0fbd5283a5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Thank You\n\nDisabled Parking Driver License Required\nNo ID = No Sale\n\nBevMo! Rewards\n\nHold receipt required for all returns and exchanges\n\nREWARD PROGRESS\n\nYou are earning points with every purchase made with your BevMo! Rewards card.\n\nFor every $250 spent, you will receive a $10 reward.\n\nAll Points Are Calculated From Your Net Purchases\n\nSpend Time At BevMo.com\nFree In Store Pick-Up",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6f395561-e90e-46b2-9500-cec192546120",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Loyalty ID: 67**** ****\n\n8/7/14\n\n1:54 PM\n\nTOTAL SAVINGS   6.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3aebf9ed-35bd-4ff7-a8a5-ee69d22e5e3a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Paid With\nCard Ending ****0009\n\n                APPROVED",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7fae7d73-5c94-4b51-86b2-6a79e40de083",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "For more information,\nvisit BevMo.com\n\nPark Way Village\nSan Rafael",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FUraBT4tt4FbIOZ164Nz1%2FUraBT4tt4FbIOZ164Nz1-3534a49e-ceed-442e-a54a-2c19550f6e4b.png?alt=media&token=6ab5470a-85a8-4405-b717-26de080855e6",
+  "published": true,
+  "id": "UraBT4tt4FbIOZ164Nz1"
+}

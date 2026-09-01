@@ -1,0 +1,117 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-14T16:57:43.819Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "3ac3c7ba-b884-4ec3-9820-0fce50226e11",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "LE DOME\n108 BOULEVARD DU MONTPARNASSE\n75014 PARIS\nTEL : 01 43 35 25 81\n\n\nSAMEDI 26 OCTOBRE 2019  12:57\nRESTAURANT\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ddb33c03-84c1-49d5-9f72-de29c491cb8a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Table : 32   Cv : 3\nCYRIL\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ce59bc9-f586-4d12-baf5-a7d2a59dd998",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "3 OUILLABAISSE",
+          "total": "180,00"
+        },
+        {
+          "quantity": "",
+          "description": "1   FOIE GRAS ",
+          "total": "28,00"
+        },
+        {
+          "quantity": "",
+          "description": "1   TOAST",
+          "total": "0,00"
+        },
+        {
+          "quantity": "",
+          "description": "1   CASSIS BLANC",
+          "total": "48,00"
+        },
+        {
+          "quantity": "",
+          "description": "2   COUPE DEUTZ ROSE",
+          "total": "37,00"
+        },
+        {
+          "quantity": "",
+          "description": "1   COUPE DEUTZ BLANC ",
+          "total": "16,00"
+        },
+        {
+          "quantity": "",
+          "description": "1   MILLEFEUILLE",
+          "total": "13,50"
+        },
+        {
+          "quantity": "",
+          "description": "1   RAFRAICHIS FRUITS EXO ",
+          "total": "13,00"
+        },
+        {
+          "quantity": "",
+          "description": "2   BOULE MARRON ",
+          "total": "15,50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "149d190d-029c-48ff-84a1-4ed567012954",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nTotal Euro :       351,00\n*** TICKET PROVISOIRE ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ebf90b6f-31d0-45e4-8af2-875503b6ad6a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nMerci de votre visite,\nA bientot.\n\n\n\nRCS : 582 114 484\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Le Dôme and identifies the restaurant as 108 Boulevard du Montparnasse, 75014 Paris, France. The header contains the restaurant name, address, contact telephone number, transaction date and time, table number, cover count, and server identification (Cyril). The receipt records an itemized restaurant order consisting of Bouillabaisse, Foie Gras, Cassis Blanc, Deutz Rosé and Deutz Blanc champagne, Millefeuille, exotic fruit refreshment, and Marron ice cream scoops. The financial section records the final amount due of €351.00. The receipt is marked as a \"Ticket Provisoire\" (provisional bill), indicating it is a preliminary restaurant bill before final payment. The footer thanks the customer for their visit and includes the restaurant's company registration number (RCS). The overall layout is representative of a French restaurant POS receipt, combining table-service order management, itemized dining charges, and transaction summary within a compact hospitality receipt format.",
+  "name": "Le Dôme Receipt",
+  "slug": "Le-Dome-Receipt",
+  "published": true,
+  "id": "X5iuoXhWNbFFGaO24Iq8"
+}

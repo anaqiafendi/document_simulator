@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T11:32:34.888Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Landscaping Receipt",
+  "slug": "Landscaping-Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fb4bd0699-a53a-452d-82ff-dcb9f444b079-3605336_construction_digging_farm_gardening_shovel_icon.png?alt=media&token=1b1e9bdb-f1ea-49e7-af39-4f44b73138e3",
+      "size": 50,
+      "businessDetails": "GreenScape Creations LLC\nAddress: 4321 Oakview Terrace, Portland, OR 97205\nPhone Number: (503) 555-1187\nWebsite: www.greenscapecreations.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Landscaping Receipt\nReceipt #: 1020232",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to: Sophia Ramirez\n9567 Birchwood Lane, Mesa, AZ 85204",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Lightning Installation",
+          "total": "2000"
+        },
+        {
+          "quantity": "1",
+          "description": "Trimming",
+          "total": "400"
+        },
+        {
+          "quantity": 1,
+          "description": "Fertilizer Application",
+          "total": "200"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "2600"
+        },
+        {
+          "title": "Tax",
+          "value": "0"
+        }
+      ],
+      "total": "2600",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Receipts include a detailed breakdown of charges such as labor fees, materials, equipment rental, travel fees, and any additional services or products purchased. Deposits are generally non-refundable. Cancellations made with at least 7 days’ notice may be eligible for a partial refund or rescheduling. Full payments are refundable only if the company cancels the scheduled service. Full payment or the agreed deposit is required before or on the day of service. Upon payment, the client will receive a detailed, itemized receipt either as a printed copy or emailed, according to their preference.\n\nThank you for choosing GreenScape Creations!",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F9BaedjfcwV5bFeHtqtAV%2F9BaedjfcwV5bFeHtqtAV-c363a2b1-b784-48a5-97ab-330f2666a8fa.png?alt=media&token=22ce44ff-cbf5-4fab-bef2-089da46c3470",
+  "description": "Need a landscaping receipt? Create a detailed service receipt with our free tool. Add business info, service dates, project details, costs, and payment—great for client records, invoicing, or tax documentation.",
+  "published": true,
+  "metatitle": "Landscaping Receipts",
+  "metadesc": "professional landscaping service receipts with project details, labor costs, materials, and payment info for client records",
+  "id": "9BaedjfcwV5bFeHtqtAV"
+}

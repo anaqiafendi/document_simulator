@@ -1,0 +1,140 @@
+{
+  "sections": [
+    {
+      "header": "Restaurant Name",
+      "type": "HEADER",
+      "businessDetails": "4355 Legendary Dr., Ste 107-B\nDestin, FL 32541\nPhone: 8506502090\n",
+      "alignment": "CENTER",
+      "id": "cf2a2df0-9cd7-40ad-9716-3b7cb0a6aba0",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FPkUw7i5TyUcva0b7BQw08gHAMmj1%2F122e5ea7-b0a8-4d0f-842e-155ea778bc92-Pandora.jpg?alt=media&token=1e6bdbe6-f630-41f9-b245-096c2b336948",
+      "bottomDividerType": "EMPTY",
+      "size": 158,
+      "bottomDivider": true,
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "alignment": "LEFT",
+      "id": "79d821bb-e81b-4bc4-a176-cfb022dc1d25",
+      "type": "CUSTOM",
+      "custom": "Customer Number: 298476\n\nSalesperson: DAWNMARIE \nDate: 04/02/26 Time: 14:42:36\n",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": true,
+      "rightFields": [
+        {
+          "value": "",
+          "title": "PRICE"
+        }
+      ],
+      "type": "RESTAURANT",
+      "id": "31abc862-c9b5-403b-ab49-e90b892df424",
+      "leftFields": [
+        {
+          "value": "",
+          "title": "ITEM"
+        }
+      ],
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "EMPTY",
+      "totalText": "Total:",
+      "totalLines": [
+        {
+          "value": "2350.00",
+          "title": "Subtotal: "
+        },
+        {
+          "value": "164.50",
+          "title": "Sales Tax:"
+        }
+      ],
+      "items": [
+        {
+          "total": "2350.00",
+          "description": "1. 559522C00 Moments Heart \nClasp Snake Chain Bracelet",
+          "quantity": ""
+        }
+      ],
+      "totalDivider": true,
+      "bottomDividerType": "EMPTY",
+      "bottomDivider": true,
+      "total": "2514.50",
+      "type": "ITEMS",
+      "id": "66369368-4333-438e-adf4-1ea4c5c2c820",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": true,
+      "cardFields": [
+        {
+          "value": "**** **** **** 4922",
+          "title": "CARD NUMBER"
+        },
+        {
+          "value": "DEBIT",
+          "title": "CARD TYPE"
+        },
+        {
+          "value": "CHIP",
+          "title": "CARD ENTRY"
+        },
+        {
+          "value": "11/20/2019 11:09 AM",
+          "title": "DATE/TIME"
+        },
+        {
+          "title": "REFERENCE #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "value": "APPROVED",
+          "title": "STATUS"
+        }
+      ],
+      "id": "7ac88b22-8033-4d62-97f6-5d1c044e38bd",
+      "bottomDividerType": "EMPTY",
+      "type": "PAYMENT",
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "2520.00"
+        },
+        {
+          "value": "5.50",
+          "title": "Change"
+        }
+      ],
+      "isCash": true,
+      "date": "$undefined"
+    },
+    {
+      "id": "4ce3c411-87da-4d50-b88f-34952bedc2f2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Items in unused and original\ncondition may be returned within\n30 days with the original receipt.\n\nSale items may be exchanged only.\n\nGift receipt does not include\nrefunds.\n\nThank you for shopping at Pandora!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Pandora-Receipt",
+  "description": "Jewelry retail receipt from Pandora showing store location, customer and salesperson details, purchased item, subtotal, sales tax, total amount paid, payment method, transaction date and time, and return policy information.",
+  "name": "Pandora Receipt",
+  "isParent": true,
+  "metadesc": "professional Sephora receipts with custom beauty products, prices, and store details using our easy online generator tool",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "metatitle": "Custom Sephora Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundCrumpled": false,
+  "currency": "$$",
+  "createdAt": "$D2026-02-04T14:33:00.564Z",
+  "parentName": "spa",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FmbWCUPMlbHaDuYFwJ8hx%2FmbWCUPMlbHaDuYFwJ8hx-0eb38114-ddf5-407d-af2e-70361b67ef4f.png?alt=media&token=32943001-bc39-4422-ad98-d9b2c483a5fb",
+  "published": true,
+  "id": "mbWCUPMlbHaDuYFwJ8hx"
+}

@@ -1,0 +1,172 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T14:00:37.270Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Mechanic Shop Receipt",
+  "slug": "Mechanic-Shop-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F2EeaTTKMRHciMFamCUfQ%2F2EeaTTKMRHciMFamCUfQ-812ed50c-666a-4ccc-b328-5e4ea6eabda2.png?alt=media&token=8f2870cd-7b03-45ec-a1a4-b37791121b77",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fb4860942-a7cf-48e0-91fe-414e2ba65973-9055295_bxs_car_mechanic_icon.png?alt=media&token=aad94861-41ec-4398-8986-3e45e44cd331",
+      "size": 50,
+      "businessDetails": "Apex Auto Repair, LLC\nAddress: 2769 Industrial Way, Denver, CO 80216\nPhone: (303) 555-7284\nWebsite: www.apexautorepairco.com\nEmail: contact@apexautorepairco.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Mechanic Shop Receipt\nReceipt #: 1020963\nReceipt date: 5/24/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to: Marcus Bennett\n1542 Elm Street\nColumbus, OH 43215",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Full Synthetic Oil Change",
+          "total": "120"
+        },
+        {
+          "quantity": "1",
+          "description": "Front Springs Change",
+          "total": "150"
+        },
+        {
+          "quantity": "1",
+          "description": "Engine Tune-up",
+          "total": "200"
+        },
+        {
+          "quantity": 1,
+          "description": "Air Filter Change",
+          "total": "50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "470"
+        },
+        {
+          "title": "Tax",
+          "value": "32.90"
+        }
+      ],
+      "total": "502.90",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We offer a limited warranty on labor and parts for 90 days or 3,000 miles, whichever comes first, unless otherwise specified. Any disputes will be addressed promptly and fairly, with the goal of reaching a satisfactory resolution for both parties. Warranty claims must be accompanied by the original receipt.",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "63e24d27-0948-4140-95d0-4e265cd36a78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "APEX AUTO REPAIR\nwww.apexautorepairco.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "description": "Need a mechanic shop receipt? Use our free tool to create a detailed auto repair receipt. Include shop info, vehicle details, labor, parts, and costs—perfect for customer records, warranties, or insurance claims.",
+  "published": true,
+  "metatitle": "Mechanic Shop Receipt",
+  "metadesc": "professional auto repair receipts with vehicle details, labor costs, parts, and shop information for warranties and records",
+  "id": "2EeaTTKMRHciMFamCUfQ"
+}

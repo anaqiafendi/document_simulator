@@ -1,0 +1,111 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Londis Receipt",
+  "description": "This receipt is a convenience store retail transaction issued by Londis at its Newcastle location in Galway, Ireland. It includes store identification, location details, and service information such as cashier name and timestamp. The receipt presents a structured financial summary with VAT-inclusive total and EFT payment confirmation. It also includes card processing identifiers such as masked account reference, terminal ID, and payment method indicated as Visa Debit Ireland. The layout reflects a standard European retail POS receipt format with VAT-inclusive pricing and surcharge notation.",
+  "slug": "Londis-Receipt",
+  "createdAt": "$D2026-04-09T10:21:49.121Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ab04ad63-500b-45f1-80d2-204c69fea805",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9f96801d-a0c3-4f87-926a-11d3822c3be8-image.jpg?alt=media&token=96fb7905-0111-4703-8ac6-abbbb54d37e2",
+      "size": 207,
+      "businessDetails": "\nLONDIS NEWCASTLE\nNEWCASTLE GALWAY\nDate: 19/03/2020 Time: 09:51:11\nYou Were Served by Udit\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ed6503e7-578d-44c5-a88d-f37c75977c17",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Item",
+          "total": "Qty(€)"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Value"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b8bfc759-1dac-4e42-81ec-88ea1e8690c5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TAYTO LTD ED BEEF ",
+          "total": "1.25"
+        },
+        {
+          "quantity": "",
+          "description": "OPEN DELI 28/02/2020   2",
+          "total": "1.20"
+        },
+        {
+          "quantity": "",
+          "description": "CARD SURCHARGE 25C",
+          "total": "0.25"
+        },
+        {
+          "quantity": "",
+          "description": "Total (Inc. VAT)",
+          "total": "€2.70"
+        },
+        {
+          "quantity": "",
+          "description": "EFT Tendered",
+          "total": "€2.70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "72ba7fc0-6869-48ae-ba38-2553d97aeebb",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nM:**66620\nTID:****6366\nS17099\nHANDSET:1\n\n\nVISA DEBIT IRL\nCredit Card Visa  #XXXXXXXXXXXX0025\nXXXXXX XXXX  #XXXXXXXXXXXXXX0025\nExp: XXXXXXXX\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b536b9de-4037-43f2-a186-db1015178c94",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "-------- Check Closed --------\n\nThank you for your visit!\nCome back and see us!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FUuC681KwTH6agRSBnaOo%2FUuC681KwTH6agRSBnaOo-1a59507d-85a3-41f2-a475-7721e4158601.png?alt=media&token=343c92dc-026f-475c-9ad4-6045704b770b",
+  "published": true,
+  "id": "UuC681KwTH6agRSBnaOo"
+}

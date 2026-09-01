@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Michael Chell Receipt",
+  "description": "This receipt is issued by Michael Chell and identifies the store as 6–14 St. Leonards Road, Windsor, SL4 3BW. The header contains the retailer name, store address, contact telephone number, and VAT registration number. The receipt records the purchase of Purple Brand Jeans – Indigo Brushed Stroke Repair in waist size 32, priced at £245.00. The transaction section includes the purchase date and time, transaction reference, and identifies Nigel as the staff member who served the customer. The financial section records a final total of £245.00, paid entirely by card. The footer contains a customer appreciation message, the Michael Chell website, and a transaction barcode. The overall layout is representative of a United Kingdom fashion retail POS receipt, combining merchandise information, VAT identification, card payment, and transaction details.",
+  "slug": "Michael-Chell-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T15:09:14.030Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b15259f7-9da4-4259-a06c-34050535812a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2f9affc0-fc32-406a-a14f-1869d08f1c1e-image%20(1).jpg?alt=media&token=90091587-9b69-410d-9be7-fee6aa554f3e",
+      "size": 273,
+      "businessDetails": "6-14 St. Leonards Road\nWindsor\nSL4 3BW\n01753 862 589\nVat #: 918407418",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "91a35348-83b0-4ac3-a7e5-5d38a5a8c5c3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDate: 2 December 2021          16:18\nTransaction Ref: 001-2112-52594\nServed by: Nigel",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "41ed0de8-9e88-49d6-abc7-9996f7329c33",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSales",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a22e9c96-3e10-4e29-a744-4012285fd595",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n00T002           1          £245.00\nPurple Brand Jeans - Indigo Brushed Stroke Repair\nWaist Size: 32\nTOTAL                       £245.00\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ceb8cce2-1293-4080-98e2-a16f47a907ea",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTENDER\n\nCard                        £245.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bf14bfe5-194f-4579-bbcc-0f721c441a2f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for your purchase.\nwww.michaelchell.co.uk\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c22d7390-14a5-4723-975f-4280b712d3dd",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "XAYoL4yBCFjKVCyBLLZ0"
+}

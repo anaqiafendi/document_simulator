@@ -1,0 +1,125 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T19:27:35.083Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "MiPOS Tax Receipt",
+  "description": "This receipt is generated using the MiPOS Point of Sale Systems platform in Victoria, Australia. It records a card payment transaction including two purchased items and an additional surcharge fee. The receipt includes receipt number, transaction date and time, staff identifier, item pricing, subtotal calculations, tax breakdown, and final total paid. It also displays the business ABN number and contact information. The format reflects a standard Australian POS tax receipt.",
+  "sections": [
+    {
+      "id": "11e64286-da64-49f7-af70-4d08c330daf5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd9c6441f-fdac-42f4-8960-3fc222c02719-image%20(12).jpg?alt=media&token=15c96f6c-3c4b-45b7-93a5-17a12338730c",
+      "size": 217,
+      "businessDetails": "\n~!@#$^*()_+(){}\"..,!/|\\/> Point of Sale\n1/30 Tower Court\nNoble Park\nVictoria, 3174\nTel: (03) 9005 2010\nABN: 12 345 678 910\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6fcf9587-67c8-4b3f-85ad-d749d521b008",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Receipt",
+          "total": "0015"
+        },
+        {
+          "quantity": "",
+          "description": "Date",
+          "total": "Aug 14, 2023 12:35"
+        },
+        {
+          "quantity": "",
+          "description": "Served by",
+          "total": "Administrator"
+        },
+        {
+          "quantity": "",
+          "description": "Item",
+          "total": "Price Qty Value"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n$5.50 x1",
+          "value": "\n$5.50"
+        },
+        {
+          "title": "$$9.00 x1",
+          "value": "$$9.00"
+        },
+        {
+          "title": "~ Surcharge ~",
+          "value": "$$1.45"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb01849d-b57d-4666-ac0f-3c2aa31f6e4a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Items count: 3",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$15.82"
+        },
+        {
+          "quantity": "",
+          "description": "Card",
+          "total": "$$15.82"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nNett of Tax",
+          "total": "\n\n$14.50"
+        },
+        {
+          "quantity": "",
+          "description": "Taxes",
+          "total": "$$1.32"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0e411209-ab14-4382-9318-571e29c0b451",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you!\nTax Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "MiPOS-Tax-Receipt",
+  "published": true,
+  "id": "aW5OwKBTLVlqrqa6sDUQ"
+}

@@ -1,0 +1,85 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Trader Joe's Receipt",
+  "description": "This receipt features the Trader Joe’s header logo with the illustrated trader positioned above the store information block. The document lists the store as Trader Joe’s Company, Store 116, located at 4121 Atlantic Avenue, Bixby Knolls, CA 90807, with a printed phone number. The receipt includes a standard POS layout showing item count, date and time stamp (11-12-2005 12:04PM), register identifier (0116 08), and transaction code details. A financial summary section presents Subtotal, Tax, and Total amounts, formatted with right-aligned currency values. The footer contains a cashier or terminal identifier (“Gandalf, the Gray”), a thank-you message, and the tagline “Your Unique Grocery Store,” consistent with a grocery retail point-of-sale thermal receipt structure.",
+  "slug": "Trader-Joe's-Receipt",
+  "createdAt": "$D2026-02-22T17:04:04.323Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "44bbd71a-5297-4076-9466-cae7bae46d15",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe8611d6c-6d56-4f2c-aa69-e224e476dc8f-image%20(6).jpg?alt=media&token=1a6cb63f-797e-4e52-9eeb-1e45033ff529",
+      "size": 215,
+      "businessDetails": "TRADER JOE'S COMPANY\n4121 ATLANTIC AVENUE\nBIXBY KNOLLS, CA 90807\n(562) 988-0695\nSTORE 116",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "888e817f-2d06-4cce-b27e-25650ab18628",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "98d44b8a-e9fb-47eb-8ad1-3aa5fe33dc5a",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "ITEMS 1\n11-12-2005   12:04PM        0116 08 0501 5986",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "f82bf0b6-b25e-4048-b02b-d82e48fb5b91",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Gandalf, the Gray\n\nTHANK YOU FOR SHOPPING AT\nTRADER JOE'S\nYOUR UNIQUE GROCERY STORE\n```\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FdWhc3WErjHRQx6ENJeU1%2FdWhc3WErjHRQx6ENJeU1-451c84b0-8cd0-49e9-b8e4-aff87c2b9842.png?alt=media&token=ec381ccf-1072-40ed-ba8c-51fff7536502",
+  "published": true,
+  "id": "dWhc3WErjHRQx6ENJeU1"
+}

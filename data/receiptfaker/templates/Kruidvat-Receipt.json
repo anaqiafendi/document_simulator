@@ -1,0 +1,106 @@
+{
+  "currency": "",
+  "slug": "Kruidvat-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T06:28:15.720Z",
+  "description": "This photo kiosk receipt from Kruidvat documents a photo printing order processed at the Oude Pekela, Netherlands location. The receipt includes kiosk transaction identifiers, store location information, order number references, and timestamp metadata. The POS structure contains service charges, processing fees, and total amount presentation in euros aligned in standard Dutch retail kiosk receipt formatting. Additional receipt elements include customer service contact information, barcode formatting, order tracking references, and payment instructions directing the customer to present the receipt at the checkout counter. The layout reflects a standard Netherlands retail photo kiosk receipt with order-processing and payment collection formatting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Kruidvat Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "81428baf-ca09-45e3-86c5-cc238611aa31",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8bf26db2-bbb4-4825-bb0a-4c6ef6e2e4ab-image%20(9).jpg?alt=media&token=ebfb0b5b-7beb-4521-924d-0dec938fb027",
+      "size": 256,
+      "businessDetails": "Fotokiosk\n14:45:24 14.09.2019 – IP\n------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f21ebd77-bd94-46e7-afee-2185084edd4f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\n30555501\nKruidvat Drog. 92749\nDe Helling 50\n9665 JX Oude Pekela\n\nUw opdrachtnummer: 915454\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f3f74bcb-d356-40c0-9b78-1c442a5287a8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "5x",
+          "description": "Direct print foto's 10x15cm",
+          "total": "1,45 €"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "======"
+        },
+        {
+          "quantity": "",
+          "description": "Verwerkingskosten",
+          "total": "1,25 €"
+        },
+        {
+          "quantity": "",
+          "description": "Totaalbedrag",
+          "total": "2,70 €"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4059676-b53c-4f56-a76f-a756424a81bd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VOOR SERVICE VRAGEN BEL\n0341-255393\n\nDirect print foto's",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "895ee5f8-f5c5-4315-b671-7d9cc3158070",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a5c608e-e1a0-4d3a-9c79-5cb8392a6f63",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2 1 2 2 2 7 5 0 0 2 7 0 6\n\n\nDeze bon a.u.b. voor betaling\naan de kassa afgeven.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Fvvuniz5NV2LJpVW2XDs"
+}

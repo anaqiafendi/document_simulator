@@ -1,0 +1,123 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Five Below Receipt",
+  "description": "A retail store receipt from Five Below located at 205 Meadow Lane, American Fork, UT 84003 (Store #03028). The receipt includes itemized novelty and toy purchases such as Pop Animation figures, Pac-Man Shaped Mug, Squish Stitch Tongue, Squish Sea Turtle, and Squawking Chicken. It reflects a subtotal of $28.40, sales tax at 7.250% totaling $2.06, and a final total of $30.46. Payment was made via US Debit card using chip read, with authorization and EMV details included. The bottom section contains return policy language and a hiring notice directing customers to fivebelow.com/careers.",
+  "slug": "Five-Below-Receipt",
+  "createdAt": "$D2026-02-12T19:15:21.724Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eed1a713-20a8-4668-8bfc-3497fc8e985f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fee86e581-1bfd-4fbf-870d-716905139864-fivebelow.jpg?alt=media&token=b8e4db20-5c37-469b-a9a1-532ad1f7f461",
+      "size": 209,
+      "businessDetails": "03028 AMERICAN FORK, UT\n205 Meadow Lane\nAmerican Fork, UT 84003\n385-326-1607\nSALE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "63d595ee-4dc4-4ed7-8db4-c820ec57eeef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "8896086981 POP ANIMATION BC YUN\n1 @ $5.95",
+          "total": "5.95"
+        },
+        {
+          "quantity": "",
+          "description": "50559447 PAC MAN SHAPED MUG\n1 @ $5.95",
+          "total": "5.95"
+        },
+        {
+          "quantity": "",
+          "description": "19172680 SQUISH STITCH TONGUE\n1 @ $5.95",
+          "total": "5.95"
+        },
+        {
+          "quantity": "",
+          "description": "7346890524 SQUISH SEA TURTLE\n1 @ $5.95",
+          "total": "9.95"
+        },
+        {
+          "quantity": "",
+          "description": "075656017047 SQUAWKING CHICKEN\n1 @ $5.00",
+          "total": "5.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal ",
+          "value": "28.40"
+        },
+        {
+          "title": "Sales Tax 7.250%",
+          "value": "2.06"
+        }
+      ],
+      "total": "30.46",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae12a237-7c0f-4d92-ad00-077d10bfc447",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nONLY $5 ITEM\n\nDebit Card No. XXXXXXXXXXXX\nExpiration Date\nAuth. No. 939027\nENTRY METHOD: Chip Read\nCHIP IND: CONTACT\nAID: A0000000980840\nAPP: US DEBIT\nARC: 00\n\nStore: 03028 Reg: 03\nDate: 1/7/2023 1:28:43 PM\nAssoc: 111111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "533ce027-a87b-4254-be4f-455dab449004",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nexchange the answer is \"yes.\"\nfor an unopened or defect item of equal\nvalue to the same item or another item in\nthe same value at time of full refund in\nthe original form of payment with receipt.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bdfdb1bb-2a54-4b8b-ad79-11edf277ea5b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank You For Shopping!\nNow Hiring, Go to FIVEBELOW.COM/CAREERS",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f97c2796-2730-4a0e-be0c-9e36b1f48cc2",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "78af459b-8e11-4737-ad85-043767449428",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "0 3 0 2 8 0 3 0 2 4 2 1 6 0 1 0 7 2 ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9DHPI9HB8w556km2dT9b%2F9DHPI9HB8w556km2dT9b-6d4827d0-6dcc-4327-ac7a-6649dd09b5df.png?alt=media&token=12533eb8-6cf8-4e6f-9927-a2411309b65b",
+  "published": true,
+  "id": "9DHPI9HB8w556km2dT9b"
+}

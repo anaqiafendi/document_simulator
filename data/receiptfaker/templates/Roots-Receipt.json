@@ -1,0 +1,98 @@
+{
+  "description": "This café receipt from Roots documents a VISA payment transaction processed at the Zürich-Flughafen airport location in Switzerland. The receipt includes operator information for Autogrill Schweiz AG, location details, website and email references, operator/staff identification, and timestamp metadata. The POS structure contains CHF and EUR total formatting, Swiss VAT (MwSt) percentage calculations, net and gross amount presentation, and VISA payment confirmation aligned in standard Swiss thermal receipt formatting. Additional receipt elements include bilingual German-English customer appreciation messaging, cashier/service attribution, and Swiss VAT registration information near the footer. The layout reflects a standard Swiss airport café thermal receipt with dual-currency formatting and localized VAT presentation.",
+  "imageUrl": "",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "bottomDivider": false,
+      "businessDetails": "\nAutogrill Schweiz AG\nRoots FoodLand\n\n8060 Zürich-Flughafen\nwww.autogrill.com\ninfo-ch@autogrill.net\n",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9ba26d54-0660-42c6-81dc-3a344e7058c6-image%20(15).jpg?alt=media&token=c7bf6f1c-fb13-4d63-b13f-dc9ecfd47269",
+      "size": 195,
+      "type": "HEADER",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "6a54a2cb-d98f-4078-9e94-0335be1dccb2",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "totalText": "",
+      "id": "ba01f36d-baca-493f-9c84-2404a3be2692",
+      "total": "",
+      "type": "ITEMS",
+      "bottomDivider": false,
+      "totalDivider": false,
+      "items": [
+        {
+          "description": "",
+          "total": "CHF",
+          "quantity": ""
+        },
+        {
+          "description": "Cappuccino",
+          "total": "5.40",
+          "quantity": ""
+        },
+        {
+          "total": "0.00",
+          "quantity": "",
+          "description": "Kuhmilch Bio"
+        },
+        {
+          "description": "Pain au Chocolat",
+          "total": "3.90",
+          "quantity": ""
+        },
+        {
+          "total": "9.30",
+          "quantity": "",
+          "description": "Total CHF"
+        },
+        {
+          "description": "Total EUR",
+          "total": "10.00",
+          "quantity": ""
+        },
+        {
+          "total": "\n9.30",
+          "quantity": "",
+          "description": "\n1 Visa"
+        }
+      ],
+      "totalLines": [],
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "custom": "\nMwSt Prozent  Netto  Brutto MwSt\n(1) 8.10  8.60  9.30   0.70\nMwSt 8.1%\n\n\n\n\n22.04.2026 06:23:37 #:60706 Op:100279\nC:1\n21201 S:1212\nEs bediente Sie : Rabi H.\n\n",
+      "bottomDividerType": "DASHES",
+      "alignment": "LEFT",
+      "id": "7f9f5538-ac72-4b91-9569-d67716462490",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "custom": "\n\nVielen Dank für Ihren Besuch,\nThank you for your visit\nCHE-116.326.583 MWST",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "aa18a40e-feec-4560-9e5a-1195b4d83fa2",
+      "date": "$undefined"
+    }
+  ],
+  "currency": "",
+  "isParent": true,
+  "parentName": "Office Depot",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "createdAt": "$D2026-05-25T10:38:23.194Z",
+  "backgroundCrumpled": false,
+  "name": "Roots Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "slug": "Roots-Receipt",
+  "published": true,
+  "id": "kELQOFMy3o4fU9tbzBe4"
+}

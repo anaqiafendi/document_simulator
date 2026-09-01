@@ -1,0 +1,97 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-05T18:28:23.925Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_5",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F3YjWfNXHYva2UiY6TXvMN21Saxj1%2Fbec2ade3-91c1-40b5-b50f-338dc561be17-Gordy%20Sons.png?alt=media&token=0fd0ccc5-b549-43cd-8cc6-345a55d6cabf",
+      "size": 300,
+      "businessDetails": "GORDY & SONS, OUTFITTERS\n22 WAUGH DR, HOUSTON, TX 77007\n(713) 333 - 3474",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "- SALE -\nSALE#: S918 45 TRANS# 1596 11-22-25",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Sig Sauer P226X\nLegion 9mm 4.4 in \n18rd Gray \nUPC: 798681685257\nSKU: 226X-9-LEGION\nSerial Number: 47G081201",
+          "total": "1429.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1429.99"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "117.97"
+        }
+      ],
+      "total": "1547.96",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TERMINAL:4 11/22/25",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU FOR SHOPPING GORDY & SONS, OUTFITTERS.\n\nFOR DETAILS ON OUR RETURN POLICY, VISIT GORDYANDSONS.COM\nA WRITTEN COPY OF THE RETURN POLICY IS AVAILABLE AT OUR CUSTOMER SERVICE DESK\n\nSTORE LOCATION: 22 WAUGH DR, HOUSTON, TX 77007\nPHONE: (713) 333-3474\n\nGORDY & SONS SERVICE PROMISE\nFOR MORE DETAILS, VISIT GORDYANDSONS.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "A clean, monochrome retail receipt from Gordy & Sons Outfitters, detailing a firearm purchase. The receipt includes store identity and contact information (Houston, TX), transaction metadata (sale and transaction numbers, date), and a full item breakdown for a SIG Sauer P226X Legion 9mm in gray. It lists UPC, SKU, serial number, subtotal, sales tax, and final total ($1,547.96), followed by terminal/date confirmation and a barcode—typical of regulated retail documentation used for records, compliance, and customer reference.",
+  "metatitle": "Lowe's Home Store Receipt",
+  "metadesc": "realistic Lowe's home improvement receipts with custom store details, items, prices, and payment info for returns and records",
+  "parentName": "Sig 5",
+  "published": true,
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FX6NxCHX6U794YTFm4DS5%2FX6NxCHX6U794YTFm4DS5-c85f798c-09a0-4043-9f5a-30f388ba4f54.png?alt=media&token=1ebd86d9-1d66-466a-8172-92c315cb9134",
+  "name": "Gordy & Sons Outfitters Receipt ",
+  "slug": "Gordy-and-Sons-Outfitters-Receipt",
+  "id": "X6NxCHX6U794YTFm4DS5"
+}

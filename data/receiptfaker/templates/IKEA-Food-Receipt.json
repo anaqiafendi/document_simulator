@@ -1,0 +1,164 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-04T08:13:38.970Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "published": true,
+  "sections": [
+    {
+      "id": "ea1e06d7-044a-4b07-b337-e96ec18b4bf4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F21b804af-5438-486e-a173-d8d957025a30-image%20(13).jpg?alt=media&token=566fd16c-cdde-4fa4-b46e-582e5f27e760",
+      "size": 247,
+      "businessDetails": "\nIKEA FOOD\nIKEA MILTON KEYNES 185\nAddress4\nVAT: GB 52777320\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "77a972d1-8227-496d-b94c-591d60aadc18",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Qty",
+          "description": " Name            Price   ",
+          "total": "Total £"
+        },
+        {
+          "quantity": "1",
+          "description": "   Meatballs 10     3.80",
+          "total": "3.80"
+        },
+        {
+          "quantity": 1,
+          "description": "Fish & Chips Adult  4.95",
+          "total": "4.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Petit Pain – White  0.50",
+          "total": "0.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Wine rosé           2.80",
+          "total": "2.80"
+        },
+        {
+          "quantity": 1,
+          "description": "Wine red            2.80",
+          "total": "2.80"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf4984c5-c376-43a2-9358-c5992d954c7d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Net SubTotal",
+          "total": "12.37"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT",
+          "total": "2.48"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4432ab1e-a67f-46a6-a5fe-29b1e2e4a01a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total to Pay",
+          "total": "14.85"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb897d06-a9e3-4841-b7a4-a1451a62ec66",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Received",
+          "total": "14.85"
+        },
+        {
+          "quantity": "",
+          "description": "VISA",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "900dcf33-962f-456c-96ad-c873716a0f26",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Visa Credit\n***********9529\nStart: **/**\nExpiry: 09/26\nAuth Code: 847231\nEntry: CHIP & PIN\nAPPROVED",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "146805cf-e7e7-4813-823a-ba1496a12926",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n06/04/2016   11:21\nTill: 1\nCashier: 1890\nTransaction: TXN-00438271\n\n\n* * * THANK YOU * * *\nwww.ikea.com/gb",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "IKEA Food Receipt",
+  "description": "This receipt is from IKEA Food at the Milton Keynes location in the United Kingdom. It documents a restaurant-style purchase including items such as meatballs, fish and chips, bread, wine, and tea. The receipt provides an itemized list with prices, subtotal, VAT at the standard UK rate of 20%, and the total amount paid. Payment was made using a Visa credit card. It also includes VAT registration information and transaction details such as date, time, and cashier number. The format reflects a typical UK self-service restaurant receipt within a retail store.",
+  "slug": "IKEA-Food-Receipt",
+  "id": "XdXdhsa2LaPak59yocMO"
+}

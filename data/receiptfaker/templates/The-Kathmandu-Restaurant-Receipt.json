@@ -1,0 +1,123 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Kathmandu Restaurant Receipt",
+  "description": "This receipt is issued by The Kathmandu Restaurant and identifies the business as Restaurante Kathmandu S.C., C/ Antonio Giron 7, 29620 Torremolinos, Málaga. The header contains the restaurant name, business tax identification number, address, receipt reference, transaction date and time, and table number. The receipt records a dine-in order consisting of red wine, Cobra beer, Onion Bhaji, Pahandi Chicken Tikka, Chicken Tikka Bhuna, Pilau Rice, and Garlic Naan. The financial section records a final total of €44.00, comprising a taxable base of €40.00 and 10% IVA of €4.00. The receipt confirms that IVA is included in the displayed total and concludes with a Spanish customer appreciation message. The overall layout is representative of a Spanish restaurant POS receipt, combining food and beverage itemization, VAT reporting, and table-service transaction information.",
+  "slug": "The-Kathmandu-Restaurant-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T14:30:13.675Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d6c1aaa6-808b-4bb2-ad41-fa312043b042",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8c184d22-6b5c-44cd-8f60-e8e2b08ed89b-image%20(11).jpg?alt=media&token=e84aed81-9aea-446c-9adb-19a42bfa64c9",
+      "size": 273,
+      "businessDetails": "RESTAURANT KATHMANDU S.C.\nN.I.F: J93338911\nC/ Antonio Giron, 7; CP:29620\nTorremolinos (Malaga)\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8accfe51-9dcb-4483-ae25-ffd5d74087ef",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Slip: 1-1-1-34629\nDate: 04/04/2019 21:50\nTable: Mesa 4",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d415b2f1-283a-4336-add1-07287966426e",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nQty  Description",
+          "value": "\nTotal"
+        },
+        {
+          "title": "DRINKS",
+          "value": ""
+        },
+        {
+          "title": "1    ORVALAIZ TINTO",
+          "value": "9.00"
+        },
+        {
+          "title": "2    1/2 COBRA ",
+          "value": "4.50"
+        },
+        {
+          "title": "STARTERS",
+          "value": ""
+        },
+        {
+          "title": "2    ONION BHAJI ",
+          "value": "6.50"
+        },
+        {
+          "title": "MAIN COURSE",
+          "value": ""
+        },
+        {
+          "title": "1    PAHANDI CHICKEN TIKKA",
+          "value": "10.50"
+        },
+        {
+          "title": "1    CHICKEN TIKKA BHUNA",
+          "value": "8.50"
+        },
+        {
+          "title": "COMBINED WITH",
+          "value": ""
+        },
+        {
+          "title": "1    PILAU RICE ",
+          "value": "2.50"
+        },
+        {
+          "title": "1    GARLIC NAAN",
+          "value": "2.50"
+        },
+        {
+          "title": "",
+          "value": "--------------"
+        },
+        {
+          "title": "",
+          "value": "\n€          44.00"
+        },
+        {
+          "title": "",
+          "value": "\nBase IVA 10%          40.00"
+        },
+        {
+          "title": "",
+          "value": "IVA 10%                4.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b71a58c-0116-4011-bf92-1894efc747f2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nIVA INCLUDED\nGracias por su visita",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "GddtzZn320szqworu1MN"
+}

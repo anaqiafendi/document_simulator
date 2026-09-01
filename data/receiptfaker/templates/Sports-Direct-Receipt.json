@@ -1,0 +1,99 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T14:54:12.544Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Sports Direct Receipt",
+  "description": "This document is a credit note issued by SportsDirect.com, a UK-based retail company specializing in sportswear and equipment. Instead of a purchase receipt, it represents stored value on a gift card or return credit, including a balance amount, serial number, and PIN for redemption. It also shows expiry date, transaction details, and store identifiers. The note serves as a proof of credit that can be used for future purchases rather than a record of payment. The format reflects a standard UK retail credit voucher or gift card receipt.",
+  "sections": [
+    {
+      "id": "97398def-5819-4c91-83ed-ace9f58c8971",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffb210ddd-b50d-4fa4-a7da-5c00ae5a73a5-image%20(11).jpg?alt=media&token=ab888811-398b-41aa-8494-3779dd08504d",
+      "size": 241,
+      "businessDetails": "SportsDirect.com Retail Ltd\nUnit A, Brook Park East, Shirebrook\nMansfield, NG20 8RY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "703ec608-d262-4608-8a0f-ee43c544e780",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCredit Note\nTO BE RETAINED BY THE CUSTOMER\nUNLESS FULLY REDEEMED",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e1dde77e-8069-408e-86b1-5e7c5b0d04f3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nIlvex Trans Type: Gift Card Register\ns. No: 556410\n\nIlvex Serial #: 73261927328241889612\nOnline PIN: 4763\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e1cfc7fa-5ae3-4173-b7db-0735af60e7e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBalance:                 27.98\n\nExpiry: 06/07/2021  23:59:59\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "881c6332-8003-49a1-8880-a999300178b1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Store: 0206      Till: 03",
+          "total": "Store: 0206      Till: 03"
+        },
+        {
+          "quantity": "",
+          "description": "Date: 07/07/19   Time: 14:22",
+          "total": "10Date: 07/07/19   Time: 14:22"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04c5fa99-a8c2-4db5-b8db-85835f666c0b",
+      "type": "BARCODE",
+      "size": 75,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aec48249-24a3-4f2e-9b37-4db382ad6a0f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "n 7 3 2  6 1 9 2 7 3 2 8 2 4 1 8 8 9\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Sports-Direct-Receipt",
+  "published": true,
+  "id": "NI5fhBKLfMJDNHDx1NuE"
+}

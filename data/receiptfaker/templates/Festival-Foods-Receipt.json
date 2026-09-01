@@ -1,0 +1,112 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-29T12:35:10.743Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d93bbe4b-e310-4458-89f4-1da633cef05f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fac1113cb-6a5e-46e6-8fba-ffb71fb8e7a6-image%20(5).jpg?alt=media&token=e4e76296-64db-48d9-ba0a-a9656b84faa0",
+      "size": 268,
+      "businessDetails": "800 E Maes Ave\nKimberly, WI 54136\n9206877780\nwww.festfoods.com\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d3a692c4-86bf-4a7c-b57d-a47ece2cceb2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nStore: 2741\n82741-001  9/20/2024  06:03:42 Susan\nInv#: 00000006  Trs#: 000012\n78675300341612",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "47cccb28-cc9b-4cba-8787-5a5d63983e71",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "GROCERY\nEXTRA SPEARMINT           $1.79 T12F",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "16aaf6c8-870a-4881-8bde-bc6df5306f40",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Subtotal                       $1.79\nTax 1 [$1.79 at 5.5%]          $0.10",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c40c5ef2-52c5-48a7-a2c0-96474dd42b67",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TOTAL                          $1.89\nCash                           $2.00\nChange                         $0.11",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f02d93a5-1288-46e5-b531-6df1f9fe45ee",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nItem count                         1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7dc6200e-0632-4d0a-b3ff-d7e6eacf20db",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nType: Points update\nCard: **********1612\nGas Rewards given: 2\nGas Rewards balance: 120\nPoint expiry: 2024-10-20\nTerminal: 2741-001\nAuthID: 2211502052\nResult: Success\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f43e999-383a-48ad-929f-8da282715d9c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping at\nFestival Foods",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9c4d00e-815f-4bea-9110-851d2a9684a2",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9f2a5d8-0913-4872-9ad1-c68899d624fd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "970127410010000012",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "$3e",
+  "name": "Festival Foods Receipt",
+  "slug": "Festival-Foods-Receipt",
+  "published": true,
+  "id": "sFEOfC4PVeyUvP9iojjM"
+}

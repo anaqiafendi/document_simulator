@@ -1,0 +1,112 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Hiltl Dachterrasse Receipt",
+  "description": "This receipt is issued by Hiltl Dachterrasse and identifies the restaurant at Bahnhofstrasse 88, 8001 Zürich, Switzerland. The header contains the restaurant name, street address, Swiss contact telephone number, check number, and transaction date and time. The receipt records the purchase of a Hugo and a Whisky Sour, resulting in a subtotal of CHF 26.00. The payment section records V PAY SIX payment for the full amount and includes the sequence number, reference number, and authorization code. The financial section also provides 7.7% Swiss VAT (MwSt) information and a net total of CHF 24.14. The footer contains the Swiss VAT registration number, confirms that prices are stated in CHF, records the closing time of the transaction, and provides a customer feedback address.",
+  "slug": "Hiltl-Dachterrasse-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T14:44:15.753Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "2d8237e9-a104-4e96-83b5-903ef4e4015d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff0d3618a-710a-4d01-a0d3-2899f1225aab-image.jpg?alt=media&token=d325d2c2-6f06-4a01-8e7f-8bfbbd0d89fc",
+      "size": 164,
+      "businessDetails": "HILTL Dachterrasse\nBahnhofstrasse 88 - 8001 Zurich\n+41 (0)44 888 88 00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85d5015c-8c16-40d8-ac01-fc74cd85842f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "70211 Cyril.g@hiltl.ch",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2df84aeb-2ef3-480c-8095-b3609acdd4e1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCHK 3053\n30 Mai'19 17:11",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "82689aac-44f1-4cd3-ac32-9df1faf52ddf",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n1  Hugo ",
+          "value": "\n12.00"
+        },
+        {
+          "title": "1  Whisky Sour ",
+          "value": "14.00"
+        },
+        {
+          "title": "V PAY SIX",
+          "value": "26.00"
+        },
+        {
+          "title": "Seq-Nr.:00171057",
+          "value": ""
+        },
+        {
+          "title": "Ref-Nr.:23624387908",
+          "value": ""
+        },
+        {
+          "title": "Auth-Code:TZLF9P",
+          "value": ""
+        },
+        {
+          "title": "\nSubtotal",
+          "value": "\n26.00"
+        },
+        {
+          "title": "Zahlung ",
+          "value": "26.00"
+        },
+        {
+          "title": "Wechselgeld ",
+          "value": "0.00"
+        },
+        {
+          "title": "1.86 = Mwst. 7.7 %",
+          "value": "26.00"
+        },
+        {
+          "title": "Netto gesamt",
+          "value": "24.14"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "51e907ab-5b7b-4145-896d-4cbf969223b4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n------ Rechnung abgeschlossen ------\n30 Mai'19 17:12\n\nCHE-112.403.575 MWST\nPreise in CHF\n\nWie wars? -> hiltl.ch/feedback",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "uY2pGT0Bcwdm6kQEAVDR"
+}

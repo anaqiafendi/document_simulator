@@ -1,0 +1,85 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Nordstrom Rack Receipt",
+  "description": "This receipt displays the Nordstrom Rack header with “NORDSTROM” in uppercase above the larger “rack” logo, followed by the store location identified as Sunvalley Mall, 703 Contra Costa Boulevard, Pleasant Hill, CA 94523, including the printed phone number. The POS section lists Store 479, Register #4905, and Transaction #3271, along with a sales associate identifier (Rng: Brittany B.). The receipt includes a structured financial summary showing Subtotal, Tax, and Total with right-aligned currency formatting, as well as payment type (Cash) and total items purchased. A promotional savings message section highlights “*YOU SAVED” with congratulatory text, enclosed by asterisk separator lines, and concludes with a savings disclaimer. The format reflects a standard apparel retail point-of-sale thermal receipt layout.",
+  "slug": "Nordstrom-Rack-Receipt",
+  "createdAt": "$D2026-02-22T17:21:00.166Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "44bbd71a-5297-4076-9466-cae7bae46d15",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1ededecb-fab3-49da-a2c2-ebf34f6402ef-image%20(7).jpg?alt=media&token=94bda726-3d28-4561-a1cf-c236b060b81e",
+      "size": 215,
+      "businessDetails": "Sunvalley Mall\n703 Contra Costa Boulevard\nPleasant Hill, CA 94523\n(925) 566-7700",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "98d44b8a-e9fb-47eb-8ad1-3aa5fe33dc5a",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Store 479        Reg# 4905        Tran# 3271\nSALE     Rng: Brittany B.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "888e817f-2d06-4cce-b27e-25650ab18628",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f82bf0b6-b25e-4048-b02b-d82e48fb5b91",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "*YOU SAVED: $79.49\nCongratulations!\nYou saved more than you spent.\nYou're a shopping genius!\n\n*Savings comparison not available for all items",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7riC94AqHURnlpFtu8ib%2F7riC94AqHURnlpFtu8ib-c92bfb30-4df5-428b-9c46-11fa41864744.png?alt=media&token=1ade9b5a-c2c6-4709-9c4f-61cda6080fa6",
+  "published": true,
+  "id": "7riC94AqHURnlpFtu8ib"
+}

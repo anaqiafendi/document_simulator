@@ -1,0 +1,149 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Ola Cab Receipt",
+  "slug": "Ola-Cab-Receipt",
+  "createdAt": "$D2025-09-30T12:21:44.218Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4e5f9243-f447-413b-bd40-62349de5bdb8",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "30 Sep, 2025",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F8f062669-23d8-4e14-ac7c-18d726c0134b-58481887cef1014c0b5e49a8.png?alt=media&token=2e438bce-1d87-406c-b67d-046f6989d2e1",
+      "size": 97,
+      "businessDetails": "CRN3674955835\nThanks for travelling with us, John",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Ride Details:\nPickup Location: 1830 Palm Canyon Drive, San Diego, CA 92104\nDrop-off Location: 874 Hawthorne Boulevard, Portland, OR 97214\nDriver Name: Rajesh Kumar\nVehicle: Toyota Camry\nLicense Plate: CA-8GHJ123",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Bill Details:",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Your Trip",
+          "total": "18.75"
+        },
+        {
+          "quantity": "",
+          "description": "Total Bill",
+          "total": "18.75"
+        },
+        {
+          "quantity": "",
+          "description": "Insurance Premium",
+          "total": "1.25"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DOTS",
+      "totalLines": [],
+      "total": "20.00",
+      "totalText": "Total Payable",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Have queries? Visit support for this ride.\nWe've fulfilled our promise to take you to destination for pre-agreed Total Fare. Modifying the drop/route can change this fare.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "abd2fb81-bbe0-4d7f-a900-b6b1bff29b67",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Please Note: 1) Insurance Service is not provided by ANI Technologies Private Limited. Invoice for the insurance fee collected for the ride will be raised by the respective insurance company.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FseaPxvvvlbTqqDBIiVF8%2FseaPxvvvlbTqqDBIiVF8-d547303f-93ff-4198-b890-3ecc727d2f18.png?alt=media&token=e0247cc5-a282-46b5-bc0c-37d191d93449",
+  "description": "Need an Ola Cab receipt? Easily create a professional ride receipt with our free tool. Add driver info, trip details, fare, distance, and payment—perfect for travel reimbursements or expense tracking.",
+  "published": true,
+  "metatitle": "Ola Travel Receipt",
+  "metadesc": "realistic Ola cab receipts featuring trip distance, fare details, driver information, and payment data for reimbursements",
+  "id": "seaPxvvvlbTqqDBIiVF8"
+}

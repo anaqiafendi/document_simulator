@@ -1,0 +1,153 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Tutoring Receipt",
+  "slug": "Tutoring-Receipt",
+  "createdAt": "$D2025-05-25T14:35:55.754Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Ff72410e1-7dc1-42df-abf7-202a57b66b67-11807215_tutoring_education_online_assistance_help_icon.png?alt=media&token=407f45c3-b18f-4d8f-b779-a589ca59fdfa",
+      "size": 63,
+      "businessDetails": "BrightPath Tutoring LLC\n123 Learning Lane, Suite 400, Springfield, IL 62704\n\nPhone Number: (217) 555-7890\nEmail: contact@brightpathtutoring.com",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tutoring Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "9cc5cdb8-a988-44cd-996a-91ad75bd66f0",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:26:37 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "03a5db84-048d-4164-924b-c1972c3c400e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Child's Name: Emma\nTutor's name: Michael James Thompson\nAddress: 456 Oakwood Drive, Apt 12B, Portland, OR 97205",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to:\nOlivia Harper\n789 Maple Street, Unit 5, Denver, CO 80220",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "20",
+          "description": "Tutoring Services (Hours)",
+          "total": "350"
+        },
+        {
+          "quantity": "10",
+          "description": "Additional Hours",
+          "total": "100"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "450"
+        },
+        {
+          "title": "Tax",
+          "value": "36"
+        }
+      ],
+      "total": "486",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FrgtjpsOUYB6MusgdVeWo%2FrgtjpsOUYB6MusgdVeWo-199240e4-4398-42a8-9f0a-47647f19782b.png?alt=media&token=c02c277a-4abe-40a6-b6bc-4266de84cc2e",
+  "description": "Need a tutoring receipt? Quickly create a professional receipt for academic sessions with our free tool. Customize tutor details, student info, subjects, hours, rates, and payment—ideal for records or reimbursements.",
+  "published": true,
+  "metatitle": "Tutoring Receipts",
+  "metadesc": "professional tutoring receipts with customizable student info, subjects, hourly rates, and payment details for your records",
+  "id": "rgtjpsOUYB6MusgdVeWo"
+}

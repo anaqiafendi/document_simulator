@@ -1,0 +1,107 @@
+{
+  "sections": [
+    {
+      "id": "f1e026a2-cdbd-4f21-ac56-965405a476d5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Feabc8d71-163a-4595-b30a-ee070e21af0f-image%20(8).jpg?alt=media&token=55f2deb9-4fad-4961-9de4-0d47866adcd6",
+      "size": 259,
+      "businessDetails": "El Pollo Loco\nUnit# 3795\n32360 Clinton Keith Rd\nWildomar, CA 92595\n951-609-0345\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "898ab196-c7cf-438e-a102-705886bd5001",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "14604 Annalise",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ddfc2173-6685-436f-ad77-02bc531fa44a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCHK 1206\n5 Jun'26  2:22 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "251e5338-1785-4e1b-9179-7dd27c020aa4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n Drive Thru",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1dc9c41b-6ef1-4d55-aae4-b826738abe80",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n1 Chips&Guac Reg",
+          "value": "\n6.49"
+        },
+        {
+          "title": "1 LG-Pinto Beans",
+          "value": "7.49"
+        },
+        {
+          "title": "1 LG-Spanish Rice",
+          "value": "7.49"
+        },
+        {
+          "title": "1 LG-Drink",
+          "value": "3.69"
+        },
+        {
+          "title": "LG Coke",
+          "value": "$$40.00"
+        },
+        {
+          "title": "\n\nSubtotal",
+          "value": "\n$25.16"
+        },
+        {
+          "title": "Tax ",
+          "value": "$$2.20"
+        },
+        {
+          "title": "Payment",
+          "value": "$$27.36"
+        },
+        {
+          "title": "Change Due\n",
+          "value": "$$12.64\n"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a036161-371e-4fbf-b3e9-27f711cf391e",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-22T19:57:33.853Z",
+  "imageUrl": "",
+  "name": "El Pollo Loco Receipt",
+  "slug": "El-Pollo-Loco-Receipt",
+  "description": "This receipt is issued by El Pollo Loco and identifies Unit #3795 at 32360 Clinton Keith Road, Wildomar, California 92595. The header contains the restaurant branding, unit number, street address, telephone number, employee name, check number, and transaction date and time. The receipt documents a drive-thru order consisting of regular Chips & Guacamole, large Pinto Beans, large Spanish Rice, and a large Coke. The financial section records a subtotal of $25.16, tax of $2.20, and a final payment amount of $27.36. The customer tendered $40.00 in cash and received $12.64 in change.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "aMnwkeO5tLNZviSx5SNl"
+}

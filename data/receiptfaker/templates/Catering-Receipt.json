@@ -1,0 +1,158 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T11:25:54.967Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Catering Receipt",
+  "slug": "Catering-Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fdaacd1e2-f3c9-40d4-9aed-c8fc9b5a286a-10958684_catering_food_buffet_table_event_icon.png?alt=media&token=ea71a8f0-ca9f-485a-96d5-a84561820c36",
+      "size": 50,
+      "businessDetails": "Elegant Eats Catering LLC\nAddress: 5607 Willow Creek Drive, Austin, TX 78758\nRegistration Number: TX-CAT-4821937\nPhone Number: (512) 555-2981\nEmail: info@eleganteatscatering.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Catering Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Billed to: Ethan Marshall\n1742 Maplewood Court, Boise, ID 83702",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "150",
+          "description": "Appetizers",
+          "total": "1500"
+        },
+        {
+          "quantity": "200",
+          "description": "Main Course",
+          "total": "6000"
+        },
+        {
+          "quantity": "150",
+          "description": "Deserts",
+          "total": "700"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "8.200"
+        },
+        {
+          "title": "Tax",
+          "value": "676.50"
+        }
+      ],
+      "total": "8,876.50",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We offer a limited warranty on all catering services and food quality for 7 days from the event date, ensuring your satisfaction and peace of mind. Any concerns or disputes will be addressed promptly and fairly, with the goal of reaching a satisfactory resolution for both parties. Warranty claims must be accompanied by the original receipt.\n\nThank you for trusting Elegant Eats Catering to make your event memorable and delicious!",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FUHT3QgC8haAbBlctdXeZ%2FUHT3QgC8haAbBlctdXeZ-12cb3da3-0e1c-4c0e-92ff-71b0e6bda302.png?alt=media&token=e391bea8-c9c4-4800-9f2a-5af163294c23",
+  "description": "Need a catering receipt? Use our free tool to generate a professional receipt for food services. Enter caterer info, event details, menu items, charges, and payment—ideal for client records or business expenses.",
+  "published": true,
+  "metatitle": "Food Service Receipt",
+  "metadesc": "professional catering receipts with event details, menu items, and payment info using our free catering receipt generator",
+  "id": "UHT3QgC8haAbBlctdXeZ"
+}

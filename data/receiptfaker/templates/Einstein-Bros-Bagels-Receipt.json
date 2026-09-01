@@ -1,0 +1,176 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Einstein Bros Bagels Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Einstein Bros Bagels at its Edmond, Oklahoma location, including full store address and contact number. It contains drive-thru service identifiers such as order number, host designation, and timestamp. The receipt presents a structured financial summary with subtotal, tax, and total amount, along with authorization details for the payment. It concludes with a signature line and promotional messaging encouraging return visits and customer feedback, reflecting a standard U.S. fast-casual POS receipt format.",
+  "slug": "Einstein-Bros-Bagels-Receipt",
+  "createdAt": "$D2026-04-08T15:21:14.780Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "a2f730f7-5c02-4be2-b232-8d0dda680782",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 219,
+      "businessDetails": "Einstein Bros Bagels\nStore # 3015\n1200 W Bell Rd #1\n623-227-4996\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f130695c-2d25-429f-9b0c-a2a5dfdcacaf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " \nDT50091\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29b0ef77-d657-4480-9f8a-3df74d1ac537",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: DriveThru",
+          "total": "09/25/2020"
+        },
+        {
+          "quantity": "",
+          "description": "Cashier:",
+          "total": " 9:01 AM"
+        },
+        {
+          "quantity": "",
+          "description": "DT50091               ",
+          "total": "50000"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e63bf84a-f15a-4ded-b466-9ff38bff021f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nOrder Type: DRIVE THRU\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c9d248d-c71b-4642-8dba-0ad26165bee1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Baker's Dozen Box",
+          "total": "15.79"
+        },
+        {
+          "quantity": "",
+          "description": "Baker's & Co",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Pt Loyalty App",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal ",
+          "total": "15.79"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "1.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60aaaea6-85e6-40e2-95e6-45223ad04ae6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDRIVE THRU Total               17.29\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c796506b-682f-4a8e-a4d2-b23836595b54",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MC ##############3065",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Auth: 03996P",
+          "total": "17.29"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c6105e4-1598-40c4-bb7d-cd5954390cc1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSIGNATURE ____________________\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6164dd5-7d82-4a6e-a361-fa5094886831",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCome back after 11AM for $1 off\nANY sandwich purchased after 11AM\nShow this receipt!\nHard free bagels!\nwww.einsteinbros.com\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "118d6f09-5fb5-40f9-a88e-627bbcfd61f8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for your visit!\nEnjoy your bagels! \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FArO9vJLIZVQDzp3J76GQ%2FArO9vJLIZVQDzp3J76GQ-5aa6f6e3-087f-4d9e-8b3a-32032545a4bc.png?alt=media&token=6c7d4ee8-d627-4378-87c3-d032c32a6419",
+  "published": true,
+  "id": "ArO9vJLIZVQDzp3J76GQ"
+}

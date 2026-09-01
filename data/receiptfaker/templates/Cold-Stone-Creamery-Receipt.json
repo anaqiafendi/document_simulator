@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Cold Stone Creamery Receipt",
+  "description": "This receipt is issued by Cold Stone Creamery Pvt Ltd and includes identifiable store and tax registration details such as GSTIN, FSSAI number, and contact information. It features structured POS metadata including invoice number, date and time of transaction, server name, table number, and guest count. The receipt contains a clearly defined tax invoice format with subtotal, CGST and SGST breakdown, round-off adjustment, and final total amount. Payment method is indicated, along with SAC classification and authorization section. The layout concludes with a feedback email, social media reference, and standard footer formatting typical of a quick-service restaurant POS system.",
+  "slug": "Cold-Stone-Creamery-Receipt",
+  "createdAt": "$D2026-03-26T14:59:01.490Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcf15f570-0699-4297-a2f6-8e8fc1a785ef-image%20(14).jpg?alt=media&token=ea15e1ae-9b89-4279-b07f-842741917a3a",
+      "size": 236,
+      "businessDetails": "Cold Stone Creamery Pvt Ltd\nGround Floor, Block 66 & 142,\nProvidence Building,\nNo. 044 6665 0313\nPh No. 044 6665 0313\nGSTIN: 33AAECC0109H1Z9   FSSAI No. 22416000000000",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TAX INVOICE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Inv : IN/CSTN01A17-041906  31-Aug-16\n\nName :    chandrashekar\nMobile :\nAddress :\nServer :      Suresh\nTable :       G1   Time : 15:55\nNo of Guests: 01    Amount\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "915744d8-1791-4ce4-a9ce-72cacde5b65e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "93e27584-7c88-43a8-8534-1274fd931337",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc153bf4-7988-49e1-bd7b-ef5e97e83b0c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Feedback : info@coldstoneindia.com\n\nConnect with us on Facebook\nwww.fb.com/ColdstoneIndia",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fj1feerwHne6JvyvZWK7o%2Fj1feerwHne6JvyvZWK7o-d81b2581-b659-4b6a-9b2a-9be2257e78ad.png?alt=media&token=e1777810-c909-4383-bf0d-0cc427a1b659",
+  "published": true,
+  "id": "j1feerwHne6JvyvZWK7o"
+}

@@ -1,0 +1,90 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "GNC Receipt",
+  "description": "$3e",
+  "slug": "GNC-Receipt",
+  "createdAt": "$D2026-03-07T15:51:20.747Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F97e195a1-d7d9-4765-9c9a-923098520672-image%20(32).jpg?alt=media&token=be5802ea-6b51-44b2-ab86-0a1b1268adfa",
+      "size": 236,
+      "businessDetails": "GENERAL NUTRITION CENTER\nGNC STORE\n\n1617 S CONGRESS AVE\nWEST PALM BEACH FL 33414\n561-333-9965\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fea83957-d2b6-43b1-8ce3-e9f0cc897346",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "STORE: 06470                REGISTER: 001\nCONSULTANT: Kevin Pardo\n\nCUSTOMER RECEIPT COPY\n  ------------------------------\nORIGINAL TRANSACTION INFORMATION\nNO RECEIPT PROVIDED FOR RETURN ITEM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f0427edb-c348-4780-98f2-3e16e61b0ecf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "0020841 2 MM S&W WP            M\n1 @ 47.69\nSALEABLE",
+          "total": "47.69"
+        },
+        {
+          "quantity": "",
+          "description": "0087712 ULTIMATE OMEGA         M\n1 @ 36.74\nNONSALE-OTHER",
+          "total": "36.74"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "999e2807-c535-4264-b4e9-c2b6cc6862b6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VISA CREDIT SYSTEM POINT BALANCE 0\n\nAMOUNT TENDERED               84.43\nTOTAL PAYMENT                 84.43\nCHANGE                               0.00\n\nTransaction: 248718 2/10/2026 4:48PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e1a33f7-0681-4739-86df-e89b4ee3fdab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "*************************\nLow Prices\nFree Cash Back Rewards\nGNC Live Well\n*************************\nQuality and satisfaction\nGuaranteed",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FyvSTmvSy8pJIdAObJSQK%2FyvSTmvSy8pJIdAObJSQK-16d13609-4b79-479d-94fd-c8c3ea83b2ba.png?alt=media&token=6f13798c-1d6d-4d6e-96b7-4553c7ddcd37",
+  "published": true,
+  "id": "yvSTmvSy8pJIdAObJSQK"
+}

@@ -1,0 +1,156 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T12:10:42.187Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "a0739753-42c9-4571-b362-d79610af379c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Matjeom (Central Market)\nShop G18, G/F Central Market\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e072f7c-df05-4075-80e1-e0456607b70b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Seating Time: 2025-09-25 20:15:56\nPayment Time: 2025-09-25 20:14:15\nPayment Staff: manager\nServed By: manager\nOrder No.: C64 [Dine-in]\nNumber of Patron: 1",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8bfd699d-03fe-401a-b217-d90a3d8117b2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Remarks:5",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "38b96061-626b-47d3-ae8f-8e5e35941c5f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1  Matjeom Garlic Jokbal",
+          "total": "\n$280.0"
+        },
+        {
+          "quantity": "",
+          "description": "(Pork Knuckle) (M)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1  Chungha Rose Sparkling",
+          "total": "$$68.0"
+        },
+        {
+          "quantity": "",
+          "description": "Wine Cocktail",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1  Add - Fried Chicken (3pcs)",
+          "total": "$$30.0"
+        },
+        {
+          "quantity": "",
+          "description": "1  Kimchi Fried Rice",
+          "total": "$$82.0"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8b51686a-a8ec-4467-8c4b-7f4c0472c29e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal ",
+          "total": "$$460.0"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f218eb4a-5fd1-47cb-9b8c-aa40fc3b22ec",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Amount",
+          "total": "$$460.0"
+        },
+        {
+          "quantity": "",
+          "description": "PAID (ENT) ",
+          "total": "$$460.0"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "679978ac-27e2-4785-88d1-d1d5b7d319e9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " Thank You\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ec1d140-1e60-4ce0-8e73-47dde9b33ee0",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4430f4a2-bf83-45cd-9345-8b8ccc5f0226-image%20(2).jpg?alt=media&token=e820066a-7be9-4b8f-b702-545acdc7e336",
+      "size": 278,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Matjeom restaurant receipt issued from Shop G12 on the ground floor of Central Market. The header identifies the restaurant and branch location, followed by detailed POS metadata including seating time, payment time, payment staff, server, order number, dine-in designation, patron count, and remarks reference. The transaction section follows a thermal restaurant POS format with itemized order entries and corresponding amounts separated from the financial summary by divider lines. The payment area records the subtotal, prominently displayed final amount, payment status, and amount paid. The footer includes a customer thank-you message, machine-readable QR/barcode area, and Eats365 POS system branding.",
+  "name": "Matjeom Central Market Receipt",
+  "slug": "Matjeom-Central-Market-Receipt",
+  "published": true,
+  "id": "TjHNNI2U6a6JUtJQlNgL"
+}

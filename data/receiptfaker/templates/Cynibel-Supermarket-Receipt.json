@@ -1,0 +1,159 @@
+{
+  "createdBy": "ADzg28Fp2TRrBEO8llc5pPKIqOB3",
+  "createdAt": "$D2025-07-16T15:42:50.686Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "Ugx.",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "9e88118e-6097-4d26-88c4-968211e4476c",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F69cd5980-ed78-4df7-8e58-4b4bdb5fc1f0-Cyinibel%20Supermarkets.png?alt=media&token=d620b714-a2d1-44e6-bce0-22357ec50351",
+      "size": 166,
+      "businessDetails": "CYINIBEL SUPERMARKET LIMITED",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "16e7438f-8770-4568-8178-a089c31be36c",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "7/16/2025, 2:11:07 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "36ac31cb-7d36-4c9d-b13e-2d024b73b198",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "TILL",
+          "value": "2"
+        },
+        {
+          "title": "TIN",
+          "value": "1017040561"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Till Sales",
+          "value": "050520250601106"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a5e358c-ac68-4ded-940d-83fc7f63a263",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": " Riham Oner Apple 300ml 12 Pack",
+          "total": " 14,500"
+        },
+        {
+          "quantity": "2",
+          "description": " Splash Mango 18x150ml  ",
+          "total": "20,500"
+        },
+        {
+          "quantity": "2",
+          "description": " Burbon Biscuit Bundle",
+          "total": "9,800"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "44,800"
+        }
+      ],
+      "total": "44,800",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "30e26b6a-b0f4-488e-ac50-b20e62a7c789",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "50,000"
+        },
+        {
+          "title": "Change",
+          "value": "5,200"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9aefdf41-5f17-4f93-ba74-d5c6581cedc2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3b49a80-1ea3-4aa2-a5ce-da48c71c4ec2",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FCPUGnO6Tq8ngmQoj9sbu%2FCPUGnO6Tq8ngmQoj9sbu-38c79e24-ee09-402b-89ba-84153df45fc0.png?alt=media&token=0cf60839-6365-48d2-a4e7-ae010a804da7",
+  "name": "Cynibel Supermarket Receipt",
+  "description": "Need a Cynibel Supermarket receipt? Quickly generate a detailed grocery receipt with our free tool. Add store info, itemized purchases, prices, tax, and payment method - ideal for budgeting, returns, or expense tracking.",
+  "published": true,
+  "slug": "Cynibel-Supermarket-Receipt",
+  "metatitle": "Grocery Store Receipt",
+  "metadesc": "realistic Cynibel Supermarket receipts with custom items, prices, taxes, and payment details for budgeting and expense tracking",
+  "id": "CPUGnO6Tq8ngmQoj9sbu"
+}

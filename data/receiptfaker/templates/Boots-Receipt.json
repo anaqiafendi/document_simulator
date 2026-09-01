@@ -1,0 +1,75 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Boots Receipt",
+  "description": "This receipt is issued by Boots and represents a pharmacy-based health measurement printout from a specific store location at Oxford Street, Sedley Place. It includes a store identifier and clearly formatted time and date. The receipt documents biometric data such as weight, height, and calculated BMI, along with explanatory sections detailing BMI categories and ranges. It provides structured health guidance, including ideal weight ranges and advisory messaging related to pharmacy weight management programs. The format includes section separators, instructional content, and a promotional call-to-action directing customers to in-store services or an online pharmacy resource, reflecting its use in a pharmacy and health services environment.",
+  "slug": "Boots-Receipt",
+  "createdAt": "$D2026-03-18T16:44:45.458Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd8c2b1d8-7d30-47f5-bd13-4bc1f7140b13-image%20(65).jpg?alt=media&token=e5f6e2ab-9038-4bcf-b7b0-d8fe38e3e36b",
+      "size": 236,
+      "businessDetails": "\nOXFORD ST, SEDLEY PLACE\n707\n\n11:35          06/07/11",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nWEIGHT: 17st10lb 112.8kg\nHEIGHT: 5' 8.4\"  1.74 m",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e138e808-cdfa-48e8-b805-d8e70785adca",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "B.M.I.        37.3",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e48f84d-6fba-4c99-a38d-5dead54a223d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "BODY MASS INDEX (B.M.I.)\nis calculated as\nWeight(kg)/Height(m)2\n\nLESS THAN 18.5:\nUNDERWEIGHT\n\nFROM 18.5 UP TO 25:\nIDEAL WEIGHT\n\nMORE THAN 25:\nOVERWEIGHT",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fc1512c-9bb4-4b56-b163-5237aea1b6e5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "YOUR IDEAL WEIGHT\nFOR A B.M.I. BETWEEN\n18.5 AND 25.0 IS:\n\n8st11lb TO 11st12lb\n56.0 kg TO 75.6 kg",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "23f801c8-da4b-4c17-a790-f5dba646f9df",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n- Your BMI is Over 28 -\nYou could DOUBLE\nyour chances\nof losing weight on the\nBoots Pharmacy\nWeight Loss Programme\nSee your pharmacist for\nmore details or visit\nwww.boots.com/pharmacy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2UKiKzC8KqNHsBJ9fyJz%2F2UKiKzC8KqNHsBJ9fyJz-2ad8131d-19e6-40f6-ac48-84c04afd7749.png?alt=media&token=897946ba-a07b-4212-8ce6-d490f7fabe6a",
+  "published": true,
+  "id": "2UKiKzC8KqNHsBJ9fyJz"
+}

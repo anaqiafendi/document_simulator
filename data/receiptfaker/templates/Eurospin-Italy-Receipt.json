@@ -1,0 +1,239 @@
+{
+  "currency": "",
+  "slug": "Eurospin-Italy-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T19:35:15.563Z",
+  "description": "This grocery retail receipt from Eurospin documents a cash transaction processed at a Eurospin location in Italy. The receipt includes company identification details, VAT registration information, store references, cashier identifiers, receipt numbering metadata, and timestamp information. The POS structure contains itemized pricing, subtotal presentation, VAT-inclusive accounting, total amount presentation in euros, cash tendered formatting, and change due calculations aligned in standard Italian supermarket thermal receipt formatting. Additional receipt elements include VAT summaries, customer copy transaction references, cashier and register identifiers, barcode formatting, website references, and customer payment confirmation details near the footer. The layout reflects a standard Italian grocery retail thermal receipt with localized VAT accounting and cash payment processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Eurospin Italy Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "23f03d29-26a1-4646-843b-eade0a592c9f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F877beeba-1667-48eb-bf34-2f601c14af4d-image%20(1).jpg?alt=media&token=e8779130-4edf-4997-bc31-bdb021246c25",
+      "size": 232,
+      "businessDetails": "\nB.V. MARKET S.P.S.\nVia S. Mennato\nMisterbianco\nCat. Merci Diverse (IVA inclusa)\nwww.eurospin.it\n\nCASSA 3\nDOCUMENTO COMMERCIALE\nai sensi di produzione\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "956a6ded-3e75-4793-a794-0a9a80e275d9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DESCRIZIONE",
+          "total": "PRZ/VNDI PAN"
+        },
+        {
+          "quantity": "",
+          "description": "ALIMENTARI SECCHI",
+          "total": "0.65 1"
+        },
+        {
+          "quantity": "",
+          "description": "1 PZ x 0.65 EUR/PZ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ALIMENTARI SECCHI",
+          "total": "2.45 1"
+        },
+        {
+          "quantity": "",
+          "description": "INSALATA TREVISIO",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ALIMENTARI SECCHI",
+          "total": "1.89 1"
+        },
+        {
+          "quantity": "",
+          "description": "3 PZ x 0.63 EUR/PZ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ALIMENTARI SECCHI",
+          "total": "1.69 1"
+        },
+        {
+          "quantity": "",
+          "description": "PREMIUM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTALE",
+          "total": "2.44 1"
+        },
+        {
+          "quantity": "",
+          "description": "1 PZ / 1.75x x 2.99 EUR/PZ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "LAVORATI SFUSI",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTALE",
+          "total": "10.85"
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTALE",
+          "total": "10.85"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07083c05-936f-4c7a-9442-1f9c0506d0a4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTALE COMPLESSIVO",
+          "total": "10.35"
+        },
+        {
+          "quantity": "",
+          "description": "RD-CUT PAN-",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "PAGAMENTO CONTANTE",
+          "total": "15.00"
+        },
+        {
+          "quantity": "",
+          "description": "RESTO",
+          "total": "4.95"
+        },
+        {
+          "quantity": "",
+          "description": "IMPORTO PAGATO",
+          "total": "10.35"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nE: IVA Ventilazione IVA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "DOC: 01389 09102",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "08/10/24 16:08",
+          "total": "A/T: 9680000410"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "46fb0ed2-8d67-4b12-8e59-921b54b345c7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDETTAGLIO PAGAMENTI\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a91c06d-5d4f-4b2e-9913-e5e76025894f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CASSA",
+          "total": "15.00"
+        },
+        {
+          "quantity": "",
+          "description": "N. PEZZI 10",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CASSIERE 103",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CASSA 3 NEGOZIO 0416",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0628dab6-3ade-48bf-9912-4a4d6771037a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVISITA IL SITO WWW.EUROSPIN.KURELI.IT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "631124b6-efbd-47e3-9ff2-1c868ba2f27d",
+      "type": "BARCODE",
+      "size": 82,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "00c6ac66-c67e-45ee-bf6c-a2f8b73feb1a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "9880702B19240041 80005311069664595B",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "KptmbsZ9xjWryqODCiRL"
+}

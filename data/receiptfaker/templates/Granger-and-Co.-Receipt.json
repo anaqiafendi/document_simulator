@@ -1,0 +1,221 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-06T14:30:35.460Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "abf6d03f-0073-420a-bb38-4794a71b5236",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "GRANGER\n& Co.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "00c9bde5-e7ff-430e-8f4e-bb6644e80ed9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Granger & Co.",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "7 Pancras Square",
+          "total": "3 June 2026"
+        },
+        {
+          "quantity": "",
+          "description": "London",
+          "total": "10:21"
+        },
+        {
+          "quantity": "",
+          "description": "N1C 4AG",
+          "total": "Laurenz"
+        },
+        {
+          "quantity": "",
+          "description": "020 3058 2567",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "grangerandco.com",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "74568c29-8990-4831-8373-1f552efbf6ae",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "IN-STORE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2e7a0ca-0369-40e2-adae-12bb45528433",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTicket: 25",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "998897e9-b152-4054-9c9c-1b90f0da81a3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nEAT IN",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2226d3e5-5961-4108-801e-81b8df412f07",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nFlat White × 3",
+          "total": "\n£13.50 A"
+        },
+        {
+          "quantity": "",
+          "description": "(£4.50 each)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Latte  ",
+          "total": " £4.50 A"
+        },
+        {
+          "quantity": "",
+          "description": "Poached Eggs",
+          "total": "£12.50 A"
+        },
+        {
+          "quantity": "",
+          "description": "vegemite on sourgh",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Poached Eggs ",
+          "total": "£12.50 A"
+        },
+        {
+          "quantity": "",
+          "description": "Orange Juice  ",
+          "total": "£9.00 A"
+        },
+        {
+          "quantity": "",
+          "description": "Add Ginger Shot (£1.50)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Long Black",
+          "total": "£4.20 A"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9de58b4b-2b97-42ee-b05c-d4cd622bb5e8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal ",
+          "total": "\n£56.20"
+        },
+        {
+          "quantity": "",
+          "description": "Service charge(12.5%) ",
+          "total": "£7.02"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92599d7d-6e30-4a54-bd3c-a29dcde42498",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n12.5% service charge is added for parties of 1 or more.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7492610b-2832-4e78-b5bf-862d383a175a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTotal                         £63.22",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c970fe8a-60a2-4088-91df-7227fd01d396",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTax Rate     Net     Tax     Total\nA (20%)    £46.83  £9.37   £56.20",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20330b17-b9b7-4bbf-a868-570de7d58f69",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nA discretionary service charge of 12.5% applies to each bill.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Granger & Co. Receipt",
+  "description": "This receipt is issued by Granger & Co. and identifies the restaurant as 7 Pancras Square, London N1C 4AG, United Kingdom. The header contains the restaurant branding, address, contact telephone number, website, transaction date, table number, and server name (Lauren). The receipt records an eat-in order consisting of coffees, breakfast dishes, orange juice, and ginger shot additions. The financial section records the subtotal, a 12.5% discretionary service charge, and the final transaction total. A VAT summary is provided, showing the taxable amount, VAT collected at 20%, and the corresponding total. The receipt concludes with a notice explaining that a discretionary 12.5% service charge is applied to each bill. The overall layout is representative of a United Kingdom restaurant POS receipt, combining menu itemization, VAT reporting, discretionary service charges, and transaction reconciliation within a compact hospitality receipt format.",
+  "slug": "Granger-and-Co.-Receipt",
+  "published": true,
+  "id": "p0AKDD8S3ydW1XJOKtug"
+}

@@ -1,0 +1,177 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Montana's BBQ Bar Receipt",
+  "description": "This receipt is from Montana’s restaurant in Kingston, Ontario, Canada. It records a late-night dine-in order including beverages, beef antojitos, wings, iced tea, macaroni and cheese, and a grilled cheese burger with promotional discounts applied. The receipt includes subtotal, HST tax calculation, total due, and customer survey information with an access code. The format reflects a standard Canadian restaurant POS receipt.",
+  "slug": "Montana's-BBQ-Bar-Receipt",
+  "createdAt": "$D2026-05-19T18:54:09.996Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "2305d17b-ac7f-4237-8a23-518dcc9487e6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0d2d4fba-2163-43f6-8bfb-1ba25f24e82b-image%20(15).jpg?alt=media&token=fab70be3-c140-4b18-8696-c35f076e448c",
+      "size": 249,
+      "businessDetails": "Montana's\n630 Gardiners Rd\nKingston, ON, K7M 3X9\nHST# 898697123RT0001\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d0f96aad-a419-49f2-975f-a8f0a1c9cdc2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "40 Night M",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d8dd9afd-dcaf-4429-b21f-d98169db3d4c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTbl 98/1",
+          "total": "\nChk 5044"
+        },
+        {
+          "quantity": "",
+          "description": "May18'19   11:22PM",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "64676410-f001-4746-a006-3bafc09a08f5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Bar",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Bkd Pch Lmde",
+          "total": "6.75"
+        },
+        {
+          "quantity": 1,
+          "description": "Beef Antojits",
+          "total": "12.99"
+        },
+        {
+          "quantity": 1,
+          "description": "1/2 $ Wings",
+          "total": "6.89"
+        },
+        {
+          "quantity": "",
+          "description": "Honey Gar(2)",
+          "total": ""
+        },
+        {
+          "quantity": "1",
+          "description": "1/2 $ Wings",
+          "total": "6.89"
+        },
+        {
+          "quantity": "",
+          "description": "Blue Che (1)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "A butter (2)",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Iced Tea",
+          "total": "2.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Mac n Chz",
+          "total": "15.99"
+        },
+        {
+          "quantity": 1,
+          "description": "with Chippers",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Grill Chz Burg",
+          "total": "16.99"
+        },
+        {
+          "quantity": "",
+          "description": "\nIts On Us!",
+          "total": "\n-15.99"
+        },
+        {
+          "quantity": "",
+          "description": "Its On Us!",
+          "total": "-16.99"
+        },
+        {
+          "quantity": "",
+          "description": "Its On Us!",
+          "total": "-1.99"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n34.52"
+        },
+        {
+          "quantity": "",
+          "description": "HST",
+          "total": "4.49"
+        },
+        {
+          "quantity": "",
+          "description": "Total Due",
+          "total": "39.01"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a1dd8889-7430-42d8-9574-989ef27d85d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nRounded if Paying Cash $39.00\n\n\nTell Us How We Did Today\nComplete our Guest survey at:\nwww.montanassurvey.com\nAccess Code: 5080-51695-49860\n\n\nLovie Here BBQ!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "EPSaE2zpn3YqW05jZuAG"
+}

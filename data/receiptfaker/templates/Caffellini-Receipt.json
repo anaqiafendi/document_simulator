@@ -1,0 +1,130 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Caffellini Receipt",
+  "description": "This receipt is issued by Caffellini and identifies the business at Västerlånggatan 60, Sweden. The header contains the Caffellini name, street address, contact telephone number, organization number, transaction date and time, operator information, and transaction reference. The receipt records the purchase of a Varm Choklad (Hot Chocolate) and Te (Tea). The financial section records a total of 66.00, together with Swedish MOMS (VAT) information showing a tax amount of 7.07. The payment section confirms that the transaction was settled in cash (Kontant). The receipt also contains fiscal control information, including a control code and control-unit reference, and concludes with the Swedish customer appreciation message “Tack Välkommen Åter!” The overall layout is representative of a Swedish café POS receipt, combining beverage itemization, VAT reporting, cash payment, and fiscal control information.",
+  "slug": "Caffellini-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T11:31:04.238Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "published": true,
+  "sections": [
+    {
+      "id": "a6bdae23-0042-4918-bd01-fa0daeaec229",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "CAFFELLINI\nVasterlanggatan 60\nTel nr: 08-20 98 46\n\n\n\nORG NR:5562867381\n#085420  10/04/2015  12:47\n0001 OPERA0001         046818\nTRANS:0081828",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02d03121-4db0-41d3-8535-b02a84ebd3e7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nKVITTO\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e25101da-d81d-4c48-a578-e75f799c3b35",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "1x 38.00",
+          "value": "38.00"
+        },
+        {
+          "title": "Varm Choklad",
+          "value": ""
+        },
+        {
+          "title": "1x 28.00",
+          "value": "28.00"
+        },
+        {
+          "title": "Te",
+          "value": "________________"
+        },
+        {
+          "title": "\nSUMMA:",
+          "value": "\n66.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "00e1ecf2-94a7-40a7-bfa0-5f12728a0e3f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nMOMS2 ST",
+          "value": "\n66.00"
+        },
+        {
+          "title": "MOMS 2",
+          "value": "7.07"
+        },
+        {
+          "title": "MOMS TL",
+          "value": "7.07"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "98953941-4ba7-42e4-9a19-f9a3acabd2c2",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nPOSTER 2Q",
+          "value": ""
+        },
+        {
+          "title": "KONTANT",
+          "value": "66.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "47434d03-52a3-4091-a5f8-b8ccdd08bb54",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nKONTROLLKOD:\nTDXZKSSLUSNZ2XZ3ZDXKTOQQTKU7SI\nUH;UTZCHP7HQGPJ6AJN30UD5QEBDE\n\nKONTROLLENHET:\nRIHTT100200046818\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ff4b3f1-6908-4605-9f00-513dc315f462",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTACK VALKOMMEN ATER!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "sS7X8VPNnAVBUempgrrF"
+}

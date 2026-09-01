@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Zadig & Voltaire Receipt",
+  "description": "This receipt is issued by Zadig & Voltaire for the Cambon Y2 location in Paris, France, and includes store identification details such as address, contact number, and store code (0330). It contains POS identifiers including receipt number, date, time, establishment code, register (caisse), and operator reference, along with a barcode and duplicate (DUPLICATA) notice. The receipt includes customer identification details, a designation section, and a financial summary showing total amount in EUR, payment method (Adyen Euro), and tax breakdown (TVA with rate and base amount). It also includes store policy messaging regarding exchanges, non-refund conditions, and sales restrictions, reflecting a standard European fashion retail POS receipt format with structured sections and regulatory tax information.",
+  "slug": "Zadig-and-Voltaire-Receipt",
+  "createdAt": "$D2026-03-27T18:49:02.930Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F22a20d8d-5b22-4613-ac7c-5eb8b44e2269-image%20(19).jpg?alt=media&token=e8947904-bddb-465d-9257-bde4022efb25",
+      "size": 236,
+      "businessDetails": "0330 - CAMBON Y2\n244 RUE DE RIVOLI - ET 2 RUE CHARDON\n75001 PARIS\nTel : (33)01 42 86 29 50\n033012200029575",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e1b620d-1db9-4541-8db0-5ffa5f69f2dc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Numero Date Heure  Etab  Caisse  Wd\n18322 12/02/22 15:19  0330 03301 0805",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5321ecb2-d10a-4f52-8acc-610c70bbf74d",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "* 087009971006 *",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f1c3bc0-3413-4ecf-a4e2-e7805f8cfdcf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Client :     033000000004421\nDaria Marie PASTAKIA\n\nDesignation           Montant\n\nROCKY SUEDE SAC NOIR T. UNIQUE\nTX KABG021F       297,00?\n\nTOTAL :   **** 297,00 EUR ****\n1 article\n\nReglement\n\nAdyen Euro          297,00 ?",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "06ebc3cd-573f-46de-af2e-2534ac16d8ee",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Taxe        Montant    Taux    Base HT\nTVA         49,50      20,00%  247,50",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "82ce99c7-41e7-4b6a-bc28-92f5b0930d8a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Echange sous 14 jours sur présentation\ndu ticket de caisse Pas de remboursement\nArticles soldés ni repris ni échangés\nVous avez été conseillé(e) par\nROOPNARAIN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FYpjsrnma9SwNYBKyLAQh%2FYpjsrnma9SwNYBKyLAQh-92c7d24b-db82-4502-9224-be78593c5adc.png?alt=media&token=f827d498-cba3-42b9-95b7-7e54dadbbf27",
+  "published": true,
+  "id": "Ypjsrnma9SwNYBKyLAQh"
+}

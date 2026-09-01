@@ -1,0 +1,204 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Moxies Restaurant Receipt",
+  "description": "This receipt is from Moxies restaurant at Square One in Canada. It records a large dine-in group order including cocktails, salmon, chicken dishes, calamari, wings, burgers, and desserts. The receipt includes gratuity already added to the bill, subtotal, HST tax calculations, total amount due, discount entries, and reservation information. It also contains server and table details commonly shown on Canadian restaurant POS receipts.",
+  "slug": "Moxies-Restaurant-Receipt",
+  "createdAt": "$D2026-05-19T19:42:13.440Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85978b2e-232d-40ce-a977-f35f5ffab53c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd7173ed8-85f3-4575-b51d-599c88db567a-image%20(16).jpg?alt=media&token=240d69f8-76b1-4282-b007-9655c7e4b36b",
+      "size": 229,
+      "businessDetails": "SQUARE ONE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f0510fb1-e007-48b2-bf1f-c35178737dc9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0498a  Table:   17  #Party 8 TBJAY K\nSvc0s:             15 21:40 12/09/22\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "22033f2b-89e8-4fee-8fc2-b983a9f70664",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "3",
+          "description": "HH ESPRESSO MARTINI",
+          "total": "90.00"
+        },
+        {
+          "quantity": "3",
+          "description": "MANGO CHICKEN",
+          "total": "90.00"
+        },
+        {
+          "quantity": 1,
+          "description": "LEMON BASIL SALMON",
+          "total": "32.00"
+        },
+        {
+          "quantity": 1,
+          "description": "SHRIMP TACOS",
+          "total": "20.00"
+        },
+        {
+          "quantity": 1,
+          "description": "PRAWN CURRY LAKSA",
+          "total": "24.00"
+        },
+        {
+          "quantity": 1,
+          "description": "CHIMICHURRI STK SAL",
+          "total": "26.75"
+        },
+        {
+          "quantity": "2",
+          "description": "CHICKEN WINGS",
+          "total": "37.50"
+        },
+        {
+          "quantity": 1,
+          "description": "HH CALAMARI",
+          "total": "15.00"
+        },
+        {
+          "quantity": "2",
+          "description": "DIET COLA",
+          "total": "8.50"
+        },
+        {
+          "quantity": "2",
+          "description": " FRI 87",
+          "total": "25.00"
+        },
+        {
+          "quantity": 1,
+          "description": "BDAY MINI BROWNIE",
+          "total": "7.00"
+        },
+        {
+          "quantity": 1,
+          "description": "HAPPY BIRTHDAY!",
+          "total": "-7.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "32822c88-a907-4128-ae2b-fa01bd5c9dbc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n18% GRATUITY INCLUDED\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2909f459-47ac-47e4-bbb3-1e3ca6f948ea",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Sub Total",
+          "value": "315.75"
+        },
+        {
+          "title": "HST",
+          "value": "41.05"
+        },
+        {
+          "title": "18% GRAT",
+          "value": "58.10"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "966146ef-374e-4ced-9424-b6fefd420d6b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n12/09 23:33   TOTAL",
+          "total": "\n414.90"
+        },
+        {
+          "quantity": "",
+          "description": "DISCOUNT AMOUNT",
+          "total": "21.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a6e11fb-1b74-4f03-813a-f1fb37ce8867",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHST# 826047273 RT0002\nPLEASE PAY YOUR SERVER\nTHANK YOU!\n\n\nFOR RESERVATIONS\nPLEASE CALL: 905 279 6500\nOR VISIT MOXIES.CA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "UeSYqJsJiiOdmZvPlngC"
+}

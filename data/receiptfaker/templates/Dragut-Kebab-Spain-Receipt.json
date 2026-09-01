@@ -1,0 +1,122 @@
+{
+  "currency": "",
+  "slug": "Dragut-Kebab-Spain-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T20:04:33.850Z",
+  "description": "$3f",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Dragut Kebab Spain Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "128a244f-d86c-400e-9a1b-27568cdbd996",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nDRAGUT KEBAB ALCAMPO\nMAR Y LLUVIA S.L.\nCIF: B76767581\nC.C. ALCAMPO LOCAL 17\nLA LAGUNA",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3395f208-c2b3-49aa-b665-034373258b76",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Factura Simplificada",
+          "total": "N. 3-1-2245"
+        },
+        {
+          "quantity": "",
+          "description": "Mesa: 040 W-40",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Caja: 002 DRAGUT KEB 29/06/2020",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Operador: SINAI",
+          "total": "Turno: DIA"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c40808cc-07bf-426f-89b6-a92d54a660e8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Uds. Descripcion",
+          "total": "P.V.P. Subtotal"
+        },
+        {
+          "quantity": "",
+          "description": "1 Cortado Natural",
+          "total": "1.30 1.30"
+        },
+        {
+          "quantity": "",
+          "description": "1 Cortado Leche y Lec",
+          "total": "1.40 1.40"
+        },
+        {
+          "quantity": "",
+          "description": "Tipo de Impuesto B.Imponible ",
+          "total": ""
+        },
+        {
+          "quantity": "General (7%)",
+          "description": "   2.52",
+          "total": "0.18"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nTotal",
+          "value": "\n2.70"
+        },
+        {
+          "title": "EFECTIVO",
+          "value": "2.70"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53808aeb-1fc2-49cf-8c2f-9878e2a20739",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nIMPUESTOS INCLUIDOS\nGRACIAS POR SU VISITA\n\nPRESENTANDO ESTE TIQUET EN TAQUILLA MULTICINES TENERIFE TUS ENTRADAS A 4.90€ PELICULAS TARIFA MINIMA 5.20€ CONSUMICION MNIMA 5€ - VALIDO 30 DIAS MÁX. 4 PERSONAS - CONSULTAR EN TAQUILLA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "4qNgL9ebw2VceYyfdBvR"
+}

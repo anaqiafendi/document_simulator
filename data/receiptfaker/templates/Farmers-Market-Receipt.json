@@ -1,0 +1,168 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T16:18:18.900Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f0667fb4-bd45-4f5a-ad75-9741c900ab4d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Farmers Market Mall Ciputra\nTelp. 021-51010299\nPT. Supra Boga Lestari Tbk\nNPWP : 0018 2142 0505 4000\nJl. Pesanggrahan Raya No. 2\nKembangan, Jakarta Barat, 11610\n\n23756 / 05 / 2139 / 384224 / 17-12-2025 20:47\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "14f0a63c-8684-4ab6-865e-f9506db0f7da",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "2 @ Rp. 31.800",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "4719907120013 KM GAS LIGHTER",
+          "total": "63.800  *"
+        },
+        {
+          "quantity": "",
+          "description": "DISCOUNT 100.",
+          "total": "-31.800"
+        },
+        {
+          "quantity": "",
+          "description": "5 @ Rp. 8.900",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "8999888872 CAP BADAK LARUT",
+          "total": " 44.500  *A"
+        },
+        {
+          "quantity": "",
+          "description": "DISCOUNT",
+          "total": "-7.000"
+        },
+        {
+          "quantity": "",
+          "description": "8998888710314 DELMONTE SWEET ",
+          "total": "17.200"
+        },
+        {
+          "quantity": "",
+          "description": "8995177102058 GULAKU GULA TEB",
+          "total": "17.600"
+        },
+        {
+          "quantity": "",
+          "description": "8994463230048 TOMAT CHERRY CL",
+          "total": "37.800"
+        },
+        {
+          "quantity": "",
+          "description": "8992882201501 NESTLE PURE LIF",
+          "total": "6.800"
+        },
+        {
+          "quantity": "",
+          "description": "0.844 kg  @ Rp. 22.500",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "01178   KELON",
+          "total": "21.240"
+        },
+        {
+          "quantity": "",
+          "description": "8992996418370 NESCAFE CLASSIC",
+          "total": "28.000"
+        },
+        {
+          "quantity": "",
+          "description": "Total Item: 14",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "198.040"
+        },
+        {
+          "quantity": "",
+          "description": "BCA - Debit  204713",
+          "total": "198.040"
+        },
+        {
+          "quantity": "",
+          "description": "Total Saving",
+          "total": "38.800"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "HARGA        PAJAK"
+        },
+        {
+          "quantity": "",
+          "description": "NPPN",
+          "total": "76.640            0"
+        },
+        {
+          "quantity": "",
+          "description": "PPN*      121.400",
+          "total": "109.389    12.031"
+        },
+        {
+          "quantity": "",
+          "description": "Stamp: 1",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1a150efb-12ba-45cc-a8ca-99e1ece5844c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPlease Collect 1 Paper Stamp\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "960a8c74-8e98-4798-96b7-b5515598a2ee",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n==Terima Kasih==\n# Barang Kena Pajak\nwww.farmersmarket.co.id\nEmail: cs.farmers@ranchmarket.co.id\nWhatsApp Order: 0822 9816 3548",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Farmers Market Hall Ciputra, operated by PT Supra Boga Lestari Tbk, located at Jl. Pesanggrahan Raya No. 2, Kembangan, West Jakarta 11610, Indonesia. The header includes the store name, telephone number, company name, Indonesian tax identification number (NPWP), full branch address, store/register identifiers, and the transaction date and time. The receipt concludes with a financial summary showing the Total, payment method (BCA Debit), Total Savings, and a tax summary detailing NPPN, PPN, and the applicable 12% VAT (Pajak). The footer includes a paper stamp collection reminder, a customer appreciation message, the official website, customer service email, and WhatsApp order contact number. This receipt represents a standard Indonesian supermarket POS receipt featuring transaction metadata, promotional savings, electronic payment confirmation, tax reporting, and customer service information.",
+  "name": "Farmers Market Receipt",
+  "slug": "Farmers-Market-Receipt",
+  "published": true,
+  "id": "OqxmvTO1jQBRGUoFNedB"
+}

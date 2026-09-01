@@ -1,0 +1,142 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Which Wich Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Which Wich at its Norfolk, Virginia location, including full address and contact number. It contains server identification, check number, guest count, and a timestamped order record. The receipt presents an itemized list of customized sandwich orders with modifiers and add-ons, followed by a structured financial summary including subtotal, tax, and total amount. It also includes a credit card processing fee and cash payment details with tendered amount and change returned. The format reflects a standard U.S. fast-casual POS receipt with configurable menu options and transaction fee disclosure.",
+  "slug": "Which-Wich-Receipt",
+  "createdAt": "$D2026-04-17T17:07:59.104Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "19d850c5-3ffa-49ef-9e59-2bf8b492c0a1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Which Wich\n1541 Premium Outlets Blvd Suite 170\nNorfolk, VA 23502\n(757) 524-5600",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dbf4e9e4-1eee-4171-b8ca-aa80e53e2513",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nServer: WW594 - Term 1 T\nCheck #66\nGuest Count: 1\nOrdered:            3/28/23  8:09 PM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "83faf28c-8620-4949-8c3d-33cba4cff6ac",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Buffalo Chicken",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Regular",
+          "total": " $8.25"
+        },
+        {
+          "quantity": "",
+          "description": "White",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Hot",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n1 BYO Turkey",
+          "total": "\n\n$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Regular",
+          "total": "$$8.25"
+        },
+        {
+          "quantity": "",
+          "description": "White",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Hot",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Provolone",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CC Fee (3.00%)",
+          "total": "$$0.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6da07d8-8d3a-4504-a161-bfff655634a7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": " Subtotal: ",
+          "total": "$$17.00"
+        },
+        {
+          "quantity": "",
+          "description": " Tax",
+          "total": "$$2.06"
+        },
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "$$19.06"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCash Tendered:",
+          "total": "\n\n$100.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change:",
+          "total": "$$80.94"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5sWXEPCXAiJgE8z5437W%2F5sWXEPCXAiJgE8z5437W-f695af64-2cf8-4529-8ff7-e91185151e59.png?alt=media&token=1b763018-9355-44e3-a7f7-4c3521ed98b8",
+  "published": true,
+  "id": "5sWXEPCXAiJgE8z5437W"
+}

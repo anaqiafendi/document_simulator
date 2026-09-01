@@ -1,0 +1,102 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Frida's Mexican Cuisine and Bar Receipt",
+  "description": "This receipt is issued by Frida's Mexican Cuisine and Bar and identifies the restaurant at 11530 Ridge Road, Suites 9 and 10, Thackerville, Oklahoma 73459. The header contains the restaurant branding and address, while the transaction section records the server name, check number, table number, guest count, and order date and time. The dine-in order for three guests includes an Arrachera Chile Relleno Burrito, Birria Ramen, Mix Fajita Skillet, and Flour Tortillas. The financial section records a subtotal of $59.50, a 20% large-party charge of $11.90, tax of $5.36, and a final total of $76.76. The footer concludes with a Spanish customer appreciation message, “Gracias Por Su Preferencia! Vuelvan Pronto!”, thanking customers for their patronage and inviting them to return.",
+  "slug": "Frida's-Mexican-Cuisine-and-Bar-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T18:38:48.495Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "afd00e30-32ed-4498-96bb-b59fbc9319c6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F26d3a39f-2c7f-4f67-b182-c16bdbacfa6d-image%20(5).jpg?alt=media&token=8d453a31-7c24-477f-ae31-45f834252469",
+      "size": 229,
+      "businessDetails": "\nFridas Mexican Cuisine and Bar\n11530 Ridge Road Suite 9 and 10\nThackerville, OK 73459\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "32cab7d4-deb3-4cd7-bc1b-504b176d24e0",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nServer: Gloria Brenda G",
+          "value": ""
+        },
+        {
+          "title": "Check #39",
+          "value": "Table 7"
+        },
+        {
+          "title": "Guest Count: 3",
+          "value": ""
+        },
+        {
+          "title": "Ordered: ",
+          "value": "7/26/25 5:05 PM"
+        },
+        {
+          "title": "\n1 Arrachera Chile Relleno Burrito",
+          "value": "\n$18.00"
+        },
+        {
+          "title": "1 Birria Ramen",
+          "value": "$$15.00"
+        },
+        {
+          "title": "1 Mix Fajita Skillet",
+          "value": "$$25.00"
+        },
+        {
+          "title": "Flour Tortillas",
+          "value": ""
+        },
+        {
+          "title": "1 Flour Tortilla (4)",
+          "value": "$$1.50"
+        },
+        {
+          "title": "\nSubtotal",
+          "value": "\n$59.50"
+        },
+        {
+          "title": "Large Party (20.00%)",
+          "value": "$$11.90"
+        },
+        {
+          "title": "Tax",
+          "value": "$$5.36"
+        },
+        {
+          "title": "Total ",
+          "value": "$$76.76"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "56e72c64-d2ff-43c4-876d-455171c8536e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGracias Por Su Preferencia! Vuelvan\nPronto!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "33XQxmyosggku4qvzvPX"
+}

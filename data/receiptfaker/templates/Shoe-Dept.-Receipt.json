@@ -1,0 +1,100 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T14:24:51.090Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Shoe Dept. at the Waterloo Premium Outlets in Waterloo, New York, United States. The header includes the retailer name, store location, telephone number, store number, and register number. The transaction section records the receipt reference, transaction date and time, and a retail purchase entry. The financial summary contains Subtotal, Sales Tax, Total, Amount Tendered, and Change Due. The integrated payment section documents a Visa credit card transaction with the masked account number, merchant ID, application label, EMV authentication data, AID, TVR, and issuer verification information. The lower portion includes the customer's loyalty ID, loyalty member name, points earned, current loyalty point balance, online shopping information, customer service contact details, and a final verification section for store personnel. This is a standard U.S. retail footwear POS receipt with integrated EMV payment and loyalty program functionality.",
+  "name": "Shoe Dept. Receipt",
+  "slug": "Shoe-Dept.-Receipt",
+  "sections": [
+    {
+      "id": "a70db4d3-734a-4feb-8e52-808673f41006",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F66acf1ab-3e5c-4e16-8893-09dd03410265-Shoe%20Dept.%20Receipt.jpg?alt=media&token=2e002531-1c4f-4b94-81cb-97e0e03f5602",
+      "size": 259,
+      "businessDetails": "WATERLOO PREMIUM OUTLETS\nWATERLOO, NY  13165\n315-577-2529\n\nSTORE #1908          REGISTER # 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5179fd47-cb1a-4331-b11d-b3c52caa4df1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n1  071777  2040  L.       29.98\nCHAMPION SUPER MELOSO CL  BLK",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9c766a5a-d6db-4fb4-8b89-a3c9827fc483",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSUBTOTAL                       29.98\nSALES TAX 4.000%               1.20\nTAX 2   4.000%                 1.20\nTOTAL                          31.18\nAMOUNT TENDERED                31.18\nCHANGE DUE\n\n4  VISA\n1:52:40  4/15/23      20062\n\nACCT NO: XXXXXXXXXXXX933B\nTR TYPE: S SALE\nAMOUNT: 31.18  AUTH CD: 074050  CREDIT\nMERCH ID: 0031940006050719081602\nApplication Label: CHASE VISA\nTC: 8256B87FB0574CB\nTVR: 0080008000\nAID: A0000000031010\nARC: 0021625062\n\n\nTHE CARD ISSUER IDENTIFIED HEREON MAY APPLY THE TOTAL AMOUNT SHOWN ON THIS SLIP TO THE APPROPRIATE ACCOUNT\n\nKEEP THIS FOR STATEMENT VERIFICATION\n\nLOYALTY ID: 16077435\nLOYALTY MEMBER NAME:\nCHRISTOPHER BOLD\n-----------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5269fc5d-c2af-4c26-9d2f-993b4bd7fb37",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nLOYALTY POINT BALANCE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cab68bf4-c205-445e-830b-0be20375f016",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "1  071777  2040",
+          "total": "150  1.50"
+        },
+        {
+          "quantity": 1,
+          "description": "TOTAL",
+          "total": "150  1.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a793470b-3905-4346-9a6f-b336d6c42f30",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nLOYALTY POINT BALANCE\n150",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d63db69-9b29-4a66-beab-a99f93976fed",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSHOP ONLINE 24/7\nWWW.SHOEDEPTONLINE.COM\n\nTO REACH CUSTOMER SERVICE:\n1-888-55-SHOES OR EMAIL:\nCUSTOMERSERVICE@SHOESHOW.COM\n\n\n\nMATES CHECKED BY _______",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "3npCtMzwHYgkFyeHV6a0"
+}

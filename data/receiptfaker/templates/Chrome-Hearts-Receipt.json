@@ -1,0 +1,152 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Chrome Hearts Receipt",
+  "description": "Luxury retail receipt from Chrome Hearts in Los Angeles, detailing purchased apparel items, individual prices, subtotal, tax amount, total paid, and transaction date and time.",
+  "slug": "Chrome-Hearts-Receipt",
+  "createdAt": "$D2026-02-03T13:45:44.981Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4bf62b12-fa77-4949-89e6-c66679333ac0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fc3bc421d-a4ea-4eac-b05f-4e6fdee4cbda-Chrome-Hearts-Logo-PNG-Pic.png?alt=media&token=865cff0e-c582-4375-b5b4-42451b117ba5",
+      "size": 177,
+      "businessDetails": "CHROME HEARTS LA\n600 N Robertson Blvd\nLOS ANGELES, CA 90069\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b06523be-23ec-47e3-8ff3-46be8d25b69b",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "6/17/2025, 10:58:37 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "cef14ddd-e7a2-4c3c-9d03-e071a6af711f",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "QLT: ",
+          "value": "PLU\nDescription:"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Price",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "31a2b987-62b8-4076-afd1-411348f9f1ef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "64436\nWHITE ROSE DAGGER ZIP",
+          "total": "779.00"
+        },
+        {
+          "quantity": "2",
+          "description": "246687\nWHITE BLUE LONG SLEVE ",
+          "total": "460.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1,239.00"
+        },
+        {
+          "title": "Tax",
+          "value": "136.29"
+        }
+      ],
+      "total": "1,375.29",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c13e3ce-2650-4f1f-9f02-2a43e325ac62",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "1,400.00"
+        },
+        {
+          "title": "Change",
+          "value": "24.71"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9b3a9b50-a93e-48f9-bfc9-f82586c570a0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nRETURN POLICY - REWARDS: CHROMEHEARTS.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4a2eb78-26ed-4add-a59d-751add20d65e",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FjSXYfswcRx0yU0goxYQq%2FjSXYfswcRx0yU0goxYQq-dde26056-7313-4a5c-8a6f-4dec92c7cd59.png?alt=media&token=364f417b-5946-4f33-a78a-0fc657068919",
+  "published": true,
+  "id": "jSXYfswcRx0yU0goxYQq"
+}

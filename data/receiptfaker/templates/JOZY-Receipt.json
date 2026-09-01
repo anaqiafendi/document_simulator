@@ -1,0 +1,74 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "JOZY Receipt",
+  "description": "This receipt is a restaurant POS transaction issued by JOZY located at 42 rue Vasselot in Rennes, France. It includes full business identification details such as SIRET number, activity code, and VAT number, followed by a timestamped transaction record displaying date and time alongside guest count and service designation. The receipt features table or floor reference (RDC - 10) and staff role identification (Gérant). A structured financial summary is presented with total per cover and final total amount. Additional POS metadata includes transaction logging information such as terminal identifier, version number, and exact timestamp of processing. The document concludes with a provisional sales notice, receipt reference number, and closing courtesy message, reflecting a typical French restaurant receipt format.\n",
+  "slug": "JOZY-Receipt",
+  "createdAt": "$D2026-04-05T05:37:13.252Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "RECEIPTIONAL_RECEIPT",
+  "sections": [
+    {
+      "id": "0c02b2d8-aaed-4591-8114-1cdb2581869c",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4d9cebea-d4f0-46ce-8889-94ef44b363a1-image%20(1).jpg?alt=media&token=bb61e6e0-6b56-4ed1-9f42-bd90851367a7",
+      "size": 123,
+      "businessDetails": "",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4d247a3-4ae4-4810-bd6a-b01c39ce5605",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "42 rue Vasselot\n35000 Rennes France\n93779776900026 - 5610A - FR81937797769",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e303a68d-ecd1-4cc8-a147-cf7816d428e2",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "24/09/2025 21:58          2 COUVERTS\nRDC - 10                      Gérant",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "f57ddea9-45ec-4a25-93cf-76e68512c5ba",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "2 Verre blanc               12,00 €\n6,00 €\n\n2 Menu 5 temps - ETAPE 1, ETAPE 2,\nETAPE 3, ETAPE 4, ETAPE 5, ETAPE 6 \n42,00 €                     84,00 € \n\nTotal par couvert     48,00 €\nTotal                 96,00 €",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7af0efd-1621-4408-b305-74c42532e820",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n2 couverts, 2 lignes,vendu parGérant\n(4973), le 2025-09-24 21:58:17 surla\ncaisse 90F5, version 11.4.2 (12104)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b658efd2-32d1-4dec-b1c3-a30c1668bbc8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Document provisoire de vente\nNote n°90F5-118\n\nMerci !\n\nPopina",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FRTc4h4dQKa20X0WMzTE0%2FRTc4h4dQKa20X0WMzTE0-6a7f1447-f23c-4b27-afc2-04a6f0375378.png?alt=media&token=1f6d0359-faee-4d5c-9c25-d6dfe978cff3",
+  "published": true,
+  "id": "RTc4h4dQKa20X0WMzTE0"
+}

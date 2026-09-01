@@ -1,0 +1,152 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-19T12:09:52.474Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "6ba1753e-1c53-4c62-82c2-3bf79492dcb1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F995bf282-312a-4d3c-a87b-072b04ba61c9-image.jpg?alt=media&token=1f098116-57c6-4a1e-8415-acc1337b34bb",
+      "size": 268,
+      "businessDetails": "Salt & Straw\n250 University Ave.\nSte 110\n(650)656-9224)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "32a8cd9c-6dc9-49dd-819c-4c2340f20cfd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDine In*",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7470c7b8-ec6f-4c84-8f25-f527c8b038fe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nServer: Evelyn G",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Check #166",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ordered: ",
+          "total": "7/17/24 4:17 PM"
+        },
+        {
+          "quantity": "",
+          "description": "\n3 Single Scoop ",
+          "total": "\n$20.25"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$20.25"
+        },
+        {
+          "quantity": "",
+          "description": "Total ",
+          "total": "$$20.25"
+        },
+        {
+          "quantity": "",
+          "description": "\nInput Type",
+          "total": "\nC (EMV Chip Read)"
+        },
+        {
+          "quantity": "",
+          "description": "AMERICAN EXPRESS",
+          "total": "xxxxxxxx1009"
+        },
+        {
+          "quantity": "",
+          "description": "\nTransaction Type",
+          "total": "\nSale"
+        },
+        {
+          "quantity": "",
+          "description": "Authorization",
+          "total": "Approved"
+        },
+        {
+          "quantity": "",
+          "description": "Approval Code",
+          "total": "882846"
+        },
+        {
+          "quantity": "",
+          "description": "Payment ID ",
+          "total": "cMhnqyRwsFwb"
+        },
+        {
+          "quantity": "",
+          "description": "Application ID",
+          "total": "A000000025010801"
+        },
+        {
+          "quantity": "",
+          "description": "Application Label",
+          "total": "AMERICAN EXPRESS"
+        },
+        {
+          "quantity": "",
+          "description": "Terminal ID ",
+          "total": "abbc15d214644ed1"
+        },
+        {
+          "quantity": "",
+          "description": "Merchant ID",
+          "total": "063955009"
+        },
+        {
+          "quantity": "",
+          "description": "Card Reader",
+          "total": "BBPOS"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n Amount:",
+          "value": "\n$20.25"
+        },
+        {
+          "title": "+ Tip:",
+          "value": "$$4.05"
+        },
+        {
+          "title": "= Total:",
+          "value": "$$24.30"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Salt & Straw, located at 250 University Avenue, Suite 110, California, United States. The receipt header includes the business name, street address, suite number, and telephone number. It identifies the transaction as Dine In and records the server name, check number, and transaction date and time. The financial section contains Subtotal and Total values before the integrated EMV payment details. The payment metadata includes the input method (EMV Chip Read), card brand (American Express), masked card number, transaction type, authorization status, approval code, payment identifier, application ID, application label, terminal ID, merchant ID, and card reader model. The receipt concludes with the payment summary showing the Amount, Tip, and Final Total, representing a standard U.S. restaurant POS receipt with integrated card payment processing.",
+  "name": "Salt & Straw Receipt",
+  "slug": "Salt-and-Straw-Receipt",
+  "published": true,
+  "id": "Y3MOVN7innzwGQzEdC3O"
+}

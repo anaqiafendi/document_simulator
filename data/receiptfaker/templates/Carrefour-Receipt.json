@@ -1,0 +1,141 @@
+{
+  "createdAt": "$D2026-02-11T12:02:18.561Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "metatitle": "Supermarket Receipt",
+  "metadesc": "realistic supermarket receipts with custom store names, items, quantities, prices, and tax details for budgeting and records",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Carrefour Receipt",
+  "description": "This receipt template represents a grocery purchase from Carrefour located in Sector 6, Bucharest, Romania. It features the Carrefour logo at the top, followed by the store name, address, and fiscal identification code. The receipt includes an itemized list of grocery products with quantities and unit prices, subtotal, tax amount, and final total. Payment details show a cash transaction with change provided. The bottom section includes transaction date and time, item count summary, and a barcode reference. This template is suitable for supermarket receipt libraries, European retail mock transactions, expense documentation samples, and receipt generator tools requiring realistic Carrefour formatting and structure.",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FNiHA0QliAChTS6ZKfKt5ZwUaJeF3%2F3243106e-4e9a-4b8c-83eb-fb7dbb1a7b21-usAIuWo.jpg?alt=media&token=8a5d6c9b-e819-4342-a239-e2088bd1a190",
+      "size": 189,
+      "businessDetails": "S.C CAREFOUR ROMANIA S.A\nSPITALUL INDEPENDENT. NR. 210\nSECTOR 6. BUCURESTI\nCOD IDENTIFICARE FISCALA: RO11588780",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "LAPTE LADORNA 1L",
+          "total": "30"
+        },
+        {
+          "quantity": "13",
+          "description": "SALAM DE SINAIA CRIS-TIM",
+          "total": "40"
+        },
+        {
+          "quantity": "5",
+          "description": "ALMETE 100G ",
+          "total": "30"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "100"
+        },
+        {
+          "title": "Tax",
+          "value": "1.42"
+        }
+      ],
+      "total": "101.42",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "102"
+        },
+        {
+          "title": "Change",
+          "value": "1"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2026, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "3b029c02-7258-4436-bf4a-dfcfb09c96d0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ARTICOLE CUMPARATE: 3MG:2 PS:62 CS:2062 TR:69984",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 88,
+      "length": 431,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Carrefour-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FcuufJgn927dcZCtueC5A%2FcuufJgn927dcZCtueC5A-417360e1-c656-48fa-813d-18e7eca64494.png?alt=media&token=833fe7be-8226-4570-934b-6b8dd8c7bfce",
+  "published": true,
+  "id": "cuufJgn927dcZCtueC5A"
+}

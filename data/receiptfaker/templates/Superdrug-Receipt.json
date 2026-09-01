@@ -1,0 +1,104 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Superdrug Receipt",
+  "description": "This receipt is issued by Superdrug for a retail pharmacy transaction at a store located in East Kilbride, Scotland, including full unit address and contact number. It contains structured POS identifiers such as cashier name, terminal and transaction codes, receipt number, store number, and VAT registration number. The receipt includes a clear date and time stamp in day-month-year format. A financial summary section presents balance due, cash payment, total items sold, and change given, along with a discount section highlighting multibuy savings and total discounts applied. Additional elements include promotional messaging related to NHS prescription services and an online pharmacy URL, followed by a standard thank-you message, indicating its use in a pharmacy and retail environment.",
+  "slug": "Superdrug-Receipt",
+  "createdAt": "$D2026-03-18T16:05:48.238Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "£",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F70e1b831-c674-40a9-98c8-3e7881e44be5-image%20(64).jpg?alt=media&token=b7586523-9ed8-460d-9b08-02f3de1498dc",
+      "size": 236,
+      "businessDetails": "UNIT LR 15B CENTRAL WEST\nEAST KILBRIDE, SCOTLAND\n01355 249842\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Mar 13, 2020 9:23 AM\n\n1505 1008 209128 100048 3",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ca532f6-fa24-4e65-8177-211d737c714d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e138e808-cdfa-48e8-b805-d8e70785adca",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "YOU HAVE SAVED\nTOTAL DISCOUNTS        1   -£3.99",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e48f84d-6fba-4c99-a38d-5dead54a223d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CASHIER NAME: Rihanna\nC0002   T002    14:31:35    7DEC2021\n\nRECEIPT NUMBER: 7622\nSTORE: 00640\nVAT NO: 777947160",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fc1512c-9bb4-4b56-b163-5237aea1b6e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "onlinepharmacy.superdrug.com/",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FgAlzB1gcvVcpgjnss0qx%2FgAlzB1gcvVcpgjnss0qx-4bd7cb80-8710-482f-8913-4ac58c189c5c.png?alt=media&token=50c47ba2-7db2-496d-85e0-c7123f986fa5",
+  "published": true,
+  "id": "gAlzB1gcvVcpgjnss0qx"
+}

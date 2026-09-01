@@ -1,0 +1,120 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": " Denny’s Restaurant Receipt",
+  "description": "This receipt is a restaurant takeout transaction from Denny’s Restaurant #6530 located at 2919 N. Tenaya Way, Las Vegas, NV 89128, with phone number (702) 360-9738 and website listed. It includes order number 742494, a timestamp of 11/23/2023 at 6:17:35 PM, server identification (TIFFANY H), and indicates a To Go order for 4 guests. The receipt presents subtotal, tax, gratuity, and a bolded Total of 87.60. The format reflects a casual dining POS system with location header, order tracking, server attribution, and structured financial summary typical of a multi-guest takeout transaction.",
+  "slug": "Denny's-Restaurant-Receipt",
+  "createdAt": "$D2026-03-02T15:02:36.395Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fea220eb2-f716-42ba-ae58-68e2749a72b7-image%20(19).jpg?alt=media&token=2595967d-eadb-4217-98eb-1893036f61d5",
+      "size": 236,
+      "businessDetails": "Denny's Restaurant #6530\n2919 N. Tenaya Way\nLas Vegas, NV 89128\n(702) 360-9738\nwww.dennys.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "541b5873-7eec-4118-a9a3-6d3f49edb494",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "11/23/2023                SO#:\nOrder: 742494             6:17:35 PM\nServer: TIFFANY H\nTable:\n\nTo Go\n4 GUESTS\nTurkey Dinner                 16.49",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "f700b674-1cda-41b6-ad6c-c0793c7c04df",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ac36ca9-429c-437e-bc0c-92fb135aea47",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fz7QngYJN107L1cSRVSZu%2Fz7QngYJN107L1cSRVSZu-e24e7c63-0f84-4630-9034-a7401d3a0d19.png?alt=media&token=1a9ed599-5fc9-4ad4-86d6-6c9c4db263a4",
+  "published": true,
+  "id": "z7QngYJN107L1cSRVSZu"
+}

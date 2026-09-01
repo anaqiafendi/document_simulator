@@ -1,0 +1,138 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T18:42:22.636Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "SPAR Store Receipt",
+  "description": "This receipt is a retail transaction issued by SPAR Stuiver, located at Anselstraat 1 in Winschoten, Netherlands. It includes store contact details, email, and website. The receipt presents an itemized purchase of Monchou cheese with quantity, unit price, and total amount. A financial summary shows subtotal and total, along with cash payment and change returned. VAT (BTW) details are included, indicating a 9% tax rate and the tax amount included in the total. Additional information includes cashier identification, register number, date, time, and store opening hours. The format reflects a standard Dutch supermarket POS receipt with VAT breakdown and transaction details.",
+  "slug": "SPAR-Store-Receipt",
+  "sections": [
+    {
+      "id": "85deabc2-2df6-4f7b-8933-7c85932b13d1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F707f7b05-2467-49e6-bc73-b54722264ea1-image%20(9).jpg?alt=media&token=9a260c04-7899-43c3-8d40-bb12d86d48aa",
+      "size": 244,
+      "businessDetails": "\nSpar Stuiver\nAmstelstraat 1\n9673 HX Winschoten\n0597-434747\nstuiverwinschoten@despar.info\nhttp://www.spar.nl/\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6501f275-68b8-4594-8919-d724fd2fe0b2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Omschrijving  P.st/kg",
+          "total": "Bedrag"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "EUR      EUR"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2853adee-782b-49d2-8585-dcf405473bcf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "2 Monchou Kaas   1.19",
+          "total": "2.38"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotaal",
+          "total": "2.38"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nTotaal",
+          "value": "\n2.38"
+        },
+        {
+          "title": "Contant",
+          "value": "5.40"
+        },
+        {
+          "title": "Wisselgeld (contant)  ",
+          "value": "-3.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ad60c51-7412-440e-a66d-8264731cb0ca",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "BTW groep",
+          "description": "BTW",
+          "total": "Incl."
+        },
+        {
+          "quantity": "9.00 %",
+          "description": "0.20",
+          "total": "2.38"
+        },
+        {
+          "quantity": "TOTAAL BTW",
+          "description": "0.20",
+          "total": "2.38"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4d34d6a9-9664-498a-82d5-4c7c79bd11b8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n2 artikelen\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2758e63b-5eb1-401a-bfe5-abc2e2312db6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nU bent geholpen door Caissière 1\nKassa 1\n04/05/2019  12:56 - Ref.Bon: 1.86342\n\nJe vindt het bij SPAR\nOpeningstijden:\nMa-Vr van 8:00 - 19:00\nZa van 8:00 - 18:00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "xXIpubLATGfB5hipt5Xf"
+}

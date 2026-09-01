@@ -1,0 +1,163 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T12:57:44.535Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Furniture Receipt",
+  "slug": "Furniture-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FNnfCjqH020GKfyPCKXvm%2FNnfCjqH020GKfyPCKXvm-e1c314ae-6eb6-4036-aee7-d50c1b1f9fcb.png?alt=media&token=eb91d67d-078d-4821-a7bb-356de18caac7",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fe9113a20-6ccf-42fe-a5b5-81e075667764-7558274_tools_construction_settings_icon.png?alt=media&token=b3aa70ce-4339-4a34-87d2-dc156606b679",
+      "size": 50,
+      "businessDetails": "Oak & Elm Furnishings, Inc.\n\n4587 Cedar Grove Lane, Portland, OR 97205\n(503) 742-3910\nUnited States\nwww.oakandelmfurnishings.com\n\nReceipt #: 0000340963\nReceipt date: 5/25/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Furniture Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Billed to: Olivia Harper\n789 Willow Creek Road\nMadison, WI 53703",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Living Room Chair",
+          "total": "200"
+        },
+        {
+          "quantity": "1",
+          "description": "Coffee Table",
+          "total": "100"
+        },
+        {
+          "quantity": "1",
+          "description": "Corner Sofa",
+          "total": "2500"
+        },
+        {
+          "quantity": 1,
+          "description": "TV Table",
+          "total": "500"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "3.300"
+        },
+        {
+          "title": "Tax",
+          "value": "0"
+        }
+      ],
+      "total": "3.300",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customers are encouraged to review their receipts immediately and report any discrepancies within 7 days. Any disputes regarding receipts or payments should be reported promptly and will be addressed within 10 business days. Receipts serve as proof of payment and include details such as date, amount paid, payment method, and items or services purchased.\n\nThank you for choosing Oak & Elm Furnishings.",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "1dbf3f71-9844-418e-b7c9-a64519a225c6",
+      "type": "DATE",
+      "alignment": "RIGHT",
+      "date": "5/25/2025, 3:58:34 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "description": "Need a furniture receipt? Create a custom receipt with our free tool. Add store info, item descriptions, quantities, prices, taxes, and payment method—ideal for delivery records, returns, or expense tracking.",
+  "published": true,
+  "metatitle": "Furniture Store Receipt",
+  "metadesc": "professional furniture store receipts with item details, quantities, prices, taxes, and payment info for tracking purchases",
+  "id": "NnfCjqH020GKfyPCKXvm"
+}

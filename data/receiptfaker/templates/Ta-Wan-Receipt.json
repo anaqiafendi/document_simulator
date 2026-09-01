@@ -1,0 +1,234 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T15:05:38.384Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "13fd4503-4b29-47c3-8e61-1629d10c2369",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbc1472cc-8460-404c-b69b-dcae0d8b609f-image%20(13).jpg?alt=media&token=5c9e9057-fb8e-463b-a0f3-658c057277aa",
+      "size": 265,
+      "businessDetails": "TaWan Citra Land\nCitra Land Ug-32-34\nJl. Arteri S. Parman, Tj. Duren Utara,\nGrogol Petamburan - Jakarta Barat",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "33676f34-d413-49b1-8765-6b5f9fc19165",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSales No   : STW01717780791087\nDate       : 06-05-2026 20:30\nTable      : 17\nPurpose    : DINE IN\nCashier    : Ramdani Fitri",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f6b067be-ef34-41ff-b661-ed157b60f554",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nEs Teh Manis",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "3x  @15.000",
+          "total": "45.000"
+        },
+        {
+          "quantity": "",
+          "description": "Nasi Putih",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "3x  @11.000",
+          "total": "33.000"
+        },
+        {
+          "quantity": "",
+          "description": "Kailan Spesial Dua Rasa",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @45.000",
+          "total": "45.000"
+        },
+        {
+          "quantity": "",
+          "description": "Sup Jagung Daging Kepiting",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @51.000",
+          "total": "51.000"
+        },
+        {
+          "quantity": "",
+          "description": "Tahu Sutra Goreng Lada Garam",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "1x  @39.000",
+          "total": "39.000"
+        },
+        {
+          "quantity": "",
+          "description": "Ayam Goreng Saus Madu",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @53.000",
+          "total": "53.000"
+        },
+        {
+          "quantity": "",
+          "description": "Udang Goreng Bawang Putih Garing",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @69.000",
+          "total": "69.000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2bb71058-014a-4020-936f-05745628faa6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "11 items",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "89b26e61-923b-4fbb-94b3-145d1f68cd3e",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Subtotal :",
+          "value": "335.000"
+        },
+        {
+          "title": "Service Charge :",
+          "value": "18.425"
+        },
+        {
+          "title": "PB1 :",
+          "value": "35.343"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd2e6f52-a0c4-4061-8fe4-7931a89f2d18",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Grand Total :",
+          "value": "388.768"
+        },
+        {
+          "title": "BANK BCA ",
+          "value": "388.768"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7c6dccca-76dc-4fce-8c69-7bc053b00bb7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nEat, Collect, Redeem!\nYuk daftar Eatwell Point sekarang\nGRATIS menu pilihan!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Ta Wan at the Citra Land branch, located at Citra Land L32–34, Jl. Arteri S. Parman, Tanjung Duren Utara, Grogol Petamburan, West Jakarta, Indonesia. The header includes the restaurant name, branch location, transaction number, transaction date, table number, service mode (DINE IN), and cashier identifier. The receipt concludes with a financial summary showing the Subtotal, Service Charge, PB1 (restaurant tax), Grand Total, and the payment method (Bank BCA). The footer contains promotional messages encouraging customers to use the Eat, Collect, Redeem! loyalty program and register for the Eatwell Point rewards program. This receipt represents a standard Indonesian full-service restaurant POS receipt featuring transaction metadata, service charge and tax reporting, electronic payment confirmation, and customer loyalty program information.",
+  "name": "Ta Wan Receipt",
+  "slug": "Ta-Wan-Receipt",
+  "published": true,
+  "id": "XKszAzH1xM4ubYBVbWI5"
+}

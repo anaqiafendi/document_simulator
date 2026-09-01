@@ -1,0 +1,129 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-21T16:04:22.201Z",
+  "description": "This receipt is issued by Dunelm and identifies the location as Reading, with store number 0670 displayed in the header. The receipt contains retailer branding, a customer-service message, and a VAT registration number. POS transaction metadata includes a transaction reference number, transaction date and time, till number, transaction ID, and payment-card information with a masked Mastercard account reference. The financial section records the transaction total, item count, and payment amount processed through the card transaction. A barcode is included for transaction tracking and audit purposes. The footer contains customer-survey and feedback invitations, online shopping references, a website address, and additional transaction-control information. The overall layout is representative of a United Kingdom home furnishings and retail POS receipt, combining VAT-compliant reporting, payment documentation, customer-engagement messaging, and transaction-tracking controls within a compact retail receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Dunelm Receipt",
+  "slug": "Dunelm-Receipt",
+  "sections": [
+    {
+      "id": "41595050-532b-4dda-94b7-778f642a0fe7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbc5b8b8f-845a-41c2-af13-b313e01c50af-image%20(15).jpg?alt=media&token=8324517b-2d64-49b7-8480-bbbf0c026402",
+      "size": 263,
+      "businessDetails": "\nReading – 0870\nThank you for shopping at Dunelm.\nIf you need help, please call us on\n0116 9304132\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60ad9e8c-3d95-4bcc-9544-a40775a0aa6c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VAT No. 818264021\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e20f3f4c-289c-45b5-89d3-5afee9a9a51b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n5054077136563",
+          "total": "\n£"
+        },
+        {
+          "quantity": "",
+          "description": "Beautiful Birds Crea",
+          "total": "34.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6e221669-3523-4c3c-97d6-b47575ab1a16",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total   1 Items",
+          "total": "34.99"
+        },
+        {
+          "quantity": "",
+          "description": "Mastercard",
+          "total": "-34.99"
+        },
+        {
+          "quantity": "",
+          "description": "***********9474",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e284782-22b4-4d60-858a-e45f090eed9b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "344dec5c-cf37-4878-84b0-2760d842fe7f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "00087000067831600051044 53\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "975a4e3a-853e-4aa2-9916-2ae3d59ca21a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHow do we measure up? Complete our short survey for a chance to win a £250 Gift Card Go to www.howdowemeasureup.co.uk\n\nLove Dunelm Products? Review your purchases online at\ndunelm.com\n\nFor more information please see reverse",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5587709f-6d1d-41c1-976c-7ed1e4f59b04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Today you were served by:\n\nMatthew\n\n\nYour Till transaction id:   7693\nTill number:   0006\n\n\n\n05/06/18   10:45   000870   0006   7693   0870215",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "XF7ewcd7K6Jctl0KDryF"
+}

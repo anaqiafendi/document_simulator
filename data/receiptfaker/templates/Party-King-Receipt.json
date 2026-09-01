@@ -1,0 +1,107 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Party King Receipt",
+  "description": "This receipt is issued by Party King and identifies the store as 169 Victoria Avenue, Wanganui, New Zealand. The header contains the Party King branding, store address, contact telephone number, email address, and tax registration information. The transaction section records the bill number, purchase date and time, and staff name. The receipt documents the purchase of one Wedding Wishing Well for $89.99, with a total quantity of one item and a final transaction amount of $89.99. Payment was completed using EFTPOS. The footer asks the customer to retain the receipt as proof of purchase, provides a customer appreciation message, and displays the Party King website.",
+  "slug": "Party-King-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T15:19:54.160Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "dcb3bf12-c26c-415e-ba12-a102ffae3485",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbc3db7d4-e32f-4af9-8552-71032d4a7094-image%20(2).jpg?alt=media&token=5e59c91a-c875-430a-bad9-c96f42398b4c",
+      "size": 278,
+      "businessDetails": "PARTY KING\n189 Victoria Ave Wanganui\nTel 06 345 0206\nEmail partyking2018@gmail.com\nSST Reg No. 126-123-094",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8ea20fc7-b393-43ab-b028-dbc0fd75bfe2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBill number                   001089\n29-09-2025 12:47               Joan",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "24e61490-13fd-45dc-97c3-8cbe7ee7c978",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nProduct        Qty   Price    Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7ac6261-6bef-4af1-b43d-62962eba2578",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nWedding Wishing Well",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7bc305f-98fc-40f2-b078-a440cd4e046f",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\n1    89.99    89.99",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1f944d7-1842-4251-bc6a-0947d2b86c90",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTotal QTY                      1.000",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1e1223d6-9579-4701-895a-ed6025279677",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nTotal ",
+          "value": "\n89.99"
+        },
+        {
+          "title": "Amount",
+          "value": "0"
+        },
+        {
+          "title": "EFTPOS",
+          "value": "89.99"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "22850d7c-7099-4c0f-9926-d0a164df7483",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nPLEASE RETAIN THIS RECEIPT AS\nPROOF OF PURCHASE THANK YOU FOR\nSHOPPING WITH PARTY KING!\nwww.partyking.co.nz",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "TZ9umvAXlnvN1XE1lDnq"
+}

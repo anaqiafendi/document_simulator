@@ -1,0 +1,117 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-22T07:47:22.030Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "60ee21fb-216d-4b2f-a858-52c117c952f1",
+      "type": "HEADER",
+      "alignment": "RIGHT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0ff9cf4d-6bfa-4675-9c11-8a6d6ce3f793-image%20(20).jpg?alt=media&token=262912fb-b4a5-4639-a46b-db7387cef5eb",
+      "size": 261,
+      "businessDetails": "DESCRIPTION     QTY    UNIT    TOTAL  \n                        PRICE  PRICE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c74b1d9-8341-456a-885a-35bac7bbe721",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "TYLENOL ARTH 650M",
+          "description": "1",
+          "total": "$$7.09  $7.09"
+        },
+        {
+          "quantity": "BAYER CHILDRENS A",
+          "description": "1",
+          "total": "$$2.69  $2.69"
+        },
+        {
+          "quantity": "PRESCRIPTION",
+          "description": "     1",
+          "total": "$$59.55  $59.55"
+        },
+        {
+          "quantity": "PRESCRIPTION",
+          "description": "     1",
+          "total": "$$95.99  $95.99"
+        },
+        {
+          "quantity": "PRESCRIPTION",
+          "description": "     1",
+          "total": "$$9.16  $9.16"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSUBTOTAL",
+          "total": "\n\n$174.48"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "$$174.48"
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "$$174.48"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE DUE",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4b39128-aa1a-4d52-bb62-aef6570d28e7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nYou could be earning money back. Ask\nour cashier about our Cash Back Plan.\nLoyalty Level: 1\nCurrent Points: 0\nTodays Points: 174\nBonus Points: 0\n\nPatient Counseling Declined\nReceipt #: 330\nClerk: RMS\nRegister #: 32\nDate/Time: 06/18/2015 13:19:57\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6992dc19-4b3b-43ec-80a5-c15aaab29cce",
+      "type": "BARCODE",
+      "size": 80,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "507615f7-6067-4b8f-a588-57cc2ab3a30a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "470320 003300\n\n\nWWW.RM-SOLUTIONS.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "name": "Retail Management Solutions Receipt",
+  "description": "This pharmacy retail receipt from Retail Management Solutions documents a cash transaction processed through an RMS pharmacy POS system. The receipt includes prescription identifiers, register number, receipt number, cashier/clerk metadata, barcode formatting, and full timestamp information. The transaction structure contains quantity, unit price, total price, subtotal, total, cash tendered, and change due fields aligned in standard pharmacy POS formatting. Additional receipt elements include prescription markers, loyalty points tracking information, patient counseling acknowledgment text, promotional cashback messaging, website references, and transaction barcode identifiers. The layout reflects a standard North American pharmacy thermal receipt with integrated prescription processing and loyalty program formatting.",
+  "slug": "Retail-Management-Solutions-Receipt",
+  "published": true,
+  "id": "VaUP33zWsFTmZ33PyVs6"
+}

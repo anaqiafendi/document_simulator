@@ -1,0 +1,109 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T09:47:22.022Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "9ca2653b-50a1-444e-9861-c56077c72965",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "WELCOME TO\nCORTEZ MARATHON\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5450e20-c465-49a6-aaeb-269a5709123a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "148925-01 CORTEZ MARATHON\n5804 CORTEZ RD, BRADENTON FL\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02319148-6a7c-4280-87d5-69ede53fd1e9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Descr.  ",
+          "description": "           qty",
+          "total": "amount"
+        },
+        {
+          "quantity": "<CUSTOMER COPY>",
+          "description": "",
+          "total": "2.50"
+        },
+        {
+          "quantity": "1 TAXABLE GROCER",
+          "description": "     1",
+          "total": "2.50"
+        },
+        {
+          "quantity": "1 TAXABLE GROCERY",
+          "description": "    1",
+          "total": "5.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n\nSubtotal",
+          "value": "\n\n8.49"
+        },
+        {
+          "title": "Tax",
+          "value": ".55"
+        },
+        {
+          "title": "TOTAL",
+          "value": "9.04"
+        },
+        {
+          "title": "DEBIT",
+          "value": "9.04"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1315a719-bbed-4ec1-bdfd-1b6357c7a1d4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nPAYMENT TIME: 17:27:32\nCARD TYPE: DEBIT\nCARD NAME: TOM J CERRIGIONE\nACCT NUMBER: XXXXXXXXXXXX8417\nEXP. DATE:            TRANS TYPE: SALE\nAUTH#: 052817  00  DOC #: 59028\n\n\nDEBIT AUTH: Interlink        962400\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa9a4241-ab19-4519-9d59-6ef9b41903d0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "************************************\n   Earn up to $.25 on\n   Marathon purchases\n   with Marathon Visa\n************************************\n\n\n\n THANKS, COME AGAIN\n\nST# 100 TILL XXXX DR# 1 TRAN# 1011022\n\nCSH: 1             03/03/15 17:27:36",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Circle K Marathon Receipt",
+  "description": "This receipt is issued by Circle K Marathon and identifies the location as 18000 Cortez Boulevard, Brooksville, Florida. The header contains store branding and location details, followed by an itemized purchase summary with quantities and line totals. The financial section records the subtotal, sales tax, and final transaction total. The payment section documents settlement by Visa Debit using an Interlink debit network and includes transaction time, checking-account designation, masked account number, authorization code, transaction type, and payment network information. The footer promotes the Marathon Visa rewards programme, encouraging customers to earn fuel rewards, and concludes with store, register, cashier, transaction identifiers, and a customer appreciation message. The overall layout is representative of a United States convenience store POS receipt, combining retail sales reporting, debit-card authorization, rewards promotion, and transaction reconciliation within a compact receipt format.",
+  "slug": "Circle-K-Marathon-Receipt",
+  "published": true,
+  "id": "zHH988YjZKQiAiGcQnF7"
+}

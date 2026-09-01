@@ -1,0 +1,112 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T10:37:52.514Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "39ad7cd9-eba0-46b8-8fb7-50736952536c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8834c525-7da6-4144-939f-641277a73bbd-image%20(3).jpg?alt=media&token=42c6a88f-1741-4092-ab79-8096501e7ed7",
+      "size": 249,
+      "businessDetails": "\nPILOT STORE 073\n7001 Highway 21\nFort Wentworth, GA 31407\n(912) 964-3706\n01/20/2021\n\nQSR COUNTER\nDINING ROOM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0d50d3fb-70a7-4863-abb5-cc9a905fdc73",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSALE  \nTransaction #: 9045712",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aab7ebc5-2cca-431c-a994-7e678577f32e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nQty Name          Price    Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9ec6f60-df48-49fa-887c-722a26f6bbfe",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1 Wrap Egg & Cheese    7.49   7.49",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "79f3f68a-0754-4f74-9ec2-6b0646130320",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSubtotal                        7.49\nSales Tax                       0.52",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7c832b3-d0d0-4d57-a904-535ea8d4ce5c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDebit Card                     8.01\nXXXXXXXXXXXX8965\nAPPROVED\nAuth #: 322351              INSERTED\n\nGen Merch Retail               -0.52\n------------------------------------\nTotal                          8.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b62e78d-2b0d-4b99-8263-75aa39ea17f1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\"LETTUCE\" KNOW WHAT\n    YOU THINK BY\n    TAKING OUR\n    1 MINUTE SURVEY\n\n    GET A FREE\n    DRINK OR TWO\n    FREE COOKIES\n    WITH YOUR NEXT\n    SANDWICH\n\n    WWW.SUBWAYLISTENS.COM\n\n    SUBWAY STORE# 29904\n\n    Please use LAST\n    6 Digits shown\n    to Transaction Number\n------------------------------------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b31181e-dcf2-45ba-adfb-155f2e21c866",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a49cb3b2-9e5c-4cf2-a20a-1ff074da0482",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0270980712",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0f7f40c-f3fe-4192-bf4d-cbf09d45fd20",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPos: 9 Clerk: 01/20/2021  08:32:40\n-----------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Pilot Receipt",
+  "description": "$3e",
+  "slug": "Pilot-Receipt",
+  "published": true,
+  "id": "5w5FPtA2dHGp9Pc0IYWZ"
+}

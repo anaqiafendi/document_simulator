@@ -1,0 +1,145 @@
+{
+  "sections": [
+    {
+      "id": "4b3fc500-6839-4d10-8153-0b2d609e9f9c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F027a2223-bc7f-4ede-9663-12aaa151c6b9-image%20(7).jpg?alt=media&token=f19f17f4-3760-43e9-98d2-82e166a2855b",
+      "size": 230,
+      "businessDetails": "Farleys\n1 Airport Dr\nOakland,CA 94621\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "57452058-b057-42c7-b57e-b97b289cca04",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Server: Mayela L",
+          "value": "Jay"
+        },
+        {
+          "title": "Check #187",
+          "value": ""
+        },
+        {
+          "title": "Guest Count: 1 ",
+          "value": ""
+        },
+        {
+          "title": "Ordered:",
+          "value": "10/31/24 7:45 AM"
+        },
+        {
+          "title": "\n1 Egg Sandwich ",
+          "value": "\n$10.70"
+        },
+        {
+          "title": "Add Cheddar",
+          "value": "$$0.85"
+        },
+        {
+          "title": "bacon ",
+          "value": "$$2.85"
+        },
+        {
+          "title": "1 18oz Latte ",
+          "value": "$$6.85"
+        },
+        {
+          "title": "Iced",
+          "value": "$$0.90"
+        },
+        {
+          "title": "Almond",
+          "value": "$$4.00"
+        },
+        {
+          "title": "1 Orange Juice",
+          "value": "$$6.85"
+        },
+        {
+          "title": "1 12oz Vanilla Latte",
+          "value": "$$10.70"
+        },
+        {
+          "title": "1 Egg Sandwich",
+          "value": "$$3.00"
+        },
+        {
+          "title": "Ham + Cheddar",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "10e7547b-b2cc-4061-88a3-1eb7cd960b5c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nAirline employee discount 10% (10.00%)  -$4.66",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ecb4aee3-fd5b-4a9d-bcc0-0404bf484cd2",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\n$48.60",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c7a503f0-1048-4d97-8bd1-5d9e6a9a9c4e",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nPre-discount Subtotal",
+          "value": "\n$2.33"
+        },
+        {
+          "title": "Discount Total",
+          "value": "$$44.27"
+        },
+        {
+          "title": "EE Surcharge (5.00%)",
+          "value": "$$4.05"
+        },
+        {
+          "title": "Total",
+          "value": "$$48.82"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "56ea190a-111b-4b3b-b365-814341968c5a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for your visit!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-22T19:04:46.871Z",
+  "imageUrl": "",
+  "name": "Farley's Receipt",
+  "slug": "Farley's-Receipt",
+  "description": "This receipt is issued by Farley's and identifies the location at Airport Drive, Oakland, California 94621. The transaction section contains the server name, check number, guest count, and order date and time. The order includes Egg Sandwiches with additions such as cheddar, bacon, and ham, an iced almond latte, orange juice, and a vanilla latte. The receipt also records a 10% airline employee discount of $4.66, reducing the pre-discount subtotal of $46.60. A 5% employee-related surcharge of $2.33 is subsequently applied. The visible lower financial section shows $44.27 before the displayed $4.55 tax, resulting in $48.82. The receipt reflects a food-and-beverage transaction associated with an airport-area café.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "fw7XVtMMqEfMdqs20PZN"
+}

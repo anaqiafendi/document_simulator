@@ -1,0 +1,150 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T11:23:21.857Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Le Saint Flo Restaurant Receipt",
+  "description": "This receipt is from Le Saint Flo, a restaurant located in La Colle-sur-Loup, France. It records a dine-in meal for three guests including draft beers, soda, daily specials, and espresso coffees. The receipt includes table number, server and cashier information, VAT breakdowns for both 10% and 20% French tax rates, and the final total including service. It also notes that service is included in the net price. The format reflects a standard French restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "b8586b96-d453-45be-94b7-abe326761c56",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "LE SAINT ELOI\n84 AVENUE GEORGES CLEMENCEAU\n06480 LA COLLE SUR LOUP\nTEL 04 93 32 62 10\nSIRET : 419 545 496",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7507c9e-3c87-43ff-b5dd-d0dcb3bd7c5d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nEdition de la note\n\nTABLE 14\n3 Couverts\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4ba4bb5-c8d3-41e3-a8d0-91f76baebf1e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Samedi 14 Mars 2026",
+          "total": "Heure: 13:24"
+        },
+        {
+          "quantity": "",
+          "description": "Serveur: DIRECTION",
+          "total": "CAISSE01"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nArticle",
+          "value": "\nP.U € Total"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4b1ff120-c7c9-415a-b82e-766c37e6517a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Pression 25cl",
+          "total": "3,50 7,00"
+        },
+        {
+          "quantity": "",
+          "description": "Soda",
+          "total": "3,50 3,50"
+        },
+        {
+          "quantity": "",
+          "description": "PLAT DU JOUR",
+          "total": "14,00 42,00"
+        },
+        {
+          "quantity": "",
+          "description": "Expresso",
+          "total": "2,00 4,00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "55a4254e-08e9-45af-be0d-ead1f17b1ffe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL VENTE TTC:",
+          "total": "56,50 €"
+        },
+        {
+          "quantity": "Tva ",
+          "description": "  HT              TVA    ",
+          "total": "TTC"
+        },
+        {
+          "quantity": "Tva ",
+          "description": "  45,00           4,50  ",
+          "total": "49,50"
+        },
+        {
+          "quantity": "",
+          "description": "10,00%",
+          "total": ""
+        },
+        {
+          "quantity": "Tva ",
+          "description": "   5,83           1,17  ",
+          "total": "7,00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "31a611ff-78cb-4463-8962-6dd4d3bc4663",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nPrix Nets – Service Compris\nMerci de votre visite a bientot\n* * * * * * * * * *",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Le-Saint-Flo-Restaurant-Receipt",
+  "published": true,
+  "id": "FmROXNm756Wcaxjr8Fqx"
+}

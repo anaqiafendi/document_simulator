@@ -1,0 +1,132 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "McDonald's Receipt",
+  "slug": "McDonald's-Receipt",
+  "createdAt": "$D2025-09-29T10:25:39.169Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F2a286447-0098-4ac2-a690-8f48c2538690-11103488.png?alt=media&token=40dfb32d-55b2-427d-9bd2-0f22e6a42cc5",
+      "size": 207,
+      "businessDetails": "Tell us about your visit! Go to mcdvoice.com and enter Survey Code: 745905. Complete the survey for a chance to win a free McDonald’s item. Thank you!",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "69c96506-a789-474e-a627-d75712e85474",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "McDonald’s Restaurant #2850\n1528 Broadway\nNew York, NY 10036\nTEL# 917-409-5946",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Big Mac",
+          "total": "5.49"
+        },
+        {
+          "quantity": "1",
+          "description": "M Fries",
+          "total": "2.39"
+        },
+        {
+          "quantity": 1,
+          "description": "M Coca-Cola",
+          "total": "1.89"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "9.77"
+        },
+        {
+          "title": "Tax",
+          "value": "0.87"
+        }
+      ],
+      "total": "10.64",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0171e022-1d21-4b87-b2f1-a15a5aa29146",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "951a19e7-aea3-4f45-817d-2be92dfb3457",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "MyMcdonald's Reward Member?\nCheck the app to see points earned!\nSign up for MyMcdonald's rewards\nto earn points on future visits",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FMVloj47f2YOUTjMDnNq2%2FMVloj47f2YOUTjMDnNq2-424edb63-99df-4727-95de-b04bcf147484.png?alt=media&token=27deb071-7c67-45b8-8d06-d8c85d03080d",
+  "description": "Need a McDonald’s receipt? Quickly make a custom fast-food receipt with our free tool. Enter restaurant details, order items, prices, tax, and payment—perfect for tracking meals, budgeting, or reimbursement records.",
+  "published": true,
+  "metatitle": "McDonald's Receipt",
+  "metadesc": "realistic McDonald's receipts featuring your chosen menu items, prices, location details, and payment information quickly",
+  "id": "MVloj47f2YOUTjMDnNq2"
+}

@@ -1,0 +1,86 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "MIU MIU Receipt",
+  "slug": "MIU-MIU-Receipt",
+  "createdAt": "$D2026-02-28T13:04:32.172Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F34YLcefCTKdGSUyJulUKjeROSIs1%2F7110793b-8ff0-4bc5-9649-274a0e5a8ce0-Miu-Miu-Logo.jpg?alt=media&token=afd950b9-dc40-4fb0-9781-0d9c8d0b2a91",
+      "size": 142,
+      "businessDetails": "MIU MIU SANT'ANDREA\nPRADA SPA\nVia Sant'Andrea, 21\n20121 Milano(MI)\nP. IVA 10115350158\nTel. 02/76001799\n\nDOCUMENTO COMMERCIALE\ndi vendita o prestazione\n\nDECRIZIONE        IVA     Prezzo(€)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Giubbotto in tessuto tecnico\n    1.0 Unita x 3.000,29\n/ea\n              x 3.000,29\n9168865319048     22,00%    3.000,29\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "7e548899-222b-4bc9-bbf9-7718e782fb14",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TOTALE COMPLESSIVO          3.000,29\ndi cui IVA                    242,06\n\nPagamento contante          3.242,35\nImporto pagato              3.242,35\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "40176f69-04b8-412f-b8a3-3084e7234caf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " 21-09-2025 18:09\nDOCUMENTO N. 0989-0027\n\nRT 99MEX087991\n\nDETTAGLIO FORME di PAGAMENTO",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe07e008-28c0-47fa-966e-821db1247643",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Euro                        3.242,35\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d73ff51c-1362-43d9-a457-d49e2ffbf07e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Negozio: 20450       Registratore: 2\nData: 21/09/25       Ora: 6:09 PM\nTicket: 61152\nAdetto vendito: 00549551\nCassiere: 00549657\nCliente: 0031360598",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3eafa930-e3ca-4176-b6e9-b1f5a120a650",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by MIU MIU Sant’Andrea, located at Prada SPA, Via Sant’Andrea 21, 20121 Milano (MI), Italy, and includes full company registration details, VAT number, and contact information. The document is labeled “DOCUMENTO COMMERCIALE di vendita o prestazione” and contains transaction date and time (21-09-2025, 18:09), document number 0989-0027, register number (Registratore: 2), sales associate identifier (Addetto vendita: 0054951), cashier number (Cassiére: 0054957), and client ID (Cliente: 003136598). It presents structured pricing with VAT breakdown, subtotal, total including VAT, and payment method (Pagamento contante), along with import paid confirmation. The receipt concludes with detailed payment summary, store number (Negozio: 20450), and terminal number (RT 998EM087991). The format reflects a European luxury apparel retail POS system with full fiscal compliance and VAT reporting.",
+  "metatitle": "Luxury Chanel Receipt",
+  "metadesc": "authentic Chanel luxury receipts with customizable boutique details, item information, and payment methods for any purpose",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FEqBDD0ESswXqyQlAzWVh%2FEqBDD0ESswXqyQlAzWVh-a19006dc-40ab-4ff1-aaac-1350b1cae10f.png?alt=media&token=a637a286-07a1-48a7-8989-7b7987b9e2a4",
+  "published": true,
+  "id": "EqBDD0ESswXqyQlAzWVh"
+}

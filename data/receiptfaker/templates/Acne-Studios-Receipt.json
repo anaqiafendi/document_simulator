@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Acne Studios Receipt",
+  "description": "This receipt represents a retail transaction from Acne Studios located at Floragatan 13 in Stockholm, Sweden, including full store address and contact number. It contains standard POS identifiers such as VAT number, receipt number, transaction reference, terminal ID, and a placeholder for sales personnel. The receipt includes a structured itemization section followed by a financial summary with subtotal, VAT (MOMS 25%), and total amount. Payment method is recorded as a masked Mastercard transaction. The document concludes with tax percentage confirmation and a multilingual return and refund policy, including a 14-day studio credit notice and brand website reference, typical of fashion retail POS systems.",
+  "slug": "Acne-Studios-Receipt",
+  "createdAt": "$D2026-04-01T13:56:31.456Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "6a418e73-5ac6-46e1-ae1b-a1322fb6995e",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F956ed0b1-ea6e-443d-9ef5-ffbd7c1e9705-image%20(4).jpg?alt=media&token=3ce242c0-6609-41c9-a41b-bd6f6951c5ef",
+      "size": 180,
+      "businessDetails": "Acne Studios\nFloragatan 13\n114 31 Stockholm\nSweden\n+46852299600",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cdcfb09d-5494-4a2e-a4cd-7439a01fabff",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VAT No......: 17 164 543 113\nReceipt No..: 1394573\nAUXEL0201571000383\nTransaction.: 04030534\nTerminal....: 1046\nSales Person: .....\nComments....:\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7d6d485-6dad-4996-9d2c-41b278841e7c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Artikel  QTY  PRIS   SUMMA",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d94c5c4b-70e1-4e7c-9a15-db59f168424a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "FN-UX-TSH100016\nAcne Langarm 1 3500.00 SEK   3500.0\nSvart\nS\n\nPase     1     5.00 SEK      5.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "375bc4f8-ba10-46fb-ad05-263dfd107701",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Totalt                     3505.00\nTotal MOMS 25%             876.25\n\nKORT MASTERCARD **** **** **** 5394",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "115624fe-9468-4436-a393-e6e155e73de9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "MOMS PROCENT 25%",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd37ffe8-745a-4679-9b76-03a3c605a9da",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tack for att du handlade hos\nAcne Studios. Vi erbjuder\naterbetalning och byte till\nStudio-kredit inom 14 dagar.\n\nVi ser fram emot att valkomna\ndig tillbaka.\nwww.acnestudios.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3MIjKfig9dy9JwbhbhvG%2F3MIjKfig9dy9JwbhbhvG-ca9ef2b6-888d-4be5-b17b-f00939246ec9.png?alt=media&token=5e78a6f8-7c0b-4a86-abfc-1f41340087b4",
+  "published": true,
+  "id": "3MIjKfig9dy9JwbhbhvG"
+}

@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Big Lots Receipt",
+  "description": "This receipt is issued by Big Lots, a discount retail chain, and includes store identifier #4246 located on Whittier Blvd in Whittier, California, along with a printed contact phone number. The receipt follows a structured retail POS format featuring a customer ID, transaction timestamp (02/23/2023 4:30 PM), and a transaction reference code. It includes a central barcode section with encoded transaction identifiers and register details. The financial summary section presents total discount, subtotal, taxable amount, state tax rate (CA 10.25%), calculated tax, and final total. Payment details indicate an American Express transaction with masked account reference, token, authorization code, transaction routing identifier, and chip read entry mode. Additional formatting elements include section headers such as “SALE,” non-returnable notice, and aligned totals consistent with modern POS receipt systems used in large-format retail stores.",
+  "slug": "Big-Lots-Receipt",
+  "createdAt": "$D2026-03-22T18:31:22.797Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F033d823d-d278-45b4-ae81-edd7fba4656b-image%20(2).jpg?alt=media&token=3a4fb9ee-6107-484f-8ed5-a512e2fa7de5",
+      "size": 236,
+      "businessDetails": "BIG LOTS STORES - #4246\n13241 WHITTIER BLVD\nWHITTIER CA 90602-3050\n562-693-0717\n",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCustomer: 9442712\n02/23/2023 4:30 PM      C1842611",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ce6c4c76-a9f6-4d36-a3ef-6529722cbbca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "16a7b3b7-07d0-497f-b4f9-6372c402339c",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "648458b5-512d-4b39-955b-d5117d2cd5b4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "S04246 R002 T6578 D20230223 X00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f8890cd9-8900-4ba3-9d3b-c01ea6977882",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5718394-554d-4a6c-aad3-cd990972a587",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "37bc9afb-4f37-46d7-9ae0-a35ca71d93d6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping at Big Lots!\n************************************\nJoin the friendliest store in town!\nNow Hiring Part Time Associates\nCompetitive hourly wage\n30% employee discount on\nmost items (some exclusions apply)\nApply online at www.biglots.com/careers\n************************************\n\nLET US KNOW HOW WE ARE DOING!\nTAKE THE BIG LOTS CUSTOMER SURVEY\nAND TELL US WHAT YOU THINK!\nYOU COULD WIN A $1000 BIG LOTS GIFT CARD!\n\nComparta su opinion en una breve\nencuesta para la oportunidad de ganar.\n\nNo Purchase Necessary. Enter for a\nchance to win a $1000.00 Gift Card. One\nPrize winner is announced monthly.\nSweepstakes ends 10/30/21. Must be 18\nyears old to enter. Please visit\nwww.biglots.com/survey",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FYJgmxzWYanU4LkHCEEcy%2FYJgmxzWYanU4LkHCEEcy-b1329e32-9c8d-472f-80b0-782c557f0b06.png?alt=media&token=0e622bc9-9b30-47e3-8a7b-579ad5f615ca",
+  "published": true,
+  "id": "YJgmxzWYanU4LkHCEEcy"
+}

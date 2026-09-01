@@ -1,0 +1,163 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T15:55:03.832Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Lawyer Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F1583690b-e195-4793-a840-884a07b45e64-11019362_auction_court_hammer_chairman_gavel_icon.png?alt=media&token=6cfe20fa-eba1-45e4-971e-7d2845c53dea",
+      "size": 50,
+      "businessDetails": "Stonebridge Legal Associates, PLLC\n485 Maple Avenue, Suite 320\nBoston, MA 02116\n(617) 555-4621",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Lawyer Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to:\nName: Olivia Harper\nAddress: 742 Evergreen Terrace, Springfield, IL 62704\n(217) 555-8392\nolivia.harper92@example.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Initial Consultation",
+          "total": "250.00"
+        },
+        {
+          "quantity": "3",
+          "description": "Contract Review & Drafting",
+          "total": "500.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Estate Planning Package",
+          "total": "100.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Business Formation & Filing",
+          "total": "850.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "2,800.00"
+        },
+        {
+          "title": "Tax",
+          "value": "196.00"
+        }
+      ],
+      "total": "2,996.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please note that legal fees are generally non-refundable. Initial consultation fees are payable upfront. Cancellations or rescheduling of appointments require at least 24 hours’ notice. No-shows or late cancellations may incur a fee of 50% of the scheduled appointment cost.\n\nFor billing questions or concerns, please contact our office at (617) 555-4621 or email billing@stonebridgelegal.com.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c99f2d9-5993-49a3-863b-24e54b1f7943",
+      "type": "DATE",
+      "alignment": "RIGHT",
+      "date": "5/25/2025, 3:32:56 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Lawyer-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FPPJO4aY7qGk34nk6iRDc%2FPPJO4aY7qGk34nk6iRDc-77e7cc98-91f4-4ef1-bbc3-6a583d9d9999.png?alt=media&token=fcc772e7-7866-464a-8e4c-e02d4fe8f437",
+  "description": "Need a lawyer receipt? Our free generator helps you create a clear, professional legal services receipt. Enter attorney details, case type, hours billed, fees, and payment info—perfect for client records or reimbursements.",
+  "published": true,
+  "metatitle": "Legal Services Receipt",
+  "metadesc": "professional legal services receipts with attorney details, case info, billable hours, and fees using our free generator tool",
+  "id": "PPJO4aY7qGk34nk6iRDc"
+}

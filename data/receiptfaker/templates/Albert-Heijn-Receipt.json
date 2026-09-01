@@ -1,0 +1,183 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T10:54:01.772Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Albert Heijn Receipt",
+  "description": "This receipt is from Albert Heijn Schiphol, a supermarket and convenience store located at Schiphol Airport in the Netherlands. It records the purchase of sandwiches and a beverage item, along with pricing, subtotal, VAT details, and cash payment information. The receipt includes Dutch tax calculations under the 9% BTW rate, amount paid, and change returned. It also references the Albert Heijn Bonus loyalty system and store contact information. The format reflects a standard Dutch supermarket POS receipt.",
+  "sections": [
+    {
+      "id": "9196969c-76d3-46c1-9993-ee9c37603439",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Albert Heijn Schiphol\nAankomstpassage 36\n020-3540138\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd657725-56e3-462e-a6d2-74c4927ffeb2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\nAANTAL   ",
+          "description": "OMSCHRIJVING  PRIJS  ",
+          "total": "\nBEDRAG"
+        },
+        {
+          "quantity": "",
+          "description": "       AH BONUS NR",
+          "total": "xx0012"
+        },
+        {
+          "quantity": 1,
+          "description": "       AH BONUS NR",
+          "total": "2.57"
+        },
+        {
+          "quantity": 1,
+          "description": "       AH BONUS NR",
+          "total": "2.57"
+        },
+        {
+          "quantity": 1,
+          "description": "       DE APPELAERE",
+          "total": "1.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e19167d5-3a04-4413-8747-7f2ec221b3df",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "3",
+          "description": "SUBTOTAAL",
+          "total": "7.13"
+        },
+        {
+          "quantity": "",
+          "description": "UW VOORDEEL",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "waarvan",
+          "value": ""
+        },
+        {
+          "title": "Uw Persoonlijke Bonus",
+          "value": "0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4eaa651e-68cb-4ba0-9e0f-2a093cc543ee",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TE BETALEN",
+          "total": "7.13"
+        },
+        {
+          "quantity": "",
+          "description": "BETAALD MET:",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "CONTANT",
+          "value": "10.15"
+        },
+        {
+          "title": "TERUG",
+          "value": "3.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f1fbfd0c-9372-426b-a6b1-0a49e06578d0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "BTW",
+          "description": "OVER",
+          "total": "EUR"
+        },
+        {
+          "quantity": "9%",
+          "description": "6.54",
+          "total": "0.59"
+        },
+        {
+          "quantity": "TOTAAL",
+          "description": "6.54",
+          "total": "0.59"
+        },
+        {
+          "quantity": "1653",
+          "description": "3     869",
+          "total": "83"
+        },
+        {
+          "quantity": "",
+          "description": "17:17",
+          "total": "12-05-2019"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "734bce76-2080-471d-b82f-66af238c676c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nBedankt voor uw bezoek\nen tot ziens !\nfacebook.com/AlbertHeijnSchiphol",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Albert-Heijn-Receipt",
+  "published": true,
+  "id": "Kz5E3eAUd5n1ecHyU7cc"
+}

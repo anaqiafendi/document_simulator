@@ -1,0 +1,142 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-29T09:07:53.246Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e3a1846f-cd27-4fc6-a8ca-81e84468f307",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "The John Hewitt\n51 Donegall Street\nBelfast\nBT1 2FH\nTel: 028 9023 3768\nwww.thejohnhewitt.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa0bdf6a-f3f6-4979-9827-e6e8e9dd31ce",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n*Guinness ",
+          "total": "\n£2.50"
+        },
+        {
+          "quantity": "",
+          "description": "*Open Food",
+          "total": "£5.95"
+        },
+        {
+          "quantity": "",
+          "description": "*Americano coffee",
+          "total": "£1.15"
+        },
+        {
+          "quantity": "",
+          "description": "*Powers",
+          "total": "£2.20"
+        },
+        {
+          "quantity": "",
+          "description": "*Pork Schnitzel",
+          "total": "£6.50"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "---------"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal: ",
+          "total": "\n£18.30"
+        },
+        {
+          "quantity": "",
+          "description": "--------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "16:",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "--------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nPaid By:",
+          "total": "\nCash      £18.30"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6327f798-decb-42b3-88b0-bfe7439f42c1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNo Change Due",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0797fcfb-b7ff-45db-9621-9c439da2f08d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n20/09/2005  13:27",
+          "total": "\n001-02-00142"
+        },
+        {
+          "quantity": "",
+          "description": "Janet",
+          "total": "Items: 5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2bab209a-0b2c-464a-94c7-bc58ac4ba419",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nMerci Bedankt Dekuji Danke Dziekuji\nGo Raibh Maith Agat Thank you\nDakujem Arigato Gracias Takk Fyrir\nVAT No. 517 3567 36",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by The John Hewitt and identifies the establishment as 51 Donegall Street, Belfast BT1 2FH, United Kingdom. The header contains the venue name, address, contact telephone number, and official website. The receipt records the purchase of Guinness, Open Food, American Coffee, Powers, and Pork Schnitzel. The financial section records the final total of £18.30, confirms that the payment was made in cash, and indicates that no change was due. The footer contains the transaction date and time, receipt number, cashier name, item count, a multilingual \"thank you\" message, and the business VAT number. The overall layout is representative of a United Kingdom pub and restaurant POS receipt, combining food and beverage itemization, cash payment confirmation, and business information within a compact hospitality receipt format.",
+  "name": "The John Hewitt Pub Receipt",
+  "slug": "The-John-Hewitt-Pub-Receipt",
+  "published": true,
+  "id": "4MvGfc4lm5mAg8RHhd2l"
+}

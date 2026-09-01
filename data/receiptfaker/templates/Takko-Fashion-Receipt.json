@@ -1,0 +1,267 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T08:23:51.650Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "b3b64a52-06e3-4a07-9546-90f09d2614c9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4bf075ff-fe0d-40ee-933a-607d4248924b-image.jpg?alt=media&token=01d34dea-96a6-4fec-810d-03605d5c0f51",
+      "size": 287,
+      "businessDetails": "Takko Fashion Polska Sp. z o.o.\n54-204 Wrocław, ul. Legnicka 56\nSklep 3449 CH TALGO\nNIP: 797008449\nNIP: 525-237-21-46, BDO : 000050209\n26-110 Skarzysko Kamienna\nMetalurgiczna 5\nNIP 525-237-21-46\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd811c06-10b1-4c60-8585-8ebaca9e31ef",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "nr urdz. 170404/0994\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "38efb70c-a738-470d-a62d-e50be2ad728f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PARAGON FISKALNY\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3b53f227-d66e-4cf1-b57e-ad61a9754e16",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "234 Cz.dolne trykotowe",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "820583910301000 866",
+          "total": "1pcs *39.99  39.99 A"
+        },
+        {
+          "quantity": "",
+          "description": "OPUST 234 Cz.dolne trykotowe",
+          "total": "-3.20 A"
+        },
+        {
+          "quantity": "",
+          "description": "234 Cz.dolne trykotowe",
+          "total": "-7.36 A"
+        },
+        {
+          "quantity": "",
+          "description": "820929610401G6",
+          "total": "1pcs *39.99  39.99 A"
+        },
+        {
+          "quantity": "",
+          "description": "OPUST 234 Cz.dolne",
+          "total": "-3.20 A"
+        },
+        {
+          "quantity": "",
+          "description": "trykotowe",
+          "total": "-7.36 A"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad975b53-a414-4b52-9f82-a05f44e1e7ef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Suma Opustów",
+          "total": "21.12 A"
+        },
+        {
+          "quantity": "",
+          "description": "Sprzed. opod. PTU A ",
+          "total": "58.86"
+        },
+        {
+          "quantity": "",
+          "description": "Kwota PTU A 23.00% ",
+          "total": "11.01"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PTU ",
+          "total": "11.01"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PTU ",
+          "total": "58.86"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "569e226c-4d42-47cd-8280-d29dde0b4772",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ROZLICZENIE PŁATNOŚCI\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "32c03b05-c2e2-4683-abae-f42f08d696b4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Płatność",
+          "total": "EFT Card 58.86"
+        },
+        {
+          "quantity": "",
+          "description": "Wpłacono razem",
+          "total": " 58.86"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9a862e3f-a59d-4d9d-88d6-fc70abaf57e3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "000050/0994",
+          "total": "#001 Produkcja"
+        },
+        {
+          "quantity": "",
+          "description": "2023-06-17",
+          "total": "13:12"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f2bab09-f977-42d4-a0d4-f07e7729e45b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n70B0C2FE5887C9BOE05A73206F66950\n7EP  EAU1901769508\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "198a91da-d42d-457d-ba0d-89a5de252881",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Ilość artykułów",
+          "total": "2"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da75d441-9a9a-431d-a307-f010280365fa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nObsługiwał / a Panstwo: Agnieszka\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b8a9430e-f5d6-48af-8532-477793b4e0df",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSerdecznie dziękujemy za dokonany zakup Uywana towaru na okazaniem paragonu zwrot/wymiana za okazaniem paragonu w ciągu 1 miesiąca od daty zakupu",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "1aa82d0c-eb8c-494c-99b4-c93783ee647f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nsklep: www.takko.com\n\nsklep:3449  Kasa:01  Oper.:297660\nPer:00742  Data:17.06.2023  Czas:13:11",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88def8c9-9fd8-4dbe-8d3c-e98ef0833fd6",
+      "type": "BARCODE",
+      "size": 111,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6c63ba20-2dd6-4780-88a3-0edae361b840",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "9001403449001007421706233",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Takko Fashion Polska Sp. z o.o., from Store 3449 in Wrocław, Poland. The header includes the company name, registered address, store number, telephone number, tax identification number (NIP), BDO registration number, cash register number, seller identifier, and receipt reference. The receipt contains a retail sales section with discount entries and concludes with a financial summary showing Total Discounts (Suma Opustu), Taxable Sales (Sprzedaż opod. PTU A), VAT Amount (23%), Total VAT (Suma PTU), and the Grand Total (SUM PLN). It also documents the payment method (EFT Card), payment confirmation, article count, cashier name, return policy, company website, store and register identifiers, transaction date and time, and a barcode, representing a standard apparel retail POS receipt used in Poland.",
+  "name": "Takko Fashion Receipt",
+  "slug": "Takko-Fashion-Receipt",
+  "published": true,
+  "id": "B5eYO3cSoTrG1e7vvjoI"
+}

@@ -1,0 +1,190 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-26T14:19:36.616Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "245bcc05-b7ea-4a6a-9df0-78510f7dab93",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F132b4880-3ade-4873-8866-506d45ff7c51-image%20(12).jpg?alt=media&token=ea15251a-1128-4429-b524-b7caace176bf",
+      "size": 249,
+      "businessDetails": "\nKEY FOOD SUPERMARKET\n42-15 30TH AVENUE\nASTORIA, NY\nPhone (718) 545-4082\nStore: 1414\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef177161-936a-4eb0-8507-68d42e0d7a11",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCashier: FATEMA\n13:57:32                    03/07/16",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "00b9a808-2042-4e53-b885-a225864afd13",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Member card number: XXXXXXX0397",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SODA CANDY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BROOKSIDE POMEGRANATE",
+          "total": "2.99 TF"
+        },
+        {
+          "quantity": "",
+          "description": "HALVAHORIGINAL",
+          "total": "2.29 TF"
+        },
+        {
+          "quantity": "",
+          "description": "MEAT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "APPLE SAUS TURK",
+          "total": "5.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "SMOKED NOVA SALMON",
+          "total": "13.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "BH HUMMUS RED PEPPER",
+          "total": "4.49 F"
+        },
+        {
+          "quantity": "",
+          "description": "BH LOW SALT TURKEY",
+          "total": "6.59 F"
+        },
+        {
+          "quantity": "",
+          "description": "DELI",
+          "total": "1.49 F"
+        },
+        {
+          "quantity": "",
+          "description": "DELIDEPARMENT",
+          "total": "5.03 F"
+        },
+        {
+          "quantity": "",
+          "description": "DELIDEPARMENT",
+          "total": "1.77 F"
+        },
+        {
+          "quantity": "",
+          "description": "HOMEMADE ROASTBEEF",
+          "total": "2.60 F"
+        },
+        {
+          "quantity": "",
+          "description": "JARLSBERGE CHEE",
+          "total": "4.50 F"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSUBTOTAL",
+          "value": "\n54.73"
+        },
+        {
+          "title": "NY Sales Tax",
+          "value": ".47"
+        },
+        {
+          "title": "TOTAL",
+          "value": "55.20"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d2976814-945c-47a2-95bc-c0f3e5cb5773",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DEBIT CARD   TENDER",
+          "total": "55.20"
+        },
+        {
+          "quantity": "",
+          "description": "Acct: XXXXXXXXX0781",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "APPRVL CODE 239474",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CASH   CHANGE",
+          "total": ".00"
+        },
+        {
+          "quantity": "",
+          "description": "NUMBER OF ITEMS",
+          "total": "11"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "XXXXXXX0397     "
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e9fb463-a0c5-479c-bfac-b607903733ca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nUnchanged Savings Total      176.25\nUnchanged Points Total            0\nUnchanged KEY REWARDS Total    0.00\n\n\n\nThank you for shopping at Key Food!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Key Food Receipt",
+  "description": "This receipt is issued by Key Food and identifies the location as 42-15 30th Avenue, Astoria, New York. The header contains store branding, location details, a contact telephone number, store number, cashier identification (Fatema), transaction date and time, and a masked member card number. The receipt includes an itemized purchase summary organized by supermarket departments, including grocery, meat, and deli products. The financial section records the subtotal, New York sales tax, final transaction total, and payment by debit card, together with a masked account number, approval code, and cash change. The footer reports the total number of items purchased and displays loyalty-program information including cumulative savings, points, and Key Rewards totals. The overall layout is representative of a United States supermarket POS receipt, combining department-based itemization, tax reporting, debit-card payment processing, and loyalty-program tracking within a compact retail receipt format.",
+  "slug": "Key-Food-Receipt",
+  "published": true,
+  "id": "pDjHHASBIKnV60RIiicF"
+}

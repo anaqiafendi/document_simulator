@@ -1,0 +1,91 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-07T12:53:18.598Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Primark Store Receipt",
+  "description": "This receipt is a retail transaction issued by Primark, a UK-based clothing and fashion retailer. It records the purchase of children’s clothing items, including promotional discounts applied to the products. The receipt includes subtotal, card payment details, authorization information, and transaction identifiers. It also provides customer service messaging regarding returns, exchanges, and promotional savings. The format reflects a standard UK retail POS receipt with VAT registration, card transaction details, and promotional information.",
+  "sections": [
+    {
+      "id": "24533864-905d-45aa-b9ca-78b940026423",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6fc7cdaa-5013-4c1c-89bc-d9bce33ff85d-image.jpg?alt=media&token=2467540a-1d36-4ad9-bb65-1fff90454e34",
+      "size": 113,
+      "businessDetails": "\nUnit 11, Inverness Retail Park\nEastfield Road\nInverness\nIV2 7GF\nTel: 01463 224 757\nVAT No: 598272235\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6980c7d9-bc44-44b4-811c-50c1859fa493",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE TRANSACTION\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7144ac46-d12b-460e-9b34-2c27aa630e5c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "054865 M&S Festival Trolley",
+          "total": "£34.99"
+        },
+        {
+          "quantity": "",
+          "description": "Incomplete Product",
+          "total": "-£12.00"
+        },
+        {
+          "quantity": "",
+          "description": "No. Items: 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Balance to Pay",
+          "total": "£22.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "075b8c35-640f-4318-b0f6-04978c09d334",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVisa Debit                   £22.99\nAID: A0000000031010\nVISA DEBIT\nCard: ************0102\nPan Seq No: 01\nExpiry: **/**\nCONTACTLESS\nTOTAL: GBP 22.99\nCARDHOLDER DEVICE VERIFIED\nAuth: C07279\nMerchant: 43690534\nTID: ***25154\nDate: 19/07/2023      Time: 13:32:36\n\nPlease retain for your records\nCUSTOMER COPY\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4fb4a90e-c6a7-4dfb-90e5-2c6b5d960951",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nYou have saved £5.00\nON OUR WILDEST PROMOTIONS\n\nLast day to change your mind is 29/07/2023 This does not affect your statutory rights. Exchanges only with receipt for refunds.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Primark-Store-Receipt",
+  "published": true,
+  "id": "qlagNP8gBTMxDmYCwbav"
+}

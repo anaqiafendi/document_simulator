@@ -1,0 +1,140 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T12:04:12.639Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Wetherspoons Receipt",
+  "description": "This receipt is from a Wetherspoon restaurant location at Birmingham Airport in the United Kingdom. It records a breakfast dining transaction including traditional breakfast meals, extra toast, and filter coffee. The receipt includes table and account information, VAT-inclusive totals at the UK 20% rate, EFT card payment details, and receipt identification numbers. It also contains a thank-you message referencing the Birmingham Airport Airside T1 location. The format reflects a standard UK pub and restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "bf3098c2-c7ae-4074-8a9d-83ca31ce1db0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Wetherspoon\nB26 3QJ\n0121 782 8823\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ece28513-bfda-4d33-9faa-d25464753d2b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Till 5",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ashleigh",
+          "total": "16 Apr 2019 04:17"
+        },
+        {
+          "quantity": "",
+          "description": "Table: 105",
+          "total": "Acc No: 9350"
+        },
+        {
+          "quantity": 1,
+          "description": "Trad Break AP1",
+          "total": "=  9.25"
+        },
+        {
+          "quantity": 1,
+          "description": "SmallBreakfa AP1",
+          "total": "=  6.25"
+        },
+        {
+          "quantity": 1,
+          "description": "Extra Toast",
+          "total": "=  0.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Filter Coffee",
+          "total": "=  5.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a667773e-5f92-4e06-923c-bd94ca6ad9e6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Total                        £21.49",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "37cedff6-ba3f-4013-8d9a-c69680394331",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPayment Receipt\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ca329e8-121f-4712-870e-462fe3abdff4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "EFT",
+          "total": "£21.49"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT included",
+          "total": "£3.58"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt no. 27/5188",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VAT No: 396 331 433",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "17aa43be-9c8f-42aa-8218-b83e5f5cb421",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTHANK YOU FOR VISITING\nWETHERSPOON, AIRSIDE 11, BIRMINGHAM\nAIRPORT, B26 3QJ\nPLEASE CALL AGAIN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Wetherspoons-Receipt",
+  "published": true,
+  "id": "FpxPBhbMrlWtPUm5vb58"
+}

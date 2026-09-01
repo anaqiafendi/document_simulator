@@ -1,0 +1,124 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "San Carlo Receipt",
+  "description": "This receipt is issued by San Carlo and represents a customer bill for a table of two guests. The header contains the restaurant name, customer bill number, terminal number, server information, table number, transaction date and time, and number of covers. The receipt records a dine-in order consisting of Great San Carlo Antipasti, Elderflower, Pinot Grigio, Lasagne Bellavista, Pizza Primavera, and a Mixed Salad. The financial section separately records the food and drink totals, followed by an optional 10% service charge, resulting in an amount due of £63.80. The footer promotes the San Carlo location at 2 Regent Street, St James's, London SW1Y 4LR, provides a contact telephone number, and states that the document is not the final receipt. The overall layout is representative of a United Kingdom restaurant customer bill, combining table-service itemization, food and beverage totals, and discretionary service charge information.",
+  "slug": "San-Carlo-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T15:28:02.495Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "£",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "fa0bb61b-e59c-463e-972c-efd0420e65a5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "San Carlo\n\n1      CUSTOMER BILL      04/12/19",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2aad39ae-e596-4290-b2f5-45e7c6ba7325",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nNUMBER 0003036470  TERM  3 22:47:58\nSERVER MARIA DE LOS ANG\nTABLE 12                      COVS 2\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc2eef87-2203-4f43-8bc3-608b7c99a40a",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "2 GREAT SANCARLO ANTI",
+          "value": "21.00"
+        },
+        {
+          "title": "1 ELDERFLOWER",
+          "value": "2.60"
+        },
+        {
+          "title": "1 175ml PINOT GRIGIO",
+          "value": "6.30"
+        },
+        {
+          "title": "1 LASAGNE EMILIANE",
+          "value": "12.95"
+        },
+        {
+          "title": "1 PIZZA PRIMAVERA",
+          "value": "10.95"
+        },
+        {
+          "title": "1 MIXED SALAD",
+          "value": "4.20"
+        },
+        {
+          "title": "",
+          "value": "---------\n"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "76245e29-1495-4f31-9083-eb465ffa3bab",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "TOTAL FOOD",
+          "value": "49.10"
+        },
+        {
+          "title": "TOTAL DRINK ",
+          "value": "8.90"
+        }
+      ],
+      "cardFields": [],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ca1f900-1a76-48e3-9e66-b6a17c8a276f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOPT SERVICE CHARGE (10.00%)  £5.80\n\nAMOUNT DUE                 £63.80",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "00a7a563-f6bd-4587-a95a-5b485b6169c7",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "--------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3e4695c8-c959-4b8c-b22d-576aa6254deb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSan Carlo London now open\n2 Regent Street\nSt James\nSW1Y 4LR\nTel: 02079305933\nthis is not the final receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "CmxoQTiLFanjoE9r0Uu5"
+}

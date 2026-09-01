@@ -1,0 +1,148 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Restauracja Atmosfera Receipt",
+  "description": "This receipt is issued by Restauracja Atmosfera and identifies the business in 42-625 Pyrzowice, Poland, with an address on ul. Piłsudskiego 11 and Polish NIP tax identification information. The receipt is designated as a Paragon Fiskalny and records a restaurant order consisting of Capriciosa pizza, Pepsi, tomato soup with pasta, cheesecake, traditional Silesian roulade, and mineral water. The financial section separates taxable sales into different Polish VAT categories, including 23% and 8% PTU, with a combined tax amount of 13.28 PLN. The final transaction total is 159.50 PLN. The lower section contains fiscal system references and payment information. The overall layout is representative of a Polish restaurant fiscal receipt, combining food and beverage itemization, VAT reporting, fiscal identifiers, and payment information.",
+  "slug": "Restauracja-Atmosfera-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T15:07:20.904Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "886b8c1d-0f49-416a-9d95-d421504388ee",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "RESTAURACJA ATMOSFERA\n42-625 PYRZOWICE, UL.PILSUDSKIEGO 11\nP.W. STRADA DAWID MULARSKI\n42-625 PYRZOWICE, UL. UKANOW 1A\nNIP 4980150347\n\n\n2018-11-12                     42204\n\nPARAGON FISKALNY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90bc6ce6-ead5-4413-b5a9-36543bdc9c45",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "4. CAPRICIOSA M&A",
+          "value": "1 x15,50   15,50B"
+        },
+        {
+          "title": "NAPOJE PEPSI 0.5L",
+          "value": "1 x7,00    7,00A"
+        },
+        {
+          "title": "POMIDOROWA Z MAKARONEM",
+          "value": "1 x12,00   12,00B"
+        },
+        {
+          "title": "SERNIK..... ",
+          "value": "1 x9,00    9,00B"
+        },
+        {
+          "title": "TRADYCYJNA ROLADA SLASKA",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": "2 x55,00 110,00B"
+        },
+        {
+          "title": "WODA MINERALNA 0.5L",
+          "value": "1 x6,00    6,00A"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dea06d3c-c8e6-4e41-bfac-245f5f9f7d43",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSPRZEDAZ OPODATK. A",
+          "value": "\n13,00"
+        },
+        {
+          "title": "PTU A 23,00 %",
+          "value": "2,43"
+        },
+        {
+          "title": "SPRZEDAZ OPODATK. B",
+          "value": "146,50"
+        },
+        {
+          "title": "PTU B 8,00 % ",
+          "value": "10,85"
+        },
+        {
+          "title": "SUMA PTU",
+          "value": "13,28"
+        },
+        {
+          "title": "\nSUMA PLN",
+          "value": "\n159,50"
+        },
+        {
+          "title": "00045 #001",
+          "value": "MAGDALENA GOLDYN    20:26"
+        },
+        {
+          "title": "06F86D8E308/44149A4779C2D2F2E751275E",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8be73b67-81b2-4f12-aff0-1341fc6ee889",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nAE23 BAF 14151256\nNr sys. 166526\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bfba5b98-54ec-4de1-844f-f526a8ab865e",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSposob platnosci",
+          "value": "\n159,50 PLN"
+        },
+        {
+          "title": "Sposob MAGDALENA GOLDYN",
+          "value": "0,00 PLN"
+        },
+        {
+          "title": "Sposob STOL 1A",
+          "value": "0,00 PLN"
+        },
+        {
+          "title": "Sposob GAOTNGO - POS",
+          "value": "0,00 PLN"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Tmy5dPBTBdYdrb8HmGQZ"
+}

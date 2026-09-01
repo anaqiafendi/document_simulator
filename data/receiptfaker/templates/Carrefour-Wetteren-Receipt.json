@@ -1,0 +1,105 @@
+{
+  "currency": "",
+  "slug": "Carrefour-Wetteren-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T06:51:08.218Z",
+  "description": "This customer appreciation receipt from Carrefour Wetteren documents a loyalty milestone recognition issued at the Nieuwe Steenweg location in Wetteren, Belgium. The receipt includes company identification details for Carrefour Belgium, store address information, contact telephone number, Belgian VAT registration number (BTW), ticket numbering metadata, and timestamp information. Unlike a standard sales receipt, the document functions as a customer recognition notice celebrating a milestone visit count. The layout consists primarily of personalized appreciation messaging, customer loyalty acknowledgment, store branding, and transaction reference details. The format reflects a promotional customer engagement receipt issued through a retail loyalty and customer recognition program.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Carrefour Wetteren Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "de88f8a3-b4f1-4d21-9e2f-d06c6b5745e6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3cae2104-2435-452e-a7ef-d8356714b0b8-image%20(11).jpg?alt=media&token=6e3a5d6b-967a-4128-97fb-71ffe1d96ac7",
+      "size": 224,
+      "businessDetails": "Carrefour\nWetteren\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "605a8bd1-7156-4056-94f1-df4a1c61d136",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "NV CARREFOUR BELGIUM",
+          "total": "TEL 0800 91 152"
+        },
+        {
+          "quantity": "",
+          "description": "NIEWE STEENWEG 3",
+          "total": "BTW BE 0457.247.904"
+        },
+        {
+          "quantity": "",
+          "description": "9230 WETTEREN",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d312eeb9-7ae5-4616-ba17-696260990a5b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "----------------\n\n-- PROFICIAT JENS! --",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f52181cd-217e-4054-8353-d6de1ceb28b8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVandaag vieren we iets bijzonders\nbij Carrefour Wetteren.\n\nJij bent officieel aan je\n1000ste bezoek toegekomen! 🎉\n\nAl 1000 keer koos je voor ons,\nen dat appreciëren we enorm.\nBedankt voor je vertrouwen,\nje glimlach aan de kassa en dat je\ndeel uitmaakt van onze winkel.\n\nKlanten zoals jij\nmaken het verschil. ♥\n\nTot snel voor bezoek nummer 1001!\nTeam Carrefour Wetteren",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a963a069-1029-4d32-9121-19ff8dd204f7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTICKET 0153/0385/619 30/05/2025",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f063e888-1f66-4a88-bec0-5fa6cb3b8ca0",
+      "type": "BARCODE",
+      "size": 86,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "56bfdc7b-89f8-49f0-8414-d9d6d6afae17",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "9 9 0 1 5 3 0 3 8 5 6 1 9 3 0 5 2 3\n\nDANK U EN TOT ZIENS",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "vHVL8EahuMxYEl9htdye"
+}

@@ -1,0 +1,155 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Home Depot Retail Receipt",
+  "description": "This receipt is from The Home Depot in Edwardsville, Illinois, United States. It records the purchase of home improvement products including a vanity top, bathroom faucet, and ceiling panels. The receipt includes subtotal, sales tax, debit payment confirmation, return policy details, and a customer satisfaction survey invitation with sweepstakes information. It also contains store details, self-checkout references, and transaction timestamp data. The format reflects a standard US home improvement retail POS receipt.",
+  "slug": "Home-Depot-Retail-Receipt",
+  "createdAt": "$D2026-05-15T14:32:11.909Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3f684c80-9cac-4c45-a282-d70dcf7711d6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe5d35e9f-b241-4baf-885c-57c053ececbd-image%20(24).jpg?alt=media&token=dde666bd-9dbb-46cc-93cb-2e18ab45aca7",
+      "size": 249,
+      "businessDetails": "2500 Troy Road\nEdwardsville, IL 62025 (618) 659-3682",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "099eff52-740f-4904-a010-45389435c16e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n6920 00062 04630   09/07/20 11:34 AM\nSALE SELF CHECKOUT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "653e32d4-40ec-4806-8b7e-8d9257d07138",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "63254 24\" WHITE VAN. W/CULT. MARBLE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "GLAC BAY BATH FAUC. WITH SINK",
+          "total": "99.00"
+        },
+        {
+          "quantity": "",
+          "description": "100514-580 GR 2-HAND BTH FAUC",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "GLAC BAY BATH FAUC. BSHD NIC",
+          "total": "194.70"
+        },
+        {
+          "quantity": "",
+          "description": "3664.90",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "562785 2 X 4 X 8 PK LAY-IN CEL PAN.",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "USG CEILINGS PANELS",
+          "total": "73.10"
+        },
+        {
+          "quantity": "",
+          "description": "2036.55",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL",
+          "value": "366.80"
+        },
+        {
+          "title": "SALES TAX",
+          "value": "29.34"
+        },
+        {
+          "title": "TOTAL",
+          "value": "$$396.14"
+        },
+        {
+          "title": "DEBIT",
+          "value": "396.14"
+        },
+        {
+          "title": "XXXXXXXXXXXX5287",
+          "value": ""
+        },
+        {
+          "title": "AUTH CODE 000025",
+          "value": ""
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "617615c9-1634-4b82-862b-db222ef7014a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "6920   09/07/20   11:34 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2e5c9013-4240-4b20-b422-0f802da63b05",
+      "type": "BARCODE",
+      "size": 60,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d78a51ae-6b67-4f3a-97aa-005f42fec992",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "6920 62 04630 09/07/20 0638",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "467c11dc-b03a-4e4f-be02-f25f824f9b11",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nRETURN POLICY DEFINITIONS\nPOLICY ID DAYS POLICY EXPIRES ON\nA      90        12/07/2020\nDue to COVID 19, we have extended our returns policy for most items. Please see homedepot.com for details.\n****************************\n\nDID WE NAIL IT?\nTake a short survey for a chance to WIN A $5,000 HOME DEPOT GIFT CARD\nOpine en español:\nwww.homedepot.com/survey\n\n\nUSER ID: 888-15294 7911\nPASSWORD: 20641 8549\nEntries must be completed within 14 days of purchase. Entrants must be 18 or older to enter. See complete rules on website. No purchase necessary.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "9h9zyhQE4r0bljUo9kLN"
+}

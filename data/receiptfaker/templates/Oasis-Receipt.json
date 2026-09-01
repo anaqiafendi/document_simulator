@@ -1,0 +1,117 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T19:13:35.362Z",
+  "description": "This receipt is issued by Oasis and identifies the location as Oasis Bar & Terrace, Canada Square Park, Canary Wharf, London, E14 5AB. The header contains venue branding, the business address, website, telephone number, and VAT registration number. The receipt includes POS transaction metadata such as a server identifier (tommi), transaction date and time, ticket number (246), and receipt number (226246). The financial section contains a subtotal, final total, card-payment record, and a discretionary service charge that is separately recorded within the transaction summary. Additional payment-processing information includes the card brand (Mastercard) and associated settlement values. The overall layout is representative of a United Kingdom bar and restaurant POS receipt, combining ticket tracking, server accountability, VAT-compliant reporting, service-charge documentation, and payment reconciliation within a compact hospitality receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Oasis Receipt",
+  "slug": "Oasis-Receipt",
+  "sections": [
+    {
+      "id": "8fb42554-387c-47f7-8a42-7519d3a5e168",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F30318c79-cf98-4b04-b55d-a593d3449603-image%20(10).jpg?alt=media&token=6b3b8d37-3e5e-4cf2-a69f-c87aa8d37cfe",
+      "size": 278,
+      "businessDetails": "\nBAR & TERRACE\nOasis Bar & Terrace\nCanada Square Park\nCanary Wharf\nLondon\nE14 5AB\nwww.myoasisbar.co.uk\nTel: 020 3633 5855\nVAT Reg: 316 8916 78\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d5a22b5-f23d-468a-8599-9cbd6ec05866",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Served By tommi\n24/11/2025   19:08",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f9f37d2d-dcc8-4ca3-a6ae-3b4e95ea8cbe",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTicket Number 246\nReceipt Number 226246\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "13e21b2f-208c-4bd3-b3ef-e46ebcd9b34f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Pint KEG Guinness",
+          "total": "£7.50"
+        },
+        {
+          "quantity": "",
+          "description": "Pint KEG Alpacalypse IPA",
+          "total": "£7.50"
+        },
+        {
+          "quantity": "",
+          "description": "Hot Chocolate",
+          "total": "£4.25"
+        },
+        {
+          "quantity": "",
+          "description": "Monin Syrup Caramel",
+          "total": "£1.50"
+        },
+        {
+          "quantity": "",
+          "description": "Discretionary Service Charge",
+          "total": "£2.80"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSub-Total",
+          "total": "\n\n£23.55\n"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£23.55"
+        },
+        {
+          "quantity": "",
+          "description": "MASTERCARD",
+          "total": "£23.55"
+        },
+        {
+          "quantity": "",
+          "description": "SubTotal Net",
+          "total": "£20.09"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eeacea3d-16a5-43d6-a890-7e4191801de4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for visiting our store! We look forward to seeing you again.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "AhuE3hFhI5riaxkjIUcy"
+}

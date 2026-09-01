@@ -1,0 +1,122 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Swiss Chalet Receipt",
+  "description": "This receipt is from Swiss Chalet in Brantford, Ontario, Canada. It records a dine-in meal order including a hot dark meat sandwich with fries, extra vegetables, gravy, and a classic Caesar salad. The receipt includes subtotal calculations, HST tax amount, total due, and a separate rounded cash payment amount. It also contains table, guest, and check information commonly displayed on Canadian restaurant POS receipts.",
+  "slug": "Swiss-Chalet-Receipt",
+  "createdAt": "$D2026-05-20T09:52:44.843Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "c1e2a061-aa8f-46cd-baac-396667b74a48",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb5152476-4af8-4f3f-8311-0a05a0654f69-image%20(21).jpg?alt=media&token=ae1052a6-4e2a-4969-852e-fdd302302649",
+      "size": 247,
+      "businessDetails": "Swiss Chalet\n84 Lynden Road\nBrantford, ON, N3R 6B4\nREG: B8100 2692 RT0001\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a5874519-251d-4242-b665-7ede5830366e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "79 Cameron",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "87a8a8bf-349d-4d44-a6bb-6fd1d95cf811",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTbl 33/1      Chk 370      Gst 1\nJan25'26   05:51PM\n*** Memo Check ***\n\nXpres DineIn\nSeat: 1\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "263925ba-9bdd-45ed-b3b7-c74b79105b7a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "HOT CHK SANDWICH",
+          "total": "17.55"
+        },
+        {
+          "quantity": "",
+          "description": "#WHITE MEAT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "+ FRIES",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "+ MRKT VEG",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "GRAVY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "NO SAUCE",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "CLASSIC CAESAR",
+          "total": "5.49"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "23.08"
+        },
+        {
+          "quantity": "",
+          "description": "HST",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total Due",
+          "total": "26.08"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba340493-756e-4e5d-b1f2-36d405e18d0d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n#Total if Paying Cash $26.10\n\n\n\nTell Us How We Did Today",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "RU43bzL9MrSbXc2UZXMD"
+}

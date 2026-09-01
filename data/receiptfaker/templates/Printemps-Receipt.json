@@ -1,0 +1,133 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Printemps Receipt",
+  "description": "This receipt is a department store transaction issued by Printemps at its Lille location, including store identification and contact telephone number. It features a centered brand header followed by a labeled customer ticket section and a note indicating that amounts are expressed in euros. The receipt includes transaction identifiers such as store number, terminal references, transaction number, and operator ID, along with a precise date and time stamp. A financial summary is presented with total paid and payment method specified as card. The document concludes with a barcode and numeric encoding, followed by customer service messaging and an exchange deadline notice, reflecting a standard European retail POS receipt format.",
+  "slug": "Printemps-Receipt",
+  "createdAt": "$D2026-04-05T16:55:21.591Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5af196ee-4647-4936-8c14-a4c09262cf3c-image%20(2).jpg?alt=media&token=d83ae0b3-6952-4d0d-a8c3-6bfaee735b29",
+      "size": 200,
+      "businessDetails": "Printemps Lille Tél: 03.20.63.62.00\n*** Ticket client ***\nMontants exprimés en euros\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a554c49e-bdda-4063-b7ec-418dfd68f252",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CHOSE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MARCIE SATCHEL",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "LEATHER MEDIUM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "UUA421565462",
+          "total": " 1600.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "EMPTY",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9fa921c7-b043-4581-a445-ea4423500907",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "                                                                                                                     ________",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9714480a-90c3-4fde-8ae4-2c44f1a8c2c9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total payé",
+          "total": "1600.00"
+        },
+        {
+          "quantity": "",
+          "description": "Payé en CB",
+          "total": "1600.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "EMPTY",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0cf7268a-6b81-4013-882c-778a53fd1b8e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Magasin 431  Lot 0 -\nEtat RDC - CTPV 00 - TPV 408 -\nTransaction 79828 - Opérateur 67775\n06/05/2022 - 16:56:43",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2ed2427c-427f-4838-a601-01c89b31a59a",
+      "type": "BARCODE",
+      "size": 64,
+      "length": 473,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7378cbe2-5587-4b69-9552-e68cf15429f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2 9  4  3  1  8  4  8  1  9  2  8",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "40224320-1703-44e4-a99d-8fabf30cafb2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMercidevotrevisiteetatres bientot\n\nConservez ce ticket\nDate limite dechange le 05/06/2022",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FoWE2ByjsaaTzc4FyzKUq%2FoWE2ByjsaaTzc4FyzKUq-936db152-3d58-433b-b568-b4a80a0b70a9.png?alt=media&token=26ed2442-5f47-43a9-85c4-86956799e944",
+  "published": true,
+  "id": "oWE2ByjsaaTzc4FyzKUq"
+}

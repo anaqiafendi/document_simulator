@@ -1,0 +1,168 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T10:49:47.059Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "La Boîte à Café Receipt",
+  "description": "This receipt is from La Boîte à Café by Arctic Juice & Cafe in Lyon, France. It records a café order including mocaccinos, croque sandwiches, macchiatos, pastries, and pain au chocolat. The receipt includes itemized pricing, subtotal, cash payment information, VAT breakdown, and business contact details. It also contains social media references and company registration information. The format reflects a standard French café POS receipt with VAT-inclusive totals and payment summary.",
+  "sections": [
+    {
+      "id": "aec3d5cd-df7b-4bfc-a140-5187cf4456a9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd07e5f69-2dd9-4d0a-85d1-0f2b26dbcab4-image%20(7).jpg?alt=media&token=4e7e704d-c737-4907-8a0d-4f5b83a8f039",
+      "size": 210,
+      "businessDetails": "La Boite a Cafe",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1677df6c-86a1-4870-94a8-677e463dcb2c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\n2",
+          "description": "",
+          "total": "\n16/08/2019 10:20"
+        },
+        {
+          "quantity": "",
+          "description": "#0",
+          "total": "54817604"
+        },
+        {
+          "quantity": "",
+          "description": "General",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9b53eaff-5fd7-4230-b1f9-6e7958e0167e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "#",
+          "description": "Produit",
+          "total": "Prix"
+        },
+        {
+          "quantity": "2",
+          "description": "Mocaccino",
+          "total": "8,00"
+        },
+        {
+          "quantity": 1,
+          "description": "Cappuccino",
+          "total": "3,50"
+        },
+        {
+          "quantity": 1,
+          "description": "Macchiato",
+          "total": "2,50"
+        },
+        {
+          "quantity": "2",
+          "description": "Croissant",
+          "total": "3,00"
+        },
+        {
+          "quantity": "2",
+          "description": "Pain au Chocolat",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "€ 20,20"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6fc89e00-06b0-478d-ac5f-cd26745db7de",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Paiement",
+          "total": "Montant"
+        },
+        {
+          "quantity": "",
+          "description": "Encaisse",
+          "total": "20,20"
+        },
+        {
+          "quantity": "",
+          "description": "Total payé",
+          "total": "20,20"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Net   TVA",
+          "value": "Total"
+        },
+        {
+          "title": "18,36  1,84",
+          "value": "20,20"
+        },
+        {
+          "title": "18,36  1,84",
+          "value": "20,20"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ba6a493-7ffe-4cb3-84ab-dde998b7aedf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMerci de votre visite!\n\nFuel2Explore\n@arcticjuicecafe\n@laboiteacafelyon",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3e3a2e7-7f68-41b4-9832-5918781ba7e9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nArctic Lyon\n3 Rue de l'Abbé Rozier 3\n69001 Lyon\n04.27.01.48.71\nFR49844748104\nhttps://arcticjuicecafe.com/\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "La-Boite-a-Cafe-Receipt",
+  "published": true,
+  "id": "oryZTaHsBV4wBwyrpxU5"
+}

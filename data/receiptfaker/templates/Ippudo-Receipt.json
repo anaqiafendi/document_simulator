@@ -1,0 +1,192 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T18:56:50.986Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "eeb0aa9d-847a-4575-b8ff-477efdeed6f6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Ippudo\nCentral Park, LG\n\n\nTABLE:14",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3200e46b-99ec-4f3f-afda-fc9de4baf035",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Pax:10    OP",
+          "total": "ANGGA"
+        },
+        {
+          "quantity": "",
+          "description": "POS Title:KASIR",
+          "total": "POS:POS001"
+        },
+        {
+          "quantity": "",
+          "description": "Rcpt#:A220000008670",
+          "total": "31/03/2022 16:44"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d378e3b9-961a-457e-b1f6-bd12b5d1e786",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1  Corn Teppan",
+          "total": "33.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Lemon Tea Cold",
+          "total": "44.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Ocha Cold",
+          "total": "114.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Ocha Hot ",
+          "total": "19.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Pan Fried Gyoza Pork",
+          "total": "88.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Kakko-r Steak ",
+          "total": "96.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Sake Mentai 1 Rice",
+          "total": "165.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Salmon Roll 4 pcs",
+          "total": "210.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Shiromaru Motoaji",
+          "total": "405.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Go Tantan Pork",
+          "total": "198.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Tantanmen Pork",
+          "total": "38.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Yakult Jelly Smooth1",
+          "total": 10
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b9293a96-c849-4ad7-95cb-4aecdae7b4f4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "1.507.000"
+        },
+        {
+          "quantity": "",
+          "description": "Service 7%",
+          "total": "105.490"
+        },
+        {
+          "quantity": "",
+          "description": "TAX 10% ",
+          "total": "161.249"
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n1.773.739"
+        },
+        {
+          "quantity": "",
+          "description": "Total Item :12",
+          "total": "Total Qty :27"
+        },
+        {
+          "quantity": "",
+          "description": "\nCASH",
+          "total": "\n 1.775.000"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "1.261"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85df4efd-ce92-4a2f-a3bb-5c06f66f895b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nClosed Bill\n(-------31/03/2022 17:41--------)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Ippudo at the Central Park branch (Lower Ground), Indonesia. The receipt header includes the restaurant name, branch location, table number, guest count (Pax), operator name, POS terminal identifier, receipt number, and the transaction date and time. The financial summary contains the Subtotal, 7% Service Charge, 11% Tax, and the Grand Total, followed by the total item count and total quantity. The payment section records the Cash amount received and the Change returned. The receipt concludes with a Closed Bill notice and the final closing timestamp, representing a standard full-service restaurant POS receipt used in Indonesia.",
+  "name": "Ippudo Receipt",
+  "slug": "Ippudo-Receipt",
+  "published": true,
+  "id": "AedA8dF4g2vUfgdq1BDX"
+}

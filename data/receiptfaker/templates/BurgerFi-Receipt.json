@@ -1,0 +1,155 @@
+{
+  "currency": "",
+  "slug": "BurgerFi-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T19:01:18.579Z",
+  "description": "This restaurant receipt from BurgerFi documents a dine-in transaction processed at the Windward Parkway location in Alpharetta, Georgia. The receipt includes restaurant address details, telephone number formatting, cashier identification, check number references, guest count metadata, table references, and timestamp information. The POS structure contains subtotal presentation, discount formatting, tax calculations, payment confirmation, and change due presentation aligned in standard U.S. restaurant thermal receipt formatting. Additional receipt elements include customer feedback instructions, website references, receipt closure timestamps, BurgerFi branding language, and promotional footer messaging near the bottom of the receipt. The layout reflects a standard U.S. fast-casual restaurant thermal receipt with dine-in service formatting and customer engagement messaging.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "BurgerFi Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c8cf8341-7874-415a-92ef-1a06848042f0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd708b061-d4ce-459b-bb18-f23a517fc461-image%20(3).jpg?alt=media&token=802fa637-410c-44a6-aaa2-a8cbcfaf8c67",
+      "size": 229,
+      "businessDetails": "5475 Windward Parkway, Suite B\nAlpharetta, GA 30004\n(770) 817-4658\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "befe8b7b-aaf3-4021-8750-d25076bc5a87",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "5168 Eddie",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a60084a8-5f5a-4eab-bd57-dc60ee97d183",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CHK 16861",
+          "total": "Gst 2"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fcb0a588-dd01-4365-aea4-4b683c4ffa5a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "38\n11/21/2024   12:19 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f1368de1-d6f2-4060-bebb-fb279b421ce6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDine In",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "662de93f-ec25-47d6-a857-2f5bbbc94745",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\n1 Wagyu Dog",
+          "total": "\n5,49"
+        },
+        {
+          "quantity": "",
+          "description": "Add Cheese Sauce",
+          "total": "0,57"
+        },
+        {
+          "quantity": "",
+          "description": "1 Wagyu Dog",
+          "total": "5,49"
+        },
+        {
+          "quantity": "",
+          "description": "Add Cheese Sauce",
+          "total": "0,57"
+        },
+        {
+          "quantity": "",
+          "description": "Charge Tip",
+          "total": "0,41"
+        },
+        {
+          "quantity": "",
+          "description": "Visa ************2076",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n$14,12"
+        },
+        {
+          "quantity": "",
+          "description": "Other",
+          "total": "$$1,41"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$1,00 (est.)"
+        },
+        {
+          "quantity": "",
+          "description": "Payment",
+          "total": "$$15,52"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b90b005a-5ab6-49d0-9597-b0ec2b7ab7d5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n— Check Closed —\n11/21/2024   12:19 PM\n\nWe Value Your Feedback\nPlease reach out to us online at:\nBurgerFi.com/wecare\n\n\nBurgerfication (Bur·ger·Fi·ca·tion)\nRedefining the world eats burgers!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "40a4nWR3fIfWlUciiTTT"
+}

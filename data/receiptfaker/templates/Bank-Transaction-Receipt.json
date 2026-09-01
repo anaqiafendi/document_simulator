@@ -1,0 +1,103 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Bank Transaction Receipt",
+  "slug": "Bank-Transaction-Receipt",
+  "createdAt": "$D2025-09-30T07:18:15.419Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F0d7e91ad-c6ec-48ad-812a-ed884ed9bea3-4635002_bank_building_corporation_financial_icon.png?alt=media&token=8ce10787-9c33-4948-8aaf-5e8ec3179a85",
+      "size": 81,
+      "businessDetails": "Horizon Community Bank\n4521 Greenway Blvd\nMinneapolis, MN 55416\nUnited States\nwww.horizoncommunitybank.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Bank Transaction Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Transaction Amount: $5.000\nTransaction Type: Bank Transfer\nTransaction Date: 9/30/2025 10:12 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Sender: Ava Mitchell\nDebit account: 750***274\nBeneficiary: Liam Carter\nCredit account: 100576503489 (Wiki Bank)",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "931cda59-5fcf-4d6d-a6bc-24cec0daadde",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Description:\nConference expenses",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "d6a77dc9-3174-4f11-8196-a9f1b5241000",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Status: Successful",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "58bce958-4bcd-4276-80c3-8579679fed98",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "For any other assistance, kindly contact us at\nEmail: support@horizoncommunitybank.com\nPhone: (612) 555-2849\nWebsite: www.horizoncommunitybank.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e0f981a8-6403-4556-8198-3b1cc564b8af",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 12:54:03 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FBj3wXIeJFzGnUjpzdQYG%2FBj3wXIeJFzGnUjpzdQYG-3af809cc-0694-419f-8331-c77cde19668a.png?alt=media&token=7cd75403-77b5-45ca-8927-0b6a0ec1aa83",
+  "description": "Need a bank transaction receipt? Easily generate a detailed payment record with our free tool. Add bank name, account details, transaction type, date, and amount—perfect for financial tracking or documentation.",
+  "published": true,
+  "metatitle": "Bank Transaction Receipt",
+  "metadesc": "professional bank transaction receipts with custom account details, transaction types, amounts, and dates for record keeping",
+  "id": "Bj3wXIeJFzGnUjpzdQYG"
+}

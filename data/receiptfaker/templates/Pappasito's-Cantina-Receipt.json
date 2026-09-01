@@ -1,0 +1,119 @@
+{
+  "sections": [
+    {
+      "id": "b142f76a-14bd-4f3f-be5e-2f3020608ff4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fddd01d09-1e93-4d78-b5e6-fdfd475ffea3-image%20(12).jpg?alt=media&token=ec98bfa4-2117-433e-a586-a5c1bbe8f465",
+      "size": 247,
+      "businessDetails": "Pappasito's Cantina (026)\n10801 I-10 W\nSan Antonio, Texas 78230\n(210) 691-8974\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0ed849e-2c30-44ac-9a0b-b6df46c07e9b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n0237b-2  Table 92  Party 1\nANTHONY K   SvrX: 6  18:03  01/01/26\nDINE IN\n\n\n1 Single Carbon Fajl Beef      14.95\nLarge Top Shelf Margarita (17.95)    17.95",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "366a7873-a2fe-459f-9c31-d02c122f5e38",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "",
+          "value": "Sub Total  32.90"
+        },
+        {
+          "title": "",
+          "value": "Tax: 2.71"
+        },
+        {
+          "title": "",
+          "value": "Sub Total 2.71"
+        },
+        {
+          "title": "01/01 19:03  TOTAL",
+          "value": "35.61"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc2ad765-c5ea-4997-80e3-75c43a384335",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nThank you for dining at Pappasito's!\nTip Not Included\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3cf7d853-bae1-441e-af0a-180e037e851a",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "15%              5.34",
+          "value": ""
+        },
+        {
+          "title": "18%              6.41",
+          "value": ""
+        },
+        {
+          "title": "20%              7.12\n",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "48cdd468-a04a-47a5-b6c4-5b62538380fc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTaking the fiesta to-go?\nNext time, order online:\norder.pappasitos.com\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "ca5fa818-f204-4288-8ddc-7d18734c56c9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\ne-Gift Card Payment (19 Digits)\n\n6006 49 ____ ____ ____ ____\n",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe97abdd-9023-4b0d-8e85-4abbdf5c3a73",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPresent e-Gift Card PIN (4 Digits)\n____ ____ ____ ____\n\n\nTell us about your dining experience\nwww.Pappasitos.com/contact-us",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-23T13:41:48.123Z",
+  "imageUrl": "",
+  "name": "Pappasito's Cantina Receipt",
+  "slug": "Pappasito's-Cantina-Receipt",
+  "description": "This receipt is issued by Pappasito's Cantina and documents a dine-in restaurant transaction at a location in Houston, Texas. The header contains the Pappasito's Cantina branding, restaurant location and contact information, table details, and server information. The visible order includes a Single Cantina Fajita Beef item and a Large Margarita. The financial section records a subtotal of $32.90, tax of $2.71, and a final total of $35.61. The receipt states that the tip is not included and provides suggested gratuity amounts of 15% ($5.34), 18% ($6.41), and 20% ($7.12). The lower portion promotes online ordering, provides fields for an e-gift card number and PIN, and invites customers to provide feedback about their dining experience.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "98ZrNn3Ra2FHggVSVJYJ"
+}

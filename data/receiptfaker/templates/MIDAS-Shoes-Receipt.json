@@ -1,0 +1,170 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T15:17:21.077Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5a147192-e96c-43b2-b130-7b1b7cf3c613",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F469d63ee-0ca2-456d-b8be-4aaef281267b-image%20(7).jpg?alt=media&token=216ebe90-340a-4d20-a49b-49e1f1b31252",
+      "size": 201,
+      "businessDetails": "\nCAMBERWELL\n656 BURKE ROAD\nCAMBERWELL VIC 3124\nTEL: 03 9965 6315\nABN: 58 075 876 425",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "58dfb54b-96bc-40b2-b77f-d577c9f6167a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNumber  Date   Time  Sales\nP660014970  04/03/23  01:47 25244\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ca6e314-1543-44ac-9f19-40062bf01ce6",
+      "type": "BARCODE",
+      "size": 77,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "313db50d-a125-4da3-bc5e-8f8978d0d041",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTalia Cassar\nCust No:    CLF0000001217\nPhone No:   0423988959\nE-mail:     taliacassar@gmail.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e80c747-beed-456a-a28f-1442ce8962f3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nDescription                        ",
+          "total": "\nTax Incl."
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b1d38bc9-d122-457e-86f1-5f9a01ee0c8d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1x SIOLA-MI BLACK 37LEATHER $199.95\n935101783778 \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2abf273d-1425-48a8-9ce5-a06e1fe25e46",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "-----------"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$199.95"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "01e2c34b-b114-4e18-9f5f-c6f0c762f48e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Receipt discount",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c90b2088-25b4-4bf2-93b5-9ba88fd32467",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n***** $199.95 *****\n1 Item",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "51d7eec8-e5da-416d-9ae8-d594f5d2e803",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Payment",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3bc8850d-3012-4f66-bc90-c61a4dd5f89b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ANZ EFTPOS",
+          "total": "$$199.95"
+        },
+        {
+          "quantity": "",
+          "description": "---------------------------",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e0d3ace1-8bb7-4ff6-bfdf-e10fbac1c2d2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nANZ EFTPOS\n\nANZ CUSTOMER COPY\nMIDAS SHOES CAMBERWELL\n656 BOURKE ROAD\nCAMBERWELL VIC 3124\n\n\nTERMINAL ID  02943002001\nCARD          (C) CR",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "MIDAS Shoes Receipt",
+  "description": "This receipt is issued by MIDAS Shoes Camberwell and identifies the store as 656 Bourke Road, Camberwell, Victoria 3124, Australia. The header contains the store branding, address, ABN (Australian Business Number), tax invoice designation, transaction date and time, sale number, and receipt reference. The receipt includes customer information, including the customer name, customer number, phone number, and email address, followed by an itemized purchase showing one pair of black leather shoes. The financial section records the subtotal, receipt total, and payment by EFTPOS. The footer confirms the transaction as an ANZ EFTPOS Customer Copy and includes the store address, terminal identifier, and card type. The overall layout is representative of an Australian retail POS receipt, combining tax invoice reporting, customer identification, EFTPOS payment processing, and transaction reconciliation within a compact retail receipt format.",
+  "slug": "MIDAS-Shoes-Receipt",
+  "published": true,
+  "id": "rNXAU50Gcfu8rAfPAssY"
+}

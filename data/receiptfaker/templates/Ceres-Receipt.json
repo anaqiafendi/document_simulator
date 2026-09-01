@@ -1,0 +1,134 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Ceres Receipt",
+  "description": "This receipt is issued by Ceres and identifies the restaurant as 164 Mott Street, New York, New York 10013. The header contains the restaurant name, address, telephone number, transaction date and time, ticket reference, receipt number, and authorization number. The receipt records a dine-in order consisting of a whole Cheese Pizza, a whole Nduja & Burrata pizza, and two to-go charges. The financial section records a subtotal of $111.00, 8.875% New York sales tax of $9.85, a $24.17 tip, and a final total of $145.02. The payment section confirms settlement using Visa Credit and includes EMV application information and confirmation that the transaction was signed on the device. The overall layout is representative of a United States restaurant POS receipt, combining menu itemization, sales-tax reporting, gratuity, and electronic card payment processing.",
+  "slug": "Ceres-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T13:16:54.763Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d5d94b3e-9c93-41f3-87bf-e098768fe3e6",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 229,
+      "businessDetails": " CERES\n\n164 Mott St        December 12, 2025\nNEW YORK, NY             11:39 AM\n10013\n(234) 567-8910\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3755b4d0-d72a-4806-baee-1af8372a00c3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73786457-7896-466e-aded-5e83c05df7c4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTicket: Ramit S  12:30\nReceipt: nV5e\nAuthorization: 075161\n\nVISA CREDIT\nA0 00 00 00 03 10 10\nVerified on Device",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "479190d6-dd2f-461e-95c5-9b52ebb13a8a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " FOR HERE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cde51431-5162-43a5-b5f0-0132c6d08fec",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nCheese Pizza",
+          "value": "\n$40.00"
+        },
+        {
+          "title": "Whole",
+          "value": "$$68.00"
+        },
+        {
+          "title": "\nNduja & Burrata ",
+          "value": "\n$68.00"
+        },
+        {
+          "title": "Whole",
+          "value": ""
+        },
+        {
+          "title": "\nTo Go x 2",
+          "value": "\n$3.00"
+        },
+        {
+          "title": "($1.50 each)",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7f734a4-2a51-49e7-9542-5586ee41cac7",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSubtotal",
+          "value": "\n$111.00"
+        },
+        {
+          "title": "New York Sales Tax (8.875%)",
+          "value": "$$9.85"
+        },
+        {
+          "title": "Tip",
+          "value": "$$24.17"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7fbe6fa4-a710-4c39-bd37-f55d6d41c6c6",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nTotal (Contactless)",
+          "value": "\n$145.02"
+        },
+        {
+          "title": "",
+          "value": "$$145.02"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "L0m16EiI9Pa7ukMW9338"
+}

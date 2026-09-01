@@ -1,0 +1,76 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Applebee’s Receipt",
+  "description": "A restaurant receipt from Applebee’s Neighborhood Grill & Bar located at 8635 Blanding Blvd, Jacksonville, FL 32244. The receipt shows server SEAN D, table number TB#91, dated 04-15-15 at 7:35 PM for 5 guests. Items include a Classic Grilled Sandwich, Sweet Tea, and a 10% Officer discount, with a subtotal of $12.87. The bottom portion promotes Applebee’s Guest Experience Survey at applebees.com/survey, offering chances to win $1,000 daily and other prizes.",
+  "slug": "Applebee's-Receipt",
+  "createdAt": "$D2026-02-12T18:37:02.427Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "5f327807-5fd4-41e3-a822-12fbc02b4b71",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1543008b-1705-471a-8a84-f6bd76bce4bf-applebees.jpg?alt=media&token=b4d84deb-6c92-4846-9fe8-07b64b9395a0",
+      "size": 171,
+      "businessDetails": "APPLEBEE’S\nNEIGHBOURHOOD GRILL & BAR\n8635 Blanding Blvd\nJacksonville, FL 32244\n(904) 771-0000",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bbfcafc0-eb76-41bf-9416-64f4144fad50",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "\nSEAN D                       TB#91\nDATE: 04-15-15 TIME: 07:35 PM GUESTS: 5\nCheck #: 9895-66466",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "de873d7a-bfcf-4a24-9a71-c40cec31c6e7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "1 CLASSIC GR SAND ",
+          "total": "10.49"
+        },
+        {
+          "quantity": "2",
+          "description": "1 SWEET TEA ",
+          "total": "2.59"
+        },
+        {
+          "quantity": "2",
+          "description": "1 10% OFFICER",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "12.87",
+      "totalText": "******** GUEST # 3 SUB-TOTAL",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b130a53-9c83-411d-9fdf-861321703201",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We want to\nSee You Tomorrow,\nso tell us\nhow we did!!!\n\nTake Applebee’s\nGUEST EXPERIENCE SURVEY\n\nGo online to:\napplebees.com/survey\n\nReceive 10 CHANCES to\nWIN $1,000 DAILY\nPLUS you can INSTANTLY WIN\nother GREAT PRIZES",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FwFpjPqAIaySN4LnYU9K2%2FwFpjPqAIaySN4LnYU9K2-e85b1e72-a931-49fd-b171-41ef7f776ce0.png?alt=media&token=982b6aa1-7da3-454f-9b27-76dbd211a802",
+  "published": true,
+  "id": "wFpjPqAIaySN4LnYU9K2"
+}

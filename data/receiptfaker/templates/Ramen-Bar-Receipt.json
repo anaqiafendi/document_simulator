@@ -1,0 +1,217 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-22T08:43:12.412Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "fc055f80-84fd-4103-8325-0e58b628be79",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2c2da4be-5d9d-47ab-9c2b-e3361b90a7d8-image%20(14).jpg?alt=media&token=bdf60138-25f3-436d-bc11-34ae443e9d5e",
+      "size": 244,
+      "businessDetails": "\n2248 S CANAL ST\nChicago, IL 60616\n(312)326-3780\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f2bd6d68-e741-4e92-af4b-03d165e0dc1b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Jane M",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Check #7",
+          "total": "Table L1 "
+        },
+        {
+          "quantity": "",
+          "description": "Ordered",
+          "total": "3/28/24 12:44 PM"
+        },
+        {
+          "quantity": "\n\n1",
+          "description": "House Salad 野菜サラダ",
+          "total": "\n\n7.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Deep Fried Soft Shell Crab",
+          "total": "18.00"
+        },
+        {
+          "quantity": 1,
+          "description": "ソフトシェルクラブ",
+          "total": "18.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Kuro Ramen 黒ら一めん",
+          "total": "18.00"
+        },
+        {
+          "quantity": 1,
+          "description": "xxxaJapanese Chicken Curry",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "チキンカツカレー",
+          "total": "18.00"
+        },
+        {
+          "quantity": "\n\n",
+          "description": "Subtotal",
+          "total": "96.95"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "8.70"
+        },
+        {
+          "quantity": "",
+          "description": "Tip",
+          "total": "12.73"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "78.38"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nInput Type",
+          "total": "\n\n (EMV Chip Read)"
+        },
+        {
+          "quantity": "",
+          "description": "VISA CREDIT",
+          "total": "xxxxxxxx3119"
+        },
+        {
+          "quantity": "",
+          "description": "Time",
+          "total": "1:17 PM"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTransaction Type",
+          "total": "\n\nSale"
+        },
+        {
+          "quantity": "",
+          "description": "Authorization",
+          "total": "Approved"
+        },
+        {
+          "quantity": "",
+          "description": "Approval Code",
+          "total": "02776D"
+        },
+        {
+          "quantity": "",
+          "description": "Payment ID",
+          "total": "7Ch|sl3yJTnc"
+        },
+        {
+          "quantity": "",
+          "description": "Application ID",
+          "total": "A0000000031010"
+        },
+        {
+          "quantity": "",
+          "description": "Application Label",
+          "total": "VISA CREDIT"
+        },
+        {
+          "quantity": "",
+          "description": "Terminal ID",
+          "total": "f6bcb82574bc4005"
+        },
+        {
+          "quantity": "",
+          "description": "Card Reader",
+          "total": "6BPOS"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e8e7d5d-ecbf-4f60-bdec-482239f91226",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSuggested Additional Tip\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b95ea77-aa67-4bc9-bf2d-a627a6d6251e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "                       * 2%: (Tip 1.27 Total 64.92)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "* 3%: (Tip 3.18 Total  65.56)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "* 5%: (Tip 3.18 Total 66.83)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "* 7%: (Tip 4.46 Total 68.11)",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1c6f958-572c-41ba-9d8f-888ea3929aa8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tip percentages are based on the check price after taxes.\n\nFollow us on Instagram @ramenbarchi\nNo Exchange or Refunds",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "name": "Ramen Bar Receipt",
+  "description": "This restaurant receipt from Ramen Bar documents a dine-in EMV chip card transaction processed at the South Canal Street location in Chicago, Illinois. The receipt includes bilingual English and Japanese menu formatting, server identification, table reference metadata, timestamp information, and EMV payment processing details. The POS structure contains subtotal, tax, tip, and total fields aligned in standard restaurant thermal formatting. Additional payment metadata includes masked VISA card information, authorization status, approval code, application ID, terminal ID, and BBPOS card reader identification. The footer section contains suggested additional tip calculations with adjusted totals based on post-tax percentages. The layout reflects a modern U.S. restaurant thermal receipt with integrated EMV payment authorization and multilingual menu formatting.",
+  "slug": "Ramen-Bar-Receipt",
+  "published": true,
+  "id": "Jei5oU7iypgTYUB68DWv"
+}

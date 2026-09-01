@@ -1,0 +1,196 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Uncle Paul's Pizza Receipt",
+  "description": "This restaurant receipt from Uncle Paul’s Pizza documents a dine-in transaction at the Vanderbilt Avenue location in New York. The receipt includes POS metadata such as check number, server identifier, guest count, dining room table reference, and timestamp information. The transaction structure contains subtotal, sales tax calculation, total amount due, and balance due formatting with aligned monetary fields. Additional receipt elements include a thank-you footer with staff attribution and a gratuity guide section displaying percentage-based tip calculations and adjusted totals. The layout reflects a standard U.S. restaurant thermal receipt with dine-in service identifiers and tip recommendation formatting.",
+  "slug": "Uncle-Paul's-Pizza-Receipt",
+  "createdAt": "$D2026-05-21T15:01:41.790Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3c58ecda-929a-423e-a7f5-3052524a6244",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "TABLE\n\nUncle Paul's Pizza\n70 Vanderbilt Ave\n212-822-1200",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7de014c-2572-4c42-8d98-e05c953bc64c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n05-01-2016 Chk# 113 Open 5:30 PM\nSrvr: 176 Gsts: 2 Tbl: Dining Room #50",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2eaed581-ac2e-4274-b77f-1dc9182c7099",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSmall Neapolitan                9.00\nPepperoni                       2.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b48525e3-3084-48f2-9f18-b96932616c60",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Uncle Paul's Salad",
+          "total": "10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Pellegrino",
+          "total": "2.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "23635e5e-b8de-43b9-be8e-7f89e3a9b07a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Chianti Sangiovese Bottle",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "698954e8-ee15-47ec-89a2-40ae632941be",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "58.00"
+        },
+        {
+          "title": "Sales Tax (8.875%)",
+          "value": "5.15"
+        },
+        {
+          "title": "Total",
+          "value": "$$ 63.15"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f248dd8-1fce-48c0-abbc-b7c4972adca4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Balance Due                  $63.15",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d0e95bdc-2165-4f5a-80d9-0c649ebf3345",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Table: Dining Room #50\nTHANK YOU, Anele",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6640b8db-9a4e-4aba-a31b-264c3fc8253c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nChk# 113\nGratuity Guide",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c84fcfa-5c44-4564-b67a-df2ed0f5152c",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nTip",
+          "value": "\nTotal"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a8850a80-82c7-4159-adf8-3b8c6beddbdc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n* 18 % =",
+          "total": "\n$11.37 $74.52"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "$$11.85 $75.00"
+        },
+        {
+          "quantity": "",
+          "description": "* 20 % =",
+          "total": "$$12.63 $75.78"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "$$12.85 $76.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0eb5729d-5eb4-405b-a4eb-20affac8d515",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for dining at\nUncle Paul's Pizza\nWe hope to see you again soon!\n* * * * * * * * * *\nwww.unclepaulspizza.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "9jPVBIDumUnwhixYPlJF"
+}

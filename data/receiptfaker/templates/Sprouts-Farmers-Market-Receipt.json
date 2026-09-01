@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Sprouts Farmers Market Receipt",
+  "description": "This receipt is issued by Sprouts Farmers Market for a transaction conducted at the Chula Vista, California location, including full store identification details such as address, phone number, and operating hours. It contains structured POS metadata including transaction date and time, authorization code, payment method (chip-based VISA credit), and terminal identifiers such as AID, TVR, IAD, MID, and TID. The receipt is formatted across a front and back continuation structure, with section headers and a complete financial summary including total sales, balance due, and change. It also includes cashier identification, register and transaction references, and a detailed return policy footer, reflecting a standard grocery retail POS receipt format with extended compliance and transactional data fields.",
+  "slug": "Sprouts-Farmers-Market-Receipt",
+  "createdAt": "$D2026-03-26T15:10:58.117Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F74498d13-c9c7-486b-a975-11aed1482a89-image%20(15).jpg?alt=media&token=a366aaa8-271d-418d-8969-88345dab825c",
+      "size": 236,
+      "businessDetails": "27 YEARS IN CHULA VISTA!!\n\n690 3RD AVE.\nCHULA VISTA CA, 91910\n(619)409-7630\nSTORE HOURS: MON-SUN 7AM- 9PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "07/29/2018           10:16:25\nTotal:               USD$ 41.92\n\nVISA CREDIT  Entry Method: Chip\nCARD #:             XXXXXXXXXXXX\nPURCHASE:           APPROVED\nAUTH CODE:          092280\n\nMode:         Issuer\nAID:            A0000000031010\nTVR:            8000008000\nIAD:            06010A03608000\nTSI:            6800\nARC:            00\nTC:             2C06E2ECD07562A\nMID:            876268        \nTID: 001 SEO: 074262",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "$3e",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc153bf4-7988-49e1-bd7b-ef5e97e83b0c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "VITAMIN RETURN POLICY\nWE WILL ACCEPT VITAMIN RETURNS WITH\nA RECEIPT WITHIN 30 DAYS OF PURCHASE.\n10% MIN. WILL BE TAKEN OFF OPENED OR\nDAMAGED PRODUCT. NO REFRIGERATED ITEMS OR\nBOOKS WILL BE ACCEPTED AT ANYTIME.\nRETURNS WILL ONLY BE GIVEN FOR ITEMS\nPURCHASED AT CHULA VISTA OR EASTLAKE.\nNO RETURN OF HOLIDAY ITEMS\nTHANK YOU FOR SHOPPING AT SPROUTS",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FmG0f0HmRIBHX3ZreIuyT%2FmG0f0HmRIBHX3ZreIuyT-b46aa846-021c-4f00-9a5c-7dbe3396c6b6.png?alt=media&token=b92a408d-1d79-4aab-94b6-b0237e645d71",
+  "published": true,
+  "id": "mG0f0HmRIBHX3ZreIuyT"
+}

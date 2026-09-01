@@ -1,0 +1,180 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T15:55:06.732Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "17106cb0-ad95-4cb6-a0a7-c0241d714704",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1eaaf4a2-bb61-44fe-9d3c-7f18081389b0-image%20(15).jpg?alt=media&token=db004eab-577c-46e8-8121-8b8e6ecbf589",
+      "size": 169,
+      "businessDetails": "\nJl Teluk Gong Raya\n Pejagalan\nNPWP: \"20.786.546.0-427.000\"",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9dfd2db1-9f0d-43ea-9327-16ba4aa1b038",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nKao Attack Jaz 1 Detergent P",
+          "total": "\n26.900"
+        },
+        {
+          "quantity": "",
+          "description": "x6",
+          "total": "12.500"
+        },
+        {
+          "quantity": "",
+          "description": "So Soft Liquid Detergent Ros",
+          "total": "75.000"
+        },
+        {
+          "quantity": "",
+          "description": "DeHouzz Disinfectant Liquid",
+          "total": "6.500"
+        },
+        {
+          "quantity": "",
+          "description": "DeHouzz Disinfectant Liquid",
+          "total": "6.500"
+        },
+        {
+          "quantity": "",
+          "description": "MEGUSTA Gula Pasir Putih 1kg",
+          "total": "17.100"
+        },
+        {
+          "quantity": "",
+          "description": "Clean'N'Brite Naphthalene Di ",
+          "total": "54.500"
+        },
+        {
+          "quantity": "",
+          "description": "So Klin Bleaching Regular BT ",
+          "total": "5.900"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f0ec6031-174c-4df3-9577-dc8b5843a068",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal (Termasuk PPN)",
+          "total": "192.400"
+        },
+        {
+          "quantity": "",
+          "description": "Pembulatan",
+          "total": "-400"
+        },
+        {
+          "quantity": "",
+          "description": "Jumlah barang:16      Jumlah",
+          "total": "192.000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "effcfaf4-6d82-4114-a041-29c11aa81668",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "",
+          "value": "Cash"
+        },
+        {
+          "title": "Tunai",
+          "value": "200.000"
+        },
+        {
+          "title": "Kembalian",
+          "value": "8.000"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7fe4b54f-43d7-4d41-88b4-4a4552122369",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n601,2,60103,21436,05/02/2026 09:31\n\nBuka 7:00 to 22:00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "13fb0e6c-058f-489d-8f4e-e50cb1538692",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nO!Save Warranty: \"Jika Anda tidak puas dengan kualitas suatu produk, \ncukup kembalikan untuk pengembalian dana penuh, tanpa perlu penjelasan.\"\n\nTERIMA KASIH",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by O!Save, located at Jl. Teluk Gong Raya, Penjagalan, Jakarta, Indonesia. The header includes the store branding, branch address, and the company's tax identification number (NPWP). The receipt contains an itemized retail transaction section and concludes with a financial summary showing the Subtotal (inclusive of PPN), Rounding Adjustment (Pembulatan), Total (Jumlah), Cash (Tunai), and Change (Kembalian), along with the total number of purchased items. The footer records the transaction reference number, transaction date and time, store operating hours, the O!Save Warranty return policy, and a customer appreciation message. This receipt represents a standard Indonesian retail POS receipt featuring transaction metadata, tax-inclusive pricing, cash payment reconciliation, store policy information, and business identification.",
+  "name": "O!Save Receipt",
+  "slug": "O!Save-Receipt",
+  "published": true,
+  "id": "pLl8u3X89eoE1JN5qR3K"
+}

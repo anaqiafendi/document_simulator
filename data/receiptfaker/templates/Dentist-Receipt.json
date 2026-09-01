@@ -1,0 +1,168 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Dentist Receipt",
+  "slug": "Dentist-Receipt",
+  "createdAt": "$D2025-05-25T14:53:49.034Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Faaa3aaf7-6c48-4e60-988d-3a0472ffaeaf-10948181_dentist_chair_equipment_furniture_healthcare_icon.png?alt=media&token=f1e324e6-c351-4741-8f54-d216bdb6bffa",
+      "size": 50,
+      "businessDetails": "BrightSmile Dental Care, PLLC\n\nAddress:\n1234 Healthy Teeth Blvd\nSuite 200\nSpringfield, IL 62704\n\nPhone Number:\n(217) 555-7890\n\nEmail:\ncontact@brightsmiledental.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9d087367-fb49-4087-9986-f67656a9027f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Dentist Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd4c0eac-d3a7-4279-93c2-1137f4c548ab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Doctor:\nDr. Emily Harper\nLicense Number: DDS-482736",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f1b2d59-de12-4a05-9dcd-08c7fffc2b1e",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Patient:\nName: Olivia Grace Mitchell\nSurname: Mitchell\nDate of Birth: 1990-04-22\nPhone Number: (312) 555-4821\nAddress: 450 Maple Avenue, Unit 12B, Chicago, IL 60611\nInsurance Number: INS-99287456\nEmail: olivia.mitchell90@email.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Dental Cleaning",
+          "total": "120.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Composite Filling",
+          "total": "300.00"
+        },
+        {
+          "quantity": 1,
+          "description": "X-Ray Imaging",
+          "total": "80.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "500.00"
+        },
+        {
+          "title": "Tax",
+          "value": "30.00"
+        }
+      ],
+      "total": "530.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Many hospitals and dental offices offer electronic receipts via email or patient portals for convenience and record-keeping. They must have clear procedures for patients to dispute charges and request corrected receipts if errors are found. Receipts should clearly list services rendered (e.g., consultation, lab tests, imaging), medications, procedures, and any other charges.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "COLONS"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FeGmMczAVSTv4LRENBR2F%2FeGmMczAVSTv4LRENBR2F-6cfdfcd4-a83d-459e-9ccb-edd43d659a7b.png?alt=media&token=4c885df4-35c5-4af8-bd92-c3f893a289e9",
+  "description": "Need a dentist receipt? Easily create a detailed dental visit receipt with our free tool. Customize clinic info, patient name, procedures, fees, and payment—perfect for insurance claims, records, or reimbursements.",
+  "published": true,
+  "metatitle": "Dental Visit Receipt",
+  "metadesc": "professional dental visit receipts with customizable clinic info, patient details, procedures, and fees for insurance claims",
+  "id": "eGmMczAVSTv4LRENBR2F"
+}

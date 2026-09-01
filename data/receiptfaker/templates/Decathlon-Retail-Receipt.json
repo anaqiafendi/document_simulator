@@ -1,0 +1,136 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T19:01:13.212Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Decathlon Retail Receipt",
+  "description": "This receipt is from Decathlon Petaling Jaya, a sporting goods retail store in Malaysia. It records the purchase of two apparel-related items including a dry slip garment and sports socks. The receipt includes serial numbers for the products, transaction and operator details, loyalty card information, total purchase amount, cash payment, and change given. It also displays the store’s operating hours and online shopping website. The format reflects a standard retail POS receipt used by Decathlon stores in Malaysia.",
+  "sections": [
+    {
+      "id": "c704d421-a83b-45bf-9a80-ba493b746948",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0e2a701a-ad8a-4aec-9c01-6e4b3ead9852-image%20(10).jpg?alt=media&token=8b563847-6fab-43fe-8d17-5fa6f060d6a2",
+      "size": 256,
+      "businessDetails": "\nDECATHLON PETALING JAYA\nOpening Hours: 10AM–10PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f3d385d0-5287-4126-af52-1981b472d4c1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DRY SLIP GREY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "729198",
+          "total": "12.00"
+        },
+        {
+          "quantity": "",
+          "description": "Serial Number: 001578467392",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SK 500 FRESH SOCKS",
+          "total": "9.00"
+        },
+        {
+          "quantity": "",
+          "description": "2546738",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Serial Number: 006436086014",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "\n\n21.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Article(s)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "40.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "19.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n\nLoyalty Card Number: 2091789605348",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n2020-03-16 18:43  Till 104  Trans ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Operator Azam SHIDID Store 702003",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9cac405a-86ce-4209-b8f1-1dbc42db27d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank You !\nShop online at: www.decathlon.my",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4e04b00-6249-40e5-b5da-2973e034113a",
+      "type": "BARCODE",
+      "size": 67,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb1df372-be28-46f8-846f-b3d96e2eedf8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2 0 0 3  1  0 4 7 0 0 0 0 7 3 4 8\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Decathlon-Retail-Receipt",
+  "published": true,
+  "id": "Xp94YtmGNJfvW5shT2Wn"
+}

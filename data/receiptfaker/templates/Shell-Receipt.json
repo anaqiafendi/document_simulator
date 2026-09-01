@@ -1,0 +1,123 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Shell Receipt",
+  "slug": "Shell-Receipt",
+  "createdAt": "$D2025-09-30T12:45:12.781Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F4497147a-2261-460c-a2c7-76b31d976e44-shell-8-logo-black-and-white.png?alt=media&token=a49a5c8c-c3bb-49b9-a103-9315e14f2960",
+      "size": 49,
+      "businessDetails": "Shell Westwood Ave\nShell ID: 10000048\nNo. 21 Westwood Avenue Tel: (617) 555-8830\nTax Reg No: 12-3456789",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": ">>>>>>>>>> Tax Invoice <<<<<<<<<<",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "10 gal",
+          "description": "Gasoline ($4.15/gal)",
+          "total": "41.50"
+        },
+        {
+          "quantity": "2",
+          "description": "Motor Oil (5W-30, 1 qt)",
+          "total": "15.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Car Wash (Basic)",
+          "total": "12.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "88.23",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "88.23"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Your Bonus Savings\nFuel Rewards Members save up to $0.10/gal after every 5 gal fill-up with Shell V-Power NITRO+ Premium Gasoline.\nEngineered with triple-action protection for optimal engine performance.\nTerms/conditions apply. Offer ends 9/2.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FQyEOYMxMcGOyIZ7PpQzr%2FQyEOYMxMcGOyIZ7PpQzr-d4aa4475-24ef-49b0-9675-9c7c5388a659.png?alt=media&token=fe7b87e2-772c-42aa-a21f-c2f7c00187ed",
+  "description": "Need a Shell receipt? Use our free tool to generate a detailed fuel purchase record. Add station info, fuel type, quantity, price, and payment—perfect for reimbursements, tax claims, or expense tracking.",
+  "published": true,
+  "metatitle": "Shell Gas Receipt",
+  "metadesc": "detailed Shell fuel purchase receipts with customizable gallons, price per gallon, and payment method for business expenses",
+  "id": "QyEOYMxMcGOyIZ7PpQzr"
+}

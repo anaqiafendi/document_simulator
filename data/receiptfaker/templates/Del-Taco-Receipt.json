@@ -1,0 +1,177 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Del Taco Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Del Taco at its Las Vegas, Nevada location, including store number, contact information, and website reference. It features a clearly labeled order number and indicates the service type as drive-thru, along with a timestamped transaction record. The receipt presents a structured financial summary with subtotal, tax rate, and total amount, followed by payment details including masked card number and authorization code. It also includes a promotional survey offer with instructions and redemption details, concluding with a transaction closure notice, reflecting a standard U.S. fast-food POS receipt format.",
+  "slug": "Del-Taco-Receipt",
+  "createdAt": "$D2026-04-06T16:52:05.254Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "f9b347f0-59a0-49d1-bfff-032e0a9b9b55",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Welcome to\nDel Taco #1465\n3985 S Decatur Blvd\nLas Vegas, NV 89145\n(702) 822-6646\nwww.deltaco.com/contactus\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "16d3723d-58f0-414f-a261-cbe0619d7604",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "03/07/2024",
+          "total": "6:27 PM"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "251eaf7c-9f0d-449b-9dad-0cb7fc5ba94b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ORDER #29",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29968122-0095-4527-b2d9-024ace96443d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order Type: Drive-Thru",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1819845a-ea16-464c-a337-04dc230e6b77",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Beer Battered Fish Taco",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Snack Soft Taco",
+          "total": "0.99"
+        },
+        {
+          "quantity": "",
+          "description": "Habanero Crispy Ckn Soft (2@1.7)",
+          "total": "3.58"
+        },
+        {
+          "quantity": "",
+          "description": "Crispy Chicken Soft (2 @1.79)",
+          "total": "3.58"
+        },
+        {
+          "quantity": "",
+          "description": "Crispy Chicken Soft (2 @1.79)",
+          "total": "3.58"
+        },
+        {
+          "quantity": "",
+          "description": "Ranch Chicken Rollers (2 @1.79)",
+          "total": "3.58"
+        },
+        {
+          "quantity": "",
+          "description": "Snack Taco (5 @0.99)",
+          "total": "4.95"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "19.67"
+        },
+        {
+          "quantity": "",
+          "description": "8.375% Tax",
+          "total": "1.65"
+        },
+        {
+          "quantity": "",
+          "description": "Drive-Thru Total",
+          "total": "21.32"
+        },
+        {
+          "quantity": "",
+          "description": "Visa ##########8120",
+          "total": "21.32"
+        },
+        {
+          "quantity": "",
+          "description": "Auth: 079952",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef639fce-c2fd-491f-a1f0-1c8ebe8b046d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "*****Get $1 OFF a $3+ Purchase!*****\nTell us about your visit in a short\nsurvey and receive $1 Off a $3 order\non your next visit to this Del Taco.\n\n1. In the next 7 days visit survey.deltaco.com & enter:\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "644901ec-3b72-4200-9914-ff16b9052425",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "____________________________\n\n785 143 110 076 014\n____________________________\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "62358383-0ebf-4183-8f00-5b51c2376273",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2. Complete the survey, provide your email address and receive the coupon within 24 hours! Offer expires 30 days after receiving your coupon.  Not valid with any other coupons or discounts.\n\n*************************************",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "50df4680-433a-4233-8431-8e92d202d046",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n----- Check Closed -----",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1y673mfHMIHOPF4BFuUz%2F1y673mfHMIHOPF4BFuUz-3dff7b58-dc5f-430e-9588-dfd31dd7bcee.png?alt=media&token=10de3482-c347-4de4-b6d0-c1be83dabcb1",
+  "published": true,
+  "id": "1y673mfHMIHOPF4BFuUz"
+}

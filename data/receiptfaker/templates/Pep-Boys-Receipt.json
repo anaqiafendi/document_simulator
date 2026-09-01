@@ -1,0 +1,113 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Pep Boys Receipt",
+  "description": "This automotive retail receipt from Pep Boys features the illustrated three-head logo at the header followed by the store number, full address in Sunnyvale, California, phone number, and website. The receipt includes transaction number, register number, store and till identifiers, cashier ID, and a timestamp with date, time, and time zone notation. A barcode transaction identifier appears beneath a sale header. The financial section lists subtotal, tax, and total in aligned POS formatting. The footer contains a return policy notice referencing a 90-day return window, rebate submission website information, and a “Customer Copy” label, typical of automotive service and parts point-of-sale receipts.",
+  "slug": "Pep-Boys-Receipt",
+  "createdAt": "$D2026-02-19T14:41:34.615Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ed9c30e5-84e3-4622-af63-7f89d35a2047",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffa304ecd-6041-447b-80ef-53caf161fd4f-peep%20boys.jpg?alt=media&token=009cc4ba-4262-48d7-bd11-d6a8a1b5424c",
+      "size": 173,
+      "businessDetails": "Pep Boys #840\n170 EAST EL CAMINO\nSUNNYVALE, CA 94088\n(408)774-0159\nwww.pepboys.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a77706cd-12a6-4d28-bc52-cbc93b250369",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "11/27/2015           12:31:20 PM PST\nTrans.: 283439          Store: 0840\nReg.: 102                Till:102\nCashier: 372418\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb0cf4ab-5d59-4e11-b6ec-73e40fb75aa9",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "SALE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8a600f66-8388-45ef-b410-395085028370",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "834ea2fe-fd4d-4c9a-8ad4-0ecdd5059560",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "084010228343920151127",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e102b2ee-4900-46fb-9b80-23e626c3a28a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "79d6ba19-e359-4a6b-90a9-e888a751b973",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for shopping at Pep Boys. We\naccept most returns within 90 days with\nthe original receipt. For more details,\nplease refer to the return policy\nin-store or at www.pepboys.com\nSubmit your rebate on-line at\nwww.pepboys.com/rebates\n\nCustomer Copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fv8oqDGR2Wc9oQ4Eo2a82%2Fv8oqDGR2Wc9oQ4Eo2a82-0010fd89-c17c-401b-ae81-1313c5d5234e.png?alt=media&token=21cc6e92-7768-46a2-8aa5-308312be3035",
+  "published": true,
+  "id": "v8oqDGR2Wc9oQ4Eo2a82"
+}

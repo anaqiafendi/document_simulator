@@ -1,0 +1,146 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-09T19:33:36.934Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "08efad64-627a-46d7-9f18-880e5455ee62",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2b0769c0-cdec-40dc-abba-b8ff708a35a8-image%20(3).jpg?alt=media&token=59192c15-bf04-4d29-9a22-695e7d7dce77",
+      "size": 261,
+      "businessDetails": "GE Rue Abraham\nRue Abraham-Gavray 5-7\n1201 Genève\n022 404 40 50 \n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "15ab266a-c2b0-414b-ac05-7d0162e66233",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "M Description",
+          "total": "Montant"
+        },
+        {
+          "quantity": "",
+          "description": "\nC Tourte au notch des gri 500g",
+          "total": "\n6.95"
+        },
+        {
+          "quantity": "",
+          "description": "C Panache tradition Bofte 5dl",
+          "total": "1.30"
+        },
+        {
+          "quantity": "",
+          "description": "1 x 1.60",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "C Comodhens Blere Arome- 50cl",
+          "total": "1.60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "adf314dc-7c49-4189-ac4b-f6fdb6cf651f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total CHF ",
+          "total": "9.85"
+        },
+        {
+          "quantity": "",
+          "description": "\nCash CHF",
+          "total": "10.00"
+        },
+        {
+          "quantity": "",
+          "description": "A rendre CHF",
+          "total": " 0.15"
+        },
+        {
+          "quantity": "",
+          "description": "\nB TVA 2.5%",
+          "total": "\n6.95    0.17"
+        },
+        {
+          "quantity": "",
+          "description": "C TVA 8.0% ",
+          "total": "2.90    0.21"
+        },
+        {
+          "quantity": "",
+          "description": "Total TVA",
+          "total": "0.38"
+        },
+        {
+          "quantity": "",
+          "description": "Numéro TVA: CHE-105.904.292 TVA",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bdc9bfe1-9352-43a1-bac0-2ad39ad3f1cf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVous avez été servi par:\nCHRISTIAN CASTILLO MORALES\n\n\n24.04.2015 16:44 #:32985  C:171701",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "631b2dc0-170c-4488-a2f4-9abef8050321",
+      "type": "BARCODE",
+      "size": 83,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "61e1deb7-f333-4160-a456-20ad57aa1c30",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "686820652006290 4",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Denner and identifies the store as Rue Abraham-Gevray 5–7, 1201 Genève, Switzerland. The header contains the store branding, address, contact telephone number, and transaction date and time. The receipt records the purchase of several grocery items, including food and beverages, followed by the total amount due in Swiss francs (CHF). The financial section records the amount tendered, change returned, and a breakdown of Swiss VAT (TVA) at multiple tax rates. The receipt also includes the business VAT registration number and identifies the employee who served the customer. The overall layout is representative of a Swiss supermarket POS receipt, combining grocery itemization, VAT reporting, cash-payment reconciliation, and transaction identification within a compact retail receipt format.",
+  "published": true,
+  "name": "Denner Receipt",
+  "slug": "Denner-Receipt",
+  "id": "Bin8bRlMpYdAfGI27XB5"
+}

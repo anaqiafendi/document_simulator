@@ -1,0 +1,177 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T17:31:39.932Z",
+  "description": "$3e",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Cheaney Receipt",
+  "slug": "Cheaney-Receipt",
+  "sections": [
+    {
+      "id": "09693222-82f5-4c58-83d2-04c4a89f16db",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4382c95c-3970-416c-b0ac-0ee2823b9c1c-image%20(7).jpg?alt=media&token=55407c1d-d5b3-46a0-bf47-bdd5b05a133f",
+      "size": 251,
+      "businessDetails": "London\nJermyn Street\n21 Jermyn St\nTel: 020 7287 2996\nVAT #: 975670886",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "24c4ca59-ba96-4c85-87bf-5af59aa860f0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "DATE: 15 Jan 19   12:11:44 GMT\nTRANSACTION REF: 50-1901-29870\nSERVED BY: Nash",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "96241850-0fc8-42c1-903b-da4863b4b2d1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSold\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b1fa1c4-f696-4a01-857d-f5ad7f4692f3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "050007:G:065",
+          "total": "1          £350.00"
+        },
+        {
+          "quantity": "",
+          "description": "ARTHUR III BLACK CALF",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "FIT: 8 / SIZE: 6.5 / SIZE: 65",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n050169:0:060       1",
+          "total": "\n\n£60.00"
+        },
+        {
+          "quantity": "",
+          "description": "SHOE FILLERS-CEDARWOOD A0610CHY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "FIT: SIZE / FIT: 0 / FIT:/ SIZE: 60",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5160ec61-c169-4155-b9a2-5716ab337ed8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TOTAL\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc051d78-5c7b-4f4b-b0bc-999f7d457fad",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUB TOTAL",
+          "total": "£341.67"
+        },
+        {
+          "quantity": "",
+          "description": "VAT",
+          "total": "£68.33"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "£410.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0fbe42e-999e-48d8-9653-712277267659",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TENDER\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4b593bb6-629d-440c-85e8-e06c871cc5e0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "AMEX",
+          "total": "£410.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "06954220-99a2-4914-b579-668dce397800",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for your custom\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c107295-e91a-4941-8653-df99d62b76d2",
+      "type": "BARCODE",
+      "size": 80,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "8u9JmpcqVVnM6EfNc5s4"
+}

@@ -1,0 +1,104 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Body Shop Receipt",
+  "description": "This cosmetics retail receipt from The Body Shop features the brand header at the top followed by a store location identifier for Manchester Royal Exchange along with telephone number and VAT registration details. The receipt includes a financial summary section showing subtotal, tax, and total fields, and additional VAT notation below. A consultant identifier is printed beneath the totals, followed by a loyalty program message encouraging rewards participation. The lower section contains the transaction date and time, register reference, company legal information for The Body Shop International Ltd in West Sussex, England, and a return notice with receipt number, consistent with international personal care retail POS formatting.",
+  "slug": "The-Body-Shop-Receipt",
+  "createdAt": "$D2026-02-19T15:52:40.567Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "£",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "32378195-ec53-41a1-a69b-793b1fdea9d4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7a395136-003b-4b18-937b-1c79ae5167d9-Then%20Body%20Shop.jpg?alt=media&token=242ac0d2-0e6e-4eca-a978-a9005b8d237d",
+      "size": 217,
+      "businessDetails": "Manchester Royal Exchange\nTelephone: 0161 834 4203\nVAT 543 9388 15",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "19723a64-0f86-4589-904b-fb7fd2d41a63",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2af5b7f1-b7ff-46a3-9fbb-0088e30a4a55",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VAT £3.67\nYour Consultant was Mia\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0bf2f620-b761-4f4e-a263-03d9648f617a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "By joining our Love Your Body Club,\nyou could have earned 220 points today\ntowards treats and rewards.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6f38799-8a77-4d46-b976-3f7964ee37d4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Sun 29 Dec 2024 12:56\nTrans No. Reg 01/482146",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d0cf72c-19f2-4308-aef7-68a97a7a06cd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThe Body Shop International Ltd\nWatersmead, West Sussex, BN17 6LS, England\nRetain Receipt for Returns\nReceipt No. 1313-5072-0562",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4Cd6UfMLNgUMidsO2f51%2F4Cd6UfMLNgUMidsO2f51-57997129-d467-43b5-bc73-2047041c2207.png?alt=media&token=ff23192f-b9f1-41fd-aaf7-7d3f11d0c7ee",
+  "published": true,
+  "id": "4Cd6UfMLNgUMidsO2f51"
+}

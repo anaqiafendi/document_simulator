@@ -1,0 +1,178 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Joma Bakery Café - In-Store Receipt",
+  "description": "This receipt template represents an in-store dining transaction from Joma Bakery Café at the Namphu location in Vientiane. It features the Joma Bakery Café wordmark at the top, followed by the café name, branch identification, and contact phone numbers. The receipt includes table number, check ID, date and time opened and printed, cashier name, guest count, and dining type. An itemized list of food and beverage purchases is shown with quantities and prices, along with item total, VAT, and final total. Payment and change details are included, followed by a closing brand message, location references, website URL, and a Wi-Fi access code section. This template is suitable for café and restaurant receipt libraries, food and beverage mock transactions, expense documentation samples, and receipt generator tools requiring realistic Joma Bakery Café formatting.",
+  "slug": "Joma-Bakery-Cafe-In-Store-Receipt",
+  "createdAt": "$D2026-02-09T15:50:10.482Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "1025e587-944b-49ef-bd3f-78847f6fc0a5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fead445a0-fe74-4783-9790-4e8671cda2a3-joma.jpg?alt=media&token=8cb7352a-0dc5-4c0a-adf9-a82d278726c0",
+      "size": 222,
+      "businessDetails": "JOMA VILLA NAMPHU CAFE\n021-215-205, 021-222-018\nRECEIPT",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1c6009a-2522-47a0-965e-964b92407afc",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Table: ",
+          "value": "45"
+        },
+        {
+          "title": "Date:",
+          "value": "01-Jan-2018"
+        },
+        {
+          "title": "Cashier: ",
+          "value": "Tar"
+        },
+        {
+          "title": "Guest: ",
+          "value": "1"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": " CheckID: ",
+          "value": "#54"
+        },
+        {
+          "title": "Opened: ",
+          "value": "09:14 AM"
+        },
+        {
+          "title": "Printed: ",
+          "value": "09:18 AM"
+        },
+        {
+          "title": "Type: ",
+          "value": "Eat-in"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "055a4a7a-0579-42a2-8135-7c7d3c678b92",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\nQty",
+          "description": "Description                 ",
+          "total": "\nAmount"
+        },
+        {
+          "quantity": "2x",
+          "description": "Chocolate Chip Cookie",
+          "total": "23"
+        },
+        {
+          "quantity": "2x",
+          "description": "Coke",
+          "total": "19"
+        },
+        {
+          "quantity": "1x",
+          "description": "Fanta",
+          "total": "7"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Item Total",
+          "value": "44"
+        },
+        {
+          "title": "VAT",
+          "value": "4"
+        }
+      ],
+      "total": "48",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92fd418b-9f5b-453a-97e7-1411365d0a5f",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Payment ",
+          "value": "50"
+        },
+        {
+          "title": "Change",
+          "value": "-2"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e78681ea-b63f-400a-96b9-3a0c502c8f30",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "njoy Joma !\nNaphou Fountain & Thatlung,\nVientiane Province & Phnom Penh\nwww.joma.biz",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f12d1d63-a7a6-4efc-8a05-49ba5d5664b5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "3 hour Wi-Fi Access Code\n895824455, 758827494, 466218198",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F23PWMdravwKXksYuRTwL%2F23PWMdravwKXksYuRTwL-b4035ec4-27c4-46e4-bbd7-4bd25299b226.png?alt=media&token=06d1117d-54aa-49f7-bb71-39857f1f6cf5",
+  "published": true,
+  "id": "23PWMdravwKXksYuRTwL"
+}

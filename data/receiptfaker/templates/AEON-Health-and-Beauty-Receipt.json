@@ -1,0 +1,143 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T16:05:07.885Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "6895ef3b-b737-4bbb-966c-4deedcabe1bc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "PT AEON Indonesia\nAEON HEALTH & BEAUTY CITRALAND\nNPWP : 03.220.091.7-077.000\nTGL. PENGUKUHAN : 2012/07/06\ncustomer.hotline@aeonindonesia.co.id",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e85a7f8c-46e4-4a1a-9377-9f7a9f326cdc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nServed by Lulu Zahran Fatinul\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03edea66-62e9-4b26-bee6-e269fb657593",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SENKA FACIAL FOAM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PERFECT WHIP",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 x Rp 67,500  ",
+          "total": " 135,000"
+        },
+        {
+          "quantity": "",
+          "description": "Item Promo",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VII ACC HEADBANDS A",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x Rp 24,800",
+          "total": "24,800"
+        },
+        {
+          "quantity": "",
+          "description": "BREYLEE PIMPLE PATCH",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CUTE YELL",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x Rp 18,000",
+          "total": "18,000"
+        },
+        {
+          "quantity": "",
+          "description": "Item Promo",
+          "total": "-1,800"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "Rp141,000"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nPrima QRIS",
+          "total": "\n\n141,000"
+        },
+        {
+          "quantity": "",
+          "description": "\nCHANGE",
+          "total": "\nRp 0"
+        },
+        {
+          "quantity": "",
+          "description": "\nDiscounts",
+          "total": "\nRp 36,800"
+        },
+        {
+          "quantity": "",
+          "description": "Total Taxes",
+          "total": "Rp 13,973"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "61875e5b-f2dd-41b2-adeb-1b234afe3280",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTERIMA KASIH\n\nOrder 134970194\n05/03/2026 20:47:14",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by AEON Health & Beauty Citraland, operated by PT AEON Indonesia. The header includes the company name, store name, Indonesian tax identification number (NPWP), electronic tax invoice reference (Tanggal Pengukuhan), official customer service website, and the staff member who processed the transaction. The receipt concludes with a financial summary showing the Total, payment method (Prima QRIS), Change, Discounts, and Total Taxes. The footer contains a customer appreciation message together with the order number and transaction date and time. This receipt represents a standard Indonesian health and beauty retail POS receipt featuring transaction metadata, promotional discount reporting, QRIS digital payment confirmation, tax reporting, and retailer identification.",
+  "name": "AEON Health & Beauty Receipt",
+  "slug": "AEON-Health-and-Beauty-Receipt",
+  "published": true,
+  "id": "lsdIO5spK4uEjBTmtYQN"
+}

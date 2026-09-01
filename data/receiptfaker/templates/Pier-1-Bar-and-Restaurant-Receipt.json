@@ -1,0 +1,108 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-03T19:31:39.257Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Pier 1 Bar & Restaurant Receipt",
+  "description": "This receipt is issued by Pier 1 Bar & Restaurant and identifies the location as Donegal Town. The receipt contains POS transaction details including Table 33, the dining area (Look Out), the transaction date and time, and server identification (Jennifer). The itemized section lists food and beverage purchases together with a 10% discount applied before the final total. The financial section records the total amount due in Euro (€). The footer contains a customer appreciation message along with the POS system identifier and table reference. The overall layout is representative of an Irish restaurant POS receipt, combining table-service management, discount reporting, Euro-denominated billing, and transaction reconciliation within a compact hospitality receipt format.",
+  "slug": "Pier-1-Bar-and-Restaurant-Receipt",
+  "sections": [
+    {
+      "id": "7bcfb645-aa7c-425d-870f-8d275b66cae3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "PIER 1\nBAR & RESTAURANT\nDONEGAL TOWN\n\nTABLE 33   LOOK OUT\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "30afcdf9-5f86-4e6e-a682-9165f57b08fd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SAT 16 SEP 2017  19:44",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "32bba0f9-2cfb-4cd5-a6d8-a75a52721381",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "2 PT CLONMEL",
+          "total": "9.20"
+        },
+        {
+          "quantity": "",
+          "description": "2 COKE",
+          "total": "5.60"
+        },
+        {
+          "quantity": "",
+          "description": "1 SOUP ",
+          "total": "4.95"
+        },
+        {
+          "quantity": "",
+          "description": "1 STEAK & STOUT",
+          "total": "16.95"
+        },
+        {
+          "quantity": "",
+          "description": "1 TURKEY & HAM",
+          "total": "15.95"
+        },
+        {
+          "quantity": "",
+          "description": "2 SALMON A LA CARTE",
+          "total": "37.90"
+        },
+        {
+          "quantity": "",
+          "description": " 10% DISCOUNT",
+          "total": "-7.58"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\n================="
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nTOTAL Eur ",
+          "value": "\n82.97"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e2a0e6f-116c-48b4-90ff-e2d3475a24e0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU\n\nJENNIFER       SYS 3    ABLE  33",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "7ws2Z9wINGvWUf3x2O3C"
+}

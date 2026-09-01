@@ -1,0 +1,174 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Swiggy Receipt",
+  "slug": "Swiggy-Receipt",
+  "createdAt": "$D2025-09-30T12:10:45.758Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F282299f4-b8a9-4ca1-b6de-7cd7d4c87eb2-swiggy-seeklogo.png?alt=media&token=37463fac-2c05-4f1c-99ad-c1e2b4b2fcae",
+      "size": 141,
+      "businessDetails": "Thanks for choosing Swiggy, Jack! Here are your order details:",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8bfcadaa-2025-4daf-8621-5917866c395a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order No. #33123785031\nOrder placed at: 12/02/2025, 09:01 PM\nOrder delivered at: 12/02/2025, 09:28 PM\nOrder Status: Delivered",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0fbb8bdf-be0b-4be3-a2ae-834d3c97e36a",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Delivery To:\nJack\n458 Meadowbrook Lane, Portland, OR 97219",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "efe7d39e-8693-43b9-8b8f-7b19829ccdb8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Ordered from:\nThe Golden Spoon\n874 Hawthorne Boulevard, Portland, OR 97214",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "97630071-2d16-47e0-83ff-ef783d2a80e8",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Item",
+          "value": ""
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Price",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Pacific Halibut Tacos",
+          "total": "33.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Roasted Beet Salad",
+          "total": "12.00"
+        },
+        {
+          "quantity": "3",
+          "description": "Cardamom Creme Brulée",
+          "total": "22.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Item Total",
+          "value": "67.50"
+        },
+        {
+          "title": "Taxes",
+          "value": "0.00"
+        },
+        {
+          "title": "Delivery Charge",
+          "value": "0.00"
+        }
+      ],
+      "total": "67.50",
+      "totalText": "Grand Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "88.23"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4001cbb8-8420-4568-98d9-c922ec76fb79",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "This is an acknowledgement of Delivery of the Order and not an actual invoice. Details mentioned above including the menu prices and taxes (as applicable) are as provided by the Restaurant to Swiggy. Responsibility of charging (or not charging) taxes lies with the Restaurant and Swiggy disclaims any liability that may arise in this respect",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FVb0M6mDfyxCPMm2DBdCI%2FVb0M6mDfyxCPMm2DBdCI-93593828-0549-4c07-b33e-3148a318695b.png?alt=media&token=981d414f-5444-47a6-b928-b5ee0b9ab6f9",
+  "description": "Need a Swiggy receipt? Use our free tool to generate a detailed food delivery receipt. Add restaurant name, order details, prices, delivery info, and payment—perfect for tracking expenses or reimbursements.",
+  "published": true,
+  "metatitle": "Swiggy Food Receipt",
+  "metadesc": "realistic Swiggy delivery receipts with custom restaurant details, order items, prices, and payment info for expense tracking",
+  "id": "Vb0M6mDfyxCPMm2DBdCI"
+}

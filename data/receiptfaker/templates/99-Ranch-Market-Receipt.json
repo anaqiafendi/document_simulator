@@ -1,0 +1,147 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T09:03:23.228Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "description": "This receipt is issued by 99 Ranch Market and identifies the location as Store #1255, 1360 Westwood Boulevard, Los Angeles, California. The header contains the 99 Ranch Market branding, store address, contact telephone number, store number, transaction date and time, cashier name, invoice number, and transaction number. The receipt records the purchase of a reusable plastic bag, 99 Free Range Large Brown Eggs, and a Sugar Bee Apple. The financial section records a subtotal and final total of $10.08. The payment section indicates a mobile payment and includes the masked payment reference, terminal ID, merchant ID, merchant name, payment network information, amount, approval result, authorization number, and transaction timestamp. The overall layout is representative of a United States supermarket POS receipt, combining grocery, deli, and produce itemization with electronic payment and transaction information.",
+  "name": "99 Ranch Market Receipt",
+  "slug": "99-Ranch-Market-Receipt",
+  "published": true,
+  "sections": [
+    {
+      "id": "35feeb3f-e9a5-4dd4-a444-da5b483f548f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F428e4b1e-9d4a-474a-87c7-b8b6c862865e-image.jpg?alt=media&token=7f9e5052-c8e7-416a-9d44-90483612b635",
+      "size": 254,
+      "businessDetails": "99 Ranch Market #1255\n1360 Westwood Blvd\nLos Angeles, CA\n3103888899\n#1255-001  4/2/2025  17:44:28  Darren Hon\nInv#:00137429  Trs#:137862\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "31fd4773-4cc7-416d-b8b2-80f0e881c925",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "GROCERY TAXABLE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "REUSABLE PLASTIC BAG 2.25MIL",
+          "total": "$$0.10"
+        },
+        {
+          "quantity": "",
+          "description": "DELI",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "99 FREE RANGE LARGE BROWN E",
+          "total": "$$4.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "PRODUCE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SUGAR BEE APPLE",
+          "total": "$$4.99 F"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf231cfd-3ca4-4431-87e3-84612ceddbb0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal ",
+          "total": "$$10.08"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n$10.08"
+        },
+        {
+          "quantity": "",
+          "description": "Mobile",
+          "total": "$$10.08"
+        },
+        {
+          "quantity": "",
+          "description": "# ************0965",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Item count:",
+          "total": "3"
+        },
+        {
+          "quantity": "",
+          "description": "------------------------------------",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "759c3802-9f72-48a5-86d3-278fc2f77599",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nPAYMENT\nTERM.ID: 01611490\nMERCH.ID: 634201716503000\nMERCH.NAME: 99 Ranch Market, #1255\nNETWORK: crypto\nSCANNED: ************0965\nAMOUNT : 10.08\n\nRESULT  : APPROVED  00\nDATE/TIME : 2025-04-02 17:44:27\nAUTHOR. #: 280027689366\nREFERENCE#: 001044",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2afc50d7-189b-4f16-973f-4a674ef03f8c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for shopping with us!\nWe appreciate your business.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "UxLFncFJM9NGfU691qdu"
+}

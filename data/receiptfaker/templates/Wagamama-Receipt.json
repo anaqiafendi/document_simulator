@@ -1,0 +1,144 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-07T14:19:29.619Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Wagamama Receipt",
+  "description": "This receipt is from a Wagamama restaurant located in London, United Kingdom. It records a dine-in food order including Japanese-inspired dishes such as Yasai Katsu, Ebi Raisukaree, Bang Bang Cauliflower, cheesecake, and drinks. The receipt includes customer and table information, VAT at the UK 20% rate, subtotal, and final total amount due. It also notes that service charge is not included. The format reflects a standard UK casual dining restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "1999dcac-b3de-440e-97ad-ed9b3dc24676",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4c7acfd2-8f47-43c5-a473-4d1c100fb44b-image%20(4).jpg?alt=media&token=296fd785-c549-4835-8940-96a93f1d0746",
+      "size": 251,
+      "businessDetails": "\nretail unit 2b\ntower place east\nlondon\nEC3N 4EE\nvat reg: gb 681 4475 17",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "319f748d-fa84-411a-8f81-d2b57279d753",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n1690 robert",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef71d3d4-192f-4559-8006-31a0b014b8ac",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCHK 7841   TBL 541/1",
+          "total": "\nGST 2"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b85e6b45-5037-40dd-a43a-2519e7e8e636",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "30 MAR 18 19:59",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7fddd98b-1bc9-4031-90c0-8093c4ebd68b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 fresh mint",
+          "total": "\n2.25"
+        },
+        {
+          "quantity": 1,
+          "description": "fresh mint",
+          "total": "2.25"
+        },
+        {
+          "quantity": 1,
+          "description": "yasai katsu",
+          "total": "9.75"
+        },
+        {
+          "quantity": 1,
+          "description": "ebi raisukaree",
+          "total": "13.25"
+        },
+        {
+          "quantity": 1,
+          "description": "mango parfait",
+          "total": "5.95"
+        },
+        {
+          "quantity": 1,
+          "description": "cheesecake",
+          "total": "5.95"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nNet 6.57 vat 20%",
+          "total": "39.40"
+        },
+        {
+          "quantity": "",
+          "description": "sub total",
+          "total": "£32.83"
+        },
+        {
+          "quantity": "",
+          "description": "total",
+          "total": "£39.40"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0194db88-d912-4c5b-9809-ea24447879ac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n------service not included------",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "670adfe0-9377-45f5-9331-765c6beb4c66",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nvisit wagamama takeout.com\nthank you\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Wagamama-Receipt",
+  "published": true,
+  "id": "YlIG4Q2uOb4mrqkXgjTA"
+}

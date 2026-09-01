@@ -1,0 +1,214 @@
+{
+  "currency": "",
+  "slug": "Conrad-Centennial-Singapore-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-07T16:01:23.657Z",
+  "description": "This restaurant receipt from Conrad Centennial Singapore documents a dining transaction processed at the Conrad Centennial Singapore hotel in Singapore. The receipt includes hotel branding, full address details, business registration references, table number formatting, check number metadata, guest count information, server identification, and transaction date and time details. The POS structure contains itemized food and beverage entries, subtotal presentation, service charge calculations, GST tax accounting, and final total presentation aligned in standard Singapore hotel restaurant receipt formatting. Additional receipt elements include room number and guest signature fields, tax and service charge disclosures, transaction references, and hotel policy notices regarding room-charge authorization near the footer. The layout reflects a standard Singapore hotel dining receipt with GST accounting and hospitality billing presentation.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Conrad Centennial Singapore Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "8952b20b-817a-45c0-a502-19263076c39a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7c1aca02-f85d-46f3-8e5a-57e69db877af-image.jpg?alt=media&token=0fa003c1-0bf0-4c87-adb2-7bf0fb46cdda",
+      "size": 246,
+      "businessDetails": "Oscar & 9\n2 Temasek Blvd, Singapore 038982\n65 6432 7481\n24/12/2021 20:18\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe440c34-39d4-4d39-afd5-90c18d75e183",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Tax Invoice No:",
+          "total": "MC-039515 1"
+        },
+        {
+          "quantity": "",
+          "description": "Ref Reg No:",
+          "total": "526230398"
+        },
+        {
+          "quantity": "",
+          "description": "Business Reg No:",
+          "total": "24/12/2021 20:18"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ecab4c8-e2af-4056-bdfd-8dddba4f4ef4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Check:",
+          "total": "15AB439"
+        },
+        {
+          "quantity": "",
+          "description": "Server:",
+          "total": "Geoffrey"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "098bb381-c157-4a1e-beec-defd08e12c7e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Table\nOFFLINE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9f691204-c3b5-47b6-8f10-9ef65a1bccee",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 PanSeared P. D",
+          "total": "22.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Ramen/Noodle",
+          "total": "22.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Aloe Calamansi J.",
+          "total": "6.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Mango Tarte Juic",
+          "total": "32.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Royal Chocolate",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nEarl Grey",
+          "total": "\n\n8.50"
+        },
+        {
+          "quantity": "",
+          "description": "Liti 10K",
+          "total": "14.48"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "82.02"
+        },
+        {
+          "title": "Tips",
+          "value": "0.00"
+        },
+        {
+          "title": "7% GST",
+          "value": "6.31"
+        },
+        {
+          "title": "10% Svc Chrg",
+          "value": "8.20"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a768bba-e49d-45e1-a2d0-99ea8cf1faaa",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "96.53"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3161ae7-8da2-49f1-af00-84ab5e07ffe7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "<< ROOM NUMBER >>",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e21d1134-535c-4f3c-a0e4-2c98c43104cc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "<< GUEST NAME >>",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3699d85f-349c-4f5c-bd61-4e69083fdb20",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "<< SIGNATURE >>",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cc697dab-439d-463c-ae73-294617e0d7ae",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHIS IS NOT A TAX INVOICE. IF IT\nIS CHARGED TO THE GUEST FOLIO\nTWO TEMASEK BOULEVARD S(038982)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "hzApvUehCJNxEtKnCGCw"
+}

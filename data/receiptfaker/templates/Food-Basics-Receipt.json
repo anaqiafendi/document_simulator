@@ -1,0 +1,150 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Food Basics Receipt",
+  "description": "This receipt is a grocery store transaction issued by Food Basics, a discount supermarket chain in Canada. It includes store identification, contact number, and HST registration details. The receipt presents an itemized list of grocery products such as crackers, cookies, yogurt, and refrigerated dough, along with applied coupon discounts. A structured financial summary includes tax calculations based on Ontario HST (13%), subtotal balances, and final payment details. Payment was made in cash with change returned, and coupon tender applied. The format reflects a standard Canadian grocery POS receipt with tax breakdown and promotional savings.",
+  "slug": "Food-Basics-Receipt",
+  "createdAt": "$D2026-04-18T19:53:33.737Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "e7e7b4b6-68dd-49f1-b7b0-1417530a69dc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa3248f67-c161-4afc-b42b-81812c52768f-image%20(7).jpg?alt=media&token=49f7fbd4-4bdf-4058-9f28-8a1dacac9b72",
+      "size": 220,
+      "businessDetails": "STORE # 630 (905) 270-2143\nHST REG - #R105216170",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dba6da94-1cce-4ae5-8313-0ad68d86ee7f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n7/27/11  11:22 AM 0630 01 0209 224\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f876104b-e20a-4e29-a731-247bff2dbdaf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": " RITZ CRACKER ",
+          "total": "2.69H"
+        },
+        {
+          "quantity": "",
+          "description": "FUDGEEO COOK",
+          "total": "2.26"
+        },
+        {
+          "quantity": "",
+          "description": "MC  148  $OREO FUDGEO",
+          "total": "0.38-"
+        },
+        {
+          "quantity": "",
+          "description": "ACTIVA YOGUR",
+          "total": "5.99"
+        },
+        {
+          "quantity": "",
+          "description": "PILLS.CRES.D",
+          "total": "2.19"
+        },
+        {
+          "quantity": "",
+          "description": " H-HST 13%",
+          "total": "0.35"
+        },
+        {
+          "quantity": "",
+          "description": "PLASTIC BAG",
+          "total": "0.05H"
+        },
+        {
+          "quantity": "",
+          "description": "H-HST 13%",
+          "total": "0.36"
+        },
+        {
+          "quantity": "",
+          "description": "TAX  0.36  BAL",
+          "total": "13.16"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "697faed5-2336-4f69-be90-41d802156504",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "6.84"
+        },
+        {
+          "quantity": "",
+          "description": "Coupons Tendered",
+          "total": "0.38"
+        },
+        {
+          "quantity": "",
+          "description": "Coupons Tendered",
+          "total": "0.38"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e815e35-3388-4bb4-9d7c-4a9e959dfb51",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n TOTAL NUMBER OF ITEMS SOLD = 5\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "340ec9b3-ac55-4e40-bfc5-ed9babc634aa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFOOD BASICS SQUEEZES PRICES\n\nTHANK YOU FOR SAVING WITH US\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FDdqZrEu0lcZWEeBYyHZh%2FDdqZrEu0lcZWEeBYyHZh-36bcf139-a329-41ba-bb74-1dbd146e9a45.png?alt=media&token=62bf6a4b-32b5-4f8f-b15f-051ba16511fd",
+  "published": true,
+  "id": "DdqZrEu0lcZWEeBYyHZh"
+}

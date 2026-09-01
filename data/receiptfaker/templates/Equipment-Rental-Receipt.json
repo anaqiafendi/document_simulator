@@ -1,0 +1,158 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T17:09:11.600Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Equipment Rental Receipt",
+  "slug": "Equipment-Rental-Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fb42e24f9-3473-4c0b-91a6-c050c36c01e5-8688059_ic_fluent_toolbox_regular_icon.png?alt=media&token=32741a51-dbfe-4795-b93f-44aa697e21d9",
+      "size": 50,
+      "businessDetails": "SummitPro Equipment Rentals\n1487 Ridgepoint Way\nBoise, ID 83702\nPhone: (208) 555-6732\nEmail: rentals@summitprorentals.com\nWebsite: www.summitprorentals.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Equipment Rental Receipt\nReceipt #: 1020963\nReceipt date: 5/24/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Rented to: Jordan Blake Ramirez\nAddress: 1749 Maple Hollow Drive, Reno, NV 89509\nPhone Number: (775) 555-4281\nEmail: j.ramirez1749@mailnet.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Power Generator",
+          "total": "85.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Cement Mixer",
+          "total": "110.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Drill Set",
+          "total": "25.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "COLONS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "220.00"
+        },
+        {
+          "title": "Tax",
+          "value": "13.20"
+        }
+      ],
+      "total": "233.20",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Some items may require a refundable security deposit, depending on the equipment type and duration. Deposits are returned after inspection upon return. Equipment must be returned clean and in working condition. Late returns are subject to additional hourly charges. Damaged or missing equipment may incur repair or replacement costs. All rentals include basic operating instructions. For technical support or emergencies during use, call our on-call technician at (208) 555-6732, ext. 2.",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FEiKvSysC2lrTcud2dd9J%2FEiKvSysC2lrTcud2dd9J-978bdd7c-71be-4cf8-9918-791b2b8f1681.png?alt=media&token=49483c07-2b10-4b3a-8cf1-3313ccd92029",
+  "description": "Need an equipment rental receipt? Easily generate one with our free tool. Add renter info, equipment details, rental dates, rates, and payment terms—perfect for tracking rentals, invoices, or client records.",
+  "published": true,
+  "metatitle": "Equipment Rental Receipt",
+  "metadesc": "professional equipment rental receipts with renter details, equipment info, rental dates, and payment terms for your business",
+  "id": "EiKvSysC2lrTcud2dd9J"
+}

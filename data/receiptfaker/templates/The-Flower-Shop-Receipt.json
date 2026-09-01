@@ -1,0 +1,138 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T19:31:36.263Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "2189f46f-d607-4bf0-8e44-470cccf606c2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fedeba574-feff-493a-83b2-036f072f24cf-image%20(3).jpg?alt=media&token=fce30063-e0ef-4638-a000-302ac775c4b2",
+      "size": 254,
+      "businessDetails": "\nTHE FLOWER SHOP\n1440 N PORTER AVE\nNORMAN, OK 73071\n4053606870\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53b7676d-2fca-4a9b-b4a1-b415b480a15f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "all sales are final - exchanges offered up to one week after purchase date 20-Dec-2023 12:32:41P\n\nTransaction 026270\n$85 Arrangement               $85.00\nDelivery Charge               $10.00\nCustom Item                    $2.00\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1417c71a-d6cf-4fb7-bf73-9300812d7a54",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal ",
+          "total": "$$97.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tax        8.75%",
+          "total": "$$7.61"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n$104.61"
+        },
+        {
+          "quantity": "",
+          "description": "\nDEBIT CARD SALE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MASTERCARD 4606",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nRetain this copy for statement validation",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e7f8a7e-ca66-4ab4-a5c2-9f551469d21b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n20-Dec-2023 12:34:32P\n$104.61 | Method: EMV\nUS Debit XXXXXXXXXXXX4606\nReference ID: 335400529909\nAuth ID: 400166\nMID: ********2880\nAID: A0000000042203\nAthNwNm: MASTERCARD\nRtind:CREDIT\nSIGNATURE\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "196584db-0ddb-4a53-8516-7b539795205e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Online: https://clover.com/p\n/ZXSAXJTNAD4DW",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6673810-a051-4b34-b78b-5c855676aa5c",
+      "type": "BARCODE",
+      "size": 85,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ab16147-6807-43b7-b9a2-45bb0e7a2814",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ZXSAXJTNAD4DW",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3466179-4079-4509-884d-06a5aba95631",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nClover ID: ZAH2180DCXB2J\nPayment ZXSAXJTNAD4DW",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ceaa4b49-6aac-4763-bdf7-c055ffe12229",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nClover Privacy Policy\nhttps://clover.com/privacy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by The Flower Shop and identifies the business as 1440 N. Porter Avenue, Norman, Oklahoma 73071. The header contains the store name, address, contact telephone number, transaction date and time, and the store's sales policy regarding exchanges. The receipt records the purchase of an Arrangement, together with a delivery charge and a custom item fee. The financial section records the subtotal, 8.75% sales tax, and the final transaction total. The payment section confirms settlement by Mastercard Debit using EMV chip technology and includes transaction references, EMV identifiers, and a signature requirement. The footer provides a Clover online payment reference, Clover transaction identifier, and a link to the Clover privacy policy. The overall layout is representative of a United States florist POS receipt, combining merchandise and service charges, sales-tax reporting, EMV card payment processing, and digital payment references within a compact receipt format.",
+  "name": "The Flower Shop Receipt",
+  "slug": "The-Flower-Shop-Receipt",
+  "published": true,
+  "id": "C3A9U6XqN9bhbeYsleY3"
+}

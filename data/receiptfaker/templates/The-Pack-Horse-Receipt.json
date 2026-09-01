@@ -1,0 +1,219 @@
+{
+  "currency": "",
+  "slug": "The-Pack-Horse-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T04:26:00.906Z",
+  "description": "This hospitality receipt from The Pack Horse, Hayfield, The High Peak contains venue identification, employee and till references, receipt numbering, transaction date and time, and a customer account reference identified as (T10) Tom Hetherington. The receipt records a detailed transaction summary followed by a final amount due and a VAT registration number. The layout follows a traditional UK pub and restaurant POS format with line-item accounting, quantity extensions, receipt numbering, tax registration details, and a prominent total due section. The receipt is representative of a full-service food and beverage establishment utilizing table-based account management.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Pack Horse Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "2868aee9-abf6-4053-a5c9-361fb426256a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "The Pack Horse\nHayfield\nThe High Peak\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d07465a5-febd-4b48-ad19-51212d431526",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Fri 16 Oct 2020 03:43PM  01-006005",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Emma",
+          "total": "Terminal 2"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88e0d2c6-e220-4463-92d0-68d58a4e439f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Res Diary Table No. 183943454",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "[T10] Thom Hetherington",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "35e2adc9-e507-4eae-97f6-220b78cbbef2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "2 x Bottle BT Henri Gail",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "@ £24.50",
+          "total": "£49.00"
+        },
+        {
+          "quantity": "",
+          "description": "Longendale Lights",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "5 x Oysters",
+          "total": "@ £1.50"
+        },
+        {
+          "quantity": "",
+          "description": "Oysters",
+          "total": "£7.50"
+        },
+        {
+          "quantity": "",
+          "description": "Charcuterie",
+          "total": "£1.50"
+        },
+        {
+          "quantity": "",
+          "description": "Manchester Egg",
+          "total": "£7.00"
+        },
+        {
+          "quantity": "",
+          "description": "Soup",
+          "total": "£6.50"
+        },
+        {
+          "quantity": "",
+          "description": "Crab on Toast",
+          "total": "£5.00"
+        },
+        {
+          "quantity": "",
+          "description": "Scallops",
+          "total": "£8.00"
+        },
+        {
+          "quantity": "",
+          "description": "Market Fish",
+          "total": "£12.00"
+        },
+        {
+          "quantity": "",
+          "description": "Wellington",
+          "total": "£18.00"
+        },
+        {
+          "quantity": "",
+          "description": "Lamb Pie",
+          "total": "£25.00"
+        },
+        {
+          "quantity": "",
+          "description": "Onion Rings",
+          "total": "£16.00"
+        },
+        {
+          "quantity": "",
+          "description": "Chips",
+          "total": "£4.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tart",
+          "total": "£4.00"
+        },
+        {
+          "quantity": "",
+          "description": "Crumble",
+          "total": "£5.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cheese Board",
+          "total": "£8.00"
+        },
+        {
+          "quantity": "",
+          "description": "Unit Americano",
+          "total": "£10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Unit Espresso",
+          "total": "£2.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a76b6109-58c3-4d6a-b0ba-313cf9caf8c7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL DUE",
+          "total": "£133.85"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85dd7c3b-35f9-47a8-b906-d7cf92bfe717",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nVAT NO 249 1116 17",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "ypROfRb5dA9xzy8wMtwA"
+}

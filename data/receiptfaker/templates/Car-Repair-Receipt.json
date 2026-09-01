@@ -1,0 +1,160 @@
+{
+  "name": "Car Repair Receipt",
+  "slug": "Car-Repair-Receipt",
+  "backgroundCrumpled": false,
+  "currency": "$$",
+  "createdBy": "Mj7c8RbvHQbgiVrgQXggu7RDBlx2",
+  "createdAt": "$D2025-05-03T16:11:56.086Z",
+  "isParent": true,
+  "description": "Looking to create a car repair receipt? Our free online tool helps you generate detailed auto service invoices in no time. Whether you need documentation for insurance claims, warranty records, or business expenses, this template gives you a professional and customizable solution. Enter your shop name, vehicle details, parts and labor costs, taxes, and payment info—then download a clean, ready-to-print receipt for your records.",
+  "sections": [
+    {
+      "id": "cf2a2df0-9cd7-40ad-9716-3b7cb0a6aba0",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fcdd55a8d-4471-4f83-ad99-c629068810bb-Car%20Service%20Icon.png?alt=media&token=18ff5f6f-d3a0-4745-a5f7-dddb188c483b",
+      "size": 91,
+      "businessDetails": "AutoRepairShop\n57 Flower Avenue\nNY, 19530",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4bc6fe5b-b0bc-4775-bfc2-333ad58570af",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "2025-02-24 12:32",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "rightFields": [
+        {
+          "title": "Model",
+          "value": "Corolla"
+        },
+        {
+          "title": "Plate",
+          "value": "9DCZ447"
+        }
+      ],
+      "id": "9ffbcd51-4cec-497b-87f3-aad003755f03",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Make",
+          "value": "Toyota"
+        },
+        {
+          "title": "Year",
+          "value": "2019"
+        },
+        {
+          "title": "Manager",
+          "value": "Tom R."
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Brake Pads Replacement",
+          "total": "300"
+        },
+        {
+          "quantity": 1,
+          "description": "Full Synthetic Oil Change",
+          "total": "80"
+        },
+        {
+          "quantity": "4",
+          "description": "Tire Installation",
+          "total": "400"
+        }
+      ],
+      "id": "66369368-4333-438e-adf4-1ea4c5c2c820",
+      "type": "ITEMS",
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "780"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "49"
+        }
+      ],
+      "total": "829",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f1953b20-cceb-42ae-8e3d-b71be4ee9f62",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0d43eb44-9ac3-4b9e-abe5-03b2afa1a584",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank You For Trusting Us!",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fw2ubsYh2RibO9z6PCMu1%2Fw2ubsYh2RibO9z6PCMu1-2469092a-653a-44d3-acfd-581d6995035f.png?alt=media&token=b6219a91-ad7a-4de1-a5eb-e55ed39992ad",
+  "published": true,
+  "metatitle": "Car Repair Receipt",
+  "metadesc": "professional auto service receipts with vehicle details, parts costs, labor charges, and taxes for insurance or business records",
+  "id": "w2ubsYh2RibO9z6PCMu1"
+}

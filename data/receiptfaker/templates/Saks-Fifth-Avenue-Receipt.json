@@ -1,0 +1,169 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-03T12:52:37.083Z",
+  "isParent": true,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "description": "Luxury retail receipt from Saks Fifth Avenue showing store details, associate information, purchased items, pricing, and transaction reference for an in-store purchase.",
+  "backgroundCrumpled": true,
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F7d8ac47c-96c8-4b5e-9c09-8309a2976597-1eeeecd7-ced8-4f24-b092-eb1ae2d08567.jpg?alt=media&token=85255816-22e1-4f0a-bc0a-75c1e0c0daa5",
+      "size": 115,
+      "businessDetails": "",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "bcce826e-088a-4827-9c0c-5a13d7584f29",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F2f92a3a3-9995-4c45-9294-ee7b810e59cb-GEVRGSSVF.png?alt=media&token=794a8ff5-5977-4938-b595-70698845cff4",
+      "size": 185,
+      "businessDetails": "Saks Fifth Avenue\n5175 Westheimer Road\nHouston, TX 77056\n713-627-0500\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "STORE MGR: Cassie Bryant\nASSOC: 799291 Mia Collier",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "50523b3c-5f08-4441-bac7-5056d0b8c28d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Client: 0538234458270\nCHASE DIAZ\n\nST: 756 TRM: 008 TRN: 36985 TAKE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DIOR ALPHA SANDALS\n 3616252683271    159/320\n (1 @ 830.00)\n         Item Tax            42.56 T\n",
+          "total": "830.00"
+        },
+        {
+          "quantity": "",
+          "description": "DENIM\n 9100329275464    450/156\n (2 @ 458.00)\n         Item Tax            11.82 T",
+          "total": "458.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1288.00"
+        },
+        {
+          "title": "Total Tax",
+          "value": "54.38"
+        },
+        {
+          "title": "Visa",
+          "value": "1,342.38"
+        }
+      ],
+      "total": "1,342.38",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c643806a-42d6-49fc-957e-2ecb3b211051",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "ACCT # /C",
+          "value": "xxxxxxxxxxxx4922  Apprvd-00"
+        },
+        {
+          "title": "     ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎   AUTH:  05512D",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba55db4e-ee42-4e9e-95f7-2e7cad6ae949",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SALE\n\nAID: a0000000051010\nTVR: 4040004000\nTSI: 7400\nAC : 4c873fb21dabda80\nARC: 00\nAPP: VISA CREDIT\nTID: 2950086\nMID: 122\n\nItems Purchased: 3\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for shopping at Saks\nVisit saks.com\n\nDownload the Saks App\nfrom the App Store",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "38e0aef9-781d-4014-a58c-01b058498de0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nV478 09P10         09/3/2025 2:34PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc27afb8-fee3-4941-9dd0-20296de11753",
+      "type": "BARCODE",
+      "size": 36,
+      "length": 344,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7af26dc2-8f92-43e6-8bbf-abd7bd023a52",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1053812412106913869120250586912\n\nCustomer Copy\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Saks Fifth Avenue Receipt",
+  "slug": "Saks-Fifth-Avenue-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FdufUTp1csFfrUzJAcvk3%2FdufUTp1csFfrUzJAcvk3-6f528fbd-0abb-4212-a07d-ecf865f31c30.png?alt=media&token=496f9f64-3348-42ca-993b-34f3a4a9b172",
+  "published": true,
+  "id": "dufUTp1csFfrUzJAcvk3"
+}

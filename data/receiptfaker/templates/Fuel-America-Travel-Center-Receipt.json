@@ -1,0 +1,102 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-20T07:52:25.531Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "b02df27e-a785-47d1-aba5-533911e6618f",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "FUEL AMERICA TRAVEL CENT\n23183 IH 35\nENCINAL TX 78019\nXXXXXXXXX8001\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e252e116-462a-464a-aa16-3645d8a69a2b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n04/05/2023 1:16:46 PM\nRegister: 3  Trans #: 4236 Op ID: 15\nYour cashier: karen\n\n\n*** PREPAID RECEIPT ***\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "497bdda9-f583-40b3-a4fb-e228b27bae45",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "REGULAR CR   PUMP# 21",
+          "total": "$$30.00  99"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "------------\nSubtotal =  $30.00"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Tax =  $0.00\n-------------"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Total = $30.00"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\nChange Due = $0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nCredit",
+          "total": "\n$30.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "97716e05-817d-447f-b772-5369d7a44aa1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nXXXX XXXX XXXX 4732 Mastercard\nINVOICE: 098010\nAUTH 753772\n================================\nPOS Authorization Only\nSequence Number 35503\nChip Read\nMastercard\nMode: Issuer\nAID: A0000000041010\nTVR: 0000008000\nIAD: 0114A74003040000000000000000000FF\nTSI: E800\nARC: 00\nAPPROVED 753772\nVerified by PIN\n================================",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "994ceb86-d276-4fc3-b500-06a1da3629a2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nFooter",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Fuel America Travel Center, located at 23183 IH 35, Encinal, Texas 78019, United States. The header includes the business name, street address, and location information. The transaction metadata records the transaction date and time, register number, transaction number, operator ID, and cashier name. The receipt is identified as a Prepaid Receipt and includes the pump number associated with the fuel purchase. The financial summary contains Subtotal, Tax, Total, Change Due, and the payment amount. The integrated EMV payment section documents the masked Mastercard account number, invoice number, authorization code, chip-read status, AID, TVR, IAD, ARC, approval status, PIN verification, and POS authorization details. The receipt concludes with a footer placeholder, representing a standard U.S. fuel station POS receipt with integrated EMV card processing.",
+  "name": "Fuel America Travel Center Receipt",
+  "slug": "Fuel-America-Travel-Center-Receipt",
+  "published": true,
+  "id": "5fyBASpVh4JcxXj1mIYT"
+}

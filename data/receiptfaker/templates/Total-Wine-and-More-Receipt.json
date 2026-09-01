@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Total Wine & More Receipt",
+  "description": "This receipt format originates from Total Wine & More, a U.S. specialty retail chain focused on wine, spirits, and beverage sales. The receipt header displays the Total Wine & More branding, followed by the store identification 2101 – Total Wine – Paddock Shops and the physical location 4320 Summit Plaza Drive #5, Louisville, Kentucky 40241. The POS section includes operational metadata such as ticket number, transaction time, date, store number, register number, and cashier identifier. A structured transaction table lists items with columns for quantity, price, and amount, followed by a financial summary including subtotal, tax, total, payment method, and change. The lower portion of the receipt contains customer engagement messages promoting the &More rewards program and survey participation, along with a barcode and barcode number, and concludes with the Customer Copy designation. The format is typical of U.S. alcohol and beverage retail POS systems with survey and loyalty program integration.",
+  "slug": "Total-Wine-and-More-Receipt",
+  "createdAt": "$D2026-03-07T16:50:25.985Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe57c7feb-e809-4bd7-aa43-0c521d3bcc58-image%20(35).jpg?alt=media&token=d0f23ce5-8940-4df6-a3a2-c3a4e969a64e",
+      "size": 236,
+      "businessDetails": "PETSMART #729\n278 New Britain Ave\nPlainville, CT 06062\n860-747-9399",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e1a33f7-0681-4739-86df-e89b4ee3fdab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nS-729        R-101\nT-10113      A-803621           BUS.DATE-07/03/2024",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "91cc4697-1a9c-4585-b3f4-abf5e972a715",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0db54edd-9487-4ec4-9fc7-79d3acb8ed81",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "RC VD D HYDRO HP 17.6 lb  $104.81 D\n030111427618                              St\nRx Number: 539902647915\nTreats Rewards Points $2.00 (105.99-1.18)\nReturn Price        $104.81\n\nRC VD D HYDRO SM BREED 8.8 lb $63.28\n030111476883                              St\nRx Number: 539902647915\nTreats Rewards Points $2.00 (63.99-0.71)\nReturn Price         $63.28\n\nNM D URINE DESTROYER+ FOAM 17  $9.88\n018065983992                              St\nTreats Rewards Points $2.00 (9.99-0.11)\nReturn Price          $9.88\n\n3 Sale item(s)\n\nSUBTOTAL         $177.97\n\nSALE\nTAX State  6.35% ON $177.97  $11.30\nTAX TOTAL:                   $11.30\n\nTOTAL                        $189.27",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fj4izYuVijTOK8upDt2aE%2Fj4izYuVijTOK8upDt2aE-b321d893-4af1-4788-a8e9-fd7d6f2950d2.png?alt=media&token=993cd002-c8b5-4403-9da7-535f8a150959",
+  "published": true,
+  "id": "j4izYuVijTOK8upDt2aE"
+}

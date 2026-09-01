@@ -1,0 +1,196 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-08T18:45:02.687Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "1605f92f-c0ca-4a4a-bddf-31a885808c6d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "& & & XXX & &\nJW MARRIOTT ESSEX HOUSE\n**** BSH DINING ROOM ****\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a85a118a-35b8-4cb0-9f20-2a52c1dcb81a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "284808 JENNY R",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad46306d-b1ce-4c47-b229-bc13cadc62d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCHK 6373      TBL 112/1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2d4067ad-852e-4878-94f0-c36cbecd4ec0",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "GST 5",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "762e0017-2521-4091-8b18-99041e42b8da",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "26 May'25 8:25 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7f2e05-20cc-42db-a55e-426f59a68c13",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 THE MACALLAN 15 ROB ROY",
+          "total": "\n60.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 ROYAL SCAM",
+          "total": "52.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 AMARETTO ",
+          "total": "42.00"
+        },
+        {
+          "quantity": "",
+          "description": "COCKTAILS$",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 GL Pommier Chablis",
+          "total": "22.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 CEASAR SALAD ",
+          "total": "88.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 14OZ WAGYU RIBEYE    ",
+          "total": "135.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 BRICK CHICKEN",
+          "total": "98.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 20OZ BONE IN RIBEYE ",
+          "total": "95.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 AU POIVRE ",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 FARRO ISLAND SALMON ",
+          "total": "52.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 WHIP POTATO",
+          "total": "32.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 TRUFFLE MAC & CHEESE",
+          "total": "38.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 LOADED BAKED POTATO ",
+          "total": "16.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 *LRG SPARKLING",
+          "total": "12.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 AMARETTO",
+          "total": "21.00"
+        },
+        {
+          "quantity": "",
+          "description": "BARTENDER CHOICE$",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 BANANA TART TATIN",
+          "total": "18.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 WARM BEIGNETS ",
+          "total": "26.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$812.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$72.06"
+        },
+        {
+          "quantity": "",
+          "description": "10:40 PM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL DUE",
+          "total": "$$884.06"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "JW Marriott Receipt",
+  "description": "This receipt is issued by the JW Marriott Essex House – BSH Dining Room and documents a restaurant transaction completed on May 26, 2025. The header contains the guest name (Jenny R), check number, table number, guest count, and transaction time. The receipt records an extensive dining order that includes premium cocktails, wine, steaks, seafood, chicken entrées, side dishes, desserts, and bottled sparkling water. The financial section records the subtotal, sales tax, and the final amount due. The overall layout is representative of a United States hotel restaurant POS receipt, combining table-service order management, itemized food and beverage reporting, sales-tax calculation, and transaction reconciliation within a compact hospitality receipt format.",
+  "slug": "JW-Marriott-Receipt",
+  "published": true,
+  "id": "T5q525W86mDl76mxJsDa"
+}

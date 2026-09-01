@@ -1,0 +1,106 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T14:49:35.000Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Woolworths Grocery Receipt",
+  "description": "This receipt is from Woolworths, a supermarket chain in Australia. It records the purchase of bananas sold by weight, including price-per-kilogram calculations, subtotal, rounding adjustment, cash payment, and change returned. The receipt also includes store information, transaction details, ABN tax invoice data, and a promotional BWS liquor rewards offer printed at the bottom. The format reflects a standard Australian supermarket POS receipt.",
+  "sections": [
+    {
+      "id": "d06c9632-902e-418e-8be8-fd41a7152a2b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa0afba68-60b9-41d4-863b-8c18122bb525-image%20(21).jpg?alt=media&token=b6d74787-bf11-4332-b6d4-c22171e11042",
+      "size": 164,
+      "businessDetails": "STORE NAME   PH: 8199-7394\nStore Manager is: David WOOLWORTHS TAX INVOICE - ABN 88 000 014 675\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92fab5fb-de12-4f43-96a7-f303c0dd1d4f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "BANANA",
+          "total": "$$"
+        },
+        {
+          "quantity": "",
+          "description": "1.043 KG NET @   $0.40/kg",
+          "total": "0.42"
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "$$0.42"
+        },
+        {
+          "quantity": "",
+          "description": "ROUNDING",
+          "total": "-$0.02"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "$$0.40"
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "$$1.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "$$0.60"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "536ec456-0463-4a21-a1c2-54d4e913a058",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSTORE 1061   POS 4   TRANS 5008   31   15:22   08/08/14\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29efbd9a-fc6d-484f-8d2a-6bb6d763f38a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBWS RECEIPT REWARDS\nBUY 1 GET 1 FREE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d45b36d1-cdb0-4e4e-9725-3a570b27c072",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOn CAPE CAMPBELL MARLBOROUGH SAUV BLANC OR PALLADIUM WATCHMAN SHIRAZ 750ml bottle Present this receipt at any BWS Store Valid until 26th August 2014 Limit of 1 redemption per receipt. *Not available to under 18's. No further discounts apply. For store receipt visit bws.com.au\n\n\n\n\nThank you for visiting",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Woolworths-Grocery-Receipt",
+  "published": true,
+  "id": "hbkcjeEgIilXjtHxGh01"
+}

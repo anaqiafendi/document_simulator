@@ -1,0 +1,184 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Shoppers Drug Mart Receipt",
+  "description": "This receipt is issued by Shoppers Drug Mart under Myron Li Pharmacy Inc., located in Perth, Ontario, with full store address and contact number displayed. It includes transaction identifiers such as store, register, and sequence numbers, along with a clearly formatted date and time stamp. The receipt contains a structured financial summary section showing subtotal, HST, total amount, cash tendered, rounding adjustment, and change due. It also features item count, savings notification, and a loyalty program message referencing PC Optimum points. Additional elements include a GST/HST registration number, barcode number, customer feedback survey invitation with contact details, certificate number, and a return policy notice specifying conditions and timeframe.",
+  "slug": "Shoppers-Drug-Mart-Receipt",
+  "createdAt": "$D2026-03-18T15:58:09.118Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5233f193-f656-4fb9-b6b1-a4e2d5dec4a7-image%20(63).jpg?alt=media&token=3338af91-cfb9-4713-9c53-c3cf96e4f4a8",
+      "size": 236,
+      "businessDetails": "MYRON LI PHARMACY INC.\n50 DUFFERIN STREET PERTH, ON K7H 3A6\n613-267-1616\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Mar 13, 2020 9:23 AM\n\n1505 1008 209128 100048 3",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ca532f6-fa24-4e65-8177-211d737c714d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c82ec781-de58-4100-a4ec-8ab9205f321d",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e138e808-cdfa-48e8-b805-d8e70785adca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "You have saved $17.00",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e48f84d-6fba-4c99-a38d-5dead54a223d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "WITH YOUR PC OPTIMUM CARD\nYOU COULD HAVE EARNED THESE POINTS: 330",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fc1512c-9bb4-4b56-b163-5237aea1b6e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "GST/HST #: 80702 6406 RT0004",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "04b2c9a5-e992-4968-86f5-c44aa190a11b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f261462e-d148-4639-8d5c-9930cee12ea9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "9990215051008002091284",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "27ae1fa5-4b81-42dc-9dba-073687385316",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TELL US HOW WE DID TODAY! VISIT\nwww.surveysdm.com OR CALL\n1-800-701-9163. WIN 1 OF 2 MONTHLY\nPRIZES OF 1 MILLION PC OPTIMUM POINTS\nOR $1000 IN GIFT CARDS. SEE\nwww.surveysdm.com FOR FULL\nCONTEST RULES.\n\nCertificate Number: 103530008-0725583",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88097e5f-1064-4e45-a721-4d81a7dc1224",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Retain Receipt for return within 30 days\nVisit shoppersdrugmart.ca for exclusions",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FuUQQS5QwyPcrVDhrSPCK%2FuUQQS5QwyPcrVDhrSPCK-8e7782a1-2f36-4ba4-ac0d-e293f2bcf50e.png?alt=media&token=9845e5ab-09cb-4e31-91b6-7fee1f55283e",
+  "published": true,
+  "id": "uUQQS5QwyPcrVDhrSPCK"
+}

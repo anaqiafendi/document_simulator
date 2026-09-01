@@ -1,0 +1,131 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Yellow Cab Receipt",
+  "slug": "Yellow-Cab-Receipt",
+  "createdAt": "$D2025-09-29T13:14:32.839Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 149,
+      "businessDetails": "YELLOW CAB OF NYC\nTAXI RECEIPT",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "HACK # 00123659\nLicense: AA749",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e5f9243-f447-413b-bd40-62349de5bdb8",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/23/2025, 5:22:31 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "RATE #: 1\nSTAND. CITY RATE\nMiles R1: 3.45\nTRIP #: 192",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "FARE",
+          "total": "14"
+        },
+        {
+          "quantity": "",
+          "description": "ST. SUR",
+          "total": "0.80"
+        },
+        {
+          "quantity": "",
+          "description": "TIPS",
+          "total": "2.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DOTS",
+      "totalLines": [],
+      "total": "17.3",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F8Ia9ZhbJkggKvhi4WY64%2F8Ia9ZhbJkggKvhi4WY64-9aa4ccd3-0953-43ea-a281-80a72d22eb03.png?alt=media&token=38ccd553-2ef3-49cb-a14b-96196d2ca68e",
+  "description": "Need a Yellow Cab receipt? Use our free tool to make a detailed taxi fare receipt. Add cab number, driver info, trip details, fare, and payment—perfect for travel reimbursements, business expenses, or personal records.",
+  "published": true,
+  "metatitle": "Yellow Cab Receipt",
+  "metadesc": "professional Yellow Cab taxi receipts with driver info, trip details, fare breakdown, and payment method for expense reports",
+  "id": "8Ia9ZhbJkggKvhi4WY64"
+}

@@ -1,0 +1,113 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-21T15:28:22.573Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "905d92d1-2417-4013-a8eb-46e21c8279db",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F79e1c276-a8bf-4bd8-9350-0f64d9bd135d-image%20(14).jpg?alt=media&token=0a565685-cdbf-4fa2-ba76-08996607a08a",
+      "size": 217,
+      "businessDetails": "123 Fried Chicken Ave Louisville, KY\n808-9612 1020\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3ed1e981-1ca9-45cc-b4b6-1c88fb93cf5f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "06/18/2025",
+          "total": "1:45 PM"
+        },
+        {
+          "quantity": "",
+          "description": "06/18/2025",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n8 PC BUCKET",
+          "total": "\n\n$29.99"
+        },
+        {
+          "quantity": "",
+          "description": "LARGE MASHED POTATOES",
+          "total": "7.99"
+        },
+        {
+          "quantity": "",
+          "description": "4 BISCUITS",
+          "total": "5.49"
+        },
+        {
+          "quantity": "",
+          "description": "LARGE COLESLAW",
+          "total": "4.99"
+        },
+        {
+          "quantity": "",
+          "description": "COKE ZERO (2)",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSUBTOTAL",
+          "total": "\n\n$53.46"
+        },
+        {
+          "quantity": "",
+          "description": "SALES TAX (6.00%)",
+          "total": "56.67"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL DUE",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7a61b3c1-83dd-4cae-b235-7b5d8c7003ae",
+      "type": "BARCODE",
+      "size": 76,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b0fc309f-a1a9-4086-9462-f8340341e1c2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for visiting\n\nKFC\nWe hope to see you again soon!\n* * * * * * * * * *\nwww.kfc.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "description": "This fast-food restaurant receipt from KFC documents a transaction processed at a Louisville, Kentucky location. The receipt includes store address formatting, timestamp information, and a standard quick-service POS itemization structure. Financial summary fields include subtotal, sales tax percentage calculation, and total due formatting with aligned currency values. Additional receipt elements include a handwritten customer note section and barcode formatting near the footer. The layout reflects a standard U.S. thermal fast-food receipt with condensed transaction formatting and tax summary presentation.",
+  "published": true,
+  "name": "KFC Kentucky Receipt",
+  "slug": "KFC-Kentucky-Receipt",
+  "id": "dWAjVGWYJmlVFNzjWSmW"
+}

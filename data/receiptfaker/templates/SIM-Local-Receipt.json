@@ -1,0 +1,191 @@
+{
+  "currency": "",
+  "slug": "SIM-Local-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T11:16:18.741Z",
+  "description": "This receipt template originates from SIM Local and documents a telecommunications retail transaction. The header contains the SIM Local branding followed by receipt metadata including ZoomShop name, location, transaction ID, and timestamp. The payment section records transaction type, payment method, masked card information fields, and authorization code. A cash-handling section documents currency received and change returned. The financial summary includes subtotal, VAT, savings, and final total. The footer contains a customer appreciation message, VAT registration number, customer support email address, and helpdesk telephone number. The format is representative of a telecommunications and travel connectivity retail point-of-sale receipt.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "SIM Local Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "99b54d19-c6f1-4dd3-9154-3eabd832c29c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7df13fdb-1d97-4de0-a453-7b0d90602eee-image%20(2).jpg?alt=media&token=4b647043-8bcb-4a13-b714-5e7d4f41011e",
+      "size": 244,
+      "businessDetails": "RECEIPT",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5a48eb2-18df-4847-91ec-a8f601db1ffc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nZoomShop Name",
+          "total": "\nSLA001LHR2"
+        },
+        {
+          "quantity": "",
+          "description": "Location",
+          "total": "Hounslow"
+        },
+        {
+          "quantity": "",
+          "description": "Transaction ID",
+          "total": "580"
+        },
+        {
+          "quantity": "",
+          "description": "Time",
+          "total": "Mon 21/06/2021 09:35:06"
+        },
+        {
+          "quantity": "",
+          "description": "Card Type",
+          "total": "CASH"
+        },
+        {
+          "quantity": "",
+          "description": "Trans Type",
+          "total": "Sale"
+        },
+        {
+          "quantity": "",
+          "description": "Card Number",
+          "total": "XXXXXXXXXXXXX"
+        },
+        {
+          "quantity": "",
+          "description": "Expiration Date",
+          "total": "XXXX"
+        },
+        {
+          "quantity": "",
+          "description": "Auth Code",
+          "total": "6878"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "97734bd2-5188-4127-b8a8-4de19c57ba83",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Currency Inserted",
+          "total": "£70.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change Owed",
+          "total": "£10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change Delivered",
+          "total": "£10.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2b3e3791-d78e-4825-aa28-009c1aef2e43",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "EE 40GB",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 x S060521   @   £30.00",
+          "total": "£60.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "76e1b905-6ffb-4eec-a8b7-2d19ee0c95a2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "£50.00"
+        },
+        {
+          "quantity": "",
+          "description": "VAT",
+          "total": "£10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Savings ",
+          "total": "£0.00"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "======\n"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£60.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a2e39f6-0b46-4765-96b9-2b745ec3576f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nThank you for shopping at SIM Local.\n\nVAT Reg No: 131 5309 49\nEmail: customerqueries@simlocal.com\nHelpdesk: 44 203 151 8666",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "A2821JOvbbizcitXCWjh"
+}

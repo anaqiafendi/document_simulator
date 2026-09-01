@@ -1,0 +1,172 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Souley Vegan Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Souley Vegan at its Oakland, California location, including full address and contact number. It contains cashier identification and a timestamped transaction record. The receipt presents an itemized build-your-own meal selection with included items at no additional cost, followed by a structured financial summary including subtotal, tax, and total amount. Payment details indicate a cash transaction with tendered amount and change returned. Additional information includes an online order reference and Clover POS tracking identifiers, reflecting a standard U.S. fast-casual receipt format with customizable menu options.",
+  "slug": "Souley-Vegan-Receipt",
+  "createdAt": "$D2026-04-17T17:23:10.816Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bb034f6f-9b89-45cd-b740-60bec97bab28",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "SOULEY VEGAN\n301 BROADWAY\nOAKLAND, CA 94607\n5109221615",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a63eb2cc-0a59-4fb6-9974-46f172a64277",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCashier: Felicity H\n01-Jun-2017  7:25:05P\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9a723546-4941-42b5-9787-f6f9f8c99caf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Build Your Own Plate (3 Items)",
+          "total": "$$13.00"
+        },
+        {
+          "quantity": "",
+          "description": "Red Bean and Rice",
+          "total": " $0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Vegan Mac n Cheesee",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Mash Potato n Gravy",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cornbread",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b38eeac1-e01f-47da-857b-dfc0d09cafdb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal:",
+          "total": "$$13.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tax:",
+          "total": "$$1.24"
+        },
+        {
+          "quantity": "",
+          "description": " Total:",
+          "total": "$$14.24"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dcec9514-6809-454f-8b1e-3995a80f9c6a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CASH SALE:",
+          "total": "$$14.24"
+        },
+        {
+          "quantity": "",
+          "description": "Cash Tendered:",
+          "total": "$$20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change:",
+          "total": "$$5.76"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a64fd2d-2de7-4a8d-9499-31e55e1b9ec7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": " \nOrder: 8MB1EP3V64TE4\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "318ec0fe-829b-485b-bbcb-f2917a448656",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Online: https://clover.com/\np/318A78BK99TBY\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e14cb73e-7944-48cd-893c-9f5492991178",
+      "type": "BARCODE",
+      "size": 62,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "166b6605-7271-4021-95bb-de192323f3f6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "3 1 n 8 A 7 8 B K 9 9 T R Y",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7IEp9lLzuepunRon9A11%2F7IEp9lLzuepunRon9A11-93db78fc-e28a-46bd-95a4-ac425a4de4fe.png?alt=media&token=9b328fd7-5ec5-4aef-a0c2-646a6b46e21f",
+  "published": true,
+  "id": "7IEp9lLzuepunRon9A11"
+}

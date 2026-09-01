@@ -1,0 +1,3884 @@
+{
+  "template_count": 979,
+  "dimension_count": 14,
+  "dimensions": {
+    "font_type": {
+      "summary": "Typeface family the entire receipt body is rendered in.",
+      "where_to_see_it": "Everywhere. Easiest to judge on digits and capitals in the total row -- MERCHANT_COPY is the narrow dot-matrix thermal face, FAKE_RECEIPT and RECEIPTIONAL_RECEIPT are wider and rounder.",
+      "group_count": 4,
+      "groups": [
+        {
+          "value": "MERCHANT_COPY",
+          "count": 901,
+          "share": 0.9203268641470889,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "UNSET",
+          "count": 52,
+          "share": 0.05311542390194075,
+          "example": "Petco-Receipt"
+        },
+        {
+          "value": "FAKE_RECEIPT",
+          "count": 16,
+          "share": 0.01634320735444331,
+          "example": "Lush-Receipt"
+        },
+        {
+          "value": "RECEIPTIONAL_RECEIPT",
+          "count": 10,
+          "share": 0.010214504596527068,
+          "example": "JOZY-Receipt"
+        }
+      ]
+    },
+    "merchant_block_position": {
+      "summary": "Vertical position of the block holding the merchant name and address.",
+      "where_to_see_it": "The store name, street, city and phone number. Nearly always the first block under the logo; MIDDLE means it appears after some other block.",
+      "group_count": 3,
+      "groups": [
+        {
+          "value": "TOP",
+          "count": 953,
+          "share": 0.9734422880490297,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "MIDDLE",
+          "count": 23,
+          "share": 0.02349336057201226,
+          "example": "PACSUN-Receipt"
+        },
+        {
+          "value": "NONE",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Van's-Burgers-Receipt"
+        }
+      ]
+    },
+    "logo_placement": {
+      "summary": "Vertical position of the brand logo image, or its absence.",
+      "where_to_see_it": "The graphic at the very top of most receipts. BOTTOM puts it below the totals, near the thank-you message.",
+      "group_count": 4,
+      "groups": [
+        {
+          "value": "TOP",
+          "count": 773,
+          "share": 0.7895812053115424,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "NONE",
+          "count": 183,
+          "share": 0.18692543411644535,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "MIDDLE",
+          "count": 21,
+          "share": 0.021450459652706845,
+          "example": "Masters-Receipt"
+        },
+        {
+          "value": "BOTTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Razz-Coffee-Receipt"
+        }
+      ]
+    },
+    "divider_style": {
+      "summary": "Dominant separator character drawn between stacked blocks.",
+      "where_to_see_it": "The horizontal rules splitting header from items from totals. EMPTY is a blank line rather than a drawn rule; NONE means blocks abut directly.",
+      "group_count": 7,
+      "groups": [
+        {
+          "value": "DASHES",
+          "count": 396,
+          "share": 0.4044943820224719,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "NONE",
+          "count": 273,
+          "share": 0.278855975485189,
+          "example": "Cub-Receipt"
+        },
+        {
+          "value": "EMPTY",
+          "count": 215,
+          "share": 0.21961184882533197,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "EQUALS",
+          "count": 34,
+          "share": 0.03472931562819203,
+          "example": "Blend-Receipt"
+        },
+        {
+          "value": "STARS",
+          "count": 34,
+          "share": 0.03472931562819203,
+          "example": "Vet-Receipt"
+        },
+        {
+          "value": "COLONS",
+          "count": 21,
+          "share": 0.021450459652706845,
+          "example": "Dental-Receipt"
+        },
+        {
+          "value": "DOTS",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Gas-Receipt"
+        }
+      ]
+    },
+    "total_divider_style": {
+      "summary": "Separator drawn immediately above the grand-total row.",
+      "where_to_see_it": "The rule between the last line item (or tax row) and the TOTAL line.",
+      "group_count": 7,
+      "groups": [
+        {
+          "value": "NONE",
+          "count": 518,
+          "share": 0.5291113381001021,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "DASHES",
+          "count": 316,
+          "share": 0.32277834525025534,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "EMPTY",
+          "count": 94,
+          "share": 0.09601634320735444,
+          "example": "GAP-Receipt"
+        },
+        {
+          "value": "EQUALS",
+          "count": 25,
+          "share": 0.02553626149131767,
+          "example": "Bambu-Receipt"
+        },
+        {
+          "value": "STARS",
+          "count": 13,
+          "share": 0.013278855975485188,
+          "example": "Labor-Receipt"
+        },
+        {
+          "value": "DOTS",
+          "count": 9,
+          "share": 0.009193054136874362,
+          "example": "Nanny-Receipt"
+        },
+        {
+          "value": "COLONS",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Vet-Receipt"
+        }
+      ]
+    },
+    "total_emphasis": {
+      "summary": "Font-size increase applied to the grand-total row relative to body text.",
+      "where_to_see_it": "The TOTAL line. PERCENT_50 renders it half again as large; NONE keeps it the same size as the line items above it.",
+      "group_count": 6,
+      "groups": [
+        {
+          "value": "NONE",
+          "count": 888,
+          "share": 0.9070480081716037,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "PERCENT_20",
+          "count": 29,
+          "share": 0.0296220633299285,
+          "example": "Vet-Receipt"
+        },
+        {
+          "value": "PERCENT_50",
+          "count": 27,
+          "share": 0.027579162410623085,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "PERCENT_10",
+          "count": 24,
+          "share": 0.024514811031664963,
+          "example": "Dior-Receipt"
+        },
+        {
+          "value": "PERCENT_75",
+          "count": 7,
+          "share": 0.007150153217568948,
+          "example": "Bakery-Receipt"
+        },
+        {
+          "value": "PERCENT_100",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Hotel-Receipt"
+        }
+      ]
+    },
+    "layout_signature": {
+      "summary": "The ordered sequence of block types -- the layout itself.",
+      "where_to_see_it": "Read top to bottom down the receipt. HEADER|ITEMS|CUSTOM is logo and address, then the purchase table, then a footer message.",
+      "group_count": 469,
+      "groups": [
+        {
+          "value": "HEADER|ITEMS|CUSTOM",
+          "count": 34,
+          "share": 0.03472931562819203,
+          "example": "H-E-B-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|DATE|CUSTOM",
+          "count": 23,
+          "share": 0.02349336057201226,
+          "example": "Kroger-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM",
+          "count": 22,
+          "share": 0.02247191011235955,
+          "example": "HSBC-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM",
+          "count": 21,
+          "share": 0.021450459652706845,
+          "example": "Bambu-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 18,
+          "share": 0.018386108273748723,
+          "example": "Marsano-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 16,
+          "share": 0.01634320735444331,
+          "example": "GNC-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM",
+          "count": 16,
+          "share": 0.01634320735444331,
+          "example": "Netto-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 14,
+          "share": 0.014300306435137897,
+          "example": "Lucky-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|PAYMENT|BARCODE",
+          "count": 14,
+          "share": 0.014300306435137897,
+          "example": "Hotel-receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM",
+          "count": 14,
+          "share": 0.014300306435137897,
+          "example": "PetSmart-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|PAYMENT|CUSTOM",
+          "count": 12,
+          "share": 0.012257405515832482,
+          "example": "Hy-Vee-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 12,
+          "share": 0.012257405515832482,
+          "example": "Dior-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM",
+          "count": 11,
+          "share": 0.011235955056179775,
+          "example": "Belk-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 11,
+          "share": 0.011235955056179775,
+          "example": "GIANT-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 10,
+          "share": 0.010214504596527068,
+          "example": "Oasis-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|CUSTOM",
+          "count": 9,
+          "share": 0.009193054136874362,
+          "example": "Subway-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 9,
+          "share": 0.009193054136874362,
+          "example": "Grill'd-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 8,
+          "share": 0.008171603677221655,
+          "example": "Londis-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 8,
+          "share": 0.008171603677221655,
+          "example": "SPAR-Store-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM",
+          "count": 8,
+          "share": 0.008171603677221655,
+          "example": "Amano-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|CUSTOM|CUSTOM",
+          "count": 7,
+          "share": 0.007150153217568948,
+          "example": "Cabela's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 7,
+          "share": 0.007150153217568948,
+          "example": "Flunch-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 7,
+          "share": 0.007150153217568948,
+          "example": "JCPenney-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 7,
+          "share": 0.007150153217568948,
+          "example": "Pret-UK-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Towing-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Plachutta-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|DATE|ITEMS|PAYMENT|CUSTOM",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Bakery-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE|DATE",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Notary-Receipt"
+        },
+        {
+          "value": "CUSTOM|HEADER|CUSTOM|ITEMS|PAYMENT|DATE|CUSTOM",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Walmart-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Gucci-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "MIU-MIU-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "Vet-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "Rona-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "LOTII-Bakehouse"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "GDK-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "Neosurf-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "Vons-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "GOAT-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Buc-ee's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Wagamama-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Lush-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE|BARCODE",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Lawyer-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|RESTAURANT|ITEMS|PAYMENT|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Car-Repair-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Galp-Portugal-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Grailed-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "MUJI-Retail-Receipt"
+        },
+        {
+          "value": "HEADER|RESTAURANT|ITEMS|PAYMENT|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Zomato-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|CUSTOM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Spaghetti-House-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE|BARCODE",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Moving-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|RESTAURANT|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Arby's-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|BARCODE|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "BIG-W-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Nanny-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "ZARA-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Toby-Carvery-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "PAK'nSAVE-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Dunkin'-UK-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE|DATE",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Clinic-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "O!Save-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Waffle-House-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "DNA-Sports-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Five-Guys-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Law-Firm-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "GameStop-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|BARCODE",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Primark-Manchester-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Hisana-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "IHOP-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "London-Drugs-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Icicles-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|BARCODE|CUSTOM|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "TGI-Fridays-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Kmart-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Spec's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE|BARCODE",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Storage-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "BurgerFi-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Barnes-and-Noble-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "True-Value-Receipt"
+        },
+        {
+          "value": "HEADER|RESTAURANT|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "All-Saints-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Nordsee-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|BARCODE|CUSTOM|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Pep-Boys-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Woolworths-Grocery-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|BARCODE|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Big-Lots-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Apple-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "BP-Express-Receipt"
+        },
+        {
+          "value": "HEADER|RESTAURANT|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|BARCODE|CUSTOM|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Pepco-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|BARCODE|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "BandM-Store-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Paperchase-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Stew-Leonard's-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|PAYMENT|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Best-Havasu-Hardware-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|PAYMENT|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Hiltl-Dachterrasse-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Blend-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Books-A-Million-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Boots-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Bunnings-Warehouse-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|RESTAURANT|ITEMS|PAYMENT|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Pandora-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|PAYMENT|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "GAGA-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|PAYMENT|PAYMENT|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Caffellini-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|CUSTOM|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Car-Wash-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Daycare-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Five-Below-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Salt-and-Straw-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Chick-fil-A-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Chinatown-Point-KFC-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Modern-POS-Template"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Cityhallen-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|CUSTOM|PAYMENT|CUSTOM|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Courier-Service-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Media-Markt-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|CUSTOM|PAYMENT|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Farley's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "DSW-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Denner-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|PAYMENT",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Denny's-PickUp-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM|DATE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Dentist-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Patel-Brothers-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Eric-Kayser-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Kinney-Drugs-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "PureGym-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|BARCODE|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Fenwick-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Levi's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE|DATE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Gas-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "GetGo-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Giant-Eagle-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Harris-Teeter-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Hemingways-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "TJ-Maxx-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Vans-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Swatch-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Micro-Center-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Wawa-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Printemps-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|ITEMS|PAYMENT",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Yellow-Cab-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Lyft-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Maverik-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|BARCODE|DATE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Mechanic-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|PAYMENT|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Zaxby's-US-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Meijer-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Mie-Gacoan-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Neiman-Marcus-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Papa-John's-Receipt"
+        },
+        {
+          "value": "HEADER|HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "PACSUN-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|DATE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Petco-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "REWE-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Sheetz-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|DATE|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Starbucks-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|PAYMENT|CUSTOM|BARCODE|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Stater-Bros.-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "The-O2-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Vodafone-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|DATE|ITEMS|CUSTOM|BARCODE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Zaxby's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|CUSTOM|ITEMS|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "501(c)(3)-Donation-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "7-Eleven-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "ACME-Grocery-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "AEON-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|DATE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "ALDI-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "ARCO-Receipt"
+        },
+        {
+          "value": "CUSTOM|CUSTOM|HEADER|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "ASDA-Store-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "AandW-Fast-Food-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Action-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|PAYMENT|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Adidas-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Airport-Parking-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|CUSTOM|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Airport-Taxi-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Alcampo-Spain-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Atlantic-Superstore-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Auntie-Anne's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Auto-Repair-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Autozone-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bahama-Breeze-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|PAYMENT|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Baja-Fresh-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Baldwinsville-Tops-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "BandQ-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|DATE|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bank-Transaction-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bar-A-BBQ-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bath-and-Body-Works-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bench-Cafe-and-Restaurant-Tax-Invoice"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|DATE|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Best-Buy-Receipt-example-with-HP-Latitude-Laptop-and-1-more-item-totalling-800-dollars-80-cents"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Best-Buy-Sales-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "BevMo!-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|ITEMS|BARCODE|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Biedronka-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Billa-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|PAYMENT|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bit's-n-Bob's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bojangles-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bollywood-Parks-Dubai-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bon-Bini-Supermarket-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|RESTAURANT|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bonefish-Grill-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Boulangerie-Patisserie-Sicard-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|PAYMENT|PAYMENT|CUSTOM|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Brew-Cafe-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Brioche-Doree-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|PAYMENT|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bristol-Farms-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|PAYMENT|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Brooklyn-Deli-and-Market-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Brookshire's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Burlington-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "CARQUEST-Logo-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "CVS-Pharmacy-Receipt-example-with-Cleaning-Wipes-and-1-more-item-totalling-9-dollars-71-cents"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|CUSTOM|BARCODE|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "CVS-Pharmacy-Receipt-example-with-Pepto-Child-Tabs-Sprite-and-2-more-items-totalling-13-dollars-78-cents"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|DATE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "CVS-Pharmacy-Receipt-example-with-Prescription-and-1-more-item-totalling-66-dollars-76-cents"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cafe-Rouge-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|RESTAURANT|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Car-Rental-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Carl's-Jr.-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|DATE|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Carrefour-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cartier-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE|DATE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cash-Register-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|HEADER|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Catherine's-Cafe-To-Go-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|PAYMENT|PAYMENT|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Ceres-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|DATE|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Champs-Sports-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cheaney-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|BARCODE|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Checkers-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Chemist-Warehouse-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Chevron-Gas-Station-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Chevron-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Chez-Marco-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Chico's-Mexican-Food-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|ITEMS|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Chipotle-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Chuck-E.-Cheese-Play-Pass-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cleaning-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Coles-Express-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Conrad-Centennial-Singapore-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Construction-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|DATE|BARCODE|CUSTOM|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Costco-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Country-Hills-Market-Receipt"
+        },
+        {
+          "value": "BARCODE|CUSTOM|HEADER|CUSTOM|DATE|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cracker-Barrel-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|PAYMENT|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cream-Stone-Receipt"
+        },
+        {
+          "value": "DATE|HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Credit-Card-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cub-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|PAYMENT|PAYMENT|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cumberland-Farms-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Currys-PC-World-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "DICK'S-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|BARCODE|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Dealz-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Del-Taco-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Dick's-Sporting-Goods-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Dillons-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Dollar-General-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Domino's-Pizza-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Donation-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Dunelm-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|CUSTOM|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "ESTG-Grill-and-Bistro-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Einstein-Bros-Bagels-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|PAYMENT|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "El-Pollo-Loco-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Electrician-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Equipment-Rental-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Eurospin-Italy-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Family-Dollar-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|PAYMENT|PAYMENT|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "FarmSudz-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Farmavalue-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Fastenal-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Fastop-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Festival-Foods-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Flanigan's-Seafood-Bar-and-Grill-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Food-Delivery-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|DATE|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Food-Lion-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "FoodMaxx-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Foster's-Hollywood-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|PAYMENT|CUSTOM|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Four-Seasons-Siam-Paragon-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Freddy's-Frozen-Custard-and-Steakburgers-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "FreshCo-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Funeral-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|BARCODE|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "GAP-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "GBK-Cribbs-Causeway-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Generic-Business-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|RESTAURANT|RESTAURANT|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Generic-POS-Receipt"
+        },
+        {
+          "value": "DATE|HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Generic-Parking-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|BARCODE|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Generic-Service-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Golden-Corral-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Gordon-Ramsay-Plane-Food-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|RESTAURANT|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Goyard-Boutique-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Granger-and-Co.-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Guld-and-Rod-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "H-Mart-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hai-Lan-Coffee-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Half-Price-Books-Receipt"
+        },
+        {
+          "value": "CUSTOM|HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Harbor-Freight-Tools-Receipt"
+        },
+        {
+          "value": "HEADER|RESTAURANT|ITEMS|PAYMENT|CUSTOM|CUSTOM|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hardee's-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|PAYMENT|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hardee's-of-Dickinson-Receipt"
+        },
+        {
+          "value": "CUSTOM|HEADER|CUSTOM|CUSTOM|DATE|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hartford-Baking-Co.-Receipt"
+        },
+        {
+          "value": "CUSTOM|HEADER|CUSTOM|RESTAURANT|ITEMS|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hawaiian-Bros-Island-Grill-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "HeHa-Waterfall-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Helzberg-Diamonds-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|DATE|ITEMS|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hilton-Hotel-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Holiday-Inn-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Home-Depot-Retail-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|PAYMENT|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Homebase-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Humble-Origins-Coffee-Roasters-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hungry-Horse-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "ISABEL-MARANT-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|RESTAURANT|ITEMS|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Iceland-Store-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|DATE|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Indian-Petrol-Pump-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|DATE|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Indian-Restaurant-Bill"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Itemized-Sales-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Itsu-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "J.CO-Pluit-Village-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "J.Crew-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "JOZY-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "JW-Marriott-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|ITEMS|ITEMS|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "JYSK-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Jamba-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|RESTAURANT|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Jay-Jays-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Jhoots-Pharmacy-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Joe's-Kansas-City-Bar-B-Que-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "John-Lewis-Concession-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Jollibee-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Journeys-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM|DATE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "King-Soopers-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|ITEMS|DATE|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Kroger-Receipt-example-with-Google-Play-Card-for-200-dollars"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Krystal-LaFollette-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "LIDL-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "La-Rotonde-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|ITEMS|PAYMENT|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Labor-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Locksmith-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Love's-Travel-Stop-Receipt"
+        },
+        {
+          "value": "CUSTOM|HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Lynn-Valley-AandW-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "MIDAS-Shoes-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Macy's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mama-Joyce's-Soul-Food-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mariano's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Marigold-Restaurant-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Marshalls-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|HEADER|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Martinho-Optica-(Ourivesaria)-Receipt"
+        },
+        {
+          "value": "CUSTOM|HEADER|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Masters-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|HEADER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Matjeom-Central-Market-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mazzio's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE|CUSTOM|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mechanic-Shop-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|ITEMS|BARCODE|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Medicine-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mediterraneo-Cucina-Italiana-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Menards-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mentone-BCF-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mercadona-Delivery-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mercadona-Spain-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Metro-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|PAYMENT|PAYMENT|PAYMENT|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Metropolitan-Market-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mexico-Lindo-Mexican-Restaurant-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Michael-Chell-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Michaels-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Moe's-Southwest-Grill-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Mojito-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|DATE|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Monthly-Parking-Receipt"
+        },
+        {
+          "value": "HEADER|RESTAURANT|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Morrisons-Cafe-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Motel-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|PAYMENT|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Moxies-Restaurant-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "NAPA-Auto-Parts-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "NYC-Taxi-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Noel-Leeming-Receipt"
+        },
+        {
+          "value": "CUSTOM|HEADER|CUSTOM|PAYMENT|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Noodles-Kober-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Nordstrom-Store-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "ORLEN-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|PAYMENT|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Odettes-Eatery-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Office-Depot-OfficeMax-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Oil-Change-Receipt"
+        },
+        {
+          "value": "DATE|HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Ola-Cab-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "PIGI-Pasta-Bar-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|CUSTOM|PAYMENT|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Pappasito's-Cantina-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|RESTAURANT|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Parking-lot-receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Party-King-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|ITEMS|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Pavilions-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Perkins-Restaurant-and-Bakery-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Petrol-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Pilot-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|RESTAURANT|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Pizza-Hut-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Plumbing-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Pokusevskis-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Popeyes-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Portillo's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Post-Office-Ltd-Self-Service-Receipt"
+        },
+        {
+          "value": "HEADER|RESTAURANT|ITEMS|DATE|CUSTOM|PAYMENT|CUSTOM|BARCODE|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Prada-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|DATE|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Prescription-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Primark-Rotterdam-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Publix-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "REI-Co-op-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "ROSS-Dress-For-Less-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "RaceTrac-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Raley's-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM|DATE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Ralphs-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|HEADER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Razz-Coffee-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Real-Canadian-Superstore-Receipt"
+        },
+        {
+          "value": "CUSTOM|ITEMS|PAYMENT|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Receipt-example-with-Google-Play-and-2-more-items-totalling-dollar75.00"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Red-Lobster-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Red-Robin-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Regalado-Market-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Rent-Payment-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|PAYMENT|CUSTOM|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Restauracja-Atmosfera-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|BARCODE|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "River-Island-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|BARCODE|ITEMS|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Rolex-receipt-example-with-Oyster-Perpetual-and-1-more-item-totalling-104-dollars-55-cents"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Royal-Mail-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|PAYMENT|PAYMENT|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Rubio's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "SMYK-Receipt"
+        },
+        {
+          "value": "HEADER|HEADER|DATE|ITEMS|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "SONO-Japanese-Restaurant-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "SS-Fried-Chicken-Lhokseumawe-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|PAYMENT|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Sainsbury's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|HEADER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Saint-Laurent-Paris-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|ITEMS|PAYMENT|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Salem-Pharmacy-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Sally-Beauty-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|PAYMENT|DATE|DATE|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Sam's-Club-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|PAYMENT|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "San-Carlo-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Schlotzsky's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Screwfix-Invoice-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Seafood-City-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|ITEMS|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Seasons-52-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Selfridges-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Shake-Shack-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Shake-Shack-Singapore-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Shoney's-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Shoppers-Drug-Mart-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Shoprite-Receipt"
+        },
+        {
+          "value": "CUSTOM|DATE|HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Simple-Business-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Skechers-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|BARCODE|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Smart-and-Final-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Sobeys-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Soloman-Cutler-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|BARCODE|DATE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Splend'Or-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Sports-Direct-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|ITEMS|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Square-POS-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Staples-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "State-and-Main-Kitchen-+-Bar-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Steak-'n-Shake-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "StockX-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Summer-Camp-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|PAYMENT|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Sunglass-Hut-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|PAYMENT|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Super-Food-Aruba-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|RESTAURANT|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Swiggy-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "T-Mobile-Receipt"
+        },
+        {
+          "value": "HEADER|HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "TAB-Gida-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|BARCODE|ITEMS|CUSTOM|PAYMENT|PAYMENT|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "TELUS-Mobile-Store-Receipt"
+        },
+        {
+          "value": "HEADER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "THE-PORT-AUTHORITY-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|PAYMENT|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Ta-Wan-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Taco-John's-Galesburg-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Tailwind-Concessions-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Takko-Fashion-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Target-Receipt-example-with-Lion-Mints-Debit-Card-and-3-more-items-totalling-21-dollars-29-cents"
+        },
+        {
+          "value": "HEADER|RESTAURANT|ITEMS|DATE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Taxi-Ride-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|PAYMENT|PAYMENT|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Tazik-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Tesco-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Beefeater-Spain-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM|CUSTOM|HEADER|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Cheesecake-Factory-Ross-Park-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Flower-Shop-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|RESTAURANT|ITEMS|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Food-Warehouse-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|ITEMS|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Gym-Group-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Kooples-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Old-Manor-Receipt"
+        },
+        {
+          "value": "CUSTOM|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Pack-Horse-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM|DATE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Therapy-Receipt"
+        },
+        {
+          "value": "HEADER|BARCODE|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Tom-Thumb-Receipt"
+        },
+        {
+          "value": "HEADER|PAYMENT|CUSTOM|CUSTOM|PAYMENT|CUSTOM|BARCODE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Torchy's-Tacos-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|DATE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Trader-Joe's-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Turtle-Bay-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|DATE|CUSTOM|CUSTOM|ITEMS|PAYMENT|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Tutoring-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "UNIQLO-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "UPS-Shipping-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "USPS-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|CUSTOM|ITEMS|CUSTOM|PAYMENT",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Uber-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Uncle-Paul's-Pizza-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|BARCODE|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Unieuro-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|BARCODE|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Urban-Outfitters-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|RESTAURANT|ITEMS|DATE|CUSTOM|CUSTOM|CUSTOM|PAYMENT|BARCODE|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Valentino-Boutique-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Vallarta-Supermarkets-Receipt"
+        },
+        {
+          "value": "CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Van's-Burgers-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM|HEADER|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Veerman-Juwelen-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|ITEMS|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Vege-Mart-Grocery-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Verizon-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|RESTAURANT|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Victoria's-Secret-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|PAYMENT|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Visions-Electronics-Receipt"
+        },
+        {
+          "value": "HEADER|DATE|CUSTOM|ITEMS|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Vons-Receipt-example-with-Broccoli-Cereal-Honey-Oats-Penne-Pasta-Eggs-Chicken-Breast-Toilet-Paper-Tomatoes-Bottled-Water-Orange-Juice-Apples-and-Skyy-Vodka-totalling-58-dollars-81-cents"
+        },
+        {
+          "value": "HEADER|ITEMS|PAYMENT|DATE|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Walgreens-Receipt-example-with-Nicorette-Inhaler-Nicoderm-and-2-more-items-totalling-97-dollars-40-cents"
+        },
+        {
+          "value": "CUSTOM|HEADER|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Walmart-Receipt-example-with-Grilled-Beef-Sides-and-19-more-items-totalling-dollar94.30"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|PAYMENT|CUSTOM|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Warehouse-Stationery-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|ITEMS|ITEMS|ITEMS|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Wasabi-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|ITEMS|PAYMENT|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Whataburger-Receipt"
+        },
+        {
+          "value": "CUSTOM|HEADER|CUSTOM|ITEMS|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "White-Spot-Restaurant-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|CUSTOM|ITEMS|CUSTOM|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Wingstop-USA-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|BARCODE|CUSTOM|CUSTOM|CUSTOM|ITEMS|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Winn-Dixie-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS|CUSTOM|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Yard-House-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|CUSTOM|CUSTOM|CUSTOM|ITEMS|ITEMS|ITEMS",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Zambrero-Receipt"
+        },
+        {
+          "value": "HEADER|ITEMS|ITEMS|BARCODE|CUSTOM|CUSTOM|CUSTOM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Zion-Market-Receipt"
+        },
+        {
+          "value": "HEADER|CUSTOM|ITEMS|PAYMENT|CUSTOM|CUSTOM|BARCODE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "walmart-example-with-Zsty-Paws-FLTK-products-Debit-card-and-2-more-items-totalling-42-dollars-54-cents"
+        }
+      ]
+    },
+    "money_row_order": {
+      "summary": "Order in which semantic money rows appear across the whole receipt.",
+      "where_to_see_it": "The arithmetic column. ITEM>SUBTOTAL>TAX>TOTAL>TENDER>CHANGE is the classic supermarket order; NONE means the receipt shows no priced rows.",
+      "group_count": 94,
+      "groups": [
+        {
+          "value": "ITEM",
+          "count": 377,
+          "share": 0.38508682328907046,
+          "example": "DSW-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>TENDER>META>AUTH",
+          "count": 133,
+          "share": 0.13585291113381,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "NONE",
+          "count": 91,
+          "share": 0.09295199182839632,
+          "example": "Belk-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>TENDER>CHANGE",
+          "count": 88,
+          "share": 0.0898876404494382,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL",
+          "count": 67,
+          "share": 0.06843718079673136,
+          "example": "GNC-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL",
+          "count": 26,
+          "share": 0.026557711950970377,
+          "example": "Bambu-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TOTAL",
+          "count": 16,
+          "share": 0.01634320735444331,
+          "example": "FreshCo-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TENDER>META>AUTH",
+          "count": 15,
+          "share": 0.015321756894790603,
+          "example": "Shell-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX",
+          "count": 11,
+          "share": 0.011235955056179775,
+          "example": "J.Crew-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>TENDER",
+          "count": 8,
+          "share": 0.008171603677221655,
+          "example": "Hy-Vee-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TOTAL>TENDER>META>AUTH",
+          "count": 8,
+          "share": 0.008171603677221655,
+          "example": "Uber-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TOTAL>TENDER",
+          "count": 7,
+          "share": 0.007150153217568948,
+          "example": "GOAT-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>TENDER>AUTH",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Sam's-Club-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TENDER",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "GAGA-Receipt"
+        },
+        {
+          "value": "META>ITEM>SUBTOTAL>TAX>TOTAL",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "All-Saints-Receipt"
+        },
+        {
+          "value": "SUBTOTAL>TAX>TOTAL>TENDER>META>AUTH>ITEM",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Gas-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TOTAL",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Vons-Receipt"
+        },
+        {
+          "value": "ITEM>TENDER>CHANGE",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "H-Mart-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TAX",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Foot-Locker-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TIP>TOTAL",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Ta-Wan-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TIP>TOTAL",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Ceres-Receipt"
+        },
+        {
+          "value": "META>ITEM>SUBTOTAL>TAX>TOTAL>TENDER>AUTH",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Generic-POS-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TOTAL>TENDER>AUTH",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "PACSUN-Receipt"
+        },
+        {
+          "value": "META>ITEM>SUBTOTAL>TOTAL",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Amano-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TENDER>CHANGE>TAX",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Bit's-n-Bob's-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TENDER>CHANGE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Bojangles-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TENDER>TAX",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Checkers-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TAX>TENDER",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Vapiano-Receipt"
+        },
+        {
+          "value": "ITEM>TENDER",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Co-op-UK-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TOTAL>TENDER>CHANGE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "NYC-Taxi-Receipt"
+        },
+        {
+          "value": "SUBTOTAL>TAX>TOTAL",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "DICK'S-Receipt"
+        },
+        {
+          "value": "ITEM>TENDER>TOTAL",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Sainsbury's-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TENDER>AUTH",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "GIANT-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TENDER>META>AUTH",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Ralphs-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TIP",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Pint-Shop-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TOTAL>TENDER>CHANGE",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Meijer-Receipt"
+        },
+        {
+          "value": "TOTAL>ITEM",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Party-King-Receipt"
+        },
+        {
+          "value": "META>ITEM>SUBTOTAL>TAX>TOTAL>TENDER",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Portillo's-Receipt"
+        },
+        {
+          "value": "ITEM>TENDER>CHANGE>TOTAL",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Tesco-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>TENDER>META",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "TJ-Maxx-Receipt"
+        },
+        {
+          "value": "ITEM>META",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Victoria's-Secret-Receipt"
+        },
+        {
+          "value": "ITEM>META>AUTH>TENDER>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Adidas-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Applebee's-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TENDER>CHANGE>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "BIG-W-Receipt"
+        },
+        {
+          "value": "META>ITEM>SUBTOTAL>DISCOUNT>TOTAL>AUTH>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Baja-Fresh-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TENDER>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bass-Pro-Shops-Outdoor-World-Receipt"
+        },
+        {
+          "value": "SUBTOTAL>TAX>TOTAL>TENDER>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Best-Buy-Sales-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TOTAL>TENDER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bosley's-Pet-Valu-Receipt"
+        },
+        {
+          "value": "META>ITEM>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Bumps-Family-Restaurant-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>SUBTOTAL>TOTAL>CHANGE>TENDER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Chevron-Gas-Station-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>AUTH>TENDER>TOTAL>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Countdown-Supermarket-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>SUBTOTAL>TAX",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Dick's-Sporting-Goods-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TENDER>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "El-Pollo-Loco-Receipt"
+        },
+        {
+          "value": "ITEM>TENDER>SUBTOTAL>TAX>TOTAL>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Farm-Boy-Country-Market-Receipt"
+        },
+        {
+          "value": "TENDER>TOTAL>ITEM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "FarmSudz-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TENDER>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Four-Seasons-Siam-Paragon-Receipt"
+        },
+        {
+          "value": "META>ITEM>SUBTOTAL>TAX>TOTAL>TENDER>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Fresh-Thyme-Farmers-Market-Receipt"
+        },
+        {
+          "value": "ITEM>META>SUBTOTAL>TAX>TOTAL>TENDER>AUTH",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hardee's-Receipt"
+        },
+        {
+          "value": "ITEM>AUTH>SUBTOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hiltl-Dachterrasse-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TIP>TAX>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hilton-Hotel-Receipt"
+        },
+        {
+          "value": "TOTAL>ITEM>TENDER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Hisana-Receipt"
+        },
+        {
+          "value": "META>ITEM>TOTAL>TAX>TENDER>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Joma-Bakery-Cafe-In-Store-Receipt"
+        },
+        {
+          "value": "TENDER>META>AUTH>ITEM>SUBTOTAL>TAX>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Kroger-Receipt-example-with-Google-Play-Card-for-200-dollars"
+        },
+        {
+          "value": "META>ITEM>TOTAL>TENDER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Krystal-LaFollette-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>META>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Kwik-Trip-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TOTAL>TENDER>META>AUTH",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Little-Caesars-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TIP>TOTAL>TENDER>META>AUTH",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Lyft-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TAX>TIP>TENDER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Marco's-Pizza-Receipt"
+        },
+        {
+          "value": "ITEM>DISCOUNT>TENDER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Marks-and-Spencer-(MandS)-Receipt"
+        },
+        {
+          "value": "ITEM>TAX>TENDER>AUTH>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Metropolitan-Market-Receipt"
+        },
+        {
+          "value": "ITEM>TENDER>SUBTOTAL>TOTAL>META",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "New-World-Albany-Receipt"
+        },
+        {
+          "value": "TOTAL>ITEM>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Noel-Leeming-Receipt"
+        },
+        {
+          "value": "TOTAL>TAX>SUBTOTAL>TENDER>ITEM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Noodles-Kober-Receipt"
+        },
+        {
+          "value": "ITEM>TENDER>CHANGE>SUBTOTAL>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "PC-Market-of-Choice-Receipt"
+        },
+        {
+          "value": "ITEM>TAX",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Post-Office-Ltd-Self-Service-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TAX>TENDER>META>AUTH",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Publix-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>AUTH>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Roche-Bros.-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>TENDER>CHANGE>META>AUTH",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Rubio's-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>META",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Saint-Laurent-Paris-Receipt"
+        },
+        {
+          "value": "ITEM>TIP>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Salt-and-Straw-Receipt"
+        },
+        {
+          "value": "ITEM>TOTAL>TENDER>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Square-POS-Receipt"
+        },
+        {
+          "value": "ITEM>DISCOUNT>SUBTOTAL>TAX>TOTAL>TENDER>AUTH",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Sunglass-Hut-Receipt"
+        },
+        {
+          "value": "SUBTOTAL>TOTAL>ITEM>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Super-Food-Aruba-Receipt"
+        },
+        {
+          "value": "ITEM>META>SUBTOTAL>TAX>TOTAL>TENDER>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Taco-Cabana-Denton-Receipt"
+        },
+        {
+          "value": "META>ITEM>DISCOUNT>AUTH>SUBTOTAL>TAX>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Taxi-Ride-Receipt"
+        },
+        {
+          "value": "META>ITEM>SUBTOTAL>TAX>TOTAL>TIP",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Armory-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TENDER",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "The-Crosby-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>TIP",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Uncle-Paul's-Pizza-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TAX>TOTAL>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Valero-Gas-Station-Receipt"
+        },
+        {
+          "value": "TENDER>ITEM",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Visionworks-Receipt"
+        },
+        {
+          "value": "ITEM>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Waitrose-and-Partners-Receipt"
+        },
+        {
+          "value": "ITEM>AUTH>TENDER>TOTAL",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Warehouse-Stationery-Receipt"
+        },
+        {
+          "value": "ITEM>TENDER>SUBTOTAL>TAX",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Zaxby's-US-Receipt"
+        },
+        {
+          "value": "ITEM>SUBTOTAL>TENDER>CHANGE",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Zion-Market-Receipt"
+        }
+      ]
+    },
+    "quantity_column": {
+      "summary": "Whether line items render a leading quantity column.",
+      "where_to_see_it": "The left edge of the item table -- a '2' before the product name. NO_ITEMS covers receipts with no itemised purchase table at all.",
+      "group_count": 3,
+      "groups": [
+        {
+          "value": "PRESENT",
+          "count": 432,
+          "share": 0.44126659856996936,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "ABSENT",
+          "count": 388,
+          "share": 0.39632277834525026,
+          "example": "Cub-Receipt"
+        },
+        {
+          "value": "NO_ITEMS",
+          "count": 159,
+          "share": 0.16241062308478038,
+          "example": "Gas-Receipt"
+        }
+      ]
+    },
+    "barcode_placement": {
+      "summary": "Vertical position of the barcode block, or its absence.",
+      "where_to_see_it": "The scannable stripe, usually near the foot of the receipt below the totals and above or below the thank-you message.",
+      "group_count": 4,
+      "groups": [
+        {
+          "value": "NONE",
+          "count": 639,
+          "share": 0.6527068437180796,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "MIDDLE",
+          "count": 227,
+          "share": 0.23186925434116445,
+          "example": "DSW-Receipt"
+        },
+        {
+          "value": "BOTTOM",
+          "count": 112,
+          "share": 0.11440245148110317,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "TOP",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Cracker-Barrel-Receipt"
+        }
+      ]
+    },
+    "number_format": {
+      "summary": "Horizontal alignment of the amount column.",
+      "where_to_see_it": "The price column on the right. LEFT ragged-aligns the amounts; RIGHT and RIGHT_SPACE align them flush so decimal points line up.",
+      "group_count": 4,
+      "groups": [
+        {
+          "value": "LEFT",
+          "count": 896,
+          "share": 0.9152196118488254,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "UNSET",
+          "count": 75,
+          "share": 0.07660878447395301,
+          "example": "Hotel-Receipt"
+        },
+        {
+          "value": "RIGHT_SPACE",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Splend'Or-Receipt"
+        },
+        {
+          "value": "RIGHT",
+          "count": 4,
+          "share": 0.0040858018386108275,
+          "example": "Selfridges-Receipt"
+        }
+      ]
+    },
+    "background_type": {
+      "summary": "Paper texture composited behind the rendered text.",
+      "where_to_see_it": "The substrate itself -- crumple pattern, shadowing and creases. Purely a photorealism treatment; it does not move any content.",
+      "group_count": 6,
+      "groups": [
+        {
+          "value": "CRUMPLED_1",
+          "count": 882,
+          "share": 0.9009193054136875,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "UNSET",
+          "count": 72,
+          "share": 0.0735444330949949,
+          "example": "Hotel-Receipt"
+        },
+        {
+          "value": "CRUMPLED_4",
+          "count": 11,
+          "share": 0.011235955056179775,
+          "example": "LIDL-Receipt"
+        },
+        {
+          "value": "CRUMPLED_5",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "Clothes-Quarters-Receipt"
+        },
+        {
+          "value": "CRUMPLED_2",
+          "count": 5,
+          "share": 0.005107252298263534,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "CRUMPLED_3",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "USPS-Receipt"
+        }
+      ]
+    },
+    "header_alignment": {
+      "summary": "Text alignment inside the header block.",
+      "where_to_see_it": "The merchant name and address lines. CENTER is the thermal-printer norm; LEFT reads more like an invoice.",
+      "group_count": 4,
+      "groups": [
+        {
+          "value": "CENTER",
+          "count": 896,
+          "share": 0.9152196118488254,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "LEFT",
+          "count": 74,
+          "share": 0.0755873340143003,
+          "example": "DSW-Receipt"
+        },
+        {
+          "value": "RIGHT",
+          "count": 6,
+          "share": 0.006128702757916241,
+          "example": "StockX-Receipt"
+        },
+        {
+          "value": "UNSET",
+          "count": 3,
+          "share": 0.0030643513789581204,
+          "example": "Van's-Burgers-Receipt"
+        }
+      ]
+    },
+    "section_count": {
+      "summary": "Number of stacked blocks making up the receipt.",
+      "where_to_see_it": "A proxy for overall complexity and length -- count the visually distinct bands from logo to footer.",
+      "group_count": 15,
+      "groups": [
+        {
+          "value": "6",
+          "count": 198,
+          "share": 0.20224719101123595,
+          "example": "BP-Receipt"
+        },
+        {
+          "value": "5",
+          "count": 192,
+          "share": 0.1961184882533197,
+          "example": "GNC-Receipt"
+        },
+        {
+          "value": "7",
+          "count": 179,
+          "share": 0.18283963227783454,
+          "example": "Ace-Receipt"
+        },
+        {
+          "value": "4",
+          "count": 120,
+          "share": 0.12257405515832483,
+          "example": "Cub-Receipt"
+        },
+        {
+          "value": "8",
+          "count": 113,
+          "share": 0.11542390194075587,
+          "example": "Vet-Receipt"
+        },
+        {
+          "value": "9",
+          "count": 65,
+          "share": 0.06639427987742594,
+          "example": "Gas-Receipt"
+        },
+        {
+          "value": "3",
+          "count": 57,
+          "share": 0.05822267620020429,
+          "example": "Belk-Receipt"
+        },
+        {
+          "value": "10",
+          "count": 23,
+          "share": 0.02349336057201226,
+          "example": "SMYK-Receipt"
+        },
+        {
+          "value": "11",
+          "count": 11,
+          "share": 0.011235955056179775,
+          "example": "ORLEN-Receipt"
+        },
+        {
+          "value": "2",
+          "count": 8,
+          "share": 0.008171603677221655,
+          "example": "Kmart-Receipt"
+        },
+        {
+          "value": "12",
+          "count": 7,
+          "share": 0.007150153217568948,
+          "example": "USPS-Receipt"
+        },
+        {
+          "value": "13",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Adidas-Receipt"
+        },
+        {
+          "value": "15",
+          "count": 2,
+          "share": 0.0020429009193054137,
+          "example": "Biedronka-Receipt"
+        },
+        {
+          "value": "1",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "THE-PORT-AUTHORITY-Receipt"
+        },
+        {
+          "value": "16",
+          "count": 1,
+          "share": 0.0010214504596527069,
+          "example": "Veerman-Juwelen-Receipt"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-06T14:17:09.999Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "4ccefa06-87af-4977-8d99-c8f40e5810d6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Catherine's Cantina\n10 Torrance Street\nPVD\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2d497b53-8eb8-4ede-bb7b-32216c1a54e7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Check #: 0702                2/25/22\nServer: Unknown user          1:18pm\nTo Go: Michael Smith\nCustomer Name: Michael Smith\nCustomer Phone #: (808) 514-4644\n\n\nNotes:\nUpserve Online Ordering Order Confirmation Code:\ncat-s-cantina-98461\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2985b1e5-4d26-4f93-97ed-73210596ad85",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 Filet Mignon ",
+          "total": "\n$35.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 SIDE: Fingerling Potatoes",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "1 Online Platform Merchant Fee",
+          "total": "$$2.47"
+        },
+        {
+          "quantity": "",
+          "description": "1 Online Platform Consumer Fee",
+          "total": "$$0.73"
+        },
+        {
+          "quantity": "",
+          "description": "1 House Cab, Sauv.",
+          "total": "$$12.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fed65455-ba21-43ec-95a9-8bbf39f9800f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Items without fees",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Items with fees",
+          "total": "$$52.70"
+        },
+        {
+          "quantity": "",
+          "description": "City Food Tax",
+          "total": "$$0.05"
+        },
+        {
+          "quantity": "",
+          "description": "City Liquor Tax",
+          "total": "$$0.12"
+        },
+        {
+          "quantity": "",
+          "description": "State Tax",
+          "total": "$$3.28"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tax ",
+          "total": "$$3.45"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "---------"
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n$56.15"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ec16b39-cc75-4b3f-90a8-ee975b202e05",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Balance Due",
+          "total": "$$56.15"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "17c95c8e-9dcd-4a64-8432-e6629023b542",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSuggested Tips:\n10% = $5.27\n20% = $10.54\n30% = $15.81\n\nMy super fancy footer message.\nMY EVEN FANCIER MESSAGE - NOTE THE CAPS!!!\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "183dc81a-2e94-4010-9cf4-3c98b3a1a8dc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F49271130-7a68-4bf7-a8dc-a01d6b406b44-image%20(3).jpg?alt=media&token=3aaea7b2-3cee-4c3a-8355-2521e2d7739b",
+      "size": 156,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7fda023a-4151-4181-9ceb-007f590263ce",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n Scan the QR code to pay your bill",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Catherine's Cafe To-Go Receipt",
+  "description": "This receipt is issued by Catherine's Cafe and identifies the restaurant as 10 Dorrance Street, Providence, Rhode Island. The header contains the restaurant name, address, check number, transaction date and time, server designation, order type (To Go), ticket name, customer information, and an Upserve Online Ordering confirmation code. The receipt records the purchase of a filet mignon meal with a side dish, a house Cabernet Sauvignon, and online ordering fee adjustments. The financial section separately reports items with and without fees, city food tax, city liquor tax, state tax, total tax, and the final transaction total. The footer provides suggested gratuity amounts and includes a QR code for mobile payment together with promotional footer messages. The overall layout is representative of a United States restaurant POS receipt using the Upserve ordering platform, combining online ordering, tax reporting, fee disclosure, and digital payment options within a compact hospitality receipt format.",
+  "slug": "Catherine's-Cafe-To-Go-Receipt",
+  "published": true,
+  "id": "6EFjCNyK8KoiNFPcj7J6"
+}

@@ -1,0 +1,232 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T11:51:28.854Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Soloman Cutler Receipt",
+  "description": "This receipt is from Soloman Cutler, a pub and restaurant location in the United Kingdom. It records a dining transaction that included a bowl of chips and a children’s meal with nuggets and lemonade. The receipt shows mixed payment methods using EFT card payment and cash refund adjustment, along with promotional savings applied to the order. It also includes VAT-inclusive totals, receipt numbers, and refund details. The format reflects a standard UK pub or casual dining POS receipt.",
+  "sections": [
+    {
+      "id": "81c56700-6666-4e12-9734-774106cf8cad",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Soloman Cutler\nB1 2DS\n0121 631 8930\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e855dd2-a535-44df-a376-4be6c3c96915",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Till 5",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "neil",
+          "total": "15 Feb 2019 17:37"
+        },
+        {
+          "quantity": "",
+          "description": "Table: 1",
+          "total": "Acc No: 702"
+        },
+        {
+          "quantity": 1,
+          "description": "Bowl Chips",
+          "total": "=  2.90"
+        },
+        {
+          "quantity": 1,
+          "description": "Sept 18 Kids Meals",
+          "total": "=  4.49"
+        },
+        {
+          "quantity": "",
+          "description": "1 Kids Nuggets",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "1 Kids Lemonade",
+          "total": 10
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "21cb9ca0-32fa-4f7d-85e9-4ae67bac142d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£7.39"
+        },
+        {
+          "quantity": "",
+          "description": "EFT",
+          "total": "£7.89"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt no. 98/8384",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "£0.50"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt no. 98/8385",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb23cbbe-28a7-412a-9b35-c2c5d114ff93",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Account Closed",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "35f12b6b-55bd-4731-ba11-f6837ae0d9ed",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total Promotional Savings",
+          "total": "£0.70"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3942558e-6bbe-4118-ac5a-01fcb5fe9f9e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Payment Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "28d137f9-ff5d-4005-977f-9ce21c0ab69b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "EFT",
+          "total": "£7.89"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT included",
+          "total": "£1.32"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt no. 98/8384",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VAT NO. 396 331 433",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1427b43f-3564-4ed0-bac9-ea39d7aeef2f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Refund Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b01ddac6-609a-4983-8c25-40833bed99b3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "-£0.50"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT included",
+          "total": "-£0.09"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt no. 98/8385",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VAT NO. 396 331 433",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Soloman-Cutler-Receipt",
+  "published": true,
+  "id": "O02bvBNjFlZN96kxCbY9"
+}

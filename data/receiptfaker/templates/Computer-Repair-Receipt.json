@@ -1,0 +1,168 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Computer Repair Receipt",
+  "slug": "Computer-Repair-Receipt",
+  "createdAt": "$D2025-09-30T15:45:10.589Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F4d748904-e922-4f0f-96f1-4b5ea341b51d-8345461_electronic_repair_service_laptop_computer_icon.png?alt=media&token=7f8243ea-fef5-41fd-a45e-37bf521c19ec",
+      "size": 50,
+      "businessDetails": "Quantum PC Repair\n3420 Innovation Drive\nAustin, TX 78758",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba414e32-50fb-4969-aebb-16ff409bf6f2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Computer Repair Receipt\nReceipt #: QPR-2047",
+      "bottomDivider": false,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS"
+    },
+    {
+      "id": "febe04da-fb44-4618-bbff-08e54dbfbf61",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Bill to:",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f1b2d59-de12-4a05-9dcd-08c7fffc2b1e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Name: Emma Carlson\nAddress: 7427 Cedar Park Drive, Austin, TX 78759\nPhone number: (512) 394-2765\nEmail address: emma.carlson@gmail.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Laptop Virus Removal",
+          "total": "120.00"
+        },
+        {
+          "quantity": "",
+          "description": "SSD Upgrade (500GB)",
+          "total": "150.00"
+        },
+        {
+          "quantity": "",
+          "description": "System Tune-up & Diagnostics",
+          "total": "75.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "COLONS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "345.00"
+        },
+        {
+          "title": "Tax (8.25%)",
+          "value": "28.46"
+        }
+      ],
+      "total": "373.46",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please retain this receipt as proof of purchase. All services are covered by a 30-day workmanship guarantee. Hardware replacement parts carry the manufacturer’s warranty. Returns or refunds are not available for completed services. For any issues, please contact us at (512) 555-4398 or help@quantumpcrepair.com\n. Thank you for trusting Quantum PC Repair!",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FpNgvaBG7NlrjG5vEYxHl%2FpNgvaBG7NlrjG5vEYxHl-2bc4db89-8d58-4b0f-984c-ac8e7d83ce5d.png?alt=media&token=ee5b172d-ba3f-44da-8f49-b5909a6c3731",
+  "description": "Need a computer repair receipt? Use our free tool to create a detailed service record. Add technician info, device details, repairs done, parts, costs, and payment—perfect for client records or warranties.",
+  "published": true,
+  "metatitle": "Computer Repair Receipt",
+  "metadesc": "professional computer repair receipts with technician details, device info, services performed, parts used, and payment records",
+  "id": "pNgvaBG7NlrjG5vEYxHl"
+}

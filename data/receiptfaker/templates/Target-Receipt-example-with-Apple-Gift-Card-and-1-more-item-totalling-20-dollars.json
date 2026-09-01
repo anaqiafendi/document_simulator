@@ -1,0 +1,128 @@
+{
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fabacbf6a-e5f8-4a62-8855-48479d8db65b.png?alt=media&token=1b48fc01-1ef5-44a8-99d8-c681be8cc932",
+      "size": 222,
+      "businessDetails": "( 281) 810- 5251\nMANAGER JOS AKVAROZ\n2700 ELDRIDGE PKWY\nHOUSTON TX 77077\nST# 03256 OP# 567890 TE# 23 TR# 03111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PRODUCT SERIAL # TH66B3C1ZZ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "APPLE GIFT CARD",
+          "total": "20.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "20.00"
+        },
+        {
+          "title": "Tax",
+          "value": "0"
+        }
+      ],
+      "total": "20.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "20.00"
+        },
+        {
+          "title": "Change",
+          "value": "0"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "7/07/2025, 06:06:54 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "# ITEMS SOLD 1\n\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FZANKHBm57mdUzKUAIC0p%2FZANKHBm57mdUzKUAIC0p-314d6922-8ea6-4108-bc3f-535d9bddd885.png?alt=media&token=8902a00e-d3e1-41ab-ad4f-f37ebcee19f7",
+  "createdAt": "$D2025-05-07T23:09:37.645Z",
+  "backgroundCrumpled": false,
+  "description": "This receipt was created with ReceiptFaker generator based on **Target Receipt** template on **May 7, 2025**.",
+  "name": "Target Receipt example with Apple Gift Card and 1 more item totalling 20 dollars",
+  "slug": "Target-Receipt-example-with-Apple-Gift-Card-and-1-more-item-totalling-20-dollars",
+  "isParent": false,
+  "parentId": "ZANKHBm57mdUzKUAIC0p",
+  "parentName": "Target Receipt",
+  "published": true,
+  "metatitle": "Target Receipt $20",
+  "metadesc": "realistic Target receipts with Apple Gift Cards and multiple items totaling $20 using our professional receipt template generator",
+  "id": "kdC9XsvpRZwCkGN8GEu0"
+}

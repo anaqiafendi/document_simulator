@@ -1,0 +1,155 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T16:40:19.941Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Tire Shop Receipt",
+  "slug": "Tire-Shop-Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F740688a7-8fcc-478e-896b-74611c53e563-6883265_automobile_tire_tires_icon.png?alt=media&token=48da2d69-0ac2-490f-8d11-f5ceee4d60f8",
+      "size": 50,
+      "businessDetails": "Precision Tire & Auto Care, LLC\n4183 Industrial Parkway\nNashville, TN 37207\n(615) 555-4391",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tire Shop Receipt\nReceipt #: 1020232",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "4",
+          "description": "Tire Installation",
+          "total": "120.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Wheel Alignment",
+          "total": "85.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Tire Rotation",
+          "total": "45.00"
+        },
+        {
+          "quantity": "4",
+          "description": "New Tires (4 All-Season)",
+          "total": "500.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "750.00"
+        },
+        {
+          "title": "Tax",
+          "value": "69.38"
+        }
+      ],
+      "total": "819.38",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Payments for services are due at the time of completion. We accept cash, major credit cards, and most insurance plans for eligible auto services. Appointments require at least 24 hours’ notice for cancellations or rescheduling to avoid a 50% cancellation fee.\n\nAll tires come with a manufacturer warranty; labor services include a 90-day workmanship warranty. Please keep your receipt for warranty claims.\n\nFor questions or to schedule an appointment, call us at (615) 555-4391 or email billing@precisiontireauto.com.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FXcar6B6XFHGAEYtFvAIy%2FXcar6B6XFHGAEYtFvAIy-06deee14-df09-4ce1-95d7-9a78913ad397.png?alt=media&token=0ec5c6b2-acc5-49e8-9d46-264826796310",
+  "description": "Need a tire shop receipt? Quickly generate a professional receipt with our free tool. Add shop info, tire details, services, prices, and payment method—great for warranties, records, or business expenses.",
+  "published": true,
+  "metatitle": "Tire Shop Receipt",
+  "metadesc": "professional tire shop receipts with customizable tire details, services, prices, and payment info using our free generator",
+  "id": "Xcar6B6XFHGAEYtFvAIy"
+}

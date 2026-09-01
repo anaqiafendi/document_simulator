@@ -1,0 +1,128 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-04T13:19:32.560Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FK1cY2QaILteVELDNLFdefYsLg1E3%2F9ec2c8e9-ef15-4640-96b2-72b954276769-JOES_KC_Star_BLK_large%20(1).png?alt=media&token=bd740a4e-28f0-4e19-ba28-6e9a8faddfb7",
+      "size": 140,
+      "businessDetails": "11723 Roe Ave\nLeawood, KS 66211\n(913) 338-5151",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "acdf8664-6eaf-477a-b9e9-1164c01fc3af",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Order To Go\n486",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Z-Man",
+          "total": "12.79"
+        },
+        {
+          "quantity": "1",
+          "description": "Onion Rings",
+          "total": "8.49"
+        },
+        {
+          "quantity": "1",
+          "description": "Ribs & Burnt Ends Dinner",
+          "total": "24.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Pulled Pork Sandwich - Jumbo",
+          "total": "12.39"
+        },
+        {
+          "quantity": "1",
+          "description": "French Fries",
+          "total": "5.59"
+        },
+        {
+          "quantity": "1",
+          "description": "Rocket Pig",
+          "total": "12.39"
+        },
+        {
+          "quantity": 1,
+          "description": "French Fries",
+          "total": "5.59"
+        },
+        {
+          "quantity": 1,
+          "description": "Smokie Joe",
+          "total": "12.29"
+        },
+        {
+          "quantity": 1,
+          "description": "Onion Rings",
+          "total": "8.49"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "103.01"
+        },
+        {
+          "title": "Tax",
+          "value": "10.25"
+        }
+      ],
+      "total": "113.26",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee47ea0a-f642-4812-b054-9c0da5189490",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for your business",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9d8e8e9-a9f5-437c-a054-4ed5133cf9a8",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "1/11/2026\n5:12 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    }
+  ],
+  "name": "Joe’s Kansas City Bar-B-Que Receipt",
+  "slug": "Joe's-Kansas-City-Bar-B-Que-Receipt",
+  "description": "Restaurant receipt from Joe’s Kansas City Bar-B-Que showing store location, order number, food items purchased, individual prices, subtotal, tax, total amount paid, and transaction date and time.",
+  "metatitle": "Fast Food Receipt",
+  "metadesc": "professional Hardee's receipts featuring menu items, taxes, totals, and payment info for expense reports and documentation",
+  "parentName": "Hardee's Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1pD33TLoQXV1uCphDzva%2F1pD33TLoQXV1uCphDzva-95a2009f-256b-49d5-95d1-b06c85e1e9a4.png?alt=media&token=b2f37f56-f973-45a5-9111-778c50245be7",
+  "published": true,
+  "id": "1pD33TLoQXV1uCphDzva"
+}

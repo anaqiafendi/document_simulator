@@ -1,0 +1,149 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Schlotzsky's Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Schlotzsky’s, including store contact information and location reference. It features check identification and timestamped transaction records, along with itemized food purchases. The receipt presents a structured financial summary including subtotal, tax, payment amount, and change due. Payment processing details include masked Visa card information and authorization amount. The receipt concludes with promotional messaging offering a survey incentive and includes store identification and validation code, reflecting a standard U.S. fast-food POS receipt format with customer feedback integration.",
+  "slug": "Schlotzsky's-Receipt",
+  "createdAt": "$D2026-04-12T14:42:25.284Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "dfe9b7ef-7961-406f-a27b-b6debebb5e21",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F91f530b2-4f2d-41ec-b103-52731e2a5d5b-image.jpg?alt=media&token=9010f003-083a-45b0-93f9-cfc5eb81e33d",
+      "size": 245,
+      "businessDetails": "\nPhone: (702) 907-8414\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a87d9fdc-18a2-4cc2-bbfb-194a3a3538e0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "3583 Cheryl",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11a77fc7-c809-4d15-975d-2e6eb63e77ec",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCHK 1204\n3/29/2019  10:50 \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1161dd05-9055-4806-ad91-19f76d7bef65",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "BRK SND BACON ",
+          "total": "5.99"
+        },
+        {
+          "quantity": 1,
+          "description": "BRK SND BACON",
+          "total": "5.99"
+        },
+        {
+          "quantity": "",
+          "description": "************8928",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Visa: GA24Z6",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Credit Authorization",
+          "total": " $12.97"
+        },
+        {
+          "quantity": "",
+          "description": "************8928",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal ",
+          "total": "\n\n$11.98"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$0.99"
+        },
+        {
+          "quantity": "",
+          "description": "Payment",
+          "total": "$$12.97"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3f45e7d5-73d5-489b-9124-784f59b336ba",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n--------- Check Closed ---------\n3/29/2019  3:49 AM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fd3edaf-2906-4a42-b566-76f09b683d09",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nWhat's the BUZZ? Give us your feedback! FREE MEDIUM SODA with purchase of an entree (sandwich or salad). Go to http://WWW.BUNBUZZ.COM within 3 days of visit to take a short survey! Offer expires 14 days from original purchase. May not be combined with other offers or discounts.\n\nOne survey every 14 days per person. \n\nStore ID #4784\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cee31ff7-575c-4b14-9556-ca867089f739",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Validation Code:",
+          "total": "1272\n____\n"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FZy2YWgA6zYV5EgSEeZsW%2FZy2YWgA6zYV5EgSEeZsW-de582842-115c-47c6-8d6a-1bb0ac4ee5d2.png?alt=media&token=2ff4f2d7-b9bc-4830-88d5-968f872202e0",
+  "published": true,
+  "id": "Zy2YWgA6zYV5EgSEeZsW"
+}

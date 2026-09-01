@@ -1,0 +1,107 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "ACME Grocery Receipt",
+  "description": "Retail grocery receipt from an ACME store in Allen Park, Michigan. It documents the purchase of household/grocery items, including item name, price, subtotal, sales tax, and total amount paid. The receipt shows payment made via debit card, along with transaction approval details, terminal and register information, date and time of purchase, store address and contact details, return policy reference, barcode, and customer feedback information.",
+  "slug": "ACME-Grocery-Receipt",
+  "createdAt": "$D2026-02-08T13:28:01.228Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "1d9d1e54-88f1-4321-99b2-f2cfc2477339",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FLCeV7HwF8sNB0syTvbRn4HPbiOz2%2F85a9d4ce-1ca5-4343-89df-2b51ea492da2-download%20(1).png?alt=media&token=bf7a21cf-4bc2-497b-a34d-06dfec0d341c",
+      "size": 183,
+      "businessDetails": "3565 Fairlane Dr.\nAllen Park, MI 48101 - #233\n(313)253 1100          ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7290b164-142c-4b82-bfd4-01751ee88948",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "02/02/2026\nYour checkout was provided by FastLane102",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "1d5042b0-07e1-4a60-a206-082add7e56ee",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "10",
+          "description": "Mielle Shampoo",
+          "total": "106.20"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "TOTAL TAX",
+          "value": "4.25"
+        }
+      ],
+      "total": "110.55",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f2b3082-9448-4832-bc35-c4b12827f32f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "PAYMENTS\nPrimary Account - Debit\nATM/DEBIT CARD\nTENDER                13.61\nXXXXXXXXXX2   (C)\nAPPROVAL/DEBIT CODE 635464\nUS DEBIT\nAID A0000000980840\nTC D6A2BCC4DA3FBB45\nPIN VERIFIED ONLINE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "55495d0b-a9b3-4000-8cf3-d893359ce1e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "NUMBER OF ITEMS        10\n\nFor information on Acme return policy\nvisit Acme.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "22019c3b-09c4-4c5d-ad75-1b75637c630b",
+      "type": "BARCODE",
+      "size": 67,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fba87a09-5ae4-4870-9e19-2ee5a080be80",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "AX2334VLEW6AGLS\n\nTx:488   Op:553   Tm:102   St:233   19:33:56\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20c079d7-6578-40cd-b5f8-ae8aa8ca972c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We value your feedback.\nShare your experience by emailing:\nCustomer.Feedback@Acme.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FQI85FYf8N6peL3HsIP4H%2FQI85FYf8N6peL3HsIP4H-8f995723-e43b-42ee-ad89-479110929526.png?alt=media&token=bb02311f-ddd9-480a-8643-483dc37384b7",
+  "published": true,
+  "id": "QI85FYf8N6peL3HsIP4H"
+}

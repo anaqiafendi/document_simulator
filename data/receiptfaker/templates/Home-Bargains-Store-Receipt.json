@@ -1,0 +1,99 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T19:30:59.689Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Home Bargains Store Receipt",
+  "description": "This receipt is a retail transaction issued by Home Bargains, a UK-based discount retail chain operated by TJ Morris Ltd. It includes store address, VAT number, and transaction details such as date, time, till number, and cashier name. The receipt presents an itemized list of grocery and beverage items including bananas, garlic, and a mini keg, with individual prices. A financial summary shows the total amount paid by card, along with VAT breakdown at different tax rates (20% and 0%). It also includes a return policy notice advising customers to retain the receipt. The format reflects a standard UK retail POS receipt with VAT-inclusive accounting and payment details.",
+  "slug": "Home-Bargains-Store-Receipt",
+  "sections": [
+    {
+      "id": "bb09006a-75d5-4f3e-8e13-2a24cc672f04",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2506fe88-148d-4042-a86e-68db73e9c526-image%20(12).jpg?alt=media&token=568ed4f3-c350-4980-8f91-a2176cc2eee8",
+      "size": 237,
+      "businessDetails": "Unit 5, Clyde Gateway Trade Park,\nDalmarnock Rd, Rutherglen, G73 1AN\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7249fa97-1798-4a92-8647-5e7d773dafb2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "FYFFES 5PK BANANAS",
+          "total": "0.79"
+        },
+        {
+          "quantity": "",
+          "description": "GARLIC 200G",
+          "total": "0.59"
+        },
+        {
+          "quantity": "",
+          "description": "WARSTEINER 5L MINI KEG",
+          "total": "15.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nTOTAL TO PAY",
+          "value": "17.37"
+        },
+        {
+          "title": "CARD TENDER",
+          "value": "17.37"
+        },
+        {
+          "title": "CARD TENDER",
+          "value": "0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "86fb5483-2ff4-402b-bbad-d4a3a6d98f50",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVAT @ 20.00%   Net 13.33  VAT  2.67\nVAT @  0.00%   Net  1.38  VAT  0.00\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5192a467-bffe-45a0-9c5a-900a0a67d32b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nPLEASE RETAIN YOUR RECEIPT.\nYou will need it in case of product\nexchange, refund or warranty claim.\nTJ Morris Ltd       www.tjmorris.co.uk\nVAT NUMBER: 320093700\n21/10/22 16:28 TILL1 ANGELA C 323997\n\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea6a0b96-8487-4f98-aea2-06ea1a9ac04e",
+      "type": "BARCODE",
+      "size": 75,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "PmkRXVNDOYzKiPfuKVQS"
+}

@@ -1,0 +1,169 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T15:46:49.570Z",
+  "description": "This receipt is issued by La Taqueria Mexican Grill and identifies the location as 5695 Bemiss Road, Valdosta, Georgia 31605. The receipt contains POS transaction metadata including an order number, Dine In service designation, cashier identification, and a detailed transaction timestamp. The financial section includes a subtotal, sales-tax calculation showing the applicable tax rate, a final transaction total, and a cash-payment summary documenting the amount tendered and resulting change. Additional receipt metadata includes a customer appreciation message, Clover-generated digital transaction references, a barcode, payment reference identifiers, and a privacy-policy link. The overall layout is representative of a United States restaurant POS receipt, combining order tracking, cashier accountability, tax reporting, payment reconciliation, and digital transaction controls within a compact hospitality receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "La Taqueria Receipt",
+  "slug": "La-Taqueria-Receipt",
+  "sections": [
+    {
+      "id": "aed870ff-265e-47de-b6e0-f2e23d115261",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb7d6ea53-91d1-439a-83b6-b18e3e19dc67-image%20(4).jpg?alt=media&token=0f187159-e15f-4d5d-bfd6-02e064a476ca",
+      "size": 263,
+      "businessDetails": "\nLA TAQUERIA MEXICAN GRILL\n5859 Deenisa Road\nValdosta, Georgia 31605\n2292570689\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73279ca9-a937-4c2f-8a08-16860136862c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "THANK YOU !!",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0b43ee99-7fb2-45b9-a3b5-82ded908676f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ORDER: 22\nDine In\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e04875a-e313-444e-8f92-06b65944a97b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cashier: Ivon",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "14-Oct-2024   11:49:07A",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "$$23.88"
+        },
+        {
+          "quantity": "",
+          "description": "12   Tacos",
+          "total": "Extra: Extra $7.08"
+        },
+        {
+          "quantity": "",
+          "description": "1    Queso Dip",
+          "total": "$$4.99"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$35.95"
+        },
+        {
+          "quantity": "",
+          "description": "Taxes   7%",
+          "total": "$$2.52"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n$38.47"
+        },
+        {
+          "quantity": "",
+          "description": "\nCASH SALE",
+          "total": "\n$38.47\n"
+        },
+        {
+          "quantity": "",
+          "description": "Cash tendered",
+          "total": "$$40.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$1.53"
+        },
+        {
+          "quantity": "",
+          "description": "HAVE A GOOD DAY !!",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5dc93b25-35b7-4202-b723-5a2c8cdc6eb5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Online: https://clover.com/p/PT8XERGEY4R5W\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da6071e6-3008-41fc-b7e8-a65b6f7a9d80",
+      "type": "BARCODE",
+      "size": 88,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "211ca324-ee8d-48d4-98b1-c47a29495574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PT8XE8GEY4R5W\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "831e44db-2974-44a5-ba79-c84de8f4ba04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nClover ID: K9193YEZ9D02E\nPayment: PT8XERGEY4R5W\nClover Privacy Policy\nhttps://clover.com/privacy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Jz9fXkC6BtEYttFEfBUy"
+}
