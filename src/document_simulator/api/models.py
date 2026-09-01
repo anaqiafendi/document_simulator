@@ -210,16 +210,24 @@ class ReceiptRenderRequest(BaseModel):
 class StageOutput(BaseModel):
     """One pipeline stage's output, returned by the /render endpoint.
 
-    The ``stage`` literal widens with each pipeline phase. v0.3d adds
-    ``3d_render`` (Eevee output of the textured 3D receipt scene) and
-    ``visibility`` (placeholder for a future stage that renders only the
-    visibility mask — populated as a coord-trail field on TokenGroundTruth
-    in v0.3c, but reserved here as a literal so the response schema is
-    stable across the v0.3 series).
+    The ``stage`` literal widens with each pipeline phase, and is listed in
+    execution order.
+
+      * ``layout`` (v0.4) reports the sampled ``LayoutSpec`` and its
+        ``spec_id``, which the content and raster stages were driven by.
+      * ``3d_render`` (v0.3d) is the Eevee output of the textured 3D scene.
+      * ``visibility`` (v0.3d) is reserved for a future stage rendering only
+        the visibility mask — populated as a coord-trail field on
+        TokenGroundTruth in v0.3c, but kept here so the response schema is
+        stable across the v0.3 series.
+
+    v1.0 will widen it further with ``"camera_fx"`` and ``"final_crop"``.
     """
 
-    stage: Literal["content", "raster", "augraphy", "3d_render", "visibility"]
-    image_b64: str | None  # null for "content" stage (no image yet)
+    stage: Literal[
+        "layout", "content", "raster", "augraphy", "3d_render", "visibility"
+    ]
+    image_b64: str | None  # null for "layout"/"content" stages (no image yet)
     parameters: dict[str, Any]
     elapsed_ms: int
 
@@ -272,3 +280,91 @@ class HDRIListResponse(BaseModel):
     """Response model for GET /api/receipt-synthesis/hdri-thumbnails."""
 
     hdris: list[HDRIInfo]
+
+# ── Receipt Synthesis: batch runner (v0.4) ────────────────────────────────────
+
+
+class ReceiptBatchRequest(BaseModel):
+    """Request model for POST /api/receipt-synthesis/batch.
+
+    ``dataset`` names a directory under the server's configured output root
+    rather than an absolute path: the endpoint must not let a caller choose
+    where on the filesystem the server writes. Re-posting the same
+    ``(dataset, n, seed)`` resumes that batch instead of starting a new one.
+    """
+
+    n: int = Field(gt=0, le=100_000, description="Number of samples to generate")
+    seed: int = Field(default=0, description="Batch seed; (n, seed) determines the whole plan")
+    dataset: str = Field(
+        default="default",
+        min_length=1,
+        max_length=64,
+        pattern=r"^[A-Za-z0-9][A-Za-z0-9._-]*$",
+        description="Dataset directory name under the server output root",
+    )
+    workers: int | None = Field(
+        default=None, ge=1, le=64, description="Worker processes; null picks a server default"
+    )
+    augraphy_preset: str | None = None
+    template: str | None = Field(
+        default=None, description="Pin every sample to one template id; null spreads them"
+    )
+    resume: bool = Field(default=True, description="Skip samples already in the manifest")
+
+
+class ReceiptBatchStartResponse(BaseModel):
+    """Response model for POST /api/receipt-synthesis/batch."""
+
+    job_id: str
+    n: int
+    seed: int
+    dataset: str
+    out_dir: str
+
+
+class ReceiptBatchFailure(BaseModel):
+    """One sample that failed during a batch run."""
+
+    index: int
+    sample_id: str
+    seed: int
+    spec_id: str
+    error: str
+
+
+class ReceiptBatchStatusResponse(BaseModel):
+    """Response model for GET /api/receipt-synthesis/batch/{job_id}."""
+
+    job_id: str
+    status: str  # pending | running | done | failed
+    progress: float = 0.0
+    dataset: str
+    out_dir: str
+    n_requested: int = 0
+    n_written: int = 0
+    n_skipped: int = 0
+    n_failed: int = 0
+    elapsed_s: float = 0.0
+    failures: list[ReceiptBatchFailure] = []
+    error: str | None = None
+
+
+class ReceiptBatchSample(BaseModel):
+    """One manifest entry from a batch dataset."""
+
+    image_id: str
+    image_path: str
+    gt_path: str
+    n_tokens: int
+    generated_at: str | None = None
+    pipeline_version: str | None = None
+
+
+class ReceiptBatchSampleListResponse(BaseModel):
+    """Response model for GET /api/receipt-synthesis/batch/{job_id}/samples."""
+
+    job_id: str
+    dataset: str
+    total: int
+    offset: int
+    samples: list[ReceiptBatchSample]
