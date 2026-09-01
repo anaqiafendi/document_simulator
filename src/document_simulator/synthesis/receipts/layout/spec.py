@@ -4,12 +4,28 @@ from __future__ import annotations
 
 import hashlib
 import json
-from enum import StrEnum
+from enum import Enum
 
 from pydantic import BaseModel, ConfigDict, Field, computed_field
 
 
-class BlockType(StrEnum):
+class _StrEnum(str, Enum):
+    """``enum.StrEnum`` semantics on Python 3.10.
+
+    ``StrEnum`` is 3.11+, but this project supports 3.10 (``requires-python``,
+    the trove classifiers and the mypy target all say so). A plain ``str, Enum``
+    is not equivalent: its ``__str__`` returns ``"BlockType.HEADER"``, which
+    would leak the class name into rendered HTML and into any f-string. The
+    override restores the value-returning behaviour templates rely on.
+    """
+
+    __slots__ = ()
+
+    def __str__(self) -> str:
+        return str(self.value)
+
+
+class BlockType(_StrEnum):
     """A stacked band of a receipt.
 
     These are the seven block types observed across the corpus. ReceiptFaker's
@@ -27,7 +43,7 @@ class BlockType(StrEnum):
     META = "META"
 
 
-class MoneyRole(StrEnum):
+class MoneyRole(_StrEnum):
     """A semantic money row. Order and presence vary per receipt."""
 
     ITEM = "ITEM"
