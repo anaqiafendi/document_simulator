@@ -57,16 +57,14 @@ from document_simulator.synthesis.receipts.augraphy_pretreat import SUPPORTED_PR
 
 # The template registry is imported, never redeclared: a second copy in this
 # module is what let the router and `content.py` drift apart in v0.2.
-# TODO(integration): once `content.py` exports these, import them from there
-# directly and drop the re-export in `batch.py`.
 from document_simulator.synthesis.receipts.batch import (
-    TEMPLATE_IDS,
     BatchProgress,
     BatchResult,
     read_manifest,
     run_batch,
     synthesize_one,
 )
+from document_simulator.synthesis.receipts.content import TEMPLATE_IDS
 
 router = APIRouter(prefix="/api/receipt-synthesis", tags=["receipt-synthesis"])
 

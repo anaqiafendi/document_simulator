@@ -256,6 +256,35 @@ def _walk_token_boxes(
             _walk_token_boxes(child, rects, texts, roles)
 
 
+#: Blank paper left below the last printed line, in image px. Thermal printers
+#: feed a short tail past the final line before the cutter, so trimming flush to
+#: the ink would look wrong.
+_RECEIPT_TAIL_PX = 24
+
+
+def _trim_trailing_blank(image: Image.Image, tail_px: int = _RECEIPT_TAIL_PX) -> Image.Image:
+    """Cut a rendered page down to its printed length, plus a short tail.
+
+    The composable template renders onto a deliberately over-tall page so that a
+    block-heavy layout cannot overflow onto page 2 and silently lose tokens.
+    The cost is that a short receipt is ~80% blank paper, and every downstream
+    stage -- augraphy, the 3D scene, the camera -- then spends its budget on
+    empty white. Real thermal receipts are cut to length, so we do the same.
+
+    Only the *bottom* is trimmed: token polygons are measured from the top-left
+    origin, so cropping the tail leaves every existing coordinate valid and no
+    ground truth has to be rewritten.
+    """
+    grey = image.convert("L")
+    bbox = grey.point(lambda v: 255 if v < 200 else 0).getbbox()
+    if bbox is None:  # nothing printed -- leave it alone
+        return image
+    bottom = min(image.height, bbox[3] + tail_px)
+    if bottom >= image.height:
+        return image
+    return image.crop((0, 0, image.width, bottom))
+
+
 def _rasterize_pdf_to_pil(pdf_bytes: bytes) -> Image.Image:
     """Convert WeasyPrint PDF bytes to a PIL.Image at 1 CSS-px = 1 image-px."""
     pdf_doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
@@ -376,6 +405,11 @@ def render_receipt(
     # Rasterize via PDF -> PIL. CSS px == image px because of zoom = 96/72.
     pdf_bytes = document.write_pdf()
     image = _rasterize_pdf_to_pil(pdf_bytes)
+
+    # Spec-driven pages are intentionally over-tall; cut them to length. The
+    # five fixed-size templates keep their exact geometry.
+    if receipt.sections:
+        image = _trim_trailing_blank(image)
 
     # Build TokenGroundTruth list. We iterate `rects` in insertion order
     # (dict-preserving) so the output is deterministic for fixed input HTML.

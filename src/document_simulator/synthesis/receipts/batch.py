@@ -41,7 +41,6 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import inspect
 import json
 import os
 import sys
@@ -59,6 +58,7 @@ from PIL import Image
 
 from document_simulator.synthesis.receipts import content as content_module
 from document_simulator.synthesis.receipts import render as render_module
+from document_simulator.synthesis.receipts.content import TEMPLATE_IDS
 from document_simulator.synthesis.receipts.layout.sampler import stratified_specs
 from document_simulator.synthesis.receipts.layout.spec import LayoutSpec
 from document_simulator.synthesis.receipts.persist import persist_sample
@@ -80,43 +80,9 @@ MANIFEST_NAME = "manifest.jsonl"
 # ---------------------------------------------------------------------------
 # Template registry
 #
-# TODO(integration): the content agent is exporting a single registry from
-# ``content.py``. Once it lands, delete the ``_FALLBACK_*`` block below and make
-# this an unconditional::
-#
-#     from document_simulator.synthesis.receipts.content import (
-#         TEMPLATE_IDS, template_file_for,
-#     )
-#
-# The router imports these two names from here so there is exactly one registry
-# in the process; after integration both callers should import from content.py
-# directly and this re-export can go away.
+# Re-exported from content.py, never redeclared. A second copy in this module is
+# what let the router and content.py drift apart in v0.2.
 # ---------------------------------------------------------------------------
-
-_FALLBACK_TEMPLATE_FILES: dict[str, str] = {
-    "thermal_minimal": "thermal_minimal.html.j2",
-    "restaurant_tip": "restaurant_tip.html.j2",
-    "retail_multicol": "retail_multicol.html.j2",
-    "a4_invoice": "a4_invoice.html.j2",
-    "taxi_stub": "taxi_stub.html.j2",
-}
-
-
-def _fallback_template_file_for(template_id: str) -> str:
-    """Map a template id to its Jinja2 filename (pre-integration fallback)."""
-    try:
-        return _FALLBACK_TEMPLATE_FILES[template_id]
-    except KeyError:
-        valid = ", ".join(sorted(_FALLBACK_TEMPLATE_FILES))
-        raise ValueError(f"Unknown template {template_id!r}. Valid templates: {valid}") from None
-
-
-TEMPLATE_IDS: tuple[str, ...] = tuple(
-    getattr(content_module, "TEMPLATE_IDS", tuple(_FALLBACK_TEMPLATE_FILES))
-)
-template_file_for: Callable[[str], str] = getattr(
-    content_module, "template_file_for", _fallback_template_file_for
-)
 
 
 # ---------------------------------------------------------------------------
@@ -370,20 +336,6 @@ def completed_sample_ids(out_dir: Path | str) -> set[str]:
 # ---------------------------------------------------------------------------
 
 
-def _accepts(func: Any, name: str) -> bool:
-    """True when ``func`` declares a parameter called ``name``.
-
-    TODO(integration): this shim lets Stage 6 land while ``content.make_receipt``
-    and ``render.render_receipt`` are still being converted to spec-driven
-    signatures by sibling agents. Once both accept ``spec=``, delete
-    ``_accepts`` and call them directly.
-    """
-    try:
-        return name in inspect.signature(func).parameters
-    except (TypeError, ValueError):  # builtins / C callables
-        return False
-
-
 def _elapsed_ms(start: float) -> int:
     """Milliseconds since a ``perf_counter`` timestamp."""
     return int((time.perf_counter() - start) * 1000)
@@ -442,14 +394,7 @@ def synthesize_one(
 
     # --- content ------------------------------------------------------------
     t_content = time.perf_counter()
-    # Deliberately Any: the signature is the thing `_accepts` probes, so a
-    # static check against whichever variant currently sits in content.py would
-    # flag the branch that is not taken. Remove with the shim.
-    make_receipt: Any = content_module.make_receipt
-    if _accepts(make_receipt, "spec"):
-        receipt = make_receipt(seed=seed, template=template, spec=spec)
-    else:
-        receipt = make_receipt(seed=seed, template=template)
+    receipt = content_module.make_receipt(seed=seed, template=template, spec=spec)
     stages.append(
         StageTiming(
             stage="content",
@@ -465,12 +410,16 @@ def synthesize_one(
 
     # --- raster -------------------------------------------------------------
     t_raster = time.perf_counter()
-    template_file = template_file_for(template)
-    render_receipt: Any = render_module.render_receipt
-    render_kwargs: dict[str, Any] = {"seed": seed, "template_name": template_file}
-    if _accepts(render_receipt, "spec"):
-        render_kwargs["spec"] = spec
-    image, ground_truth = render_receipt(receipt, **render_kwargs)
+    # Spec-driven layout renders through the composable template, which walks
+    # `receipt.sections`. The five hand-written templates ignore sections
+    # entirely, so rendering a spec through one silently discards the layout --
+    # and, because they carry no data-semantic attributes, produces ground
+    # truth with every semantic_role null. `template` now selects the content
+    # persona (SKU corpus, merchant style); `spec` selects the look.
+    template_file = render_module.COMPOSABLE_TEMPLATE
+    image, ground_truth = render_module.render_receipt(
+        receipt, seed=seed, template_name=template_file, spec_id=spec.spec_id
+    )
     stage_images["raster"] = image
     stages.append(
         StageTiming(
