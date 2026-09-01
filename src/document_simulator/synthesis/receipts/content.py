@@ -36,6 +36,7 @@ from typing import Any, Final, NamedTuple
 
 from faker import Faker
 
+from document_simulator.config import resolve_logo_dir
 from document_simulator.synthesis.receipts.layout.prior import Prior, load_prior
 from document_simulator.synthesis.receipts.layout.spec import (
     BlockType,
@@ -325,7 +326,17 @@ _DATE_FORMATS: Final[tuple[str, ...]] = (
 #: WeasyPrint resolves a relative ``src`` against the *template* directory, not
 #: the repo root, so a relative value would silently fail to load. Reassign this
 #: to point the factory at a different pool.
-LOGO_DIR: Path = Path(__file__).resolve().parents[4] / "data" / "receiptfaker" / "logos"
+#: Repo-local pool, kept as a fallback so an existing checkout that already has
+#: the images keeps working without configuration.
+_REPO_LOGO_DIR: Final[Path] = (
+    Path(__file__).resolve().parents[4] / "data" / "receiptfaker" / "logos"
+)
+
+#: Resolved once at import: an explicit RECEIPTFAKER_LOGO_DIR, else a populated
+#: repo-local directory, else the shared user cache. The shared cache is the
+#: point -- worktrees are disposable, and the logos are not in git, so keeping
+#: them under a checkout means re-scraping 749 images on every new branch.
+LOGO_DIR: Path = resolve_logo_dir(_REPO_LOGO_DIR)
 
 _LOGO_SUFFIXES: Final[frozenset[str]] = frozenset({".png", ".jpg", ".jpeg", ".webp", ".gif"})
 

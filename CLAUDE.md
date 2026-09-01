@@ -677,10 +677,17 @@ uv run python -m document_simulator evaluate \
 - **`uv run` in a git worktree** picks the worktree's own (empty) `.venv` over the
   activated one, so imports fail even though the primary checkout is installed.
   Use `uv run --active`, which the Makefile targets do.
-- **Brand logos are not in git.** `data/receiptfaker/logos/` (749 files, 28MB) is
-  ignored: third-party trademarks, and already-compressed images git cannot
-  delta. Regenerate with `uv run python -m document_simulator.data.receiptfaker.logos`.
-  Absent logos are handled gracefully -- `content.py` leaves `logo_path` as `None`.
+- **Brand logos are not in git** (third-party trademarks; 28MB of images git
+  cannot delta). They live in a shared cache *outside* the repo so they survive
+  worktrees being created and deleted:
+  ```
+  ~/.cache/document_simulator/receiptfaker/logos      # or $XDG_CACHE_HOME/...
+  ```
+  Populate once with `make logos`; every checkout and worktree then finds them.
+  Override with `RECEIPTFAKER_LOGO_DIR` in `.env` to point at a different pool.
+  Resolution order is: that setting, then a populated `data/receiptfaker/logos/`
+  (back-compat), then the shared cache. Absent logos are handled gracefully --
+  `content.py` leaves `logo_path` as `None`.
 
 ---
 

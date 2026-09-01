@@ -25,6 +25,7 @@ from typing import Any, NamedTuple
 import httpx
 from loguru import logger
 
+from document_simulator.config import DEFAULT_LOGO_CACHE
 from document_simulator.data.receiptfaker.scrape import USER_AGENT
 
 _DATA_URI_RE = re.compile(r"^data:(?P<mime>image/[\w.+-]+);base64,(?P<payload>.+)$", re.DOTALL)
@@ -118,14 +119,19 @@ async def _fetch_remote(
 
 
 async def download_logos(
-    data_dir: Path, concurrency: int = 6, delay: float = 0.1
+    data_dir: Path,
+    concurrency: int = 6,
+    delay: float = 0.1,
+    logos_dir: Path | None = None,
 ) -> dict[str, Any]:
     """Materialise every referenced logo into ``data_dir/logos``.
 
     Assets are stored as ``<sha256[:16]><ext>`` so identical images shared across
     templates are written once. Returns the manifest that maps templates to files.
     """
-    logos_dir = data_dir / "logos"
+    # Default outside the repo: worktrees are disposable and these are not in
+    # git, so writing under the checkout means re-downloading on every branch.
+    logos_dir = logos_dir or DEFAULT_LOGO_CACHE
     logos_dir.mkdir(parents=True, exist_ok=True)
 
     refs = collect_logo_refs(data_dir)
@@ -192,9 +198,15 @@ def main() -> None:
     parser.add_argument("--data", type=Path, default=Path("data/receiptfaker"))
     parser.add_argument("--concurrency", type=int, default=6)
     parser.add_argument("--delay", type=float, default=0.1)
+    parser.add_argument(
+        "--logos-dir",
+        type=Path,
+        default=None,
+        help=f"Where to store images. Defaults to the shared cache: {DEFAULT_LOGO_CACHE}",
+    )
     args = parser.parse_args()
 
-    asyncio.run(download_logos(args.data, args.concurrency, args.delay))
+    asyncio.run(download_logos(args.data, args.concurrency, args.delay, args.logos_dir))
 
 
 if __name__ == "__main__":

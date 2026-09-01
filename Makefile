@@ -1,4 +1,4 @@
-.PHONY: build-frontend dev-api dev-ui test test-receipts prior
+.PHONY: build-frontend dev-api dev-ui test test-receipts prior logos
 
 build-frontend:
 	cd webapp && npm ci && npm run build
@@ -27,3 +27,8 @@ test-receipts:
 # Rebuild the layout prior from the scraped ReceiptFaker corpus.
 prior:
 	$(UV) python -m document_simulator.data.receiptfaker.export_prior
+
+# Populate the shared logo cache (~750 images, ~30s). Stored outside the repo so
+# it survives worktrees; safe to re-run, existing files are skipped.
+logos:
+	$(UV) python -m document_simulator.data.receiptfaker.logos
