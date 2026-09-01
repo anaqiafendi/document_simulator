@@ -677,8 +677,10 @@ uv run python -m document_simulator evaluate \
 - **`uv run` in a git worktree** picks the worktree's own (empty) `.venv` over the
   activated one, so imports fail even though the primary checkout is installed.
   Use `uv run --active`, which the Makefile targets do.
-- **Git LFS required** for `data/receiptfaker/logos/**` (749 brand logos, 28MB).
-  Run `git lfs install` after cloning, or the files arrive as 129-byte pointer stubs.
+- **Brand logos are not in git.** `data/receiptfaker/logos/` (749 files, 28MB) is
+  ignored: third-party trademarks, and already-compressed images git cannot
+  delta. Regenerate with `uv run python -m document_simulator.data.receiptfaker.logos`.
+  Absent logos are handled gracefully -- `content.py` leaves `logo_path` as `None`.
 
 ---
 
