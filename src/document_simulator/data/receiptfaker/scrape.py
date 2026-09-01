@@ -33,6 +33,8 @@ USER_AGENT = (
 
 _FLIGHT_RE = re.compile(r'self\.__next_f\.push\(\[1,\s*("(?:[^"\\]|\\.)*")\s*\]\)')
 _ANCHOR_RE = re.compile(r'"published"\s*:\s*true')
+_ROW_HEADER_RE = re.compile(r"([0-9a-f]+):")
+_REF_RE = re.compile(r"^\$([0-9a-f]+)$")
 
 
 # --------------------------------------------------------------------------- #
@@ -47,6 +49,78 @@ def reassemble_flight(html: str) -> str:
         except json.JSONDecodeError:
             continue
     return "".join(parts)
+
+
+def parse_flight_rows(flight: str) -> dict[str, str]:
+    """Index the flight stream's numbered rows by id.
+
+    Rows are ``<hex-id>:<payload>``. A payload starting with ``T`` is a *text*
+    row of the form ``T<hex-byte-length>,<text>`` and is delimited by that
+    length, not by a newline -- base64 logo data URIs are stored this way and
+    would otherwise run on into the rest of the stream. Every other payload
+    runs to the end of the line.
+    """
+    rows: dict[str, str] = {}
+    position = 0
+    length = len(flight)
+
+    while position < length:
+        header = _ROW_HEADER_RE.match(flight, position)
+        if header is None:
+            newline = flight.find("\n", position)
+            if newline == -1:
+                break
+            position = newline + 1
+            continue
+
+        row_id = header.group(1)
+        cursor = header.end()
+
+        if flight.startswith("T", cursor):
+            comma = flight.find(",", cursor)
+            if comma != -1:
+                try:
+                    byte_length = int(flight[cursor + 1 : comma], 16)
+                except ValueError:
+                    byte_length = -1
+                if byte_length >= 0:
+                    start = comma + 1
+                    # The declared length counts UTF-8 bytes, not characters.
+                    text = flight[start:].encode("utf-8")[:byte_length].decode(
+                        "utf-8", errors="ignore"
+                    )
+                    rows[row_id] = text
+                    position = start + len(text)
+                    if flight.startswith("\n", position):
+                        position += 1
+                    continue
+
+        newline = flight.find("\n", cursor)
+        if newline == -1:
+            rows[row_id] = flight[cursor:]
+            break
+        rows[row_id] = flight[cursor:newline]
+        position = newline + 1
+
+    return rows
+
+
+def resolve_refs(value: Any, rows: dict[str, str]) -> Any:
+    """Replace ``"$<hex>"`` back-references with their row payload.
+
+    Row ids are assigned per render, so this must run against the same response
+    the template was extracted from -- a reference cannot be resolved later.
+    """
+    if isinstance(value, str):
+        match = _REF_RE.match(value)
+        if match and match.group(1) in rows:
+            return rows[match.group(1)]
+        return value
+    if isinstance(value, list):
+        return [resolve_refs(item, rows) for item in value]
+    if isinstance(value, dict):
+        return {key: resolve_refs(item, rows) for key, item in value.items()}
+    return value
 
 
 def _balanced_end(text: str, start: int) -> int:
@@ -94,7 +168,8 @@ def extract_template_json(html: str) -> dict[str, Any] | None:
         except json.JSONDecodeError:
             continue
         if isinstance(candidate, dict) and "published" in candidate and "sections" in candidate:
-            return candidate
+            resolved: dict[str, Any] = resolve_refs(candidate, parse_flight_rows(flight))
+            return resolved
     return None
 
 

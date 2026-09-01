@@ -21,7 +21,10 @@ each dimension is exactly the site's own value space, discovered empirically.
 # 1. Scrape the catalogue (~979 templates, resumable, ~60s at concurrency 6)
 python -m document_simulator.data.receiptfaker.scrape --out data/receiptfaker
 
-# 2. Label every template and report the taxonomy
+# 2. Download the logo assets the templates reference (~750 files, 28MB)
+python -m document_simulator.data.receiptfaker.logos --data data/receiptfaker
+
+# 3. Label every template and report the taxonomy
 python -m document_simulator.data.receiptfaker.analyze --data data/receiptfaker
 ```
 
@@ -33,6 +36,8 @@ Outputs, all under `--data` (git-ignored, per the repo's `data/*` rule):
 | `labels.csv` | One row per template, one column per dimension |
 | `taxonomy.json` | `dimension -> {value: count}` — the discrete category set |
 | `clusters.json` | Template slugs grouped by identical full label tuple |
+| `logos/<sha256>.jpg\|png` | Logo images, deduplicated by content hash |
+| `logos_manifest.json` | `slug -> [{section_index, file}]`, plus failed sources |
 
 ## Dimensions
 
@@ -74,6 +79,18 @@ Templates are a flat ordered list of typed blocks:
 | `DATE` | Timestamp block |
 | `BARCODE` | Barcode of a given length/size |
 | `RESTAURANT` | Two-column metadata (`leftFields`/`rightFields`) |
+
+## Logos
+
+Templates reference their logo either as a remote Firebase Storage URL (792 refs)
+or as an inline `data:image/...;base64,` URI hoisted into its own flight row
+(7 refs). `logos.py` materialises both and deduplicates by content hash.
+
+Inline logos are why `parse_flight_rows()` honours the `T<hex-length>,` prefix on
+text rows: those rows are **length-delimited, not newline-delimited**, so parsing
+to end-of-line lets a base64 payload run on into the rest of the stream. Row ids
+are also assigned per render, so references must be resolved against the same
+response the template was extracted from -- never post-hoc.
 
 ## Notes
 

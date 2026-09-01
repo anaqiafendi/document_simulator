@@ -5,6 +5,7 @@ taxonomy over the visual/structural dimensions of each receipt template so
 templates can be grouped by layout similarity for synthetic document generation.
 """
 
+from document_simulator.data.receiptfaker.logos import collect_logo_refs, download_logos
 from document_simulator.data.receiptfaker.schema import (
     LineItem,
     ReceiptSection,
@@ -18,6 +19,8 @@ from document_simulator.data.receiptfaker.taxonomy import (
 )
 
 __all__ = [
+    "collect_logo_refs",
+    "download_logos",
     "LineItem",
     "ReceiptSection",
     "ReceiptTemplate",
