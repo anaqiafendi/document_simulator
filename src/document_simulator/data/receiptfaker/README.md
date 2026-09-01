@@ -26,6 +26,9 @@ python -m document_simulator.data.receiptfaker.logos --data data/receiptfaker
 
 # 3. Label every template and report the taxonomy
 python -m document_simulator.data.receiptfaker.analyze --data data/receiptfaker
+
+# 4. Render the per-dimension report (Markdown + JSON)
+python -m document_simulator.data.receiptfaker.report --data data/receiptfaker
 ```
 
 Outputs, all under `--data` (git-ignored, per the repo's `data/*` rule):
@@ -38,6 +41,10 @@ Outputs, all under `--data` (git-ignored, per the repo's `data/*` rule):
 | `clusters.json` | Template slugs grouped by identical full label tuple |
 | `logos/<sha256>.jpg\|png` | Logo images, deduplicated by content hash |
 | `logos_manifest.json` | `slug -> [{section_index, file}]`, plus failed sources |
+| `taxonomy_report.json` | Per-dimension groups, distribution and one example each |
+
+`report.py` also writes `docs/receiptfaker_taxonomy_report.md` — a human-readable
+per-dimension breakdown with descriptions, distributions and example templates.
 
 ## Dimensions
 
