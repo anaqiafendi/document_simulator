@@ -167,9 +167,12 @@ def test_render_endpoint_invalid_template_returns_400(client) -> None:
 
 
 def test_render_endpoint_render_3d_false_unchanged_behavior(client) -> None:
-    """AC-render-3d: when ``render_3d`` is omitted (or False) the v0.2 stage
-    list is preserved verbatim — no ``3d_render`` stage appended, no behavior
-    change for existing callers.
+    """AC-render-3d: omitting ``render_3d`` (or passing False) appends no
+    ``3d_render`` stage, and explicit False matches omitted exactly.
+
+    The expected list gained ``layout`` in v0.4, when spec sampling became a
+    first-class stage. That is a deliberate widening, not the regression this
+    test guards: the guarantee is that the *3D* path stays off.
     """
     body = {"template": "thermal_minimal", "seed": 42, "augraphy_preset": "light"}
     r = client.post("/api/receipt-synthesis/render", json=body)
@@ -181,10 +184,11 @@ def test_render_endpoint_render_3d_false_unchanged_behavior(client) -> None:
         "3d_render" not in stage_names
     ), f"render_3d omitted should not produce a 3d_render stage; got {stage_names}"
     assert stage_names == [
+        "layout",
         "content",
         "raster",
         "augraphy",
-    ], f"v0.2 stage order must be unchanged; got {stage_names}"
+    ], f"non-3D stage order must be unchanged; got {stage_names}"
 
     # Explicit render_3d=False must behave identically.
     body_explicit = {**body, "render_3d": False}
