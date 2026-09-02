@@ -1,0 +1,193 @@
+{
+  "currency": "",
+  "slug": "Mercadona-Spain-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-07T15:45:26.376Z",
+  "description": "This supermarket receipt from Mercadona documents a bank card transaction processed at a Mercadona location in Spain. The receipt includes company branding, full store address information, telephone number, Spanish tax identification number (CIF), terminal identifiers, receipt numbering metadata, register references, center/store identifiers, and timestamp information. The POS structure contains itemized product entries, quantity formatting, subtotal presentation, bank card payment confirmation (“TARJETA BANCARIA”), and VAT calculations across multiple Spanish tax rates (4%, 10%, and 21%) aligned in standard Spanish supermarket thermal receipt formatting. Additional receipt elements include barcode formatting, transaction reference numbers, tax summaries showing taxable bases and tax amounts, and masked payment card information near the footer. The layout reflects a standard Spanish grocery retail thermal receipt with localized VAT accounting and electronic payment processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Mercadona Spain Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f7cad610-4b88-4179-939b-7b85b286fbb4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbbc407cb-3224-4ecb-abfe-dca73f5a46cd-image%20(3).jpg?alt=media&token=ace46301-b711-403f-9771-69147a72ffc0",
+      "size": 224,
+      "businessDetails": "\nAVDA. DE LOS EUCALIPTUS, S/N\nPETRER\nTeléfono: 965377981\nCIF: A-46103834\n31/10/2017   19:55   OP: 147545\nTICKET: 001806 CAJA:016 CENTRO: 2463\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a6d769a-903e-4228-a00c-c8332967a9f5",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "992d3b66-312f-4ca9-8fca-2c6d9129d820",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": " Precio  Importe "
+        },
+        {
+          "quantity": "Descripción",
+          "description": "        unidad",
+          "total": " (€)"
+        },
+        {
+          "quantity": "\n2 SOJA NATURAL",
+          "description": "      1,19",
+          "total": "\n2,38"
+        },
+        {
+          "quantity": "1 PESCADO",
+          "description": "",
+          "total": "5,00"
+        },
+        {
+          "quantity": "1 GRISSINI",
+          "description": "",
+          "total": "1,65"
+        },
+        {
+          "quantity": "",
+          "description": "1 RIOJA CRIANZAT",
+          "total": "5,80"
+        },
+        {
+          "quantity": "",
+          "description": "1 SALSA TRUFA",
+          "total": "1,50"
+        },
+        {
+          "quantity": "",
+          "description": "1 LACON HORND",
+          "total": "1,99"
+        },
+        {
+          "quantity": "",
+          "description": "1 MEDIALUNA SETA",
+          "total": "1,98"
+        },
+        {
+          "quantity": "",
+          "description": "1 CC ZERO ZERO 2",
+          "total": "1,43"
+        },
+        {
+          "quantity": "",
+          "description": "1 RIOJA BLANCO",
+          "total": "3,50"
+        },
+        {
+          "quantity": "",
+          "description": "1 CARPACCIO",
+          "total": "2,99"
+        },
+        {
+          "quantity": "",
+          "description": "1 QUESO",
+          "total": "1,95"
+        },
+        {
+          "quantity": "",
+          "description": "1 DUO CANON.RUCU",
+          "total": "1,35"
+        },
+        {
+          "quantity": "2 BOLSA GRANDE",
+          "description": "        0,10",
+          "total": "0,20"
+        },
+        {
+          "quantity": "",
+          "description": "1 BOLLERIA GRAN",
+          "total": "1,16"
+        },
+        {
+          "quantity": "",
+          "description": "0,154 kg     7,50",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "\n\n32,68"
+        },
+        {
+          "quantity": "",
+          "description": "TARJETA BANCARIA",
+          "total": "32,68"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nDETALLE (€)",
+          "total": ""
+        },
+        {
+          "quantity": "IVA",
+          "description": "  BASE IMPONIBLE",
+          "total": "CUOTA"
+        },
+        {
+          "quantity": "4%",
+          "description": "      3,17",
+          "total": "0,13"
+        },
+        {
+          "quantity": "10%",
+          "description": "     18,25",
+          "total": "1,83"
+        },
+        {
+          "quantity": "21%",
+          "description": "     7,69",
+          "total": "1,61"
+        },
+        {
+          "quantity": "TOTAL",
+          "description": "   29,11",
+          "total": "3,57"
+        },
+        {
+          "quantity": "",
+          "description": "TAR.: ***********8037",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c370ce16-a77d-4d50-8687-98c0c95f97d7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n¡Gracias por su compra en Mercadona! Esperamos verle de nuevo\n*** Siempre Precios Bajos! ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Lsu9NXUvYpbqpuO4bvmW"
+}

@@ -1,0 +1,126 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "description": "This receipt is issued by Zaxby's and identifies the restaurant at 6044 Glen Afton Boulevard, Kannapolis, North Carolina 28027. The header contains the restaurant branding, street address, telephone number, staff reference, check number, and transaction date and time. The receipt documents a drive-thru order consisting of a 5-Wing Meal with Wimpy sauce, fries, and a 32 oz Sprite with light ice. The financial section records a subtotal of $8.19, tax of $0.57, and a final payment of $8.76, settled using Visa. The footer contains the check-closing information, a customer appreciation message, and a guest satisfaction survey promotion offering chances to win daily and instant prizes.",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T15:53:04.624Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "7ec2100f-e2b9-4c8a-9348-4857e6280453",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7669601b-3ddd-4c2c-bc4b-727ae20751a8-image%20(2).jpg?alt=media&token=b3a06117-e8d2-47a4-b528-a7c0118b9b4b",
+      "size": 220,
+      "businessDetails": "6044 Glen Afton Blvd\nKannapolis NC 28027\n704-721-0569",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "95be68ef-d8d7-40eb-965c-f0099ccd49af",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n129 Brittany",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d9305997-bf56-4106-8415-06a77247158b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nCHK 4456",
+          "value": "\nJan23'19 03:28PM"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3bff4e4-4a0e-481a-af3d-d7e00e49ebb0",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nDrive Thru",
+          "value": ""
+        },
+        {
+          "title": "1 (5) Wing Meal",
+          "value": "7.99"
+        },
+        {
+          "title": "(5) Wing w/Meal",
+          "value": ""
+        },
+        {
+          "title": " #Wimpy*",
+          "value": ""
+        },
+        {
+          "title": "Fries",
+          "value": ""
+        },
+        {
+          "title": "32 Oz Drink",
+          "value": ""
+        },
+        {
+          "title": "Sprite",
+          "value": ""
+        },
+        {
+          "title": "Light Ice",
+          "value": ""
+        },
+        {
+          "title": "0333816MK1601365375",
+          "value": ""
+        },
+        {
+          "title": "Visa",
+          "value": "8.76"
+        },
+        {
+          "title": "\nSubtotal",
+          "value": "\n8.19"
+        },
+        {
+          "title": "Tax",
+          "value": "0.57"
+        },
+        {
+          "title": "Payment",
+          "value": "8.76"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da81f067-d2ed-4e5c-89b5-3868fd309d37",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n----------125 Check Closed----------\n----------Jan23'19 03:33PM----------\n\nThank you! Please come again!\n\nYour check # is\n        56\n\nYou could WIN!\nReceive 10 CHANCES to\n        WIN\n    $1,000 DAILY\nPlus other great\nINSTANT PRIZES*\nby completing our\nGuest Satisfaction Survey at\nwww.myzaxbysvisit.com\n\n*****SURVEY ENTRY CODE*****\n      1nwfepfj5ayfev1\n\nComplete rules, eligibility\nand sweepstakes period at\nwww.myzaxbysvisit.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Zaxby's US Receipt",
+  "slug": "Zaxby's-US-Receipt",
+  "published": true,
+  "id": "ZEXXqRN5QSGuwrevtupm"
+}

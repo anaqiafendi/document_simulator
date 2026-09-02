@@ -1,0 +1,111 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Hot Topic Receipt",
+  "description": "This receipt represents a retail transaction from Hot Topic, printed in a typical mall-store POS receipt format. The header displays the HOT TOPIC® branding, followed by store identifier “HOT TOPIC #27” and the store location listed as Great Northern Mall, 1400 116th Ave. The receipt includes store policy notices stating that no refunds or exchanges are permitted and clearance items are final sale. The body of the receipt contains multiple item entries along with internal SKU-style product identifiers. The lower section provides a financial summary including Subtotal, Sales Tax percentage, and Total, followed by payment information showing Cash tendered and Change returned. The receipt concludes with a transaction reference identifier labeled “Hot Topic Guest List #”, which functions as a POS record or internal transaction reference for the purchase.",
+  "slug": "Hot-Topic-Receipt",
+  "createdAt": "$D2026-03-06T14:01:57.752Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6b3d2f45-90f3-4d0e-8aa5-3f20efbe957a-image%20(25).jpg?alt=media&token=401efa4a-65f3-4b1a-bae3-dcb86a6fe646",
+      "size": 236,
+      "businessDetails": "HOT TOPIC #27\nGREAT NORTHERN MALL\n1400 116TH AVE\n\nNO REFUNDS OR EXCHANGES\nCLEARANCE IS A FINAL SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd5cb84c-f3f1-444e-ad81-6a6e9b9e9de8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "WOMENS FLOCO KUROMA GIN POP      24.50 XT\n1640198",
+          "total": "10.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "10.00"
+        },
+        {
+          "title": "Tax",
+          "value": "0.00"
+        }
+      ],
+      "total": "10.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f39c59bc-22b6-4292-afa9-05faa6fbbf1c",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fea83957-d2b6-43b1-8ce3-e9f0cc897346",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHot Topic Guest List #: 21000048654\n\nReturns available within 45 days with receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F00HFQ7J5tVY1ZbkJxKde%2F00HFQ7J5tVY1ZbkJxKde-77d582d2-92d2-452d-b7f2-10861a630154.png?alt=media&token=77de0e3c-514a-460e-942c-b8610eb29d72",
+  "published": true,
+  "id": "00HFQ7J5tVY1ZbkJxKde"
+}

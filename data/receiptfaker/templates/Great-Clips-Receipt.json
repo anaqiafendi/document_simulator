@@ -1,0 +1,169 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Great Clips Receipt",
+  "description": "This receipt is a service transaction issued by Great Clips at its Shorewood Crossing location in Shorewood, Illinois, United States. It includes store identification, contact information, invoice number, and timestamped service details. The receipt presents a haircut service with a discount applied using a Great Clips card, followed by a financial summary including subtotal and total amount. Payment details indicate a MasterCard debit transaction processed via chip insert, along with an added tip for the stylist. The format reflects a standard U.S. salon POS receipt with service charges, discounts, and tip inclusion.",
+  "slug": "Great-Clips-Receipt",
+  "createdAt": "$D2026-04-30T12:49:22.746Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "a8649c70-376f-4fad-9d2c-c17a08550d62",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcd599d6a-7ed6-4f6d-bb1b-dfb08837a1f6-image%20(1).jpg?alt=media&token=79807d4a-7e8a-45a6-ad1c-530e28d1d0c7",
+      "size": 208,
+      "businessDetails": "\nShorewood Crossing\n(815) 436-8525\nShorewood, IL 60404\n06:25pm  05-04-2022  Keri\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "08bed0a9-e37e-4071-a5a7-12ad642127a1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Todd Vinton",
+          "total": "Invoice#638106"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Salon#2077"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n Haircut",
+          "total": "\n\n18.00"
+        },
+        {
+          "quantity": "",
+          "description": "$$13.99 Great Card US",
+          "total": "-4.01"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSUBTOTAL",
+          "value": "\n13.99"
+        },
+        {
+          "title": "INVOICE TOTAL",
+          "value": "13.99"
+        },
+        {
+          "title": "AMT TENDERED",
+          "value": "17.99"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "94a9a370-41ba-4742-bef7-70336aac6600",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "(Keri)  MasterCard",
+          "total": "13.99"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSale",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": " ACCT: ***********1203",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "INSERT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Approval: 082534",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": " EMV AID: A0000000041010",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "EMV APP NAME: Mastercard Debit",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ARQC: 44240235491CAE95",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f3a5675a-b0f0-429d-a09d-41d5e6c68e83",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Charged tip for Keri",
+          "total": "4.00"
+        },
+        {
+          "quantity": "",
+          "description": "TODD's Stylist",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Total",
+          "value": "17.99"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a761abb4-375a-4548-941f-c8fd12fdfd16",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGREAT CLIPS COMMITMENT Your complete satisfaction on all\n services and products is fully guaranteed!\n\nThank you for choosing GREAT CLIPS!\n\n** CARDHOLDER COPY **\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "",
+  "published": true,
+  "id": "eMCOlHWHTgaTxQj11YXs"
+}

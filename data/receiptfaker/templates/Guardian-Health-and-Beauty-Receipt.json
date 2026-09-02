@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Guardian Health & Beauty Receipt",
+  "description": "This receipt is issued by Guardian Health & Beauty store #286, located at 3155 Commonwealth Avenue West, Singapore, and includes a contact telephone number. It contains standard POS identifiers such as terminal number, approval code, batch number, masked card number, and reference number. The receipt clearly displays tax registration details and invoice identifiers, along with a timestamped transaction structure typical of pharmacy or health retail environments. A financial summary section includes total amount inclusive of GST, the GST amount, and payment method. It also features a signature waiver notice, refund/exchange policy conditions, regulatory control information, and promotional messaging encouraging mobile app usage and same-day delivery services.",
+  "slug": "Guardian-Health-and-Beauty-Receipt",
+  "createdAt": "$D2026-03-20T13:14:06.898Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "GUARDIAN HEALTH & BEAUTY #286\n\n3155 Commonwealth Avenue West #03-56\nSingapore 149807   Tel: 65699234\n\nGST M00502257 TAX INV: 33785 B11 30562806",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1479018  ZOVIRAX CREAM      26.00\n\nTotal (SGD) INCL. GST       26.00\n------------------------------------\nGST AMT                     1.70\n------------------------------------\nVISA                         26.00\n\nTERMINAL: 5158227  APPRO CODE: 805401\nBATCH: 000024  CARD NO: 9974\nREF NO: 015373  33785",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "39c19897-a423-40c2-8799-eaae30e9ff59",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "*** NO SIGNATURE REQUIRED ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa2058db-376f-4b7a-a5a9-bcb5a17262df",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Items are exchangeable/refundable with\nreceipt except medicines within 7 days.\n\nControl No. GST Reg No: 13-15-14 19-10-2012\n\n--SHOP ONLINE WITH NEW CAR APP NOW--\n\nYour trusted brands all in one app!\nGuardian, Giant, Cold Storage, CS Fresh\n\nAs early as same day delivery.\nDownload & receive $20 worth of coupons!\nAvailable on App Store & Google Play\nDownload Link: onelink.to/yaeu8t",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3DuRBX5x3DWpkqbbuD5q%2F3DuRBX5x3DWpkqbbuD5q-66e7d9f5-14a1-41d8-9d48-b1c7614ad7db.png?alt=media&token=8957a728-7052-4f35-9c58-3d6d0d616626",
+  "published": true,
+  "id": "3DuRBX5x3DWpkqbbuD5q"
+}

@@ -1,0 +1,152 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T13:11:13.380Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "89d1b7d4-7ba7-4edf-acae-5792a6d7fbb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Marble Slab Creamery C061\n155-11720 Steveston HWY\nRichmond, B.C V7A 1N8, CA",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7c2f1e41-48e4-46d8-8c2f-f87f63cde334",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCheck 8",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Imran L.",
+          "total": "12/31/2009"
+        },
+        {
+          "quantity": "",
+          "description": "Guests 1",
+          "total": "2:31 PM"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "557b3286-ac3e-4206-af02-b469aa64b995",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "B1G1",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cone/Cup 1 Mixin",
+          "total": "4.95"
+        },
+        {
+          "quantity": "",
+          "description": "Waffle Bowl",
+          "total": "0.75"
+        },
+        {
+          "quantity": "",
+          "description": "Dipped Rolled Cone",
+          "total": "1.45"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8ad2ef08-387a-4a76-afcc-eebfa950ae37",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "7.15"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "0.36"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "-------------------"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "7.51"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nMasterCard",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Acct",
+          "total": "-7.51"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE DUE",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3c9f4d7-34b8-4f4c-af63-affb97b42602",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFor Catering Call\n604-241-4149\nwww.marbleslab.com\n- Thank You -",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Marble Slab Creamery Receipt",
+  "description": "This receipt is issued by Marble Slab Creamery and identifies the location as 155-11720 Steveston Highway, Richmond, British Columbia V7A 1N8, Canada. The header contains store branding, location details, check number, server identification (Imran L.), guest count, and the transaction date and time. The receipt includes an itemized purchase summary followed by a financial section showing the subtotal, applicable tax, final transaction total, payment by MasterCard, and change due. The footer provides catering contact information, the company's website, and a customer appreciation message. The overall layout is representative of a Canadian dessert retail POS receipt, combining transaction tracking, tax reporting, card-payment reconciliation, customer-service information, and hospitality receipt controls within a compact retail receipt format.",
+  "slug": "Marble-Slab-Creamery-Receipt",
+  "published": true,
+  "id": "CRJykjg3oOWCk6j7q841"
+}

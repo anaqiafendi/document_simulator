@@ -1,0 +1,124 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Adams Catfish House Receipt",
+  "description": "This receipt is from Adams Catfish House in West Memphis, Arkansas, United States. It records a card payment transaction processed through a Visa credit card terminal for a restaurant purchase. The receipt includes transaction and batch numbers, approval and authorization codes, payment amount, cash discount information, EMV card verification details, and customer acknowledgment statements. It also contains terminal processing information powered by ValorPay. The format reflects a standard US restaurant card payment receipt.",
+  "slug": "Adams-Catfish-House-Receipt",
+  "createdAt": "$D2026-05-20T08:47:40.873Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bf5396e8-a78d-45ed-9a0c-3ef6dbaab3b8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Faa28e824-9f76-487f-b569-8125210eb5b4-image%20(16).jpg?alt=media&token=084debec-dd5b-4c6f-b02b-f2a2acc8c8b5",
+      "size": 229,
+      "businessDetails": "02/16/2024                     19:23\n   Sale\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07e090a9-5379-4172-b860-593cb716c36c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Trans: 37",
+          "total": "Batch: 525"
+        },
+        {
+          "quantity": "",
+          "description": "VISA",
+          "total": "CHIP"
+        },
+        {
+          "quantity": "",
+          "description": "............0779",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "AMOUNT",
+          "total": "$$41.71"
+        },
+        {
+          "quantity": "",
+          "description": "Cash Discount",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n\nTIP",
+          "total": "\n\n____________________"
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL ",
+          "total": "____________________"
+        },
+        {
+          "quantity": "",
+          "description": "Resp Code",
+          "total": "APPROVAL 092146"
+        },
+        {
+          "quantity": "",
+          "description": "Code",
+          "total": "092146"
+        },
+        {
+          "quantity": "",
+          "description": "Ref#",
+          "total": "40480134715"
+        },
+        {
+          "quantity": "",
+          "description": "App Name",
+          "total": "VISA CREDIT"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "A0000000031010"
+        },
+        {
+          "quantity": "",
+          "description": "TVR",
+          "total": "8080008000"
+        },
+        {
+          "quantity": "",
+          "description": "TSI",
+          "total": "6800"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc08c30e-1b19-49b0-bca4-e9fe25b0c745",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCardholder acknowledges\nreceipt of goods and\nobligations set forth\nby the cardholder's\nagreement with issuer.\nCUSTOMER COPY\nThank You\nPowered By ValorPay (v1.3.28)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "AbyxMy6EbdLEKwizNw9y"
+}

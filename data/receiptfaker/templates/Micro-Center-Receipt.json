@@ -1,0 +1,208 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Micro Center Receipt",
+  "description": "This receipt is a retail electronics transaction issued by Micro Center at its Westbury, New York location, including full address and contact information. It contains reference number, transaction date and time, customer service representative details, and sales identifiers. The receipt presents an itemized list of purchased computer hardware components and protection plans, including pricing, discounts, and serial numbers. A structured financial summary includes subtotal, tax, and total amount. Payment details indicate an American Express card transaction with authorization and chip verification data. The format reflects a standard U.S. retail POS receipt with detailed product tracking and payment authorization information.",
+  "slug": "Micro-Center-Receipt",
+  "createdAt": "$D2026-04-17T18:47:46.299Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "49a5b61b-d453-4b9e-92b4-44210c0777f7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nMicro Center\n655 Merrick Avenue\nWestbury, NY 11590\nGeneral Manager Scott Miller\nText (516) 683-6760",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a2cf3e3-1b2b-4f0c-b2fa-65a23040e63e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "510b5077-5319-4a5f-9a17-5801580795b8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nReference:  171-PO-8670268\nDate:       12/24/20   9:13 AM\nCustomer:   Micro Center\nCSR:        ANTOINETTE H.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bdf5cefa-f0ea-46cb-9835-1153bda5ee6c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n SALES RECEIPT     SALES RECEIPT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c3754b4-6a98-4ef3-bd3a-cb164f5e65bb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "186510 ASUS TUF GAMING X570-PRO ATX",
+          "total": "199.99"
+        },
+        {
+          "quantity": "",
+          "description": "Sales ID: ---",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Orig Price Each:",
+          "total": "219.99"
+        },
+        {
+          "quantity": "",
+          "description": "Your Savings:",
+          "total": "20.00"
+        },
+        {
+          "quantity": "",
+          "description": "S/N: LAMOKK00E114LG3",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n1 195081 AMD RYZEN 7 5800X WO COOL",
+          "total": "449.99"
+        },
+        {
+          "quantity": "",
+          "description": "Sales ID: H. PHILLIPS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "S/N: 9KB8050X00482",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n1 172981 MSI RTX3080 GAMING",
+          "total": "\n\n839.99"
+        },
+        {
+          "quantity": "",
+          "description": "Sales ID: H. PHILLIPS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "S/N: 602-V389-29SB2011004758",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "491d1849-099f-4dad-8866-c4dd5c0d7a28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal:",
+          "total": "1,589.96"
+        },
+        {
+          "quantity": "",
+          "description": "Tax:",
+          "total": "137.21"
+        },
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "1,727.17"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "49a11fcd-fecd-4b96-8249-eb9e056427c1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "XXXXXXXX1009  AMERICAN EXPRESS:",
+          "total": "1,727.17"
+        },
+        {
+          "quantity": "",
+          "description": "Auth Code:  884298",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "HIP",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "AMERICAN EXPRESS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "A000000025010801",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ARQC-38E1116C313D6F6F",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3242b0f9-5336-4783-9ae6-f462df2d2235",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNUMBER OF ITEMS PURCHASED: 4\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FiEGKVxOn4T8rQQFgSzvG%2FiEGKVxOn4T8rQQFgSzvG-8a9b5c06-4017-441b-82a6-743849f043e5.png?alt=media&token=dcd0531b-f599-4c87-a05f-d5ed2ff8fcff",
+  "published": true,
+  "id": "iEGKVxOn4T8rQQFgSzvG"
+}

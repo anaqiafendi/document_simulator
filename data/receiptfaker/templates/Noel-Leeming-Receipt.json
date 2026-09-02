@@ -1,0 +1,97 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Noel Leeming Receipt",
+  "description": "This receipt is issued by Noel Leeming and identifies the transaction with the Greymouth location in New Zealand, with an additional Hokitika reference printed in the sales section. The header contains the Noel Leeming branding, GST registration number, transaction date and time, customer contact information, invoice number, salesperson details, and store references. The receipt records the purchase of a Samsung SRL456LS refrigerator/freezer for $1,899.00. The financial section records a total sale of $1,899.00, with the same amount assigned to the COD account and $0.00 change. The receipt confirms that displayed prices include GST at the applicable rate. The footer contains a transaction barcode, customer appreciation message, and the beginning of the retailer's exchange or credit policy.",
+  "slug": "Noel-Leeming-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T14:20:58.733Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4559b25b-d24c-4f6b-a4ec-819c4c26d342",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdffea2c0-65cb-4a69-a96b-e1810258f2c7-image%20(10).jpg?alt=media&token=d837cd6e-4868-4498-bb11-1cb35661a1e6",
+      "size": 280,
+      "businessDetails": "TAX INVOICE GST REG. NO. 41-482-354\n02/05/24 10:06:10 Greymouth\nPhone No.: 0800 444 488   20:03:0012\nS/Person.: 20803    Invoice: 156628034\nSalesperson : MISCHELLE F\n========== Store #142 ==========\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9c9a9d8b-332d-476f-9844-b735fdf5f230",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Hokitika                        7810\nMob: 021 188 0487\n\n204686    SAM SRL456LS BM F/FREEZER\n1 # $ 1899.00    15.0%   $ 1899.00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "595026d0-2bf2-44bc-8eeb-247eb19798cb",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n",
+          "value": ":-----------"
+        },
+        {
+          "title": "Total Sale",
+          "value": ":  $ 1899.00"
+        },
+        {
+          "title": "",
+          "value": ":-----------"
+        },
+        {
+          "title": "\nCOD A/C No  157148500 ",
+          "value": "\n$ 1899.00"
+        },
+        {
+          "title": "Change Given",
+          "value": ":     $ 0.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4e28463-5f82-4d92-aee0-a19f6583466d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nPRICES INCLUDE G.S.T. AT RATE SHOWN",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f898c70e-f22e-4a74-999e-b45fe84971fe",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "796a6d98-0688-4d59-a3a9-d3c18c414401",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping at Noel Leeming.\n\nWe are happy to exchange or credit (as a gift card) any unused item within 30 days, provided you have this receipt with you.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "8AjpHlso2wAyrv2PAMUV"
+}

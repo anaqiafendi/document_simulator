@@ -1,0 +1,125 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-07T15:41:21.896Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c8144a76-a7a7-4e17-a62a-f6e7350a7833",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "THE CHEESECAKE FACTORY\nROSS PARK\n\n1000 Ross Park Mall Drive\nPittsburgh, PA 15237\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "08ca334a-7d5e-4a8a-a1d4-dec07f985d2c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "BAR\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "250f709b-12ea-403f-a6b3-93ffcad7a366",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 Grilled Steak Medallions   26.50",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Sub Total",
+          "value": "26.50"
+        },
+        {
+          "title": "Tax",
+          "value": "1.85"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7430d43-cce4-4837-a5f3-f3888c1ccb56",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "04/06  12:57   TOTAL",
+          "total": "28.35"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "273ede73-3a1b-4ddc-869a-46a7da806ee9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nGratuity Not Included\nSuggested Gratuity:\n22% TIP         6.24\n20% TIP         5.67\n18% TIP         5.10",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9d4bde61-2a77-4eb8-a977-c1487308170b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nUse your phone's camera or visit\nhttps://scanQR.io to scan\nthe code below and pay your check\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "df09500c-d1e4-48da-97b0-4beb890eff08",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8759ed32-9b78-4181-bd87-43f59bb84dab-image.jpg?alt=media&token=ae846260-b4c8-42d5-82f2-c0711ff19650",
+      "size": 137,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c532aa6d-f841-481f-89fd-2a36bcd6526d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nWe'd love to hear about your visit!\nwww.ccfsurvey.com\nEnter this code within 5 days:\n2161-60082-02041\n\n\nJoin us for Brunch, Sat/Sununtil 2PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "The Cheesecake Factory Ross Park Receipt",
+  "description": "This receipt is issued by The Cheesecake Factory and identifies the location as Ross Park. The receipt records a bar order consisting of one serving of Grilled Steak Medallions. The financial section includes the subtotal, sales tax, and final transaction total. It also states that gratuity is not included and provides suggested tip amounts calculated at 18%, 20%, and 22%. The footer includes a QR code and a payment link for paying the check electronically, together with a customer satisfaction survey invitation and a promotion for the restaurant's weekend brunch service. The overall layout is representative of a United States casual dining restaurant POS receipt, combining menu itemization, sales-tax reporting, suggested gratuities, digital payment options, and customer feedback information within a compact hospitality receipt format.",
+  "slug": "The-Cheesecake-Factory-Ross-Park-Receipt",
+  "published": true,
+  "id": "EMaN1lGL1OHNdk0AQWbK"
+}

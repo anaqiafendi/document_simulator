@@ -1,0 +1,120 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "T Mobile Receipt",
+  "slug": "T-Mobile-Receipt",
+  "createdAt": "$D2025-05-25T15:19:30.049Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fe5e85659-d82c-4321-a5fe-3926b8eff9b1-t-mobile-logo.png?alt=media&token=428e7f4f-7e38-4072-961f-eb035ce9552e",
+      "size": 112,
+      "businessDetails": "",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "62aa33cc-3cc3-4114-8269-afa4981b19ef",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "T-Mobile Store\n4567 Market Street\nSan Diego, CA 92102\n\nPhone: (619) 555-7890",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Samsung Galaxy S23 Ultra",
+          "total": "1,199.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Wireless Charger Pad",
+          "total": "49.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Screen Protector",
+          "total": "19.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Activation Fee",
+          "total": "35.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1,304.97"
+        },
+        {
+          "title": "Tax",
+          "value": "110.87"
+        }
+      ],
+      "total": "1,415.84",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Return & Warranty Policy:",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Items may be returned within 30 days of purchase in original condition and packaging. Activation fees are non-refundable. Warranty covers manufacturing defects for 1 year from the purchase date. Damage from misuse or unauthorized repairs is not covered. Please retain this receipt for any returns or warranty claims.\n\nFor assistance, contact customer service at (619) 555-7890.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "594179a9-cca9-49da-902c-d46adb79c0a9",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 6:19:16 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F7VRRQTKjjWc8TraTbIQN%2F7VRRQTKjjWc8TraTbIQN-d17f4a48-e71a-45f2-9180-4f20659e7dbe.png?alt=media&token=21df6aa3-7750-4358-964c-e2c2d7e80c67",
+  "description": "Need a T-Mobile receipt? Create a custom mobile service receipt with our free generator. Add store info, device or plan details, charges, taxes, and payment—perfect for records, returns, or expense tracking.",
+  "published": true,
+  "metatitle": "T-Mobile Receipts",
+  "metadesc": "custom T-Mobile service receipts with store details, device/plan info, charges, taxes, and payment for records or returns",
+  "id": "7VRRQTKjjWc8TraTbIQN"
+}

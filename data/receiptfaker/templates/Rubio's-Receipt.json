@@ -1,0 +1,172 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Rubio's Receipt",
+  "description": "This receipt is issued by Rubio's and identifies Store #223 in Fresno, California. The header contains the restaurant branding, store information, Fresno address, and telephone number. The receipt documents a dine-in order containing a Shrimp & Bacon item with chips, an Esp Steak item with chips, and a regular drink. The financial section records a subtotal of $20.96, sales tax of $1.72, and a final amount due of $22.68. The entire $22.68 was paid by credit, with no change given. The transaction section includes the order type, date and time, clerk, receipt number, order reference, and terminal information. The footer advertises a customer survey offering a free large fountain drink with a qualifying purchase and provides space for the resulting coupon code.",
+  "slug": "Rubio's-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T15:23:21.604Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "2db49c20-4f16-45e4-91b2-94aa25138929",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6544ae50-96de-4cb1-a4cc-efa3f19d6ecf-image.jpg?alt=media&token=6d8cecb3-7565-4348-b732-fdce9d948d85",
+      "size": 270,
+      "businessDetails": "Rubio's #223\n40 E. El Camino\nFresno, CA 93720-4300\nTel: 559-438-0260\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a2d44141-711b-4219-b6e1-372a5c3d0b9a",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "1  Shrimp & Bacon B ",
+          "value": "$$8.99"
+        },
+        {
+          "title": "Chips",
+          "value": "$$0.00"
+        },
+        {
+          "title": "------------------",
+          "value": "$$0.00"
+        },
+        {
+          "title": "1  Esp Steak B",
+          "value": "$$7.99"
+        },
+        {
+          "title": "Chips",
+          "value": "$$0.00"
+        },
+        {
+          "title": "------------------",
+          "value": "$$0.00"
+        },
+        {
+          "title": "2  Regular Drink",
+          "value": "$$3.98"
+        },
+        {
+          "title": "\nSubtotal",
+          "value": "\n$20.96"
+        },
+        {
+          "title": "8.225% Sales Tax ",
+          "value": "$$1.72"
+        },
+        {
+          "title": "Total Due",
+          "value": "$$22.68"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b26ecda9-548b-40cb-8015-fd2b9108b69d",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nCredit",
+          "value": "\n$22.68"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "671d46ad-be1d-49b5-b62d-cbcb69837395",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Payment Total",
+          "value": "$$22.68"
+        },
+        {
+          "title": "Change Given",
+          "value": "$$0.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b99daa81-47ab-4a68-ab31-4dc19d736cd0",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nOrder type: ",
+          "value": "\nDine-In"
+        },
+        {
+          "title": "Date:",
+          "value": "10/6/2016 11:15:32"
+        },
+        {
+          "title": "",
+          "value": "AM"
+        },
+        {
+          "title": "Clerk:",
+          "value": "TERRELL"
+        },
+        {
+          "title": "Receipt No:",
+          "value": "33807"
+        },
+        {
+          "title": "Order No:",
+          "value": "GN laura94"
+        },
+        {
+          "title": "Terminal:",
+          "value": "223Term1 (12270)"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "624f5771-de48-4f7f-9486-f9041f908c31",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n* Indicates tax free item(s)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ab16f5a-a429-4545-844a-4df9ab5311ef",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFREE LARGE DRINK!\n\nTake our short survey for a\nFREE Large Fountain Drink\nwith the purchase of any\nSalad, Burrito, or Two Taco\nPlate\n\nVisit us at\nwww.rubioslistens.com\nor call 1-760-421-5088\nwithin 10 days of your visit.\n\nComplete the survey and write\nyour unique coupon code here:\n\nRedeem this offer at ANY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "iZfmDERww0dXWkP6IXD6"
+}

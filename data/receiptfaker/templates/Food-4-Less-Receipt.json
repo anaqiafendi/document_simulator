@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Food 4 Less Receipt",
+  "description": "This receipt is issued by Food 4 Less and includes store identification details such as address and phone number, along with cashier identification. It contains structured POS data including EBT transaction information, reference number, masked payment account, and purchase authorization details. The receipt features a full financial summary including tax, balance due, and payment breakdown, along with indicators for savings and coupons applied. It also includes total item count, timestamp with register identifiers, and footer messaging promoting the company website and employment opportunities, reflecting a standard grocery retail POS receipt format with EBT payment processing details.",
+  "slug": "Food-4-Less-Receipt",
+  "createdAt": "$D2026-03-26T15:29:27.664Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7bc3f8c6-5a01-4a70-81aa-7574075a3ff3-image%20(16).jpg?alt=media&token=1d75cee9-6047-4b8e-8849-3599eedd35df",
+      "size": 236,
+      "businessDetails": "34251 Date Palm Drive\n(760) 770-3034\nYour cashier was Brenda P",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "S MOUNTAIN DAIRY MILK NP      3.99 F\nBKRY ROLLS                  1.09 F\nSC   Auto Markdown            1.10\nKRO BREAD                   1.00 F\nKRO BREAD                   1.00 F\nBKRY MM CK 12 CT            1.74 F\nMRS RDD CHRY PIE            0.27 F\nMRS RDD CHRY PIE            0.27 F\nSTEW PORK                   4.30 F\nMRS RDD CHO PIE             0.29 F\nMRS RDD BRY PIE             0.28 F\nMRS RDD PNAPL PIE           0.33 F\nMRS RDD PNAPL PIE           0.33 F\nMRS RDD CHO PIE             0.29 F\nMRS RDD BRY PIE             0.28 F\nPRODUCE                     0.99 F\nPRODUCE                     0.99 F\nPRODUCE                     0.99 F\nKRO PEANUT BUTTE            1.99 F\n\nTAX                         0.00\n**** BALANCE                20.42\nFS BAL DUE                  20.42",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "EBT FOOD Purchase ************5933\nREF#        063995           TOTAL: 20.42\nPURCHASE:   20.42            CASHBACK: 0.00\nEBT FS BALANCE: $267.10\n\nEBT CASH BALANCE: $\nEBT FOOD                    20.42\nFS CHG                      0.00\nCHANGE                      0.00\n\nTOTAL NUMBER OF ITEMS SOLD = 18",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc153bf4-7988-49e1-bd7b-ef5e97e83b0c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "F4L SAVINGS                 $ 1.10\nTOTAL COUPONS               $ 1.10\n\n04/06/24 07:37am 306 9 22 132\n\nCheck us out at: www.Food4less.com\n\nFresh opportunity awaits\nJoin our team today!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FTte7n5EEKhsnZxZVq4Ql%2FTte7n5EEKhsnZxZVq4Ql-8e553f9a-7c02-4b8b-9df0-d7ad010f44ab.png?alt=media&token=d82aa2ba-2d67-4f11-bf86-f7d75196e8b5",
+  "published": true,
+  "id": "Tte7n5EEKhsnZxZVq4Ql"
+}

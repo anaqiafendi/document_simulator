@@ -1,0 +1,150 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-24T13:21:52.897Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Contractor Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fa68c34cf-5fab-4cec-8b39-db6c76a8de7b-9194673_construction_contractor_builder_worker_job_icon.png?alt=media&token=6e023477-556d-4246-9099-f44161172a4f",
+      "size": 50,
+      "businessDetails": "Cornerstone Contracting, Inc.\n\n742 Maple Street\nRaleigh, NC 27603\nUnited States\n\nPhone number: (919) 555-4827\nWWW.CORNESTONECONTRACTING.COM",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Contractor Receipt\nReceipt #: 00000963\nReceipt date: 5/24/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to: Ethan Ramirez\n1592 Elmwood Drive\nDenver, CO 80220",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "20",
+          "description": "Sq. Ft. Flooring Installation",
+          "total": "300"
+        },
+        {
+          "quantity": "10",
+          "description": "Interior Painting",
+          "total": "100"
+        },
+        {
+          "quantity": "15",
+          "description": "Lightning Installation",
+          "total": "150"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "550"
+        },
+        {
+          "title": "Tax",
+          "value": "38.50"
+        }
+      ],
+      "total": "588.50",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customers are encouraged to review their receipts immediately and report any discrepancies within 7 days. Any disputes regarding receipts or payments should be reported promptly and will be addressed within 10 business days. Receipts serve as proof of payment and include details such as date, amount paid, payment method, and items or services purchased.\n\nThank you for choosing Cornerstone Contracting.",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Contractor-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F3indnrsT2P7eteev8AmO%2F3indnrsT2P7eteev8AmO-0913b688-afe5-4714-ae21-321ca8272296.png?alt=media&token=eb5cec05-2837-4f5e-ae1a-7e2b9a26eab5",
+  "description": "Need a contractor receipt? Easily generate a professional payment record with our free tool. Enter contractor details, project description, labor, materials, and payment info—great for client documentation or business tracking.",
+  "published": true,
+  "metatitle": "Contractor Receipts",
+  "metadesc": "professional contractor receipts with labor costs, materials, project details, and payment info for accurate business records",
+  "id": "3indnrsT2P7eteev8AmO"
+}

@@ -1,0 +1,110 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Portillo's Receipt",
+  "description": "This receipt is issued by Portillo's and identifies the restaurant at 170 W North Avenue, Northlake, Illinois 60164. The header contains the restaurant location, street address, telephone number, register information, order number, host name, and transaction date and time. The order consists of a Beef item priced at $8.59, with Hot Peppers added for $0.99, and the POS also indicates that the order was dipped. The financial section records a subtotal of $9.58, tax of $0.98, and a final total of $10.56. Payment was completed using a Visa card ending in 2058 for the full transaction amount. The receipt also promotes a customer survey offering a free large fry with a future purchase, provides a survey code and redemption instructions, and concludes with information about Portillo's delivery service and mobile ordering.",
+  "slug": "Portillo's-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T16:01:44.264Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "48b74dcd-2749-41db-a6bf-f346b011fb8d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "Portillo's - Northlake\n170 W North Ave\nNorthlake,Illinois 60164\n(708) 409-0000\nRegister # 002 0364439\n\nOrder #247",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6a4e0a3-813c-42a7-a47f-9267038a677d",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nHost: Ashley",
+          "value": "\n08/13/2026"
+        },
+        {
+          "title": "Order #247",
+          "value": "2:30 PM"
+        },
+        {
+          "title": "",
+          "value": "20103"
+        },
+        {
+          "title": "\nBeef",
+          "value": "\n8.59"
+        },
+        {
+          "title": "Hot Peppers",
+          "value": "0.99"
+        },
+        {
+          "title": "(3)Dipped",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7bf20978-593d-4fd0-90e3-2df8d155359f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nGET A FREE LARGE FRY with your next purchase! \nWe value your opinion. Please visit www.portillos.com/survey within the next 7 days and share your experience. Enter this code to begin the survey:\n----------------------------\n\n140 008 200 030 110 036 40\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7538a84a-9810-4d34-8151-d7c78e0a8791",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSubtotal",
+          "value": "\n9.58"
+        },
+        {
+          "title": "Tax",
+          "value": "0.98"
+        },
+        {
+          "title": "\nIN Total",
+          "value": "\n10.56"
+        },
+        {
+          "title": "\nFP VISA #XXXXXXXXXXXX2058",
+          "value": "\n10.56"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "577ad40b-2b91-4254-9621-add300541d22",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nPortillo's Now Delivers!\nOrder at portillos.com\nor download the app.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "WtwyYLSleVlBiKs5eCyG"
+}

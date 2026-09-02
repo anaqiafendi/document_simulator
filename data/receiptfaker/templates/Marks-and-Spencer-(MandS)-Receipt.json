@@ -1,0 +1,122 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Marks & Spencer (M&S) Receipt",
+  "description": "Retail grocery receipt from Marks & Spencer showing store details, purchased food items, individual prices, savings applied through Sparks offers, balance to pay, cash tendered, change due, and transaction date and time.",
+  "slug": "Marks-and-Spencer-(MandS)-Receipt",
+  "createdAt": "$D2026-01-24T18:34:51.006Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "£",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "8054a182-95b6-4653-a193-7f3611811c72",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F966a9b37-71b1-4224-81aa-b24eff9d7953-m%26s.jpg?alt=media&token=dc2cfc0e-d28f-493f-845b-64688013ede4",
+      "size": 83,
+      "businessDetails": "EST. 1884\n\nUnit DS2\nTHE BROADWAY HALLINGS\nBradford\nBD1 1SU\n01274 891003\nVAT NO. GB232128892\nwww.marksandspencer.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "adc11719-7c64-4a94-849a-e4ad36ba1b72",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": " BAKED BEANS JKT",
+          "total": "1.95"
+        },
+        {
+          "quantity": "1",
+          "description": "SCRAMBLED EGG    ",
+          "total": "4.50"
+        },
+        {
+          "quantity": "2",
+          "description": "GOLD BLEND TEA   ",
+          "total": "1.95"
+        },
+        {
+          "quantity": 1,
+          "description": "FULL MARK BREAK ",
+          "total": "7.95"
+        },
+        {
+          "quantity": 1,
+          "description": "SCRAMBLED ADDON",
+          "total": "2.75"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Balance before \nSaving",
+          "value": "21.05"
+        },
+        {
+          "title": "All Day Breakfast",
+          "value": "-2.45"
+        },
+        {
+          "title": "Items: 6 \nBalance to Pay",
+          "value": "18.30"
+        },
+        {
+          "title": "Cash Tendered ",
+          "value": "20.00"
+        }
+      ],
+      "total": "1.71",
+      "totalText": "Cash Due  ",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e8d8058-82d1-4056-a41e-87aea078510c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Your total saving today is £2.75",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "66ed32f2-0ecd-4ad7-9aed-58b820903737",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGreat News! You saved £20.13 today\nby using Sparks offers\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa83350f-65d5-4c21-a881-73de83d66804",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "**Thanks for Shopping with Sparks!**",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "0493c9ce-117a-4414-83a3-d9da409cfb58",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPlease retain your records\nTerms and Conditions apply, see \n@marksandspencer.com\n\n23/12/18 12:19 17690705 763439 147 0437",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FqjutIq3PfdmQwwSRbbjF%2FqjutIq3PfdmQwwSRbbjF-4dcdb28b-c776-47f0-be93-3a6ebc9748fb.png?alt=media&token=ddb25545-685e-4290-8882-ae8692d59bc9",
+  "published": true,
+  "id": "qjutIq3PfdmQwwSRbbjF"
+}

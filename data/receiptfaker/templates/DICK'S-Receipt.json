@@ -1,0 +1,123 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "DICK’S Receipt",
+  "description": "A white retail receipt from DICK’S Sporting Goods, showing store details for 309 E. Coliseum Blvd, Ft Wayne, IN 46805, including store number 228, transaction number 9297, register 110, and date 9/26/2024 at 04:44 PM. The receipt lists three sale items: Under Armour Football Towel ($15.20 after discounts), Nike Men’s Sportswear Club F ($49.40 after discounts), and Nike Men’s Futura Club Fleece ($30.39 after discounts). It includes applied promotions and reward certificates, a subtotal of $94.99, tax of $6.65, and a total of $101.64.",
+  "slug": "DICK'S-Receipt",
+  "createdAt": "$D2026-02-16T14:34:56.000Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b1c95735-c7c7-4e38-80df-77fc6af9415b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc972e360-11b9-4305-ad9c-384487f952a7-dicks.jpg?alt=media&token=c40fe742-df54-4a77-a35c-e2d2129566ed",
+      "size": 179,
+      "businessDetails": "309 E. COLISEUM BLVD\nFT WAYNE, IN 46805\n260-470-4224",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ea4d81c-1383-4aaa-9782-d59e9e1855ba",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Store: 228 Trans: 9297 Register: 110\n\nDate: 9/26/2024          04:44 PM\nTeammate: Gabriel",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "452507ef-3f0a-4b6c-a708-0a002035ee1f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SALE:",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6c38836-bbad-437c-a068-84fb50ec6555",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Under Armour Football Towel 15.20\n717064941353\nPrice 20.00\n$20 off $100 (-3.20)\nReward Certificate (-1.60)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e477c6d-f31b-4e80-8c20-3d948a908fe6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Nike Men's Sportswear Club F 49.40\n197593336361\nPrice 65.00\n$20 off $100 (-10.40)\nReward Certificate (-5.20",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb072b0c-d871-47a6-afb2-81e9a7465cc8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Nike Men's Futura Club Fleece 30.39\n193147718812\nPrice 39.99\n$20 off $100 (-6.40)\nReward Certificate (-3.20)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5f24f65-b879-4a85-860b-8a261bdac6b5",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Subtotal  ",
+          "value": "94.99"
+        },
+        {
+          "title": "Tax",
+          "value": "6.65"
+        },
+        {
+          "title": "Total",
+          "value": "101.64"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fv22LUNZMdN3PxMeQFw2R%2Fv22LUNZMdN3PxMeQFw2R-d945131f-147a-4a62-a9d8-6e49b95a45bb.png?alt=media&token=906512dd-dcfb-435f-be0a-f82e1b5c425e",
+  "published": true,
+  "id": "v22LUNZMdN3PxMeQFw2R"
+}

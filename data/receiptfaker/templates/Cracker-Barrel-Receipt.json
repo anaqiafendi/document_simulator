@@ -1,0 +1,112 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Cracker Barrel Receipt",
+  "description": "A white thermal restaurant receipt from Cracker Barrel Old Country Store, showing location details for Store #169 in Middletown, Ohio. The receipt includes a barcode header, server identification (JANIE B), table and guest numbers, and a transaction timestamp dated February 21, 2020 at 10:42 AM. It presents subtotal, tax, and total amount due with a gratuity notice, followed by promotional catering information and a standard closing footer asking the customer to pay the cashier and return again. The layout reflects a typical dine-in POS restaurant receipt format used across U.S. Cracker Barrel locations.",
+  "slug": "Cracker-Barrel-Receipt",
+  "createdAt": "$D2026-02-18T13:40:10.016Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ef98fb88-b4df-4b72-9a9e-ecdf153b969b",
+      "type": "BARCODE",
+      "size": 72,
+      "length": 145,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "94a06ea5-5a4d-44b9-8e09-4ead33ea8e50",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "009965",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a45d6831-2c9e-4317-a570-6275d69d36d0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Cracker Barrel Store #169\nMiddletown, OH",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1a652c1c-d328-4c2d-ba8c-c3af065d7ad5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1268648 JANIE B",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "67fdfe41-fac2-4a56-8982-ab595027a2e4",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "TBL 245/1        9965        GST 2\n           FEB21'20 10:42AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "6ef7e4e3-ffc9-4ec0-b368-2b20568d6f47",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "54ab374c-b3e8-4dbd-bcc8-ab306c3bb050",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Gratuity Not Included\n\n**NEW CRACKER BARREL CATERING**\nCrackerBarrel.com/Catering\n\nA convenient way to serve\nthe handcrafted comforts you\ncrave at business meetings\ndinner parties and\ngatherings of any kind with\ncustomizable options for\ngroups big and small.\n\nThank You\nPlease Come Back\nPlease Pay Cashier",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fayxjgb6isZMdNP8zIBcu%2Fayxjgb6isZMdNP8zIBcu-3b516d35-21f7-4cd2-b465-9533d5791c1a.png?alt=media&token=b3ae92e0-c670-43e9-8de2-8bc1d7ecc2d7",
+  "published": true,
+  "id": "ayxjgb6isZMdNP8zIBcu"
+}

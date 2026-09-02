@@ -1,0 +1,136 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T12:18:51.675Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Monsoon Restaurant Receipt",
+  "description": "This receipt is from Monsoon, a restaurant serving Thai cuisine. It documents a dine-in transaction including multiple food and beverage items such as Tom Yam Kung, Panang Gai, and Ginger Cooler. The receipt includes table and check details, date and time, and an itemized list with prices. It provides a financial breakdown separating food and beverage totals, along with government levy (tax) and service charge. The final amount due reflects the combined total after these charges. The format is typical of restaurant POS receipts used in Southeast Asia.",
+  "sections": [
+    {
+      "id": "0b2cd1c2-0dd3-4f3d-a04b-19d1f1fecc11",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F110be260-bbc9-46ae-9895-2eed63ad3a18-image%20(9).jpg?alt=media&token=61c1d25a-3936-47f1-b70c-ac9fa2d5adad",
+      "size": 230,
+      "businessDetails": " Tel: 17749222",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1154d32c-d054-4100-a62c-ebd576578b13",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n178 Jan Noma",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa18ad3c-c80e-4b26-b143-c6b3cb13e7ed",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTbl 42/1      Chk 7874        Gst 2\nFeb16'18  05:29PM\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "56c3b1d7-ae9b-4b66-8df9-c14bf8f3151a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\n",
+          "description": "\n1 Wang Ruam                 ",
+          "total": "\n\n8.300"
+        },
+        {
+          "quantity": 1,
+          "description": "Tom Yam Kung              ",
+          "total": "3.900"
+        },
+        {
+          "quantity": 1,
+          "description": "Panang Gai                ",
+          "total": "5.200"
+        },
+        {
+          "quantity": 1,
+          "description": "Gaeng Phed Kung           ",
+          "total": "6.200"
+        },
+        {
+          "quantity": 1,
+          "description": "Nasi Kelapa               ",
+          "total": "1.700"
+        },
+        {
+          "quantity": 1,
+          "description": "AcquaPannaSM      ",
+          "total": "1.200"
+        },
+        {
+          "quantity": 1,
+          "description": "Ginger Cooler             ",
+          "total": "3.000"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "869d1ec4-a6b7-4cc3-a2df-08ed75dfa478",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Food                       ",
+          "total": "25.300"
+        },
+        {
+          "quantity": "",
+          "description": "Beverage                    ",
+          "total": "4.200"
+        },
+        {
+          "quantity": "",
+          "description": "10% Gov Levy                ",
+          "total": "3.245"
+        },
+        {
+          "quantity": "",
+          "description": "10% SC                      ",
+          "total": "2.950"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n06:47PM Total Due          ",
+          "total": "\n\n35.700"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Monsoon-Restaurant-Receipt",
+  "published": true,
+  "id": "vL58npo0imKzTDYjbG70"
+}

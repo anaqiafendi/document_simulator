@@ -1,0 +1,205 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T14:04:06.577Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "769992c5-0b74-4a48-8dfb-46d343922a35",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F31fb0ab4-625e-4076-a986-c7bef846ec6d-image%20(10).jpg?alt=media&token=9d0d1473-5a7c-497a-a641-f52f991480b2",
+      "size": 254,
+      "businessDetails": "Lippo Plaza Kramat Jati OH!SOME Jl. Raya Jakarta-Bogor No.Km 19, \nRT34/RW.6 Kramat Jati, Kec. Kramat jati, Kota Jakarta Timur Daerah Khusus Ibukota Jakarta 13510\n\nSalinan pelanggan\nDi toko",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92d7a984-1134-4bf0-ad4b-d8588cf25588",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nNO.136",
+          "total": "2505091B1\nR053500136"
+        },
+        {
+          "quantity": "",
+          "description": "Waktu checkout",
+          "total": "2025/05/09 18:19:21"
+        },
+        {
+          "quantity": "",
+          "description": "Kasir",
+          "total": "SALSABILLAH ANGGRAINI"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "efa3d12c-5767-46d3-b3fd-fc5380930d78",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1. Vaseline Lip Rosy Lips",
+          "total": "\nx1  Rp36,900"
+        },
+        {
+          "quantity": "",
+          "description": "Care 4.8g",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2. Annapellet My Secret",
+          "total": "x1  Rp37,900"
+        },
+        {
+          "quantity": "",
+          "description": "Garden (PERFECTECT MIMOSA) Body",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Spray 75ml",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "3. Gentle Feminine Wash",
+          "total": "x1  Rp46,900"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b55621bd-ed85-410c-84d9-2fdcc73a9103",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "3 Produk",
+          "total": "Rp121,700"
+        },
+        {
+          "quantity": "",
+          "description": "Product discount",
+          "total": "0.0"
+        },
+        {
+          "quantity": "",
+          "description": "Rounding",
+          "total": "ID-11% (11.0%)"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Rp12,061.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "667b1bda-3f83-45f3-aa4b-523e7476f1aa",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "Rp121,700"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04689f6c-d452-4958-b690-f364bb3718e6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "Rp121,700"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "Rp121,700"
+        },
+        {
+          "quantity": "",
+          "description": "Change ",
+          "total": "Rp30,300"
+        },
+        {
+          "quantity": "",
+          "description": "Waktu Pembayaran",
+          "total": "2025/05/09 18:19:21"
+        },
+        {
+          "quantity": "",
+          "description": "Print(1)",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8cf14be8-6fe6-456d-9219-e71f2faa167e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMEET MY OH!SOME DAY\nFor OH!SOME Return&Exchange Policy, please\nrefer to the back of the receipt.\nClosed Bill",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by OH!SOME at the Lippo Plaza Kramat Jati branch, located on Jl. Raya Jakarta–Bogor KM 19, Kramat Jati, East Jakarta, Special Capital Region of Jakarta, Indonesia. The header displays the store branding, full branch address, receipt number, customer copy designation (Salinan pelanggan – Di toko), checkout timestamp, and cashier identifiers. The receipt includes a retail transaction section followed by a financial summary showing the number of products, Product Discount, Rounding, 11% Indonesian VAT (ID-11%), Total, Cash, and Change. The footer records the payment timestamp, print sequence, promotional message (\"MEET MY OHSOME DAY\"), return and exchange policy notice, and concludes with a \"Closed Bill\" status. This receipt represents a standard Indonesian retail POS receipt featuring transaction metadata, tax reporting, cash payment reconciliation, and customer service information in a compact thermal receipt format.",
+  "name": "OH!SOME Lippo Plaza Kramat Jati Receipt",
+  "slug": "OH!SOME-Lippo-Plaza-Kramat-Jati-Receipt",
+  "published": true,
+  "id": "GvobywRiRXcvQKU9ENju"
+}

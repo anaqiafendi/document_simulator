@@ -1,0 +1,66 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Menards Receipt",
+  "description": "This receipt represents a point-of-sale transaction from MENARDS – RACINE, located at 3101 South Oakes Road, Sturtevant, WI 53177. The receipt header features the MENARDS® logo followed by full store identification details and return policy messaging. A barcode appears above the “Sale Transaction” section. The receipt includes SKU reference formatting and quantity structure, followed by a financial summary listing TOTAL, TAX RACINE-WI 5.1%, and TOTAL SALE. The payment section reflects AMERICAN EXPRESS processing, including authorization code, chip insertion confirmation, application identifier (AID), and transaction certificate reference. The document records total number of items and includes a “GUEST COPY” designation, cardholder acknowledgment statement, credit card sales slip notice, and cashier acknowledgment line. The format reflects a home improvement retail POS receipt with integrated policy notice, barcode encoding, and full card-processing metadata.",
+  "slug": "Menards-Receipt",
+  "createdAt": "$D2026-02-25T13:17:24.055Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3499c383-752d-4a38-ade4-c283ac7d973b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F76d43cbf-7fe2-4fb6-887e-c8791c3b5bb8-image%20(1).jpg?alt=media&token=f5f1b011-4dcc-47b1-a440-eaef4844cfd5",
+      "size": 229,
+      "businessDetails": "MENARDS - RACINE\n3101 South Oakes Road\nSturtevant, WI 53177\n\nKEEP YOUR RECEIPT\nRETURN POLICY VARIES BY PRODUCT TYPE\n\nUnless noted below allowable returns for\nitems on this receipt will be in the form\nof an in store credit voucher if the\nreturn is done after 08/22/19\n\nIf you have questions regarding the\ncharges on your receipt, please\nemail us at:\nRACIfrotend@menards.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "68d0b9e1-d14a-459d-b615-a60b7f03d923",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e5dfb96b-3e4a-44af-a539-215bff881fed",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Sale Transaction",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "05c7af50-1d5a-4229-ae37-d11f2d5c6b5b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "4401 SWING WSTBSKT\n6443046      2  @11.88        23.76\n\nTOTAL                              23.76\nTAX RACINE-WI 5.1%                  1.21\nTOTAL SALE                          24.97\nAMERICAN EXPRESS 2013               24.97\nAuth Code: 807427\nChip Inserted\na000000025010801\nTC - a45432959c2f74ec\n\nTOTAL NUMBER OF ITEMS =  2",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a2cb2a9c-2ba4-4c59-bb58-295e3322acef",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "GUEST COPY\n\nThe Cardholder acknowledges receipt of\ngoods/services in the total amount shown\nhereon and agrees to pay the card issuer\naccording to its current terms.\n\nTHIS IS YOUR CREDIT CARD SALES SLIP\nPLEASE RETAIN FOR YOUR RECORDS.\n\nTHANK YOU, YOUR CASHIER  Arisia",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FvDSDK1kzc7Le1nSOcVia%2FvDSDK1kzc7Le1nSOcVia-753a4853-80ed-4c3f-982f-2e8cf8b50cf6.png?alt=media&token=7b9900a8-036c-46cb-9712-7a5e8970ea6a",
+  "published": true,
+  "id": "vDSDK1kzc7Le1nSOcVia"
+}

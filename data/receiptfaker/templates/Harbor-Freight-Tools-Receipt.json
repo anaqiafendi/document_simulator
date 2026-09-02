@@ -1,0 +1,149 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Harbor Freight Tools Receipt",
+  "slug": "Harbor-Freight-Tools-Receipt",
+  "createdAt": "$D2026-02-03T13:51:00.951Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "description": "Retail purchase receipt from Harbor Freight Tools showing store location, customer details, item purchased, subtotal, tax, total amount paid, payment method, and transaction date and time.",
+  "metatitle": "Professional Receipt",
+  "metadesc": "professional business receipts with custom company info, itemized services, pricing, and payment details for any transaction",
+  "sections": [
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FDtJ0Z4ZZe5MwLANqhbVp6RMz2cj2%2F4337c1cb-8549-4580-b2e4-967c2f7baab8-1000027931.png?alt=media&token=b2f3632b-9f73-4043-afe5-45eed53b2bb1",
+      "size": 272,
+      "businessDetails": "Escondido CA #00008\n879 N Escondido Blvd, Escondido, CA 92025\nTelephone: (760)-739-9649",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "649d097c-81df-42d2-97a2-9dd30dc25937",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSALE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e1dbf3ba-d134-45c6-ad0f-a02e3251a9d2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CUSTOMER NAME: SETH YETTER\nCUSTOMER NUMBER: 00345472",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Maddox Deluxe Flaring Tool\n  Kit",
+          "total": "69.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "69.99"
+        },
+        {
+          "title": "Tax",
+          "value": "8.39"
+        }
+      ],
+      "total": "78.38",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 1251"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Swipe"
+        },
+        {
+          "title": "Date/time",
+          "value": "1/20/2026 9:26 PM"
+        },
+        {
+          "title": "Reference #",
+          "value": "22843124377042386641C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6d44223-8d30-4d52-9d2f-b7cc33aafaea",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for your purchase!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FfI4qrPykXS3nGxxjOanA%2FfI4qrPykXS3nGxxjOanA-8ec39c9d-6f97-4962-a18d-76adcc554608.png?alt=media&token=ef843247-be0f-4804-b2f6-7837ece6a434",
+  "published": true,
+  "id": "fI4qrPykXS3nGxxjOanA"
+}

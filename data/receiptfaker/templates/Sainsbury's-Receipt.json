@@ -1,0 +1,199 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Sainsbury’s Receipt",
+  "description": "Grocery store receipt issued by Sainsbury’s Local, showing store details, purchased items, prices, Nectar points summary, payment method, balance due, transaction date and time, barcode, and customer message.",
+  "slug": "Sainsbury's-Receipt",
+  "createdAt": "$D2026-01-24T15:18:37.354Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "£",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "635d64c4-1f61-4236-bfc3-0ebb855fe10d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9a08fe1d-d1d3-43e4-8302-7067da7824c3-Sainsbury%E2%80%99s.jpg?alt=media&token=5bfd20cd-cacb-4349-9598-d379ae704f57",
+      "size": 241,
+      "businessDetails": "HARINGEY – WEST GREEN ROAD LOCAL\n200 W Green Road\nLondon N15 5AA\nwww.sainsburys.co.uk\nVAT Number: 660 4548 36",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02d0474c-03a1-4155-8231-a3a3b6071ab0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "NAKED ORGANIC TOFU ",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "MAMA RICE NOOD",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "JAS PAK CHOC",
+          "total": "1.5"
+        },
+        {
+          "quantity": 1,
+          "description": "JS TENDERSTEM BROC",
+          "total": "15"
+        },
+        {
+          "quantity": 1,
+          "description": "ONIONS SPRING BUNCH ",
+          "total": 10
+        },
+        {
+          "quantity": 1,
+          "description": "JS TERIYAKI SAUCE ",
+          "total": 10
+        },
+        {
+          "quantity": 1,
+          "description": "JS SWEET PEPPERS X3 ",
+          "total": 10
+        },
+        {
+          "quantity": 1,
+          "description": "EGG 6 NO. 35 ",
+          "total": 10
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "BALANCE DUE ",
+          "value": "15.47"
+        },
+        {
+          "title": "Debit Mastercard\n",
+          "value": "15.47"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf1e90ae-eec8-43a3-83fd-ab2bef3c4237",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "contactless ))                      \n{ICC}                ***********1818                AID:                  A0000000041010\nPAN SEQUENCE:                     00 MERCHANT:                      XXXXX       AUTH CODE:                     XXXXX TID:                         XXXXXXX      \n\nCHANGE                        £0.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d2594df-6b86-4e27-8a55-e0a1d5d5a8ff",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "NECTAR SUMMARY \n(C) **** **** **** 166956",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "64897d07-7fba-404d-ba75-05e587b1d256",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "POINTS EARNED",
+          "value": "15"
+        },
+        {
+          "title": "PREVIOUS POINTS BALANCE ",
+          "value": "7.23"
+        },
+        {
+          "title": "NEW POINTS BALANCE ",
+          "value": "7.49"
+        },
+        {
+          "title": "YOUR POINTS ARE WORTH ",
+          "value": "3.74"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7a5241f-02f6-4a89-a1a4-7de697b31ba5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Check your Nectar app to see\npoints earned on offers\n\n**** For a chance to win ******\n100,000 Nectar points\nplease tell us how we did at\nllettuce-know.com\n********************************",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "31fef0d5-73a0-4c44-8ca2-2d4ff1a77d0c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PLEASE KEEP FOR YOUR RECORDS\nPUBLISHED TERMS AND CONDITIONS APPLY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "584ff2de-acef-4544-915b-140c4cd31575",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "65225598-920a-4064-b714-fc9d11fd8f81",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "629429006229130023023\n\n\nC    #2913   19:08:00   23FEB2023\nS4290   R62\n\nThank you for your visit.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8jv9cBKgEyT1NLFgOrkM%2F8jv9cBKgEyT1NLFgOrkM-acb11202-40ad-48af-b67b-eb603d03d0c3.png?alt=media&token=00d36c89-146b-44d2-a9e3-92bf9aef72ea",
+  "published": true,
+  "id": "8jv9cBKgEyT1NLFgOrkM"
+}

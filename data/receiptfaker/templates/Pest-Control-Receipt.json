@@ -1,0 +1,158 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T10:22:22.594Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Pest Control Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fb60fa3ea-c075-455d-bbec-c7977bd59520-3994427_bug_insect_malware_pest_virus_icon.png?alt=media&token=936a1209-a6c9-436b-a941-b9a8e83a7555",
+      "size": 50,
+      "businessDetails": "GreenShield Pest Control Inc.\n2457 Elm Street, Suite 200\nDenver, CO 80220\nUnited States\nPhone Number: (720) 555-3491\nRegistration Number: CO-PCT-5897623\nwww.greenshieldpestcontrol.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Pest Control Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to: Emily Carter\n1612 Willow Lane, Seattle, WA 98109",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Roach Spraying",
+          "total": "500"
+        },
+        {
+          "quantity": "1",
+          "description": "Mice Control",
+          "total": "200"
+        },
+        {
+          "quantity": "2",
+          "description": "Bed Bug Treatment",
+          "total": "400"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1100"
+        },
+        {
+          "title": "Tax",
+          "value": "31.90"
+        }
+      ],
+      "total": "1,131.90",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Invoices will be generated immediately upon completion of the pest control service unless otherwise agreed. Customers will receive the invoice via email or printed copy, according to their preference. Any billing discrepancies must be reported to the company within 5 business days of receiving the invoice.",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "753c4324-d721-4816-8cc8-c2502a85780d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 1:21:51 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "slug": "Pest-Control-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FsEVowNIvrvQT3c3l1IgP%2FsEVowNIvrvQT3c3l1IgP-a5c25db6-b427-4dd5-abc8-5f7c8e5ce10f.png?alt=media&token=12a33e78-cf20-4a05-b057-0c9e6f1a3eb5",
+  "description": "Need a pest control receipt? Use our free tool to generate a professional service record. Enter company info, treatment details, service date, charges, and payment—perfect for client records, warranties, or property documentation.",
+  "published": true,
+  "metatitle": "Pest Control Receipt",
+  "metadesc": "detailed exterminator service receipts including treatment types, service dates, pricing, and payment info for documentation",
+  "id": "sEVowNIvrvQT3c3l1IgP"
+}

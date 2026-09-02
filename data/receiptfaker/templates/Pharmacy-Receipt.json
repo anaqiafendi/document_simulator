@@ -1,0 +1,140 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Pharmacy Receipt",
+  "slug": "Pharmacy-Receipt",
+  "createdAt": "$D2025-05-24T08:35:16.897Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Ffe0ff12d-1e05-4e0c-a3c2-1b1acfb9515c-7370727_medicine_pharmacy_cup_snake_icon.png?alt=media&token=e3a1d517-95bf-4f05-9713-ba1ebd56ce44",
+      "size": 50,
+      "businessDetails": "Everwell Pharmacy\n2632 Oakridge Avenue\nMadison, WI 53705\nUnited States\n(608) 555-7392",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Ibuprofen 200mg (100 tablets)",
+          "total": "8.88"
+        },
+        {
+          "quantity": "1",
+          "description": "Digital Thermometer",
+          "total": "20.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Hand Sanitizer (8 oz)",
+          "total": "6"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "35.87"
+        },
+        {
+          "title": "Tax",
+          "value": "1.79"
+        }
+      ],
+      "total": "37.66",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Prescription medications are non-returnable for safety reasons.\n\nOTC products may be returned unopened within 30 days with receipt.\n\nThank you for choosing Everwell Pharmacy!\nwww.everwellpharmacy.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F29xsM3X1q1vPjbu4m6Kn%2F29xsM3X1q1vPjbu4m6Kn-1929ea26-ed10-4746-831b-ef062340b5cb.png?alt=media&token=3af60b30-89c7-4809-b7ac-6ccb7e6f20da",
+  "description": "Need a pharmacy receipt? Use our free tool to generate a detailed medication purchase record. Enter pharmacy info, customer details, prescription items, prices, and payment—ideal for insurance claims or personal records.",
+  "published": true,
+  "metatitle": "Medication Receipt",
+  "metadesc": "realistic pharmacy receipts with prescription details, medication costs, and drugstore info for insurance or personal records",
+  "id": "29xsM3X1q1vPjbu4m6Kn"
+}

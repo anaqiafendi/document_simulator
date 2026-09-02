@@ -1,0 +1,123 @@
+{
+  "currency": "",
+  "slug": "Netto-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T12:59:35.037Z",
+  "description": "This grocery retail receipt from Netto documents a cash transaction processed at the Tranehavevej location in København SV, Denmark. The receipt includes store address details, cashier attribution, store number references, VAT registration information (MOMSNR.), and timestamp metadata. The POS structure contains itemized pricing, subtotal formatting, cash tender presentation (“KONTANT”), change due formatting (“BYTTEPENGE”), and VAT amount calculations (“MOMS UDGØR”) aligned in standard Danish supermarket thermal receipt formatting. Additional receipt elements include website references for Netto and employment information, cashier identification, and store-specific transaction identifiers near the footer. The layout reflects a standard Danish grocery retail thermal receipt with localized VAT accounting and cash payment formatting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Netto Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f684bc60-6f4f-4fcd-a3fe-a6bd8b59aee8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9283d407-0051-46d7-b60b-00bf08e0c2d5-image%20(3).jpg?alt=media&token=758335c7-540a-447f-ada9-291172603da6",
+      "size": 234,
+      "businessDetails": "Tranehavevej 1\n2450 København SV\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73b35294-cf2c-4e6b-8775-47bac5661b16",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "HARBOE 2 L.",
+          "total": "5,50"
+        },
+        {
+          "quantity": "",
+          "description": "PANT",
+          "total": "3,00"
+        },
+        {
+          "quantity": "",
+          "description": "RØRSUKKER",
+          "total": "18,95"
+        },
+        {
+          "quantity": "",
+          "description": "LIME",
+          "total": "15,00"
+        },
+        {
+          "quantity": "",
+          "description": "KRYDDEURTER",
+          "total": "10,00"
+        },
+        {
+          "quantity": "",
+          "description": "AQUA 0,5L P",
+          "total": "2,95"
+        },
+        {
+          "quantity": "",
+          "description": "PANT",
+          "total": "1,50"
+        },
+        {
+          "quantity": "",
+          "description": "CAPT. MORGAN",
+          "total": "145,95"
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n202,85"
+        },
+        {
+          "quantity": "",
+          "description": "\nKONTANT",
+          "total": "\n205,00"
+        },
+        {
+          "quantity": "",
+          "description": "BYTTEPENGE",
+          "total": "2,00"
+        },
+        {
+          "quantity": "",
+          "description": "\nMOMS UDGØR",
+          "total": "\n40,57"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "403d48f9-b0b1-4125-af6e-c4d01638f267",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDu blev betjent af:\nMartin\n7   2   269   15.06.12   16:32\nButik 7794   MOMSNR. 35954716\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "191d4e9c-80c7-4803-8009-66ca971438f6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nKIG FORBI WWW.NETTO.DK\nOG WWW.JOB.NETTO.DK",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "ikXiI3WuMBvK1WruOQ2s"
+}

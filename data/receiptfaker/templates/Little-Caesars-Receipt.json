@@ -1,0 +1,137 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-29T11:14:18.634Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Little Caesars Receipt",
+  "slug": "Little-Caesars-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FtKXRgpYxY5FFze579XED%2FtKXRgpYxY5FFze579XED-10178122-946f-43f2-b503-90c9bbc5da54.png?alt=media&token=0b9a3efa-ed68-406c-a4a4-3e62480732d0",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 218,
+      "businessDetails": "Little Caesars\nMadera, CA\nStore ID 00191-00034\nPhone 559-664-9404",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "726a74c9-39a8-413d-980b-62036c640859",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Order #462",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9d8e8e9-a9f5-437c-a054-4ed5133cf9a8",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 8:37:07 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "e1fc0518-583d-48e6-ad2b-89e092011185",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Your Cashier Today is Matt R.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Hot-N-Ready Pepperoni Pizza",
+          "total": "5.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Crazy Bread",
+          "total": "3.49"
+        },
+        {
+          "quantity": "1",
+          "description": "2-Liter Soda",
+          "total": "2.49"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Sales Tax",
+          "value": "0.84"
+        }
+      ],
+      "total": "12.81",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_75",
+      "date": "$undefined"
+    },
+    {
+      "id": "1fff70e9-7bfe-4506-8a88-ada874c06226",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need a Little Caesars receipt? Create a custom pizza receipt quickly with our free tool. Add store info, order details, prices, tax, and payment—perfect for tracking expenses, returns, or personal records.",
+  "published": true,
+  "metatitle": "Little Caesars Receipt",
+  "metadesc": "authentic Little Caesars pizza receipts with custom store details, menu items, prices, and payment info for expense tracking",
+  "id": "tKXRgpYxY5FFze579XED"
+}

@@ -1,0 +1,161 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T09:07:47.377Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Zizzi Receipt",
+  "description": "This receipt is from Zizzi, an Italian restaurant located on Bow Street in London, United Kingdom. It documents a dine-in order for three guests including pizzas, beers, and a raspberry mint cooler. The receipt includes table and check numbers, subtotal, VAT breakdown at the UK 20% rate, and total amount due. It also separates food and drink totals and includes information about discretionary gratuities and service charges. The format reflects a standard UK casual dining restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "18796d7c-547e-4cd7-9911-e8fe23bbc75d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbd43117f-7806-494f-81aa-a4d8e0fc04c6-image%20(2).jpg?alt=media&token=222cb7a5-efed-4668-98e2-86adba469290",
+      "size": 149,
+      "businessDetails": "20 Bow Street\nLondon\nTel: 0203 1050071\nVAT No: 192 3622 07",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d0bb95b3-274c-403a-b061-b7e815b78b59",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCHK#: 32     TBL#: 35",
+          "total": "\n#789"
+        },
+        {
+          "quantity": "",
+          "description": "Anna",
+          "total": "GUESTS: 3"
+        },
+        {
+          "quantity": "",
+          "description": "02/07/2019   17:13:04",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d2591d5-7cbb-460f-988e-1a356f78c117",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "P.Pep. Campagna",
+          "total": "11.25"
+        },
+        {
+          "quantity": 1,
+          "description": "P. Margherita",
+          "total": "8.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Rust Piccante",
+          "total": "11.25"
+        },
+        {
+          "quantity": 1,
+          "description": " Peroni Large",
+          "total": "11.80"
+        },
+        {
+          "quantity": 1,
+          "description": "Raspberry Mint Cooler",
+          "total": "4.30"
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "47.55"
+        },
+        {
+          "quantity": "",
+          "description": "WS2",
+          "total": "140000056"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "£52.30"
+        },
+        {
+          "quantity": "",
+          "description": "Sales-VAT\nVAT Rate VAT Amt ",
+          "total": "\nTotal"
+        },
+        {
+          "quantity": "",
+          "description": "43.58 20.00% 8.72 ",
+          "total": "52.30"
+        },
+        {
+          "quantity": "",
+          "description": "Food excl Set Menus",
+          "total": "34.45"
+        },
+        {
+          "quantity": "",
+          "description": "Set Menus",
+          "total": "17.85"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "818b98f2-c8d1-4a76-9395-ef115f841841",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Last Serviced",
+          "total": "02/07/2019 17:46:51"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bac665f5-49de-4dcf-a241-6eddeab20611",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tips & Gratuities are discretionary except for groups of 6 or more where an optional service charge of 10% has been added",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Zizzi-Receipt",
+  "published": true,
+  "id": "pS3l6X9Uqf3Mp0uzFyRc"
+}

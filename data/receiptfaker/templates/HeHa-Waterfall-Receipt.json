@@ -1,0 +1,164 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-15T15:27:53.451Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5081f905-ce72-46e7-afa4-b4c61d2c7dfd",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "HeHa WATERFALL\nBOGOR\n#CelebrateTheRain\n\nTABLE:4.10\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f91e66ef-0511-4208-9341-475a997e834a",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Pax:2      OP:SAPTIANDA      SAPTIAN\nPOS Title:Ipad4           POS:POS006\n                                           19/11/2023",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b86d3292-6c1f-450f-b004-237f769bd2e6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n--------------DINE IN---------------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "97d5d172-82c5-4a20-9909-d150bafb6505",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1  Nasi Goreng HeHa ",
+          "total": "59,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Singkong Lemongrass",
+          "total": "37,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Soup Iga Sapi",
+          "total": "115,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Hot Tea",
+          "total": "20,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Ice Lemon Tea",
+          "total": "35,000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Mineral Water",
+          "total": "15,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6df4f2dc-4692-4dfc-84f1-6d93eeb3c91c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSUBTOTAL",
+          "total": "\n281,000"
+        },
+        {
+          "quantity": "",
+          "description": "Service ",
+          "total": "28,100"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "30,910"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3364f58d-a9b1-4698-9c40-389d03e813dd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n340,000"
+        },
+        {
+          "quantity": "",
+          "description": "Total Item :6",
+          "total": "Total Qty :6"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5022f16-30c3-4999-92d8-ef45fed9ee86",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nRemarks = RUDI",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "997dd3b3-d922-4832-a593-0d4779d9e80e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nPreSettlement Bill\n19/11/2023",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by HeHa Waterfall Bogor and identifies the transaction as a dine-in restaurant bill. The header contains the restaurant branding, promotional slogan, table number, party size, operator name, POS terminal information, server name, and transaction date. The receipt records an itemized order consisting of Nasi Goreng Hela, Singkong Lemongrass, Soup Iga Sapi, Hot Tea, Ice Lemon Tea, and Mineral Water. The financial section records the subtotal, service charge, applicable tax, and the final transaction total. The receipt also summarizes the total number of items and quantities ordered, includes an internal remark, and identifies the document as a PreSettlement Bill, indicating that it is presented before final payment. The overall layout is representative of an Indonesian restaurant POS receipt, combining table-service order management, service charge calculation, tax reporting, and transaction reconciliation within a compact hospitality receipt format.",
+  "name": "HeHa Waterfall Receipt",
+  "slug": "HeHa-Waterfall-Receipt",
+  "published": true,
+  "id": "WQ6bb2IUFcxhRHCrJaJr"
+}

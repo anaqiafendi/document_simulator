@@ -1,0 +1,150 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T08:23:26.080Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Construction Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fe9113a20-6ccf-42fe-a5b5-81e075667764-7558274_tools_construction_settings_icon.png?alt=media&token=b3aa70ce-4339-4a34-87d2-dc156606b679",
+      "size": 50,
+      "businessDetails": "Keystone Builders LLC\n315 Industrial Parkway\nColumbus, OH 43228\nUnited States\n(614) 555-7319\nReceipt #: 0000340963\nReceipt date: 5/25/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Construction Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Billed to: Megan Sullivan\n1023 Maplewood Drive\nCincinnati, OH 45202",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "50",
+          "description": "Cement Bags",
+          "total": "350"
+        },
+        {
+          "quantity": "10",
+          "description": "PVC Pipes",
+          "total": "200"
+        },
+        {
+          "quantity": "100",
+          "description": "Lumber",
+          "total": "800"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1,350"
+        },
+        {
+          "title": "Tax",
+          "value": "111.38"
+        }
+      ],
+      "total": "1,461.38",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customers are encouraged to review their receipts immediately and report any discrepancies within 7 days. Any disputes regarding receipts or payments should be reported promptly and will be addressed within 10 business days. Receipts serve as proof of payment and include details such as date, amount paid, payment method, and items or services purchased.\n\nThank you for choosing Keystone Builders.",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Construction-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FaygseNcTeJSL3zzwwMBT%2FaygseNcTeJSL3zzwwMBT-6bcbacb1-ae77-4f10-babd-3774602df2e9.png?alt=media&token=a9ac0263-90d5-49d2-83bf-159676907c69",
+  "description": "Need a construction receipt? Create a detailed record of building or renovation work with our free tool. Enter contractor info, project details, materials, labor, and payment—ideal for client records or business tracking.",
+  "published": true,
+  "metatitle": "Construction Receipt",
+  "metadesc": "detailed renovation receipts featuring contractor data, work specifications, material lists, and complete payment records",
+  "id": "aygseNcTeJSL3zzwwMBT"
+}

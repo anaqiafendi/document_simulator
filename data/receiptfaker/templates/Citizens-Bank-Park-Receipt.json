@@ -1,0 +1,110 @@
+{
+  "currency": "",
+  "slug": "Citizens-Bank-Park-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T08:36:10.066Z",
+  "description": "This receipt template originates from Citizens Bank Park in Philadelphia, Pennsylvania, a sports and entertainment venue. The receipt includes venue branding, full address, telephone number, and website information in the header section. Transaction metadata includes a date stamp, time stamp, and transaction tracking identifier (TRAKS). The body of the receipt contains quantity, item, price, and amount columns, followed by a financial summary section displaying subtotal, sales tax, and total. The payment section records the card type, masked card information, and authorization code. The receipt concludes with customer-retention messaging and a venue promotional footer. This format is representative of a concession or hospitality point-of-sale transaction within a stadium environment.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Citizens Bank Park Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "2ec86779-e159-4ad8-98e2-47dbf7ce3f6d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6ee6db26-bfae-47b4-aaa3-d3bc1cb59fc8-image.jpg?alt=media&token=67a95b9f-42aa-4136-9c27-c44c0a4080e8",
+      "size": 220,
+      "businessDetails": "1 Citizens Bank Way\nPhiladelphia, PA 19148\n(215) 463-1000\nphillies.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ebfdd6f9-c9b5-4783-a00d-d792c575cdd7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDate:\tMay 25, 2024\nTime:\t6:47 PM\nTrans:\t23974289",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "55d03f76-aead-4d65-8168-fe74419e140e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\nQty",
+          "description": "Item          Price",
+          "total": "\nAmount"
+        },
+        {
+          "quantity": "3",
+          "description": "  Pepsi         $2.00\t",
+          "total": "$$6.00"
+        },
+        {
+          "quantity": 1,
+          "description": "  Hot Dog       $7.00\t",
+          "total": "$$28.00"
+        },
+        {
+          "quantity": "4",
+          "description": "\tCotton Candy  $9.00\t",
+          "total": "$$9.00"
+        },
+        {
+          "quantity": "17",
+          "description": "  Coors Light  $12.99",
+          "total": "$$220.83"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n\nSubtotal",
+          "value": "\n\n$263.83"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "$$15.63"
+        },
+        {
+          "title": "TOTAL",
+          "value": "$$279.66"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4942d881-7c1c-49ca-8a4c-0cc930be1ef3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Payment\n\n\nVisa\t                     $279.66\nCard Ending in 4242\t\nAuth: 063921",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "de0d09a7-73c4-4d2c-ba42-cf83c3882075",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you!\n\n\nPlease retain this receipt\nfor your records\nGo Phillies! ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "jI7EOCc30xP1rUfabS6p"
+}

@@ -1,0 +1,144 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Child Care Receipt",
+  "slug": "Child-Care-Receipt",
+  "createdAt": "$D2025-05-24T13:04:22.096Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F331JJ38oGecYhJlp1gaJ%2F331JJ38oGecYhJlp1gaJ-8eded299-136a-4274-b48f-244c4c15e081.png?alt=media&token=986ee8a0-a549-4ba0-8ebb-028b985dade1",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F74c1555a-8f01-4612-8fdc-5a17f3596302-1453946_child_custody_family_law_lawyer_icon.png?alt=media&token=8079466b-7d1b-4ef6-b43f-d108433dfe08",
+      "size": 81,
+      "businessDetails": "Sunbeam Kids, LLC",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Child Care Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to:\nJasmine Caldwell\n1284 Oakridge Avenue\nTulsa, OK 74136",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Childcare Services",
+          "total": "400"
+        },
+        {
+          "quantity": "10",
+          "description": "Additional Hours",
+          "total": "200"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "600",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "3621 S 81st East Ave\nTulsa, OK 74145\n(918) 555-7632\nwww.sunbeamkids.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e0f981a8-6403-4556-8198-3b1cc564b8af",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 12:54:03 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "description": "Need a child care receipt? Use our free generator to create a personalized record of care services. Add caregiver info, child’s name, service dates, rates, and payment—perfect for tax claims, reimbursements, or parent records.",
+  "published": true,
+  "metatitle": "Child Care Receipts",
+  "metadesc": "professional childcare receipts with caregiver details, service dates, rates, and payment info for tax claims and records",
+  "id": "331JJ38oGecYhJlp1gaJ"
+}

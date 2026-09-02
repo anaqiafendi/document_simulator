@@ -1,0 +1,161 @@
+{
+  "createdAt": "$D2026-05-28T11:19:42.467Z",
+  "parentName": "Office Depot",
+  "slug": "Le-Pain-Quotidien-Receipt",
+  "imageUrl": "",
+  "isParent": true,
+  "description": "This restaurant guest bill from Le Pain Quotidien documents a dine-in transaction processed at the St Pancras location in London, United Kingdom. The receipt includes dining room references, table number formatting, order number metadata, waiter identification, timestamp information, and guest-separated billing structure. The POS layout contains subtotal without VAT formatting, VAT calculations, and total due presentation aligned in standard United Kingdom restaurant thermal receipt formatting. Additional receipt elements include VAT registration references, service charge inclusion messaging, and customer feedback footer text near the bottom of the receipt. The layout reflects a standard UK café and restaurant guest bill with split guest accounting and localized VAT presentation.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "name": "Le Pain Quotidien Receipt",
+  "textColor": "#101828",
+  "backgroundType": "CRUMPLED_1",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "sections": [
+    {
+      "bottomDividerType": "DASHES",
+      "businessDetails": "\nLe Pain Quotidien\nSt Pancras",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0573aa68-fe24-42e0-9d88-f55349c1a9a9-image%20(14).jpg?alt=media&token=12070e77-b315-49f2-9053-e3c674f1dbe3",
+      "alignment": "CENTER",
+      "id": "9b85118f-1a67-4daf-924a-04aaf35556c0",
+      "size": 150,
+      "bottomDivider": true,
+      "type": "HEADER",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "ee1d513a-98bf-4b1e-bd73-87f3fde69075",
+      "custom": "\nGUEST BILL\n",
+      "date": "$undefined"
+    },
+    {
+      "id": "c2511002-356e-4b88-a4c8-7cf8539c9dfc",
+      "totalText": "",
+      "type": "ITEMS",
+      "bottomDivider": false,
+      "total": "",
+      "bottomDividerType": "DASHES",
+      "items": [
+        {
+          "total": "Table: 40",
+          "description": "Room: Dining room",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "Order No. 244",
+          "description": "Open: 11.04.2026 12:58"
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "Waiter: Julian"
+        }
+      ],
+      "totalLines": [],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "EQUALS",
+      "totalDivider": true,
+      "totalLines": [],
+      "items": [
+        {
+          "total": "Amount",
+          "description": "                Qty",
+          "quantity": "Name"
+        },
+        {
+          "total": "",
+          "description": "",
+          "quantity": "Guest 1"
+        },
+        {
+          "quantity": "English breakfast winter",
+          "total": "17.95",
+          "description": "1"
+        },
+        {
+          "quantity": "Total due Guest",
+          "total": "17.95",
+          "description": "         1"
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "Guest 2"
+        },
+        {
+          "total": "17.95",
+          "description": "1",
+          "quantity": "English breakfast winter"
+        },
+        {
+          "quantity": "",
+          "total": "17.95",
+          "description": "Total due Guest 2"
+        }
+      ],
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "bottomDivider": false,
+      "type": "ITEMS",
+      "totalText": "",
+      "id": "73f0bf3f-4705-4beb-8595-ad9c2bb3ca5d",
+      "date": "$undefined"
+    },
+    {
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "items": [
+        {
+          "total": "29.92",
+          "description": "Subtotal without VAT",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "5.98",
+          "description": "VAT"
+        },
+        {
+          "total": "35.90",
+          "description": "Total Due",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "VAT 446609769",
+          "quantity": ""
+        }
+      ],
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "type": "ITEMS",
+      "bottomDivider": false,
+      "totalText": "",
+      "id": "676d1a83-38eb-460f-8f90-8b96e6b3636a",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "custom": "\n\nService is included.\nWe love to hear about your experience.\n* * * * * * * * * *",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "2e3123a2-8221-4b75-a1e7-a8bfeb018cb1",
+      "date": "$undefined"
+    }
+  ],
+  "currency": "",
+  "published": true,
+  "id": "P8Xe6e5PT4kKKhoAJtY2"
+}

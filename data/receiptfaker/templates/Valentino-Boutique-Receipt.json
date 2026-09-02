@@ -1,0 +1,208 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-03T14:08:03.854Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "description": "Luxury retail receipt from Valentino Boutique in Rome, detailing store information, purchased fashion item(s), individual prices, total amount, and official commercial sales document details.",
+  "metatitle": "Luxury Prada Receipt",
+  "metadesc": "authentic Prada luxury receipts with boutique details, product info, pricing, and payment methods for records and documentation",
+  "name": "Valentino Boutique Receipt",
+  "slug": "Valentino-Boutique-Receipt",
+  "currency": "",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F4TKtRjxvLyU9FC8mS6gz5Dgt7VX2%2Fd8e9bae2-6fa2-404e-ab6c-bfca04f3d645-valentino-logo-png-transparent%20(1).png?alt=media&token=d7089109-2737-4c20-bd8f-6906cbc0f0e5",
+      "size": 251,
+      "businessDetails": "PIAZZA DI SPAGNA, ROMA\nBOUTIQUE\nTel. 06. 69457016\nVALENTINO S.p.A.\nVia Turati, 16\n20121 MILANO\nwww.valentino.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fd5240e-ac86-4393-a88c-7185a7b1a512",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "DOCUMENTO COMMERCIALE\nDI VENDITA",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "274e7b59-b905-4749-80b4-37a63462ceca",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "DESCRIZIONE",
+          "value": ""
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Prezzo",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Orecchini \nfirmati Vlogo con perle \nSwarovski®",
+          "total": "350,00"
+        },
+        {
+          "quantity": 1,
+          "description": "Collana Vlogo \nSignature in metallo con perle Swarovski®",
+          "total": "550,00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotale",
+          "value": "702,00"
+        },
+        {
+          "title": "IVA (22%)",
+          "value": "198,00"
+        }
+      ],
+      "total": "€1.199,00",
+      "totalText": "TOTALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "54f1fd9e-1423-401c-baf2-a466e1f7e18c",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "03/02/2025 19:02",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "DOCUMENTO N. 2179-6548",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f06fad11-7178-44ec-b52a-ddd835deacf3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "RT 85LQN430972",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "44d6fba9-e9be-4402-a84d-cf579bb539f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "DETTAGLIO FORME di PAGAMENTO",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Carta n.",
+          "value": "**** **** **** 5577"
+        },
+        {
+          "title": "Negozio",
+          "value": "20451"
+        },
+        {
+          "title": "Dati",
+          "value": "03/02/2025 19:02"
+        },
+        {
+          "title": "Rif.",
+          "value": "492670138520749653T"
+        },
+        {
+          "title": "Biglietto",
+          "value": "18457"
+        },
+        {
+          "title": "Addetto vendite",
+          "value": "47029158"
+        },
+        {
+          "title": "Cassiere",
+          "value": "83710526"
+        },
+        {
+          "title": "Cliente",
+          "value": "0031360594"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c07e0f88-f32a-4f6e-bb8c-cf8c0a418065",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "31958647029017586452",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Miu Miu offre la possibilita di cambio entro 10 giorni dall acquisto, nel rispetto delle garanzie legali.\n\nSono esclusi prodotti personalizzati, su misura, su ordinazione, cosmetici e profumi.\n\nPer la lingerie, la protezione igienica deve restare integra.\nNessuna eccezione alle presenti condizioni.\n\nCopia cliente",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FFrtDxJAtgszTzqqMk6EH%2FFrtDxJAtgszTzqqMk6EH-68d34445-9aaf-4293-a63d-be864fc4cc32.png?alt=media&token=badcf0ca-c16c-4444-a7e9-89ccaffab967",
+  "published": true,
+  "id": "FrtDxJAtgszTzqqMk6EH"
+}

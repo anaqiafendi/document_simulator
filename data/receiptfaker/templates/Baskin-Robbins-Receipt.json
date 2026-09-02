@@ -1,0 +1,129 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Baskin Robbins Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Baskin Robbins. It includes a check number (290778-1), a cashier identifier, and a printed transaction time (9:10) along with a full date (03/14/2006). The receipt shows a structured financial summary including subtotal, total, and return adjustment lines. A store address is printed beneath the transaction details (1047 W 148 ST, NY 10452, USA). The layout follows a standard QSR POS format with itemized entries, subtotal and total fields, and an adjustment/return line printed toward the bottom.",
+  "slug": "Baskin-Robbins-Receipt",
+  "createdAt": "$D2026-03-03T14:23:55.085Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F685d01c6-c471-4ba7-b60c-6b226387f4c6-image%20(23).jpg?alt=media&token=52e31b17-0e7f-4441-98e3-5928628d2697",
+      "size": 236,
+      "businessDetails": "Life gets more delicious\n\n6555 E Southern Ave\nH18\nMesa, AZ  85206\n480-854-6998",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "541b5873-7eec-4118-a9a3-6d3f49edb494",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "CHECK #290778 - 1\nTime 9:10        CASHIER\n\n03/14/2006\n1047 W 148 ST\nNY 10452\nUSA",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "fd5cb84c-f3f1-444e-ad81-6a6e9b9e9de8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f39c59bc-22b6-4292-afa9-05faa6fbbf1c",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2c955cb-65b2-49e7-80bb-69f6e6d66893",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FVt1jE1GTJe06guahyp4E%2FVt1jE1GTJe06guahyp4E-09bbad1f-b11b-4248-ad35-00a95ba871e4.png?alt=media&token=27be75e3-7941-4d6a-b8c7-8d7846d81834",
+  "published": true,
+  "id": "Vt1jE1GTJe06guahyp4E"
+}

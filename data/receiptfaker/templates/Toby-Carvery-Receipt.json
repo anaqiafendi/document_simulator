@@ -1,0 +1,145 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T11:01:57.354Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Toby Carvery Receipt",
+  "description": "This receipt is from Toby Carvery in the United Kingdom and records a walk-in restaurant transaction for two guests. The order includes carvery meals with a king-size upgrade and a promotional discount applied. The receipt provides VAT calculations at the UK 20% rate, product group summary, subtotal, total amount, and remaining balance information. It also includes promotional terms for a future food discount offer. The format reflects a standard UK restaurant POS receipt with discount and VAT details.",
+  "sections": [
+    {
+      "id": "7b749d62-665e-40e3-a953-22ab1ade77b9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Toby Carvery\nBrunscliffe Road\nLS27 0LY\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7169917-764e-481a-a1b6-394c7519751c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ZA178099-POS-04",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Holly",
+          "total": "13 Nov 2016 18:44"
+        },
+        {
+          "quantity": "",
+          "description": "Table: 49  cl: 2",
+          "total": "Acc No: 3684"
+        },
+        {
+          "quantity": "",
+          "description": "WALK-IN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n2   Carvery+",
+          "total": "= 17.98"
+        },
+        {
+          "quantity": "",
+          "description": "1   King Size+",
+          "total": "=  1.50"
+        },
+        {
+          "quantity": "",
+          "description": "TBY 25% Off #0775+",
+          "total": "= -4.87"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "80a50c3d-14ff-4600-a1a3-ab164e1c0895",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Product Group Summary",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Food And Drink",
+          "total": "14.61"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Net",
+          "total": "12.17"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT",
+          "total": "2.44"
+        },
+        {
+          "quantity": "",
+          "description": "20% VAT Total",
+          "total": "14.61"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "87b3a47c-9767-411d-ac84-55fa18d50947",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total                        £19.48",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0c446943-d482-421a-b333-475b66fa5658",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBalance                      £14.61",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b4125d25-5285-433e-847d-f517e8497404",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nRedeem within 7 days of the date shown to receive 33% off food. (Must Inc. Main meal, Exc Breakfast) Mon-Sat only ex. Bank Hols. Max 6 people. Cannot be used with any other offer. VAT 232 153 895",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Toby-Carvery-Receipt",
+  "published": true,
+  "id": "JJX5gnqlKSogP6PtOwvM"
+}

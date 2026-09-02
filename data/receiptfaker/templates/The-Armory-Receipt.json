@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "id": "af4cca79-036f-4c6c-8a52-5d50e2a6f683",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "The Armory\n200 Front Street\nPerth Amboy NJ 08861\n(732) 826-6000\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8105e1ae-7a34-4507-9549-99c59bfa29a2",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nServer: Darlei ",
+          "value": "\n07/31/2021"
+        },
+        {
+          "title": "83/1",
+          "value": "10:21 PM"
+        },
+        {
+          "title": "Guests: 2",
+          "value": "20026"
+        },
+        {
+          "title": "\nTwin Crab Cakes",
+          "value": "\n23.00"
+        },
+        {
+          "title": "Fried Calamari",
+          "value": "19.00"
+        },
+        {
+          "title": "SP Prawns ",
+          "value": "45.00"
+        },
+        {
+          "title": "Chilean Sea Bass ",
+          "value": "48.00"
+        },
+        {
+          "title": "Twin Lobster Tails",
+          "value": "70.00"
+        },
+        {
+          "title": "Caipirinha",
+          "value": "13.00"
+        },
+        {
+          "title": "\nComplete Subtotal",
+          "value": "\n218.00"
+        },
+        {
+          "title": "\nSubtotal",
+          "value": "\n218.00"
+        },
+        {
+          "title": "Tax",
+          "value": "14.44"
+        },
+        {
+          "title": "\nTotal",
+          "value": "\n232.44"
+        },
+        {
+          "title": "Gratuity",
+          "value": "39.24"
+        },
+        {
+          "title": "Total",
+          "value": "271.68"
+        },
+        {
+          "title": "Balance Due",
+          "value": "271.68"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3cefd0a9-fece-40ac-9bfa-8abe69230811",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank You!\n18%=39.24\n20%=43.60\n22%=47.96",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-22T19:22:48.217Z",
+  "imageUrl": "",
+  "name": "The Armory Receipt",
+  "slug": "The-Armory-Receipt",
+  "description": "This receipt is issued by The Armory and identifies the restaurant at 200 Front Street, Perth Amboy, New Jersey 08861. The header contains the restaurant name, street address, telephone number, server information, number of guests, and transaction date and time. The dine-in order for two guests includes Twin Crab Cakes, Fried Calamari, SP Prawns, Chilean Sea Bass, Twin Lobster Tails, and a Caipirinha. The financial section records a subtotal of $218.00, tax of $14.44, and an initial total of $232.44. An 18% gratuity of $39.24 brings the final balance due to $271.68. The footer also provides suggested gratuity calculations of 18%, 20%, and 22% for reference.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "lXkaSShqD7yismvTmGDQ"
+}

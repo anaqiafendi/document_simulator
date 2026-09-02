@@ -1,0 +1,177 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-21T19:49:37.321Z",
+  "description": "This receipt is issued by Marco's Pizza and identifies the location as Richmond, Texas 77469, with the store telephone number displayed in the header. The receipt contains POS transaction metadata including an order number (#143), service designation (Walk In), order-taker identification (Jessie), transaction date and time, and a transaction reference number. The transaction section follows a quick-service restaurant format and includes quantity tracking and itemized order entries. The financial summary records the order total, sales-tax calculation, gratuity amount, and final transaction total. Payment information is presented at the bottom of the receipt, indicating settlement by credit card. The overall layout is representative of a United States pizza and quick-service restaurant POS receipt, combining order tracking, staff accountability, tax reporting, gratuity documentation, payment reconciliation, and transaction-control information within a compact hospitality receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Marco's Pizza Receipt",
+  "slug": "Marco's-Pizza-Receipt",
+  "sections": [
+    {
+      "id": "1dd4d2b2-ae39-4fba-b387-14e2ce89f816",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fde637855-4266-4c6c-8648-32a28276657e-image%20(2).jpg?alt=media&token=f78787fe-a3fc-4bb0-babf-0920b9f5c445",
+      "size": 249,
+      "businessDetails": "Marco's Pizza\n\n\nRichmond, TX 77469\n(281) 232-3000",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42428113-a697-4346-b115-93b721b2fd1b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n# 143\nWalk In\n\nTaken By: Jessie\n06/14/2025   05:17:61 PM\nTransaction No: 186993674\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0d7e4be2-4f12-4254-8786-b2893aefd281",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Item                    QTY",
+          "total": "Price"
+        },
+        {
+          "quantity": "",
+          "description": "The Big Cheese          1",
+          "total": "21.78"
+        },
+        {
+          "quantity": "",
+          "description": "Large",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Pepperoni",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "All Meat Calzone        1",
+          "total": "8.99"
+        },
+        {
+          "quantity": "",
+          "description": "All Meat Calzone        1",
+          "total": "8.99"
+        },
+        {
+          "quantity": "",
+          "description": "Calzone",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Pepperoni",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Bacon",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Italian Sausage",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ham",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Pizza Sauce Cup",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CheezyBread             1",
+          "total": "6.99"
+        },
+        {
+          "quantity": "",
+          "description": "Medium",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ranch Cup",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Pizza Sauce Cup",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "80ecb591-6e4d-464d-a443-c88e6b3224ce",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Order Total",
+          "value": "37.76"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "3.12"
+        },
+        {
+          "title": "Gratuity",
+          "value": "3.02"
+        },
+        {
+          "title": "Total",
+          "value": "43.90"
+        },
+        {
+          "title": "Credit Card",
+          "value": "43.90"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "55bf5022-5ea4-45d7-9a03-0e43f65314be",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for choosing Marco's Pizza!\n\nWe appreciate your business.\nHope to see you again soon! ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "ebL2jYauYOBmlrrwe9zL"
+}

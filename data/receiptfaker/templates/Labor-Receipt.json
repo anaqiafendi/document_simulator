@@ -1,0 +1,154 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T16:34:34.198Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Labor Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F096dd199-2a86-492c-b822-7c7965d7a0c3-4622499_builder_helmet_labor_safety_icon.png?alt=media&token=4d6fcf38-418b-4890-b676-7f5cd0cb658f",
+      "size": 50,
+      "businessDetails": "PrimeForce Labor Services, LLC\n912 Industrial Park Road\nCharlotte, NC 28208\n(704) 555-7182",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Labor Receipt\nReceipt #: 00033963",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "117019e4-887a-409d-bb10-61ab752f6504",
+      "type": "DATE",
+      "alignment": "RIGHT",
+      "date": "5/25/2025, 7:32:18 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "General Labor (per hour)",
+          "total": "25.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Skilled Labor (per hour)",
+          "total": "40.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Equipment Operator (per hour)",
+          "total": "50.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Day Labor (8-hour shift)",
+          "total": "180.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "295.00"
+        },
+        {
+          "title": "Tax",
+          "value": "19.18"
+        }
+      ],
+      "total": "314.18",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All labor services are billed weekly based on hours worked. Payment is due within 7 days of invoice. Cancellation of scheduled labor requires 24 hours’ notice to avoid a cancellation fee equal to 50% of the scheduled labor cost.\n\nOvertime rates apply at 1.5x the hourly rate for hours worked beyond 40 hours per week. All workers are fully insured and certified where required.\n\nFor billing questions or scheduling, contact our office at (704) 555-7182 or email billing@primeforcelabor.com.",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Labor-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FtAqXbGrp99dywcqA2wQ6%2FtAqXbGrp99dywcqA2wQ6-8f16eee6-56bf-4093-8523-dc30a8e218b8.png?alt=media&token=6c593320-e84f-4ad5-8178-c41f0c7c6fb6",
+  "description": "Need a labor receipt? Our free generator helps you create a clear, itemized receipt for any type of manual or contract work. Enter worker details, hours, rates, and payment info—ideal for records or client use.",
+  "published": true,
+  "metatitle": "Contract Work Receipt",
+  "metadesc": "professional labor receipts with worker details, hourly rates, and payment info for manual or contract work documentation",
+  "id": "tAqXbGrp99dywcqA2wQ6"
+}

@@ -1,0 +1,48 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Casey’s Receipt",
+  "description": "This receipt template represents a point-of-sale transaction issued by Casey’s, a convenience store and fuel retailer. The header section includes the store identifier, street address in Neola, Iowa, and a contact phone number. The receipt contains POS metadata such as register number, cashier identifier, and a timestamp showing the date and time of the transaction. A structured itemization section appears in the center of the receipt followed by a financial summary block displaying Subtotal, State Tax, and Total. The payment section records the tender method, change issued, and transaction confirmation details including receipt number, terminal identifier, clerk number, and authorization code. A short customer message and reference number appear in the footer, reflecting a typical convenience store POS receipt format used in fuel and quick-service retail environments.",
+  "slug": "Casey's-Receipt",
+  "createdAt": "$D2026-03-11T13:12:45.166Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Casey's # 427\n805 Main St\nNeola, IA 51559\n402-778-4404",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "234f9915-dc34-431b-988d-25ed3d1e9ed0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "9/23/23    11:20 PM\nReg 1  Cashier: 17789\nStore Sale 12995",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4215983-4581-4e7d-9a0f-fc16b00d38c6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1 Slice Pepperoni Pizza     4.29\n1 Large Refill Soda         0.99\n--------------------------------\nSubtotal                    5.28\nState Tax                   0.32\n--------------------------------\nTotal                       5.60\n\nCASH                         6.00\nChange                       0.40\n\nReceipt #\nOrder Type: Sale\nTransaction #\nTerminal: 1\nClerk: 17789\n\nApproved\nAuth Code: 022557\nDate: 09/23/23 11:20 PM\n\nThank You\nPlease Come Again\n\nReference: 000000000000000000",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6C8jsc0E6canwpOJZVt1%2F6C8jsc0E6canwpOJZVt1-3fbe16f2-ad82-458c-a85b-1126d0d2f87e.png?alt=media&token=8b440ce3-e091-42e9-91d9-a671d95de30d",
+  "published": true,
+  "id": "6C8jsc0E6canwpOJZVt1"
+}

@@ -1,0 +1,68 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "FedEx Office Receipt",
+  "slug": "FedEx-Office-Receipt",
+  "createdAt": "$D2026-02-21T15:02:57.827Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "description": "This receipt is issued by FedEx Office located at 4607 Veterans Memorial Blvd, Metairie, LA 70006, United States. It contains shipment processing identifiers including location code, device ID, employee ID, and email tracking reference. The document includes a service section labeled “FedEx Express Shipping” with declared value and signature requirement indicators, followed by scheduling and delivery date information. A pricing summary is presented with shipment fee, customs fee, and total due. The footer includes a customer feedback message and promotional notice. The format represents a parcel shipping and logistics point-of-sale service receipt.",
+  "metatitle": "Fake ShopRite Receipt",
+  "metadesc": "authentic ShopRite grocery receipts with custom items, prices, store details, and payment info for returns or expense tracking",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0d7b6d3d-fc7d-4588-a8ac-75b5b8e2320f-fedx.jpg?alt=media&token=2b0ea50e-ba89-4bc9-8ded-5951804a8abe",
+      "size": 237,
+      "businessDetails": "4607 Veterans Memorial Blvd,\nMetairie, LA 70006,\nUnited States",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Location:          LA\nDevice ID:         -BTC 013\nTracking Number:   (Sent To E-Mail)\nEmployee ID:       158205",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0f39791-6bc7-428b-93f2-1245872e56ac",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "FedEx Express Shipping 336 g\n\nDeclared Value: 133 - Dropped Off\nSignature Required\nITEM: Nintendo 3DS XL Purple Galaxy\n      Edition W/Box And\n      Accessories",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Recipient's Name:\nRecipient's Address:\n\nRecipient's Number:\nSchedule Delivery Date: 06/03/2025\nPricing option:\n\nSTANDARD RATE\nMedium Box, 18x18x24\n\nShipment Fee: $14.50\n\nCustom Fee: $10.20\n\nTotal Due: $24.70",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6f6b0f2-416b-4928-afb7-ec3972a3691b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n********  WE LISTEN  ********\nTell us how we're doing\n& receive a discount on your\nnext order!\n*** Thank You ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FKot83Y99uRQRwbSBDvmW%2FKot83Y99uRQRwbSBDvmW-e8c4b6b1-a5c1-4b37-a016-6e3424a58a46.png?alt=media&token=2058c1e5-14fa-48b6-924f-f1fb8d696879",
+  "published": true,
+  "id": "Kot83Y99uRQRwbSBDvmW"
+}

@@ -1,0 +1,148 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Cinemark Receipt",
+  "description": "This receipt is issued by Cinemark for the Cinemark Paradise 24 location in Davie, Florida, and includes full location details such as address and contact phone number. It presents a timestamped transaction and a structured item section, followed by a financial summary including subtotal, membership adjustment, savings, tax, and total amount due. Payment information includes masked card digits and chip transaction indication, along with card type (Mastercard) and entry reference. The receipt includes loyalty messaging for Cinemark Movie Club members, a closing message, website reference, and a barcode section. The format reflects a standard cinema POS receipt with clear separators and structured transactional and promotional sections.",
+  "slug": "Cinemark-Receipt",
+  "createdAt": "$D2026-03-25T14:06:09.945Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F753bca94-25d3-4dfd-96ce-24f82d0188e4-image%20(13).jpg?alt=media&token=5c07126f-c9bd-4504-a642-9613223daab0",
+      "size": 236,
+      "businessDetails": "Cinemark Paradise 24\n1500 Sheridan St\nDavie, FL 33331\n(954) 382 0300",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "02/03/2026 19:15:33",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE TRANSACTION",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "915744d8-1791-4ce4-a9ce-72cacde5b65e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "93e27584-7c88-43a8-8534-1274fd931337",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc153bf4-7988-49e1-bd7b-ef5e97e83b0c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Cinemark Movie Club Member - Thank You!\nEarn Points on Every Purchase.\n\nEnjoy Your Movie!\ncinemark.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c2818b2f-0f80-430b-9847-bf917cdc5375",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4QzShVIXM0JMOgvcP1Hb%2F4QzShVIXM0JMOgvcP1Hb-6f687da2-6520-4bb3-b690-258889414aa2.png?alt=media&token=967c1134-2ffe-4dc2-8f6f-e7f7b0940169",
+  "published": true,
+  "id": "4QzShVIXM0JMOgvcP1Hb"
+}

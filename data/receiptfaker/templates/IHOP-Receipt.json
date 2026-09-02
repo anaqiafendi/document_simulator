@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "IHOP Receipt",
+  "description": "A white thermal restaurant receipt from IHOP (International House of Pancakes) showing the logo header, store number #3543, and location in Yucca Valley, California with contact phone information. The receipt includes check identifiers, guest count, and a timestamp dated October 26, 2017 at 05:32 AM. It presents subtotal, tax, and total lines followed by a customer feedback promotion and survey instructions. The layout reflects a standard dine-in POS receipt format used across IHOP restaurant locations.",
+  "slug": "IHOP-Receipt",
+  "createdAt": "$D2026-02-18T14:58:33.560Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "53846aa1-1e87-4f20-a571-92a13697e3c8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1e81e9d9-b244-47d2-ba3d-34c5b3af1029-ihop.jpg?alt=media&token=42b47e1f-a594-4cb4-bdf7-df4d9a27ff5c",
+      "size": 186,
+      "businessDetails": "IHOP Store #3543\n5704 Westview Palms Hwy\nYuca Valley, CA 92284\nPhone: 760-226-2300",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1c3ab705-21a5-422c-a361-fe2c3d6a717b",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "2008 MERRICK",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "386f51ea-28ee-46e4-8922-ec4c8fb92773",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tbl 11/1      Chk 5558      Gst 1\nOct26'17 05:32AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84db2391-db91-4a70-838b-3e7fa937d090",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "38acd054-b03f-4b67-a244-f58df9662825",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "********************************\nWe Want Your Feedback!\n*$10! YOUR NEXT VISIT!*\nReceive and (1) Free\nShort Stack of\nButtermilk Pancakes\nwhen you complete our survey.\n********************************\n\nFollow these easy steps:\n1) Call 1-800-852-3076 or visit\n   www.talktoihop.com\n   within 3 days",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FfLC7qNL17AZnhMIakrA5%2FfLC7qNL17AZnhMIakrA5-f770efd4-7ee2-41a5-a74e-52d637db956e.png?alt=media&token=f0b6db65-1119-44d8-add0-4e04faea1343",
+  "published": true,
+  "id": "fLC7qNL17AZnhMIakrA5"
+}

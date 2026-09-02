@@ -1,0 +1,178 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Red Robin Receipt",
+  "description": "This receipt is a casual dining restaurant transaction issued by Red Robin Gourmet Burgers at its Wappingers Falls, New York location, including full store address and contact number. It contains service identifiers such as server name, table number, guest count, and a timestamped transaction record. The receipt presents a structured financial summary with subtotal, tax, total amount, and cash payment with change returned. It also includes promotional messaging for the Red Robin Royalty loyalty program and a customer feedback survey link, concluding with a check closure notice, reflecting a standard U.S. restaurant POS receipt format.",
+  "slug": "Red-Robin-Receipt",
+  "createdAt": "$D2026-04-08T16:44:04.458Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "cc652d81-73b0-482a-b054-9b5a35b856d5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nThank You For Dining!\nRed Robin Gourmet Burgers\n1300 Sunset Rd #2545\nHenderson, NV 89014\n(702) 547-1777\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a78ddb36-8aa5-46a6-b87f-44caf6c8a38d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Kaitlyn",
+          "total": "10/31/2021"
+        },
+        {
+          "quantity": "",
+          "description": "Table 13/1",
+          "total": "1:46 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Guests: 2",
+          "total": "350009"
+        },
+        {
+          "quantity": "",
+          "description": "Reprint #: 1",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e12a7da-5b04-4b84-a81a-08f5817363c3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nRestaurant # 152\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f2282069-82a7-408e-a6bc-381706b84023",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ENTERTAINMENT FEE",
+          "total": "1.99"
+        },
+        {
+          "quantity": "",
+          "description": "GL LAGUNITAS IPA (2 @6.49)",
+          "total": "12.98"
+        },
+        {
+          "quantity": "",
+          "description": "BACON CHZ BG",
+          "total": "12.99"
+        },
+        {
+          "quantity": "",
+          "description": "HAYSTACK TAVERN",
+          "total": "8.59"
+        },
+        {
+          "quantity": "",
+          "description": "+BAC",
+          "total": "1.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6117e1a-254f-429c-aef9-cce298aad402",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "38.54"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "3.06"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b1ada9a-e5f6-4ff4-87df-9b3eb2b1ced5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTotal                          41.60\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07c111ef-4deb-487d-aadb-99fc89bf9b48",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "100.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "58.40"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4df09c4f-76ae-4cf8-b1f1-d0364f62595b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nWant free stuff? Ask a Team Member\nabout joining our Red Robin Royalty\nprogram.\n\n\nIf you would like to contact us,\nplease visit:\nredrobin.com/RestaurantFeedback\n\n\n--- Check Closed ---",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FSWjutL8n9uLHZV95d4TO%2FSWjutL8n9uLHZV95d4TO-9ecd9ff2-f8a5-41be-8334-1b5581d74741.png?alt=media&token=0efb09d4-2f66-4bb2-a9a7-33b7a478062d",
+  "published": true,
+  "id": "SWjutL8n9uLHZV95d4TO"
+}

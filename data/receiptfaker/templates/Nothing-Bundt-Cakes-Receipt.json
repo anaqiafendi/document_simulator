@@ -1,0 +1,147 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Nothing Bundt Cakes Receipt",
+  "description": "This receipt is a retail bakery transaction from Nothing Bundt Cakes located at 6895 Orchard Lake Rd., West Bloomfield, MI 48322, with phone number 248-970-4115. It is marked “Ready To Go” and includes server identification (Kayla D), check number (89), and an order timestamp of 3/19/25 at 5:04 PM. The receipt displays subtotal and total amounts of $31.00 and indicates EMV chip payment processing via VISA DEBIT with masked card number. Detailed payment metadata includes transaction type (Sale), authorization status (Approved), approval code (070459), Payment ID, Application ID, Application Label, Terminal ID, and card reader designation (BBPOS). The receipt concludes with a promotional survey invitation and website link, reflecting a modern bakery POS system with integrated EMV processing and customer feedback promotion.",
+  "slug": "Nothing-Bundt-Cakes-Receipt",
+  "createdAt": "$D2026-03-02T15:45:16.794Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F90f059d5-41cc-46d0-b403-e9c723c45593-image%20(21).jpg?alt=media&token=cfacff17-4ada-4be5-820e-361dfffda283",
+      "size": 236,
+      "businessDetails": "Nothing Bundt Cakes\n6895 Orchard Lake Rd.\nWest Bloomfield, MI 48322\n248-970-4115",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "541b5873-7eec-4118-a9a3-6d3f49edb494",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "Ready To Go",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "cbb8eab4-ed25-4c68-9e76-d2c0eb64ac27",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Server: Kayla D\nCheck #89\nOrdered:    3/19/25 5:04 PM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f700b674-1cda-41b6-ad6c-c0793c7c04df",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ac36ca9-429c-437e-bc0c-92fb135aea47",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d6ebd0c-48ed-4876-87b3-120fc92cefbf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Input Type       C (EMV Chip Read)\nVISA DEBIT      XXXXXXXXX5871\n\nTransaction Type     Sale\nAuthorization        Approved\nApproval Code        070459\nPayment ID           zmcJ9Lw7TpLF\nApplication ID      A0000000031010\nApplication Label    VISA DEBIT\nTerminal ID     857f24cd5a84542f\nCard Reader           BBPOS\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c67844a4-0c68-4bb5-aaf5-93eb3178dfbc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tell us about your experience and get a\nBUY ONE BUNDTLET, GET ONE FREE\ncoupon for your next in-bakery\npurchase!\n\nVisit https://NbCvisit.smg.com in the\nnext 3 days and enter survey code",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FHMttacgldkLMYvRJOmBk%2FHMttacgldkLMYvRJOmBk-da12cb35-02a4-4705-bb09-997cd86bd1f5.png?alt=media&token=64f6f678-0e68-4b1b-8d03-bd49a691ca51",
+  "published": true,
+  "id": "HMttacgldkLMYvRJOmBk"
+}

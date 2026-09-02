@@ -1,0 +1,151 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Carrabba's Italian Grill Receipt",
+  "description": "This receipt is a casual dining restaurant transaction issued by Carrabba’s Italian Grill at its Town Center, Georgia location, including store contact information and service details. It contains table number, party size, server reference, and timestamped transaction records. The receipt presents a detailed itemization of food and beverage orders, including modifiers, complimentary adjustments, and promotional discounts, followed by a structured financial summary with subtotal, tax, and total amount. It also includes gross amount information and a contactless payment option with a unique payment code. The format reflects a standard U.S. full-service restaurant POS receipt with integrated rewards messaging and promotional adjustments.",
+  "slug": "Carrabba's-Italian-Grill-Receipt",
+  "createdAt": "$D2026-04-17T08:38:16.590Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "97576a46-77f5-4c29-a6cf-5d539c5ebada",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F34232b28-160c-4a44-8fd0-3c12bf9c5ccd-image.jpg?alt=media&token=3d68a476-106b-4ab5-b014-099073054378",
+      "size": 231,
+      "businessDetails": "\nTown Center, GA\n(770)499-0338\n0184a Table 73  #Party 4\nDOROTHY K   SvrCk: 3  6:00p  11/04/20\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "952f2669-fdc1-4374-af51-b10f288fc004",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDine Rewards account not attached\n****************************\nNot a Dine Rewards member?\nJoin now at DINE-REWARDS.COM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b296c41-c9a0-4f88-a45a-26418f7a72dd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Classics Appetizer",
+          "total": "12.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Classics Appetizer",
+          "total": "18.99"
+        },
+        {
+          "quantity": 1,
+          "description": "SD Goat Cheese",
+          "total": "2.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Lobster Ravioli",
+          "total": "19.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Salmon Saporito",
+          "total": "21.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Spiedino di Mare",
+          "total": "21.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Add Gorgonzola (2.00)",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "COMP 2 RECOVERY ITEM",
+          "total": "-23.49"
+        },
+        {
+          "quantity": "",
+          "description": "Bottle Bogle Merlot",
+          "total": "31.00"
+        },
+        {
+          "quantity": "",
+          "description": "COMP 11 OPEN DOLLAR $,",
+          "total": "-10.00"
+        },
+        {
+          "quantity": "",
+          "description": "COMP 6 HEROES 10% OFF",
+          "total": "-7.65"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f3750d3-76ce-417f-9598-d89ab9af83ba",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Sub Total:",
+          "total": "89.81"
+        },
+        {
+          "quantity": "",
+          "description": "TAX:",
+          "total": "5.39"
+        },
+        {
+          "quantity": "",
+          "description": "11/04  6:48p  TOTAL:",
+          "total": "95.20"
+        },
+        {
+          "quantity": "",
+          "description": "Gross Amount:",
+          "total": "136.34"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "67369564-5cd7-4887-8878-adbf71806f1a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n*************************************\n\nWANT CONTACTLESS PAYMENT?\nDownload the Carrabbas App\nand enter the following\nPayment Code:\n\n\n\nQCJKBZ\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4Snfb8CI8gm9w0Alt0f7%2F4Snfb8CI8gm9w0Alt0f7-d60d4364-11cb-42ed-accd-3b6182a4f24f.png?alt=media&token=a6cac1f9-839a-4771-ad53-49d63b7f427b",
+  "published": true,
+  "id": "4Snfb8CI8gm9w0Alt0f7"
+}

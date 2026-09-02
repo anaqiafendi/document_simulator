@@ -1,0 +1,161 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Lucky Receipt",
+  "description": "This receipt is a grocery retail transaction issued by Lucky at its Grant Avenue location in California, United States, including store address and pharmacy contact information. It contains cashier and clerk identifiers along with a timestamped transaction record. The receipt presents a financial summary showing item pricing, manufacturer coupon deductions, subtotal, and total amount, with a negative balance reflecting full discount coverage. It also includes a savings breakdown highlighting total coupon value and percentage savings, reflecting a standard U.S. supermarket POS receipt format with promotional coupon application and detailed savings reporting.",
+  "slug": "Lucky-Receipt",
+  "createdAt": "$D2026-04-09T11:35:16.680Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ab42f926-806a-4951-b74e-461d22041f12",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb7cfc829-a2fe-4dc9-bdbc-5ac6bf7e477c-image%20(3).jpg?alt=media&token=5dd6befa-2a24-4cee-af17-94d4a2da3eb6",
+      "size": 190,
+      "businessDetails": "Lucky®\n2175 Grant Ave\n650-969-1326\nTry our Pharmacy at 650-969-0772\nLucky\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7533e3c9-ce07-4d40-93d8-1658882bc00b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Shana A",
+          "total": "Table 4"
+        },
+        {
+          "quantity": "",
+          "description": "Check #1",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Guest Count: 2",
+          "total": "8/19/20  9:10 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Ordered:",
+          "total": 10
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7c2edcfa-b26c-4819-9fea-05c12dba8d59",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOLTIA",
+          "total": "$$9.00"
+        },
+        {
+          "quantity": "",
+          "description": "Hemingway Martini Servidor",
+          "total": "(x2) $26.00"
+        },
+        {
+          "quantity": "",
+          "description": "Crab Cocktail",
+          "total": "$$17.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cellar White",
+          "total": "Cellar White"
+        },
+        {
+          "quantity": "",
+          "description": "Long Island Duck",
+          "total": "$$125.00"
+        },
+        {
+          "quantity": "",
+          "description": "Wagyu Beef Bone Marrow",
+          "total": "$$36.00"
+        },
+        {
+          "quantity": "",
+          "description": "Rib Cap - 160Z",
+          "total": "$$18.00"
+        },
+        {
+          "quantity": "",
+          "description": "Creme Brulée",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Tri-Color Crunch Risotto",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dbd66bb6-62e0-4790-bb20-59c6b2a9f08f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$220.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$26.40"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$246.40"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8924d48a-dcb6-47b2-a2a3-2801e6d933a1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFollow us @luckysons\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FL9FgPxUvuci54lX0XoUe%2FL9FgPxUvuci54lX0XoUe-ec54c933-7c3a-4708-b203-6e9f0bc10219.png?alt=media&token=0dfe75cd-1a2f-41e7-bac5-1bb2e7cce654",
+  "published": true,
+  "id": "L9FgPxUvuci54lX0XoUe"
+}

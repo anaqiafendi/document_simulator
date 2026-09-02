@@ -1,0 +1,101 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bath & Body Works Receipt",
+  "description": "This personal care retail receipt from Bath & Body Works displays the brand header followed by the St. Johns Town Center location in Jacksonville, Florida, along with customer service contact numbers. The receipt includes transaction number, store, register, and cashier identifiers, and a timestamp with date and time. A barcode sale identifier appears before the itemized section, which includes promotional discount lines formatted beneath each entry. The financial summary shows total discount, subtotal, state tax, and total amount. The payment section records a credit card transaction with masked account number, authorization code, swipe entry method, and approval status. The receipt concludes with total tender and change fields, consistent with mall retail point-of-sale formatting.",
+  "slug": "Bath-and-Body-Works-Receipt",
+  "createdAt": "$D2026-02-19T15:24:09.991Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "79e23f96-4380-4319-ac9a-9773d995dfae",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9735c56c-0548-49fb-b53a-a54d7952c8f3-bath.jpg?alt=media&token=5de6c4da-007d-472a-89a7-b741553c3d96",
+      "size": 203,
+      "businessDetails": "ST. JOHNS TOWN CENTER\n4742 RIVER CITY DR\nJACKSONVILLE, FL 32246\n\nQUESTIONS, CALL 1-800-396-1001\nTTY/TDD 1-866-315-3129",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b0be34cd-6b88-4cd2-a9e4-c03b1f687bda",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "11/22/18                    5:40 PM\nStore: 81498\nTrans: 0422           Till: 1004\nReg: 004\nCash: 2680710",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "c8b8d7fb-3ef0-435d-99aa-958b196dedd3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee0e04a7-9e66-4be8-ac30-019a1ae60601",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe3859e4-548d-4a23-88ab-7e146fcdcd48",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "8149804042211232018",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "23e62467-2265-4b1e-ac5f-6ace328086c5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "$3e",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "70ad0e9a-82c8-4907-9067-87bfec1875ab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ACCT: PRIV                        SWIPED",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b1048003-3481-4a98-a91e-1b1aeb3553fe",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CARD #: xxxxxxxxxxxx0175   EXP xx/xx\nDATE/TIME: 11/22/2018 17:40:13\nREF #: 546151\nAUTH #: 001496     RESP: 000\nISO: 000",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff0761b4-f65f-4e4f-b647-bb1041fbdd21",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Total USD$                        78.65\nAPPROVED\n\nTotal Tender                      78.65\nChange                             0.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FAMXoa332h7L5eQHki5gA%2FAMXoa332h7L5eQHki5gA-0b15bec7-613f-423a-aca0-7b5970157ce8.png?alt=media&token=b794c208-408c-46f0-9e3e-79766a70cc12",
+  "published": true,
+  "id": "AMXoa332h7L5eQHki5gA"
+}

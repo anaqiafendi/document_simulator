@@ -1,0 +1,113 @@
+{
+  "currency": "",
+  "slug": "McDonald's-Germany-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T12:21:22.031Z",
+  "description": "This quick-service restaurant receipt from McDonald's documents a cash transaction processed at the Am Ostbahnhof location in Berlin, Germany. The receipt includes company identification details for McDonald's Deutschland Inc., store address information, order number references, terminal identifiers, transaction date metadata, and tax registration information. The POS structure contains item quantity formatting, VAT-inclusive total presentation in euros, cash payment confirmation, and German VAT calculations showing tax rate, gross amount, and VAT amount aligned in standard German fast-food thermal receipt formatting. Additional receipt elements include customer appreciation messaging, store contact information, and regulatory product disclosure notes near the footer. The layout reflects a standard German McDonald's thermal receipt with localized VAT accounting and quick-service restaurant transaction formatting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "McDonald's Germany Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "24e6ab7a-461f-4851-b052-ba02a9358fae",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F562b8085-7fe9-4491-9693-7d2bab928a42-image%20(1).jpg?alt=media&token=59abe9b2-58e6-4119-9da2-4adeda41b127",
+      "size": 246,
+      "businessDetails": "McDonalds\nDeutschland Inc.\nAm Ostbahnhof 9\n10243 Berlin\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7785ae6-50d5-4bcd-a99e-d0aabb032c5f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "#DT 1485",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "#ORD 2487 – KS. 3–",
+          "total": "15.10.2014"
+        },
+        {
+          "quantity": "",
+          "description": "ANZ   ARTIKEL",
+          "total": "BETRAG"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "EUR"
+        },
+        {
+          "quantity": "",
+          "description": "1 Cheeseburger*",
+          "total": "1,19"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal (inkl. MwSt) EUR",
+          "total": "\n\n1,19"
+        },
+        {
+          "quantity": "",
+          "description": "Gegeben EURO",
+          "total": "1,19"
+        },
+        {
+          "quantity": "",
+          "description": "\nSt. Nr. 143/250/50528",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\nSATZ\tBRUTTO\tMWS"
+        },
+        {
+          "quantity": "",
+          "description": "Inkl.  MwSt:   7,00%\t1,11\t0,08",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd608709-152a-447b-b193-ddfb12979f5f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVielen Dank\nfur Ihren Besuch!\nTel. 030 29364913\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4c098e5-c473-4c59-8dc9-7efa652be3d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "* Rinder wurden mit GENmanipuliertem Futter gemästet",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "daWjShkslhvZky3mXrT6"
+}

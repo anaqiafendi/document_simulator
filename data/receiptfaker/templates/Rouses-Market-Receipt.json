@@ -1,0 +1,163 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T17:48:07.251Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Rouses Market Receipt",
+  "description": "Rouses Market grocery retail receipt featuring the store branding prominently at the top followed by a traditional supermarket thermal POS transaction layout. The main section contains numbered transaction entries, product-status indicators, promotional pricing references, weighted-entry information, and a free-item notation. The financial summary is separated by divider lines and records the sale subtotal, sales tax, and final total sales amount. Payment information includes a masked account number, approval reference, Visa tender designation, and corresponding payment amount. The lower section records the total number of items purchased and identifies the cashier by name. The receipt concludes with a customer thank-you message and the Rouses Market name, providing a standard grocery-store transaction footer.",
+  "slug": "Rouses-Market-Receipt",
+  "published": true,
+  "sections": [
+    {
+      "id": "2725da49-cb6e-4ea3-90c2-fa2ba82a8d81",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F898b0c5f-625b-4dd8-bf20-dc5287c5afa6-image%20(1).jpg?alt=media&token=622a522b-6e0e-464f-a68d-f301e676baa8",
+      "size": 251,
+      "businessDetails": "Gulf Coast's Best",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1c43d03e-8432-4933-a5a5-a76c11eda6a7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1  Dannon Plain Yogurt",
+          "total": "\nTF     3.29"
+        },
+        {
+          "quantity": "",
+          "description": "2  BST-Ch TOMATO/GREEN CHILI",
+          "total": "TF     0.73"
+        },
+        {
+          "quantity": "",
+          "description": "3  Bst-Ch Pizza Shred",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 eaP @ 2 eaP/ ",
+          "total": "4.00 TF    2.00"
+        },
+        {
+          "quantity": "",
+          "description": "4  Krft Phil Neufchatel Lt",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 eaP @ 2 eaP/ ",
+          "total": "3.00 TF    1.50"
+        },
+        {
+          "quantity": "",
+          "description": "5  Bst-Ch Black Bean Ssn",
+          "total": "TF  0.89"
+        },
+        {
+          "quantity": "",
+          "description": "6  Mission Soft Taco Tortill",
+          "total": "TF  2.79"
+        },
+        {
+          "quantity": "",
+          "description": "7  Mission Soft Taco Tortill",
+          "total": "FREE"
+        },
+        {
+          "quantity": "",
+          "description": "8  Bst-Ch Wide Egg Noodles",
+          "total": "TF  1.57"
+        },
+        {
+          "quantity": "",
+          "description": "9  Medium Yellow Onions",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "0.55 @ 1 . 19 TF",
+          "total": "0.65"
+        },
+        {
+          "quantity": "",
+          "description": "10 Paula Red Apples Large",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1.87 @ 1 . 69 TF ",
+          "total": "3.16"
+        },
+        {
+          "quantity": "",
+          "description": "11 Cilantro Bunches ",
+          "total": "0.89"
+        },
+        {
+          "quantity": "",
+          "description": "12 Parsley Italian Herb",
+          "total": "0.85"
+        },
+        {
+          "quantity": "",
+          "description": "12 Rouses Rostissr Chicken",
+          "total": "6.99"
+        },
+        {
+          "quantity": "",
+          "description": "\n*******   Sale Subtotal ",
+          "total": "\n25.31"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax",
+          "total": "1.50"
+        },
+        {
+          "quantity": "",
+          "description": "*******   Total Sale",
+          "total": "26.81"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ca3bc412-eec8-4bff-bf3e-99fca257b954",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nAccount No: ***********0997\nApor No: 310840\nVISA\n\nITEMS PURCHASED: 13\n\nYour Cashier: FERN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dae478c2-e389-4d32-b15b-b7c438c4df0c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThanks For Shopping\nRouses Market\nNO LA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "WOns8oJbjoXZoCAIR7GV"
+}

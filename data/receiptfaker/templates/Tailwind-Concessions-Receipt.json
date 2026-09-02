@@ -1,0 +1,119 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T14:14:00.807Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Tailwind Concessions Receipt",
+  "description": "This receipt is a retail transaction issued by Tailwind Concessions at a location in Corpus Christi, Texas, likely within an airport or travel hub. It documents the purchase of a Lightning cable accessory, including item price, subtotal, and applicable sales tax. The receipt includes order and check numbers, server information, and timestamps for the transaction. Payment was made using a Visa card, and the balance due is zero. It also provides customer service contact information and a barcode for transaction tracking. The format reflects a standard U.S. point-of-sale receipt used in concession or retail environments.",
+  "sections": [
+    {
+      "id": "45ad949c-c44a-4034-85b3-e3f89f9720a6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nTAILWIND CONCESSIONS\nTailwind Corpus Christi (CRP)\n1000 International Blvd\nCorpus Christi, TX 78406",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c4d3458-8ff5-41fd-8b11-e28b7ae4cdf6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n#21\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "904dfe43-b26b-4cde-8f1f-716d17a89d66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nOpened:  12/01/2023  5:02 am\nClosed:  12/01/2023  5:02 am\n         891736          Check: 1\nOrder Type: +Post Gift\nName: Quick Sale\nServer: Avery\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7b5ce26-a8ee-438a-be3d-6e8f354710ce",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "CH 6 LIGHTNING CABLE BLK   ",
+          "total": "18.99"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal                       ",
+          "total": "18.99"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax                       ",
+          "total": "1.57"
+        },
+        {
+          "quantity": "",
+          "description": "Total                          ",
+          "total": "20.56"
+        },
+        {
+          "quantity": "",
+          "description": "Visa 3395 (07186I)            ",
+          "total": " 20.56"
+        },
+        {
+          "quantity": "",
+          "description": "Balance Due                    ",
+          "total": " 0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "74c9971c-4690-47a7-ad11-19293b46559c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCustomer copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "823359db-f8c7-4cd5-9f9c-a17fc2a4f4b8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nWe would love to hear from you!\nCompliments, Questions, Concerns?\nPlease contact us:\nInfo@TailwindConcessions.com\n1-866-578-7355\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1e3bda9c-7b4e-4862-9973-49c342cb8e4d",
+      "type": "BARCODE",
+      "size": 73,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Tailwind-Concessions-Receipt",
+  "published": true,
+  "id": "k9GiGvc5kqQx84VtkM7y"
+}

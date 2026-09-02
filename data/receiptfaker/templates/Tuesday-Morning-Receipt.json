@@ -1,0 +1,58 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Tuesday Morning Receipt",
+  "description": "A customer return receipt from Tuesday Morning, Inc., located at 17937 I-45 North, Suite #125, Shenandoah, TX 77385, phone (936) 273-1573. The receipt is labeled “Customer copy” and shows an item return for product code 1964663 (WHITE KG 550TC 6PC) priced at $39.99. It includes a total refund amount of $39.99, return policy details regarding items returned after 45 days, the website www.tuesdaymorning.com\n, and a timestamp of 12/16/18 at 11:57 AM.",
+  "slug": "Tuesday-Morning-Receipt",
+  "createdAt": "$D2026-02-12T19:41:05.469Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "765d2d94-4cba-480c-a75b-d3cf091b0db8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff315605a-e0b7-437f-9db3-2b088961f691-tuesday%20morning.jpg?alt=media&token=5b6435e6-93ac-4fd7-905d-74e7c07a9e1d",
+      "size": 194,
+      "businessDetails": "Tuesday Morning, Inc.\n17937 I-45 North\nSuite #125\nShenandoah, TX 77385\n(936) 273-1573\n\nCustomer copy\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa67e029-578b-4092-bd02-ec80ee50c9a3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1964663 WHITE KG 550TC 6PC 39.99\n*** Item Returned",
+          "total": "2.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "SUB  39.99",
+      "totalText": "TOTAL",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "59efde10-ac00-48bd-bde7-65dae8b57adb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nReturns for more than 45 days require\na check to be issued from the corporate office.\nPlease allow 2 weeks.\n\nVISIT US AT\nWWW.TUESDAYMORNING.COM\n\n12/16/18 11:57 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FmXbV10ykBQ7yM9s0hr6Q%2FmXbV10ykBQ7yM9s0hr6Q-33aa72b4-b1f0-4126-ba8c-70891ea0e6cf.png?alt=media&token=9dba0da5-14e7-4a59-b99e-dd53ea872f2f",
+  "published": true,
+  "id": "mXbV10ykBQ7yM9s0hr6Q"
+}

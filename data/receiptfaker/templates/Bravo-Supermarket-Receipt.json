@@ -1,0 +1,126 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T15:50:56.922Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "2ce45f60-bf12-42ec-a87e-38dd9e62bedc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F936f1e86-cf9c-445e-b8f6-8eb781987355-image.jpg?alt=media&token=55f1f8c8-0ccc-4740-b20b-6f4145f9bc69",
+      "size": 254,
+      "businessDetails": "713 784-8420\n34-12 34th AVE\nAstoria New York\nStore:4305\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1aaaeac4-44d8-41e7-9559-71f665b5e11a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cashier: Eva\n",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "12/14/09",
+          "total": "15:58:48"
+        },
+        {
+          "quantity": "",
+          "description": "\nGROCERY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CAMPBELL'S CHUNK ",
+          "total": "2.89 F"
+        },
+        {
+          "quantity": "",
+          "description": "MEAT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BEEF GROUND SIRLOIN",
+          "total": "3.35 F"
+        },
+        {
+          "quantity": "",
+          "description": "OSCAR BACON",
+          "total": "3.35 F"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSUBTOTAL",
+          "value": "\n9.83"
+        },
+        {
+          "title": "Total Tax",
+          "value": ".00"
+        },
+        {
+          "title": "TOTAL",
+          "value": "9.83"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2aafeec3-8f83-40a1-8937-d20e462dd7bb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCASH        TENDER",
+          "total": "\n20.00"
+        },
+        {
+          "quantity": "",
+          "description": "CASH         Change",
+          "total": "10.17"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0d7ec2a-ddde-4f88-958e-0e4a90c142aa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNUMBER OF ITEMS   3\n\nTrx:305  Term:1  Store:4305  15:59:14\n\nThank you for shopping at\nBravo Supermarket\nWhere shopping is a pleasure",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Bravo Supermarket and identifies the store as 34-12 34th Avenue, Astoria, New York, Store 4305. The header contains the Bravo Supermarket branding, contact telephone number, store address, store number, cashier name, and transaction date and time. The receipt records the purchase of Campbell's Chunk Soup, Ground Sirloin, and Oscar Bacon. The financial section records the subtotal, confirms that no sales tax was charged, the final transaction total, the cash amount tendered, and the change returned. The footer records the total number of items purchased, transaction information, and concludes with a customer appreciation message. The overall layout is representative of a United States supermarket POS receipt, combining grocery and meat itemization, cash payment reconciliation, and transaction information within a compact retail receipt format.",
+  "name": "Bravo Supermarket Receipt",
+  "slug": "Bravo-Supermarket-Receipt",
+  "published": true,
+  "id": "JXKzqveBNnpohQQiiu2h"
+}

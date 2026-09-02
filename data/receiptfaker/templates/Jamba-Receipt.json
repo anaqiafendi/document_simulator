@@ -1,0 +1,163 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Jamba Receipt",
+  "description": "This receipt is a quick-service beverage transaction issued by Jamba at its Phoenix, Arizona location, including full store address, contact number, and website. It features a branded header followed by service identifiers such as server name, check number, and a timestamped transaction record. The receipt presents a structured financial summary with subtotal, tax, and total amounts, along with payment details showing cash tendered and change returned. A barcode with numeric encoding is included for transaction tracking, and the receipt concludes with POS system attribution indicating processing through Toast, reflecting a standard U.S. smoothie and beverage retail receipt format.",
+  "slug": "Jamba-Receipt",
+  "createdAt": "$D2026-04-06T03:55:58.805Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9206fa6c-505d-4de9-81f7-8acb97760d87-image%20(5).jpg?alt=media&token=89c9637a-47b8-413b-9487-1c82c079d1b3",
+      "size": 200,
+      "businessDetails": "Jamba\n4811 N. 16th St, #102\nPhoenix, AZ 85016\n602-631-9000\nhttp://www.jamba.com/\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "473473c1-197e-4f30-9b86-1fd7ff9f5ae1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Jonathan L",
+          "total": "03/11/20 3:46 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Check #143",
+          "total": "Brenda"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7290c9d9-16db-4f8c-9953-e97e7ac1eed7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Medium PB Chocolate Love",
+          "total": "$$6.99"
+        },
+        {
+          "quantity": "",
+          "description": "3G Energy",
+          "total": "$$0.25"
+        },
+        {
+          "quantity": "",
+          "description": "Whey Protein",
+          "total": "$$0.25"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f2facd02-84c4-4b54-b99a-f4ed5424ba4a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$7.49"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$0.64"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$8.13"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b4b8bf10-fd54-4b6e-9152-ff11bb164e77",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cash Tendered",
+          "total": "$$10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$1.87"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "68297ee2-9c70-4e51-b358-5b94e5ccbbd7",
+      "type": "BARCODE",
+      "size": 76,
+      "length": 380,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1312545b-c795-4054-9c23-6363fa5fc146",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "4084071421304",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6389f301-de5a-4aec-b562-cc96fb728f8b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPowered by Toast",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FEeWsB7zOvfEQsI1VwfVK%2FEeWsB7zOvfEQsI1VwfVK-57f8a360-161a-4d34-b42b-e4c467cf3cb1.png?alt=media&token=d2abba8a-17bf-4730-a64c-3e4bbf5c79b7",
+  "published": true,
+  "id": "EeWsB7zOvfEQsI1VwfVK"
+}

@@ -1,0 +1,162 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-29T09:58:09.565Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F78b854ac-7cac-4e4a-9c1e-afe5b0c6bbff-chipotle-seeklogo.png?alt=media&token=a78a623b-9a3a-4953-b659-dda8b95b4cbd",
+      "size": 115,
+      "businessDetails": "NICE ORDER YOU'VE GOT THERE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Host:\nORDER #132\nREPRINT# 1",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9d8e8e9-a9f5-437c-a054-4ed5133cf9a8",
+      "type": "DATE",
+      "alignment": "RIGHT",
+      "date": "5/25/2025, 8:37:07 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Chicken Bowl",
+          "total": "14.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Queso",
+          "total": "2.30"
+        },
+        {
+          "quantity": "1",
+          "description": "Guacamole",
+          "total": "2.30"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "bf3ada26-4513-4e82-a912-b269265358af",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "REWARDS POINTS ARE ON THE WAY!\nThey will display in 24-48 hrs\n\nHow're we doing? Let us know at chipotlefeedback.com to win FREE chipotle for a year!\nFor complete rules visit our website.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "13f2b011-59ef-45ea-8d8b-377412debc19",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "19.10"
+        },
+        {
+          "title": "Tax",
+          "value": "1.43"
+        }
+      ],
+      "total": "20.53",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7f4bdae-a56e-4562-8cdf-a3e06769f222",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Love Chipotle? Join Our Team\n\nGet great benefits like:\nFree Chipotle\nDept-free college degrees\nBonus eligibility\nRapid career growth\nAnd more!\nVisit jobs.chipotle.com\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Chipotle Receipt",
+  "slug": "Chipotle-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F9m5PXTsmGWdtkYwq99Xx%2F9m5PXTsmGWdtkYwq99Xx-48cb61aa-9628-4e0a-8c8c-bcd8f3127889.png?alt=media&token=3ab57193-ef45-4e7c-8110-7f63fe1bc102",
+  "description": "Need a Chipotle receipt? Use our free generator to create a detailed food order receipt. Add restaurant info, menu items, prices, tax, and payment—perfect for expense tracking, returns, or personal records.",
+  "published": true,
+  "metatitle": "Fake Chipotle Receipt",
+  "metadesc": "realistic Chipotle food receipts with burrito bowls, tacos, drinks and sides - perfect for expense reports and documentation",
+  "id": "9m5PXTsmGWdtkYwq99Xx"
+}

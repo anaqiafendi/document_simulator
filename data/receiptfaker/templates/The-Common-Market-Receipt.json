@@ -1,0 +1,142 @@
+{
+  "sections": [
+    {
+      "type": "HEADER",
+      "bottomDividerType": "EMPTY",
+      "businessDetails": " 235 W Tremont Ave\nCharlotte, NC 28203\n(980) 207-3187",
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FCLIvSWwyd7QHLwtIxPgdmktV9BA2%2F89236f51-6d77-4a43-b5ed-ece0f4b59514-download%20(1).png?alt=media&token=6cea4cd6-f878-4d38-9188-1aa139304908",
+      "bottomDivider": true,
+      "size": 193,
+      "date": "$undefined"
+    },
+    {
+      "date": "12/24/2025                   6:30 PM",
+      "alignment": "LEFT",
+      "id": "def05a69-e6ef-4acc-ab1e-4b9485cc19c9",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "type": "DATE"
+    },
+    {
+      "totalSizeIncreased": "PERCENT_50",
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "bottomDividerType": "STARS",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "items": [
+        {
+          "total": "141.00",
+          "description": "Teds Yoga Scrub Pant",
+          "quantity": "1"
+        },
+        {
+          "description": "Diesel Drawstring Pant",
+          "total": "160.00",
+          "quantity": 1
+        },
+        {
+          "total": "150.00",
+          "description": "Belkins Charger station",
+          "quantity": 1
+        },
+        {
+          "quantity": 1,
+          "description": "Char Water wipes pack",
+          "total": "40.00"
+        },
+        {
+          "quantity": "2",
+          "total": "60.00",
+          "description": "Victoria Secret body spray"
+        }
+      ],
+      "total": "596.00",
+      "totalLines": [
+        {
+          "value": "552.00",
+          "title": "Subtotal"
+        },
+        {
+          "value": "44.00",
+          "title": "Tax "
+        }
+      ],
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 1508"
+        },
+        {
+          "title": "Card type",
+          "value": "Credit"
+        },
+        {
+          "value": "Chip",
+          "title": "Card entry"
+        },
+        {
+          "title": "Date/time",
+          "value": "12/24/2025  6:30 PM"
+        },
+        {
+          "value": "40685348926024652620C",
+          "title": "Reference #"
+        },
+        {
+          "value": "APPROVED",
+          "title": "Status"
+        }
+      ],
+      "type": "PAYMENT",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "cashFields": [
+        {
+          "value": "600.00",
+          "title": "Cash"
+        },
+        {
+          "value": "5.00",
+          "title": "Change"
+        }
+      ],
+      "isCash": false,
+      "id": "b84f3930-7f3b-4e9d-9cdd-cd9e1af1f454",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "custom": "\n\nIf for any reason you are not completely satisfied with your purchase, simply return the item to us in its original condition. Refunds with a receipt will be given in the manner in which you paid. Store credit will be issued for returns without a receipt. Items that have been worn, washed, customized, or altered are not returnable. Please call with any questions or to further discuss the policy.",
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "date": "$undefined"
+    }
+  ],
+  "backgroundType": "CRUMPLED_5",
+  "fontType": "MERCHANT_COPY",
+  "slug": "The-Common-Market-Receipt",
+  "description": "Retail purchase receipt from The Common Market showing store location, date and time of purchase, list of items bought with prices, subtotal, tax, total amount paid, and card payment details.",
+  "name": "The Common Market Receipt",
+  "backgroundCrumpled": false,
+  "textColor": "#101828",
+  "createdAt": "$D2026-02-03T11:45:06.610Z",
+  "isParent": true,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "metadesc": "authentic Clothes Quarters receipts with custom clothing items, prices, store details, and payment info for returns and records",
+  "numberFormat": "LEFT",
+  "currency": "$$",
+  "metatitle": "Clothes Quarters Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9SSMTkhqgZwYkO6s81fF%2F9SSMTkhqgZwYkO6s81fF-ed43b9e4-e074-4ce7-8b1b-145aa0934bb7.png?alt=media&token=95a5c505-c80d-4167-a659-f49dab3a1b74",
+  "published": true,
+  "id": "9SSMTkhqgZwYkO6s81fF"
+}

@@ -1,0 +1,131 @@
+{
+  "createdBy": "Mj7c8RbvHQbgiVrgQXggu7RDBlx2",
+  "name": "Nike Shoes Receipt",
+  "description": "Need a custom Nike shoes receipt? Our free Receipt Generator makes it simple to create and download detailed purchase receipts in minutes. Whether you're replacing a lost receipt, organizing your records, or submitting proof of purchase, this tool offers a fast and professional solution. Personalize the store name, shoe model, size, price, taxes, and payment details - then instantly generate a sleek, printable receipt that looks just like the real thing.",
+  "slug": "Nike-Shoes-Receipt",
+  "createdAt": "$D2025-05-03T13:10:46.268Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b797203e-7381-40dd-bdea-e8571aaf06f2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fdc84f48f-4314-4f2c-a0d5-2de0f3313891-Nike%20Logo.png?alt=media&token=a160fedd-9da6-433e-a1aa-63abd9ff7b90",
+      "size": 89,
+      "businessDetails": "Retailors Sports Inc\nYorkdale Shopping Centre\n3401 Dufferin St. Unit-48\nToronto, ON M6A 2T9\n(647) 351-8485\nGST / HST #7245006460435",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "510c2b05-99ce-4665-bc9b-8d889bbac8e6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Slip: 00503485\nStaff: 14035\nDate: 03/05/2025, 14:45:37",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03bcef18-d6cc-4845-b7bc-aff3ed3752fe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "AIR ZOOM PEGASUS 38",
+          "total": "170"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "170"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "22.10"
+        }
+      ],
+      "total": "192.10",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7086aa1b-cbe6-40d2-a560-1a12a53d3175",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae3f6f61-670a-4d01-8c49-add29d989c77",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Regular or Sale priced merchandise\ncan be exchanged or refunded within\n30 days with original receipt.\nAll Refunds made back to original\nmethod of payment.\nItems must be new, unused and \nunwashed condition, with original\ntags attached.\nRetailors Sports Inc. is a Nike\nPartner and is legally unable to\nreturn items from Nike.com and\nOutlet stores",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9770a12b-eaff-4879-9ed9-3a0a00c9f7e2",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 360,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F6CstHz9ulITFNqv7AG8C%2F6CstHz9ulITFNqv7AG8C-9dcd1787-fdc2-4b69-9ce8-b0c6fd0805fb.png?alt=media&token=4b2d7c92-e524-45c0-ad1c-6bc68d7bb47b",
+  "published": true,
+  "metatitle": "Nike Shoes Receipt",
+  "metadesc": "professional Nike shoe receipts with custom store details, shoe models, sizes, prices, and payment info using our free tool",
+  "id": "6CstHz9ulITFNqv7AG8C"
+}

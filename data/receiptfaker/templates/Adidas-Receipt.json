@@ -1,0 +1,521 @@
+{
+  "createdAt": "$D2026-02-24T12:15:09.048Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_2",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "80cc82fb-7869-459c-8862-1fa21eb23600",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FYL9cje7tPjbMNQn1H9xgfh1pFWC3%2F5d5e09fb-cfcb-4c4c-b07d-2c59c3017990-o_1hori682b1or115om1bo81jak1f8813%20(1).jpeg?alt=media&token=48b49ba4-ef23-4f23-909f-78ee45fa7259",
+      "size": 140,
+      "businessDetails": "6395 - Junction Commons\n6699 N Landmark Dr, \nPark City, UT 84098\n(435) 658-5129\n\n\n*****\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "98c2c7b3-581e-4d10-9050-dc3f721439e5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Sales Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "32ea04fc-a8e0-437a-bd97-fe8043fbf10c",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Our  Selling\nItem                  Price    Price",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c5b349a3-2377-410d-9b84-922e40b5ff5a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "IF4863",
+          "description": "8.5-  [1]      49.98",
+          "total": "24.99T"
+        },
+        {
+          "quantity": "",
+          "description": "TERREX AX4 GTX W",
+          "total": "TTD (-24.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "IF4863",
+          "description": "8.5-  [1]      49.98",
+          "total": "24.99T"
+        },
+        {
+          "quantity": "",
+          "description": "TERREX AX4 GTX W",
+          "total": "TTD (-24.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "IF4863",
+          "description": "9-    [1]      49.98",
+          "total": "24.99T"
+        },
+        {
+          "quantity": "",
+          "description": "TERREX AX4 GTX W",
+          "total": "TTD (-24.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "H03131",
+          "description": "5-    [1]      30.00",
+          "total": "15.00T"
+        },
+        {
+          "quantity": "",
+          "description": "OZELIA J",
+          "total": "TTD (-15.00)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "H03131",
+          "description": "5-    [1]      30.00",
+          "total": "15.00T"
+        },
+        {
+          "quantity": "",
+          "description": "OZELIA J",
+          "total": "TTD (-15.00)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "H03131",
+          "description": "5.5-  [1]      30.00",
+          "total": "15.00T"
+        },
+        {
+          "quantity": "",
+          "description": "OZELIA J",
+          "total": "TTD (-15.00)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "H03131",
+          "description": "5.5-  [1]      30.00",
+          "total": "15.00T"
+        },
+        {
+          "quantity": "",
+          "description": "OZELIA J",
+          "total": "TTD (-15.00)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "ID9338",
+          "description": "12-   [1]      79.98",
+          "total": "39.99T"
+        },
+        {
+          "quantity": "",
+          "description": "X CRAZYFAST.3 FG",
+          "total": "TTD (-39.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "ID9338",
+          "description": "12-   [1]      79.98",
+          "total": "39.99T"
+        },
+        {
+          "quantity": "",
+          "description": "X CRAZYFAST.3 FG",
+          "total": "TTD (-39.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "ID9338",
+          "description": "12-   [1]      79.98",
+          "total": "39.99T"
+        },
+        {
+          "quantity": "",
+          "description": "X CRAZYFAST.3 FG",
+          "total": "TTD (-39.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "GY9353",
+          "description": "7.5-  [1]      99.98",
+          "total": "49.99T"
+        },
+        {
+          "quantity": "",
+          "description": "ULTRABOOST LIGHT W",
+          "total": "TTD (-49.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "GY9353",
+          "description": "7.5-  [1]      99.98",
+          "total": "49.99T"
+        },
+        {
+          "quantity": "",
+          "description": "ULTRABOOST LIGHT W",
+          "total": "TTD (-49.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "GY9353",
+          "description": "7.5-  [1]      99.98",
+          "total": "49.99T"
+        },
+        {
+          "quantity": "",
+          "description": "ULTRABOOST LIGHT W",
+          "total": "TTD (-49.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "GY9353",
+          "description": "7.5-  [1]      99.98",
+          "total": "49.99T"
+        },
+        {
+          "quantity": "",
+          "description": "ULTRABOOST LIGHT W",
+          "total": "TTD (-49.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "HP9205",
+          "description": "8-    [1]      89.98",
+          "total": "44.99T"
+        },
+        {
+          "quantity": "",
+          "description": "ULTRABOOST LIGHT W",
+          "total": "TTD (-44.99)"
+        },
+        {
+          "quantity": "50%OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "HP9205",
+          "description": "8-    [1]      89.98",
+          "total": "44.99T"
+        },
+        {
+          "quantity": "",
+          "description": "ULTRABOOST LIGHT W",
+          "total": "TTD (-44.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "HP9205",
+          "description": "7.5-  [1]      89.98",
+          "total": "44.99T"
+        },
+        {
+          "quantity": "",
+          "description": "ULTRABOOST LIGHT W",
+          "total": "TTD (-44.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "HP9205",
+          "description": "7-    [1]      89.98",
+          "total": "44.99T"
+        },
+        {
+          "quantity": "",
+          "description": "ULTRABOOST LIGHT W",
+          "total": "TTD (-44.99)"
+        },
+        {
+          "quantity": "50% OFF\n",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "IF7332",
+          "description": "11.5- [1]      44.98",
+          "total": "22.49T"
+        },
+        {
+          "quantity": "",
+          "description": "KAPTIR 3.0 WIDE",
+          "total": "TTD (-22.49)"
+        },
+        {
+          "quantity": "50% OFF",
+          "description": "",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": ""
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c3683d72-b33c-444c-af74-58871b986bb4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "-----------"
+        },
+        {
+          "quantity": "SUBTOTAL",
+          "description": "[19]\n",
+          "total": "USD      657.35"
+        },
+        {
+          "quantity": "Total Tax",
+          "description": "",
+          "total": "USD       62.77"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "-----------"
+        },
+        {
+          "quantity": "TOTAL\n",
+          "description": "",
+          "total": "USD      720.12"
+        },
+        {
+          "quantity": "Total Discounts",
+          "description": "",
+          "total": "USD      657.35"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cdea1563-af2e-4b62-bd1b-57f08e568a58",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "CARD",
+          "description": "",
+          "total": "720.12"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90a2aaea-877b-4891-abc1-7575085f5fec",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Date",
+          "value": "3/2/2025"
+        },
+        {
+          "title": "Time",
+          "value": "17:11:59"
+        },
+        {
+          "title": "Pref. Name",
+          "value": "Visa"
+        },
+        {
+          "title": "Auth. Code",
+          "value": "101015"
+        },
+        {
+          "title": "Card",
+          "value": "****5324"
+        },
+        {
+          "title": "Effective",
+          "value": "3/2/2025"
+        },
+        {
+          "title": "TOTAL",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "40d6bf00-0849-4291-abd8-1af17eacace6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank You",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7d558238-6a15-4c08-8b4d-48507dddae25",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ORIGINAL",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1a3f687-40cd-4c0f-be4c-70580c218b0e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "8 1 9 7 2 1 1 4 5 0 9 6 6 0 0 3",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9b32342-f037-4fd1-a59b-ff9f16d4953a",
+      "type": "BARCODE",
+      "size": 66,
+      "length": 475,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5767c102-d79b-4703-8d43-a8e9884208d0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "RECIEPT EXPIRES: 4/1/2025\n\n*****\nREFUND POLICY: MOST MERCHANDISE MAY BE RETURNED OR EXCHANGED WITHIN 30 DAYS. ITEMS MARKED ALL SALES FINAL OR FINAL SALE ARE NOT RETURNABLE. FOR DETAILS PLEASE GO TO: ADIDAS.COM/STORERETURNS",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f9d2958a-04be-4110-8507-ac797ba3ebc4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU FOR SHOPPING WITH ADIDAS. SHOP ONLINE 24/7 AT ADIDAS.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Adidas Receipt",
+  "description": "This receipt-style Adidas logo features the brand name displayed beneath the three-stripe performance mark in bold black text on a clean white background. The layout reflects thermal POS printing, with centered alignment and compact spacing typical of retail sales receipts. The logo appears at the top of the receipt header above store location details and contact information, consistent with athletic retail store formatting. The design preserves the lowercase “adidas” typography and registered trademark symbol, formatted in a high-contrast monochrome style suitable for receipt printing systems.",
+  "slug": "Adidas-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FkU2gGAVKOWDsUo6tBgZx%2FkU2gGAVKOWDsUo6tBgZx-276dbeaf-aee2-4495-9508-0f75bac24d1a.png?alt=media&token=b9bff046-ab52-4410-8f19-5c8af1bd39a5",
+  "published": true,
+  "id": "kU2gGAVKOWDsUo6tBgZx"
+}

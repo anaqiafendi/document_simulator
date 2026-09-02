@@ -1,0 +1,129 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-03T19:02:39.803Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "24f483fa-d0cf-4fbe-8669-dd4d10da8487",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffb470bd5-0f6b-47d3-8a90-ba1de7e8dad4-image%20(1).jpg?alt=media&token=d9a5190b-e269-41b8-b746-13c348483eab",
+      "size": 253,
+      "businessDetails": "MICHAELS STORE #9189 (616)647-9483\n\nMICHAELS STORE #9189\n3310 ALPINE AVE NU UNIT S\nWALKER, MI 49544\n\n** Return Barcode **",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4bd6dfe-c3a3-4fee-af53-1c6448e4591d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n8-9081-7255-6695-6551-1111-4110-",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9a33cf8-cb5f-4480-9a4c-6395d2de51b1",
+      "type": "BARCODE",
+      "size": 83,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9749e037-1071-46c9-a5dd-8a126dca3000",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n101 SALE 5264 9189 003 8/03/15 16:18\n\nSHELL BAG 5# GAR 95084674100 11.99",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dec39306-7099-4ab1-a4af-404ad7d51cf0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "11.99"
+        },
+        {
+          "quantity": "",
+          "description": "SALES TAX 6%",
+          "total": ".72"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "12.71"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nACCOUNT NUMBER",
+          "total": "\n\n************2412"
+        },
+        {
+          "quantity": "",
+          "description": "Debit",
+          "total": "12.71"
+        },
+        {
+          "quantity": "",
+          "description": "APPROVAL: 089109",
+          "total": "SWIPED ONLINE"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3bfd77f-a260-43ea-91b1-0cc4fb2c1e5f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDEVICE ID: 0003\nTRACE REF: 002543140\nThis receipt expires at 180 days on 02/04/16\n\n8-9081-7255-6635-6651-1111-4110\n\n0034-9994-0964-4304-3151-1150",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29afcf7b-90cf-4553-a576-009b6686a65e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n8-9081-7255-6695-6551-1111-4110-",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad43a2a3-f2dd-45a6-bb89-f0bda20a8bd9",
+      "type": "BARCODE",
+      "size": 54,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Michaels Receipt",
+  "description": "This receipt is issued by Michaels and identifies the location as 3310 Alpine Avenue NW, Unit 5, Walker, Michigan 49544. The header contains store branding, store number (9189), location details, and a contact telephone number. The receipt includes a return barcode together with transaction metadata such as sale number, register information, and transaction date and time. The financial section records the subtotal, 6% sales tax, final transaction total, and payment by debit card, including a masked account number, approval code, swipe method, device ID, and trace reference. The footer states the receipt validity period for returns and repeats the return barcode together with an additional transaction barcode. The overall layout is representative of a United States craft retail POS receipt, combining return authorization, tax reporting, debit-card payment processing, and transaction reconciliation within a compact retail receipt format.",
+  "slug": "Michaels-Receipt",
+  "published": true,
+  "id": "UN7ZXYP4TWAFFMKQ4dVf"
+}

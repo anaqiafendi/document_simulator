@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Lululemon Receipt",
+  "description": "This receipt is a retail transaction record from a Lululemon store located in Dawsonville, Georgia. It includes store identification details such as address and phone number, along with transaction metadata including transaction number, store number, register identifier, and cashier ID. The receipt records the exact date and time of purchase and features a clearly labeled sales section with structured columns for quantity, price, and amount. A financial summary is provided, showing subtotal and tax values. The format reflects a standard apparel retail POS system with clear alignment, item coding, and transactional identifiers for internal tracking and record-keeping.",
+  "slug": "Lululemon-Receipt",
+  "createdAt": "$D2026-03-17T15:51:31.341Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7e1fe46d-e4aa-4778-9452-dc5a8fc52eec-image%20(61).jpg?alt=media&token=fcd09653-069b-4dd7-99dd-030dde03469d",
+      "size": 236,
+      "businessDetails": "Vans #003\n\n8721 International Dr   Sep 30, 2023\nOrlando, FL 32819       1:14 PM\n(407) 345-5877          Lane",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Transaction #: 69237\nDate: 6/7/20    Time: 1:37 PM\nStore: 10588     Register: 1\nCashier: 10588003000006",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dce7b8ba-9f4d-4553-8fa2-e9b239b00783",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "23423af5-7726-4b94-bf00-a84cb87f42a6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nItem       Qty     Price     Amount\n\nAlign HR Crop 21\" *Cross Waist PKTP/2\n114751626    1      49.00     49.00\n\nAlign Pant 25\" DKCH/2\n113128338    1      59.00     59.00\n\nHooded Define Jacket *Nulu WHI/8\n104425808   1      59.00     59.00\n\nSwiftly Relaxed LS PKTP/PKTP/4\n114808189    1      39.00     39.00\n\n---------------------------------\n\nSubtotal        206.00\nTax             14.42",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FIBWm7bnhiNpLghKyteCx%2FIBWm7bnhiNpLghKyteCx-378697b2-652a-459f-8266-ad0ddc6eda18.png?alt=media&token=92987e70-7acd-4a7b-9198-20917fa693b7",
+  "published": true,
+  "id": "IBWm7bnhiNpLghKyteCx"
+}

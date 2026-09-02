@@ -1,0 +1,75 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Journeys Kidz Receipt",
+  "description": "$3e",
+  "slug": "Journeys-Kidz-Receipt",
+  "createdAt": "$D2026-03-06T14:46:38.493Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5eac8d01-db8e-44b4-8462-4c2bf1302310-image%20(28).jpg?alt=media&token=70e0de6e-b6d2-47b1-aa26-a3b50a326c4b",
+      "size": 236,
+      "businessDetails": "Original Transaction: 516845695\nOriginal Store: 1500\nEMPL: 0\nOrder Date: 07/12/24\nOrder Number: 516845695\nSending Store: 7129",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fea83957-d2b6-43b1-8ce3-e9f0cc897346",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Ship Via: STANDARD\nDocument Id: 94003703\n\n\nCustomer Shipping Address:\nElizabeth Martinez\n1303 W JUNIPER AVE APT 2423\nGilbert AZ 852334139\n\n\nOrder Details:\nITEM                 WD   SIZE   Qty\nKAERI COGNAC SANDAL\n99638621-100-M\n                     100    M      1\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7c21192-e2ff-41c0-9aef-7452a4ef1fa6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Transaction Info:",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2fd6ac57-5ce0-473d-bf46-93864d5d32d5",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "deca5c43-a5a4-4c42-a3a5-f4fa213a5337",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "071161149N23M11DLK4AYANX0",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "268b0ebd-afcb-4909-91db-7a52df3dfe0a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Journeys gives you 365 days to decide!\n\n\nMerchandise in new condition with original receipt can be returned for a full refund or exchange within 365 days of purchase.\nShipping charges are excluded.\nInternational returns are not accepted.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FfForXfJK5hvYJU7wx1t5%2FfForXfJK5hvYJU7wx1t5-55f274ce-0c41-43be-867d-ccde3dc125b9.png?alt=media&token=57c7e02e-9c1a-4819-beb9-db404d3b3870",
+  "published": true,
+  "id": "fForXfJK5hvYJU7wx1t5"
+}

@@ -1,0 +1,176 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T15:37:53.390Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "13591c25-16fb-4be0-a04b-969db34d0050",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F124a7c42-319e-4b64-9782-17c9dab3fb9b-image%20(3).jpg?alt=media&token=4a099144-e721-4333-8f8e-c03ce16910ce",
+      "size": 271,
+      "businessDetails": "\nMORTON WILLIAMS SUPERMARKET\n140 W 57TH STREET\nNEW YORK, NY\n(212) 586-7750\nStore:1\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "49ea556c-d4a7-4d3d-9332-aa4c19d18951",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cashier: STEPHANIE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "01/04/14",
+          "total": "16:47:32"
+        },
+        {
+          "quantity": "",
+          "description": "\nDELI",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "HOT FOOD LARGE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "0.49 lb @  1 lb /  6.99",
+          "total": "3.43 TF"
+        },
+        {
+          "quantity": "",
+          "description": "HOT FOOD LARGE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1.01 lb @  1 lb /  6.99",
+          "total": "7.06 TF"
+        },
+        {
+          "quantity": "",
+          "description": "HOT FOOD LARGE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "0.71 lb @  1 lb /  6.99",
+          "total": "4.96 TF"
+        },
+        {
+          "quantity": "",
+          "description": "HOT FOOD LARGE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1.09 lb @  1 lb /  6.99",
+          "total": "7.62 TF"
+        },
+        {
+          "quantity": "",
+          "description": "COLD SALAD SMALL",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "0.71 lb @  1 lb /  6.99",
+          "total": "4.96 TF"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL",
+          "value": "28.03"
+        },
+        {
+          "title": "TOTAL TAX",
+          "value": "2.49"
+        },
+        {
+          "title": "\nTOTAL",
+          "value": "\n30.52"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c2b389fa-92b1-4ad9-875b-37d50a726e79",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nVisa       TENDER",
+          "total": "\n30.52"
+        },
+        {
+          "quantity": "",
+          "description": "Acct:xxxxxxxxxxxx5377",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "APPRVL CODE  630526",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CASH           CHANGE ",
+          "total": ".00"
+        },
+        {
+          "quantity": "",
+          "description": "\nNUMBER OF ITEMS   5",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nTrx:273  Term:3  Store:1",
+          "total": "\n16:48:14"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ccdff1f-3f6e-4584-b317-32b59179a8ac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for shopping\nMORTON WILLIAMS\nWWW.MORTONWILLIAMS.COM\n\nOPEN PERSONAL AND CORPORATE\nCHARGE ACCOUNTS AT\nMORTONWILLIAMS.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "$3e",
+  "name": "Morton Williams Receipt",
+  "slug": "Morton-Williams-Receipt",
+  "published": true,
+  "id": "FJB76765YrD3f6tQFMxx"
+}

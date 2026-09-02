@@ -1,0 +1,121 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Buc-ee’s Receipt",
+  "description": "This receipt originates from Buc-ee’s, a travel center and convenience retail chain, with the location listed as 3284 N Beaver Rd, Springfield, Missouri. The header includes the brand name followed by the store address and city/state. The receipt records transaction metadata including POS terminal number (POS: 44), cashier identifier (Shunna, R), and a transaction number (TRAN:71448) along with the date and time of purchase. A financial summary section presents Sub Total, Tax, Total, and Savings, followed by payment confirmation through Visa and a Change line. The receipt also displays a contact phone number near the lower section. The structure reflects a convenience store / travel center POS receipt format, with clear separation between purchase details and the financial summary and closing transaction metadata.",
+  "slug": "Buc-ee's-Receipt",
+  "createdAt": "$D2026-03-12T11:30:45.753Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "BUC-EE'S\n3284 N Beaver Rd\nSpringfield   MO",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ac47e58f-8b8b-4459-98c1-9bb27f5f479d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c471ade-2277-4e68-bab1-dd88caf8ac90",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f93c431e-f183-4f56-9ee7-5977585f0513",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "(979)-238-6390\n\nPOS: 44   Cashier: Shunna, R\n12/27/2023   08:13:13   TRAN:71448",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FgVDBDmLrMvm6QwpLz2Er%2FgVDBDmLrMvm6QwpLz2Er-85cca01c-9652-4888-bcd6-671d3f7f36d6.png?alt=media&token=4b85ba40-e07e-414b-ad60-76a009c2b920",
+  "published": true,
+  "id": "gVDBDmLrMvm6QwpLz2Er"
+}

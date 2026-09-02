@@ -1,0 +1,114 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-14T17:40:56.013Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "description": "$3e",
+  "name": "myLowe's Rewards Receipt",
+  "slug": "myLowe's-Rewards-Receipt",
+  "sections": [
+    {
+      "id": "bf0290cc-459d-45d6-a2d9-13088161f1b4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff9a33ad9-2ad6-4c65-9ac5-ff21572a1b56-image%20(1).jpg?alt=media&token=549506e8-9d4e-4821-9206-3cf678ec9506",
+      "size": 256,
+      "businessDetails": "\nLOWE'S HOME CENTERS, LLC\n3101 S. MCKENZIE HWY 59\nFOLEY, AL 36535   (251) 975-5300\n\n - SALE -\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "63dacb2d-888b-423d-b382-7811dc9a4db3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SALE#S: S0577MC1",
+          "total": "TRAN#: 74109326"
+        },
+        {
+          "quantity": "",
+          "description": "\n249 1.50-PT MANDEVILLA BUSH ",
+          "total": "\n6.99"
+        },
+        {
+          "quantity": "",
+          "description": "53 1.72-GAL CORDYLINE LANDSC",
+          "total": "16.98"
+        },
+        {
+          "quantity": "",
+          "description": "251 1.50-PT MANDEVILLA BUSH W ",
+          "total": "6.99"
+        },
+        {
+          "quantity": "",
+          "description": "4250 1.50-PT MANDEVILLA BUSH R",
+          "total": "6.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSUBTOTAL ",
+          "value": "\n37.92"
+        },
+        {
+          "title": "TOTAL TAX",
+          "value": "3.79"
+        },
+        {
+          "title": "INVOICE 96201 TOTAL",
+          "value": "41.71"
+        },
+        {
+          "title": "VISA",
+          "value": "41.71"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "62088ce2-21bc-482c-8307-b5f25796ee9e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVISA: XXXXXXXXXXXXX2744 AMOUNT: 41.71 AUTHCD: 08901D TAP RFID:057720201546 04/24/24 10:56:29 APPL:4341504954414C204F4E45325654543I TVR:00000000 AID: A0000000031010\n\n\nSTORE: 0577  TERMINAL: 20 04/24/24 10:56:35 # OF ITEMS PURCHASED: 4\nEXCLUDES FEES, SERVICES AND SPECIAL ORDER ITEMS",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fee65c85-889b-429f-8e09-33c75f017cfb",
+      "type": "BARCODE",
+      "size": 83,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a1ea0af3-2038-4a0d-9abe-ff6eedea15c3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU FOR SHOPPING LOWE'S. FOR DETAILS ON OUR RETURN POLICY, VISIT LOWES.COM/RETURNS A WRITTEN COPY OF THE RETURN POLICY IS AVAILABLE AT OUR CUSTOMER SERVICE DESK\n\n\nMYLOWE'S REWARDS CREDIT CARDHOLDERS GET MORE. FOR DETAILS VISIT LOWES.COM/MYLOWESREWARDS",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Kbq78lL2sYzUHnEsFNgW"
+}

@@ -1,0 +1,147 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Goyard Boutique Receipt",
+  "description": "Luxury retail receipt from Maison Goyard in Paris, showing boutique address, cashier details, purchased item (Alpine Backpack Canvas), subtotal, tax, total amount, payment method, and transaction date and approval status.",
+  "slug": "Goyard-Boutique-Receipt",
+  "createdAt": "$D2026-02-03T14:19:15.524Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "602d3ac5-cdfd-4a2b-8d95-61080545edba",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FO9G75mJ3icgVIMs50MVhwJawSy73%2F75f81a55-4818-4fa4-82b1-e582d339e5e3-download%20(1).png?alt=media&token=77c50902-cfed-435b-b144-8585d717eefb",
+      "size": 139,
+      "businessDetails": "Maison Goyard\n233 RUE SAINT-HONORE, 75001 PARIS",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d990b01-6801-40dc-9d45-95342dd909ae",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "8/5/2025, 1:39:46 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b0729efa-cc45-4bef-9874-d62a4fa6175f",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "CASHIER",
+          "value": "LOUISE"
+        }
+      ],
+      "rightFields": [],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "437c3503-3a6a-447b-8709-2ecbd7ea0abc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1x",
+          "description": "ALPINE BACKPACK CANVAS",
+          "total": "4699.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "4699.00"
+        },
+        {
+          "title": "Tax 10%",
+          "value": "469.90"
+        }
+      ],
+      "total": "5168.90",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "df74713d-aa8f-4613-bfe9-b9240da7b449",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card holder",
+          "value": "Jason Caraig"
+        },
+        {
+          "title": "Card number",
+          "value": "**** **** **** 9392"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "8/5/2025 1:39 PM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e52b014e-0b7a-40ea-b73e-abcaed20092c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "I acknowledge that I have reviewed Goyard's Refund and Exchange Policy, which in part, states Goyard does not provide cash or credit card refunds, only exchanges or store credit under the stores policy. Products identified as Final Sale are not subject to exchanges, returns or store credit. All services are provided on a Final Sale basis.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "365d8d2a-ab00-4f87-8f1a-8195824d0d2e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\n____________________________\nClient Signature",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FMg6z7ZsBMyi3QKagBqrK%2FMg6z7ZsBMyi3QKagBqrK-04b63d8e-99f8-43fb-8311-b013e3291684.png?alt=media&token=bf207220-06a6-461d-ad01-f4fc6a6d1bef",
+  "published": true,
+  "id": "Mg6z7ZsBMyi3QKagBqrK"
+}

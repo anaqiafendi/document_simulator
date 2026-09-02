@@ -1,0 +1,85 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Academy Sports + Outdoors Receipt",
+  "description": "A white thermal retail receipt from Academy Sports + Outdoors, showing store details for Academy Sports City, LA 70819-1300, including transaction 507030, register 7521-5575-44, and date 01/23/2023 at 15:25. The receipt lists one sale item priced at $14.99. It includes a subtotal of $14.99, tax of $1.45, and a total of $16.11, paid by Visa card ending in 1014 with authorization 301026. The footer contains the “For All, For Less” slogan, website and social links, customer feedback survey instructions, and promotional gift card notice.",
+  "slug": "Academy-Sports-+-Outdoors-Receipt",
+  "createdAt": "$D2026-02-16T16:01:37.944Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "41100b4f-0cfd-4634-8873-d969cf704864",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2212e683-ca80-4b45-a937-3c6547317133-academy.jpg?alt=media&token=1f265275-7fcc-473c-ab8c-4ee0ba09a9a0",
+      "size": 219,
+      "businessDetails": "ACADEMY SPORTS CITY, LA 70819-1300",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "78edb75f-3bdc-4794-a451-759294d92217",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "507030 SALE         01/23/23 15:25\n                      7521-5575-44\n  ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "761e3140-2936-45ae-adf4-89a392efa738",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "507030 SALE\nF\n1 @ 14.99\n1176991005",
+          "total": "14.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "14.99"
+        },
+        {
+          "title": "Tax",
+          "value": "1.45"
+        }
+      ],
+      "total": "16.41",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6ac952a4-0eb9-4174-98ce-23d45f8b97f3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Visa\n************ 1014\nCard Balance\nAUTH 301026",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce9b601-6df5-442e-a89f-c82d32dce574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFOR ALL. FOR LESS.\nshop.academy.com\nfacebook.com/academy\n----------------------------\nHow are we doing?\nShare how we performed at:\nwww.academyfeedback.com\n\nAfterwards, you may be asked to enter\n$1,000 Academy gift card!\n\nNO PURCHASE NECESSARY. Odds depend on entries\nreceived. Void where prohibited. For rules, visit\nacademyfeedback.com\n------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8tys9aiEhFwsp92w4l01%2F8tys9aiEhFwsp92w4l01-1100ec74-3058-49d8-b488-1f2d3c9b949e.png?alt=media&token=e05e9370-af19-43de-8baa-e8adfd7c5c18",
+  "published": true,
+  "id": "8tys9aiEhFwsp92w4l01"
+}

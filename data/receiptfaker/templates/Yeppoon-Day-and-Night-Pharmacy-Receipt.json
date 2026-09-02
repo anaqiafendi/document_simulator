@@ -1,0 +1,66 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": " Yeppoon Day & Night Pharmacy Receipt",
+  "description": "Thermal receipt header logo for Yeppoon Day & Night Pharmacy featuring the brand name in stylized text with a sun-ray graphic element above the wording. The logo appears at the top of a pharmacy dispensing receipt that includes store address in Yeppoon, Queensland, telephone number, and ABN identifier. The receipt layout contains transaction and terminal numbers, operator identifier, date and time stamp, prescription tracking references, a summarized total amount, and a courtesy closing message, consistent with an Australian pharmacy point-of-sale and prescription dispensing system.",
+  "slug": "Yeppoon-Day-and-Night-Pharmacy-Receipt",
+  "createdAt": "$D2026-02-20T14:32:44.546Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0febd981-4e75-4993-8128-df74374dfc43",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa9d31267-b553-4695-bf6c-00640f9e1310-yap.jpg?alt=media&token=9b7cd2cc-acd7-4fef-810f-76885e4a651a",
+      "size": 171,
+      "businessDetails": "\nYeppoon Day & Night Phc P/L\n4 James Street\nYeppoon QLD 4703\nTel: 07 4939 1406\nABN: 54 302 815",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d927e76-c2de-4a49-860d-04a517562eb7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Sales Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea0f54fb-f2ed-41d2-b844-272bf4a3c263",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Transaction: 1017-000245-611739\nTerminal: 000245 Date: 14/01/2023\nOperator: M.R.     Time: 12:53 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6641ef13-84ce-4913-8b3e-21a403bc7096",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ITEM  NAME   QTY   PRICE     TOTAL\n----------------------------------\nAMOXYCILLIN 500MG CAP 2     1.00   17.99    17.99\nScript Number: 350989\n\nCEPHALEXIN 500MG TAB 20     1.00   14.99    14.99\nScript Number: 350990\n\nIBUPROFEN 200MG TAB 24      1.00   18.79    18.79\nScript Number: 350991\n-----------------------------------\n                            $ 51.77",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "7547151d-b643-4767-bf16-e14de2afeb5e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6KWZ3FXMgFfct0DU7KPF%2F6KWZ3FXMgFfct0DU7KPF-98c58206-8cfe-4bc7-bf12-00a081c4bfed.png?alt=media&token=feef06c1-e6e8-4d33-9c20-faa40bf63c24",
+  "published": true,
+  "id": "6KWZ3FXMgFfct0DU7KPF"
+}

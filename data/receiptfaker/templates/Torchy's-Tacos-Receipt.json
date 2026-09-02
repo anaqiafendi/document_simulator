@@ -1,0 +1,137 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Torchy's Tacos Receipt",
+  "description": "This receipt is issued by Torchy's Tacos and identifies the restaurant at 999 E. Basse Road, Suite 103, San Antonio, Texas 78209. The header contains the restaurant branding, street address, telephone number, staff reference, check number, table number, and transaction date and time. The order was processed through the bar and includes six Green Chile Pork tacos served on corn tortillas and one Corona Extra. The financial section records a subtotal of $36.45, total taxes of $3.01, and a final amount due of $39.46. The lower section includes a QR code and numerical reference encouraging the customer to check in and use the restaurant's mobile app.",
+  "slug": "Torchy's-Tacos-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T14:24:09.873Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bddbd155-e7d4-4c07-bc06-dae6aa1955fe",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0b637058-c7bd-4d37-9a57-d4aae2bb9d22-image%20(15).jpg?alt=media&token=b34c2a2c-4a11-4413-95a6-eb6517c678e6",
+      "size": 273,
+      "businessDetails": "Torchy's Tacos\n999 E. Basse Road\n#183\nSan Antonio TX 78209\n210-824-1603\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "235631a4-e3d1-48fb-a6ff-53f3dacdad6c",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "2848 Steve",
+          "value": "2"
+        },
+        {
+          "title": "",
+          "value": "WS#: 4"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ce31e2e-6ca7-44bc-9cc7-8b1fdc9674ba",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCHK 58606     TBL B28/1\n13 Mar'26  6:07 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d158ea73-7461-4f44-8b69-b448d1d4549a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Bar",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "89fb65a7-0ea7-4069-826a-606dfe2fb0ea",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n4 Green Chile Pork @ 5.25",
+          "value": "\n21.00"
+        },
+        {
+          "title": "4 Corn Tortilla",
+          "value": ""
+        },
+        {
+          "title": "2 Green Chile Pork @ 5.25",
+          "value": "10.50"
+        },
+        {
+          "title": "2 Corn Tortilla",
+          "value": ""
+        },
+        {
+          "title": "1 Corona Extra",
+          "value": "4.95"
+        },
+        {
+          "title": "\nSubtotal",
+          "value": "\n$36.45"
+        },
+        {
+          "title": "Total Taxes",
+          "value": "$$3.01"
+        },
+        {
+          "title": "Total Due",
+          "value": "$$39.46"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad433d23-3792-4ac8-841e-62408e02c700",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nForget to Check-In?",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29c6a950-8177-4488-81ba-b262f7387c9d",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad51647e-2fdc-4949-8243-e47ef302f192",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n 2271489079040\nUse The App\nScan the Code",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "jJdYrYIxqiifCykA0hwi"
+}

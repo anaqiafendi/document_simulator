@@ -1,0 +1,100 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Ollie’s Bargain Outlet Receipt",
+  "description": "A point-of-sale receipt from Ollie’s Bargain Outlet showing store phone number 717-657-2300. The receipt lists table number 415, server Rebecca, and 2 guests. Items purchased include an Americano, Chocolate Chip Cookie, and Coke, with a subtotal of $5.47, tax of $0.24, and a final total of $5.71. The lower section includes EMV authorization data, masked card number, chip read confirmation, approval code, and debit application details.",
+  "slug": "Ollie's-Bargain-Outlet-Receipt",
+  "createdAt": "$D2026-02-12T18:52:38.496Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "95739769-827f-42d4-8b05-968f1514ae24",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Faf7fc2b8-4067-48f7-8b9f-81d2cf246073-ollies.jpg?alt=media&token=09fe05b6-1719-40fe-ae8e-c086aa072e7b",
+      "size": 209,
+      "businessDetails": "Ollies Bargain Outlet\n717-657-2300",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3f802bd-9421-447e-af81-7bb4e3524aca",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Table",
+          "value": "415"
+        },
+        {
+          "title": "Server",
+          "value": "Rebecca"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Guests",
+          "value": "2"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "899c4cf9-0b40-434d-affa-cb2510e9afe4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c3e28649-4f66-4d34-859a-54a5c7ca4986",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "---- EMV Authorization Data ----\n\nRRN: 929215900 Purchase\nCard #: ************7722\nChip Read\n\nEMV Total: $44.32\nApproved - 912135\nVerified by PIN\n\nApplication Label: DEBIT\nTC: A90A2127C123187\nTVR: 8000048000\nAID: A0000000042203",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fwt4TjxwE9Q2NZfdwkaSK%2Fwt4TjxwE9Q2NZfdwkaSK-830e561e-0b91-4daf-a953-2108ce1a6c22.png?alt=media&token=248164e3-c381-4462-beb6-9760e8098c87",
+  "published": true,
+  "id": "wt4TjxwE9Q2NZfdwkaSK"
+}

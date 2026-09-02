@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Journey Cocktailbar Receipt",
+  "description": "This receipt is issued by Journey Cocktailbar, operated by Journey Gastro GmbH, and displays the brand header “JOURNEY Cocktailbar” at the top of the receipt. Beneath the header, the receipt lists the business name and address at Schustergasse 1, 94032 Passau, Germany, followed by the business website. The receipt includes several transaction metadata fields, including an invoice number (Rechnungsnummer), the number of served guests, and a timestamp indicating the date and time of the transaction. The financial summary section shows tax calculation details including Steuer (tax rate), Netto (net amount), Brutto (gross amount), and Gesamt (total amount) formatted in a structured POS summary. The lower portion of the receipt contains promotional messaging encouraging customers to visit the nearby shop “Journey’s Kostbarkeiten”, along with store hours. The footer includes the business VAT identification number (UStID) used for tax reporting and transaction verification.",
+  "slug": "Journey-Cocktailbar-Receipt",
+  "createdAt": "$D2026-03-06T14:55:58.034Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc8209df1-6876-48f9-84b3-6817b4a6948e-image.png?alt=media&token=0bde61b3-857d-4f8d-b492-b4ba93658292",
+      "size": 236,
+      "businessDetails": "\nJourney Gastro GmbH\nSchustergasse 1\n94032 Passau",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fea83957-d2b6-43b1-8ce3-e9f0cc897346",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "www.journey-passau.de\nRechnungsnummer: 57241\n9 bedienten AM\n17.11.2017 21:39",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7c21192-e2ff-41c0-9aef-7452a4ef1fa6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Blackberry Mule             7,90€\nMiami                      12,50€\nB52                         6,00€\n\n\nSteuer 19%                 4,22 €\nNetto                     22,18 €\nBrutto                    26,40 €\nGesamt                    26,40 €\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "650dcafc-afe9-489c-bf45-e4afb13f2d73",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Kennen Sie unseren Shop\nnur direkt nebenan?\n\nJourney's KOSTBARKEITEN\nGeschmacksvolle\nund regionale\nIdeen fur Genieber\n\nMo bis Do 16-18:30\nSamstag 14:30-18:30\n\n-------------------\nUStID: DE275437842",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FKjYWtWQzKSKCGEOdGg6p%2FKjYWtWQzKSKCGEOdGg6p-721d15cc-ec64-4a4b-9b1b-c588535daa6c.png?alt=media&token=b9abb9db-5442-4c7d-a27e-28d22bd13ba4",
+  "published": true,
+  "id": "KjYWtWQzKSKCGEOdGg6p"
+}

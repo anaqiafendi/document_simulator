@@ -1,0 +1,103 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T14:41:31.475Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "8e20e3df-93f1-49fc-9b5c-bc241474a5dd",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "424266738081\nJB SHORT CARPET ONE\n5695 US W1 NORTH\nSOUTHERN PINES, NC 28388\n910-692-6411\n\nTerm ID: 011            Ref #: 001\n\n\nSale",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3cdd637e-1e17-4a7e-92a1-2af4d5875b7f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nXXXXXXXXXXXXX9340",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VISA",
+          "total": "Entry Method: Manual"
+        },
+        {
+          "quantity": "",
+          "description": "\n04/24/23",
+          "total": "\n12:16:09"
+        },
+        {
+          "quantity": "",
+          "description": "Inv #: 000001",
+          "total": "Appr Code: 115380"
+        },
+        {
+          "quantity": "",
+          "description": "Apprvd: Online",
+          "total": "Batch#: 114001"
+        },
+        {
+          "quantity": "",
+          "description": "AVS Code: Z",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "V-Code: M",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal:",
+          "total": "\n\n$          800.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "25d1d387-893a-4892-9358-351bd586f08a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nI agree to pay above total amount according to card issuer agreement (Merchant agreement if credit voucher)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "80e42328-82c5-4e3c-9e3e-c9a5fafa1614",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nX________________________________\n\nMerchant Copy \nTHANK YOU!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal credit card POS receipt issued by JB Short Carpet One, located at 5695 US 1 North, Southern Pines, North Carolina 28388, United States. The header includes the merchant identification number, business name, full address, and telephone number. The receipt records the terminal ID, reference number, transaction type (Sale), masked Visa account number, and indicates that the card information was entered using the Manual entry method. The transaction details include the date and time, invoice number, approval code, online approval status, batch number, AVS code, and verification code. The financial summary consists of the Total transaction amount, followed by the standard cardholder agreement signature line. The footer identifies the document as the Merchant Copy and concludes with a \"Thank You!\" message, representing a standard U.S. standalone credit card terminal receipt.",
+  "name": "JB Short Carpet One Receipt",
+  "slug": "JB-Short-Carpet-One-Receipt",
+  "published": true,
+  "id": "dLHDjj7ERZbrxtxSAdSc"
+}

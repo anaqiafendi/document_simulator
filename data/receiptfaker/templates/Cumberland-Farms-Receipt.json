@@ -1,0 +1,132 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Cumberland Farms Receipt",
+  "description": "This receipt is issued by Cumberland Farms and identifies the store at 460 Route 134, South Dennis, Massachusetts. The header contains the Cumberland Farms name, store reference, address, contact telephone number, and receipt number. The transaction records the purchase of two Angus Beef Franks, with one item receiving a promotional adjustment reflected by a $0.59 combo discount. The financial section records a $2.59 subtotal, $0.18 state/local meals tax, and a final total of $2.77. Payment was completed using a Visa card, with the receipt showing a masked account reference, swiped entry method, and approved transaction status. The footer contains the transaction date and time, POS and cashier identifiers, a customer satisfaction survey offering a chance to win a $100 gift card, and a customer appreciation message.",
+  "slug": "Cumberland-Farms-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T18:13:52.701Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "fd194d04-a8a3-413c-9ecb-ef9e46d14639",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": " Cumberland Farms\n2315-2126\n460 ROUTE 134\nSOUTH DENNIS, MA 026\n508-398-2980",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2a82901c-2c55-45f4-8c8e-354d4efd3d3a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n#ORIGINAL\nReceipt        1221215\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85f5fa1d-f85f-469c-bd13-6558ef02a5cf",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Qty    Name",
+          "value": "Price    Total"
+        },
+        {
+          "title": "\n1  Z2 ANGUS BEEF FRANK",
+          "value": "\n1.59    1.59 *"
+        },
+        {
+          "title": "1  Z2 ANGUS BEEF FRANK",
+          "value": "1.59    1.00 *"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6086ffa3-398e-4640-aa67-47783ea5206c",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSubTotal ",
+          "value": "\n2.59"
+        },
+        {
+          "title": "State/Local Meals Ta",
+          "value": "0.18"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e0a91c6d-1bd4-4155-92a3-4a72030a95f8",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Total",
+          "value": "2.77"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b274d058-a084-46bb-a9d6-fb8193c8f26c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nReceived\nVISA                                  2.77\nACC XXXXXXXXXXXX[2096 SWIPED\nAPPROVED\nREF 00000[redacted]",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "964d6c6c-40c7-482d-b8cf-3ff4240c9424",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCOMBO DISCOUNT               0.59",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "d20cd786-410b-433c-b880-235c5716b4a1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTELL US HOW WE DID\nFOR A CHANCE TO WIN\nA $100 GIFT CARD\nBy completing an online survey at  http://guestsurvey.cumberlandfarms.com or by Paper Pamphlets Located in Stores",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8dcc283d-efa1-472f-8079-b17f345334ce",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n10/01/2019  2:57:38 PM  Pos:1  Cashier:107\n\nWe Appreciate Your Business\nQuestions or Comments Please Call",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "nF7XwWkmQFH83BrvHWB4"
+}

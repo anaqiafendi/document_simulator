@@ -1,0 +1,235 @@
+{
+  "currency": "",
+  "slug": "Alcampo-Spain-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T19:17:07.469Z",
+  "description": "This supermarket receipt from Alcampo documents a Mastercard contactless card transaction processed at the La Laguna location in Tenerife, Spain. The receipt includes store identification details, simplified invoice designation (“Factura Simplificada”), terminal transaction metadata, masked payment card information, authorization references, transaction type indicators, and timestamp information. The POS structure contains item pricing, total amount presentation in euros, card payment confirmation, VAT accounting, and sales summaries aligned in standard Spanish supermarket thermal receipt formatting. Additional receipt elements include contactless payment verification details, authorization codes, terminal references, REDSYS payment processing information, and customer copy transaction records near the footer. The layout reflects a standard Spanish grocery retail thermal receipt with localized VAT accounting and electronic payment processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Alcampo Spain Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "3a846349-d3a8-4a7a-a8c3-fe99f170bd24",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "ALCAMPO   -   LA LAGUNA\nFACTURA SIMPLIFICADA\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4025c530-4a63-4cba-8b36-d981da74756b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SALMÓN AHUMADO",
+          "total": "2.88 E"
+        },
+        {
+          "quantity": "",
+          "description": "B RUSTICA 2C0",
+          "total": ".99 E"
+        },
+        {
+          "quantity": "",
+          "description": "Ref: 2062618000993",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ref: 2096523004081",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CHOCO LECH.C/ALM",
+          "total": "2.55 E"
+        },
+        {
+          "quantity": "",
+          "description": "MELON VERDE GRAN",
+          "total": "3.66 E"
+        },
+        {
+          "quantity": "",
+          "description": "BOLSA 50X60CM",
+          "total": ".12 E"
+        },
+        {
+          "quantity": "E*",
+          "description": "",
+          "total": "TOT  14.28"
+        },
+        {
+          "quantity": "",
+          "description": "€ TARJETA",
+          "total": "14.28"
+        },
+        {
+          "quantity": "",
+          "description": "€ CAMBIO",
+          "total": ".00"
+        },
+        {
+          "quantity": "",
+          "description": "NUM. TOTAL ART. VENDIDOS = 6",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Imp %          Base",
+          "total": "Cuota"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3502d217-5d85-411e-88cd-aa15f76d156f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "E EXEN      .00          14.28",
+          "total": ".00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aba4c882-af55-48e5-9e1d-82cc154b17c4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPARA EL CLIENTE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8cb4c920-5b44-4f0b-9a69-a6a0048e42c7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ESTABLECIMIENTO",
+          "total": "ALCAMPO LA LAGUNA"
+        },
+        {
+          "quantity": "",
+          "description": "LOCALIDAD",
+          "total": "38205 Tenerife"
+        },
+        {
+          "quantity": "",
+          "description": "FECHA - HORA",
+          "total": "29/10/22 - 12:12"
+        },
+        {
+          "quantity": "",
+          "description": "NUMERO TARJETA",
+          "total": "************5909"
+        },
+        {
+          "quantity": "",
+          "description": "NUMERO OPERACION",
+          "total": "00037"
+        },
+        {
+          "quantity": "",
+          "description": "TIPO DE TRANSACCION",
+          "total": "VENTA"
+        },
+        {
+          "quantity": "",
+          "description": "CODIGO RESPUESTA ARC",
+          "total": "00"
+        },
+        {
+          "quantity": "",
+          "description": "IMPORTE / MONEDA",
+          "total": "14.28 / eur"
+        },
+        {
+          "quantity": "",
+          "description": "NUMERO AUTORIZACION",
+          "total": "014754"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "A0000000041010"
+        },
+        {
+          "quantity": "",
+          "description": "ETIQUETA AFI",
+          "total": "CONTACTLESS"
+        },
+        {
+          "quantity": "",
+          "description": "VERIFICACION USUARIO",
+          "total": "NINGUNA"
+        },
+        {
+          "quantity": "",
+          "description": "N. REFERENCIA",
+          "total": "00037 221029 121211"
+        },
+        {
+          "quantity": "",
+          "description": "ENTIDAD",
+          "total": "REDSYS"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "820091a9-e9ae-468d-86b7-f974a6e33677",
+      "type": "BARCODE",
+      "size": 80,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "493cab00-d00d-4fb1-82bf-c7c0f1242456",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n¡GRACIAS POR SU COMPRA!\nLe esperamos en su proxima visita.\nwww.alcampo.es",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "LRvddeKnHSE5b1m14BwT"
+}

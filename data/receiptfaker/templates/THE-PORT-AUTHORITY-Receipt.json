@@ -1,0 +1,30 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "THE PORT AUTHORITY Receipt",
+  "description": "This receipt is issued by THE PORT AUTHORITY OF NY & NJ and identifies the transaction location as Lincoln Tunnel. The format includes a header logo with agency branding and bird emblem, followed by lane identification, card number, and a clearly printed date and time stamp. The receipt documents vehicle class designation and toll payment confirmation within a structured summary section. It also contains an E-ZPass promotional message with website reference and concludes with a courtesy closing line. The layout reflects a standard thermal toll POS format used for bridge and tunnel transaction processing.",
+  "slug": "THE-PORT-AUTHORITY-Receipt",
+  "createdAt": "$D2026-02-27T10:50:50.871Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "32df554d-85c7-4f41-87b6-7c8ef7dfa4db",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F768ca2ac-bc87-4291-b1f1-3c9c49fbccac-image%20(9).jpg?alt=media&token=686687c3-b901-4c77-a55d-b38dd0747cec",
+      "size": 278,
+      "businessDetails": "Lincoln Tunnel\n\nLane: 6\nCard #: 30149\nDate: 05/24/2019 08:42\n\nClass: 1\nToll Paid:$ 15.00\n\nGet E-ZPass today\nSave time & money\nVisit www.joinezpass.com\n\nThank You, Drive Safely",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FraLNOakkQdZF9zQzijL1%2FraLNOakkQdZF9zQzijL1-8677aa3a-0c0f-48ed-9d2f-ec0e6b1affe9.png?alt=media&token=5dda8ea6-ccd9-4a29-ae5d-926b16c3e0e9",
+  "published": true,
+  "id": "raLNOakkQdZF9zQzijL1"
+}

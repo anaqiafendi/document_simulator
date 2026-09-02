@@ -1,0 +1,112 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-07T15:27:17.420Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "7c9091f2-c1b7-4904-adea-fdeffb01e37a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "106 - 122 Market Street\nManchester   MI 1WA\nTelephone: 0161 9234772\nVAT No: 084422160891\n\nSALE\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bba243a4-3cba-43b5-92ea-1f0f0892993c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "0312302 YB DTR CHASE LIG",
+          "total": "6.00"
+        },
+        {
+          "quantity": "",
+          "description": "6625909 GU 7PK FAIRY/RHO",
+          "total": "3.50"
+        },
+        {
+          "quantity": "",
+          "description": "4801501 X LRG GLITTER TR ",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "4134202 2PK GIRLS BEANIE",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "1452607 GU 5PK MLP BRIEF ",
+          "total": "3.50"
+        },
+        {
+          "quantity": "",
+          "description": "8462802 2PK GIRL LUR MAG",
+          "total": "1.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\n£21.00"
+        },
+        {
+          "quantity": "",
+          "description": "Visa Debit",
+          "total": "£21.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "be0edf26-56ed-4691-b0ea-9182c044d6fa",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Card No: XXXXXXXXXXXX4471\nAID: A0000000031010\nTVR: 0000008000\nAUTH CODE: 512873\nAPPROVED\n\nno verification",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b1a35bc5-1cc2-4e88-8f47-9418c296911f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPlease Retain For Your Records\n\nStore: 0519 Till: 069 Tran: 406184\nDate: 02/12/17 Time: 13:32 Oper\nItems Sold: 6  Items Returned: 0\n------------------------------\n\nPrimark Stores Ltd\n41 Mott Street\nReading, Berkshire, RG1 1TZ\n\nRefund & Exchange Policy\n-------------------------------\n\nWe are happy to give a refund or an exchange on any purchased item until\n31/01/2018, provided items are returned in saleable condition with a receipt.\n\nFor hygiene reasons we refund or exchange on briefs/boxers, brief sets, all piercing jewellery, opened or un-sealed cosmetics.\n\n\nSwimwear with a hygiene seal intact may be returned or exchanged.\n\nThis does not affect your statutory rights\n\nTHANK YOU\n\nGift cards available in store\n\nwww.primark.com\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04182d3f-4448-476e-b5f4-d433a07fbcaf",
+      "type": "BARCODE",
+      "size": 82,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Primark Manchester Receipt",
+  "description": "$3f",
+  "slug": "Primark-Manchester-Receipt",
+  "published": true,
+  "id": "sYrPR8j2fi3vqK70PpNK"
+}

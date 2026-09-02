@@ -1,0 +1,74 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Farmacia Savia Receipt",
+  "description": "Monochrome thermal-style logo depicting a pixelated point-of-sale cash register, printed at the top of a pharmacy retail receipt for Farmacia Savia 3. The graphic functions as the header identifier preceding the store name, address in Bayamón, Puerto Rico, and contact number. The receipt layout includes transaction identifiers (transaction number, cashier ID, register number), full date and time stamp, a financial summary section, and a Spanish footer message, indicating a small retail pharmacy POS system format with integrated graphical header branding.",
+  "slug": "Farmacia-Savia-Receipt",
+  "createdAt": "$D2026-02-20T14:06:12.395Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0febd981-4e75-4993-8128-df74374dfc43",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffcc45fa9-2fa9-423e-b66a-037d03ea0709-image%20(5).jpg?alt=media&token=cb97d8ea-a82e-44ea-a75f-bd0bb4d0bf1e",
+      "size": 145,
+      "businessDetails": "FARMACIA SAVIA 3\n     REXVILLE TOWN CENTER LOCAL 30,\n     BAYAMON, PR 00957\n     T (787) 534-3000",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b0f78b8f-5883-4359-86bc-676c6ab038a4",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "Sales Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "6d927e76-c2de-4a49-860d-04a517562eb7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Transaction #:         13541\nDate: 03/25/2018   Time: 04:49:49 PM\nCashier: JLV           Register #: 8",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea0f54fb-f2ed-41d2-b844-272bf4a3c263",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Item        Description       Amount\n------------------------------------\n049000075090 DIET COKE       $0.79\nLIME GING\n------------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4842a0f-ecef-4c0c-8446-38d392a62000",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Sub Total    $0.79\nStateTax 10.5%    $0.08\nMunicipality Tax 1%    $0.01\nTotal    $0.88\nCash Tendered  $1.00\nChange Cash    $0.12",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ca2291b-1103-4edd-b096-84b6ca54f24f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGracias por su patrocinio,\nFARMACIA SAVIA 3",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FPJOzS1bcFZJbmWISNEFx%2FPJOzS1bcFZJbmWISNEFx-59203cfe-e37d-4b71-80aa-be478c931031.png?alt=media&token=980e91e4-31c2-4f73-8fb0-203a9ba69a7d",
+  "published": true,
+  "id": "PJOzS1bcFZJbmWISNEFx"
+}

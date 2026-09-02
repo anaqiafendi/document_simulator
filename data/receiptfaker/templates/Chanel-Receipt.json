@@ -1,0 +1,123 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Chanel Receipt",
+  "slug": "Chanel-Receipt",
+  "createdAt": "$D2025-05-25T15:26:24.184Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F22e83796-9a26-46b8-ac6c-d7a91d6e327c-chanel-logo-png-transparent.png?alt=media&token=1e67c02f-66e7-4e32-8547-392d38e7e054",
+      "size": 142,
+      "businessDetails": "Soho\n139 Spring Street\nNew York, NY 10012\n(212) 334-0055",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Trans #30238 Date: 11/20/23 11:09:25\nStore: 85101 Register: 2\nCashier: 9375059\nCustomer ID: D85917436\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Chanel Classic Flap Bag",
+          "total": "10,200.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "10,200.00"
+        },
+        {
+          "title": "Tax",
+          "value": "905.25"
+        }
+      ],
+      "total": "11,105.25",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "I agree to pay the above total amount according to the card issuer's agreement. Items can be returned within 30 days of receipt. Products must be in their original condition with all packaging intact.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FisKMBPw3lp9lyuqclNXM%2FisKMBPw3lp9lyuqclNXM-9c8fac65-f5ef-4750-aba7-8c0d1fb3ea56.png?alt=media&token=61807740-ac6b-4b25-8007-b14beaa7878b",
+  "description": "Need a Chanel receipt? Use our free tool to create a luxury purchase receipt in minutes. Customize boutique details, item info, price, tax, and payment method—ideal for proof of purchase, returns, or insurance claims.",
+  "published": true,
+  "metatitle": "Luxury Chanel Receipt",
+  "metadesc": "authentic Chanel luxury receipts with customizable boutique details, item information, and payment methods for any purpose",
+  "id": "isKMBPw3lp9lyuqclNXM"
+}

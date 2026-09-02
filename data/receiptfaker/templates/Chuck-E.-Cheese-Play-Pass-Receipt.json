@@ -1,0 +1,182 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T06:28:04.415Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Chuck E. Cheese Play Pass Receipt",
+  "description": "This receipt is issued by Chuck E. Cheese, located at 5312 Hickory Hollow Lane in Nashville, Tennessee, United States. It documents the purchase of a Play Pass, which provides timed access (30 minutes) to games and entertainment within the venue. The receipt includes POS terminal details, check ID, host name, and timestamp. The transaction shows a full discount applied to the playtime, resulting in a zero balance. A promotional section advertises the Summer Fun Pass subscription for extended visits. The format reflects a typical entertainment venue POS receipt focused on timed play services rather than food purchases.",
+  "sections": [
+    {
+      "id": "b2913712-a989-402f-af9c-834009ef0332",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "CHUCK E. CHEESE'S\nDate: Wed. 07/31/2024  2:46 PM\nPOS: 3074-TERM4\nCheck ID: 4194339\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2ffd31c9-86ca-4e2f-91dd-1afe6f21c38d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Play Pass",
+          "total": "Minutes"
+        },
+        {
+          "quantity": "",
+          "description": "11864C00",
+          "total": "30"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1691a5e6-c4a7-4da8-b709-b2f6023498c8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CHUCK E. CHEESE\nPASQUALYS\n5312 Hickory Hollow Lane\n615-731-0271\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7509d91a-e167-4244-a840-33614b2bfa36",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: Jimiah",
+          "total": "07/31/2024"
+        },
+        {
+          "quantity": "",
+          "description": "434",
+          "total": "40035"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "2:45 PM"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8dd6f1a0-ec07-4ada-abbe-2be8fbe35895",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Area: Main",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "30 Minutes Play Time",
+          "total": "20.00"
+        },
+        {
+          "quantity": "",
+          "description": "% Discount",
+          "total": "-20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tax",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Order Total",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tokens",
+          "total": "0"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "25aae7f3-da2e-40a5-b1d3-a9b88ef5f455",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGet your SUMMER FUN PASS\nUnlimited visits for 2 months\nstarting at $49.99\nchuckecheese.com/summerfunpass\nonline or In-store\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c9293346-352a-4b92-b453-001c314ebd87",
+      "type": "BARCODE",
+      "size": 75,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef7ab01c-c5f7-4ee7-9dfe-328117d04c12",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2 5 2 4 1 5 0 9 6 4 9 3 \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f551f5be-15a2-497b-b6c0-1f313ed2f272",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n--- Check Closed ---\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Chuck-E.-Cheese-Play-Pass-Receipt",
+  "published": true,
+  "id": "6YrluHvcz1BGtDGeTYN7"
+}

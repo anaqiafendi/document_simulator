@@ -1,0 +1,171 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-22T11:06:23.900Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "c976f7e9-b1bc-4952-9867-dac40aafc455",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F078d09b1-e0af-4b69-8882-062aaf1475c5-image%20(16).jpg?alt=media&token=f8efe141-1a69-4e98-80dd-5d403777da49",
+      "size": 215,
+      "businessDetails": "\nDuck & Waffle\n110 Bishopsgate\nLondon, EC2N 4AY\nTel: 0203 640 7310\nVAT No. 115 2749 20\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "10ac7204-5b19-4261-8be5-bdb3472e9ce8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "500006 Sarselans",
+          "total": "1"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d11c5419-4dae-4db1-90ec-3e91dbe31cfa",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Chk 116282    Tbl 34/1",
+          "total": "GST 2"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc660808-faf5-48b0-86b7-6376f44c2bd6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1/40/7.15\n16 Apr '22 6:14 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1820107-3766-405d-bdea-a40f04114b3c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Full Elvis",
+          "total": "17.00"
+        },
+        {
+          "quantity": "",
+          "description": "Open Food",
+          "total": "22.00"
+        },
+        {
+          "quantity": "",
+          "description": "duck",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Orange J. Fresh",
+          "total": "5.50"
+        },
+        {
+          "quantity": "",
+          "description": "CookForUkraine",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\n7.42 20% VAT",
+          "total": "\n\n44.50"
+        },
+        {
+          "quantity": "",
+          "description": "Net Total",
+          "total": "£37.08"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "£44.50"
+        },
+        {
+          "quantity": "",
+          "description": "Other",
+          "total": "£2.00"
+        },
+        {
+          "quantity": "",
+          "description": "13.5% Service Charge",
+          "total": "£6.01"
+        },
+        {
+          "quantity": "",
+          "description": "Payment",
+          "total": "£40.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total Due",
+          "total": "£12.51"
+        },
+        {
+          "quantity": "",
+          "description": "Deposit Redeem",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "11",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6fd9890d-7c1f-46eb-980b-b96caa3e0794",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPlease note that a 13.5%\ndiscretionary service charge\nhas been added to your bill\n\n\nThank You",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "name": "Duck & Waffle Receipt",
+  "description": "This restaurant receipt from Duck & Waffle documents a dine-in transaction processed at the Bishopsgate location in London, England. The receipt includes restaurant address details, contact phone number, VAT registration information, server or section metadata, check number formatting, table references, and timestamp information. The POS structure contains VAT calculations, subtotal formatting, service charge presentation, payment entries, deposit redemption formatting, and final balance due fields aligned in standard restaurant thermal receipt structure. Additional receipt elements include promotional hashtag messaging, discretionary service charge notices, and customer appreciation footer text. The layout reflects a standard United Kingdom restaurant thermal receipt with VAT-inclusive accounting and hospitality service charge formatting.",
+  "slug": "Duck-and-Waffle-Receipt",
+  "published": true,
+  "id": "EvWyy88qprphd9FQH0Tk"
+}

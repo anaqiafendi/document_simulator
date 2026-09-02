@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Harris Teeter Receipt",
+  "description": "Harris Teeter grocery store receipt issued by Store #177 located at 975 Emmet St., Charlottesville, Virginia with contact number (434) 984-2900. The receipt header displays the Harris Teeter branding and the “Neighborhood Food & Pharmacy” tagline. POS identifiers include store number, store manager name, cashier identifier, reference number, authorization identifiers, terminal cryptogram values, and transaction timestamp formatted as 04/30/22 03:14pm. The receipt includes a financial summary with subtotal, multi-rate Virginia sales tax breakdown, total balance, and payment processed via Mastercard. Loyalty metadata for the VIC customer program appears with VIC customer ID reference, savings summary, coupon totals, and percentage savings. The lower section contains promotional messaging related to fuel points and sub club loyalty rewards, along with nearest participating location information and additional footer messaging typical of supermarket POS receipts.",
+  "slug": "Harris-Teeter-Receipt",
+  "createdAt": "$D2026-03-09T11:34:59.506Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd62df05e-3fa3-4258-a343-0b3d0eb96bb0-image%20(42).jpg?alt=media&token=427d153a-8c80-460a-9cd2-76ffb0c5e931",
+      "size": 236,
+      "businessDetails": "STORE # 177\n975 Emmet St. - Charlottesville, VA\n(434) 984-2900\nSTORE MANAGER: Don Danich\nYOUR CASHIER: CHEC 502",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6d2482d-7095-4230-ac4b-48de0fbcdadc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1/2 REG HOT SUB             3.99 B\nPOTATO CHIP SUB             1.29 B\nFRT LEMONADE                1.19 B\nVIC CUSTOMER        46898827160\nSC:\nLUNCH PACK                  0.98 B\nTAX                         0.52\n**** BALANCE                6.01\nCharlottesville VA 22905-\nCAPITAL ONE Purchase\nREF#: 021082 TOTAL: 6.01\nAID: A0000000041010\nTC: 44B827CCDF37CAD\n\nMASTERCARD\nCHANGE                      0.00\n\n5.3% VA SALES TAX           0.23\n6% VA Sales tax             0.26\n2.5% VA SALES TAX           0.03\nTOTAL TAX                   0.52\nTOTAL NUMBER OF ITEMS SOLD = 3\n\n******** VIC SAVINGS ********\nVIC SAVINGS                 $   0.98\nTOTAL COUPONS               $   0.98\nTOTAL SAVINGS (15 %)        $   0.98\n******** VIC SAVINGS ********\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "db7002cd-db8d-481a-80d7-1a8d08b55d02",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "04/30/22 03:14pm 177 502 164 99999502\n2022 SUB CLUB PTS: 0F 15 REQ\nTHESE POINTS EXPIRE 1/31/2023\nTHESE POINTS CANNOT BE COMBINED\nWITH 2021 SUB POINTS\n\nAPR FUEL POINTS\nREDEEM 100PTS TO SAVE .10 PER GAL.\nON ONE PURCHASE OF UP TO 35 GAL.\nSAVE UP TO $1 PER GAL AT HT OR BP\nFUEL CENTERS ON 1 FILL-UP.\n\nFUEL POINTS THIS ORDER = 6\nFUEL POINTS THIS MONTH = 12\n\nTHIS MONTH POINTS EXPIRE 5/31/22.\nVISIT WWW.HARRISTEETER.COM FOR DETAILS\n\nNEAREST PARTICIPATING LOCATIONS\n(0.4 mi.)\n1159 MILLMONT ST.\nCHARLOTTESVILLE, VA 22903\n\nKroger (1.15 mi.)\n1904 Emmet St. N\nCharlottesville, VA 22901\n*Locations subject to change",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4fbc856-bf45-4d0d-8b83-92fdfa946b80",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1HVLScF6GAUnZilIe3WZ%2F1HVLScF6GAUnZilIe3WZ-e0534558-5243-418a-975a-a2426810e981.png?alt=media&token=220943fa-3838-4a9c-9610-bb11c78d5bd1",
+  "published": true,
+  "id": "1HVLScF6GAUnZilIe3WZ"
+}

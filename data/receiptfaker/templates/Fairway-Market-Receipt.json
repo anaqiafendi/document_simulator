@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-22T13:05:16.038Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ecadf288-fc84-457d-b909-fd3c5286f8c8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4e43185c-06fb-4480-96b2-c011e1f145fa-image%20(17).jpg?alt=media&token=5bc05845-3398-4c8b-81c1-0dcd31de5ee2",
+      "size": 220,
+      "businessDetails": "FARM BOY COUNTRY MARKET\n127-20 ROCKAWAY BLVD\nSOUTH OZONE PARK NY 11420\nStore: 2302",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c8a5ca10-8bec-4b29-b945-d2e6e0df35bf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Cashier: Donna\n11:31:09                    12/19/19\n\nMember card number:   XXXXXXXXX5673\nGROCERY\n9 @ .99\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "61bcd706-72b3-4dff-9ef8-b4641e28ff5c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TAXABLE GROCERY\n",
+          "total": "8.91 T\n"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL",
+          "value": "8.91"
+        },
+        {
+          "title": "NY Sales Tax",
+          "value": "9.70"
+        },
+        {
+          "title": "TOTAL",
+          "value": "10.91"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9eee9613-3b90-4e0b-9c2d-99468d761f36",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "CASH",
+          "description": "TENDER",
+          "total": "10.00"
+        },
+        {
+          "quantity": "CASH",
+          "description": "CHANGE",
+          "total": ".30"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nNUMBER OF ITEMS",
+          "value": "\n9"
+        },
+        {
+          "title": "",
+          "value": "XXXXXXXXX5673"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e454211-6f77-486b-a7a7-8e01c40d45b8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Unchanged Savings Total",
+          "total": "55,247.46"
+        },
+        {
+          "quantity": "",
+          "description": "Unchanged Points Total",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "Unchanged Turkey Points Total",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Trx: 97    Term: 2    Store: 2302",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1649ae5-7674-498c-968c-af6175fb6305",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCall Us @ (718) 738-3750\nThank You For Shopping @ Farmboy\nPlease Ask Us for Wholesale Prices",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "436e2496-d528-4432-8333-a906aa9c6f0d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nRainchecks are valid for 14 days. Grocery Items must be returned within 7 days and with the receipt. Meat, Produce and Dairy within 24 hours and with the receipt.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "name": "Fairway Market Receipt",
+  "description": "This grocery retail receipt from Fairway Market documents a cash transaction processed at the Rockaway Boulevard location in South Ozone Park, New York. The receipt includes store address details, cashier identification, member card formatting, transaction and terminal identifiers, timestamp information, and item count metadata. The POS structure contains subtotal, New York sales tax calculation, total amount formatting, cash tendered, and change due fields aligned in standard grocery retail thermal receipt formatting. Additional receipt elements include loyalty savings tracking information, wholesale pricing promotional messaging, contact phone number references, and raincheck policy notices near the footer. The layout reflects a standard U.S. supermarket thermal receipt with integrated member rewards and retail policy formatting.",
+  "slug": "Fairway-Market-Receipt",
+  "published": true,
+  "id": "YTQKkN976nrIjWjatQbv"
+}

@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "PetSmart Receipt",
+  "description": "This receipt format originates from PetSmart, a U.S. specialty retail chain focused on pet supplies and services. The header displays the PETSMART brand name with the tagline “ANYTHING FOR PETS”, followed by the specific store identification PetSmart #729, the store address at 278 New Britain Ave, Plainville, Connecticut 06062, and the store phone number. The POS metadata includes store number, register number, terminal identifier, transaction reference code, and business date. The receipt marks the transaction type as SALE and includes structured item entries followed by loyalty program references labeled Treats Rewards Points. The financial section contains subtotal, state tax calculation (6.35%), tax total, and final total, which are clearly separated near the bottom of the receipt. This format is typical of U.S. specialty retail POS systems used in pet supply stores, with loyalty reward tracking and return price information included within each item section.",
+  "slug": "PetSmart-Receipt",
+  "createdAt": "$D2026-03-07T16:38:11.218Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb44ee783-f486-46d3-a951-0bd607ba692e-image%20(34).jpg?alt=media&token=5d03cde7-e3cf-444b-8be6-4aec116bca0f",
+      "size": 236,
+      "businessDetails": "PETSMART #729\n278 New Britain Ave\nPlainville, CT 06062\n860-747-9399",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e1a33f7-0681-4739-86df-e89b4ee3fdab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nS-729        R-101\nT-10113      A-803621           BUS.DATE-07/03/2024",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "91cc4697-1a9c-4585-b3f4-abf5e972a715",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0db54edd-9487-4ec4-9fc7-79d3acb8ed81",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "RC VD D HYDRO HP 17.6 lb  $104.81 D\n030111427618                              St\nRx Number: 539902647915\nTreats Rewards Points $2.00 (105.99-1.18)\nReturn Price        $104.81\n\nRC VD D HYDRO SM BREED 8.8 lb $63.28\n030111476883                              St\nRx Number: 539902647915\nTreats Rewards Points $2.00 (63.99-0.71)\nReturn Price         $63.28\n\nNM D URINE DESTROYER+ FOAM 17  $9.88\n018065983992                              St\nTreats Rewards Points $2.00 (9.99-0.11)\nReturn Price          $9.88\n\n3 Sale item(s)\n\nSUBTOTAL         $177.97\n\nSALE\nTAX State  6.35% ON $177.97  $11.30\nTAX TOTAL:                   $11.30\n\nTOTAL                        $189.27",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FqowASRXVqwPuxCtWJaA3%2FqowASRXVqwPuxCtWJaA3-b34e8bcd-a979-4b33-81c6-c90d80b9d875.png?alt=media&token=37b2d5e8-98a3-4687-beec-54d039fecc80",
+  "published": true,
+  "id": "qowASRXVqwPuxCtWJaA3"
+}

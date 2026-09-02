@@ -1,0 +1,121 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T10:29:59.117Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "0d701443-dbc3-47b6-b081-7f81594c7320",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5ddcc0b1-9576-465e-850f-cc12412fd389-image%20(1).jpg?alt=media&token=e73b4b5a-1dab-4418-b7bd-a58024e4cfbf",
+      "size": 241,
+      "businessDetails": "\n2707 Via De La Valle\nDel Mar, CA 92014\n(858) 481-9300\nStore:27\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db6b8a21-526e-4836-b82a-5d1b1b6f997e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Cashier: 270 Coffee Bar\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dfea700e-4e81-457f-b286-59fd0c5cb699",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "01/20/16",
+          "total": "15:32:36"
+        },
+        {
+          "quantity": "",
+          "description": "BAKERY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Iced Coffee Large",
+          "total": "3.55 FD"
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTAL TAX",
+          "total": "3.55"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "3.55"
+        },
+        {
+          "quantity": "",
+          "description": "Cash   TENDER",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cash   Change",
+          "total": "1.45"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "NUMBER OF ITEMS       1"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc6ff76e-9b2f-4ace-b6e6-23964979c89c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n15:32:36 Term:23  Oper:270  Store:27",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42530199-0d1c-437f-b531-f614c9ddebe9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "01/20/16                    15:33:01",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b826fa3e-16e3-4a83-b479-35cce05dcb33",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank for shopping at\nGELSON'S\n\nIt's all online at WWW.GELSONS.COM\n----------------------------------\n\nYOU COULD WIN $500!\n\nShare your feedback with us\nand enter for a chance to win a\n$500 Gelson's gift card.\nVisit www.gelsonsfeedback.com\nwithin 7 days of your visit.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Gelson's Receipt",
+  "description": "This receipt is issued by Gelson's and identifies the location as 2701 Via De La Valle, Del Mar, California 92014. The header contains store branding, location details, a contact telephone number, store number, cashier identification, and transaction timestamp. The financial section includes the subtotal, total tax, final transaction total, cash tendered, cash change, and the number of items purchased. Additional POS transaction metadata includes transaction number, terminal number, operator number, store reference, and a secondary transaction timestamp. The footer contains a customer appreciation message, the retailer's website, and a customer-feedback promotion offering a chance to win a cash prize through a survey. The overall layout is representative of a United States grocery retail POS receipt, combining transaction tracking, cash-payment reconciliation, tax reporting, and customer-engagement messaging within a compact retail receipt format.",
+  "slug": "Gelson's-Receipt",
+  "published": true,
+  "id": "jCfb7BQnQcAS8dS2W69w"
+}

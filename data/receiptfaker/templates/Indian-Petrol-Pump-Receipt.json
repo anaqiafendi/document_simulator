@@ -1,0 +1,75 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Indian Petrol Pump Receipt",
+  "slug": "Indian-Petrol-Pump-Receipt",
+  "createdAt": "$D2025-09-30T12:31:06.834Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F8d3a5cf6-1740-4a40-b2ff-7bf8b7760207-indian-oil-seeklogo.png?alt=media&token=a494aefe-3a6a-4f4f-ba36-72c5ff302fb6",
+      "size": 151,
+      "businessDetails": "OASIS FUELS NH10 DEL\nTIN: 06463800987\nPH: 9212580011\n\nBill No : 10071234 - ORGNL\nTrns. ID : 30091245\nAtnd. ID : 90423711\nReceipt : Physical Receipt\nVehi. No : DL-4C-AB-0556\nMob. No : 9876543210",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9bdc3800-7d0d-4bd7-909f-f8064ae1e99d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Date : 9/30/2025",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "5baa3c71-feb9-47de-b6c4-ff54e4afe22a",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Time :  05:23",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "FP. ID : 2\nNozl. No : 2\nFuel : Diesel\nRate : Rs 105.67 per Litre\nSale : Rs 3,396.24\nVolume : 32.14 Ltr",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0f06b849-8b5c-4408-b029-56ec7d1c16c9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you! Visit Again",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e6cc5d09-cd9e-452e-943f-6435ac329b46",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FtaRHuu43XDamvrsyrnwj%2FtaRHuu43XDamvrsyrnwj-9fa3fde9-a9d7-42b1-8989-abbd401a443c.png?alt=media&token=2eba7de8-6428-41a3-8fee-9587439dcade",
+  "description": "Need an Indian petrol receipt? Use our free tool to create a detailed fuel purchase record. Add petrol pump name, vehicle details, quantity, rate, and payment—perfect for reimbursements or mileage tracking.",
+  "published": true,
+  "metatitle": "Indian Petrol Receipt",
+  "metadesc": "professional Indian petrol pump invoices with customizable station details, fuel quantity, rates, and vehicle information",
+  "id": "taRHuu43XDamvrsyrnwj"
+}

@@ -1,0 +1,151 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-06-12T19:00:02.036Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Las Iguanas Receipt",
+  "description": "This receipt template originates from Las Iguanas at the Lakeside location in Essex, United Kingdom. The header contains the restaurant branding, location information, till number, transaction date and time, and server name. Operational identifiers include table number, cover count, and account number. The financial section contains a product group summary separating food and drinks totals, followed by the overall transaction total. The footer includes a promotional message, a service-charge notice applicable to larger parties, and the business VAT registration number. The format is representative of a casual dining restaurant point-of-sale receipt.",
+  "sections": [
+    {
+      "id": "b2141b74-3a83-46dc-ae7f-5eec360a3ffd",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2d463cd4-57a9-40cd-9fe1-2690d7ef60a2-image%20(11).jpg?alt=media&token=df842332-1e26-49d0-a37a-c44de23b4b11",
+      "size": 251,
+      "businessDetails": "Las Iguanas\nLakeside\nEssex, RM20 2ZH\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "65bc96fa-cdf1-4854-975a-fc39fe0e79fe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Till 3 ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Samantha",
+          "total": "02 Feb 2019 19:58"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTable: 67  c: 3",
+          "total": "\n\nAcc No: 100"
+        },
+        {
+          "quantity": 1,
+          "description": "241 Virg Pina Co",
+          "total": " =      4.95"
+        },
+        {
+          "quantity": 1,
+          "description": "241 Pass Cooler",
+          "total": "=      4.95"
+        },
+        {
+          "quantity": 1,
+          "description": "241 Banana Cool",
+          "total": "=      4.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Chse Dough Balls",
+          "total": "=      3.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Calamares",
+          "total": "=      6.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Veg Maracana",
+          "total": "=     12.50"
+        },
+        {
+          "quantity": 1,
+          "description": "SEAFOOD Moau",
+          "total": "=     14.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Ribs Rack WHOLE",
+          "total": "=     18.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Upgrade Swt Frie ",
+          "total": "=      0.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7456cd2d-ce6b-44a0-a01a-0ed5137fe6aa",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nProduct Group Summary",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5cd96818-19e9-49c4-9dbf-1fc0391b276c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Food",
+          "total": "57.80"
+        },
+        {
+          "quantity": "",
+          "description": "Drinks",
+          "total": "14.85"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\n£72.65"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d270533a-7a39-40db-83fd-42b937136482",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nBook now for Valentine's Day!\n\nService charge opt. for parties of\n\nVAT No. 801 435 861",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Las-Iguanas-Receipt",
+  "published": true,
+  "id": "ylMTXyMUOw77qcLU3uqT"
+}

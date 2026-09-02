@@ -1,0 +1,121 @@
+{
+  "slug": "Flunch-Receipt",
+  "numberFormat": "LEFT",
+  "description": "This restaurant receipt from Bordeaux Merignac documents a card payment transaction processed at the Chemin de Mirepin location in Mérignac, France. The receipt includes full address details, telephone number formatting, French SIRET business registration information, cashier/operator identifiers, timestamp metadata, and ticket numbering references. The POS structure contains subtotal formatting, VAT calculation references (“TVA”), total amount presentation in euros, and card payment confirmation aligned in standard French restaurant thermal receipt formatting. Additional receipt elements include customer feedback promotional messaging, survey website references, QR code placement, and product count references near the footer. The layout reflects a standard French café and dessert restaurant thermal receipt with localized VAT accounting and customer survey presentation formatting.",
+  "imageUrl": "",
+  "createdAt": "$D2026-05-27T16:22:55.204Z",
+  "parentName": "Office Depot",
+  "backgroundType": "CRUMPLED_1",
+  "sections": [
+    {
+      "bottomDivider": true,
+      "size": 239,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa8fa49bc-45a8-4e9d-9470-462de708e430-image%20(15).jpg?alt=media&token=38d3e180-79f7-47dc-9d1c-bac031b78cdf",
+      "businessDetails": "BORDEAUX    MERIGNAC\n43 CHEMIN DE MIREPIN\n33700 MERIGNAC\nTel : 05.56.97.56.25\nSIRET : 32077251000949",
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "type": "HEADER",
+      "id": "035a490a-f276-4d50-b4cd-dbd2d770ae09",
+      "date": "$undefined"
+    },
+    {
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "id": "c6061ddd-a313-4313-98db-783ea8bfe5e5",
+      "bottomDivider": false,
+      "custom": "\n09/04/17 17:14 TPV04-014 032- NADINE\n",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalText": "",
+      "totalLines": [],
+      "totalDivider": false,
+      "items": [
+        {
+          "quantity": "1",
+          "total": "3.70",
+          "description": "CAFE LIEGEOIS"
+        },
+        {
+          "total": "3.70",
+          "description": "CHOCOLAT LIEGEOIS",
+          "quantity": "1"
+        },
+        {
+          "total": "4.00",
+          "description": "PECHE MELBA",
+          "quantity": "1"
+        },
+        {
+          "quantity": "",
+          "total": "11.40",
+          "description": "TOTAL TICKET"
+        }
+      ],
+      "type": "ITEMS",
+      "id": "d8f289b2-4d5b-48a7-b2e0-d8f34f3f616d",
+      "bottomDivider": false,
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "totalDividerType": "DASHES",
+      "totalDivider": false,
+      "items": [
+        {
+          "description": "\nA PAYER\n",
+          "total": "\n11.40 EUR\n",
+          "quantity": ""
+        },
+        {
+          "total": "1.04 EUR",
+          "description": "Dont TVA à 10.00 %",
+          "quantity": ""
+        },
+        {
+          "description": "Carte Bancaire Euro",
+          "total": "11.40 EUR",
+          "quantity": ""
+        }
+      ],
+      "type": "ITEMS",
+      "id": "571e0fcf-5050-44aa-9c33-890040f33a1b",
+      "total": "",
+      "totalLines": [],
+      "totalText": "",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "custom": "\n3 Produit(s)   V.S.P ticket 79387",
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "id": "b123d613-8007-4b2d-a725-0fe77e8b1d8b",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "custom": "\n\nPour mieux vous satisfaire,\nDONNEZ-NOUS VOTRE AVIS\nsur ditesnous.flunch.fr\n\n\nOn vous répond et on agit !",
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "id": "deaa426d-210c-40ec-9cb3-850b1003c2ee",
+      "date": "$undefined"
+    }
+  ],
+  "textColor": "#101828",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "currency": "",
+  "fontType": "MERCHANT_COPY",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "name": "Flunch Receipt",
+  "published": true,
+  "id": "pOg4JT7fWcjkQRGPb551"
+}

@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bass Pro Shops Outdoor World Receipt",
+  "description": "A customer sales receipt from Bass Pro Shops Outdoor World, located at 5472 Crossings Drive, Rocklin, CA 95677. The receipt includes store contact information, return policy notices, and details of a sale transaction. Items listed include Hodgdon Varget 1-lb and a donation charge, along with calculated sales taxes at 7.25% and 11.0%. The total transaction amount is $77.00, paid via Visa. The receipt concludes with a thank-you message and store policy reminders.",
+  "slug": "Bass-Pro-Shops-Outdoor-World-Receipt",
+  "createdAt": "$D2026-02-15T16:11:19.388Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "29957206-d26f-434b-8d48-a78eb9ff77f6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5323826e-b500-4b52-8646-bdccde80e5b8-pro%20shop.jpg?alt=media&token=389262bd-a172-47d8-bc1a-a13b3811c230",
+      "size": 272,
+      "businessDetails": "Contact Us At 916-251-3800\n\"All Ammunition Sales Are Final\"\n60 Day Return Policy with Receipt\nSee Policy for Details\nGift Cards Cannot Be Returned\nAll Electronics Sales Are Final",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "7019a483-4f8b-49c1-9d71-68114c2a99fc",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "SALE TRANSACTION",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "aff737fb-dd04-4a8b-87d6-7c6d4f46c7c8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "withheldlayout.format\nHodgdon Varget 1-lb  \n0039288531326",
+          "total": "64.99"
+        },
+        {
+          "quantity": "",
+          "description": "DONATION  \n2194221",
+          "total": "0.15"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "SALES @ 7.25%",
+          "value": "4.71"
+        },
+        {
+          "title": "Tax @ 11.0% ",
+          "value": "7.15"
+        },
+        {
+          "title": "VISA  *****0494",
+          "value": "77.00"
+        }
+      ],
+      "total": "77.00",
+      "totalText": "TOTAL  ",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7cb41e9-bcc6-473f-ad1d-9775fe733ffc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1j0pOWCk58pieaFzBqnk%2F1j0pOWCk58pieaFzBqnk-1e5ff9fd-a594-45a8-b25a-f01967bd75d7.png?alt=media&token=9cb6762c-f17d-4be5-a967-53f6c05d7f0f",
+  "published": true,
+  "id": "1j0pOWCk58pieaFzBqnk"
+}

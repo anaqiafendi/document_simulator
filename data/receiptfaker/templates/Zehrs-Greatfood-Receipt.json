@@ -1,0 +1,157 @@
+{
+  "backgroundType": "CRUMPLED_1",
+  "sections": [
+    {
+      "bottomDividerType": "DASHES",
+      "businessDetails": "\nZEHRS GENEUS\n(905) 846-7671\n\n",
+      "bottomDivider": false,
+      "type": "HEADER",
+      "size": 210,
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F16b07a95-1b2e-4ed3-994d-1b73c8f944b2-image%20(20).jpg?alt=media&token=c6d76e78-4ff7-41e5-9e79-881ffd560c27",
+      "id": "d7568e5c-b8f8-4d9b-942d-4bff55a9faf2",
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [],
+      "totalDividerType": "DASHES",
+      "bottomDivider": false,
+      "totalDivider": false,
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "type": "ITEMS",
+      "totalText": "",
+      "items": [
+        {
+          "description": "GROCERY",
+          "quantity": "",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "total": "2.99",
+          "description": "06601359862 GL SLT BUTTER   RJ"
+        },
+        {
+          "quantity": "",
+          "total": "2.99",
+          "description": "06601390567 GAY LEA BUTTER  RJ"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "CUST SERVICE"
+        },
+        {
+          "quantity": "",
+          "total": "2.00",
+          "description": "41000-26879 PC CHARITY       J"
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "\nManufacturer/Store Coupons"
+        },
+        {
+          "total": "-2.00",
+          "quantity": "",
+          "description": "MFR CPN"
+        },
+        {
+          "total": "-2.00",
+          "quantity": "",
+          "description": "MFR CPN"
+        },
+        {
+          "description": "\n\nSUBTOTAL",
+          "quantity": "",
+          "total": "\n\n3.98"
+        },
+        {
+          "description": "TOTAL",
+          "quantity": "",
+          "total": "3.98"
+        },
+        {
+          "quantity": "",
+          "total": "10.00",
+          "description": "CASH"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "ROUNDED 0.03"
+        },
+        {
+          "description": "CHANGE DUE",
+          "total": "(3.95)",
+          "quantity": ""
+        }
+      ],
+      "id": "3559973a-1070-4e9e-9033-f746e154c866",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "custom": "* * * * Your Savings Today * * * * * ",
+      "id": "286a207a-481f-40c8-99fc-aa7b3db55708",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [],
+      "totalDividerType": "DASHES",
+      "bottomDivider": false,
+      "totalDivider": false,
+      "totalText": "",
+      "items": [
+        {
+          "quantity": "",
+          "total": "4.00",
+          "description": "No Coupon Savings (2)"
+        },
+        {
+          "description": "Total Savings",
+          "quantity": "",
+          "total": "4.00"
+        },
+        {
+          "description": "Total $ Saved This Visit",
+          "quantity": "",
+          "total": "50%"
+        }
+      ],
+      "id": "ab7570f4-a4b1-4467-99ae-a319d719e122",
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "custom": "\nYou could have earned 30\nPC points with President's Choice\nFinancial MasterCard. Apply Today\nVisit pcfinancial.ca\n",
+      "id": "4f4a023d-988a-4a25-88d7-0bd0a0602cf2",
+      "date": "$undefined"
+    }
+  ],
+  "numberFormat": "LEFT",
+  "textColor": "#101828",
+  "name": "Zehrs Greatfood Receipt",
+  "createdAt": "$D2026-05-25T12:20:27.330Z",
+  "backgroundCrumpled": false,
+  "fontType": "MERCHANT_COPY",
+  "parentName": "Office Depot",
+  "description": "This grocery retail receipt from Zehrs Greatfood documents a cash transaction processed at the Geneva location in Ontario, Canada. The receipt includes store identification details, phone number, department category formatting, manufacturer/store coupon references, and customer service donation entries. The POS structure contains subtotal, total amount, cash tendered, rounding adjustment formatting, and change due fields aligned in standard Canadian grocery retail thermal receipt formatting. Additional receipt elements include manufacturer coupon savings summaries, percentage savings calculations, PC Financial promotional messaging, and President’s Choice loyalty advertising near the footer. The layout reflects a standard Canadian supermarket thermal receipt with integrated coupon discount formatting and customer savings presentation.",
+  "imageUrl": "",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "slug": "Zehrs-Greatfood-Receipt",
+  "currency": "",
+  "published": true,
+  "id": "RffDr6sodKBYO5Vsxr0t"
+}

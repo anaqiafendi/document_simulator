@@ -1,0 +1,151 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Petrol Receipt",
+  "slug": "Petrol-Receipt",
+  "createdAt": "$D2025-05-24T09:43:33.472Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F4531b111-8b54-47ca-84e0-97bc48db1f38-2048221_diesel_filling_fuel_gas_gasoline_icon.png?alt=media&token=d4c64971-0db5-497d-8a87-de0d76a3f62b",
+      "size": 50,
+      "businessDetails": "TurboFill\n321 Oceanview Boulevard\nSanta Monica, CA 90401\nUnited States\n(415) 732-9842",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Pump: 2\nTransaction number: TXN-20250524-839274",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb305d3f-d341-4e6c-8bf6-4220dd4da226",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Details",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07b4d0b0-ae83-40a0-8924-1601d6b9d7c3",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Base Price: $4.86/GAL\nGallons: 12.50",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "60.75"
+        },
+        {
+          "title": "Tax",
+          "value": "7.45"
+        }
+      ],
+      "total": "69.72",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "This receipt serves as proof of fuel or store purchase. Please retain it for your records. All fuel sales are final and non-refundable once pumped. Refunds on non-fuel items are subject to manager approval and require the original receipt within 7 days of purchase. If you believe there was an error at the pump, report it immediately to the cashier before leaving the station. We cannot honor claims made after departure. For questions or concerns, call (415) 732-9842 or email inquiries@turbofill.com.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FfPIVbPbKn7mic3R92BvM%2FfPIVbPbKn7mic3R92BvM-7d8b6857-99e8-4dfa-abc0-4bfc7076c413.png?alt=media&token=0a4fbe28-24e8-4868-936e-b637959201d3",
+  "description": "Need a petrol receipt? Quickly generate a fuel purchase receipt with our free tool. Enter station name, fuel type, quantity, price, and payment details—ideal for mileage logs, reimbursements, or expense records.",
+  "published": true,
+  "metatitle": "Fuel Purchase Receipt",
+  "metadesc": "authentic fuel purchase receipts featuring station branding, fuel specifications, quantity, and payment transaction details",
+  "id": "fPIVbPbKn7mic3R92BvM"
+}

@@ -1,0 +1,116 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "QuickChek Receipt",
+  "description": "This receipt is issued by QuickChek and identifies the location as QuickChek #074, 2 Parsippany Road, Whippany, New Jersey 07981. The header contains the QuickChek branding, store number, address, and transaction reference. The receipt records the purchase of a sausage, scrambled egg and cheese breakfast sandwich with several additions, together with a 20 oz. large coffee. A breakfast sandwich promotional adjustment is also applied. The financial section records a subtotal of $6.33, New Jersey sales tax of $0.42, and a final total of $6.75. The customer paid $7.00 in cash and received $0.25 change. The footer contains the cashier reference, POS number, transaction date and time, and a customer service telephone number.",
+  "slug": "QuickChek-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T19:37:15.356Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "7bf7f5da-96ab-4ceb-9005-643fc0fe923d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff7bde96d-5cba-4028-81d5-72fb496f7af1-image%20(3).jpg?alt=media&token=9b490d01-cc36-4c8a-829b-59dc0d3b9151",
+      "size": 266,
+      "businessDetails": "QuickChek #074\n2 Parsippanny Rd\nWhippany, NJ 07981\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9e902e6-e75e-4cd8-8ae6-0cac1671c374",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Receipt          72178420\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ab32e5cf-1de8-4837-a7c8-c4b5340881f7",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Qty  Name",
+          "value": "Total"
+        },
+        {
+          "title": "1BUR SAUS SCRMEGG CHE",
+          "value": "4.09 *"
+        },
+        {
+          "title": "extra ADD 6\" SLICED ",
+          "value": "0.25"
+        },
+        {
+          "title": "extra ADD RSTD RED P",
+          "value": "0.75"
+        },
+        {
+          "title": " extra ADD RED ONION",
+          "value": "0.25"
+        },
+        {
+          "title": "1LRG, COFFEE 20 OZ",
+          "value": "2.55 *"
+        },
+        {
+          "title": "BREAKFAST SANDWICH",
+          "value": "-1.56"
+        },
+        {
+          "title": "SubTotal ",
+          "value": "6.33"
+        },
+        {
+          "title": "NJ Full Tax Rate",
+          "value": "0.42"
+        },
+        {
+          "title": "Total",
+          "value": "6.75"
+        },
+        {
+          "title": "Received",
+          "value": ""
+        },
+        {
+          "title": "Cash",
+          "value": "7.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "55d56204-1b04-4175-80d3-7020f08de508",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nChange Cash                   -0.25",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ee917cb-db15-4c08-a7e4-f081c1fc430a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCustomer:\nCashier Name: QC_FL_2\n11/23/2025  8:25:59 AM  Pos:72\nQuestions or comments call 973-887-0703",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "A5FEizsh77uMcrVJbgRI"
+}

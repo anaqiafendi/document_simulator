@@ -1,0 +1,162 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Urban Outfitters Receipt",
+  "description": "This receipt is a retail transaction issued by Urban Outfitters at its Kensington High Street location in London, United Kingdom. It includes store address, contact information, and VAT registration details. The receipt contains transaction identifiers such as register, till, cashier, and timestamped purchase information. It presents a single item purchase with pricing in British Pounds, followed by a financial summary including subtotal and total amount. Payment details indicate a Visa debit card transaction. The format reflects a standard UK retail POS receipt with VAT reporting and currency-specific pricing.",
+  "slug": "Urban-Outfitters-Receipt",
+  "createdAt": "$D2026-04-18T11:15:00.075Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "66ca2619-7946-4734-8546-b492a33cb902",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5a8e7ae9-6372-4815-8182-c9956a16ffcc-image%20(1).jpg?alt=media&token=315a80a9-51ab-43db-950d-36ec4d20368a",
+      "size": 210,
+      "businessDetails": "\n36-38 KENSINGTON HIGH ST.\nLONDON UK W8 4PF\n44 20 7761 1001\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad07afaf-cd14-41af-965e-b6e2ffbf57a4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "14/08/18",
+          "total": "16:39"
+        },
+        {
+          "quantity": "",
+          "description": "Trans:   9930 ",
+          "total": "Store:   00201"
+        },
+        {
+          "quantity": "",
+          "description": "Reg:     006",
+          "total": "Till:    R6T1"
+        },
+        {
+          "quantity": "",
+          "description": "Cashier: 10980",
+          "total": "Sales:   10980"
+        },
+        {
+          "quantity": "",
+          "description": "VAT:     684 9363 82",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bf3978bf-9e8e-4c71-b84b-5269adc882ec",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSALE \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a2904ac3-69d9-423a-b25f-d58c4496884b",
+      "type": "BARCODE",
+      "size": 62,
+      "length": 509,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "692cf67c-0226-41f9-b3bd-1e810174cf2b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0 0 2 0 1 0 0 6 9 9 3 0 2 0 1 8 0 8\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c9aa0757-9060-4037-9404-de3e6bc90f7d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "1 @ GBP 46.00"
+        },
+        {
+          "quantity": "",
+          "description": "70953559",
+          "total": "GBP 46.00 VA"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal:",
+          "total": "GBP 46.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "665d329e-d022-4af4-b5bc-220042c22cb8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVAT Report\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0732b2cc-7254-41f0-ac7f-d0eedb3c230a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "GBP 46.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11bad9b2-d6a1-40b6-aab9-a1d28ce7eb93",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCard: Visa Debit",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FRGQYc5ZLcRDLCGxaoQhd%2FRGQYc5ZLcRDLCGxaoQhd-3daa6e19-0f3c-40f3-8bc5-90024cb8cc29.png?alt=media&token=9b758039-0df1-4371-b96c-2be1b9942e9c",
+  "published": true,
+  "id": "RGQYc5ZLcRDLCGxaoQhd"
+}

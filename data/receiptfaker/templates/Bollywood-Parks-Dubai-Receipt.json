@@ -1,0 +1,168 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T10:17:00.192Z",
+  "description": "This receipt is issued by Bollywood Parks Dubai, located within Dubai Parks and Resorts, Dubai, UAE, and represents a hospitality transaction from a food-service outlet operating inside the entertainment destination. The receipt includes outlet branding, location details, an operator identifier, and a check number used for POS transaction tracking. The financial section contains a subtotal, transaction total, tendered cash amount, change calculation, and a VAT summary showing tax-inclusive values across applicable tax categories. Additional receipt metadata includes a barcode reference number, a customer appreciation message, and a formal Tax Invoice designation. The footer provides corporate identification for DXB Entertainments PSC, along with the venue address and VAT-related disclosures. The overall format is characteristic of a UAE hospitality and leisure POS receipt, combining customer transaction documentation, tax-compliant reporting, and payment reconciliation in a compact receipt layout.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Bollywood Parks Dubai Receipt",
+  "slug": "Bollywood-Parks-Dubai-Receipt",
+  "sections": [
+    {
+      "id": "94aa92b8-4630-4487-89a6-005e17ccad45",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc802df32-35cc-4867-a4d9-378fd8edc910-image%20(8).jpg?alt=media&token=be16f401-732d-40af-bdee-a19b7d24b60a",
+      "size": 266,
+      "businessDetails": "\nDUBAI\nSpicy Dhaaba\nDUBAI, UAE\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0cb95072-fd3f-4f1d-91e2-c911c945c136",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "OPERATOR: Latia Korkya",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CHECK NUMBER: 1-118",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb2ea60c-e061-46bb-97dd-08e5e211c6ef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ANNUAL PASS SD 30",
+          "total": "30.00   A"
+        },
+        {
+          "quantity": "",
+          "description": "A/P CHI TIKKA S",
+          "total": "0.00   A"
+        },
+        {
+          "quantity": "",
+          "description": "A/P CHICKEN TIKKA M",
+          "total": "0.00   A"
+        },
+        {
+          "quantity": "",
+          "description": "280.00   A/P TANDOORI ROTI",
+          "total": "0.00   A"
+        },
+        {
+          "quantity": "",
+          "description": "AP. AQUAFINA",
+          "total": "5.00   A"
+        },
+        {
+          "quantity": "",
+          "description": "\nSUBTOTAL",
+          "total": "\n35.00"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "35.00"
+        },
+        {
+          "quantity": "",
+          "description": "DIRHAM",
+          "total": "100.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "65.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f2017067-91f3-4168-b593-45da98a86b49",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n---- VAT SUMMARY ----\n\nA - 5% Inclusive VAT      1.67\nB - 0% Inclusive VAT      0.00\nC - Tax Exempt            0.00\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "55ed01f2-7ded-4946-b6a9-09311ee72122",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTOTAL VAT                 1.67\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7dec71b0-4a7f-4d56-ba76-dfd45762249d",
+      "type": "BARCODE",
+      "size": 80,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "137ca3b6-d231-421b-bf6f-bfef4f3740cc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "R003247000101122018113 02023\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "37ddbe5e-ff2c-4508-8b5a-75c4d0ebcb03",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Thank You For Visiting\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8ce0f10f-40c3-4156-b09a-65b21049af5a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TAX INVOICE\nDXB ENTERTAINMENTS PJSC - 1002828513000003\nDubai Parks and Resorts\nSheikh Zayed Road, Jebel Ali, Dubai, UAE Prices are inclusive of VAT",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "dteXTNw1jh7ku9u9GPRU"
+}

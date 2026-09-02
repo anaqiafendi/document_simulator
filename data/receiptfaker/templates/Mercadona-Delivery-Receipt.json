@@ -1,0 +1,85 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T18:24:51.542Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "description": "This document is issued by Mercadona, S.A. and serves as a home delivery receipt (Albarán) rather than a point-of-sale purchase receipt. It identifies the company address in Madrid, Spain and records the delivery date and time, delivery service window, delivery note number, checkout number, number of shopping carts, and collection bags associated with the order. The document also provides fields for customer identification, address, postal code, and telephone number, along with an observations section for delivery-related notes. Unlike a retail sales receipt, it does not contain an itemized list of purchased products or payment information. The overall layout is representative of a Spanish supermarket home delivery document used to accompany grocery deliveries.",
+  "name": "Mercadona Delivery Receipt",
+  "slug": "Mercadona-Delivery-Receipt",
+  "sections": [
+    {
+      "id": "825c2a9f-20fe-4ab6-8c10-42004acffd43",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": " MERCADONA, S.A.\n\nC/ BRAVO MURILLO 5\nMADRID\nTELEFONO: 910632560\nNIF: A-46103834\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7de8dc6-9af2-4567-aef8-ab7f1b919eae",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9d29e22f-5fb8-48c5-9443-9915f95278f1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ALBARAN\nSERVICIO DOMICILIO\n****************************",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9cb2d800-5b9b-46f7-b40e-498a67babdf7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nFECHA:     23/06/2025 19:52\nCENTRO:    4249\nN.ALBARAN  269827\nCAJA  024\nNumero Carros 2",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2958b71a-a323-4e36-8836-c3b1365fbec9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bolsas frescos:      3\nBolsas congelado:    2",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04dfddd6-cf31-4377-8fcc-61fdcea6a19d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nFecha de traslado:  24/06/2025\nTramo servicio:      10:00-12:00\n\nNIF/CIF: Y4862391M\nNombre: MONICA HERNANDEZ PRADA\n+18 anos: SI\nDireccion: Calle Lezantis N.35\nPiso 5 Pta. 0\nCodigo Postal: 28013\nTelefono: 654210524\nAsesor: 55\n\n----------------------------\nOBSERVACIONES:\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ab19c0d-8e96-45a6-b300-44ddc38a59b0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNO SE ADMITEN PROPINAS\n\n\n\nConsulte la Política de\nPrivacidad y condiciones de\nServicio en domicilio en\nwww.mercadona.es",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "gSKva3voFcQSwhGQMROC"
+}

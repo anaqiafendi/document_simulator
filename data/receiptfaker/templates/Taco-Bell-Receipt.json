@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Taco Bell Receipt",
+  "description": "This receipt is a quick-service restaurant order ticket issued by Taco Bell, featuring a drive-thru guest designation and order number. It includes restaurant identification and a timestamp indicating when the order is ready for pickup. The receipt is structured with categorized sections for drinks, food items, and sauces, reflecting customized order modifications such as additions and exclusions. Unlike a financial receipt, it functions as a kitchen or pickup ticket and does not include pricing or payment details, focusing instead on order composition and preparation instructions typical of fast-food POS systems.",
+  "slug": "Taco-Bell-Receipt",
+  "createdAt": "$D2026-04-07T19:55:40.141Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "5a2de944-a777-46f7-adfd-88ca166d8f86",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1859f0a4-e308-465a-bee5-044b9d7b871c-image%20(3).jpg?alt=media&token=bc4c90a7-a6c5-4c3e-8fae-6bf8afa35a4a",
+      "size": 199,
+      "businessDetails": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5f34a55-c96a-483b-8bc0-ebd9fb6fe81a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "DT Guest",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "28117075-dddf-469a-a541-04f9a6437418",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order # 412",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "35a49ac7-3263-4516-a6e1-f386b6d060a0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nRestaurant #: 021103\nReady for Pick-Up: 3/5/2025 08:53 PM\nDrive Thru\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e30e12db-0353-4a84-8b4d-af79cdf11a31",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Drinks: 0\nFood Items: 6\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ec839183-5cec-4696-b75f-94a44034a565",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1 Cheese Quesadilla\nNO Creamy Jalapeno\n1 Stk Queso CW Sliders 2pk\nNO Pico De Gallo\n1 Mexican Pizza\n1 Beef Supreme Bur\nEZ Red Sauce\nADD Potatoes\nNO Onions\nNO Tomatoes\nNO Sour Cream\n1 Queso Dip\n1 Cinnabon 2 Pack\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7d27a1bd-dcde-4afd-b4c4-76f9ce9ed191",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSauces: 24\n\n\n*** THANK YOU ***\nVISIT US AGAIN!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1tyIvm1JPgLHHBzQxgMs%2F1tyIvm1JPgLHHBzQxgMs-c14fa6f7-9d33-42d0-8edf-eacf4fcd6880.png?alt=media&token=bdbb1cbb-8fd6-4a02-8f39-9dd864186518",
+  "published": true,
+  "id": "1tyIvm1JPgLHHBzQxgMs"
+}

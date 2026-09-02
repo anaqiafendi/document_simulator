@@ -1,0 +1,156 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Rona Receipt",
+  "description": "This receipt is from RONA Walnut Grove, a home improvement and hardware retail store in Langley, British Columbia, Canada. It records the purchase of a 25-foot tape measure along with GST and PST tax calculations. The receipt includes invoice details, salesperson information, Visa card payment approval, subtotal, taxes, and total amount paid. It also contains store contact information, tax registration numbers, and return policy details. The format reflects a standard Canadian hardware retail POS receipt.",
+  "slug": "Rona-Receipt",
+  "createdAt": "$D2026-05-15T14:44:20.114Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b8e2ed44-30fb-4bbb-8f88-b4628f0176c1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F54ef039d-9179-4d8c-8fa6-b692d42297cc-image%20(25).jpg?alt=media&token=a8088296-de8b-45c7-90ad-35658419c4d9",
+      "size": 232,
+      "businessDetails": "\nRona Walnut Grove #8345\n6850 Walnut Grove Dr Suite 117A\nLangley (British Columbia) V1M 2C9\n(604) 513-2454\ninformation@ronawg.com\nRona.ca\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc9873a4-bc0c-4048-8245-e883a2829ecb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "G.S.T. 724636313",
+          "total": "P.S.T. 1142-3180"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0bc655fd-8f4f-458a-bbeb-625bd7f290b3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Invoice     101302368",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Salesperson  ALEX",
+          "total": "02/20/2025"
+        },
+        {
+          "quantity": "",
+          "description": "Cash        101",
+          "total": "01:09:27 PM"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "01ba39fa-687b-4f4e-b156-abffc97d3394",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TAPE MEASURE 25FT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "003512851",
+          "total": "29.99 FP"
+        },
+        {
+          "quantity": "",
+          "description": "1.000 EA @ 29.990",
+          "total": "__________"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0e187f22-26a3-44c0-9b59-c90793fa4625",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Total",
+          "value": "33.59"
+        },
+        {
+          "title": "VISA",
+          "value": "33.59"
+        },
+        {
+          "title": "(********3014)                ",
+          "value": ""
+        },
+        {
+          "title": "APPROVED 077880",
+          "value": ""
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9039a273-8ab7-4539-8555-71a1289c7cd3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Number of items sold: 1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb429ec0-6dee-4dd6-a210-86841f026253",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nAny claim should be done within 30 days of the purchase. Returned special orders are subject to acceptance by the store and to returning fees.\n\nThank you for visiting our store! We look forward to seeing you again.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "bEhrg150gqwSbFNcQXXp"
+}

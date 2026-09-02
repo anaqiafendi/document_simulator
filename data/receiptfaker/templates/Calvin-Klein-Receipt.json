@@ -1,0 +1,159 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-05T16:20:23.491Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5c744030-9513-4f23-accf-18c781182442",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd76ad6f4-e966-4927-a5b7-f34173bcd2fb-image%20(14).jpg?alt=media&token=8b32d280-60ac-4f13-91b7-06fe7652e2ed",
+      "size": 254,
+      "businessDetails": "Las Vegas, NV 89007\n702-366-9896\n\nSALE TRANSACTION\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "026de51c-7830-4cd7-94b2-ac4d3fa7d61a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TRUNK 5PX ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "196807911158",
+          "total": "$$38.92 T"
+        },
+        {
+          "quantity": "",
+          "description": "Original Price",
+          "total": "$$69.50"
+        },
+        {
+          "quantity": "",
+          "description": "Return Price",
+          "total": "$$38.92"
+        },
+        {
+          "quantity": "",
+          "description": "30% OFF COTTON CLASSIC MFS",
+          "total": "-$20.85"
+        },
+        {
+          "quantity": "",
+          "description": "20% In Store US",
+          "total": "-$9.73"
+        },
+        {
+          "quantity": "",
+          "description": "\nSS CK LEFT CHEST GRAP",
+          "total": "\n$20.00 T"
+        },
+        {
+          "quantity": "",
+          "description": "198294538357",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Original Price",
+          "total": "$$39.00"
+        },
+        {
+          "quantity": "",
+          "description": "Return Price ",
+          "total": "$$20.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 for $40.00 or greater fees",
+          "total": "-$5.00"
+        },
+        {
+          "quantity": "",
+          "description": "20% In Store US",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TRIANGLE",
+          "total": "$$30.40 T"
+        },
+        {
+          "quantity": "",
+          "description": "81406536CN06",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Original Price",
+          "total": "$$38.00"
+        },
+        {
+          "quantity": "",
+          "description": "Return Price",
+          "total": "$$30.40"
+        },
+        {
+          "quantity": "",
+          "description": "20% In Store US",
+          "total": "-$7.60"
+        },
+        {
+          "quantity": "",
+          "description": "TAX  89.32 @ 8.375% ",
+          "total": "$$7.49"
+        },
+        {
+          "quantity": "",
+          "description": "\nItems in Transaction: 3",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$96.81"
+        },
+        {
+          "quantity": "",
+          "description": "MasterCard",
+          "total": "$$96.81"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2106968a-47c9-47a8-ba67-87883d0b655b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCalvin Klein Loyalty\n\nLoyalty #: ** **** CUST\nCurrent Points",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Calvin Klein Receipt",
+  "description": "This receipt is issued by Calvin Klein and identifies the store as a location in Las Vegas, Nevada. The receipt is designated as a Sale Transaction and includes transaction reference information, original merchandise prices, promotional discounts, return adjustments, and additional storewide savings. The financial section records the applicable sales tax and the final transaction total. Payment was made using MasterCard, and the footer promotes the Calvin Klein Loyalty program, encouraging customers to enroll for rewards. The overall layout is representative of a United States apparel retail POS receipt, combining promotional discount reporting, return adjustments, sales-tax calculation, card-payment processing, and loyalty-program marketing within a compact retail receipt format.",
+  "slug": "Calvin-Klein-Receipt",
+  "published": true,
+  "id": "ANtAI5DOtZaj3ANTQJCO"
+}

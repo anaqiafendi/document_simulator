@@ -1,0 +1,127 @@
+{
+  "name": "Best Buy Receipt example with Iphone 12 Pro Max 128Gb and 3 more items totalling $1,149",
+  "slug": "Best-Buy-Receipt-example-with-Iphone-12-Pro-Max-128Gb-and-3-more-items-totalling-dollar1149",
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F8613abae-f1a6-43a9-bd66-946ec5641cfc.png?alt=media&token=7c247653-99e4-47d7-9cdc-281e61c200da",
+      "size": 176,
+      "businessDetails": "( 916) 968 - 2258\nMANAGER RENE PUENTES\n3451 TRUXEL RD\nSACRAMENTO CA 23456\nST# 01234 OP# 567890 TE# 23 TR# 03111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SERIAL # F2LFKFKM0D3Y",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Iphone 12 PRO MAX 128Gb ",
+          "total": 999
+        },
+        {
+          "quantity": 0,
+          "description": "IMEI 1:359015639936678",
+          "total": 0
+        },
+        {
+          "quantity": 0,
+          "description": "Model : MG8X3 LL/A",
+          "total": 0
+        },
+        {
+          "quantity": 0,
+          "description": "S/N : F2LFKFKM0D3Y",
+          "total": 0
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": 999
+        },
+        {
+          "title": "Tax",
+          "value": 150
+        }
+      ],
+      "total": 1149,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "cashFields": [],
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/05/2021 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "# ITEMS SOLD 1\nReturn/Exchange Policy: 15 days on most purchases, Activatable devices have a 14-day return policy (30 days for Verizon activatable devices). For details, go to BestBuy.com/Returns. To learn about privacy practices, 90 to BestBuy.com/Privacy.\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "FHuFsBbtzuZcEvI6RKw1CmbVFs92",
+  "createdAt": "$D2025-03-21T02:19:22.334Z",
+  "backgroundCrumpled": false,
+  "description": "This receipt was created with ReceiptFaker generator based on **Best Buy Receipt** template on **Mar 21, 2025**.",
+  "parentId": "1ZVusCVM6MSdXCUtXEQL",
+  "parentName": "Best Buy Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fe4UMJf2Eo27SHewK1uNb%2Fe4UMJf2Eo27SHewK1uNb-e744b220-bead-4c43-8755-7c9219401fd5.png?alt=media&token=d17e65a0-2212-42cb-a9bc-baf0660e3a8a",
+  "isParent": false,
+  "published": true,
+  "metatitle": "Best Buy iPhone Receipt",
+  "metadesc": "authentic Best Buy purchase receipts featuring popular electronics like iPhone models. Perfect for presentations and mockups",
+  "id": "e4UMJf2Eo27SHewK1uNb"
+}

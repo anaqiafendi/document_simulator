@@ -1,0 +1,97 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Dick’s Sporting Goods Receipt",
+  "description": "A retail sales receipt from Dick’s Sporting Goods located in Boynton Beach, FL. The receipt shows a purchase of a Bondi MTS/L item priced at $164.99. It includes subtotal, tax of $11.55, and a total of $176.54. Payment was made via VISA credit card, with authorization details listed. The receipt also displays store contact information, receipt expiration date (04/07/23), transaction reference numbers, and a barcode at the bottom.",
+  "slug": "Dick's-Sporting-Goods-Receipt",
+  "createdAt": "$D2026-02-16T14:09:15.182Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "947841bc-1f85-4199-acbd-a29bf2513417",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F189baaf2-61f6-496c-ad7a-8ba34ae76888-dicks%20sporting%20goods.jpg?alt=media&token=a7b903bd-31f2-4f48-a9e8-a87562977aad",
+      "size": 232,
+      "businessDetails": "Boynton Beach, FL\n(561) 734-7737\n07/23/23 11:07 PM\nRECEIPT EXPIRES ON 04/07/23",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "99fbb12f-f8c2-4289-b54c-96f6449319af",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "S-00684 R-41 T-2522 A-069520 SALE\nYour associate today is: Kysun",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "b6b1dfa7-aab9-4d8c-a195-0d714c361641",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customer Copy",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b1f65ea-b3db-40e8-87e1-9f7b73609e88",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "195719EJ0395 BONDIMTS/L ",
+          "total": "164.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Item Total",
+          "value": "164.99"
+        },
+        {
+          "title": "Subtotal",
+          "value": "164.99"
+        },
+        {
+          "title": "Tax",
+          "value": "11.55"
+        }
+      ],
+      "total": "167.54",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "29c5a8a9-3e85-434b-b581-b8b643280d7f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VISA $176.54\nACCOUNT #: ************7221\nAUTH: 022500\nTAPPED\nAID: A0000000031010\nTVR: 000000000000\nIAD: 06002202000000\nTSI: 0000\nAPP: VISA CREDIT\n\nCHANGE DUE 0.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c47a1355-74ce-4ea7-9314-aafab4597c8b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7JpNzTxCXhT3SpSMeXeA%2F7JpNzTxCXhT3SpSMeXeA-018d05cc-1689-41f5-96e6-c1313d923030.png?alt=media&token=a3ab7056-1941-4574-b054-94d7a27c5063",
+  "published": true,
+  "id": "7JpNzTxCXhT3SpSMeXeA"
+}

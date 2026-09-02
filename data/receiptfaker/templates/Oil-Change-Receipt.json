@@ -1,0 +1,149 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T07:53:01.133Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Oil Change Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F6984ff5f-2684-4be5-adc2-27dcc1d992d8-3605320_maintenance_mechanic_repair_spanner_support_icon.png?alt=media&token=358e0b91-caab-4c90-ae94-7d147a9a5d61",
+      "size": 50,
+      "businessDetails": "Precision Auto & Tire LLC\n2785 Franklin Boulevard\nCleveland, OH 44113\nUnited States\nPhone number: (216) 555-4873\nservice@precisionauto-tire.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Oil Change Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to: Marcus Reynolds\n2349 Pineview Drive\nToledo, OH 43606",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Full Synthetic Oil Change",
+          "total": "150"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "150"
+        },
+        {
+          "title": "Tax",
+          "value": "12 "
+        }
+      ],
+      "total": "162",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "63e24d27-0948-4140-95d0-4e265cd36a78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU FOR CHOOSING PRECISION AUTO GARAGE.\n\nWWW.PRECISIONAUTO.COM",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We offer a limited warranty on labor and parts for 90 days or 3,000 miles, whichever comes first, unless otherwise specified. Any disputes will be addressed promptly and fairly, with the goal of reaching a satisfactory resolution for both parties.",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Oil-Change-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FF8uswLByjrjKliEBds5S%2FF8uswLByjrjKliEBds5S-b5571723-039a-4473-8f17-986395af481b.png?alt=media&token=e4bb5212-8e62-41f1-9372-4c1c7fddc794",
+  "description": "Need an oil change receipt? Use our free generator to create a detailed auto service receipt. Enter shop info, vehicle details, service date, oil type, charges, and payment—perfect for maintenance records or warranty claims.",
+  "published": true,
+  "metatitle": "Oil Change Receipt",
+  "metadesc": "detailed auto service receipts including oil type, labor costs, and vehicle information for accurate maintenance tracking",
+  "id": "F8uswLByjrjKliEBds5S"
+}

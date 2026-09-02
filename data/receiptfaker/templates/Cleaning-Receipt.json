@@ -1,0 +1,149 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-24T10:20:01.991Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Cleaning Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Ffde74392-fc1a-46a3-ab7b-2779fc287789-5803990_broom_cleaning_mop_mopping_icon.png?alt=media&token=df90efe6-006f-47d0-b486-930fccb7eb6d",
+      "size": 50,
+      "businessDetails": "ClearShine Residential Services LLC\n2410 Pine Hollow Road\nNashville, TN 37211\nUnited States\nPhone number: (615) 384-9276\nRegistration Number: TN-2025-5932184",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Cleaning Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "General Cleaning",
+          "total": "50"
+        },
+        {
+          "quantity": "1",
+          "description": "Kitchen Deep Cleaning",
+          "total": "50"
+        },
+        {
+          "quantity": "1",
+          "description": "Carpet Deep Cleaning",
+          "total": "40"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "COLONS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "140"
+        },
+        {
+          "title": "Tax",
+          "value": "13.65"
+        }
+      ],
+      "total": "153.65",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "This receipt confirms full or partial payment for cleaning services as described. If you're not satisfied, please notify us within 48 hours for a complimentary touch-up. Please keep this receipt for your records. Duplicates are available upon request.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3995f8d2-5b06-4d7b-843e-74da9f766c69",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 1:19:11 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "slug": "Cleaning-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fydj7MFRCVR5iwHa3Nb1N%2Fydj7MFRCVR5iwHa3Nb1N-9832f87a-838b-47ce-87a8-97c043a36077.png?alt=media&token=94e08f60-614a-4ac6-a2b6-ebf8b26c1a08",
+  "description": "Need a cleaning receipt? Use our free tool to generate a detailed service receipt. Add company info, service type, dates, fees, and payment details—perfect for client records, invoicing, or reimbursement purposes.",
+  "published": true,
+  "metatitle": "Cleaning Service Receipt",
+  "metadesc": "professional cleaning service receipts with company details, service types, dates, and payment info for your business records",
+  "id": "ydj7MFRCVR5iwHa3Nb1N"
+}

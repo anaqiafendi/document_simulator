@@ -1,0 +1,48 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "ampm Receipt",
+  "description": "$3e",
+  "slug": "ampm-Receipt",
+  "createdAt": "$D2026-03-11T13:03:02.365Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "www.ampm.com\n3121227\n209-524-0234",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "234f9915-dc34-431b-988d-25ed3d1e9ed0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CUSTOMER COPY\n\nDescription    Qty         Amount\n---------      ---         ------\n\nT ICE 16OZ         1       1.29\nTV ICE 16OZ        1       -1.29\nFTN XXLG NT        1        1.99\nV FTN XXLG NT      1       -1.99\n  REFILLN <45:TPR  1        1.09\n\n                   Subtotal   1.09\n                   TOTAL      1.09\n                   DEBIT  $   1.09",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4215983-4581-4e7d-9a0f-fc16b00d38c6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SALE Receipt\nDEBIT    USD$1.09\nPayment from Primary Account\nAcct/Card #: ********1217\nEntry: Contactless ICC\nAuth #: 795732\nResp Code: 000\nStan: 12427581274\nInvoice #: 390250\n\nVerified By PIN\n\nAuthNet: MAE DIR\nMODE: Issuer\nAID: A0000000042203\nBP SITE ID: 3121227\nDEBIT\nCUSTOMER COPY\n\nBP LOYALTY\nREWARD\nAcct/Card #: ************1217\nStan: 12427581274",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FIRodjxirKPVRz8NbqS8y%2FIRodjxirKPVRz8NbqS8y-f85aeb34-7ff2-406e-b46d-514e095c6761.png?alt=media&token=c72f3a24-66ef-43ab-91f4-b188aa29852c",
+  "published": true,
+  "id": "IRodjxirKPVRz8NbqS8y"
+}

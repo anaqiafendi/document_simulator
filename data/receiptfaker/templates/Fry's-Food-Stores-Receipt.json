@@ -1,0 +1,48 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Fry’s Food Stores Receipt",
+  "description": "This receipt format originates from Fry’s Food Stores, a U.S. grocery retail chain operated by Kroger. The header displays the Fry’s Food Stores branding, followed by the store address 1835 E. Guadalupe and the store phone number (480) 838-7023, along with a cashier identifier. The POS layout includes itemized purchase sections interspersed with promotional savings entries, weight-based produce pricing lines, and VIP customer discount indicators. The receipt contains a full financial summary including tax, balance, purchase total, cashback, debit verification details, and transaction reference numbers. Payment processing information includes AID, TC, and PIN verification indicators, typical of U.S. debit card POS systems. The footer includes item count totals, VIP card savings summaries, coupon totals, and overall savings percentage, followed by a timestamp and promotional messaging encouraging customers to complete feedback surveys and earn fuel points rewards, presented in both English and Spanish.",
+  "slug": "Fry's-Food-Stores-Receipt",
+  "createdAt": "$D2026-03-07T16:25:53.528Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F496f6599-3265-43b2-878c-d228cf432814-image%20(33).jpg?alt=media&token=5d014a60-3c4d-45e7-9c6f-7fe1899bb328",
+      "size": 236,
+      "businessDetails": "1835 E. GUADALUPE\n(480) 838-7023\nYour cashier was katie",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e1a33f7-0681-4739-86df-e89b4ee3fdab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "$3e",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "91cc4697-1a9c-4585-b3f4-abf5e972a715",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tell Us How We Are Doing!\nEarn 50 BONUS FUEL POINTS!\n\nDinos Como Lo Estamos Haciendo!\nGana un bono de\n50 PUNTOS DE COMBUSTIBLE\n\nPlus enter our monthly sweepstakes:",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FfPaYQQtk0dK5ZlgU36hc%2FfPaYQQtk0dK5ZlgU36hc-313193b6-f070-46f9-a63a-ca233619e38b.png?alt=media&token=d405bb94-b540-4cf9-8182-c9adc3edc80a",
+  "published": true,
+  "id": "fPaYQQtk0dK5ZlgU36hc"
+}

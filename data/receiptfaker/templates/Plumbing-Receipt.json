@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T09:20:32.483Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Plumbing Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F88fb3fcf-5406-43b0-942e-ad07b85806d2-6714779_home_house_pipe_plumbing_supply_icon.png?alt=media&token=fa71217b-ce2a-4082-bd34-cf0796d41f9d",
+      "size": 50,
+      "businessDetails": "ClearFlow Plumbing Solutions, LLC\nRegistration Number: OH-PLB-562839\nAddress: 4572 Riverside Drive\nCleveland, OH 44114\nPhone Number: (216) 555-4897\nEmail: service@clearflowplumbing.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Plumbing Receipt\nReceipt #: 1020961233\nReceipt date: 5/25/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Billed to: Olivia Martinez\nAddress: 1789 Elmwood Avenue, Akron, OH 44305",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Faucet Change",
+          "total": "200"
+        },
+        {
+          "quantity": "1",
+          "description": "Toilet Installation",
+          "total": "400"
+        },
+        {
+          "quantity": "2",
+          "description": "Drain Cleaning",
+          "total": "400"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "1000"
+        },
+        {
+          "title": "Tax",
+          "value": "82.50"
+        }
+      ],
+      "total": "1,082.50",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All estimates provided are approximate and based on the initial assessment. Final charges may vary depending on additional work or parts required. Labor and parts are guaranteed for 90 days from the date of service unless otherwise specified. Warranty does not cover damage caused by misuse or natural wear. Cancellations must be made at least 24 hours before the scheduled appointment to avoid a cancellation fee.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "63e24d27-0948-4140-95d0-4e265cd36a78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU FOR CHOOSING CLEARFLOW PLUMBING.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Plumbing-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FS8JwIZPN5y7fVHnrbWdZ%2FS8JwIZPN5y7fVHnrbWdZ-c73217cc-150b-4ada-a0ea-7e232e5c30e9.png?alt=media&token=2c5541fe-7192-4d77-8c92-628cbc3859cf",
+  "description": "Need a plumbing receipt? Quickly generate a professional service record with our free tool. Add plumber info, job details, parts used, labor costs, and payment—ideal for client documentation or business records.",
+  "published": true,
+  "metatitle": "Plumbing Service Receipt",
+  "metadesc": "professional plumbing receipts with customizable plumber info, job details, parts costs, and labor charges for your records",
+  "id": "S8JwIZPN5y7fVHnrbWdZ"
+}

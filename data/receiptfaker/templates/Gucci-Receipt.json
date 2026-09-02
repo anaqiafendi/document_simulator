@@ -1,0 +1,132 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Gucci Receipt",
+  "slug": "Gucci-Receipt",
+  "createdAt": "$D2025-05-24T07:31:39.532Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fni0zgFRPnzQ6yecSx1vE%2Fni0zgFRPnzQ6yecSx1vE-15a0ff22-59de-4363-991c-9e319a0145c2.png?alt=media&token=90c7a1c4-717f-454b-a86c-78b7f9081c6b",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F1f66172d-dc38-4ae7-bd0f-9552f935b356-gucci_PNG28.png?alt=media&token=51527d20-bdc7-4426-9604-34680ed56e4d",
+      "size": 242,
+      "businessDetails": "Houston\n5015 Westheimer Suite A2422\nThe Galleria I\nHouston TX 77056\ntel (713) 961-0778\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Trans #16068 Date: 11/20/19 11:09:25\nStore: 20222 Register: 2\nCashier: 9375059\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "150 WOMENS BELT 2754/110\n37055 - 275",
+          "total": "179,00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "179.00"
+        },
+        {
+          "title": "Tax",
+          "value": "14.79"
+        }
+      ],
+      "total": "193.79",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Without prejudice to any applicable legal guarantee on the exchange of products, Gucci will be pleased to accept the exchange of products within 10 days from the date of purchase. This right to exchange does not apply to personalized products, made to measure or made to order products, cosmetics and fragrances. Merchandise must be returned in its original condition, in its original packaging and undamaged box, with the tags attached and accompanied by a valid proof of purchase. For lingerie products, the undergarment protection, when provided, also must be intact. No exceptions will be accepted.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need a Gucci receipt? Create a luxury purchase record effortlessly with our free tool. Customize boutique info, product details, pricing, tax, and payment—ideal for proof of purchase, returns, or insurance purposes.",
+  "published": true,
+  "metatitle": "Luxury Gucci Receipt",
+  "metadesc": "authentic Gucci receipts with customizable boutique details, luxury items, pricing, and payment info for returns or records",
+  "id": "ni0zgFRPnzQ6yecSx1vE"
+}

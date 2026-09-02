@@ -1,0 +1,140 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T04:06:47.952Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Claire’s On The Park Restaurant Receipt",
+  "description": "This receipt is from Claire’s On The Park, a restaurant located in Estes Park, Colorado. It documents a dine-in transaction for two guests, including alcoholic beverages and food items such as smoked salmon and wild game meatloaf. The receipt includes table and server details, date and time, itemized pricing, subtotal, and sales tax. It also provides suggested tip amounts at different percentages and confirms the total balance due. The format reflects a standard U.S. restaurant POS receipt with dining and gratuity details.",
+  "sections": [
+    {
+      "id": "85c23dd8-05c3-4805-9e50-359eb671226b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Claire's On The Park\n225 Park Lane\nEstes Park, CO  80517\n970.586.9564",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb89525c-1f9c-4c07-bc50-ab82f803e13e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Check 246",
+          "total": "Table 25"
+        },
+        {
+          "quantity": "",
+          "description": "Jeremy M.",
+          "total": "6/25/2018"
+        },
+        {
+          "quantity": "",
+          "description": "Guests 2",
+          "total": "8:35 PM"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cc71e9e0-a0d5-49ae-ae96-31c64ccd8c65",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Margarita",
+          "total": "6.00"
+        },
+        {
+          "quantity": "",
+          "description": "Single Well",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Smoked Salmon",
+          "total": "24.00"
+        },
+        {
+          "quantity": "",
+          "description": "D Wild Game Meatloaf ",
+          "total": "18.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "38314cbb-2ff2-4d1b-ad30-622c2123f439",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "48.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "4.05"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "52.05"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aee55a76-c307-4b82-8b41-5e90717911e3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n15%          (7.81)\n18%          (9.37)\n20%         (10.41)\nBALANCE DUE                    52.05",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9212f1d7-0aa1-45a5-a9ae-94bf36b85bbe",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for visiting!\nwww.facebook.com/clairesonthepark",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Claire's-On-The-Park-Restaurant-Receipt",
+  "published": true,
+  "id": "x3KUSElPRI3A7g4Vg1Oe"
+}

@@ -1,0 +1,191 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "State & Main Kitchen + Bar Receipt",
+  "description": "This receipt is from State & Main Kitchen + Bar in Calgary, Alberta, Canada. It records a dine-in meal for three customers including beverages, fish tacos, calamari, sirloin salad, and a steak sandwich. The receipt includes transaction and server details, GST tax calculation, subtotal, and total amount due. It also contains the restaurant’s GST registration number and a customer survey invitation. The format reflects a standard Canadian restaurant POS receipt.",
+  "slug": "State-and-Main-Kitchen-+-Bar-Receipt",
+  "createdAt": "$D2026-05-15T10:18:02.989Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "37f9f675-502a-4117-9555-8f9ac63765ba",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F210b3cc0-8779-4214-a62c-583fcb547f2b-image%20(20).jpg?alt=media&token=b6fc8641-a45a-47dd-9b76-e9ca99cb8d22",
+      "size": 270,
+      "businessDetails": "State and Main Nolan Hill\n300, 8 Nolan Hill Blvd NW\nCalgary, Alberta\n\nPHONE: 403-454-6246\nGST: 837247998RP0028\nTable   #24\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b4eafe23-4587-485c-8080-629caf4a512d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Trans #:  55547 Serv: Montana - 110\n10/19/2016   7:20 PM      # Cust: 3\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f261a829-8067-4b53-8192-4980e2b79fae",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\nQuan",
+          "description": "Descript",
+          "total": "\nCost"
+        },
+        {
+          "quantity": 1,
+          "description": "Juice/Soda",
+          "total": "$$3.25"
+        },
+        {
+          "quantity": 1,
+          "description": "Ice Tea",
+          "total": "$$3.25"
+        },
+        {
+          "quantity": 1,
+          "description": "Coke",
+          "total": "$$3.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Fish Taco Entree",
+          "total": "$$16.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Calamari",
+          "total": "$$12.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Sirloin Salad",
+          "total": "$$19.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Steak Sandwich",
+          "total": "$$19.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7811461-64db-4aa5-9a47-0d84943dacfe",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Net Total",
+          "value": "$$76.50"
+        },
+        {
+          "title": "GST           ",
+          "value": "$$3.83"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "40949042-28f3-4522-accd-3370803e3b11",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "\nTOTAL",
+          "value": "\n$80.33"
+        },
+        {
+          "title": "Amount Due",
+          "value": "$$80.33"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0da32013-17ce-4322-b8cf-4fc95c316566",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nState and Main Cares\nComplete Our\nOnline Survey\nstateandmain.ca/survey\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "1hVf9R2yeKWUZ0mhYBTt"
+}

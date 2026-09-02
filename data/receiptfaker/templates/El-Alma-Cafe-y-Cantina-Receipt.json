@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "El Alma Cafe y Cantina Receipt",
+  "description": "This receipt is issued by El Alma Cafe y Cantina and identifies the restaurant at 1025 Barton Springs Road, Austin, Texas 78704. The header contains the restaurant branding, address, telephone number, table number, seat reference, and transaction date and time. The order consists of Sangria Blanca, Pollo a la Parrilla, and Fundido Solo Queso, together with a 3% Wellness Charge of $1.10. The financial section records a subtotal of $35.10, tax of $2.81, and a final total of $37.91. The receipt explains that the Health & Wellness Charge helps provide healthcare benefits for employees. The footer contains a customer appreciation message, the restaurant's email address, and identifies Toast as the POS platform.",
+  "slug": "El-Alma-Cafe-y-Cantina-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T16:06:36.624Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "25c5cc2f-5144-4cdb-8110-ab484b1dca82",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fda31c8bb-3077-4260-9e45-06f7e9aba79f-image%20(3).jpg?alt=media&token=ecd54388-517f-4abd-94ce-d9499aaf8b7b",
+      "size": 256,
+      "businessDetails": "El Alma Cafe y Cantina\n1025 Barton Springs Rd\nAustin, TX 78704\n512-609-8923\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d364e704-0495-4f95-af9a-e7f4042b5b54",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nServer: Marisol T ",
+          "value": "\nTable 13"
+        },
+        {
+          "title": "Check",
+          "value": "4821"
+        },
+        {
+          "title": "Seat 1",
+          "value": ""
+        },
+        {
+          "title": "Ordered:",
+          "value": "4/28/24 5:43 PM"
+        },
+        {
+          "title": "\nSangria Blanca",
+          "value": "\n$6.00"
+        },
+        {
+          "title": "Pollo a la Parilla",
+          "value": "$$19.00"
+        },
+        {
+          "title": "Fundido  Solo Queso",
+          "value": "$$9.00"
+        },
+        {
+          "title": "Wellness Charge (3.00%)",
+          "value": "$$1.10"
+        },
+        {
+          "title": "\nSubtotal ",
+          "value": "\n$35.10"
+        },
+        {
+          "title": "Tax",
+          "value": "$$2.81"
+        },
+        {
+          "title": "Total",
+          "value": "$$37.91"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "243c723c-f22f-4ee6-903f-a328d2c770bd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHealth & Wellness Charge provides full healthcare\nbenefits for our employees.\n\n\nThank you for joining us!\ninfo@elalmacafe.com\nPowered by Toast",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "o0YJCNsocYjzYN8ebwM2"
+}

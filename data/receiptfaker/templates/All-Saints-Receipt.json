@@ -1,0 +1,119 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "All Saints Receipt",
+  "description": "This receipt is a restaurant POS receipt issued by All Saints located at 222 E. Hennepin Ave, Minneapolis, Minnesota. It features a centered brand header followed by full location details and includes service identifiers such as server name, check number, table number, and guest count. The receipt records the order timestamp in a standard U.S. date and time format and provides a structured financial summary with subtotal, tax, and total amounts. It concludes with a POS system attribution indicating processing through Toast, reflecting a modern digital restaurant transaction system.",
+  "slug": "All-Saints-Receipt",
+  "createdAt": "$D2026-04-04T15:48:54.572Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa744ae66-591a-47c9-aeb7-b5c9cfd7f99e-image%20(25).jpg?alt=media&token=187c8e9c-e01c-4ccd-9411-af4df824a879",
+      "size": 236,
+      "businessDetails": "2 rue Nov Nues\n13001 Paris\nSIRET : 802 785 588\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b01872aa-7597-4b7b-ab40-cc39e397bc2a",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Table",
+          "value": "415"
+        },
+        {
+          "title": "Server",
+          "value": "Rebecca"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Guests",
+          "value": "2"
+        },
+        {
+          "title": "12/2/2022",
+          "value": "12:22 PM"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1a31a2a3-abc4-4d44-9ac4-27be090772de",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        },
+        {
+          "quantity": 1,
+          "description": "Pea",
+          "total": 10
+        },
+        {
+          "quantity": 1,
+          "description": "Butter",
+          "total": 10
+        },
+        {
+          "quantity": 1,
+          "description": "Apple",
+          "total": 10
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "67e7a652-2e3e-4473-a14b-f987383796df",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Powered By Toast",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FvdsjlNcKYffkcLP1ekc3%2FvdsjlNcKYffkcLP1ekc3-74c11bad-47e0-4fbe-bd4e-2084a178ac1b.png?alt=media&token=a5ddb610-676e-4060-986d-ca5a941957e1",
+  "published": true,
+  "id": "vdsjlNcKYffkcLP1ekc3"
+}

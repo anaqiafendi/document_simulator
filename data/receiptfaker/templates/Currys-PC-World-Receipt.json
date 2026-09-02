@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-02T13:40:50.010Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Currys PC World Receipt",
+  "description": "This receipt is a retail transaction issued by Currys PC World, an electronics and appliance retailer in the United Kingdom. It includes store and company details, transaction number, date, time, and operator information. The receipt shows the purchase of a single carrier bag item with pricing. A financial summary indicates the amount due, cash payment, and change returned. It also provides customer support information and company registration details, including VAT number. The format reflects a standard UK retail POS receipt with transaction tracking and payment details.",
+  "sections": [
+    {
+      "id": "8a2cfc5e-fe05-4a8c-9bb3-3c98b17c3432",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0bdf091f-a8f3-4605-aa17-b9824d9ff8e6-image%20(2).jpg?alt=media&token=7f3914cb-1d08-4e7f-9b6a-11dab2d3168c",
+      "size": 253,
+      "businessDetails": "\nBranch: 2272 LEICESTER\nUnit 1, Fosse Park South,Everard Way\nLeicester, LE19 1UT\n03445 610000\nwww.currys.co.uk\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84b1f246-0972-4cf4-9cfe-8e6bf1685a51",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Till: 1",
+          "description": "Receipt 010447",
+          "total": "Date: 29/09/18"
+        },
+        {
+          "quantity": "Operator:",
+          "description": "41 Harbans",
+          "total": "Time: 15:52"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0fffa901-5731-4700-9fda-2d3ca13e6069",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping with Currys\nIf you require further advice or support\nPlease refer to\nwww.currys.co.uk\nor call\n03445 610000\n\n\nSALE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d2356fc4-79f2-4702-b9f6-3a9d8c53bb82",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Assistant: 41 HARBANS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CURRYS LRG CARRIER BAG",
+          "total": "£0.05"
+        },
+        {
+          "quantity": "",
+          "description": "1 x 0000833605 @ £0.05",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nAMOUNT DUE",
+          "total": "£0.05"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "£0.20"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL TENDERED",
+          "total": "£0.20"
+        },
+        {
+          "quantity": "",
+          "description": "Cash Change",
+          "total": "£0.15"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d03609fc-6ecc-49f6-96ec-804fabd52da4",
+      "type": "BARCODE",
+      "size": 75,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c097b57a-9aa7-4857-81eb-637806b637d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2 2 7 2 0 0 1 2 0 1 80 9 2 9 0 0 0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d580985-b31a-46d5-b2c1-6ee7d7ffcf47",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTxn Num: 22720012018092900004780 DSG Retail Limited North Fosse Registered Office: 1 Portal Way London, W3 6RS Registered in England No. 504871 VAT Number GB226 6599 33\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Currys-PC-World-Receipt",
+  "published": true,
+  "id": "VdpZCV9SQPfbTCzMUrWi"
+}

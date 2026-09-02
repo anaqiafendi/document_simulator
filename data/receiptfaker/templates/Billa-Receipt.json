@@ -1,0 +1,184 @@
+{
+  "currency": "",
+  "slug": "Billa-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T13:51:54.880Z",
+  "description": "This grocery retail receipt from Billa documents a cash transaction processed at the Ungargasse location in Vienna, Austria. The receipt includes store address information, telephone number formatting, Austrian VAT registration information (ATU), branch and register identifiers, cashier attribution, receipt numbering metadata, and timestamp information. The POS structure contains subtotal presentation in euros, cash tendered formatting, change due calculations, and VAT-separated tax accounting with 10% and 20% MwSt categories aligned in standard Austrian supermarket thermal receipt formatting. Additional receipt elements include customer appreciation messaging, store location references, invoice numbering, and cashier identification details near the footer. The layout reflects a standard Austrian grocery retail thermal receipt with localized VAT accounting and cash payment formatting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Billa Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f8433e3a-0bac-406c-b274-01291a30fa4c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb9f3e415-7343-4e18-a1e0-1f726b274eb6-image%20(6).jpg?alt=media&token=4ce71a61-820a-49a6-bd9c-20876414bf74",
+      "size": 232,
+      "businessDetails": "sagt der Hausverstand.\n\n1030 Wien\nUngargasse 52\nTel.: 01 - 9610323\nATU 15255907\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92d08c19-ba19-4b1b-a23f-92f07adfaaa5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Filliale: 00323 Kassa:",
+          "total": "2 Bon-Nr: 1122"
+        },
+        {
+          "quantity": "",
+          "description": "Pos: 5 Kassier:",
+          "total": "Fr.Tratberger   /11"
+        },
+        {
+          "quantity": "",
+          "description": "Re-Nr: 0323-20170112-02-1122",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "020779aa-d796-4356-8dc8-e65e9fd68d66",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Datum: 12.01.2017",
+          "total": "Zeit: 13:38"
+        },
+        {
+          "quantity": "",
+          "description": "Bio Parm. Reggiano",
+          "total": "B   5.79"
+        },
+        {
+          "quantity": "",
+          "description": "3 x   0.79",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Kürbiskernweckerl",
+          "total": "B   2.37"
+        },
+        {
+          "quantity": "",
+          "description": "Barolo Le Calende",
+          "total": "C   13.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3f8d20a2-cf69-4345-b10c-0cfa5ae8b973",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Summe",
+          "total": "EUR   22.15"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fefaafd-8018-43e3-92ca-9126e8df91d6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Gegeben Bar",
+          "total": "25.00"
+        },
+        {
+          "quantity": "",
+          "description": "Restgeld",
+          "total": "EUR   2.85"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "230213cb-2a8c-4272-b76b-332dea31a5bc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nBetrag dankend erhalten\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae5610d0-661a-44ea-9ec3-5f3687723554",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "B : 10% MwSt von",
+          "total": "7.42   =   0.74"
+        },
+        {
+          "quantity": "",
+          "description": "C : 20% MwSt von",
+          "total": "11.66   =   2.33"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "15d0dab1-730d-45bb-82bd-e7180d1f2ad9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nDANKE FUER IHREN EINKAUF\nUNGARGASSE 52\n1030 WIEN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "T9YG2SONW1A5khon50Dp"
+}

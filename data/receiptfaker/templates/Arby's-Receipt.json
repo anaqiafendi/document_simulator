@@ -1,0 +1,148 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Arby’s Receipt",
+  "description": "This receipt originates from Arby’s location #6368, showing the restaurant name at the header followed by the full store address in Lafayette, Indiana, along with a contact phone number. The POS record includes transaction metadata such as date and timestamp, order ID, order type (Eat In), employee designation, and total item count. Section dividers separate the order content area from the financial summary portion. The receipt structure includes fields for subtotal, sales tax, and final order total, followed by the payment method section documenting the card brand, masked account number, and authorization code. The document concludes with a closing system message indicating that the order has been finalized, reflecting the standard thermal POS receipt structure used in quick-service restaurant environments.",
+  "slug": "Arby's-Receipt",
+  "createdAt": "$D2026-03-14T12:10:20.322Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Arby's #6368\n\nArby's #6368\n4066 South St\nLafayette, IN 47905\nPhone (765) 449-0082",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "66b1e9b5-1163-49e6-a410-e4ef98f9a78a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "6/6/2021               1:27:53 PM\nOrder Id: AACBHJ5YACB8\nfag - Eat In\nEmployee: Manager\nTotal Items: 7\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6b95ab9-883b-4d1c-a356-e6fd05dc0c2e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "fag",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60be3036-0911-467f-a0e8-cf13af9417fd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0e3e1291-adf6-4f38-a66c-afa3c0d1a341",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fef4fe88-0e27-41b4-ac38-9cce149f28dd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "MasterCard\nCard#: ************7929\nAuthorization: 02551B",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "eab67958-b5ab-4310-9389-750b7b23203e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "--> Order Closed <--",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FzCR53hFJmWkbuJGKqf3o%2FzCR53hFJmWkbuJGKqf3o-4af2883e-401a-4375-b66f-68f8cf9313a0.png?alt=media&token=8a4c0e94-62b0-4fec-9086-21d8e9ab3ca5",
+  "published": true,
+  "id": "zCR53hFJmWkbuJGKqf3o"
+}

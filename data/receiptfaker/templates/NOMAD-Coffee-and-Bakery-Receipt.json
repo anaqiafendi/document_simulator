@@ -1,0 +1,141 @@
+{
+  "createdAt": "$D2026-02-09T14:29:03.066Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FZGij7Cj8TpVqmYPDJGx1ckI0DYu1%2F72ba2e4d-7e5e-4ecb-9b38-f556a6088701-Screenshot%202026-02-08%20at%2010.40.20%E2%80%AFPM.png?alt=media&token=988f0417-ca87-4a50-86ae-092e5b1d8808",
+      "size": 222,
+      "businessDetails": "NOMAD Coffee & Bakery – Lonsdale Quay\n123 Carrie Cates Ct, North Vancouver, BC\nTel: (604) 555‑1184",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order #: 308",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Latte (12oz)",
+          "total": "4.85"
+        },
+        {
+          "quantity": 1,
+          "description": "Latte (12oz)",
+          "total": "4.85"
+        },
+        {
+          "quantity": 1,
+          "description": "Blueberry Muffin",
+          "total": "3.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Chocolate Croissant",
+          "total": "3.79"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "16.98"
+        },
+        {
+          "title": "GST 5%",
+          "value": "0.85"
+        },
+        {
+          "title": "PST %7",
+          "value": "1.19"
+        }
+      ],
+      "total": "19.02",
+      "totalText": "Grand Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "01/03/2024 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "metatitle": "Tim Hortons Receipt",
+  "metadesc": "realistic Tim Hortons receipts with custom coffee, food items, store details, and payment info using our free generator tool",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "NOMAD Coffee & Bakery Receipt ",
+  "description": "This receipt template represents a point-of-sale transaction from NOMAD Coffee & Bakery located at Lonsdale Quay in North Vancouver, British Columbia. It features the NOMAD logo at the top, followed by store name, location details, and contact information. The receipt includes an itemized list of café purchases such as lattes, a blueberry muffin, and a chocolate croissant, along with subtotal, GST, PST, and the final total. Payment details are shown using a debit card with a masked card number, transaction date and time, reference number, and approval status. This template is suitable for coffee shop receipt libraries, food and beverage mock transactions, expense reimbursement examples, and realistic receipt generator applications.",
+  "slug": "NOMAD-Coffee-and-Bakery-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FGx0jWvLf7HAGvOWVcuMy%2FGx0jWvLf7HAGvOWVcuMy-f5b3051a-4918-4fd3-80ff-39c29b5c78c0.png?alt=media&token=de90a4f2-0c81-4c26-a611-a8860afe89ff",
+  "published": true,
+  "id": "Gx0jWvLf7HAGvOWVcuMy"
+}

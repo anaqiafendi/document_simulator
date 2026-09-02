@@ -1,0 +1,92 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-04T13:30:09.523Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FFjsIWGqdIzVztb5UQkKVxmpoAOt2%2Ff46283a6-50d2-4c00-b73f-79787754d958-italian%20sarasota.png?alt=media&token=3ba78325-c1b5-47ae-b137-2dce744a1c57",
+      "size": 118,
+      "businessDetails": "1970 Main Street\nSarasota, FL 34236\n(941) 365-4122",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9d8e8e9-a9f5-437c-a054-4ed5133cf9a8",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "1/29/2026, 5:37:07 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Linguine alle vongole veraci",
+          "total": "29.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Minestrone soup",
+          "total": "13.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Tea",
+          "total": "3.60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "45.60"
+        },
+        {
+          "title": "Tax",
+          "value": "3.19"
+        },
+        {
+          "title": "Tip",
+          "value": "9.12"
+        }
+      ],
+      "total": "57.91",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Mediterraneo Cucina Italiana Receipt",
+  "description": "Restaurant receipt from Mediterraneo Cucina Italiana showing restaurant details, date and time, ordered food and drinks, individual prices, subtotal, tax, tip, total amount paid, and barcode for transaction reference.",
+  "slug": "Mediterraneo-Cucina-Italiana-Receipt",
+  "metatitle": "Fake Zaxby's Receipt",
+  "metadesc": "authentic Zaxby's receipts with custom menu items, prices, restaurant details, and payment info for records or reimbursements",
+  "parentName": "Zaxby's Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FxcYp5pnTwMjS1OUotlWT%2FxcYp5pnTwMjS1OUotlWT-bccdb14e-166f-467a-a8c0-44665e630a04.png?alt=media&token=ffc222e5-b324-4a51-acda-e2f25551f0c9",
+  "published": true,
+  "id": "xcYp5pnTwMjS1OUotlWT"
+}

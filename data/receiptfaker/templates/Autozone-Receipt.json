@@ -1,0 +1,154 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T16:18:05.225Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Autozone Receipt",
+  "slug": "Autozone-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FqBpVDVcz0Qy7frPDrx2Y%2FqBpVDVcz0Qy7frPDrx2Y-75f8bdb5-3fc2-4749-a500-c722d11811aa.png?alt=media&token=ad3fe8cf-2909-4819-954a-5e1d9cbd5c88",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fa220f39c-06b7-47fa-9583-16c3dc808f66-autozone-logo.png?alt=media&token=814faf44-517b-487a-9085-15d5e3c7c254",
+      "size": 259,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "AutoZone #3019\n1530 VETERANS MEMORIAL BLVD\nMETAIRIE, LA 70005\n(504)837-3158",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Motor Oil (5W-30, 5 Quart)",
+          "total": "49.98"
+        },
+        {
+          "quantity": "1",
+          "description": "Car Battery",
+          "total": "119.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Brake Pads (Front Set)",
+          "total": "79.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Windshield Wipers (Pair)",
+          "total": "29.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "279.95"
+        },
+        {
+          "title": "Tax",
+          "value": "20.99"
+        }
+      ],
+      "total": "300.94",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "At AutoZone, customer satisfaction is our priority. We accept returns and exchanges within 90 days of purchase with a valid receipt. All returned items must be in new, unused condition with original packaging. Special order or custom parts may be subject to a restocking fee or may be non-returnable.\n\nPlease retain your receipt for all returns or exchanges. Refunds will be issued to the original method of payment.\n\nFor assistance, call us at (614) 555-3389 or visit any of our store locations.",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need an AutoZone receipt? Our free generator lets you create a custom auto parts receipt fast. Enter store details, items purchased, prices, tax, and payment info—ideal for returns, records, or expense tracking.",
+  "published": true,
+  "metatitle": "Auto Parts Receipt",
+  "metadesc": "realistic AutoZone receipts with custom auto parts, store details, prices, and payment info using our free receipt generator",
+  "id": "qBpVDVcz0Qy7frPDrx2Y"
+}

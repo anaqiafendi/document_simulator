@@ -1,0 +1,129 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T10:05:55.915Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Cafe Rouge Receipt",
+  "description": "This receipt is a provisional restaurant bill issued by Cafe Roux in Paris, France. It records a dine-in order for four guests including beers, bottled water, wine, and club sandwiches. The receipt includes table information, quantities, item pricing, and the final total amount due. It also contains French fiscal compliance details related to the certified cash register system. The wording “Service compris” indicates that service charge is already included in the total price. The format reflects a standard French restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "0ae67d1c-6f13-40c2-883d-705d737d6036",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F53dd70c8-277b-4949-8572-cf87f36263a5-image%20(5).jpg?alt=media&token=4833b43f-e24b-492c-b9f4-3ffc0ee48c7a",
+      "size": 259,
+      "businessDetails": "\n159 Rue Saint-Honoré\n75001 Paris\nTél: +33 1 42 60 97 54\nSiret: 1 572 203 008 00030",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2a6f457f-8bbc-4bff-a92c-54b7f79731bb",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVNPR240059 #4 : 0000\n\nRESTAURANT\nGite: 22 févr. 26  14:35\nARNAUD\nTable 11 - Couverts 4",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fdd8c3b6-c1c7-4a4b-9938-ab6115d67326",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNOTE PROVISOIRE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd64b43b-bc6d-4b66-8547-5d37bba8b30a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "00 Heineken 25cl",
+          "total": "(8.00) 16.00"
+        },
+        {
+          "quantity": 1,
+          "description": "00 Corona Btl",
+          "total": "8.50"
+        },
+        {
+          "quantity": 1,
+          "description": "00 Verre Pinot noir Pere&fils 2024",
+          "total": "12.00"
+        },
+        {
+          "quantity": 1,
+          "description": "0 Vittel 50cl",
+          "total": "8.50"
+        },
+        {
+          "quantity": "4.",
+          "description": "00 Club Sandwich",
+          "total": "(24.00) 96.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d89893eb-7be4-42d7-99c9-a105d623e261",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "141.00"
+        },
+        {
+          "quantity": "",
+          "description": "A payer",
+          "total": "141.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9681a2e5-158b-4c23-b729-5893df29bb43",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Domino version: FR 13.2541.13\nSystème de caisse certifié LNE\nNuméro certificat 33520",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7823d93-cd75-4cc5-8371-0895f5ae4241",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nService compris – Prix net TTC\nMerci de votre visite\net à bientôt\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Cafe-Rouge-Receipt",
+  "published": true,
+  "id": "JddUdyqk8x75wpFQaBYQ"
+}

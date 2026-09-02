@@ -1,0 +1,204 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bahama Breeze Receipt",
+  "description": "This receipt is a casual dining restaurant transaction issued by Bahama Breeze Island Grille at its Cherry Hill, New Jersey location, including full address and contact information. It contains staff identification including general manager and server details, along with guest designation. The receipt presents a detailed itemized list of food and beverage orders with modifiers and side selections, followed by a structured financial summary including subtotal, sales tax, and total amount. It also includes gratuity guidance with suggested tip percentages and amounts, along with duplicate receipt notation and customer engagement messaging. The format reflects a standard U.S. full-service restaurant POS receipt with dine-in service structure and tipping recommendations.",
+  "slug": "Bahama-Breeze-Receipt",
+  "createdAt": "$D2026-04-17T09:31:34.180Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d85b251e-9d91-4720-bb2c-7d0738bdbe83",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F290872ba-b3f7-4f74-a03b-3137ea69eced-image%20(1).jpg?alt=media&token=8a0b3eb6-819b-4070-ad74-aeb2a949240f",
+      "size": 245,
+      "businessDetails": "\n2000 Route 38, Ste. 1170\nCherry Hill, NJ 08002\n856-317-8317",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b8c16e98-ce62-42b0-86b2-5ac76f6f7c24",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nGeneral Manager: Scott S Turner\nProudly Served by: Rebecca G",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8aea9bca-04d6-4520-9d2a-1a2c6982309b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGuest No. 1\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4933f441-99c6-4db7-9dbe-f516a47a4079",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "NA Lemon Breeze",
+          "total": "3.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Table Games ",
+          "total": "1.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Beef Empanadas",
+          "total": "11.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Kids Mini Burgers",
+          "total": "6.99"
+        },
+        {
+          "quantity": 1,
+          "description": "American Cheese",
+          "total": "0.65"
+        },
+        {
+          "quantity": "",
+          "description": "French Fries",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "French Fries",
+          "total": "12.99"
+        },
+        {
+          "quantity": "",
+          "description": "Blackened",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Yellow Rice w/Black Beans",
+          "total": 10
+        },
+        {
+          "quantity": 1,
+          "description": "Jam Plantain Bowl",
+          "total": "14.49"
+        },
+        {
+          "quantity": 1,
+          "description": "The Ultimate Pineapple       ",
+          "total": "13.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Bahamarita",
+          "total": "9.49"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6050346-acc3-4358-bd4d-056d5b082b23",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Duplicate Receipt\nStored Order",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9d7a2f5f-7c6a-4652-b08b-e0a0043f3ab4",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSubtotal",
+          "value": "\n76.42"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "5.06"
+        },
+        {
+          "title": "Total",
+          "value": "81.48"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cf7af1a-f370-4d01-b1cf-5bd926956302",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nGratuity Not Included. Suggested\namounts are provided for your\nconvenience.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c7fdc02c-a4f8-482a-9ba7-61fd78e0c37d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Suggested gratuity is 20%",
+          "total": "- $16.30"
+        },
+        {
+          "quantity": 1,
+          "description": "calculated after tax  18%",
+          "total": "- $14.67"
+        },
+        {
+          "quantity": 1,
+          "description": "and before discounts 15%",
+          "total": "- $12.22"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c322342e-9346-4d12-8213-4a1d086c590e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVisit us at\nwww.BahamaBreeze.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FaDFrYq5mW3Q3OJ9Wg5rh%2FaDFrYq5mW3Q3OJ9Wg5rh-312406a5-570d-47bf-88ee-d144b411bb45.png?alt=media&token=3b8b2383-95ab-4295-9f38-b287e72cec88",
+  "published": true,
+  "id": "aDFrYq5mW3Q3OJ9Wg5rh"
+}

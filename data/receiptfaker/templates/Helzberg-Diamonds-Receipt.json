@@ -1,0 +1,186 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-21T16:45:48.286Z",
+  "description": "$3e",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Helzberg Diamonds Receipt",
+  "slug": "Helzberg-Diamonds-Receipt",
+  "sections": [
+    {
+      "id": "f11129c1-5a57-4b1d-90cd-c3234af2daea",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9fc837f8-c3ba-4b30-bbe9-c59b0b1b46e0-image%20(1).jpg?alt=media&token=2975d1bc-45a4-4387-a49a-32b4bc563aa7",
+      "size": 266,
+      "businessDetails": "\nFayette Mall\n3401 Nicholasville Rd Ste 8212\nLexington, KY 40503-3527\n859-272-2446\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "424969e7-480e-4463-b48f-d7c532d18b09",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Ticket: 2072593",
+          "total": "Date: 11/2/20"
+        },
+        {
+          "quantity": "",
+          "description": "Store: 33",
+          "total": "Register: 2"
+        },
+        {
+          "quantity": "",
+          "description": "Time: 12:34 PM",
+          "total": "Cashier: 61540"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "256284c6-4db3-4f59-b8fb-dc8ee561acde",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nC00330010011400\nDre Davis\nLayaway ID\nL1033013916\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cabfd643-c940-4e52-93b1-0d8ffbbd1bfe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Item",
+          "description": "        Qty    Price",
+          "total": "Amount"
+        },
+        {
+          "quantity": "2410108",
+          "description": "     1 4,599.00",
+          "total": "4,874.94"
+        },
+        {
+          "quantity": "",
+          "description": "c) LANGANI 14W 2CTW 1CT DV RG",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "09562 (Brenda R), 61549 (April C)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Other PR100DFB00",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Picked",
+          "total": "(900.00)"
+        },
+        {
+          "quantity": "",
+          "description": "1787008            1",
+          "total": "329.99"
+        },
+        {
+          "quantity": "",
+          "description": "JEWELRY LCP",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "09562 (Brenda R), 61549 (April C)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Picked",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aedd4394-185f-458e-8574-01a0440a2283",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOpen Item Total:  0.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "83468517-94d5-49ea-a63d-cbbef5d02be4",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n\nLayaway Total:",
+          "value": "\n\n5,204.93"
+        },
+        {
+          "title": "Deposit/Payment:",
+          "value": "5,204.93"
+        },
+        {
+          "title": "Balance Due:",
+          "value": "0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e1226fb9-35d7-40d4-9cf6-61390bbcd3ba",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6c88659-a49a-45eb-98dc-000284f71dff",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "L10330139160\n\nCustomer Copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "K2Tc7jkBuKUlp2CdLe0X"
+}

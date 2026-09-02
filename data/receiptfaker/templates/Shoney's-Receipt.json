@@ -1,0 +1,225 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T10:05:04.021Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "bd047948-0124-41c2-9d56-e08064b3ab8c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nSHONEYS OLD TOWN\n3784 W IRLO BRONSON MEMORIAL HWY\nKISSIMMEE, FL 34740\n(407) 507-6401\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe249f77-c14b-4eb2-81fd-17ce7b978b98",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "DINE-IN-12",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "be558eab-a578-407a-9006-b198cdf41e92",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTOVAR FEDERICO JOSUE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a45ea5af-f91f-4377-a477-5e49a2db2159",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nINV# 202505050601800",
+          "total": "\n05/05/2025"
+        },
+        {
+          "quantity": "",
+          "description": "GUESTS: 4",
+          "total": "12:45 PM"
+        },
+        {
+          "quantity": "",
+          "description": "TERMINAL: 1",
+          "total": "CLERK: GRACE"
+        },
+        {
+          "quantity": "",
+          "description": "TABLE: 12",
+          "total": "#2"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a5f97eee-1dc9-4dde-af59-5bd642916b1f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "QT DESCRIPTION",
+          "total": "PRICE"
+        },
+        {
+          "quantity": "",
+          "description": "4 BREAKFAST BUFFET",
+          "total": "63.96"
+        },
+        {
+          "quantity": "",
+          "description": "UNIT PRICE: 15.99",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 FREE KID BUFFET",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 SODA",
+          "total": "7.98"
+        },
+        {
+          "quantity": "",
+          "description": "UNIT PRICE: 3.99",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 COFFEE",
+          "total": "3.99"
+        },
+        {
+          "quantity": "",
+          "description": "1 KIDS JUICE",
+          "total": "3.79"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "279a14a0-e4a9-4e8b-9fca-4aa05c751c69",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "79.72"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "6.22"
+        },
+        {
+          "quantity": "",
+          "description": "TIP",
+          "total": "16.08"
+        },
+        {
+          "quantity": "",
+          "description": "TECH COST",
+          "total": "3.42"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3b4058ab-3b4c-4dfc-b0e8-ec8d75c419e9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MASTER XXXX2725",
+          "total": "105.44"
+        },
+        {
+          "quantity": "",
+          "description": "AUTH AMOUNT: 89.36",
+          "total": "TIP AMOUNT: 16.08"
+        },
+        {
+          "quantity": "",
+          "description": "AUTH #: 225092",
+          "total": "REF #: 8"
+        },
+        {
+          "quantity": "",
+          "description": "TSI: 6800",
+          "total": "IAD: 01102000016200000"
+        },
+        {
+          "quantity": "",
+          "description": "ENTRY: CHIP",
+          "total": "CARD HOLDER: TOVAR"
+        },
+        {
+          "quantity": "",
+          "description": "CVM: SIGNATURE",
+          "total": "APPLAB: Mastercard"
+        },
+        {
+          "quantity": "",
+          "description": "EOCTYPE: CREDIT",
+          "total": "APID: A0000000041010"
+        },
+        {
+          "quantity": "",
+          "description": "TVR: 8000088000",
+          "total": "TC: 55FA3C2668006459"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Shoney's Receipt",
+  "description": "$3f",
+  "slug": "Shoney's-Receipt",
+  "published": true,
+  "id": "A8ALHzfScPuS2u8GQnJa"
+}

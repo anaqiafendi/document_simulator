@@ -1,0 +1,102 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "REI Co-op Receipt",
+  "description": "A retail transaction receipt from REI Co-op located at 740 Barrett Parkway, Suite #450, Kennesaw, GA 30144. The receipt documents an exchange and sale transaction dated 12/16/15 at 3:52 PM. It includes a return for an insulated outdoor item (Imperial 6) with a return subtotal of $1089.93. The sale section reflects two gift card transactions totaling $1,154.27, followed by a final subtotal of $65.34, sales tax of $65.34 (adjusted), and a total balance of $0.00. The receipt also contains cashier and register details, barcode information, membership number, and promotional notes regarding National Garage Sale and free U.S. standard shipping.",
+  "slug": "REI-Co-op-Receipt",
+  "createdAt": "$D2026-02-15T15:15:58.996Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "a5f952a6-cfa7-4fe9-8b04-99c4fb952020",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe7b2b839-05b6-49f0-af94-5cbf98880511-rei.jpg?alt=media&token=2620a752-0e9c-47ec-ba3d-10d2f2b3a08a",
+      "size": 140,
+      "businessDetails": "740 Barrett Parkway, Suite #450\nKennesaw, GA 30144\n(770) 425-4480",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "debcfdb8-335a-4d4a-a1c3-1eba7482f71b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Cashier: 36545 Register: 2 Store 125\nEXCHANGE Trans 132 12/16/15 3:52 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c8f1bf25-752f-4445-ac01-2fd91530d265",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a769952-abb2-4a4c-a9e7-f82d7c392a11",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "020125020192121820164045013600",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "196dab70-0fb7-416c-a29d-0cf1984b382f",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "MEMBER # 4501360",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "38cd7e67-b7e0-4b72-961f-1d983684375d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "RETURN\n060-825-0005 Insulated/Outdoor 25N\n100-286-0001  Imperial 6  869.93 R\n\n\n      --- RETURN SUBTOTAL 1089.93",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2c5a4ca-624e-4655-a7a1-899a18d40340",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SALE\n   10         Gift Card   1000.00\nGIFT CARD 060515000013775156 \n   10        Gift Card    154.27\nGIFT CARD 060515000013775153\n\n         --- SALE SUBTOTAL 1154.27",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6b9d0a7-47a1-4f9f-a68c-f1c63eb23fa5",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Subtotal 65.34\nSALES TAX 65.34-\nTOTAL 0.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "28eda395-f0fc-45a6-93f1-3e31a5bc7e99",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ndicates Non-Dividendable Item\n\nNational Garage Sale\nSaturday, December 31\n9am–6pm\n\nFREE U.S. Standard Shipping",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fr9t7ZvwJKW0vlhcAHcTb%2Fr9t7ZvwJKW0vlhcAHcTb-fd2df694-edcf-443f-a54e-f4885e9d5d34.png?alt=media&token=b3c8935b-ce8a-4d50-8913-dd3225cee1f6",
+  "published": true,
+  "id": "r9t7ZvwJKW0vlhcAHcTb"
+}

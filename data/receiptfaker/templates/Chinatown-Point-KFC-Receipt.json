@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T18:21:41.723Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "03b805c2-a8b1-472e-aba8-a7b6946decfb",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "KENTUCKY FRIED CHICKEN MGMT PTE LTD\nKFC CHINATOWN POINT\nSTORE # : 667\n\n\nGST REG. NO. M200726952\nCO. REG. NO. 198600837K\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e1f7b0b9-7671-4c9d-869a-4d84b7453a0c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "11 COUNTER1",
+          "total": "101 AM CASHIER 1"
+        },
+        {
+          "quantity": "",
+          "description": "Print Cnt: 1",
+          "total": "101 AM CASHIER 1"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cd17bea-44c0-45c3-842b-458b65d8a81a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Check #:304978",
+          "total": "Cust. Count:0"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2ffe9af-780f-4cae-8d77-8283c5921ac8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "13 Oct 14 11:45:25",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "95c622aa-c53c-4c0b-a80d-0c7f24b52fb7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n----- Eat In -----\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9f7b8e3c-2a8d-45d7-9dd7-ce873f1853fb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "5  TT-1P OR WING @1.00",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "CASH ",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal item sold: ",
+          "total": "\n5"
+        },
+        {
+          "quantity": "",
+          "description": "Sub Total:",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "Payment:",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "7% GST",
+          "total": "0.33"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "682194a0-d82a-4ae1-b24d-53472b10a090",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "-----101 CLOSED 13 Oct 14 11:46:19-----\n********************************\n\nFREE 1 PC CHICKEN WING\nShare your experience at\nwww.kfcguestfeedback.com.sg\nwithin the next 5 days\n\nFill in Validation Code:______\n\n* Valid for Dine-in/Takeaway\n* Valid for 20 days from receipt\n* Valid with any purchase\n* Valid only after 11am daily\n* Not valid with other promotions",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Chinatown Point KFC Receipt",
+  "description": "KFC restaurant receipt issued from Store #667 at Chinatown Point in Singapore. The header identifies Kentucky Fried Chicken Management Pte Ltd, the KFC branch name and store number, followed by the GST and company registration numbers. POS metadata includes the counter identifier, cashier reference, print count, check number, customer count, and exact transaction date and time. The receipt identifies the transaction as eat-in and uses a compact thermal POS layout followed by the payment summary. Financial information includes the total number of items sold, subtotal, final total, payment amount, and 7% GST, together with a register closing timestamp. The lower section contains a customer-feedback promotion, website reference, validation-code field, and detailed conditions covering redemption period, purchase requirements, service type, operating time, and promotional restrictions.",
+  "slug": "Chinatown-Point-KFC-Receipt",
+  "published": true,
+  "id": "eOtrpMFPrTOWb9Uk1T77"
+}

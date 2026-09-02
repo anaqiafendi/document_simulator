@@ -1,0 +1,108 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Tesco Receipt",
+  "description": "Retail receipt issued by Tesco Newtownbreda Extra showing the purchase of Amazon gift cards, total amount paid, payment method (cash), Clubcard points balance, barcode, store details, and transaction date and time.",
+  "slug": "Tesco-Receipt",
+  "createdAt": "$D2026-01-24T15:50:22.666Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "£",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "635d64c4-1f61-4236-bfc3-0ebb855fe10d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F76355efc-3989-49e5-8d98-42285fe86617-Tesco.jpg?alt=media&token=b4bac51c-7f10-454b-8cd2-442aa6b31aca",
+      "size": 241,
+      "businessDetails": "Newtownbreda Extra\nAny questions please visit\nwww.tesco.com/store-locator\nVAT Number: GB 220 4302 31\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02d0474c-03a1-4155-8231-a3a3b6071ab0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 Amazon Var (test) Gift Card  ",
+          "total": "100.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Amazon Var (test) Gift Card  ",
+          "total": "100.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Cash:",
+          "value": "200.00"
+        },
+        {
+          "title": "CHANGE DUE:",
+          "value": "0"
+        }
+      ],
+      "total": "200.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf1e90ae-eec8-43a3-83fd-ab2bef3c4237",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Clubcard points balance:       526  ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef9da71c-86d7-4294-adb8-824c27809a19",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "A chance to win a £1000 Tesco gift card and collect 25 Clubcard points.\nVisit www.tescoviews.com Ts & Cs apply.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4942829b-e186-49b4-a6c2-457476c3ab0f",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "816f68ad-1078-412e-80a3-28a45a333739",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2S6T-1T06-9038-8FV4\n------------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "65ceea4f-ecc9-47df-a7d3-0b0f85ec5a5c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "12/01/2024 16:52 \nStore: 5131 Checkout: 021      ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3WtMRbBJ6BeDm7mWT0o2%2F3WtMRbBJ6BeDm7mWT0o2-36732da7-59ca-4f1d-816c-435b0aeb655c.png?alt=media&token=fc785b34-6c98-4ad8-a2dd-b14e8b90658b",
+  "published": true,
+  "id": "3WtMRbBJ6BeDm7mWT0o2"
+}

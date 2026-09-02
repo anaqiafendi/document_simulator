@@ -1,0 +1,188 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Tom Thumb Receipt",
+  "description": "This receipt is a grocery retail transaction issued by Tom Thumb at its Hurst, Texas location, including full store address, contact numbers, and store identifier. It features a barcode and transaction reference, along with a self-checkout designation. The receipt includes a structured payment section showing item classification, price, and approval status, followed by a financial summary with tax and total balance. Detailed payment processing information is provided, including masked card number, authorization code, debit network identifiers, and EMV data fields. The document concludes with transaction identifiers, timestamp, item count, and a closing customer message, reflecting a standard U.S. supermarket POS receipt format with integrated electronic payment data.",
+  "slug": "Tom-Thumb-Receipt",
+  "createdAt": "$D2026-04-06T17:10:27.052Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3295a60a-b081-4ed4-a440-f7e65be296c7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb05ce8bc-5b28-45f1-97e6-65842f4827b3-image.jpg?alt=media&token=e39be8c6-a3c6-4743-8b40-5d4c5e212ce1",
+      "size": 256,
+      "businessDetails": "Store 2609 Dir Tommy Ross\nMain:(817) 428-0383 Rx:(817) 281-0456\n612 Grapevine Hwy\nHURST TX 75054\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c677b666-15b3-469a-9479-561f3794d44e",
+      "type": "BARCODE",
+      "size": 80,
+      "length": 446,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1c8e8fdf-3ada-44f4-ae2c-5084063dd780",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0 0 2 6 0 9 0 5 2 0 07 0 2 4 0",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3c76e7d-e210-47c3-afa1-c698d16467f3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "YOUR CASHIER TODAY WAS SELF",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8a7ca3a6-dfd8-4896-86c3-76cc2b486eb7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MISCELLANEOUS",
+          "total": "Price You Pay"
+        },
+        {
+          "quantity": "",
+          "description": "19674201118  25 GOOGLE PLAY",
+          "total": "25.00  25.00"
+        },
+        {
+          "quantity": "",
+          "description": "G5 0030221124534",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "APPROVED"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "**** BALANCE",
+          "total": "25.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42749eec-ff23-44c5-a39e-4acd31ada118",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Credit Purchase  ",
+          "total": " 01/31/24 13:24"
+        },
+        {
+          "quantity": "",
+          "description": "CARD",
+          "total": " # ***********5495"
+        },
+        {
+          "quantity": "",
+          "description": "REF: 722421454950  AUTH: ",
+          "total": "00FD8746"
+        },
+        {
+          "quantity": "",
+          "description": "PAYMENT AMOUNT",
+          "total": "25.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b51290b-b86f-4cfd-aa27-75c44bc08d1b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "AL US Debit",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "AID A0000000042203",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TVR 0000008001",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TSI E800",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Mastercard",
+          "total": "25.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f6c5e25f-d779-41da-a769-3138ef8c8d88",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTOTAL NUMBER OF ITEMS SOLD =  0\n01/31/24 13:24  2609  52  70    8852\n\nThank you for shopping Tom Thumb!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FdEXoklZyLCPw7cPzDe4K%2FdEXoklZyLCPw7cPzDe4K-08f8af37-8cd1-4ae7-bf75-41aa30bb368f.png?alt=media&token=26b98ecd-d471-4be1-be08-6b9442694878",
+  "published": true,
+  "id": "dEXoklZyLCPw7cPzDe4K"
+}

@@ -1,0 +1,126 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "MOD Pizza Receipt",
+  "description": "This receipt is a fast-casual restaurant transaction issued by MOD Pizza at its Bellevue, Washington location, including full store address and order number. It contains a timestamped transaction record and presents a structured financial summary with subtotal, tax, and total amounts. Payment details include cash tendered and change due, along with an order closure confirmation. The receipt concludes with a website reference and a promotional survey message, reflecting a standard U.S. quick-service POS receipt format.",
+  "slug": "MOD-Pizza-Receipt",
+  "createdAt": "$D2026-04-07T20:14:56.245Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "7fc32174-2339-419f-af61-524fd3348b0a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F11c47831-0038-416b-834d-f589e256c2c1-image%20(5).jpg?alt=media&token=8f0a5947-d985-4608-b70d-37cabf5c151a",
+      "size": 223,
+      "businessDetails": "\n3961 Lakewood Blvd, Suite 125\nLong Beach, CA 90808\nPhone: 562-377-4571\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6757b812-11b5-448d-8fcb-d8b7a265132b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "12/15/2018 ",
+          "total": "2:08:17 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Order #: 479 ",
+          "total": "GTH"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "73caa483-06be-4c54-b4f9-ca6500bb68c8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MOD Salad",
+          "total": "$$9.47"
+        },
+        {
+          "quantity": "",
+          "description": "Water",
+          "total": "$$10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Napkin",
+          "total": "1.50"
+        },
+        {
+          "quantity": "",
+          "description": "Sub Total:",
+          "total": "$$14.42"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax:",
+          "total": "$$1.48"
+        },
+        {
+          "quantity": "",
+          "description": "Order Total:",
+          "total": "$$15.90"
+        },
+        {
+          "quantity": "",
+          "description": "Cash:",
+          "total": "$$20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due:",
+          "total": "$$4.10"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c183c783-e978-4ee6-9389-1df936a3f29b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n>> Order Closed <<\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29cdd629-bc98-45cd-8155-65e5bf2311d9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nwww.surveymonkey.com/r/modpizza\nTell us how we are doing.\nPlease fill out the survey for a\nchance to win free pizza for a year!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FXAvmEsKoeowFM3lBCPQZ%2FXAvmEsKoeowFM3lBCPQZ-3a270e99-2494-4a93-a10d-c84ad8cb59ef.png?alt=media&token=2f61a6b4-4c2a-4129-a80f-a868548d4da4",
+  "published": true,
+  "id": "XAvmEsKoeowFM3lBCPQZ"
+}

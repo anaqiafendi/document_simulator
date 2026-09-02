@@ -1,0 +1,86 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Price Chopper Receipt",
+  "description": "Price Chopper retail receipt issued from Store 36 located at 6475 N. Prospect in Gladstone, Missouri (ZIP 64119). The receipt includes store branding at the header along with management attribution to the store director and a customer feedback notice. POS metadata includes store number, register number, lane identifier, cashier ID, cashier name, authorization number, reference/sequence number, and ticket number. The receipt displays a financial summary with balance due, cash tendered, and change calculation, along with activation and ending balance lines typical of gift card transactions. A transaction timestamp appears in both short POS format and full ticket timestamp format. The footer section records cashier identification, register details, and additional POS tracking numbers. The format reflects a grocery and supermarket retail point-of-sale receipt used for prepaid card activations.",
+  "slug": "Price-Chopper-Receipt",
+  "createdAt": "$D2026-03-09T11:30:22.798Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8503ac4e-81fc-44ec-a31f-8dfab48f5ec2-image%20(41).jpg?alt=media&token=1dd41243-ca62-482c-9a8d-3681f1d20dc3",
+      "size": 236,
+      "businessDetails": "6475 N. Prospect\nGladstone, Mo. 64119\nDavid Ustick - Store Director\nYour Comments Are Appreciated\nStore: 36",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6383724c-c0cf-46ab-8ac8-3a911f422e35",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6d2482d-7095-4230-ac4b-48de0fbcdadc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTotal number of items sold = 1\n------------------------- \n\nActivate        $   100.00\nEnd Bal         $   100.00\n\nGift Cards #B000616XXXXXXXXXX8294\nAuth # 638039  A\nLane # 04       Cashier # 1004\n11/03/13 09:04  Ref/Seq # 043093",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "db7002cd-db8d-481a-80d7-1a8d08b55d02",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CASHIER NAME:  JO G\nSTORE: 0036  REGISTER:004  CASHIER:1004\nTICKET#:0045  3NOV2018  9:04:49",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FwiC5EnqjEyJ49KoJMIw4%2FwiC5EnqjEyJ49KoJMIw4-20fda6c4-d6a3-44c9-b9f0-bf395d0fbf17.png?alt=media&token=5e290796-9d5c-4f6c-a3d8-021f3b5b771a",
+  "published": true,
+  "id": "wiC5EnqjEyJ49KoJMIw4"
+}

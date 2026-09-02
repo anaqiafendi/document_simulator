@@ -1,0 +1,178 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Itemized Sales Receipt",
+  "slug": "Itemized-Sales-Receipt",
+  "createdAt": "$D2025-09-29T12:06:23.182Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F5fe8abd9-64d1-49ad-accb-235cb5eaf04d-290145_label_price_sale_shopping_tag_icon.png?alt=media&token=a200418f-c856-4f25-9f5d-26183138cfa7",
+      "size": 81,
+      "businessDetails": "Receipt number: 12735092",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9cc5cdb8-a988-44cd-996a-91ad75bd66f0",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:26:37 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Itemized Sales Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "03a5db84-048d-4164-924b-c1972c3c400e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Merchant name: FreshBite Market\nAddress: 982 Elm Street, Suite 5, Chicago, IL 60607\nPhone Number: (312) 555-2714",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Sold to:\nDBA: Windy City Eats\nAddress: 1420 N Clark Street, Chicago, IL 60610\nPhone Number: (312) 555-8397",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "5 lbs",
+          "description": "Romaine Lettuce",
+          "total": "12.50"
+        },
+        {
+          "quantity": "10 lbs",
+          "description": "Chicken Breasts",
+          "total": "45.00"
+        },
+        {
+          "quantity": "4 lbs",
+          "description": "Cherry Tomatoes",
+          "total": "16.00"
+        },
+        {
+          "quantity": "3",
+          "description": "Olive Oil (1L)",
+          "total": "27.00"
+        },
+        {
+          "quantity": "2 lbs",
+          "description": "Parmesan Cheese (block)",
+          "total": "18.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "118.50"
+        },
+        {
+          "title": "Tax",
+          "value": "10.37"
+        }
+      ],
+      "total": "128.87",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1033bd7-fd3b-40d3-b580-ceccaeaf5c6f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Payment is due upon receipt of goods unless otherwise agreed in writing. Customers must inspect all items upon delivery. Any discrepancies, damages, or missing items must be reported within 24 hours of receipt. By accepting this receipt, the customer acknowledges and agrees to these terms.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "www.freshbite.com\n\nThank you for choosing us!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FVTuQh7mQQ338vc3TAl4A%2FVTuQh7mQQ338vc3TAl4A-d8f64405-a2e8-40c0-b3ff-8b7a4033db3a.png?alt=media&token=a7ed4fa3-5e47-4a03-b86a-648b87e37147",
+  "description": "Need an itemized sales receipt? Use our free tool to create a detailed transaction record. List products or services, quantities, prices, taxes, and payment info—perfect for business records or customer receipts.",
+  "published": true,
+  "metatitle": "Itemized Sales Receipt",
+  "metadesc": "comprehensive product sales receipts with itemized lists, quantities, individual prices, and complete transaction details",
+  "id": "VTuQh7mQQ338vc3TAl4A"
+}

@@ -1,0 +1,83 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Finish Line Receipt",
+  "description": "This receipt is a retail footwear transaction issued by Finish Line, located at 6555 E Southern Ave, Suite H18, Mesa, AZ 85206, with contact number 480-854-6998. The receipt includes transaction number 179573, store number 316, register 2, and cashier ID 0314488. It displays both a transaction date (6/17/19) and purchase date (6/16/19), along with an order ID (8296885126). The format includes structured subtotal, tax, total, deposit/payments, and balance due fields, followed by a shipping-to-customer section with full address. A barcode corresponding to the order ID appears above the “Customer Copy” footer. The receipt follows a standard apparel retail POS layout with transaction identifiers and shipment documentation fields.",
+  "slug": "Finish-Line-Receipt",
+  "createdAt": "$D2026-03-03T14:13:09.685Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa20be439-4f9a-4c0f-a3f1-a1393632e167-image%20(22).jpg?alt=media&token=6516e472-974d-435d-b072-a37e1d08bc52",
+      "size": 236,
+      "businessDetails": "6555 E Southern Ave\nH18\nMesa, AZ  85206\n480-854-6998",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "541b5873-7eec-4118-a9a3-6d3f49edb494",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Trans #: 179573    Date: 6/17/19\nStore: 316         Register: 2\nCashier: 0314488\nCustomer:",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "cbb8eab4-ed25-4c68-9e76-d2c0eb64ac27",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "FINAL RECEIPT\n\nOrder Id\n8296885126\n\nPurchase Date6/16/19",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d6ebd0c-48ed-4876-87b3-120fc92cefbf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Style/Color      Size      Amount\n                   \nJORDAN RETRO        13     $208.05\n\n\nSubtotal:                $190.00\nTax:\nTotal:                   $208.05\nDeposit/Payments:\nBalance Due:\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c67844a4-0c68-4bb5-aaf5-93eb3178dfbc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Shipping to Customer\nMilton Corona\n713 E 137th St\nLos Angeles, CA 90059",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "946a638a-b021-4394-bb63-8c5fa552ddd7",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c7c85c79-87e8-4a3c-a002-e140a662abc8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "8296885126\n\nCustomer Copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FkkiOaXgK6B6xVcA1Jy1M%2FkkiOaXgK6B6xVcA1Jy1M-b80b0ef9-5e4b-4c56-9f46-7246622d6e8a.png?alt=media&token=cddb7d4b-a325-4231-a7ad-2fcfc35c7f7e",
+  "published": true,
+  "id": "kkiOaXgK6B6xVcA1Jy1M"
+}

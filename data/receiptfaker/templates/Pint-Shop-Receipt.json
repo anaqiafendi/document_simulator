@@ -1,0 +1,154 @@
+{
+  "currency": "",
+  "slug": "Pint-Shop-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T08:54:20.635Z",
+  "description": "This receipt template originates from Pint Shop and includes restaurant service metadata identifying the assigned server and table number. The receipt is structured into multiple dining categories, including mains, sides, keg pint beverages, spirits, and soft drinks. The lower section contains separate food and drink totals, a notice indicating that service charge has not been added, and a final transaction total. Footer information includes the transaction date and time, bill number, cover count, VAT registration number, and the business website. The format is representative of a full-service restaurant point-of-sale receipt used within the hospitality industry.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Pint Shop Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "bbcfd00e-9f8f-453d-ac86-47da7d683185",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": " Pint Shop\nYour Server was Kevin\nTable 90\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "63b90f77-3794-43fa-8a4b-4e6201dd23b1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nMains",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x Burger",
+          "total": "£12.50"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Grilled Aubergine",
+          "total": "£11.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Lamb Kebab",
+          "total": "£12.00"
+        },
+        {
+          "quantity": "",
+          "description": "Sides",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x Chips",
+          "total": "£3.50"
+        },
+        {
+          "quantity": "",
+          "description": "Keg Pi",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x Keg Taster",
+          "total": "£0.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Pint Cardinaldred",
+          "total": "£6.30"
+        },
+        {
+          "quantity": "",
+          "description": "Gin & Spirits",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x Brockmans Gin",
+          "total": "£5.70"
+        },
+        {
+          "quantity": "",
+          "description": "Extras",
+          "total": "£1.30"
+        },
+        {
+          "quantity": "",
+          "description": "Soft Drinks",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x House Lemonade",
+          "total": "£3.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0eaa569d-ee07-4ed2-93bf-55a67cb356ba",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Food Total",
+          "value": "£39.00"
+        },
+        {
+          "title": "Drink Total",
+          "value": "£16.30"
+        },
+        {
+          "title": "\n\nService Charge Not Added",
+          "value": ""
+        },
+        {
+          "title": "\n\nTotal",
+          "value": "\n\n£55.30"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "401c6bb7-8cfd-4944-87a5-a4d96f81a11e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\n02/07/2018 13:41:09 Bill No. 553305\nCovers 3\t\nVAT No. 166356195\n\nwww.pintshop.co.uk\n\n\nPlease retain this receipt\nfor your records\nVAT No. 166356195",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "ITJG18giThRHNE04D5gz"
+}

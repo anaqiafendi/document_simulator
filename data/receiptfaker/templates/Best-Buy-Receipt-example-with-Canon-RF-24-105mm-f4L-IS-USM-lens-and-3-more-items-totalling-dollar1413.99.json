@@ -1,0 +1,112 @@
+{
+  "name": "Best Buy Receipt example with Canon RF 24-105mm f/4L IS USM lens and 3 more items totalling $1,413.99",
+  "slug": "Best-Buy-Receipt-example-with-Canon-RF-24-105mm-f4L-IS-USM-lens-and-3-more-items-totalling-dollar1413.99",
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F8613abae-f1a6-43a9-bd66-946ec5641cfc.png?alt=media&token=7c247653-99e4-47d7-9cdc-281e61c200da",
+      "size": 125,
+      "businessDetails": "(916) 575-9980\nMANAGER RENE PUENTES\n3690 N Freeway Blvd, \nSacramento, CA 95834",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Item model number:\t2963C002",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "CanonRF24-105mmf/4L IS USM",
+          "total": 1299.99
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": 1299.99
+        },
+        {
+          "title": "Tax",
+          "value": 114
+        }
+      ],
+      "total": 1413.99,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "cashFields": [],
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/05/2021 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "# ITEMS SOLD 1\nReturn/Exchange Policy: 15 days on most purchases, Activatable devices have a 14-day return policy (30 days for Verizon activatable devices). For details, go to BestBuy.com/Returns. To learn about privacy practices, 90 to BestBuy.com/Privacy.\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "vcQorg0v9UQNWz5xyHulNu1xjtJ3",
+  "createdAt": "$D2025-04-11T17:47:11.432Z",
+  "backgroundCrumpled": false,
+  "description": "This receipt was created with ReceiptFaker generator based on **Best Buy Receipt** template on **Apr 11, 2025**.",
+  "parentId": "1ZVusCVM6MSdXCUtXEQL",
+  "parentName": "Best Buy Receipt",
+  "isParent": false,
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FsLROSQOYUzlcYPzUdTUg%2FsLROSQOYUzlcYPzUdTUg-3f0824fd-e1a1-4f40-90f1-63f4fa81d15d.png?alt=media&token=6d1bae1f-be73-4460-897a-afefbaff370f",
+  "published": true,
+  "metatitle": "Canon Camera Lens Receipt",
+  "metadesc": "realistic Best Buy receipts featuring Canon RF 24-105mm lens and electronics with custom totals using our professional generator",
+  "id": "sLROSQOYUzlcYPzUdTUg"
+}

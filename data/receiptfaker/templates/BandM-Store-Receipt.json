@@ -1,0 +1,96 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T18:56:15.032Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "B&M Store Receipt",
+  "description": "This receipt is a retail transaction issued by B&M Retail Ltd, a UK-based discount retail chain. It includes company identification, VAT number, transaction number, and timestamp. The receipt shows the purchase of a single low-cost item (XROCKER RACING/WHEEL) priced at £0.10. A financial summary indicates the total, cash payment made, and change returned. Additional information includes barcode tracking, return policy notice, and promotional mention of the company’s mobile app. The format reflects a standard UK retail POS receipt with transaction and payment details.",
+  "slug": "BandM-Store-Receipt",
+  "sections": [
+    {
+      "id": "31a9fd2c-5f23-484c-a09b-387877c18a09",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F146f77ff-6bf8-4002-a74c-9c5a214f236b-image%20(10).jpg?alt=media&token=8d595e2b-6ad2-4f99-8634-6bec878c6afa",
+      "size": 268,
+      "businessDetails": "\nB&M Retail Ltd\nSR4 6TZ\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1136ea37-4929-4b99-8bab-815bfad2c27a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "XROCKER RACING/WHEEL ",
+          "total": "£0.10"
+        },
+        {
+          "quantity": "",
+          "description": "Total          ( 1 items)",
+          "total": "£0.10"
+        },
+        {
+          "quantity": "",
+          "description": "PAID BY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nCash",
+          "total": "\n£1.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "-£0.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2517203c-8f8d-4a97-8170-e77cad698c4e",
+      "type": "BARCODE",
+      "size": 76,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ac74a682-82e3-402c-b8d5-c0fbe6e4d56b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0001200079984240318162330",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9c45e0e-eff5-4524-91b7-5782625f70da",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n18/03/24  16:23  000712  0007  9984\nVAT No. 673 5836 01\nNO REFUNDS OR EXCHANGES\nWITHOUT A VALID PROOF OF PURCHASE\nCheck out our App on IOS or Android\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "Q2uGeJ2uReUu0wdpjNHr"
+}

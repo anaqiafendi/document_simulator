@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-01-22T18:20:35.852Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "8a9ec128-f1d3-4d97-b010-fa98a5b5f659",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb7848daa-2fd6-4adc-ba31-ccbe03567f6a-Vodafone%20logo.jpg?alt=media&token=5efa0712-4fdb-483f-bff6-febbf89e8ee8",
+      "size": 171,
+      "businessDetails": "VODAFONE\nThe Pavilions SC\nSwords Co. Dublin",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f83c4ead-ae4c-416c-843d-a3700030e9ac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "16/04/18                 12:07\nTrans. 6175             Store: 20232\nReg. 101                 Till: 101\nCashier: Glen            Sales: Glen  VAT: IE 8240985K                   \n\nExchange",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "71f96256-bbc8-45e1-a993-d1969271917d",
+      "type": "BARCODE",
+      "size": 69,
+      "length": 344,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "149259e0-0b85-40fc-b6fe-9fb17772af93",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2 0 2 3 2 1 0 1 6 1 7 5",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "33e5a969-9ebb-4c5b-8045-dc99788c1f94",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Apple iPhone 6 64GB Grey    -399.99$ 1664GABF      1 @   399.99          \nSerial Number      42224031         Orig. Receipt: None                \nItem Condition: Out of Box         \n\nApple iPhone 6 64GB Space Grey       399.99 S                            \n1664GABF      1 @   399.99          \nSerial Number: 353253070263510     \n\nSubtotal                   0.00          \nTotal                      0.00                                                  \n\nTotal Tender               0.00                                   \n\nChange Due                 0.00                                         \n\nNumber of Items Sold:          1             ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c95a83fc-e126-4e3c-9156-0681d388ff08",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tax Summary\n\nCode    Ex Tax     Tax     Inc Tax \nS       325.20     74.79   0.00\nTotal   325.20     74.79   0.00\n\nTax Rates\nS = 23%\n\n           Customer Copy",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3b475e93-d1f3-4cb9-9b4d-741a669ddbc0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for visiting\nVodafone proud supporters of Childline",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Create a Vodafone retail receipt with store details, transaction date, purchased devices or services, tax breakdown, payment information, and cashier details for record keeping or documentation purposes.",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FUWVxgWLPRrwRVWdt8tJa%2FUWVxgWLPRrwRVWdt8tJa-f6215988-f52a-4ca7-b90e-d097afb26922.png?alt=media&token=f0e79374-9d2d-4b2e-bab4-cef29d860bf6",
+  "name": "Vodafone Receipt ",
+  "slug": "Vodafone-Receipt",
+  "published": true,
+  "id": "UWVxgWLPRrwRVWdt8tJa"
+}

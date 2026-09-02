@@ -1,0 +1,85 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Subway Receipt",
+  "description": "This receipt represents a point-of-sale transaction from Subway store #64337-0 located at 50 Wilson Blvd S, Naples, FL 34117, with phone number 239-316-7951. The receipt header features the SUBWAY® logo followed by full store identification details. It includes server ID (0919), complete date and time stamp (9/18/2021 1:38:47 pm), terminal and transaction reference (Term ID-Trans# I/A-161856), and store number (Store: 6474). The receipt documents invoice number (8474-07-3028433) and transaction number (28529). A structured financial summary is present, including Subtotal, Tax, and Total. The footer includes a printed courtesy message (“THANK YOU” and “HAVE A NICE DAY”), reflecting a standard quick-service restaurant POS format with clearly separated financial totals and closing text.",
+  "slug": "Subway-Receipt",
+  "createdAt": "$D2026-02-25T12:56:13.291Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3499c383-752d-4a38-ade4-c283ac7d973b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7e16fa3d-06bb-4521-8294-22cf01da87af-image.jpg?alt=media&token=2f21c015-59ed-46ec-b041-f71dbdf1c51a",
+      "size": 181,
+      "businessDetails": "Subway#64337-0  Phone 239-316-7951\n50 Wilson blvd s\nnaples, fl, 34117\n\nServed by: 0919  9/18/2021 1:38:47pm\nTerm ID-Trans# I/A-161856",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "efd2bccb-582d-4b4b-9ee7-be012b791c9c",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Store: 6474\nDate: 25-12-2018 Time: 17:19\nInvoice number: 6474-07-S028433\nTrans: 28529",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "4052ac6e-b9d5-4420-9856-b7a8eebcfffb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e5dfb96b-3e4a-44af-a539-215bff881fed",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FIM838ffRRQ0MEplZOhws%2FIM838ffRRQ0MEplZOhws-513188b1-b8ed-4604-bae3-54e24fe6d093.png?alt=media&token=c2eafbe2-e31f-446b-9faf-46871b16ca56",
+  "published": true,
+  "id": "IM838ffRRQ0MEplZOhws"
+}

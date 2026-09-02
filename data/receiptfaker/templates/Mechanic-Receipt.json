@@ -1,0 +1,167 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-24T13:47:15.612Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Mechanic Receipt",
+  "slug": "Mechanic-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F1WR4yQ4883okmWlx6cS5%2F1WR4yQ4883okmWlx6cS5-4e59ce33-c79b-4bdc-87b2-b979836ec9df.png?alt=media&token=4907d2ec-8a76-4612-9190-a84b196454b1",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fcb676373-d929-4c78-9460-1838c35f892d-11121153_fi_rr_car_mechanic_icon.png?alt=media&token=757f4640-331d-4e31-828f-ec28f4e782c5",
+      "size": 50,
+      "businessDetails": "Precision Auto Garage, LLC\nRegistration number: REG-2025-849376\n\n742 Maple Street\nRaleigh, NC 27603\nUnited States\n\nPhone number: (919) 555-4827\ncontact@precisionautogarage.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Mechanic Receipt\nReceipt #: 1020963\nReceipt date: 5/24/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Billed to: Olivia Bennett\n2987 Willow Creek Drive\nFargo, ND 58104",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Full Synthetic Oil Change",
+          "total": "120"
+        },
+        {
+          "quantity": "1",
+          "description": "Front Springs Change",
+          "total": "150"
+        },
+        {
+          "quantity": "1",
+          "description": "Engine Tune-up",
+          "total": "200"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "470"
+        },
+        {
+          "title": "Tax",
+          "value": "32.90"
+        }
+      ],
+      "total": "502.90",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We offer a limited warranty on labor and parts for 90 days or 3,000 miles, whichever comes first, unless otherwise specified. Any disputes will be addressed promptly and fairly, with the goal of reaching a satisfactory resolution for both parties. Warranty claims must be accompanied by the original receipt.",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "63e24d27-0948-4140-95d0-4e265cd36a78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU FOR CHOOSING PRECISION AUTO GARAGE.\n\nWWW.PRECISIONAUTO.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "description": "Need a mechanic receipt? Our free tool helps you build a detailed auto service record. Add garage info, vehicle make, repair work, parts, labor costs, and payment—ideal for maintenance logs, warranties, or customer invoices.",
+  "published": true,
+  "metatitle": "Auto Repair Receipt",
+  "metadesc": "professional mechanic receipts with vehicle details, service records, parts costs, and labor charges for auto shops and customers",
+  "id": "1WR4yQ4883okmWlx6cS5"
+}

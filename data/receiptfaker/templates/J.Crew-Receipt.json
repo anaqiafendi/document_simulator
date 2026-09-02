@@ -1,0 +1,147 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-05T12:43:02.965Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "6324f6f0-ae98-4f27-bc41-a472f745ed21",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0edc239f-b7ce-43e3-abd5-76ff9310a8e9-image%20(11).jpg?alt=media&token=e931db95-e80d-4bf5-a06c-d1c04d32eaa2",
+      "size": 259,
+      "businessDetails": "Lenox Square\n3393 Peachtree Road, NE\nAtlanta, GA 30326\n404-237-2739\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6224f41-3ee3-4858-bd44-56217338d738",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTrans: 30744    Date: 9/24/15 5:04 PM\nStore: 519      Register: 5\nSales Associate:\n299296 (Natalie)\nCashier: Jessica",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0798e1e1-f09b-48d6-b5e6-5689188ae6bb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nItem      Qty    Price     Amount\n=================================",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9047962f-17a7-4006-af4e-9a5a150523ed",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nC5836:Illesteve Leonard 2 Blue, EF3161",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "09910376888 1",
+          "total": "145.00      145.00"
+        },
+        {
+          "quantity": "",
+          "description": "C0852:han Kjobenhavn stafe, EF2369",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "09910376888 1",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSubtotal",
+          "value": "\n435.00"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "34.80"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c961e88b-bd63-41a8-b4d6-2e6f3c27940f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "---------------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f6e21584-ffcc-4ecd-b60c-7c3a823a59e3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n469.80"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb0a302c-7038-40aa-bf1b-29761015daae",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Amount Tendered\nCash                          500.00\n\nChange\nCash                         (30.20)\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "82007c4c-9fb6-441a-9f9b-1b0aadfc08f1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSales Tax Analysis\nAgency  Rate%  Taxable   Tax\nGEORGIA (State)  4% 435.00 17.40\nFULTON (County)   2%   435.00   8.70\nATLANTA (City)  1%   435.00   4.35\nMETROPOLITAN ATLANTA  1% 435.00 4.35\n--------------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb752e3f-897e-4042-bf43-7daee9da4a40",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nJ.Crew accepts refunds of unworn,\nunwashed, undamaged or defective\nmerchandise for full refund or\nexchange within 30 days of original\npurchase. Original receipt must",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "J.Crew Receipt",
+  "description": "$3e",
+  "slug": "J.Crew-Receipt",
+  "published": true,
+  "id": "i46ZzYZ6kzhpd4shia0R"
+}

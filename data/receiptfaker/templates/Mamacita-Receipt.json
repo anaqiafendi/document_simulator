@@ -1,0 +1,108 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T20:17:54.599Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "description": "This receipt is issued by Mamacita Modern Mexican + Cocktails and identifies the restaurant as 2045 Creekside Landing Drive, Apex, North Carolina 27502. The header contains the restaurant branding, address, contact telephone number, transaction date and time, order number, and dining section identifier. The receipt documents a dine-in transaction served by Omar and includes the payment details for a Visa card transaction, together with the teller name, reference number, authorization code, and approval response. The financial section records the subtotal, while the customer-added gratuity and final total are handwritten on the receipt. The document concludes with a signature line and identifies itself as the Customer Copy. The overall layout is representative of a United States restaurant payment receipt, combining card-payment authorization, gratuity entry, and customer signature within a compact hospitality receipt format.",
+  "name": "Mamacita Receipt",
+  "slug": "Mamacita-Receipt",
+  "published": true,
+  "sections": [
+    {
+      "id": "9d67e731-b313-481a-83de-2229fa5fd729",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff09928fc-f1b7-44b6-ad67-41b453a2356d-image%20(4).jpg?alt=media&token=bfb4cbeb-b5ad-4d88-a0f3-7b9a02ba6707",
+      "size": 259,
+      "businessDetails": "\nMAMACITA MEXICAN MODERN COCKTAILS\n2045 CREEKSIDE LANDING DR\nAPEX, NC 27502\n(919) 349-5609\nMar 28, 2025 at 6:41 PM\n\nOrder #12023\nA2",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f797991d-21d0-48bc-bbbf-190b893bdfcd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDine In\nOmar\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "321e041e-e1b5-4729-8b2c-2731955e8789",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Transaction #",
+          "total": "28"
+        },
+        {
+          "quantity": "",
+          "description": "Card No",
+          "total": "Visa ...0659"
+        },
+        {
+          "quantity": "",
+          "description": "...lder: ROBERTS/NICOLE M",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ref. Number",
+          "total": "6305302275"
+        },
+        {
+          "quantity": "",
+          "description": "Auth Code",
+          "total": "028054"
+        },
+        {
+          "quantity": "",
+          "description": "Response",
+          "total": "OK"
+        },
+        {
+          "quantity": "",
+          "description": "\nSub-Total",
+          "total": "\n 43.27"
+        },
+        {
+          "quantity": "",
+          "description": "Tip",
+          "total": "10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total ",
+          "total": "53.27"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3d76bfbf-95af-4fdb-8610-7894e0555f06",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nX----------------------\n\nCUSTOMER COPY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "igaeQSn9cw4hq1dVn64C"
+}

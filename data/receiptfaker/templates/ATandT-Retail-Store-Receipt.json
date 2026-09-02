@@ -1,0 +1,84 @@
+{
+  "createdAt": "$D2026-01-21T12:21:21.337Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d312160a-c3e6-4f4a-bf59-3b71c933fd82",
+      "type": "HEADER",
+      "alignment": "RIGHT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FfVALKQTXwXhIzUobnSVLdG75JE93%2F8fa51c55-3996-488c-893f-713cdae7e2aa-AT%26T%20Logo.jpg?alt=media&token=75a7fc57-2a53-4ccc-b259-ca6674ae1b82",
+      "size": 293,
+      "businessDetails": "Plaza Bonita Retail Store\n3030 PLAZA BONITA ROAD,  AT&T STORE\nNational City, CA 91950      \n(619) 267-8147       \nStore No. 5511 Register No. 11",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "13251366-ab12-4c03-98f0-7602db819008",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Customer:\nCARLOS DIAZ\n619-888-3919 (T)\n\n65495  PHO IPHONE 4S 64GB WHT 649.99\n     SER. NO.\n     Taxable Unit Value 849.99\n     2 YR Agreement SAVINGS $200.00\nADDED 24 Months\nCHANGED SIM: 89014104254290910911\nCHANGED IMEI\nUPGRADE OVERRIDE\nACCOUNT NOTE     619-888-3919\nCHANGED RATE PLAN: FN2NM0A60",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ff2f68a-fdf7-42eb-8fd8-4d78cabe1016",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "SUBTOTAL        649.99\nTAX             74.37\nTOTAL AMOUNT DUE    724.36\nYOUR TOTAL SAVINGS  -$200.00\nVISA TENDERED   724.36\nAcct No. XXXXXXXXXX6630\nAuth No. 17730",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bca87f67-4d78-4770-8c10-db9de840e4f6",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "CHANGE DUE     0.00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "940ad3e2-5782-40c3-ada5-18ca07e45573",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CASHIER: CHRISTOPHER C",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "99739650-fd7b-4d3b-8e92-18b0c319bede",
+      "type": "BARCODE",
+      "size": 78,
+      "length": 533,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ff4bd57-655c-4c49-a677-71bf0c421ed0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "* X 5 5 1 1 C 2 C 3 N S B U *",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fy2wnr3MlYZI5XGYBIPcl%2Fy2wnr3MlYZI5XGYBIPcl-76cd43c5-6ebf-490a-932e-174fa1f458ff.png?alt=media&token=e6169693-2b25-4e00-88c9-f094f009b637",
+  "name": "AT&T Retail Store Receipt",
+  "description": "Create an AT&T retail store receipt with store details, customer information, device purchase or service charges, taxes, payment method, savings, and cashier information for documentation or record keeping.",
+  "slug": "ATandT-Retail-Store-Receipt",
+  "published": true,
+  "id": "y2wnr3MlYZI5XGYBIPcl"
+}

@@ -1,0 +1,152 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T12:04:26.898Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e0a4cc01-0429-40d5-91be-b16c27c71bd6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "MIE GACOAN JAMBI MAYANG\nJl. Ir. H.Juanda No.66, Simpang IIIS\nKec. Kota Baru, Kota Jambi\nJambi",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "86b35e3b-2801-453d-b864-e7dd44d0bd14",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "=====================================\nTanggal    : 20-06-24\nJam        : 17:47:26\nNama Tamu  : 42-umul\nKasir      : pos 1 shift 2\n====================================",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f6ee70e-8b6a-4fc4-8645-69c53a165f19",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nAIR MINERAL BOTOL",
+          "total": "\n4,099"
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 4,099",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MIE GACOAN LV 1",
+          "total": "10,919"
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 10,919",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MIE GACOAN LV 6",
+          "total": "11,819"
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 11,819",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MILO",
+          "total": "18,198"
+        },
+        {
+          "quantity": "",
+          "description": "2 x @ 9,099",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SIOMAY AYAM",
+          "total": "10,000"
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 10,000",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "UDANG KEJU",
+          "total": "10,000"
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 10,000",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSub Total",
+          "value": "\n65,035"
+        },
+        {
+          "title": "Pajak 10%",
+          "value": "6,504"
+        },
+        {
+          "title": "Bill",
+          "value": "71,539"
+        },
+        {
+          "title": "Pembulatan",
+          "value": "-39"
+        },
+        {
+          "title": "Grand Total",
+          "value": "71,500"
+        },
+        {
+          "title": "Cash",
+          "value": "100,000"
+        },
+        {
+          "title": "Kembali ",
+          "value": "28,500"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1e975a45-50ad-4a51-ba8d-0eb706cdff78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nWa : 089791921291G\nIG: miegacoan.sumatera\nWifi : MIE GACOAN & MIE GACOAN OUTDOOR\nPassword : pilihanku",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Mie Gacoan Jambi Mayang, located at Jl. Ir. H. Juanda No. 66, Simpang III Sipin, Kecamatan Kota Baru, Kota Jambi, Indonesia. The header displays the restaurant name, full branch address, transaction date and time, guest identifier, and cashier information including the POS shift. The receipt contains an itemized transaction section followed by a financial summary showing the Sub Total, 10% Pajak (Tax), Bill, Pembulatan (Rounding Adjustment), Grand Total, Cash, and Kembali (Change). The footer provides the restaurant's WhatsApp contact number, Instagram account (@miegacoan.sumatera), Wi-Fi network information, and Wi-Fi password for customers. This receipt represents a standard Indonesian restaurant POS receipt, combining transaction metadata, tax reporting, cash payment reconciliation, and customer service information within a compact thermal receipt format.",
+  "name": "Mie Gacoan Jambi Mayang Receipt",
+  "slug": "Mie-Gacoan-Jambi-Mayang-Receipt",
+  "published": true,
+  "id": "gMpH76jjAnwRjwvNEZFM"
+}

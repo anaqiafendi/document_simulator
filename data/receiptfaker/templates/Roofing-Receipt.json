@@ -1,0 +1,155 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T16:25:07.620Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Roofing Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F279b861b-b7b9-41c3-8ff4-13ac006b0dc3-2012963_architecture_design_home%20owner_house_housing_icon.png?alt=media&token=b519218c-b2ab-4a41-9e93-31bc92927d47",
+      "size": 50,
+      "businessDetails": "Summit Crest Roofing Solutions, Inc.\n785 Ridgeview Drive\nDenver, CO 80230\n(720) 555-2147\nwww.summitcrestroofing.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Roofing Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Roof Inspection",
+          "total": "150.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Shingle Roof Installation",
+          "total": "6,500.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Roof Repair (per hour)",
+          "total": "120.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Gutter Installation",
+          "total": "1,200.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "7,970.00"
+        },
+        {
+          "title": "Tax",
+          "value": "577.33"
+        }
+      ],
+      "total": "8,547.33",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All roofing installations come with a 10-year workmanship warranty. Repairs include a 1-year warranty on labor. We offer free roof inspections and written estimates. Payment terms require a 30% deposit before project start, with the balance due upon completion.\n\nCancellations require 48 hours’ notice. Weather delays or unforeseen structural issues may impact project timelines. Please contact us promptly with any questions or concerns.\n\ncontact@summitcrestroofing.com\n(720) 555-2147\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "dbfc24f1-7c03-49a4-bb13-b81d3a9a43ae",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 7:24:40 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Roofing-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F2SV4BDOCM2yDxcoW8KQc%2F2SV4BDOCM2yDxcoW8KQc-f6a17d17-754c-4c75-bb0e-db0f4426c390.png?alt=media&token=440708aa-7087-4d43-b564-3e9b59c2206b",
+  "description": "Need a roofing receipt? Use our free tool to create a detailed receipt for roofing services. Add contractor info, materials, labor, costs, and payment terms—perfect for customer records, warranties, or insurance claims.",
+  "published": true,
+  "metatitle": "Roofing Service Receipt",
+  "metadesc": "professional roofing receipts with contractor details, materials, labor costs, and payment terms for warranties and claims",
+  "id": "2SV4BDOCM2yDxcoW8KQc"
+}

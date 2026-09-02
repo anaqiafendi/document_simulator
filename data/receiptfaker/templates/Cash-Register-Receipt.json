@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Cash Register Receipt",
+  "slug": "Cash-Register-Receipt",
+  "createdAt": "$D2025-09-30T11:12:34.456Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2Fef95ac04-c69b-4be2-b799-3fe26d87df09-4544830_business_comerce_delivery_register_shop_icon.png?alt=media&token=dc97e7b4-c938-4785-9ffa-fa3b508e0153",
+      "size": 92,
+      "businessDetails": "Willow & Stone\n214 Maple Street, Denver, CO 80203\n(303) 555-6712",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Cash Register Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Handcrafted Ceramic Vase",
+          "total": "45.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Scented Soy Candles",
+          "total": "37.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Linen Table Runner",
+          "total": "32.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "114.00"
+        },
+        {
+          "title": "Tax (8.81%)",
+          "value": "10.04"
+        }
+      ],
+      "total": "124.04",
+      "totalText": "TOTAL",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "125.00"
+        },
+        {
+          "title": "Change",
+          "value": "0.96"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "1fe95b38-d553-49ac-93e5-ebf9218ecf6f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "75ffc609-46ff-4ba7-a601-b76070a42927",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "399e9cd1-80a2-4e6b-9376-feffd5e5be78",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "9/30/2025, 2:08:57 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "aca1570b-ab82-4969-a01b-4f5461fed3b8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "www.willowandstone.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FL4Ci1ynXpcIX6Q0Ek5aj%2FL4Ci1ynXpcIX6Q0Ek5aj-84ccb2a7-6400-4be9-8b3d-52a002de637f.png?alt=media&token=0c9c92cc-3c78-462d-9f29-9d2f2b8719ee",
+  "description": "Need a cash register receipt? Easily create a detailed sales record with our free tool. Add store info, items sold, prices, tax, and payment—perfect for retail transactions, accounting, or customer records.",
+  "published": true,
+  "metatitle": "Cash Register Receipt",
+  "metadesc": "professional cash register receipts with store details, itemized purchases, taxes, and payment info for retail businesses",
+  "id": "L4Ci1ynXpcIX6Q0Ek5aj"
+}

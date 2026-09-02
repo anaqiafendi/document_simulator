@@ -1,0 +1,114 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "New World Albany Receipt",
+  "description": "This receipt is issued by New World and identifies the store as New World Albany, 219 Don McKinnon Drive, Auckland, New Zealand, operated by J & J Eden Ltd. The header contains the supermarket branding, store location, telephone number, online shopping information, and customer support messaging. The receipt records the purchase of Roasted Salted Almonds and Hazelnuts, both sold by weight with price overrides applied to their original per-kilogram prices. The financial section records a subtotal of $8.54, GST of $1.28, and a final balance of $9.82. The customer paid $12.50 in cash, with a rounding adjustment of -$0.02 and $2.70 change returned. The footer contains the cashier name, transaction date and time, tax invoice designation, GST registration number, and confirmation that displayed prices are GST inclusive.",
+  "slug": "New-World-Albany-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T12:58:45.284Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "a2d159eb-14a5-4a27-9bbf-a49164b2604b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F782a607d-8965-4611-b82c-aeb69ed0324b-image%20(6).jpg?alt=media&token=dd538a6a-9a66-414f-b98e-7b5f1253949d",
+      "size": 271,
+      "businessDetails": "**** New World Albany ****\n**** 219 Don McKinnon Drive ****\n** J & T Eden Ltd **\n*** Tel: 09 414-6333 ***\n\n\nShop online with New World Visit\nnewworld.co.nz or download the app\nKIA KAHA. STRESSED OR OVERWHELMED?\nCALL OR TEXT 1737 FOR FREE KORERO\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f838c5c-2f71-4bfb-b4bd-9ae1055bf522",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "PRICE OVERRIDE",
+          "value": ""
+        },
+        {
+          "title": "ORIGINAL PRICE $32.90  / Kg",
+          "value": ""
+        },
+        {
+          "title": "ALMONDS ROASTED SALTED",
+          "value": ""
+        },
+        {
+          "title": "0.200 Kg @  $29.90/ Kg",
+          "value": "$$5.98"
+        },
+        {
+          "title": "\nPRICE OVERRIDE",
+          "value": ""
+        },
+        {
+          "title": "ORIGINAL PRICE $49.90 / Kg",
+          "value": ""
+        },
+        {
+          "title": "HAZELNUTS",
+          "value": ""
+        },
+        {
+          "title": "0.110 Kg @  $34.90/ Kg",
+          "value": "$$3.84"
+        },
+        {
+          "title": "\n2 BALANCE DUE ",
+          "value": "\n$9.82"
+        },
+        {
+          "title": "ROUNDING",
+          "value": "-$0.02"
+        },
+        {
+          "title": "CASH",
+          "value": "$$12.50"
+        },
+        {
+          "title": "\nSUB TOTAL",
+          "value": "\n$8.54"
+        },
+        {
+          "title": "TOTAL GST",
+          "value": "$$1.28"
+        },
+        {
+          "title": "TOTAL ",
+          "value": ""
+        },
+        {
+          "title": "\nCASHIER NAME: Yuki Z",
+          "value": ""
+        },
+        {
+          "title": "23/10/2023 12:36:37 04001 011  2384 0002",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd66e150-cfd9-4ca6-9a11-83f4d7fa250c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n********** TAX INVOICE **********\n*** GST No. 91-481-243 ***\nAll items GST inclusive\nunless otherwise specified by (*)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "vlPBW9WabcN37fhZYtvR"
+}

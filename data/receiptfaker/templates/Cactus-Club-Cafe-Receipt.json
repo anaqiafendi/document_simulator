@@ -1,0 +1,128 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Cactus Club Cafe Receipt",
+  "description": "This receipt is from Cactus Club Cafe at Burrard Landing in Vancouver, British Columbia, Canada. It records a fast bar dining order including prawns, steelhead rolls, lava cake, coffee, and a bottle of wine. The receipt includes subtotal calculations, GST and PST liquor taxes, total due, and split payment details. It also contains restaurant location information, GST registration number, and hiring promotion details. The format reflects a standard Canadian restaurant POS receipt.",
+  "slug": "Cactus-Club-Cafe-Receipt",
+  "createdAt": "$D2026-05-20T08:28:35.541Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0168d8b4-dc9e-429c-8685-a46a3a1cf7b5",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "★★★★★★★★★★★★★★★★\nCHECK # 1725816         DATE 6/04/18\nNAME 163                TIME 10:10PM\n     ★★ DUPLICATE CHECK ★★\n★★★★★★★★★★★★★★★★\n\n\n     -- FAST BAR : TAYLOR TWO --\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "142cd629-df3e-4b51-8ebc-1beafad43e4d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "ITEMS ",
+          "description": "ORDERED",
+          "total": "AMOUNT"
+        },
+        {
+          "quantity": 1,
+          "description": "18oz CREOLE PRAWN",
+          "total": "36.50"
+        },
+        {
+          "quantity": 1,
+          "description": "STEELHEAD LENTILS",
+          "total": "84.00"
+        },
+        {
+          "quantity": 1,
+          "description": "LAVA CAKE",
+          "total": "9.00"
+        },
+        {
+          "quantity": "4",
+          "description": "COFFEE",
+          "total": "15.40"
+        },
+        {
+          "quantity": "1",
+          "description": "BTL TINTONEGRO ML",
+          "total": "39.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9f3c8e6c-4358-4ea9-a6df-51a68d492f54",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "★★★★★★★★★★★★★★★★\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4092454-24d1-43a1-9197-95d75536a5b3",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL",
+          "value": "183.90"
+        },
+        {
+          "title": "GST",
+          "value": "9.19"
+        },
+        {
+          "title": "PST LIQUOR",
+          "value": "3.90"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "32ab6222-934a-4709-b4d4-6c990098fa0b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTOTAL DUE                     196.99\n\nCHECK TOTAL SPLIT 2 WAYS       98.49\nWITH 0.01 REMAINING",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bd1d7778-0aca-4582-a834-07ff92e182f3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nWORLD FAMOUS CACTUS CLUB CAFE\nUNIT 60, BURRARD LANDING\n1085 CANADA PLACE\nVANCOUVER, BC V6C 0C3\n604-620-7410\nGST 85040 2967 RT0001\n★★★★★★★★★★★★★★★★\n\nNOW HIRING\n@CACTUSCAREERS\n#WEARECACTUS\ncactusclubcafe.com/careers",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "ehSoFTBGeVMRsv2QElbB"
+}

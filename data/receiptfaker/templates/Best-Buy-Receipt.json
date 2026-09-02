@@ -1,0 +1,125 @@
+{
+  "name": "Best Buy Receipt",
+  "slug": "Best-Buy-Receipt",
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F8613abae-f1a6-43a9-bd66-946ec5641cfc.png?alt=media&token=7c247653-99e4-47d7-9cdc-281e61c200da",
+      "size": 123,
+      "businessDetails": "( 916) 968 - 2258\nMANAGER RENE PUENTES\n3451 TRUXEL RD\nSACRAMENTO CA 23456\nST# 01234 OP# 567890 TE# 23 TR# 03111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PRODUCT SERIAL # TH66B3C1ZZ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "ALIBEISS CLEANING WIPES",
+          "total": 8.99
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": 8.99
+        },
+        {
+          "title": "Tax",
+          "value": 0.72
+        }
+      ],
+      "total": 9.71,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "3/12/2025, 10:28:54 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "# ITEMS SOLD 1\n\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "FMSa2ZEMX1OSWPGgI4kL3hFbymu1",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F1ZVusCVM6MSdXCUtXEQL%2F1ZVusCVM6MSdXCUtXEQL-1026503d-edb7-4b7e-97e8-637c657378e0.png?alt=media&token=3ded937c-d30a-4410-9f09-1f8a10c0dddf",
+  "published": true,
+  "createdAt": "$D2025-03-12T22:00:00.424Z",
+  "backgroundCrumpled": false,
+  "isParent": true,
+  "metatitle": "Best Buy Store Receipt",
+  "metadesc": "realistic Best Buy receipts with custom electronics, prices, store locations, and transaction details using our generator",
+  "id": "1ZVusCVM6MSdXCUtXEQL"
+}

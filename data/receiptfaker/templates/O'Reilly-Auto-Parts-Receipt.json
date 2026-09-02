@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "O'Reilly Auto Parts Receipt",
+  "description": "This automotive retail receipt from O’Reilly Auto Parts includes the store header branding followed by a full street address in Las Vegas, Nevada, phone number, and website. The document displays store hours, counter number, order number, invoice number, and a named cashier identifier. A precise timestamp is printed using month/day/year with time and AM/PM format. The transaction section lists automotive parts entries and a return adjustment, followed by an item count summary. The financial section contains subtotal, tax, and total fields aligned in a standard POS format. The receipt concludes with a centered closing message (“THANK YOU HAVE A NICE DAY”). The layout uses typical auto-parts retail formatting with part numbers, vehicle reference lines, and aligned price columns.",
+  "slug": "O'Reilly-Auto-Parts-Receipt",
+  "createdAt": "$D2026-02-19T11:02:22.813Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "387789bd-979a-4c89-8ef0-a2654718e205",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F97cc3b33-0cdf-4efe-b378-cf38b9728e7c-oreilly.jpg?alt=media&token=fd1d1a29-d549-4479-822a-7c2d7d5322d5",
+      "size": 242,
+      "businessDetails": "3451 SOUTH DECATUR BLVD\nLAS VEGAS, NV 89146\n(702) 251-1500\nwww.oreillyauto.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "09d5f7f7-8c79-488e-94b4-3f6e088912f6",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "Store Hours:\nMon-Sat: 07:30 AM-10:00 PM\nSun:     07:30 AM-09:00 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "02e2853d-b89e-4164-9641-9c0c13a2a3c0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Counter #: 634505        Giovanni\nDate: 03/30/2024 09:35 AM  Order#:6\nInvoice #: 8286-197200  2263N5158\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "df5d3282-0953-4f43-b82a-81e693c26fd6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TRI 29-260                     \nWIPER BLADE\n2019 Jeep Cherokee\n",
+          "total": "14.99 T"
+        },
+        {
+          "quantity": "",
+          "description": "TRI 29-180                     \nWIPER BLADE\n2019 Jeep Cherokee\n",
+          "total": "14.99 T"
+        },
+        {
+          "quantity": "",
+          "description": "\nTRI 29-210                    \nWIPER BLADE            2 @ -14.99 Ea\nNew Return\n",
+          "total": "-29.98 T"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "0.00"
+        },
+        {
+          "title": "Tax",
+          "value": "0.00"
+        }
+      ],
+      "total": "0.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c8c8623-5317-4c55-8fa1-737ddcc03696",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FbwSVSLsEKI1oQtPUlTKY%2FbwSVSLsEKI1oQtPUlTKY-08a08e66-1373-430e-b7db-686c8e7505fb.png?alt=media&token=91c67601-dc2d-4f39-b3a1-8208e503d7e2",
+  "published": true,
+  "id": "bwSVSLsEKI1oQtPUlTKY"
+}

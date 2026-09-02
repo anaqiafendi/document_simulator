@@ -1,0 +1,130 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T11:55:00.252Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "FNAC Tours Retail Receipt",
+  "description": "This receipt is from FNAC Tours, a retail electronics and entertainment store in France. It records the purchase of FIFA 17 Deluxe Edition along with pricing, VAT calculations, and cash payment details. The receipt includes return and exchange policy information in French, subtotal and tax breakdowns, amount paid in cash, and change returned. It also contains store and ticket identifiers with transaction timestamp details. The format reflects a standard French retail POS receipt.",
+  "sections": [
+    {
+      "id": "26c9585b-590b-46ec-99e0-d8cd3f5db7ba",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "FNAC TOURS\n0825-020-020 Service 0.18 euro/min + prix appel",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bfde552b-30d4-4316-ad02-95ea34d85ccc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nEchanges et remboursements: dans les 15 jours suivant l'achat Avec ticket de caisse et/ou facture Produit non ouvert et complet Hors coffrets cadeaux, cartes cadeaux Téléchargement, OKAZ Gaming et casques et écouteurs audio ouverts.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "126358bb-90ca-4a1c-8c76-e2041697b637",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "FIFA 17 EDITION DELU",
+          "total": "89.90€"
+        },
+        {
+          "quantity": "",
+          "description": "5035225121822   17722",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nT O T A L",
+          "value": "\n89.90€"
+        },
+        {
+          "title": "1 Article(s)",
+          "value": ""
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f2e39992-b015-4566-9eaf-db03a2668a2f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ESPECES",
+          "total": "90.00€"
+        },
+        {
+          "quantity": "",
+          "description": "** RENDU MONNAIE",
+          "total": "-0.10€"
+        },
+        {
+          "quantity": "",
+          "description": "TVA+TSA",
+          "total": "MT TVA.\nMT H.T. MT TTC"
+        },
+        {
+          "quantity": "",
+          "description": "3×20.00     14.98    74.92 ",
+          "total": "89.90"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n015 / 0042 /  28/09/2016 /  10:31:46",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Magasin : 01701   Ticket : 000023",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc83fd60-fdeb-45ce-9ed0-5796a7463259",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nMerci pour votre achat chez\nFNAC TOURS\nNous espérons vous revoir bientôt!\nBonne utilisation de votre produit.\n* * * * * * * * * *\nwww.fnac.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "FNAC-Tours-Retail-Receipt",
+  "published": true,
+  "id": "rihwTAnY4bedGbb2LagP"
+}

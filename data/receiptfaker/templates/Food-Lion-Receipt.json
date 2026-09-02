@@ -1,0 +1,146 @@
+{
+  "numberFormat": "LEFT",
+  "createdAt": "$D2026-02-04T12:42:46.606Z",
+  "currency": "$$",
+  "metadesc": "detailed Indian restaurant receipts with spice levels, dish names, quantities, subtotals, and complete billing information",
+  "fontType": "MERCHANT_COPY",
+  "textColor": "#101828",
+  "isParent": true,
+  "parentName": "Indian Restaurant Bill",
+  "backgroundType": "CRUMPLED_1",
+  "description": "Grocery store receipt from Food Lion showing store location, purchased items, quantities, subtotal, tax, total amount paid, payment method, transaction date and time, and barcode for record verification.",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "metatitle": "Indian Restaurant Bills",
+  "sections": [
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FValuluMeOlc1YGG0TclrmjsSvq82%2F18d305b9-880c-4f02-85d7-6ae4233cf430-IMG_1644.png?alt=media&token=836542da-e6b1-438d-8fc0-4c674bb312b0",
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "bottomDivider": true,
+      "businessDetails": "Food Lion #1540 (706)560-2539\n3722 Mike Padgett Hwy Augusta, GA ",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "size": 213,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Cuisinart Mixer - Red",
+          "total": "233.18"
+        },
+        {
+          "quantity": 1,
+          "description": "Cuisinart Mixer - Blue",
+          "total": "233.18"
+        },
+        {
+          "quantity": 1,
+          "description": "Cuisinart Mixer - White",
+          "total": "233.18"
+        },
+        {
+          "quantity": 1,
+          "description": "Cuisinart Mixer - Red",
+          "total": "233.18"
+        }
+      ],
+      "type": "ITEMS",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "totalDivider": true,
+      "total": "1,012.00",
+      "totalLines": [
+        {
+          "value": "932.72",
+          "title": "Subtotal"
+        },
+        {
+          "title": "Tax ",
+          "value": "79.28"
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "totalText": "Total",
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "date": "$undefined"
+    },
+    {
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "1,012.00"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 5237"
+        },
+        {
+          "value": "US Debit",
+          "title": "Card type"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "value": "10/04/2025 03:18 PM",
+          "title": "Date/time"
+        },
+        {
+          "title": "Reference #",
+          "value": "00875398"
+        },
+        {
+          "title": "Status",
+          "value": "DECLINED "
+        }
+      ],
+      "bottomDividerType": "DASHES",
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "bottomDivider": true,
+      "type": "PAYMENT",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "date": "01/27/2026 19:34:09",
+      "type": "DATE",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626"
+    },
+    {
+      "size": 90,
+      "bottomDivider": true,
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "length": 500,
+      "type": "BARCODE",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "custom": "We value your opinion!\nTake our new survey it only takes a few minutes.\nWithin the next 5 days please visit: \nwww.TalkToFoodLion.com\n\nTHANK YOU FOR SHOPPING AT FOOD LION ",
+      "bottomDivider": false,
+      "id": "3a0cabe5-9fa1-4c3f-83d3-56981be28b89",
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Food Lion Receipt",
+  "slug": "Food-Lion-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FHoQuuwcVMNeqPLZEHZPE%2FHoQuuwcVMNeqPLZEHZPE-23ff6bce-9abc-47e2-851f-cdd38bb03751.png?alt=media&token=228bc570-fcf3-4f4c-a223-ba399cc48879",
+  "published": true,
+  "id": "HoQuuwcVMNeqPLZEHZPE"
+}

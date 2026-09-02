@@ -1,0 +1,155 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-29T10:21:42.705Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "ae045c95-2467-4d62-b8c6-23291a37d819",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0c4a90ba-dd2b-4bba-8047-c7d30e698ddd-image%20(2).jpg?alt=media&token=00b3858a-5c2e-4c39-b526-c9289e8b1e44",
+      "size": 258,
+      "businessDetails": "Food City #21\n1162 E. Florence Blvd.\nCasa Grande, Arizona 85122\nStore Director\n520-836-8841",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fbef4401-0d03-46ad-8ef3-b9c3a7a81123",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nMENUDO ROJO",
+          "total": "\n7.49  T"
+        },
+        {
+          "quantity": "",
+          "description": "MENUDO ROJO",
+          "total": "7.49  T"
+        },
+        {
+          "quantity": "",
+          "description": "\n BALANCE DUE",
+          "total": "\n16.28"
+        },
+        {
+          "quantity": "",
+          "description": "[ ] **************7479",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Auth# 882265",
+          "total": "Ref# 244513"
+        },
+        {
+          "quantity": "",
+          "description": "\n06/03/2023",
+          "total": "\n14:41:53"
+        },
+        {
+          "quantity": "",
+          "description": "US DEBIT",
+          "total": "Entry Method: Chip"
+        },
+        {
+          "quantity": "",
+          "description": "CARD #:",
+          "total": "XXXXXXXXXXXX7479"
+        },
+        {
+          "quantity": "",
+          "description": "PURCHASE",
+          "total": "- APPROVED"
+        },
+        {
+          "quantity": "",
+          "description": "AUTH CODE: 882265",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nMode:",
+          "total": "\n\nIssuer"
+        },
+        {
+          "quantity": "",
+          "description": "AID:",
+          "total": "A0000000980840"
+        },
+        {
+          "quantity": "",
+          "description": "TVR:",
+          "total": "8000048000"
+        },
+        {
+          "quantity": "",
+          "description": "IAD:",
+          "total": " 06011203A03000"
+        },
+        {
+          "quantity": "",
+          "description": "TSI:",
+          "total": "6800"
+        },
+        {
+          "quantity": "",
+          "description": "ARC:",
+          "total": "00"
+        },
+        {
+          "quantity": "",
+          "description": "TC:",
+          "total": "AF46E539BDFA6AA7"
+        },
+        {
+          "quantity": "",
+          "description": "MID: 228794",
+          "total": "TID: 001  SEQ: 244513"
+        },
+        {
+          "quantity": "",
+          "description": "\nPurchase: ",
+          "total": "\n$16.28"
+        },
+        {
+          "quantity": "",
+          "description": "Cashback:",
+          "total": "$$20.00"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "--------"
+        },
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "USD$ 36.28"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Food City and identifies the store as Food City #21, 1162 E. Florence Boulevard, Casa Grande, Arizona 85122. The header contains the store name, address, contact telephone number, and store information. The receipt records the purchase of two Menudo Rojo items. The financial section records the balance due, while the payment section confirms settlement using a US Debit card with EMV chip technology and includes a $20.00 cashback transaction. The receipt also contains the masked card number, authorization code, reference number, transaction date and time, EMV transaction identifiers, purchase amount, cashback amount, and final total. The overall layout is representative of a United States supermarket POS receipt, combining grocery itemization, electronic payment processing, cashback, and transaction reconciliation within a compact retail receipt format.",
+  "name": "Food City Receipt",
+  "slug": "Food-City-Receipt",
+  "published": true,
+  "id": "47MlJCwu5RDcdiQ4TT6T"
+}

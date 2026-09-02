@@ -1,0 +1,170 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T13:28:13.335Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d35c1185-4b43-49b2-8049-b1a7869de193",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7533c2b7-f568-47f1-a4ec-3c7d8ddf3397-image%20(5).jpg?alt=media&token=593de7e9-1a49-4e75-bb96-aa8e5defb452",
+      "size": 253,
+      "businessDetails": "Store 1131 Mentone\nABN 511 1066 7411\nTEL 03 9584 6644\nRECEIPT (Tax Invoice)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b2fecfc2-e321-418b-a8d6-71ec4f2069c4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Operator 230990 LOLA\nRegister 01   21-Jun-2025  12:43",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5a5113e-0025-460a-a549-17be61d9a32b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nProduct\nQTY             Each           Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "697b16d1-2606-4639-8469-e15b683e9dde",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nPayment CSR 0401183792",
+          "total": "\n569.00"
+        },
+        {
+          "quantity": "",
+          "description": "Balance Remaining",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1544eba-a046-410c-87ef-dfd30457f349",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n569.00"
+        },
+        {
+          "quantity": "",
+          "description": "EFTPOS ",
+          "total": "120.00"
+        },
+        {
+          "quantity": "",
+          "description": "Gift Card ",
+          "total": "449.00"
+        },
+        {
+          "quantity": "",
+          "description": "Redeemed Gift Card No. ",
+          "total": "6378160201485"
+        },
+        {
+          "quantity": "",
+          "description": "Balance after redemption: $120.00",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "======"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "# indicates taxable supply",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total includes GST of ",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Remaining Gift Card Balance: $0.00",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "06604053-9897-44e0-89f3-fa606d308dda",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Card No: ",
+          "total": "BCF010000209937"
+        },
+        {
+          "quantity": "",
+          "description": "Name:",
+          "total": "David DeGaris"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "16058b94-907d-4fdf-ba54-f33c5994066d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping with us!\nWe appreciate your business.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Mentone BCF Receipt",
+  "description": "BCF retail tax invoice receipt issued from Store 1131 in Mentone, Australia. The header displays the BCF branding followed by the store number, Australian Business Number, telephone number, and tax-invoice designation. POS metadata includes the operator number and name, register identifier, and exact transaction date and time. The receipt contains a product section followed by payment and balance information, with the financial summary recording the total and separate EFTPOS and gift-card tender amounts. The lower section includes a redeemed gift-card number, balance after redemption, change, taxable-supply notice, included GST amount, and remaining gift-card balance. The footer records a BCF card number and customer name.",
+  "slug": "Mentone-BCF-Receipt",
+  "published": true,
+  "id": "lfZj6wKhdqXblMoYRmOc"
+}

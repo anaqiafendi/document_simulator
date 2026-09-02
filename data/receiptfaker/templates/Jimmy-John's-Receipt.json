@@ -1,0 +1,164 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Jimmy John's Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Jimmy John’s at its Catoctin Circle, NE location, including store number, address, and contact number. It features order and register identifiers along with a timestamped transaction record. The receipt presents a detailed itemization of sandwich orders with customization options such as ingredient removals and add-ons, followed by additional side items. A structured financial summary includes subtotal, sales tax, and total amount, with payment status indicated as paid. The format reflects a standard U.S. fast-food POS receipt with configurable menu items and modifier pricing.",
+  "slug": "Jimmy-John's-Receipt",
+  "createdAt": "$D2026-04-11T15:29:53.001Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bd1efcdd-39c4-48d2-b657-e5ed30241c15",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F08f8d284-b9fe-4957-b90d-17b2f027eae0-image%20(3).jpg?alt=media&token=5a7ee73a-1cca-41e5-bed1-4d4cf280c886",
+      "size": 183,
+      "businessDetails": "\nJimmy Johns #1710\n11 Catoctin Circle, NE\n703-779-2111\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2498165f-e2d5-4438-96cf-8ca06f83fbdd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n06-11-2016  Chk# 66  Open 12:23 PM\nTkr 2   Reg# 2  12:23 PM\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e2afb7c-ab53-431f-9f35-054a7b6d0188",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n#16 Club Lulu",
+          "total": "\n6.99"
+        },
+        {
+          "quantity": "",
+          "description": "#4 Turkey Tom ",
+          "total": "5.69"
+        },
+        {
+          "quantity": "",
+          "description": "NO mayo",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "NO tomatoes",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "ADD cheese",
+          "total": "0.89"
+        },
+        {
+          "quantity": "",
+          "description": "#4 Turkey Tom",
+          "total": "5.69"
+        },
+        {
+          "quantity": "",
+          "description": "NO mayo",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "NO tomatoes",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "ADD cheese",
+          "total": "0.89"
+        },
+        {
+          "quantity": "",
+          "description": "#4 Turkey Tom",
+          "total": "5.69"
+        },
+        {
+          "quantity": "",
+          "description": "ADD cucumbers",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "ADD cheese",
+          "total": "0.89"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9c77d68b-559b-4142-a07c-03c9b3be1899",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Jimmy Regular Chips",
+          "total": "1.29"
+        },
+        {
+          "quantity": "",
+          "description": "Jimmy Regular Chips",
+          "total": "1.29"
+        },
+        {
+          "quantity": "",
+          "description": "Jimmy Regular Chips",
+          "total": "1.29"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSubtotal",
+          "value": "\n30.60"
+        },
+        {
+          "title": "Sales Tax (9.5%)",
+          "value": " 2.91"
+        },
+        {
+          "title": "Total",
+          "value": "$$33.51"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e5ccaa68-5682-4644-94d6-a7f60766ce90",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n*** PAID ***\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0qk7CUUhtpV6EiGDgDyS%2F0qk7CUUhtpV6EiGDgDyS-363d1e69-31fb-4e4f-af52-a41c0f89d67c.png?alt=media&token=854db7d1-04c7-42d6-8b3f-c6faddb23fda",
+  "published": true,
+  "id": "0qk7CUUhtpV6EiGDgDyS"
+}

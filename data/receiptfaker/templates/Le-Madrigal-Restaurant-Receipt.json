@@ -1,0 +1,146 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T11:34:05.897Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Le Madrigal Restaurant Receipt",
+  "description": "This receipt is from Le Madrigal, a restaurant located on Avenue des Champs-Élysées in Paris, France. It records a dine-in transaction including champagne, Coca-Cola, roasted salmon, cheeseburger, and ravioli. The receipt includes table and waiter information, item quantities, VAT calculations for both 10% and 20% French tax rates, and the final total in euros. It also provides the restaurant’s SIRET registration number and contact details. The format reflects a standard French restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "ec56dfdb-2563-42c3-a031-b67cc4c6365b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F98ca6920-dee7-46da-8727-e618105c6963-image%20(15).jpg?alt=media&token=d7c3d0de-3982-41cf-83c7-5f821ce493ef",
+      "size": 205,
+      "businessDetails": "32, AV DES CHAMPS ELYSEES\n75008 PARIS\nTEL 01 43 59 90 25\nSIRET 424 787 687 000 21\n***\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f9ab28ca-95a8-42a4-ba62-5f5815a70c57",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "jeudi 6 juillet 2017",
+          "total": "14:01:43"
+        },
+        {
+          "quantity": "",
+          "description": "Table : 170",
+          "total": "Couvert : 0"
+        },
+        {
+          "quantity": "",
+          "description": "Garçon: EMP 19",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "N=°1512581",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9378b10f-ef5b-4371-a3c1-f67e62e1a9b3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "COUPE LANSON",
+          "total": "14,00 EUR"
+        },
+        {
+          "quantity": 1,
+          "description": "COCA COLA",
+          "total": "21,00 EUR"
+        },
+        {
+          "quantity": 1,
+          "description": "SAUMON ROTI",
+          "total": "25,00 EUR"
+        },
+        {
+          "quantity": 1,
+          "description": "CHEESE BURGER",
+          "total": "24,00 EUR"
+        },
+        {
+          "quantity": 1,
+          "description": "RAVIOLE",
+          "total": "18,00 EUR"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL :",
+          "total": "102,00 EUR"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7c07e57-3c1a-4574-8794-c7d1bdfd9cec",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "TVA",
+          "description": "20,00",
+          "total": "2,33 EUR"
+        },
+        {
+          "quantity": "TVA",
+          "description": "10,00",
+          "total": "8,00 EUR"
+        },
+        {
+          "quantity": "TOTAL HT ",
+          "description": "Item",
+          "total": "91,67 EUR"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1639e74e-7fde-4e51-8aba-535d9a53c667",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nMERCI DE VOTRE VISITE\nA BIENTOT...",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Le-Madrigal-Restaurant-Receipt",
+  "published": true,
+  "id": "GLXygzJrMQ7t306zaR7p"
+}

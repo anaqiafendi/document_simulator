@@ -1,0 +1,149 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T18:59:24.435Z",
+  "description": "This restaurant receipt from Nando's Leicester contains venue identification, VAT registration information, telephone number, order number, host identifier (Tavon), transaction date and time, and an order reference number. The receipt specifies an Eat In order type and includes an allergy declaration section, discount section, subtotal, tax amount, final eat-in total, and card payment confirmation. Additional metadata includes VAT calculations and payment method details. The format is representative of a UK quick-service restaurant POS system utilizing table service references, discount processing, tax reporting, and integrated card payment handling.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Nando's UK Receipt",
+  "slug": "Nando's-UK-Receipt",
+  "sections": [
+    {
+      "id": "46c1218c-babc-482f-b966-78f8b631bd03",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd19248a2-b3e2-446b-8c1d-05325032ea9e-image%20(6).jpg?alt=media&token=e0d85bf1-ecde-46d6-b20f-768845ba714b",
+      "size": 237,
+      "businessDetails": "\nVAT No: 662 9275 13\nLeicester - Freemans\nTelephone: 01162054001\nYour Order Number Is\n\n\n5\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9cc917e-8523-4d35-84e1-1a0f1dd7070d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: Tarvon",
+          "total": "29/10/2022"
+        },
+        {
+          "quantity": "",
+          "description": "5",
+          "total": "2:26 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Order Type: Eat In",
+          "total": "30035"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nNo Allergy Declared",
+          "total": "\n\n0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Family Platter",
+          "total": "49.95"
+        },
+        {
+          "quantity": "",
+          "description": "(2)Medium L",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "(3)Large Rice",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "(2)Large Peri Chips",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Regular Garlic Bread",
+          "total": "3.50"
+        },
+        {
+          "quantity": "",
+          "description": "Regular Garlic Bread",
+          "total": "3.50"
+        },
+        {
+          "quantity": "",
+          "description": "5 Wings",
+          "total": "6.50"
+        },
+        {
+          "quantity": "",
+          "description": "Medium M",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "No sides",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "***Nando's Card Swiped***",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nNHS Discount",
+          "total": "\n\n-4.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "49.54"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "9.91"
+        },
+        {
+          "quantity": "",
+          "description": "Eat In Total",
+          "total": "59.45"
+        },
+        {
+          "quantity": "",
+          "description": "\nInt CCard",
+          "total": "\n£59.45"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "38f49dc0-bfed-4391-8338-ae18ff5617e6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n20.00%: 49.54 VAT: 9.91\n• • • • •\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "WMKFzf2cGG2LvfMuTDF7"
+}

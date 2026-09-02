@@ -1,0 +1,126 @@
+{
+  "currency": "$$",
+  "createdBy": "SwkPfZF6jvMUP2yA7QTe78IaGJa2",
+  "createdAt": "$D2025-05-24T19:57:02.810Z",
+  "backgroundCrumpled": true,
+  "description": "This receipt was created with ReceiptFaker generator based on **Target Receipt** template on **May 24, 2025**.",
+  "name": "Target Receipt example with Lion Mints, Debit Card and 3 more items totalling 21 dollars 29 cents",
+  "slug": "Target-Receipt-example-with-Lion-Mints-Debit-Card-and-3-more-items-totalling-21-dollars-29-cents",
+  "isParent": false,
+  "parentName": "Target Receipt",
+  "backgroundType": "CRUMPLED_4",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fabacbf6a-e5f8-4a62-8855-48479d8db65b.png?alt=media&token=1b48fc01-1ef5-44a8-99d8-c681be8cc932",
+      "size": 222,
+      "businessDetails": "Schertz (210) 945-9102\n8234 Agora Pkwy\nSelma, Texas 78154\n05/24/2025 2:29 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d933c71-db68-43e1-ac8e-2b86d7e3380f",
+      "type": "BARCODE",
+      "size": 65,
+      "length": 442,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "OM LION MN FOC GUM 40CT",
+          "total": "19.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "19.99"
+        },
+        {
+          "title": "Tax",
+          "value": "1.30"
+        }
+      ],
+      "total": "21.29",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "20.00"
+        },
+        {
+          "title": "Change",
+          "value": "0"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Your Target Circle earnings are in!\n Open the Target App or visit\nTarget.com/Circle to see your benefits.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentId": "EVhq4mdp38odmNrGVJfI",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FSlUdl991GL6YNTXhuiPy%2FSlUdl991GL6YNTXhuiPy-88a852bf-4176-44dd-ae10-0bc42210315a.png?alt=media&token=e6b55c06-d51b-4d6e-a81f-e013b2d69f58",
+  "published": true,
+  "metatitle": "Target Receipt $21.29",
+  "metadesc": "realistic Target store receipts with Lion Mints, debit card payment, and custom items totaling $21.29 using our free generator",
+  "id": "SlUdl991GL6YNTXhuiPy"
+}

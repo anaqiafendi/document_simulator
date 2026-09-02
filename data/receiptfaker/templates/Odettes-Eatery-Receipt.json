@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Odettes Eatery Receipt",
+  "description": "This receipt is issued by Odettes Eatery and identifies the restaurant as located at City Works Depot, 90 Wellesley Street, Auckland, New Zealand. The receipt contains the number of guests, server and cashier names, register information, and transaction date and time. The order includes Antipodes water, Peregrine Chardonnay, Petit Cheval Pinot Noir, Asahi Super Dry Draught, Feast Menu selections, Pistachio Semifreddo, Chocolate Delice, and Lemon Pudding. The financial section records a subtotal and total of $1,083.00, including 15% GST of $141.25. The receipt also provides the restaurant's GST registration number, website, credit-card surcharge information, and spaces for gratuity and the final total. The overall layout is representative of a New Zealand restaurant POS receipt, combining table-service itemization, GST reporting, and payment information.",
+  "slug": "Odettes-Eatery-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T15:42:03.819Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b532d583-dfa0-4ac1-b9bc-9db7c7ea55b9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa9581f7a-39d9-43cb-84e7-36d5d5917506-image%20(3).jpg?alt=media&token=01c50104-aa23-4187-b0fe-4ce6afdc4502",
+      "size": 278,
+      "businessDetails": "Odettes Eatery\nOrder #: 3874-1605\n06\n8 Guests\nServer: Annie\nCashier: Justin Calisura\nRegister: receipt (receipt)\n2020-03-04 21:34:28",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8666956a-96d3-4560-88d7-a706f7a88a92",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n2 Antipodes",
+          "value": "\n$ 24.00"
+        },
+        {
+          "title": "3 Btl Peregrine Chardonnay",
+          "value": "$$ 225.00"
+        },
+        {
+          "title": "3 Btl Mon Petit Cheval P Noir",
+          "value": "$$ 216.00"
+        },
+        {
+          "title": "2 Asahi Super Dry Draught",
+          "value": "$$ 20.00"
+        },
+        {
+          "title": "8 Feast Menu",
+          "value": "$$ 520.00"
+        },
+        {
+          "title": "- 1. 2. 3.",
+          "value": ""
+        },
+        {
+          "title": "2 AWAY ",
+          "value": "$$ 0.00"
+        },
+        {
+          "title": "2 Pistachio Semifreddo",
+          "value": "$$ 24.00"
+        },
+        {
+          "title": "2 Chocolate Delice",
+          "value": "$$ 28.00"
+        },
+        {
+          "title": "2 Lemon Pudding",
+          "value": "$$ 26.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1e247b82-0cf2-44f2-895e-9fbfc01676c9",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "",
+          "value": "\nSubtotal:   $ 1,083.00"
+        },
+        {
+          "title": "",
+          "value": "Total:      $ 1,083.00"
+        },
+        {
+          "title": "INCLUDED TAXES",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": "GST (15%):        $ 141.25"
+        },
+        {
+          "title": "",
+          "value": "\nAmount Due:  $ 1,083.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bf68e670-a202-4b45-8aa5-f25f0844213f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOdettes Eatery\nCity Works Depot, 90 Wellesley Street, Auckland\n\nTAX INVOICE\nGST # 114-435-678\nwww.odettes.co.nz\nAll credit cards incur a 1.7% surcharge",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a2cb32e-24aa-4d1f-8379-131c3fcfb036",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\nOrder Total:    $ 1,083.00\nGratuity:    ___________\nTotal:      ___________",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8eb58d52-368c-4d71-81ae-f7654d3c5dac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nPowered by LAVU",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "oqqNjnc0aMeNGWXiqPPE"
+}

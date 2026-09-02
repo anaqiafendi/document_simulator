@@ -1,0 +1,122 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-18T06:22:00.268Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "9ab033f2-8e3f-42b7-ab9e-487ef5a50e30",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F76baca1f-12f7-46b4-8565-7c1a35b8a28f-image%20(2).jpg?alt=media&token=51e4a17a-f88a-4aa9-9981-75950fce242f",
+      "size": 246,
+      "businessDetails": "MEAT STEAK\n081367321005\nJl. MP Mangkunegara No. 4\nKota Palembang",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c15ab3d0-9a29-405f-a5c4-16df11c37112",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nNo Nota  : IV09224000Q\nWaktu    : 22 Sep 22 19:37\nOrder    : MEAT STEAK\nKasir    : MEAT STEAK\nSeating  : MEJA 10 (1)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "982af44b-a7b4-4b67-8fe4-af0f203df6c3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n4  Meltique Rib",
+          "total": "\n340,000"
+        },
+        {
+          "quantity": "",
+          "description": "Eye",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2  Hot/Ice Teh",
+          "total": "20,000"
+        },
+        {
+          "quantity": "",
+          "description": "Tarik",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1  Teh Manis  ",
+          "total": "5,000"
+        },
+        {
+          "quantity": "",
+          "description": "Hangat",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1  Orange Juice",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5eccb6bd-e061-44b4-bd5b-7d4d7f78f6c1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal 8 produk",
+          "total": "373,000"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tagihan ",
+          "total": "373,000"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "853557b3-53db-4b2f-b882-1c28248626fb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTerimakasih,\nFacebook : @meatsteak.id\n\n<------22 Sep 22 20:06------>",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Meat Steak and identifies the restaurant as Jl. MP Mangkunegara No. 4, Kota Palembang, Indonesia. The header contains the restaurant name, contact telephone number, address, receipt number, transaction date and time, order name, cashier information, and table assignment. The receipt records a dine-in order consisting of four Meltique Rib steaks, two Es Teh Tarik, one Teh Manis Hangat, and one Orange Juice. The financial section records the subtotal for eight products, the total bill, and confirms that the payment was made in full. The footer thanks the customer, provides the restaurant's Facebook (@meatsteak.id) page, and records the payment completion time. The overall layout is representative of an Indonesian restaurant POS receipt, combining table-service order management, itemized menu pricing, payment confirmation, and restaurant contact information within a compact hospitality receipt format.",
+  "name": "Meat Steak Receipt",
+  "slug": "Meat-Steak-Receipt",
+  "published": true,
+  "id": "sGKJSu5qKHuaWygIgf4W"
+}

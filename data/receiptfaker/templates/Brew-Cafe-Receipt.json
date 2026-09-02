@@ -1,0 +1,135 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Brew Cafe Receipt",
+  "description": "This receipt is issued by Brew Cafe and documents a café transaction for Table 4. The header contains the business name, location information, contact telephone number, VAT registration details, transaction date and time, and table reference. The order consists of two large cappuccinos, an Angel Sparkle Cake, and a Caramel Shortcake. The financial section records a total of £12.90, paid in cash, and provides a VAT breakdown separating items subject to 20% VAT from those recorded at a 0% VAT rate. The footer promotes Brew Cafe + Rooms, provides the associated website and online booking information, and concludes with a customer appreciation message. The overall layout is representative of a United Kingdom café POS receipt, combining food and beverage itemization, cash payment, and VAT reporting.",
+  "slug": "Brew-Cafe-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T17:40:38.404Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "6c6607c7-59dc-4f73-b84a-c632920a0df5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "Brew Cafe\nGrasmere\nTel. 015394 35248\nVat No. 918 0470 30",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "14f764a5-57e8-45d7-bc58-1ee01c3e59a5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMon 20 Aug 2018 04:48PM  01-000384\nMANAGER           (arrival)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "05e9583b-f0d7-4d77-a4ab-0d9b62f973e5",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Items: 4",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1bd49bfe-b5f2-45d7-ad6c-2e014c7ab7f8",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n2 x T/A Cappuccino ",
+          "value": "\n£3.00"
+        },
+        {
+          "title": "Angel Sparkle Cake",
+          "value": "£6.00"
+        },
+        {
+          "title": "Caramel Shortcake",
+          "value": "£3.95"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "13a39fa3-300b-4994-a3ff-3601b563a93a",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nTOTAL",
+          "value": "\n£2.95"
+        },
+        {
+          "title": "CASH",
+          "value": "£12.90"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd7beadb-ae07-4c42-9391-8884193cef31",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNET            VAT             TOTAL\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2812af22-2bdb-4f0d-bd23-55b6dc0b7fc5",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "VAT Rate 1 (20.00%)\n",
+          "value": ""
+        },
+        {
+          "title": "",
+          "value": "£5.00         £1.00         £6.00\n"
+        },
+        {
+          "title": "VAT Rate 2 (0.00%)   £6.90   £6.90",
+          "value": ""
+        },
+        {
+          "title": "\nTOTAL     £11.90",
+          "value": "\n£1.00     £12.90"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "660982e7-3994-4d6d-a076-cd482db92bb2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nBrew Cafe + Rooms\nwww.heidisgrasmerelodge.co.uk\nBOOK ONLINE NOW\nThankyou for visiting us today x",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "tu4M02rLIxhGpptbpmwn"
+}

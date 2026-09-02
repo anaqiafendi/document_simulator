@@ -1,0 +1,112 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Cici’s Pizza Receipt",
+  "description": "This receipt is a restaurant transaction issued by Cici’s Pizza at its Amarillo, Texas location in the United States. It includes store identification, location details, transaction time, cashier information, and order reference number. The receipt presents an itemized pizza order with additional toppings, followed by a structured financial summary including subtotal, state tax, and total amount. Payment details indicate a cash transaction with change returned. The receipt also includes order call number for pickup and promotional messaging. The format reflects a standard U.S. quick-service restaurant POS receipt with order tracking and payment breakdown.",
+  "slug": "Cici's-Pizza-Receipt",
+  "createdAt": "$D2026-04-30T13:11:40.845Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "76515f8c-57c2-4059-a7a1-4de12f47ec42",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\n **** DUPLICATE COPY ****\nCicis Pizza #42\nAmarillo\nAmarillo TX 79106\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "407a4a30-de2b-4686-8003-e15e7c4014da",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n11-22-24  06:45:35 PM\nCristina G. (1168) REF#: C54420001\nCheck #1 (Quick Sale)\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4bc510a7-ee26-461d-a561-ad60f657bf27",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CALL NUM#: 20\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ce624d71-efd5-4b93-8f47-e198928ea047",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Giant Meat Eater",
+          "total": "15.99"
+        },
+        {
+          "quantity": "",
+          "description": "Extra Beef",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "Extra Sausage",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "Extra Ham\n\n",
+          "total": "3.00\n\n"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": " Sub Total",
+          "value": "24.99"
+        },
+        {
+          "title": "State Tax",
+          "value": "2.06"
+        },
+        {
+          "title": "Total",
+          "value": "27.05"
+        },
+        {
+          "title": "Cash",
+          "value": "30.00"
+        },
+        {
+          "title": "\n\nChange",
+          "value": "\n\n2.95"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "031755fe-d614-41fd-b972-5b69f4292d13",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU FOR VISITING CICIS PIZZA!\nWE WILL CICI YOU LATER!\nI-40 W\n\n\nPowered By PlumPOS\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "",
+  "published": true,
+  "id": "us5KPduU463Qx6w7ZY50"
+}

@@ -1,0 +1,149 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T12:33:19.170Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Notary Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F1d91997e-617f-4a64-9eab-7c5ec6855800-753941_lawyer_judge_justice_law_legal_icon.png?alt=media&token=a30bece0-9cee-4d98-987a-e5b45300ca2b",
+      "size": 50,
+      "businessDetails": "Keystone Notary Solutions, Inc.\n\nAddress: 730 Elm Street, Suite 210, Denver, CO 80220\nPhone: (303) 555-8274\n\nEmail: info@keystonenotary.com",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Notary Receipt\n\nReceipt #: 010300963\nReceipt date: 5/25/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Billed to:\nName: Emma Caldwell\nAddress: 1293 Birchwood Lane, Asheville, NC 28801",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "30",
+          "description": "Notary Services (Hours)",
+          "total": "600"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "600"
+        },
+        {
+          "title": "Tax",
+          "value": "144"
+        }
+      ],
+      "total": "744",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customers are encouraged to review their receipts immediately and report any discrepancies within 7 days. Any disputes regarding receipts or payments should be reported promptly and will be addressed within 10 business days. Receipts serve as proof of payment and include details such as date, amount paid, payment method, and items or services purchased.\n\nThank you for choosing Keystone for your legal inquiries.",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c99f2d9-5993-49a3-863b-24e54b1f7943",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 3:32:56 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "slug": "Notary-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F0kEy2otPfl71b5bvLCh1%2F0kEy2otPfl71b5bvLCh1-7f55542f-b5d3-4256-b1c8-f2665fa1170a.png?alt=media&token=c13d0077-0b5c-43fd-8ae4-48811681bb79",
+  "description": "Need a notary receipt? Create a detailed record of notarization services with our free tool. Enter notary name, client info, document type, service fees, and payment details—ideal for official records or client use.",
+  "published": true,
+  "metatitle": "Notary Service Receipt",
+  "metadesc": "professional notary receipts with notary details, client information, document types, fees, and payment records instantly",
+  "id": "0kEy2otPfl71b5bvLCh1"
+}

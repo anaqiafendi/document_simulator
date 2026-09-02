@@ -1,0 +1,155 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T13:04:29.662Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "73f898ea-a050-4912-9fa0-d5d16311eaef",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdf4613cf-7117-4ba1-a61a-f444f27586a0-image%20(3).jpg?alt=media&token=e98a1827-bc01-486b-be1c-8353b6b602fb",
+      "size": 276,
+      "businessDetails": "2bisCafe\n2 bis rue des écoles\n75005 Paris France\nSIRET:R.C.S PARIS 428561203 NAF: TVA:FR314285612\n0300012\nTEL: 0142548781\n\n\n10/10/2019  14:20:35",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea488333-7735-4526-a19f-14f74b20ea5a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTicket VENTE  BR7E10212T29705  BXXXXFYM_\nServi par Nicolas (84)\nSalle devant - table 22 - 0 Couvert(s)\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "50357c35-4f25-4101-9351-eee0f658ea4f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCté Designation",
+          "total": "\nPrix.U    Prix"
+        },
+        {
+          "quantity": "",
+          "description": "2 x Assiette de frite",
+          "total": "4.00    8.00 (2)"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Café",
+          "total": "1.50    1.50 (2)"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Catrame Rhone - Prix",
+          "total": "5.00    5.00 (3)"
+        },
+        {
+          "quantity": "",
+          "description": "2 x Divers Alcools",
+          "total": "2.50    5.00 (2)"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Entrecote - Cuisson",
+          "total": "11.00   11.00 (2)"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Klosterbrau - Prix: D",
+          "total": "2.00    2.00 (3)"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "011591e5-57f4-45aa-b473-9ae7ea9fd1f7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNb ligne(s): 6",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a4f6bed7-9030-4070-81db-4457c6e9f69d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTVA        HT       TTC\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f568f3e5-3cdd-4162-bb7e-fc8190f16b5c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TVA 10% (2):  1.86 €",
+          "total": "18.64 €  20.50 €"
+        },
+        {
+          "quantity": "",
+          "description": "TVA 20% (2):  2.00 €",
+          "total": "10.00 €  12.00 €"
+        },
+        {
+          "quantity": "",
+          "description": "Total:    3.86 €",
+          "total": "28.64 €  32.50 €"
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL:",
+          "total": "\n32.50 €"
+        },
+        {
+          "quantity": "",
+          "description": "Paiement: non renseigné",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f66a30b6-94c7-46d9-ab65-30464d03e20c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nHeureux de vous avoir reçu chez 2bisCafe Barclay version 2.3.7 Caisse n°297",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "2bisCafe Paris Receipt",
+  "description": "2bisCafe restaurant receipt issued from the Rue des Écoles location in Paris, France. The header identifies the café name, full street address, business registration and tax information, and telephone number. POS metadata includes the transaction date and time, ticket reference, server name and identifier, dining-area designation, table number, and cover count. The receipt uses a restaurant POS format with quantity, description, unit-price, and amount columns, followed by the total number of transaction lines. A detailed tax summary separates the applicable VAT rates and displays VAT, pre-tax, and tax-inclusive totals. The lower section prominently records the final total, payment-status information, a customer farewell message, POS software version, and cash-register number.",
+  "slug": "2bisCafe-Paris-Receipt",
+  "published": true,
+  "id": "FA0l8NVW6zkInB4E5mOa"
+}

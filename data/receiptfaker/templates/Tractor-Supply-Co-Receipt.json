@@ -1,0 +1,83 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Tractor Supply Co Receipt",
+  "description": "A customer receipt from Tractor Supply Co located at Store #1774, 1780 ELM ST, Seymour, IN 47274. The transaction (Ticket #421256) was completed on 11/03/13 at 3:46 PM by Cashier Anthony. The purchased item was a Floor Jack 3 1/2T (Item #1105891) priced at $34.99. The subtotal was $34.99, sales tax $2.45, bringing the total to $37.45. The customer paid $40.00 in cash and received $2.56 in change. The receipt also includes store return information and promotional details for the Neighbor’s Club and TSC credit card.",
+  "slug": "Tractor-Supply-Co-Receipt",
+  "createdAt": "$D2026-02-13T15:27:44.474Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "74437dd4-df3a-4f0e-8744-f51d7760fe35",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F776fd360-8d57-4226-bb12-04a879d7dccf-Tractor%20Supply.jpg?alt=media&token=4147ff79-0978-4b26-8a1b-c4f5e933b7d9",
+      "size": 188,
+      "businessDetails": "Store #1774\n1780 ELM ST\nSEYMOUR, IN 47274\n812-523-2571",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0d2b2d5b-b3d8-41f9-a90a-a6038955ab38",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Ticket #421256      Time: 3:46 PM\nDisposal #: 1246     Date: 11/03/13\nCashier: Anthony    ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "e9bcd226-e57a-4b9b-a938-0a375fce2e79",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "FLOOR JACK 3 1/2T\nItem #: 1105891\nPrice \n1 @ 34.99",
+          "total": "34.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "34.99"
+        },
+        {
+          "title": "Tax",
+          "value": "2.45"
+        },
+        {
+          "title": "Total",
+          "value": "37.45"
+        },
+        {
+          "title": "Cash",
+          "value": "40.00"
+        }
+      ],
+      "total": "2.56",
+      "totalText": "Cash Change",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "debe20a2-83b6-4750-862e-c34a970601f2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "For returns or inquiries please visit\nwww.tractorsupply.com\n********************************\nBUY ONLINE & PICK UP IN STORE!\nGo to tractorsupply.com\n********************************\nGo to NeighborsClub.com\nJoin the Neighbors Club and\nearn points when you use a\nTSC credit card\n\nGo to tractorsupply.com/Credit\nto apply for a TSC credit card\n\nGo to tractorsupply.com/Call\nfor store hours or call\n1-800-4788",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fktcfi8BN6cjwmx4kFsn2%2Fktcfi8BN6cjwmx4kFsn2-e3cb5abd-f0c1-42ff-bd1e-7d3082687eeb.png?alt=media&token=b9341514-9560-47f1-a9f1-0e4235a6ed2d",
+  "published": true,
+  "id": "ktcfi8BN6cjwmx4kFsn2"
+}

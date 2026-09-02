@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-05T20:26:09.254Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Carl's Jr. Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Carl's Jr. at the Marina Square location, including GST registration number and restaurant identifier. It features order metadata such as check number, service type, and timestamp, along with a labeled “To Go” section. The receipt presents a structured financial summary including subtotal, GST-inclusive breakdown, and total payment amount. It also records the payment method as Mastercard and includes tax inclusion messaging and a closing thank-you note, reflecting a standard fast-food POS receipt format.",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3c710f0c-4d1e-4c52-87d7-ee33c26f033f-image%20(1).jpg?alt=media&token=afb863de-229c-4412-b173-cc8794bbae9b",
+      "size": 200,
+      "businessDetails": "Marina Square\nGST No. 20-0466927D\nRestaurant #101582",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9a682f1-2495-48db-99ca-0f2be0415d00",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n9005 AR1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae3e94d7-9213-40c9-9d4c-46b3be661d33",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Chk 508          1          ",
+          "total": "Gst 0"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "21Jul'18 15:36"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "68f716b1-17f7-4497-a17a-e48c05a6ceb6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "To Go",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f982345a-91ae-4ee6-a8d9-d86d080c2221",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Thk Original              ",
+          "total": "8.90"
+        },
+        {
+          "quantity": "2",
+          "description": "BQ Chicken @ 7.90      ",
+          "total": "15.80"
+        },
+        {
+          "quantity": "",
+          "description": "Mastercard                ",
+          "total": "24.70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "35a99e74-4779-424b-836a-baa921729280",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal                  ",
+          "total": "24.70"
+        },
+        {
+          "quantity": "",
+          "description": "23.08 NV GST Inc           ",
+          "total": "1.62"
+        },
+        {
+          "quantity": "",
+          "description": "Payment                   ",
+          "total": "24.70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "26cec306-095f-48d2-8e76-fc0c2b1b70a4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nPrice inclusive of 7% GST\nThank you!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Carl's-Jr.-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FZ5wltNiEbCez53OnjFfw%2FZ5wltNiEbCez53OnjFfw-d4404bd0-c402-440a-b917-cdf0c6a012fd.png?alt=media&token=ad0d0a98-e00f-4350-b92b-3b534625ed3f",
+  "published": true,
+  "id": "Z5wltNiEbCez53OnjFfw"
+}

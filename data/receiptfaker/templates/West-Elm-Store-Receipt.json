@@ -1,0 +1,92 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "West Elm Store Receipt",
+  "description": "A printed retail receipt from West Elm, showing the store location at 4025 Easton Station, Columbus, OH 43219, along with the phone number (614) 478-1544. The receipt lists the associate number (30589) and a purchased item labeled “KITCHENCR RL BLU” priced at $11.99. It includes subtotal, local miscellaneous tax (1.600%), food tax, candy/snack tax, and a final total of $12.18. Payment was made via MasterCard. The bottom section outlines the return and exchange policy, stating returns are accepted within 30 days with the original receipt and refunds are issued in the original form of payment.",
+  "slug": "West-Elm-Store-Receipt",
+  "createdAt": "$D2026-02-14T18:32:37.644Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "2a489ed6-2ff6-479a-a4ce-9fbcb67ee5c7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc575e33c-27ff-4fe3-b4fc-eaa242606c64-westelm.jpg?alt=media&token=a9cc87c7-7639-41ef-99be-ff5da42a3345",
+      "size": 237,
+      "businessDetails": "4025 Easton Station\nColumbus, OH 43219\n(614) 478-154",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ccde267b-d964-4ca2-a3f2-350d03dcc6fa",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "ASSOCIATE: 30589",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "67b56d32-56a0-4512-a688-03c50452f21a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "KITCHENCR RL BLU\n5006655 1 ",
+          "total": "11.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL  ",
+          "value": "11.99"
+        },
+        {
+          "title": "LOCAL MISC TAX 1.600 ",
+          "value": "0.19"
+        },
+        {
+          "title": "FOOD TAX 0.000   ",
+          "value": "0.00"
+        },
+        {
+          "title": "CANDY/SACK TAX 0.000",
+          "value": "0.00"
+        }
+      ],
+      "total": "12.18",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f64d66d2-228a-44e8-a34f-39c5e55fbee0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "MASTERCARD",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d847ba3b-ab1f-47a1-8cb4-73d1f1c6354e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Return & Exchange Policy\nReturns are accepted within 30 days of purchase for original receipt.\nRefunds will be issued in original form of payment.\nFor more details visit westelm.com.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2PbvXRO6X8pEyYW1Q7qb%2F2PbvXRO6X8pEyYW1Q7qb-208ec359-1ab9-4a4e-a3da-80d65293ed6f.png?alt=media&token=bcea02f7-189c-4f2c-9307-df87fa96c303",
+  "published": true,
+  "id": "2PbvXRO6X8pEyYW1Q7qb"
+}

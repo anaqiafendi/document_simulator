@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Real Canadian Superstore Receipt",
+  "description": "Real Canadian Superstore receipt issued by RCSS Store 1546 located at 4700 130th Ave SE with phone number 403-257-6537. The receipt includes standard POS identifiers such as store number, cashier name, terminal/register references, order number, and transaction timestamp formatted as 2022/12/27 with time 09:21. The document contains category headers, subtotal and tax calculation (GST 5%), a final total line, and tender breakdown including loyalty redemption and miscellaneous tender. Loyalty program metadata for PC Optimum points appears with redeemed points and closing balance. A barcode transaction identifier is printed below the financial summary. The footer contains promotional messaging directing customers to StoreOpinion.ca for survey participation, contest information, GST registration details, and the store manager reference. This receipt represents a grocery and general merchandise retail POS format typical of Canadian supermarket chains.",
+  "slug": "Real-Canadian-Superstore-Receipt",
+  "createdAt": "$D2026-03-09T11:12:32.641Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5c6956ba-38f1-4349-a722-09623e0abb02-image%20(40).jpg?alt=media&token=4894f890-6a2d-4be8-915c-dea33ce54af6",
+      "size": 236,
+      "businessDetails": "RCSS 1546 - 4700 130th AVE SE\n403-257-6537\nBig on Fresh, Low on Price\nWelcome #",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6383724c-c0cf-46ab-8ac8-3a911f422e35",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "50ccb0c8-6e5f-41b5-a5a0-3dc7fb7630b2",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6d2482d-7095-4230-ac4b-48de0fbcdadc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "99154670699520221227092112",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "faa21d33-a2d9-4470-b07c-9953532f673d",
+      "type": "BARCODE",
+      "size": 45,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db7002cd-db8d-481a-80d7-1a8d08b55d02",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "You could have earned at least 3,980 PC Optimum points with a PC Financial Mastercard or PC Money Account.\nLearn more at pcfinancial.ca",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "68f66c6a-60ee-40e2-bc4e-3350148b1210",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "GST # 12223-5922 RT0001\n\nTHANK YOU FOR SHOPPING RCSS\nSTORE MANAGER JEANETTE GILBERT\nOrder: 531002979776739\n2022/12/27   NAVEEN   354   70 6995   09:21",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f1dccaaf-96d2-4250-a6dc-c73a3c95b36a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TELL US HOW WE DID TODAY! \nVISIT WWW.STOREOPINION.CA OR CALL\n1-800-531-2928. WIN 1 OF 2 MONTHLY PRIZES OF 1 MILLION PC OPTIMUM POINTS OR $1000 IN PC GIFT CARDS. SEE WWW.STOREOPINION.CA FOR FULL\nCONTEST RULES. \n STORE: 01546 \nCODE: 122722 092170 6995 01546",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FcuXY9XkbtYoYZ1K5AUp1%2FcuXY9XkbtYoYZ1K5AUp1-097f309a-b880-4fd3-ad6d-2c7987c84956.png?alt=media&token=8828f8d3-df4a-45d6-9fa4-5892414eb3b8",
+  "published": true,
+  "id": "cuXY9XkbtYoYZ1K5AUp1"
+}

@@ -1,0 +1,198 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bristol Farms Receipt",
+  "description": "This receipt is issued by Bristol Farms and identifies the store as 9039 Beverly Boulevard, West Hollywood, California 90048. The header contains the Bristol Farms branding, store address, and contact telephone number. The receipt records the purchase of several grocery products, including Norwegian Salmon, Mini Croissants, South African Rosé, Chocolate Croissants, Almond Milk, Horizon Whole Organic Milk, Vanilla multipacks, and shopping bags. The financial section records a final balance of $132.65. The payment section confirms settlement using a Mastercard and contains the masked account number, transaction type, card application information, and payment reference details. The footer thanks the customer for shopping at Bristol Farms and promotes the store's delivery service and website. The overall layout is representative of a United States supermarket POS receipt, combining grocery itemization, electronic card payment processing, and transaction information within a compact retail receipt format.",
+  "slug": "Bristol-Farms-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T14:47:12.664Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0cf2a303-6376-4e72-abfd-f250b0b2c0a8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fcf73d4fd-20b3-41c3-b4a2-2b5202ebc259-image.jpg?alt=media&token=46330843-11b6-4862-b3a0-46d977c9c873",
+      "size": 280,
+      "businessDetails": "9039 Beverly Blvd.\nWest Hollywood, CA 90048\n310-248-2804\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4f4bc4fa-5fa6-405d-ae76-1047634451e1",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "SALMON NORWEGIAN S",
+          "value": "17.99 F"
+        },
+        {
+          "title": "6CT MINI CROISSANT",
+          "value": "10.50 F"
+        },
+        {
+          "title": "3 @ 9.99",
+          "value": ""
+        },
+        {
+          "title": "SUNDAY BACON 8OZ",
+          "value": "29.97 F"
+        },
+        {
+          "title": "2 @ 4.00",
+          "value": ""
+        },
+        {
+          "title": "CHOCOLATE CROISSAN ",
+          "value": "8.00 F"
+        },
+        {
+          "title": "MALK SWT VAN ALMON",
+          "value": "7.99 F"
+        },
+        {
+          "title": "CRV SINGLE > = 24",
+          "value": "0.10 F"
+        },
+        {
+          "title": "6 @ 4.99",
+          "value": ""
+        },
+        {
+          "title": "VITAL FRM PASTR RS",
+          "value": "29.94 F"
+        },
+        {
+          "title": "2 @ 6.59",
+          "value": ""
+        },
+        {
+          "title": "HORIZON WHOLE ORG",
+          "value": "13.18 F"
+        },
+        {
+          "title": "2 @ 6.99",
+          "value": ""
+        },
+        {
+          "title": "NOOSA VANILLA 4PK",
+          "value": "13.98 F"
+        },
+        {
+          "title": "6 @ 0.15",
+          "value": ""
+        },
+        {
+          "title": "BAGS",
+          "value": "0.90"
+        },
+        {
+          "title": "TAX",
+          "value": "0.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "d65908fb-68ce-45a3-af02-aa66c4516270",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nBristol Farms\n9039 Beverly Blvd.\nWest Hollywood, CA 90048\nMasterCard\nCard Number: ***********6430\nTYPE: Purchase\n\nREFERENCE:   H\nACCT: MASTERCARD                    132.55\n\n06/13/26  08:03am  57  4  10  66685\nAID: A0000000041010\nTVR: 0000000800\nTSI: A800\nTRANSACTION ISSUER DATA: 0114A14003020\nAPPLICATION CRYPTOGRAM: 946F3403D6322A\nCVM: 011002\nPOS Entry Mode: 07\nHost Return Code 000  \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "25af92ea-b068-4097-b51c-9efdf6055019",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "MasterCard",
+          "value": "132.55"
+        },
+        {
+          "title": "CHANGE",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "CARD NUMBER",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "CARD TYPE",
+          "value": "DEBIT"
+        },
+        {
+          "title": "CARD ENTRY",
+          "value": "CHIP"
+        },
+        {
+          "title": "DATE/TIME",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "REFERENCE #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "STATUS",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53e19d59-9653-491d-9738-1dc75c5844b7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTOTAL NUMBER OF ITEMS SOLD =     25\n06/13/26  08:03am  14 57  66685",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "173c884e-5b96-4d84-9f2c-29afe7691725",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "328533e4-41b5-490f-a846-40ca89329423",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n39901004005726061380 3\n\nYour cashier: Rachel C\n\nThank you for visiting us!\nSign up for special offers,\nevents and more at bristolfarms.com\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bd70737e-00c4-4ece-a64e-42fcb0ff936d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n>>>>>>>>>>>>>>>>>>>>\nDeliciousness\nDelivered\n>>>>>>>>>>>>>>>>>>>>\nbristolfarms.com/shop",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "730Ql21rRn6ZKNcseUoQ"
+}

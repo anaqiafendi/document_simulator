@@ -1,0 +1,256 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T15:09:41.053Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "407bb233-be1f-466f-81e7-005776d1a380",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "WARUNG RAWIT SS\nRuko Hampton Aroma\nBlok E32 / 33\nTelp: 08136776522B\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a5ec5621-a051-4e91-acd8-f85a12c139ad",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TABLE:6\nOP:ZIA\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b324ee49-0e0e-449d-ab42-11b6ca880967",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "pax:4",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "POS Title:CASHIER1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "26/07/2025 17:56"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a6f5904-6559-4f63-871f-4a0ea0fc8d63",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n2  Ayam Goreng Pandan 1",
+          "total": "\n107.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Es Jeruk Ponti Murni",
+          "total": "12.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Ka Kelapa Jeruk ",
+          "total": "40.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Ikan Teri SKW",
+          "total": "40.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Nasi Ureng Vegetarian",
+          "total": "29.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Dera Sambal Terasi",
+          "total": "43.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Pakis Bawang Putih",
+          "total": "43.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Pakis Cah Udang SKW",
+          "total": "54.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Tim Ikan Jelawat ",
+          "total": "245.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Es Teh Tawar ",
+          "total": "40.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Sayur Asem",
+          "total": "22.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Sayur Asem ",
+          "total": "22.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Teh Tawar ",
+          "total": "30.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Nasi Putih",
+          "total": "24.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Otak-Otak",
+          "total": "12.500"
+        },
+        {
+          "quantity": "",
+          "description": "2  Air Mineral",
+          "total": "57.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Ayam Greng SKW",
+          "total": "28.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Bakwan Jagung ",
+          "total": "16.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Kerupuk Gendar",
+          "total": "14.000"
+        },
+        {
+          "quantity": "",
+          "description": "1  Hakong ",
+          "total": "24.000"
+        },
+        {
+          "quantity": "",
+          "description": "2  Mango Passion ",
+          "total": "124.000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "41251d6a-6659-4cc4-a871-4023831b69dd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSUBTOTAL",
+          "total": "\n1.111.500"
+        },
+        {
+          "quantity": "",
+          "description": "Service Charge",
+          "total": "55.575"
+        },
+        {
+          "quantity": "",
+          "description": "PB1 10%",
+          "total": "116.708"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal BEVERAGES",
+          "total": "\n248.500"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal FOOD",
+          "total": "863.000"
+        },
+        {
+          "quantity": "",
+          "description": "\nRounding Value",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nTOTAL",
+          "total": "\n1.283.780"
+        },
+        {
+          "quantity": "",
+          "description": "Total Item :20",
+          "total": "Total Qty :30"
+        },
+        {
+          "quantity": "",
+          "description": "\nName:",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e4c9bd0-eb20-4893-bf59-d318e7c6cf6f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTerima Kasih\nIG : warung_rawit\n\n\n\nPreSettlement Bill\nThis Is PreSettlement Rcpt\n26/07/2025 19:45",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) PreSettlement Bill issued by Warung Rahit GS, located at Ruko Hampton Avenue, Blok F-37 No. 28, PIK 2, Indonesia. The header includes the restaurant name, branch address, table number, POS terminal identifier, cashier name, and transaction date and time. The receipt concludes with a financial summary showing Subtotal, Service Charge, PB1 10%, separate Subtotal BEVERAGES and Subtotal FOOD totals, a Rounding Value adjustment, and the Grand Total. It also records the Total Item and Total Quantity counts, includes a customer name field, displays the restaurant's Instagram handle (@Warung_rahit), and ends with a PreSettlement Bill notice and a final print timestamp. This is a standard Indonesian restaurant POS pre-settlement receipt generated before final payment.",
+  "name": "Warung Rahit GS Receipt",
+  "slug": "Warung-Rahit-GS-Receipt",
+  "published": true,
+  "id": "qC16wbBMuniGfVU45wOd"
+}

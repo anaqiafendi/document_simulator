@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Regal Cinemas Receipt",
+  "description": "This receipt is issued by Regal Cinemas (REGAL CROWN CLUB) for the Houston Hara (1052) location in Houston, Texas, and includes store identification details such as address and location code. It contains POS identifiers including operator ID (Op# 1071), cashier name (Michael), transaction number, station number, and a timestamped transaction. The receipt presents a structured financial summary with subtotal, tax, total, and change due, followed by a payment section indicating credit card usage. It includes a loyalty program section for the Regal Crown Club with promotional messaging, a unique credit claim code, and redemption conditions. The format reflects a standard cinema concession POS receipt with clear separators and structured transactional and promotional sections.",
+  "slug": "Regal-Cinemas-Receipt",
+  "createdAt": "$D2026-03-25T13:57:06.640Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Houston Hara (1052)\n7600 Katy Freeway\nHouston, TX, 77024",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Op#: 1071 Michael  05/25/2019 22:09\nTran #: 4811049      STATION: 09",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE TRANSACTION",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "915744d8-1791-4ce4-a9ce-72cacde5b65e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "93e27584-7c88-43a8-8534-1274fd931337",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc153bf4-7988-49e1-bd7b-ef5e97e83b0c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "REGAL CROWN CLUB\nYou could earn 1600 Credits\nLogin or join on the Regal Mobile App\n\nYour Credit Claim Code\n81052-04811049-0525-1922-09N09\n\nMust claim credits within 7 days. Excludes\npurchases of gift cards or alcohol. Restrictions apply.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FzMiRbdS1B95ltqBtudsR%2FzMiRbdS1B95ltqBtudsR-608e4946-7041-45c5-be89-8f301a2d3142.png?alt=media&token=8d1fd526-3949-4f9b-8caf-443c0d16b8a1",
+  "published": true,
+  "id": "zMiRbdS1B95ltqBtudsR"
+}

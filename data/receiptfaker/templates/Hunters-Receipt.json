@@ -1,0 +1,110 @@
+{
+  "currency": "",
+  "slug": "Hunters-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T06:16:05.684Z",
+  "description": "This restaurant receipt from Hunters documents a dine-in transaction processed at the Arinsal location in Andorra. The receipt includes ticket numbering metadata, customer name references, table number formatting, transaction date and time information, telephone number details, and business registration information (NRT). The POS structure contains item quantity formatting, taxable base calculations (“BASE IMPOSABLE”), IGI tax calculations, and total amount presentation in euros aligned in standard Andorran restaurant thermal receipt formatting. Additional receipt elements include customer appreciation messaging, takeaway service notices (“TAMBE PER EMPORTAR”), address references, IGI-inclusive tax notices, and contact information near the footer. The layout reflects a standard Andorran restaurant thermal receipt with localized IGI tax accounting and hospitality-focused footer presentation.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Hunters Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "b7524189-a808-491a-a488-e8ff1d9dbbd9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9aab8d67-d189-42c8-be5d-8b5edd8689e9-image%20(8).jpg?alt=media&token=fa335782-ebf7-471e-aa22-adb4e4cc24a8",
+      "size": 256,
+      "businessDetails": "TIQUET T00118725     DATA 29/07/2017\n                       HORA 20:58:07\n                            TAULA 45\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb946d9c-353e-49cf-994d-3f85bb67bbe4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ROSALIA",
+          "total": ""
+        },
+        {
+          "quantity": "UTS DESCRIPCIO",
+          "description": "   PREU",
+          "total": "TOTAL"
+        },
+        {
+          "quantity": "\n1\tDAMM FREE",
+          "description": "    2,70",
+          "total": "2,70"
+        },
+        {
+          "quantity": "1\tQUINOA SALTEADA",
+          "description": "10,95",
+          "total": "10,95"
+        },
+        {
+          "quantity": "1\tPatates Fregides",
+          "description": "3,50\t",
+          "total": "3,50"
+        },
+        {
+          "quantity": "1\tCOKE",
+          "description": "2,20",
+          "total": "2,20"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9183131e-3d62-4824-9d2a-0bebf1920c82",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "BASE IMPOSABLE",
+          "value": "18,52€"
+        },
+        {
+          "title": "IGI 4,5%",
+          "value": "0,83€"
+        },
+        {
+          "title": "TOTAL",
+          "value": "19,35€"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f31de55b-22ae-43c6-b32c-3f7111354378",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n*** Gracies Per La Seva Visita ***\nC/ Arinsal Ed. Joan de Torne 16 – Arinsal\nTAMBE PER EMPORTAR\nTel. (+376) 830500\nIGI Inclòs\nNRT: L-710984-X",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "DMl1yErjZ9l6Ikk9nLcK"
+}

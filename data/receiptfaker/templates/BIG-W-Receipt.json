@@ -1,0 +1,90 @@
+{
+  "createdAt": "$D2026-02-11T11:54:01.699Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ce8ace61-3c38-4f5e-b3f4-4b0be8720160",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FDpN9h0rHPVW8xD6MeXPVMRW4Q083%2F656f4283-fa83-489a-acbc-7f0b92ba7c4e-BIG-W-Logo-White-2018.png?alt=media&token=1fd76675-7927-4b3b-bb5f-61b3be10dd5f",
+      "size": 50,
+      "businessDetails": "LIKE US ON FACEBOOK\nwww.facebook.com/BIGWaustralia\nFOLLOW US ON INSTAGRAM\n@bigwaustralia\n\nBIG W MOUNT GAMBIER\nPH: 08 87264910\nTAX INVOICE ABN 88 000 014 675",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c938b269-59fd-419d-b27b-311e631bde6d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "*",
+          "description": "9900700887 BIRKENSTOCK BOSTON",
+          "total": "219"
+        },
+        {
+          "quantity": "*",
+          "description": "8281088 BIG W REUSABLE BAG",
+          "total": "0.15"
+        },
+        {
+          "quantity": "*",
+          "description": "255929 WARHEADS SOUR 120g",
+          "total": "2.75"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "3 SUBTOTAL",
+          "value": "221.9"
+        },
+        {
+          "title": "CASH",
+          "value": "250"
+        },
+        {
+          "title": "CHANGE",
+          "value": "28.1"
+        }
+      ],
+      "total": "221.9",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "10ffebf4-c42c-482f-99e5-bc37cccb992c",
+      "type": "BARCODE",
+      "size": 178,
+      "length": 353,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8ea8fe52-4a81-478a-8c5e-8367675f3cf8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0378 091 3193  0991 14:46 15/12/25\nALL RETURNS MUST BE ACCOMPANIED\nBY YOUR TAX INVOICE\n\nTRADING HOURS\nMON-WED 8.00AM-7.00PM\nTHRUSDAY 8.00AM-9.00PM\nFRIDAY 8.00AM-7.00PM\nSATURDAY 8.00AM-5.00PM\nSUNDAY 9.00AM-5.00PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "BIG W Receipt ",
+  "description": "This receipt template represents a retail purchase from BIG W located in Mount Gambier, Australia. It features the circular BIG W logo at the top, followed by social media references, store location details, phone number, and tax invoice information including ABN. The receipt includes an itemized list of purchased products with pricing, subtotal, payment method (cash), change given, and total amount. A barcode and transaction reference appear near the bottom, followed by return policy notes and detailed trading hours. This template is suitable for general retail receipt libraries, mock POS transactions, reimbursement documentation samples, and receipt generator tools requiring realistic BIG W formatting and structure.",
+  "slug": "BIG-W-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FSSxLUSy9cYGOwx5k1n3d%2FSSxLUSy9cYGOwx5k1n3d-5df08320-0339-4c41-8c04-dcfbd7257139.png?alt=media&token=56b88ca1-574c-4f0b-ab01-79455cdc6904",
+  "published": true,
+  "id": "SSxLUSy9cYGOwx5k1n3d"
+}

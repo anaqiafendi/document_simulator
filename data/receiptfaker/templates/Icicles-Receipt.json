@@ -1,0 +1,146 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T14:34:35.659Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "6d72acf4-14ab-46e1-8604-0eaf0ddb3633",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Icicles\n829 Mission\nSAN FRANCISCO, CA 94103\n408-876-0333\n5436845557987038\n\nSALE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04b5a43b-2180-4551-9a23-bb9bf26e676d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Clerk # :000001 01 ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MID: 3800    Store: 0001 Term: 0002",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Ref: 0000042"
+        },
+        {
+          "quantity": "",
+          "description": "Batch #: 022  RRN: 818402269342",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "07/02/18",
+          "total": " 18:15:47"
+        },
+        {
+          "quantity": "",
+          "description": "Trans ID: 0702MDSTV234L",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "APPR CODE: 305651",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MASTERCARD",
+          "total": "Chip"
+        },
+        {
+          "quantity": "",
+          "description": "**********0432 ",
+          "total": "Chip"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "**/**"
+        },
+        {
+          "quantity": "",
+          "description": "\nAMOUNT",
+          "total": "\n$9.25"
+        },
+        {
+          "quantity": "",
+          "description": "TIP",
+          "total": "$$0.93"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL  ",
+          "total": "$$10.18"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2c0e05d-22f1-4208-9bbb-1ffbfc2beec3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nAPPROVED\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4429f7e-48de-4f7f-8b09-1f0efda5bfab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": " X_______________________\nYOUNG/JIMMY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ab7dde5d-30bc-4078-a6b9-ed3354096beb",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nMasterCard Debit\nAID: A0000000041010\nTVR: 00 00 00 00 00\nTSI E8 00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe6f0643-9312-45c4-9367-32c686ac3180",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nI AGREE TO PAY ABOVE TOTAL AMOUNT\nIN ACCORDANCE WITH CARD ISSUER'S\n(MERCHANT AGREEMENT IF CREDIT VOUCHER) THIS COPY FOR STATEMENT\nVERIFICATION\n\n\nTHANK YOU!\n\nMERCHANT COPY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Icicles and identifies the business as 829 Mission Street, San Francisco, California 94103. The receipt documents a MasterCard Debit payment transaction, recording the store and terminal identifiers, reference number, batch number, retrieval reference number (RRN), transaction date and time, and approval status. The financial section records the purchase amount, gratuity, and final transaction total. The payment section confirms that the transaction was completed using an EMV chip-enabled MasterCard Debit card with a masked account number and includes the EMV application identifier (AID), terminal verification results (TVR), and transaction status information (TSI). The footer contains the standard cardholder payment agreement and indicates that this copy is the Merchant Copy. The overall layout is representative of a United States payment terminal receipt, focusing on electronic payment authorization rather than itemized merchandise or services.",
+  "name": "Icicles Receipt",
+  "slug": "Icicles-Receipt",
+  "published": true,
+  "id": "tcW0e6frRpYATy5KqpXH"
+}

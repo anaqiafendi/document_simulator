@@ -1,0 +1,105 @@
+{
+  "sections": [
+    {
+      "id": "50c14769-4a21-4a7b-8d40-024ce02f2738",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0a9a2ac1-4761-4610-a3ce-6fbbdf63d0de-image%20(6).jpg?alt=media&token=9b508a74-308a-4746-ae35-dfc9bc90bddd",
+      "size": 276,
+      "businessDetails": "\n]4625 Hastings St.\nBurnaby, BC\nV5C 2K6\nPh: 604-298-SITE (7483)\nGST# B17604412\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7daa34f6-dc4f-4a7c-8051-0a55f537db68",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n10076 Alecia",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6951ab7f-403a-417f-a047-7aa0e15e7119",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nCheck: 2131",
+          "value": "\nGuests: 1"
+        },
+        {
+          "title": "Table: 7-3",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "96d75cf0-42fa-4bfa-88e7-1333e6f715c2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "08/28/2024 01:19PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5f425800-4bb1-4a9a-bf2a-4246066430b9",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n1    Ice Tea",
+          "value": "\n3.50"
+        },
+        {
+          "title": "1    Sp Chicken Wrap",
+          "value": "7.95"
+        },
+        {
+          "title": "\n\nSUBTOTAL",
+          "value": "\n\n11.45"
+        },
+        {
+          "title": "11.45 GST",
+          "value": "0.57"
+        },
+        {
+          "title": "TOTAL DUE",
+          "value": "$$12.02"
+        },
+        {
+          "title": "",
+          "value": "0.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "16147892-03d1-40dd-8d38-36a1525fd226",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n ****Please Pay your Server****\nThanks For Joining Us",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-22T18:46:58.498Z",
+  "imageUrl": "",
+  "name": "ESTG Grill & Bistro Receipt",
+  "slug": "ESTG-Grill-and-Bistro-Receipt",
+  "description": "This receipt is issued by ESTG Grill & Bistro and identifies the restaurant at 4625 Hastings Street, Burnaby, British Columbia V5C 2K6. The header contains the restaurant branding, street address, telephone number, and GST registration number. The transaction section identifies Alecia, records one guest, and provides the check number, table number, and transaction date and time. The order consists of an Ice Tea priced at $3.50 and a Sp Chicken Wrap priced at $7.95. The financial section records a subtotal of $11.45, GST of $0.57, and a final amount due of $12.02. The bottom of the receipt includes an instruction asking the customer to pay their server.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "zUfkvEzRxGhIcGDGiMy4"
+}

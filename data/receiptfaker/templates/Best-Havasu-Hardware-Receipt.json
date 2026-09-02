@@ -1,0 +1,138 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Best Havasu Hardware Receipt",
+  "description": "This receipt represents a point-of-sale transaction from Best Havasu Hardware located at 47 Acoma Blvd W / 2095 McCulloch Blvd N, Lake Havasu City, AZ 86403, with phone number 928-855-8100. The header includes the Best Havasu Hardware logo followed by full store address information. The receipt documents transaction date and time (4/17/2023 11:58), branch number (1002), cashier identifier, invoice number (2164-036044), account designation, and description field. A structured financial summary appears with Subtotal, Tax, Total, Cash tendered, and Change. A barcode is printed near the bottom of the receipt, followed by courtesy messaging (“THANK YOU” and “HAVE A NICE DAY”). The format reflects a hardware retail POS receipt featuring branch tracking, invoice control numbering, barcode encoding, and structured tender reconciliation.",
+  "slug": "Best-Havasu-Hardware-Receipt",
+  "createdAt": "$D2026-02-25T14:23:59.287Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3499c383-752d-4a38-ade4-c283ac7d973b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F57183251-10dc-42d0-9346-cb3f0c3795b9-image%20(3).jpg?alt=media&token=a8cfc0ca-ee8b-4124-bfe8-30ce7d928bec",
+      "size": 229,
+      "businessDetails": "47 Acoma Blvd W\n2095 McCulloch Blvd N\nLake Havasu City, AZ 86403\n928-855-8100",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f3e2e463-88ec-4cee-b65c-d43115f22a27",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "4/17/2023  11:58\n\nBRANCH        1002\nCASHIER       MIKE\nINVOICE       2164-036044\nACCOUNT       1\nDESC           CASH SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "29463e30-aa04-4fb7-840d-19b7fbdda08b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Mouse",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "UHV Cable",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Battery",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f46156f-d332-4e0a-963e-bef1743abd92",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba82072f-b8cc-4de6-b4c5-9e66c54a4956",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c279b1e-723e-43a5-858b-b5a0cad7a19e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FMdzr3A41mCK8rcThz12E%2FMdzr3A41mCK8rcThz12E-ff18f6a6-945d-435b-8f46-2073e96eb5b3.png?alt=media&token=a37d037c-9e1b-4c86-9416-49eb1ebfff37",
+  "published": true,
+  "id": "Mdzr3A41mCK8rcThz12E"
+}

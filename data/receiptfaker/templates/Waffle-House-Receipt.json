@@ -1,0 +1,149 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Waffle House Receipt",
+  "description": "This receipt is a quick-service restaurant transaction issued by Waffle House at its Spartanburg, South Carolina location, including unit number, full address, and contact information. It contains check identification and timestamped transaction records for both order and closure. The receipt presents a to-go order with associated service and supply fees, along with a structured financial summary including subtotal, additional charges, tax, and total payment. Payment details indicate American Express card usage with masked card number. The format reflects a standard U.S. diner-style POS receipt with detailed fee breakdown and order tracking information.",
+  "slug": "Waffle-House-Receipt",
+  "createdAt": "$D2026-04-17T08:48:58.471Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bf1cb26b-8263-4261-8eb2-d96dfe579ce7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Waffle House\nUnit #1351\n2230 Chesnee Hwy\nSpartanburg, SC, 29303\n(864) 597-1351\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0b0a6ee4-dad4-4a12-ba4e-3d5a5ae2e04e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "113511 WH1\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "082d90de-7bab-4fef-b4ac-13d80fc41528",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CHK  14292                   GST  1\n 12 Jul'23  3:09 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da44835e-62f8-4b1a-b33b-295252aca6fb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTo-Go\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "12eb9604-473e-4c6c-833a-50b041fef81d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "ToGo Check",
+          "total": "21.25"
+        },
+        {
+          "quantity": "",
+          "description": "ToGo Service Charge",
+          "total": "2.13"
+        },
+        {
+          "quantity": "",
+          "description": "ToGo Supply Fee ",
+          "total": "2.13"
+        },
+        {
+          "quantity": "",
+          "description": "Charge Tip",
+          "total": "Charge Tip"
+        },
+        {
+          "quantity": "",
+          "description": "American Express",
+          "total": "$$27.51"
+        },
+        {
+          "quantity": "",
+          "description": "XXXXXXXXXXX4486",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "51d35e4b-6857-4d9b-9ca0-35b2764fc198",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "Subtotal"
+        },
+        {
+          "quantity": "",
+          "description": "Other",
+          "total": "$$6.26"
+        },
+        {
+          "quantity": "",
+          "description": "Inclusive Tax",
+          "total": "$$1.75"
+        },
+        {
+          "quantity": "",
+          "description": "Payment",
+          "total": "Payment"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c1d207f9-2f48-4e16-ba1c-5669344e797b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n---------- Check Closed ----------\n12 Jul'23  3:13 PM\n\n\nOrder 14292\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fznz80zO6W8XuCNbTtkcI%2Fznz80zO6W8XuCNbTtkcI-168619df-1421-4c02-82eb-3d269508793f.png?alt=media&token=08be3bcb-0f82-4765-adb0-a960df863347",
+  "published": true,
+  "id": "znz80zO6W8XuCNbTtkcI"
+}

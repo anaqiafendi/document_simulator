@@ -1,0 +1,131 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Marshalls Receipt",
+  "slug": "Marshalls-Receipt",
+  "createdAt": "$D2026-02-03T10:26:42.877Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "metatitle": "Grailed Purchase Receipt",
+  "metadesc": "realistic streetwear receipts with customizable seller info, item details, pricing, and payment data for any fashion purchase",
+  "description": "Retail store receipt from Marshalls showing store location details, purchased clothing and footwear items, individual prices, subtotal, sales tax, and total amount paid.",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FZGR8eBUbeIVQf4qJ0ZFHFtOjtwM2%2F3f00c85e-432d-4ebd-a257-f185e59ba57e-marshalls.png?alt=media&token=f87ae9c6-53e9-4ac3-8744-03b7a7475505",
+      "size": 208,
+      "businessDetails": "MARSHALLS \n1801 E CAMELBACK RD\nPHOENIX, AZ 85016\n(602) 265-2562",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d13b91c2-8b27-4729-893c-b66636d6d687",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "REGULAR SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb9861a8-25bf-4af5-8b38-e389babee7a4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "- SCOTCH & SODA 2PC PLAID MODERN \n   FIT SUIT    083292541     $168.99\n\n- GUCCI SUEDE REMOTION SPORT CASUAL \n  SNEAKERS  025244892        $779.99\n  \n- CHINO 2 SLIM FIT PANTS     $68.00\n  888578626\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4d5b342-3451-4f25-ba67-4a675826f37a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SUBTOTAL                   $1,016.98\nON TAX 5.7.000%              $57.96\nTOTAL                     $1,074.59",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7e7e2d4-48a2-4df9-b5df-88c855a1ed39",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VISA                       $1,074.59\n_________ TRANSACTION RECORD________\nTrans# 196740852\nCard #:             ************8955\nCard Entry:TAP CHIP     Account:VISA\nTrans: PURCHASE      Amount:$1,074.59\nAuth #:043871       Sequence: 000076\nTerm ID:                         001\nDate: 09/19/25         Time:11:06:13",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c2674858-eea0-4744-8122-f4d45459aebf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "APPROVED",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1281de9f-99d2-43ca-8486-0669e92636d8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Application Label: Visa CREDIT\nTVR: 0000000000\nAID: A0000000031010\nTC:  F27380BD222F794902",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "82e6a99a-20ee-4fb7-ad1d-54cf71779327",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n********************************\nMARSHALLS VALUES YOUR FEEDBACK!\nTell us what you think about your store visit today and enter a monthly drawing to win a $500 Marshalls Gift Card!\n\nVisit www.MARSHALLSFEEDBACK.COM\n\nRespond by 10/20/25\nYou will need to reference \nyour receipt\nSurvey number: 0532088126\n********************************\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0d2d32ef-e569-4ae0-a808-ceac3b59323d",
+      "type": "BARCODE",
+      "size": 69,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4732a42-50d3-4fc2-865e-4af00caa4ade",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "9 1 9 4 7 1 3 6 2 1 2 5 6 0 0 5",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "94243a21-cb87-4247-a04c-44b747a06856",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nITEMS 3\n0687\n0532 08 8126 09/19/25  11:06:13 1003",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "276bb8cf-9a47-4f26-bd5f-857656bf5205",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU FOR SHOPPING AT MARSHALLS SEE YOU TOMORROW!\nRefunds within 30 Days with Receipt\nStore Credit Only with Gift Receipt other restrictions may apply.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FLwiEYjWBJJ5j0TSpkpvb%2FLwiEYjWBJJ5j0TSpkpvb-76ef3953-31de-4da8-905a-a5720f6609ec.png?alt=media&token=b3311e40-b718-4231-b2dd-b398e479ac8e",
+  "published": true,
+  "id": "LwiEYjWBJJ5j0TSpkpvb"
+}

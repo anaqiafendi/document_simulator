@@ -1,0 +1,104 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Chemist Warehouse Receipt",
+  "description": "Thermal receipt header logo for Chemist Warehouse printed as a solid black warehouse-shaped silhouette with the brand name “CHEMIST WAREHOUSE” in reversed white block lettering. The logo appears at the top of a pharmacy tax invoice showing the Nambour location, ABN and phone number, followed by invoice number, staff identifier, date/time stamp, subtotal and tax summary, payment total, barcode, and closing thank-you message, consistent with an Australian pharmacy point-of-sale receipt format.",
+  "slug": "Chemist-Warehouse-Receipt",
+  "createdAt": "$D2026-02-20T14:43:00.959Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "0febd981-4e75-4993-8128-df74374dfc43",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F439918f1-b6a4-403c-ad36-756edffa0f48-ch.jpg?alt=media&token=c5695a57-9b6c-4f11-adbd-6ece42bc80a3",
+      "size": 171,
+      "businessDetails": "Chemist Warehouse Nambour\n47 Howard Street NAMBOUR\nABN 68 155 034 738  Phone: 07 5441 2161",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d927e76-c2de-4a49-860d-04a517562eb7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tax invoice",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea0f54fb-f2ed-41d2-b844-272bf4a3c263",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Invoice Number: 610003706084520\n16 Sep 2023 10:44AM\nServed By: 84720 (anna t1105)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "02531205-357b-4de1-8e46-4ffd25b594c5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "AMINE DANOXYCYLINE 40MG 25C     ",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "ESCITALOPRAM SZ 10MG 28F BP    ",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "ZOFRAN SZ 10MG TAB 14BP             ",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "29a13dc4-1a7e-4f37-8eec-d4f1a78f8896",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7547151d-b643-4767-bf16-e14de2afeb5e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FW0AOlCmuxgUktYf12Nfj%2FW0AOlCmuxgUktYf12Nfj-b89f5835-f580-4ea8-a825-2d10c625c331.png?alt=media&token=ecfed1cf-8249-4ed9-8585-a37984139e99",
+  "published": true,
+  "id": "W0AOlCmuxgUktYf12Nfj"
+}

@@ -1,0 +1,174 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Shoprite Receipt",
+  "slug": "Shoprite-Receipt",
+  "createdAt": "$D2025-05-24T12:53:10.294Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fcll4MGymbKxtagDpuQw7%2Fcll4MGymbKxtagDpuQw7-56b6ef82-2553-4692-a9d3-07e38e4291a1.png?alt=media&token=b75f156e-d7ef-4249-9956-4ea2a3b92213",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fd6183c2d-19b6-4dad-be46-a7c2568e48a8-shop-rite-2-logo-png-transparent.png?alt=media&token=6d66b32a-2037-47a3-869d-9353365bdcc3",
+      "size": 112,
+      "businessDetails": "ShopRite of ENGLISH CREEK\n3003 ENGLISH CREEK AVE.\n(609) 645-7553",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "5/24/2025 3:42pm S601 R31 I74 C60101",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0f39791-6bc7-428b-93f2-1245872e56ac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Miscellaneous Items",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "STAMPS/FOREVER",
+          "total": "8.90"
+        },
+        {
+          "quantity": "1",
+          "description": "STAMPS/FOREVER",
+          "total": "8.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "32f5993d-f503-47f9-b919-f971416c1ed6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Regular Items",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c095fc54-a6b8-4ecd-96e1-80c66db45d6d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "SPRING WATER",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "DR PEPPER",
+          "total": "3.98"
+        },
+        {
+          "quantity": "2",
+          "description": "NS BLN RIB EYE",
+          "total": "17.98"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "42.75"
+        },
+        {
+          "title": "Tax",
+          "value": "2.83"
+        }
+      ],
+      "total": "45.58",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84a4a299-1ccb-4f0c-8319-9eaa7d126d83",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Ask the manager how our Price Plus Club can save you money at Shoprite.\n\nQuestions or comments?\nContact us at 1-800-SHOPRITE or at the web on www.shoprite.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need a ShopRite receipt? Quickly create a custom grocery receipt with our free tool. Add store info, items purchased, prices, tax, and payment method—ideal for returns, budgeting, or keeping expense records.",
+  "published": true,
+  "metatitle": "Fake ShopRite Receipt",
+  "metadesc": "authentic ShopRite grocery receipts with custom items, prices, store details, and payment info for returns or expense tracking",
+  "id": "cll4MGymbKxtagDpuQw7"
+}

@@ -1,0 +1,145 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "GIANT Receipt",
+  "slug": "GIANT-Receipt",
+  "createdAt": "$D2026-02-21T14:49:42.241Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "description": "This receipt is issued by GIANT grocery store located at 300 Lincoln Avenue, East Stroudsburg, PA 18301, store #6504. It includes pharmacy contact information alongside the main store phone number and shows a timestamped transaction with printed date and time. The format contains departmental section headers, a financial summary with subtotal, tax, balance, and final amount due, followed by a payment section documenting a Visa Debit EMV contactless transaction with masked card number, authorization code, AID, and ARC details. The receipt concludes with POS processing identifiers and electronic payment confirmation, representing a standard supermarket retail point-of-sale transaction layout.",
+  "metatitle": "Fake ShopRite Receipt",
+  "metadesc": "authentic ShopRite grocery receipts with custom items, prices, store details, and payment info for returns or expense tracking",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FZQxKfyKxr1aP71v1bqTd7zqdhjT2%2F99d139c7-5cbc-4e06-98a7-829e3a9d8ae6-new-logo_1582732566.png?alt=media&token=acbfac6a-c85c-459d-8b24-7ccd24796279",
+      "size": 237,
+      "businessDetails": "\n300 LINCOLN AVENUE\nEAST STROUDSBURG, PA 18301\nSTORE TELEPHONE: (570) 476-2908\nPHARMACY TELEPHONE: (570) 476-8834\n",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "STORE #6504        2/19/2026 1:42PM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0f39791-6bc7-428b-93f2-1245872e56ac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "HEALTH & BEAUTY CARE",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "FLNSE SNSMST. 34Z",
+          "total": "19.99 Q"
+        },
+        {
+          "quantity": "",
+          "description": "FLNSE SNSMST. 34Z",
+          "total": "19.99 Q"
+        },
+        {
+          "quantity": "",
+          "description": "FLNSE SNSMST. 34Z",
+          "total": "19.99 Q"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "TAX",
+          "value": "0.00"
+        },
+        {
+          "title": "BALANCE",
+          "value": "59.97"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "84a4a299-1ccb-4f0c-8319-9eaa7d126d83",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Payment Type",
+          "value": "VISA DEBIT"
+        },
+        {
+          "title": "EMV CONTACTLESS",
+          "value": "PURCHASE"
+        },
+        {
+          "title": "CARD:",
+          "value": "**** **** **** 4926"
+        },
+        {
+          "title": "Payment Amt",
+          "value": "59.97"
+        },
+        {
+          "title": "BALANCE",
+          "value": "$$"
+        },
+        {
+          "title": "AID",
+          "value": "A0000001524010"
+        },
+        {
+          "title": "AUTH#052046",
+          "value": "RC#00 02/19/26 1:42 PM"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TOTAL NUMBER OF ITEMS SOLD = 3\n02/19/26 01:42PM 6504 55 206 104\nwww.GiantFoodStores.com\nThank you, take care\nMike Corrigan, Store Manager\nMaximo, Your Cashler Sign up at the Service Center for a\nBonusCard and start saving.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FsVXpObVMw3c0qvRITTVJ%2FsVXpObVMw3c0qvRITTVJ-b5c5798f-403a-4dca-aa95-182e3d22c5b8.png?alt=media&token=017a5c9e-9fcb-4bbf-abfe-52a88893472e",
+  "published": true,
+  "id": "sVXpObVMw3c0qvRITTVJ"
+}

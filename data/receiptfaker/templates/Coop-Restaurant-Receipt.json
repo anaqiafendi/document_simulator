@@ -1,0 +1,116 @@
+{
+  "currency": "",
+  "slug": "Coop-Restaurant-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T18:15:06.270Z",
+  "description": "This restaurant receipt from Coop Restaurant documents a cash transaction processed at the Zürich St. Annahof location in Switzerland. The receipt includes restaurant branding, location identification, cashier/service attribution, Swiss VAT registration information (CHE-116.311.185 MWST), transaction identifiers, and timestamp metadata. The POS structure contains quantity and pricing alignment, total amount presentation in Swiss francs (CHF), cash tendered formatting, change due calculations, and VAT accounting aligned in standard Swiss restaurant thermal receipt formatting. Additional receipt elements include cashier identification (“Herr Müller”), customer appreciation messaging, barcode formatting, and transaction sequence references near the footer. The layout reflects a standard Swiss restaurant thermal receipt with localized VAT accounting and cash payment processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Coop Restaurant Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "65b75445-68d5-4d8d-8fae-21bc0285bd9c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5bc12b77-980c-432e-92d3-b9713742d509-image%20(1).jpg?alt=media&token=8674bc6d-8c3d-4417-a3bf-0684d323ee2e",
+      "size": 239,
+      "businessDetails": "\nZürich St. Annahof",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "19f5ec2b-2a74-43bd-b5fc-d9b82ccc3a32",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Artikel\t",
+          "description": "Menge\tPreis\tAktion\t",
+          "total": "Total"
+        },
+        {
+          "quantity": "\nMSW gross",
+          "description": "2\t    14,95\t",
+          "total": "\n29,90"
+        },
+        {
+          "quantity": "Softgetr. PET 50cl",
+          "description": "3,65",
+          "total": " 3,65 l"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "---------"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n\nTOTAL CHF",
+          "total": "\n\n\n33,55"
+        },
+        {
+          "quantity": "",
+          "description": "\nBAR",
+          "total": "\n100,00"
+        },
+        {
+          "quantity": "",
+          "description": "Zuruck CHF",
+          "total": "-66,45"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "be491d4e-863c-4d25-84ca-0f68290d94ef",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCOOP GENOSSENSCHAFT, CHE-116.311.195\nGR\t MWSTz\t TOTAL\t MWST\n1\t 7,70\t 33,55\t 2,40\n\nES BEDIENTE SIE Herr Müller\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "04d8145d-48ea-45ec-9996-8f2d9a22d680",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVielen Dank für Ihren Besuch\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3ddb90b-824f-4de1-b741-668af42f8d73",
+      "type": "BARCODE",
+      "size": 77,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb8f074f-086e-43d6-9684-af623d0b66ff",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "9 9 0 0 0 4 0 4 22 0 3 0 0 1 1 8\n\n\n\n30.01.18   17:50   04220   00232178",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "2hX2Dn6LMm1ECbLTd4Ft"
+}

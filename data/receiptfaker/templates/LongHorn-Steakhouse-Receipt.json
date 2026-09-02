@@ -1,0 +1,93 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "LongHorn Steakhouse Receipt",
+  "description": "This receipt is a LongHorn Steakhouse full-service restaurant POS transaction formatted in a structured thermal print layout. It includes the brand header, full store address, table number, check number, guest identifier, server name, and precise date/time stamp. The receipt features a guest-specific section followed by a promotional survey block with a unique ID number and detailed sweepstakes messaging. It includes a “Duplicate Receipt / Stored Order” designation and a financial summary section with subtotal, sales tax, and total due. The receipt also provides a gratuity guidance section with calculated tip suggestions and explanatory notes. The layout uses clear separators, boxed promotional messaging, and aligned totals consistent with U.S. casual dining receipt standards.",
+  "slug": "LongHorn-Steakhouse-Receipt",
+  "createdAt": "$D2026-03-23T14:01:03.851Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "LongHorn Steakhouse\n8021 Westheimer Rd\nHouston, TX 77063",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Table 74     Check #: 38673\nOlivia\n18:52:50 04/07/2021      Gst 1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "37c2a2ce-ebec-49f5-86dc-461e390ff24a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Guest No. 1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c096bdbe-8439-478f-b2e8-3ba6bbfbdf3b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ID #: 5644 30657 3732",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20170b98-7bcd-41a9-bba4-18866f7276fd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "***********************************\n* Survey - Chance to win one of   *\n* five $100 gift cards            *\n*                                 *\n* Each month we're awarding 5     *\n* guests a $100 restaurant gift   *\n* card!                           *\n*                                 *\n* Visit LONGHORNSURVEY.COM and    *\n* enter the ID # above            *\n*                                 *\n* NO PURCHASE NECESSARY. Void     *\n* where prohibited. See Official  *\n* Rules at LONGHORNSURVEY.COM     *\n* Disponible en Espanol           *\n***********************************",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c391a17c-ac73-4fac-ae50-2bb4481c78fd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "(OFFER EXPIRES Apr 14, 2021)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "825b4c22-6287-4837-b324-74a0808731a1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Subtotal                     20.78\nSales Tax                     1.66\n\nPlease pay this amount\nTotal                        22.44\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "612e553b-3e35-40c8-9b91-14caf2b2c743",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Gratuity Not Included. Suggested amounts\nare provided for your convenience.\n\nSuggested gratuity is\ncalculated after tax\nand before discounts\n\n20% - $4.49\n18% - $4.04\n15% - $3.37",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FYExu8QfZpyqaPKfm1S8Y%2FYExu8QfZpyqaPKfm1S8Y-63c56ec9-1b40-40ef-bf10-e098c2e6c9fb.png?alt=media&token=2ffecc24-0ebc-48f9-b76c-955b70841486",
+  "published": true,
+  "id": "YExu8QfZpyqaPKfm1S8Y"
+}

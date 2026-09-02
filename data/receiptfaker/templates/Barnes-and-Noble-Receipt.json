@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Barnes & Noble Receipt",
+  "description": "This receipt is issued by Barnes & Noble Booksellers store #2090 located in Victorville, California, and follows a structured retail POS format. The header includes the store name, full address, and phone number, followed by transaction identifiers such as store number, register, transaction number, and cashier name. The receipt contains itemized transaction lines with internal product codes and promotional adjustments, along with a financial summary section displaying subtotal, sales tax, and total amount. Payment details are recorded under a VISA transaction, including masked card number, authorization code, and chip entry method, as well as additional EMV data fields such as AID, TVR, and TSI. A detailed return policy section outlines refund conditions and timelines, followed by a timestamp, transaction code, and a barcode at the bottom. The receipt concludes with a “CUSTOMER COPY” label, reflecting standard bookstore retail receipt formatting and documentation practices.",
+  "slug": "Barnes-and-Noble-Receipt",
+  "createdAt": "$D2026-03-24T14:02:54.923Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Barnes & Noble Booksellers #2090\n14400 Bear Valley Road Suite 107\nVictorville, CA 92392\n760-245-3370",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "STR:2090 REG:002 TRN:1616 CSHR:Daniela L",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e3ce7de3-7b6d-4fe0-ac48-c27009f9d478",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Battletech Beginner Box Mercs\n0810038457352    T1\n(1 @ 24.99) PROMO 50% (12.50)\n(1 @ 12.49)                   12.49\n\nBattletech Game of Armored Combat\n0856232002707          T1\n(1 @ 59.99) PROMO 50% (30.00)\n(1 @ 29.99)                    29.99\n\nBattletech Beginner Box Mercs\n0810038457352          T1\n(1 @ 24.99) PROMO 50% (12.50)\n(1 @ 12.49)                    12.49\n\nBattletech Clan Invasion Box\n0861603000343          T1\n(1 @ 49.99) PROMO 50% (25.00)\n(1 @ 24.99)                    24.99\n\n------------------------------ \n\nSubtotal                    79.96\nSales Tax T1 (8.750%)       7.00\nTOTAL                       86.96\n\n-------------------------------\n\nVISA                        86.96\nCard#: XXXXXXXXXXXX4043\nExpdate: XX/XX\nAuth: 04727C\nEntry Method: Chip Read\n\nApplication Label: VISA CREDIT\nAID: a0000000031010\nTVR: 8000008000\nTSI: 6800\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9bd9d157-4f4a-40db-b456-c948ce4344cc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Returns will be accepted with a receipt\nwithin 30 days of purchase. Eligible refunds\nwill be made to your original form of\ntender. For returns with a gift receipt, a\nstore credit will be issued in the form of\nan electronic gift card for the purchase\nprice within 60 days of purchase.\nExceptions apply. Visit bn.com/returns\nfor full details.\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f2ec6196-9995-4a6f-bad9-37236121c144",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "058.03G       12/26/2022  08:51AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84e724a0-bdf6-49ce-8a9c-fd1e678fa127",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "13095b13-ddb1-4fb0-9bfa-ec226d7defa7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CUSTOMER COPY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4HLFabs7L0xRw1IrRwfh%2F4HLFabs7L0xRw1IrRwfh-4dc587cc-820f-428b-a09d-ffd4de491990.png?alt=media&token=b2a82f98-c4cd-4599-a7c4-ede5e16219a8",
+  "published": true,
+  "id": "4HLFabs7L0xRw1IrRwfh"
+}

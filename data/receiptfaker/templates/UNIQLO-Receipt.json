@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "UNIQLO Receipt",
+  "description": "This receipt format belongs to UNIQLO Malaysia Sdn Bhd, a global apparel retailer operating clothing stores and fashion outlets. The receipt header displays the UNIQLO brand name with the official website followed by the registered Malaysian company name and store location information for the Mid Valley Southkey branch in Johor Bahru. The POS structure includes store identification details, a transaction section with item codes and quantity columns, and a financial summary block displaying subtotal totals, payment method, and change returned. The receipt records the exact transaction date and time along with POS identifiers including store number and employee service reference. A barcode is printed near the footer for transaction verification, followed by a promotional message directing customers to the brand’s Malaysian online store and delivery service.",
+  "slug": "UNIQLO-Receipt",
+  "createdAt": "$D2026-03-16T14:25:14.717Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fda5092db-2163-416d-a056-d9eecc4ae9d1-image%20(55).jpg?alt=media&token=a33aade5-1bfe-4933-9dae-f9282e3f54c0",
+      "size": 236,
+      "businessDetails": "UNIQLO MALAYSIA SDN BHD\nUNIT G-01A MIDVALLEY\nNO.1 JALAN MIDVALLEY SOUTHKEY\nMIDVALLEY SOUTHKEY, JOHOR BAHRU\n80150 JOHOR BAHRU, JOHOR\nTel : 07-3363017",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "80150 JOHOR BAHRU SOUTHKEY\n          Customer Copy",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "052c33c3-93bb-4d6d-9401-06422a9243fe",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Shirts",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Shorts",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Pants",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e600dbcd-d50e-4fc5-a6af-d5bd87aedefb",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f68d0c3e-6159-4cc1-95f2-d50b94735dbc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Date : 05/05/2022   Time : 19:04\nStore POS Emp ID : 80150-22-1\nYou were served by  AIN NUR IFF",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c918bce8-9aa8-482f-a841-0b3f54150dd7",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "77c61792-f5f8-456c-8305-663bae6ab513",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "66202205051903480534004061",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cf493a1-5cbe-4fb0-8279-7da053d9cf56",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Shop Online 24/7 www.uniqlo.com/my\nWe Deliver To Your Doorstep in Malaysia",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FPWrH8VWWVH84nVCaRERI%2FPWrH8VWWVH84nVCaRERI-c018645e-5dd2-459d-bb21-08e92bb4692e.png?alt=media&token=14d72ff6-7635-4868-b83c-e1b2bac9e016",
+  "published": true,
+  "id": "PWrH8VWWVH84nVCaRERI"
+}

@@ -1,0 +1,181 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T13:51:08.344Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "06e6d2a0-90e1-4660-8376-d8a8b4b6eb83",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "FOSTER'S HOLLYWOOD\n\nMARINEDA\nCtra Baños de Arteixo 43\n15008 - La Coruña\n981 63 20 39",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60d03442-32f6-456a-9866-b84aeaa23e97",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGARBACHON S.L.\nB-15.971.492\nAvda Alferez Provisional, 3\n15003 - La Coruña",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "167ea59f-e6a9-4d15-b84d-3fefcadbee8f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nFactura: 19-O-48035 ",
+          "total": "\nFecha: 28/01/2017"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Hora: 16:46:52"
+        },
+        {
+          "quantity": "",
+          "description": "CLIENTE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MESA: 222",
+          "total": "COMENSALES: 2"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "394c34a7-8277-4fc1-b33a-5267f48ca72e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "C.  Descripcion   Pr.   Dto%    Imp.",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7c2a17f9-e577-416a-8598-74c85af1dedd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 Burrito Pancho Pollo 9.5 0.0 9.25",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 1/2 National Honey 10.45 0.00 10",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Nachos San Fernando 8.95 0.00 8.95",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Pepsi         2.95   0.00   2.95",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Agua Sin gas  2.00    0.00    2.00",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Pepsi Refill  0.00   0.00   0.00",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n\nSub-Total",
+          "value": "\n\n33.60"
+        },
+        {
+          "title": "Dto.0 % ",
+          "value": "0"
+        },
+        {
+          "title": "TOTAL EUROS",
+          "value": "33.60"
+        },
+        {
+          "title": "",
+          "value": "I.V.A. INCLUIDO"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "35d50bba-3028-40cf-965b-e4493173c959",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBase Imp      %I.V.A.        I.V.A.\n  30.55         10.00          3.05",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "274a71ca-ab16-496a-9924-d652d7173b8a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTerminal: 05           Camarero: CARLOS\nCPI: 0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bed5cfbd-c7a1-401c-913b-2e91914a4a79",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nYA ERES MAS FOSTERIANO.\nTU CONSUMO HA SIDO ACUMULADO\nEN TU CUENTA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Foster's Hollywood Receipt",
+  "description": "$3e",
+  "slug": "Foster's-Hollywood-Receipt",
+  "published": true,
+  "id": "yeNbePo4KOEjevj8n2Th"
+}

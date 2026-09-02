@@ -1,0 +1,128 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Mazzio's Receipt",
+  "description": "This receipt is issued by Mazzio’s, a restaurant chain, and displays the brand logo at the top, followed by the store location identifier “034 Stillwater.” The receipt includes order identification (“Order: 7”), a transaction timestamp (7/13/2024 11:03 AM), and an order status indicator (“CLOSED”). The payment section records the payment method (MasterCard) and is followed by a structured financial summary including Subtotal, Sales Tax, Total, Payments, and Balance aligned on the right side. The receipt also lists staff identification (KYLE P.), a POS transaction reference number, and a terminal/location identifier (“034 Front Counter-Right”). The lower portion contains a survey code field and a promotional section encouraging customer feedback, along with marketing text offering a reward for completing a survey.",
+  "slug": "Mazzio's-Receipt",
+  "createdAt": "$D2026-03-06T14:07:51.245Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2b09c50f-97b2-42db-b605-38612db04025-image%20(26).jpg?alt=media&token=36c52b97-550f-4064-8d73-88b471e6f368",
+      "size": 236,
+      "businessDetails": " 034 Stillwater",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "059b389c-ef2a-4d45-a96e-090edc51aa4d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Order: 7         7/13/2024 11:03 AM\nCLOSED",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "fd5cb84c-f3f1-444e-ad81-6a6e9b9e9de8",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "WOMENS FLOCO KUROMA GIN POP      24.50 XT\n1640198",
+          "total": "10.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "10.00"
+        },
+        {
+          "title": "Tax",
+          "value": "0.00"
+        }
+      ],
+      "total": "10.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f39c59bc-22b6-4292-afa9-05faa6fbbf1c",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fea83957-d2b6-43b1-8ce3-e9f0cc897346",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Staff:                                   KYLE P.\n034-20240713-7      034 Front Counter-Right\n\nSurvey Code: 70034",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7c21192-e2ff-41c0-9aef-7452a4ef1fa6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "WE WANT TO HEAR FROM YOU\nSHARE YOUR EXPERIENCE. GET SOMETHING\n\n                 FREE*\n\nGET YOUR CHOICE OF:\n\n> FREE 5 HIGH LOADED CHEESE DIPPERS™\n  WITH ANY PIZZA PURCHASE\n\n> FREE 16oz HOUSE-MADE RANCH DRESSING\n  (FAMILY SIZE) WITH ANY PIZZA PURCHASE\n\n> FREE LUNCH BUFFET (MONDAY–FRIDAY)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3I64lFYMn59pDI0usDPQ%2F3I64lFYMn59pDI0usDPQ-6156a4b3-f857-4344-b951-4d6dcc7ca19b.png?alt=media&token=0008220a-e44d-42ed-83c4-ca5d4ca36441",
+  "published": true,
+  "id": "3I64lFYMn59pDI0usDPQ"
+}

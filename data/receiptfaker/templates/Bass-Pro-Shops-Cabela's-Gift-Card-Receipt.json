@@ -1,0 +1,56 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bass Pro Shops - Cabela’s Gift Card Receipt",
+  "description": "A retail gift card receipt from Bass Pro Shops and Cabela’s, displaying the combined store logo at the top along with the store address in Farmington, Utah. The receipt is labeled “GIFT CARD RECEIPT” and includes masked card number details, card type (VISA), approval status, and a listed cash balance of $50.00. It also provides customer service contact information, store number (083), and the transaction date and time.",
+  "slug": "Bass-Pro-Shops-Cabela's-Gift-Card-Receipt",
+  "createdAt": "$D2026-02-15T16:35:40.164Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "29957206-d26f-434b-8d48-a78eb9ff77f6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6491329e-a0d3-4b80-b6e2-d69c416adb19-brassproshop%20cabelas.jpg?alt=media&token=40f30d68-5a22-4b04-b097-e9fb2490f47f",
+      "size": 272,
+      "businessDetails": "391 North Cabela Dr.\nFarmington, UT 84025",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "7019a483-4f8b-49c1-9d71-68114c2a99fc",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "\nGIFT CARD RECEIPT",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "47c4fa72-bf7a-45cb-85a2-ef55580662e1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Card Number: **************\n\nCard Type: VISA\nAuth Code: APPROVED\nCash Balance: $50.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7cb41e9-bcc6-473f-ad1d-9775fe733ffc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "         PLEASE KEEP THIS IN A SAFE PLACE\nFor questions call 1-800-237-4444\n\nStore 083 \nDate: 2017/09/08 Time: 09:59 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FxH45eV8EBURVV9iFWRTg%2FxH45eV8EBURVV9iFWRTg-fd02bd5f-6a59-4567-9534-e3771ec0d908.png?alt=media&token=d9464230-30df-47a3-be96-ab88ef8af540",
+  "published": true,
+  "id": "xH45eV8EBURVV9iFWRTg"
+}

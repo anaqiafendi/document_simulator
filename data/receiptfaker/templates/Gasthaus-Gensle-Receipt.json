@@ -1,0 +1,142 @@
+{
+  "currency": "",
+  "slug": "Gasthaus-Gensle-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T12:18:50.451Z",
+  "description": "This restaurant receipt from Gasthaus Gensle documents a cash payment transaction processed at the Marktstraße location in Dornbirn, Austria. The receipt includes business ownership information, full address details, telephone number formatting, Austrian VAT registration information (UID-Nr.), receipt numbering metadata, table references, cashier attribution, and timestamp information. The POS structure contains VAT-separated revenue categories, tax calculations, total amount presentation, and cash payment confirmation aligned in standard Austrian restaurant thermal receipt formatting. Additional receipt elements include sequence numbering, cash register identification references, QR code placement, customer appreciation messaging, and return-visit encouragement near the footer. The layout reflects a standard Austrian restaurant thermal receipt with localized VAT accounting and hospitality-focused presentation.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Gasthaus Gensle Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "812a51a2-9463-4052-9aeb-267966f2d6f6",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F80c1b0ea-5142-4fb0-bb9f-60e2e20a6992-image%20(1).jpg?alt=media&token=a5b67536-ff3b-4172-b197-209fcc207433",
+      "size": 215,
+      "businessDetails": "\nRobert Schweitzer\nGasthaus Gemsle\nMarktstraße 62, 6850 Dornbirn\nTel.: 05572 / 20 09 18\nUID-Nr.: ATU 75044006\n\nRechnung Nr.   41596\n29.3.2025\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1b096fb9-ca93-47f9-847f-043497a2f20c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tisch #5",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea38c22f-6511-4fe8-b701-86ab212d9c88",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 x Bio Kamillentee à",
+          "total": "\n 4,30€\t A"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Lammrücken à 34,90€\t",
+          "total": "34,90€  A"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Creme Brulee à 10,40€",
+          "total": "10,40€\tA"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Espresso à 3,90€",
+          "total": "3,90€\tB"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a55effb9-ad7b-456c-81dd-14a4b284deef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\n53,50€"
+        },
+        {
+          "quantity": "",
+          "description": "\nUmsatz 10% inkl.",
+          "total": "\n45,30€\tA"
+        },
+        {
+          "quantity": "",
+          "description": "MwSt 10%",
+          "total": "4,12€\tA"
+        },
+        {
+          "quantity": "",
+          "description": "Umsatz 20% inkl",
+          "total": "8,20€\tB"
+        },
+        {
+          "quantity": "",
+          "description": "MwSt 20%",
+          "total": "1,37€\tB"
+        },
+        {
+          "quantity": "",
+          "description": "Bar",
+          "total": "53,50€"
+        },
+        {
+          "quantity": "",
+          "description": "\nSequenznummer",
+          "total": "35352"
+        },
+        {
+          "quantity": "",
+          "description": "Datum und Zeit",
+          "total": "29.03.2025 14:00:52"
+        },
+        {
+          "quantity": "",
+          "description": "Kassenidentifik.nr.",
+          "total": "1"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f0a5a277-503b-477b-bec0-775a5a12e1dc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nEs bediente Sie Carmen. Vielen Dank!\nBesuchen Sie uns bald wieder.\n\n29.3.2025 14:00 Bed.: 4 Rng.: 41596",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "u8iYixP5UKOw2iKxf3ub"
+}

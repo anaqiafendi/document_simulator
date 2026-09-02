@@ -1,0 +1,189 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T09:20:42.725Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "7448bd68-6bba-4b2b-bf84-d5ec67c50c94",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6342fd5f-6f20-4ae6-b65a-86c7549ac091-image%20(1).jpg?alt=media&token=13d84f07-ec4b-49cd-b1fe-f2a554236934",
+      "size": 208,
+      "businessDetails": "http://www.hmart.com\n1761 Route 27\nEdison, NJ. 08817\nTEL (732) 339-1530\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "74d0d7f9-12b2-4ff1-985d-16dd40139858",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Your Cashier was GRACE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6264912-177a-42fe-9e97-2c2b480530be",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "HMART SMART MEMBER ",
+          "total": "40300414709"
+        },
+        {
+          "quantity": "",
+          "description": "PEELED GARLIC JAR/",
+          "total": "5.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "KB BF SHORT PLATE",
+          "total": "32.79 F"
+        },
+        {
+          "quantity": "",
+          "description": "BF BNLS S.RIB-LA",
+          "total": "44.06 F"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n**** BALANCE",
+          "total": "\n82.44"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cc47bc8f-8fef-497a-bdcd-1e03e0745ef0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nMasterCard Credit - SWIPED\nACCOUNT NUMBER: ************4373\nAPPROVAL CODE: 659428\nSEQUENCE NUMBER: 613\nVerified by Signature\nAmount:USD $82.44\nCARD:MASTERCARD CREDIT XXXX4373 SWIPE\nAPPROVAL CODE 659428\nTERMINAL ID:00000010\nISO:\nACI:\nTOTAL AMOUNT: $82.44\nResponse Code: APPROVED\n01/23/22  12:27pm  117  10\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "043a5892-bf90-4425-bde9-a02ab1297df5",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "MasterCard",
+          "value": "82.44"
+        },
+        {
+          "title": "CHANGE ",
+          "value": "0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aefde89f-1a5d-429a-ab41-5cfee8409eec",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTOTAL NUMBER OF ITEMS SOLD =",
+          "total": "\n3"
+        },
+        {
+          "quantity": "",
+          "description": "01/23/22  12:27pm  30  10  60  117",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "HMART SMART MEMBER\n40300414709",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "959ba313-54c9-43ba-9ebc-2a9a4a2c8575",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nYou can check your HMART Smartcard\npoints on HMART website or iOS and\nAndroid App.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3cc1e3e8-3b74-4cdf-8121-b92e459151fc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n** RETURN POLICY **\nUnused product can be exchanged or refunded with receipt within 7 days of purchase unless otherwise noted below\n\nMeat, fish, produce and refrigerated food items must be returned with receipt within 24 hours.\n\nElectronics and Houseware: Must be returned within 14 days of purchase and must be unused. If you are unable to bring item to store, please call customer service.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0122cd55-2707-470c-98d7-b0bc77cfe8d2",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d8d99d27-b318-495a-bdff-c3948deb8891",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " 0000300100060220123122F",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff11f221-a5af-4232-bdd0-145b788eb837",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank You and Please Come Again",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by H Mart and identifies the store as 1761 Route 27, Edison, New Jersey 08817. The header contains the H Mart branding, website, store address, contact telephone number, and cashier information. The receipt records the purchase of three grocery and meat products, including eggs, beef short plate, and another beef item. The financial section shows a final balance of $82.44 with no tax charged. The payment section confirms settlement using a Mastercard credit card and includes the masked account number, approval code, terminal information, payment amount, and approval status. The receipt also contains H Mart Smart Member information and a detailed return policy covering general merchandise, meat, fish, produce, refrigerated foods, electronics, and housewares. The footer concludes with a customer appreciation message.",
+  "name": "H Mart Receipt",
+  "slug": "H-Mart-Receipt",
+  "published": true,
+  "id": "rjduQdyhtlGUmp7UQPaD"
+}

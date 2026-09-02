@@ -1,0 +1,89 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Save-A-Lot Receipt ",
+  "description": "This receipt template represents a grocery purchase from Save A Lot located in Leroy, New York. It features the circular “save a lot” logo at the top, followed by the store number, full street address, city and ZIP code, and contact phone number. The receipt includes transaction date, payment method details (contactless debit), authorization code, and card verification information. An itemized list of grocery purchases is shown with individual prices, followed by balance due, payment confirmation, change, total tax, cashier identifier, transaction time stamp, and closing store message. This template is suitable for discount grocery receipt libraries, mock POS transactions, expense documentation samples, and receipt generator tools requiring realistic Save A Lot formatting and structure.",
+  "slug": "Save-A-Lot-Receipt",
+  "createdAt": "$D2026-02-11T13:06:33.149Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ea64f8c8-466e-461f-a70b-77ae92a10ede",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa7eef95f-bd67-4ba5-a252-f7a152066442-savealot.jpg?alt=media&token=9b95b484-f39a-41a2-be9b-216805c7cb7e",
+      "size": 116,
+      "businessDetails": "#35005\n15 West Main Street\nLeroy, NY 14482\n585 (768) 2440\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3be7f49d-3b45-4782-831a-571df0910b20",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "03/28/2024\n\nCARD   Entry Method: Contactless\n                      XXXXXXXXXX\nPURCHASE               APPROVED\nAUTH CODE: 339629\n\nMode:\nAID:                A0000000980840\nTVR:                8000048000\nIAD:                06011203A02000\nTSI:                          6800\nTC:\nMID: 000000  TID: 001  RRN: 042893\n\nTotal:                        USD$ 79.18\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "e0412f04-1908-4201-9315-ba07b0f6fdc9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "BALANCE DUE",
+          "value": "5.47"
+        },
+        {
+          "title": "Debit Card\nEXP. DATE:00/2000\nAutj. Code = 339629",
+          "value": "0.24"
+        },
+        {
+          "title": "CHANGE",
+          "value": "0"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "TOTAL TAX",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "575bd0b1-f525-4d6a-8e18-988bcd848123",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCASHIER NAME: [REDACTED]\n16:33:46          28MAR2024\n\nTHANK YOU FOR SHOPPING AT\nSAVE-A-LOT\nJUST LOOK AT THE RECEIPT!\nMON-SUN 8 AM - 8 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1UWlqeat4RKKmWBhrmk7%2F1UWlqeat4RKKmWBhrmk7-d1b1fffa-9045-4648-a9fb-e3ba64d85ebd.png?alt=media&token=11f616cc-08f1-4052-9d12-6e7295a9f6c3",
+  "published": true,
+  "id": "1UWlqeat4RKKmWBhrmk7"
+}

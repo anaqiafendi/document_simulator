@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Canada Post Receipt",
+  "description": "This receipt is issued by Canada Post at the Strandherd R.O. location in Nepean, Ontario, and includes full address details along with a GST registration number. It contains key POS identifiers such as transaction date and time, terminal or operator code, transaction reference number, and payment routing details. The receipt outlines a service-based transaction with weight and destination information, followed by a financial summary section showing subtotal, tax, total amount, payment method, and calculated change. It also includes service disclaimers, sender declarations, and non-trackable service notices. Additional elements include a customer survey invitation, promotional messaging, barcode reference, bilingual tracking instructions, and official Canada Post website and contact information, reflecting a standard postal service transaction format.",
+  "slug": "Canada-Post-Receipt",
+  "createdAt": "$D2026-03-20T13:40:40.255Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "CAD",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Canada Post / Postes Canada\nSTRANDHERD R.O.\n3781 Strandherd Road\nNEPEAN, ON   K2J4B0\nGST/TPS#: 129844668",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "39c19897-a423-40c2-8799-eaae30e9ff59",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "--------\n2018/07/17    11:24:37    PINA\nCC/CC102123    W/G2    TR1125731",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa2058db-376f-4b7a-a5a9-bcb5a17262df",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nN         1@CAD44.51      CAD44.51\nSm Pkt Air Int'l\n\nActual Weight 0.697kg\n\nThis service is not trackable\n\nFor complete terms and conditions consult the Canada\nPostal Guide at www.canadapost.ca or any Post Office.\n\nSender warrants that the shipped item(s)\ndo(es) not contain non-mailable matter\n\nSUBTTL           CAD44.51\nTOTAL TAX      CAD0.00\nTOTAL              CAD44.51\n\nCDN Cash        CAD45.00\nCHG. DUE        (CAD0.49)\nRND. CHG.       (CAD0.50)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cac2b979-1072-4bf9-8dce-593ed61f4ac7",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tell us how we did today.\nComplete the survey at\nwww.canadapost.ipsointeractive.com\nor text SURVEY to 55555\nand enter to WIN one of two\n$250 Prepaid Visa Cards.\n(Standard message and data\nrates would apply for text\nmessage)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "612f2282-c836-479e-8d22-cf278b66cdcb",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3e4457a2-811c-4f45-ad6e-552b555e16c9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "R : 1125731 : 102123",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b886ddd3-7059-476d-9698-b714f0b99c80",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Track your package by web or phone:\nSome exceptions apply\nRepérage sur le Web ou par téléphone :\nCertaines conditions s'appliquent\nWWW.CANADAPOST.CA / WWW.POSTESCANADA.CA\n1-800-267-1177",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FbOtBj6JX8vw0yzi6nO1w%2FbOtBj6JX8vw0yzi6nO1w-c3ae87f2-01da-4f53-91e4-069be0278969.png?alt=media&token=55876971-c9e5-4970-9802-210708b9c8a9",
+  "published": true,
+  "id": "bOtBj6JX8vw0yzi6nO1w"
+}

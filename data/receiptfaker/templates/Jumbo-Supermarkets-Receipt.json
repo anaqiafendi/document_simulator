@@ -1,0 +1,166 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T11:04:34.742Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Jumbo Supermarkets Receipt",
+  "description": "This receipt is from Jumbo Market Place, a grocery and meat market located in Bronx, New York, United States. It records the purchase of meat products, eggs, seasoning, beverages, and grocery items with several sale discounts and markdowns applied. The receipt includes invoice and transaction numbers, cashier information, subtotal calculations, promotional pricing, and itemized product entries. The format reflects a standard supermarket POS receipt commonly used in US grocery stores.",
+  "sections": [
+    {
+      "id": "8f2aa7a3-8b6e-449a-9482-459ad5193a5c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F224f87fa-2eae-4d5e-9942-2b87ff0e2d8c-image%20(14).jpg?alt=media&token=ff54af51-a750-4cf9-8129-3020b2a2931c",
+      "size": 247,
+      "businessDetails": "\nJUMBO MARKET PLACE\n1384 NELSON AVE\nBRONX, NY 10452\n917-801-0530\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f4887595-c55b-4f7e-95f2-1225a4b4bc31",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "#001-003  5/8/2024  10:16:09 YESICA\nInv#:00644149  Trs#:656288\nCOSTUMER, NEW ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8b2c605f-64c1-4f1c-8185-a242cff7466f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nBNLS CHKN BRST.",
+          "total": "\n$10.88 F"
+        },
+        {
+          "quantity": "",
+          "description": "*EAT BY COUNT",
+          "total": "$$2.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "*EAT BY COUNT",
+          "total": "$$2.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "GOAT MEAT",
+          "total": "$$12.27 F"
+        },
+        {
+          "quantity": "",
+          "description": "*SALE* GRACE JERK SEASONI",
+          "total": "$$3.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "Markdown: $0.60",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "5 @ 6/ $2.00",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TROPIC LIMES 1 EA",
+          "total": "$$2.00 F"
+        },
+        {
+          "quantity": "",
+          "description": "CUCUMBER SELECT",
+          "total": "$$0.99 "
+        },
+        {
+          "quantity": "",
+          "description": "BEEF OXTAIL",
+          "total": "$$23.94 F"
+        },
+        {
+          "quantity": "",
+          "description": "GROUND BEEF",
+          "total": "$$6.07 F"
+        },
+        {
+          "quantity": "",
+          "description": "*SALE* SS XL WHT EGGS",
+          "total": "$$2.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "*SALE* BORDEN 4 CHS MEX",
+          "total": "$$2.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "Markdown: $0.50",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "*SALE* BORDEN 6 CHS ITAL",
+          "total": "$$2.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "Markdown: $0.50",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d53032d-d325-40b2-a890-595ee2295c2d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Items Subtotal",
+          "total": "$$75.09"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$75.09"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cc03dfe0-e892-47a2-9e2d-0fe42a4bcb18",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping at\nJUMBO MARKET PLACE\nWe appreciate your business!\nPlease come again soon.\n* * * * * * * * * *\nwww.jumbomarketplace.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Jumbo-Supermarkets-Receipt",
+  "published": true,
+  "id": "QQKOhs9SyqiW8gZvhI6m"
+}

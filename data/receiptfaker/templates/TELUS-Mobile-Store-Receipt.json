@@ -1,0 +1,259 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "TELUS Mobile Store Receipt",
+  "description": "This receipt is from a TELUS mobile retail store located in Markville Mall, Markham, Ontario, Canada. It records the purchase of a prepaid mobile top-up product along with a promotional TELUS LTE tri-SIM discount applied to the transaction. The receipt includes HST tax calculations, cashier and sales representative details, store and terminal information, and Mastercard payment confirmation. It also displays the TELUS GST registration number and transaction receipt number. The format reflects a standard Canadian telecommunications retail POS receipt.",
+  "slug": "TELUS-Mobile-Store-Receipt",
+  "createdAt": "$D2026-05-15T10:42:05.460Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "aa375707-7efb-46a7-a6db-582c722937d9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4bfde563-4197-46bf-8427-3ca39e7d0aab-image%20(21).jpg?alt=media&token=6d8ef90c-8170-4de8-b7d7-d68f7e1e3449",
+      "size": 253,
+      "businessDetails": "Markville Mall\n5000 Highway #7\nUnit 2180\nMarkham ON\n905-947-0505\nGST Registration #: 100652692 RT0001\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "951ef2a3-a8bb-44b9-9320-2e877e9599c5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Date: 28/11/2024",
+          "total": "Time: 11:07"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d02298fb-8d13-43d0-8240-756093f6dc44",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "Store",
+          "description": "6405   Cashier",
+          "total": "Sam P"
+        },
+        {
+          "quantity": "Terminal: 4 ",
+          "description": "Sales Rep",
+          "total": "Sam P"
+        },
+        {
+          "quantity": "",
+          "description": "Receipt #: 64051000123168",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f888d37-959c-4cbc-bb43-b7d113d3b744",
+      "type": "BARCODE",
+      "size": 61,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "714c52f2-e518-4650-a459-0706a981d3d3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTTRISIM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TELUS LTE TRI SIM",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Reg: 20.00 each",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Qty: 1",
+          "total": "20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Promo Cd: TPREWEP",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "20.00 off each",
+          "total": "-20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1f688d4d-8310-4b73-b5d8-c3e3a334068c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n100_VPIN_Prepaid\n100 CHRG CORP STORE VPIN GEN\nReg: 100.00 each\nQty: 1                        100.00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "65c46303-c351-4c2c-865b-3796d5ce1a08",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Subtotal",
+          "value": "100.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2532d7dc-ac56-46f2-8410-cc486ace8999",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Subtotal",
+          "value": "100.00"
+        },
+        {
+          "title": "HST",
+          "value": "13.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f8700065-15d6-46cc-8434-f870f854b968",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\nCAD$113.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tender",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CC (MC)",
+          "total": "113.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "g3qUaVab5HJfeEawoZhE"
+}

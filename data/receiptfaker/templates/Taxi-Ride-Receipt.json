@@ -1,0 +1,103 @@
+{
+  "name": "Taxi Ride Receipt",
+  "slug": "Taxi-Ride-Receipt",
+  "backgroundCrumpled": false,
+  "currency": "$$",
+  "createdBy": "Mj7c8RbvHQbgiVrgQXggu7RDBlx2",
+  "createdAt": "$D2025-05-03T13:53:46.476Z",
+  "isParent": true,
+  "description": "Need a custom taxi ride receipt? Our free Receipt Generator lets you quickly create and download professional taxi receipts in just a few clicks. Perfect for expense reports, travel reimbursement, or personal records. Customize the taxi company name, pickup and drop-off locations, date, fare, tip, and payment method—then instantly generate a clean, printable receipt ready for saving or sharing.",
+  "sections": [
+    {
+      "id": "cf2a2df0-9cd7-40ad-9716-3b7cb0a6aba0",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F4dc60686-9687-4c59-9c31-86a1c953f176-Taxi%20Icon.png?alt=media&token=23655dcb-e2cc-4c34-b6b5-3ec1710a8d15",
+      "size": 91,
+      "businessDetails": "TAXI123\nConvenient Taxi Services",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "rightFields": [
+        {
+          "title": "Mileage",
+          "value": "4.14"
+        },
+        {
+          "title": "Drop off",
+          "value": "12:32"
+        },
+        {
+          "title": "Auth",
+          "value": "6BSN5"
+        }
+      ],
+      "id": "9ffbcd51-4cec-497b-87f3-aad003755f03",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Time",
+          "value": "18:03"
+        },
+        {
+          "title": "Pick up",
+          "value": "12:14"
+        },
+        {
+          "title": "Trans",
+          "value": "HXE5C"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "items": [],
+      "id": "66369368-4333-438e-adf4-1ea4c5c2c820",
+      "type": "ITEMS",
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "23.00"
+        },
+        {
+          "title": "Tax",
+          "value": "1.38"
+        }
+      ],
+      "total": "23.38",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4bc6fe5b-b0bc-4775-bfc2-333ad58570af",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "2025-02-24 12:32",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "0d43eb44-9ac3-4b9e-abe5-03b2afa1a584",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank You For Riding With Us!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FlEX0AVk674j4Eyn7R5z1%2FlEX0AVk674j4Eyn7R5z1-37e06ade-6f2b-424f-90b3-04352791afdd.png?alt=media&token=2f536e13-6d56-465e-993f-04dc2aef9f23",
+  "published": true,
+  "metatitle": "Taxi Ride Receipts",
+  "metadesc": "personalized taxi ride receipts featuring company details, route information, fare breakdown, and payment methods instantly",
+  "id": "lEX0AVk674j4Eyn7R5z1"
+}

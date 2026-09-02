@@ -1,0 +1,137 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Vons Receipt",
+  "slug": "Vons-Receipt",
+  "createdAt": "$D2025-05-24T12:04:44.941Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F627bce63-819d-4d61-8c8f-2b8f7a2baeec-vons-logo-png-transparent.png?alt=media&token=93be7263-b767-4c14-89f7-5eab89a82eeb",
+      "size": 112,
+      "businessDetails": "Store 1626 Dir Steve Lucero\nMain: (714) 640-0510 Rx: (714) 640-0393\n3650 S. Bristol\nSanta Ana CA 92704",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "GROCERY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Broccoli",
+          "total": "1.89"
+        },
+        {
+          "quantity": "1",
+          "description": "Cereal – Honey Oats",
+          "total": "3.79"
+        },
+        {
+          "quantity": 1,
+          "description": "Penne Pasta",
+          "total": "1.59"
+        },
+        {
+          "quantity": 1,
+          "description": "Eggs (dozen)",
+          "total": "2.80"
+        },
+        {
+          "quantity": "2",
+          "description": "Chicken Breast",
+          "total": "8.00"
+        },
+        {
+          "quantity": "6",
+          "description": "Toilet Paper",
+          "total": "5.49"
+        },
+        {
+          "quantity": "4",
+          "description": "Tomatoes",
+          "total": "3.00"
+        },
+        {
+          "quantity": "6",
+          "description": "Bottled Water",
+          "total": "4.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Orange Juice (1 liter)\t",
+          "total": "3.50"
+        },
+        {
+          "quantity": "4",
+          "description": "Apples",
+          "total": "3.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Tax",
+          "value": "2.76"
+        }
+      ],
+      "total": "40.81",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "YOUR CASHIER TODAY WAS JIM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for shopping with VONS!\nFor questions, please call 877-276-9637 or vons.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F4DgMDM6gq6Oy31svmQef%2F4DgMDM6gq6Oy31svmQef-79bef918-8eb3-4bc0-90da-61e7f2961054.png?alt=media&token=cea61e5b-829b-45d1-b238-eddb3a0fc995",
+  "description": "Need a Vons receipt? Use our free tool to generate a personalized grocery receipt. Add store location, itemized purchases, prices, tax, and payment method—perfect for expense tracking, returns, or budgeting.",
+  "published": true,
+  "metatitle": "Vons Grocery Receipt",
+  "metadesc": "realistic Vons grocery receipts with custom items, store locations, prices, tax details, and payment methods for tracking",
+  "id": "4DgMDM6gq6Oy31svmQef"
+}

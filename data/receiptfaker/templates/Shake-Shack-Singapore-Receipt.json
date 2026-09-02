@@ -1,0 +1,106 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Shake Shack Singapore Receipt",
+  "description": "This receipt is issued by Shake Shack and documents a dine-in restaurant transaction at a Singapore location. The header contains the Shake Shack branding, location information, GST details, transaction date and time, and receipt reference. The order consists of five items, including a Shack Stack, Chick'n Shack, fries, large iced tea, and Shack Attack, with the individual prices shown alongside each selection. The financial section records a total of 43.80 inclusive of GST, with 7% GST of 2.86 identified within the transaction. Payment was made in cash, with 50.80 tendered and 7.00 returned as change. The lower portion contains a customer appreciation message, promotes Shake Shack Singapore's social-media presence, encourages customers to use the #shakeshacksg hashtag, and displays buzzer number 1124 together with staff and POS references associated with the order.",
+  "slug": "Shake-Shack-Singapore-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T15:33:43.924Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "2b3827c2-b485-454f-932b-f8571b3e3a5a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "SHAKE SHACK\n1 HABOURFRONT WALK\n#01-103 / 104\nPT/OCITY\nSINGAPORE 098585\nGST NO: 1201042978F\n\n02/02/2021  14:42        C013117\n\nQty  Description           Amount",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "05a3be9d-4165-4eec-bad7-60b285b4b02f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n1    Shack Stack",
+          "value": "\n14.30"
+        },
+        {
+          "title": "1    Chick'n Shack",
+          "value": "9.20"
+        },
+        {
+          "title": "1    DXB Fries",
+          "value": "5.90"
+        },
+        {
+          "title": "1    LG Ice Tea",
+          "value": "4.70"
+        },
+        {
+          "title": "1    DBL Shack Attack",
+          "value": "9.50"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff8f31c4-005f-4f34-b7f9-8b6de8ba6614",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n5    TOTAL TO STAR",
+          "value": "\n43.80"
+        },
+        {
+          "title": "CASH",
+          "value": "50.60"
+        },
+        {
+          "title": "CHANGE",
+          "value": "7.00"
+        },
+        {
+          "title": "Incl. Gst 7% ",
+          "value": "2.86"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "af931c6b-c4cd-4580-bd52-e7acd25a43a6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you, see you soon!\nFollow Us On FB & IG @shakeshacksg\nTag us at #shakeshacksg\n\nBUZ: 124",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a543de26-818f-4671-9631-263fa69ac859",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nGRACE\nSvr:303134                   BUZ:124\nCshr:303134 Kalielsanil A/P Bellen\nPOS:1903 Shf:202132021",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "CUGyVa2VwvrZrWmHd54A"
+}

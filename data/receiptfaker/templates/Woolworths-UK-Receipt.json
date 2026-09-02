@@ -1,0 +1,133 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T08:37:01.945Z",
+  "description": "This retail receipt from Woolworths, located at 28 High Street, Brecon, LD3 7LG, contains store identification, VAT registration number, website address, store number, till number, operator number, transaction number, and transaction date and time. The receipt includes a colleague discount program section documenting a Woolworths Group Discount Card and total discount applied. Financial information includes subtotal and total values, followed by a payment section showing card type, masked card number, expiry date, authorization number, merchant ID, EMV application identifier (AID), and PIN verification confirmation. The format is representative of a UK retail POS system with integrated loyalty discount processing and chip-and-PIN card payment functionality.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Woolworths UK Receipt",
+  "slug": "Woolworths-UK-Receipt",
+  "sections": [
+    {
+      "id": "1d1d3500-46d4-421f-a77e-7248569c9573",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7a5e652d-823f-47de-8832-17935398315e-image.jpg?alt=media&token=ad29f0a5-b06d-4b0d-bd8d-a9f63644a712",
+      "size": 271,
+      "businessDetails": "\n28 HIGH ST\nBRECON, LD3 7LG\nVAT Nos: 777 9757 42\nwww.woolworths.co.uk\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1f718d0e-9d41-4768-a5e7-91547adf7140",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "000090892 MARIO V'S DONKEY K",
+          "total": "29.99"
+        },
+        {
+          "quantity": "",
+          "description": "20% Colleague Discount",
+          "total": "-6.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "£23.99"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£23.99"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n* Woolworths Group Discount Card",
+          "total": "\n\n<K> *"
+        },
+        {
+          "quantity": "",
+          "description": "* Details: 6336239967376401 0407",
+          "total": " *"
+        },
+        {
+          "quantity": "",
+          "description": "* Total Discount Applied: -6.00",
+          "total": " *"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nPlease DEBIT my account",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SWITCH",
+          "total": "£23.99"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n\nCard No",
+          "total": "\n\n************4266 <1>"
+        },
+        {
+          "quantity": "",
+          "description": "Expiry Date",
+          "total": "11/09"
+        },
+        {
+          "quantity": "",
+          "description": "Auth. No.",
+          "total": "1879"
+        },
+        {
+          "quantity": "",
+          "description": "Merchant ID",
+          "total": "1669118"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "A0000000050001"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "edb0a81f-dff4-4db3-b2cc-8e33045f51b1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please retain for your records\nVAT No. 777 9757 42\n\nVerified by PIN\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff4197cf-a786-411f-9e62-e9ac2a932063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nStore: 0374\tTill: 004(0400)\nOp: 5002 Date: 25/03/07Time: 12:50\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "vQGfIDYw7Q4FuH4TgdrB"
+}

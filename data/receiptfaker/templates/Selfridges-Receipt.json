@@ -1,0 +1,104 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Selfridges Receipt",
+  "slug": "Selfridges-Receipt",
+  "createdAt": "$D2026-04-04T15:36:53.094Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "€",
+  "textColor": "#101828",
+  "numberFormat": "RIGHT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FIRlDFZOex1aKjUfk8fX3k3egX6d2%2Fd8797352-b66a-4b0f-8694-de10dd565fee-Unknown.png?alt=media&token=d4f7af74-160c-4ebc-bc3e-a4cdc130319a",
+      "size": 242,
+      "businessDetails": "\n400 Oxford Street London WIA 1AB\nFreephone 0800 123 400 (From overseas\n+44 (0)207 160 6222)\nV.A.T NO. GB 705 3259 52\n\nwww.selfridges.com\n\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Sales voucher\nCustomer copy",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "100de445-d56d-4397-9623-781feb8fec65",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nYou were served by: Monica\n5120 66490111 5045068170765\nGucci Rectangle-Frame Metal Sunglasses\n                       £290",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "114a699e-ade4-4dbd-829f-829719328ce2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Total\n1 Item              £290.00\nMastercard Debit    £290.00\n\n\n\nAID: A0000000041010\nDebit Mastercard\nCard: ************1409\nPAN Seg Nr: 02\n\nICC\nSALE \nTOTAL: £290.00\n\nPIN Verified\n\nAuth: 279240\nMerchant: ***38303\nTID: ***9290\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7ab4053-026b-4736-b39f-d29e1011105c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please retain for your records\n\nNotified terms and conditions will apply\n\nFor details visit selfridges.com/London\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "81b3748a-eef4-4129-9ff5-cff216dd4335",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We have a passion for what we do and Want you to have an amazing experience every time you come to selfridges.",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb4ffe54-4590-40c3-9beb-c69b2a302b38",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nShop online at www.selfridges.com\n\nYou are welcome to exchange or refund your purchase by 19 Jan 2026.\nPlease note Sale items can only be exchanged",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea0d6260-6875-4c44-a791-c9fbee8e3595",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Term 6102 Opr Operation ID\nStore 000999\nDate 19/12/2025 15:23\nNaN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e6f0ffc8-f673-4569-92bc-0c350858293f",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a department store sales voucher issued by Selfridges & Co at its Oxford Street London location, including full store address, VAT number, and contact information. It contains transaction identifiers such as store number, terminal ID, transaction reference, authorization code, and masked card details associated with a Mastercard debit payment. The receipt includes staff identification, customer name reference, and a clearly structured financial summary showing total amount and payment method. Additional elements include EMV transaction data (AID, ICC, PAN sequence), PIN verification confirmation, and merchant identifiers. The document concludes with customer instructions, return and exchange policy details with a specified deadline, promotional messaging, website references, and a barcode with numeric encoding for transaction tracking.",
+  "metatitle": "Luxury Gucci Receipt",
+  "metadesc": "authentic Gucci receipts with customizable boutique details, luxury items, pricing, and payment info for returns or records",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FylDxdjjxaQtbPQKXEQho%2FylDxdjjxaQtbPQKXEQho-774b81e7-2659-4e18-b1bb-5cbd9f436111.png?alt=media&token=92b67dd0-13fa-487a-b408-c89120afcad3",
+  "published": true,
+  "id": "ylDxdjjxaQtbPQKXEQho"
+}

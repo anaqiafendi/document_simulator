@@ -1,0 +1,66 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-01-22T19:01:25.116Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "1ad80567-0cd8-4a5b-8bd1-281df6713a0f",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7e4f818d-2d53-4100-8db8-74396a99d59c-YODEL%20(1).jpg?alt=media&token=4e1d27aa-bd01-4426-8c0a-17cd8fce0f5e",
+      "size": 298,
+      "businessDetails": "CUSTOMER PARCEL RECEIPT\n\nCollect+ Site ID: 40145\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc9634cb-1b59-4214-b316-3f71960e44da",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nThank you for sending\nyour parcel(s) with\nCollect+ at 11:31\non 24/09/2025\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8231f066-9ba5-4aa2-a78a-12d48dec226c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nPLEASE KEEP RECEIPT\nFOR PROOF OF TRANSACTION\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c3f23e5-e31c-4cbf-83da-9cd0fee394e1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nPARCEL: 816P54079391A961\nTracking: 3A1WWE\nyodel.co.uk\n\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4978496f-9ebb-48f2-9152-c7a442a77313",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nShare your Yodel instore\nexperience on Trustpilot\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FCsvBnDFzr1jbUXusEPQ0%2FCsvBnDFzr1jbUXusEPQ0-de578ee9-09f5-4e89-aba2-1cc6dc925627.png?alt=media&token=f6814ce9-f737-4934-9038-7dbc3dc7d2f1",
+  "name": "Yodel Parcel Receipt",
+  "description": "Create a Yodel parcel receipt with collection site details, date and time, parcel reference, tracking number, and proof of transaction information for shipping records or documentation.",
+  "slug": "Yodel-Parcel-Receipt",
+  "published": true,
+  "id": "CsvBnDFzr1jbUXusEPQ0"
+}

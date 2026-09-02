@@ -1,0 +1,107 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Three (Three.co.uk) Receipt",
+  "description": "Retail receipt issued by Three (Three.co.uk) for the purchase of Apple AirPods Max headphones, showing store location, item details, discounts, VAT information, total amount paid, invoice number, and staff details.",
+  "slug": "Three-(Three.co.uk)-Receipt",
+  "createdAt": "$D2026-01-23T18:39:31.572Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffn35jq3wYOM7T82sEasq%2Ffn35jq3wYOM7T82sEasq-b8605912-c109-458b-a6ca-52e5b2dcec80.png?alt=media&token=cfeadb7c-c735-448a-9abd-21a9cd66bbdc",
+  "currency": "£",
+  "sections": [
+    {
+      "id": "4f0c0731-3285-4fdd-9ee2-554f8f63c893",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F58cb6c9a-d47b-48e5-9167-50b801f1675a-Three%20(Three.co.uk)%20Receipt.jpg?alt=media&token=4a6b17fb-171a-4999-9e48-1508f15e007e",
+      "size": 91,
+      "businessDetails": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53074a3b-f042-4ab5-8400-95699f0394b8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Three Wellingborough\nUnit 14 Corn Lane\nWellingborough NN8 1EZ\n01933 4711",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b2772d9-a1c3-4888-b3db-b102e45a9212",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Apple AirPods Max Headphones",
+          "total": "499.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Discount            ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "2",
+          "description": "UPG AD 16GB AYCE",
+          "total": "0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "UPGRADE  ",
+          "total": "0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Three Rescue Decline",
+          "total": "0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "DPA Validated",
+          "total": "0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "R Chip & Pin £1 Refund x-1  \n(£1.00 each inc. VAT at rate 20%)",
+          "total": "-1.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Trio PAYG Voice Sim",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Total          ",
+          "value": "499.00"
+        }
+      ],
+      "total": "499.00",
+      "totalText": "Pound Sterling      ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb1e8f30-8e75-42e9-b217-32d10e877fab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nInvoice Number:\n32466234627380887423\n\nYou were served today by: Alan Extor\n\nPlease Retain For Your Records\n\nVAT Number: 356427734",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "fn35jq3wYOM7T82sEasq"
+}

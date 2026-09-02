@@ -1,0 +1,110 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Smashburger Receipt",
+  "description": "This receipt is issued by Smashburger and identifies Store 1638 at 9 Southgate Street, Bath, United Kingdom. The header contains the Smashburger branding, store number, street address, host name, transaction date and time, and additional POS references. The receipt documents a dine-in order containing a Sirloin Stack, Classic burger, Camembert-related item, and a 330 ml Stella Artois, with the individual prices displayed beside each selection. The financial section records a subtotal of £18.42, tax of £3.68, and a final dine-in total of £22.10. Payment was completed by credit card, with a masked card number ending in 8497, an authorization reference, and the full £22.10 payment amount printed at the bottom. The receipt combines restaurant order information, tax details, staff and transaction references, and electronic card-payment confirmation in a standard UK restaurant POS format.",
+  "slug": "Smashburger-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-23T15:44:30.647Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "c45d4653-9a2f-4218-8fa8-f5b8af86060b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb01618d7-777b-4b79-b979-50bb721a7e36-image%20(1).jpg?alt=media&token=ed355643-f872-4f98-9cc0-d2a57fe82071",
+      "size": 244,
+      "businessDetails": "SMASHBURGER\nStore 1638\n9 Southgate Street\nBath\n\n40",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea54558c-3b25-443e-8897-f0c922f509ed",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nHost: Navjot ",
+          "value": "\n22/03/2019"
+        },
+        {
+          "title": "40",
+          "value": "7:08 PM"
+        },
+        {
+          "title": "",
+          "value": "20088"
+        },
+        {
+          "title": "\nSGL STILTON STACK",
+          "value": "\n7.25"
+        },
+        {
+          "title": "GRL CLASSIC",
+          "value": "6.95"
+        },
+        {
+          "title": "CAMDENHELLS CRFTBEERLAGER",
+          "value": "3.95"
+        },
+        {
+          "title": "STELLA ARTOIS 330ML",
+          "value": "3.95"
+        },
+        {
+          "title": "\n\nSubtotal",
+          "value": "\n\n18.42"
+        },
+        {
+          "title": "Tax",
+          "value": "3.68"
+        },
+        {
+          "title": "\nDine In Total",
+          "value": "\n22.10"
+        },
+        {
+          "title": "Cred Cards #XXXXXXXXXXXX8497",
+          "value": "£22.10"
+        },
+        {
+          "title": "Auth:161294",
+          "value": ""
+        },
+        {
+          "title": "\n\nTable: 14",
+          "value": ""
+        },
+        {
+          "title": "Order No: 5541",
+          "value": ""
+        },
+        {
+          "title": "Server: Navjot P",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e44f0c51-2b1a-4948-96d8-4eae3a73f278",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for dining with us!\nWe appreciate your visit and\nhope to see you again soon.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "hOJkciGvABOavTkT2dPY"
+}

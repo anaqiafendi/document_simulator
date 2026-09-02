@@ -1,0 +1,117 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Sheetz Receipt",
+  "description": "This receipt is issued by Sheetz and identifies the location as Store #358, 240 Sheetz Way, Altoona, Pennsylvania 16601. The header contains the Sheetz branding, store number, address, contact telephone number, register number, transaction number, employee number, and transaction date and time. The receipt records the purchase of a 6-inch Chicken MTO Sub, Pepsi, Doritos Nacho, two bottles of Sheetz Water, a Snickers Bar, and Lay's Classic chips. The financial section records a subtotal of $16.73, 6% Pennsylvania sales tax of $1.00, and a final total of $17.73. The payment section confirms settlement by debit card, displaying the masked card number, application identifier, authorization number, and approval status. The footer thanks the customer for shopping at Sheetz and provides the company website, together with a transaction barcode.",
+  "slug": "Sheetz-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T17:58:01.262Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "02258559-6425-4500-8c6a-3d22a5ef8488",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6af8fe14-630f-4dda-8439-ba64ff1f09fc-image%20(1).jpg?alt=media&token=b304dbb7-13eb-4194-a8f4-dc211d07f8a1",
+      "size": 273,
+      "businessDetails": "STORE #358\n240 SHEETZ WAY,\nALTOONA, PA 16601\n(814) 946-1300\n\n\nREG 04  TRNS 1245  EMP# 3019\nDATE: 10/26/2023  TIME: 12:48 PM\nWELCOME TO SHEETZ!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7bd0ccd9-1628-4fc9-b624-6aaceba24241",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nITEM DESCRIPTION",
+          "value": "\nQTY    PRICE"
+        },
+        {
+          "title": "MTO SUB 6IN (CHICKEN)",
+          "value": "1     $6.99"
+        },
+        {
+          "title": "PEPSI 20OZ",
+          "value": "1     $2.19"
+        },
+        {
+          "title": "DORITOS NACHO 2.80Z",
+          "value": "1     $1.89"
+        },
+        {
+          "title": "SHEETZ WATER 16.9OZ",
+          "value": "2     $2.58"
+        },
+        {
+          "title": "SNICKERS BAR 1.86OZ",
+          "value": "1     $1.69"
+        },
+        {
+          "title": "LAYS CLASSIC 1.5OZ",
+          "value": "1     $1.39"
+        },
+        {
+          "title": "\nSUBTOTAL",
+          "value": "\n$16.73"
+        },
+        {
+          "title": "PA SALES TAX 6.00%",
+          "value": "$$1.00"
+        },
+        {
+          "title": "TOTAL",
+          "value": "$$17.73"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4ffc9246-5521-4a0c-bdb8-f31d50a7f554",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDEBIT CARD **** 5678\nAID: A0000000031010\nAUTH: 123456\nAPPROVED",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3a190c4-7dd4-43b9-b75b-b8698b13473e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTHANK YOU FOR SHOPPING AT SHEETZ!\nVISIT SHEETZ.COM\nSTAY CONNECTED!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff7ce074-2668-4bab-adb7-a5d78e71370a",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7c31708-5690-412f-bd00-2d1986f9ffdc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nA 021000 008122\n1245030191026 2023",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "ci2k14Xc9IPdPoU9Noih"
+}

@@ -1,0 +1,56 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "ZARA Receipt",
+  "description": "This ZARA tax invoice receipt is issued by Inditex Trent Retail India Pvt Ltd and displays corporate office details along with GSTIN information at the top, followed by store location details for Virtuous Retail Mall, Surat, Gujarat. The receipt includes Store number (6474), date and time (25-12-2018, 17:19), invoice number (6474-07-S028433), and transaction number (28529). The structured tax breakdown shows total net amount, central tax (9.00%), and state tax (9.00%) under Indian GST formatting. Payment lines include multiple CASH entries and change cash, with total amount clearly presented. The footer contains a thank-you message, reverse charge tax notice, computer-generated invoice disclaimer, employee number (6377), and a QR code for verification. The layout reflects standardized Indian retail apparel POS tax invoice formatting with compliance identifiers and detailed GST structure.",
+  "slug": "ZARA-Receipt",
+  "createdAt": "$D2026-02-24T13:27:56.701Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3499c383-752d-4a38-ade4-c283ac7d973b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffa67d7eb-b193-450b-b3a7-6f2caa3e8ac4-image%20(11).jpg?alt=media&token=c68ab7ce-cacd-4b24-9309-04f5771631df",
+      "size": 181,
+      "businessDetails": "\nTAX INVOICE\n\nInditex Trent Retail India Pvt Ltd\nAmbience Corporate Office Tower 2\nLevel 8 on Plot No. 3, Udyog Vihar\nPhase I, NH-8, Gurgaon 122002,\nHaryana, India\nCIN: U74899HR2009PTC039350\nTel: +91 124 497 3500\nFax: +91 124 497 3510\nwww.zara.com/in\n\nGSTIN: 24AACCII5666Q1Z8\nVirtuous Retail Mall\n12B on Ground Floor and 116F on First\nFloor, R.S. no. 62/1, F.P. 29, T.P.4\nMagdalla, Moje Rundh, Choryasi Surat\nGUJARAT 395007\nTel: 0261-6795322/21/23\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "efd2bccb-582d-4b4b-9ee7-be012b791c9c",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Store: 6474\nDate: 25-12-2018 Time: 17:19\nInvoice number: 6474-07-S028433\nTrans: 28529",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "f3c49860-ed16-456a-b3bf-2b6b8ea0c908",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TSP   CODE   QTY   PRICE   AMOUNT   T\n------------------------------------\nSMS 6402 1 1,990.00 1,990.00 P\n10001164 1220630200141 SPORT SHOES\n1,686.44  Central tax 9.00% 151.78\n1,686.44  State tax 9.00% 151.78\n------------------------------------\nTOTAL   1    1,990.00\n\nCASH      INR 200.00\nCASH      INR 1,800.00\nCHANGE CASH  INR -10.00\n\nTotal Net   1,686.44\nCentral tax 9.00%   151.78\n------------------------------------\nTotal Net               1,686.44\nState tax 9.00%        151.78\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4f5a6125-1667-4882-b3cf-f85c69ec4feb",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "*****  THANKS FOR YOUR VISIT  *****\n\nNote: Unless otherwise stated, tax on this invoice is not payable under\nreverse charge This is a computer generated invoice and hence does not require any signature.\n\nEmployee: 6377",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FD7I2n3wdkDmJk7MwNWeI%2FD7I2n3wdkDmJk7MwNWeI-d41e5871-4d22-49f1-91dd-3e13fc2e2b1f.png?alt=media&token=1248d68c-90fd-4573-800b-91969a065ba2",
+  "published": true,
+  "id": "D7I2n3wdkDmJk7MwNWeI"
+}

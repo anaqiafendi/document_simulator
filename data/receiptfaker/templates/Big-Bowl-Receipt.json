@@ -1,0 +1,136 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T14:38:08.794Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "50e38920-653b-4cbe-9701-509762b62ac9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "AREAS USA ORD, LLC.\nBIG BOWL\nCHICAGO O'HARE INTERNATIONAL\n11567 Edward J",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "970d5ce5-df1a-402b-9b0b-ddf8009dd1d8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "3560 ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ea1cc7dc-45ca-44ab-9758-b4e415b7d52c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "28MAY'17  1:58PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "741722f1-4c03-43b6-94fb-dfc1942e4927",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTOGO\n11567  Johnson (MOD)\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8b52b121-fbd2-47e3-b713-36e900dbb263",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 DMPLNG SOUP",
+          "total": "4.95-V"
+        },
+        {
+          "quantity": "",
+          "description": "11567  Johnson (MOD)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 (2) EGG ROLLS",
+          "total": "6.95-V"
+        },
+        {
+          "quantity": "",
+          "description": "11567  Johnson (MOD)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 COKE DIET COCA C",
+          "total": "3.05-V"
+        },
+        {
+          "quantity": "",
+          "description": "077311640714B051053",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "VISA - EMV",
+          "total": "16.75-"
+        },
+        {
+          "quantity": "",
+          "description": "FOOD",
+          "total": "11.93-"
+        },
+        {
+          "quantity": "",
+          "description": "BEVERAGE",
+          "total": "3.01-"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "1.68-"
+        },
+        {
+          "quantity": "",
+          "description": "PAYMENT ",
+          "total": "16.75-"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1af88672-6719-43e5-906f-27ba35902875",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "---11567 Closed MAY28 01:58PM---\n\n** Gratuity not included **\n** Propina no incluida **\n************************************\n\nTell us how we did and enter to\nwin 2 round trip airline tickets\nComplete a brief survey at\nwww.areasask.com/31202\n\nEnter code below:\n35500-11567-13280-51008\n************************************\nFor Guest Service, email:\nguestservice@areas.com\nOr Call 866.820.1178",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "$3e",
+  "name": "Big Bowl Receipt",
+  "slug": "Big-Bowl-Receipt",
+  "published": true,
+  "id": "yTdzxbeAld9zDnRCitJJ"
+}

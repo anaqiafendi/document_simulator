@@ -1,0 +1,150 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T08:14:24.178Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Towing Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F1517bc06-a650-41f3-af48-106642c416a9-2178858_accessories_automobile_car_repair_service_icon.png?alt=media&token=ea688000-2579-4539-bb84-9436e60b0095",
+      "size": 50,
+      "businessDetails": "QuickTow Services LLC\n1521 Harbor Drive\nCleveland, OH 44114\n(216) 555-9147\ncontact@quicktowservices.com",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Towing Receipt\nReceipt #: 00021345\nReceipt date: 5/25/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Billed to: Daniel Harper\n4879 Cedar Hill Road\nColumbus, OH 43209\nPlate Number: JFK 8472",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Tow Service",
+          "total": "200"
+        },
+        {
+          "quantity": "1",
+          "description": "Overnight Fee",
+          "total": "50"
+        },
+        {
+          "quantity": 1,
+          "description": "Flat Tire Change",
+          "total": "30"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "280"
+        },
+        {
+          "title": "Tax",
+          "value": "23.10"
+        }
+      ],
+      "total": "303.10",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Towing companies typically retain copies of all receipts for at least 3–5 years for regulatory compliance and dispute resolution. Receipts must comply with state and local regulations governing towing services, including any mandated disclosures or fee limits.\n\nThank you!",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Towing-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FT916ApLsOH0ghb6Ko5Fe%2FT916ApLsOH0ghb6Ko5Fe-03f23a3b-bc5b-4ac2-892c-b3caf8c5dce7.png?alt=media&token=3568dd70-4f0a-432c-88ff-8a2b2401c372",
+  "description": "Need a towing receipt? Use our free tool to generate a professional receipt for towing services. Add company info, vehicle details, service date, distance, fees, and payment—perfect for insurance, records, or client use.",
+  "published": true,
+  "metatitle": "Tow Service Receipt",
+  "metadesc": "professional towing service receipts with vehicle details, distance, fees, and payment info for insurance claims and records",
+  "id": "T916ApLsOH0ghb6Ko5Fe"
+}

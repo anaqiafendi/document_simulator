@@ -1,0 +1,136 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T10:15:20.510Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "7019e1e6-c475-4c58-bf34-c69096007511",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Basebowl Washington,\nDC\n1201 Half St SE\nWashington, DC 20003",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4624c39d-3623-4456-9232-a7c137a6f752",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nDine In #20",
+          "total": "\nTbl:B13"
+        },
+        {
+          "quantity": "",
+          "description": "Order #19672755",
+          "total": "Gst:1"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b9b892f-6e90-47ad-9ce2-b21d87dbd207",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 x Chengdu Spicy Wonton (8pc $8.95) ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x happy hour",
+          "total": "$$5.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2e84ffa2-cb63-4743-b3f5-c01e90cf7d73",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$13.95"
+        },
+        {
+          "quantity": "",
+          "description": "Taxes & Fees",
+          "total": "$$2.15"
+        },
+        {
+          "quantity": "",
+          "description": "Taxes($1.40)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Convenience Fee($0.75)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "$$16.10"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef633659-e454-452c-ab7b-8258325748a4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFor your convenience:\n18% Gratuity=$2.90, Total $19.00\n20% Gratuity=$3.22, Total $19.32\n25% Gratuity=$4.03, Total $20.13",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "839aa03b-5444-4aee-9a76-9da6d0605ed8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nPrint Time:   Feb 16, 2024 05:29 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Basebowl restaurant receipt issued from the 1201 Half St SE location in Washington, DC 20003. The receipt header displays the restaurant name and full street address, followed by dine-in transaction information including the dine-in number, table identifier, order number, and guest count. The transaction area uses a compact thermal POS format with itemized order entries separated from the payment summary by divider lines. Financial information includes the subtotal, combined taxes and fees, an individual tax amount, convenience fee, and final total. A separate gratuity section provides suggested 18%, 20%, and 25% gratuity amounts together with the resulting totals for each option. The footer records the receipt print date and exact time.",
+  "name": "Basebowl Washington, DC Receipt",
+  "slug": "Basebowl-Washington-DC-Receipt",
+  "published": true,
+  "id": "c8OqiUT7ZqcQ6zZEg6bF"
+}

@@ -1,0 +1,144 @@
+{
+  "createdBy": "Ko14NfkjhiOprLf6wpYjMJgiUJl1",
+  "name": "Vons Receipt example with Broccoli Cereal Honey Oats Penne Pasta Eggs Chicken Breast Toilet Paper Tomatoes Bottled Water Orange Juice Apples and Skyy Vodka totalling 58 dollars 81 cents",
+  "slug": "Vons-Receipt-example-with-Broccoli-Cereal-Honey-Oats-Penne-Pasta-Eggs-Chicken-Breast-Toilet-Paper-Tomatoes-Bottled-Water-Orange-Juice-Apples-and-Skyy-Vodka-totalling-58-dollars-81-cents",
+  "createdAt": "$D2025-06-10T09:18:53.092Z",
+  "isParent": false,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F627bce63-819d-4d61-8c8f-2b8f7a2baeec-vons-logo-png-transparent.png?alt=media&token=93be7263-b767-4c14-89f7-5eab89a82eeb",
+      "size": 112,
+      "businessDetails": "Store 1626 Dir Steve Lucero\nMain: (714) 640-0510 Rx: (714) 640-0393\n3650 S. Bristol\nSanta Ana CA 92704",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3e7d394-028a-45a9-8c63-ead878f68f4e",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "6/9/2025, 2:13:13 pm",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "GROCERY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Broccoli",
+          "total": "1.89"
+        },
+        {
+          "quantity": "1",
+          "description": "Cereal – Honey Oats",
+          "total": "3.79"
+        },
+        {
+          "quantity": 1,
+          "description": "Penne Pasta",
+          "total": "1.59"
+        },
+        {
+          "quantity": 1,
+          "description": "Eggs (dozen)",
+          "total": "2.80"
+        },
+        {
+          "quantity": "2",
+          "description": "Chicken Breast",
+          "total": "8.00"
+        },
+        {
+          "quantity": "6",
+          "description": "Toilet Paper",
+          "total": "5.49"
+        },
+        {
+          "quantity": "4",
+          "description": "Tomatoes",
+          "total": "3.00"
+        },
+        {
+          "quantity": "6",
+          "description": "Bottled Water",
+          "total": "4.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Orange Juice (1 liter)\t",
+          "total": "3.50"
+        },
+        {
+          "quantity": "4",
+          "description": "Apples",
+          "total": "3.00"
+        },
+        {
+          "quantity": 1,
+          "description": "skyy vodka 750ml",
+          "total": "18.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "ca Tax",
+          "value": "2.76"
+        }
+      ],
+      "total": "58.81",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "YOUR CASHIER TODAY WAS JIM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for shopping with VONS!\nFor questions, please call 877-276-9637 or vons.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt was created with ReceiptFaker generator based on **Vons Receipt** template on **Jun 10, 2025**.",
+  "parentId": "4DgMDM6gq6Oy31svmQef",
+  "parentName": "Vons Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FmmkciV41r3Wz16DDDA30%2FmmkciV41r3Wz16DDDA30-e18558a9-2ae6-4ac2-a39e-743b445ae0fa.png?alt=media&token=02f7e9c6-5a40-440f-b613-0d4400ffae6f",
+  "published": true,
+  "metatitle": "Vons Grocery Receipt",
+  "metadesc": "realistic Vons supermarket receipts with fresh produce, household items, and beverages totaling $58.81 using our template",
+  "id": "mmkciV41r3Wz16DDDA30"
+}

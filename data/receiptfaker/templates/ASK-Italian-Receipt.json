@@ -1,0 +1,171 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T09:18:49.733Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "ASK Italian Receipt",
+  "description": "This receipt is from ASK Italian, a restaurant chain in the United Kingdom. It records a dine-in transaction for two guests at the Manchester Piccadilly Gardens location. The order includes garlic bread, spaghetti bolognese, pizza, beers, and a soft drink. The receipt contains VAT details at the UK 20% rate, subtotal, food and drink totals, and final amount due. It also includes service information, restaurant contact details, and gratuity policy notes. The format reflects a standard UK casual dining restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "d327617e-1294-4ffb-9c4c-4dff62248182",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "ASK Italian\nOne Piccadilly Gardens\nManchester, M1 1RG\nTel: 0161 228 6680\nVAT No: 627076730",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "166e0083-e503-4bb5-81ee-14547837d23e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCHK#: 62   TBL#: 21",
+          "total": "\n# 1277"
+        },
+        {
+          "quantity": "",
+          "description": "Rosanna",
+          "total": "GUESTS: 2"
+        },
+        {
+          "quantity": "",
+          "description": "06/01/2019   19:44:53",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9b27d5d8-6d93-429b-9d0d-0fc256a2dfe7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Garlic Bread",
+          "total": "4.75"
+        },
+        {
+          "quantity": 1,
+          "description": "Spag Bolognese",
+          "total": "10.25"
+        },
+        {
+          "quantity": 1,
+          "description": "P. Margherita",
+          "total": "8.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Pint Peroni",
+          "total": "5.55"
+        },
+        {
+          "quantity": 1,
+          "description": " Peroni Gran Riserva 500ml",
+          "total": "6.25"
+        },
+        {
+          "quantity": 1,
+          "description": "Diet Coke",
+          "total": "2.75"
+        },
+        {
+          "quantity": 1,
+          "description": "@ YYA421H",
+          "total": "-9.38"
+        },
+        {
+          "quantity": 1,
+          "description": "SUBTOTAL",
+          "total": "28.67"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nWS2",
+          "total": "\n\nT#0000143"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "£28.67"
+        },
+        {
+          "quantity": "",
+          "description": "\nSales-VAT  VAT Rate  VAT Amt",
+          "total": "\nTotal"
+        },
+        {
+          "quantity": "",
+          "description": "23.89  20.00%  4.78  ",
+          "total": "28.67"
+        },
+        {
+          "quantity": "",
+          "description": "Total Food",
+          "total": "14.12"
+        },
+        {
+          "quantity": "",
+          "description": "Total Drink",
+          "total": "14.55"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "57eab822-177d-48bd-b554-3cf0f154fa75",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Last Serviced",
+          "total": "06/01/2019 20:38:30"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7acfb8d5-16b6-4ffd-9b44-8c36419a9faf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ASK Italian\n3rd Floor Capital House,\n25 Chapel Street,\nLondon, NW1 5DH\n\n\n\nAll tips are discretionary except for parties of 8 or more where an optional service charge of 10% has been added",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "ASK-Italian-Receipt",
+  "published": true,
+  "id": "1BtnKFh77EN1vpt3yJdU"
+}

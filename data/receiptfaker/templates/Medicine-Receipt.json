@@ -1,0 +1,155 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Medicine Receipt",
+  "slug": "Medicine-Receipt",
+  "createdAt": "$D2025-09-29T15:37:31.665Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F16d9bac5-bf03-4d88-88d3-abc12bc8c7ca-753952_doctors_doctor_health_hospital_medical_icon.png?alt=media&token=359d3d2d-53a0-41b9-b760-7794ba922279",
+      "size": 50,
+      "businessDetails": "CarePoint Pharmacy\n1125 Oakwood Drive, Suite 204, Houston, TX 77042\nPhone: (713) 555-9284\nEmail: support@carepointpharmacy.com",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5dcb4cd1-1d75-40c6-ab0c-8c998f8ded7f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Medicine Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Amoxicillin 500 mg",
+          "total": "24.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Ibuprofen 200 mg",
+          "total": "6.49"
+        },
+        {
+          "quantity": "1",
+          "description": "Albuterol Inhaler 90 mcg",
+          "total": "39.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Cetirizine 10 mg",
+          "total": "12.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "84.46"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "5.49"
+        }
+      ],
+      "total": "89.95",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_100",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Prescription medications are non-returnable for safety reasons.\n\nOTC products may be returned unopened within 30 days with receipt.\n\nThank you for choosing CarePoint!\nwww.carepointpharmacy.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F2RMr5uyGoKoWrZVU3YOY%2F2RMr5uyGoKoWrZVU3YOY-4cd75563-1ff5-4f47-b24d-af49c3f156c4.png?alt=media&token=39497170-830e-45a9-8ee5-d7c3cbde0d10",
+  "description": "Need a medicine receipt? Easily create a professional pharmacy receipt with our free tool. Add store info, patient details, medication names, prices, and payment—ideal for insurance, tax, or personal records.",
+  "published": true,
+  "metatitle": "Drug Store Receipt",
+  "metadesc": "professional pharmacy receipts with patient details, medication names, prices, and payment info for insurance or tax records",
+  "id": "2RMr5uyGoKoWrZVU3YOY"
+}

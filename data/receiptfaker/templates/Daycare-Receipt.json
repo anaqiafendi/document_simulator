@@ -1,0 +1,136 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Daycare Receipt",
+  "slug": "Daycare-Receipt",
+  "createdAt": "$D2025-05-24T13:54:55.559Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F9d6e830e-85e4-4e98-b7b6-3ca0c72a8f40-7295542_toys_kids_children_rocking_horse_icon.png?alt=media&token=c8fc0b87-bc82-4818-95e9-fbcea97f83f6",
+      "size": 81,
+      "businessDetails": "Bright Path Daycare, LLC\n2234 Pinecrest Drive\nSpringfield, IL 62704\n(217) 555-8294\nwww.brightpath.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Daycare Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Bill to:\nMarcus Holloway\n832 Main Street\nSpringfield, IL 62701",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Childcare Services",
+          "total": "300"
+        },
+        {
+          "quantity": "5",
+          "description": "Additional Hours",
+          "total": "100"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "400",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c8311039-53fb-4ec8-a038-db6c32603657",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "This receipt serves as official proof of payment for daycare services. Any discrepancies should be reported within 7 days for prompt resolution. Late payments may incur additional fees as outlined in the enrollment agreement.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FthR2esguOBFw9kdYcIuk%2FthR2esguOBFw9kdYcIuk-50780217-b256-41ea-b37f-1bbae996352f.png?alt=media&token=75069e3f-35d2-41f4-8987-81463d839db9",
+  "description": "Need a daycare receipt? Use our free tool to create a clear record of childcare payments. Add provider info, child’s name, service dates, fees, and payment details—ideal for tax filings, reimbursements, or parent records.",
+  "published": true,
+  "metatitle": "Childcare Receipt",
+  "metadesc": "professional daycare receipts with child info, service dates, fees, and payment details for tax filings and reimbursements",
+  "id": "thR2esguOBFw9kdYcIuk"
+}

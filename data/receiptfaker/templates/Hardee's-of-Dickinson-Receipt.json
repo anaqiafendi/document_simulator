@@ -1,0 +1,128 @@
+{
+  "sections": [
+    {
+      "id": "a9e2feb0-8901-417b-a428-cdef1b8f4a90",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "HAVE A COMMENT? VISIT US\nAT TELLHAPPYSTAR.COM\n\nDRIVE THRU\n\nHardee's of Dickinson #1503879\n233 West Villard St.\nDickinson, ND 58601\n(701)227-0663\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "faa2675f-8af1-4a1f-97fc-a7d463a28869",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\n7/11/2023 ",
+          "value": "\n5:20:27 PM"
+        },
+        {
+          "title": "Order:",
+          "value": "Cashier: Megan R"
+        },
+        {
+          "title": "\n1 MushSwiss",
+          "value": "\n7.79"
+        },
+        {
+          "title": "1 Md Lemonade",
+          "value": "2.59"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b4a41596-d3d5-477a-8dd9-e11ee197bac7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTOTAL ENTREE & SIDES\n1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d029639-b172-4475-9857-20ec80ceef3f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSubTotal",
+          "value": "\n10.38"
+        },
+        {
+          "title": "Tax",
+          "value": "0.78"
+        },
+        {
+          "title": "Total",
+          "value": "11.16"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "aed2275a-9d6f-4943-8dbc-7cb0aa50e7ad",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nEarn Stars for this order!\nJoin My Rewards and\nenter barcode number\nin the Hardees App.",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6a6c13e-6438-4931-a3b2-5eb97f42cc41",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "39aaba33-aa79-456c-97d9-0d8d197d0f94",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5378c93f-5f43-4e12-a3b6-eb221dd9b89b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n*  LOOKING FOR A FLEXIBLE JOB? *\n*  ASK A MANAGER, VISIT hclcareers.com *\n*  OR TEXT \"JOBS\" TO 715 494 4985 *",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "349b834d-63d3-431c-9ce6-99e848b5d160",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nCustomer Copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "createdAt": "$D2026-08-22T20:13:00.546Z",
+  "imageUrl": "",
+  "name": "Hardee's of Dickinson Receipt",
+  "slug": "Hardee's-of-Dickinson-Receipt",
+  "description": "This receipt is issued by Hardee's of Dickinson and identifies Store #1503879 at 233 West Villard Street, Dickinson, North Dakota 58601. The header contains the restaurant location, telephone number, drive-thru designation, and transaction date and time. The order consists of one MushSwiss item priced at $7.79 and one Medium Lemonade priced at $2.59. The financial section records a subtotal of $10.38, tax of $0.78, and a final total of $11.16. The lower portion promotes the Hardee's My Rewards program and instructs the customer to enter the receipt barcode number in the Hardee's app. The footer also contains recruitment information for flexible employment and identifies the document as the customer copy.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "published": true,
+  "id": "wiEnRTY0TulsvrbpJo08"
+}

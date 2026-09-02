@@ -1,0 +1,134 @@
+{
+  "name": "Walmart Receipt",
+  "slug": "Walmart-Receipt",
+  "currency": "$$",
+  "createdBy": "FMSa2ZEMX1OSWPGgI4kL3hFbymu1",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FHle0bnZpwJyi16wEg9xB%2FHle0bnZpwJyi16wEg9xB-407f8d51-e09c-4778-a085-ab7327ceb32b.png?alt=media&token=c0bf17e9-ad70-43f9-b282-dd168094d16d",
+  "sections": [
+    {
+      "id": "e1f93b31-4628-4037-a3e3-6c62b4007bd6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "See back of receipt for your chance\nto win $1000\n\nID #:   72XXZ523GBA",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Faf03434f-3567-4665-99b1-bf919b41baad.png?alt=media&token=46c2b02a-4c98-44f1-8e6a-0464b421162d",
+      "size": 245,
+      "businessDetails": "( 916) 968 - 2258\nMANAGER RENE PUENTES\n3451 TRUXEL RD\nSACRAMENTO CA 23456\nST# 01234 OP# 567890 TE# 23 TR# 03111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PRODUCT SERIAL # TH66B3C1ZZ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "ALIBEISS CLEANING WIPES",
+          "total": 8.99
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": 8.99
+        },
+        {
+          "title": "Tax",
+          "value": 0.72
+        }
+      ],
+      "total": 9.71,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": null,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "# ITEMS SOLD 1\n\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "createdAt": "$D2025-03-12T22:00:00.178Z",
+  "backgroundCrumpled": false,
+  "isParent": true,
+  "metatitle": "Fake Walmart Receipt",
+  "metadesc": "authentic Walmart receipts with customizable items, prices, store details, and transaction info using our free generator tool",
+  "id": "Hle0bnZpwJyi16wEg9xB"
+}

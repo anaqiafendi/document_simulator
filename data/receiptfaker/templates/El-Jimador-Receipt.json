@@ -1,0 +1,114 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-21T16:11:36.310Z",
+  "description": "$3f",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "El Jimador Receipt",
+  "slug": "El-Jimador-Receipt",
+  "sections": [
+    {
+      "id": "1d50d593-0a44-496b-b332-09cfbe7248c4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6762f25c-f513-4b1d-9715-99a98c72d8f7-image.jpg?alt=media&token=5b93e744-48a8-4c0b-a6cd-10b027346475",
+      "size": 249,
+      "businessDetails": "\n(575) 394-2142\n110 N. Marland Blvd\nHobbs, NM 88240\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "67fe0218-13ac-4c4a-95dc-96df59492316",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "GLORIA",
+          "total": "Table 5"
+        },
+        {
+          "quantity": "",
+          "description": "ID 515546 To 45",
+          "total": "Chk 1 Gst 1"
+        },
+        {
+          "quantity": "",
+          "description": "\nStart: 11:37 AM",
+          "total": "\nSunday Dec/7/2025"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n\nICED TEA",
+          "total": "\n\n2.99"
+        },
+        {
+          "quantity": "",
+          "description": "LIMONADA",
+          "total": "3.50"
+        },
+        {
+          "quantity": "",
+          "description": "CALDO 7 MARES",
+          "total": "15.99"
+        },
+        {
+          "quantity": "",
+          "description": "#13 MENUDO LARGE",
+          "total": "11.49"
+        },
+        {
+          "quantity": "",
+          "description": "\nSUB TOTAL",
+          "total": "\n33.97"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL TAX",
+          "total": "2.23"
+        },
+        {
+          "quantity": "",
+          "description": "+ 18% GRATUITY",
+          "total": "6.12"
+        },
+        {
+          "quantity": "",
+          "description": "\nAMOUNT DUE",
+          "total": "\n42.32"
+        },
+        {
+          "quantity": "",
+          "description": "Time: 12:16 PM",
+          "total": "Turn: 0:39"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "27ea4bca-a1df-4b59-902d-da3f2a559a71",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nCash\nAmount Due\n42.32\nDebit/Credit Card\nAmount Due\n44.74\n\nSuggested Gratuity\n15%\t6.35\n18%\t7.62\n20%\t8.46\n\n\nGracias Amigos\nCome Back Soon\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "B5AMHjvBcFkr5m12tIjM"
+}

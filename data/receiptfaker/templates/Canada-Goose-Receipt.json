@@ -1,0 +1,178 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-22T09:20:38.764Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "27acfd3a-3ba7-41f5-a376-d065714fcabe",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2b8d558a-87a3-41ea-a712-544f735b8673-image%20(16).jpg?alt=media&token=68762b88-9899-43e9-beed-02eb0ed53a9f",
+      "size": 195,
+      "businessDetails": "Store                      Crystals\nAddress        3720 S Las Vegas Blvd\n                           Suite 105\n                 Las Vegas, NV 89158\n\nPhone: +\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "21852beb-e0ec-4272-9b88-c21af5627b6b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCARDHOLDER COPY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Time",
+          "total": "10:28:44"
+        },
+        {
+          "quantity": "",
+          "description": "Card",
+          "total": "****7008"
+        },
+        {
+          "quantity": "",
+          "description": "PAN seq",
+          "total": " 01"
+        },
+        {
+          "quantity": "",
+          "description": "Prt name",
+          "total": "CHASE VISA"
+        },
+        {
+          "quantity": "",
+          "description": "Card type",
+          "total": "visacommercialcredit"
+        },
+        {
+          "quantity": "",
+          "description": "Payment method  visa",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Payment variant visa",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Entry mode      ",
+          "total": "C contactless"
+        },
+        {
+          "quantity": "",
+          "description": "CVM res         ",
+          "total": "SIGNATURE VERIFIED"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": " A0000000031010"
+        },
+        {
+          "quantity": "",
+          "description": "MID",
+          "total": "47933800135486"
+        },
+        {
+          "quantity": "",
+          "description": "TID",
+          "total": "P4001F3F-8D56-0037"
+        },
+        {
+          "quantity": "",
+          "description": "PTID",
+          "total": "05610037"
+        },
+        {
+          "quantity": "",
+          "description": "Auth. Code",
+          "total": "004600"
+        },
+        {
+          "quantity": "",
+          "description": "Tender",
+          "total": "VISA"
+        },
+        {
+          "quantity": "",
+          "description": "Reference",
+          "total": "B5BA4057E71385C2084B4D6343"
+        },
+        {
+          "quantity": "",
+          "description": "Type",
+          "total": "GOODS_SERUICES"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "$$1,815.28"
+        },
+        {
+          "quantity": "",
+          "description": "APPROVED",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Retain for your records",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Thank you",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nWWW.CANADAGOOSE.COM",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "86f8a6be-2bd1-4f1c-aa54-a2afb4c3f413",
+      "type": "BARCODE",
+      "size": 78,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "918a62e7-a63d-47f2-b431-19a9ec47ef1f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "5 0 0 R S T R 0 2 00 0 1 7 9 5",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "name": "Canada Goose Receipt",
+  "description": "This retail payment receipt from Canada Goose documents a VISA contactless transaction processed at the Crystals shopping center location in Las Vegas, Nevada. The receipt includes store location details, cardholder copy formatting, timestamp information, masked payment card data, payment method identifiers, and EMV transaction metadata. Additional authorization details include AID, MID, TID, PTID, authorization code, reference number, and signature verification status. The financial section contains a high-value total amount field aligned in standard luxury retail payment terminal formatting. Additional receipt elements include approval confirmation messaging, website reference formatting, barcode identifiers, and customer record retention notices near the footer. The layout reflects a modern U.S. luxury retail card terminal receipt with integrated EMV and contactless payment authorization formatting.",
+  "slug": "Canada-Goose-Receipt",
+  "published": true,
+  "id": "QaBZwsSxqxr6HsalNf5K"
+}

@@ -1,0 +1,141 @@
+{
+  "parentName": "Office Depot",
+  "textColor": "#101828",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "description": "This restaurant receipt from Xieng Khouang documents a dine-in card transaction processed at the Old Hudson Road location in St. Paul, Minnesota. The receipt includes store address details, guest count formatting, server identification, order opening time references, and transaction numbering metadata. The POS structure contains food subtotal formatting, gratuity calculations, tax presentation, non-cash adjustment references, charge total formatting, and cash total presentation aligned in standard U.S. restaurant thermal receipt formatting. Additional receipt elements include social media promotional messaging, customer appreciation footer text, and timestamp formatting near the bottom of the receipt. The layout reflects a standard U.S. casual dining restaurant thermal receipt with gratuity accounting and card adjustment formatting.",
+  "name": "Xieng Khouang Receipt",
+  "numberFormat": "LEFT",
+  "imageUrl": "",
+  "isParent": true,
+  "fontType": "MERCHANT_COPY",
+  "slug": "Xieng-Khouang-Receipt",
+  "createdAt": "$D2026-05-28T14:08:58.763Z",
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "sections": [
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F29dfddf3-75d4-4e16-a507-e267bfeaec72-image%20(16).jpg?alt=media&token=605b067a-823a-43e2-afca-5be825163ff7",
+      "bottomDivider": false,
+      "id": "970764ad-6205-483e-af0c-78dbd6ab21fd",
+      "size": 247,
+      "businessDetails": "1760 Old Hudson Rd\nSt. Paul, MN 55106\n\n",
+      "alignment": "CENTER",
+      "type": "HEADER",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "custom": "GCK #: 1 Open: 3:30 PM 16817\n2 Guests     Server: tou m",
+      "alignment": "LEFT",
+      "type": "CUSTOM",
+      "id": "ab80407f-c7ee-441c-b1c5-62e3dd77a5b0",
+      "bottomDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "id": "77bbe322-26ca-40d1-992f-b02205d7d8a1",
+      "totalLines": [],
+      "totalDivider": true,
+      "items": [
+        {
+          "description": "$$5 Hmong Sausage W/ rice",
+          "total": "$$5.00",
+          "quantity": ""
+        },
+        {
+          "total": "$$5.00",
+          "quantity": "",
+          "description": "$$5 Laab W/ Sticky Rice"
+        },
+        {
+          "total": "$$7.99",
+          "quantity": "",
+          "description": "Mango Bubble Tea"
+        },
+        {
+          "description": "$$5 Lao style papaya",
+          "total": "$$5.00",
+          "quantity": ""
+        },
+        {
+          "description": "Regular Beef Special Pho",
+          "total": "$$14.99",
+          "quantity": ""
+        },
+        {
+          "total": "$$5.00",
+          "quantity": "",
+          "description": "5 Dollar beef Boat Noodles"
+        },
+        {
+          "description": "18% Gratuity",
+          "total": "$$8.50",
+          "quantity": ""
+        }
+      ],
+      "type": "ITEMS",
+      "totalText": "",
+      "total": "",
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "total": "",
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "id": "34fdc726-2539-4f94-8601-ad6b523a52a0",
+      "totalLines": [],
+      "totalDivider": true,
+      "items": [
+        {
+          "total": "$$42.98",
+          "quantity": "",
+          "description": "Food"
+        },
+        {
+          "description": "Gratuity",
+          "total": "$$8.50",
+          "quantity": ""
+        },
+        {
+          "total": "$$5.07",
+          "quantity": "",
+          "description": "Tax"
+        },
+        {
+          "description": "Non Cash Adjust",
+          "total": "$$1.70",
+          "quantity": ""
+        }
+      ],
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "id": "ca4bde8b-e371-413d-823e-14a223fbcd89",
+      "custom": "Charge Total                  $58.25\nCash Total                    $56.55",
+      "alignment": "LEFT",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "custom": "\n\nMake sure to \"Like\" us on\nFacebook\n\n\n\nThank You!\n10/2/2025   3:30 PM",
+      "alignment": "CENTER",
+      "type": "CUSTOM",
+      "bottomDivider": false,
+      "id": "fe6f1e86-a2df-4816-bf63-ec83c52fa306",
+      "date": "$undefined"
+    }
+  ],
+  "backgroundCrumpled": false,
+  "published": true,
+  "id": "SGKdC0qQNjE7WRzmuVuC"
+}

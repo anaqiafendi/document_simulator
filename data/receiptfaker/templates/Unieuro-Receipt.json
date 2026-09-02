@@ -1,0 +1,169 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T13:30:44.765Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Unieuro Receipt",
+  "description": "This receipt is from Unieuro, an electronics retail chain in Italy. It documents the purchase of a 55-inch UHD television with a significant Black Friday discount applied. The receipt includes VAT information at the Italian 22% tax rate, subtotal, total amount paid, and split payment details between cash and electronic POS payment. It also contains transaction, operator, and store reference numbers commonly found on Italian retail receipts.",
+  "sections": [
+    {
+      "id": "67945c48-aece-4323-a3ca-95284c2d421d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbf4318b2-8a29-47b7-9bf5-897e98292ac6-image%20(18).jpg?alt=media&token=eaa6a205-a58b-4847-8331-efa06bc232cc",
+      "size": 261,
+      "businessDetails": "Unieuro S.p.A.\nV. Neive 16/B 12050 CASTAGNITO (CN)\nCF/P1 00876320409 - T: 01733211224",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5517983f-9629-4995-a1b4-da6e0483ed14",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDOCUMENTO COMMERCIALE\ndi vendita o prestazione\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "86929f88-6395-4a17-94bf-ff04c3f03194",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DESCRIZIONE",
+          "total": "IVA\nPREZZO €"
+        },
+        {
+          "quantity": "",
+          "description": "LEI 55\" UHD 250PD",
+          "total": "22,00%\n1.099,00"
+        },
+        {
+          "quantity": "",
+          "description": "1000005017613",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SAMSUNGR4800 R",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "BLACK FRIDAY",
+          "total": "22,00% -600,00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSUBTOTALE",
+          "total": "\n\n499,00"
+        },
+        {
+          "quantity": "",
+          "description": "TOTALE COMPLESSIVO",
+          "total": "499,00"
+        },
+        {
+          "quantity": "",
+          "description": "di cui IVA",
+          "total": "89,98"
+        },
+        {
+          "quantity": "",
+          "description": "Pagamento contante",
+          "total": "150,00"
+        },
+        {
+          "quantity": "",
+          "description": "Pagamento elettronico",
+          "total": "349,00"
+        },
+        {
+          "quantity": "",
+          "description": "Resto",
+          "total": "0,00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7feb756-1cc1-4f37-8db0-ffedc9eaa703",
+      "type": "BARCODE",
+      "size": 71,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f2b31fd-f4f2-4748-9850-777390d19995",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0 0 0 0 1 1 2 0 1 9  2 1 1 1 5 2 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "499936f9-226d-410b-9d7c-81277453c18e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ART 2  TRANSAZIONE 111",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "NUM. NEGOZIO: 260",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nOper.  ID   Cassa      Data      Ora",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "30816   11  11/12/2019 15:22",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9debf4ea-da19-4071-8d16-30d6aa782a66",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nGrazie per aver scelto\nunieuro\nArrivederci e a presto!\n* * * * * * * * * *\nwww.unieuro.it",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Unieuro-Receipt",
+  "published": true,
+  "id": "qiWt6f26atJ5ToURCNn8"
+}

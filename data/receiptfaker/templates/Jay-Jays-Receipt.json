@@ -1,0 +1,174 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-05T19:45:13.479Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "RECEIPTIONAL_RECEIPT",
+  "name": "Jay Jays Receipt",
+  "description": "This receipt is a retail clothing transaction issued by Jay Jays at its Parramatta, New South Wales location, including full store address and contact phone number. It contains transaction metadata such as date, time, register number, and transaction identifier. The receipt provides a structured financial summary including subtotal and GST-inclusive amount, along with payment details indicating EFTPOS processing and authorization number. The layout reflects a standard Australian retail POS receipt format with clear itemization, tax inclusion notation, and closing customer message.",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa3f7367a-3b9b-41c2-8388-b6f0ba6701e4-Jay%20Jays%20Receipt.jpg?alt=media&token=b7fb292b-0da6-4ffa-81f6-f54b207de3c7",
+      "size": 200,
+      "businessDetails": "460 PARRAMATTA\nPARRAMATTA NSW 2150\nPH: 02 9891 0000",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85e3c7dd-00cf-47b2-b9da-2ffdde12cd1b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDate        Time     Reg    Trans\n04/04/2022  12:27PM  02     7311\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "658d8bd2-17d9-4655-8b0c-75ea408a57df",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Qty ",
+          "value": "Description                         "
+        },
+        {
+          "title": "1",
+          "value": "CAMO LONG SLEEVE TOP  "
+        },
+        {
+          "title": "1",
+          "value": "CAMO RIB TANK TOP "
+        },
+        {
+          "title": "1",
+          "value": "ACID WASH JEAN"
+        },
+        {
+          "title": "1",
+          "value": "DENIM SHORT "
+        },
+        {
+          "title": "2",
+          "value": "LOGO TEE "
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "Price",
+          "value": "Total"
+        },
+        {
+          "title": " 17.00",
+          "value": " 17.00"
+        },
+        {
+          "title": " 17.00",
+          "value": " 17.00"
+        },
+        {
+          "title": "39.99",
+          "value": "39.99"
+        },
+        {
+          "title": " 25.00 ",
+          "value": "25.00"
+        },
+        {
+          "title": " 13.00 ",
+          "value": "26.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e5e0859e-5f6c-4d9e-90dc-9e9956cf3d3b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a4fabd35-55ac-4acb-9795-cdd67b95c7b1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "EFT Payment EFTPOS ",
+          "total": "92.25"
+        },
+        {
+          "quantity": "",
+          "description": "2 x BOGO 50% OFF            ",
+          "total": "-$7.00"
+        },
+        {
+          "quantity": "",
+          "description": "11 BLACK",
+          "total": "$$0.25"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0fef9d85-14fb-47dc-b6a1-59c782b3eeb6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Sale total(includes $12.03GST) ",
+          "total": "92.25"
+        },
+        {
+          "quantity": "",
+          "description": "GST Incl ",
+          "total": "8.39"
+        },
+        {
+          "quantity": "",
+          "description": "Auth No: ",
+          "total": "568910"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "681a5db3-f4cc-4be6-a026-f108138b5697",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for shopping at Jay Jays",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Jay-Jays-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F32aGYspgyDBFlFJ9Azyg%2F32aGYspgyDBFlFJ9Azyg-c4ace4bc-c735-4e2e-822c-b58d5c599299.png?alt=media&token=49672216-47a7-4fd1-8b6d-4d49043cf215",
+  "published": true,
+  "id": "32aGYspgyDBFlFJ9Azyg"
+}

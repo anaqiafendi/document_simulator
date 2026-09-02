@@ -1,0 +1,154 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-05T12:08:17.165Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "323a5467-6286-4293-8bb0-f148e8939f68",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F24fb3391-f7b9-4274-9eff-b282bb26c189-image%20(9).jpg?alt=media&token=033e7ba2-e01c-4912-aa01-d9c022ca089b",
+      "size": 253,
+      "businessDetails": "\nCavender's Boot City - #022\n\n5600 Su Loop 820\nFort Worth, TX 76132-1866\nUSA\n817-989-2887\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3584c81a-96a4-4a37-889e-8d2aa8c06403",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "-------------RECEIPT------------\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1c193bcf-5402-436e-ae1b-e066baf96faf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Transaction #",
+          "total": "022-CAV022REG2-177352797"
+        },
+        {
+          "quantity": "",
+          "description": "Customer",
+          "total": " Guest Customer"
+        },
+        {
+          "quantity": "",
+          "description": "Date: 3/14/2026",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Cashier: 76813",
+          "total": "Time:      05:40 PM"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "Register#: CAV022REG2"
+        },
+        {
+          "quantity": "",
+          "description": "\nItem   Description   QTY    Amount",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nAR0019905 Ariat Women's  1 $194.99",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Round Up R9",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "*COGNAC*C",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Sales Rep: 7004",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total Discount",
+          "total": "($19.50)"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nDP2111R   Dan Post Men's  1  $199.99",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Antiqued 11.5",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "*TAN*D",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Sales Rep: 7004",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total Discount",
+          "total": "($20.00)"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n$355.48"
+        },
+        {
+          "quantity": "",
+          "description": "Total tax",
+          "total": "$$29.33"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$384.81"
+        },
+        {
+          "quantity": "",
+          "description": "Credit Card",
+          "total": "$$384.81"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Cavender's Boot City Receipt",
+  "description": "This receipt is issued by Cavender's Boot City and identifies the location as Store #022, 5600 SW Loop 820, Fort Worth, Texas 76132-1866, USA. The header contains the store branding, address, contact telephone number, transaction number, customer designation (Guest Customer), transaction date and time, cashier identification, and register number. The receipt records the purchase of two pairs of western boots: an Ariat Women's Round Up boot and a Dan Post Men's Antiqued boot, each accompanied by an individual discount and sales representative reference. The financial section records the discounted subtotal, sales tax, final transaction total, and payment by credit card. The overall layout is representative of a United States western apparel retail POS receipt, combining merchandise itemization, promotional discount reporting, sales-tax calculation, card payment, and transaction reconciliation within a compact retail receipt format.",
+  "slug": "Cavender's-Boot-City-Receipt",
+  "published": true,
+  "id": "zGPvIICcKVr0tgnKtje8"
+}

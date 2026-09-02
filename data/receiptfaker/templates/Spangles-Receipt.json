@@ -1,0 +1,134 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T13:15:13.195Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "b11b0672-4f24-45f9-9ab2-781f63dba760",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6124384a-22ab-4d58-b0e7-c8effded29b4-image%20(3).jpg?alt=media&token=f7f0baa1-05ca-4264-a726-4a933256e27a",
+      "size": 263,
+      "businessDetails": " Welcome to Spangles!\n1720 W. Crawford\nSalina KS 67401\n(785) 827-7040\n\n\nWILLIAM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "202357b0-6ca2-464c-97dd-0fe170473322",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: LEILA",
+          "total": "04/27/2024"
+        },
+        {
+          "quantity": "",
+          "description": "WILLIAM",
+          "total": "10:49 AM"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "20025"
+        },
+        {
+          "quantity": "",
+          "description": "\nOrder Type: Dine In",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n#2 ULT JAL BAC VP",
+          "total": "12.99"
+        },
+        {
+          "quantity": "",
+          "description": "Ult Jal Bacon Chz Burger",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Small Fry",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "No Seasoning",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Free Fry Seasoning",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Garlic Parmesan",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Sm Soft Drink",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n12.99"
+        },
+        {
+          "quantity": "",
+          "description": "Tax ",
+          "total": "1.20"
+        },
+        {
+          "quantity": "",
+          "description": "\nDine In Total",
+          "total": "\n14.19"
+        },
+        {
+          "quantity": "",
+          "description": "VISA #XXXXXXXXXXXX8011",
+          "total": "14.19"
+        },
+        {
+          "quantity": "",
+          "description": "Auth:HFWRBW",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "389b3b18-8611-4b62-afe6-5c8280d94ee5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThanks for choosing Spangles!\nTell us about your dining experience!\nhttp://www.spanglesinc.com/survey.html  \nIt is unlawful to drink and drive!\n\n\n --- Check Closed ---",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Spangles at 1720 W. Crawford, Salina, Kansas 67401, United States. The header contains the restaurant logo, business address, and telephone number. The transaction details include the host name, order identifier, transaction date and time, and order type (Dine In). The receipt concludes with a financial summary showing Subtotal, Tax, and Dine In Total, followed by integrated card payment information including the masked Visa account number and authorization code. The footer contains a customer survey invitation with the restaurant's website, a safety message regarding drinking and driving, and a \"Check Closed\" notice. This is a standard U.S. quick-service restaurant POS receipt with integrated card payment processing.",
+  "name": "Spangles Receipt",
+  "slug": "Spangles-Receipt",
+  "published": true,
+  "id": "RBNUOMMpuhkx9vdk6t33"
+}

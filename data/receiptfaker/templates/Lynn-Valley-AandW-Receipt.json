@@ -1,0 +1,120 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T14:03:41.400Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c0c818d5-04ce-4c78-8709-ed8c3d39cc8a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "748d0bba-fcc2-4fd9-8dfe-66dde29ffd1e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2f5b9e56-7a58-42df-a3f9-50350b521fa1-image%20(8).jpg?alt=media&token=c6b9d208-89ec-48c2-893e-65f71d496103",
+      "size": 246,
+      "businessDetails": "0748 - Lynn Valley Centre\n1199 Lynn Valley Road\nNorth Vancouver BC V7J 3H2\nDine In                    Counter 1\n\nemployee: Chelsea P\n2026-5-27  2:52 PM\n\nOrder # 1966\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fde87672-3352-42af-a5d1-1f3ba343a970",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ITEM",
+          "total": "QTY       PRICE"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "186f0ebb-150b-4edf-8f39-a73fddf61915",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "tray 1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c8eef4a-d8fc-4622-9d3b-cc3b895cdcdb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nDouble Smashburger Combo ",
+          "total": "\n1    $16.11"
+        },
+        {
+          "quantity": "",
+          "description": "Double Smashburger        1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Rings",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "A&W Root Beer Zero Sugar  1",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSubtotal",
+          "value": "\n$17.91"
+        },
+        {
+          "title": "Tax",
+          "value": "$$1.13"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "14f81ebb-f868-45a3-b986-36dff32b0d5a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTotal                         $19.04\n\n\nThank you for choosing A&W!\nWe appreciate your business.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Lynn Valley A&W Receipt",
+  "description": "A&W restaurant receipt issued from the Lynn Valley Centre location at 1199 Lynn Valley Road in North Vancouver, British Columbia. The header prominently displays the A&W branding followed by the store number, shopping-centre location, full street address, and sale designation. Dining and POS metadata includes the dine-in service type, counter number, employee name, transaction date and time, and prominently displayed order number. The main transaction section follows a standard restaurant thermal POS format with separate item, quantity, and price columns, along with a tray reference and structured order details. Divider lines separate the transaction information from the payment summary. The financial section clearly records the subtotal, applicable tax amount, and final total, providing a concise record of the completed restaurant transaction.",
+  "slug": "Lynn-Valley-AandW-Receipt",
+  "published": true,
+  "id": "qknKnIb8OMIAGoiu9H3L"
+}

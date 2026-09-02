@@ -1,0 +1,129 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Verizon Receipt",
+  "slug": "Verizon-Receipt",
+  "createdAt": "$D2025-05-25T15:02:59.513Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F248b29a0-ddce-4be2-9efe-7b9cad5f94c4-ve53vera6b6-verizon-logo-verizon-logo-transparent-png-stickpng.png?alt=media&token=4a9f5664-b440-49dd-8ea9-ca695a113c6f",
+      "size": 112,
+      "businessDetails": "",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "EQUIPMENT RECEIPT",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "62aa33cc-3cc3-4114-8269-afa4981b19ef",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "VERIZON WIRELESS\n30098 Haun Rd\nMenifee, CA 92584-6818\n(951)679-6908\nverizonwireless.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4be5016-b8e8-4332-a24c-58a51148cc58",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order Location: W3903 01 #181882\nReceive Location: W3903 01\nRegister: 02",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Unlimited Data Plan",
+          "total": "75.00"
+        },
+        {
+          "quantity": "1",
+          "description": "iPhone 14 Case",
+          "total": "29.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Screen Protector",
+          "total": "15.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Activation Fee",
+          "total": "40.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "159.99"
+        },
+        {
+          "title": "Tax",
+          "value": "12.80"
+        }
+      ],
+      "total": "172.79",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Return Policy",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Defective device must be returned within 5 days. If defective device is not returned or a damaged device (one where the damage is not caused by an electrical or mechanical defect) is returned, you will be charged to the full retail priced, which may exceed\n\nThank you!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FGwyKNF4Y0XfW7SdDvgwm%2FGwyKNF4Y0XfW7SdDvgwm-e8f1b071-2e54-42e6-89b3-8bc8c8844537.png?alt=media&token=e9f8d325-97d7-4878-8ff5-f04533e91a5f",
+  "description": "Need a Verizon receipt? Use our free generator to create a custom receipt for wireless or device purchases. Add store info, plan or item details, costs, taxes, and payment—ideal for returns, records, or reimbursements.",
+  "published": true,
+  "metatitle": "Verizon Wireless Receipt",
+  "metadesc": "professional Verizon receipts for wireless plans, device purchases, and services with customizable store details and payment info",
+  "id": "GwyKNF4Y0XfW7SdDvgwm"
+}

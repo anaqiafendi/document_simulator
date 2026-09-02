@@ -1,0 +1,140 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Corner Bakery Cafe Receipt",
+  "description": "This receipt is a fast-casual dining transaction issued by Corner Bakery Cafe at its Salt Lake City, Utah location, including store number, full address, and contact information. It contains order identification, service type indicated as dine-in, cashier information, and a timestamped transaction record. The receipt presents an itemized list of menu items followed by a structured financial summary including subtotal, tax, and total amount. Payment details indicate a cash transaction with change returned. It also includes customer feedback promotion and sweepstakes messaging, reflecting a standard U.S. fast-casual POS receipt format with survey incentive features.",
+  "slug": "Corner-Bakery-Cafe-Receipt",
+  "createdAt": "$D2026-04-17T13:37:13.255Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "93648003-0d00-4eca-a30c-c95fdd840ecb",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Corner Bakery Cafe # 1516\n610 Foothill Blvd\nSalt Lake City, UT  84113\n(801) 583-2000\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "102371d5-acae-4a25-8988-ad3d4b5f7f4f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDine In # 80\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d44d469-1679-4575-9f57-c5652b589764",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "8/13/2017",
+          "total": "1:32:48 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Order: 256469",
+          "total": "Cashier: Brianna R"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8a49c3be-b255-4503-99a0-8c4a5b221dd3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Chicken Berry Pecan Salad",
+          "total": "8.99"
+        },
+        {
+          "quantity": "",
+          "description": "Classic Caesar, Entree",
+          "total": "5.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSubtotal:",
+          "value": "\n14.98"
+        },
+        {
+          "title": "Tax:",
+          "value": "1.18"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b601504c-ee78-41e5-8e76-44657487e68e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n* WIN $1000 *\nTell us how we're doing.\n Visit www.cafefeedback.com\nor call 866-306-6162\nwithin 72 hours and you could\nwin our monthly drawing.\n\nCode: 15166469021\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e25a0b5-0459-40ac-a76c-0a31c3a72e3c",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Total:",
+          "value": "16.16"
+        },
+        {
+          "title": "Cash:",
+          "value": " 20.00"
+        },
+        {
+          "title": "Change:",
+          "value": "3.84"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "754fbba4-b15f-4e5c-a34e-150461e845c6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCorner Bakery Corporate Office Visit us at: www.CornerBakeryCafe.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FVnduWokvo9Rfs5Zcuhgi%2FVnduWokvo9Rfs5Zcuhgi-68150c5f-a903-4dc6-a2ff-5d070f65db15.png?alt=media&token=aca7fcca-304b-492e-83a2-49eae9fa0509",
+  "published": true,
+  "id": "VnduWokvo9Rfs5Zcuhgi"
+}

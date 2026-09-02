@@ -1,0 +1,191 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-09T17:06:01.552Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "958cbd96-27c0-426d-86e3-986964b86d84",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "BANANA REPUBLIC - 00470\n626 5TH AVE\nNEW YORK NY 10111\nTel (212) 974-2350\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "58552b56-9c6e-4eed-8b41-8a863414854a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "03/07/2026",
+          "total": "05:49:41 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Trans: 3662",
+          "total": "Store:08470"
+        },
+        {
+          "quantity": "",
+          "description": "Reg: 411",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cashier: 1276109",
+          "total": "Valid No:7560"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "43c652c2-1759-4887-8a50-8113dfcc7199",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a809f82a-b217-4759-8c8d-f53721242c7d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0087041 3822228030 9750\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d9eb1c1-7a87-4100-a258-fbf75b4d565c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Italian Melton Wool-Blend \nPeacoat",
+          "total": "119.99 T"
+        },
+        {
+          "quantity": "",
+          "description": "809679-001/0003",
+          "total": "1 @ 149.99"
+        },
+        {
+          "quantity": "",
+          "description": "MFG EVENT 20%",
+          "total": "-30.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal Discount",
+          "total": "\n-30.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal Taxable Amount ",
+          "total": "119.99"
+        },
+        {
+          "quantity": "",
+          "description": "STATE TAXABLE AMOUNT",
+          "total": "119.99"
+        },
+        {
+          "quantity": "",
+          "description": "STATE (8.875%) Tax  ",
+          "total": "10.65"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tax",
+          "total": "10.65"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "130.64"
+        },
+        {
+          "quantity": "",
+          "description": "\nVISA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Entry Method",
+          "total": "13.64"
+        },
+        {
+          "quantity": "",
+          "description": "Auth",
+          "total": "0000000000486"
+        },
+        {
+          "quantity": "",
+          "description": "CC Remaining Balance",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "R/D ",
+          "total": "0000"
+        },
+        {
+          "quantity": "",
+          "description": "Application Label",
+          "total": "VISA"
+        },
+        {
+          "quantity": "",
+          "description": "TSI",
+          "total": "E800"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal ",
+          "total": "\n130.64"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4a8e2d83-81f2-4a1b-8423-42ad626e2508",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nWe'd love to know your feedback Please take our 2 minute survey: https://survey.mobile.com/br/feedback\n\n\nReturns/exchanges with valid receipt are accepted within 30 days of purchase. Final sale items are not eligible for returns/exchange or adjustments. Additional terms and restrictions apply, see online or store associate for full details.\n\n\nBanana Republic Store merchandise cannot be returned at a Banana Republic Factory Store.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Banana Republic Receipt",
+  "description": "$3e",
+  "slug": "Banana-Republic-Receipt",
+  "published": true,
+  "id": "54gwlZFqaN0XfIz9xRNx"
+}

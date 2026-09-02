@@ -1,0 +1,148 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Family Dollar Receipt",
+  "description": "This receipt is issued by Family Dollar, a discount retail store, and includes store identifier #01151 with a listed address on Eastside Blvd in Muskegon and a printed contact phone number. The format follows a standard retail POS structure with clearly itemized entries, barcode references, and tax classification indicators. It includes a timestamp (02-04-2025 14:28:02), transaction identifiers, and register/session details embedded within the receipt footer. The financial summary section presents subtotal, multiple tax lines (TAX1 and TAX2), total amount, payment method (cash), and calculated change. Additional elements include a barcode string, item count, accepted payment methods (cash, check, debit, credit, EBT), and a structured promotional footer encouraging customer feedback via an external survey platform. The receipt also features a tear line separator and sweepstakes promotional messaging, consistent with large-scale retail POS receipt formats.",
+  "slug": "Family-Dollar-Receipt",
+  "createdAt": "$D2026-03-22T17:59:14.823Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "FAMILY DOLLAR\nSTORE #01151 340 EASTSIDE BLVD\nMUSKEGON, OK, 539-239-0566",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f8890cd9-8900-4ba3-9d3b-c01ea6977882",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5718394-554d-4a6c-aad3-cd990972a587",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "612f2282-c836-479e-8d22-cf278b66cdcb",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3e4457a2-811c-4f45-ad6e-552b555e16c9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " 99011510189690021233\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a4db7f64-9362-450f-96f2-39dcbede7420",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ITEMS 8\n02-04-2025 14:28:02 01151 01 7991231 8969\nCash Check Debit Credit & EBT Accepted.\nTHANK YOU.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6f5b77f8-b13b-4819-898d-b3cf682b0344",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "---TEAR HERE---\nPlease provide your feedback at\nwww.ratefd.com\n\nReceive 10 chances to WIN $1,000 daily\nplus instant prizes valued at $1,500\nweekly. For complete rules, eligibility,\nsweepstakes & previous winners visit\nwww.ratefd.com. No purchase/survey req’d\nto enter. Sweepstakes sponsored by\nInMoment Inc. across multiple Int’l\nclients. Void where prohibited.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb5LnYxQGSb3Wc7tdkEaE%2Fb5LnYxQGSb3Wc7tdkEaE-23f2fd46-b6d5-4e00-a4ff-71918cdfdd4c.png?alt=media&token=cbd042b5-57a4-4142-ab3e-c07be7605550",
+  "published": true,
+  "id": "b5LnYxQGSb3Wc7tdkEaE"
+}

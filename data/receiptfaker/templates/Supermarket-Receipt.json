@@ -1,0 +1,160 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T07:44:38.539Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Supermarket Receipt",
+  "slug": "Supermarket-Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F533a2dd8-2912-428b-becf-de0f93bbc7f0-9870476_grocery_store_cart_supermarket_ecommerce_icon.png?alt=media&token=f686f797-0483-4182-b940-4e10050b1f40",
+      "size": 79,
+      "businessDetails": "FreshHarvest Market\n482 Maplewood Drive\nSpringfield, IL 62704\nwww.freshharvestmarket.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Supermarket Receipt\nReceipt #: 1020232567",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Bananas (per lb)",
+          "total": "1.18"
+        },
+        {
+          "quantity": "1",
+          "description": "Whole Milk (1 gal)",
+          "total": "3.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Bread (Whole Wheat)",
+          "total": "2.99"
+        },
+        {
+          "quantity": "3",
+          "description": "Eggs (Dozen)",
+          "total": "8.37"
+        },
+        {
+          "quantity": 1,
+          "description": "Orange Juice (1 L)",
+          "total": "4.29"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "20.32"
+        },
+        {
+          "title": "Tax",
+          "value": "1.42"
+        }
+      ],
+      "total": "21.74",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_75",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All purchases at FreshHarvest Market will be provided with a printed or digital receipt. Receipts serve as proof of purchase for returns, exchanges, and warranty claims. Returns or exchanges are accepted within 14 days of purchase with a valid receipt.\n\nThank you for choosing FreshHarvest!",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "79fd42f3-35af-49a5-b367-e0f439d0e565",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:53:23 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FsZ1glRi8vLpJFbkour2s%2FsZ1glRi8vLpJFbkour2s-56b729fe-c834-4ede-9410-a91325774bdb.png?alt=media&token=6a3ec006-4a6b-47f7-9a16-cc3e92b22ff7",
+  "description": "Need a supermarket receipt? Use our free tool to generate a detailed shopping record. Add store name, items purchased, quantities, prices, tax, and payment—ideal for budgeting, returns, or expense reports.",
+  "published": true,
+  "metatitle": "Supermarket Receipt",
+  "metadesc": "realistic supermarket receipts with custom store names, items, quantities, prices, and tax details for budgeting and records",
+  "id": "sZ1glRi8vLpJFbkour2s"
+}

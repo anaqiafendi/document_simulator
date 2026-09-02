@@ -1,0 +1,176 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T03:28:22.572Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "John Lewis Concession Receipt",
+  "description": "This receipt is a retail transaction issued by John Lewis from a concession located on Oxford Street in London. It records the purchase of a handbag with a total value of £65.00, paid using a gift card (partially masked for security). The receipt includes a VAT summary showing the standard UK 20% rate, along with the gross, VAT, and net amounts. It also provides return policy information, specifying the deadline and condition requirements for returns. Additional transaction details include date, time, branch number, register, assistant ID, and transaction number. The format follows a standard UK department store POS receipt.",
+  "sections": [
+    {
+      "id": "83114253-9f92-4f97-b171-70d3f584e95f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F650313fc-dcf0-4236-aa59-b404aa6b2922-image%20(4).jpg?alt=media&token=9261b06b-65de-4971-af98-88e6c72339c3",
+      "size": 224,
+      "businessDetails": "\nOxford Street\nLondon\nW1C 1DX\nTel: 020 7629 7711",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2d64127d-4dfe-43ca-9433-f3eba8e3e435",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n SALE TRANSACTION\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "317d9057-521f-4e0d-b121-982d2dd22855",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "S 41700211 Handbag",
+          "total": "£65.00"
+        },
+        {
+          "quantity": "",
+          "description": "No. items 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total ",
+          "total": "£65.00"
+        },
+        {
+          "quantity": "",
+          "description": "Gift Card ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "**************8660",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fa88a88-90ff-4586-9e29-aacd5b2b2924",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVAT SUMMARY\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb9654d4-8915-4c22-bf3a-316645c79790",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VAT IND  RATE   GROSS    VAT    NETT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "S       20.0%   65.00  10.83   54.17",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total   65.00  10.83   54.17",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7cd477b-110e-4dd3-9a35-7e3e27115209",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nYou have until 28th January 2018\nto return your unwanted gift.\nProduct condition should be unused\nand in original packaging.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc1c6710-7ce9-47db-b6de-f994261913aa",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDate\n14 November 2017  18:20\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3abb8871-1c30-49c3-bde8-b687dff4b89c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Brch   Reg    Asst    Tran",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1      616    JL6456  84070",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b8a5595c-7b6e-4ab1-b833-4f302dce2751",
+      "type": "BARCODE",
+      "size": 75,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "22a14880-960a-4f95-8927-5996aa9f9dec",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "999020001616084070",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "John-Lewis-Concession-Receipt",
+  "published": true,
+  "id": "d9U6nbGmaa3qLhirpigB"
+}

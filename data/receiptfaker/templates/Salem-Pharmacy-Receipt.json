@@ -1,0 +1,129 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Salem Pharmacy Receipt",
+  "description": "This pharmacy retail receipt from Salem Pharmacy–West End displays a large branded header logo followed by the store name, full street address in Covington, Georgia, and a contact phone number. The receipt includes a timestamp with date and time, a prescription-style item section, and a financial summary showing subtotal and total fields aligned in standard POS format. Below the totals are payment processing details including masked card number, card type, chip entry method, date/time authorization, reference number, and approval status. The footer contains a thank-you message and a barcode identifier, typical of pharmacy point-of-sale and insurance billing transaction receipts.",
+  "slug": "Salem-Pharmacy-Receipt",
+  "createdAt": "$D2026-02-19T14:57:22.695Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_3",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "2a4b2292-601c-40f4-871f-206052dfb5c4",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FSqu9j3tlvBSuLJq3q6ijDnqWiXR2%2Fafc12a1f-75c5-4ccc-ba1b-60b3ef22506a-IMG_1219.png?alt=media&token=4d4dc29a-2837-46aa-8e6c-bf9c4a56f09e",
+      "size": 283,
+      "businessDetails": "Salem Pharmacy-West End\n3273 Salem Rd, Covington, GA 30016\n770-274-6561",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "bdb3d0c8-870b-4957-a90b-53076abd059a",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "2/10/2026, 5:23:09 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS"
+    },
+    {
+      "id": "c3baffe4-2d64-44c1-bd83-303e9f30c197",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Repatha 420mg/3.5ml",
+          "total": "0.00- Medicare "
+        },
+        {
+          "quantity": "2",
+          "description": "Prulenta pen 75mg/ml",
+          "total": "1117.96"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "$$1117.96"
+        }
+      ],
+      "total": "$$1117.96",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1bc4b9b-33a8-425b-8893-5176390dc5c8",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 3909"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "02/10/2026 5:23PM"
+        },
+        {
+          "title": "Reference #",
+          "value": "28452826240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fffb3e13-6381-469a-aee5-5622eb2601c6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "THANK YOU\nHAVE A NICE DAY!",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "381d6abd-ef30-4042-bab1-dc1664d0553e",
+      "type": "BARCODE",
+      "size": 133,
+      "length": 412,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FW00s2jGDAPIQG0tSr0Sj%2FW00s2jGDAPIQG0tSr0Sj-d6f571e1-9fa6-4704-b3f9-16eedc791f0f.png?alt=media&token=a0f829f3-7c70-40d8-9766-91d282925ac6",
+  "published": true,
+  "id": "W00s2jGDAPIQG0tSr0Sj"
+}

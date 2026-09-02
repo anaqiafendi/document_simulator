@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "description": "Retail receipt from Bosley’s, a pet supply store operating under Pet Valu. The receipt shows store location and contact details, purchase date and time, itemized pet products (e.g., cat food and litter), balance before tax, applicable taxes (GST/PST), total amount, cash payment received, and change due. It also includes a thank-you note and standard record-keeping/terms notice—commonly used for returns, budgeting, or expense records.",
+  "createdAt": "$D2026-02-05T18:05:57.875Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_5",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "8054a182-95b6-4653-a193-7f3611811c72",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FOHiyznR5DQdweu0D9uHLYAQzSUf2%2Fdf8cea90-9927-4a84-95d5-2dcd2ca57c9e-8288.png?alt=media&token=18ef9c69-90ea-4011-889c-752ccd05d7ba",
+      "size": 170,
+      "businessDetails": "1087 Marinaside Crescent, \nVancouver, BC V6Z 2Z3\n(604) 566-9974",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "adc11719-7c64-4a94-849a-e4ad36ba1b72",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "MEOW MIX",
+          "total": "20.00"
+        },
+        {
+          "quantity": "1",
+          "description": "ARM AND HAMMER CLUMP/SEAL",
+          "total": "23.53"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Balance before \nTax",
+          "value": "43.53"
+        },
+        {
+          "title": "gst",
+          "value": "2.18"
+        },
+        {
+          "title": "pst",
+          "value": "3.05"
+        },
+        {
+          "title": "Total",
+          "value": "48.75"
+        },
+        {
+          "title": "Cash",
+          "value": "50.00"
+        }
+      ],
+      "total": "1.25",
+      "totalText": "Cash Due  ",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa83350f-65d5-4c21-a881-73de83d66804",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "**Thanks for Shopping at Bosleys**",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "0493c9ce-117a-4414-83a3-d9da409cfb58",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPlease retain your records\nTerms and Conditions apply, \n\n26/01/30 06:20 17690705 763439 147 0437",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Bosleys ",
+  "published": true,
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FYLxwVJ2MPNTj43V1XPOQ%2FYLxwVJ2MPNTj43V1XPOQ-d98fecf2-c47c-4a81-8a13-ce6c42024d69.png?alt=media&token=892f9f40-4667-4449-bc88-9869e2f90ab5",
+  "name": "Bosley’s - Pet Valu Receipt",
+  "slug": "Bosley's-Pet-Valu-Receipt",
+  "id": "YLxwVJ2MPNTj43V1XPOQ"
+}

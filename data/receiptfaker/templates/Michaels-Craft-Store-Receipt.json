@@ -1,0 +1,75 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Michaels Craft Store Receipt",
+  "description": "This receipt is issued by a Michaels store located on Merle Hay Road in Des Moines, Iowa, and includes store identification details such as site number, address, and contact phone number. It features standard POS identifiers including register number, transaction number, cashier number, store number, and transaction timestamp. The receipt structure contains a financial summary section displaying subtotal, tax, and total amount, along with masked account details and authorization code for the payment method. It also includes loyalty or rewards identification, return policy information with time conditions, promotional messaging, and store disclaimers regarding clearance sales and transaction limitations. The receipt concludes with customer copy labeling and structured formatting typical of arts and crafts retail transactions.",
+  "slug": "Michaels-Craft-Store-Receipt",
+  "createdAt": "$D2026-03-20T14:13:25.855Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe7639d1a-19bc-40c6-b7a6-d348475b6916-image%20(1).jpg?alt=media&token=62fe96c7-a134-410a-87a5-f0a69cba231b",
+      "size": 236,
+      "businessDetails": "RUNNELS SITE #1104  (515) 255-7013\n4845 MERLE HAY RD\nDES MOINES, IA 50322",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "39c19897-a423-40c2-8799-eaae30e9ff59",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "REG# 33  TRN# 1548  CRS# 11004  ST# 1104  14:28",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cac2b979-1072-4bf9-8dce-593ed61f4ac7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0122581252552551555220",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "612f2282-c836-479e-8d22-cf278b66cdcb",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3e4457a2-811c-4f45-ad6e-552b555e16c9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1.5\" TERRACOTTA POT  1 @ 1.99   1.99\nVALUE SUM SAVED                 0.00\n--------------------------------- \nSUBTOTAL                     1.99\nTAX                          0.08\n--------------------------------- \nTOTAL                        2.07\n  \n\nACCOUNT #: ************0001\nAUTH CODE: 000000\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b886ddd3-7059-476d-9698-b714f0b99c80",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Track your package by web or phone:\nSome exceptions apply\n\nRepérage sur le Web ou par téléphone:\nCertaines conditions s'appliquent\nWWW.CANADAPOST.CA / WWW.POSTESCANADA.CA\n1-800-267-1177",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Funh75n04uW1OdJJGwFBI%2Funh75n04uW1OdJJGwFBI-1cc65aea-b9e3-4300-a6ad-6b974cf3abf9.png?alt=media&token=c3db4fdb-d05b-45cc-8e0a-42b963b3dd2e",
+  "published": true,
+  "id": "unh75n04uW1OdJJGwFBI"
+}

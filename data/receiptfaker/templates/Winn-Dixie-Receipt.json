@@ -1,0 +1,123 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Winn-Dixie Receipt",
+  "description": "This receipt is a grocery retail transaction issued by Winn-Dixie at its Jacksonville, Florida location, including full store address, contact number, store manager, and cashier identification. It contains a timestamped transaction record along with a barcode reference for internal tracking. The receipt presents a structured financial summary including subtotal, tax, and total amount, followed by lottery redemption and change details. It also includes promotional messaging related to loyalty points and savings, reflecting a standard U.S. supermarket POS receipt format with integrated rewards and redemption features.",
+  "slug": "Winn-Dixie-Receipt",
+  "createdAt": "$D2026-04-09T11:11:30.372Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "76f372c9-5c55-403f-a59f-3137c555c24b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F281eea46-ab61-4835-a1ca-b7ce481ae461-image%20(1).jpg?alt=media&token=ad1faed7-b8d9-4cc0-999c-03aac82d22d2",
+      "size": 225,
+      "businessDetails": "\nWinn Dixie\nIt's a Winn Win\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6fda84b1-0816-4a1b-8b13-c3dbc48d2e34",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n8560 ARGYLE FOREST BLVD, JACKSONVILLE, FL\nStore: (904) 779-5000\n12/28/24  12:22am  0176  031  72\nStore Manager: RICHARD\nYour Cashier: JACQUELYN\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "68859ec5-f742-4b0c-98e4-6a7dd9e207f5",
+      "type": "BARCODE",
+      "size": 57,
+      "length": 461,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9d11893e-7efa-48cc-9570-d691c0592881",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "4 4 2 4 1 2 2 8 0 1 7 6 0 3 1 0 1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "746efb5d-27bb-4f42-be22-4d9adf5c5c31",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\nReg      You Pay",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cc43c5a5-21ab-4e14-b374-0054ca3c50a9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nQTY 4 Marlboro Gold NP $38.56\n\nYou save ($2.20)\nVERIFIED BY CASHIER: 21\n\nTotal number of items sold = 4\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9f45a6f-4e70-4d60-bfa4-f38096c6ba3f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$36.36"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$2.73"
+        },
+        {
+          "quantity": "",
+          "description": "Total due",
+          "total": "$$39.09"
+        },
+        {
+          "quantity": "",
+          "description": "INSTANT LTRY REDME",
+          "total": "$$100.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$60.91"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f165fbe2-50d9-4ff7-a1ab-cfb553a65151",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nYou didn't earn points towards FREE groceries! Sign up today in our app or at WinnDixie.com\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FhRbMJo795fz7T2Xborhh%2FhRbMJo795fz7T2Xborhh-d24c8dd4-b36a-47bf-ae21-f90ebbba7c1f.png?alt=media&token=f603a1ef-ac25-4d7a-9c11-4e7ecbf9e981",
+  "published": true,
+  "id": "hRbMJo795fz7T2Xborhh"
+}

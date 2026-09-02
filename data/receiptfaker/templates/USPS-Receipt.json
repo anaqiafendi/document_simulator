@@ -1,0 +1,130 @@
+{
+  "createdBy": "HLu0LzsUL7SHvCOmJZxm2BkIL262",
+  "createdAt": "$D2025-09-03T14:34:34.307Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_3",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "48c4ee4b-f8b9-4b08-88ee-5b385c5a28d4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F68cea7af-f7f1-45d7-a32a-5acab7634ee0-IMG_1788.jpeg?alt=media&token=986d9e76-c9fe-4bb5-bee4-bf7ef3a2eabb",
+      "size": 265,
+      "businessDetails": "FORT MILL\n201 TOM HALL ST\nFORT MILL, SC 29715-2313\nwww.usps.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "57cfd7fa-de16-4592-9c36-fd8ec52f140f",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "09/03/2025                9:55:55 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "cc29cbc3-10c9-4669-a14a-43bb47e139b9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Product           Qty  Unit    Price",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "46e87f75-d87f-4440-8a80-0d43b6a79ccc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Flags2025Coil/100 10  $73.00 $730.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88a42558-e02c-4a5a-98fd-f1f598875a40",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Grand Total:                 $730.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bca73f75-6401-41a1-adea-9b927c7e492b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Debit Card ***4169           $730.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "10c772b4-775d-4bf3-96af-1707eedbcbc8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TO REPORT AND ISSUE\nVisit https://emailus.usps.com\nPREVIEW YOUR MAIL AND PACKAGES\nSign up for FREE at\nhttps://informeddelivery.usps.com\nAll sales final on stamps and postage.\nRefunds for guaranteed services only.\nThank you for your business.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03954e5e-9d7e-4daa-a44e-6278fdace0f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customer Service\n1-800-ASK-USPS\nAgents do not have any additional\ninformation other than what is provided on\nUSPS.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b8cd2fd8-30f3-4da1-b5ba-9af8c47daa64",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tell us about your experience.\nGo to: https://postalexperience.com/Pos\nor scan this code with your mobile device.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9486a8bb-2c1a-4b3a-860e-c04742e61b1b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "02feb775-8384-4036-a364-ef5f0f40f2d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nor call 1-800-410-7420z\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "248a8a41-d633-4e7e-a3f4-7079c96bef42",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "UFN: 453060-0935\nReceipt #: 840-52800389-2-8052582-1\nClerk: 50",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FnynXHaplNOHMwBY7zINu%2FnynXHaplNOHMwBY7zINu-87033da4-eaab-4507-9bb0-9d48404b8b3f.png?alt=media&token=87af8f69-6ee7-4ecb-9f8c-9ebaf30cea7d",
+  "name": "USPS Receipt",
+  "description": "Need a USPS receipt? Easily create a postal receipt with our free tool. Enter post office details, tracking info, shipping costs, and payment—perfect for mailing records, reimbursements, or proof of postage.",
+  "published": true,
+  "slug": "USPS-Receipt",
+  "metatitle": "USPS Postal Receipt",
+  "metadesc": "professional USPS shipping receipts with customizable tracking numbers, costs, and postal details for documentation needs",
+  "id": "nynXHaplNOHMwBY7zINu"
+}

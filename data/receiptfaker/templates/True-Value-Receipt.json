@@ -1,0 +1,66 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "True Value Receipt",
+  "description": "This receipt is issued by a True Value hardware store located in Fredericksburg, Virginia, and includes the store’s city, state, ZIP code, and contact phone number, along with clearly defined operating hours. It features standard POS identifiers such as transaction date and time, register or cashier code, and a sale indicator. The receipt structure includes a financial summary section displaying subtotal, tax, total amount, cash tendered, and change returned. A barcode is present for transaction tracking, along with a journal reference number and customer number. The receipt concludes with a designation as a customer copy, reflecting a typical hardware retail transaction format.",
+  "slug": "True-Value-Receipt",
+  "createdAt": "$D2026-03-20T13:23:38.938Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F61d897da-c706-48a3-9704-51b742106315-image.jpg?alt=media&token=2d353394-d591-419e-bfbb-c7fb447e4620",
+      "size": 236,
+      "businessDetails": "24411 Moulton Street\nLaguna Beach, CA 92678\n(949) 494-1741",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "39c19897-a423-40c2-8799-eaae30e9ff59",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "HOURS M-F 8-6 SAT 8-5 SUN 9-5\n\n07/28/22  1:15PM  EG   552   SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa2058db-376f-4b7a-a5a9-bcb5a17262df",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "206968    2    EA    1.99 EA   3.98\n6\" RED Ladder Scr Hook\n101633    1  EA    6.99 EA     6.99\nGarage Sale Kit\n219239   2  EA    1.79 EA       3.58\n2-3/4\" RED DBL Scr Hook\n206871   3  EA    1.79 EA       5.37\n6.5\" RED Bike Hook\n\nSUB-TOTAL: $        19.92\nTAX: $               1.06\nTOTAL: $            20.98\n\nCASH TEND:          21.00\nCHANGE:              .02",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa864d47-575c-47b1-9d1c-0ffccbf54db3",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cac2b979-1072-4bf9-8dce-593ed61f4ac7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "JRNL#H73784\nCUST NO: #5\nCustomer Copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FffZQKgSERYasj5S8d4lJ%2FffZQKgSERYasj5S8d4lJ-b30df07a-17cd-4dae-a938-e364bd514958.png?alt=media&token=c5fade52-426a-432c-a575-94f1d581cccb",
+  "published": true,
+  "id": "ffZQKgSERYasj5S8d4lJ"
+}

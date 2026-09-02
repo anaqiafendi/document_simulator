@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Crate&Barrel Receipt",
+  "description": "A retail store receipt from Crate&Barrel, located at 55 Stockton Street, San Francisco, CA 94108, dated 04/19/2019 at 04:58 PM. The receipt lists purchased items including a Silicone Bowl 4 in ($2.95), Mini Spatula Set of 2 Warm ($6.97), and Mix Bowl Blue ($4.95). The merchandise subtotal is $14.97, with CA 8.50% sales tax of $1.26, bringing the total to $16.23. Payment was made by VISA, and the receipt ends with a thank-you message wishing the customer a nice day.",
+  "slug": "CrateandBarrel-Receipt",
+  "createdAt": "$D2026-02-14T18:10:49.167Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "74d15fcd-fcd6-4783-9ef3-8079d822b00c",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F286d0558-5fb9-4463-914b-70cf270ee471-crate%26Barrel.jpg?alt=media&token=cd676ce7-b75a-4a78-8900-0107fbf23325",
+      "size": 144,
+      "businessDetails": "55 Stockton Street\nSan Francisco, CA 94108\n(415) 434-4848",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a15aaeef-ae54-4c04-b0e8-cf64b4f867e7",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "REG 004           04/19/2019 04:58PM",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS"
+    },
+    {
+      "id": "64cccefd-7291-4581-b8bb-5866fad4d939",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Silicone Bowl 4 in\n558882 2.95\n",
+          "total": "2.95 A"
+        },
+        {
+          "quantity": "",
+          "description": "Mini Spatula Set of 2 Warm\n540467 6.97\n",
+          "total": "6.97 A"
+        },
+        {
+          "quantity": "",
+          "description": "Mix Bowl Blue\n572516 4.95\n",
+          "total": "4.95 A"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "MERCHANDISE ",
+          "value": "14.97"
+        },
+        {
+          "title": "CA 8.50% ",
+          "value": "1.26"
+        }
+      ],
+      "total": "16.23",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c31b961-79a2-4134-a06c-d2dd1635131f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VISA 16.23\n\n************7446\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7c4041ff-a136-4abf-978d-1791c86fc40c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FKEQzR0KYIKxnLD70KVnO%2FKEQzR0KYIKxnLD70KVnO-8e136cf1-83e2-4eb1-a75b-3309e0b9e38d.png?alt=media&token=3ef3b243-123d-42d0-ae13-c1ca52674078",
+  "published": true,
+  "id": "KEQzR0KYIKxnLD70KVnO"
+}

@@ -1,0 +1,128 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-29T08:44:19.531Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5ba21353-5a25-4416-a9b9-74b5eaf0a4bf",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F768766a8-695a-4053-aecf-ac3e768e651b-image%20(1).jpg?alt=media&token=2cd4db33-8513-4058-8961-8aa6788e8454",
+      "size": 256,
+      "businessDetails": "YOUR NEIGHBORHOOD MARKET\n23 Drydock Avenue\nBoston, MA 02210",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5cbc1321-3a78-44a8-90c6-e6bbedf2fa6a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n6177221150            Store 7002\nCashier: self\nTransaction 165547\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d1f5e7c3-6438-49f3-b3b6-2193fffacf0e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 @ 2/2.50",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Poland Spring Water",
+          "total": "2.50"
+        },
+        {
+          "quantity": "",
+          "description": "1 @ 3/3.29",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Store Brand Granola",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 @ 2.99",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Bananas ",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "0.48 lb @ 1.49/lb",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Gala Apples",
+          "total": "0.71"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal ",
+          "total": "\n9.49"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "0.73"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "10.22"
+        },
+        {
+          "quantity": "",
+          "description": "\nDEBIT CARD SALE ",
+          "total": "\n10.22"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "22.22"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4543b49f-8367-45b6-8c03-9285a81e8724",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping\nat Star Market!\n19-Apr-2024  6:53:24P",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Star Market and identifies the store as 23 Drydock Avenue, Boston, Massachusetts 02210. The header contains the Star Market branding, store address, store number, cashier information, transaction number, and transaction date and time. The receipt records the purchase of Poland Spring Water, Store Brand Granola, Bananas, and Gala Apples. The financial section records the subtotal, applicable sales tax, and the final transaction total. The payment section confirms settlement by debit card. The footer thanks the customer for shopping at Star Market and records the transaction completion time. The overall layout is representative of a United States supermarket POS receipt, combining grocery itemization, sales-tax reporting, electronic payment, and transaction reconciliation within a compact retail receipt format.",
+  "name": "Star Market Receipt",
+  "slug": "Star-Market-Receipt",
+  "published": true,
+  "id": "HgXv3R3GHewPkRqsigJG"
+}

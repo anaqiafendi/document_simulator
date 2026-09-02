@@ -1,0 +1,218 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T12:15:44.258Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e3a5f89c-4e68-4ed9-aea7-f4d14764ec57",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nSteak N Shake # 170\n1211 North Keller Dr\n217-210-9388\n#102 - DARREN\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fda3e01-5f4f-4c71-8a48-0a7495ab9182",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: Kiosk5",
+          "total": "12/04/2025"
+        },
+        {
+          "quantity": "",
+          "description": "#102 - DARREN",
+          "total": "10:32 AM"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "1030001"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nOrder Type: KioskDine In",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Menu: None",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nFrisco Melt Combo",
+          "total": "\n9.79"
+        },
+        {
+          "quantity": "",
+          "description": "Frisco Melt",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Chili Cup Deluxe",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Regular Self Serve Bev",
+          "total": "2.49"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ce3af889-1f9a-46c6-bd17-7d1fdbb35591",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVisit www.steaknshakevisit.com and\nEnter survey number below to receive\na FREE medium beef tallow fry!\n--------------------------------\n\n| 001 002 300 140 011 710 00 |\n--------------------------------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dbc46c81-eaee-422e-86d0-1572c0a35676",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n12.28"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "0.80"
+        },
+        {
+          "quantity": "",
+          "description": "KioskOline In Total",
+          "total": "13.08"
+        },
+        {
+          "quantity": "",
+          "description": "Kiosk Visa",
+          "total": "13.08"
+        },
+        {
+          "quantity": "",
+          "description": "Tip",
+          "total": "1.84"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "14.92"
+        },
+        {
+          "quantity": "",
+          "description": "Grand Total",
+          "total": "14.92"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3b705fd8-0e34-4f23-93a2-809295ceca63",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n12/04/2025                  10:39:53\n\nCREDIT CARD\nPURCHASE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc38ec07-bb20-48a8-96f3-982c17a84c9f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Card #:",
+          "total": "XXXXXXXXXXXX5514"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "CHASE VISA"
+        },
+        {
+          "quantity": "",
+          "description": "Approval Code",
+          "total": "A000000003010"
+        },
+        {
+          "quantity": "",
+          "description": "SALE AMOUNT",
+          "total": "$$14.92"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aead1de7-c5cd-468f-bdd4-92fbf5e24d7d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCUSTOMER COPY\nScan in Steak n Shake app for loyalty points\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29f2645b-ccd9-4e6a-9a49-72d1c68a79c2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1 0 2 2 5 1 2 0 4 1 0 3 2 0 0 1 0 3 ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9c06cb6a-37e3-4be0-9804-f89c23364bab",
+      "type": "BARCODE",
+      "size": 83,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Steak 'n Shake Receipt",
+  "description": "$3e",
+  "slug": "Steak-'n-Shake-Receipt",
+  "published": true,
+  "id": "KgOYOtfTtb9IqqTD1Orx"
+}

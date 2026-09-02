@@ -1,0 +1,114 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-18T05:50:39.597Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "018ee4c7-86ac-4c6a-b2d9-3497b5c4cd57",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe59eb0f8-761b-4e0c-930b-ca4f97a004ba-image.jpg?alt=media&token=607eba9d-16ff-4065-9a19-9eb40bb502f7",
+      "size": 247,
+      "businessDetails": "\nNaia Restaurant\n300 North LaSalle St LL 100\nChicago, IL 60654Naia Restaurant\n300 North LaSalle St LL 100\nChicago, IL 60654\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "54c01f25-814e-4088-b968-7a136ed1117e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Brittany B",
+          "total": "Table 335"
+        },
+        {
+          "quantity": "",
+          "description": "Check #329",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Guest Count: 2",
+          "total": "6/26/26 5:43 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Ordered:",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n1  Wagyu Lettuce Wraps",
+          "total": "\n$28.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  Grilled Calamari",
+          "total": "$$22.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  Ricotta Donuts ",
+          "total": "$$16.00"
+        },
+        {
+          "quantity": "",
+          "description": "1  Cappuccino ",
+          "total": "$$7.00"
+        },
+        {
+          "quantity": "",
+          "description": "3.95% Surcharge* (3.95%)",
+          "total": "$$2.88"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$75.88"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$8.93"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$84.81"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0124324b-fdf8-4982-830b-c19cc3ee60d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nAre you a DineAmic Rewards member? Please provide your phone number to receive DineAmic Rewards points for today's visit.\n------------------------------------\n\n\nNot a member? Inquire with a member of our service team today!\n********************\n\nNo Refunds, Returns or Exchanges\n********************",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Nia Restaurant and identifies the restaurant as 300 North LaSalle Street, Lower Level 100, Chicago, Illinois 60654. The header contains the restaurant name, address, server name, table number, check number, guest count, and order date and time. The receipt records a dine-in order consisting of Magyu Lettuce Wraps, Grilled Calamari, Ricotta Donuts, and a Cappuccino, together with a 3.95% surcharge applied to the bill. The financial section records the subtotal, applicable sales tax, and the final transaction total. The footer promotes the DineAmic Rewards loyalty program and states the restaurant's no refunds, returns, or exchanges policy. The overall layout is representative of a United States restaurant POS receipt, combining table-service order management, surcharge and sales-tax reporting, customer loyalty promotion, and transaction reconciliation within a compact hospitality receipt format.",
+  "name": "Nia Restaurant Receipt",
+  "slug": "Nia-Restaurant-Receipt",
+  "published": true,
+  "id": "lTGcSAE4ScuX6PgKUwRN"
+}

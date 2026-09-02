@@ -1,0 +1,133 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-23T17:26:50.878Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "published": true,
+  "sections": [
+    {
+      "id": "d4f78829-bb67-41f1-a405-6e1b6674d3fd",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 220,
+      "businessDetails": "\nTAB GIDA SANAYI VE TICARET A.S.\nDIKILITAS MAH. EMIRHAN CAD.\nNO:109 K:2-3 Atakule\nBESIKTAS-ISTANBUL\nTel:0212 310 66 00 Fax:0212 2365645\nWeb Sitesi:www.tabgida.com.tr\nVergiDairesi: BUYUK MUKELLEFLER\nMERSISNO:0815003790200094\nVKN:8150037902\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0f76550b-8b17-400d-9427-ee9b4bc49765",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd74ce47b-4538-48dc-b217-9bd0fd95725c-image%20(6).jpg?alt=media&token=a14919b5-6804-486f-b632-363fdb275a40",
+      "size": 193,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b9fecca5-b5b7-4301-a033-fe1134bf5419",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "e-Arsiv Fatura\n\nSAYIN: NIHAI TUKETICI\nVKN/TCKN : 11111111111\nTARIH: 01-02-2022\nSAAT: 15:58:24\nBelge No : 05Y2022000003014\nA3EDA6FA-FF25-4DB2-8089-03658913E2D3\n\nReferans No:10053\nSiparis No:1053",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1239d481-c6ef-429c-8d1b-be8a8b0d3cbc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1  ORTA TAVUKLU",
+          "total": "\n%8  39.99"
+        },
+        {
+          "quantity": "",
+          "description": "+ MINI KETCAP",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "+ MINI MAYONEZ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1  BYK TEREYAG FIRIN PA",
+          "total": "%8  14.99"
+        },
+        {
+          "quantity": "",
+          "description": "+ MINI KETCAP",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "+ MINI MAYONEZ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1  ORTA KOLA",
+          "total": "%8  6.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f624bcdf-267e-4243-acb7-78190e320c74",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Toplam KDV",
+          "total": "4.59"
+        },
+        {
+          "quantity": "",
+          "description": "Toplam Tutar",
+          "total": "61.97"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "77b52bd1-af0b-4db9-89fb-02c872c96190",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nKredi Karti                    61.97",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "TAB Gıda Receipt",
+  "description": "$3e",
+  "slug": "TAB-Gida-Receipt",
+  "id": "CsSlMZHohErVt2a9guGc"
+}

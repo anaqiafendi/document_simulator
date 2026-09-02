@@ -1,0 +1,162 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Babysitting Receipt",
+  "slug": "Babysitting-Receipt",
+  "createdAt": "$D2025-05-25T09:32:08.996Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F904e1daa-00dd-4bba-8756-7ed1d4780963-753966_babysitting_child_girl_little_playing_icon.png?alt=media&token=9d488f0d-5b43-46e0-90a8-4b43f8b9c51a",
+      "size": 81,
+      "businessDetails": "Little Star Babysitting Services\nAddress: 236 Willow Creek Lane\nColumbus, OH 43215\nPhone Number: (614) 555-7123\nEmail: contact@littlestarcare.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Babysitting Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "9cc5cdb8-a988-44cd-996a-91ad75bd66f0",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 12:26:37 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "03a5db84-048d-4164-924b-c1972c3c400e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Children Name: Jessica\nBabysitter name: Elena Foster\nAddress: 1427 Maple Grove Road, Dayton, OH 45420\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to:\nMarcus Reynolds\n895 Pinehurst Drive, Cincinnati\nOH 45219",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Babysitting Services",
+          "total": "80"
+        },
+        {
+          "quantity": "10",
+          "description": "Additional Hours",
+          "total": "60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "140"
+        },
+        {
+          "title": "Tax",
+          "value": "11.20"
+        }
+      ],
+      "total": "151.20",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "www.littlestarbabysitting.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2F0y1kTk4vOfbBbU9iOeYT%2F0y1kTk4vOfbBbU9iOeYT-da009816-1fdd-4e90-99ae-fc0f8027f63c.png?alt=media&token=0a7edd13-0f89-44a1-8c72-246694ad3210",
+  "description": "Need a babysitting receipt? Use our free tool to create a clear record of childcare services. Enter sitter info, dates, hours worked, rates, and payment—great for parent records, taxes, or reimbursement purposes.",
+  "published": true,
+  "metatitle": "Babysitting Receipt",
+  "metadesc": "professional babysitting receipts with sitter details, hours worked, rates, and payment info for parent records and taxes",
+  "id": "0y1kTk4vOfbBbU9iOeYT"
+}

@@ -1,0 +1,130 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Donation Receipt",
+  "slug": "Donation-Receipt",
+  "createdAt": "$D2025-05-25T07:34:08.897Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fea19b6cf-5683-431a-b844-cee77c36e368-7648544_charity_donation_alms_donate_icon.png?alt=media&token=d3674703-db85-43d4-a12a-b40f315545d9",
+      "size": 81,
+      "businessDetails": "HopeBridge Foundation\n1275 Maplewood Drive\nCedarville, OH 45314\nwww.ohhopefoundation.org\ncontact@ohhopefoundation.org\n(614) 555-8372",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b920414b-bd5e-48a6-a592-6ac976524b4d",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 10:30:41 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Donation Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Donated by:\nEmily Carter\n842 Meadow Lane\nDayton, OH 45420\nUnited States\nemily.carter84@gmail.com\n(937) 555-7264",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Individual donation",
+          "total": "400"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "400",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FxcDoOpfgfGhTtBtpQtYU%2FxcDoOpfgfGhTtBtpQtYU-11a0c8f7-f349-4867-abb7-fd23ceb69b01.png?alt=media&token=2c53f093-a1e1-4396-87b1-35ebdc335c91",
+  "description": "Need a donation receipt? Easily generate a customized record of charitable giving with our free tool. Enter organization info, donor details, contribution amount, and date—perfect for tax purposes or personal records.",
+  "published": true,
+  "metatitle": "Tax Donation Receipt",
+  "metadesc": "professional donation receipts for charitable contributions with customizable donor info, amounts, and tax-deductible details",
+  "id": "xcDoOpfgfGhTtBtpQtYU"
+}

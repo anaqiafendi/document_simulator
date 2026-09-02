@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "ALDI Receipt",
+  "description": "This receipt is issued under the ALDI brand and displays the store header including “Store #027,” the full street address at 7390 State Route 161 E, Plain City, a customer service phone number (833-461-2027), and the website www.ALDI.us\n. The transaction section includes itemized entries with right-aligned pricing, followed by a structured financial summary showing Subtotal, Tax, and Total. A timestamp line appears with internal store and register identifiers (*9117 461/027/004/801 06/13/24 09:51AM), separated by asterisks. The lower section contains a customer feedback promotion directing customers to www.tellaldi.us\n for a gift card drawing, along with an email signup promotion. The payment block documents a VISA transaction with a masked card number, reference/sequence number, trace number, authorization code, AID, TVR, IAD, TSI, ARC, entry mode, and an “++APPROVED++” confirmation, reflecting a standard grocery retail POS thermal receipt format.",
+  "slug": "ALDI-Receipt",
+  "createdAt": "$D2026-02-23T13:55:54.659Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4f493bbd-003e-43d9-b92e-418098bc0e20",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 21,
+      "businessDetails": "ALDI\nStore #027\n7390 State Route 161 E\nPlain City\n833-461-2027\nwww.ALDI.us",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff5b0f2f-ac2e-4b22-8c57-427982cf18d5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "59132008-7229-41f7-b41c-4e65df5b6c7e",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "9117 461/027/004/801 06/13/24 09:51AM",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS"
+    },
+    {
+      "id": "c4278032-9b55-42f8-aafc-2bb014922eed",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Like ALDI? Tell ALDI!\nTell us how we did at\nwww.tellaldi.us\nEnter the drawing for a chance\nto win a $100 ALDI gift card.\nMust be 18 years old to enter.\nNo purchase necessary.\n\nSign up for ALDI emails and save!\nwww.aldi.us/signup",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4d4e45e0-4742-428c-94c2-9d5149d80286",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VISA                            16.19\n************4012 OTHER\n06/13/24 09:51 Ref/Seq # 298192\nTrace # 298192\nAuth # 013492\nAID A0000000031010\nTVR 0000000000\nIAD 1F42FF31A0000000000100302730000000\n004000000000000000000000000000000000\nTSI 0000     ARC 000     EntryMode 07\n++APPROVED++",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6Ajq5nENrcrCvvlolQQE%2F6Ajq5nENrcrCvvlolQQE-ec2aed94-07f4-4fc0-b999-e850eebdc77e.png?alt=media&token=b1ce00e2-f063-45a4-8a78-bdcbe875af0f",
+  "published": true,
+  "id": "6Ajq5nENrcrCvvlolQQE"
+}

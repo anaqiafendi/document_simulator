@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T14:45:34.949Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "3cf30ff5-978c-4289-b354-59f848e7208e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F419a3429-f6bc-409d-a6db-3d05475e5688-image%20(6).jpg?alt=media&token=583ab78b-fee7-40b2-914a-f5589188c0fe",
+      "size": 251,
+      "businessDetails": "\n(??ʔ?)???? HighLands Vietnam ??(?????)?\nHave a Break. Have a Coffee.\nMake the world a better place with Hai\nLan Inspired by Chi Mini\n\n\n REPRINT\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a84f7699-8578-4d94-b6da-480a17388e50",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Receipt No",
+          "total": "T4_311024141500_D0001"
+        },
+        {
+          "quantity": "",
+          "description": "Cashier",
+          "total": "Itachi"
+        },
+        {
+          "quantity": "",
+          "description": "Terminal",
+          "total": "14"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b917490a-c958-45b6-ab89-b2621369bb40",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Queue Number: 1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5fed8ce3-a60d-4cfc-8ccf-d794143c2272",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nItem",
+          "total": "\namount"
+        },
+        {
+          "quantity": "",
+          "description": "Tra Thanh ?oo",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x 45.00",
+          "total": "45.00"
+        },
+        {
+          "quantity": "",
+          "description": "+ 1?t ?o",
+          "total": " 0.00"
+        },
+        {
+          "quantity": "",
+          "description": "+ 1 x 5.00 M ",
+          "total": "5.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f13fb09c-eba2-4542-a8a2-933529d6e15b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCash ",
+          "total": "\n54.50"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d09b33ed-248e-4f60-96e1-b0fe0f06d59c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total Items                        1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae5e31f0-1d1b-48d2-850d-898297d30895",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n  Be Young, Have Fun, Drink Coffee\n? >??) ♪?\n\nTransaction Date 31/10/2024, 14:15:06\nPrinted on 31/10/2024, 14:28:58",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Hai Lan Coffee Receipt",
+  "description": "This receipt is issued by Hai Lan, a coffee shop, and is clearly marked as a REPRINT. The header contains branding, promotional slogans, the receipt number, cashier name (Itachi), terminal identifier, and queue number. The receipt records a beverage purchase with item modifiers, followed by a financial summary showing the subtotal, GST (9%), total amount due, cash payment, and change returned. The footer includes a promotional slogan together with both the original transaction timestamp and the reprint timestamp. The overall layout is representative of a Singapore café POS receipt, combining queue management, GST-compliant reporting, cash-payment reconciliation, and transaction tracking within a compact hospitality receipt format.",
+  "slug": "Hai-Lan-Coffee-Receipt",
+  "published": true,
+  "id": "JwTim8O3PFGbhiEMuFnf"
+}

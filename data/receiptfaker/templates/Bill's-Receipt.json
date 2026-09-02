@@ -1,0 +1,147 @@
+{
+  "currency": "",
+  "slug": "Bill's-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T04:09:17.909Z",
+  "description": "This restaurant receipt from Bill's Restaurants Ltd includes the corporate address in London, SW1 4DP, along with a VAT registration number. The receipt contains POS transaction identifiers including check number (CHK# 111), table number (TBL# 30), guest count, server name, and transaction date/time. Financial metadata includes a subtotal, post-service charge, VAT amount, and final total. The receipt also records a \"Last Served\" timestamp and concludes with a customer appreciation message. The format is consistent with a casual dining restaurant POS system utilizing table service and VAT-inclusive accounting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bill's Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "0e9179e7-9a58-4fb7-a3bb-fbe464b27a0e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2278024a-1446-440f-bad0-7df2b47ca26d-image.jpg?alt=media&token=4726d8ed-42c7-4cf5-b504-a37334cd804d",
+      "size": 190,
+      "businessDetails": "\nBill's Restaurants LTD\n70 Hammersmith Grove\nLondon, W6 7AP\nTel: 0208 7411898\nVAT: 174 9214 91",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "325e307f-bf26-4d58-9ba4-cc341508167c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CHK# 111",
+          "total": "\tTBL# 30\t# 1035"
+        },
+        {
+          "quantity": "",
+          "description": "Maria Chiara",
+          "total": "Guests: 2"
+        },
+        {
+          "quantity": "",
+          "description": "30/12/2018 13:31:41",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0b86ee8e-5778-4ca3-8b17-6bcde6af1157",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "RESTAURANT",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Calamari",
+          "total": "6.75"
+        },
+        {
+          "quantity": 1,
+          "description": "10oz Sirloin\t",
+          "total": "13.95"
+        },
+        {
+          "quantity": 1,
+          "description": "Steak & Eggs",
+          "total": "13.95"
+        },
+        {
+          "quantity": "",
+          "description": "x Bacon",
+          "total": ""
+        },
+        {
+          "quantity": "2",
+          "description": "@ 2.65   Coca Cola",
+          "total": "1.55"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "46.90"
+        },
+        {
+          "quantity": "",
+          "description": "12.5% Opt Service Charge",
+          "total": "5.86"
+        },
+        {
+          "quantity": 1,
+          "description": "TOTAL",
+          "total": "£52.76"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0bcb3a3f-6076-417d-8b56-22e1ae0844b7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Last Serviced",
+          "total": "30/12/2018 14:26:48"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2868aee9-abf6-4053-a5c9-361fb426256a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for\ndining at Bill's\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "wsFV1zwiqNJor3rEcIG1"
+}

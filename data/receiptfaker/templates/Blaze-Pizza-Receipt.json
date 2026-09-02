@@ -1,0 +1,159 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Blaze Pizza Receipt",
+  "description": "This receipt is a fast-casual restaurant transaction issued by Blaze Pizza at its St. Louis, Missouri location, including store address and order identification details. It contains a timestamped transaction record and indicates service type as dine-in. The receipt presents an itemized purchase with a customized pizza order, service fee, and discount adjustment, followed by a structured financial summary including subtotal, tax, and total amount. Payment details include cash tendered and change returned. It also includes promotional messaging for the Blaze Rewards loyalty program and customer feedback information, reflecting a standard U.S. fast-casual POS receipt format with customizable menu options and incentives.",
+  "slug": "Blaze-Pizza-Receipt",
+  "createdAt": "$D2026-04-12T15:06:20.106Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "268a743d-3e03-4b91-8055-3546e320c8d2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Febf41edb-6c73-466e-a497-629113d1ae7c-image%20(1).jpg?alt=media&token=6aeef80c-7643-4e99-ac77-41f3aed366c4",
+      "size": 177,
+      "businessDetails": "\nBlaze Pizza\n3332 N. Central Ave Unit\nToledo, OH 43606\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e318283-bbc4-46aa-86b6-2734792da036",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ORDER#76",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3721215d-095f-4cfc-b64f-b56d2e793193",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: Conner",
+          "total": "08/25/2022"
+        },
+        {
+          "quantity": "",
+          "description": "ORDER#76",
+          "total": "4:50 PM"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "50043"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "13455d23-ad90-4409-b0f3-71911f594e2b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nOrder Types: FOR HERE \n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a3f3d143-3191-45f0-9ccb-5df1c226e614",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "BUILD YOUR OWN PIZZA (2 @9.75)",
+          "total": "19.50"
+        },
+        {
+          "quantity": "",
+          "description": "MEDIUM GREENS",
+          "total": "2.05"
+        },
+        {
+          "quantity": "",
+          "description": "SPRITE BOTTLE",
+          "total": "2.95"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nManager Meal 100% ",
+          "total": "\n\n-5.75"
+        },
+        {
+          "quantity": "",
+          "description": "10% Off",
+          "total": "-1.53"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "Subtotal"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "0.42"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n14.10"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCash",
+          "total": "\n\n20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "5.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f73da781-9b46-46e6-9298-752d5672917c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGot Blaze Rewards?\nCollect flames with each visit\nand earn a FREE PIZZA.\nDownload the app to get started!\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "756735ea-84af-4be8-a6fb-03f41d149db5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nQuestions or Comments about\nYour Blaze experience?\nblazepizza.com/talkus\n\n\n--------- Check Closed ---------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FRhnD2OmlFmXQDMPYBqlr%2FRhnD2OmlFmXQDMPYBqlr-24b7bde8-4525-49a5-90ec-6700518cdf7a.png?alt=media&token=0fb1d4a2-f7ba-4e07-9bdb-9d90bdc1d938",
+  "published": true,
+  "id": "RhnD2OmlFmXQDMPYBqlr"
+}

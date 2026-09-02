@@ -1,0 +1,147 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "GAP Receipt",
+  "description": "This receipt represents a point-of-sale transaction from the Citygate GAP store (Store: 00522), located at Unit 409, 4/F, Citygate, 20 Tat Tung Road, Tung Chung, Lantau, Hong Kong, with contact number 0852-29972238. The header features the GAP logo centered above the store identification details. The receipt includes transaction date and time (20/06/2020 11:35), transaction number (Trans.: 6588), register (Reg.: 053), store number (00522), cashier ID (2335417), and till number (053). A barcode and encoded transaction reference number appear under the “SALE” header. The financial summary section lists Subtotal, Tax, Total, Cash tendered, and Change, reflecting structured tender reconciliation. The footer includes courtesy messaging (“THANK YOU” and “HAVE A NICE DAY”), consistent with an international apparel retail POS receipt format featuring barcode encoding, register tracking, and structured payment documentation.",
+  "slug": "GAP-Receipt",
+  "createdAt": "$D2026-02-25T14:02:29.503Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "3499c383-752d-4a38-ade4-c283ac7d973b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F82edd7da-0b8a-4812-9ed6-c15190c225a6-image%20(2).jpg?alt=media&token=06a2b2b6-4f24-48f2-b648-ef18ab569902",
+      "size": 229,
+      "businessDetails": "Citygate GAP store / 0522\nGAP Unit 409, 4/F, Citygate, 20 Tat \nTung Road, Tung Chung, Lantau, \nHong Kong.\n0852-29972238",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f3e2e463-88ec-4cee-b65c-d43115f22a27",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "20/06/2020                    11:35\nTrans.: 6588\nReg.: 053             Store: 00522\nCashier: 2335417      Till:053\n\n                SALE",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "ba82072f-b8cc-4de6-b4c5-9e66c54a4956",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4f0589d-cc8e-4bc3-9fa9-777510d81846",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "00522053658820200620",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "29463e30-aa04-4fb7-840d-19b7fbdda08b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f46156f-d332-4e0a-963e-bef1743abd92",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c279b1e-723e-43a5-858b-b5a0cad7a19e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FlxYUscgh2A4yycwcWHU2%2FlxYUscgh2A4yycwcWHU2-2e7fe059-1669-417b-baa2-0dbf99c8b946.png?alt=media&token=3abaaf70-0bc2-4ad7-8985-09d3c195ab9f",
+  "published": true,
+  "id": "lxYUscgh2A4yycwcWHU2"
+}

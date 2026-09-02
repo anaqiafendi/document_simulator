@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bergdorf Goodman Receipt",
+  "description": "This receipt is a luxury department store transaction issued by Bergdorf Goodman located at 754 Fifth Avenue, New York. It features a bold centered brand header followed by full store address, contact number, and website. The receipt includes promotional messaging displayed as “A Gift For You” and contains transaction identifiers such as reference numbers and tax code. The document lists product classification details along with internal item codes and size specifications. It also indicates tax status and sale condition, including a final sale notice. The layout reflects a boutique-style POS receipt with minimal financial summary and emphasis on branding, product identification, and transaction tracking information.",
+  "slug": "Bergdorf-Goodman-Receipt",
+  "createdAt": "$D2026-04-05T15:17:58.538Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff2e99f38-30a6-492e-a842-6c75482e2d13-image%20(3).jpg?alt=media&token=974ae85b-53c7-4773-8b67-9ba410c905ab",
+      "size": 213,
+      "businessDetails": "754 FIFTH AVENUE\nNEW YORK, NY 10019\n212-753-7300\nwww.bergdorfgoodman.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b8a84a73-4aff-439c-a91c-4e263039cdc7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n>>> A Gift For You <<<\n\n205454   0063   0192   1154",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b382f4cf-2ca6-4a0a-be24-648c1d0bbb36",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nSEND MDSE\nBooties            1    S G\n3435-61-61-401247133493\nANKLE BOOT\nMM6 Maison Margiela\nBLACK 9.5B / 39.5EU\n8059039180421\n0.000% TAX 10200\nfinal sale",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "081702e2-8030-4095-9d89-733b4f0fc81b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTAX CODE      3100364607\n\n>>> A Gift For You <<<",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1OrDDrO7Ou2Sl43FXavm%2F1OrDDrO7Ou2Sl43FXavm-52061d52-36ee-4f3e-bf19-a064b44563d5.png?alt=media&token=66d6623e-8a4f-4200-be94-315a84c503c5",
+  "published": true,
+  "id": "1OrDDrO7Ou2Sl43FXavm"
+}

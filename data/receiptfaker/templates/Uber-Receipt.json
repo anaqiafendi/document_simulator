@@ -1,0 +1,150 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Uber Receipt",
+  "slug": "Uber-Receipt",
+  "createdAt": "$D2025-09-29T12:30:57.147Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FCscYuzjDPlkO50URotm5%2FCscYuzjDPlkO50URotm5-6336a72b-f692-4755-bc5a-142dd85be84c.png?alt=media&token=ca1c25b1-d0b8-4394-9962-4043c070a164",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F62ec97da-ff02-47c0-b599-4c7ca1142465-8aa4d1f60de468d00fdce0b58108857c.png?alt=media&token=4c78df84-a3df-4cbe-a437-eb8b284961cc",
+      "size": 149,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e5f9243-f447-413b-bd40-62349de5bdb8",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/23/2025, 5:22:31 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Pickup Address: 221 W 5th Street, Austin, TX 78701\nDestination Address: 1500 Barton Springs Road, Austin, TX 78704",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dbdddac1-7ac6-4076-bd60-0f7aaf5bc18d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Driver: Josh R.\nCar: Toyota Corolla\nColor: Black",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7693ca1d-295e-412d-8e94-f8b8927c41ee",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Base Fare",
+          "total": "2.50"
+        },
+        {
+          "quantity": "",
+          "description": "Distance (3.8 miles @ $1.75/mi)",
+          "total": "6.65"
+        },
+        {
+          "quantity": "",
+          "description": "Time (12 min @ $0.25/min)",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "Service Fee",
+          "total": "2.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "12.15"
+        }
+      ],
+      "total": "14.65",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Fares are calculated based on distance, time, and applicable fees. Payments are processed via the chosen payment method at the time of booking. Customers must report any fare discrepancies, lost items, or ride issues within 24 hours of the trip. By accepting this receipt, you acknowledge and agree to these terms.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need an Uber receipt? Easily create a custom ride receipt with our free tool. Add driver info, trip details, fare, distance, and payment method—perfect for expense reports, reimbursements, or travel records.",
+  "published": true,
+  "metatitle": "Uber Ride Receipts",
+  "metadesc": "realistic Uber ride receipts featuring driver details, trip distance, fare breakdown, and payment info for reimbursements",
+  "id": "CscYuzjDPlkO50URotm5"
+}

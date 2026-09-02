@@ -1,0 +1,132 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Louis Vuitton Receipt",
+  "slug": "Louis-Vuitton-Receipt",
+  "createdAt": "$D2025-05-24T11:15:38.820Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F5ffa7487-495d-466f-b743-910a3d3e3574-louis-vuitton--only-text--vector-logo.png?alt=media&token=d6ba6aa2-ac91-4574-9e26-8e0c572cd445",
+      "size": 175,
+      "businessDetails": "LV Atlanta Lenox Square\n3393 Peachtree Rd N.E. Suite #3014\nATLANTA, GA 30326\nUnited States\n+1 404-266-3674",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Store: 3078 Register: 6\nDate: 5/24/2025 Time: 2:10 PM\nTicket: 14532\nCashier: HN06\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Time Out Sneaker N33569",
+          "total": "900"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "900"
+        },
+        {
+          "title": "Tax",
+          "value": "80.10"
+        }
+      ],
+      "total": "980.10",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "I agree to pay the above total amount according to the card issuer's agreement. Items can be returned within 30 days of receipt. Products must be in their original condition with all packaging intact.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b69e50f4-44d9-4aed-b4c7-94d0ec843762",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwNKTGi6ZSJNjL2NA1KfI%2FwNKTGi6ZSJNjL2NA1KfI-ee84f4ad-5547-4e6b-86f7-e377474bac06.png?alt=media&token=37eecc3e-a454-435e-85d9-4c2799895d06",
+  "description": "Need a Louis Vuitton receipt? Create a high-end purchase record with our free tool. Customize boutique info, product details, pricing, taxes, and payment—ideal for proof of purchase, insurance, or personal records.",
+  "published": true,
+  "metatitle": "Louis Vuitton Receipt",
+  "metadesc": "realistic Louis Vuitton purchase receipts featuring custom store info, product details, taxes, and payment methods easily",
+  "id": "wNKTGi6ZSJNjL2NA1KfI"
+}

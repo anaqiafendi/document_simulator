@@ -1,0 +1,162 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T11:44:33.753Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "be390e87-0afe-43d9-84ed-ee1e9d72204f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F39fa369d-7421-4046-ad45-5fa2a643470f-image.jpg?alt=media&token=b5fa66b0-c625-4ff7-85f7-49a3d822f2fa",
+      "size": 242,
+      "businessDetails": "Welcome to ShopRit\nof MILLVILLE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0cd1b8c-8bca-4a5d-858b-0a0a422eb2e1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n08/17/25 04:08pm S505 R71  T116 C71\n************************************\nRegular Items\n************************************\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "06bc0353-b4e1-4aca-862a-a3c65d9055a9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nONE DEG VEG BRWN RPC",
+          "total": "\n4.69 F"
+        },
+        {
+          "quantity": "",
+          "description": "On Sale You Saved",
+          "total": "0.30"
+        },
+        {
+          "quantity": "",
+          "description": "MC  One Degree Veganic",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TENDERLN STEAK",
+          "total": "28.33 F"
+        },
+        {
+          "quantity": "",
+          "description": "1.09 lb @ 1.19 /lb",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "On Sale You Saved ",
+          "total": "1.20"
+        },
+        {
+          "quantity": "",
+          "description": "1.09 lb @ 0.19 /lb",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SC  BROC CRWNS RPC  PC",
+          "total": "1.30 F"
+        },
+        {
+          "quantity": "",
+          "description": "Broccoli Crowns",
+          "total": "0.21-F"
+        },
+        {
+          "quantity": "",
+          "description": "1.86 lb @ 4.99 /lb",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "WT  CHERRY NW LARGE 1BL",
+          "total": "9.28 F"
+        },
+        {
+          "quantity": "",
+          "description": "BLUEBERRY 12 DRY P",
+          "total": "2.99 F"
+        },
+        {
+          "quantity": "",
+          "description": "On Sale You Saved",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "PINEAPPLE GOLD",
+          "total": "4711458063"
+        },
+        {
+          "quantity": "",
+          "description": "Valued Customer",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TAX ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n**** BALANCE",
+          "total": "\n48.77"
+        },
+        {
+          "quantity": "",
+          "description": "************************************",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b51cfdb-8705-46f2-9f18-0105ab7fd920",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ShopRite Credit Receipt\nStore # 505 of MILLVILLE, NJ\nTerminal: 71 Operator: 71 Items: 116",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1291cb85-63a8-46b9-a5f6-b3647e770aaa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for shopping with us!\nWe appreciate your business.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "ShopRite grocery retail receipt issued from the Millville, New Jersey store. The header prominently displays the ShopRite branding and “we are here.” slogan, followed by a welcome message identifying the Millville location. Transaction metadata includes the purchase date and time together with store, register, terminal, transaction, and cashier-related identifiers. The main transaction area follows a traditional supermarket thermal POS format with itemized entries, promotional savings information, weighted-product notation, and separator lines dividing major sections. The lower summary area includes a valued-customer reference, tax field, and prominently displayed balance. The footer identifies the document as a ShopRite Credit Receipt and records the store number, location, terminal, operator, and transaction references.",
+  "name": "ShopRite Millville Receipt",
+  "slug": "ShopRite-Millville-Receipt",
+  "published": true,
+  "id": "J4oKDdjckVrcQWfLGcu4"
+}

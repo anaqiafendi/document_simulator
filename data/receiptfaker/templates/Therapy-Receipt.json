@@ -1,0 +1,182 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Therapy Receipt",
+  "slug": "Therapy-Receipt",
+  "createdAt": "$D2025-05-25T16:09:22.132Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Ff90d3026-b4c6-44f8-96b6-e171bc4ab6b5-6549573_emotional_health_mental_mind_passion_icon.png?alt=media&token=c4f09985-c063-4785-a0c3-b63d577ef498",
+      "size": 50,
+      "businessDetails": "Harmony Path Therapy Center, LLC\n432 Wellness Way\nPortland, OR 97205\n(503) 555-9147\nwww.hpaththerapy.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e019a8ea-209a-4f7d-ba79-8574b27ea101",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Patient:",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd4c0eac-d3a7-4279-93c2-1137f4c548ab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Name: Jonathan David Parker\nDate of Birth: 1988-11-15\nPhone Number: (415) 555-1937\nAddress: 1592 Maple Street, Apt 3A, San Francisco, CA 94107\nInsurance Number: INS-73829105\nEmail: jonathan.parker88@mailservice.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "febe04da-fb44-4618-bbff-08e54dbfbf61",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Doctor:",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f1b2d59-de12-4a05-9dcd-08c7fffc2b1e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Dr. Emily Sanders, LCSW\nLicense No.: OR-543216\nSpeciality: Individual & Couples Therapy",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Individual Therapy Session",
+          "total": "120.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Couples Therapy Session",
+          "total": "150.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Group Therapy Session",
+          "total": "75.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Initial Intake & Assessment",
+          "total": "180.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "525.00"
+        },
+        {
+          "title": "Tax",
+          "value": "36.75"
+        }
+      ],
+      "total": "561.75",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Appointments require at least 24 hours’ notice for cancellations or rescheduling. Late cancellations or no-shows may be charged up to 50% of the session fee. Payment is expected at the time of service unless prior arrangements have been made. We accept major credit cards, cash, and insurance billing where applicable.\n\nFor billing questions or scheduling, please contact our office at (503) 555-9147 or email billing@hpaththerapy.com.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "COLONS"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FZQ1Ff027pAr0T5M3vX6H%2FZQ1Ff027pAr0T5M3vX6H-faed4521-130d-4410-9671-5a933357cc7f.png?alt=media&token=d116187c-15d7-4107-9c70-14a863a4f83b",
+  "description": "Need a therapy receipt? Easily create a professional receipt for counseling or mental health sessions. Add therapist info, session dates, fees, and payment details—perfect for insurance claims or personal records.",
+  "published": true,
+  "metatitle": "Counseling Receipts",
+  "metadesc": "professional therapy receipts with therapist details, session dates, fees, and payment info for insurance claims and records",
+  "id": "ZQ1Ff027pAr0T5M3vX6H"
+}

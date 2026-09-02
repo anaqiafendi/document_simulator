@@ -1,0 +1,153 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Marigold Restaurant Receipt",
+  "description": "This receipt is from Marigold Restaurant in Winnipeg, Manitoba, Canada. It records a dine-in order including fried rice, lemon chicken, veal, and additional Chinese cuisine dishes. The receipt includes GST and PST tax calculations, table and guest information, subtotal, total amount due, and promotional details about buffet service and banquet room availability. It also contains the restaurant’s GST registration number and contact information. The format reflects a standard Canadian restaurant POS receipt.",
+  "slug": "Marigold-Restaurant-Receipt",
+  "createdAt": "$D2026-05-15T09:55:46.349Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "63b35d87-1b64-439b-bce8-819bfd7acdf3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1acb554f-d0d8-4f12-a873-d662b73fde7e-image%20(19).jpg?alt=media&token=4532d067-f556-4db9-bcd7-ca81eb6107ec",
+      "size": 154,
+      "businessDetails": "MARIGOLD RESTAURANT\n1245 INKSTER BLVD\nWINNIPEG MB\nPh: 204-897-1245\nGST#: 105750525 RT0002\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d73097d6-ef32-4e06-b2b1-69b31ca17827",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "105 tracey",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ccb2a179-8fa0-4b47-9876-630aeca3a7af",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTbl 3/1   Chk 8254   Gst 1\nFeb28'17   07:45PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5bbba0c2-9daa-4798-894a-4ed0b09cbcfd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n**** SEAT 1 ****\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "237a0c14-e23d-4722-8c0b-f511976286ad",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "CANT C/M",
+          "total": "11.25"
+        },
+        {
+          "quantity": 1,
+          "description": "FRIED RICE",
+          "total": "8.00"
+        },
+        {
+          "quantity": 1,
+          "description": "LEMON CHICKEN",
+          "total": "10.25"
+        },
+        {
+          "quantity": 1,
+          "description": "HNY GAR VEAL",
+          "total": "10.60"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "324bb7a5-a991-4446-90f5-5932be0631da",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "***** All *****",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dd3ac4d3-542c-411f-9f08-34fa28054608",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "40.10"
+        },
+        {
+          "quantity": "",
+          "description": "40.10 GST",
+          "total": "2.01"
+        },
+        {
+          "quantity": "",
+          "description": "40.10 PST",
+          "total": "3.21"
+        },
+        {
+          "quantity": "",
+          "description": "Amount Due",
+          "total": "45.32"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cc31c9e-9a2c-438b-87fb-5db9f1e44e8b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nLunch buffet served Monday to Friday from 11:30 am-2:00 pm. Book your party here. Banquet rooms available for 30 to 300 people.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e662a9b2-0095-4ca6-ad0e-e3ce6df66279",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nwww.inkstermarigold.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "IQOXV2jqPZDV7TliYM1y"
+}

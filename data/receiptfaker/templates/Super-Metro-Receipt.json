@@ -1,0 +1,75 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Super Metro Receipt",
+  "description": "$3e",
+  "slug": "Super-Metro-Receipt",
+  "createdAt": "$D2026-03-10T12:14:29.950Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F95be21b4-30f7-4b73-b7be-ee0ff4e1de6f-image%20(46).jpg?alt=media&token=283c48d1-23d5-4d0f-a49d-c586043fbe0f",
+      "size": 236,
+      "businessDetails": "Receipt No: 9907231\nIssuer: POS-TERMINAL-01",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "234f9915-dc34-431b-988d-25ed3d1e9ed0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Serial No: SM-INV-000245\nSeller Name: Sample Market Store\nSeller Phone: +1 (000) 555-0100\nAddress: 123 Market Street, City, ST 00000",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4215983-4581-4e7d-9a0f-fc16b00d38c6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tbl 12/1   Chk 1539    Gst 2\nMP-12-0816\nNov16'19 08:16AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42163ee1-1fb2-4b41-a807-fddaa56a018e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Product Description\nQty     Unit Price\n\nITEM SAMPLE A\n1       460.00\n\nSubtotal                     460.00\nTax                           0.00\nTotal                        460.00\nCash                         460.00\nBalance                        0.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "86784c73-ba1b-474f-b334-b14e7d7bf59f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "DT 09/11/24 09:15\nDT 09/11/24 09:15\nDT 09/11/24 09:15\nDT 09/11/24 09:15",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc26b92b-74e1-4f2d-8c5a-e70a888bd203",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FHMIQ361zqeN8Q0pk308H%2FHMIQ361zqeN8Q0pk308H-80f29e04-6865-42e3-9147-2075303b6def.png?alt=media&token=4353d1c6-5dc6-428b-8d82-2754a27a0438",
+  "published": true,
+  "id": "HMIQ361zqeN8Q0pk308H"
+}

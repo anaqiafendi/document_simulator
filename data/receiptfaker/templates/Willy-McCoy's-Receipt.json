@@ -1,0 +1,113 @@
+{
+  "currency": "",
+  "slug": "Willy-McCoy's-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T19:46:14.914Z",
+  "description": "This restaurant receipt from Willy McCoy's documents a dine-in transaction processed at the France Avenue South location in Bloomington, Minnesota. The receipt includes restaurant branding, full address details, guest count references, server identification, order opening time metadata, transaction numbering, and timestamp information. The POS structure contains food subtotal formatting, tax calculations, and final total presentation aligned in standard U.S. restaurant thermal receipt formatting. Additional receipt elements include customer voting and promotional messaging, website references, customer appreciation text, and transaction completion timestamp formatting near the footer. The layout reflects a standard U.S. casual dining restaurant thermal receipt with dine-in service and promotional marketing presentation.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Willy McCoy's Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "08b54605-4576-4a00-b36a-2a9f0426d89e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F19ceb4b9-6791-469e-802c-30a47c40bc7a-image%20(6).jpg?alt=media&token=60455507-373c-48e4-86aa-ae40f388751a",
+      "size": 247,
+      "businessDetails": "10700 France Ave S\nBloomington, MN 55431\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee4486ca-3194-4566-a5e9-fd8145fd1a87",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "GCK #: 803 Open: 11:42 AM\t3733",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 Guests",
+          "total": "Server: Brandon J"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nIced Tea",
+          "total": "\n\n$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "Diet Coke",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "McCoys BLT Salad",
+          "total": "$$10.99"
+        },
+        {
+          "quantity": "",
+          "description": "Cuban",
+          "total": "$$11.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b07eda31-0ad9-4236-bef1-0b08d3e30865",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Food",
+          "total": "$$27.98"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$2.03"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n$30.01"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf205fec-519e-42c2-97f3-75f12b3d1351",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVOTE FOR US ON thecw23.com\nfor BEST PATIO\n\nThank You!\n\n6/17/2016   12:16 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "5U5jBj1KDMRKFPvakTM9"
+}

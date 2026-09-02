@@ -1,0 +1,152 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T19:49:29.733Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Douglas Pharmacy Receipt",
+  "description": "This receipt is from Douglas, a beauty and cosmetics retailer located in Rotterdam, Netherlands. It records an online order payment processed in-store or through a card terminal using Maestro contactless payment. The receipt includes order number, subtotal, merchant reference, terminal and transaction identifiers, authorization code, masked card information, and total payment amount in euros. It also notes that the transaction was PIN verified and approved. The format reflects a standard Dutch electronic payment receipt.",
+  "sections": [
+    {
+      "id": "36a71c91-910e-4d99-8958-b55d53349f6f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F79f7bd8c-8461-48ca-81bf-3cbf8099b9b3-image%20(13).jpg?alt=media&token=f25a0f88-d4f7-40b2-ac9c-4b858f738618",
+      "size": 239,
+      "businessDetails": "\nWeissenbruchlaan 158\n3054 LS Rotterdam\nTelefoon: 010-4182604",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f4e1154-d4c5-42b3-83dc-b00ae15021eb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Online Bestelling",
+          "total": "71.46"
+        },
+        {
+          "quantity": "",
+          "description": "Ordernummer",
+          "total": "00231328338505"
+        },
+        {
+          "quantity": "",
+          "description": "Tussentotaal    EUR",
+          "total": "71.46"
+        },
+        {
+          "quantity": "",
+          "description": "EDC Maestro     EUR",
+          "total": "\n71.46"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f47ec880-dc84-4436-b509-d6cdfbbb1c65",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Kopie Kaarthouder",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Merchant Ref.: NL000000000207114211",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTerminal: 20C002 Merchant",
+          "total": "\n\n1710001"
+        },
+        {
+          "quantity": "",
+          "description": "Periode: 1114   Transactie",
+          "total": "01158998"
+        },
+        {
+          "quantity": "",
+          "description": "Contactloze betaling",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Maestro (A000000000043060)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MAESTRO",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Kaart: xxxxxxxxxxxxxx9004",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Kaartnr: 06",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nBETALING",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "24/04/2021 15:36   Auth. code",
+          "total": "N61901"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotaal",
+          "total": "\n\n71.46 EUR"
+        },
+        {
+          "quantity": "",
+          "description": "Met PIN gevalideerd",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4caabfcc-7818-4abe-8157-dac5a48b25b6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nAKKOORD",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Douglas-Pharmacy-Receipt",
+  "published": true,
+  "id": "c7GRrIiRKT6zYrPMyLMo"
+}

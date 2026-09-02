@@ -1,0 +1,189 @@
+{
+  "imageUrl": "",
+  "backgroundCrumpled": false,
+  "parentName": "Office Depot",
+  "slug": "Thrifty-Foods-Receipt",
+  "currency": "",
+  "fontType": "MERCHANT_COPY",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "sections": [
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F27e92e56-9e29-4538-9100-56cbf97679ab-image%20(14).jpg?alt=media&token=109c165d-c4b2-42a0-9be4-da37484124a5",
+      "businessDetails": "\nWELCOME TO THRIFTY FOODS\nMORGAN CROSSING\nPhone: 604-542-7851\nGST#: 895588788RT0001\n",
+      "id": "2729c2ee-3abf-4cdf-8e6e-f39534080a22",
+      "bottomDivider": false,
+      "type": "HEADER",
+      "size": 224,
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "alignment": "LEFT",
+      "bottomDivider": true,
+      "type": "CUSTOM",
+      "custom": "Served by: Stefan\nMember card number: *******534",
+      "id": "a658b73e-aab3-4534-95e7-c37a9e59fe40",
+      "date": "$undefined"
+    },
+    {
+      "items": [
+        {
+          "total": "\n",
+          "quantity": "",
+          "description": "\nGIFT CARD"
+        },
+        {
+          "total": "$$414.00",
+          "quantity": "",
+          "description": "One 4 All V3 $25/500"
+        },
+        {
+          "description": "POINTS EARNED",
+          "total": "1000 PTS",
+          "quantity": ""
+        },
+        {
+          "total": "$$414.00",
+          "quantity": "",
+          "description": "One 4 All V3 $25/500"
+        },
+        {
+          "description": "POINTS EARNED",
+          "total": "1000 PTS",
+          "quantity": ""
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "id": "2a05af7f-1b52-4483-ae27-4dd4ad753002",
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalDivider": false,
+      "type": "ITEMS",
+      "totalText": "",
+      "totalLines": [
+        {
+          "value": "\n$828.00",
+          "title": "\nSUBTOTAL"
+        },
+        {
+          "title": "TOTAL TAX",
+          "value": "$$0.00"
+        }
+      ],
+      "bottomDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "totalLines": [],
+      "totalText": "",
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalDivider": false,
+      "type": "ITEMS",
+      "totalDividerType": "DASHES",
+      "items": [
+        {
+          "total": "$$828.00",
+          "quantity": "",
+          "description": "TOTAL"
+        },
+        {
+          "total": "$$100.00",
+          "quantity": "Visa",
+          "description": "       TENDER"
+        },
+        {
+          "description": "       TENDER",
+          "total": "$$100.00",
+          "quantity": "Visa"
+        },
+        {
+          "total": "$$100.00",
+          "quantity": "Visa",
+          "description": "       TENDER"
+        },
+        {
+          "total": "$$86.00",
+          "quantity": "MasterCard",
+          "description": " TENDER"
+        },
+        {
+          "description": " TENDER",
+          "total": "$$47.00",
+          "quantity": "MasterCard"
+        },
+        {
+          "total": "$$395.00",
+          "quantity": "MasterCard",
+          "description": " TENDER"
+        },
+        {
+          "total": "$$0.00",
+          "quantity": "Cash",
+          "description": "CHANGE"
+        }
+      ],
+      "id": "095ea728-7e60-4cc6-b8b4-50297d6aa3fd",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "custom": "\nNUMBER OF ITEMS    2\n\nSCENE+ POINTS\n",
+      "id": "60e84a0b-4c51-4b12-b79e-a4be3590826b",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "totalLines": [],
+      "totalText": "",
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalDivider": false,
+      "type": "ITEMS",
+      "totalDividerType": "DASHES",
+      "items": [
+        {
+          "total": "*******534",
+          "quantity": "",
+          "description": "Member Number"
+        },
+        {
+          "total": "2000",
+          "quantity": "",
+          "description": "Total Points Earned"
+        },
+        {
+          "total": "2,000",
+          "quantity": "",
+          "description": "Your SCENE+ POINTS Balance"
+        }
+      ],
+      "id": "f643254e-289f-40ab-82c6-f961c2d2ba2e",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "66ea18ba-0cff-46e1-adeb-13908c84e021",
+      "custom": "\nThank you for shopping at\nTHRIFTY FOODS\nWe appreciate your business!\nPlease come again soon.\n* * * * * * * * * *\nwww.thriftyfoods.com\n",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This grocery retail receipt from Thrifty Foods documents a multi-tender gift card purchase transaction processed at the Morgan Crossing location in Canada. The receipt includes store identification details, phone number, GST registration formatting, cashier/server attribution, and masked member card information. The POS structure contains gift card purchase entries, SCENE+ points earned formatting, subtotal, tax, total amount, and multiple tender payment breakdowns including VISA, MasterCard, and cash handling fields. Additional receipt elements include loyalty points summaries, member number formatting, item count presentation, and SCENE+ rewards program references near the footer. The layout reflects a standard Canadian grocery retail thermal receipt with integrated loyalty rewards and split-payment transaction formatting.",
+  "name": "Thrifty Foods Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "createdAt": "$D2026-05-25T10:19:36.073Z",
+  "numberFormat": "LEFT",
+  "textColor": "#101828",
+  "isParent": true,
+  "published": true,
+  "id": "9m9MFH5hGfoIV2twVCb1"
+}

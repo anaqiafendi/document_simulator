@@ -1,0 +1,175 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-22T07:54:23.991Z",
+  "description": "This receipt is issued by Ben & Jerry's and identifies the location as Ben & Jerry's Rockefeller Center, Rockefeller Plaza Concourse Level, New York, NY 10020. The header contains store branding, location information, a telephone number, website address, transaction date and time, and staff identification (Geraldine). The receipt includes POS transaction metadata such as a receipt reference number (zFug) and a service designation (FOR HERE). The financial section contains a subtotal, a dedicated NYC Sales Tax line, a final transaction total, cash tendered, and change returned. Additional store information includes a location-specific web address associated with the Rockefeller Center outlet. The overall layout is representative of a United States specialty dessert and ice cream retail receipt, combining store identification, staff accountability, sales-tax reporting, cash-payment reconciliation, and transaction-tracking information within a compact POS receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Ben & Jerry's Receipt",
+  "slug": "Ben-and-Jerry's-Receipt",
+  "sections": [
+    {
+      "id": "67045a6e-2666-4bd9-9aea-beed8b710037",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F78de5959-edf5-4477-83b8-c57b77748fa8-image%20(3).jpg?alt=media&token=a4dee897-f031-4876-9d2f-53041d898efd",
+      "size": 174,
+      "businessDetails": "Ben & Jerry's Rockefeller Center\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "68f60e1a-6df5-4b31-a469-3b6f13f993a1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Rockefeller Plaza",
+          "total": "July 16, 2023"
+        },
+        {
+          "quantity": "",
+          "description": "Concourse Level",
+          "total": " 6:56 PM"
+        },
+        {
+          "quantity": "",
+          "description": "New York, NY",
+          "total": "Geraldine"
+        },
+        {
+          "quantity": "",
+          "description": "10020",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "(212) 218-7843",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "https://www.benjerry.com",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "/rockefellercenter",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "17e01963-ef10-4a54-9592-20db3e58a7da",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Receipt: zFug",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4054be93-510e-4399-a9d6-66861971c995",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFOR HERE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "428cd6c3-c1e3-46d2-aec4-5712aed610b0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSM SCOOP x 3",
+          "total": "\n$22.50"
+        },
+        {
+          "quantity": "",
+          "description": "DIP SUG/TOPP x 3",
+          "total": "$$5.25"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2e7c9875-0c45-453a-a72a-a82f4adbe857",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$27.75"
+        },
+        {
+          "quantity": "",
+          "description": "NYC Sales Tax",
+          "total": "$$2.46"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8184af29-9caf-46ce-92af-ef9fc639cb9f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$30.21"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "$$100.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$69.79"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "WTSpxdmpJspNQbFTOB22"
+}

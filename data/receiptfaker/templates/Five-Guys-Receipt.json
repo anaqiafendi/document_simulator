@@ -1,0 +1,126 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T06:12:27.942Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Five Guys Receipt",
+  "description": "This receipt is a restaurant transaction issued by Five Guys, located at 6007 Powell Road in Sandy Springs, Georgia, United States. It includes store number, full address, phone number, date, time, order ID, and employee identifier. The receipt presents an itemized food order including hamburgers with customization (“All The Way”) and a regular fry, with pricing and totals. A financial summary shows subtotal, sales tax, and final total. Payment details indicate an American Express card transaction with masked card number and authorization code. The format follows a standard U.S. fast-food POS receipt with order tracking and payment verification.",
+  "sections": [
+    {
+      "id": "2f24704f-5042-407b-8978-40c481bb4fa5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa2cfcd0c-bfdd-4cf7-ba21-2463f8658b6b-image%20(5).jpg?alt=media&token=b1b97398-ffbf-4d53-a8eb-63ed13205300",
+      "size": 201,
+      "businessDetails": "\nSTORE # GA-0539\n6207 Roswell Rd\nSandy Springs, GA 30328\nPhone (404) 851-1958\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "998e34a4-5d2c-4a4a-9382-c52c3f2af0a5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n4/2/2026  11:27:59 AM\nOrder Id: AAHANK2ACAG\n10 - FIVE GUYS\nEmployee: Nazalia F\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9f66cac4-403c-422d-ac5d-3ea38522c033",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n10\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d873e34b-ed86-4d31-8e72-c9230651731f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Hamburger @$11.19",
+          "total": "$$22.38"
+        },
+        {
+          "quantity": "",
+          "description": "All The Way ",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Regular Fry",
+          "total": "$$7.59"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSub Total",
+          "total": "\n\n$29.97"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax",
+          "total": "$$2.32"
+        },
+        {
+          "quantity": "",
+          "description": "Order Total",
+          "total": "$$32.29"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8ef88f10-bdb5-4c6e-8a1c-5b90c3d6b352",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "American Express",
+          "total": "$$32.29"
+        },
+        {
+          "quantity": "",
+          "description": "AUTHORIZED AMOUNT",
+          "total": "$$32.29"
+        },
+        {
+          "quantity": "",
+          "description": "Card#: *************1000",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Authorization: 864590",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Five-Guys-Receipt",
+  "published": true,
+  "id": "De6giiF6Yn1QJMntsTBa"
+}

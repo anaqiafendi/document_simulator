@@ -1,0 +1,160 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T14:14:21.433Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "b291c53f-3f31-4793-b4c6-cb85b8ccc31a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Faed3efc8-a514-48e5-badb-03bf46737ff8-image%20(11).jpg?alt=media&token=2ed6798b-f55d-47ec-a105-c9e8fbf2071d",
+      "size": 237,
+      "businessDetails": "GAGA Summarecon Mall Kelapa Gading 3\nIsland Counter K - 02 Lantai 3,",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c3efa46b-db5b-425f-a866-8f68d6186f4d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNo        : GJ004202506250089\nDate      : 25-06-2025 15:38\nTime In   : 25-06-2025 15:38\nPurpose   : DINE IN\nCashier   : Fatiya Rosyidah",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3731cb5c-0f27-499f-a9b5-af3c04db70fc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nThai Tea Rock Salt Mousse (L)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @44.000",
+          "total": "44.000"
+        },
+        {
+          "quantity": "",
+          "description": "Add Gaga Pearl 100Gr",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @5.000",
+          "total": "5.000"
+        },
+        {
+          "quantity": "",
+          "description": "50%",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0   ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Normal Ice",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0",
+          "total": "0"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0f7d1019-286b-494b-baf6-6daff67cbb37",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1 item ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "752cceae-d493-4c1f-8ad1-3c603e5c211b",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Grand Total : ",
+          "value": "49.000"
+        },
+        {
+          "title": "DEBIT / CREDIT NIAGA",
+          "value": "49.000"
+        },
+        {
+          "title": "Price inclusive of PB1",
+          "value": "4.455"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b10c129-31cb-40db-b8e2-a950378655db",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHarga Sudah Termasuk Pajak\n\nThank You-",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by GA/GA at the Summarecon Mall Kelapa Gading 3 branch, located at Island Counter K-02, Level 3, Jakarta, Indonesia. The header displays the brand logo and tagline (\"attitude in a cup\"), followed by the branch location. The transaction metadata includes the receipt number, transaction date and time, service type (DINE IN), and cashier identifier. The receipt concludes with a financial summary showing the Grand Total, the payment method (Debit/Credit Niaga), and a statement that the displayed price is inclusive of PB1, with the corresponding tax amount shown. The footer confirms that taxes are included in the transaction total and ends with a customer appreciation message. This receipt represents a standard Indonesian beverage shop POS receipt featuring transaction metadata, tax-inclusive pricing, electronic payment confirmation, and concise customer information.",
+  "name": "GA/GA Receipt",
+  "slug": "GAGA-Receipt",
+  "published": true,
+  "id": "eQJNCprkU5AsS8JSQxqt"
+}

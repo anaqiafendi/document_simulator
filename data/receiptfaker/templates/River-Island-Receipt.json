@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T03:45:28.338Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "River Island Receipt",
+  "description": "This receipt is a retail transaction issued by River Island, a UK-based fashion retailer. It shows the purchase of clothing (listed as “Cottons”) along with a carrier bag, including a promotional discount applied to the main item. The receipt provides a summary of savings, total amount due, and cash payment with change returned. It also includes store location details (Doncaster, South Yorkshire), transaction identifiers, and staff information. The format follows a typical UK retail POS receipt with pricing, discounts, VAT-inclusive totals, and customer messaging.",
+  "sections": [
+    {
+      "id": "e4ecbc8d-475b-4597-a588-40ac2c4a62b2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F607038b3-88e3-4d8d-be98-7b16f0fc5ba2-image%20(5).jpg?alt=media&token=afbfcbc9-afd7-4004-a826-813e750ff34f",
+      "size": 225,
+      "businessDetails": "\nUNIT 23A\nFRENCHGATE INTERCHANGE\nDONCASTER\nSOUTH YORKSHIRE\nDN1 1LF\nTel: +44 (0)1344 826 977\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b68bd4ee-67b7-4e39-b531-ea3cbe2e0dec",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSale\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "258ba03b-6653-483d-b8d5-5e7d8e08f013",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cottons.",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "5645127",
+          "total": "£24.00"
+        },
+        {
+          "quantity": "",
+          "description": "Price Paid: £21.60Promo Disc:",
+          "total": "-£2.40"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCarrier Bag",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "126",
+          "total": "£0.10"
+        },
+        {
+          "quantity": "",
+          "description": "Total Promotion Saving",
+          "total": "-£2.40"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "474c9edb-e6f7-4dc7-9212-eb069891bf45",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TOTAL          2 items",
+          "total": "£21.70"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "-£30.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change (Cash)",
+          "total": "£8.30"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f8fd7491-a606-480e-a6c7-da9a4810518e",
+      "type": "BARCODE",
+      "size": 71,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c0688cc-9197-4c30-a12d-2b4f07fdf6c9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "00010401022378190404132428",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e1c66039-cb8a-42e0-a5b9-9f83132b9624",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping at River Island Please retain for your records. You were\nserved by Taylor\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "837b483e-20be-4d0e-9710-1d5ea662bb3f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFor the latest looks and Homewares delivered direct to your door log onto our online superstore @ www.riverisland.com. New lines added daily.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9367e2cc-bf66-40ff-9665-c2d830ca8123",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "STORE 104  TILL 102  TX 2378  04/01/19  13:29",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "River-Island-Receipt",
+  "published": true,
+  "id": "tKMj1Iff73s1cIedn12e"
+}

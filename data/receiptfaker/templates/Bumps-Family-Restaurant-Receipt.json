@@ -1,0 +1,114 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bumps Family Restaurant Receipt",
+  "description": "This receipt is issued by Bumps Family Restaurant and identifies the business as located in Glencoe, Minnesota. The header contains the restaurant name, location, transaction date, table number, and guest number. The receipt records an order consisting of two Pepsi beverages, a Turkey Commercial meal, and a Beef Commercial meal, with both meals accompanied by white bread and mashed potatoes. The financial section records $1.69 in tax and a final transaction total of $26.25. The receipt also contains the store check amount, order number, register information, check print count, and transaction time. The footer thanks the customer and provides the restaurant's contact telephone number and website. The overall layout is representative of a United States family restaurant POS receipt, combining table-service itemization, meal modifiers, tax reporting, and transaction information.",
+  "slug": "Bumps-Family-Restaurant-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T18:27:32.329Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "177a5db2-f8b0-4ab5-8ab9-4dc8598e3b90",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "BUMPS\nFAMILY RESTAURANT\nGlencoe, MN\nDATE         04/29/2017          SAT\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2aaaf1e3-b911-4746-8b05-7a64984f0a46",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "TABLE #",
+          "value": "#170"
+        },
+        {
+          "title": "GUEST # ",
+          "value": "#170"
+        },
+        {
+          "title": "GUEST #",
+          "value": "#2"
+        },
+        {
+          "title": "PEPSI T1",
+          "value": "$$2.29"
+        },
+        {
+          "title": "PEPSI T1",
+          "value": "$$2.29"
+        },
+        {
+          "title": "TURKEY COMMRCL T1",
+          "value": "$$9.99"
+        },
+        {
+          "title": "On BREAD T1",
+          "value": ""
+        },
+        {
+          "title": " white T1",
+          "value": ""
+        },
+        {
+          "title": "Mashed Potatoes T1",
+          "value": ""
+        },
+        {
+          "title": "BEEF COMMRCL T1 ",
+          "value": "$$9.99"
+        },
+        {
+          "title": "On BREAD T1",
+          "value": ""
+        },
+        {
+          "title": "white T1",
+          "value": ""
+        },
+        {
+          "title": " Mashed Potatoes T1",
+          "value": ""
+        },
+        {
+          "title": "TAX1 AMT",
+          "value": "$$1.69"
+        },
+        {
+          "title": "TOTAL",
+          "value": "$$26.25"
+        },
+        {
+          "title": "STORE CHECK",
+          "value": "$$26.25"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9dc37d84-5bfe-474f-b09c-f9de1134719e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n -- CHECK PRINT COUNT : 1 --\n* ORDER# 0184 *\n\n\nNO.571584 REG 01 DEB    TIME 11:28\nTHANK YOU!\n320-864-6038\nwww.bumpsrestaurant.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "ofTUsZr1TVRDjMmebV6O"
+}

@@ -1,0 +1,157 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Warehouse Receipt",
+  "slug": "Warehouse-Receipt",
+  "createdAt": "$D2025-05-25T11:03:48.867Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FzWv8AqotxhYzAIGupb0j%2FzWv8AqotxhYzAIGupb0j-71121879-029c-4638-8017-2af70201be27.png?alt=media&token=cef6fdb9-aa4b-455e-94e0-8d001516e69d",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F1560cfd6-238d-4e88-88bd-5439c2c217d3-185099_factory_warehouse_lift_icon.png?alt=media&token=9c59bd87-7eea-47fc-b00c-bf2610bb3d4c",
+      "size": 50,
+      "businessDetails": "Apex Freight Carriers Inc.\nAddress: 7429 Oakridge Parkway, Dallas, TX 75231\nPhone Number: (214) 555-6293\nEmail: info@apexfreightcarriers.com",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef95f4cd-ca4d-475e-b33f-1c93d6e79c7e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Warehouse Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "febe04da-fb44-4618-bbff-08e54dbfbf61",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customer details:",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f1b2d59-de12-4a05-9dcd-08c7fffc2b1e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Name: Marcus Donovan\nAddress: 2895 Cedar Ridge Lane, Cleveland, OH 44115\nPhone Number: (216) 555-3927\nEmail Address: m.donovan2895@mailservice.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Transportation Services",
+          "total": "500"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "COLONS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "500"
+        },
+        {
+          "title": "Tax",
+          "value": "41.25"
+        }
+      ],
+      "total": "541.25",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "This receipt confirms that payment has been received for the specified transportation services. Payments are non-refundable except in cases of overpayment or as required by law. Please keep this receipt for your records. Duplicate receipts are available upon request. For any questions or assistance, please contact Horizon Transit Solutions LLC at (312) 555-4732.\n\nThank you for choosing Horizon Transit Solutions—your reliable partner on the road!",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need a warehouse receipt? Easily create a detailed storage or inventory receipt with our free tool. Add warehouse info, item descriptions, quantities, dates, and fees—ideal for logistics, records, or inventory tracking.",
+  "published": true,
+  "metatitle": "Warehouse Receipt",
+  "metadesc": "professional warehouse receipts with storage details, inventory items, quantities, and fees using our free receipt generator",
+  "id": "zWv8AqotxhYzAIGupb0j"
+}

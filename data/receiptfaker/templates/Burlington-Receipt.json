@@ -1,0 +1,184 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Burlington Receipt",
+  "description": "This receipt represents a Burlington retail transaction and features a structured POS layout with the store name prominently displayed at the top, followed by the store address in Mesquite, Texas, and contact details. The receipt includes transaction metadata such as date and time, transaction number, register number, and cashier identification. A barcode is positioned near the upper section for internal tracking. The document presents a financial summary section showing subtotal, sales tax, and total amount, followed by payment details indicating a debit card transaction with masked account number, authorization code, and chip entry method. Additional elements include total item count, return policy instructions, store credit conditions, and promotional messaging encouraging online shopping. The format reflects a standard apparel retail POS receipt with clear segmentation, high-contrast thermal printing, and multiple informational blocks including policy notices and branding statements.",
+  "slug": "Burlington-Receipt",
+  "createdAt": "$D2026-03-24T13:38:02.069Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F016fd95b-5d33-4b81-84b7-81e429e2398a-image%20(7).jpg?alt=media&token=9209f22c-a3a6-41c9-8b34-57377d14d9a0",
+      "size": 236,
+      "businessDetails": "7025 N Town East Blvd Ste 16\nMesquite, TX 75150\n(972) 613-5015",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "10/06/23           4:49 PM\nTrans # 37700      Reg # 006\nRoom 4             Cashier: Efran",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b16e5151-7240-4992-8f87-8473ecf6b764",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "612e553b-3e35-40c8-9b91-14caf2b2c743",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "009454040028424",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "77d006f6-12c2-48d7-9628-05c3d0e96103",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "LADIES LACE UP JOGGER",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "LADIES LACE UP TOP",
+          "total": "1.98"
+        },
+        {
+          "quantity": "",
+          "description": "LADIES LACE UP PANT",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "78f02cd5-73b6-4a16-b3bc-ce63103a6849",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5d540e45-0950-4c4c-9a7c-1c76948b07a2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Items Purchased: 13\n\n10/06/23",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2ee9aec-0dec-451a-8de3-92b3a2d28284",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SAVE YOUR RECEIPT FOR RETURNS!\n\nA CHANGE TO YOUR STORE WITHIN 7 DAYS\nFOR STORE CREDIT WITH RECEIPT",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db9df4f4-7975-42d5-ba4d-d4567be59491",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "For returns bring this item and receipt back\nwithin 30 days. Some items cannot be returned\nif opened.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c9f7ebbc-a06d-4c4e-9003-ea61849e8f35",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "COMPLETE YOUR SHOPPING ONLINE!\nVISIT US AT BURLINGTON.COM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e3ce7de3-7b6d-4fe0-ac48-c27009f9d478",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Great value. Great brands. Great style.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FrBhCQRtiDlwnEfX3kX6P%2FrBhCQRtiDlwnEfX3kX6P-27e8103e-ee7d-4a22-810f-85e65b26cebb.png?alt=media&token=e0ec09f7-ec85-4d5e-ac2c-9452965bf073",
+  "published": true,
+  "id": "rBhCQRtiDlwnEfX3kX6P"
+}

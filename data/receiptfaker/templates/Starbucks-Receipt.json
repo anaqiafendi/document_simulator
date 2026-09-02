@@ -1,0 +1,124 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Starbucks Receipt",
+  "slug": "Starbucks-Receipt",
+  "createdAt": "$D2025-05-25T12:49:05.165Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fa100bca9-2330-4778-90e2-b4c78ee88780-61054fd9c32c81000497725a.png?alt=media&token=85b3e269-7f06-4a28-8cd5-0f86c33ca223",
+      "size": 122,
+      "businessDetails": "Riverside Retail Park\nPhone: 0161 250 6307\nSTORE # 63225\nVAT No: 273 5224 09",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1002 Olivia",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f33280a4-40d7-425f-be8f-6f1a251d74c6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Chk 2639",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Venti Mocha Latte",
+          "total": "13.90"
+        },
+        {
+          "quantity": "",
+          "description": "Oat Milk",
+          "total": "0.50"
+        },
+        {
+          "quantity": "1",
+          "description": "Chocolate Pie",
+          "total": "8"
+        },
+        {
+          "quantity": 1,
+          "description": "Gr Wht Mocha",
+          "total": "11.90"
+        },
+        {
+          "quantity": "",
+          "description": "Oat Milk",
+          "total": "0.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "34.8"
+        },
+        {
+          "title": "Tax",
+          "value": "3.22"
+        }
+      ],
+      "total": "38.02",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f3934b1-d2f6-4811-a646-abbd5179653f",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 3:48:03 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for visiting Starbucks",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fk18UG4ClifkR2NmBxaYf%2Fk18UG4ClifkR2NmBxaYf-b92a78e1-69df-487c-9245-5352e16c1fc5.png?alt=media&token=0ec81385-a86b-49ae-ac25-c2714b1e3d3f",
+  "description": "Need a Starbucks receipt? Easily generate one with our free tool. Customize store details, drink orders, prices, tax, and payment info—perfect for tracking expenses, replacements, or personal records.",
+  "published": true,
+  "metatitle": "Starbucks Receipt",
+  "metadesc": "authentic Starbucks receipts with custom drinks, store locations, prices, and payment details for expense tracking or records",
+  "id": "k18UG4ClifkR2NmBxaYf"
+}

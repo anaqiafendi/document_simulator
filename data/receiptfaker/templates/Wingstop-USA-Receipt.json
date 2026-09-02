@@ -1,0 +1,189 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-23T16:53:29.162Z",
+  "description": "$3f",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "4d0b6f6a-de34-4bf3-aaa2-113905671269",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8a4d6d2f-8df6-4248-9187-0eef09086869-image%20(3).jpg?alt=media&token=356d2a1e-1b32-4c59-97a2-a98a45f5bbc8",
+      "size": 188,
+      "businessDetails": "WingStop #382\n6668 Thomasville Rd\nSuite 111\n850-219-9464\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b69bc44b-1514-4f50-993e-c1fbdc5bbbf2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: Joseoh",
+          "total": "2/20/2019"
+        },
+        {
+          "quantity": "",
+          "description": "larry",
+          "total": "3:20 PM"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9a385af0-5a89-4870-a17b-4ee0397bcac2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Guests: 2",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a4ae7471-089d-4962-9226-a508105ec9e2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "00029"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "00029"
+        },
+        {
+          "quantity": "",
+          "description": "Order Type: Walk Dine In",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "15 Split Combo j",
+          "total": "20.49"
+        },
+        {
+          "quantity": "",
+          "description": "Original Hot Boneless(7)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Original Hot Classic(8)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "French Fries - Large",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ranch(2)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "20 Oz Beverage(2)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n20.49"
+        },
+        {
+          "quantity": "",
+          "description": "Food Tax",
+          "total": "1.54"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tax",
+          "total": "1.54"
+        },
+        {
+          "quantity": "",
+          "description": "Walk Dine In Total",
+          "total": "22.03"
+        },
+        {
+          "quantity": "",
+          "description": "AMEX",
+          "total": "22.03"
+        },
+        {
+          "quantity": "",
+          "description": "Auth: 541611",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "57affbe5-2af6-4a35-9c34-82e582f362b6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOrder online and skip the wait!\nVisit Wingstop.com or\ndownload our app today!",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c2c22bcc-1920-4ab8-a5c0-1e077dbfce5c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOrdena en linea por wingstop.com/espanol",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8c4a8c9e-df1a-4bcb-8a04-6218e4c6e720",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTell us how we did today! Visit us at wingstop.com/survey call 1-800-746-6561 or text \"SURVEY\" to WINGS (94654), to take our survey for your chance at winning a $50 gift card! Messaging and data rates may apply.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "47d94a24-d7b8-4421-b2ca-f204455978b4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n- Check Closed -\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Wingstop USA Receipt",
+  "slug": "Wingstop-USA-Receipt",
+  "published": true,
+  "id": "BB4Bwv7XLu9DWQKyOUbv"
+}

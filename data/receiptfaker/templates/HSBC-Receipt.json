@@ -1,0 +1,128 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-15T14:23:57.448Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c176b932-4190-4c13-9b15-6774de855547",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa7599f67-c8e4-483d-aea7-495937437818-image%20(5).jpg?alt=media&token=11dba0ff-4604-4d41-96bd-81861e85673a",
+      "size": 271,
+      "businessDetails": "\nGLOBAL PAYMENTS\n\nVENTA CON PROPINA\nCENTRO TURISTICO PRESA\nADELANTE E LA ESCUEL SN\nALFAJAYUCAN HGO\n6700B30\nCAJA: 1\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cfa63831-5cf7-4577-b4cd-f477eb8ca8d0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNUMERO DE TARJETA / CTA\n************7888\nCREDITO/BANAMEX/MASTERCARD\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0c54a5dd-fe5a-4253-a46f-bca3500f40f5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CONSUMO",
+          "total": "$$1235 00"
+        },
+        {
+          "quantity": "",
+          "description": "PROPINA",
+          "total": "$$120.00"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "$$1355.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nAPROBADA",
+          "total": "\n\nOPER. 075"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "REF. 000000000075"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "NUM SEC. 001004075"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "AUT.710298"
+        },
+        {
+          "quantity": "",
+          "description": "\nMESERO",
+          "total": "1"
+        },
+        {
+          "quantity": "",
+          "description": "FECHA",
+          "total": "09 NOVIEMBRE 2025"
+        },
+        {
+          "quantity": "",
+          "description": "HORA ",
+          "total": "13:56:55"
+        },
+        {
+          "quantity": "",
+          "description": "ARQC",
+          "total": "FC98"
+        },
+        {
+          "quantity": "",
+          "description": "TC",
+          "total": "9E2D"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "A0000000041010"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1870dc0c-7e3a-4b88-bcd9-59937bf2a44e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCASTILLO HERRERA/EVELYN\n\nME OBLIGO EN LOS TERMINOS DADOS AL\nREVERSO DE ESTE PAGARE\n\nAUTORIZADO MEDIANTE FIRMA ELECTRONICA\n\nPROV240KWNATUA400-C",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by HSBC Global Payments and documents a credit card payment processed at Centro Turístico Presa Adelante y La Escuela S/N, Atzaya, Veracruz, Mexico. The receipt records the payment using a Banamex MasterCard credit card and includes the masked card number, transaction type, terminal information, operator number, reference number, authorization code, transaction date and time, and server identification. The financial section itemizes the purchase amount (Consumo), gratuity (Propina), and the final total. The receipt concludes with the standard Mexican cardholder agreement acknowledging the payment terms. The overall layout is representative of a Mexican restaurant payment terminal receipt, combining gratuity reporting, electronic card authorization, and transaction confirmation within a compact receipt format.",
+  "name": "HSBC Receipt",
+  "slug": "HSBC-Receipt",
+  "published": true,
+  "id": "t9vOBW5HQXQGKI2Q5or4"
+}

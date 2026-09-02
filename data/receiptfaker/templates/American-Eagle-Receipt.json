@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "American Eagle Receipt",
+  "description": "This American Eagle receipt documents a transaction from The Outlet Shoppes at Louisville, 1155 Buck Creek Road, Space G708, Simpsonville, KY 40067, including store phone number and full location details in the header. The receipt displays transaction metadata such as date (07/20/2019), time (3:51 PM), transaction number (4117), store number (02362), register (003), cashier and sales associate ID (bh9985), and member ID. A centered “SALE” header appears above a barcode with encoded transaction number. The financial summary includes subtotal, tax, total, cash payment, and change due, followed by a closing courtesy message (“THANK YOU” and “HAVE A NICE DAY”). The structure reflects standard U.S. apparel retail POS formatting with clear section spacing, barcode placement, and footer-style transaction identifiers.",
+  "slug": "American-Eagle-Receipt",
+  "createdAt": "$D2026-02-24T12:58:14.451Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "51e03ac2-933a-4044-b16e-9b80a89e2f85",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "AMERICAN EAGLE\n\nTHE OUTLET SHOPPES AT LOU\n1155 Buck Creek Road\nSpace G708\nSimpsonville, KY 40067\n502-722-8299",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa2663bd-05c3-482a-8a84-8cd2f5f2202c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "07/20/2019                   3:51 PM\nTrans.: 4117            Store: 02362\nReg.: 003\n\nCashier: bh9985        Sales: bh9985\n\nMember ID: 80104665134035",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6308939f-e819-4b96-b877-d2e4ebb38d34",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e8504493-96b5-42a2-ae1c-0a68d3fc7ab6",
+      "type": "BARCODE",
+      "size": 75,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "07805aae-e09f-4632-8bab-9aca9179d729",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "02362003411720190720",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f4d852b9-3e51-4b77-bf95-9f81ae658f27",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7596135-c3e8-4082-b1cf-5f805bbc1fe2",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0341d281-42a1-4ee8-89b8-e4dc74a1cb44",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FUqzi82GkfeGIZ2AyOr9V%2FUqzi82GkfeGIZ2AyOr9V-a68e38f8-0f58-4d1f-8017-c34990d7af95.png?alt=media&token=6c9a55a4-3fc1-4419-93d8-0ee8b46cb2b6",
+  "published": true,
+  "id": "Uqzi82GkfeGIZ2AyOr9V"
+}

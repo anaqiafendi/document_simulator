@@ -1,0 +1,48 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "ABC Fine Wine & Spirits Receipt",
+  "description": "This receipt represents a point-of-sale transaction from ABC Fine Wine & Spirits, a liquor retail store, and displays the brand header featuring the “ABC Fine Wine & Spirits” logo and store phone number (954-781-4700). The receipt includes POS metadata such as transaction type (REGULAR SALE), date and timestamp, terminal identifiers, and store number (157) along with the cashier name (ROBINSON) and a loyalty customer account number. The format contains scanned product barcode entries, a promotional notice indicating savings on sale items, and a structured financial summary including subtotal, tax, and total. A payment section documents a cash tender and calculated change, followed by promotional messaging and a footer section detailing the store’s loyalty rewards program, previous and current points balance, and rewards card identification number. The structure and formatting reflect a standard retail liquor POS receipt system with loyalty program integration.",
+  "slug": "ABC-Fine-Wine-and-Spirits-Receipt",
+  "createdAt": "$D2026-03-08T17:56:03.719Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8b416f27-6beb-4900-a7c2-bda3d6ef5a94-image%20(37).jpg?alt=media&token=62aebdb8-7b72-45c7-8c7b-55c30b62db60",
+      "size": 236,
+      "businessDetails": "ABC FINE WINE & SPIRITS\n954-781-4700",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e1a33f7-0681-4739-86df-e89b4ee3fdab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "REGULAR SALE\n09/14/2014 18:05:35 004 004 08  6956\nStore Number: 157\nCashier: ROBINSON\n\nLoyalty Cust: 00003835640\n\n0008807617870 CIROC AMARETTO VODK 29.99\n0027173000002 PATRON TEQ SILVER  38.99\n\n**ON SALE** YOU SAVED $4.00\n\n                    SUBTOTAL   68.98\n                    TOTAL TAX  4.14\n                    TOTAL     73.12\n--------------------------------\n                    CASH    100.00\n                   CHANGE    -26.88",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "91cc4697-1a9c-4585-b3f4-abf5e972a715",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "You Saved $4.00 On Sale Items\n\nBlackBeltShopper.wordpress.com\n\nLOYALTY REWARDS MAIN CLUB 10%\nPREVIOUS POINTS              469\nREGULAR POINTS THIS PURCHASE = 69\nCOUPON POINTS                -500\n--------------------------------\nCURRENT POINTS    38\nABC Rewards Card # 00003835640",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FsaHpwCG98tK5SyjKpWk9%2FsaHpwCG98tK5SyjKpWk9-cb01ab7d-b5be-4f88-8f6d-337d5bd9b69a.png?alt=media&token=d552fc86-bf1b-491a-8ae9-4a925e081552",
+  "published": true,
+  "id": "saHpwCG98tK5SyjKpWk9"
+}

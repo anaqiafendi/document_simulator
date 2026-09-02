@@ -1,0 +1,151 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-18T06:08:37.078Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "b1018ff2-b3c9-4ad4-b389-8ddf3a246d53",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F441f3a0f-8fe7-45b7-bc2d-65b5c9c11a44-image%20(1).jpg?alt=media&token=8e900b83-710a-4e47-ae2a-e8004f4b9ca8",
+      "size": 239,
+      "businessDetails": "CIKAMPEK\nJl. Jend. Ahmad Yani\nIG : @mie_gacoan\n================================\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ec725da-27ab-4fdb-8737-9bdb24d8aab3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tanggal   : 04-06-23\nJam       : 19:04:03\nNama Tamu : 8 k 24\nKasir     : shift 2 pos 1\n====================================\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "30d88e35-352f-409d-95e8-c21b94c9f5a1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MIE GACOAN LV 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 10,000",
+          "total": "10,000"
+        },
+        {
+          "quantity": "",
+          "description": "MIE GACOAN LV 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 10,000",
+          "total": "10,000"
+        },
+        {
+          "quantity": "",
+          "description": "MIE GACOAN LV 3",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 10,000 ",
+          "total": "1 x @ 10,000"
+        },
+        {
+          "quantity": "",
+          "description": "UDANG KEJU",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 9,099",
+          "total": "1 x @ 9,099"
+        },
+        {
+          "quantity": "",
+          "description": "UDANG RAMBUTAN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 x @ 9,099",
+          "total": "2 x @ 9,099"
+        },
+        {
+          "quantity": "",
+          "description": "ES GOBAK SODOR",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 9,099",
+          "total": "9,099"
+        },
+        {
+          "quantity": "",
+          "description": "TEA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 x @ 4,09",
+          "total": "4,099"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6ae26767-da91-4e1d-b706-d56ed9251f18",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "\nSub Total :  70,495\nPajak 10% :   7,050\n--------------------\nBill      :  77,545\n\nPembulatan:     -45\nGrand Total: 77,500\n\nCash      : 100,000\n--------------------\nKembali   :  22,500",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53afd89b-2879-44a7-bee9-f659092c5903",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTerima Kasih\nSelamat Datang Kembali\nKritik dan Saran\nCall/WA 0896-3934-5020\nAtau Scan QR Di Bawah\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "59c737ec-5220-4e12-ad96-f8def84e415f",
+      "type": "BARCODE",
+      "size": 83,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Mie Gacoan and identifies the restaurant as the Cikampek branch located on Jl. Jend. Ahmad Yani, Cikampek, Indonesia. The header contains the restaurant name, branch location, transaction date and time, guest identifier, cashier information, and POS shift. The receipt records a dine-in order consisting of Mie Gacoan Level 1, Level 2, and Level 3, together with Udang Keju, Udang Rambutan, Es Gobak Sobor, and Tea. The financial section records the subtotal, 10% tax (Pajak), the bill amount, a rounding adjustment (Pembulatan), the final grand total, the cash amount tendered, and the change returned. The footer thanks the customer, welcomes them back, and provides a customer service telephone number together with a QR code for submitting feedback. The overall layout is representative of an Indonesian restaurant POS receipt, combining menu itemization, tax reporting, cash payment reconciliation, and customer feedback information within a compact hospitality receipt format.",
+  "name": "Mie Gacoan Receipt",
+  "slug": "Mie-Gacoan-Receipt",
+  "published": true,
+  "id": "xtzrywdiFQcOPCYaIAwZ"
+}

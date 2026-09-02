@@ -1,0 +1,93 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T09:45:45.296Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e919d3b7-bd75-4b80-ac28-2260e4c2499d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5fef56c8-4f20-40c1-a102-c81c2fbebaaf-image%20(4).jpg?alt=media&token=e39f153e-cbbd-4fac-af38-f064674c4d3e",
+      "size": 280,
+      "businessDetails": "216 E. 9th Street\nMountain Home, AR 72653\n870.425.3759",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6544da29-0805-44ca-aa45-33b1dfd3afd2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nMRS GERRYS SALAD ",
+          "total": "\n3.94 B"
+        },
+        {
+          "quantity": "",
+          "description": "SMHS WINGS HOT",
+          "total": "7.06 T"
+        },
+        {
+          "quantity": "",
+          "description": "TAX",
+          "total": "1.09"
+        },
+        {
+          "quantity": "",
+          "description": "**** BALANCE",
+          "total": "12.09"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "20.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE ",
+          "total": "7.91"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "acb2c055-5548-4931-9460-0d920d6de96c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTOTAL NUMBER OF ITEMS SOLD = 2\n\n09/09/25  11:36am 2453  113 105  36",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe9ab3bd-869c-427d-a80b-4175de627b1a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nYour Cashier was DELI\nToday You Shopped at Store 2453\nThank You For Shopping",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Town & Country Supermarket and identifies the store as 216 E. 9th Street, Mountain Home, Arkansas 72653. The header contains the supermarket branding, store address, and contact telephone number. The receipt records the purchase of Mrs. Gerry's Salad and Hot Wings from the deli department. The financial section records the applicable sales tax, the balance due, cash payment, and the change returned. The footer records the total number of items sold, transaction date and time, store number, register number, transaction number, cashier department, and a customer appreciation message. The overall layout is representative of a United States supermarket POS receipt, combining grocery and deli itemization, sales-tax reporting, cash payment reconciliation, and transaction information within a compact retail receipt format.",
+  "name": "Town & Country Receipt",
+  "slug": "Town-and-Country-Receipt",
+  "published": true,
+  "id": "MPznI1C729vAl4Q40Fsa"
+}

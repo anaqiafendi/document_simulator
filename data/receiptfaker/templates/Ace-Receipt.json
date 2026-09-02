@@ -1,0 +1,161 @@
+{
+  "createdBy": "m0sk4K1GQuVLwaoNBC3mM4Lwvsu2",
+  "createdAt": "$D2025-11-15T01:02:07.463Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_2",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "80cc82fb-7869-459c-8862-1fa21eb23600",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fm0sk4K1GQuVLwaoNBC3mM4Lwvsu2%2Fc6c74dcc-2ced-42f5-8354-8bbb95f2ad2d-download%20(3).png?alt=media&token=6c85ecaa-5ac4-409a-aa68-eee9cf6b3cae",
+      "size": 118,
+      "businessDetails": "Thank You for Shopping at\n Ace Hardware of Navarre\n8188 Navarre Pkwy, Navarre, FL 32566\nPhone: (850) 939-9800",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b597c694-6fa8-4745-bb88-e96d0b14d13f",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "11/14/2024, 5:46:31 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "481fb007-ed7b-4932-b813-a07c3478c202",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "Reg",
+          "value": "2"
+        },
+        {
+          "title": "Customer: J Manchester",
+          "value": "Since 2011"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "ACE Rewards # ",
+          "value": "1928777"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c5b349a3-2377-410d-9b84-922e40b5ff5a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "# 2489540 ",
+          "description": "DeWalt 20V MAX\n Cordless Brushed 2 Tool Kit ",
+          "total": "219.99"
+        },
+        {
+          "quantity": "# 2029735 ",
+          "description": "DeWalt Maxfit \nScrewdriver Bit Set 30 pc",
+          "total": "19.98"
+        },
+        {
+          "quantity": "# CLDBVG",
+          "description": "COKE 20oz",
+          "total": "1.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "241.97"
+        },
+        {
+          "title": "Tax",
+          "value": "16.93"
+        }
+      ],
+      "total": "258.90",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90a2aaea-877b-4891-abc1-7575085f5fec",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 3081"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/14/2024 5:46 PM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "40d6bf00-0849-4291-abd8-1af17eacace6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e9b32342-f037-4fd1-a59b-ff9f16d4953a",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fm0sk4K1GQuVLwaoNBC3mM4Lwvsu2%2FXKUA1UgM7O4eLJUyoc9A%2FXKUA1UgM7O4eLJUyoc9A-9fc1291b-16e3-4055-9e3e-4e6371ab1cea.png?alt=media&token=5d0218f1-3704-4d01-8014-ea9eca31ae17",
+  "name": "Ace Receipt",
+  "description": "Need an Ace Hardware receipt? Use our free tool to generate a detailed purchase record. Add store info, items bought, prices, tax, and payment—perfect for returns, warranties, or expense tracking.",
+  "published": true,
+  "slug": "Ace-Receipt",
+  "id": "XKUA1UgM7O4eLJUyoc9A"
+}

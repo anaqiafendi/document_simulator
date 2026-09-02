@@ -1,0 +1,98 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Pita Factory Receipt",
+  "description": "This receipt is from Pita Factory, a fast-casual restaurant in Waterloo, Ontario, Canada. It records a food order containing shawarma bowl items along with subtotal and HST tax calculations. The receipt includes order number details, card payment confirmation, and restaurant branding information. The format reflects a standard Canadian quick-service restaurant POS receipt.",
+  "slug": "Pita-Factory-Receipt",
+  "createdAt": "$D2026-05-20T09:06:03.466Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "272d37ac-7e71-4fbd-bcf5-05ea31aeecd2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbc918379-7767-4208-a8f4-aa1981f87064-image%20(18).jpg?alt=media&token=365c6ea3-1664-4ba1-9224-390fe995ef26",
+      "size": 217,
+      "businessDetails": "PITA FACTORY\n7105 FISHER HALLMAN RD\nKITCHENER, ON\nN2E 3E7\nTEL: 519-570-1115\n\n\n645\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b600d340-a0ce-4ad4-8277-5f7b6fa549fd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SHAWARMA DOME",
+          "total": "$$15.00"
+        },
+        {
+          "quantity": "",
+          "description": "SHAWARMA DOME",
+          "total": "$$15.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9fb3257-e209-4c84-bbf2-41856ad54639",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "$$33.29"
+        },
+        {
+          "quantity": "",
+          "description": "HST TOTAL",
+          "total": "$$3.50"
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "$$37.29"
+        },
+        {
+          "quantity": "",
+          "description": "CARD",
+          "total": "$$37.29"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f207efd0-8b08-4a90-bbae-43bc138527d9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nITEM   6\n10/09/2024   01:15 PM\nTHANK YOU!\nSEE YOU AGAIN SOON",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "grggrLHw2T8xJ6xTjNK4"
+}

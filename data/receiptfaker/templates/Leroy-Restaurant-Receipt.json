@@ -1,0 +1,98 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T12:08:47.718Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Leroy Restaurant Receipt",
+  "description": "This receipt is from Leroy, a restaurant located in Shoreditch, London, United Kingdom. It records a dine-in meal for one guest including bread and butter, celeriac, tartare, grilled onion, and chocolate dessert. The receipt includes subtotal, a discretionary 12.5% service charge, and the final total amount due. It also provides the restaurant address, website, and VAT registration number. The format reflects a standard UK restaurant POS receipt used in fine dining and casual dining establishments.",
+  "sections": [
+    {
+      "id": "7c9eba51-0f1b-4b79-b30d-bd7071d2a643",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F574ff15c-75b6-41be-9e53-893c9c2be8cd-image%20(16).jpg?alt=media&token=caed9a25-88aa-4a07-ba61-c113db67d36c",
+      "size": 205,
+      "businessDetails": "\n17 June 2019 19:01:20\nTable 7\n1 Cover\nBill Number 38411",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5d7d65c-e684-4955-837c-a31e75317287",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Bread & Butter",
+          "total": "£3.50"
+        },
+        {
+          "quantity": "",
+          "description": "Celeriac",
+          "total": "£4.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tartare",
+          "total": "£14.00"
+        },
+        {
+          "quantity": "",
+          "description": "Grelot Onion",
+          "total": "£10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Chocolate",
+          "total": "£8.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n£39.50"
+        },
+        {
+          "quantity": "",
+          "description": "Discretionary Service @ 12.50%",
+          "total": "£4.94"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "_________\n"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n£44.44"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f9eb6e6-2050-4654-8a8a-3739da6cd71c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nLeroy\n18 Phipp Street\nShoreditch\nEC2A 4NU\nwww.leroyshoreditch.com\nVAT: 219313720",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Leroy-Restaurant-Receipt",
+  "published": true,
+  "id": "fGOvPg1cRF7mXGzXsZ8m"
+}

@@ -1,0 +1,158 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-07T14:54:16.706Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Itsu Receipt",
+  "description": "This receipt is from Itsu, a UK-based fast casual restaurant specializing in sushi and Asian-inspired food. It records an eat-in transaction including sushi items, tartare, prawn crackers, and a soft drink. The receipt includes cashier information, VAT amount, payment method, transaction reference number, and restaurant address in London. Payment was made using a Visa debit card. The format reflects a standard UK quick-service restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "8abad805-2e51-456c-bdc2-46d523d33146",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fec3c6ea9-ec5e-41ea-8a62-b07870c4991f-image%20(6).jpg?alt=media&token=85089011-a312-441b-9508-6133c7a7276a",
+      "size": 205,
+      "businessDetails": "Eat beautiful, Eat Light, Eat Itsu",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "835a9667-2d71-4407-b9aa-6294408234f7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nGema",
+          "total": "\n32S POS5"
+        },
+        {
+          "quantity": "",
+          "description": "01/08/16 15:43",
+          "total": "000000133"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a0ee3da9-be23-4f95-a11c-0b02a1a90637",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "EAT IN (R)",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "69b8eba1-78d4-465e-9749-984aa6f50359",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nPrawn Crackers Chilli",
+          "total": "\n£0.99"
+        },
+        {
+          "quantity": "",
+          "description": "On a Bed - Tartare",
+          "total": "£6.35"
+        },
+        {
+          "quantity": "",
+          "description": "ushi - Health + Happiness",
+          "total": "£9.59"
+        },
+        {
+          "quantity": "",
+          "description": "Slim line Diet Coca Cola",
+          "total": "£0.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb896c25-515b-4b58-9dd7-36136699721d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "4 Items\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "744e5bc6-a6dc-427a-b8e1-273681581989",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Vat",
+          "total": "£2.99"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "£17.92"
+        },
+        {
+          "quantity": "",
+          "description": "Visa Debit",
+          "total": "£17.92"
+        },
+        {
+          "quantity": "",
+          "description": "Ref: 50000000090",
+          "total": 10
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "249d3a86-654d-441e-9472-8fa2f5fe7ea0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVAT No: 689 9400 72\n\nYou're being served\nby 76 - Gema\n\nToilet Code C8231Y\n32-33 Strand, LONDON, WC2N 6NA\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a740f8d-2198-4b4d-b319-68fd71b199a9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nwww.itsu.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Itsu-Receipt",
+  "published": true,
+  "id": "edrUEUU3YMh9iGl0U3Nv"
+}

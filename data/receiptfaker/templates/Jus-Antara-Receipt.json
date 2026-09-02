@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T13:51:21.539Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f2a9db3e-c603-4b16-b8c4-f12fd5f2f9de",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1fdfc4d2-9b26-4298-aa08-a829bd9cbbfc-image%20(5).jpg?alt=media&token=291965b8-3f43-4dde-b6be-14d976f8a25f",
+      "size": 253,
+      "businessDetails": "Jus Antara Karang Satria",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b7aa613f-bd63-4d10-9108-4ceb4bda826e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSales No  : SJAKS177140704568\nDate      : 18-02-2026 16:30\nTable     : Quick Service\nPurpose   : TAKE AWAY\nCashier   : PUTRI",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e16cca6c-50c3-4647-b54b-c79f266f09f9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSOSIS SOLO 1 PORSI (3 PCS)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0 ",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "* garing, qc",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cost & Quality",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ES JERUK SONKIT KECIL",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": " * qc",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cost & Quality",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CUP TAKE AWAY",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cost & Quality",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d252bbfd-d379-4c5f-9025-70563e8fa10a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "3 items",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "0"
+        },
+        {
+          "title": " Grand Total",
+          "value": "0"
+        },
+        {
+          "title": "CASH ",
+          "value": "0"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e2c9250-2a13-4822-af3a-22598dc040af",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nJangan Lupa di Follow Ya!\nInstagram: Jusantara.id\nMenerima Pesanan Jumlah Banyak Untuk Acara / Kat\nering / Meeting, Hubungi\nWa : 0851-1751-7919\n\n\nYour queue number\n44\n\nPlease wait until your number is called",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Jus Antara Karang Satria, Indonesia. The header includes the JA logo, business name, sales number, transaction date and time, service type (Quick Service), order purpose (Take Away), and cashier identifier (PUTRI). The transaction section lists three entries and includes internal Cost & Quality annotations beneath each line. The financial summary contains Subtotal, Grand Total, and Cash, all showing zero value, indicating the receipt was likely generated for quality control, testing, or a complimentary transaction rather than a standard sale. The footer promotes the business's Instagram account (Jusantara.Id), provides a WhatsApp contact number for large orders, catering, and meetings, and concludes with a printed queue number.",
+  "name": "Jus Antara Receipt",
+  "slug": "Jus-Antara-Receipt",
+  "published": true,
+  "id": "x0FN22uyyNcUGImUNcfX"
+}

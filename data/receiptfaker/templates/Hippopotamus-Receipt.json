@@ -1,0 +1,132 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T14:15:41.900Z",
+  "description": "This receipt is issued by Hippopotamus, a French restaurant chain, and includes corporate branding, social media icons, and business identification details for HIPPO GESTION et Cie in Paris, France. The header contains the company address, telephone number, SIRET registration number, and APE business classification code. Transaction metadata includes table and cover references, internal POS control numbers, and a transaction date. The financial section contains a total amount, VAT reporting with the applicable tax rate, and a notice indicating that service charges are included in the pricing. The footer features customer-service information, a mailing address for feedback, and the official company website. The overall format is representative of a French full-service restaurant POS receipt, combining transaction controls, tax-compliant reporting, and customer-contact information within a compact hospitality receipt layout.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Hippopotamus Receipt",
+  "slug": "Hippopotamus-Receipt",
+  "sections": [
+    {
+      "id": "775ffcf7-68ed-46ab-be1f-1d50ee518c1c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff1431328-9752-4801-b150-ca714d037c58-image%20(9).jpg?alt=media&token=f5ae8e08-4e81-4b2d-acd4-30bd57cd833c",
+      "size": 227,
+      "businessDetails": "\nHIPPO GESTION et Cie\n35, rue du Pont Neuf\n75001 Paris\nTel: 01 40 26 05 29\nSIRET 32295604300046 APE 5610A\n\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "86c66023-445e-46ef-aa07-2332c9fd05fd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n100072 EXPEDI.K",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Tbl 31/1\tFct 1988",
+          "total": "Cvt 2"
+        },
+        {
+          "quantity": "",
+          "description": "23 Feb 18",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4a91cd1a-888a-46a6-bd44-5d837418d692",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 Menu Burger Coca",
+          "total": "15.90"
+        },
+        {
+          "quantity": "",
+          "description": "Cola",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Menu Burger Coca",
+          "total": "15.90"
+        },
+        {
+          "quantity": "",
+          "description": "Cola",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Burger Hippo",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Burger Rabiochon",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2.89 T.V.A. 10%",
+          "total": "31.80"
+        },
+        {
+          "quantity": "",
+          "description": "13:55 TOTAL DU",
+          "total": "31.80"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "418e15e1-b275-4088-b239-be1e28bf10ac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nrix Service Compris\n***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4362e1ea-0bf1-43fe-8e00-ec1e7dba9073",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nHippo a votre ecoute! Nous vous invitons a nous faire part de vos remarques a l adresse suivante: Hippopotamus - TSA 27101 17193 PERIGNY Cedex ou sur notre site Internet www.hippopotamus.fr\n\n***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "evwpmAXJUVGvS4RAgBMw"
+}

@@ -70,6 +70,13 @@ data/*
 !data/.gitkeep
 !data/samples
 !data/hdri
+# ReceiptFaker corpus: the labelled template definitions drive the layout
+# taxonomy prior and are tracked as text. The 749 scraped brand logos are NOT
+# tracked -- they are third-party trademarks, 28MB of already-compressed
+# images git cannot delta, and regenerable in ~30s:
+#   uv run python -m document_simulator.data.receiptfaker.logos
+!data/receiptfaker
+data/receiptfaker/logos/
 models/
 !models/.gitkeep
 output/

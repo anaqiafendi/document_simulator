@@ -1,0 +1,169 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Convenience Store Receipt",
+  "slug": "Convenience-Store-Receipt",
+  "createdAt": "$D2025-09-30T16:21:05.327Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F06687cd5-041f-449c-9cd5-07bcd2311dbb-290146_buy_ecommerce_shop_shopping_store_icon.png?alt=media&token=65e5b4ff-a7ef-4173-8713-32d1d6546a52",
+      "size": 84,
+      "businessDetails": "QuickStop Market",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a06e16bd-178f-4ac1-9584-2601d2f479c1",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "9/30/2025, 6:10:37 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Register #01\nQSM-2105\nCashier: T. Morgan",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Bottled Water (500ml)",
+          "total": "3.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Chocolate Bar",
+          "total": "$$2.25"
+        },
+        {
+          "quantity": "1",
+          "description": "Pack of Chips",
+          "total": "$$3.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Canned Soda (12oz)",
+          "total": "$$1.75"
+        },
+        {
+          "quantity": "1",
+          "description": "Sandwich",
+          "total": "$$4.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "SubTotal:",
+          "value": "14.50"
+        },
+        {
+          "title": "Tax (8.25%):",
+          "value": "1.20"
+        }
+      ],
+      "total": "15.70",
+      "totalText": "Total:",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "33e6b9b2-2324-4232-ab4d-7c09f52ec505",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Payment Methods",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "88.23"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0dcef58a-bafd-4164-bc67-b604378bea12",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please Come Again!\n\n(303) 555-7812",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ba4c429-7249-4132-a942-0be4a9c41cb6",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FMN2Eewbf9cBjnel1hvdD%2FMN2Eewbf9cBjnel1hvdD-bd30e3bc-64b6-4f5f-a8bd-18fda0b06921.png?alt=media&token=58eb7c4a-e870-4767-8438-4ac28f6b1e00",
+  "description": "Need a convenience store receipt? Easily create a detailed purchase record with our free tool. Add store info, items bought, prices, tax, and payment—perfect for budgeting, returns, or expense tracking.",
+  "published": true,
+  "metatitle": "Convenience Store Receipt",
+  "metadesc": "realistic convenience store receipts with custom items, prices, tax, and store details for budgeting and expense tracking",
+  "id": "MN2Eewbf9cBjnel1hvdD"
+}

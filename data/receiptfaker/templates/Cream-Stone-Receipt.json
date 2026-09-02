@@ -1,0 +1,156 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T13:00:59.844Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "23afbe85-1a03-4e66-97f4-7673b5b40b72",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F65e6d34f-ed2d-48dc-ade6-720778c0becc-image%20(3).jpg?alt=media&token=277260cb-083d-4691-b037-020848df0623",
+      "size": 225,
+      "businessDetails": "Shaikpet\nGST:36AAHCS1709C1Z0\nFssai no:13618011001678\n=====================\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "06ef44d6-81d7-40e1-af46-1f2cace18c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Take Away\nBill No. 35\nDate 25/05/2025        Time 05:12 PM\nCashier: Ranjith",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f0673927-8213-4460-9713-588fb3a64e86",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nDESC       QTY       RATE        AMT",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c45f48a8-b563-4bbf-a209-1759c30a9e37",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Chocolava 4pc  210.00  840.00",
+          "total": 10
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8420778a-db26-48da-9c11-c453bff4546b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Nuts Overload Regu 1pc 199.00 199.00\nular",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ea14dff-4856-4422-9c59-2f73e73b354d",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "TOTAL",
+          "value": "5"
+        },
+        {
+          "title": "CGST 9%",
+          "value": "93.51"
+        },
+        {
+          "title": "SGST 9%",
+          "value": "93.51"
+        },
+        {
+          "title": "GRAND TOTAL",
+          "value": "1226.02"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b3ec728-4c27-4ccf-adbb-02d65866949c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "One thousand, two hundred twenty-six Rupees Only\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "14623521-debe-4d96-ab77-a1c802510287",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nCustomer Info:\nPhone Number: 9640117897",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f139e975-13d0-499e-a44e-f95d935a98cf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSign up with cs15.froogal.in now!\nShare feedback- care2creamstoneconcepts.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Cream Stone Receipt",
+  "description": "This receipt is issued by Cream Stone and identifies the transaction as a Take Away order. The header contains store branding, the operating entity, GST registration number, FSSAI licence number, bill number, transaction date and time, and cashier identification (Ranjith). The receipt includes an itemized purchase summary with quantity, unit rate, and line amount for each item. The financial section records the total merchandise value, CGST and SGST at 9% each, and the final grand total, followed by the total amount expressed in words. The footer contains customer contact information together with promotional messaging encouraging customer registration and feedback through the company's online platforms. The overall layout is representative of an Indian dessert retail POS receipt, combining GST-compliant tax reporting, food-business regulatory identification, takeaway order processing, and payment reconciliation within a compact retail receipt format.",
+  "slug": "Cream-Stone-Receipt",
+  "published": true,
+  "id": "ICF7iwnd2aAAVDV7Y7fr"
+}

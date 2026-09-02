@@ -1,0 +1,158 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Car Detailing Receipt",
+  "slug": "Car-Detailing-Receipt",
+  "createdAt": "$D2025-05-24T08:07:41.482Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FjVZgQWwinBiUK1tvuTqq%2FjVZgQWwinBiUK1tvuTqq-60a818b7-a8f3-4711-a0aa-0ebc0ff744fa.png?alt=media&token=46407ccf-b6b4-4392-bd6a-7df899a13e06",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Faddab328-7a86-4bad-aad5-388f8729b3ea-6751950_auto_car_detailing_polishing_icon.png?alt=media&token=aae8a942-bd28-4573-bfcb-e5bf45c5cf26",
+      "size": 50,
+      "businessDetails": "Elite Detail Services Ltd.\n1849 Willow Bend Drive\nSpringfield, IL 62704\nUnited States\nPhone number: (217) 555-8392\nRegistration Number: IL BCA-1234567",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Car Detailing Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customer details:\nName: Olivia Carter\nAdress: 3027 Oak Meadow Lane\nSpringfield, IL 62711\nPhone number: (217) 394-7283\nPlate number: XJL 4827",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Exterior Wash",
+          "total": "30"
+        },
+        {
+          "quantity": "1",
+          "description": "Interior Detailing",
+          "total": "100"
+        },
+        {
+          "quantity": "1",
+          "description": "Engine Bay Deep Cleaning",
+          "total": "60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "190"
+        },
+        {
+          "title": "Tax",
+          "value": "16.63"
+        }
+      ],
+      "total": "206.63",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customer satisfaction is our top priority. If you are not satisfied with the detailing service provided, please notify us within 24 hours of service. We will make reasonable efforts to correct the issue.\nNo full refunds will be issued once the service is completed, but touch-ups or partial refunds may be considered at the discretion of management. Please remove all valuables from your vehicle before service. We are not liable for lost or damaged personal items left in the car.",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6126f15-c47d-46f5-adb4-e41361147a19",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 7:52:22 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS"
+    },
+    {
+      "id": "847765dc-6e32-4272-ab03-a3f1e26dabb6",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Need a car detailing receipt? Easily create a custom service record with our free tool. Add business info, vehicle details, services performed, pricing, and payment—great for customer records or business tracking.",
+  "published": true,
+  "metatitle": "Car Detailing Receipt",
+  "metadesc": "professional car detailing receipts with vehicle info, services performed, pricing, and payment details using our free tool",
+  "id": "jVZgQWwinBiUK1tvuTqq"
+}

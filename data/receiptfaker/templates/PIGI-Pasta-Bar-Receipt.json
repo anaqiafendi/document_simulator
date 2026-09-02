@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T13:48:12.948Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5d6ad09b-3228-4f0c-9c5f-f66a365fd311",
+      "type": "HEADER",
+      "alignment": "RIGHT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F10b2e432-a613-452f-bfca-46a83f3cae9a-image%20(7).jpg?alt=media&token=b112f6e1-a65b-4cdc-8423-98e59a783812",
+      "size": 261,
+      "businessDetails": "Order# 3199855\nEat In Order\nSeat Count=1\nServer: Part T           Table: 21\nDate: 15/10/2025            12:44 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "41dd093f-ef0b-4677-ae69-7537251af98c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nLunch Set $158",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "Vitello Tonnato (L)",
+          "total": "$$158.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tagliatelle Mussels (L)",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tiramisu' (L)",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "FIRE DESSERT",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "10% Service Charge",
+          "total": "$$15.80"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ecfaaa2b-2264-4bc8-a542-3f48f7de4777",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Total Item Count:                 5",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c464a880-651e-4dea-b4a6-f403fcb26313",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$173.80"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tax:",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "193272a8-16df-44eb-97cb-4ed1f2200f8c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTotal:",
+          "total": "\n$173.80"
+        },
+        {
+          "quantity": "",
+          "description": "Order Balance due: ",
+          "total": "$$173.80"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "17a2b786-7601-4e47-99e7-470a3f517184",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nAll Tips Go To Our Team\nGrazie! Thank you!\n\nHow did we do?\nScan QR and leave us a review\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9b69e643-3091-4b3d-a56a-55a3f22c55e2",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "PIGI Pasta Bar Receipt",
+  "description": "PIGI Pasta Bar restaurant receipt for an eat-in transaction. The header prominently displays the PIGI Pasta Bar branding, followed by POS information including the order number, dining type, seat count, server designation, table number, and exact transaction date and time. The main section follows a restaurant thermal POS format with itemized entries and a separately recorded 10% service charge. The financial summary includes the total item count, subtotal, total tax, final total, and outstanding order balance. The footer states that tips go to the restaurant team, includes a customer thank-you message, and provides a QR-code review invitation.",
+  "slug": "PIGI-Pasta-Bar-Receipt",
+  "published": true,
+  "id": "lPrxDxMnrUZ4m0SznSdH"
+}

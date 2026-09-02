@@ -1,0 +1,103 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Costa Coffee Receipt",
+  "description": "$3e",
+  "slug": "Costa-Coffee-Receipt",
+  "createdAt": "$D2026-03-14T12:45:01.785Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "£",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1469dd16-fbf0-4f59-9814-6a4233ad85f3-image%20(48).jpg?alt=media&token=eee8e71b-e1b3-4d70-a60b-bb156cfac461",
+      "size": 236,
+      "businessDetails": "COSTA\nOperated By SCOFFS (ESSEX) LIMITED\nWalthamstow – St James\nE17 7PF",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "66b1e9b5-1163-49e6-a410-e4ef98f9a78a",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Order No: 208",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6b95ab9-883b-4d1c-a356-e6fd05dc0c2e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "VAT NO:135544321  RECEIPT:385983\nBR:11\\1  1025  21/10/2025  16:33",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cccaa87d-1033-48f9-babf-2ae9387504dd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "EAT IN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60be3036-0911-467f-a0e8-cf13af9417fd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Hot Chocolate MEJ EI",
+          "total": "2.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fef4fe88-0e27-41b4-ac38-9cce149f28dd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "RATE        GOODS        VAT*\n20.00%      3.41         0.68\n\nYou were served by: alicianieuwjaer\n\n\nJoin the Costa Club Today!\n- Buy 10 drinks to get 1 Free\n- FREE cake on your birthday\n- Exclusive offers for members\nJust download the Costa App",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "eab67958-b5ab-4310-9389-750b7b23203e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "ST JAMES STREET, ESSEX. E17 7PF\n*****THANK YOU FOR YOUR CUSTOM*****\nOPENING HOURS: MON-FRI 06:00-18:00\nSAT 07:00-18:30 SUNDAY 08:30-17:00\n*****TELEPHONE:02085 211 839 *****\n\nTell us about your visit\nText 7010 to 07481 342445\nor visit www.feedbacktocosta.co.uk\nSee website for T&Cs",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F56XJiClhj5k8sE9PISZ1%2F56XJiClhj5k8sE9PISZ1-b4d8c121-f59d-4dc4-8065-14722eba3a1a.png?alt=media&token=9955e77e-c703-4605-a469-b0c88fc17c3b",
+  "published": true,
+  "id": "56XJiClhj5k8sE9PISZ1"
+}

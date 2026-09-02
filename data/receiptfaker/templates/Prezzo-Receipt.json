@@ -1,0 +1,181 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T09:46:24.937Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Prezzo Receipt",
+  "description": "This receipt is from Prezzo, an Italian restaurant chain in London, United Kingdom. It records a dine-in transaction for two guests including pasta, baked dishes, salad, and soft drinks. The receipt includes VAT details at the UK 20% rate, subtotal, total amount due, table information, and service timestamps. It also notes the restaurant’s policy regarding optional service charges for larger groups and includes company registration details. The format reflects a standard UK casual dining restaurant POS receipt.",
+  "sections": [
+    {
+      "id": "ddd609ab-10a8-4a3e-a5f4-14ceb99db283",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2c5e76a5-3df3-42ac-b73e-186dcfb3ee33-image%20(4).jpg?alt=media&token=0a6f7a1d-e2d3-4e65-ab04-494352edeba4",
+      "size": 210,
+      "businessDetails": "\nVictoria Place Shopping Centre\nLondon\nSW1W 9EJ\nTEL: 0207 8295159\nVAT NO: 265097624",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3e886938-ad4d-4b3c-8671-4730aad70413",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCHK#: 54        TBL#: 5",
+          "total": "\n# 84"
+        },
+        {
+          "quantity": "",
+          "description": "Jurek",
+          "total": "GUESTS: 2"
+        },
+        {
+          "quantity": "",
+          "description": "05/11/2017   19:54:19",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ed5c904e-5877-453d-9da6-204eb450557b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Pasta",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Penne Arrabbiata",
+          "total": "9.95"
+        },
+        {
+          "quantity": "",
+          "description": "No Topping",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Al Forno",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Goat Chs Al Forn",
+          "total": "12.20"
+        },
+        {
+          "quantity": "",
+          "description": "Sides",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": " Mixed Salad",
+          "total": "4.80"
+        },
+        {
+          "quantity": "",
+          "description": "Soft Drinks",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Spark Lemon",
+          "total": "3.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Spark Orange",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "SUBTOTAL",
+          "total": "31.35"
+        },
+        {
+          "quantity": "",
+          "description": "MSS",
+          "total": "T#0000203--------"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "£31.35"
+        },
+        {
+          "quantity": "",
+          "description": "Sales-VAT  VAT Rate  VAT Amt ",
+          "total": "Total"
+        },
+        {
+          "quantity": "",
+          "description": "26.12  20.00%  5.23 ",
+          "total": "31.35"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ee13d6c-9db7-489d-ba9a-a3c93d62591d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "PREZZO STAFF REF ONLY",
+          "total": "25.35"
+        },
+        {
+          "quantity": "",
+          "description": "Last Serviced",
+          "total": "05/11/2017 20:37:37"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c0a1d722-8960-4679-bb3b-7bbe613bc619",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank You For Your Custom. Service charge not included except for tables of 7 or more when an optional 10% will be added to your bill.\n\n\nCiao. Spread the word on Trip Advisor. Prezzo LTD, 8 Johnston Road Woodford Green, IG8 0XA\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Prezzo-Receipt",
+  "published": true,
+  "id": "hmOMN8CLluAehJpTgoaf"
+}

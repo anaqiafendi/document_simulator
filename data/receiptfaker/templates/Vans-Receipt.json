@@ -1,0 +1,129 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Vans Receipt",
+  "description": "This receipt is a retail transaction record from a Vans store (Store #003) located in Orlando, Florida. It includes store identification details such as address, phone number, and store number, along with transaction timestamp information. The receipt features a clearly labeled purchase section, authorization and record identifiers, and payment details with masked card information. It contains a structured financial summary including subtotal, tax, and total amounts. POS-related metadata such as lane and CAP identifiers are present, and the receipt concludes with a promotional feedback message encouraging customer participation in a survey and giveaway program.",
+  "slug": "Vans-Receipt",
+  "createdAt": "$D2026-03-17T15:45:35.190Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4e01144b-4659-400b-916b-66d10340740d-image%20(60).jpg?alt=media&token=4f27c15a-5792-4d57-9a15-f87049e03f72",
+      "size": 236,
+      "businessDetails": "Vans #003\n\n8721 International Dr   Sep 30, 2023\nOrlando, FL 32819       1:14 PM\n(407) 345-5877          Lane",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PURCHASE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8c4f4975-e63f-45a4-8ab0-6b7232decbc6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TWINKLE TOES  ",
+          "total": "2.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1bfc714a-cf73-415c-8a47-ca431de711c1",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dce7b8ba-9f4d-4553-8fa2-e9b239b00783",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Authorization: 037948\nRecord: 34M\nCAP:04\n\nAMEX ***********4016\n\nUA Old Skool CLASSIC\nTRUE WHITE/BLACK\nItem: 36B35K2 1457/996\n\nSubtotal                        54.00\nTax                              4.32\nTotal                           58.32\n\nMasterCard ****************     58.32",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "23423af5-7726-4b94-bf00-a84cb87f42a6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All VANS we value your feedback. Please\nvisit vans.com/feedback to take a quick survey\nand enter to win a FREE pair of custom\nVANS. Giveaway 500 pairs a month!",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FnXwQY7llB1E8r3AcGKji%2FnXwQY7llB1E8r3AcGKji-9ba9e274-ab52-42b6-a317-08842fabe04b.png?alt=media&token=4673e33d-6c7e-43f2-a056-d3f21c0f1fff",
+  "published": true,
+  "id": "nXwQY7llB1E8r3AcGKji"
+}

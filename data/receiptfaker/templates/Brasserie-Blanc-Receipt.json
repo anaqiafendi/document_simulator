@@ -1,0 +1,165 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Brasserie Blanc Receipt",
+  "description": "This receipt is a restaurant dining transaction issued by Brasserie Blanc at its Watling Street location in London, United Kingdom. It includes full address, service details, and VAT registration information. The receipt presents an itemized list of food and beverage orders for a table of two, including quantities and pricing. A summary section provides total sales amount, followed by the final total in British Pounds. Additional notes include service charge policy and restaurant contact information. The format reflects a standard UK restaurant POS receipt with table service tracking and VAT compliance.",
+  "slug": "Brasserie-Blanc-Receipt",
+  "createdAt": "$D2026-04-18T18:55:47.765Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "e7e7b4b6-68dd-49f1-b7b0-1417530a69dc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Brasserie Blanc\n1 Watling Street, London\nEC4M 9BP\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "acafa169-56e1-4752-a8a5-8a30bee88845",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": " Till 3",
+          "total": ""
+        },
+        {
+          "quantity": "2",
+          "description": "Mark",
+          "total": "11 Mar 2015  14:15"
+        },
+        {
+          "quantity": "2",
+          "description": "Table: 410   c: 2",
+          "total": "Acc No: 1564"
+        },
+        {
+          "quantity": "2",
+          "description": "NAIKE CURRIE",
+          "total": "7.80"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "754971ff-d425-4478-9f5b-72e8abe5af43",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Soda Water",
+          "total": "5.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Cordial Lime",
+          "total": "1.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Lemon Cod Fillet",
+          "total": "32.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Leaf Salad ",
+          "total": "7.80"
+        },
+        {
+          "quantity": "2",
+          "description": "Mousseline Pots 250ml",
+          "total": "7.80"
+        },
+        {
+          "quantity": "2",
+          "description": "Beguile SB",
+          "total": "18.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Cappuccino",
+          "total": "3.25"
+        },
+        {
+          "quantity": 1,
+          "description": "Decaf Cappuccino",
+          "total": "3.25"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a44e1fee-5ecd-4461-b686-5c57054d94c4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Product Group Summary",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Sales:",
+          "total": "78.10"
+        },
+        {
+          "quantity": "",
+          "description": " Total",
+          "total": "£78.10"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "089a9921-c9f9-48bf-a33c-1616747327ce",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n Brasserie Blanc St Pauls  020 7213 0540  www.brasserieblanc.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6467ee87-beb0-453d-b76d-1bb8b14b52dc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n12.5% discretionary service charge\nadded to parties of 6 or more\nVAT No. 675 5389 69\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fk8fwQkz4NGATvvxSwDVz%2Fk8fwQkz4NGATvvxSwDVz-e94e2ed7-112d-4c31-92dd-b76e5cdb0fe8.png?alt=media&token=47a5ed6a-60dc-4754-971f-499911872869",
+  "published": true,
+  "id": "k8fwQkz4NGATvvxSwDVz"
+}

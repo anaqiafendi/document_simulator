@@ -1,0 +1,156 @@
+{
+  "currency": "",
+  "slug": "Plachutta-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T18:03:46.991Z",
+  "description": "This restaurant receipt from Plachutta documents a dine-in transaction processed at the Wollzeile location in Vienna, Austria. The receipt includes company identification details, full business address information, telephone and fax numbers, Austrian VAT registration information (UID-Nr.), commercial registration references, waiter identification, table number formatting, and transaction timestamp metadata. The POS structure contains subtotal formatting, final total presentation in euros, VAT-separated tax calculations with 10% and 20% categories, and tax-inclusive accounting aligned in standard Austrian restaurant thermal receipt formatting. Additional receipt elements include gratuity notices stating that tips are not included, multilingual customer appreciation messaging, gift voucher promotional text, and transaction reference numbering near the footer. The layout reflects a standard Austrian fine-dining thermal receipt with localized VAT accounting and hospitality-focused footer presentation.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Plachutta Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "ec6c1f0f-8016-4b24-86ad-758d7c3b6f88",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffb22932f-9994-4992-8eaa-73ed24acd404-image.jpg?alt=media&token=168af495-ab87-43d7-9595-7d5b8d9220c7",
+      "size": 249,
+      "businessDetails": "Mario Plachutta Ges.m.b.H.\n1010 Wien Wollzeile 38\nTel.Nr.: 512 15 77-0 Fax: 512 15 \nUID-Nr.ATU 15931703 FN.: 38282w\n\nKellner 67   Tisch 44/1\nKELLNER Savas Erbas\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7124677-9a3e-4f80-9d89-c841211928cf",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "3 Couvert               4,80",
+          "total": "14,40"
+        },
+        {
+          "quantity": "",
+          "description": "1 Tafelspitz",
+          "total": "35,80"
+        },
+        {
+          "quantity": "",
+          "description": "1 geroe Kalbsleber",
+          "total": "26,90"
+        },
+        {
+          "quantity": "",
+          "description": "1 Wiener Schnitzel",
+          "total": "27,90"
+        },
+        {
+          "quantity": "",
+          "description": "1 Erdaepfelsalat",
+          "total": "6,50"
+        },
+        {
+          "quantity": "",
+          "description": "1 /B BF Rot Plach   5,00",
+          "total": "8,40"
+        },
+        {
+          "quantity": "",
+          "description": "2 Coca Cola       5,00",
+          "total": "10,00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1edd6d86-69a9-4976-abb4-7329b90d1231",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Zwischensumme",
+          "total": "129,90"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c5fc9f9-42a0-4cfc-8005-593373fd7e2e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Endsumme   EURO",
+          "total": "129,90"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b9ccc20a-9367-4edc-ab62-920587df0211",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "%-Satz",
+          "description": "Netto    MwSt.       ",
+          "total": "Summe"
+        },
+        {
+          "quantity": "10",
+          "description": " 101,36       10,14",
+          "total": "111,50"
+        },
+        {
+          "quantity": "20",
+          "description": "15,33         3,07",
+          "total": "18,40"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "573fa972-6eeb-462d-8b5d-b3f335986646",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nAll taxes & charges are included\nTIP IS NOT INCLUDED\n\nWir danken für Ihren Besuch\nSchenken Sie Freude und Genuss\nein Gutschein von Plachutta\n\n\n26.12.23   14:44   #2086836",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "HJvNcWCwardvexChB6Y9"
+}

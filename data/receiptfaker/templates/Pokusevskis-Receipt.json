@@ -1,0 +1,179 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-29T08:33:11.122Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f6283611-6267-425d-a7da-04312c85efb2",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Pokusevskis.com\nBar and Restaurant\nHave a great day and thank you x\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "05168874-9f8a-46c0-a7e2-ada6c5736f62",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n07/12/2018",
+          "total": "\n21:51"
+        },
+        {
+          "quantity": "",
+          "description": "Table Number: 11",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d7382e31-da6c-4848-9428-c72aa198d165",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nYour Bill - Sit In",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x Almonds",
+          "total": "3.50"
+        },
+        {
+          "quantity": "",
+          "description": "1x Cakes",
+          "total": "4.50"
+        },
+        {
+          "quantity": "",
+          "description": "1x Churros Con Chocolate",
+          "total": "5.00"
+        },
+        {
+          "quantity": "",
+          "description": "1x Espresso Sml",
+          "total": "2.40"
+        },
+        {
+          "quantity": "",
+          "description": "1x Big wave pint",
+          "total": "5.20"
+        },
+        {
+          "quantity": "",
+          "description": "1x Reserva Rioja",
+          "total": "12.06"
+        },
+        {
+          "quantity": "",
+          "description": "1x Spinach & Feta Pie",
+          "total": "12.95"
+        },
+        {
+          "quantity": "",
+          "description": "1x Lamb",
+          "total": "5.75"
+        },
+        {
+          "quantity": "",
+          "description": "1x Chicken Wings",
+          "total": "8.95"
+        },
+        {
+          "quantity": "",
+          "description": "1x Burrata",
+          "total": "8.95"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSubtotal",
+          "value": "\n£87.20"
+        },
+        {
+          "title": "Total ",
+          "value": "£87.20"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "569a8980-c519-43bf-b8cc-fe434ac8cda7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nGratuity:",
+          "total": "\n£"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a1efe06-bbdb-4a07-af91-3a23cc7119e1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nOrder Number 145757",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "faae5914-5c5d-49b5-ad74-b49dd8549977",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f4635ae-d867-4976-a105-7b61a98fa27d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nLet us cater for you\nwww.pokusevskis.com\nVat no 246590291\n\n13 Shaw road\nStockport\nCheshire\nSK4 4AG",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Pokusevskis and identifies the business as Pokusevskis Bar and Restaurant, located at 13 Shaw Road, Stockport, Cheshire SK4 4AG, United Kingdom. The header contains the restaurant branding, transaction date and time, and table number. The receipt records a sit-in order consisting of Almonds, Cakes, Churros Con Chocolate, Espresso, Big Wave Pint, Rioja, Spinach & Feta Pie, Lamb, Chicken Wings, and Burrata. The financial section records the subtotal and total, with a blank line provided for an optional gratuity. The footer includes the order number, the restaurant's website, VAT number, and business address. The overall layout is representative of a United Kingdom restaurant POS receipt, combining table-service order management, itemized menu pricing, gratuity entry, and business information within a compact hospitality receipt format.",
+  "name": "Pokusevskis Receipt",
+  "slug": "Pokusevskis-Receipt",
+  "published": true,
+  "id": "kByHhZypld4fZecHI8hK"
+}

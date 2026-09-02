@@ -1,0 +1,177 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T19:24:59.625Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "18243e80-9760-4498-85b8-e80171e6988f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa9adef6b-f290-4a25-af3e-7d1d39b40194-image%20(6).jpg?alt=media&token=6b731785-ddc4-4686-b8ec-f44e13c7224b",
+      "size": 275,
+      "businessDetails": "Dobre marki. Super ceny. Zawsze.\nDealz Poland Sp. z o.o.\nul.J. H. Dabrowskiego 79A, 60-529 Poznan\nSklep \"DEALZ\"\nul. Krakowska 144\n26-110 Skarzysko-Kamienna\nwww.dealz.pl\nnumer rejestrowy BDO: 000006482\nNIP 781-19-53-269\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "58357146-bbfd-4210-81a1-d91029e4b419",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n2023-07-25",
+          "total": "\nnr wydr.054687/0189"
+        },
+        {
+          "quantity": "",
+          "description": "PARAGON FISKALNY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "497956 : 350G MILKA HAZELNUT SPREA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "1*14,00       14,00 B"
+        },
+        {
+          "quantity": "",
+          "description": "731006 : ELDORADO RUFFLE 130G",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "1*5,50         5,50 B"
+        },
+        {
+          "quantity": "",
+          "description": "\nSprzed. opod. PTU B",
+          "total": "\n8,00"
+        },
+        {
+          "quantity": "",
+          "description": "Kwota B 23,00%",
+          "total": "1,50"
+        },
+        {
+          "quantity": "",
+          "description": "Sprzed. opod. PTU B",
+          "total": "14,00"
+        },
+        {
+          "quantity": "",
+          "description": "Kwota B 8,00% ",
+          "total": "1,04"
+        },
+        {
+          "quantity": "",
+          "description": "Sprzed. opod. PTU D",
+          "total": "5,50"
+        },
+        {
+          "quantity": "",
+          "description": "Kwota D 0,00%",
+          "total": "2,54"
+        },
+        {
+          "quantity": "",
+          "description": "Podatek PTU",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nSUMA PLN",
+          "total": "\n27,50"
+        },
+        {
+          "quantity": "",
+          "description": "000244 #013 Operator 3",
+          "total": "18:39"
+        },
+        {
+          "quantity": "",
+          "description": "6F6B2017310C833F7AED647470520E8B557",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "19e7059c-3fbd-41aa-9e21-79864836c2e3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "7EP CCO 2102841326",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "21189815-9fd6-4fa1-ba5e-614c92cd7844",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "92c9d784-611f-4461-a5dd-72274e5c7f09",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nPlatnosc ",
+          "total": "\nGotowka   50,00"
+        },
+        {
+          "quantity": "",
+          "description": "RAZEM PLN",
+          "total": "27,50"
+        },
+        {
+          "quantity": "",
+          "description": "Reszta",
+          "total": "22,50"
+        },
+        {
+          "quantity": "",
+          "description": "Numer kasy",
+          "total": "03148,003"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal fiscal point-of-sale (POS) receipt issued by Dealz Poland Sp. z o.o. from the Dealz store located at ul. Krakowska 144, 26-110 Skarżysko-Kamienna, Poland. The header includes the retailer's branding, registered company information, store address, official website, BDO registration number, tax identification number (NIP), receipt print number, and transaction date. The fiscal summary reports taxable sales under multiple VAT categories (PTU A, PTU B, and PTU D), together with their corresponding VAT amounts, followed by the Grand Total (SUMA PLN). The payment section records the operator number, payment made in cash (Gotówka), the total amount due, change returned (Reszta), transaction number, and cash register number. This is a standard Polish retail fiscal receipt used by Dealz discount stores.",
+  "name": "Dealz Receipt",
+  "slug": "Dealz-Receipt",
+  "published": true,
+  "id": "X7IAfHQalF794EPFyPzq"
+}

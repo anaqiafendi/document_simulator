@@ -1,0 +1,128 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T19:06:52.563Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "811d48d9-fd13-422f-9dff-2dc43d0b1906",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa14c1e8f-0553-468f-8c07-fe9207ed7ab9-image%20(1).jpg?alt=media&token=18c5d958-e24e-405f-a8d5-3da7d03b5251",
+      "size": 230,
+      "businessDetails": " TAX INVOICE\nVIVA ENERGY RETAIL PTY LTD ABN: 95662372027\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb7587e9-23d3-4752-b5ed-b2d41ad75d4b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Reddy Express Logan Rd\n1201 Logan Road\nMount Gravatt QLD 4122\nAUS\nPh: +61 (07) 3532 7787",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "952243eb-ba6b-402b-a0d5-03800ff48d1f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDate: 3/02/2025  18:23\nTrans: 517084-S17840X2-1395/08/1444\n\n\nITEM          QTY       $        $",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8dbaa2b7-af9e-44a8-a028-c352119cf0b8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nShell V-Power Unleaded 98 47.70 L  1.889  82.59\nPump number: 2, Sales Id: 1591\n189.9 c/L\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "db2286a3-7c0c-49d6-a072-76d3a8426bbb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTOTAL ($)",
+          "total": "\n82.59"
+        },
+        {
+          "quantity": "",
+          "description": "GST INCLUDED IN TOTAL",
+          "total": "7.51"
+        },
+        {
+          "quantity": "",
+          "description": "\nEFTPOS",
+          "total": "\n82.59"
+        },
+        {
+          "quantity": "",
+          "description": "*Indicates GST free item",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "58973a73-fe09-4966-ba17-5b0def989076",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "79XXXXX4036",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "13564d6c-9129-4c4b-9988-572cb5405e1f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n www.reddyexpress.com.au",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ec98063b-51df-46e0-8b9e-8b653f137b04",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "559e880d-23d9-4ec5-9b5b-6f612d593f3b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0517840Z1009515",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued under the Coles Express brand and identifies the transaction as a Tax Invoice from Viva Energy Retail Pty Ltd. The receipt records a fuel purchase at the Mount Gravatt, Queensland service station, including the transaction date and time, pump number, sales identifier, and quantity of Shell V-Power Unleaded 98 fuel purchased. The financial section records the total amount paid and confirms that Australian GST is included in the purchase price. Payment was completed using EFTPOS, and the receipt concludes with the retailer's website. The overall layout is representative of an Australian fuel station tax invoice, combining fuel purchase details, GST reporting, and electronic payment processing within a compact receipt format.",
+  "published": true,
+  "name": "Coles Express Receipt",
+  "slug": "Coles-Express-Receipt",
+  "id": "8GLOJCdDCRQanvzTBcFt"
+}

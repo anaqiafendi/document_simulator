@@ -1,0 +1,106 @@
+{
+  "backgroundType": "CRUMPLED_1",
+  "parentName": "Office Depot",
+  "description": "This electronics retail receipt from Saturn documents a cash transaction processed at the Simeonstraße location in Trier, Germany. The receipt includes company identification details, full store address information, German VAT registration number, product reference formatting, and timestamp metadata. The POS structure contains total amount presentation in euros, cash payment confirmation (“Bar EUR”), VAT-inclusive calculations, and net merchandise value formatting aligned in standard German electronics retail thermal receipt formatting. Additional receipt elements include product return and exchange policy notices, transaction reference identifiers, barcode formatting, and customer service instructions near the footer. The layout reflects a standard German consumer electronics retail thermal receipt with localized VAT accounting and return policy presentation.",
+  "isParent": true,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "numberFormat": "LEFT",
+  "createdAt": "$D2026-05-31T12:05:03.187Z",
+  "textColor": "#101828",
+  "imageUrl": "",
+  "currency": "",
+  "backgroundCrumpled": false,
+  "sections": [
+    {
+      "bottomDividerType": "DASHES",
+      "id": "4d9ae254-5976-460e-a67c-de1ce84b4e09",
+      "size": 278,
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "bottomDivider": true,
+      "businessDetails": "SATURN\nMega Markt GmbH\nSimeonstrasse 53\n54290 TRIER\nDE 811686941\n",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5d7579fa-50a2-44ae-9817-ee9f445fc6fe-image%20(15).jpg?alt=media&token=de23479d-fcdb-435a-a321-5625db5af496",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "id": "b3d1d480-975e-4a78-bcb3-952b73b27c4d",
+      "bottomDividerType": "DASHES",
+      "custom": "\n1405.1899057",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "DASHES",
+      "totalDivider": true,
+      "bottomDivider": false,
+      "type": "ITEMS",
+      "total": "",
+      "totalText": "",
+      "totalLines": [],
+      "id": "18f83085-0906-4f22-a609-ed7b574fdf06",
+      "bottomDividerType": "DASHES",
+      "items": [
+        {
+          "quantity": "",
+          "total": "49,99 b",
+          "description": "NIN.3DS POKEMON ALPHA"
+        },
+        {
+          "quantity": "",
+          "total": "49,99",
+          "description": "Total EUR"
+        },
+        {
+          "quantity": "",
+          "total": "49,99",
+          "description": "Bar EUR"
+        },
+        {
+          "total": "\n\n7,98",
+          "description": "\n\nincl. 19,00% MwSt. (b)",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "42,01",
+          "description": "Netto-Warenwert"
+        }
+      ],
+      "date": "$undefined"
+    },
+    {
+      "alignment": "LEFT",
+      "type": "CUSTOM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "custom": "\nUmtausch: innerhalb 30 Tagen, mit,\nunbenutzt und originalverpackt.\n\n\n66079 S104 106     8888 25.11.2014",
+      "id": "1140edc4-b59b-4c1f-bd35-2dd85535c45a",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "id": "d667f6f2-8ca9-45d1-9b14-27e2a8c93e2a",
+      "size": 77,
+      "type": "BARCODE",
+      "length": 500,
+      "bottomDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "type": "CUSTOM",
+      "id": "be004650-696a-4291-a9d3-961c8a896094",
+      "bottomDividerType": "DASHES",
+      "custom": "6 6 0 7 9 0 0 2 0 41 0 6 2 0 1  4 1",
+      "date": "$undefined"
+    }
+  ],
+  "fontType": "MERCHANT_COPY",
+  "slug": "Saturn-Receipt",
+  "name": "Saturn Receipt",
+  "published": true,
+  "id": "EocXG4U7FfKy3BHZU7oW"
+}

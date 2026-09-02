@@ -1,0 +1,124 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Binion's Road House Receipt",
+  "description": "This receipt is issued by Binion's Road House and identifies the restaurant as Roadhouse Inc., 1565 Four Seasons Boulevard, Hendersonville, North Carolina 28792. The header contains the restaurant name, business entity, street address, contact telephone number, server information, table reference, check number, number of guests, and transaction date and time. The receipt documents a dine-in order for four guests, including two 6 oz Filets, an Iced Tea, a 10-inch Create Pizza, Fried Mozzarella Cheese, Fried Pickles, and several waters. The financial section separates the food and beverage amounts, records $4.55 in tax, and shows a final total of $71.99. The footer provides the restaurant's office mailing address in Hendersonville. The overall layout is representative of a United States restaurant POS receipt, combining table-service information, food and beverage itemization, sales-tax reporting, and transaction details.",
+  "slug": "Binion's-Road-House-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T14:55:50.695Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "590be176-e3f5-43a2-961f-360b10ba5c1c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "Binion's Road House\nRoadhouse Inc.\n1565 Four Seasons Blvd.\nHendersonville, NC 28792\n[828] 693-0492\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9aea7117-7d05-4d75-8cb6-fa5726d5daf0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "1501 Amy B",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9728065b-a5f2-4ef4-b9df-f0d9742520d0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTbl P1/1     Chk 5071        Gst 4\nJan13'19 06:37PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5fd16106-f8df-4327-a673-5c3c79e33681",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nDINE IN",
+          "value": ""
+        },
+        {
+          "title": "\n1  Water",
+          "value": "\n0.00"
+        },
+        {
+          "title": "1  Filet 6oz",
+          "value": "21.99"
+        },
+        {
+          "title": "1  Water",
+          "value": "0.00"
+        },
+        {
+          "title": "1  Filet 6oz ",
+          "value": "21.99"
+        },
+        {
+          "title": "1  Iced Tea",
+          "value": "2.49"
+        },
+        {
+          "title": "1  Create Pizz 10\"",
+          "value": "6.99"
+        },
+        {
+          "title": "1  Water",
+          "value": "0.00"
+        },
+        {
+          "title": "1  Fried Mozz Chz",
+          "value": "7.99"
+        },
+        {
+          "title": "1  Fried Pickles",
+          "value": "5.99"
+        },
+        {
+          "title": "\nFood",
+          "value": "\n64.95"
+        },
+        {
+          "title": "N/A Beverage",
+          "value": "2.49"
+        },
+        {
+          "title": "Tax",
+          "value": "4.55"
+        },
+        {
+          "title": "07:22PM Total",
+          "value": "71.99"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1ae36a63-2b61-45f4-8b96-5e64bdc6e67f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nBinion's Office\nP.O. Box 5007\nHendersonville, NC 28793",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "uiWz01ODnwaye21O6D6F"
+}

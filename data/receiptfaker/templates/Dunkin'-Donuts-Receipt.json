@@ -1,0 +1,89 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Dunkin’ Donuts Receipt",
+  "description": "A printed customer receipt from Dunkin’ Donuts (PRS Restaurants AG, Zürichstrasse 1, 8001 Zürich, Switzerland). The receipt shows transaction details including register (Kassa 3), receipt number (Bon 6679), date and time (25 Jan 2018, 16:08), and items purchased such as a Single Donut and an Iced Donut Cold Brew Latte Macchiato with 3.5% milk and vanilla. It lists subtotal, total (CHF 11.10), cash received (CHF 21.10), change returned (CHF 10.00), and VAT details (2.5%). The receipt ends with a thank-you message, feedback contact email",
+  "slug": "Dunkin'-Donuts-Receipt",
+  "createdAt": "$D2026-02-14T17:48:34.098Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "d26b2d63-3f2e-4ff9-a072-a5cc6045787d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F370f6f97-00b8-4033-a46e-f60eab62b3e4-dunkin%20donuts.jpg?alt=media&token=5a5266f9-d78c-47a8-a98f-c67b963472a5",
+      "size": 174,
+      "businessDetails": "PRS Restaurants AG\nZurcherstrasse 1\n8001 Zurich\nTel. 044 211 65 61",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d3e596c2-ecb4-4409-a379-b7a0704b6b66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Kasse 3\n------------------------------------\nBon 6679   25Jan 18 16:08\n------------------------------------\n       Take Away",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf7a30a9-0ff3-4bc4-9b31-9a73500ff150",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Single Donut ",
+          "total": "3.20"
+        },
+        {
+          "quantity": "1",
+          "description": "1 Donut Cold Brew \nLatte Mac\n3,5% Milch\nVanille",
+          "total": "7.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Cash ",
+          "value": "21.10"
+        },
+        {
+          "title": "Total →",
+          "value": "11.10"
+        },
+        {
+          "title": "Zahlung → ",
+          "value": "11.10"
+        },
+        {
+          "title": "Ruckgeld",
+          "value": "10"
+        }
+      ],
+      "total": "10.00",
+      "totalText": "Ruckgeld",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b964451-a697-4027-92ae-5a757061f628",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Vielen Dank fur Ihren Einkauf\nBis zum nachsten Mal!\n\nFeedback und Kritik:\ninfo@dunkindonuts.ch\n\nwww.dunkindonuts.ch",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FWVrpBh5bk9sU3BRqyDPo%2FWVrpBh5bk9sU3BRqyDPo-3440a655-c731-41c2-93a7-477a33d3de38.png?alt=media&token=a2fddbfc-3e46-4e2d-a733-466679d4dbb8",
+  "published": true,
+  "id": "WVrpBh5bk9sU3BRqyDPo"
+}

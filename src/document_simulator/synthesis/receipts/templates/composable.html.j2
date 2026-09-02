@@ -1,0 +1,290 @@
+{#-
+  Composable receipt template (v0.4).
+
+  One data-driven template that replaces the five hand-written ones: it walks
+  ``receipt.sections`` (a tuple of ReceiptBlock) and dispatches on ``block.type``.
+  Every presentation decision is driven by ``style`` (a ReceiptStyle), whose
+  taxonomy vocabulary is translated to CSS in the maps below.
+
+  Context provided by render.py:
+      receipt      -- Receipt
+      style        -- ReceiptStyle (never None; render.py substitutes defaults)
+      font_faces   -- list of {family, uri} to emit as @font-face
+      font_stack   -- resolved CSS font-family stack for `style.font_type`
+      page_width   -- CSS length, e.g. "80mm"
+      page_height  -- CSS length, e.g. "400mm" (fixed with headroom -- see FDD #8)
+
+  Every text token carries BOTH `data-token-id` (unique + stable) and
+  `data-semantic` (its semantic role). render.py harvests both from the box tree.
+-#}
+{#- ------------------------------------------------------------------ -#}
+{#- Taxonomy -> CSS translation tables. Module-level `set` so macros see them. -#}
+{#- ------------------------------------------------------------------ -#}
+{%- set _divider_glyph = {
+      "DASHES": "-",
+      "STARS":  "*",
+      "EQUALS": "=",
+      "COLONS": ":",
+      "DOTS":   ".",
+    } -%}
+{%- set _emphasis_scale = {
+      "NONE":        "1",
+      "PERCENT_10":  "1.1",
+      "PERCENT_20":  "1.2",
+      "PERCENT_50":  "1.5",
+      "PERCENT_75":  "1.75",
+      "PERCENT_100": "2",
+    } -%}
+{%- set _align = {
+      "LEFT": "left", "CENTER": "center", "RIGHT": "right", "UNSET": "center",
+    } -%}
+{%- set _money_semantic = {
+      "ITEM":     "item_price",
+      "SUBTOTAL": "subtotal",
+      "DISCOUNT": "discount",
+      "TAX":      "tax",
+      "TIP":      "tip",
+      "TOTAL":    "total",
+      "TENDER":   "tender",
+      "CHANGE":   "change",
+      "AUTH":     "auth",
+      "META":     "meta",
+    } -%}
+{#- Amount-column alignment. UNSET follows the corpus default (right). -#}
+{%- set _amount_align = {
+      "LEFT": "left", "RIGHT": "right", "RIGHT_SPACE": "right", "UNSET": "right",
+    } -%}
+{%- set emphasis = _emphasis_scale.get(style.total_emphasis, "1") -%}
+{%- set header_align = _align.get(style.header_alignment, "center") -%}
+{%- set qty_visible = style.quantity_column not in ("ABSENT", "NO_ITEMS") -%}
+
+{#- A divider row. DASHES/STARS/EQUALS/COLONS/DOTS print a clipped run of the
+    glyph (what a thermal printer actually does); EMPTY prints a blank line;
+    NONE prints nothing at all. -#}
+{%- macro divider(kind) -%}
+{%- if kind in _divider_glyph -%}
+<div class="divider divider-{{ kind|lower }}">{{ _divider_glyph[kind] * 96 }}</div>
+{%- elif kind == "EMPTY" -%}
+<div class="divider divider-empty"></div>
+{%- endif -%}
+{%- endmacro -%}
+
+{#- One money row: label on the left, amount (or code text) on the right. -#}
+{%- macro money_row(row, sid, idx) -%}
+{%- set role = row.role|string -%}
+{%- set semantic = _money_semantic.get(role, "meta") -%}
+{%- if role == "TOTAL" %}{{ divider(style.total_divider_style) }}{% endif -%}
+<div class="row money-row role-{{ semantic }}">
+  <span class="label"
+    >{%- if row.label -%}<span data-token-id="{{ sid }}_money{{ idx }}_label" data-semantic="{{ semantic }}">{{ row.label }}</span>{%- endif -%}</span
+  ><span class="amount"
+    >{%- if row.amount is not none -%}<span data-token-id="{{ sid }}_money{{ idx }}_amount" data-semantic="{{ semantic }}">{{ "%.2f"|format(row.amount) }}</span>{%- elif row.text -%}<span data-token-id="{{ sid }}_money{{ idx }}_amount" data-semantic="{{ semantic }}">{{ row.text }}</span>{%- endif -%}</span
+  >
+</div>
+{%- endmacro -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page {
+    /* FDD #8: `size: 80mm auto` silently degrades to A4 in WeasyPrint 62.3, and
+       render.py only reads document.pages[0] -- so any spill to page 2 would
+       silently drop tokens. A fixed height with generous headroom instead. */
+    size: {{ page_width }} {{ page_height }};
+    margin: 2mm;
+  }
+{% for face in font_faces %}
+  @font-face { font-family: "{{ face.family }}"; src: url("{{ face.uri|safe }}"); }
+{% endfor %}
+  html, body { margin: 0; padding: 0; background: #ffffff; color: #000000; }
+  body {
+    font-family: {{ font_stack|safe }};
+    font-size: 10pt;
+    line-height: 1.25;
+  }
+
+  /* --- generic block scaffolding ------------------------------------- */
+  .block { margin: 0; padding: 0; }
+  .align-left   { text-align: left; }
+  .align-center { text-align: center; }
+  .align-right  { text-align: right; }
+
+  .row { display: flex; justify-content: space-between; align-items: baseline; }
+  .row .label  { flex: 1 1 auto; text-align: left; }
+  .row .amount {
+    flex: 0 0 auto;
+    min-width: 5em;
+    text-align: {{ _amount_align.get(style.number_format, "right") }};
+{%- if style.number_format == "RIGHT_SPACE" %}
+    padding-right: 1.5em;
+{%- endif %}
+  }
+
+  /* --- divider_style / total_divider_style ---------------------------- */
+  .divider {
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 0;
+    line-height: 1;
+    margin: 2px 0;
+  }
+  .divider-empty { height: 1.25em; }
+
+  /* --- total_emphasis: {{ style.total_emphasis }} ---------------------- */
+  .money-row.role-total {
+    font-size: {{ emphasis }}em;
+{%- if style.total_emphasis != "NONE" %}
+    font-weight: 700;
+{%- endif %}
+  }
+
+  /* --- HEADER --------------------------------------------------------- */
+  .header { text-align: {{ header_align }}; }
+  .header .merchant { font-weight: 700; font-size: 1.2em; }
+  .header .logo { max-width: 40%; max-height: 18mm; display: block; }
+{%- if header_align == "center" %}
+  .header .logo { margin-left: auto; margin-right: auto; }
+{%- elif header_align == "right" %}
+  .header .logo { margin-left: auto; }
+{%- endif %}
+
+  /* --- ITEMS ---------------------------------------------------------- */
+  .item-row .qty { display: inline-block; min-width: 2em; }
+  .item-row .sku { }
+
+  /* --- META (two metadata columns) ------------------------------------ */
+  .meta-cols { display: flex; justify-content: space-between; }
+  .meta-col { flex: 1 1 50%; }
+  .meta-col.right { text-align: right; }
+  .meta-field .meta-title { font-weight: 700; }
+
+  /* --- BARCODE -------------------------------------------------------- */
+  .barcode-bars {
+    height: 12mm;
+    margin: 1mm 0;
+    /* WeasyPrint 62.3 does not implement the two-position colour-stop
+       shorthand (`#000 0 1px`) -- it drops the whole gradient. Explicit
+       single-position stops only. */
+    background: repeating-linear-gradient(
+      to right,
+      #000 0px, #000 1px, #fff 1px, #fff 3px,
+      #000 3px, #000 5px, #fff 5px, #fff 6px,
+      #000 6px, #000 7px, #fff 7px, #fff 10px);
+  }
+  .barcode-value { text-align: center; letter-spacing: 0.15em; font-size: 0.9em; }
+</style>
+</head>
+<body
+  data-style-font="{{ style.font_type }}"
+  data-style-divider="{{ style.divider_style }}"
+  data-style-total-divider="{{ style.total_divider_style }}"
+  data-style-total-emphasis="{{ style.total_emphasis }}"
+  data-style-number-format="{{ style.number_format }}"
+  data-style-header-alignment="{{ style.header_alignment }}"
+  data-style-quantity-column="{{ style.quantity_column }}"
+  data-style-background="{{ style.background_type }}">
+{% for block in receipt.sections %}
+{%- set sid = "s%d"|format(loop.index0) -%}
+{%- set btype = block.type|string -%}
+{%- set block_align = _align.get(block.alignment, "center") -%}
+
+{%- if btype == "HEADER" %}
+<div class="block header">
+  {%- if block.logo_path %}
+  <img class="logo" src="{{ block.logo_path }}" alt="">
+  {%- endif %}
+  {%- if receipt.merchant %}
+  <div class="merchant"><span data-token-id="{{ sid }}_merchant" data-semantic="merchant">{{ receipt.merchant }}</span></div>
+  {%- endif %}
+  {%- set details = block.business_details or receipt.address %}
+  {%- if details %}
+  <div class="address"><span data-token-id="{{ sid }}_address" data-semantic="address">{{ details }}</span></div>
+  {%- endif %}
+</div>
+
+{%- elif btype == "ITEMS" %}
+<div class="block items align-{{ block_align }}">
+  {%- for idx in block.item_indices %}
+  {%- if idx >= 0 and idx < receipt.items|length %}
+  {%- set item = receipt.items[idx] %}
+  <div class="row item-row">
+    <span class="label"
+      >{%- if block.show_quantity and qty_visible -%}<span class="qty" data-token-id="{{ sid }}_item{{ idx }}_qty" data-semantic="item_qty">{{ item.qty }}</span>{%- endif -%}<span class="sku" data-token-id="{{ sid }}_item{{ idx }}_sku" data-semantic="item_sku">{{ item.sku }}</span></span
+    ><span class="amount"
+      ><span data-token-id="{{ sid }}_item{{ idx }}_price" data-semantic="item_price">{{ "%.2f"|format(item.total) }}</span></span
+    >
+  </div>
+  {%- endif %}
+  {%- endfor %}
+  {%- for row in block.money_rows %}
+  {{ money_row(row, sid, loop.index0) }}
+  {%- endfor %}
+</div>
+
+{%- elif btype == "PAYMENT" %}
+<div class="block payment align-{{ block_align }}">
+  {%- for row in block.money_rows %}
+  {{ money_row(row, sid, loop.index0) }}
+  {%- endfor %}
+  {%- if receipt.payment_last4 %}
+  <div class="row card-row">
+    <span class="label">CARD</span
+    ><span class="amount"><span data-token-id="{{ sid }}_card" data-semantic="tender">****{{ receipt.payment_last4 }}</span></span>
+  </div>
+  {%- endif %}
+</div>
+
+{%- elif btype == "DATE" %}
+<div class="block date align-{{ block_align }}">
+  {%- if block.text %}
+  <span data-token-id="{{ sid }}_date" data-semantic="date">{{ block.text }}</span>
+  {%- endif %}
+</div>
+
+{%- elif btype == "BARCODE" %}
+<div class="block barcode align-{{ block_align }}">
+  <div class="barcode-bars"></div>
+  {%- if block.barcode_value %}
+  <div class="barcode-value"><span data-token-id="{{ sid }}_barcode" data-semantic="barcode">{{ block.barcode_value }}</span></div>
+  {%- endif %}
+</div>
+
+{%- elif btype == "META" %}
+<div class="block meta align-{{ block_align }}">
+  <div class="meta-cols">
+    <div class="meta-col left">
+      {%- for field in block.left_fields %}
+      <div class="meta-field">
+        <span class="meta-title" data-token-id="{{ sid }}_metaL{{ loop.index0 }}_title" data-semantic="meta">{{ field.title }}</span>
+        <span class="meta-value" data-token-id="{{ sid }}_metaL{{ loop.index0 }}_value" data-semantic="meta">{{ field.value }}</span>
+      </div>
+      {%- endfor %}
+    </div>
+    <div class="meta-col right">
+      {%- for field in block.right_fields %}
+      <div class="meta-field">
+        <span class="meta-title" data-token-id="{{ sid }}_metaR{{ loop.index0 }}_title" data-semantic="meta">{{ field.title }}</span>
+        <span class="meta-value" data-token-id="{{ sid }}_metaR{{ loop.index0 }}_value" data-semantic="meta">{{ field.value }}</span>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+</div>
+
+{%- else %}
+{#- CUSTOM, and any future BlockType, degrade to a free-text band. -#}
+<div class="block custom align-{{ block_align }}">
+  {%- if block.text %}
+  <span data-token-id="{{ sid }}_text" data-semantic="footer">{{ block.text }}</span>
+  {%- endif %}
+  {%- for row in block.money_rows %}
+  {{ money_row(row, sid, loop.index0) }}
+  {%- endfor %}
+</div>
+{%- endif %}
+
+{{ divider(block.bottom_divider) }}
+{% endfor %}
+</body>
+</html>

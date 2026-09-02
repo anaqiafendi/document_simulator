@@ -1,0 +1,205 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T09:08:00.042Z",
+  "description": "$3e",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "B&Q Receipt",
+  "slug": "BandQ-Receipt",
+  "sections": [
+    {
+      "id": "d74ab670-e3ce-44cc-aed8-92241bf2e03e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc6026da6-0e99-4cd1-bcbc-e9c0d75e4c42-image%20(3).jpg?alt=media&token=e149d054-e6a4-4d48-be4b-0d22a3e1aba1",
+      "size": 227,
+      "businessDetails": "B&Q\nWeymouth 1025\n2 Jubilee Close, Weymouth, Dorset\nDT4 7RG\n01305 768400\nEmail: Weymouth.DutyManager\n@b-and-q.co.uk\nwww.diy.com\n90 Days Returns Policy\nSee Overleaf",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "af6ac1dd-b9e8-498a-b4dc-4462c1a4bb12",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1x   RONSEAL BASECOAT 2.5L",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "5010214893997",
+          "total": "£24.00"
+        },
+        {
+          "quantity": "",
+          "description": "1x   HARRIS TRADE BIN ROLLER & 3 ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "5000253011414",
+          "total": "£15.00"
+        },
+        {
+          "quantity": "",
+          "description": "1x   HEX BOLT NUTWASHER GRAB PACK M8",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "9663602741886",
+          "total": "£24.00"
+        },
+        {
+          "quantity": "",
+          "description": "3 Item(s)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "\n\n£63.00"
+        },
+        {
+          "quantity": "",
+          "description": "Card sale",
+          "total": "-£63.00"
+        },
+        {
+          "quantity": "",
+          "description": "************4971",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "843354208B058269",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c441369a-fb1b-408b-9ba3-41b8dca40413",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Mastercard",
+          "total": "CONTACTLESS"
+        },
+        {
+          "quantity": "",
+          "description": "Number",
+          "total": "************4971"
+        },
+        {
+          "quantity": "",
+          "description": "Auth Code",
+          "total": "R29344"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "A0000000041010"
+        },
+        {
+          "quantity": "",
+          "description": "App Date",
+          "total": "240801"
+        },
+        {
+          "quantity": "",
+          "description": "App Seq No: 00",
+          "total": "Issue"
+        },
+        {
+          "quantity": "",
+          "description": "Merchant ID",
+          "total": "##87009"
+        },
+        {
+          "quantity": "",
+          "description": "Terminal ID",
+          "total": "29013"
+        },
+        {
+          "quantity": "",
+          "description": "Permanent TID",
+          "total": "29870222"
+        },
+        {
+          "quantity": "",
+          "description": "Reference",
+          "total": "0106 1025 102592"
+        },
+        {
+          "quantity": "",
+          "description": "Please debit my account",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "39db6ec1-2c0b-4ed5-bfd6-78bb2fa6c407",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nNO CARDHOLDER VERIFICATION",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b0d744ed-45a8-4789-8c45-a93628841f77",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nF – FSC Mix 70% SA-COC-008048",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb62794f-5ce7-4a97-b838-7ec86a8616c3",
+      "type": "BARCODE",
+      "size": 84,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "20c7741d-7700-4ef9-9f2c-da7f400188e4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "RT10251025B0215122-4D10B94",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "WD0haR23opklNFxXfzWo"
+}

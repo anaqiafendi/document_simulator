@@ -1,0 +1,114 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Texas Roadhouse Receipt",
+  "description": "This receipt represents a point-of-sale transaction from Texas Roadhouse located at 14365 FM 1488, Magnolia, TX 77354, with telephone number (281)-766-0320. The header features the Texas Roadhouse logo followed by full store identification and address details. The receipt includes table number (Tbl 1), check number (Chk #129), guest count (Guest 5), and date/time stamp (Jan 01 08 03:30PM). Itemized entries appear under the server identifier (3503 Dana U). The financial summary section lists Subtotal, Tax, and Total, followed by a designated Tip line and final Total line formatted for guest completion. The footer includes courtesy messaging and loyalty program reference (“Thank You,” “Please visit us again,” and “Always a Card here”), along with separator lines typical of restaurant POS formatting. The structure reflects a full-service restaurant receipt with table tracking, guest count, server identification, and tip-entry formatting.",
+  "slug": "Texas-Roadhouse-Receipt",
+  "createdAt": "$D2026-02-25T15:05:11.785Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "03912827-e467-476e-943a-70e2541aaa0e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3326c127-1d4c-4986-9cfb-06835a7eb002-texas%20roadhouse.jpg?alt=media&token=45d17392-824e-4112-9fdd-a23b1bcfd5aa",
+      "size": 157,
+      "businessDetails": "TEXAS ROADHOUSE\n14365 FM 1488\nMAGNOLIA TX\n77354\nTel. : 281-766-0320",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "225ad8a3-1263-4416-8da5-d0fe14d49899",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "3503 Dana U",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "ba2db085-1618-4911-9b19-53dc1dfa0626",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tbl 514/1      Chk 4129      Gst 5\nJan 01'08 03:30PM\n*** Customer Copy ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ead9b341-c6df-4804-8811-8b0e58f6ce8d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Sirloin 8oz w/Shrimp",
+          "total": "20.99"
+        },
+        {
+          "quantity": "4",
+          "description": "Ribeye 12oz w/Ribs",
+          "total": "30.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Cactus blossom",
+          "total": "8.49"
+        },
+        {
+          "quantity": 1,
+          "description": "fried pickles",
+          "total": "7.49"
+        },
+        {
+          "quantity": "2",
+          "description": "Tater Skins",
+          "total": "8.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Unsweet Tea",
+          "total": "1.99"
+        },
+        {
+          "quantity": "5",
+          "description": "Coke",
+          "total": "1.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "211.84"
+        },
+        {
+          "title": "Tax",
+          "value": "17.48"
+        }
+      ],
+      "total": "229.32",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4e73ccb-e791-4003-8d36-47e3f1fead15",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tip __________________________\n\nTotal ________________________\n\n================================\n\nThank You\nPlease visit us again\nRemember you can use the\nAlshaya Card here\n\n================================\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FRvsBsDp6r0JVr7gslGSd%2FRvsBsDp6r0JVr7gslGSd-de5d926c-f0e4-43c1-a153-a841ce70e215.png?alt=media&token=2bf643ec-5775-4499-9b60-6f0bb8c5846d",
+  "published": true,
+  "id": "RvsBsDp6r0JVr7gslGSd"
+}

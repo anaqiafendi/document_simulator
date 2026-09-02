@@ -1,0 +1,95 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Sally Beauty Receipt",
+  "description": "This beauty supply retail receipt from Sally Beauty Supply displays the brand header followed by the store name, street address, and phone number. The receipt includes a timestamp with date and time, register number, and transaction number. A barcode transaction identifier appears above the financial summary section showing subtotal, tax, and total fields in standard POS alignment. The footer contains promotional messaging, return policy reference, rewards program mention, and website information, consistent with specialty personal care retail receipt formatting.",
+  "slug": "Sally-Beauty-Receipt",
+  "createdAt": "$D2026-02-19T15:36:21.268Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "8ebdbc43-c4e0-43a7-9b4e-56e676d07521",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6e465bf3-79b1-4695-aa31-904d8675e5bf-sally.jpg?alt=media&token=8c842e56-96fc-4777-b4c9-0888560cc973",
+      "size": 229,
+      "businessDetails": "Sally Beauty Supply #0377\n1035 W Baseline Rd #106\n(602) 305-1892\n02-18-2022  12:01 PM\n\nReg: 02 Trans: 1007",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "698e7020-544c-48b0-ad58-b24d8c04ce44",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "41629ce2-a103-43d4-a236-c9d22064fb29",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "41921852124562325",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a267eeb-ac11-44ae-92ef-cc64942023f7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "980d83ff-72a7-4964-a41c-803b09501c8c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE YOU RECEIVE\nSee back of receipt for return policy\n\nHave a More Beautiful Day!\nJoin Sally Beauty Rewards\nsallybeauty.com\n\nThe Salon Professional Catalog\navailable online",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FeUy9FtQ8RyfJazI2PKR1%2FeUy9FtQ8RyfJazI2PKR1-a112cc9b-3b04-4e3c-ab9e-8906cdd9c661.png?alt=media&token=0e21ddb1-63c9-417e-9649-cb559537495a",
+  "published": true,
+  "id": "eUy9FtQ8RyfJazI2PKR1"
+}

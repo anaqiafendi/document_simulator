@@ -1,0 +1,85 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Kushiyu Restaurant Receipt",
+  "description": "This receipt template represents a dine-in transaction from Kushiyu, a Japanese restaurant specializing in sushi and kushiyaki, located in Tarzana, California. It features the Kushiyu logo at the top, including the vertical emblem with Japanese characters and hook graphic, followed by the restaurant name in bold uppercase text. Beneath the logo, the receipt includes the subtitle “SUSHI & KUSHIYAKI,” full street address, city and ZIP code, contact phone number, and website URL. This template is suitable for restaurant receipt libraries, mock POS dining transactions, expense documentation samples, and receipt generator tools requiring realistic Kushiyu branding and formatting.",
+  "slug": "Kushiyu-Restaurant-Receipt",
+  "createdAt": "$D2026-02-11T12:21:54.667Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "511f93d7-c436-4bca-b813-973870163af3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F626af01d-10e3-43c1-8125-e19ef0123736-kushiyu.jpg?alt=media&token=24305a87-b149-4363-a7ee-ddf1d5a7523f",
+      "size": 193,
+      "businessDetails": "SUSHI & KUSHIYAKI\n\n813 VENTRA BLVD\nTarzana, CA 91356\n\n(818) 609-9050\nwww.kushiyu.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "605a2635-176f-477f-95e4-3493a8aab766",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Table 116        Check 70014\nSeat 2           Guests 2\n\nDate: 2/24/21           9:28pm\nWaiter: St #2",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS"
+    },
+    {
+      "id": "75630fa0-72d3-4af6-a028-3dac770003c0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1f24c425-699f-49df-8446-af7262b09ff6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTHANK YOU\nFOR DINING AT\nKUSHIYU\nPLEASE COME AGAIN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fxq5PXfepvUZNWmfM04rk%2Fxq5PXfepvUZNWmfM04rk-f89389d7-0d91-4126-a977-69c36a4b3af0.png?alt=media&token=b65c3bd8-dbd1-4fe6-9d28-43cfc3a0258c",
+  "published": true,
+  "id": "xq5PXfepvUZNWmfM04rk"
+}

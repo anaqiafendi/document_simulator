@@ -1,0 +1,65 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "NAPA Auto Parts Receipt",
+  "description": "This automotive parts retail receipt from NAPA Auto Parts features the NAPA logo at the header followed by the store name Crackerjack Auto Parts, a full street address in Uniondale, New York, and a phone number. The receipt includes an employee identifier, invoice number, customer type label, and a timestamp in numeric date and time format. A structured description table presents columns for description, quantity, net, and total values separated by dashed lines. The financial summary section shows subtotal, sales tax percentage, and total due, followed by payment tendered and change due fields. The footer provides store hours for weekdays and weekends. The overall layout reflects a small independent automotive parts POS format with invoice numbering and tax breakdown formatting.",
+  "slug": "NAPA-Auto-Parts-Receipt",
+  "createdAt": "$D2026-02-19T14:11:45.913Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ed9c30e5-84e3-4622-af63-7f89d35a2047",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4f6cfaa0-11f5-48ca-a9d5-ae6290a96e95-napa.jpg?alt=media&token=cd544169-d68e-4ded-a843-a7301b0c2999",
+      "size": 173,
+      "businessDetails": "Crackerjack Auto Parts\n(516) 538-7278\n590 Jerusalem Avenue\nUniondale, NY 11553",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9350aee1-9788-4163-bd6f-24d1b944d1a2",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Emp 125     02/03/2016 12:04 (03)\nINVOICE 108986\nCASH CUSTOMER\nTHANK YOU...COME AGAIN\nNY",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "a77706cd-12a6-4d28-bc52-cbc93b250369",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Description    Qty  Net  Total\n-------------------------------\nHALOGEN CAPSULE   1  11.99 11.99 T\nLMP 9003\n\nPCK. 8PC WRENCH   1   7.99  7.99 T\nP.B. 959-2604\n\nAbove Item on Sale\n\nSubtotal                   19.98\nSALES TAX 8.6250%           1.72\n\nTOTAL DUE                  21.70",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb0cf4ab-5d59-4e11-b6ec-73e40fb75aa9",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Cash                       25.00\nChange Due                  3.30\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "834ea2fe-fd4d-4c9a-8ad4-0ecdd5059560",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "STORE HOURS\nMon - Fri : 8:00am - 6:00pm\nSat : 8:00am - 3:00pm\nSun : CLOSED\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FQ5vIzUXRqaNzBmfWyOWu%2FQ5vIzUXRqaNzBmfWyOWu-46c17d05-14ab-49bd-a5ab-67f62055427d.png?alt=media&token=9c4bf8f2-2b37-42c7-93c1-0f09c6f9753a",
+  "published": true,
+  "id": "Q5vIzUXRqaNzBmfWyOWu"
+}

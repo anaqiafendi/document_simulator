@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Prescription Receipt",
+  "slug": "Prescription-Receipt",
+  "createdAt": "$D2025-09-29T15:32:33.354Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F67575762-538f-49ba-83a4-7f6ff9b25027-9023817_prescription_fill_icon.png?alt=media&token=46de7c06-8788-4a7d-b308-824c436a8156",
+      "size": 50,
+      "businessDetails": "HealthFirst Pharmacy\nHealthFirst Pharmacy LLC\n8421 Willow Creek Blvd, Suite 102, Dallas, TX 75231\nUnited States\n(214) 555-4782\nwww.healthfirstpharmacy.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4723c558-65ea-4733-ae85-d36425d88ec7",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Prescription Receipt",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "78607b97-33dd-40c8-8963-76ec9586d714",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Patient name: Ethan Ramirez\nAddress: 1248 Pine Hollow Lane, Charlotte, NC 28211",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Amoxicillin 500 mg",
+          "total": "24.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Lisinopril 10 mg",
+          "total": "9.99"
+        },
+        {
+          "quantity": "1",
+          "description": "Albuterol Inhaler 90 mcg",
+          "total": "39.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "74.97"
+        },
+        {
+          "title": "Tax",
+          "value": "4.87"
+        }
+      ],
+      "total": "79.84",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Prescription returns not accepted. Contact pharmacy for questions. Prescription pricing may be subject to insurance adjustments.\n\nInsurance adjustments, discounts, or co-pays may apply.\n\nBy accepting this receipt, you acknowledge and agree to these terms.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FAeWsSZ5frKYbT5kmo3Sv%2FAeWsSZ5frKYbT5kmo3Sv-155c1178-46f1-46b7-90af-5317bc42d726.png?alt=media&token=92306610-2631-414b-8f3d-9777462084e0",
+  "description": "Need a prescription receipt? Use our free tool to create a detailed pharmacy record. Add clinic or pharmacy info, patient name, medication details, prices, and payment—perfect for insurance claims or medical records.",
+  "published": true,
+  "metatitle": "Prescription Receipt",
+  "metadesc": "authentic pharmacy receipts featuring prescription medications, patient details, and payment information for record keeping",
+  "id": "AeWsSZ5frKYbT5kmo3Sv"
+}

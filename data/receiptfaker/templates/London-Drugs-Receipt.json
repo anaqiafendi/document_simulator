@@ -1,0 +1,148 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "London Drugs Receipt",
+  "description": "This receipt is issued by London Drugs and reflects a retail transaction processed at a specific store location in Burnaby, British Columbia, including full store address and contact number. The receipt contains detailed POS identifiers such as store number, register number, transaction number, and cashier ID. It includes precise date and time formatting, along with payment processing details such as card type, masked account number, authorization code, and chip entry method. A financial summary section clearly shows the total transaction amount and approval status. The receipt also includes a dedicated credit card transaction record section with EMV data fields (AID, TVR, TSI), followed by a bilingual thank-you message and a standard retention notice for record-keeping.",
+  "slug": "London-Drugs-Receipt",
+  "createdAt": "$D2026-03-18T15:53:51.718Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc46a39a5-ab2f-4c67-aa58-3005ded87136-image%20(62).jpg?alt=media&token=a27583a0-8b68-4fd9-a5fd-82285914fe5f",
+      "size": 236,
+      "businessDetails": "10-1150 DOUGLAS ROAD #45\nBURNABY, BC V5C 5A6\n(604) 448-4811",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "DATE: 09/17/2018     TIME: 14:49\nSTORE: 012\nREG: 002\nTRANS: 000030\n\nCASHIER: 0030",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ca532f6-fa24-4e65-8177-211d737c714d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c82ec781-de58-4100-a4ec-8ab9205f321d",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e138e808-cdfa-48e8-b805-d8e70785adca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "APPROVED",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e48f84d-6fba-4c99-a38d-5dead54a223d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCARD TYPE: MASTERCARD\nENTRY METHOD: CHIP\n\nAID: A0000000041010\nTVR: 8000048000\nTSI: E800",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8fc1512c-9bb4-4b56-b163-5237aea1b6e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU / MERCI\n\nIMPORTANT\nRetain this copy for your records.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FcqApUGuSVKCjSj84pRfL%2FcqApUGuSVKCjSj84pRfL-a211534c-d180-4ef8-b7d0-a8238d6801d6.png?alt=media&token=d9a98723-e666-48dd-9eff-af2cb9a18e94",
+  "published": true,
+  "id": "cqApUGuSVKCjSj84pRfL"
+}

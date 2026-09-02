@@ -1,0 +1,107 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T19:16:28.921Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "8a1fbab5-1d7b-49f8-bbb6-70872a7822ea",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F25caaee2-0b0a-4ae1-b9c4-af1577afd5bf-image%20(2).jpg?alt=media&token=6acdb951-0ddd-4174-8bae-160ef2e5afe2",
+      "size": 268,
+      "businessDetails": "Erfreuen Sie sich\nan Ihrem Einkauf\nSteuer-Nummer 30/232/33182\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d748d4f2-91f2-4cb4-b093-a2451532fcd6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "#4186        04/08/2017  14:25:39\n0001 BEDIE0001              000000\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4ead380e-460f-4975-aafc-3a322e846e66",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1x 129.50",
+          "total": "€129.50 A"
+        },
+        {
+          "quantity": "",
+          "description": "Accessoires",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "ZW-SUMME",
+          "total": "€129.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9965d7cc-a493-4341-a826-1ee8e70b5a9a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MwStUmsatz A ",
+          "total": "€129.50"
+        },
+        {
+          "quantity": "",
+          "description": "MwSt 19%  ",
+          "total": "€20.68"
+        },
+        {
+          "quantity": "",
+          "description": "Netto A",
+          "total": "€108.82"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ab665138-e75a-46a1-827c-814d924e00ad",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nEUROCARD        €129.50\n\n\nCharlottenstraße 75\n10117 Berlin\nTelefon 030 206147-3",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Marsano and identifies the store as Charlottenstraße 75, 10117 Berlin, Germany. The receipt records the purchase of a single accessories item with a total sale value of €129.50. The financial section includes the gross amount, German Value Added Tax (MwSt) at 19%, the net amount before tax, and confirms payment by Eurocard. The receipt also contains the merchant's tax number, transaction number, date and time of purchase, and cashier identification. The overall layout is representative of a German retail POS receipt, combining merchandise sales, VAT reporting, electronic card payment, and merchant identification within a compact receipt format.",
+  "name": "Marsano Receipt",
+  "slug": "Marsano-Receipt",
+  "published": true,
+  "id": "qZRyGKPw03zjXh0LyKi1"
+}

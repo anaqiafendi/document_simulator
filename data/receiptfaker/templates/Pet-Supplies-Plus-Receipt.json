@@ -1,0 +1,130 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T14:05:38.843Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "72442fea-4dfc-4960-ad20-924b3aa8adcc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9641eab4-7433-4f8d-9360-554d1ee1ebcb-image%20(4).jpg?alt=media&token=91519316-9ebe-4080-a321-992ed8463240",
+      "size": 236,
+      "businessDetails": "1079 State Route 28\nMilford, OH 45150\nUSA\n513-831-3333",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a8fab0cb-8268-47c5-a0a7-994fff3bce34",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nStore: 4592          Date: 6/14/2025\nRegister: 459201       Time: 08:45 PM\nReceipt ID: 45920110028605\nOperator ID: 459235\nTeam Member: Amy\nRewards #: 410483473284\nNeighbor: Katherine Moore",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "72e1c51f-cf05-4773-8238-b1befaf9910b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\n\nITEM NAME    QTY   PRICE    TOTAL",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da392a8b-3333-47fc-bc42-6aa2cff6d492",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "CRICKET LG    100    $0.13    $13.00",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "275f40cc-30ce-4d26-822c-7938080b0006",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nBMS Buy More and Save\nLOY 2025 05 25 - 08 14 STR $($9.00)\nTotal w/ Discounts        $4.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "200e4679-b6f6-4028-a6b9-1fd88eafea02",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n$4.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total tax ",
+          "total": "$$0.27"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$4.27"
+        },
+        {
+          "quantity": "\n\n",
+          "description": "Card    Visa    1057                     ",
+          "total": "\n\n$4.27"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "47e3dd99-ada0-4f64-a557-1c30c7aa87eb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nYou Saved: $9.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Pet Supplies Plus Receipt",
+  "description": "This receipt is issued by Pet Supplies Plus and identifies the location as 1679 State Route 28, Milford, Ohio 45150. The header contains the store branding, address, contact telephone number, store and register identifiers, receipt ID, operator ID, team member name (Ava), loyalty rewards number, customer name (Katherine Moore), and the transaction date and time. The receipt records the purchase of 100 large crickets, priced individually, together with a promotional Buy More and Save discount that substantially reduces the purchase price. The financial section records the discounted subtotal, sales tax, final transaction total, and payment by Visa. The footer summarizes the total savings achieved through the promotion. The overall layout is representative of a United States pet supply retail POS receipt, combining quantity-based itemization, loyalty discount reporting, tax calculation, card-payment processing, and transaction reconciliation within a compact receipt format.",
+  "slug": "Pet-Supplies-Plus-Receipt",
+  "published": true,
+  "id": "H0zSlD7WffFljV9Yg2AN"
+}

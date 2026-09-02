@@ -1,0 +1,84 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Lush Receipt",
+  "description": "This receipt is issued by LUSH Fresh Handmade Cosmetics, with the LUSH brand logo and tagline (“Fresh Handmade Cosmetics”) displayed prominently at the top. The receipt identifies the store location as Oxford Retail, followed by a section labeled “In Your Basket” that lists the items included in the transaction. The financial summary shows the quantity of items sold, total amount due, and a breakdown including net amount, tax, and total paid. The payment section records the card payment with masked card digits, along with reference number, payment service provider (PSP) identifier, and application identifier (AID) associated with the card processing terminal. Additional lines show discount reductions applied to the purchase and a “Bring It Back” incentive entry. The lower portion includes a barcode with transaction reference digits, followed by promotional messaging encouraging customers to download the LushLabs app and leave a review of their store experience.",
+  "slug": "Lush-Receipt",
+  "createdAt": "$D2026-03-06T15:52:28.837Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0de6aa5b-bc81-475d-a094-63458c8b17c0-image%20(31).jpg?alt=media&token=d97a671f-1fe4-419c-9612-cc953598ef0d",
+      "size": 236,
+      "businessDetails": "Oxford Retail\n\nIn Your Basket\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fea83957-d2b6-43b1-8ce3-e9f0cc897346",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Yummy Custard 225g\n1x   £18.00         £18.00\n--Reduction Applied -£11.87\n\nSticky Dates 290g\n1x   £20.00      £20.00\n--Reduction Applied -£13.18",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "7d7ab650-0d8c-4b87-900a-4b3ccf793134",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Quantity sold: 2\n\nTotal Amount\n£12.95\n\nNet :   £10.79\nTax :   £2.16\nPaid :  £12.95\n\n**** **** 5307 : £12.95",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "616b79a4-215a-41cb-87ce-26eb28bc9468",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n**** **** **** 5307\nReference : POS-GBR-38-1710869804198\nPSP       : RV82VVLBKDCCFC53\nAID       : A0000000031010\n\n\nReduction Applied £25.05\nBring It Back 5p\nBring It Back 50p",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae79f209-9a89-47bd-8071-9381f4973e38",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9018af6-a4a3-44d1-bbdc-6c7dc1692e3f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0102379000020003820240319173656\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "510f96e6-69fb-448a-aac7-6bb72350c5ca",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "For the latest Lush updates download the LushLabs app\n\n\nThanks for shopping at Lush Oxford! If you enjoyed your visit, please leave us\na review of your experience on our Google page!\n\nSee you soon!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FCimffUEuQmxhyZTcx1ga%2FCimffUEuQmxhyZTcx1ga-4e1089db-457c-4e5c-b651-d6012b8ea0ea.png?alt=media&token=a7d290a7-e7d7-42f9-aaed-72189048569e",
+  "published": true,
+  "id": "CimffUEuQmxhyZTcx1ga"
+}

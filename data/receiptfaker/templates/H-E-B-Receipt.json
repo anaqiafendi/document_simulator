@@ -1,0 +1,77 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "H-E-B Receipt",
+  "description": "This receipt is issued under the H-E-B brand and features the receipt-style oval H-E-B logo at the top, followed by a numeric transaction identifier line. The structure includes itemized entries aligned with right-justified pricing, a subtotal and tax section, and a clearly formatted total amount due. Beneath the financial summary, the receipt displays an “ITEMS PURCHASED” count along with savings breakdown categories, including on-sale savings, brand savings, and VPP discount amounts. A “YOU SAVED” summary appears prominently near the bottom. The payment section identifies a US Debit transaction with a masked card number. The format reflects a standard grocery retail POS thermal receipt layout with section dividers and aligned monetary columns.",
+  "slug": "H-E-B-Receipt",
+  "createdAt": "$D2026-02-23T13:52:20.783Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4f493bbd-003e-43d9-b92e-418098bc0e20",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe6da4b5a-9c7b-4fcf-ab0d-5a34d9fd8474-image%20(10).jpg?alt=media&token=e8f0ef03-03cd-41e2-9f93-4f5d1a672141",
+      "size": 164,
+      "businessDetails": "1097 0633 1205 2409 0200 801",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff5b0f2f-ac2e-4b22-8c57-427982cf18d5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4278032-9b55-42f8-aafc-2bb014922eed",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ITEMS PURCHASED: 16\nON SALE SAVINGS        :   $9.12\nOUR BRAND SAVINGS      :   $0.46\n10% VPP DISCOUNT       :   $2.84\n\nYOU SAVED\n$12.42\n\nUS Debit\n************4124",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FmNWY2ECQLvSiHFmLerc6%2FmNWY2ECQLvSiHFmLerc6-be81ffc2-9a77-4c9c-8dc4-de99a55e0b5d.png?alt=media&token=d1aad416-4b6f-452f-9af2-749492f1bb21",
+  "published": true,
+  "id": "mNWY2ECQLvSiHFmLerc6"
+}

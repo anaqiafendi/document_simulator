@@ -1,0 +1,128 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Hilton Hotel Receipt",
+  "slug": "Hilton-Hotel-Receipt",
+  "createdAt": "$D2025-05-25T17:02:30.778Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Ff6cd4488-e89c-4f63-a7f6-d4717892f7ae-toppng.com-hilton-vector-logo-download-free-400x400.png?alt=media&token=04253136-caca-4ddd-bde6-82c16d92c7e7",
+      "size": 138,
+      "businessDetails": "Hilton\nPensacola Beach Gulf Front\n12 Via Da Luna Drive\nPensacola, FL 32561\n850-916-2999",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "60563",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8788dc9f-0793-4bc3-9ef8-e0ba50947ba1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ASHLEY P",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "def05a69-e6ef-4acc-ab1e-4b9485cc19c9",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 7:57:05 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "King Room",
+          "total": "189.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Valet Parking",
+          "total": "45.00"
+        },
+        {
+          "quantity": "2",
+          "description": "Breakfast Buffet\t",
+          "total": "36.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "270.00"
+        },
+        {
+          "title": "Gratuity",
+          "value": "30.00"
+        },
+        {
+          "title": "Tax",
+          "value": "40.50"
+        }
+      ],
+      "total": "340.50",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Guest Name: Samantha Lynn Carter\nRoom Number: 814",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All rates are subject to applicable state and local taxes in effect at the time of check-out. A temporary hold may be placed on your card at check-in to cover incidentals. Unused funds will be released upon check-out, though bank processing times may vary. For further assistance, contact Hilton Customer Care at (800) HILTONS or visit www.hilton.com.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FOlTlMugzI2yzeISXYE9X%2FOlTlMugzI2yzeISXYE9X-ee1a8be5-e3f1-4d9c-a4bb-fa1b969f010c.png?alt=media&token=eda8755e-4c08-4154-8554-4afd24c8d7cd",
+  "description": "Need a Hilton hotel receipt? Our free generator lets you create a detailed stay invoice in minutes. Customize guest info, dates, room rates, taxes, and payment—ideal for travel claims, records, or business expenses.",
+  "published": true,
+  "metatitle": "Hilton Hotel Receipt",
+  "metadesc": "professional Hilton hotel receipts with custom guest details, room rates, dates, taxes, and payment info for expense reports",
+  "id": "OlTlMugzI2yzeISXYE9X"
+}

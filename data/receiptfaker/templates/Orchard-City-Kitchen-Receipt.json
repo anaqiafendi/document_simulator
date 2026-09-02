@@ -1,0 +1,136 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T09:14:06.859Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "b533a4ae-9cdb-4b3a-a96b-ae175b579118",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6c959da3-6314-4980-87c0-78488ab8f7ba-image%20(2).jpg?alt=media&token=6062dccf-17a6-420f-bb6a-bcc1d259385a",
+      "size": 195,
+      "businessDetails": "ORCHARD CITY KITCHEN\n1875 South Bascon\nAve Ste 190\nCampbell, CA 95008\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3c6cb667-630f-4810-b68a-638698df617c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: BILLY A",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Check #124 ",
+          "total": "Table 402"
+        },
+        {
+          "quantity": "",
+          "description": "Ordered",
+          "total": "6/28/26 6:43 PM"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nInput Type",
+          "total": "\n\nC (EMV Chip Read)"
+        },
+        {
+          "quantity": "",
+          "description": "VISA DEBIT",
+          "total": "xxxxxxxx7603"
+        },
+        {
+          "quantity": "",
+          "description": "Time",
+          "total": "7:44 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Transaction Type",
+          "total": "Sale"
+        },
+        {
+          "quantity": "",
+          "description": "Authorization",
+          "total": "Approved"
+        },
+        {
+          "quantity": "",
+          "description": "Approval Code",
+          "total": "312420"
+        },
+        {
+          "quantity": "",
+          "description": "Payment ID",
+          "total": "bFYdzznWrkcj"
+        },
+        {
+          "quantity": "",
+          "description": "Application ID",
+          "total": "A0000000031010"
+        },
+        {
+          "quantity": "",
+          "description": "Application Label",
+          "total": "VISA DEBIT"
+        },
+        {
+          "quantity": "",
+          "description": "Device ID",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Card Reader",
+          "total": "BBPOS"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n\nSubtotal",
+          "value": "\n\n$140.76"
+        },
+        {
+          "title": "LOCAL SALES TAX",
+          "value": "$$14.78"
+        },
+        {
+          "title": "Amount",
+          "value": "$$155.54"
+        },
+        {
+          "title": "\n\n+ Tip:      ___________",
+          "value": "0"
+        },
+        {
+          "title": "\n\n= Total:    ___________",
+          "value": "0"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "$3f",
+  "name": "Orchard City Kitchen Receipt",
+  "slug": "Orchard-City-Kitchen-Receipt",
+  "published": true,
+  "id": "pe6xUcL4WbRN9EkK6kBr"
+}

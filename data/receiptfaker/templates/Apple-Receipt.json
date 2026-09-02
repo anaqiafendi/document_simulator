@@ -1,0 +1,122 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Apple Receipt",
+  "slug": "Apple-Receipt",
+  "createdAt": "$D2025-05-24T10:36:11.838Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F56c1d6f4-c126-4871-ac44-68d38990b3b5-580b57fcd9996e24bc43c516.png?alt=media&token=005e9e87-11b0-4f5c-978c-568b8974e9e5",
+      "size": 44,
+      "businessDetails": "Apple Store, Pioneer Place\n450 SW Yamhill Street\nPortland, OR 97204\npioneerplace@apple.com\n503-265-2010\n\nwww.apple.com/retail/pioneerplace",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8741dfe9-ac60-4632-be04-d726721bd361",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "May 05, 2025 02:00 PM\n\nLena Caldwell\nlcaldwell82@gmail.com",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "AirPods Max - Space Grey",
+          "total": "779"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "779"
+        },
+        {
+          "title": "Tax",
+          "value": "0"
+        }
+      ],
+      "total": "779",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fa2x58BESwAttWzYqqmwX%2Fa2x58BESwAttWzYqqmwX-f78cff54-5d2b-448b-8538-088a0516aaea.png?alt=media&token=959d5617-d646-4461-8543-da0fed6c3c9e",
+  "description": "Need an Apple receipt? Easily create a customized record for tech purchases with our free tool. Add store or online order info, product details, prices, tax, and payment—ideal for returns, warranties, or expense tracking.",
+  "published": true,
+  "metatitle": "Apple Store Receipt",
+  "metadesc": "realistic Apple receipts with custom product details, prices, taxes, and payment info for returns, warranties, or expenses",
+  "id": "a2x58BESwAttWzYqqmwX"
+}

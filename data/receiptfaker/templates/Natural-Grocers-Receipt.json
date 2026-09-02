@@ -1,0 +1,131 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-28T13:28:25.047Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_4",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fede2a7d4-8a7a-41e0-b186-05302d463a6d-image%20(13).jpg?alt=media&token=d890df6b-7ba8-44b7-9e13-f5974daed312",
+      "size": 217,
+      "businessDetails": "Natural Grocers\nby Vitamin Cottage\n516 Frontier Mall Dr\nCheyenne, WY 82009\nPhone: 307-635-3800",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6072eb52-eba0-4b95-af0d-41a91000ac0c",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Store Hours:\nMon-Sat: 8:30am - 9:05pm\nSun: 8:30am - 8:05pm\n\n2/16/2019        PM 3 17934 3 96\nAshley H.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "5522a423-a5f5-4761-a59a-d8dd67c310db",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "84512421-dcbf-4adb-8adc-3c04f079f86e",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "118b8121-62f6-4b3c-887a-6979e21ce17f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Today You Earned 33 points!\nCurrent Point Balance: 40\nDietary Supplement Club: $218/$300\nPet Club: $0/$125\nReaders Club: $0/$50",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Natural Grocers Receipt",
+  "slug": "Natural-Grocers-Receipt",
+  "description": "This receipt is issued by Natural Grocers by Vitamin Cottage, located at 516 Frontier Mall Dr, Cheyenne, WY 82009, and includes store phone number (307-635-3800) and posted store hours. The document displays transaction date (2/16/2019), transaction reference string (PM 3 17934 3 96), and cashier name (Ashley H.). It presents a structured financial summary including subtotal, tax, total, payment method (Cash), amount tendered, and change returned. The receipt concludes with loyalty program messaging indicating points earned, current point balance, and club progress for Dietary Supplement Club, Pet Club, and Readers Club. The format reflects a U.S. grocery retail POS system with integrated rewards tracking and standard sales reporting.",
+  "metatitle": "Warehouse Receipt",
+  "metadesc": "realistic Costco warehouse receipts with custom items, prices, store details, and membership info for returns or expense tracking",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FvrwkEowFWxLYGVuhDIr1%2FvrwkEowFWxLYGVuhDIr1-6f7d683b-4477-4729-9e46-b58c7cc7b0b8.png?alt=media&token=4d4a0173-478a-40e2-93c0-1cec505ca6ee",
+  "published": true,
+  "id": "vrwkEowFWxLYGVuhDIr1"
+}

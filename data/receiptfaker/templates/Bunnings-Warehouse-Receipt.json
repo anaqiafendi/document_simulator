@@ -1,0 +1,140 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bunnings Warehouse Receipt",
+  "slug": "Bunnings-Warehouse-Receipt",
+  "createdAt": "$D2026-05-15T06:11:16.284Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "8fb714b6-04b1-4dd0-b687-85c7d888b4b7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0bbae8fa-548e-47b4-856c-41bd03e850e3-image%20(14).jpg?alt=media&token=5b0e3398-2594-4da8-9ad9-06138a9de4da",
+      "size": 224,
+      "businessDetails": "MODBURY\nBUNNINGS GROUP LIMITED\nABN 26 008 672 179\nPh: (08) 8265 6500\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90acb892-8133-40aa-8414-d64522fa7a3f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Fri 19/02/2022 11:33:39 AM\nSELF CHECKOUT R95\n\nSale\n** TAX INVOICE **",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee9127b4-fb8f-4ff9-889b-b229f2f80cdb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n5311984T008947 CONC SPRINKLER POP UP K-RAIN SONN PRO S ADJUST KRAIN KR712\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c23f8496-88ad-40b1-972f-c8140bf31b9a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "2 @ $8.70",
+          "total": "$$17.40"
+        },
+        {
+          "quantity": "",
+          "description": "9310317500386 POLY THREADED SCK PIPE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "20/25MM ALE 19MM MALE",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 @ $1.04",
+          "total": "$$6.08"
+        },
+        {
+          "quantity": "",
+          "description": "* 3 Subtotal",
+          "total": "$$19.48"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\n$19.48"
+        },
+        {
+          "quantity": "",
+          "description": "GST INCLUDED IN THE TOTAL",
+          "total": "$$1.77"
+        },
+        {
+          "quantity": "",
+          "description": "EFT",
+          "total": "$$19.48"
+        },
+        {
+          "quantity": "",
+          "description": "CARD NO: 462263 173",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Rounding",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "* Indicates non taxable items",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "741acb30-65fa-400a-b529-65895d418b6d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping with Bunnings. Please retain receipt for proof of purchase.\n\nScan and earn Flybuys next time you shop at Bunnings.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "290d5967-aa03-4a78-b8ba-593cc69e5df2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHave Your Say Give us your feedback  at www.bunnings.com.au/haveyoursay",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is from Bunnings Warehouse Modbury, a home improvement and hardware retail store in Australia. It records the purchase of plumbing and hardware-related items including PVC fittings and treatment pins. The receipt includes GST-inclusive totals, product codes, self-checkout information, subtotal calculations, payment details, and Flybuys loyalty program references. It also contains proof-of-purchase instructions and standard Australian tax invoice formatting used by Bunnings stores.",
+  "imageUrl": "",
+  "published": true,
+  "id": "6GfB5nzoKHJAB9oSn7Oi"
+}

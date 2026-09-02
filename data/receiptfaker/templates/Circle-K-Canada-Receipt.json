@@ -1,0 +1,128 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Circle K Canada Receipt",
+  "description": "This receipt is from Circle K convenience store location 22194 in Medicine Hat, Alberta, Canada. It records the purchase of confectionery and snack items including Hershey, Nestlé, Aero, and KitKat products. The receipt includes GST tax calculations, subtotal, debit payment confirmation, cashier and register details, and transaction timestamp information. It also displays the store contact information and GST registration number. The format reflects a standard Canadian convenience store POS receipt.",
+  "slug": "Circle-K-Canada-Receipt",
+  "createdAt": "$D2026-05-15T13:47:21.503Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "9eeb8eec-4ad4-4f4d-be05-644c58cf63fc",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2c4dc57e-b728-448a-ac1e-97eda7e6e8c6-image%20(23).jpg?alt=media&token=80621cad-c060-4802-b443-ce93a805da42",
+      "size": 265,
+      "businessDetails": "102, 6th Avenue SE\nMedicine Hat, AB T1A 2S2\n403-488-4164",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "50cb1c7c-f434-4834-b8dc-e4b8b6d7d38f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDate:  2019/12/20    Time:  17:57:27\n\nRegister: 1                  #15202\nCashier : 29, Cashier\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2260f08-1c99-4f17-be9c-207b0fcbd3dc",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "F 1",
+          "description": "HERSHEY COOKIES N CREM",
+          "total": "$$2.29"
+        },
+        {
+          "quantity": "F 1",
+          "description": "HERSHEY COOKIES N CREM",
+          "total": "$$2.69"
+        },
+        {
+          "quantity": "F 1",
+          "description": "NESTLE C CRISP KS",
+          "total": "$$7.38"
+        },
+        {
+          "quantity": "F 1",
+          "description": "HERSHEY SNACKS MIX 2FO",
+          "total": "-$0.94"
+        },
+        {
+          "quantity": "F 2",
+          "description": "ANGUS",
+          "total": ""
+        },
+        {
+          "quantity": "F 1",
+          "description": " NESTLE C CRISP KS",
+          "total": "-$0.38"
+        },
+        {
+          "quantity": 1,
+          "description": "NESTLE KS 2ZFOR (MC)",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "HD SIGNATURE 2ZFOR",
+          "total": "-$1.38"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nS-Total",
+          "value": "\n$14.44"
+        },
+        {
+          "title": "GST",
+          "value": "$$0.00"
+        },
+        {
+          "title": "PST",
+          "value": "$$0.72"
+        },
+        {
+          "title": "Total",
+          "value": "$$15.16"
+        },
+        {
+          "title": "Debit",
+          "value": "$$15.16"
+        },
+        {
+          "title": "Balance",
+          "value": "$$0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ba361a39-8cf6-4420-a301-2aa47e0c9e81",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nHST/GST: R104855408",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "UM0hhrLR462J9eTVJiaH"
+}

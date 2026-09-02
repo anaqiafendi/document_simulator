@@ -1,0 +1,132 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Betty's At The Kitch Receipt",
+  "description": "This restaurant payment receipt from Betty’s At The Kitch documents an INTERAC chip card transaction processed at the Mahone Bay, Nova Scotia location at 319 Main Street. The receipt includes transaction record formatting, terminal identifier information (TID: IC003414), authorization and sequence numbers, batch number, server identifier, table reference, and check number metadata. The payment section contains amount, tip, and total fields with aligned currency formatting. Additional EMV transaction verification data appears near the footer, followed by approval confirmation and PIN verification notice text. The layout reflects a standard Canadian restaurant payment terminal receipt with integrated dine-in service metadata and card authorization details.",
+  "slug": "Betty's-At-The-Kitch-Receipt",
+  "createdAt": "$D2026-05-21T14:46:34.462Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "70741b59-4eb6-4057-a678-1d7bf471c4c7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\n-------- TRANSACTION RECORD --------\nBETTY'S AT THE KITCH\n319 MAIN STREET\nMAHONE BAY   NS\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e816746b-75f6-4471-be6a-6d9039a8cc91",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Purchase",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4274c9af-c9bb-43ea-83da-f5bf008c37d6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Jul 05, 2022",
+          "total": "13:51:09"
+        },
+        {
+          "quantity": "",
+          "description": "INTERAC",
+          "total": "***********0161"
+        },
+        {
+          "quantity": "",
+          "description": "CHEQUING",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TID: IC003414",
+          "total": "Entry: Chip (C)"
+        },
+        {
+          "quantity": "",
+          "description": "Sequence: 002 003",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Auth#: 125109",
+          "total": "Response: 00-001"
+        },
+        {
+          "quantity": "",
+          "description": "Batch: 002",
+          "total": "Server: 3232"
+        },
+        {
+          "quantity": "",
+          "description": "Table: 38 [27]",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Check: 6636",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nAmount",
+          "total": "\n\n$ 44.85"
+        },
+        {
+          "quantity": "",
+          "description": "Tip",
+          "total": "$$ 500.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$ 544.85"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fdb31a7f-a6dc-4a9b-88a7-ff7069b372db",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nA0000002771010 Interac\nTVR 8080008000 TSI 7800",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3f0d71aa-6acf-4b86-b0f0-f7b33cd3967a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nApproved\nVERIFIED BY PIN",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "UMW6ecSvMoU6Psdjtq2R"
+}

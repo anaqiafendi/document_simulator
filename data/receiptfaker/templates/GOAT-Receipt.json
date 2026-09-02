@@ -1,0 +1,100 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T08:25:49.330Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F568d1f67-182c-4465-b067-3afcfb6af5a3-GOAT_logo.png?alt=media&token=69408672-ff15-46f5-ab52-b31dd7d4ce05",
+      "size": 206,
+      "businessDetails": "3433 W Exposition P\nLos Angeles, CA 90018\nUnited States of America",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Receipt No: #INV4750\nPayment Date: 9/30/2025",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to:\nIsabella Montrose\n\n742 Evergreen Lane, Portland\nOR 97205\nUnited States",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "19f69aa7-6204-4f75-8018-0b1c35587c06",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Ship to:\nIsabella Montrose\n\n742 Evergreen Lane, Portland\nOR 97205\nUnited States",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "346fea41-2beb-4420-9890-3489a8566c12",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Nike Air Max 90",
+          "total": "200.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "SUBTOTAL",
+          "value": "200.00"
+        },
+        {
+          "title": "TOTAL TAX",
+          "value": "0"
+        },
+        {
+          "title": "SHIPPING/HANDLING",
+          "value": "20.00"
+        }
+      ],
+      "total": "220.00",
+      "totalText": "Balance Paid",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "To ensure quality and authentic items, we only allow a select group of sellers. We encourage you to request to become a seller on GOAT by tapping on the sell tab on the app and filling out the required information, We'll notify you as soon as your request has been approved. If your product is found to be inauthentic or not as described. we'll notify you during our verification process and offer you a full refund for your order. It's our hope that through our efforts, we can create a safe and trustworthy global marketplace.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F88AW0ZnmLS8nStiCL7hZ%2F88AW0ZnmLS8nStiCL7hZ-a0fce821-649d-4e5b-9ad1-c2c81bcfeeea.png?alt=media&token=ce6f4ac2-da42-4e5d-a122-632e45fcbb3c",
+  "name": "GOAT Receipt",
+  "slug": "GOAT-Receipt",
+  "description": "Need a GOAT receipt? Use our free tool to create a custom sneaker purchase receipt. Add order info, shoe details, prices, tax, and payment—perfect for proof of purchase, returns, or expense tracking.",
+  "published": true,
+  "metatitle": "GOAT Sneaker Receipt",
+  "metadesc": "custom GOAT sneaker purchase receipts with order details, shoe info, prices, and payment data for returns or expense tracking",
+  "id": "88AW0ZnmLS8nStiCL7hZ"
+}

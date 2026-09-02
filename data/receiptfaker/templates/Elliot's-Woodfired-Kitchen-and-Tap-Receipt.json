@@ -1,0 +1,134 @@
+{
+  "imageUrl": "",
+  "fontType": "MERCHANT_COPY",
+  "createdAt": "$D2026-05-27T18:40:45.844Z",
+  "textColor": "#101828",
+  "isParent": true,
+  "currency": "",
+  "description": "This restaurant receipt from Elliot’s Woodfired Kitchen & Tap documents a dine-in transaction processed at the Pataskala, Ohio location on Corylus Drive. The receipt includes restaurant branding, full address details, server identification, table number references, guest count metadata, check number formatting, and order timestamp information. The POS structure contains pre-discount subtotal formatting, discount entries, subtotal, tax, and final total presentation aligned in standard U.S. restaurant thermal receipt formatting. Additional receipt elements include modifier pricing entries, promotional discount references, customer appreciation footer messaging, and hospitality-focused thank-you text near the bottom of the receipt. The layout reflects a standard U.S. casual dining thermal receipt with dine-in service formatting and promotional discount presentation.",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "slug": "Elliot's-Woodfired-Kitchen-and-Tap-Receipt",
+  "numberFormat": "LEFT",
+  "parentName": "Office Depot",
+  "sections": [
+    {
+      "bottomDivider": false,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe10a34c4-ac60-4f53-96c8-7aae8804a0ab-image%20(17).jpg?alt=media&token=6324b34e-f189-4c6c-abb5-8f38c45c7206",
+      "alignment": "CENTER",
+      "businessDetails": "\nElliot's Woodfired Kitchen & Tap - Pataskala\n724 Corylis Dr.\nPataskala, OH 43062\n\n",
+      "size": 236,
+      "id": "657d34d5-a3b6-4109-8a8a-d8ddcaaaa366",
+      "type": "HEADER",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "DASHES",
+      "totalDivider": false,
+      "type": "ITEMS",
+      "items": [
+        {
+          "total": "Table 32",
+          "quantity": "",
+          "description": "Server: Abby B"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "Check #67"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "Guest Count: 1"
+        },
+        {
+          "total": "6:01 PM",
+          "quantity": "",
+          "description": "Ordered:    6/6/25"
+        },
+        {
+          "total": "\n\n$11.00",
+          "quantity": "",
+          "description": "\n\nFried Pickles"
+        },
+        {
+          "total": "-$4.00",
+          "quantity": "",
+          "description": "Watkins $4.00 Off"
+        },
+        {
+          "total": "$$3.00",
+          "quantity": "1",
+          "description": "Tea"
+        },
+        {
+          "description": "Build Your Own",
+          "total": "$$15.00",
+          "quantity": "1"
+        },
+        {
+          "total": "$$1.25",
+          "quantity": "",
+          "description": "Capicola"
+        },
+        {
+          "total": "$$1.25",
+          "quantity": "",
+          "description": "Pepperoni"
+        },
+        {
+          "total": "$$18.00",
+          "quantity": "",
+          "description": " Chicken Quesadilla"
+        },
+        {
+          "description": "\n\nPre-discount Subtotal",
+          "total": "\n\n$49.50",
+          "quantity": ""
+        },
+        {
+          "total": "-$4.00",
+          "quantity": "",
+          "description": "Discount Total"
+        },
+        {
+          "description": "Subtotal",
+          "total": "$$45.50",
+          "quantity": ""
+        },
+        {
+          "total": "$$3.29",
+          "quantity": "",
+          "description": "Tax"
+        },
+        {
+          "description": "Total",
+          "total": "$$48.79",
+          "quantity": ""
+        }
+      ],
+      "id": "d4909a7e-9ddb-48e7-b98e-7088c8cd51ed",
+      "totalLines": [],
+      "bottomDividerType": "DASHES",
+      "totalText": "",
+      "bottomDivider": false,
+      "total": "",
+      "date": "$undefined"
+    },
+    {
+      "type": "CUSTOM",
+      "id": "d946cade-8aa3-417f-b516-e68f2af6422f",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "custom": "\nThank you and have a great day!",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    }
+  ],
+  "backgroundCrumpled": false,
+  "name": "Elliot's Woodfired Kitchen & Tap Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "published": true,
+  "id": "fWBkAHhqLri8xbW52AcH"
+}

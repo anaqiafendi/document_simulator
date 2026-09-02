@@ -1,0 +1,106 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T13:38:52.920Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d4fa3ba7-aa39-453e-bbcd-cf4291dc2c17",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ffd881945-f577-46cc-85fe-1fb3659e5b6f-image%20(6).jpg?alt=media&token=4ae69cf3-d89d-4a78-af57-f2d52c1806a3",
+      "size": 227,
+      "businessDetails": "Store 101 - Phoenix / 75th Ave\n2020 N. 75th Ave.\nPhoenix, AZ 85035\n(623) 247-1959\nwww.shopwss.com\n\n\nSALE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c5bb9177-6400-41fe-928e-20191023c72e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n195733856069 Hoops 3.0 - Wome07.5\n1 # $69.99\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fcd378a1-ec0d-4ba2-9d05-e45922083250",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$69.99"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax %",
+          "total": "$$6.02"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n$76.01"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCash",
+          "total": "\n\n$100.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nCash Change",
+          "total": "\n$23.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef0fd71e-a9ae-49d1-954a-d66f86bb4c01",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nStore: 00101  Reg: 03 Tran: 491365\nDate: 12/19/2023 6:05:53 PM Cashier: 021945",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5f91442e-61c6-4567-842b-37f2060758ea",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nItem(s) Sold: 1\nItem(s) Returned: 0\n\n\nThank you for shopping at\nStore 101 - Phoenix / 75th Ave\nJuan served you today.\n\nPlease retain your receipt for a refund.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f556ef3-f4ea-47a0-a18c-0a84b7bb2a23",
+      "type": "BARCODE",
+      "size": 96,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Phoenix WSS Receipt",
+  "description": "WSS retail receipt issued from Store 101 on North 75th Avenue in Phoenix, Arizona 85035. The header provides the store number and location, full street address, telephone number, company website, and sale designation. POS metadata includes the register number, transaction number, cashier identifier, and exact transaction date and time. The financial summary records the subtotal, sales tax, final total, cash tendered, and cash change. The lower section provides separate counts for items sold and returned, identifies the store and employee serving the customer, and includes a receipt-retention notice for refunds. A machine-readable barcode appears at the bottom for transaction identification.",
+  "slug": "Phoenix-WSS-Receipt",
+  "published": true,
+  "id": "kGWUH3cJNB7EXRGV3FN2"
+}

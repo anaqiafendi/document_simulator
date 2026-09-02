@@ -1,0 +1,128 @@
+{
+  "name": "CVS Pharmacy Receipt example with Cleaning Wipes and 1 more item totalling 9 dollars 71 cents",
+  "slug": "CVS-Pharmacy-Receipt-example-with-Cleaning-Wipes-and-1-more-item-totalling-9-dollars-71-cents",
+  "currency": "$$",
+  "sections": [
+    {
+      "id": "a3a49a78-bdf3-4a27-a70c-1c0e057da5a7",
+      "type": "HEADER",
+      "header": "Restaurant Name",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F7beb3fb5-f128-439a-a205-4cffb72b3f23.png?alt=media&token=41ac4cf1-de3a-44a0-a498-c209f17e1363",
+      "size": 242,
+      "businessDetails": "( 916) 968 - 2258\nMANAGER RENE PUENTES\n3451 TRUXEL RD\nSACRAMENTO CA 23456\nST# 01234 OP# 567890 TE# 23 TR# 03111",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cd7a1e6-a7bb-4a01-a15d-74a3a35d21f0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PRODUCT SERIAL # TH66B3C1ZZ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f788261c-3dce-4d5f-8c4f-65f5965b8c9d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "ALIBEISS CLEANING WIPES",
+          "total": 8.99
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": 8.99
+        },
+        {
+          "title": "Tax",
+          "value": 0.72
+        }
+      ],
+      "total": 9.71,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a08ff47-532c-43b4-9636-0e01de35176b",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "10"
+        },
+        {
+          "title": "Change",
+          "value": "0.29"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b0db079-693f-452d-86b5-f6e222056d1c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "# ITEMS SOLD 1\n\nTC# 4891 4435 7070 5637 2915",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "49b47a3b-1ee6-4447-b53f-5445b789542d",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "3/12/2025, 10:28:54 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    }
+  ],
+  "createdBy": "NcB6xULuxsY8wpoIM2ni6K19Ylv2",
+  "createdAt": "$D2025-05-24T02:46:25.698Z",
+  "backgroundCrumpled": false,
+  "isParent": false,
+  "description": "This receipt was created with ReceiptFaker generator based on **CVS Pharmacy Receipt** template on **May 23, 2025**.",
+  "parentId": "2KKH14xozntCweuJSJ5c",
+  "parentName": "CVS Pharmacy Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fq6LnsBJDV0z7XfZbjyKa%2Fq6LnsBJDV0z7XfZbjyKa-da52f435-14d3-45ee-aa2f-e984debbb3f5.png?alt=media&token=7b9ecd69-e94c-406b-9a86-82ea7f30fdc5",
+  "published": true,
+  "metatitle": "CVS Pharmacy Receipt",
+  "metadesc": "realistic CVS pharmacy receipts with cleaning wipes and multiple items, customizable totals and dates using our free generator",
+  "id": "q6LnsBJDV0z7XfZbjyKa"
+}

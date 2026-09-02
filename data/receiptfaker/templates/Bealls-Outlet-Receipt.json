@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bealls Outlet Receipt",
+  "description": "This receipt format belongs to Bealls Outlet, a U.S. off-price retail apparel and home goods chain. The receipt header prominently displays the “bealls OUTLET” brand name followed by a promotional tagline and the store identification block including store number, street address in Hollywood, Florida, and a contact phone number. The POS layout includes product code columns, pricing information, and reference numbers followed by a customer identification line and a discount entry. A financial summary section presents subtotal, sales tax, and total values, along with the payment method confirmation for a Mastercard transaction. The receipt footer contains POS transaction metadata including purchase card masking, authorization status, invoice number, transaction timestamp, and sequence number, which are typical elements for retail apparel point-of-sale systems.",
+  "slug": "Bealls-Outlet-Receipt",
+  "createdAt": "$D2026-03-16T14:36:50.847Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9f8e57aa-67b5-41c5-a013-838d8096c725-image%20(56).jpg?alt=media&token=e3c8aff6-6046-4526-ae7e-e40e6565df15",
+      "size": 236,
+      "businessDetails": "OUTLET HOLLYWOOD #130\n6801 TAFT STREET\nHOLLYWOOD FL 33024\n954 966 3841",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n057 EC SPA-WLENS 63558446     3.59 I\n   ORIGINAL PRICE             3.99\n057 EC SPA-WLENS 36210047     3.59 I\n   ORIGINAL PRICE             3.99\n090 OLD WHT-PK SK 37392882    9.99 T\n   ORIGINAL PRICE             9.99\n036 EL BEAUTY TOOLS 63557678  4.49 I\n   ORIGINAL PRICE             4.99\n577 WM CS CLOTHES 62427012   15.29 T\n   ORIGINAL PRICE             16.99\n\nCUSTOMER NUMBER 130020163886\n\nMR 10% Day Disc.               3.90-\n\nSUBTOTAL                      $35.05\n7.0% SALES TAX                $2.45\nTOTAL                         $37.50\nMASTERCARD                    $37.50",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cf493a1-5cbe-4fb0-8279-7da053d9cf56",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "PURCHASE   ************1044  MC $37.50\nCHIP  UNCONTACTLESS\nTransaction Approved\nAUTH# 115309\nINVOICE #: 8886\n01-16-2023  09:50:22\nSEQUENCE NO: 88601",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4f2e9f6-9324-4d4c-b528-e26e002cc7ac",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FPml5KemVWggzTbpjTnRi%2FPml5KemVWggzTbpjTnRi-774d44f7-438b-4c55-a3d7-846e338b35ef.png?alt=media&token=2f75b92e-d58d-4242-9256-4826883896ab",
+  "published": true,
+  "id": "Pml5KemVWggzTbpjTnRi"
+}

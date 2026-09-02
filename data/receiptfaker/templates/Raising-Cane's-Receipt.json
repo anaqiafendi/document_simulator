@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Raising Cane’s Receipt",
+  "description": "This receipt is issued by Raising Cane’s Chicken Fingers at the location 7841 Old Troy Pike, Huber Heights, Ohio, with a listed contact number for the restaurant. The header includes the restaurant branding followed by the full store address and phone number. POS transaction metadata includes a check number, cashier identifier, order type (Drive Thru), and a timestamp showing date and time of purchase. The receipt presents a financial summary containing subtotal, tax, drive-thru total, tender amount, and change returned. A customer relations section appears below the payment summary providing corporate contact information and website support details, followed by a promotional customer survey invitation with a survey code and validity notice. The document concludes with a customer copy designation and repeated customer relations contact information, consistent with a quick-service restaurant thermal POS receipt format.",
+  "slug": "Raising-Cane's-Receipt",
+  "createdAt": "$D2026-03-14T12:18:07.685Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdd71788e-655e-4bbc-a9e8-76a9b7ac65e7-image%20(47).jpg?alt=media&token=dfdb8b1c-5fca-441e-a3f7-066085919eb2",
+      "size": 236,
+      "businessDetails": "7841 Old Troy Pike\nHuber Heights, OH 45424\n937-200-1191",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "66b1e9b5-1163-49e6-a410-e4ef98f9a78a",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Check Number:\n80238",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6b95ab9-883b-4d1c-a356-e6fd05dc0c2e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "12/20/2021                 5:36 PM\nCashier: Nichole\n\n                            80238\nOrder Type: Drive Thru",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "60be3036-0911-467f-a0e8-cf13af9417fd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0e3e1291-adf6-4f38-a66c-afa3c0d1a341",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fef4fe88-0e27-41b4-ac38-9cce149f28dd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Questions or Comments?\nCustomer Relations\nWWW.HICANES.COM\n833-HI-CANES (833-442-2637)\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "eab67958-b5ab-4310-9389-750b7b23203e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Enter to win\nFREE CANE'S\nfor a year each month!\nTell us about your recent\nexperience. Visit us at:\nwww.raisingcanes.com/survey\n\nEnter survey code:\n8022-3831-0122-1270\n\nValid for 3 days after visit.\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "cccaa87d-1033-48f9-babf-2ae9387504dd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "* * Customer's Copy * *\n\nQuestions or Comments?\nCustomer Relations\nWWW.HICANES.COM\n833-HI-CANES (833-442-2637)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FbWcCFaZVTGZIJYw9WJFa%2FbWcCFaZVTGZIJYw9WJFa-4ef66b2c-99ad-4d1f-b6cf-19f4f82af0b1.png?alt=media&token=478769b7-37be-4883-a289-20176f22c963",
+  "published": true,
+  "id": "bWcCFaZVTGZIJYw9WJFa"
+}

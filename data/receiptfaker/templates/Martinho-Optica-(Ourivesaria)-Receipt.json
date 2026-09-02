@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Martinho Óptica (Ourivesaria) Receipt",
+  "description": "Retail receipt from Martinho Óptica e Ourivesaria, documenting the purchase of wristwatches. The receipt includes store name and contact details, customer tax ID (NIF), item descriptions with individual prices, VAT breakdown, total amount paid (including VAT), and payment method. Suitable for personal records, warranty, or reimbursement purposes.",
+  "slug": "Martinho-Optica-(Ourivesaria)-Receipt",
+  "createdAt": "$D2026-02-04T15:59:32.365Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "€",
+  "textColor": "#101828",
+  "numberFormat": "RIGHT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "8054a182-95b6-4653-a193-7f3611811c72",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FTWOxZ6lKW9VKQBryGJDzskuu1km1%2F9defa4b7-6dda-410e-a08b-93d4ce0d101a-Gemini_Generated_Image_l4l4fal4l4fal4l4.png?alt=media&token=213435d1-af95-4f07-ba40-1ce282047b0b",
+      "size": 228,
+      "businessDetails": "\n\nRelojoaria Martinho\nLargo 5 de Outubro N.32\nAlcobaça\n2460-019\ngeral@opticamartinho.pt\n(+351) 262 581 095\nhttps://opticamartinho.pt\n\n\nNIF do cliente: 243113188",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "adc11719-7c64-4a94-849a-e4ad36ba1b72",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Relógio Tissot PRX",
+          "total": "190.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Relógio G-Shock GA-2100-1A1    ",
+          "total": "110.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Preço sem IVA",
+          "value": "231"
+        },
+        {
+          "title": "IVA (23%)",
+          "value": "69"
+        }
+      ],
+      "total": "300",
+      "totalText": "Total com IVA",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3db9c97-a64a-4f80-9d07-d9dadc51aa72",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 160,
+      "businessDetails": "",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "66ed32f2-0ecd-4ad7-9aed-58b820903737",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Pago por: numerário\n..............................\n\nMuito obrigado pela sua compra.\nVolte sempre!\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0493c9ce-117a-4414-83a3-d9da409cfb58",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPor favor guarde esta fatura, servirá como garantia (2 anos após dia de compra).\n\n13/12/25 15:39 17690705 763439 147 0437",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Marks & Spencer (M&S) Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FuGaZUCC9oxBFxqZ1MzPT%2FuGaZUCC9oxBFxqZ1MzPT-5b71a875-cd8c-49a1-b567-314f7da49552.png?alt=media&token=5c4775c7-a897-409f-9e8f-9571d10549ff",
+  "published": true,
+  "id": "uGaZUCC9oxBFxqZ1MzPT"
+}

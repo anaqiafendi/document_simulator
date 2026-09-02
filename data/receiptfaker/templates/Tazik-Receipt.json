@@ -1,0 +1,140 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Tazik Receipt",
+  "description": "This receipt is issued by Tazik and identifies the business at Fyrisborg 4, 75310 Uppsala, Sweden. The header contains the business website, contact telephone number, cash-register identification, organization number, receipt number, and transaction date and time. The receipt records a food and beverage order consisting of Pepsi, Pepsi Max, Ramlösa Citrus, Kanna Vatten, Meze Platt, Kyckling Souvlaki, Bifteki, and Moussakas. The financial section records a total of 877.00 SEK and confirms payment by Kort Mobil. The receipt also provides a Swedish MOMS (VAT) breakdown at 12%, showing the VAT amount, value excluding VAT, and value including VAT. The footer records the number of goods and services together with the fiscal transaction reference. The overall layout is representative of a Swedish restaurant POS receipt, combining menu itemization, card payment, VAT reporting, and fiscal transaction information.",
+  "slug": "Tazik-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T12:04:33.972Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "published": true,
+  "sections": [
+    {
+      "id": "cffd636f-a5e1-42d1-a4e6-19912eb0ca8a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "KASSA2\n\n\nFyristorg 4       75310 Uppsala\nTel:018-150 333     www.tzaziki.se",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d28d874a-daac-4c05-bee6-514d2373f2f5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nKASSA: 001/01ORG. NR: 556677-5366\n\n\nKVITTONA:911/04a/HOVMAS016-08-29",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "52512028-ebf2-4154-96a4-3a1f066a7369",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "Pepsi",
+          "value": "28.00"
+        },
+        {
+          "title": "Pepsi Max",
+          "value": "28.00"
+        },
+        {
+          "title": "Ramlosa Citrus",
+          "value": "28.00"
+        },
+        {
+          "title": "Kanna Vatten",
+          "value": "0.00"
+        },
+        {
+          "title": "Meze Piato",
+          "value": "165.00"
+        },
+        {
+          "title": "Kyckling Souvlaki",
+          "value": "318.00"
+        },
+        {
+          "title": "Spitiko biltteki",
+          "value": "165.00"
+        },
+        {
+          "title": "Moussakas",
+          "value": "145.00"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e144c10-e8e4-4e66-b026-c0ece0162ba0",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "DEBIT TEND",
+          "value": "16.39"
+        },
+        {
+          "title": "CHANGE DUE",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "\nTOTAL:",
+          "value": "\n877.00"
+        },
+        {
+          "title": "ATT BETALA: SEK",
+          "value": "877.00"
+        },
+        {
+          "title": "\nKORT MOBIL:",
+          "value": "\n877.00"
+        },
+        {
+          "title": "\nANTAL TJANSTER ",
+          "value": "\n0"
+        },
+        {
+          "title": "ANTAL VAROR",
+          "value": "9"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "45000fcb-6d7a-4e27-8689-4d464bdf096c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMOMS  MOMS  EXKL.  MOMS   INKL. MOMS\n12.00%     93.96    783.04    877.00\nTOTAL      93.96   783.04     877.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a236ca76-6773-4c9b-ba82-4ca605c3ba9f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nKEAXE0000016175",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "JZHgf4K29gDaihRjc2FN"
+}

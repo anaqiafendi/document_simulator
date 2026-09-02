@@ -1,0 +1,126 @@
+{
+  "currency": "",
+  "slug": "The-O2-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T10:52:48.363Z",
+  "description": "This receipt template originates from The O2 entertainment venue in London, United Kingdom, and is identified as a transaction from the Amex Main Bar. The receipt includes a transaction location identifier (#16), an itemized sales section, VAT summary, grand total, workday settlement amount, and charge due information. Payment details record the card type, masked card number, authorization code, and transaction reference number. The footer contains the VAT registration number, customer thank-you message, venue address details, and a barcode. The format is representative of a hospitality and beverage point-of-sale receipt used within a large entertainment and events venue.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The O2 Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f5515926-91be-48f2-ac45-544cec2f09f5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9997eac6-0e11-4a27-8d72-b8e079e2367f-image%20(1).jpg?alt=media&token=3fff7f64-c8c4-4cbe-81da-e98d691f196a",
+      "size": 222,
+      "businessDetails": "Receipt: Amex Main Bar\n\n#16",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3d184db9-7595-40ac-a47c-abe9ca01b6cd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTanqueray London Dry",
+          "total": "\n£18.00"
+        },
+        {
+          "quantity": "",
+          "description": "Double. x 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Operetto Pinot Grigio",
+          "total": "£12.50"
+        },
+        {
+          "quantity": "",
+          "description": "Rosato 175ml x 1",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nVat",
+          "value": "\n£5.08"
+        },
+        {
+          "title": "Total",
+          "value": "£30.50"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7c2d3ff3-6763-4cc1-8761-61626a17d880",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nWorldpay",
+          "total": "\n£30.50"
+        },
+        {
+          "quantity": "",
+          "description": "Change due",
+          "total": "£0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCard Payment",
+          "total": "\n\n£30.50"
+        },
+        {
+          "quantity": "",
+          "description": "AMEX",
+          "total": "************7413"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e301c8da-7c59-4840-b69f-1dd944272c3a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Auth Code: 70\n\nReference: PG7R5350528305\n\n\nVAT NO:\t466477701\nThank You!\nPeninsula Square, London,\nSE10 0DX\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4f0a1fe2-1ac5-4547-952f-ed03efd90a1c",
+      "type": "BARCODE",
+      "size": 82,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "rj5pkCC3SwxiMyx1cv9t"
+}

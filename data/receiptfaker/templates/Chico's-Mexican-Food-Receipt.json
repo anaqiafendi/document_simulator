@@ -1,0 +1,274 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-05T15:43:13.827Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "02f8aa5e-8b3a-495a-a5f5-bb49cf73f74c",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 50,
+      "businessDetails": " Chico's Mexican Food\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9cca5f19-e4b3-471e-8e3f-c5cf450c1e03",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "2306 Historic Route",
+          "total": "August 16, 2025"
+        },
+        {
+          "quantity": "",
+          "description": "66",
+          "total": "7:31 PM"
+        },
+        {
+          "quantity": "",
+          "description": "Santa Rosa, NM",
+          "total": "Carlos"
+        },
+        {
+          "quantity": "",
+          "description": "88435",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "(575) 472-2181",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e29ed97e-e1a9-4fae-beb7-17839926f867",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "icket: TO 08: mm 1\nReceipt: dOW7\nAuthorization: 070292\n------------------------\n\nMastercard\nAID A0 00 00 00 04 10 10",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4469f63e-da5a-40e8-a955-d5930b4829fa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFOR HERE",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f965169a-17f9-45f1-a13b-7c31d751e239",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DRINKS",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "Jarrito Lime",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "DRINKS × 2",
+          "total": "$$1.99"
+        },
+        {
+          "quantity": "",
+          "description": "Water",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "($0.99 each)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "KIDS MENU",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Chicken Quesadilla",
+          "total": "$$8.99"
+        },
+        {
+          "quantity": "",
+          "description": "Chicken Quesadilla",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "KIDS MENU",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cheese Quesadilla",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "STREET TACO × 4",
+          "total": "$$15.00"
+        },
+        {
+          "quantity": "",
+          "description": "Tacos",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "($3.75 each)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 Adovada",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2 pollo",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SIDES  ",
+          "total": "$$6.00"
+        },
+        {
+          "quantity": "",
+          "description": "Rice & Beans",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PLATILLO",
+          "total": "$$13.99"
+        },
+        {
+          "quantity": "",
+          "description": "Asada",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "DRINKS ",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "Jarrito Pineapple",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "03ae2bb5-44a6-4e2b-b981-2abdc369b3dd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal ",
+          "total": "$$59.96"
+        },
+        {
+          "quantity": "",
+          "description": "Tip | Party of 5+ (20%)",
+          "total": "$$11.99"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax (9.5%)",
+          "total": "$$5.70"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff430c3e-e210-4010-9891-38ab44132c03",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$77.64"
+        },
+        {
+          "quantity": "",
+          "description": "Mastercard 4433 (Chip)",
+          "total": "$$77.64"
+        },
+        {
+          "quantity": "",
+          "description": "Guy L Spencer",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1db65d4e-cd8b-4e97-b82d-4ea50b081df5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for supporting this\nfamily run business!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Chico's Mexican Food Receipt",
+  "description": "$3e",
+  "slug": "Chico's-Mexican-Food-Receipt",
+  "published": true,
+  "id": "wvHRcY9NNA8TTRe8chGI"
+}

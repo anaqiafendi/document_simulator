@@ -1,0 +1,123 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "ISABEL MARANT Receipt",
+  "slug": "ISABEL-MARANT-Receipt",
+  "createdAt": "$D2026-02-28T12:55:20.916Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F34YLcefCTKdGSUyJulUKjeROSIs1%2Fb0965ecb-ddd3-44d9-84c7-4a84a5d8bac9-%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20(4).png?alt=media&token=b05926bc-4204-42ab-9f31-bc69af2a111d",
+      "size": 233,
+      "businessDetails": "4D Bd Haussmann\n75009 Pans \nTel. +33014207346\nVaF1+CV Paris\nC.FeP.Ive:FR09852130962\nCOMMERCIAL DOCUMENT\nof sale or service",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Invoice Number:22331\nDate:08/08/25   11:15;22\nBoutique : 50132   Cashier:1\nCashier: Sude Vildirim\nClient:Teena Laplaso\nID Client :420012\n\nArticle   QTY.  Price   VAT     EUR",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9a6072e6-77ac-4afc-a7bc-4a92c0b9dea6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "  SHOES      1    495.00  20%   495.00  \nBASKETS BEKETT\nBK0010FAA1E19550TA          size: 38\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd4cb121-7412-471f-adfd-311b5668024c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "            \n                   Subtotal   412.50\n                        VAT    82.50",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29a52307-3717-4199-8f59-5ef29e89d746",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Grand Total(EUR)    495.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5b91085-173f-4020-9b8f-3b880a183c84",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Vise                          495.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "526d82ef-54b8-46c2-890a-55b3574c6adf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " Balance                          390\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ad2ccc7a-b03c-4b16-bc8c-fb39caa4bc62",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Number of articles = 1\nPacail VAT\nCode     HT     VAT    TOTAL    VAT\nFucal  412.50  20%    495.00   85.50\nOperation type: Uente\nFiscal Code:FR0323L2UJ\nVAT Number: FR 132 6754 98\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7a1cd2e1-5476-4ac4-a324-db703e54cf9d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "I AGREE TO PAY ABOVE TOTAL ANOUNT\nAGRORDING TO CARD ISSUER AGREENENT",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7f2a8051-671e-4a93-89d6-d1736c9555c9",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb68b6af-0680-4400-82bc-5168eb0ae1ed",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1 0 0 0 1 2 0 1 1 0 0 0 0 0 2 4 5 1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by ISABEL MARANT, located at 40 Bd Haussmann, 75009 Paris, France, and includes full contact details, commercial identification number, and designation as a commercial document of sale or service. The document contains invoice number 22331, dated 08/08/25 at 11:15:22, along with boutique number 50132, cashier identifier (Cashier 1), cashier name (Jude Wildring), client name (Teena LaPlaso), and ID reference 420012. It presents structured VAT reporting, subtotal, VAT amount, and grand total in EUR, followed by payment method (Visa), balance information, and article count. The receipt includes fiscal code, VAT number, transaction coding (HT, VAT, TOTAL), and a card agreement authorization statement above a barcode footer. The format reflects a luxury apparel retail POS system with full European VAT compliance and transactional metadata.",
+  "metatitle": "Luxury Dior Receipt",
+  "metadesc": "authentic-looking Dior receipts with customizable boutique info, luxury items, pricing, and payment details using our free tool",
+  "parentName": "Dior",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FMNKLQNnhlCPopm9ltsf1%2FMNKLQNnhlCPopm9ltsf1-ef1574be-a0db-4b5b-82f9-ae3ebf149231.png?alt=media&token=c661ed71-c342-464e-94ed-2423bfd539d9",
+  "published": true,
+  "id": "MNKLQNnhlCPopm9ltsf1"
+}

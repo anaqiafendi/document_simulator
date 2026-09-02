@@ -1,0 +1,128 @@
+{
+  "fontType": "MERCHANT_COPY",
+  "numberFormat": "LEFT",
+  "sections": [
+    {
+      "size": 230,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F46e03bc3-b567-4716-9455-41cd021d2e93-image%20(22).jpg?alt=media&token=00246477-e2dd-4d67-bc70-da86680f6ef6",
+      "type": "HEADER",
+      "id": "77939add-306f-496a-914a-175c1b6799fe",
+      "businessDetails": "\nMax Burger Bar Longmeadow\n884 Bliss Road\nLongmeadow, MA 01106\n",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "totalDividerType": "DASHES",
+      "bottomDivider": false,
+      "totalText": "",
+      "type": "ITEMS",
+      "totalLines": [],
+      "id": "bf5fec83-e6c2-433b-af41-e551b9d83f72",
+      "items": [
+        {
+          "description": "Server: Kelly G",
+          "total": "Table 15",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "Check #241"
+        },
+        {
+          "description": "Guest Count: 2",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "5/3/25 6:32 PM",
+          "description": "Ordered"
+        },
+        {
+          "total": "\n\n$18.50",
+          "description": "\n\nMaple Whiskey Burger",
+          "quantity": ""
+        },
+        {
+          "description": "Gruyere!",
+          "total": "$$1.50",
+          "quantity": ""
+        },
+        {
+          "description": "Alpine Umami",
+          "total": "$$19.00",
+          "quantity": "1"
+        },
+        {
+          "quantity": "1",
+          "total": "$$5.50",
+          "description": "Btl Budweiser"
+        },
+        {
+          "quantity": "1",
+          "description": "Btl Pilsner Urquell",
+          "total": "$$6.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Fried Pickles",
+          "total": "$$9.00"
+        },
+        {
+          "total": "\n\n$60.00",
+          "description": "\n\nSubtotal",
+          "quantity": ""
+        },
+        {
+          "description": "Tax",
+          "total": "$$4.20",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$64.20"
+        }
+      ],
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "custom": "\n\norgot Your Max Vantage Card?\nPlease let us know your\nphone number.\nWe will be happy to apply today's\npoints to your total...",
+      "id": "158cfadb-6608-4b56-bcaf-8e3c6c3e80f9",
+      "type": "CUSTOM",
+      "bottomDivider": true,
+      "alignment": "CENTER",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "type": "CUSTOM",
+      "id": "f0d29ff0-7889-4460-b828-41ef85e9837a",
+      "custom": "\nVisit us online at\nwww.maxburgerbar.com",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "",
+  "slug": "Max-Burger-Receipt",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "backgroundType": "CRUMPLED_1",
+  "textColor": "#101828",
+  "isParent": true,
+  "name": "Max Burger Receipt",
+  "backgroundCrumpled": false,
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-05-26T11:03:44.147Z",
+  "currency": "",
+  "description": "This restaurant receipt from Max Burger documents a dine-in transaction processed at the Longmeadow, Massachusetts location on Bliss Road. The receipt includes restaurant branding, full address details, server identification, table number references, guest count metadata, check number formatting, and order timestamp information. The POS structure contains subtotal, tax, and total amount presentation aligned in standard U.S. restaurant thermal receipt formatting. Additional receipt elements include Max Vantage loyalty program messaging, customer phone number references for rewards application, website promotional formatting, and hospitality footer messaging near the bottom of the receipt. The layout reflects a standard U.S. casual dining restaurant thermal receipt with integrated loyalty program and dine-in service formatting.",
+  "published": true,
+  "id": "04DnjQvXaRSnf622Nxvn"
+}

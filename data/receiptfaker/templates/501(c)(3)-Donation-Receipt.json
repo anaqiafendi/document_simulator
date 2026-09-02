@@ -1,0 +1,110 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-05-25T07:45:45.049Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FSliM7yvAjzaKG335EjY9%2FSliM7yvAjzaKG335EjY9-f4d497fd-d497-4733-8e5e-111e4cfcac9c.png?alt=media&token=2853f41a-6bd5-4b75-9677-d6faa8fedd0e",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F6f60edf0-e0ef-4ec2-aa15-6580d3143a4e-7648546_donation_charity_alms_donate_icon.png?alt=media&token=4c7535d6-e8e2-4fb1-8c43-df9f9c49fdd0",
+      "size": 81,
+      "businessDetails": "Hearts United Foundation\n1208 Harmony Street\nColumbus, OH 43215\nUnited States",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "501(c)(3) Donation Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b920414b-bd5e-48a6-a592-6ac976524b4d",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 10:30:41 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Donated by:\nJason Miller\n3912 Oak Ridge Avenue\nCincinnati, OH 45202\njason.miller23@email.com\n(513) 555-1087",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "a1539a01-5ddd-49ab-8536-768efd9fa8cd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Donated Items:",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "469fd683-2738-438e-9b89-6f89b8a26b96",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "20",
+          "description": "Boxes of canned food",
+          "total": "600.00"
+        },
+        {
+          "quantity": "100",
+          "description": "Hygiene kits",
+          "total": "500.00"
+        },
+        {
+          "quantity": "10",
+          "description": "Cases of bottled water",
+          "total": "45.00"
+        },
+        {
+          "quantity": "12",
+          "description": "Refurbished laptops",
+          "total": "1,800.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "2,945.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "bef848b8-bd41-4f54-985c-8ca1b10a1cbc",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "501(c)(3) Donation Receipt",
+  "description": "Need a 501(c)(3) donation receipt? Use our free tool to create a formal record of charitable contributions. Add nonprofit details, donor name, donation amount, and date—ideal for tax filings and donor documentation.",
+  "published": true,
+  "slug": "501(c)(3)-Donation-Receipt",
+  "metatitle": "501(c)(3) Tax Receipt",
+  "metadesc": "official 501(c)(3) donation receipts with nonprofit details, donor info, and contribution amounts for tax deduction purposes",
+  "id": "SliM7yvAjzaKG335EjY9"
+}

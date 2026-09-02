@@ -1,0 +1,175 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Countdown Supermarket Receipt",
+  "description": "This receipt is issued by Countdown Supermarket and identifies the transaction as originating from the Birkenhead Shopping Centre location in Auckland. The header contains the Countdown branding, General Distributors Ltd. business information, Birkenhead contact number, and GST registration number. The receipt records the purchase of grocery products including Homebrand Corn Kernels, Brown Onion, Homebrand Macaroni Pasta, Homebrand Diced Tomatoes, and Butter Beans in Italian Sauce, together with a promotional discount. The financial section records a subtotal and final total of NZ$5.29, with GST of $0.69 included in the purchase price. Payment was completed by EFTPOS debit, with the terminal number, masked card number, approval status, transaction date and time, and POS reference displayed. The footer contains the customer number, store, POS and transaction identifiers, and the Countdown website.",
+  "slug": "Countdown-Supermarket-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T12:48:21.205Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "9f5388b3-4307-469a-85e1-589d43659ffb",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F17828de8-74e6-45f8-9060-d7e015dd2a9e-image%20(5).jpg?alt=media&token=85ef3e67-8649-47a5-95cd-27071a45f837",
+      "size": 271,
+      "businessDetails": "A division of General Distributors Ltd.\nBIRKENHEAD PH: (09) 255 2422\nBirkenhead Shopping Centre\n\nTax Invoice    GST No. 44-033-536\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "06bf46a8-17d1-443c-b6b9-ad50851e12d2",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "",
+          "value": "$$"
+        },
+        {
+          "title": "HOMEBRAND CORN KERNELS 400G",
+          "value": "0.95"
+        },
+        {
+          "title": "ONION BROWN LOOSE",
+          "value": ""
+        },
+        {
+          "title": "0.213 kg NET @    $0.74/kg ",
+          "value": "0.16"
+        },
+        {
+          "title": "HOMEBRAND PASTA MACARONI 500G",
+          "value": "0.86"
+        },
+        {
+          "title": "HOMEBRAND TOMATOES DICED 800G",
+          "value": "1.59"
+        },
+        {
+          "title": "D/MAINE BUTTER BEANSIN ITALIAN SCE 390G",
+          "value": "4.70"
+        },
+        {
+          "title": "Qty  2  @  $2.35 ea",
+          "value": ""
+        },
+        {
+          "title": "PROMOTION",
+          "value": "-3.06"
+        },
+        {
+          "title": "6  SUBTOTAL",
+          "value": "$$5.29"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5cdac0a8-e121-4297-9cdb-6de54999386a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "COUNTDOWN\nAUCKLAND",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42eb90f9-3e56-443b-aeae-4cbec0edd2a9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n------EFTPOS------\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "62bbba58-680d-4fa4-bd4c-a478f486498d",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "TERMINAL",
+          "value": "900145110006"
+        },
+        {
+          "title": "CARD:",
+          "value": "..........9323"
+        },
+        {
+          "title": "DEBIT",
+          "value": "CHEQUE"
+        },
+        {
+          "title": "PURCHASE",
+          "value": "NZ$5.29"
+        },
+        {
+          "title": "TOTAL",
+          "value": "NZ$5.29"
+        },
+        {
+          "title": "(00) ACCEPTED",
+          "value": ""
+        },
+        {
+          "title": "12/10/12 08:43   332628",
+          "value": ""
+        },
+        {
+          "title": "POS REFERENCE    5911",
+          "value": ""
+        },
+        {
+          "title": "\nTOTAL",
+          "value": "\n$5.29"
+        },
+        {
+          "title": "EFTEFT",
+          "value": "$$5.29"
+        },
+        {
+          "title": "CHANGE",
+          "value": "$$0.00"
+        },
+        {
+          "title": "\nTaxable Items",
+          "value": ""
+        },
+        {
+          "title": "TOTAL includes GST ",
+          "value": "$$0.69"
+        },
+        {
+          "title": "CUSTOMER NUMBER:",
+          "value": "700212763501"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f023292d-eaa2-4b87-902d-27a510c9d6ee",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nSTORE 9145 POS 006 TRANS 5911  0155 8:43 12/10/12 Check out your very own Online Mailer at www.countdown.co.nz and you could W...",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "PPdJ9LGqbBzuhAVHfayn"
+}

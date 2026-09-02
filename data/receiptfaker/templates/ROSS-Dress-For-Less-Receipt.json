@@ -1,0 +1,102 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "ROSS Dress For Less Receipt",
+  "description": "This receipt is issued by ROSS Dress For Less and identifies the store location as Evergreen Park, IL 60805, including the store phone number beneath the logo header. The format displays a receipt number near the top along with barcode identifiers and item code lines, followed by a structured financial summary section listing subtotal, sales tax percentage, and total. It includes transaction metrics such as items sold and returned, cash change, approval number, and register detail reference. The lower section provides store number, register number, transaction number, date and time stamp, and associate identifier. Promotional messaging, including a Facebook link and sweepstakes notice, appears near the footer, along with barcode sections and divider lines. The layout reflects a department store retail POS thermal receipt format with detailed transaction tracking and payment authorization references.",
+  "slug": "ROSS-Dress-For-Less-Receipt",
+  "createdAt": "$D2026-02-27T11:53:22.456Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "fb2b3046-59b3-45b1-9960-c6a2322c08cb",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7988cfc4-52cf-455c-85da-4851a4bd57c7-image%20(11).jpg?alt=media&token=0d7c05f0-9772-4b78-a46e-96bbee3ea959",
+      "size": 198,
+      "businessDetails": "DRESS FOR LESS\nEVERGREEN PARK, IL 60805\n708-424-1504",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "e36b599d-9362-4e6e-9227-bc580a83a7cc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Receipt # 1643-02-4685-5016-9",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bb1b7708-f4bb-4ca8-98d3-2dbe8d5118e6",
+      "type": "BARCODE",
+      "size": 44,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "568e26b7-420a-4a53-b94d-1b3cce15fbfa",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n400271763493LS BLK BRYNN RPDO $14.99R\n400278491706 U/S Purple Smoke B $24.99R\n400280459587 PARIS BENTO PNK HE $6.99R\n400281297746 wday Cco sllic orc $9.99R\n400282467704 hp 12x17-8m pnk/ $35.49R\n\nSubtotal $35.49\nSales Tax 10.00% $3.55\nTotal $39.00\n\nSold: 5 Returned: 0\n\nCash Change $100.00\nAppr # 1643-02-4685-5016-9 $61.00\n\nRegister Detail 01-3-01-003900",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "bd4588bb-be0c-45de-b6e0-b2749bdda2bd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "01-3-01-003900",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "30389814-f64d-4b72-a570-3ecf3b4577ee",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4f87ac5-74f2-48d8-a29d-aed165221428",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Store: 1643 Reg: 02 Tran: 4685\nDate: 01/16/25 7:04:35 PM Assoc: 235279",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "503f92cd-907e-421d-bb1e-40b660172daa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\"Like us on Facebook\"\nwww.facebook.com/RossDressForLess",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7f09c60-9385-4c18-b9ff-ec1e1b84aeab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "You Could Win a\n$1000 Gift Card",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FKPCtUxYen99Gac5tt8An%2FKPCtUxYen99Gac5tt8An-61e1a2ed-b57f-4f04-a625-7a3944d9a7d8.png?alt=media&token=9105e0d8-b03a-4f22-ba37-73d954b01ede",
+  "published": true,
+  "id": "KPCtUxYen99Gac5tt8An"
+}

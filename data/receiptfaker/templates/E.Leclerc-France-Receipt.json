@@ -1,0 +1,85 @@
+{
+  "currency": "",
+  "slug": "E.Leclerc-France-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T12:35:15.318Z",
+  "description": "This promotional receipt from E.Leclerc documents a customer loyalty reward voucher issued by the Centre E.Leclerc location in Ondes-sur-Vireau, France. The receipt includes store branding, full store address details, telephone number formatting, promotional campaign messaging, voucher value presentation, issuance date references, barcode formatting, voucher identification numbers, and redemption terms. Unlike a standard sales receipt, the document functions as a future-purchase reward certificate that records earned customer benefits for later use. Additional receipt elements include redemption conditions, expiration information, customer appreciation messaging, and loyalty program references near the footer. The layout reflects a standard French supermarket promotional voucher receipt with customer rewards and future-purchase credit formatting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "E.Leclerc France Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "18e52656-472f-4226-b56d-9d1f3d37af5c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5bd0918d-f91d-4070-8694-c9cd0f9bb19d-image%20(2).jpg?alt=media&token=79bfc07c-1777-4939-8421-af5f12d4f8e0",
+      "size": 242,
+      "businessDetails": "CENTRE LECLERC\nRTE DE CONDÉ/NOIREAU\n14500 – VAUDRY\nTel. 02.31.66.17.56",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d2451c52-0099-48da-85f8-38f20004dc2a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SPECIALEMENT POUR VOUS",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "91d8bccc-0001-4780-92d1-8a1c6051fdfb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSUR PRÉSENTATION OBLIGATOIRE DU\n\n3€\nEn Tickets E.Leclerc\ndes 60€ dachat\nLire le recto-endroit en caisse\n\nDu 10/05 au 24/05/2020\nOffre réservée à la carte n°\n* 299000205036\n\n\nOffre valable dans un seul magasin en caisse sur présentation de votre Carte, dans votre centre E.Leclerc (hors caisse libre service, Drive, Manège a bijoux, Agences spécialisees, Livres, carburant, parapharmacie, Espace culturel). Offre non cumulable, non échangeable et non cédable en tout ou partie. ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5df7a2e0-cdbb-4e78-a891-d035d83e4019",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n2002968\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d4ad175-6ecd-4624-8d25-73a3f8523c54",
+      "type": "BARCODE",
+      "size": 79,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0144a698-a095-4bb1-aedc-3943baac0d80",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0 1  9  7 9 4 0 0 0  3 8",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "724dee40-04a8-4c0c-9c72-3e708c7267fd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGenere par\nTicket 15/5 a 9h48 03090 2025\nA bientot dans votre\ncentre E.Leclerc",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "LRv2C1xEyn9rOuz8xOLZ"
+}

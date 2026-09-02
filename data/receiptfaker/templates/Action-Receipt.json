@@ -1,0 +1,188 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-25T12:41:13.999Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "f4091a30-5266-4678-a0c8-cee77b55e8b5",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F946ff41b-d766-4347-9fbf-093356def7ea-image%20(1).jpg?alt=media&token=b166e42e-8b76-4ec4-b55f-f29698478c76",
+      "size": 270,
+      "businessDetails": "Action Poland sp. z o.o.\n40-026 Katowice\nBDO: 000066044\nA223  Skarżysko Kamienna\nUl Krakowska 142 26-110 Skarżysko-Kamienna\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cfc68d7e-d571-4140-918a-e934908683a5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "NIP: 954278083",
+          "total": "W013196"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c406ca0-6fe1-4fbe-85ef-851559afcd3e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PARAGON FISKALNY",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6f18d0f-a5a1-413d-b563-7bd0d5c24f6d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n2575038 ptyw.ochr.uv",
+          "total": "\n14.99A"
+        },
+        {
+          "quantity": "",
+          "description": "Sprzedaż opodatkowana A",
+          "total": "14.99"
+        },
+        {
+          "quantity": "",
+          "description": "Kwota PTU A 23%",
+          "total": "2.80"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PTU",
+          "total": "2.80"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "22f070eb-48ad-498d-8abe-e947aeee5915",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUMA",
+          "total": "PLN        14.99"
+        },
+        {
+          "quantity": "",
+          "description": "DO ZAPŁATY",
+          "total": "14.99"
+        },
+        {
+          "quantity": "",
+          "description": "ROZLICZENIE PŁATNOŚCI",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nGotówka",
+          "total": "\n100.00"
+        },
+        {
+          "quantity": "",
+          "description": "Reszta (Gotówka PLN)",
+          "total": "85.01"
+        },
+        {
+          "quantity": "",
+          "description": "F0303/8  #Patrycja",
+          "total": "25/07/2023 17:05"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "15133263-2571-4547-a1d2-cc94cef53361",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n77b408075BC3AB026/DC2DCA0DF304C2\n7EP  FBT 2101692264\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0a092db1-1040-4046-8695-cfead7a672aa",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Nr zamówienia",
+          "total": "1000714"
+        },
+        {
+          "quantity": "",
+          "description": "Numer",
+          "total": "A223103230618058223/0998"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5af865ac-eaaf-4d56-81d3-20cbeda75a0e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nInformacja o fakturze: Wymiany lub zwrotu artykułu mozna dokonac za\nokazaniem paragonu w przeciągu 8 dni od daty zakupu.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "46120c62-d7c2-4c6f-b450-99d949d38b51",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal fiscal POS receipt issued by Action Poland Sp. z o.o. from a store located in Skarżysko-Kamienna, Poland. The header contains the company name, registered office, BDO registration number, store address, tax identification number (NIP), and fiscal register identifier. The receipt includes a fiscal sales summary showing Taxable Sales (Sprzedaż opodatkowana A), VAT Amount (Kwota PTU A 23%), Total VAT (SUMA PTU), Grand Total (SUMA), and the Amount Due (DO ZAPŁATY). The payment section documents a cash transaction, including the amount tendered and change returned, followed by transaction identifiers, order number, receipt number, and the transaction date and time. The footer provides invoice and return policy information, states that returns require the original receipt within the specified period, includes a customer thank-you message, and ends with a QR code. This is a standard Polish retail fiscal receipt used in discount variety stores.",
+  "name": "Action Receipt",
+  "slug": "Action-Receipt",
+  "published": true,
+  "id": "eAMRf5SbXgxPi0AoM11a"
+}

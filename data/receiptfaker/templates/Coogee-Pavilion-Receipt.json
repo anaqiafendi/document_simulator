@@ -1,0 +1,134 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Coogee Pavilion Receipt",
+  "description": "This receipt is a restaurant tax invoice issued by Coogee Pavilion at its Pavilion Beach Bar location, including ABN for business identification. It contains service identifiers such as check number, table number, server name, and guest count, along with timestamps for check opening and closing. The receipt presents a structured financial summary including subtotal, GST-inclusive amount, card surcharge, and total amount, with payment processed via card. Additional elements include surcharge notation, function enquiry contact information, gift card reference, and a duplicate receipt label, reflecting a typical Australian hospitality POS receipt format.",
+  "slug": "Coogee-Pavilion-Receipt",
+  "createdAt": "$D2026-04-07T17:15:46.077Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "4a78bcfc-c8b3-4553-b036-c44ebd52bfba",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F990a6964-2c4d-476b-8855-9c723ba85f96-image%20(3).jpg?alt=media&token=2ca0cef5-4885-4493-9cb9-af050af46c68",
+      "size": 201,
+      "businessDetails": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "62a3f894-7ec7-4364-84b3-721aeee84735",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "DT Guest",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6c52c1bc-a4c7-4181-9c8e-5d083e6ff5e8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Order # 412",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "39d652a6-8cea-4c73-9b25-03a63f3c8642",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nRestaurant #: 021103\nReady for Pick-Up: 3/5/2025 08:53 PM\nDrive Thru\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8c9c3d19-dcd5-4d06-b65f-72f4fe11193c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Drinks: 0",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Food Items: 6",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "308683d4-d30c-4edd-84c4-811018fd9453",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Cheese Quesadilla\nNO Creamy Jalapeno",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Stk Queso CW Sliders 2pk\nNO Pico De Gallo",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Mexican Pizza",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nBeef Supreme Bur\nEZ Red Sauce\nADD Potatoes\nNO Onions\nNO Tomatoes\nNO Sour Cream",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Queso Dip",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Cinnabon 2 Pack",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b3b89e20-4412-4ebd-86bd-cc97dbe410a5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSauces: 24\n*** THANK YOU ***\nVISIT US AGAIN!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fq1voR9dA3pn8ZrWo8HP6%2Fq1voR9dA3pn8ZrWo8HP6-357b9c48-d1c8-4bfa-90c9-c22b73f214e2.png?alt=media&token=a7c79fd3-15ae-4485-8a07-a21a3606d7d6",
+  "published": true,
+  "id": "q1voR9dA3pn8ZrWo8HP6"
+}

@@ -1,0 +1,153 @@
+{
+  "createdBy": "mfzPsajS24gqnWlU0pQpQqjQjS23",
+  "createdAt": "$D2025-06-19T23:31:20.785Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_2",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fe7669488-6812-42ad-9aef-04fd169b8a1d-staples-tht%20ws%20esylogo-black-and-white-1.png?alt=media&token=4244dc72-6c63-4ea7-8963-74cdb62ca007",
+      "size": 199,
+      "businessDetails": "Low prices. Every item. Every day.\n124 Morton Ave.\nFolsom, PA 19033\n(610) 532-7187",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e019a8ea-209a-4f7d-ba79-8574b27ea101",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SALE             1472635 5 005 29184\n                 1120 05/06/24 03:15\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd4c0eac-d3a7-4279-93c2-1137f4c548ab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "QTY SKU                        PRICE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Hammermill C Paper, 20lbs\n010199905000",
+          "total": "\n44.99"
+        },
+        {
+          "quantity": "1",
+          "description": "HP InkJet Prntr, 9125e\n196337284807",
+          "total": "\n209.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Pilot G2 Gel Pens\n072838312372",
+          "total": "\n43.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Swingline Mini Stapler\n074711791717",
+          "total": "\n3.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Staedtler Pencil, 144/Box\n031901950897",
+          "total": "\n22.89"
+        },
+        {
+          "quantity": 1,
+          "description": "HP 923e/923, 4/Pck\n196548610433",
+          "total": "\n123.56"
+        },
+        {
+          "quantity": 1,
+          "description": "Staples Alum Clipboard\n718103242936",
+          "total": "\n24.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "474.41"
+        },
+        {
+          "title": "Standard Tax 6.00%",
+          "value": "28.46"
+        }
+      ],
+      "total": "$$502.86",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "febe04da-fb44-4618-bbff-08e54dbfbf61",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "MasterCard                    502.86\nCard No.:  XXXXXXXXXXX4922 [S]\nAuth No.: 043728",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f1b2d59-de12-4a05-9dcd-08c7fffc2b1e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TOTAL ITEMS   7",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nCompare and Save\nwith Staples-brand products.\n\nTHANK YOU FOR SHOPPING AT STAPLES !\n\nShop online at www.staples.com\n\nShopping at Staples just got easier.\nSave time when you reserve items\nonline and pick up in store.\nGet details and try at staples.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 57,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb096b24-5a95-4888-94e7-70b009e91f15",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1 1 2 0 0 5 0 6 2 4 7 3 8 2 9 1 0",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FJNaeVuJLsVVAhS17gpBK%2FJNaeVuJLsVVAhS17gpBK-c8fded47-6e65-4ddf-9f0d-e66cfe959dbd.png?alt=media&token=0c3f7442-f61d-4eae-94c4-6434b5fbf31d",
+  "name": "Staples Receipt",
+  "description": "Need a Staples receipt? Quickly create a detailed office supply purchase record with our free tool. Add store info, items bought, prices, taxes, and payment method—ideal for returns, expense reports, or budgeting.",
+  "published": true,
+  "slug": "Staples-Receipt",
+  "metatitle": "Office Supply Receipt",
+  "metadesc": "authentic Staples receipts with custom office supplies, store details, prices, taxes, and payment info for returns and expenses",
+  "id": "JNaeVuJLsVVAhS17gpBK"
+}

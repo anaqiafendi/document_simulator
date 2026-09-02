@@ -1,0 +1,150 @@
+{
+  "currency": "",
+  "slug": "Brasserie-Lipp-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T15:45:06.109Z",
+  "description": "This receipt template originates from Brasserie Lipp in Paris, France. The header contains the restaurant branding, full street address, SIRET registration number, VAT information, and operating-hours notice. Transaction metadata includes table number, cover count, server reference, transaction identifiers, register information, and timestamp. The receipt contains an itemized dining section followed by a grand total. The footer includes a provisional document notice, transaction and cashier references, a statement indicating that service is included, and customer appreciation messaging. The format is representative of a full-service French restaurant point-of-sale receipt.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Brasserie Lipp Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "8d4d4832-86d4-4d7c-9bbf-1f8c4563fad3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Brasserie Lipp\nBRASSERIE LIPP LGE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4c7b5742-5e12-40b9-9b09-70548c200a46",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "151 Bd Saint Germain\n75006 Paris FRANCE\nSIRET:41032601200027  NDF-FA:FR40038362105\nTel.: 01 45 68 53 91\nOuvert tous les jours jusqu'a 2h MATIN\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dbace871-d298-43f9-9a76-6c58de47108f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTABLE    26\n2 COUVERT  CDR 59\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e30795e8-c725-4548-a356-71a5ac3f7e8f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "3 x Demi Lipp Bland      7.00 ",
+          "total": "21.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "x Poireaux Vinaigrette",
+          "total": "12.50 D"
+        },
+        {
+          "quantity": "",
+          "description": "x Cervelas Remoulade",
+          "total": "10.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "x Hareng Bismark",
+          "total": "12.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "x Cote Veau",
+          "total": "39.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "x Choucroute Garnie",
+          "total": "26.50 D"
+        },
+        {
+          "quantity": "",
+          "description": "x Baba ",
+          "total": "12.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "x Millefeuille",
+          "total": "12.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "x 100cl. San Pellegrino",
+          "total": "8.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "x SDG Sauternes 8    18.00",
+          "total": "36.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "2 x Cafe Expresso  5.00",
+          "total": "10.00 D"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "199.50"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e37b1edb-e723-4c98-b588-c2062c27d69b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nDOCUMENT PROVISOIRE\n(C.PROF. 4 Restaurant)\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "575fa2fe-7723-4033-afa4-3ae2c9ce957e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Tx:323 Doc:837451 Lg:11 B0002 eBBH\nDIMANCHE 14-12-2025 23:42:59\nCle 59-Serv:59  Caisse 5  Num:00540836/001",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3bbe63a0-bc30-478e-bb06-3e3ed4b57f0a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nService 15% inclus\nMerci de votre visite\nA bientot",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "CrR6yPMKU4B44o3KQxOf"
+}

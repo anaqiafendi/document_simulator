@@ -1,0 +1,93 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "House of Fraser Receipt",
+  "description": "Retail sales receipt from House of Fraser showing store details, barcode, purchased item (Watch Station), total amount paid, payment method (Visa), PIN verification, authorization code, VAT number, and transaction details.",
+  "slug": "House-of-Fraser-Receipt",
+  "createdAt": "$D2026-01-23T18:06:00.330Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "FAKE_RECEIPT",
+  "sections": [
+    {
+      "id": "4f0c0731-3285-4fdd-9ee2-554f8f63c893",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Febb71838-4ee5-45ad-a4a6-b6b89e8d81fa-house%20of%20fraser.jpg?alt=media&token=d2001669-7018-4924-bc06-6f8a64303e39",
+      "size": 247,
+      "businessDetails": "SHOP ONLINE AT WWW.HOUSEOFFRASER.CO.UK\nRICHMOND\n00844 800 3755\nVAT NUMBER 259976879",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11902840-c17a-4a02-861d-3c848388a1ae",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53074a3b-f042-4ab5-8400-95699f0394b8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "050252413062105704",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8daea5-182c-47b5-a392-3366de32a800",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSALES    RECEIPT\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6af28f1f-6257-4e9a-9a10-116d6e5bb9fd",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "WATCH STATION EN           \n0817 691464758646             £229.00\n\nTOTAL                           £229.00\nVISA                            £229.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d06113b4-b72e-4f9a-a626-0b6cb0d27d56",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "PIN VERIFIED\nCARD **** **** **** 1132",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5eea20d3-a754-491d-a47c-79cb32e1cb96",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "START DATE        05/13\nAUTHORISATION     198549\n\nPlease retain for your records",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "15b3213a-bf65-4289-ae0e-c4987ae9afbf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "  CHANGE      £0.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fw9i3RVoE1mJY8kJhSl1p%2Fw9i3RVoE1mJY8kJhSl1p-80839680-b539-49aa-921c-e2e359bca339.png?alt=media&token=47ef0c1b-41a7-4065-8c04-59604d68d846",
+  "published": true,
+  "id": "w9i3RVoE1mJY8kJhSl1p"
+}

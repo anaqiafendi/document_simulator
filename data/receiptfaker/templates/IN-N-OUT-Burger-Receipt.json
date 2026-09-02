@@ -1,0 +1,148 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "IN-N-OUT Burger Receipt",
+  "description": "This receipt represents a quick-service restaurant transaction issued by IN-N-OUT Burger Hesperia Main. The document begins with a guest queue identifier followed by the restaurant name and internal location identifiers. The receipt includes point-of-sale metadata such as cashier name, check number, and terminal identifiers, along with section dividers separating the order list, financial summary, and payment processing details. A financial summary section displays subtotal, tax rate, total amount due, tender type, and change, followed by a credit card charge detail block that records the card type, masked account number, contactless capture status, PIN verification status, authorization code, authorization reference, transaction number, AID, and authorized amount. The footer contains a customer service contact number, a thank-you message, and the transaction timestamp with lane and terminal identifiers, reflecting a standard thermal POS receipt format used in fast-food restaurant environments.",
+  "slug": "IN-N-OUT-Burger-Receipt",
+  "createdAt": "$D2026-03-14T11:59:32.124Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "YOUR GUEST NUMBER IS\n98\n\nIN-N-OUT BURGER HESPERIA MAIN\n029 1 1748 1154",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "66b1e9b5-1163-49e6-a410-e4ef98f9a78a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Cashier: GAVIN ST\nCheck : 98",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "ac47e58f-8b8b-4459-98c1-9bb27f5f479d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "2c471ade-2277-4e68-bab1-dd88caf8ac90",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f93c431e-f183-4f56-9ee7-5977585f0513",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CHARGE DETAIL",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6b95ab9-883b-4d1c-a356-e6fd05dc0c2e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Card Type:  MasterCard\nAccount:    ************2849\nCapture:    Contactless\nPIN:        Not verified\nAuth Code:  396571\nAuth Ref:   2c2c43ce-c4a0-4375-a9cd-78c63c\n49fb20\nTrans #:    1154\nAID:        A0000000041010\nAUTH AMT:   $21.87",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a60ffd6-00fd-4363-aadb-b0ebf90b845b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "         THANK YOU!\nQuestions/Comments: Call 800-786-1000\n\n2024-03-19     L1 T1     5:53 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5zOKmPHtsEcgaWIhmvHt%2F5zOKmPHtsEcgaWIhmvHt-a33db070-f2e6-4fd4-9937-802cdef09e3e.png?alt=media&token=e6f66a1a-3c11-421a-8c64-561e1f7b8457",
+  "published": true,
+  "id": "5zOKmPHtsEcgaWIhmvHt"
+}

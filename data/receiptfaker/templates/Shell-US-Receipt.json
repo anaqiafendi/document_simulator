@@ -1,0 +1,67 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T10:00:40.694Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "5e036090-83fa-4a18-a1c3-cfaf49c6d71e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Welcome to Shell\nWELCOME\n\n1244602986",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "196c620b-addf-41ff-b9f3-f483eeadc550",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": " SHELL",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f8e119bd-e4a1-425a-81de-d85aa31c0b39",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n5545 MERRICK ROAD\nMASSAPEQUA  NY\n11758",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b03eb79c-625d-400d-91ce-6dd3fd9921d5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDATE: 9/8/22 12:26   TERM: 001066\nPUMP 02   SERVICE LEVEL: SELF\nPRODUCT: REG\nGALLONS:    29.899\nPRICE/GC    $3.099\nFUEL SALE   $91.98\nCREDIT      $91.98\n\n\nMastercard\nUS0561 08\nXXXX XXXX XXXX 3131\nChip Read\nAPPROVED\nAUTH #: 69389P          INV #: 533241\nMode: Issuer\nAID: A0000000041010\nTVR: 0000000000\nTAD: 0110A0400122000\n      0000000000000000\nTSI: E800\nARC: 00\n\n\nTOTAL SAVED $8.00\n------------------\nFuel Rewards program\nFuel: $8.40/gal\nGallon limits vary\nFuel Saving: $8.00\n\nView fuelrewards.com\n\nor Fuel Rewards App",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "af219892-975d-42b6-84ef-d492817773c8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nPlease come again\nTHANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Shell US Receipt",
+  "description": "$3e",
+  "slug": "Shell-US-Receipt",
+  "published": true,
+  "id": "Y0n8wzD5KgfJ9uTGJkLG"
+}

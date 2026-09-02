@@ -1,0 +1,155 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T18:54:20.568Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c2c1b35f-9020-4853-827a-334cb6ddbba1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Jensens Food Group Denmark\nJensens Bøfhus\nSergelgatan 1\n11157 Stockholm\nTlf.: 08 - 411 16 28\nOrg. Nr.: 556545-4252\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "585b852e-6f85-4c6d-9eda-917c69cfdb99",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "15 erika",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c3b3c76f-11d7-4787-b919-fa0e5ecbd423",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTbl 53/1       Chk 5897       Gst 2\n 30Apr'16 15:25",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "248cbcb9-23d2-4014-9c54-3091fe9c6684",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 Rump steak 190g",
+          "total": "\n109.00"
+        },
+        {
+          "quantity": "",
+          "description": " # gräd potatis ",
+          "total": "12.00"
+        },
+        {
+          "quantity": "",
+          "description": "# Favoritsås ",
+          "total": "10.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Coleslaw ",
+          "total": "24.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Pepsi 0,50 1 @ 39.00 ",
+          "total": "78.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Rump steak 250g",
+          "total": "134.00"
+        },
+        {
+          "quantity": "",
+          "description": "# Tjocka Fries",
+          "total": "12.00"
+        },
+        {
+          "quantity": "",
+          "description": " # Favoritsås",
+          "total": "10.0"
+        },
+        {
+          "quantity": "",
+          "description": "1 Skocka& Tonat",
+          "total": "24.00"
+        },
+        {
+          "quantity": "",
+          "description": "Kontan",
+          "total": "413.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n413.00"
+        },
+        {
+          "quantity": "",
+          "description": "Betaling",
+          "total": "413.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nMoms 12% ",
+          "total": "\n44.25"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1303089a-b331-4628-89eb-2def265f35e9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n---------15 Check Closed---------\n---------30Apr'16 16:01---------",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "beb0a6fe-a900-4873-9f24-abe04fbce555",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nEkstra:_______________\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a88a560a-2cb5-4a68-8a2f-31c729751dd2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSe oss din åsikt om besöket på\nJensen's Bøfhus.\nGå in på: www.jensens.se/gtu\n\n\nDu blev betjänt av: erika",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Jensens Bøfhus restaurant receipt issued from the Söndergatan location in Stockholm, Sweden. The header identifies Sveriges Food Group Denmark and Jensens Bøfhus, followed by the restaurant address, telephone number, and organization registration number. Dining and POS metadata includes the employee reference, table number, check number, guest count, and transaction date and time. The main section follows a restaurant thermal POS layout with primary entries and indented modifiers accompanied by aligned amounts. The financial summary records the subtotal, payment amount, cash tender designation, and 12% VAT information. The receipt also provides a separate check-closing timestamp, an extra-entry field, customer-feedback instructions with a website reference, and a footer identifying the employee who served the table.",
+  "published": true,
+  "name": "Jensens Bøfhus Receipt",
+  "slug": "Jensens-Bofhus-Receipt",
+  "id": "LDOU8nASZV4xEhhIQI4Q"
+}

@@ -1,0 +1,159 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-30T17:55:42.918Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Maverik Receipt",
+  "description": "This receipt is a retail transaction issued by Maverik, located at 3500 W Villemarie Ave E in Oroville, California, United States. It includes store identification, address, invoice number, and timestamp. The receipt presents an itemized list of purchased food and beverage items with quantities and pricing. A financial summary is provided showing subtotal, sales tax, and total purchase amount. Payment details indicate a cash transaction with change returned. The format reflects a standard U.S. convenience store POS receipt with transaction tracking and purchase details.",
+  "slug": "Maverik-Receipt",
+  "sections": [
+    {
+      "id": "4dafc63a-1be1-45a7-908f-a96c617b5ea3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0d9420ac-16ad-4f31-899f-674d98bee812-image%20(3).jpg?alt=media&token=90372d69-0130-491d-b0a6-0669d788043a",
+      "size": 175,
+      "businessDetails": "\nADVENTURE'S FIRST STOP\nOroville | #640\n3500 Oroville Dam Blvd\nOroville, CA 95965",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8d7bdf46-b063-4d12-934a-821bdb877e8e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n10-25-2023 09:12 AM Invoice #: 6403159566\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b8704a25-b2a0-4966-aff6-24cbce73c381",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "DESC      ",
+          "description": "          QTY",
+          "total": "AMT"
+        },
+        {
+          "quantity": "FRAPP 13.7Z MOCHA",
+          "description": "    1",
+          "total": "$$4.19"
+        },
+        {
+          "quantity": "CRV UNDER 24Z",
+          "description": "        1",
+          "total": "$$0.05"
+        },
+        {
+          "quantity": "GARDETTO ORIG 5.5Z",
+          "description": "   1",
+          "total": "$$4.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d840235a-f3dc-45a8-a7cb-08c054cd2ebc",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "SUB TOTAL",
+          "value": "$$9.22"
+        },
+        {
+          "title": "SALES TAX 8.25% (A)",
+          "value": "$$0.35"
+        },
+        {
+          "title": "TOTAL PURCHASES",
+          "value": "$$9.58"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0f4b219d-9e6f-4707-b913-6b8ede9fcf1b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCASH",
+          "total": "\n $20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$1"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "72bde37d-1b69-4197-b50a-a767ff398525",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nItems Sold = 2\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e0e120f3-d3d1-4275-a9c4-2352ce6995be",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThanks for fueling your\nadventure at Maverik!\n\nCustomer Service 1-800-789-4455\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "15af1ac7-b2e5-4a00-aaa9-941b7a802177",
+      "type": "BARCODE",
+      "size": 73,
+      "length": 498,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1749c2af-e5c2-4f5b-8a87-c590f04b531a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " 2 0 3 2 9 9 3 1 9 5 6 8 6 0 5 0 0 0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "jZNnuhXTWgUtVSmeXRY5"
+}

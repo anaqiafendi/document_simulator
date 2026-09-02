@@ -1,0 +1,165 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T14:48:34.351Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c7e00085-984e-4ee8-8aa5-6d56f2f78ae0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc0a211a4-e069-41fa-ba71-e7bb46c78cf2-image%20(12).jpg?alt=media&token=129546a4-d227-4275-a549-6cbcd9b82e57",
+      "size": 249,
+      "businessDetails": "  !!!EKSTERNAL MODE!!!",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4181d6f-1ed5-457a-a3f3-530da3a7b443",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nNo         : OTP0101202603200203\nTanggal    : 20-03-2026 20:02\nJam Masuk  : 20-03-2026 20:02\nNo Meja    : Quick Service\nMode       : PopCart\nKasir      : Kasir 1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "778ab394-f5e4-45dd-b9e0-3853b826e2e2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nBanana Crunch",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @32.000",
+          "total": "32.000"
+        },
+        {
+          "quantity": "",
+          "description": "Single Box",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0 ",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "Chocolate Nebula",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @34.000",
+          "total": "34.000"
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "Raspberry Shortcake",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @32.000",
+          "total": "32.000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7d1b4c92-f8c2-4815-83e3-e294a6f0fe30",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "3 item",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0bf3d783-8d8c-4081-95ed-50e2181e1fb2",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Grand Total : ",
+          "value": "98.000"
+        },
+        {
+          "title": "BRI QRIS",
+          "value": "98.000"
+        },
+        {
+          "title": "Inklusif PB1",
+          "value": "8.909"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c6c7ef45-a3f4-4fef-be3c-3a6e8e38549e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n!!!EKSTERNAL MODE!!!\n\nNomor antrian\n203\n\nTunggu nomor kamu dipanggil",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Butter Baby, Indonesia. The header displays the restaurant branding together with an \"EXTERNAL MODE\" indicator, transaction number, transaction date, order time, table/service designation (Quick Service), service mode (PopCart), and cashier identifier. The receipt includes an itemized transaction section before concluding with a financial summary showing the Grand Total, the BRI QRIS digital payment amount, and the value of Inklusif PB1, indicating that the applicable restaurant tax is included in the total price. The footer contains an \"EXTERNAL MODE\" notice, a printed queue number, and an instruction for customers to wait until their queue number is called. This receipt represents a standard Indonesian quick-service restaurant POS receipt featuring transaction metadata, tax-inclusive pricing, QRIS digital payment confirmation, and queue management information.",
+  "name": "Butter Baby Receipt",
+  "slug": "Butter-Baby-Receipt",
+  "published": true,
+  "id": "LxA3L1BCJezmXMzXEOb2"
+}

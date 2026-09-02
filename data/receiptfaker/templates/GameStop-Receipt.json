@@ -1,0 +1,75 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "GameStop Receipt",
+  "description": "A printed retail receipt from GameStop, Henderson Square location in Henderson, NC. The receipt shows the purchase of Pokémon Violet for Nintendo Switch at $59.99, with a 6.750% state tax of $4.05, bringing the total to $64.04. Payment was made via debit card with chip and PIN verification. The receipt also includes PowerUp Rewards information, customer survey details, associate ID, transaction number, and store contact information.",
+  "slug": "GameStop-Receipt",
+  "createdAt": "$D2026-02-13T16:09:18.954Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "74437dd4-df3a-4f0e-8744-f51d7760fe35",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe243486c-d578-4d46-b19d-3a13c9d2af5b-gamestop.jpg?alt=media&token=228be5f1-73f0-47b3-9c7e-7e776105a1ac",
+      "size": 188,
+      "businessDetails": "Henderson Square\n390 N COOPER DR\nHENDERSON, NC 27536\n(252) 492-7318\n\nJoin Our Team:\nhttps://careers.gamestop.com/",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "debe20a2-83b6-4750-862e-c34a970601f2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n11/25/22 11:05      05529/01 - 05\n691258 Kasey",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "934f6167-503f-4edb-b194-33edf8b0bbdc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "-------------------------PURCHASES\n \nPokemon Violet            59.99T\n              339270 026/00 Switch\nPurchase Subtotal       $59.99\n-----------------------------------\nTaxable Subtotal            59.99\n6.750% State                4.05\nTOTAL                       64.04\nDebit                       64.04\n\nENTRY METHOD: Card Inserted\nCHIP: PIN Verified Online - Unknown\nUS DEBIT\nAID: A0000000980840\n40 6f51905ffeaf8c6f\nTVR: 8080048000\nTSI: 6800\n00\n\n      Thanks, for shopping at GameStop\n\nPowerUp Rewards\n------------------------------------\nPowerUp Rewards Status: Expired Pro\nMember Since: Oct 2010\n-----------------------------------\nValue Scored Last Pro Year: $6.71\nMissed Value Since Expiring: $28.19\nYour PowerUp Lifetime Value: $46.28\nRedeem your points at PowerUpRewards.com\nAvailable Points: 0",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc297ffd-4418-46e7-8348-1dae534142b0",
+      "type": "BARCODE",
+      "size": 40,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "eac381e9-1b0a-4a6f-a9af-4ccb68ffceb1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nYour feedback is valuable to us!\nComplete our survey within 3 days for a\nchance to win a $100 gift card!\nSee website for Rules/Details.\nVisit: www.TellGameStop.com\n\nYour Feedback ID: 6396934-45585793\nAssociate ID: 691258\n",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "989eb077-79df-41b4-8b0a-f8325d6690c9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nGameStop values our customers, and we\nare committed to providing quality\nsupport. When things do not go as\nplanned, start your return in-store.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fk9qC0mkQrwWZdC41qMV0%2Fk9qC0mkQrwWZdC41qMV0-f6226fd9-5a45-41ff-9962-5420a4c5b19e.png?alt=media&token=eeb549b2-3e7c-4350-a9db-8e3f08babb22",
+  "published": true,
+  "id": "k9qC0mkQrwWZdC41qMV0"
+}

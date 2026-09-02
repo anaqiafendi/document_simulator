@@ -1,0 +1,143 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T16:57:04.671Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "aea41013-4bda-4d0d-8201-6483c2f59b2f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "式無章\nFood Plaza Fresh Market PIK FMA1&11",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a4842e70-74e0-4e21-a609-f4df695d23d9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTable:05\nNO:03-A-2601310005    Cashier:SARI\nDate:2026/1/31      Time:18:59\nName Discount Price Quantity  Amount\n----------------------------------\n\n\n石斑鱼 (1EKOR).酸菜 SAYUR ASIN;cbe biji pisah; IKAN KERAPU",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4531227d-6e0c-4a4b-89fc-f901bf4e40eb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\n350,000.00   1.0   350,000"
+        },
+        {
+          "quantity": "",
+          "description": "手撕包菜",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TUMIS KOL",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "65,000.00   1.0    65,000"
+        },
+        {
+          "quantity": "",
+          "description": "苦瓜炒蛋",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PARE TUMIS TELUR",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "85,000.00   1.0    85,000"
+        },
+        {
+          "quantity": "",
+          "description": "NASI",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "10,000.00   1.0    10,000"
+        },
+        {
+          "quantity": "",
+          "description": "热茶",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Teh tawar hangat",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "10,000.00   2.0    20,000"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal:     6 ",
+          "total": "\n\n530,000.0"
+        },
+        {
+          "quantity": "",
+          "description": "Adtax:",
+          "total": "53,000"
+        },
+        {
+          "quantity": "",
+          "description": "Paid:",
+          "total": "583,000"
+        },
+        {
+          "quantity": "",
+          "description": "Total:",
+          "total": "583,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9c011814-8a6e-4356-8a6e-2c73da54428e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Fresh Market, operating within the Food Plaza at Pantai Indah Kapuk (PIK), Jakarta, Indonesia. The header includes the business name, table number, transaction number, cashier identifier, transaction date and time, and a structured transaction table with quantity, price, and amount columns. The financial summary records the Subtotal, 10% Adtax, Amount Paid, and the Total amount due. The receipt concludes with a customer appreciation message (\"Thank you!\"). This receipt represents a standard Indonesian restaurant POS receipt featuring transaction metadata, tax reporting, payment reconciliation, and table identification for dine-in service.",
+  "name": "Food Plaza Fresh Market PIK Receipt",
+  "slug": "Food-Plaza-Fresh-Market-PIK-Receipt",
+  "published": true,
+  "id": "cftJhmvNT3yPPr7ito6k"
+}

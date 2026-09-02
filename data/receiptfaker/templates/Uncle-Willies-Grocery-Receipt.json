@@ -1,0 +1,138 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T09:57:28.539Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "85ceee66-aea8-42e7-9b29-e4fe3c1647a9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F81ca56e3-c907-4778-8f02-5f802684beba-image%20(5).jpg?alt=media&token=e62b90f7-3fc6-4aa8-a9fd-2ce13031eada",
+      "size": 271,
+      "businessDetails": "2205 MAIN ST\nCOLUMBIA, SC 29201\n8033780182",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2f1c016e-0f2d-43b9-8039-66afa8b5cca4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCashier: CHRISTA WILLIAMS\n19 Mar 2023 12:57:54P\n\nTransaction 000193\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0ffba77a-5cb6-4f6e-a7db-5ff946ae0de6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1  Mild Beef Sticks",
+          "total": "\n$2.99"
+        },
+        {
+          "quantity": "",
+          "description": " Troyers",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "1  Brisket Jerky ",
+          "total": "$$8.99"
+        },
+        {
+          "quantity": "",
+          "description": "1  Chicken Croquettes",
+          "total": "$$8.99"
+        },
+        {
+          "quantity": "",
+          "description": "1  Detox Me ",
+          "total": "$$16.50"
+        },
+        {
+          "quantity": "",
+          "description": "1  Manuka Honey",
+          "total": "$$22.99"
+        },
+        {
+          "quantity": "",
+          "description": "1  99 Cent ",
+          "total": "$$0.99"
+        },
+        {
+          "quantity": "",
+          "description": "1  Sparkling 2",
+          "total": "$$1.99"
+        },
+        {
+          "quantity": "",
+          "description": "1  Cornbeef",
+          "total": "$$14.79"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n$78.23"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax     8%",
+          "total": "$$1.32"
+        },
+        {
+          "quantity": "",
+          "description": "Service Charge (2.5%)",
+          "total": "$$1.96"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n$81.51"
+        },
+        {
+          "quantity": "",
+          "description": "DEBIT CARD SALE",
+          "total": "$$81.51"
+        },
+        {
+          "quantity": "",
+          "description": "VISA 0114",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "66a94c26-cb68-4d40-a22b-ec86f7e42afe",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nRetain this copy for statement\nvalidation",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Uncle Willies Grocery and identifies the store as 2205 Main Street, Columbia, South Carolina 29201. The header contains the store name, address, contact telephone number, cashier name, transaction date and time, and transaction number. The receipt records the purchase of several grocery and specialty food items, including Mild Beef Sticks, Troyer, Brisket Jerky, Chicken Croquettes, Detox Me, Manuka Honey, Sparkling beverage, and Cornbeef. The financial section records the subtotal, applicable sales tax, service charge, and the final transaction total. The payment section confirms settlement by Visa debit card, and the footer instructs the customer to retain the receipt for statement validation. The overall layout is representative of a United States grocery store POS receipt, combining merchandise itemization, sales-tax reporting, debit card payment processing, and transaction reconciliation within a compact retail receipt format.",
+  "name": "Uncle Willies Grocery Receipt",
+  "slug": "Uncle-Willies-Grocery-Receipt",
+  "published": true,
+  "id": "amOL7lcMgDmm1sODGQsF"
+}

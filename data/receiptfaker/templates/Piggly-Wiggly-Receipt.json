@@ -1,0 +1,124 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Piggly Wiggly Receipt",
+  "description": "This receipt template represents a grocery purchase from a Piggly Wiggly retail location. It features the Piggly Wiggly pig mascot logo and the tagline “Down Home, Down the Street” at the top, followed by transaction date and time, payment method details, and authorization information for a contactless U.S. debit card transaction. The receipt includes an itemized list of grocery purchases organized by department, balance due and payment summary, tax code with taxable and tax values, cashier identification, store operational hours, and branded messaging. A closing section notes reward point expiration and includes a store-specific faith-based message. This template is suitable for grocery receipt libraries, mock POS transactions, expense documentation samples, and receipt generator tools requiring realistic Piggly Wiggly formatting and structure.",
+  "slug": "Piggly-Wiggly-Receipt",
+  "createdAt": "$D2026-02-10T13:47:48.377Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "e9f40b6a-8f24-4a1b-84fc-039ed1e2786c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fd371a3af-b82b-4457-bcd4-058a672b8733-Piggly%20Wiggly.jpg?alt=media&token=73a56d4e-ec49-4af1-ab81-dc3f4f4b20ba",
+      "size": 179,
+      "businessDetails": "piggly wiggly\n“Down Home,\nDown the Street”",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b59028d9-afad-4498-9bee-e51e143bceb1",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "09/21/2024                         11:29:21\nUS DEBIT             Entry Method: Contactless\nCARD #:              XXXXXX\nPURCHASE             - APPROVED\nAUTH CODE: 384516\n\nMode:                                 Issuer\nAID:               A0000000980840\nTVR:               0000000000\nIAD:               06011203A00000\nTSI:               0000\nARC:               00\nTC:                92302620ED268179\nMID:               619620     TID: 001  SEQ: 021636\n\nTotal:                              USD$ 14.04\n\nPIN VERIFIED",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "5acfc7d0-710b-40b0-a7fd-99014a6a9e1d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MEAT\nBNLS SIRLOIN STK",
+          "total": "11.48"
+        },
+        {
+          "quantity": "",
+          "description": "PEODUCE \nRED & GOLD POTATOES",
+          "total": "1.98"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "BALANCE DUE",
+          "value": "14.03"
+        },
+        {
+          "title": "DEBIT CARD",
+          "value": "14.03"
+        }
+      ],
+      "total": "0.00",
+      "totalText": "CHANGE",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "06cdbef1-3bcf-4420-b046-52ee9c9238fd",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "315beff4-9bfa-4578-b758-b1d22a5f809c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "TAX-CODE  TAXABLE-VAL TAX-VALUE\nTAX 1       $13.47         $0.57\n\nCASHIER NAME: shane\nC0007   #0066    11:29:24    21SEP2024\nS06092   R002\n\n   Thank you for shopping with us !\n          Hours 7 AM - 9 PM\n\n    Turn Your Eyes to Jesus\n\nReward Points expire after 6 months",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FjFkhTnoe5h76hTMNDz3B%2FjFkhTnoe5h76hTMNDz3B-57a9da55-9009-4ef0-a4da-77816fc9c42c.png?alt=media&token=61f71a8d-8d09-492f-b2df-9db6c3ec8ce9",
+  "published": true,
+  "id": "jFkhTnoe5h76hTMNDz3B"
+}

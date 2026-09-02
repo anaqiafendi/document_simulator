@@ -1,0 +1,201 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-14T18:05:06.033Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e266264a-7edd-4a7b-bfcc-a21f354438b0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F170afa14-2483-4036-b265-8af0af7b5cb6-image%20(2).jpg?alt=media&token=35585ace-6017-45e2-af1f-8ee482374bfb",
+      "size": 265,
+      "businessDetails": "\nPolski Koncern Naftowy ORLEN S.A.\n09-411 PLOCK, UL.CHEMIKOW 7\nSTACJA PALIW NR 1363\nW NOWYM MIESCIE NAD WARTA\nUL. POZNANSKA 47, 63-040 NOWE MIASTO NAD WARTA\n\nBDO 000007103\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "44d00cdf-82f2-4e25-9eff-4c75a4b1441e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "NIP: 774-00-01-454 ",
+          "total": " W553203"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2a411e4b-7b81-47de-8f40-f4ffde2fc5bf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PARAGON FISKALNY",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa92b7ac-04b0-4cdd-8fc5-3060b219155d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nGAZ LPG(7) (B) 26.69×3.39",
+          "total": "\n90.48B"
+        },
+        {
+          "quantity": "",
+          "description": "Sprzedaż opodatkowana B",
+          "total": "90.48"
+        },
+        {
+          "quantity": "",
+          "description": "Kwota PTU B 8%",
+          "total": "6.70"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PTU ",
+          "total": "6.70"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ec8f0561-e273-4887-803d-4cb75fbb6dd0",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUMA",
+          "total": "PLN        90.48"
+        },
+        {
+          "quantity": "",
+          "description": "DO ZAPŁATY",
+          "total": "90.48"
+        },
+        {
+          "quantity": "",
+          "description": "ROZLICZENIE PŁATNOŚCI",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Gotówka",
+          "total": "90.48"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eebbedbc-027e-48be-9b6c-e32ab3c014e4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "F313462 #  14\\K3 Kasjer:7    14-05-2022  00:43",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d29de5a8-c7f4-4dd7-ab47-56de11ff8827",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n7B6EE11CF0AFA9C7D13643CAEABF09BB89A2642F 7EP  EAD 1901228052\n\nNR PARAGONU JEST PRZED NUMEREM KASY\nI KODEM KASJERA, NIE OBEJMUJE LITERY\n\nKLUB VITAY\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bbd917a1-4336-4845-9147-5be63b7f22b1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Numer karty VITAY",
+          "total": "789715530****838"
+        },
+        {
+          "quantity": "",
+          "description": "Dodano punktow",
+          "total": "104"
+        },
+        {
+          "quantity": "",
+          "description": "Suma punktów",
+          "total": "21 363"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "64e59279-cdb9-42e1-8eb8-a30571ba105b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n WWW.VITAY.PL\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "30c940d9-1ca0-43f4-9124-df75404f6005",
+      "type": "BARCODE",
+      "size": 74,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4ed4a46f-bfb2-488f-8d20-0b8879df30c3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "301409496",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by ORLEN and identifies the transaction as taking place at an ORLEN fuel station located on ul. Poznańska 47, 63-040 Nowe Miasto nad Wartą, Poland. The receipt is a Polish fiscal receipt (Paragon Fiskalny) and records the purchase of 26.69 litres of LPG (autogas). The financial section includes the taxable sales amount, 8% Polish VAT (PTU), total VAT collected, and the final amount payable in Polish złoty (PLN). The payment section confirms that the purchase was paid in cash. The receipt also includes transaction identifiers, cashier information, and VITAY Club loyalty program details, including the masked membership number and accumulated points. The overall layout is representative of a Polish fuel station fiscal receipt, combining fuel purchase details, VAT reporting, cash payment, and loyalty program information within a compact receipt format.",
+  "name": "ORLEN Receipt",
+  "slug": "ORLEN-Receipt",
+  "published": true,
+  "id": "e7INqs1RxyDJzokWtez0"
+}

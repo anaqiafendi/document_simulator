@@ -1,0 +1,175 @@
+{
+  "currency": "",
+  "slug": "REMA-1000-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T19:35:30.787Z",
+  "description": "This grocery retail receipt from REMA 1000 documents a BankAxept card transaction processed at the Krokdalsmyra location in Norway. The receipt includes company registration information (ORG NR), store contact details, register identifiers, operator references, receipt numbering metadata, serial number information, and transaction timestamps. The POS structure contains itemized pricing, bottle deposit (Pant) references, VAT calculations, subtotal presentation, total amount formatting in Norwegian kroner, and BankAxept payment confirmation aligned in standard Norwegian supermarket thermal receipt formatting. Additional receipt elements include cardholder receipt sections, authorization references, Facebook promotional messaging, store hours, and customer appreciation text near the footer. The layout reflects a standard Norwegian grocery retail thermal receipt with localized VAT accounting and electronic payment processing.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "REMA 1000 Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c4da7557-6817-45e0-9c27-425eaa59ed7d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F95115202-9c9b-47cd-9f3e-9ce069b2502f-image%20(5).jpg?alt=media&token=131c8943-aae2-4040-bb85-2576084799d1",
+      "size": 256,
+      "businessDetails": "\nREMA 1000 KROKDALSMYRA\nFERSTAD SKOGLUND AS\nORG NR 927 210 479 MVA\nForetaksregisteret\nTLF: 75 64 44 40\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5e7ed295-1d01-4e15-bcf2-476bf5196eff",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "16.12.24 17:20",
+          "total": "Kasse: 001"
+        },
+        {
+          "quantity": "",
+          "description": "Kvitt: 690513",
+          "total": "OperNr: 9135"
+        },
+        {
+          "quantity": "",
+          "description": "Serienr: 670996",
+          "total": "Id 001258-001"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fdfff0b7-2557-4f90-b4d5-1914939148ee",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "FUN LIGHT JULEBRUS\t    15%",
+          "total": "3,90"
+        },
+        {
+          "quantity": "",
+          "description": "Pant\t                 0%\t",
+          "total": "3,00"
+        },
+        {
+          "quantity": "",
+          "description": "KOKESJOKOLADE LYS\t    15%\t",
+          "total": "25,80"
+        },
+        {
+          "quantity": "",
+          "description": "3 x kr 8,60",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "6 har registrert!\tId: 10648732",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "696efe15-9c18-4a10-8816-6d8c641de13a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Sum 4 varer",
+          "total": "32,70"
+        },
+        {
+          "quantity": "",
+          "description": "\nBANK",
+          "total": "\n32,70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cff3a6df-c8bf-4d2a-892c-8a978e284360",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MVa%\t  Grunnlag\t MVa\t",
+          "total": "Totalt"
+        },
+        {
+          "quantity": "",
+          "description": "0,00\t   3,00\t     —\t",
+          "total": "3,00"
+        },
+        {
+          "quantity": "",
+          "description": "15,00\t  25,83\t 3,87\t",
+          "total": "29,70"
+        },
+        {
+          "quantity": "",
+          "description": "SUM\t  28,83\t  3,87\t",
+          "total": "32,70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f75f3ab1-1aef-42f8-a4dc-3f122f1d0fca",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nKORTINNEHAVERENS\nKVITTERING\nREMA 1000 KROKDALSMYRA\n8208 FAUSKE\n#208 #000000001107219-2290020982\nBankAxept\nKONTAKTLØS\nXXXXXXXXXX2671 03\nAID: A0000000000010010\n16-12-2024 17:20\nFORR.REF: 00-44504\nBELØP NOK 32,70\nGodkjent",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f9a6b16a-72c4-48d1-a95f-831fb1f7e805",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTakk for handelen!\nfacebook.com/REMA1000\nÅpningstider: Man-Lor. 7-23",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "oseBf3f6ONUm5BiloYnq"
+}

@@ -1,0 +1,117 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-01T17:04:37.422Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Morrisons Café Receipt",
+  "description": "This receipt is a restaurant café transaction issued by Morrisons, a supermarket chain with in-store dining, located in Bishop Auckland, United Kingdom. It includes company details, VAT information, and table number. The receipt presents an itemized list of food and beverage items including fish and chips, tea, and a breakfast meal, with pricing and totals. A financial summary shows the balance due and confirms payment via Visa debit card, including authorization and verification details. The format reflects a typical UK café POS receipt with card transaction processing and itemized billing.",
+  "slug": "Morrisons-Cafe-Receipt",
+  "sections": [
+    {
+      "id": "66a477c7-d394-4539-856f-85824de260a3",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F97cbe27b-d138-429b-84e2-5d934ff846c7-image%20(7).jpg?alt=media&token=f7abbb21-36da-41ea-a855-db1e0ea1ebe3",
+      "size": 196,
+      "businessDetails": "\nMorrisons Supermarkets Limited BD8 \nBishop Auckland - 01388 450218\nVAT No 343475355\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3b919523-f892-4c20-b79c-19dfd6e4e2ba",
+      "type": "RESTAURANT",
+      "leftFields": [
+        {
+          "title": "QTY",
+          "value": "DESCRIPTION"
+        },
+        {
+          "title": "1",
+          "value": "FISH & CHIPS"
+        },
+        {
+          "title": "1",
+          "value": "POT OF TEA"
+        },
+        {
+          "title": "1",
+          "value": "ULTIMATE BREAKFAST"
+        }
+      ],
+      "rightFields": [
+        {
+          "title": "PRICE",
+          "value": "AMOUNT"
+        },
+        {
+          "title": "£6.99",
+          "value": "£6.99"
+        },
+        {
+          "title": "£1.29",
+          "value": "£1.29"
+        },
+        {
+          "title": "£1.29",
+          "value": "£1.29"
+        },
+        {
+          "title": "£6.99",
+          "value": "£6.99"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7684044-106e-4ba2-b6df-1c05f5e9b9f5",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nBALANCE DUE",
+          "value": "\n£16.56"
+        },
+        {
+          "title": "CARD",
+          "value": "£16.56"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "114062c2-71d6-4839-8c3a-a43d2236f8bd",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nVisa Debit PAYMENT\nAID    : A0000000031010\nPAN    : ************2011\nPEM    : ICC\nEXP    : 2610\nSig    : 600      TRN:  108435\nAID    : **23877  TID: ****1158\nAuthCode : 11 - 076036\nVerified By PIN\n\nNumber of items: 4\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4f168741-4df2-471d-835e-ef1c313fd979",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n40-158-4325-2023-02-04\n\nWE HOPE YOU ENJOY YOUR MEAL\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "QuAeCnwGony6Q3g6JMWD"
+}

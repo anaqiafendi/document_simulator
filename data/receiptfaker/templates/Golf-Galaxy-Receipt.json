@@ -1,0 +1,84 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-04T18:46:56.835Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "4b51fab7-6340-4ad7-9ec5-327e13ce25fb",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8f43b512-2979-43d3-871f-b9026aaa6330-image%20(8).jpg?alt=media&token=5bef29a6-1071-441e-a467-379dc1b36cd8",
+      "size": 166,
+      "businessDetails": "561 N. STEPHANIE STREET\nHENDERSON, NV 89014-6613\n702-436-1362\n\n\nStore: 3110  Trans: 2  Register: 402\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9977aaf-d398-42e0-ae34-8be2f1c50591",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Date: 11/19/2025           09:18 AM\nTeammate: Michael",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a00cb407-cc47-459a-af53-a822e12fe87c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nSALE\n\n\n\nMAG GRNSD TOWEL - CAR BL       30.00\n810148173555\nSold by 0604832 Jenny\n\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9d17d4a0-eb02-4644-b2c8-2a25807c896d",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "67.99"
+        },
+        {
+          "title": "Tax",
+          "value": "5.69"
+        },
+        {
+          "title": "TOTAL",
+          "value": "73.68"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84ac7b50-78e4-4a1a-9093-5d87e2840328",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nTHANK YOU FOR SHOPPING WITH \nGOLF GALAXY!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Golf Galaxy Receipt",
+  "description": "This receipt is issued by Golf Galaxy and identifies the store as 541 N Stephanie Street, Henderson, Nevada 89014-6613. The header contains the store branding, location details, contact telephone number, store number, transaction number, register number, transaction date and time, and teammate identification (Michael). The receipt records the sale of two golf-related merchandise items, including a towel and a product identified as LIVE LUCKY DAYLIGHT HYBRI, with product identification numbers and an associate reference for one item. The financial section records the subtotal, sales tax, and final transaction total. The overall layout is representative of a United States sporting goods retail POS receipt, combining merchandise itemization, tax reporting, transaction identification, and retail payment reconciliation within a compact receipt format.",
+  "slug": "Golf-Galaxy-Receipt",
+  "published": true,
+  "id": "pAbOXULdHfKIKyKdbLIc"
+}

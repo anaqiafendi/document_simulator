@@ -1,0 +1,149 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Moving Receipt",
+  "slug": "Moving-Receipt",
+  "createdAt": "$D2025-05-25T17:15:41.041Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fc25e6701-6499-454a-8179-e5bc3c27e728-9113588_truck_moving_solid_icon.png?alt=media&token=28e61224-d69c-4d12-a39d-fea7158c1f8d",
+      "size": 50,
+      "businessDetails": "SwiftLift Moving & Storage, LLC\n3842 Western Haul Road\nDenver, CO 80216\n(303) 555-6612",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f1b2d59-de12-4a05-9dcd-08c7fffc2b1e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "support@swiftliftmoving.com\nwww.swiftliftmoving.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Local Moving (Hours)",
+          "total": "280.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Packing Services",
+          "total": "250.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Full Body Check Up",
+          "total": "75.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "605.00"
+        },
+        {
+          "title": "Tax",
+          "value": "45.38"
+        }
+      ],
+      "total": "650.38",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Cancellations made at least 48 hours before the scheduled move will receive a full refund of the deposit. Cancellations within 48 hours are subject to a 50% deposit forfeiture. SwiftLift is licensed and insured. Items are handled with care, but claims for damage must be submitted within 48 hours of move completion. Optional full-value protection is available.",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fl7S9nZGloGnSw7jgS13b%2Fl7S9nZGloGnSw7jgS13b-a6f15791-a41c-461a-8650-f3fdeccfc28b.png?alt=media&token=d21fa1f4-492e-41fc-80ed-9e134b48ad3c",
+  "description": "Need a moving service receipt? Our free tool lets you quickly generate a professional receipt. Customize mover details, dates, service hours, mileage, and charges—great for reimbursements or personal records.",
+  "published": true,
+  "metatitle": "Moving Service Receipt",
+  "metadesc": "comprehensive relocation receipts with editable service details, time tracking, mileage costs, and professional formatting",
+  "id": "l7S9nZGloGnSw7jgS13b"
+}

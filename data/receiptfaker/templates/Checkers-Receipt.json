@@ -1,0 +1,124 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Checkers Receipt",
+  "slug": "Checkers-Receipt",
+  "createdAt": "$D2026-02-03T10:22:41.817Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "R",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "description": "Shoprite supermarket receipt from Checkers showing store details, purchased grocery items with prices, subtotal, VAT, total amount paid, card payment information, and savings summary from Xtra Savings.",
+  "metatitle": "Modern POS Receipt",
+  "metadesc": "sleek digital POS receipts with business info, products, prices, tax, and payment details for shops, cafes, or online stores",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F3EU8FKxdQkNtpuVmXVMzkPgfRG33%2Faab2d214-cdd6-47d1-bcdd-0f5e7f38b5b6-checkers-supermarket-logo%20(1).jpg?alt=media&token=169f50a0-82c3-4215-b58e-7ad6a358655c",
+      "size": 81,
+      "businessDetails": "SHOPRITE CHECKERS (PTY) LTD\nPAARL JUNCTION Tel +27 21 860 3850\nGO1 Paarl Junction\nVAT No:  4420106777\nTAX INVOICE",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "DATA 5GB TELKOM",
+          "total": "179.99"
+        },
+        {
+          "quantity": "",
+          "description": "11 @ R179.99",
+          "total": "1979.89"
+        },
+        {
+          "quantity": "",
+          "description": "DATA 2GB VODACOM",
+          "total": "79.99"
+        },
+        {
+          "quantity": "",
+          "description": "12 @ R79.99",
+          "total": "959.88"
+        },
+        {
+          "quantity": "",
+          "description": "Pantry rusks Bran",
+          "total": "67.62"
+        },
+        {
+          "quantity": "",
+          "description": "Pantry rusks Buttermilk",
+          "total": "67.62"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "TOTAL",
+          "value": "3075.01"
+        },
+        {
+          "title": "Payment",
+          "value": "3617.66"
+        },
+        {
+          "title": "Vat",
+          "value": "542.65"
+        }
+      ],
+      "total": "3617.66",
+      "totalText": "TOTAL",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4001cbb8-8420-4568-98d9-c922ec76fb79",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Hi Estee\nCard Number: 9710084021956368\n\nThank you for swiping your\nXtra Savings Card",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e4fe91d0-ae03-447e-8e40-127ad52fa63c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Since joining you have saved\nR5298\nwith Xtra Savings\nKeep swiping and saving!\n\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9c3bcb0f-2662-4ce6-9cce-abca015c24d6",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 550,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "34c2bc08-c97d-4613-8a4a-ca71ce41678d",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "28/11/25                       10:13 ",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FNVC9Uu2wX9mCrEonsVUr%2FNVC9Uu2wX9mCrEonsVUr-807a193c-ba6a-4557-8fb7-dda178867fd8.png?alt=media&token=705da388-021e-4553-9dac-7ba8f92a46d0",
+  "published": true,
+  "id": "NVC9Uu2wX9mCrEonsVUr"
+}

@@ -1,0 +1,250 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-26T12:44:02.157Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "faef1334-bfeb-4136-9669-d404c6daeb73",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbb0197f6-46ac-410e-9fa1-fd1c86abeec8-image%20(11).jpg?alt=media&token=ffb72c15-ccbd-4d9e-b428-76b650bc5177",
+      "size": 266,
+      "businessDetails": "\nSUPERMARKETS\n907 S Grandee Ave\nLos Angeles, CA 90022\nwww.vallartasupermarkets.com\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4fa5d225-5e43-4b28-b081-12e81bc2aef5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "03/28/2026",
+          "total": "10/26/25"
+        },
+        {
+          "quantity": "",
+          "description": "MED",
+          "total": "TID"
+        },
+        {
+          "quantity": "",
+          "description": "886715",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9bfd2c47-e642-44ee-ae73-2f9ec8bf7f3e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "CREDIT CARD\nPURCHASE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9c5da65f-6cfc-494d-9be4-cc472d5bc93d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VISA CREDIT",
+          "total": "XXXXXXXXXXXX8341"
+        },
+        {
+          "quantity": "",
+          "description": "AID",
+          "total": "A0000000031010"
+        },
+        {
+          "quantity": "",
+          "description": "TVR",
+          "total": "0080008000"
+        },
+        {
+          "quantity": "",
+          "description": "TSI",
+          "total": "E800"
+        },
+        {
+          "quantity": "",
+          "description": "CRYPTOGRAM",
+          "total": "4FA92C18B03D7E52"
+        },
+        {
+          "quantity": "",
+          "description": "Entry Method",
+          "total": "Chip/Swipe"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "USD 30.86"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "24c65a6f-4af5-41c2-a91e-1ce363249177",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nAPPROVED BY ISSUER\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5860e29b-38fc-43ed-ad14-6bb3948b2d74",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VALLARTA BF CC     w",
+          "total": "$$0.13"
+        },
+        {
+          "quantity": "",
+          "description": "TAQUERIA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TAMALE PORK",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "C W   $3.00 EA",
+          "total": "$$13.00 T"
+        },
+        {
+          "quantity": "",
+          "description": "ARROZ MEXICANA",
+          "total": "$$1.62 T"
+        },
+        {
+          "quantity": "",
+          "description": "0.70 lb @ $2.29/lb",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "FRESA FRITO",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1.34 lb @ $4.48/lb",
+          "total": "$$5.71 T"
+        },
+        {
+          "quantity": "",
+          "description": "\nSUBTOTAL",
+          "total": "\n$28.13"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL TAX",
+          "total": "$$2.73"
+        },
+        {
+          "quantity": "",
+          "description": "\nBALANCE DUE",
+          "total": "\n$30.86"
+        },
+        {
+          "quantity": "",
+          "description": "VISA",
+          "total": "$$30.86"
+        },
+        {
+          "quantity": "",
+          "description": "Auth Code = 002629",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nYOUR SAVINGS TODAY",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL DISCOUNTS",
+          "total": "1   -$1.01"
+        },
+        {
+          "quantity": "",
+          "description": "Total number of items sold = 9",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCASHIER NAME: SCO 88",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "03298   #0020   10:26:34 ",
+          "total": "29MAR2026"
+        },
+        {
+          "quantity": "",
+          "description": "500064   R038",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dafb6ea3-5c24-4bcd-be96-0ef85cd8cb07",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for shopping with us!! All sales final on Alcohol, Tobacco & Gift Cards Original receipt is required within 14",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Vallarta Supermarkets Receipt",
+  "description": "This receipt is issued by Vallarta Supermarkets and documents a retail purchase paid by credit card. The receipt includes an itemized purchase summary followed by a financial section recording the subtotal, sales tax, balance due, payment by Visa, and change returned. A promotional section highlights the Vallarta Value savings applied to qualifying products and reports the customer's total discounts for the transaction. The footer contains the total number of items sold, cashier and register information, transaction timestamp, return policy, and a notice that alcohol sales are final. The overall layout is representative of a United States supermarket POS receipt, combining promotional savings reporting, tax calculation, card-payment authorization, return-policy information, and transaction reconciliation within a compact retail receipt format.",
+  "slug": "Vallarta-Supermarkets-Receipt",
+  "published": true,
+  "id": "swWPFeHEN7ae1A5WfiR5"
+}

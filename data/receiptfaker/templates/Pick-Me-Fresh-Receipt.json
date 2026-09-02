@@ -1,0 +1,163 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-26T11:52:03.985Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "6d951357-e96a-43f9-972c-1ed599765ee4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Pick Me Fresh\nABN: 36613907417\n30/31 Adelaide Central Market\n\nTAX INVOICE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb64c52b-31d3-4ec0-93b0-73d6e2f04fce",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Date: 02/11/2024",
+          "total": "No: P24104472"
+        },
+        {
+          "quantity": "",
+          "description": "Cashier: VATTEY",
+          "total": "Rep: PG02"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a402e829-60d0-4aa3-8d28-9dfecafa0432",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n*$1.99 /kilo",
+          "total": "\n$1.12"
+        },
+        {
+          "quantity": "",
+          "description": "0.565kg @ $1.99/kg",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "OPEN/KG",
+          "total": "$$1.09"
+        },
+        {
+          "quantity": "",
+          "description": "*$1.99 /kilo",
+          "total": "$$1.74"
+        },
+        {
+          "quantity": "",
+          "description": "1.125kg @ $1.50/kg",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "*$1.99 /kilo",
+          "total": "$$1.74"
+        },
+        {
+          "quantity": "",
+          "description": "0.875kg @ $1.99/kg",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "*$1 each",
+          "total": "$$1.00"
+        },
+        {
+          "quantity": "",
+          "description": "*$1 each   2 @ $1.00",
+          "total": "$$2.00"
+        },
+        {
+          "quantity": "",
+          "description": "Onions Bag",
+          "total": "$$1.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nTOTAL",
+          "value": "\n$9.35"
+        },
+        {
+          "title": "GST INCLUDED IN TOTAL",
+          "value": "$$0.52"
+        },
+        {
+          "title": "EFTPOS",
+          "value": "$$9.35"
+        },
+        {
+          "title": "BALANCE",
+          "value": "$$0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9e51d9bd-bc8a-4250-80d7-433621dc4db6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n*Indicate Taxable Item\nTransaction: 02/11/2024 14:19:51\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29526724-e342-4693-b350-43e8b038b0a9",
+      "type": "BARCODE",
+      "size": 79,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7b1fa456-2a01-46e3-96f2-f6ae53920afb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "P24104472",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Pick Me Fresh Receipt",
+  "description": "This receipt is issued by Pick Me Fresh and identifies the business as operating within Adelaide Central Market. The header contains the business name, ABN (Australian Business Number), market location, tax invoice designation, transaction number, cashier identification, register number, and transaction date. The receipt records weighted produce sales using kilogram pricing together with quantity-based items and a bag charge. The financial section includes the final transaction total, GST included amount, payment by EFTPOS, and the remaining balance. The footer contains a taxable-item notation, transaction timestamp, and receipt reference number. The overall layout is representative of an Australian fresh produce retail POS receipt, combining weight-based pricing, GST-compliant reporting, EFTPOS payment processing, and transaction reconciliation within a compact retail receipt format.",
+  "slug": "Pick-Me-Fresh-Receipt",
+  "published": true,
+  "id": "QiWYHuZyph08EFPFsXTp"
+}

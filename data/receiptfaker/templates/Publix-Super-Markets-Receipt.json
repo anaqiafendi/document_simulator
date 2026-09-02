@@ -1,0 +1,89 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-29T08:15:27.012Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "461276aa-58ae-4043-b7f8-6ea6f8c45470",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2dcbfdfa-4229-45e3-884f-6a34cb2337ba-image.jpg?alt=media&token=cdea325c-2a16-4fd3-9349-c82a907d0207",
+      "size": 261,
+      "businessDetails": "publix\nCitrus Tower Village\n250 Citrus Tower Blvd\nClermont, FL 34711\nStore Manager: Chris Palmer\n352-241-6670\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0d6c6398-7a20-48e5-8ffc-c4feccd9a114",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nBH HONEY TKY WRAP",
+          "total": "\n6.29 T F"
+        },
+        {
+          "quantity": "",
+          "description": "PBX LEMONADE",
+          "total": "1.49 T F"
+        },
+        {
+          "quantity": "",
+          "description": "\nOrder Total",
+          "total": "\n8.03"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax",
+          "total": "0.75"
+        },
+        {
+          "quantity": "",
+          "description": "Grand Total",
+          "total": "8.77"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "50.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change ",
+          "total": "41.90"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "362894f9-6237-4663-84e9-d38d8a96e9c4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nReceipt ID: 0173 3828 0077 4521\n\nYour cashier was Self-Checkout Lane1\n\n04/06/2022 22:00 S0015 R173 3828 C077\n\nJoin the Publix family!\nApply today at apply.publix.jobs.\nWe're an equal opportunity employer.\n\nPublix Super Markets, Inc.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Publix and identifies the store as Citrus Tower Village, 250 Citrus Tower Boulevard, Clermont, Florida 34711. The header contains the Publix branding, store location, store manager, and contact telephone number. The receipt records the purchase of a Boar's Head Honey Turkey Wrap and a Publix Lemonade. The financial section records the subtotal, applicable sales tax, grand total, cash tendered, and change returned. The receipt also includes the receipt identifier, self-checkout lane information, transaction date and time, register details, and a recruitment message inviting customers to apply for employment with Publix. The overall layout is representative of a United States supermarket POS receipt, combining grocery itemization, sales-tax reporting, payment reconciliation, and customer information within a compact retail receipt format.",
+  "name": "Publix Super Markets Receipt",
+  "slug": "Publix-Super-Markets-Receipt",
+  "published": true,
+  "id": "Nsblxvv9872aedOXSa2X"
+}

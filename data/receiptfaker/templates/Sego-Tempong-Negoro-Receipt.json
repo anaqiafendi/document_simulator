@@ -1,0 +1,178 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-18T15:58:47.835Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "fc07fb85-ad6d-4905-9db7-00a709ee9138",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F601e99f5-d960-4915-a82b-48a0408a73ca-image%20(2).jpg?alt=media&token=5a6acc82-dcd4-48b3-9f20-064d2ada4589",
+      "size": 227,
+      "businessDetails": "\nNumber: PC6162473-10085190225100\nStore: sego tempong negoro\nOutlet: Sego Tempong Negoro Kahfi\nCashier: elsa maulina\nTable: 10\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b08758d0-c204-4639-9d2d-26fe87a27400",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " DINE IN                    IDR",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d5510655-06b7-4dd9-8916-70d32495e3b5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1 TEMPONG AYAM LENGKET",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "@30,000.00 ",
+          "total": "30,000.00"
+        },
+        {
+          "quantity": "",
+          "description": "+DADA",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "+SAMBAL BATUK",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 TEMPONG TELURMU",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "@16,000.00 ",
+          "total": "16,000.00"
+        },
+        {
+          "quantity": "",
+          "description": "+SAMBAL TEMPONG",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Sayur Jangan Asem",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "@5,000.00",
+          "total": "5,000.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Bakwan Kriwel (pcs)",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "@4,000.00 ",
+          "total": "8,000.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 Teh Manis",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "@6,000.00 ",
+          "total": "6,000.00"
+        },
+        {
+          "quantity": "",
+          "description": "+DINGIN",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1 Teh Tawar",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "@4,000.00 ",
+          "total": "4,000.00"
+        },
+        {
+          "quantity": "",
+          "description": "+HANGAT",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe633d37-034a-42e9-a77b-e6e1a27ee4d3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nSUBTOTAL",
+          "total": "\n69,000.00"
+        },
+        {
+          "quantity": "",
+          "description": "PB1 (10.00%)",
+          "total": "6,900.00"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "75,900.00"
+        },
+        {
+          "quantity": "",
+          "description": "AVG. PER PAX (1)",
+          "total": "75,900.00"
+        },
+        {
+          "quantity": "",
+          "description": "PAID Qris BRI Statis",
+          "total": "75,900.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal POS receipt issued by Sego Tempong Negoro, specifically from the Sego Tempong Negoro Kahfi outlet in Indonesia. The receipt header includes a transaction number, transaction date and time, store name, outlet name, cashier identifier, table number, and dine-in service designation. The transaction is denominated in Indonesian Rupiah (IDR). The financial summary consists of Subtotal, PB1 (10.00%), Total, Average Per Pax, and the recorded payment method (QRIS BRI Statis). The receipt follows a standard restaurant point-of-sale format used for dine-in transactions, with item modifiers shown beneath applicable menu entries and a structured payment summary at the bottom.",
+  "name": "Sego Tempong Negoro Receipt",
+  "slug": "Sego-Tempong-Negoro-Receipt",
+  "published": true,
+  "id": "7zB2MfWpK7P5Dm9MTrRS"
+}

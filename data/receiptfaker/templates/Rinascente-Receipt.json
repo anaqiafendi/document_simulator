@@ -1,0 +1,125 @@
+{
+  "createdAt": "$D2026-05-26T10:14:53.118Z",
+  "textColor": "#101828",
+  "description": "This luxury retail receipt from Rinascente documents a high-value purchase transaction processed at the Via del Tritone location in Rome, Italy. The receipt includes store address details, telephone number formatting, Italian VAT registration information (P.IVA), POS references, transaction numbering metadata, operator identifiers, and timestamp formatting. The POS structure contains Euro-denominated total presentation, product reference and EAN formatting, and transaction total alignment in standard Italian luxury retail thermal receipt formatting. Additional receipt elements include Rinascente Card promotional contest messaging, website references, legal non-fiscal receipt notices, barcode formatting, and Italian regulatory references near the footer. The layout reflects a standard Italian department store thermal receipt with luxury retail transaction formatting and localized legal notice presentation.",
+  "currency": "",
+  "backgroundType": "CRUMPLED_1",
+  "backgroundCrumpled": false,
+  "imageUrl": "",
+  "fontType": "MERCHANT_COPY",
+  "parentName": "Office Depot",
+  "sections": [
+    {
+      "type": "HEADER",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "businessDetails": "\nROMA - VIA DEL TRITONE, 61\nPh. +39 (0)6 879161",
+      "size": 258,
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5361b82e-4929-4a0f-9d3c-aa4ac5f442b9-image%20(20).jpg?alt=media&token=e43c6821-376a-4dce-a685-b0e0bd7f3a5c",
+      "id": "8dc9fce4-c2f9-4e13-8974-ba641d352925",
+      "date": "$undefined"
+    },
+    {
+      "alignment": "CENTER",
+      "custom": "la Rinascente S.p.A.\nP.IVA 05034580968\n",
+      "id": "72624a7f-b055-41ea-9cca-231eb55e8526",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "alignment": "RIGHT",
+      "custom": "EURO\n",
+      "id": "678202b3-dd50-410e-aa40-e43ce2e041b8",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "total": "",
+          "description": "Art/Ean 8031625015614"
+        },
+        {
+          "quantity": "",
+          "total": "1490,00\n---------",
+          "description": "BORSE BALENCIAGA"
+        },
+        {
+          "description": "Total",
+          "total": "1490,00",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "1490,00",
+          "description": "Euro"
+        },
+        {
+          "description": "\n\nNegozio: 471",
+          "quantity": "",
+          "total": "\n\nPOS: 8"
+        },
+        {
+          "total": "Op.: 1313",
+          "quantity": "",
+          "description": "Transazione: 2275"
+        },
+        {
+          "quantity": "",
+          "total": "19:40",
+          "description": "28-12-2017"
+        }
+      ],
+      "totalLines": [],
+      "bottomDivider": false,
+      "total": "",
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "id": "2020720c-d9e9-4947-b3bb-94eabab91b24",
+      "totalDivider": false,
+      "date": "$undefined"
+    },
+    {
+      "custom": "\n\nPartecipa al nuovo concorso\nRinascentecard \"LUCKY SHOPPING\".\nRichiedi subito la card in negozio e\npotrai vincere fantastici premi.\nRegolamento su www.rinascente.it\n\nScontrino Non Fiscale ai sensi Art.1\ncomma 429 Legge N.311/2004\n",
+      "alignment": "LEFT",
+      "id": "b90cc091-67eb-4b2b-b884-e817d37dcc00",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "type": "CUSTOM",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "length": 521,
+      "type": "BARCODE",
+      "id": "e04c73c9-10ba-4b14-9e1a-a85c164f11dd",
+      "size": 77,
+      "date": "$undefined"
+    },
+    {
+      "alignment": "CENTER",
+      "custom": "6600004710008000022752017 1228193912",
+      "id": "75c84eef-e267-435d-bf4d-38d5d8472dd3",
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "date": "$undefined"
+    }
+  ],
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Rinascente Receipt",
+  "isParent": true,
+  "slug": "Rinascente-Receipt",
+  "numberFormat": "LEFT",
+  "published": true,
+  "id": "FWGV2z8BrylbLxopbct5"
+}

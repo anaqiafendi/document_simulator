@@ -1,0 +1,131 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-09T16:42:47.999Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "fba9dec7-1eed-48f9-8f77-889393eb7e2c",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fee72dbf1-f4d4-4550-9f07-3524e0e2b35d-image%20(1).jpg?alt=media&token=0c3a32a1-4d31-457c-8ede-cfa953537129",
+      "size": 263,
+      "businessDetails": "Red Wing, MN 55066\n(651) 388-7936",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3dd0f129-0abe-4183-8985-e21a3e05fdb9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nStore #481    10/27/2025  3:23:28 PM\nRegister # 4  Trans # 4443226",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb50db71-2e7f-40cb-8a89-a5484ecb6c83",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTax Description       Qty",
+          "total": "Amount"
+        },
+        {
+          "quantity": "",
+          "description": "FRESH EX LETTUCE ICEBERG ",
+          "total": "$$2.99"
+        },
+        {
+          "quantity": "",
+          "description": "MT CHEESE MEX BLEND SHRE",
+          "total": "$$2.99"
+        },
+        {
+          "quantity": "",
+          "description": "BANANA SINGLE WEIGHTED",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1.75 Pounds @ $0.39/lb ",
+          "total": "$$0.68"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "",
+          "value": "---------"
+        },
+        {
+          "title": "Sub Total",
+          "value": "$$6.66"
+        },
+        {
+          "title": "Tax",
+          "value": "$$0.00"
+        },
+        {
+          "title": "Total ",
+          "value": "$$6.66"
+        },
+        {
+          "title": "Store Gift",
+          "value": "$$6.66"
+        },
+        {
+          "title": "Change",
+          "value": "$$0.00"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "47888e0c-5ce6-48ad-87c5-e98295914c69",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nStore Gift\nCard Num : (S) XXXXXXXXXXXX2628\nSwiped\nTerminal : RA1094000481406\nApproval : F58671\n\nBalance : $447.03\n\nAll fuel types purchased at the pump\nhave all applicable taxes included\nin the fuel price.\n\nKwik Rewards\nCard Num : (*) XXXXXXXXXXX3384\nTerminal : 481\nApproval : U:634643",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e03684f2-ca69-462e-8026-d694bf2d0dcb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNow Available:\nFreshly Made\nTake Home Meals",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "484c6705-f41a-4543-9daf-00e8052d38c3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTake and Bake Pizza\n(651) 388-7936",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Kwik Trip Receipt",
+  "description": "$3f",
+  "slug": "Kwik-Trip-Receipt",
+  "published": true,
+  "id": "nR5fs65VFbd5U4cSxopD"
+}

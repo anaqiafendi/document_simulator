@@ -1,0 +1,141 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Four Seasons Siam Paragon Receipt",
+  "description": "This receipt is issued by Four Seasons Siam Paragon and identifies the restaurant at 991 Siam Paragon Shopping Center, Rama 1 Road, Pathumwan, Bangkok 10330, Thailand. The header contains the restaurant and company names, address, tax identification number, POS identification, and receipt/tax invoice designation. The transaction records a dine-in order for two guests at Table 11, consisting of Shaolin Monks HotPot, Dumplings with Spicy Sauce, Steamed Rice, Combination Meat, and Chrysanthemum Tea. The financial section records an item total of 980.00, a 10% service charge of 98.00, tax of 75.46, and a final amount due of 1,153.00. Payment was made in cash, with 1,200.00 tendered and 47.00 returned as change. The overall layout is representative of a Thai restaurant tax receipt, combining table-service itemization, service charge, tax reporting, and cash payment reconciliation.",
+  "slug": "Four-Seasons-Siam-Paragon-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-22T14:46:35.139Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "1f3a11d5-5a43-4e9a-9b17-bca8e2e4297e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 229,
+      "businessDetails": "Four Seasons Siam Paragon\nFour Seasons London Co.,Ltd.\n991 Siam Paragon Shopping Center,\nRama1 Rd.,Patumwan, Bangkok 10330\nTAX ID: 3034517162\nPOS ID:E 01 03071 02 02240\nReciept/Tax Invoice(ABB)\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cce0f985-0c9d-4e4c-aa67-cf38c9ce056e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTable No :11\nCheck No :00013 By:Durn.\nCover:2 Time:16/3/17 12:56.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "53489759-35d6-45bc-9bf6-89c8d30741f0",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "1   Shaolin Monks HotPot",
+          "value": "240.00"
+        },
+        {
+          "title": "1   Dumplings SpicySauce",
+          "value": "180.00"
+        },
+        {
+          "title": "2   SteamedRice",
+          "value": "80.00"
+        },
+        {
+          "title": "1   2 Combination Meat",
+          "value": "380.00"
+        },
+        {
+          "title": "2   Chrysanthemum Tea/H",
+          "value": "100.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f56b1e5b-c036-4396-a060-f932c77fc0c9",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "\nItemTotals:",
+          "value": "\n980.00"
+        },
+        {
+          "title": "SC 10%:",
+          "value": "98.00"
+        },
+        {
+          "title": "SubTotal:",
+          "value": "1,078.00"
+        },
+        {
+          "title": "Tax:",
+          "value": "75.46"
+        }
+      ],
+      "cardFields": [],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ed83929a-3da6-4d06-af7d-85ee62a4414b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPay Amount:                1,153.00",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e98aa573-1951-4b19-9823-95b28e751f81",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nPayment:",
+          "value": " \nเงินสด"
+        },
+        {
+          "title": "Amount:",
+          "value": "1,153.00"
+        },
+        {
+          "title": "Tips:",
+          "value": "0.00"
+        },
+        {
+          "title": "Total:",
+          "value": "1,153.00"
+        },
+        {
+          "title": "CASH:",
+          "value": "1,200.00"
+        },
+        {
+          "title": "CHANGES:",
+          "value": "47.00"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "V5Bw915t2wNy5PV8zdDI"
+}

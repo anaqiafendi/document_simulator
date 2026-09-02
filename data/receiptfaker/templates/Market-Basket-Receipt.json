@@ -1,0 +1,131 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-28T13:23:05.378Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_4",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FkP7ZywtedRgFgdtRa4Ks39hbfSY2%2Fdec806ab-2440-42ca-9e7a-0852e32469f7-IMG_0189.png?alt=media&token=c50cf632-a63d-42c1-a18a-e6f44cf5c9bf",
+      "size": 217,
+      "businessDetails": "310 MISHAWUM ROAD\nWOBURN, MA 01801\nTELEPHONE 1-781-933-0086\nSTORE DIRECTOR-BOB PORTER\nStore:  20",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6072eb52-eba0-4b95-af0d-41a91000ac0c",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Cashier: 302  Hilda B\n04/05/21                   12:30:56",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "5522a423-a5f5-4761-a59a-d8dd67c310db",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "84512421-dcbf-4adb-8adc-3c04f079f86e",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "118b8121-62f6-4b3c-887a-6979e21ce17f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Trx:881 Term:117 Store:20 12:31:25",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Market Basket Receipt",
+  "slug": "Market-Basket-Receipt",
+  "description": "This receipt is issued by Market Basket, located at 310 Mishawum Road, Woburn, MA 01801, and displays the brand logo with the slogan “MORE FOR YOUR DOLLAR.” It includes the store telephone number, store director name (Bob Porter), and store number (20). The document contains cashier identification (Cashier: 302, Hilda B), transaction date and time (04/05/21 at 12:30:56), subtotal, tax, total amount, payment method (Cash), amount tendered, change returned, and number of items. It concludes with transaction number (Trx: 881), terminal number (Term: 117), store reference, and completion time (12:31:25). The format reflects a U.S. grocery retail POS system with standard sales summary and cashier-level metadata.",
+  "metatitle": "Warehouse Receipt",
+  "metadesc": "realistic Costco warehouse receipts with custom items, prices, store details, and membership info for returns or expense tracking",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F2BawzscrmZC1z2vky3LP%2F2BawzscrmZC1z2vky3LP-ba7b7a7f-4396-43a3-b9f2-94d82fb3eed1.png?alt=media&token=4d4e653a-dc07-40d2-91e1-fda8769b81fe",
+  "published": true,
+  "id": "2BawzscrmZC1z2vky3LP"
+}

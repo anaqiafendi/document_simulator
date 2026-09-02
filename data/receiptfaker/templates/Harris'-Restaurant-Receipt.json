@@ -1,0 +1,87 @@
+{
+  "createdAt": "$D2026-02-26T13:14:17.149Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ded6e9d4-e2eb-45c0-91e1-d2f67529d042",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8940fd16-aaa9-4a66-9c68-95b2f0e52bd1-image%20(7).jpg?alt=media&token=17862c72-a89c-4d47-aa30-12c4d1c4f60f",
+      "size": 183,
+      "businessDetails": "Harris' Restaurant\n2100 Van Ness Ave.\nSan Francisco, CA 94109\n(415) 673-1888\nHarrisrestaurant.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "503c9ff2-de02-48b7-8df4-7aa80d6008ec",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Server: Lucy C\nCheck #22                         Table 21\nGuest Count: 2\nOrdered:       6/15/24 5:30 PM\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "fddb60e6-828a-42e7-bc5d-930d7ed48b46",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c737c6ad-9565-4aee-8a2f-1812283686f8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for dining with us!\n@harrisrestaurantsf",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "metatitle": "Tim Hortons Receipt",
+  "metadesc": "realistic Tim Hortons receipts with custom coffee, food items, store details, and payment info using our free generator tool",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Harris’ Restaurant Receipt",
+  "description": "This receipt is issued by Harris’ Restaurant, The San Francisco Steakhouse, located at 2100 Van Ness Ave., San Francisco, CA 94109, phone (415) 673-1888, with website harrisrestaurant.com. It includes server identification (Server: Lucy C), check number 22, table number 21, guest count of 2, and order timestamp 6/15/24 5:30 PM. The receipt presents a financial summary section including subtotal, tax, and total, formatted in a traditional full-service restaurant POS layout. A closing thank-you message and the restaurant’s social media handle (@harrisrestaurantsf) appear at the footer. The structure reflects a fine-dining steakhouse POS system with table service tracking and check management identifiers.",
+  "slug": "Harris'-Restaurant-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FV3xPr8lJLr5CN0Y6WFrs%2FV3xPr8lJLr5CN0Y6WFrs-78fb7ba8-bcc9-4c8b-bf71-18005216dbf9.png?alt=media&token=1c6f85e0-4b6a-4269-8dee-49b12adfaea5",
+  "published": true,
+  "id": "V3xPr8lJLr5CN0Y6WFrs"
+}

@@ -1,0 +1,141 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Jewelry Receipt",
+  "slug": "Jewelry-Receipt",
+  "createdAt": "$D2025-05-25T12:05:04.764Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F6dfe8535-a960-45f5-be62-7196b2db4bea-2884788_diamonds_jewelry_love_icon.png?alt=media&token=4d65373d-e719-4727-9008-fd6e00b0637d",
+      "size": 50,
+      "businessDetails": "GlimmerNest Jewelry\n247 Crystal Avenue, Suite 12, Silverbrook, CA 94567\nPhone Number: (415) 732-9864",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "16K Gold Ring",
+          "total": "600"
+        },
+        {
+          "quantity": 1,
+          "description": "16K Gold Necklace",
+          "total": "1300"
+        },
+        {
+          "quantity": 1,
+          "description": "Silver Necklace Engraved",
+          "total": "1100"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "3,000"
+        },
+        {
+          "title": "Tax",
+          "value": "247.50"
+        }
+      ],
+      "total": "3247.50",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "This receipt serves as proof of purchase. Please retain it for returns or exchanges. Items can be returned or exchanged within 14 days with a valid receipt and original packaging. Perishable goods may be subject to different return policies. Refunds will be issued using the original payment method. Cash refunds are provided for cash purchases only. For questions or concerns, call (415) 732-9864 or visit glimmernestjewelry.com.\n\nThank you for shopping with us!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FRyoTRLqksjPA5uqVdOzK%2FRyoTRLqksjPA5uqVdOzK-b413464e-dd8b-481b-a87a-56eed96cf962.png?alt=media&token=375049b6-a5e6-444d-ad5c-7d8b70c8fccb",
+  "description": "Need a jewelry receipt? Easily generate a professional receipt with our free tool. Enter store name, item details, pricing, taxes, and payment info—ideal for proof of purchase, insurance, or personal records.",
+  "published": true,
+  "metatitle": "Jewelry Store Receipt",
+  "metadesc": "professional jewelry receipts with custom store details, item descriptions, pricing, and payment info for insurance claims",
+  "id": "RyoTRLqksjPA5uqVdOzK"
+}

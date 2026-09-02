@@ -1,0 +1,75 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "CARQUEST Logo Receipt",
+  "description": "This receipt-style logo features the CARQUEST brand name prominently displayed in bold uppercase lettering across a segmented shield emblem, printed in solid black on a clean white background. The design includes a horizontal bar above the brand name and a divided lower shield section, consistent with thermal POS print aesthetics. A registered trademark symbol (®) appears adjacent to the lower right portion of the emblem. The text “AUTO PARTS” is positioned beneath the logo in uppercase format, aligned centrally. The overall structure reflects standard receipt printer output, with high contrast, minimal detailing, and slightly textured ink density typical of retail automotive parts store receipts.",
+  "slug": "CARQUEST-Logo-Receipt",
+  "createdAt": "$D2026-03-24T13:04:17.457Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8dbab067-a1e6-4823-b8af-9490a1fca37e-image%20(5).jpg?alt=media&token=a25b8bc5-22ba-42b4-943b-4aee9de419e4",
+      "size": 236,
+      "businessDetails": "PELAYO'S AUTO PARTS\n14432 VALLEY BLVD.\nCITY OF INDUSTRY, CA 91746\nHOURS: M-F 8:00AM TO 6:00PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "STORE:15415   10/9/2024\nCASHIER KATIEF    09:11 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "612e553b-3e35-40c8-9b91-14caf2b2c743",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "ACCOUNT #: 1        INVOICE # 38811\nPREFERRED CASH CUSTOMER     (626)581-9285\n14432 VALLEY BLVD\nLA PUENTE, CA 91746\n\nQty Line  Part Description REF#86531\n 1   PFN 8403107\n     HYD FLUID CHF202 1L  35.99 Y\n\n---------------------------------\n\n                SUBTOTAL       35.99\n                TAX             3.42\n\n               TOTAL DUE       39.41\n\n                CASH           40.00\n               CHANGE           0.59",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85a35bb8-d830-4cf0-bb3e-cfa824ba950d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "SAT: 8:00AM TO 4:00PM\nPHONE: 626-581-9285\nTHANKS FOR SHOPPING SMALL BUSINESS!!!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5acedb7b-5648-4333-acea-46fd0f549b85",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0fbf10a3-2d13-47c7-a252-6ec75ea4c36a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "212024100915415000003881100006854421",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FbWHg6V52UYNazp8tQWjq%2FbWHg6V52UYNazp8tQWjq-a7d20986-7c95-4066-bde6-22a649be1341.png?alt=media&token=d649fa6f-4936-42b2-abe3-91c3a26b1d72",
+  "published": true,
+  "id": "bWHg6V52UYNazp8tQWjq"
+}

@@ -1,0 +1,150 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-05T17:58:06.696Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fs2dorZuH8Ini7d8i7WQD%2Fs2dorZuH8Ini7d8i7WQD-253786da-6f1e-4eb1-acdf-ab21990f7c67.png?alt=media&token=56f3ff9c-ab30-4109-a910-7e5b11c17fbf",
+  "name": "Grill'd Receipt",
+  "description": "This receipt is a restaurant tax invoice issued by Grill'd, including an ABN for business identification and a clearly marked tax invoice header. It contains an order number and a structured financial summary displaying total amount, payment method, and remaining balance. The receipt includes GST information with a specified tax amount and notation for GST-free items. It also records the transaction date and time, receipt number, and location reference to Surfers Paradise. The document concludes with branded messaging and a contact phone reference, reflecting a typical Australian restaurant POS receipt format.",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F62f461d9-d96c-414c-b010-34e898db7182-image.jpg?alt=media&token=ce31d475-a790-41d4-a17a-50a185999595",
+      "size": 200,
+      "businessDetails": "*** TAX INVOICE ***\nABN: 17-106-297-394",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b40e44ec-b1c0-4c0e-aaa8-c5c375e692c4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nOrder# : 99",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5251dcd3-9c07-4cd7-9a8a-b6be4c6fbd1f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Garden Goodness          ",
+          "total": "12.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Veggie Vitality          ",
+          "total": "12.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Regular Chips             ",
+          "total": "5.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Dip: Too Relish           ",
+          "total": "1.00"
+        },
+        {
+          "quantity": 1,
+          "description": " Gage Road Single Fin      ",
+          "total": "9.00"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "___________"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2b1c2e81-4c40-4280-9462-2d69e23a2292",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total:                     ",
+          "total": "$$40.50"
+        },
+        {
+          "quantity": "",
+          "description": "VISA                       ",
+          "total": "40.50"
+        },
+        {
+          "quantity": "",
+          "description": "     ",
+          "total": "___________"
+        },
+        {
+          "quantity": "",
+          "description": "Balance:              ",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85fa4a7c-911d-4940-9862-9944093ff504",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total includes GST of:     ",
+          "total": "3.60"
+        },
+        {
+          "quantity": "",
+          "description": "* Indicates GST free items",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "18df558d-f3ad-4329-b4e9-dce145c20b1b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "26/01/18 2:01PM   Surfers Paradise\nreceipt no. 562058851\n\nMade With Love\nPH: (08)",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Grill'd-Receipt",
+  "published": true,
+  "id": "s2dorZuH8Ini7d8i7WQD"
+}

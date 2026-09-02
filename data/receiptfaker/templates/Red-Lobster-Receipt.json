@@ -1,0 +1,203 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Red Lobster Receipt",
+  "description": "This receipt is a casual dining restaurant transaction issued by Red Lobster at its location in The Curve, Malaysia, including full business registration details, address, and contact information. It contains table, order, and bill identifiers along with guest count. The receipt presents a detailed itemization of food and beverage purchases, including complimentary items and promotional discount adjustments. A structured financial summary includes service charge, tax indicators, and total amount due in Malaysian Ringgit. The document also includes GST references, service charge breakdown, and transaction metadata, reflecting a standard Southeast Asian restaurant POS receipt format with localized tax and service fee structures.",
+  "slug": "Red-Lobster-Receipt",
+  "createdAt": "$D2026-04-17T09:10:06.589Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bf1cb26b-8263-4261-8eb2-d96dfe579ce7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F62bda86f-65c6-45e6-a611-8dae8ebeaec5-image%20(1).jpg?alt=media&token=7d4cf545-ff15-4704-901c-b2b1167e528b",
+      "size": 204,
+      "businessDetails": "\nG88A & B, GF, THE CURVE, NO 6 JLN PJU 7/3 Red Lobster Restaurant Sdn Bhd (1090661-D) Tel/Fax: 03-7731 5294 (STORE #: 7801005)\n\n\n GST NO: 000511246336\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "500c36ea-01f9-4ce8-96e4-d1226cc0f3ee",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TABLE #122  ",
+          "total": "BILL  #1"
+        },
+        {
+          "quantity": "",
+          "description": "ORDER #P2030796",
+          "total": "COVERS #2"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c11b75f7-4c73-4a7a-b798-050092195901",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "3 CHEDDAR BREAD",
+          "total": " 0.00 S"
+        },
+        {
+          "quantity": "",
+          "description": "qty 3 @ 0.00 RM ea",
+          "total": ""
+        },
+        {
+          "quantity": "1",
+          "description": "BAR HARBOR BAKE",
+          "total": "BAR HARBOR BAKE"
+        },
+        {
+          "quantity": "1",
+          "description": "FISH SHR SQUID",
+          "total": "79.90 S"
+        },
+        {
+          "quantity": "1",
+          "description": "LONG BLACK ",
+          "total": "7.90 S"
+        },
+        {
+          "quantity": 1,
+          "description": "CAFFE LATTE",
+          "total": "8.90 S"
+        },
+        {
+          "quantity": 1,
+          "description": "LAVA COOKIES",
+          "total": "14.90 S"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f9a752bc-8494-422d-b5a1-a2daa1f832c0",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nADJUSTMENTS\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc16fca0-9690-4e78-ba9e-c8056c628b6d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "RM15 OFF (IGSS)               -15.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c29a16bb-3c82-4b9c-8248-2744976be44b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nTOTAL",
+          "total": "\n\nRM248.05"
+        },
+        {
+          "quantity": "",
+          "description": "9 ITEMS",
+          "total": 10
+        },
+        {
+          "quantity": "",
+          "description": "AMOUNT PAID: ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "AMOUNT DUE:",
+          "total": "248.05"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3a824d3e-3626-4ee5-aa9d-5722838d7219",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SV CHG 10% Sales",
+          "total": "RM225.50"
+        },
+        {
+          "quantity": "",
+          "description": "SV CHG 10% Amount",
+          "total": "RM22.55"
+        },
+        {
+          "quantity": "",
+          "description": "S = GST @ 0% Sales",
+          "total": "RM248.05"
+        },
+        {
+          "quantity": "",
+          "description": "S = GST @ 0% included",
+          "total": "S = GST @ 0% included"
+        },
+        {
+          "quantity": "",
+          "description": "* INDICATES TAXED ITEMS",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "37e64e71-376f-4910-9e74-e35b2aa1d576",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nP1-048998  28/07/2018  02:55PM  BRAWNER\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9uLgaWAJnMo2WsWRG3RH%2F9uLgaWAJnMo2WsWRG3RH-f8e853f7-851d-4408-a479-a39d4180ad6c.png?alt=media&token=d6d63115-de22-492b-81fe-efe582cb8e16",
+  "published": true,
+  "id": "9uLgaWAJnMo2WsWRG3RH"
+}

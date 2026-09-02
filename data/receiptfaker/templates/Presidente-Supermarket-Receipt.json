@@ -1,0 +1,137 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T17:58:40.562Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "a2dea3b4-cd3b-4d08-9f57-b3fce48708fb",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb0aef957-a101-4255-8510-0edc74ec338b-image%20(2).jpg?alt=media&token=9ba112b4-f42d-48a3-8c7f-4d57d906f264",
+      "size": 212,
+      "businessDetails": "Presidente Supermarket No. 32\n1600 N.E. 79 St. CSWY\nN.Bay Village, FL\n305-868-3816\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "19614733-9348-4844-b1fc-038d2d3d77b8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n#032-001  9/22/2024  19:20:07  Martha\nInv#:00484012  Trs#:484121",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4bb361a0-a97e-4729-88ff-efff3925efcb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n5 @ 2/ $1.00",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "YELLOW LIMES-LIMONES AMARIL",
+          "total": "$$2.50 FW"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Net Sales",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "Total Sales",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SUB TOTAL",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "Visa ",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": "",
+          "description": "# ************",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Balance ",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Item count ",
+          "total": "5"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3bf0f94c-683f-41c6-9d45-03d142db3987",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTYPE  : Purchase\nTENDER: Visa\nCARD  : P************\n\nAMOUNT   : USD$2.50\n\nRESULT       : 02 APPROVAL\nDATE/TIME    : SEP 22 2024 19:24\nSEQUENCE #   : 001401\nAUTHOR. #    : 002419",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8742545f-421c-42b4-b19b-a76ef385e59c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for shopping at\nPresidente Supermarkets",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Presidente Supermarket Receipt",
+  "description": "Presidente Supermarket grocery retail receipt issued from Supermarket No. 32 in North Bay Village, Florida. The header displays the Presidente branding followed by the store number, street location, telephone number, and transaction identification information. POS metadata includes the transaction date and time, cashier name, invoice number, transaction reference, and item count. The main receipt section follows a traditional supermarket thermal POS format with quantity and pricing information followed by net sales and total sales fields. The financial summary records the subtotal, Visa payment amount, masked account reference, and remaining balance. A separate card-processing section identifies the transaction as a purchase and provides the tender type, masked card information, amount, approval result, authorization timestamp, sequence number, and authorization reference. The footer concludes with a customer thank-you message and the Presidente Supermarkets name.",
+  "slug": "Presidente-Supermarket-Receipt",
+  "published": true,
+  "id": "B6Y7sRyFFlKzep2xW8GS"
+}

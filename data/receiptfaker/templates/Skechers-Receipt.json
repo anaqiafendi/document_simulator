@@ -1,0 +1,147 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Skechers Receipt",
+  "description": "This receipt is a retail transaction record from a Skechers store located at The Houston Galleria in Houston, Texas. The document includes store identification details such as address and phone number, followed by a clearly labeled sales section. It features POS metadata including terminal and transaction identifiers, masked card payment details, approval and authorization codes, and associate identification. The receipt captures date and time of purchase, item count summary, and a full financial breakdown including subtotal, tax, and total. It concludes with promotional messaging directing customers to the company’s website and careers page, along with a barcode section at the bottom for scanning and record-keeping purposes.",
+  "slug": "Skechers-Receipt",
+  "createdAt": "$D2026-03-17T15:40:45.524Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F570d6a4a-54d2-4185-b295-30752a4b38a2-image%20(59).jpg?alt=media&token=38546b8d-4d86-432a-b15d-53e4eb9e172b",
+      "size": 236,
+      "businessDetails": "THE HOUSTON GALLERIA\n5085 WESTHEIMER RD\nHOUSTON, TX 77056\n(832) 390-2818",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8c4f4975-e63f-45a4-8ab0-6b7232decbc6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TWINKLE TOES  ",
+          "total": "2.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1bfc714a-cf73-415c-8a47-ca431de711c1",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dce7b8ba-9f4d-4553-8fa2-e9b239b00783",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "APPROVAL CODE: XXXXXX\nAUTH CODE: XXXXXX\nCARD TYPE: MASTERCARD\n\nTRANSACTION NUMBER: 0000000000\nTERMINAL NUMBER: 00000000\n\nDate: 8/7/2023   Time: 11:04 AM\nAssoc: 000014\n\nItems Sold: 2\nItems Returned: 0",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "23423af5-7726-4b94-bf00-a84cb87f42a6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Check us out online at WWW.SKECHERS.COM\n\nHave you found your career path?\nVisit www.skechers.com/careers\nor visit our store associates for details\nor check out our job openings at\nabout.skechers.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "c4a37d67-fdb3-4757-a3da-d9d5c62c4143",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "19aa4bb0-c3d1-4971-b18e-0f70b8db4da8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "8 7 5 2 1 6 2 5 7 6 2 6 8 2 5",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FSV27S0wJUCHW6VhZJ4dO%2FSV27S0wJUCHW6VhZJ4dO-c59af627-5f2e-48e3-ada4-ac2265dda86f.png?alt=media&token=36e4e718-0f2c-4d12-8d7f-bb4acb546b9c",
+  "published": true,
+  "id": "SV27S0wJUCHW6VhZJ4dO"
+}

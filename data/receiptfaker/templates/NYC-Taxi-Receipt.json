@@ -1,0 +1,161 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "NYC Taxi Receipt",
+  "slug": "NYC-Taxi-Receipt",
+  "createdAt": "$D2025-09-29T13:22:28.464Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F39955acb-f3b9-4796-b0fe-1aef521c625b-9026092_taxi_icon.png?alt=media&token=cde85734-2e07-477f-86eb-4fbebcabe9f6",
+      "size": 74,
+      "businessDetails": "NYC Taxi Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "1285 Lexington Avenue, Apt 7B\nNew York, NY 10028",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e5f9243-f447-413b-bd40-62349de5bdb8",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/23/2025, 5:22:31 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "84400844-3ccb-47fd-8d87-c83b0282667d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Pickup location: 45 W 34th Street, New York, NY 10001\nDrop-off: 200 E 42nd Street, New York, NY 10017\nDriver's name: Elijah T.\nDriver ID: NY23840\nTaxi Number: 2884",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fe128260-02e1-4eb2-840e-9b130564f74a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Base Fare",
+          "total": "3.00"
+        },
+        {
+          "quantity": "",
+          "description": "Distance (3.2 miles @ $2.75/mi)",
+          "total": "8.80"
+        },
+        {
+          "quantity": "",
+          "description": "Time (15 min @ $0.50/min)",
+          "total": "7.50"
+        },
+        {
+          "quantity": "",
+          "description": "Booking / Service Fee",
+          "total": "2.50"
+        },
+        {
+          "quantity": "",
+          "description": "Taxes & Other Fees",
+          "total": "1.70"
+        },
+        {
+          "quantity": "",
+          "description": "Tip",
+          "total": "4.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "27.50"
+        }
+      ],
+      "total": "27.50",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "28"
+        },
+        {
+          "title": "Change",
+          "value": "0.50"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Fares are calculated based on distance, time, and applicable fees. Payments are processed via the chosen payment method at the time of booking. Customers must report any fare discrepancies, lost items, or ride issues within 24 hours of the trip. By accepting this receipt, you acknowledge and agree to these terms.\n\nThank you for choosing us!",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FIYFxemh9ckXkVPlFUxPA%2FIYFxemh9ckXkVPlFUxPA-48353ddd-e3da-433d-b6f8-a32c3c5b218c.png?alt=media&token=6db9743b-4d42-4e0a-a7b9-ff2c3e5a7d1d",
+  "description": "Need an NYC Taxi receipt? Easily create a professional cab fare receipt with our free tool. Add driver info, medallion number, trip details, fare, and payment—ideal for travel reimbursements or expense tracking.",
+  "published": true,
+  "metatitle": "NYC Cab Fare Receipt",
+  "metadesc": "professional NYC taxi receipts with driver info, medallion number, trip details, and fare for expense tracking and reimbursements",
+  "id": "IYFxemh9ckXkVPlFUxPA"
+}

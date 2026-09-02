@@ -1,0 +1,141 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Montana's Cookhouse Receipt",
+  "description": "This receipt is from Montana’s Cookhouse, a restaurant located in Belleville, Ontario, Canada. It records a bar order containing beverages including pineapple juice, Shirley Temple, and Southern Iced Tea. The receipt includes table and guest information, subtotal, HST tax calculation, total amount due, and customer survey promotion details offering a free appetizer on a future visit. The format reflects a standard Canadian restaurant POS receipt.",
+  "slug": "Montana's-Cookhouse-Receipt",
+  "createdAt": "$D2026-05-19T18:39:12.459Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "a8a03d5b-6ede-495e-853d-a34a9a0054d8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F457204ab-ba96-4d3f-be2a-51d73c5625d8-image%20(14).jpg?alt=media&token=bcfdb550-e61c-4c7b-b956-cc88bc2d68c0",
+      "size": 210,
+      "businessDetails": "Montana's Bell 2, 3813\n1515 Bell, ON V2\nTel: 875-816-40007\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "82fde19f-8817-4b67-91ff-0599274adce5",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "31 Mishtur",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "590e68d1-cc1b-4129-9fac-12140c5349af",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTbl 94/1",
+          "total": "\nChk 4104 Gst 2"
+        },
+        {
+          "quantity": "",
+          "description": "Sep13'18   06:08PM",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c235550c-6a52-409b-a8d3-e20bc9526b53",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Bar",
+          "total": ""
+        },
+        {
+          "quantity": "2",
+          "description": "Pineapple Miras",
+          "total": "5.98"
+        },
+        {
+          "quantity": 1,
+          "description": "Southwi",
+          "total": "18.99"
+        },
+        {
+          "quantity": "",
+          "description": "with 7oz",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Southwi Skirt",
+          "total": "14.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "84da6c2d-15c1-4257-a706-4bcf4060106c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "39.96"
+        },
+        {
+          "quantity": "",
+          "description": "TST",
+          "total": "5.20"
+        },
+        {
+          "quantity": "",
+          "description": "Total Due",
+          "total": "45.16"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "01d8d2b1-8014-41b5-9ad0-b276e489e1a2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Rounded if Paying Cash $45.15\n\nTell Us How We Did Today & RECEIVE A FREE APPETIZER  with the purchase of any two entrees at: www.montanassurvey.com or call 1-865-240-1354\n\n\n\nComplete our Guest survey at: Access Code: 5884-21056-59864 Expiry Date: 21 days; per table; not valid with other offers; not valid with location offers only; must show survey validation code and this receipt Max value $11.99",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "sYvKS4D7SAOPjfuUBRIj"
+}

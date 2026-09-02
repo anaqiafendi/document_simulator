@@ -1,0 +1,162 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Nanny Receipt",
+  "slug": "Nanny-Receipt",
+  "createdAt": "$D2025-05-25T12:26:42.508Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F3835e241-d826-4681-acd6-6b30e525a04c-9226334_baby_bottle_milk_newborn_icon.png?alt=media&token=3737ba8c-bfa7-4525-b651-cf752c6915d5",
+      "size": 81,
+      "businessDetails": "BrightStars Babysitting Services LLC\n\nAddress: 482 Maplewood Drive, Springfield, IL 62704\nPhone: (217) 555-3892\nEmail: contact@brightstarsbabysitting.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Nanny Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9cc5cdb8-a988-44cd-996a-91ad75bd66f0",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 12:26:37 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "03a5db84-048d-4164-924b-c1972c3c400e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Children’s Name: Lucas\nBabysitter Name: Sophie Reynolds\nAddress: 358 Willow Lane, Boulder, CO 80302",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "975c4bc2-2d37-4319-b4f8-520ff3222c0f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to:\nName: Olivia Bennett\nAddress: 247 Cedarbrook Avenue, Raleigh, NC 27609",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Babysitting Services",
+          "total": "80"
+        },
+        {
+          "quantity": "10",
+          "description": "Additional Hours",
+          "total": "60"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DOTS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "140"
+        },
+        {
+          "title": "Tax",
+          "value": "11.20"
+        }
+      ],
+      "total": "151.20",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0de361bb-3de9-473e-b899-6c1b89c9ef5f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "85576ebd-748e-431a-adfc-bd588cc7141c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you for choosing us!\n\nwww.brightstars.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FBJ6CvwzXTUJuELmpRHzQ%2FBJ6CvwzXTUJuELmpRHzQ-6a5b2e6a-fdc2-412d-84c9-5eea31d68a0d.png?alt=media&token=7de30445-3322-41df-b504-9027d713539d",
+  "description": "Need a nanny receipt? Use our free tool to create a clear payment record for childcare services. Add caregiver info, dates worked, hours, rates, and payment details—perfect for tax records or parent documentation.",
+  "published": true,
+  "metatitle": "Childcare Receipt",
+  "metadesc": "professional nanny receipts with caregiver details, hours worked, rates, and payment info for childcare tax documentation",
+  "id": "BJ6CvwzXTUJuELmpRHzQ"
+}

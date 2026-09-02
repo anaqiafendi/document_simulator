@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Northern Tool + Equipment Receipt",
+  "description": "A customer copy receipt from Northern Tool + Equipment, Oakdale, MN retail location (7855 10th St N, Oakdale, MN 55128; 651-770-3237). The transaction (Store 616, Register 1) was completed on 10/26/20 at 2:19 PM by Cashier #30982. Items purchased include parts totaling $49.99 and parts shipping for $8.50. The subtotal is $49.99 with $2.70 tax, bringing the total to $52.19. Payment was made via Visa credit card (Auth #34168), with no change due. The receipt includes a thank-you message and information about the Northern Tool gift card return/exchange policy within 30 days of purchase.",
+  "slug": "Northern-Tool-+-Equipment-Receipt",
+  "createdAt": "$D2026-02-13T15:54:36.797Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "74437dd4-df3a-4f0e-8744-f51d7760fe35",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fa5659c43-9fec-4bf7-985d-00bddea8ea73-northern%20tool%20%2B%20equipment.jpg?alt=media&token=71d2a1e2-6da2-4372-b44b-9d27f0c9b255",
+      "size": 188,
+      "businessDetails": "OAKDALE, MN RETAIL\n7855 10TH ST N\nOAKDALE, MN 55128\n651-770-3237",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "debe20a2-83b6-4750-862e-c34a970601f2",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Transaction: 315243   Date: 10/26/20\nStore 616               Time: 2:19 PM\nRegister: 1           Cashier: 30982\nAssociate\n00099\n\nThank you for shopping with Northern Tool\n    We appreciate your business!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "934f6167-503f-4edb-b194-33edf8b0bbdc",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Item     Qty     Price       Amount\n-----------------------------------\nPARTS   17.99 LABOR 23.50\nPARTS SHIPPING                8.50\n\n\nSubtotal                   $49.99\nTax                        $2.70\nTotal                      $52.19\n\nVisa Credit Card\nSale                       $52.19\n\nAuth # 34168\n    \nChange                     $0.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eac381e9-1b0a-4a6f-a9af-4ccb68ffceb1",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nWe would love your feedback.\nWe are Northland’s Best!\nUse your Northern Tool gift card for return/exchange 30 days from purchase date.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FO7RXbg4jUMo3RYvlAGa3%2FO7RXbg4jUMo3RYvlAGa3-c7c87e2a-3bb1-4997-8d99-759107fb1610.png?alt=media&token=b6d3cc35-678d-4dd7-9e56-7d5055473cb9",
+  "published": true,
+  "id": "O7RXbg4jUMo3RYvlAGa3"
+}

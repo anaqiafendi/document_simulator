@@ -1,0 +1,50 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T07:28:00.954Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Cash App Receipt",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F1d3c9b22-5c77-45bb-a725-b5a6de4cb0ff-cash%20app.png?alt=media&token=65dcc593-a596-4cbd-b873-b9e03651fd53",
+      "size": 121,
+      "businessDetails": "CASH APP RECEIPT",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Payee: TacoTown LLC\n$Cashtag: $tacotown\nTransaction: Payment\nAmount: $24.50 USD\nDate: 2025-09-29 13:42 (ET)\nTransaction ID: TXN-9F3C2A7B\nPayment Method: Visa •••• 1234\nStatus: Completed\nFee: $0.00\nNote: Lunch order — delivery\nSender: Ava Mitchell\nReceipt issued by: Cash App (Square, Inc.)\n",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Need help? Visit help.cash.app",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Cash-App-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FRjOXpkzTRAzSARZMiKZQ%2FRjOXpkzTRAzSARZMiKZQ-f9f89c2b-d02f-401b-a0b8-cc701560adf5.png?alt=media&token=23f3c45a-f13d-4a17-b185-5d387691db44",
+  "description": "Need a Cash App receipt? Use our free tool to create a detailed digital payment record. Add sender and recipient info, transaction ID, date, and amount—perfect for proof of payment or expense tracking.",
+  "published": true,
+  "metatitle": "Digital Payment Receipt",
+  "metadesc": "realistic Cash App receipts with custom sender/recipient details, transaction IDs, dates, and amounts for payment records",
+  "id": "RjOXpkzTRAzSARZMiKZQ"
+}

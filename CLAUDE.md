@@ -664,6 +664,30 @@ uv run python -m document_simulator evaluate \
 - **SB3 CnnPolicy**: observation space must be `dtype=np.uint8` with shape `(H, W, C)`.
 - **NumPy < 2.0** pinned for PaddlePaddle compatibility.
 - **augraphy writes cache** to `augraphy_cache/` at repo root (covered in `.gitignore`).
+- **WeasyPrint needs native Pango/Cairo** (receipt synthesis only). On macOS the
+  libs come from Homebrew but the dynamic loader does not search `/opt/homebrew/lib`,
+  so every import of `document_simulator.synthesis.receipts` fails with
+  `OSError: cannot load library 'gobject-2.0-0'`. Fix:
+  ```bash
+  brew install pango cairo gdk-pixbuf
+  export DYLD_FALLBACK_LIBRARY_PATH=/opt/homebrew/lib   # or use `make test-receipts`
+  ```
+  This affects *collection*, so all 20 receipt test files error out before running.
+  Linux/CI installs the libs to a searched path and needs no env var.
+- **`uv run` in a git worktree** picks the worktree's own (empty) `.venv` over the
+  activated one, so imports fail even though the primary checkout is installed.
+  Use `uv run --active`, which the Makefile targets do.
+- **Brand logos are not in git** (third-party trademarks; 28MB of images git
+  cannot delta). They live in a shared cache *outside* the repo so they survive
+  worktrees being created and deleted:
+  ```
+  ~/.cache/document_simulator/receiptfaker/logos      # or $XDG_CACHE_HOME/...
+  ```
+  Populate once with `make logos`; every checkout and worktree then finds them.
+  Override with `RECEIPTFAKER_LOGO_DIR` in `.env` to point at a different pool.
+  Resolution order is: that setting, then a populated `data/receiptfaker/logos/`
+  (back-compat), then the shared cache. Absent logos are handled gracefully --
+  `content.py` leaves `logo_path` as `None`.
 
 ---
 

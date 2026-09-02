@@ -1,0 +1,337 @@
+{
+  "currency": "",
+  "slug": "Biedronka-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-05T12:49:45.320Z",
+  "description": "This grocery retail receipt from Biedronka documents a Debit Mastercard transaction processed at the Wejherowo location in Poland. The receipt includes store identification details, company information for Jeronimo Martins Polska S.A., tax identification number (NIP), cashier references, transaction numbering metadata, and timestamp information. The POS structure contains discount calculations, VAT (PTU) summaries, total amount presentation in Polish złoty, card payment confirmation, and promotional savings formatting aligned in standard Polish retail thermal receipt formatting. Additional receipt elements include loyalty or promotion references, masked payment card information, authorization codes, terminal identifiers, barcode formatting, and a separate non-fiscal card payment confirmation section near the footer. The layout reflects a standard Polish supermarket thermal receipt with localized VAT accounting and integrated card authorization formatting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Biedronka Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "c1a5bc89-de7c-4a44-8ab9-e1359452971a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7fd8fc32-f076-4417-9e85-e5be7b0ce661-image%20(2).jpg?alt=media&token=85f3c32a-d365-4cfa-980a-6216aaef4e87",
+      "size": 244,
+      "businessDetails": "\nBIEDRONKA \"CODZIENNIE NISKIE CENY\"\n84-200 WEJHEROWO UL. ORZESZKOWEJ 2\nJERONIMO MARTINS POLSKA S.A.\n62-025 KOSTRZYN UL. ZWIRUNA 5\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4312631a-9699-48ef-bf83-3de230630836",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "NIP 7791011327",
+          "total": "nr: 16666"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "78303427-1196-4e1c-b65a-9b4a30073dde",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "PARAGON FISKALNY\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f7e51a4d-4e84-474d-9679-35fa75ac250a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Deser Bandi",
+          "total": "4 x 3,69\t14,76€"
+        },
+        {
+          "quantity": "",
+          "description": "OPUST",
+          "total": "-6,80"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "7,96"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dfbe1877-308c-4604-9a43-29051644db79",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "OPUSTY LACZNIE",
+          "total": "-6,00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f3702568-fed4-4337-9e1b-85364cd06ee4",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Sp: C=7,96",
+          "total": "SUMA PTU=0,38"
+        },
+        {
+          "quantity": "",
+          "description": "Sp: C5+D=0,38",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PLN",
+          "total": "7,96"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "299a8323-8fac-4f66-a919-7089ff9e6869",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "ROZLICZENIE PŁATNOŚCI",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "KARTA DEBIT MASTERCARD 05 1",
+          "total": "7,96 PLN"
+        },
+        {
+          "quantity": "",
+          "description": "D0027 #Kasa 2 Kasjer nr 5",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2028-01-15 12:00",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8b2a8086-1b0e-4b8d-ad7a-cdf994560788",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "A168E001F8A44731B34D33SD4F22F896B\nEAZ 2402512933\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "60509726-bc7c-4cf9-9345-8de80802469d",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Nr transakcji",
+          "total": "4391"
+        },
+        {
+          "quantity": "",
+          "description": "Numer",
+          "total": "47022601154991022"
+        },
+        {
+          "quantity": "",
+          "description": "Udzielono łącznie rabatu",
+          "total": "6,80"
+        },
+        {
+          "quantity": "",
+          "description": "Promocja",
+          "total": "6,80"
+        },
+        {
+          "quantity": "",
+          "description": "Numer karty",
+          "total": "99510*****025"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "168a39ad-173d-415f-b7c9-3f8d2a42abd2",
+      "type": "BARCODE",
+      "size": 77,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e8dc40df-8b19-4ee7-b9de-dc37942ea11a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "100004702499122000508\nNr sys. 4591",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b207cfaa-0abc-4199-88d4-dce2c6c915a2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "NIP 7791011327",
+          "total": "nr: 16667"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6a9f1e4c-c8dc-4916-9f57-4363509c4c52",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nNIEFISKALNY\n\nPOTWIERDZENIE ZAPŁATY KARTĄ\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "88ada856-2435-49b5-9ba1-a903dc29de05",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "TID",
+          "total": "8850986"
+        },
+        {
+          "quantity": "",
+          "description": "UID",
+          "total": "496710192881"
+        },
+        {
+          "quantity": "",
+          "description": "Rodzaj",
+          "total": "DEBIT MASTERCARD 05 1"
+        },
+        {
+          "quantity": "",
+          "description": "PSN",
+          "total": "01"
+        },
+        {
+          "quantity": "",
+          "description": "****",
+          "total": "****1074"
+        },
+        {
+          "quantity": "",
+          "description": "ARC",
+          "total": "00"
+        },
+        {
+          "quantity": "",
+          "description": "Sprzedaż",
+          "total": "PLN 7,96"
+        },
+        {
+          "quantity": "",
+          "description": "Data",
+          "total": "174223 1"
+        },
+        {
+          "quantity": "",
+          "description": "Kod autoryzacji",
+          "total": "054706"
+        },
+        {
+          "quantity": "",
+          "description": "STAN",
+          "total": "054706"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4de736a0-38e3-4d16-9c79-2daf3306f51c",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nProszę obciążyć moje konto\nKOD PIN ZGODNY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "PwdjnoMQVOFaysgVE7af"
+}

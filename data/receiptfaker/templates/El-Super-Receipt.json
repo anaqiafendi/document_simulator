@@ -1,0 +1,94 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T14:06:36.072Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e994c859-da5e-4236-9c1f-925a8e9aaca9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F937b7052-1cb7-4a20-93a5-66579870524a-image.jpg?alt=media&token=be7e98ab-02c3-4c2f-903a-8e8c803ad57d",
+      "size": 261,
+      "businessDetails": "\nBIENVENIDOS-WELCOME!\n5610 York Blvd.\nLos Angeles, CA 90042 (323) 916-8218\nStore Director: Francisco Agradano\nwww.elsupermarkets.com\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "830a8701-e445-4838-8a9c-894193110a97",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "PORK NECK BONES",
+          "total": "$$11.55  F"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "-----------"
+        },
+        {
+          "quantity": "",
+          "description": "Sub Total",
+          "total": "$$11.55"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tax",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "----------"
+        },
+        {
+          "quantity": "",
+          "description": "BALANCE DUE",
+          "total": "$$11.55"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "$$0.05"
+        },
+        {
+          "quantity": "",
+          "description": "Total number of items sold = 1",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d05f0233-8c98-4510-ad0f-9c54b607cf1a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nCashier:1488  Name:Sandra L. Store:0018  POS:3   Transaction:0021 Tuesday, February 18, 2025  01:43 PM\n\n\nSurvey Code\n2502 1813 0183 3021\nYour Feedback Matters!\nTell us about your visit to El Super\nEnter to WIN a $100 GIFT CARD\n3 Winners EACH MONTH\nElSupersurvey.com\nElSuperencuesta.com\nToll-free/Telefono 1-866-612-1077\nHablamos Espanol\nThank you for shopping at El Super\nSave your receipt for returns/exchanges",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by El Super and identifies the store as 5610 York Boulevard, Los Angeles, California 90042. The header contains the El Super branding, bilingual welcome message, store address, contact telephone number, store director's name, and official website. The receipt records the purchase of Pork Neck Bones. The financial section records the subtotal, confirms that no sales tax was charged, the balance due, the cash amount tendered, and the change returned. The footer records the total number of items sold, cashier information, store and transaction details, transaction date and time, a customer survey invitation with a survey code, bilingual customer service information, and the store's return reminder. The overall layout is representative of a United States supermarket POS receipt, combining grocery itemization, cash payment reconciliation, customer feedback promotion, and transaction information within a compact retail receipt format.",
+  "name": "El Super Receipt",
+  "slug": "El-Super-Receipt",
+  "published": true,
+  "id": "d9ziuKC8tVWodFVAU6hs"
+}

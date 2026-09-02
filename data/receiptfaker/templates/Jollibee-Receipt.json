@@ -1,0 +1,140 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Jollibee Receipt",
+  "slug": "Jollibee-Receipt",
+  "createdAt": "$D2025-05-24T08:56:54.033Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F69fa4c5f-f83d-41d4-9f43-26d9a9529b88-jollibee-logo-black-and-white.png?alt=media&token=bbaa814d-6412-4d64-9a68-a79d6d553a00",
+      "size": 132,
+      "businessDetails": "Jollibee Las Vegas\n3890 S Maryland Parkway Suite 137\nLas Vegas NV 89119\n(702) 893-3005\njb-lasvegas@jollibeeusa.com",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "a7b57e42-e2cc-4a97-9bde-6f29c4de83a3",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/24/2025, 11:47:32 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Invoice number: 340\nOrder # 358\nTable # 21\nOrder taker: Lila T.",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6b4b8853-81ff-4360-b22d-619bd59396a4",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Details",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Family bundle--10pcs\nChickenjoy bucket + 3 large sides",
+          "total": "29.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "29.99"
+        },
+        {
+          "title": "Tax",
+          "value": "2.51"
+        }
+      ],
+      "total": "32.50",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_10",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "We’d love to hear about your experience. Please take our quick survey within 48 hours for a chance to win a free Peach Mango Pie! www.jollibeefoods.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FolkZ8aYT8cvuudOS3mYa%2FolkZ8aYT8cvuudOS3mYa-34d3da76-763e-4c8b-8493-28ff71e9a8b3.png?alt=media&token=1c67f324-2d56-4ec9-83a1-912c5ea30ef9",
+  "description": "Need a Jollibee receipt? Create a fast-food receipt quickly with our free tool. Customize store info, order details, prices, tax, and payment—perfect for tracking meals, returns, or personal expense records.",
+  "published": true,
+  "metatitle": "Fast Food Receipt",
+  "metadesc": "authentic Jollibee fast-food receipts with custom store details, menu items, prices, and payment info for expense tracking",
+  "id": "olkZ8aYT8cvuudOS3mYa"
+}

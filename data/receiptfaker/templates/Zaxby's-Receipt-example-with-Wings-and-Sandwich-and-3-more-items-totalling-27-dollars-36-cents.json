@@ -1,0 +1,116 @@
+{
+  "createdBy": "b1df5KHRC9ezcjyVHf8RrxZtXzE3",
+  "createdAt": "$D2025-06-10T03:53:35.102Z",
+  "isParent": false,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fb1ca1882-942b-458c-a870-46cea063ffe7-1279158.png?alt=media&token=0458340d-d77c-4022-a905-ba5cdee34c3f",
+      "size": 300,
+      "businessDetails": "1692 N. Columbia Street\nMilledgeville, GA 31061\n(478)-452-1027",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "26 Hailey D",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bf3ada26-4513-4e82-a912-b269265358af",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Chk 3741",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9d8e8e9-a9f5-437c-a054-4ed5133cf9a8",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "5/25/2025, 8:37:07 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "TD Wings/Things",
+          "total": "9.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Caj Club Sand ML",
+          "total": "5.19"
+        },
+        {
+          "quantity": "1",
+          "description": "BL Wings",
+          "total": "10.39"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "25.57"
+        },
+        {
+          "title": "Tax",
+          "value": "1.79"
+        }
+      ],
+      "total": "27.36",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "If you are not satisfied with your order, please contact the location where your purchase was made within 24 hours. Retain your receipt for verification. We may offer a refund, replacement, or credit at the manager’s discretion.\n\nVisit www.zaxbys.com or contact the store directly for assistance.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Zaxby's Receipt example with Wings and Sandwich and 3 more items totalling 27 dollars 36 cents",
+  "description": "This receipt was created with ReceiptFaker generator based on **Zaxby's Receipt** template on **Jun 9, 2025**.",
+  "slug": "Zaxby's-Receipt-example-with-Wings-and-Sandwich-and-3-more-items-totalling-27-dollars-36-cents",
+  "parentId": "6XhbKUYjI3RuVkkRHP0U",
+  "parentName": "Zaxby's Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FrjUq2MUXBkcVDUhqaw31%2FrjUq2MUXBkcVDUhqaw31-fff5fb8e-c264-46e5-a977-f257f29314ee.png?alt=media&token=3ff0b722-5d44-4809-88a8-815a7e904775",
+  "published": true,
+  "metatitle": "Fast Food Receipt",
+  "metadesc": "realistic Zaxby's receipts with wings, sandwiches, and custom items. Perfect for expense reports and record keeping needs",
+  "id": "rjUq2MUXBkcVDUhqaw31"
+}

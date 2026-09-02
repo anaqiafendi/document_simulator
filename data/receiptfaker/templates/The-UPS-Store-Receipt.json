@@ -1,0 +1,41 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The UPS Store Receipt",
+  "slug": "The-UPS-Store-Receipt",
+  "createdAt": "$D2026-02-21T15:31:10.543Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "description": "This receipt is issued by The UPS Store #325 located at 4111 Hastings Street, Burnaby, BC V5C 6T7, with a listed contact phone number. It documents a package drop-off transaction and includes a printed date and time, cashier line, and tracking reference number. The layout contains store identification at the header and a footer directing customers to the UPS tracking website. A promotional message advertising passport photo services is also printed. The format represents a parcel shipping and mailing service point-of-service receipt.",
+  "metatitle": "Fake ShopRite Receipt",
+  "metadesc": "authentic ShopRite grocery receipts with custom items, prices, store details, and payment info for returns or expense tracking",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc1e46932-50e7-4a43-a8cb-ed458cfcc0dd-the%20ups%20store.jpg?alt=media&token=20723711-4d0f-4a37-be6d-dcb8d676191b",
+      "size": 237,
+      "businessDetails": "The UPS Store #325\n4111 Hastings Street\nBurnaby, BC V5C 6T7\n604-205-5888",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\n         Package Drop Off\n\n08/18/2023 17:35\n\nCashier:\n\nTracking 1Z60V3************400\n\nUPS Store 325 now does Passport Photos\nAsk for details today\n\nFor additional tracking information\nplease visit www.ups.ca",
+      "bottomDivider": false,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FFMnS8vbGeJhTtZaRO7Zv%2FFMnS8vbGeJhTtZaRO7Zv-9c276dad-9b3c-4a43-b82b-96357d759317.png?alt=media&token=10ada15a-2b3a-4007-9fed-96886a99ecb5",
+  "published": true,
+  "id": "FMnS8vbGeJhTtZaRO7Zv"
+}

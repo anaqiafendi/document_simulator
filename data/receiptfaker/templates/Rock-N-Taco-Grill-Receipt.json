@@ -1,0 +1,106 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-03T12:02:40.915Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Rock N Taco Grill Receipt",
+  "description": "This receipt is from Rock N Taco Grill, a restaurant located in Hobbs, New Mexico. It records a dine-in order for “Californication Fish Tacos.” The receipt includes location details, date and time, server name, ticket number, and order type. It provides a breakdown of subtotal, local sales tax, total amount due, and cash payment with change returned. The format follows a typical U.S. restaurant POS receipt with itemized billing and transaction details.",
+  "sections": [
+    {
+      "id": "22acdddd-8a03-4861-9fd4-a4242cf9265b",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F55675c62-4870-4993-9eff-c602bd805613-image%20(8).jpg?alt=media&token=ffabd18e-598d-4c33-b488-4e5bc84308cf",
+      "size": 229,
+      "businessDetails": "\n4428 N Lovington   December 27, 2024\nHWY                         12:20 PM\nHobbs, NM                    Arielle\n88240-2429\n(575) 441-6161",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5e031a54-ca09-4c3a-959d-43feb8a6a3b1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Ticket: Dinning room 22\nReceipt: IIUo",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef274ac7-ddfb-4dc2-a064-edcebe083d28",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFOR HERE\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ebf700d8-3496-4b8f-9cf5-c2de3d43dc77",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCalifornication Fish Tacos",
+          "total": "\n$15.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$15.00"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax (6.5925%)",
+          "total": "$$0.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "29ffef78-51d1-4518-a8f8-20eea988339f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total                          ",
+          "total": "$$15.99"
+        },
+        {
+          "quantity": "",
+          "description": "Cash                           ",
+          "total": "$$20.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change   ",
+          "total": "$$4.01"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Rock-N-Taco-Grill-Receipt",
+  "published": true,
+  "id": "z9C1fzIO5QHB2npkpnq6"
+}

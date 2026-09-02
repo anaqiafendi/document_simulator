@@ -1,0 +1,136 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T12:13:44.863Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "e01bb119-b129-4ccc-9fd2-333f9f82f5a4",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Welcome to Dunkin' Donuts\nStore # 308751\n233 N Michigan Ave, Chicago 312.938.0400\n4/11/2018   7:25:53 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c7014b34-b2ca-424b-816a-bd348d1f86e7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nEat In",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Order: 556",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nRegister:2",
+          "total": "\n Tran Seq No: 3095556"
+        },
+        {
+          "quantity": "",
+          "description": "Cashier:Yadira R.",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a5ec43da-c98c-4f40-84ab-ffbd193bffaa",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n *****SALE*****\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae54ea40-2fee-43d2-9d77-09dec7f4d826",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "6  10 Munchkins  ",
+          "total": " 11.94"
+        },
+        {
+          "quantity": "",
+          "description": "Sub. Total",
+          "total": "$$11.94"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": " $1.37"
+        },
+        {
+          "quantity": "",
+          "description": "Discount Total",
+          "total": " $0.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nChange ",
+          "total": "\n$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Mastercard",
+          "total": " $13.31"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "987ffab7-729e-477e-a5a0-dc627743521f",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nMASTERCARD\n\nTerminal : 2\nApproval : 047950\nAID : A0000000041010\nTVR : 0800008000\nIAD : 011060100322000000000000000000000FF\nTSI : E800\nAR : 00\nTC : E028CB\n\nUSD$ 13.31\n\n*****************************\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d35de08-5c08-4cf6-a82c-073c753d885a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": " Tell us about today's visit",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Dunkin' Donuts and identifies the store as Store #308751, located at 233 North Michigan Avenue, Chicago, Illinois 60601. The header contains the store number, address, contact telephone number, transaction date and time, dining type (Eat In), order number, register number, transaction sequence number, and cashier identification. The receipt records the purchase of six orders of 10 Munchkins, followed by the subtotal, applicable sales tax, and the final transaction total. The payment section confirms settlement by MasterCard, displaying the masked card number, approval code, terminal number, and EMV transaction details. The overall layout is representative of a United States quick-service restaurant POS receipt, combining order management, sales-tax calculation, EMV card payment processing, and transaction reconciliation within a compact receipt format.",
+  "name": "Dunkin' UK Receipt",
+  "slug": "Dunkin'-UK-Receipt",
+  "published": true,
+  "id": "O3cdggZq1Ip7fpnxl2Nl"
+}

@@ -1,0 +1,66 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Under Armour Receipt",
+  "description": "This receipt is issued by Under Armour from the Brand House location in Carlsbad, California, and includes store identification details such as address and phone number. It is formatted as a refund transaction and contains POS metadata including store name, register number, transaction ID, associate ID, and timestamp. The receipt includes a financial summary with subtotal and total refund amount, along with payment method details showing a masked card number and debit processing. Additional elements include loyalty membership information, items returned count, and a customer feedback prompt with a web link, reflecting a standard apparel retail POS receipt structure with refund processing details.",
+  "slug": "Under-Armour-Receipt",
+  "createdAt": "$D2026-03-26T15:46:24.265Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Ff8d33c30-8f18-4398-b064-4395eade76d3-image%20(17).jpg?alt=media&token=43a26188-d6be-45e1-93f4-fc49e47e3032",
+      "size": 236,
+      "businessDetails": "BRAND HOUSE\n6800 AVENIDA ENCINAS\nCARLSBAD, CA 92011\n(760) 444-1816",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e1b620d-1db9-4541-8db0-5ffa5f69f2dc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "REFUND",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "53f7d3ad-3554-45ba-8eda-95caf5daa06b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Customer Name:\nEmail:\nStore: Brand House\nRegister: 3",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "18652324202 UA Hustle Backpack II\n(Black / Silver / OSFA)      (41.85)\n\n18652324202 UA Hustle Backpack II\n(Black / Silver / OSFA)      (2.72)\n\n---------------------------------\nSubtotal:             (44.57)\n---------------------------------\nTotal:                (44.57)\n\n\nDebit\nCard #:  *****2058        (44.57)",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "dc153bf4-7988-49e1-bd7b-ef5e97e83b0c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "CARD VISA CREDIT USED\nPlease Retain For Your Records\n\n\nMembership Type: UA LOYALTY MEMBER\nCurrent Balance: 0.00\nCurrent Trans Points: 709\n\n\nStore: 21125   Reg: 002   Tran: 005610\nDate: 7/18/23   Time: 15:47:14 PM\nAssoc: 42961\n\nItems(s) Returned: 2\n\n\nThank you for shopping at\nUNDER ARMOUR\n\n\nTELL US HOW WE'RE DOING\nVisit feedback.ua.com\nand enter the code below",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FLH15O50YR2OojLI0TsnC%2FLH15O50YR2OojLI0TsnC-00fcee8f-9f30-454a-8302-29fc78b1a3c2.png?alt=media&token=efd29be9-f8d0-43df-ac4c-6994956673eb",
+  "published": true,
+  "id": "LH15O50YR2OojLI0TsnC"
+}

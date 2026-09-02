@@ -1,0 +1,147 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-06T20:15:20.671Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d15a5e22-48fd-4c5b-8ded-c76f1032b57e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb893d94c-dd8f-40ca-938c-173b7e3d0ce8-crate%20this%20logo%20exactly%20as%20it%20is%2C%20logo%20black%20backgrund%20oure%20white.jpg?alt=media&token=b080a73f-5865-4aab-b4a4-3d96de351dac",
+      "size": 242,
+      "businessDetails": "Quality, Variety, and Value\n1720 E. 17th Street\nSanta Ana, CA 92705\n714-972-1910",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "65c7f7e0-d04e-4441-b837-5eb8f1dfbdd8",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nwww.superiorgrocers.com\nOpen Daily from 7:00am-10pm\nReceipt & ID needed for Returns/Exange\nNo return on Alcohol Tobacco & Gift Card\nThank you for shopping at Superior!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "de7e1dd3-361e-4347-9b70-3502ca6fe4d2",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Age Confirmed - 01/01/1980",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MICHELOB ULTRA BTLS",
+          "total": "9.49 T"
+        },
+        {
+          "quantity": "",
+          "description": "CR REDEMPTION VALUE",
+          "total": "0.30 T"
+        },
+        {
+          "quantity": "",
+          "description": "NBSC OREOS FAMILY SZ",
+          "total": "3.99  *"
+        },
+        {
+          "quantity": "",
+          "description": "NS CHOC ECLAIR BAR",
+          "total": "5.99  *"
+        },
+        {
+          "quantity": "",
+          "description": "\nSales Tax",
+          "total": "\n9.79"
+        },
+        {
+          "quantity": "",
+          "description": "9.25 % Tax",
+          "total": "0.91"
+        },
+        {
+          "quantity": "",
+          "description": "\nBALANCE DUE",
+          "total": "\n20.68"
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "21.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "0.32"
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal number of items sold = 4",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9222cd6-842d-423a-a442-38f899ad6ac6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCASHIER NAME: MANUEL U",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "STORE:00110  REGISTER",
+          "total": "008  CASHIER:1012"
+        },
+        {
+          "quantity": "",
+          "description": "TICKET#:0312",
+          "total": "6OCT2023  18:22:16"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3615eba8-2253-4ae7-8d3b-3e135b5ea77f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nENJOY $5 OFF YOUR NEXT $50 PURCHASE! Visit talktosuperiorgrocers.smg.com in the next 3 days to take your survey. Bring this receipt with Validation code to redeem offer in the next 14 days.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Superior Grocers and identifies the store as 1720 E. 17th Street, Santa Ana, California 92705. The header contains the Superior Grocers branding, store address, contact telephone number, website, operating hours, and return policy information. The receipt records the purchase of several grocery items, including Michelob Ultra Bottles, Oreos Family Size, and a Chocolate Eclair Bar, together with a California redemption value charge. The financial section records the applicable sales tax, balance due, cash tendered, and change returned. The footer contains the total number of items sold, cashier and register information, transaction details, and a customer survey promotion offering $5 off a future $50 purchase with a validation code. The overall layout is representative of a United States supermarket POS receipt, combining grocery itemization, sales-tax reporting, cash payment reconciliation, and promotional information within a compact retail receipt format.",
+  "name": "Superior Grocers Receipt",
+  "slug": "Superior-Grocers-Receipt",
+  "published": true,
+  "id": "MQT19ooCOkRDT1xbbR8w"
+}

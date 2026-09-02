@@ -1,0 +1,264 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Bar-A-BBQ Receipt",
+  "description": "This receipt is from Bar-A-BBQ, a barbecue restaurant located in Montgomery, Texas, United States. It records a food order containing brisket, turkey, chicken, sausage, side dishes, cowboy beans, dirty rice, and cornbread pudding. The receipt includes subtotal, sales tax, tip amount, total payment, Visa contactless payment confirmation, and authorization details. It also contains cashier information, transaction references, and the restaurant slogan. The format reflects a standard US restaurant POS receipt.",
+  "slug": "Bar-A-BBQ-Receipt",
+  "createdAt": "$D2026-05-19T19:23:19.925Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b2c9314f-3b30-4180-b2ac-6fcebe11910e",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Bar-A-BBQ\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0dec5278-67f2-4139-b122-727943e58dc6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "22148 Eva St.",
+          "total": "January 12, 2025"
+        },
+        {
+          "quantity": "",
+          "description": "MONTGOMERY, TX",
+          "total": "12:58 PM"
+        },
+        {
+          "quantity": "",
+          "description": "77356",
+          "total": "Zoe"
+        },
+        {
+          "quantity": "",
+          "description": "(940) 446-0148",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "396862e5-ff03-4317-bac6-cd046b4d4b02",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Receipt: perX",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Authorization: 09946D",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6ba8a82b-784d-4024-bb60-05616e5e6078",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "VISA CREDIT",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "AID A0 00 00 03 10 10",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "52b23fea-0191-4a85-9001-2339e684c4ee",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Brisket",
+          "total": "$$36.00"
+        },
+        {
+          "quantity": "",
+          "description": "($36.00/lb) x 1.00 lb",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Turkey",
+          "total": "$$16.00"
+        },
+        {
+          "quantity": "",
+          "description": "1/2 pound",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Chicken",
+          "total": "$$10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Sausage",
+          "total": "$$8.00"
+        },
+        {
+          "quantity": "",
+          "description": "Beefy Texan",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Sausage",
+          "total": "$$8.00"
+        },
+        {
+          "quantity": "",
+          "description": "South Texan",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Pint",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cowboy Beans",
+          "total": "$$9.00"
+        },
+        {
+          "quantity": "",
+          "description": "Pint",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Dirty Rice",
+          "total": "$$9.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cornbread Pudding x 2",
+          "total": "$$10.00"
+        },
+        {
+          "quantity": "",
+          "description": "($5.00 each)",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a9e2dad5-1afc-4e6b-98fd-2af3afbc2ce6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$116.00"
+        },
+        {
+          "quantity": "",
+          "description": "Sales Tax (8.25%)",
+          "total": "$$9.49"
+        },
+        {
+          "quantity": "",
+          "description": "Tip",
+          "total": "$$24.90"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "86f2f460-45f5-425a-82ae-451f04f3970a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$149.39"
+        },
+        {
+          "quantity": "",
+          "description": "Visa 3159 (Contactless)",
+          "total": "$$149.39"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "dd96a10e-cbde-40ec-b8dc-e00cb1023bfe",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\"Clear Smoke, Full Pits, Can't lose...\"",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "KE37fn47K136mbY3FJVd"
+}

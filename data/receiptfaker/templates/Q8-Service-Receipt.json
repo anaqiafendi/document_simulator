@@ -1,0 +1,109 @@
+{
+  "currency": "",
+  "sections": [
+    {
+      "businessDetails": "\nStorebæltstovej 60-70\n4220 Korsør\nTelefon 58 35 05 18\nCVR nr. 61 08 29 13\n",
+      "id": "b17d01ce-1574-45ec-a853-049b6d1bb175",
+      "type": "HEADER",
+      "bottomDivider": false,
+      "size": 256,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F3a0fc7c5-8ddd-48d5-8d3b-2a49a1c9a879-image%20(17).jpg?alt=media&token=728f9cc4-2270-415e-a5d4-379f5db532c4",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "type": "ITEMS",
+      "id": "7c1c3715-59a3-4d6b-a750-c4a01e7fcbf2",
+      "totalDivider": false,
+      "total": "",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "totalLines": [],
+      "totalText": "",
+      "items": [
+        {
+          "total": "Dato: 20.10.2019",
+          "description": "Ekspedient: Frederikke",
+          "quantity": ""
+        },
+        {
+          "total": "Tid: 12:17",
+          "description": "Dato: 20.10.2019",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "Bonnr.: 0502",
+          "quantity": ""
+        },
+        {
+          "total": "\nkr 17,95",
+          "description": "\nGriedmore Topcup Hindber",
+          "quantity": ""
+        },
+        {
+          "total": "kr 30,90",
+          "description": "Impofor Shnk Æble og Citron",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "description": "3 X kr16,35",
+          "quantity": ""
+        },
+        {
+          "total": "kr 4,00-",
+          "description": "Shots 2 for",
+          "quantity": ""
+        },
+        {
+          "total": "kr 30,00",
+          "description": "TALL Hot Chocolate",
+          "quantity": ""
+        },
+        {
+          "total": "\nkr 76,95",
+          "description": "\nTOTAL",
+          "quantity": ""
+        },
+        {
+          "total": "kr 76,95",
+          "description": "KREDIT/DEBIT KORT",
+          "quantity": ""
+        },
+        {
+          "total": "kr 15,39",
+          "description": "MOMS (25%)",
+          "quantity": ""
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "custom": "\nHent vores app i App Store el. Google Play, og få tilbud og gode tilbud på turen. Eller besøg os på Q8.dk/hou\n\n\nGod tur videre\nQ8\nHver dag er en rejse",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "id": "690b7085-f6ca-4ca1-a2db-c026af3c90ed",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "slug": "Q8-Service-Receipt",
+  "numberFormat": "LEFT",
+  "backgroundType": "CRUMPLED_1",
+  "description": "This fuel station and convenience service receipt from Q8 Service documents a VISA/Dankort card transaction processed at the Strandvejen location in Korsør, Denmark. The receipt includes store address information, telephone number, CVR registration formatting, cashier identification, register references, receipt numbering metadata, and timestamp information. The POS structure contains subtotal formatting (“I ALT”), Dankort/VISA payment confirmation fields, and Danish kroner pricing aligned in standard Danish thermal receipt formatting. Additional receipt elements include promotional mobile app messaging, travel-related customer messaging, App Store and Google Play references, and branded footer presentation near the bottom of the receipt. The layout reflects a standard Danish fuel station convenience receipt with localized payment formatting and customer promotional messaging.",
+  "createdAt": "$D2026-05-26T09:32:54.652Z",
+  "imageUrl": "",
+  "fontType": "MERCHANT_COPY",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "textColor": "#101828",
+  "name": "Q8 Service Receipt",
+  "published": true,
+  "id": "g2HpsYTRg4z2HOTGRovG"
+}

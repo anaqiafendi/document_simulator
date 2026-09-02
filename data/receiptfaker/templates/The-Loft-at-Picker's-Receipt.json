@@ -1,0 +1,129 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-08T18:30:54.905Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "450fe0dc-7ec9-473d-a536-ea063972b59f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F514e9b91-7995-4a89-906d-ecb8172bd8e7-image%20(2).jpg?alt=media&token=f45d6cf9-3d3c-42d8-b6e9-567bd82be4a6",
+      "size": 241,
+      "businessDetails": "\nThe Loft at Picker's\nRestaurant\n1000 Indiana Ave\nWichita Falls, TX 76301\n(940)386-9019\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1b42db30-a126-44ca-add5-8b67ff43bc2e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: ET H",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Check #2 ",
+          "total": "Table 32"
+        },
+        {
+          "quantity": "",
+          "description": "Guest Count: 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Seat 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ordered",
+          "total": "8/7/25 11:09 AM"
+        },
+        {
+          "quantity": "",
+          "description": "\n1 Sweet Tea",
+          "total": "\n$3.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 One-Trip Salad Bar",
+          "total": "$$12.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nMilitary Appreciation",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "(10.00%)",
+          "total": "-$1.50"
+        },
+        {
+          "quantity": "",
+          "description": "\nPre-discount Subtotal",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "$$15.00"
+        },
+        {
+          "quantity": "",
+          "description": "Discount Total ",
+          "total": " -$1.50"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n$13.50"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$1.12"
+        },
+        {
+          "quantity": "",
+          "description": "Total ",
+          "total": "$$14.62"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7e065182-a2ad-4cd5-a0de-d0dadd87d046",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for choosing\nThe Loft at Picker's\nCome HOME again SOON!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "The Loft at Picker's Receipt",
+  "description": "This receipt is issued by The Loft at Picker's Restaurant and identifies the establishment as 1000 Indians Run, Wapakoneta, Ohio 45895. The header contains the restaurant name, address, contact telephone number, server identification (ET), check number, table number, guest count, seat number, and order timestamp. The receipt records an order consisting of a Sweet Tea and a One-Trip Salad Bar. A 10% Military Appreciation discount is applied before tax. The financial section shows the pre-discount subtotal, discount amount, adjusted subtotal, sales tax, and the final transaction total. The receipt concludes with a customer appreciation message inviting guests to return. The overall layout is representative of a United States restaurant POS receipt, combining table-service information, promotional discount reporting, sales-tax calculation, and transaction reconciliation within a compact hospitality receipt format.",
+  "slug": "The-Loft-at-Picker's-Receipt",
+  "published": true,
+  "id": "6CqsyXZkFmzkbI0hM9m9"
+}

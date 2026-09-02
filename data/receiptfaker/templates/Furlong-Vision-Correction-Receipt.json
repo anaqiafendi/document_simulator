@@ -1,0 +1,184 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Furlong Vision Correction Receipt",
+  "slug": "Furlong-Vision-Correction-Receipt",
+  "createdAt": "$D2026-02-04T14:42:15.566Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_2",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "RECEIPTIONAL_RECEIPT",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F2smILxFMaKfx1deg6Ufsrts7tAy1%2Ff8bc95db-26ef-4206-b3dd-5b33b17996d9-Screenshot%202026-02-02%20at%2011.14.03%20AM.png?alt=media&token=ca6763ed-0656-4df4-b46b-a8c051d6fb8a",
+      "size": 300,
+      "businessDetails": "Furlong Vision Correction Eye Center\n\nAddress: \n2107 N First St #101\nPhone Number:\n(866) 702-5776\nWebsite:\nfurlongvision.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "9d087367-fb49-4087-9986-f67656a9027f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "cd4c0eac-d3a7-4279-93c2-1137f4c548ab",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Doctor:\nDr. Furlong\nLicense Number: DDS-482736",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f1b2d59-de12-4a05-9dcd-08c7fffc2b1e",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": "Patient:\nName: Mark \nSurname: Bishop\nNumber: (415) 791-2107\nInsurance Number: N/A\nEmail: mark715bishop@proton.me",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Comprehensive Eye \nExamination (Level V)",
+          "total": "525.00"
+        },
+        {
+          "quantity": "",
+          "description": "Optical Coherence\nTomography (OCT)= ",
+          "total": "750.00"
+        },
+        {
+          "quantity": "",
+          "description": "Visual Field Testing",
+          "total": "575.00"
+        },
+        {
+          "quantity": "",
+          "description": "Retinal Imaging",
+          "total": "485.00"
+        },
+        {
+          "quantity": "",
+          "description": "Medical Interpretation\n& Clinical Analysis",
+          "total": "425.00"
+        },
+        {
+          "quantity": "",
+          "description": "Administrative Fee",
+          "total": "215"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "2975.00"
+        },
+        {
+          "title": "Tax",
+          "value": "245.48"
+        }
+      ],
+      "total": "3220.48",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "totalSizeIncreased": "PERCENT_100",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 8786"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "5/24/2025 9:02 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Many hospitals and dental offices offer electronic receipts via email or patient portals for convenience and record-keeping. They must have clear procedures for patients to dispute charges and request corrected receipts if errors are found. Receipts should clearly list services rendered (e.g., consultation, lab tests, imaging), medications, procedures, and any other charges.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 9:02:48 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "COLONS"
+    }
+  ],
+  "description": "Eye care service receipt from Furlong Vision Correction Eye Center detailing patient information, eye examination and diagnostic services, individual service charges, subtotal, tax, total amount paid, payment method, transaction date and time, and provider/license details.",
+  "metatitle": "Dental Visit Receipt",
+  "metadesc": "professional dental visit receipts with customizable clinic info, patient details, procedures, and fees for insurance claims",
+  "parentName": "Dentist Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FleTs1JXnEpqpn7cJb824%2FleTs1JXnEpqpn7cJb824-fba0d786-49bb-460a-ab97-f77b90b6af88.png?alt=media&token=4a3cf8ea-9dc9-4624-ae4c-6a009b0465a7",
+  "published": true,
+  "id": "leTs1JXnEpqpn7cJb824"
+}

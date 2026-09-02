@@ -1,0 +1,163 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-26T12:24:00.563Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "cbac6cc3-92e4-4895-a3eb-c569d8e4f09c",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F95f0ef53-d0bf-4b64-8676-4228a7584f84-image%20(8).jpg?alt=media&token=0741a4ca-fe1b-4db9-99d8-083245b5ee96",
+      "size": 263,
+      "businessDetails": "\nXIYUE PASIR MUKTI\nPuri Harmoni Pasir Mukti Blk.\n              H\nNo.34, Pasir Mukti, Kec.\nKab Bogor, Jawa Barat 16810",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bd943461-d49f-4100-ae48-315b27bcf587",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nPenjualan  : SXY125172B0046602\nTanggal    : 06-10-2024 14:41\nMode       : DINE IN\nKasir      : KASIR PASIR MUKTI",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf171a60-0454-4174-9139-c608fa03a0f7",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nCaramel Popcorn Ice Cream Cone",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @12,000",
+          "total": "12,000"
+        },
+        {
+          "quantity": "",
+          "description": "Iced Milk Tea",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @16,000 ",
+          "total": "16,000"
+        },
+        {
+          "quantity": "",
+          "description": "Normal Ice",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0   ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "100% SUGAR",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": " 1x  @0",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ice Thai Tea",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @16,000",
+          "total": "16,000"
+        },
+        {
+          "quantity": "",
+          "description": " Normal Ice",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0  ",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "100% SUGAR",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @0 ",
+          "total": "0"
+        },
+        {
+          "quantity": "",
+          "description": "in a cup",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x  @2,000 ",
+          "total": "2,000"
+        },
+        {
+          "quantity": "",
+          "description": "4 item",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n Subtotal :",
+          "total": "\n46,000"
+        },
+        {
+          "quantity": "",
+          "description": "Grand Total :",
+          "total": "48,000"
+        },
+        {
+          "quantity": "",
+          "description": "QRIS ESB POS ",
+          "total": "46,000"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "68a5fc21-47d8-4120-a0d2-5ce2e700d958",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n----Thank You----\nNomor antrian\n18\n\nTunggu nomor kamu dipanggil",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is a thermal point-of-sale (POS) receipt issued by Xiyue Pasir Mukti, located at Puri Harmoni Pasir Mukti Block A, No. 34, Pasir Mukti, Kabupaten Bogor, West Java 16810, Indonesia. The header contains the restaurant name, full branch address, sales transaction number, transaction date and time, service mode (DINE IN), and cashier identifier. The receipt concludes with a financial summary showing the Subtotal, Grand Total, and the QRIS ESP POS digital payment amount. The footer includes a customer appreciation message, a printed queue number (18), and a notice instructing customers to wait until their queue number is called. This receipt represents a standard Indonesian restaurant and beverage POS receipt featuring transaction metadata, QRIS digital payment confirmation, and queue management information.",
+  "name": "Xiyue Pasir Mukti Receipt",
+  "slug": "Xiyue-Pasir-Mukti-Receipt",
+  "published": true,
+  "id": "4489zqcOsP73iX6EMTmc"
+}

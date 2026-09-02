@@ -1,0 +1,142 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Tim Hortons Receipt",
+  "slug": "Tim-Hortons-Receipt",
+  "createdAt": "$D2025-05-24T07:56:27.988Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F0bbbac77-4c52-472a-a386-cd5a0684ff07-untitled-1_146.png?alt=media&token=601da403-9bcc-4891-bf18-4cd76cd11257",
+      "size": 222,
+      "businessDetails": "Tim Hortons # 102252\n1845 Middleton Avenue, Brandon MB, R7C 1A7\n(204) 726-0210",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "07921a1d-caf9-4d71-8640-b0145a559542",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Order #: 308",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5897b1b9-114c-4b63-87d9-f8f2f1f87976",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "Croissant Donut",
+          "total": "2.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Croissant Donut",
+          "total": "2.49"
+        },
+        {
+          "quantity": 1,
+          "description": "Sausage Wrap Snacker",
+          "total": "2.89"
+        },
+        {
+          "quantity": 1,
+          "description": "Sunrise Sunset Tins Boost",
+          "total": "4.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "12.86"
+        },
+        {
+          "title": "Tax",
+          "value": "1.54"
+        },
+        {
+          "title": "Total Tax",
+          "value": "1.54"
+        }
+      ],
+      "total": "14.40",
+      "totalText": "Grand Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tax#:\n11/20/2019 11:09:08 AM\nReceipt #: 903383991\nOrder ID: 903383991\n\nGet a 10 Pack of Timbits for $1!\nSurvey Code:\n0530-3791-1148-8100-30705\n\nWe are hiring!\nGo to careers.timhortons.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FfTQc0gJL5dzf29YAiJWq%2FfTQc0gJL5dzf29YAiJWq-6124c22c-cdbe-4695-ac05-c92935c99bc2.png?alt=media&token=42367c6c-7131-47cd-a5fc-59902abfdcf3",
+  "description": "Need a Tim Hortons receipt? Use our free tool to create a custom coffee or meal receipt. Enter store info, menu items, prices, tax, and payment method—perfect for tracking expenses, returns, or personal records.",
+  "published": true,
+  "metatitle": "Tim Hortons Receipt",
+  "metadesc": "realistic Tim Hortons receipts with custom coffee, food items, store details, and payment info using our free generator tool",
+  "id": "fTQc0gJL5dzf29YAiJWq"
+}

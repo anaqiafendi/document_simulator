@@ -1,0 +1,140 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-09T16:31:02.241Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "GDK Receipt",
+  "description": "This receipt is issued by GDK Cambridge Extra Services and identifies the restaurant as Unit 6, Deane Plaza, Cambridge CB23 4WU, United Kingdom. The header contains the restaurant name, address, contact telephone number, transaction date and time, and takeaway order number. The receipt records a takeaway order consisting of Cheesy Hash Brown Bites and a Doner Wrap Meal with customizations, including melted cheese sauce, plain fries, a garlic signature dip, and a Coke can. The financial section records the final transaction total of £17.00. The payment section confirms settlement by Mastercard and includes masked merchant and card details together with the authorization code. The footer instructs the customer to collect the order at the counter and provides a QR code for a customer satisfaction survey. The overall layout is representative of a United Kingdom fast-food POS receipt, combining menu customization, card-payment processing, and customer feedback features within a compact receipt format.",
+  "slug": "GDK-Receipt",
+  "sections": [
+    {
+      "id": "594adaca-8e72-4ad7-b1db-72c6c60a2aff",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0494242a-b0fb-4f02-9244-39fa70735b85-image.jpg?alt=media&token=24380b52-97fd-4926-9a50-e1b165306aea",
+      "size": 254,
+      "businessDetails": "GDK CAMBRIDGE\nEXTRA SERVICES\n\nUnit 6, Deane Plaza, Cambridge, CB23\nTel: 0161 225 0000\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "033041e7-60c1-465a-af47-e4df5d767dcd",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Date: 03/06/2025\nTime: 7:59:20 PM\n\nOrder: 237 Takeaway\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d4028ed5-50be-4900-910b-af23efe59ea5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1 x Cheesy Hash Brown Bites (12)",
+          "total": "3.89"
+        },
+        {
+          "quantity": "",
+          "description": "-Garlic Signature Pot ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "1 x Doner Wrap Meal",
+          "total": "11.88"
+        },
+        {
+          "quantity": "",
+          "description": "-Chicken ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "-Melted Cheese Sauce",
+          "total": "0.69"
+        },
+        {
+          "quantity": "",
+          "description": "-With Plain Fries",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "-Garlic Signature Pot  ",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "-Coke Can",
+          "total": "0.10"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\nGBP 17.00"
+        },
+        {
+          "quantity": "",
+          "description": "-----------",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5f622786-8933-4b9e-80c0-25a8ddfb03a1",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n\nMASTERCARD\nMID: **********42441  TID: ****5234\nCard No: **************7159   Auth Code: A8T3NM\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "350f6627-00d4-4680-9069-578d4f888e69",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Please take your receipt and head to the counter to collect your order. \nThank you. We'd love to hear about your experience. Please take a moment to complete our short survey and let us know how we do.\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3442d557-e607-4df7-8c7e-e050b9224f5e",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5dec6b61-0638-49ff-93cf-e8735a6353d0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nFOR YOUR ORDER",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "DZUO8Hn2BSCDAUfIj8e4"
+}

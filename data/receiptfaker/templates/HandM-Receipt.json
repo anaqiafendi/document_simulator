@@ -1,0 +1,103 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "H&M Receipt",
+  "description": "This receipt is issued by H&M Retail Sdn Bhd from The Spring Shopping Mall, Persiaran Spring, 93300 Kuching, Sarawak, Malaysia, and includes the company registration number and GST identification number at the header. The document contains POS metadata including Cashier ID (0975), Shop number (813), receipt/order number (2478), Till number (4), and a timestamp (16/08/18, 18:12). The receipt structure includes a financial summary section showing subtotal adjustments, discount entry, total amount due, payment method (VISA), masked card number, and transaction ID, along with GST calculation details. A refund deadline notice is printed along with detailed exchange and refund policy statements, followed by a thank-you message and a machine-readable barcode with numeric code at the bottom. The receipt format reflects a fashion apparel retail POS system used in international clothing stores.",
+  "slug": "HandM-Receipt",
+  "createdAt": "$D2026-03-15T18:16:01.701Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " ",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7715a821-ff8b-4d86-b846-734094973755-image%20(52).jpg?alt=media&token=760ac37f-0eb5-423e-b4f7-a4dc5fd9e065",
+      "size": 236,
+      "businessDetails": "H&M\nH&M RETAIL SDN BHD\nCo. No: 976046-H\nThe Spring Shopping Mall\nPersiaran Spring 93300 Kuching\nSarawak Malaysia\nGST No. 001161150464",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6340114d-46ac-4a9f-a268-38117524dedf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Cashier: 0975   Shop: 813 No.: 2478\nDate: 16/08/18  Till: 4  Time: 18:12",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ab94ef0b-8f48-4a2c-ae0b-8ec7faefbad6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Shirt\n829260                     \nManual Amount Discount",
+          "total": "69.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "69.00"
+        },
+        {
+          "title": "Tax",
+          "value": "0.00"
+        }
+      ],
+      "total": "69.00",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "No of pcs: 1\nVISA        RM             10.00\nTransaction ID             005404\n************2430\nGST 0%                     0.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "bfd06f1e-47ea-46a1-9604-fe890175a99e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All items are subject to Zero Rated GST\nexcept for purchases before June 1, 2018\nEXCHANGE AND REFUND WITHIN 30 DAYS\nWITH ORIGINAL RECEIPT AND PRICE TAG\nNO EXCHANGE & REFUND ON ACCESSORIES\nCOSMETICS, SWIMWEAR, LINGERIE\nAND UNDERWEAR\n\nTHANK YOU FOR SHOPPING AT H&M",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9f15b54b-be2d-4e99-9b56-aa6c4b522aff",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9d7e976a-b7d7-4fdd-9805-f9d106acd11d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "6 60813000424782018081 6",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FqwdbUXYVFEYhvrijnrpW%2FqwdbUXYVFEYhvrijnrpW-4e78fb5a-b92c-402d-9e49-fa7be0d72895.png?alt=media&token=367cb4ff-e587-4571-8150-41f8e9912beb",
+  "published": true,
+  "id": "qwdbUXYVFEYhvrijnrpW"
+}

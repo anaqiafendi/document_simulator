@@ -1,0 +1,119 @@
+{
+  "currency": "",
+  "slug": "Yonsei-Handrolls-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-06T13:03:51.964Z",
+  "description": "This restaurant receipt from Yonsei Handrolls documents a dine-in transaction processed at the Albany, California location on San Pablo Avenue. The receipt includes restaurant branding, full address details, server identification, check number references, guest count metadata, table number formatting, and order timestamp information. The POS structure contains item quantity formatting, subtotal presentation, operational fee calculations, tax calculations, and final total presentation aligned in standard U.S. restaurant thermal receipt formatting. Additional receipt elements include service references, check management identifiers, and fee disclosure formatting near the transaction summary. The layout reflects a standard U.S. casual dining restaurant receipt with dine-in service tracking and tax accounting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Yonsei Handrolls Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "7ce950c8-d677-4eea-8495-00f971137e72",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fb702ec7b-611b-465b-a3ed-83904f73e422-image%20(4).jpg?alt=media&token=5d885045-92b6-413f-b8ca-3de754809a88",
+      "size": 242,
+      "businessDetails": "\nYonsei Handrolls – Albany\n935 San Pablo Avenue\nAlbany, CA 94706\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f36c9283-d977-4a8a-82ae-b5daa4e95804",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Server: Cindy G",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Check #5",
+          "total": "Table 3"
+        },
+        {
+          "quantity": "",
+          "description": "Guest Count: 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Ordered:",
+          "total": "5/21/25   11:17 AM"
+        },
+        {
+          "quantity": "",
+          "description": "\n\n1 American Wagyu Beef",
+          "total": "\n\n$15.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Apps",
+          "total": "$$40.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Negi Hana",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Spicy Tuna",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "2 Salmon",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "Operations Fee (4.00%)",
+          "total": "$$2.20"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n$57.20"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "$$6.16"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nTotal",
+          "total": "\n\n$63.36"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "42e73e53-767d-4e70-9983-59f406faa185",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank you for dining with us!\nWe hope to roll with you again soon. \n\n*** Yonsei Handrolls – Albany ***",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "313vU4EdNa0VGaJWCnFm"
+}

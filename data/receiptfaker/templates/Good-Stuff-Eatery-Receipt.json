@@ -1,0 +1,184 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T10:28:39.092Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "d7108a02-5b0c-4ef7-9e8f-07af4982dd28",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F1d58a275-7ac3-4d0c-a5c1-b147869341f1-image%20(5).jpg?alt=media&token=9560be2f-69e2-4587-95b9-0fd6de894c56",
+      "size": 265,
+      "businessDetails": "------------------------------------\n\nGood Stuff Eatery Georgetown\n3291 M St. NW\nWashington DC 20007\n202-337-4663\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb537501-190d-4263-8d73-38d6f813fe9c",
+      "type": "ITEMS",
+      "items": [],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "",
+          "value": "Order#: 2450969"
+        },
+        {
+          "title": "",
+          "value": "Station# POS2"
+        },
+        {
+          "title": "",
+          "value": "Call Name: 13"
+        },
+        {
+          "title": "",
+          "value": " Date: 5/29/22, 5:12 PM"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aa81aea3-1209-4bd5-9b2f-23ff7899a4cb",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTransaction",
+          "total": "\n414512"
+        },
+        {
+          "quantity": "",
+          "description": "Spike's Sunnyside",
+          "total": "$$8.95"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nSteakhouse Burger",
+          "total": "\n$5.95"
+        },
+        {
+          "quantity": "",
+          "description": "Strawberry ",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": " With Food",
+          "total": "$$4.85"
+        },
+        {
+          "quantity": "",
+          "description": "Lemon Meringue Mini ",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": "",
+          "description": "With Food ",
+          "total": "$$3.95"
+        },
+        {
+          "quantity": "",
+          "description": "Handcut Fries ",
+          "total": "$$1.63"
+        },
+        {
+          "quantity": "",
+          "description": "Restaurant Recovery Fee",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total Item Count",
+          "total": "5"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal:",
+          "total": "$$34.28"
+        },
+        {
+          "quantity": "",
+          "description": "Total Tax:",
+          "total": "$$3.27"
+        },
+        {
+          "quantity": "",
+          "description": "-------------------------------------",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nTotal",
+          "total": "\n$37.55"
+        },
+        {
+          "quantity": "",
+          "description": "\nPaid With: VISA",
+          "total": "\nXXXX2489"
+        },
+        {
+          "quantity": "",
+          "description": "Acct name",
+          "total": "JEREMY HO"
+        },
+        {
+          "quantity": "",
+          "description": "Amount",
+          "total": "$$37.55"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "70c31c9d-7353-4c54-9d25-0891fe92d92e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for dining with us!\nWe hope to see you again soon.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Good Stuff Eatery restaurant receipt issued from the Georgetown location at 3291 M St. NW, Washington, DC 20007. The header features the Good Stuff Eatery branding followed by the location name, full street address, and telephone number. Transaction metadata includes the order number, POS station identifier, call name, receipt reference, and exact transaction date and time. The main transaction section uses a traditional restaurant POS layout with itemized entries and amounts arranged in aligned columns, followed by the total item count. The financial summary records the subtotal, total tax, and final transaction total in clearly separated fields. The lower payment section identifies Visa as the payment method and includes a masked card reference, cardholder name, and the final amount charged.",
+  "name": "Good Stuff Eatery Receipt",
+  "slug": "Good-Stuff-Eatery-Receipt",
+  "published": true,
+  "id": "GcW0jwOs15od9pIQbqOj"
+}

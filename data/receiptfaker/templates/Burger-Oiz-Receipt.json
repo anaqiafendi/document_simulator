@@ -1,0 +1,136 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-21T16:12:56.228Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "8a565c88-820d-4a55-88bf-dbb354dd30a0",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F47e7a9a7-16a7-4076-aa72-9260bceaebdd-image%20(16).jpg?alt=media&token=fea6bbea-9d2d-4098-9efb-3bb50f5b3710",
+      "size": 161,
+      "businessDetails": "\nBurger On 16 Sdn BHD (1202689-W)\nNO: 16 LORONG 1/77A,\nKUALA LUMPUR\nTEL: 03-92242117\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "21cf853c-fa4a-427f-8b73-cd41bed6ee13",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTable 11\n\nBill #:    513345  Check#:    113701\nDate :    15-02-2018    13:08:56\nCashier: AMMAR",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9a401bba-b796-4508-be12-13baed648a9e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "3",
+          "description": "Bells Aloha(GR)",
+          "total": "14.90"
+        },
+        {
+          "quantity": "1",
+          "description": "Chicken Phenomena(P,GR)",
+          "total": "15.90"
+        },
+        {
+          "quantity": 1,
+          "description": "French Fries",
+          "total": "4.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "498c038e-a654-45a7-86c6-cee97f26ad5f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal ",
+          "total": "35.30"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4de3d04b-0e96-4892-a1e2-eead6c3e6a5b",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Closed: 001",
+          "total": "15-02-2018 13:10:37"
+        },
+        {
+          "quantity": "",
+          "description": "Server: AMMAR",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCASH ",
+          "total": "\n\n50.00"
+        },
+        {
+          "quantity": "",
+          "description": "CHANGE",
+          "total": "14.70"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9945cb90-fc31-4ae2-9398-0782fe536cb5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n*** THANK YOU FOR DINING WITH US ***\nTerima Kasih! Please Come Again\nWe hope to see you soon!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "name": "Burger Oiz Receipt",
+  "description": "This restaurant receipt from Burger Oiz documents a dine-in transaction processed at the Burger On 16 location in Kuantan, Pahang. The receipt includes store address information, telephone number, table identifier, bill number, cashier/server metadata, and timestamp formatting for both order and close times. The POS structure contains subtotal, total, cash tendered, and change due fields aligned in standard thermal receipt formatting. Additional operational metadata includes closed transaction numbering and server attribution. The layout reflects a standard Southeast Asian restaurant POS receipt with dine-in table service formatting and cash payment transaction details.",
+  "slug": "Burger-Oiz-Receipt",
+  "published": true,
+  "id": "0GUSmTojQ2rUVXatmn23"
+}

@@ -1,0 +1,159 @@
+{
+  "createdAt": "$D2026-02-26T13:06:25.324Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "ded6e9d4-e2eb-45c0-91e1-d2f67529d042",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe40163ac-ecaa-44bd-a541-1ab1cd1ba516-image%20(6).jpg?alt=media&token=abdc1d70-f07a-4aa6-aa85-cc5f7dd5d456",
+      "size": 183,
+      "businessDetails": "1107 Route 130\nCinnaminson, New Jersey 08077",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "21f03021-67ad-436b-b648-1e9285cdb03c",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "12/8/2024                   11:59:17 AM\nOrder Id: AABP3MM2AEAS\n265 - Dine In\nEmployee: Kyle\nTotal Items: 8",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ddbb1744-bc69-4436-b802-5d7e87698dd0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "265",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8a360997-9b7e-47f9-9da2-a8fa577f1a03",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "6cd5a3ce-b1a9-4306-a22e-3adf211c6a60",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cbcb0bf3-d26d-45e5-8ae0-147a5246020b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1091869b-e01f-420a-9f4b-420d2288a424",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "14552912562528552",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c305f2ab-44c9-4909-bf58-cdaca86d9906",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "metatitle": "Tim Hortons Receipt",
+  "metadesc": "realistic Tim Hortons receipts with custom coffee, food items, store details, and payment info using our free generator tool",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Freddy’s Frozen Custard & Steakburgers Receipt",
+  "description": "This receipt is issued by Freddy’s Frozen Custard & Steakburgers located at 1107 Route 130, Cinnaminson, New Jersey 08077. It includes a printed logo header, date 12/8/2024 with time stamp 11:59:17 AM, Order Id AABP3MM2AEAS, and order number 265 designated as Dine In. The receipt identifies Employee: Kyle and reflects Total Items: 8. A financial summary section is present showing subtotal, tax, total, cash tendered, and change due. The footer includes a barcode number, a thank you message, and the closing phrase “HAVE A NICE DAY.” The format reflects a quick-service restaurant POS system with structured order identification and payment tracking.",
+  "slug": "Freddy's-Frozen-Custard-and-Steakburgers-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FzurtApUjYXglmd5dHbvc%2FzurtApUjYXglmd5dHbvc-12730d47-a764-4662-8fac-ed20ba88951c.png?alt=media&token=8c624fbd-6699-460d-a899-c2b293aac3a6",
+  "published": true,
+  "id": "zurtApUjYXglmd5dHbvc"
+}

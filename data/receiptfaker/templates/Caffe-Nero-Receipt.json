@@ -1,0 +1,148 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Caffè Nero Receipt",
+  "description": "This receipt is issued by Caffè Nero from the 096 Curzon Street location, displaying the store address and VAT registration number (795871659) at the header. The receipt includes POS metadata such as server or cashier identifier (8818 LorenzoG), transaction/check number (13084), and timestamps for order opening and closing (20 Oct 17, 13:30 PM – 13:31 PM). The document structure includes a Take Away order section, a financial summary showing VAT breakdown at 20%, net total, subtotal, payment amount, and change due, and indicates the payment method as cash with GBP currency formatting. The receipt concludes with a check closure notice, separators, and a customer feedback message directing users to the Nero Visit survey website, reflecting a coffee shop / quick-service café POS receipt format.",
+  "slug": "Caffe-Nero-Receipt",
+  "createdAt": "$D2026-03-15T18:24:17.818Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": " GBP",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 236,
+      "businessDetails": "Caffe Nero\n096 Curzon St\nVAT: 795871659",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fc5880f8-58c8-4729-b769-e08126fa5e66",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "8818 LorenzoG",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cde857f-08a5-4710-9854-39c1dd6073ae",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "13084\n20 Oct 17 13:30 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6d66cec1-dc4d-4d04-bd14-fb2e79f6cacd",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "a8200997-7292-4ce5-84b5-2b0009f238c9",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1cf02191-7402-4365-9e1c-cfadc2128e16",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "----Check Closed----\n20 Oct 17 13:31 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd5fb72e-ce09-40fc-8ff3-f3076f318415",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Tell us how we did today.\nVisit www.mynerovisit.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FpSMnmPqkxXLAlZrQRvj9%2FpSMnmPqkxXLAlZrQRvj9-87ddae00-6a90-4036-b022-2699947793d9.png?alt=media&token=ecad9512-5799-4457-b094-810370661be9",
+  "published": true,
+  "id": "pSMnmPqkxXLAlZrQRvj9"
+}

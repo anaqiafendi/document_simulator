@@ -1,0 +1,132 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Moxie's Grill Bar Receipt",
+  "description": "This receipt is from Moxie’s Grill/Bar Courtney Park in Mississauga, Ontario, Canada. It records a dine-in restaurant order including sandwiches, pasta, soup, poutine, prime rib, cocktails, and beverages. The receipt includes promotional discounts, subtotal, HST tax calculations, total amount due, and discount totals. It also contains hiring advertisements and referral incentive information printed at the bottom of the receipt. The format reflects a standard Canadian restaurant POS receipt.",
+  "slug": "Moxie's-Grill-Bar-Receipt",
+  "createdAt": "$D2026-05-20T07:38:01.334Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "45e36989-1a2a-49b2-a7b8-926df852166d",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F33e76e7e-63b6-4b25-ab26-940f0d6be769-image%20(14).jpg?alt=media&token=f6b0ab26-b684-4a7e-ad35-ada1e1021081",
+      "size": 247,
+      "businessDetails": "\nMOXIE'S GRILL/BAR\nCOURTNEYPARK/BAR\nMOXIE'S COURTNEY PARK MISSISSAUGA\n905)272-1110\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "078b2218-1406-4313-a920-ca4bed47372f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "OOBOa   Table: 11   #Party 2",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "JASMINE K Sv0Cs: 9 12:56 09/09/18",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\nBEEF DIP sub/auto tmtr (2.00)",
+          "total": "\n18.75"
+        },
+        {
+          "quantity": "",
+          "description": "TOP SIRLOIN",
+          "total": "38.00"
+        },
+        {
+          "quantity": "",
+          "description": "COMP PARTNER TON",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "PINEAPPLE SODA",
+          "total": "PINEAPPLE SODA"
+        },
+        {
+          "quantity": "",
+          "description": "COMP PARTNER TON",
+          "total": "5.25"
+        },
+        {
+          "quantity": "",
+          "description": "OTHER VIRGIN DRNK",
+          "total": "-2.45"
+        },
+        {
+          "quantity": "",
+          "description": "COMP PARTNER TON",
+          "total": "-0.40"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Sub Total",
+          "value": "50.16"
+        },
+        {
+          "title": "HST",
+          "value": "6.52"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef3ea855-4d08-49be-9af2-450703fc0332",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "09/20 13:40   TOTAL:",
+          "total": "56.68"
+        },
+        {
+          "quantity": "",
+          "description": "DISCOUNT AMOUNT",
+          "total": "$$2.27"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "45010c86-db91-4f10-9ee4-7f5afda0e19b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nWE ARE HIRING\n\n\nALL POSITIONS!\nReceive a\n$50 Moxie's Gift Card\nif we hire your referral!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "Ylljqld6m83L6FQ4rrqr"
+}

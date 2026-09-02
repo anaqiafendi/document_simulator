@@ -1,0 +1,123 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Spaghetti House Receipt",
+  "description": "This receipt is issued by Spaghetti House and identifies the restaurant as 24 Cranbourn Street, London, WC2H 7AB. The header contains the restaurant name, address, telephone number, till number, server name, transaction date and time, table number, number of covers, and order number. The receipt records a dine-in order including Arancini, Limonata, Aranciata, Spaghetti Polpettine, and Spaghetti Carbonara. A substantial £72.75 bill adjustment/discount is applied, leaving a subtotal of £0.62, followed by a 13.5% cover charge of £0.08 and a final total of £0.70. The receipt separately records the total discount and amount saved. The footer provides the restaurant's London address, telephone number, website, VAT registration number, and an Italian customer appreciation message.",
+  "slug": "Spaghetti-House-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-15T18:52:57.304Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "65a7223c-265b-4135-b1ce-34563a4f8934",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Feca8d7ec-2a8a-45f1-91ec-2683faa8e5d7-image%20(2).jpg?alt=media&token=8fdb564b-690d-450d-9ab8-0bfdeca8b265",
+      "size": 265,
+      "businessDetails": "Spaghetti House\n24 Cranbourn Street, WC2H 7AB\n020 7836 8168\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6860561c-c7c1-445b-b6f7-410ac096c07d",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Till 2\n\nJoao               30 Sep 2025 17:08\n\nTable: 6  c: 2         ORDER #: 2452\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "62e1d02f-650e-4d23-802b-200b31d698ef",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "2  Arancini+",
+          "value": "= 18.50"
+        },
+        {
+          "title": "2  Limonata S Pell+",
+          "value": "= 9.00"
+        },
+        {
+          "title": "2  Aranciata S Pell+",
+          "value": "= 9.00"
+        },
+        {
+          "title": "1  Spag Polpettine+",
+          "value": "= 18.75"
+        },
+        {
+          "title": "1  Spag Carbonara+ ",
+          "value": "= 17.50"
+        },
+        {
+          "title": "1  70P Item ",
+          "value": "= 0.62"
+        },
+        {
+          "title": "70p Bill+ ",
+          "value": "= -72.75"
+        },
+        {
+          "title": "-----------------",
+          "value": ""
+        },
+        {
+          "title": "Subtotal",
+          "value": "0.62"
+        },
+        {
+          "title": "Cover Charge 13.5%",
+          "value": "0.08"
+        },
+        {
+          "title": "-----------------",
+          "value": ""
+        },
+        {
+          "title": "Total",
+          "value": "£0.70"
+        },
+        {
+          "title": "-----------------",
+          "value": ""
+        },
+        {
+          "title": "Total Discounts:",
+          "value": "£72.75"
+        },
+        {
+          "title": "-----------------",
+          "value": ""
+        },
+        {
+          "title": "You have saved:",
+          "value": "£72.75"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2cb9611b-9e51-4b18-a466-085a85336e1f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSpaghetti House\n24 Cranbourn Street, London, WC2H 7AB\nTel:020 7836 8168\nwww.spaghettihouse.co.uk\n\nVAT Number: 240 26 0803\n\nGrazie per essere parte della\nfamiglia Spaghetti House",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "W3VOch6UF9cJ7kVrF7pa"
+}

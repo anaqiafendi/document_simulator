@@ -1,0 +1,124 @@
+{
+  "backgroundCrumpled": false,
+  "description": "This restaurant receipt from Vapiano documents a cash transaction processed at the Bankside location on Southwark Street in London, United Kingdom. The receipt includes store address details, phone number, email address formatting, receipt numbering metadata, cashier identification, customer account references, and timestamp information. The POS structure contains item quantity and pricing alignment, VAT calculations, net total formatting, cash tender presentation, and return cash calculation aligned in standard United Kingdom restaurant thermal receipt formatting. Additional receipt elements include Deliveroo promotional messaging, prepared food advertising text, Italian slogan branding, and VAT registration information near the footer. The layout reflects a standard UK casual dining thermal receipt with localized VAT accounting and food delivery promotional formatting.",
+  "imageUrl": "",
+  "createdAt": "$D2026-05-27T15:58:09.309Z",
+  "sections": [
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fdd5fcd9e-5adc-4e5e-a4b6-ebb9cb0d541f-image%20(14).jpg?alt=media&token=26258995-8e2c-412b-b44e-ba05fcdeaa11",
+      "type": "HEADER",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "businessDetails": "\nVapiano Bankside\n90b Southwark Street\n\nSE1OFD London\n\nPhone: +44-2075932010\nE-Mail: london2@vapiano.co.uk\n\n",
+      "size": 225,
+      "alignment": "CENTER",
+      "id": "c387e571-0442-4586-af53-34553f029441",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "bottomDivider": false,
+      "custom": "Sales Receipt\n",
+      "id": "954ff93e-6fae-4040-8f02-fa4571669a15",
+      "alignment": "LEFT",
+      "date": "$undefined"
+    },
+    {
+      "type": "ITEMS",
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "totalDivider": false,
+      "total": "",
+      "bottomDividerType": "DASHES",
+      "bottomDivider": false,
+      "totalLines": [
+        {
+          "value": "\nGBP9.75",
+          "title": "\nTotal"
+        },
+        {
+          "title": "20% VAT VAT",
+          "value": "GBP1.63"
+        },
+        {
+          "value": "GBP8.12",
+          "title": "Total Net"
+        },
+        {
+          "title": "Cash",
+          "value": "GBP10.00"
+        },
+        {
+          "value": "\n\nGBP0.25",
+          "title": "\n\nReturn Cash"
+        }
+      ],
+      "items": [
+        {
+          "total": "1214430",
+          "description": "Receiptnumber",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "Date",
+          "total": "16/08/2017"
+        },
+        {
+          "quantity": "",
+          "total": "19:04:44",
+          "description": "Time"
+        },
+        {
+          "quantity": "",
+          "description": "Cashier",
+          "total": "Friedrich, Peter"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCustomer",
+          "total": "\n\n4682921102"
+        },
+        {
+          "total": "Total",
+          "description": "     Qty×Price",
+          "quantity": "Description"
+        },
+        {
+          "quantity": "Chicken Alfredo",
+          "description": "1 × GBP9.75",
+          "total": "GBP9.75"
+        },
+        {
+          "total": "----------",
+          "description": "",
+          "quantity": ""
+        }
+      ],
+      "id": "44dbe9f2-287e-415f-9cd5-41b82e027aba",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "bottomDivider": false,
+      "custom": "\nYou can also find us\non Deliveroo!\nOur homemade pasta,\nSee displays for details\npizza and salad\ndelivered to you.\n\n\n'Chi va piano-va sano lontano.....'\nVAT ID No: GB924709806",
+      "id": "44fd9d95-b09e-4e39-b9bc-656abc277dc7",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Vapiano-Receipt",
+  "numberFormat": "LEFT",
+  "parentName": "Office Depot",
+  "currency": "",
+  "name": "Vapiano Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "isParent": true,
+  "textColor": "#101828",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "published": true,
+  "id": "99XsgupLbbY8OF5EDNCZ"
+}

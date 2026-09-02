@@ -1,0 +1,112 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-04-30T16:58:23.293Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Valero Gas Station Receipt",
+  "description": "This receipt is a retail transaction issued by a Valero gas station located on Texas Street in San Diego, California, United States. It includes store address, transaction number, register and operator identifiers, cashier name, and timestamp. The receipt presents a single item purchase of a small coffee with price and tax applied. A financial summary is provided, showing subtotal, tax, and total amount. Payment details indicate a cash transaction with the amount tendered and change returned. The format follows a standard U.S. gas station POS receipt with basic transaction tracking and purchase details.",
+  "slug": "Valero-Gas-Station-Receipt",
+  "published": true,
+  "sections": [
+    {
+      "id": "59e2217e-9b34-4821-8bc3-503c24d0946b",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nTexas Street Valero, 1\n4616 Texas Street\nSan Diego, CA 92116",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "80fe53a7-7aa8-4edc-a14b-fe17a0083722",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTexas Street Valero\n4616 Texas Street\nSan Diego, CA 92116\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ae40592d-6114-442c-83b1-f09f2a899872",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n11/16/2011 10:32:22 AM\nRegister: 1 Trans #:27106 Op ID:1\nYour cashier: the\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "259afc04-2fe7-4a61-b416-cb94415b536e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Small Coffee 12oz",
+          "total": "$$1.29  101"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\n\nSubtotal =",
+          "value": "\n\n$1.29"
+        },
+        {
+          "title": " Tax =",
+          "value": "$$0.11"
+        },
+        {
+          "title": "Total =",
+          "value": " $1.40"
+        },
+        {
+          "title": "Change Due =",
+          "value": "-$0.60"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "007c67cd-3a1e-43cd-b052-2268dabe7da3",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "$$2.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a5a72c7c-f1dd-41c7-bf83-1b05c31aa7e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThank You!\nPlease Come Again!\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "id": "Lgynaok5oMUKwCUPPTiL"
+}

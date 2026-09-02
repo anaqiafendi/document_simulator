@@ -1,0 +1,103 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T07:46:12.032Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "767d3bd1-f2bd-4b28-ac71-85de0172105e",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F4acd902a-e6e9-48dd-bcc1-b89bf35a2198-image%20(10).jpg?alt=media&token=ecd1c866-3d1e-4495-8670-2efda78704e5",
+      "size": 271,
+      "businessDetails": "8229 Co Rd 201\nFredericksburg OH 44627\n(330) 674-1552",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b6be512f-cdb6-4856-81cb-2065883230ba",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nSale 4/22/2023  2:28:14 PM\nReg# 21 Tran# 22351 Cashier# 101\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "41de9d43-ffb1-4347-8bf3-06c4b83e6c04",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "1  Bargain Aisle",
+          "total": "$$2.50 N"
+        },
+        {
+          "quantity": "",
+          "description": "100080  Bargain Aisle",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "2  @ $0.99 ",
+          "total": "$$1.98 N"
+        },
+        {
+          "quantity": "",
+          "description": "1  Misc. Grocery",
+          "total": "$$0.99 N"
+        },
+        {
+          "quantity": "",
+          "description": "\nSub-Total  Total Items 4",
+          "total": "$$5.47"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$5.47"
+        },
+        {
+          "quantity": "",
+          "description": "\nCash",
+          "total": "\n$5.47"
+        },
+        {
+          "quantity": "",
+          "description": "Amount Due",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "965fa6db-f305-4b4d-b369-15f08d36d9fe",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Country Hills Market and identifies the store as 8229 County Road 201, Fredericksburg, Ohio 44627. The header contains the store branding, address, contact telephone number, transaction date and time, register number, transaction number, and cashier identification. The receipt records the purchase of items from the Bargain Aisle together with a Misc. Grocery item. The financial section records the subtotal, total number of items purchased, final transaction total, cash payment, and confirms that no balance remained due. The overall layout is representative of a United States neighborhood grocery store POS receipt, combining merchandise itemization, cash payment reconciliation, and transaction information within a compact retail receipt format.",
+  "name": "Country Hills Market Receipt",
+  "slug": "Country-Hills-Market-Receipt",
+  "published": true,
+  "id": "iNZ1h7tQ8y6bFtEHdVAq"
+}

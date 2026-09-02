@@ -1,0 +1,157 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-14T13:58:07.173Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Preston Street IGA Grocery Receipt",
+  "description": "This receipt is from Preston Street IGA, a supermarket and grocery store in Australia. It records the purchase of lemons sold by weight in the fruit and vegetable section. The receipt includes item weight calculations, price per kilogram, subtotal, cash payment, rounding adjustment, and change given. It also contains ABN information, tax invoice number, cashier details, and customer feedback instructions. The format reflects a standard Australian supermarket POS receipt.",
+  "sections": [
+    {
+      "id": "d298674c-3ab3-41d1-8cdd-b9c579e4700a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F72a9c0dd-260e-4570-abeb-7d3c9b49c6af-image%20(19).jpg?alt=media&token=42366e23-7090-4ac3-83f7-e588c0584ed3",
+      "size": 225,
+      "businessDetails": "Preston Street IGA\nPH. 9367 2246\nOPEN 24 Hours\nEveryday (except Christmas Day)\nABN 18969245136",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f57671c8-f4a4-4db3-ac09-743260b8269b",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTax Invoice #0010502740131\n27-01-24   08:23:09 am",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6eb30302-095d-4201-935f-eb3a1efc43cf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Served by Grace M. LANG05",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8adc1a22-3730-492c-a014-a4d26d3e7280",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nFRUIT & VEG",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "LEMONS KG",
+          "total": "$$8.94"
+        },
+        {
+          "quantity": "",
+          "description": "0.559 KG NET @ $15.99/kg",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aeca149b-9a56-4374-853d-12a4a4f7b359",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Item Count: 1",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "$$8.94"
+        },
+        {
+          "quantity": "",
+          "description": "Rounding",
+          "total": "$$0.01"
+        },
+        {
+          "quantity": "",
+          "description": "Cash Tendered",
+          "total": "$$10.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$1.05"
+        },
+        {
+          "quantity": "",
+          "description": "GST Included",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "de5307b3-6216-4dcc-bfdf-e458a16e8692",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "* ... Taxable Items\nM ... Manually entered weight\n% ... Promotional Price",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4058021b-cb8d-40be-8923-83ee422a28aa",
+      "type": "BARCODE",
+      "size": 77,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "adf9dc3c-6306-4337-b3be-bc501072a0e3",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "R 0 0 1 0 5 0 2 7 4 0 1 3 1",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a92205e1-7f5a-4bb1-97c9-891ba95c3b36",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nBEST IGA IN AUSTRALIA 2019 Please retain receipt for proof of purchase We would love to hear about your experience at our store. Scan the QR code to send us your feedback.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Preston-Street-IGA-Grocery-Receipt",
+  "published": true,
+  "id": "e8yK0gzS2vDA5XACP5T4"
+}

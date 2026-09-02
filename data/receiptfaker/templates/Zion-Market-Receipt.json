@@ -1,0 +1,135 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-08-07T09:32:28.646Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "15c1ce24-c150-4c82-9dba-10683e620837",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "ZION MARKET\n8330 CLAIREMONT MESA BLVD.\nSAN DIEGO, CA 92111\n858 258 3300 & 858 298 9722",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "4864f014-8294-4e36-a34a-e3d55073d66f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nHORIZON ORG WHOLE MILK 64OZ",
+          "total": "\n$8.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "$$8.99"
+        },
+        {
+          "title": "Pre-Tax Subtotal ",
+          "value": "$$8.99"
+        },
+        {
+          "title": "Amount",
+          "value": "$$8.99"
+        },
+        {
+          "title": "Cash ",
+          "value": "$$10.00"
+        },
+        {
+          "title": "Change",
+          "value": "$$1.01"
+        },
+        {
+          "title": "Items",
+          "value": "1"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f0d994d8-e912-486d-8276-a1c91eb6589e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "06/09/2026 ",
+          "total": "PM 07:30"
+        },
+        {
+          "quantity": "",
+          "description": "105          #1414016",
+          "total": "SD.ME"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e00f1163-9225-4a6c-97d7-8ae1a1cff1e8",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d00ae8b1-6916-4e19-a734-0985542578eb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "G R 0 0 1 1 0 6 1 4 1 4 0 1 6",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bc4063bc-1685-4d49-8571-6ba66bd346d2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMISSING POINTS ?\n## SCAN YOUR RECEIPT ##\nFOR REWARDS POINT ISSUES EMAIL\nZIONREWARDSPOINTS@GMAIL.COM",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "6e17e011-b806-41a3-8697-3bfc88818e70",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nSAVE RECEIPTS FOR RETURNS WITHIN 7 DAYS.\nMEAT, FISH, AND DAIRY PRODUCTS\nMUST BE RETURNED WITHIN 2 DAYS.\nHARDWARE MUST BE UNUSED.\nALCOHOLIC BEVERAGES, TOBACCO\nAND PREPARED FOOD CANNOT BE RETURNED\nOR EXCHANGED.\nTHANK YOU FOR SHOPPING AT ZION MARKET.\nANY RECOMMENDATIONS EMAIL\nHELP@ZIONMARKET.COM",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    }
+  ],
+  "description": "Zion Market grocery retail receipt issued from the store at 8330 Clairemont Mesa Blvd., San Diego, California 92111. The receipt header displays the Zion Market name, followed by the full store address and two customer contact telephone numbers. Its transaction section uses a traditional thermal POS layout with an itemized purchase area followed by clearly separated subtotal, pre-tax subtotal, amount, cash tendered, change, and total item-count fields. The lower transaction area records the purchase date and time, register and transaction identifiers, and additional POS reference information. A machine-readable barcode appears beneath these identifiers together with its printed reference number. The receipt also contains a rewards-support section with instructions for reporting missing points and a dedicated contact email. A detailed return-policy section outlines return conditions for general merchandise, perishable goods, hardware, alcoholic beverages, tobacco, and prepared food.",
+  "name": "Zion Market Receipt",
+  "slug": "Zion-Market-Receipt",
+  "published": true,
+  "id": "Oz6drmSb3XygsOicwQBr"
+}

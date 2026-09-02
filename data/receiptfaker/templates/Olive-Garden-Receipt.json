@@ -1,0 +1,94 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Olive Garden Receipt",
+  "description": "A white thermal restaurant receipt from Olive Garden Italian Kitchen showing the logo header, restaurant address in Indianapolis, Indiana, and guest/server identifiers. The receipt includes check metadata, date and time stamp, financial summary with subtotal, tax, and total lines, suggested gratuity percentages, and a standard thank-you footer message. The format represents a typical dine-in POS restaurant receipt layout used across Olive Garden locations.",
+  "slug": "Olive-Garden-Receipt",
+  "createdAt": "$D2026-02-18T14:39:30.336Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "a5c948cc-ce1d-4155-bf83-8e4b4b667359",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F8dc1bf2e-8784-4385-bbea-2ef8cea97a1a-olive%20garden.jpg?alt=media&token=a3c6c19f-4e44-44f3-ba21-57f9730d3df6",
+      "size": 154,
+      "businessDetails": "1538 W —— Rd\nIndianapolis, IN\n(317) 000-0000",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4d86ce24-f1bf-44ae-92b3-2c16bcac5c8b",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "Server: MICHAEL\nGuests: 2",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "71cdc2fd-d3ff-4da4-ad90-ab0389103751",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Americano",
+          "total": "2.99"
+        },
+        {
+          "quantity": "2",
+          "description": "Chocolate Chip Cookie",
+          "total": "1.98"
+        },
+        {
+          "quantity": "2",
+          "description": "Coke",
+          "total": "1.5"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "5.47"
+        },
+        {
+          "title": "Tax",
+          "value": "0.24"
+        }
+      ],
+      "total": "5.71",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d9673fd0-7c16-45a0-b365-b349e3e015cf",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Gratuity Not Included. Suggested amounts\n18%                            4.09\n20%                            4.54\n22%                            5.00",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "084239d1-4f80-4703-a1fd-aa5b2fb92d32",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "THANKS FOR VISITING TODAY\nPLEASE COME AGAIN\n\nGuest: 2        Checks 827909\n08:30:26PM   08/13/2024",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7wVTiQ8lgJeap75c0Ite%2F7wVTiQ8lgJeap75c0Ite-4a4d0d6c-78a4-491b-9221-5de2d3275553.png?alt=media&token=f72fc849-320b-4886-a5ae-9d84c67636b5",
+  "published": true,
+  "id": "7wVTiQ8lgJeap75c0Ite"
+}

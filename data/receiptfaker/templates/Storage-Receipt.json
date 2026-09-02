@@ -1,0 +1,167 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Storage Receipt",
+  "slug": "Storage-Receipt",
+  "createdAt": "$D2025-05-25T16:02:22.537Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F30c4c211-73c8-46b0-9a17-d24f5970285c-7830666_warehouse_storage_icon.png?alt=media&token=47dfa98a-a1c0-42f9-a182-a847e763e54c",
+      "size": 50,
+      "businessDetails": "Ironclad Warehousing Solutions, LLC\n1201 Industrial Parkway\nAtlanta, GA 30337\nPhone Number: (404) 555-7893\nEmail: info@ironcladwarehouse.com",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef95f4cd-ca4d-475e-b33f-1c93d6e79c7e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Storage Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "febe04da-fb44-4618-bbff-08e54dbfbf61",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Customer details:",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f1b2d59-de12-4a05-9dcd-08c7fffc2b1e",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Name: Vanessa Cruz\nAddress: 1847 Oakwood Drive, Denver, CO 80220\nPhone Number: (303) 555-6741\nEmail Address: vanessa.cruz1847@example.com",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Storage Space Rental (per pallet/month)",
+          "total": "500"
+        },
+        {
+          "quantity": 1,
+          "description": "Inventory Management Service",
+          "total": "150.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Freight Handling Fee",
+          "total": "75.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "365.00"
+        },
+        {
+          "title": "Tax",
+          "value": "23.73"
+        }
+      ],
+      "total": "388.73",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All storage and service fees are billed monthly in advance. Cancellation of storage contracts requires 30 days’ written notice. Additional service fees may apply for rush orders or special handling. Payments are due within 15 days of invoice date. Late payments may incur a 5% late fee.\n\nFor billing inquiries or scheduling, please contact our office at (404) 555-7893 or email billing@ironcladwarehouse.com.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf2f24e5-8eb8-4557-8868-097eaf86c626",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/24/2025, 8:02:48 AM",
+      "bottomDivider": true,
+      "bottomDividerType": "COLONS"
+    },
+    {
+      "id": "c94d810f-7cc3-40ed-a3a9-283e6b6b1687",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FyBqKXGMgDDadwHKcpQqg%2FyBqKXGMgDDadwHKcpQqg-fa70c5ae-56d6-4637-b1a5-1b4c1e60b0d5.png?alt=media&token=9ac9f6e1-ba55-4d4f-85fe-d79699802770",
+  "description": "Need a storage receipt? Use our free tool to create a detailed receipt for unit rentals. Customize facility info, rental dates, unit size, fees, and payment details—ideal for personal records or business documentation.",
+  "published": true,
+  "metatitle": "Storage Unit Receipt",
+  "metadesc": "professional storage unit receipts with customizable facility details, rental periods, unit sizes, and payment information",
+  "id": "yBqKXGMgDDadwHKcpQqg"
+}

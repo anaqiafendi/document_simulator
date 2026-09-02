@@ -1,0 +1,145 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-03T13:01:21.830Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Homebase Receipt",
+  "slug": "Homebase-Receipt",
+  "description": "Home improvement store receipt from Homebase showing store location, transaction date and time, purchased hardware item, subtotal, payment method, change given, and operator details.",
+  "metatitle": "Warehouse Receipt",
+  "metadesc": "realistic Costco warehouse receipts with custom items, prices, store details, and membership info for returns or expense tracking",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwAFE9tvQqsgmWVC5YhD2cNDkapf1%2F1781dbbb-ea16-4c84-8162-0cbe33d9dd41-hombase.jpg?alt=media&token=368f0a58-c81d-45c9-a1b2-bdde90abed32",
+      "size": 217,
+      "businessDetails": "Longacres Industrial Estate\n Rose Hill\n Willenhall \nWV13 2JX",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Store 000119 Till 00021  \nSequence 000000028861\nDate 22/11/2025 10:51:13 \nOperator 211015\n",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "7530ad97-0828-4d59-8152-62fd91ec7b80",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "* CUSTOMER COPY *\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "[411926] 3/8 inch Square Drive Cordless Impact Wrench",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "                1@  347.99",
+          "total": "347.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ff43ce9c-2865-4cc4-a2f3-bdc09b385d41",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "SUB-TOTAL",
+          "total": "347.99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "09b0e4b9-fce7-428a-806f-f6373dc619b5",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "350.00"
+        },
+        {
+          "title": "Change",
+          "value": "2.01"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "05ca6c62-acb6-4d66-b6fb-1ff3be17869e",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "22/11/2025 10:51:13  115 6 78 163",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FVVy4d2yh0tQd5Mu96qMn%2FVVy4d2yh0tQd5Mu96qMn-2f3c461e-d3af-44bd-8e4a-beeac9e49d0b.png?alt=media&token=2ebe1cc8-04fc-48d5-8198-e233f3d20fd8",
+  "published": true,
+  "id": "VVy4d2yh0tQd5Mu96qMn"
+}

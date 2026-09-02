@@ -1,0 +1,157 @@
+{
+  "currency": "",
+  "slug": "The-Snowdrop-Inn-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-14T12:35:31.813Z",
+  "description": "This pub and restaurant receipt from The Snowdrop Inn, located on Snowdrop Lane, Haywards Heath, RG16 2DE, contains venue identification, telephone contact information, VAT registration number, register designation, till number, table number, and a detailed transaction timestamp. The receipt follows a table-service hospitality format with a dedicated table reference section, itemized transaction area, quantity summary, and final total. The footer contains a customer appreciation message. The structure is characteristic of a UK pub or inn POS system utilizing table-based order management and VAT accounting.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "The Snowdrop Inn Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "27cfb961-b835-4be4-b0e0-533c5c8c907a",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "THE SNOWDROP INN\nSnowdrop Lane\nHaywards Heath\nRG16 2QE\n\nTel: 01444 416316\nweb:\nemail:\nVAT NO: 306227432\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "48a4c584-2253-4aed-a8b2-b68c6f0914be",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "B'ou",
+          "total": "REG\tTILL 1"
+        },
+        {
+          "quantity": "",
+          "description": "Sunday 22 September 2019",
+          "total": "17:41\t042922"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4104b52c-c2dd-4efe-aa5b-09ebba5688d8",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TABLE NO: 109",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "49444e63-401f-4fe8-a71d-c06f63d42842",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\n",
+          "description": "175ml Pinot Grigio",
+          "total": "\n£6.20"
+        },
+        {
+          "quantity": "",
+          "description": "175ml Pinot Grigio",
+          "total": "£6.20"
+        },
+        {
+          "quantity": "",
+          "description": "Dash Lemonade",
+          "total": "£0.80"
+        },
+        {
+          "quantity": "",
+          "description": "Dash Lemonade",
+          "total": "£0.80"
+        },
+        {
+          "quantity": "",
+          "description": "Tanqueray Gin",
+          "total": "£3.20"
+        },
+        {
+          "quantity": "",
+          "description": "Fever Tree",
+          "total": "£2.00"
+        },
+        {
+          "quantity": "",
+          "description": "Light",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "\n\nBirra Moretti",
+          "total": "\n\n£5.20"
+        },
+        {
+          "quantity": "",
+          "description": "Forum",
+          "total": "£5.00"
+        },
+        {
+          "quantity": "",
+          "description": "Nuts",
+          "total": "£1.00"
+        },
+        {
+          "quantity": "",
+          "description": "Nuts",
+          "total": "£1.00"
+        },
+        {
+          "quantity": "",
+          "description": "Nuts",
+          "total": "£1.00"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\n\n12 No"
+        },
+        {
+          "quantity": "",
+          "description": "TOTAL",
+          "total": "£32.40"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "74d1f588-7e54-4605-b5a8-8daad2aa24ee",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "WE THANK YOU FOR YOUR CUSTOM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "uYugys0GnaAqdpBA2nxZ"
+}

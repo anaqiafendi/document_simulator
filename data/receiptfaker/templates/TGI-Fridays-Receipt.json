@@ -1,0 +1,149 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-25T10:45:22.319Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "17110867-9011-4d6a-b646-4b3383e70aa8",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nTGI Fridays UK\nUnit 1A\nStevenage Leisure Park\n0344 264 0323\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7cc58ef2-4cde-48e5-a661-88b24fc3699e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "10182 JOSEPH C",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f66748aa-f94d-47fb-8447-7b7df8280111",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nTbl 61/1     Chk 2826",
+          "total": "\nGst 3"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a17dee6a-5a23-4a0e-969a-f83cad372160",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "12Jan'20 14:03",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "72fe4523-64ee-496d-9f08-1bd59f9323c9",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n2 Coke Zero @ 3.20",
+          "total": "\n6.40"
+        },
+        {
+          "quantity": "",
+          "description": "2 Cookie DO Sundae @ 5.49",
+          "total": "10.98"
+        },
+        {
+          "quantity": "",
+          "description": "1 BBQ Ribs",
+          "total": "0.00"
+        },
+        {
+          "quantity": "",
+          "description": "BBQ Half Rack",
+          "total": "12.99"
+        },
+        {
+          "quantity": "",
+          "description": "1 Garlic Chicken",
+          "total": "13.99"
+        },
+        {
+          "quantity": "",
+          "description": "1 Glazed JD CHK",
+          "total": "12.49"
+        },
+        {
+          "quantity": "",
+          "description": "1 Coffee",
+          "total": "2.00"
+        },
+        {
+          "quantity": "",
+          "description": "15:06 Balance",
+          "total": "58.85"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cf477b46-8a2e-4d38-a563-2eb31c2618c1",
+      "type": "BARCODE",
+      "size": 84,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5b811b18-017c-4b79-bc4d-be83e9bc95cf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "2367475418524",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "934afc0f-8ffc-4be2-ae90-5da2c8b9bfcb",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n** EARN YOUR STRIPES **\nSCAN YOUR BARCODE\nUSING OUR REWARDS APP\nTO UNLOCK YOUR FAVOURITES ON US!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "TGI Fridays Receipt",
+  "description": "This receipt is issued by TGI Fridays and identifies the location as Unit 1A, Stevenage Leisure Park, with the restaurant telephone number displayed in the header. The receipt contains POS transaction metadata including a server identifier (Joseph C), table number (61/1), check number (2826), guest count (3), and a transaction timestamp. The receipt includes a balance summary and a barcode used for transaction identification and rewards tracking. The footer promotes the TGI Fridays Rewards programme, encouraging customers to scan the barcode through the mobile app to unlock rewards and offers. The overall layout is representative of a United Kingdom casual dining restaurant POS receipt, combining table-service management, server accountability, rewards-program promotion, transaction tracking, and hospitality receipt controls within a compact POS receipt format.",
+  "slug": "TGI-Fridays-Receipt",
+  "published": true,
+  "id": "yRMtQgnZmHpdpT6eq98G"
+}

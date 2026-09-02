@@ -1,0 +1,104 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Marks & Spencer Receipt",
+  "description": "This receipt is a retail transaction issued by Marks & Spencer at its Cheltenham High Street location in the United Kingdom, including full address and contact information. It contains VAT registration details, customer feedback contact information, and timestamped transaction identifiers. The receipt presents a single low-value item purchase with pricing in British Pounds, followed by payment confirmation via cash. It also includes promotional messaging related to alcohol discounts and a barcode reference. The format reflects a standard UK retail POS receipt with VAT compliance and promotional marketing content.",
+  "slug": "Marks-and-Spencer-Receipt",
+  "createdAt": "$D2026-04-18T14:15:34.180Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "306d4e3c-3bfb-4d01-9e04-45886145d2c9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F045bbac7-9a86-42d9-86a0-049923949c1a-image%20(5).jpg?alt=media&token=addad8f4-cf12-42c2-80a7-a8f61ac0b329",
+      "size": 165,
+      "businessDetails": "173-181 High Street, Cheltenham\nGL50 1DF  Tel. 01242 521531\nVAT No. 232 1288 92",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "48638609-2d6d-4445-9311-f43adf06356a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nHow was our Service today? You can e-mail CheltenhamSM@marks-and spencer.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "393ba403-f3e0-450d-8f5a-199598d116d6",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "",
+          "total": "\n £"
+        },
+        {
+          "quantity": "",
+          "description": "00601498      STANDARD FOOD C",
+          "total": "0.05"
+        },
+        {
+          "quantity": "",
+          "description": "Cash Tendered: ",
+          "total": "0.05"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d3b0250d-896d-4d04-befa-7839caded9e5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n28/02/08 12:17 15188708 7724 079\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1e6ff965-6a41-477a-838c-5d8515b0cdef",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n20% OFF!!!!\nALL WINES, BEERS, SPIRITS\nAND CHAMPAGNE\nFEB 19TH 2008 - 2ND MARCH 2008\nPLUS A FURTHER 10% IF YOU\nPURCHASE 6 BOTTLES OR MORE\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "44f2ee33-514f-4bc6-9df3-06305d5c2811",
+      "type": "BARCODE",
+      "size": 76,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e09d14a8-495d-4668-95f3-68cb7489ee78",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "6 1 9 6 6 5 1 2 0 9 1 0 3 2 4 8 4\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FXGxKMenmuslBhj16MudV%2FXGxKMenmuslBhj16MudV-86c64101-c2f1-4bab-b521-285d6c6961bf.png?alt=media&token=a86e85e7-025d-46ed-82b8-973b8d53b457",
+  "published": true,
+  "id": "XGxKMenmuslBhj16MudV"
+}

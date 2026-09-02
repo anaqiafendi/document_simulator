@@ -1,0 +1,148 @@
+{
+  "currency": "",
+  "slug": "Turtle-Bay-Receipt",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-12T15:12:45.644Z",
+  "description": "This Turtle Bay restaurant receipt includes the Caribbean Social branding, booking website, and venue telephone number in the header. The transaction record contains a total and amount-due summary, table number, cover count, transaction date and time, till number, order number, and serving employee’s name. The footer includes a customary service-charge notice, promotional operating-hours and happy-hour messaging, the company website, VAT registration number, and registered-office address. The format is representative of a Caribbean restaurant and bar point-of-sale receipt.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Turtle Bay Receipt",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "844047d9-7d32-4dbb-8f34-4b2f84f8a893",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fc02a8f0d-9c38-4f1b-88d4-d112f691af65-image%20(6).jpg?alt=media&token=fc4d4852-63a4-494b-ac66-3a98147e6900",
+      "size": 254,
+      "businessDetails": "www.turtle-bay.co.uk\nTel: 0113 242 6600",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2eefb2f4-afa1-4837-a3be-2ce05c8b6be5",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\n1",
+          "description": "CARIBBEAN SLIMS 2/4 1",
+          "total": "\n£7.15"
+        },
+        {
+          "quantity": 1,
+          "description": "CHICKEN WRAP",
+          "total": "£9.00"
+        },
+        {
+          "quantity": 1,
+          "description": "SUPERGREEN SAL AD",
+          "total": "£7.55"
+        },
+        {
+          "quantity": 1,
+          "description": "KEF-CHICKEN BREAST",
+          "total": "£1.45"
+        },
+        {
+          "quantity": "2",
+          "description": "DUCK ROLLS",
+          "total": "£6.10"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "2945ebed-8a22-41ed-9f03-47966db12b9f",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£30.25"
+        },
+        {
+          "quantity": "",
+          "description": "Amount Due",
+          "total": "£29.25"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "79561e67-9003-4fcf-a44b-0a7b5e4e1cd5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n10% CUSTOMARY SERVICE CHARGE NOT INCLUDED EXCEPT FOR PARTIES OF 6 OR MORE(INCL 10%)",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "0273f1bd-9ed0-480f-ae6a-00275715ebd2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "www.turtle-bay.co.uk",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "b77db5a1-b26d-4a8a-834d-140ca037a71e",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "OPEN TILL 2:30AM THURS, FRI & SAT HAPPY HOUR TILL CLOSE* * Depending on Location",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "74b94465-31d1-467c-9071-013829c05a6d",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nVAT: 992-738-474\nRegistered Office:\n1343 Aztec West\nBristol, BS32 4RX\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "15c188ac-e930-4263-b219-17d75f87c7ce",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTAB: TAB 4\nCOVERS: 2\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a83d86e3-3937-4555-b1a0-b7b77aac7c17",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDATE: 30/08/2017\nTIME: 14:07:31\nTILL: 32\nORDER NO: 2569224\nSERVED BY: Desmond",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "5XpXIo4SzPXHnmgm7F6o"
+}

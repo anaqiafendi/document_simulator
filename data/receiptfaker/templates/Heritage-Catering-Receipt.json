@@ -1,0 +1,112 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Heritage Catering Receipt",
+  "description": "This receipt is from Heritage Catering, a food service and catering business. It records a customer food purchase transaction including ordered menu items, pricing, subtotal calculations, taxes, and payment details. The receipt also contains transaction identifiers, cashier or server information, date and time of purchase, and proof-of-payment records. The format reflects a standard restaurant and catering POS receipt commonly used for dine-in, takeaway, or catered food orders.",
+  "slug": "Heritage-Catering-Receipt",
+  "createdAt": "$D2026-05-16T05:55:28.232Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b5342028-2dd6-422e-96c6-eefea629ffc7",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9420897b-5319-4153-a054-1eb5fd65994a-image%20(30).jpg?alt=media&token=2fc2bd94-60a5-413f-839a-868f655a737a",
+      "size": 219,
+      "businessDetails": "20070 Langley Bypass\nLangley, BC, V3A 8E5\nTel: 1(604) 533 41220\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fa3e19ca-829c-4f1e-ac0e-25eb5faa3101",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "13 Brooke N",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "33ee2bf8-c389-4cd9-97d7-2b72fed63fdc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTbl 124/1           Chk 1670   Gst 2\nNov07'21   12:12PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "121e30fc-5c83-4635-824e-d90f6a0b653a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nBar",
+          "total": ""
+        },
+        {
+          "quantity": "2",
+          "description": "Spicy Rancheros",
+          "total": "32.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Airline Caesar",
+          "total": "8.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Liquor Tax",
+          "total": "4.60"
+        },
+        {
+          "quantity": 1,
+          "description": "Pt Stout",
+          "total": "9.00"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n48.60"
+        },
+        {
+          "quantity": "",
+          "description": "GST",
+          "total": "4.55"
+        },
+        {
+          "quantity": "",
+          "description": "Total Due",
+          "total": "53.15"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4db1d464-b522-400d-a66e-7ccf5c821458",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nRounded if Paying Cash $53.15\n\n\nHow did we do today? Share your compliments and concerns at earlsrestaurants.com for the chance to win a $100 gift card.\n\n\nAccess Code: 5606-1725-25361",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "J4LiHAiGeUMEz5yi2YKV"
+}

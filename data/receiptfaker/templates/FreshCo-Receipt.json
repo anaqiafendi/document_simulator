@@ -1,0 +1,277 @@
+{
+  "imageUrl": "",
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "isParent": true,
+  "description": "This grocery retail receipt from FreshCo documents a MasterCard transaction processed at the Major Mackenzie and Leslie location in Richmond Hill, Ontario, Canada. The receipt includes store address information, GST/HST registration details, transaction metadata, weighted produce pricing formatting, and itemized savings tracking. The POS structure contains subtotal, total tax, total amount, payment tender formatting, and change due fields aligned in standard Canadian grocery retail thermal receipt formatting. Additional receipt elements include repeated promotional savings notices, percentage savings summaries, weighted produce calculations by kilogram, item count presentation, and customer savings breakdown formatting near the footer. The layout reflects a standard Canadian supermarket thermal receipt with integrated promotional discount and grocery weight-pricing formatting.",
+  "name": "FreshCo Receipt",
+  "backgroundType": "CRUMPLED_1",
+  "slug": "FreshCo-Receipt",
+  "fontType": "MERCHANT_COPY",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-25T11:02:55.667Z",
+  "numberFormat": "LEFT",
+  "sections": [
+    {
+      "businessDetails": "\nMajor Mackenzie & Leslie FreshCo\n1430 Major Mackenzie Drive\nRichmond Hill, Ontario\nHST# 10296 2808 RT0001\n(905)770-9370\n",
+      "size": 232,
+      "bottomDividerType": "DASHES",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fbdd4579c-5133-425a-8388-dc53f909bc40-image%20(16).jpg?alt=media&token=9d573d6c-b146-4e51-b56b-77b59f1af363",
+      "alignment": "CENTER",
+      "type": "HEADER",
+      "bottomDivider": false,
+      "id": "5c16f35d-bd2e-4e47-87cd-9f6a23b84838",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "alignment": "LEFT",
+      "type": "CUSTOM",
+      "bottomDivider": true,
+      "custom": "Sunday: S009 23",
+      "id": "3cd3f622-a3ce-41d7-8da6-27f889c3ec25",
+      "date": "$undefined"
+    },
+    {
+      "totalDivider": true,
+      "items": [
+        {
+          "quantity": "",
+          "total": "",
+          "description": "\nGROCERY"
+        },
+        {
+          "total": "$$1.79 C",
+          "quantity": "",
+          "description": "Slck Asher Godt C"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "RO @0 $0.50"
+        },
+        {
+          "total": "$$3.79 C",
+          "quantity": "",
+          "description": "Paste Ginger Garlic"
+        },
+        {
+          "description": "YOU SAVED $0.70",
+          "total": "",
+          "quantity": ""
+        },
+        {
+          "description": "Sundae Topping Carl",
+          "quantity": "",
+          "total": "$$4.29 C"
+        },
+        {
+          "total": "$$5.99 C",
+          "quantity": "",
+          "description": "Gold Decaf Espresso"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "YOU SAVED $2.00"
+        },
+        {
+          "quantity": "",
+          "total": "$$4.99 C",
+          "description": "Butter Unsalted 6601399227"
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "YOU SAVED $2.00"
+        },
+        {
+          "quantity": "",
+          "total": "$$5.49 C",
+          "description": "Cheese Shred Pizza M"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "PRODUCE"
+        },
+        {
+          "description": "Cilantro   4889",
+          "quantity": "",
+          "total": "$$1.29 C"
+        },
+        {
+          "description": "Mint   4895",
+          "total": "$$1.49 C",
+          "quantity": ""
+        },
+        {
+          "description": "Pepper Swt Bell Red   4688",
+          "total": "$$1.72 C",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "0.195 kg @ $8.30/kg"
+        },
+        {
+          "total": "$$3.49 C",
+          "quantity": "",
+          "description": "Onions Yellow   5574256383"
+        },
+        {
+          "total": "$$5.99 C",
+          "quantity": "",
+          "description": "Onions Red   3338360102"
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "YOU SAVED $0.70"
+        },
+        {
+          "quantity": "",
+          "total": "",
+          "description": "MEAT"
+        },
+        {
+          "description": "Meat    1    1",
+          "total": "$$14.71 D",
+          "quantity": ""
+        },
+        {
+          "total": "",
+          "quantity": "",
+          "description": "DELI"
+        },
+        {
+          "total": "$$4.77 C",
+          "quantity": "",
+          "description": "Chs Slice Mrbl Ched"
+        },
+        {
+          "description": "YOU SAVED $1.22",
+          "total": "",
+          "quantity": ""
+        }
+      ],
+      "total": "",
+      "id": "63b98b2c-96b7-44ef-a50e-260a8a1a8190",
+      "bottomDivider": false,
+      "totalText": "",
+      "type": "ITEMS",
+      "totalLines": [],
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "totalLines": [
+        {
+          "value": "$$60.59",
+          "title": "SUBTOTAL"
+        },
+        {
+          "value": "$$0.00",
+          "title": "TOTAL TAX"
+        }
+      ],
+      "bottomDivider": false,
+      "totalText": "",
+      "type": "ITEMS",
+      "totalDivider": false,
+      "items": [],
+      "total": "",
+      "id": "4b9fedcc-e1bd-4bdd-bf5d-2d011a7789d3",
+      "bottomDividerType": "DASHES",
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "totalDivider": false,
+      "items": [
+        {
+          "total": "$$60.59",
+          "quantity": "",
+          "description": "TOTAL"
+        },
+        {
+          "quantity": "",
+          "total": "TENDER $60.59",
+          "description": "MasterCard"
+        },
+        {
+          "quantity": "",
+          "total": "CHANGE $0.00",
+          "description": "Cash"
+        }
+      ],
+      "total": "",
+      "id": "49bcbea3-8f48-4dcb-a088-6ce28e108c96",
+      "bottomDivider": false,
+      "totalText": "",
+      "type": "ITEMS",
+      "totalLines": [
+        {
+          "title": "NUMBER OF ITEMS    ",
+          "value": "14"
+        }
+      ],
+      "totalDividerType": "DASHES",
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ada8f7b9-84fd-4fab-911e-58499e41dca1",
+      "type": "CUSTOM",
+      "bottomDivider": false,
+      "custom": "\n********* YOUR SAVINGS *********\n",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "totalText": "",
+      "type": "ITEMS",
+      "bottomDivider": false,
+      "total": "",
+      "id": "fa24e6d9-277d-4d5c-ac55-16d019f47c7b",
+      "totalDivider": false,
+      "items": [
+        {
+          "description": "Discounts & Specials",
+          "total": "$$0.00",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "total": "$$7.42",
+          "description": "Your Total Savings"
+        },
+        {
+          "total": "11%",
+          "quantity": "",
+          "description": "Percentage Savings"
+        }
+      ],
+      "date": "$undefined"
+    },
+    {
+      "type": "CUSTOM",
+      "bottomDivider": false,
+      "custom": "\nThank you for shopping at\nFreshCo\nWe appreciate your business!\n* * * * * * * * * *\nwww.freshco.com",
+      "id": "66d85ea6-c7dd-4483-ab4b-e3db3c67ecdb",
+      "bottomDividerType": "DASHES",
+      "alignment": "CENTER",
+      "date": "$undefined"
+    }
+  ],
+  "currency": "",
+  "backgroundCrumpled": false,
+  "published": true,
+  "id": "CipZvHtPJzIXpNyB09KA"
+}

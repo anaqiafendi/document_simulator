@@ -1,0 +1,157 @@
+{
+  "description": "This restaurant receipt from Wienerwald documents a cash bar transaction processed at the Moltkestrasse location in Heilbronn, Germany. The receipt includes restaurant address details, telephone number formatting, table number references, staff/service attribution, and timestamp metadata. The POS structure contains VAT-separated net, tax, and gross amount formatting, total amount presentation in euros, and item quantity alignment in standard German restaurant thermal receipt formatting. Additional receipt elements include informational VAT disclaimer notices, promotional takeaway ordering messaging, hospitality slogan text, and customer service footer formatting near the bottom of the receipt. The layout reflects a standard German casual dining thermal receipt with localized VAT accounting and restaurant promotional presentation.",
+  "createdAt": "$D2026-05-26T11:23:12.783Z",
+  "textColor": "#101828",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "sections": [
+    {
+      "businessDetails": "\nMoltkestrasse 48\n74076 Heilbronn\nTel: 07131/161064\n\nBar Beleg\n\n17-Aug-17 / 20:13\nTisch-Nr: 12\nEs bediente Sie Semen Aslan",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F0e786643-689d-4417-9e2b-32b017467723-image%20(14).jpg?alt=media&token=093216fe-27bb-4696-ad0f-02ea53daa63e",
+      "bottomDividerType": "DASHES",
+      "size": 246,
+      "type": "HEADER",
+      "id": "71d85702-7f2d-48c2-8e68-e9bbe810a6cf",
+      "bottomDivider": true,
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "type": "ITEMS",
+      "id": "7ac1b6fe-6ad6-4f12-b423-30375c6b3e21",
+      "bottomDividerType": "DASHES",
+      "totalLines": [],
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n1x Cola 0,3",
+          "total": "\na 2,50   2,50"
+        },
+        {
+          "total": "a 2,50   2,50",
+          "description": "1x Cola Light 0,3",
+          "quantity": ""
+        },
+        {
+          "total": "a 8,20   8,20",
+          "description": "1x Salat Schonbrunni",
+          "quantity": ""
+        },
+        {
+          "total": "a 0,60   0,60",
+          "description": "1x BBQ-Sauce Port.",
+          "quantity": ""
+        },
+        {
+          "quantity": "",
+          "description": "1x Pommes Frites",
+          "total": "a 2,70   2,70"
+        },
+        {
+          "description": "1x 1/2 Ww Grillhendl",
+          "quantity": "",
+          "total": "a 6,20   6,20"
+        }
+      ],
+      "totalDivider": true,
+      "bottomDivider": false,
+      "total": "",
+      "date": "$undefined"
+    },
+    {
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "type": "ITEMS",
+      "id": "8b6720a7-74bb-44a7-b56f-35ba0113a7ec",
+      "bottomDividerType": "DASHES",
+      "totalLines": [],
+      "items": [
+        {
+          "description": "MwSt.%    Netto    MwSt.      Brutto",
+          "quantity": "",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "A=19,000    19,08    3,62     22,70",
+          "total": ""
+        }
+      ],
+      "totalDivider": true,
+      "bottomDivider": false,
+      "total": "",
+      "date": "$undefined"
+    },
+    {
+      "type": "PAYMENT",
+      "id": "8b2ed3fb-3d32-42a1-9e0d-768810d68b60",
+      "bottomDivider": false,
+      "cashFields": [
+        {
+          "title": "Totale EUR",
+          "value": "22,70"
+        }
+      ],
+      "bottomDividerType": "DASHES",
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "value": "Debit",
+          "title": "Card type"
+        },
+        {
+          "value": "Chip",
+          "title": "Card entry"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "value": "62845289260246240685C",
+          "title": "Reference #"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "isCash": true,
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "bottomDivider": true,
+      "alignment": "CENTER",
+      "custom": "\nDies ist keine Rechnung.\nDie Mehrwertsteuer ist rein informativ.",
+      "type": "CUSTOM",
+      "id": "a9f9bc12-3486-4246-aad0-049daf996ff9",
+      "date": "$undefined"
+    },
+    {
+      "bottomDividerType": "DASHES",
+      "custom": "\nHeute bleibt die Küche kalt,\nwir gehen in den Wienerwald.\n\n\nAlle Speisen auch zum Mitnehmen\nBestellen Sie telefonisch!",
+      "type": "CUSTOM",
+      "id": "320a4733-100b-4183-bb00-70bfc4d02b0c",
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "date": "$undefined"
+    }
+  ],
+  "backgroundCrumpled": false,
+  "parentName": "Office Depot",
+  "backgroundType": "CRUMPLED_1",
+  "numberFormat": "LEFT",
+  "name": "Wienerwald Receipt",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "isParent": true,
+  "slug": "Wienerwald-Receipt",
+  "currency": "",
+  "published": true,
+  "id": "UPk8tejjTwHBMgdTclkp"
+}

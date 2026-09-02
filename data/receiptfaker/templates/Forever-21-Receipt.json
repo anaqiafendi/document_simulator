@@ -1,0 +1,57 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Forever 21 Receipt",
+  "description": "This receipt is issued by Forever 21, a fashion retail store, and features a promotional header encouraging customers to download the F21 mobile application. The receipt header lists the store location at Countryside, 27001 U.S. 19 North, Space #2030, Clearwater, Florida, along with the store telephone number. The transaction section includes a receipt number, transaction date and time, print timestamp, and cashier identifier. The receipt body contains department-based item classifications followed by a financial summary that includes subtotal, tax calculations, and final total amount. The payment section records the tendered amount and resulting change, and the lower portion contains card authorization and payment processing information that has been partially obscured, which typically includes application identifiers, entry mode, and authorization details associated with the POS payment terminal.",
+  "slug": "Forever-21-Receipt",
+  "createdAt": "$D2026-03-06T15:32:44.217Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F10ae14e2-b7c7-4dde-b365-29776480ae3b-image%20(29).jpg?alt=media&token=a758f419-1ac0-471f-a70a-ee522d768dff",
+      "size": 236,
+      "businessDetails": "Countryside\n27001 U.S. 19 North\nSpace # 2030\nClearwater, FL 33761\n727-373-3672",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "fea83957-d2b6-43b1-8ce3-e9f0cc897346",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Receipt#: 0081-02-30780289\nTranDate: 11/05/2024 06:49 PM\nPrinted : 11/05/2024 06:49 PM\nCashier : Reina\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e7c21192-e2ff-41c0-9aef-7452a4ef1fa6",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n013240160103 OUTERWEAR/VEST/SLVLS/OTHER\nSILVER   1     24.99 T\n\n012624960101 CORE ACCESSORIES/SUNGLASSES/S\nSILVER/SILVER   1   9.99  T3\n-------------------------------\n\nSubTotal : 34.98\ntax 7.000% : 1.7493\nTax 7.000% : 0.6993\nTotal : 37.43\n-------------------------------\n\nAmount Tendered : 37.43\n(Change)\nChange : 0.00",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5947aa1-c6cd-41e2-86b8-86f6f2af2078",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "THANK YOU\nHAVE A NICE DAY",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FkdixOImpjD3vVwqADtbw%2FkdixOImpjD3vVwqADtbw-457312df-79b1-4b7a-aaeb-83992fda00d2.png?alt=media&token=64d87df0-904c-409d-a529-223605c7694f",
+  "published": true,
+  "id": "kdixOImpjD3vVwqADtbw"
+}

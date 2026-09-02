@@ -1,0 +1,48 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "New Balance Receipt",
+  "description": "This receipt is issued by New Balance and reflects a retail transaction involving footwear purchases, including product identifiers such as style codes, item numbers, and size specifications. The receipt includes promotional discount messaging (40% off), final price adjustments, and a structured financial summary showing subtotal, tax, shipping (UPS Free Ground), and total order amount. It also includes order-level identifiers such as product codes and internal references, along with standard retail footer messaging outlining return policies and refund conditions. The format represents a typical apparel and footwear retail POS receipt with discount application, shipping details, and structured totals.",
+  "slug": "New-Balance-Receipt",
+  "createdAt": "$D2026-03-27T18:35:07.025Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaa67285-f145-4319-9d6e-7a2d4e67efb9",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F76e7311e-3158-45e9-bac0-9a2176c69e87-image%20(18).jpg?alt=media&token=6b04d2b6-7bf1-4b61-9c9e-de12a44a6bdc",
+      "size": 236,
+      "businessDetails": "\nNBFO Orlando Marketplace\n5263 International Drive\nSuite A35A\nOrlando, FL 32819\n4073526580\n\n",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "8e1b620d-1db9-4541-8db0-5ffa5f69f2dc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "SALE",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5ce79207-6d93-44ad-9905-c72cb95f6416",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "50% off\nU993                XU993PG    11 D\n400011621308             $129.99 T\n1 @ 129.99\n\nFinal Price: $64.99\n\n***40% off CLR FTW/RCC***\nU990GR4   8.5 D        $99.99T\n19643312191\n1 @ $99.99\n\nFinal Price: $59.99\n($40.00)\n\n40.0% Off\n\n******\n\nJJJJound 993\n19796753965\n1 @ $219.99            $219.99T\n\n******\n\nTotal Order Tax:                $5.60\nUPS Free Ground:                $0.00\n\nTotal Order Amount:             $285.58\n*******************************\n\nSubtotal                        $285.58\nTotal                           $285.58\n\n\nThank you for shopping with us today.\n\nReturns on unworn merchandise\nwithin 45 days of purchase with\n\nRefunds available in store*\nor online at newbalance.com",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2FRAgfXN7ZoDfI0vWIg8V8%2FRAgfXN7ZoDfI0vWIg8V8-3ffb4e79-aa1d-40d7-b707-5f209f9b3644.png?alt=media&token=3f06d8bf-5329-4d86-8884-f957f6b74e79",
+  "published": true,
+  "id": "RAgfXN7ZoDfI0vWIg8V8"
+}

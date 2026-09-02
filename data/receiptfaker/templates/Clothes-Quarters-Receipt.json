@@ -1,0 +1,113 @@
+{
+  "createdBy": "mfzPsajS24gqnWlU0pQpQqjQjS23",
+  "createdAt": "$D2025-06-13T21:18:00.525Z",
+  "isParent": true,
+  "backgroundCrumpled": true,
+  "backgroundType": "CRUMPLED_5",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FizZ977rQdr5BCtmyDVSk%2FizZ977rQdr5BCtmyDVSk-bf890e99-f646-41b6-a4af-5c90bb50c485.png?alt=media&token=9c777cec-2d2b-4f44-a161-30d9eb79948d",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F4aecc9cf-79df-4bc8-9725-11e12762737f-clothes-quarters-logo.png?alt=media&token=330a2388-4996-4e49-a74a-4a30fc3be479",
+      "size": 193,
+      "businessDetails": "Clothes Quarters\n521 MacDade Boulevard\nFolsom, PA 19033\n(610) 522-1412",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "def05a69-e6ef-4acc-ab1e-4b9485cc19c9",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "4/16/2024                    3:57 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "Juliet V-Neck Yoga Scrub Top",
+          "total": "34.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Tori Yoga Scrub Pant",
+          "total": "40.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Faye 36\" Lab Coat",
+          "total": "42.00"
+        },
+        {
+          "quantity": 1,
+          "description": "V-Neck Top & Drawstring Pant",
+          "total": "56.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Journey Top & Toby Pant",
+          "total": "73.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Sandy Zip Top & Naya Pant",
+          "total": "94.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Sonia Zip Top & Nisha Pant",
+          "total": "86.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Skyler Top & Niko Pant",
+          "total": "91.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EMPTY",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "516.00"
+        },
+        {
+          "title": "Tax   6%",
+          "value": "30.96"
+        }
+      ],
+      "total": "546.96",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "totalSizeIncreased": "PERCENT_50",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nIf for any reason you are not completely satisfied with your purchase, simply return the item to us in its original condition. Refunds with a receipt will be given in the manner in which you paid. Store credit will be issued for returns without a receipt. Items that have been worn, washed, customized, or altered are not returnable. Please call with any questions or to further discuss the policy.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "Clothes Quarters Receipt",
+  "description": "Need a Clothes Quarters receipt? Easily generate a custom clothing purchase receipt with our free tool. Add store details, item descriptions, prices, tax, and payment info - perfect for returns, expense tracking, or personal records.",
+  "published": true,
+  "slug": "Clothes-Quarters-Receipt",
+  "metatitle": "Clothes Quarters Receipt",
+  "metadesc": "authentic Clothes Quarters receipts with custom clothing items, prices, store details, and payment info for returns and records",
+  "id": "izZ977rQdr5BCtmyDVSk"
+}

@@ -1,0 +1,166 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-29T14:30:55.004Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F13cac5f1-e1b0-43e6-885b-234b1e1d5f46-costco-logo.png?alt=media&token=46e26d12-67d3-424f-a013-ea88961358cf",
+      "size": 217,
+      "businessDetails": "Greenville #1005\n1201 Woodruff Rd.\nGreenville, SC 29607",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "V5 Member 11117324950",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "E",
+          "description": "33841 BNLS/SL BRST",
+          "total": "22.20"
+        },
+        {
+          "quantity": "E",
+          "description": "77053 GRAPE TOMATO",
+          "total": "6.00"
+        },
+        {
+          "quantity": "E",
+          "description": "384881 BUTTER KS",
+          "total": "11.39"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "39.59"
+        },
+        {
+          "title": "Tax",
+          "value": "0.00"
+        }
+      ],
+      "total": "39.59",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "09b0e4b9-fce7-428a-806f-f6373dc619b5",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "05ca6c62-acb6-4d66-b6fb-1ff3be17869e",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "9/29/2025, 5:28:06 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "7530ad97-0828-4d59-8152-62fd91ec7b80",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "OP # 274 Name: Joshua",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Thank you!\nPlease Come Again\n\nItems Sold: 3",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "6072eb52-eba0-4b95-af0d-41a91000ac0c",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "9/29/2025, 5:29:39 PM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "name": "Costco Receipt",
+  "slug": "Costco-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FcwN0toLJYFyUxC5ur3TN%2FcwN0toLJYFyUxC5ur3TN-ff6a3c7b-2a7f-4447-a08b-9cb87e33f256.png?alt=media&token=2c276955-b96a-46b2-82fa-5c37758faa2c",
+  "description": "Need a Costco receipt? Easily create a detailed warehouse purchase record with our free tool. Add store info, items bought, prices, tax, and payment—perfect for returns, budgeting, or expense tracking.",
+  "published": true,
+  "metatitle": "Warehouse Receipt",
+  "metadesc": "realistic Costco warehouse receipts with custom items, prices, store details, and membership info for returns or expense tracking",
+  "id": "cwN0toLJYFyUxC5ur3TN"
+}

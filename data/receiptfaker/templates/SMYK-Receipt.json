@@ -1,0 +1,137 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-11T20:03:54.195Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "889f08b9-703e-4a11-8033-965537e22b56",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "\nSMYK S.A. 02-672 Warszawa\nul. Domaniewska 48\nBDO 000011599\nSMYK Skarzysko-Kamienna Vendo Park\n26-110 Skarzysko-Kamienna\nul. Krakowska 142\nNIP 525-21-59-820\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5f45b38e-958b-4a99-aca2-f709deb05170",
+      "type": "CUSTOM",
+      "alignment": "RIGHT",
+      "custom": " nr wydr. 025982/0251",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e0eb0a06-8768-467a-920d-c94d7ca285c6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nPARAGON FISKALNY\n66228730KULARY A 1szt.*29,99= 29,99",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e6c53239-3277-4c00-86cc-9f42537fbb82",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\nSprzed. opod. PTU A ",
+          "total": "\n29,99"
+        },
+        {
+          "quantity": "",
+          "description": "Kwota PTU A 23,00% ",
+          "total": "5,61"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PTU",
+          "total": "5,61"
+        },
+        {
+          "quantity": "",
+          "description": "SUMA PLN",
+          "total": "29,99"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3369fbfb-11ea-41c9-86ed-917be515e1a9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nROZLICZENIE PŁATNOŚCI\n\nPłatność    KARTA KR.   29,99\nWpłacono razem       29,99\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "320a5ac6-420f-4556-8b3b-ebe0698912da",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n000061/0251             #002 009\n2023-06-03                16:51\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "43393efc-286f-4670-9dab-98b0c0c1b765",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "12F172917AE2ECA5E538063D\n\nEAW1901775484\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "beb5af3a-a94f-4e7c-a8a4-a851ca23ba2c",
+      "type": "BARCODE",
+      "size": 77,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ce7c9ca7-2918-4b5c-8841-4c1a41bd95ec",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0526500214773230603 ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "aaf64156-bf8f-4fed-b2bb-9639d450defc",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nKasier                         009\nNr transakcji                 14773\n\n\n O zasady zwrotów i wymian\nzapytaj sprzedawcę.",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by SMYK S.A. and identifies the transaction as taking place at the SMYK Skarżysko-Kamienna Vendo Park store located on ul. Krakowska 142, Skarżysko-Kamienna, Poland. The receipt is a Polish fiscal receipt (Paragon Fiskalny) and records the purchase of a single item identified as KULARY. The financial section includes the taxable sales amount, 23% Polish VAT (PTU), total VAT collected, and the final amount payable in Polish złoty (PLN). The payment section confirms that the purchase was paid by credit card (Karta KR.) and records the transaction date, time, cashier number, and transaction number. The footer advises customers to consult the store regarding return and exchange policies. The overall layout is representative of a Polish retail fiscal receipt, combining merchandise sales, VAT reporting, electronic payment, and statutory transaction information within a compact receipt format.",
+  "name": "SMYK Receipt",
+  "slug": "SMYK-Receipt",
+  "published": true,
+  "id": "hDS523OScYjb0DbxBT0T"
+}

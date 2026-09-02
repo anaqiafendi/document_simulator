@@ -1,0 +1,112 @@
+{
+  "createdAt": "$D2026-05-26T09:15:41.382Z",
+  "slug": "Gugu's-Corner-Receipt",
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "imageUrl": "",
+  "backgroundType": "CRUMPLED_1",
+  "name": "Gugu's Corner Receipt",
+  "currency": "",
+  "fontType": "MERCHANT_COPY",
+  "numberFormat": "LEFT",
+  "description": "This restaurant receipt from Gugu’s Corner documents a VISA card transaction processed at the Enghavevej location in København V, Denmark. The receipt includes business address details, telephone number formatting, CVR registration information, cashier station references, receipt numbering metadata, and timestamp information. The POS structure contains item quantity formatting, subtotal presentation (“Ialt 4 varer”), VAT (“moms”) calculation references, and VISA payment confirmation aligned in standard Danish restaurant thermal receipt formatting. Additional receipt elements include staff attribution messaging and Danish customer appreciation footer text near the bottom of the receipt. The layout reflects a standard Danish restaurant thermal receipt with localized VAT presentation and multilingual hospitality formatting.",
+  "parentName": "Office Depot",
+  "backgroundCrumpled": false,
+  "isParent": true,
+  "sections": [
+    {
+      "bottomDividerType": "DASHES",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F02982ab7-c86f-4479-aa55-52c2ea410b57-image%20(16).jpg?alt=media&token=238c219f-40c1-4cf7-989d-8773c65f0bb7",
+      "size": 266,
+      "businessDetails": "\nEnghavevej 5, st. 2.\n1674 København V\nTlf. 27 29 59 73\nCvr. 42 65 39 84\n\n",
+      "type": "HEADER",
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "id": "5ad0b561-617c-4914-8ab1-dc86611c7338",
+      "date": "$undefined"
+    },
+    {
+      "type": "CUSTOM",
+      "bottomDividerType": "DASHES",
+      "custom": "19-06-2025 19:52 Kasse: 1 Bon: 7685",
+      "id": "0084f692-6d56-4f52-a9a2-404054062273",
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "date": "$undefined"
+    },
+    {
+      "totalText": "",
+      "totalLines": [],
+      "type": "ITEMS",
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "items": [
+        {
+          "quantity": 1,
+          "total": "129.00",
+          "description": "29. SHAHI BUTTER CHICKEN"
+        },
+        {
+          "quantity": 1,
+          "total": "119.00",
+          "description": "24. MALAI KOFIA"
+        },
+        {
+          "quantity": 1,
+          "total": "25.00",
+          "description": "46. PARATHA"
+        },
+        {
+          "description": "MANGO LASSI",
+          "quantity": 1,
+          "total": "49.00"
+        }
+      ],
+      "totalDivider": true,
+      "id": "ded0e5a0-0d9a-4364-a9f1-da89891e69e1",
+      "bottomDivider": false,
+      "totalDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "totalText": "",
+      "totalDividerType": "DASHES",
+      "bottomDivider": false,
+      "totalDivider": true,
+      "id": "1c2d2329-b9c6-4b8d-ac64-7428147f840f",
+      "items": [
+        {
+          "description": "Ialt 4 varer",
+          "quantity": "",
+          "total": "322.00"
+        },
+        {
+          "description": "heraf moms: 64.40",
+          "quantity": "",
+          "total": ""
+        },
+        {
+          "total": "322.00",
+          "quantity": "",
+          "description": "VISA / DK: Visa"
+        }
+      ],
+      "bottomDividerType": "DASHES",
+      "total": "",
+      "totalLines": [],
+      "type": "ITEMS",
+      "date": "$undefined"
+    },
+    {
+      "bottomDivider": false,
+      "alignment": "CENTER",
+      "id": "987725aa-bd0b-40a9-9886-a82767c2f85a",
+      "custom": "\nDe blev betjent af\nManager\n\nTak for besøget og på gensyn\n* * * * * * * * * *",
+      "bottomDividerType": "DASHES",
+      "type": "CUSTOM",
+      "date": "$undefined"
+    }
+  ],
+  "textColor": "#101828",
+  "published": true,
+  "id": "NMoNu1q1Mmhb8eXB2K1c"
+}

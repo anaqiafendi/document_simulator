@@ -1,0 +1,136 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T06:46:44.281Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F001ddc15-2238-491d-b767-9551c1732e97-Publix-Logo.wine.png?alt=media&token=1c9f01c9-49a5-42c9-b842-711502bd1ea9",
+      "size": 261,
+      "businessDetails": "White Oak Village\n4591 South Laburnus Ave\nRichmond, VA 23231\nStore Manager: Matt Reece\n804-226-1915",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "OREO THINS GOLDEN",
+          "total": "5.00"
+        },
+        {
+          "quantity": "1",
+          "description": "OREO DOUBLE STUFF",
+          "total": "5.00"
+        },
+        {
+          "quantity": "1",
+          "description": "TOSTITOS REST/STYL",
+          "total": "4.29"
+        },
+        {
+          "quantity": 1,
+          "description": "PUBLIX IC PREMIUM",
+          "total": "6.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Order Total",
+          "value": "20.29"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "1.32"
+        }
+      ],
+      "total": "5,710.79",
+      "totalText": "Grand Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b291faa4-dd1a-4d66-ae62-bb3369dc93cd",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Your cashier was Dominic",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "1dca7825-8ca8-4384-8bef-833d1cce207e",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "9/30/2025, 9:46:18 AM",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES"
+    }
+  ],
+  "name": "Publix Receipt",
+  "slug": "Publix-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FhXv3lT7MJQgl9MSIdHen%2FhXv3lT7MJQgl9MSIdHen-1d33fe51-1a23-496b-8f3e-47d8353b742d.png?alt=media&token=529e68e4-839a-40c8-a111-c08f52319ba2",
+  "description": "Need a Publix receipt? Use our free tool to make a detailed grocery receipt in minutes. Add store info, purchased items, prices, tax, and payment—perfect for budgeting, returns, or expense tracking.",
+  "published": true,
+  "metatitle": "Publix Grocery Receipt",
+  "metadesc": "realistic Publix grocery receipts with custom items, prices, store details, and payment info for budgeting and expense tracking",
+  "id": "hXv3lT7MJQgl9MSIdHen"
+}

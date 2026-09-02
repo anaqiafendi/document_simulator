@@ -1,0 +1,119 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Brooklyn Deli and Market Receipt",
+  "description": "This receipt is issued by Brooklyn Deli and Market and identifies the business as C/ Nicolás Sánchez Chaves 4, 18690 Almuñécar, Spain. The header contains the Brooklyn Deli & Market branding, business name, street address, contact telephone number, website, and receipt reference. The transaction is dated 8 February 2025 and records a Special Offer item with a regular value of €0.01 that was provided free through an item discount. The financial section therefore records a final total of €0.00, together with a 10% tax category showing zero net value and tax due. The payment section identifies cash (Efectivo) as the payment method and records no change due. The receipt also contains Japanese receipt terminology and acknowledgment text alongside the Spanish transaction information.",
+  "slug": "Brooklyn-Deli-and-Market-Receipt",
+  "imageUrl": "",
+  "createdAt": "$D2026-08-16T13:30:13.206Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "eaaa1031-edd5-4b33-aac8-7902038d5436",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fe520b9cc-d68c-4560-a22a-f8a2bbb642be-image%20(7).jpg?alt=media&token=c1bd0a05-f391-49dd-a424-aa1894504932",
+      "size": 271,
+      "businessDetails": "Brooklyn Deli and Market\n\nC/ Nicolas Sanchez Chaves 4\n18690 Almunecar\n958 68 07 58\nwww.brooklyndeliandmarket.com\n\nRecibo: rhU7\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8a621deb-f4dc-408b-b2d0-b60b1fe465a0",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "領収書\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a68856af-b21a-4ca5-ba94-076699f735b5",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "8 de febrero de 2025",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "3f68d913-0c8f-49cd-b00d-e94a5587f9f9",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nSpecial Offer x 1 ",
+          "value": "\n0,00 € A"
+        },
+        {
+          "title": "Regular ",
+          "value": "0,01 €"
+        },
+        {
+          "title": "Descuentos: Articulo gratuito",
+          "value": ""
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb71438a-cb1a-4e73-a07f-951cbb76912f",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [],
+      "cardFields": [
+        {
+          "title": "\nTotal ",
+          "value": "\n0,00 €"
+        },
+        {
+          "title": "Tasa de     Neto",
+          "value": "Impuesto    Total"
+        },
+        {
+          "title": "impuestos\n",
+          "value": ""
+        },
+        {
+          "title": "A (10 %)   0,00 €",
+          "value": "0,00 €    0,00 €"
+        },
+        {
+          "title": "\nEfectivo",
+          "value": "\n0,00 €"
+        },
+        {
+          "title": "Cambiar",
+          "value": "0,00 €"
+        },
+        {
+          "title": "\n\n但し:",
+          "value": ""
+        }
+      ],
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e2e7d17e-eb5d-43da-b33a-4205107ba550",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\n上記正に領収いたしました\n\n収入印紙",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "A6oCBavUkMpuCSy9YjT4"
+}

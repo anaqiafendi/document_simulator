@@ -1,0 +1,170 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "A&W Fast Food Receipt",
+  "description": "This receipt is from an A&W All American Food restaurant in Oak Park, Illinois, United States. It records a fast-food order including a bacon cheeseburger combo, medium Diet Pepsi, onion rings, extra pickles, and fry sauce. The receipt includes transaction details, subtotal, sales tax, total amount paid, and card payment information. It also contains table and customer identifiers typically used in quick-service restaurant POS systems.",
+  "slug": "AandW-Fast-Food-Receipt",
+  "createdAt": "$D2026-05-15T16:01:00.562Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "b8e042ce-ed36-48fc-8b34-e6ef08de3bee",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F77cfd5c9-910b-4507-ac25-5cf1b0a26670-image%20(28).jpg?alt=media&token=3ddc50b2-3b97-4b0d-bb99-34b7371867d5",
+      "size": 222,
+      "businessDetails": "A & W\n6765 North Highway 36\nParke, UT 84074\n(305) 474-2762\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd45a942-0a82-4025-be26-2028b0516e82",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Table Q#4\nTrans#: 168796\nServ: Order Taker\n07/09/2020 12:25:53 PM   #Cust:1",
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "3aebbee2-d930-4bca-98ec-87698e00b15a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\nQuan",
+          "description": "Description",
+          "total": "\nCost"
+        },
+        {
+          "quantity": 1,
+          "description": "Bac Chzburger",
+          "total": "$$4.59"
+        },
+        {
+          "quantity": 1,
+          "description": "Extra Pickles",
+          "total": "$$3.60"
+        },
+        {
+          "quantity": 1,
+          "description": "Combo",
+          "total": "$$0.00"
+        },
+        {
+          "quantity": 1,
+          "description": "(M) MD Diet Pepsi",
+          "total": "$$0.50"
+        },
+        {
+          "quantity": 1,
+          "description": "(M) Onion Rings",
+          "total": "$$0.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Add Fry Sauce",
+          "total": "$$0.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e525f8b1-7c3b-4f17-8bfe-b72c194d0dfa",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Net Total",
+          "value": "$$9.19"
+        },
+        {
+          "title": "Tax",
+          "value": "$$0.60"
+        },
+        {
+          "title": "TOTAL: $9.79",
+          "value": ""
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EQUALS",
+      "date": "$undefined"
+    },
+    {
+      "id": "2b0e2815-fb56-4670-b80b-e5d4ccad4c23",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Credit Cards",
+          "total": "$$9.79"
+        },
+        {
+          "quantity": "",
+          "description": "Change",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "041791b4-690b-4e61-a00c-d1fb44b43db2",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nThank you for dining with us!\nA&W ALL AMERICAN FOOD™\nWe hope to see you again soon!\n* * * * * * * * * *\nwww.awrestaurants.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "7UOYSh815r8rIRw8CboU"
+}

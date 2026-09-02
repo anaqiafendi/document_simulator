@@ -1,0 +1,104 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-30T14:22:49.383Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "206f9fe0-d0d8-4c94-903e-f8644e0ba291",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "",
+      "size": 50,
+      "businessDetails": "Stan's Donuts & Coffee\nwww.stansdonuts.com\n750 N RUSH ST\nCHICAGO, IL 60611 US\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c9bd7acf-3e59-47b5-aab6-174edb561233",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Host: Carmen",
+          "total": "09/11/2019"
+        },
+        {
+          "quantity": "",
+          "description": "Order #:10109",
+          "total": "9:13 AM"
+        },
+        {
+          "quantity": "",
+          "description": "",
+          "total": "10110"
+        },
+        {
+          "quantity": "",
+          "description": "\nSpecialty (2 @2.79)",
+          "total": "\n5.58"
+        },
+        {
+          "quantity": "",
+          "description": "\nSubtotal",
+          "total": "\n5.58"
+        },
+        {
+          "quantity": "",
+          "description": "Tax",
+          "total": "0.64"
+        },
+        {
+          "quantity": "",
+          "description": "\nDine In Total",
+          "total": "\n6.22"
+        },
+        {
+          "quantity": "",
+          "description": "\nSPC OTHER",
+          "total": "\n6.22"
+        },
+        {
+          "quantity": "",
+          "description": "Tip",
+          "total": "1.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "7.22"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "250f4506-14a5-4b47-94e5-acb95e9d7230",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nThanks!\n************************\nNew Stan's Cookies!\nIntroductory offer:\nRedeem this receipt on your next\nvisit for a buy one cookie,\nget one free offer!\nRestrictions apply.  Offer expires 8/31/19",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "description": "This receipt is issued by Stan's Donuts & Coffee and identifies the business as 750 N. Rush Street, Chicago, Illinois 60611. The header contains the business name, official website, store address, host name, order number, and transaction date and time. The receipt records the purchase of two Specialty donuts priced at $2.79 each. The financial section records the subtotal, applicable sales tax, dine-in total, gratuity, and the final transaction total. The footer thanks the customer for their visit and promotes an introductory offer for Stan's Cookies, allowing customers to redeem the receipt for a buy-one-get-one-free cookie offer before the stated expiration date. The overall layout is representative of a United States café and bakery POS receipt, combining menu itemization, sales-tax reporting, gratuity, and promotional marketing within a compact hospitality receipt format.",
+  "name": "Stan's Donuts Receipt",
+  "slug": "Stan's-Donuts-Receipt",
+  "published": true,
+  "id": "uG7cOCC9CR9Zzlen0XEu"
+}

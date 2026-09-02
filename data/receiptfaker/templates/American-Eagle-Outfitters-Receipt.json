@@ -1,0 +1,168 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-07-08T18:17:01.370Z",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "sections": [
+    {
+      "id": "caec446e-2c8b-4f28-b96c-6245e5043361",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F785ba5a2-dc3a-49c6-b145-1eb227cb10b6-image%20(1).jpg?alt=media&token=cdbda7a6-2fd2-464a-b932-1cb5fc4347e9",
+      "size": 246,
+      "businessDetails": "01/14/2024  Store: Jhtvyq\n2:59 PM  Cashier: Bryelle\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4cca398c-8212-419d-bfa9-a70eeab4336b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nMember ID: AE8827461039",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8802319f-f016-4ddc-b26e-d52da794d1c9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "     * Sale Transaction *",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "312b7d95-57cf-4245-a673-ccabe2db0485",
+      "type": "BARCODE",
+      "size": 80,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "367d3c03-43a6-4241-92f3-18eac0766687",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "0020100173792024011 4\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5f0f5dbf-77b0-4e95-8ff7-7e87a859f87c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "AE Next Level Curvy",
+          "total": "21.24 T"
+        },
+        {
+          "quantity": "",
+          "description": "Jegging",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SKU 0033268350 ",
+          "total": "24.99"
+        },
+        {
+          "quantity": "",
+          "description": "MO 12 28 2020",
+          "total": "(3.75)"
+        },
+        {
+          "quantity": "",
+          "description": "11  19 2021",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "AE Stretch High-Waisted ",
+          "total": "23.78 T"
+        },
+        {
+          "quantity": "",
+          "description": "Vegan Leather Straight",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cargo Pant",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "SKU 0039981741  ",
+          "total": "69.95"
+        },
+        {
+          "quantity": "",
+          "description": "60% OFF SLCT AE ",
+          "total": "(41.97)"
+        },
+        {
+          "quantity": "",
+          "description": "BOTTOMS",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "MO 12 28 2020",
+          "total": "(4.20)"
+        },
+        {
+          "quantity": "",
+          "description": "11  19 2021",
+          "total": ""
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "\nSubtotal  ",
+          "value": "\n45.02"
+        },
+        {
+          "title": "Sales Tax",
+          "value": "0.00"
+        },
+        {
+          "title": "Total",
+          "value": "45.02"
+        }
+      ],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "36b62d0f-53b7-4973-9004-df50647c9561",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nIn-store items purchased 2\n\nYOU SAVED $49.92",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "name": "American Eagle Outfitters Receipt",
+  "description": "This receipt is issued by American Eagle and documents an in-store sale transaction completed on January 14, 2024. The receipt records the purchase of two apparel items: an AE Next Level Curvy Jegging and an AE Stretch High-Waisted Vegan Leather Straight Cargo Pant. Multiple promotional discounts are applied, including a 60% OFF Select AE Bottoms offer, resulting in total savings of $49.92. The financial section records the subtotal, no sales tax, the final transaction total, and payment made in cash. The footer confirms that two in-store items were purchased and highlights the customer's total savings. The overall layout is representative of a United States apparel retail POS receipt, combining merchandise itemization, promotional discount reporting, cash-payment reconciliation, and transaction summary within a compact retail receipt format.",
+  "slug": "American-Eagle-Outfitters-Receipt",
+  "published": true,
+  "id": "A2kjes6XmoZ9rpqY8dar"
+}

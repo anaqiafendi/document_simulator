@@ -1,0 +1,105 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-05-08T10:22:26.660Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "imageUrl": "",
+  "name": "Café Obligado Receipt",
+  "description": "This receipt is from Café Obligado, a café located in Paris, France. It records a dine-in order consisting of two café crème beverages. The receipt includes table number, quantity, unit price, total TTC (all taxes included), cashier information, and transaction identifiers. It also references the restaurant POS software version and indicates that the document is a provisional sales receipt. The format reflects a standard French café receipt with VAT-inclusive pricing.",
+  "sections": [
+    {
+      "id": "48445f2e-f77f-4663-97b4-8f7a4a28c992",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F021902a4-8389-4f0a-acf1-f2fba571f030-image%20(6).jpg?alt=media&token=5a795854-fa0e-4a1c-9591-215a7747597b",
+      "size": 256,
+      "businessDetails": "34 Av. de la Grande Armée\n75017 PARIS France\n502 578 144 00020\nN° Tva: FR 65 502528144\nCode Naf: 5610A\nTél: 01 43 80 21 96\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5d69c100-4b6d-437e-a22f-83f9719a8a92",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nDate: 21-09-2018 20:37\nNote n°10829-Impression n°1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ee69b3c3-3ed3-4bb1-ac91-57a89bf684d1",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Table: 4 / CV: 0",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "QTÉ  DESCRIPTION",
+          "total": "P.U   Total"
+        },
+        {
+          "quantity": "\n2",
+          "description": "Café crème",
+          "total": "4.50  9.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "cb3b48fb-0d4f-4cae-adb7-2935335ce70c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": 1,
+          "description": "TOTAL TTC",
+          "total": "9.00 Eur"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d19bc071-9cf1-4755-8db6-16e9cfb5ac27",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Vous avez été servi par: Vincent, Caisse 1 Logiciel \"La Note\" version: 2.9.6 Document provisoire Type d'opération: vente | B0033JkZQ",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "d9492654-d3a6-48d0-a632-e89c2d86ae2f",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nMerci de votre visite\nÀ bientôt!",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Cafe-Obligado-Receipt",
+  "published": true,
+  "id": "NKE36B1Qx2NsNzaGOFsZ"
+}

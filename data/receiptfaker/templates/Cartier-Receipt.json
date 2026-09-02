@@ -1,0 +1,88 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Cartier Receipt",
+  "slug": "Cartier-Receipt",
+  "createdAt": "$D2025-05-25T17:24:47.415Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2F6035ffd6-671f-4f3a-b6bd-36a45fab81a1-9a8ca8ec05deb005ce429fa0ae892b8f.png?alt=media&token=174d1a5f-a7c9-4363-b0f9-5b730707a44c",
+      "size": 142,
+      "businessDetails": "JOAILLIERS\nParis London New York",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "f692b194-dbf5-4d79-b984-7a0dcf9237d3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "INVOICE: 852036496\nOrder Number: FC15589632553\nSold by: E-boutique",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "b5feb1e1-aee1-453f-9ae8-e14a65872fef",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "1",
+          "description": "LOVE BRACELET, BRUSHED",
+          "total": "7900.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "7900.00"
+        },
+        {
+          "title": "Tax",
+          "value": "671.47"
+        }
+      ],
+      "total": "8571.47",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Complete conditions of sale and return information are available online at cartier.com Cartier North America, Division of Richemont North America, Inc. 645 Fifth Avenue, New York, NY 10022, USA Cartier Client Relations Center Tel: 1-800-227-8437\nE-mail: eboutique.us@cartier.com\n\nThank you for your purchase.",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c7567c1-a049-4cbd-a82f-030fa6db0b31",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FsU4GxOenPa7WL35hWBls%2FsU4GxOenPa7WL35hWBls-c591caff-54eb-4783-9440-4fb2b6985d43.png?alt=media&token=91914c68-9a96-4906-8f5f-a3675cf97041",
+  "description": "Need a Cartier receipt? Use our free generator to create a polished receipt for luxury purchases. Customize store details, item info, pricing, and payment method—ideal for records, insurance, or proof of purchase.",
+  "published": true,
+  "metatitle": "Luxury Cartier Receipt",
+  "metadesc": "professional Cartier receipts with custom store details, luxury items, pricing, and payment info for records or insurance",
+  "id": "sU4GxOenPa7WL35hWBls"
+}

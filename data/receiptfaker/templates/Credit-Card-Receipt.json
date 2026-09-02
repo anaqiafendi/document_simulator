@@ -1,0 +1,159 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "createdAt": "$D2025-09-30T07:07:12.397Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "name": "Credit Card Receipt",
+  "sections": [
+    {
+      "id": "4c99f2d9-5993-49a3-863b-24e54b1f7943",
+      "type": "DATE",
+      "alignment": "CENTER",
+      "date": "5/25/2025, 3:32:56 PM",
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY"
+    },
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F375f7d31-5b2e-4b2b-972e-ab68b14fa281-290142_business_card_cash_credit_money_icon.png?alt=media&token=3d656b42-9797-44d2-9bd6-7b329b15f112",
+      "size": 50,
+      "businessDetails": "Credit Card Receipt",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Bill to: Emma Caldwell",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "f69f83e0-035d-4226-aec7-4f2bce10b574",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Name on Card: Emma Caldwell\nCompany name: SilverPeak Solutions, Inc.\nAddress: 1293 Birchwood Lane\nCity: Asheville\nState: NC\nZip/Postal Code: 28801\nPhone: (816) 555-7392",
+      "bottomDivider": true,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    },
+    {
+      "id": "fb2a8c6b-c08c-4e0e-ba73-6d3ff9616434",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2 hrs",
+          "description": "IT Support Service",
+          "total": "150.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Software License Renewal",
+          "total": "199.00"
+        },
+        {
+          "quantity": 1,
+          "description": "Cloud Backup Subscription",
+          "total": "49.99"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "STARS",
+      "totalLines": [
+        {
+          "title": "Subtotal",
+          "value": "398.99"
+        },
+        {
+          "title": "Tax",
+          "value": "25.93"
+        }
+      ],
+      "total": "424.92",
+      "totalText": "Total",
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "totalSizeIncreased": "PERCENT_20",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": false,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "6"
+        },
+        {
+          "title": "Change",
+          "value": "0.53"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "DOTS",
+      "date": "$undefined"
+    },
+    {
+      "id": "75abb17f-7cb7-433e-878f-8fe3cc23558b",
+      "type": "BARCODE",
+      "size": 90,
+      "length": 500,
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "All sales are final unless otherwise stated by the merchant’s return policy. For refunds, exchanges, or disputes, please retain this receipt and contact the merchant directly. Refunds (if applicable) will be issued to the original credit card used for payment. Charges will appear on your statement under the merchant’s business or DBA name.",
+      "bottomDivider": false,
+      "bottomDividerType": "STARS",
+      "date": "$undefined"
+    }
+  ],
+  "slug": "Credit-Card-Receipt",
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2FEHuzNVEoiom45thE0or0%2FEHuzNVEoiom45thE0or0-b108ba14-f179-4330-bb7c-e11d13a7dede.png?alt=media&token=5b9356fe-22da-4bdf-9237-0e7eb8bbd8d6",
+  "description": "Need a credit card receipt? Use our free tool to create a detailed payment record. Add merchant info, transaction date, amount, and card details—perfect for expense tracking, reimbursements, or business documentation.",
+  "published": true,
+  "metatitle": "Credit Card Receipt",
+  "metadesc": "professional credit card receipts with merchant info, transaction details, and card data for expense tracking and documentation",
+  "id": "EHuzNVEoiom45thE0or0"
+}

@@ -1,0 +1,127 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Milestones Grill + Bar Receipt",
+  "description": "This receipt is from Milestones Grill + Bar in Kelowna, British Columbia, Canada. It records a dine-in restaurant order including Pepsi, taco duo meal, burger, fries, and additional sides. The receipt includes GST tax calculations, subtotal, total due, cashier and guest information, and a notice about cash rounding adjustments. It also contains the restaurant’s registration number and customer survey invitation. The format reflects a standard Canadian restaurant POS receipt.",
+  "slug": "Milestones-Grill-+-Bar-Receipt",
+  "createdAt": "$D2026-05-16T05:33:04.173Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "bd2ac9b6-cc00-493a-a24a-b6426c3604e1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F5c257b6a-5771-48cc-a70b-69b31f721c64-image%20(29).jpg?alt=media&token=4dbb8c32-4862-4c06-a2ce-4ee2e3a46a7c",
+      "size": 224,
+      "businessDetails": "2121 Harvey Avenue\nKelowna, BC, V1Y 9Z7\n778 436 2308\nREG: 84125 2439 RT0001\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1f208e79-a19a-47ae-b4e2-4a44973d5373",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": " SYDNEY W",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "96bcd881-d508-412d-9746-68efebfc4f97",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nTbl 82/1            Chk 5002   Gst 2\nMar09'19   07:28PM\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "30fa69d0-7e13-4fe5-8f4f-704f1437d5da",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Dining Room",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Pepsi (Twr)",
+          "total": "3.75"
+        },
+        {
+          "quantity": 1,
+          "description": "Cant TacoDuo",
+          "total": "16.25"
+        },
+        {
+          "quantity": "",
+          "description": "Fries",
+          "total": ""
+        },
+        {
+          "quantity": 1,
+          "description": "Brie&Mush Burg",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Reg Bun",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Add Yam Fries",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Add TruffAioli",
+          "total": "20"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n43.25"
+        },
+        {
+          "quantity": "",
+          "description": "GST",
+          "total": "2.16"
+        },
+        {
+          "quantity": "",
+          "description": "Total Due",
+          "total": "45.41"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "bf7039cc-9ad0-4b55-9ff6-39f05fb0ab03",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\nRounded if Paying Cash $45.40\n\n\nTell Us How We Did Today\n\nComplete our Guest survey at:\nwww.milestonessurvey.com",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "uwwxOF3WHn9WbA5pGJoa"
+}

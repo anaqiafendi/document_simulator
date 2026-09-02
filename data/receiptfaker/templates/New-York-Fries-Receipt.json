@@ -1,0 +1,137 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "New York Fries Receipt",
+  "description": "This receipt is from New York Fries, a fast-food restaurant in Canada. It records a takeout order including regular fries, gravy, chipotle dip, and fountain beverages. The receipt includes subtotal calculations, GST tax amount, cash payment details, rounded change adjustment, cashier information, order number, and transaction timestamp. It also contains customer feedback messaging and receipt reference information. The format reflects a standard Canadian quick-service restaurant POS receipt.",
+  "slug": "New-York-Fries-Receipt",
+  "createdAt": "$D2026-05-20T09:38:08.459Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "655cab95-744c-4346-b952-2903eb577f46",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F9be0fad9-a962-4011-9004-1d1c232471ad-image%20(20).jpg?alt=media&token=ff113fc5-f818-4863-b8c3-660fc05dab0a",
+      "size": 253,
+      "businessDetails": "Kilcoods Town Centre #3181\n780-809-0474",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "7ec399ce-b7a6-4b80-8562-3c620ea04438",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "\n1",
+          "description": "Reg Fries",
+          "total": "\n2.99"
+        },
+        {
+          "quantity": 1,
+          "description": "Reg Gravy",
+          "total": "$$1.89"
+        },
+        {
+          "quantity": 1,
+          "description": "Chipotle Dip",
+          "total": "$$1.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Chipot Dip",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": 1,
+          "description": "FTY POP",
+          "total": "$$2.50"
+        },
+        {
+          "quantity": 1,
+          "description": "Reg Fries",
+          "total": "$$6.39"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f966acb5-b848-4ca6-8b8c-b2ffc95aef3e",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$20.96"
+        },
+        {
+          "quantity": "",
+          "description": "GST 5%",
+          "total": "$$1.05"
+        },
+        {
+          "quantity": "",
+          "description": "GrandTotal",
+          "total": "$$23.01"
+        },
+        {
+          "quantity": "",
+          "description": "CASH",
+          "total": "$$25.00"
+        },
+        {
+          "quantity": "",
+          "description": "Change Due",
+          "total": "($0.01)"
+        },
+        {
+          "quantity": "",
+          "description": "Rounded Change Due",
+          "total": "$$0.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "EQUALS",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5a100104-4cdd-47ef-9675-251ca195e59a",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nCashier:   CASHIER 1\nTAKE OUT\nOrder #: 9\nWed Jul 12, 2023   11:50:13\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "95594736-7a76-402d-9c28-ab5177fd89f9",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nIf you loved your NYF meal, please share a positive review on Google or Facebook! Spread the love and bring a smile to our hardworking teammates & staff.\n\nThanks, Please Come Again\nReceipt #: 4455701\n\n\nGuest Copy",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "Office Depot",
+  "imageUrl": "",
+  "published": true,
+  "id": "LJsktzW5K7GGmT30BR65"
+}

@@ -1,0 +1,170 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "createdAt": "$D2026-02-05T18:34:22.266Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "€",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "RECEIPTIONAL_RECEIPT",
+  "description": "A minimalist retail receipt from Veerman Juwelen, a jewelry store based in Huizen, Netherlands. The receipt features the store logo and full address details, followed by a single-item purchase: a Tissot steel men’s metal bracelet watch. It includes product identifiers (EAN/article number), quantity, pricing in EUR, VAT breakdown (21% BTW), net and gross amounts, and payment method (Visa Debit). The layout ends with terminal and transaction references, reflecting a standard European point-of-sale receipt used for customer records and warranty or return purposes.\n",
+  "metatitle": "Lowe's Home Store Receipt",
+  "metadesc": "realistic Lowe's home improvement receipts with custom store details, items, prices, and payment info for returns and records",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FVbfrgaWhkqQZ6BDEmEyhxK07i643%2F2cacf1ec-72d3-4436-9021-40358f20314d-Schermafbeelding%202026-02-01%20073600.png?alt=media&token=b29f5c80-609f-4402-a65e-e3ba64bb0eb6",
+      "size": 222,
+      "businessDetails": "JUWELIER VEERMAN\n\nFiliaal 001\nLindenlaan 28, \n1271 BA Huizen, \nNederland\nTel. 035 523 0958",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a31f8281-2298-4190-bfb9-62de37e1de7a",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "69bd27e4-46b2-473e-ab26-9113cfb84310",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "1d2094bd-4a06-46a5-8804-293356dbe13b",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nArt/EAN 88711441            EUR\nTISSOT Staal                745,00 B\nHorloge met Metaalband\nTISSOT\nTissot\nStaal\n\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "da8733cd-f583-4a92-8ac6-20dbe6d91063",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Aantal [1]             EUR  745,00\nVisa DEBIT             EUR  745,00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "9ae86c39-c8d0-4b1d-9728-8c86b4f514af",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "BTW%     BTW       BRUTO      NETTO",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "11d7b181-e41a-46f6-a4ca-6f8d9b99aa04",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "21%      129,30    745,00     615,70\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ffe0bc88-b69b-4b9c-aded-5f26444ee020",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nJUWELIER VEERMAN\nFiliaal 001\nLindenlaan 28\n1271 BA Huizen\nNederland\n09/150/001",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "4b68683d-316a-46dd-9312-33ed309a3182",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\nTerminal-ID :             5620231925\nTA-Nr 0231925              BON 03942",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "a6012df2-393b-475e-a997-dc10f8803939",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nBETALING \nVisa DEBIT\n\nEUR 745,00\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "58ba70db-192d-4344-8283-c45b7d4ee3e9",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Kaart 1          ###############4869\nKaart 2 \nEMV-AID         A0000003591010028001\nVU-Nr                     1915000200\nGoedkeurings-Nr               553051\nDatum 12.09.23             14:26 Uur\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "23085371-ea3f-46ea-b5ab-665cf1611fcf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Betaling Uitgevoerd",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "ef555e93-a5d7-4087-a568-ab1f39ff0baf",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n\nBON A.U.B. BEWAREN",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "492e4caa-a719-4d23-9641-17f31c2af1ab",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2FVbfrgaWhkqQZ6BDEmEyhxK07i643%2F3baf4e21-6c83-4031-8958-1fdfa507b94e-Schermafbeelding%202025-10-31%20183858.png?alt=media&token=9658a1b7-612b-4544-a501-77a27d7a938b",
+      "size": 284,
+      "businessDetails": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "8f24505f-7c1a-4674-9ea0-97f15bda0c98",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "\n     Geholpen Door T. Hofman\n\nDatum    Uur    Filiaal  Bed    Bon \n12.09.23 14:26    001    47132  3942\n\nTSE Transactienummer :  340869\nSerienr. Kassa : AST-150-001-2\nSerienr. TSE.: 3336774D44665156666\nD7A32644A6F724C6C74394B35336757746D6636\n41357465546279715662393965343D\ntestwaarde:YwRuDu2xn/DoCwXOK/4+IZRPEyiq2j\nWZVFLywEua2Er0EQdXzLFQo2LIS4TaENC4egaHck\nnHtAUc7jpJyX1Ck0Gy1PpKP4jbV2K593rCMSmD2f\nDHPWahp3udJNcChs3X\nHandtekening: 720045\n2023-09-12T14:26:09.000Z2023-09-12T14:26\n:09.000Z\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "52eeb572-e210-49e8-90a6-2c86183551ab",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "Hartelijk dank voor uw aankoop!\nRuilen van ongebruikte, niet-gepersonaliseerde artikelen in de originele verpakking is binnen 30 dagen na de aankoopdatum mogelijk, uitsluitend op vertoon van de kassabon en alleen met terugbetaling van het aankoopbedrag via dezelfde betaalmethode als bij de aankoop.\n\nwww.veermanjuwelen.nl",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "parentName": "STOESSS",
+  "published": true,
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2Fri6GeChCshdbndTKX3D9%2Fri6GeChCshdbndTKX3D9-684a9899-c62e-4586-9a12-be1848cba4b4.png?alt=media&token=71ca7d19-6341-40d2-b6ee-9de14fddc17c",
+  "name": "Veerman Juwelen Receipt ",
+  "slug": "Veerman-Juwelen-Receipt",
+  "id": "ri6GeChCshdbndTKX3D9"
+}

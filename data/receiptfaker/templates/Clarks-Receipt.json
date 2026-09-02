@@ -1,0 +1,84 @@
+{
+  "currency": "",
+  "isParent": true,
+  "textColor": "#101828",
+  "parentName": "Office Depot",
+  "createdAt": "$D2026-06-20T17:56:57.200Z",
+  "description": "This receipt is issued by Clarks and identifies the location as The Clarks Shop, 260 Oxford Street, London, W1C 1DN. The header contains the Clarks logo, store address, telephone number, and assistant identifier (Assistant No. 337). The receipt includes POS transaction metadata such as a product reference code, transaction reference sequence, and a precise transaction timestamp. The financial section contains a subtotal and final total, followed by a cash-payment summary showing the amount tendered and change returned. Additional receipt metadata includes a customer-facing online shopping message directing customers to the company's website and transaction-control numbers used for retail record keeping. The overall layout is representative of a United Kingdom footwear retail receipt, combining store identification, staff tracking, payment reconciliation, transaction controls, and customer-service messaging within a compact retail POS receipt format.",
+  "numberFormat": "LEFT",
+  "backgroundCrumpled": false,
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "fontType": "MERCHANT_COPY",
+  "backgroundType": "CRUMPLED_1",
+  "imageUrl": "",
+  "name": "Clarks Receipt",
+  "slug": "Clarks-Receipt",
+  "sections": [
+    {
+      "id": "ed60a9c9-43b1-4c88-a7cd-cfa80839953f",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6b52b8fb-54b1-43be-9995-3e1b35507f42-image%20(8).jpg?alt=media&token=478071fc-40b8-48be-ab1e-6e61cd2a9390",
+      "size": 242,
+      "businessDetails": "\nThe Clarks Shop\n260 Oxford Street\nLondon\nWestminster\nW1C 1DN\nTel: 0844 499 3257\nAssistant No. 337 - Nirvana",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "fd029bf3-5ef4-4f60-834e-05fbb2a29e6c",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "\n\nDesert Trek Tan Leather",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "203388296080",
+          "total": "65.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nSubtotal",
+          "total": "\n\n£65.00"
+        },
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": "£65.00"
+        },
+        {
+          "quantity": "",
+          "description": "\n\nCash",
+          "total": "\n\n£70.00"
+        },
+        {
+          "quantity": "",
+          "description": "Cash Change",
+          "total": "£5.00"
+        }
+      ],
+      "totalDivider": false,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "5c32eb01-8a0f-4197-90e1-8bab969cf1c4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n\n253543 03257 337 05 17/10/10 16:23:25\n\nShop online at www.clarks.co.uk\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "published": true,
+  "id": "8XsO9E9YcNAdQToc0oTe"
+}

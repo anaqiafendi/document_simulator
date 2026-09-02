@@ -1,0 +1,139 @@
+{
+  "createdBy": "y2TZ5a0W55OLP0q96NHpoSWlBY22",
+  "name": "Kinney Drugs Receipt",
+  "description": "This receipt is a pharmacy and retail transaction issued by Kinney Drugs at its Essex Junction, Vermont location, including store identification, address, and contact number. It contains a timestamped transaction record with register and cashier identifiers. The receipt presents a structured financial summary with subtotal, tax, and total amount, along with item count and discount information. It concludes with promotional messaging related to rewards programs and customer engagement, reflecting a standard U.S. pharmacy POS receipt format.",
+  "slug": "Kinney-Drugs-Receipt",
+  "createdAt": "$D2026-04-11T14:30:11.946Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "f9062402-8f14-4eb9-ae06-d5b4f985f578",
+      "type": "HEADER",
+      "alignment": "CENTER",
+      "logo": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/logos%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F6216b3d8-7795-42ad-8f56-85d1fd758623-image.jpg?alt=media&token=8a58d8c2-9b67-4fc1-be53-2e3a0aa911b8",
+      "size": 222,
+      "businessDetails": "\nKINNEY DRUGS, INC.\n82 JUNCTION STREET\nESSEX, NY\n802-078-5361\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "10baa06d-f558-466b-b80b-6a38fe3157c4",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\n10/31/25          11:11  05452\n",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "e28a7a1a-33fe-499e-95cd-b8816837f566",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "MILKY WAY FS",
+          "total": "$$5.49 F"
+        },
+        {
+          "quantity": "",
+          "description": "Coupon: 0000002493",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Promotion as of discount",
+          "total": "-$2.45"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "90c8f020-ca09-471b-a41d-57051ca32113",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Item Subtotal",
+          "total": "$$4.00"
+        },
+        {
+          "quantity": "",
+          "description": "Subtotal",
+          "total": "$$4.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "275f0a19-62c1-4ba7-beee-d81ce891731a",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "",
+          "description": "Total",
+          "total": ""
+        },
+        {
+          "quantity": "",
+          "description": "Cash",
+          "total": "$$4.00"
+        },
+        {
+          "quantity": "",
+          "description": "Balance",
+          "total": "$$4.00"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "",
+      "totalText": "",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "eb290ddc-ef35-4c2a-8da5-25ca76ecb6c3",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Item count: 1",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "c9070c35-3611-4a95-972f-b86f1feb0fd6",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "\nExp Date a Card and\nSecure and Quick with\nKinney Drugs\nWe Thank You\n",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2Fy2TZ5a0W55OLP0q96NHpoSWlBY22%2F7pp2k3WjLSrDT1vplFPY%2F7pp2k3WjLSrDT1vplFPY-a9b93107-aef2-4244-bad2-001e8fb1f67b.png?alt=media&token=827f28fe-2240-4060-9c76-2cc1452405f4",
+  "published": true,
+  "id": "7pp2k3WjLSrDT1vplFPY"
+}

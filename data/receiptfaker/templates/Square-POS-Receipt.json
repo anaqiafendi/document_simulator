@@ -1,0 +1,131 @@
+{
+  "createdBy": "wDKu8JY53wfFEjuzr9XcL7WIDRx1",
+  "name": "Square POS Receipt",
+  "slug": "Square-POS-Receipt",
+  "createdAt": "$D2025-09-30T10:59:32.437Z",
+  "isParent": true,
+  "backgroundCrumpled": false,
+  "backgroundType": "CRUMPLED_1",
+  "currency": "$$",
+  "textColor": "#101828",
+  "numberFormat": "LEFT",
+  "fontType": "MERCHANT_COPY",
+  "sections": [
+    {
+      "id": "85081965-1468-4a5a-90ab-98b87794ddf1",
+      "type": "HEADER",
+      "alignment": "LEFT",
+      "logo": "",
+      "size": 149,
+      "businessDetails": "Saffron & Sage\n834576043",
+      "bottomDivider": false,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    },
+    {
+      "id": "4e5f9243-f447-413b-bd40-62349de5bdb8",
+      "type": "DATE",
+      "alignment": "LEFT",
+      "date": "30 September 2025\n01:55",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES"
+    },
+    {
+      "id": "d92c6c5e-d4f7-4ca4-9bc8-d9cdccd557ca",
+      "type": "CUSTOM",
+      "alignment": "LEFT",
+      "custom": "Receipt: R75e",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "808295c1-039b-4316-9f91-771d313e0635",
+      "type": "CUSTOM",
+      "alignment": "CENTER",
+      "custom": "TAKEAWAY",
+      "bottomDivider": true,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "0439df33-eb76-40cf-b816-3470a2173c28",
+      "type": "ITEMS",
+      "items": [
+        {
+          "quantity": "2",
+          "description": "Grilled Salmon Salad",
+          "total": "37.00"
+        },
+        {
+          "quantity": "1",
+          "description": "Truffle Mushroom Risotto",
+          "total": "22.00"
+        },
+        {
+          "quantity": "3",
+          "description": "Classic Lemon Tart",
+          "total": "22.50"
+        }
+      ],
+      "totalDivider": true,
+      "totalDividerType": "DASHES",
+      "totalLines": [],
+      "total": "88.23",
+      "totalText": "Total",
+      "bottomDivider": false,
+      "bottomDividerType": "DASHES",
+      "date": "$undefined"
+    },
+    {
+      "id": "f5da5609-342d-4ae0-bd22-b28f64990293",
+      "type": "PAYMENT",
+      "isCash": true,
+      "cashFields": [
+        {
+          "title": "Cash",
+          "value": "88.23"
+        },
+        {
+          "title": "Change",
+          "value": "0.00"
+        }
+      ],
+      "cardFields": [
+        {
+          "title": "Card number",
+          "value": "**** **** **** 4922"
+        },
+        {
+          "title": "Card type",
+          "value": "Debit"
+        },
+        {
+          "title": "Card entry",
+          "value": "Chip"
+        },
+        {
+          "title": "Date/time",
+          "value": "11/20/2019 11:09 AM"
+        },
+        {
+          "title": "Reference #",
+          "value": "62845289260246240685C"
+        },
+        {
+          "title": "Status",
+          "value": "APPROVED"
+        }
+      ],
+      "bottomDivider": true,
+      "bottomDividerType": "EMPTY",
+      "date": "$undefined"
+    }
+  ],
+  "imageUrl": "https://firebasestorage.googleapis.com/v0/b/receipt-faker-bbe70.firebasestorage.app/o/images%2FwDKu8JY53wfFEjuzr9XcL7WIDRx1%2F05pojoQr6GTNCKhh4fr4%2F05pojoQr6GTNCKhh4fr4-31923169-33bc-4fb9-bfa4-0293cea94340.png?alt=media&token=f0256c88-3f18-41dc-9fc5-c6b15fa99cc9",
+  "description": "Need a Square POS receipt? Easily create a detailed point-of-sale record with our free tool. Add business info, items sold, prices, tax, and payment—perfect for customer receipts, accounting, or expense tracking.",
+  "published": true,
+  "metatitle": "Square POS Receipt",
+  "metadesc": "authentic Square transaction receipts including business branding, purchased items, pricing details, and payment processing",
+  "id": "05pojoQr6GTNCKhh4fr4"
+}
